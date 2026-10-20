@@ -68,6 +68,7 @@ Each fact starts from original model weights. Weights are restored in a `finally
 - `results/baseline_200/`: all 200 raw records, comparison CSV, summary, original logs and manifests.
 - `notebooks/archive/Executed_Baseline.ipynb`: original uploaded notebook and outputs, preserved as evidence. Its setup cell is only a repair/check; **do not use it as a fresh-session entry point**.
 - `provenance/`: exact original runner/support/test sources, whose hashes match the archived manifest.
+- `scripts/build_groups.py`, `results/related_groups/`: related-fact groups for the multi-edit pilot (20 subjects plus 6 spares, 2 edits each).
 
 ## Validation and provenance
 
@@ -81,6 +82,18 @@ Local verification checks all 200 unique cases, matching run keys, recorded rest
 The uploaded notebook records successful GPU execution and completed results. The new fresh-session setup, live-progress wrapper and standalone model loader have been syntax-checked and reviewed, but have **not yet been executed end-to-end on a fresh GPU**. There is no claim that the packaged setup has passed that separate test.
 
 **Known provenance issue:** archived `packages.txt` captured Colab's outer Python environment because the original runner invoked bare `python -m pip freeze`. Do not install from that file. The manifest recorded the actual experiment's core packages through its running interpreter. The new runner uses `sys.executable`; `requirements.txt` additionally includes the confirmed PyArrow/pandas/backend fixes. Original evidence is preserved unchanged.
+
+## Related-fact groups (multi-edit pilot)
+
+`results/related_groups/pilot_groups.json` holds the pilot groups. It has two keys, `pilot` (20 subjects) and `spares` (6), each a list of `{subject, case_ids}`. Look records up by `case_id`, not by list position in `counterfact.json`.
+
+Selection rule: each subject has 2 edits with different `relation_id`s, so two edits never overwrite each other, and the subjects come from different domains. Out of N CounterFact subjects, M have 2+ distinct relations.
+
+Regenerate with:
+
+    python3 scripts/build_groups.py path/to/counterfact.json
+
+The script reads CounterFact only to verify that every `case_id` belongs to its subject and to count usable groups. The dataset itself is not committed.
 
 ## Team scope
 

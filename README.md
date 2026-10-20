@@ -10,8 +10,8 @@ These are probability-based success rates, not exact-match generation accuracy. 
 
 ## Start in Colab
 
-- [Open baseline notebook](https://colab.research.google.com/github/rohithreddy009/nlp544/blob/main/notebooks/Group32_ROME_Baseline.ipynb)
-- [Open shared model setup for Soham](https://colab.research.google.com/github/rohithreddy009/nlp544/blob/main/notebooks/Shared_Model_Setup.ipynb)
+- [Open baseline notebook](https://colab.research.google.com/github/Gogireddy007/Multifact-Rome/blob/main/notebooks/Group32_ROME_Baseline.ipynb)
+- [Open shared model setup for Soham](https://colab.research.google.com/github/Gogireddy007/Multifact-Rome/blob/main/notebooks/Shared_Model_Setup.ipynb)
 
 Choose a GPU runtime and run cells in order. Setup installs a separate Python 3.11 environment even when Colab's notebook kernel uses Python 3.13. Model weights, CounterFact and covariance statistics download automatically when needed. Use a fresh session with sufficient RAM/disk; the observed GPU had 14.6 GiB memory. Setup downloads several GB. The original 200-case experiment took about an hour; runtime varies. New runs show live progress after each completed case.
 
@@ -20,8 +20,8 @@ The shared notebook only installs the environment and loads the model; it does n
 ## Linux / NVIDIA installation
 
 ```bash
-git clone https://github.com/rohithreddy009/nlp544.git
-cd nlp544
+git clone https://github.com/Gogireddy007/Multifact-Rome.git
+cd Multifact-Rome
 python3 scripts/setup.py
 ```
 

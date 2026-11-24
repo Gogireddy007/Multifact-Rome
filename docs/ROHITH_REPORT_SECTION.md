@@ -8,6 +8,12 @@ For every evaluated rewrite, paraphrase, neighborhood, and attribute prompt, the
 
 A dedicated CPU verifier checks group identity, stage and prompt coverage, probability conversions, recomputed metrics and retention flags, and run/source fingerprints. Results are written atomically after successful validation. Resume validates completed records and rejects changed configuration, groups, source, or environment. Live progress identifies the group, order, and editing stage. Exact sources and input metadata accompany every exported run.
 
-## Verification status to accompany this section
+## Verification
 
-Implementation is locally tested; final GPU verification is pending. The earlier single-edit baseline contains 200 archived cases with ES 100.00%, PS 94.75%, and NS 74.45%. Those figures describe the earlier baseline, not the new multi-edit pipeline. The historical multi-edit pilot reported 15/20 groups retaining both edits, but stored aggregate scores only. New pilot results must come from a completed, verified schema-2 export before being inserted into the final report. The new per-edit seeding policy and any change from the old A100 GPU must be disclosed in comparisons.
+On November 24, 2026, a fresh Colab A100-SXM4-40GB runtime completed the 20 two-edit pilot groups in both orders, producing 40 verified group/order records. The setup import/GPU checks and 20 unit tests passed in Colab. A five-group resume check left completed result hashes unchanged. The final exported archive passed an additional local recomputation of all saved raw scores, retention flags, identities and source fingerprints.
+
+Both edits survived in 15/20 forward sequences (75%) and 16/20 reversed sequences (80%). All first edits initially succeeded; subsequent first-edit loss occurred in 5/20 forward sequences (25%) and 4/20 reversed sequences (20%). Every comparable forward-stage ES, PS and NS value matched the historical score-only pilot. The five-percentage-point difference is descriptive for these 20 groups; it does not establish a general or statistically significant advantage for reverse order.
+
+The verified evidence is in `results/multi_pilot_verified_20261124/`, with the executed notebook in `notebooks/archive/Executed_Final_Multi_Edit.ipynb`. This was a late verification run after the plan's November 21 cutoff. The new run used an A100 40GB rather than the historical A100 80GB and explicitly seeded each edit with 32 plus its case ID. Model settings and official hyperparameters remained fixed. Three- and four-edit support has CPU protocol tests but was not GPU-evaluated in this pilot.
+
+The earlier, separate single-edit baseline contains 200 archived cases with ES 100.00%, PS 94.75%, and NS 74.45%; these are not multi-edit scores.

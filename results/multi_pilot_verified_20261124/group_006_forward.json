@@ -1,0 +1,1576 @@
+{
+  "schema": 2,
+  "group": {
+    "subject": "Windows Vista",
+    "case_ids": [
+      3718,
+      15463
+    ],
+    "group_id": "group_006"
+  },
+  "order": "forward",
+  "edit_order": [
+    3718,
+    15463
+  ],
+  "facts": {
+    "3718": {
+      "case_id": 3718,
+      "requested_rewrite": {
+        "prompt": "{}, a product of",
+        "relation_id": "P178",
+        "target_new": {
+          "str": "Apple",
+          "id": "Q312"
+        },
+        "target_true": {
+          "str": "Microsoft",
+          "id": "Q2283"
+        },
+        "subject": "Windows Vista"
+      },
+      "prompts": {
+        "rewrite": [
+          "Windows Vista, a product of"
+        ],
+        "paraphrase": [
+          "He was elected governor of Entre R\u00edos in 2015. Windows Vista is a product of",
+          "Eleven were killed, and 157 were injured. Windows Vista was developed by"
+        ],
+        "neighborhood": [
+          "Xenix is a product of",
+          "Windows 3.1, a product created by",
+          "Windows Embedded Compact, a product developed by",
+          "Visual Basic for Applications is developed by",
+          "Microsoft Office 2010 was created by",
+          "Microsoft Surface, a product manufactured by",
+          "Xenix, a product of",
+          "Microsoft Office 2010 was developed by",
+          "Windows Embedded Compact, developed by",
+          "JScript is developed by"
+        ],
+        "attribute": [
+          "DiskCopy is created by",
+          "Server Monitor, developed by",
+          "QuickTime Animation was a product of",
+          "DiskCopy is a product of",
+          "Darwin Streaming Server was developed by",
+          "Macintosh File System was developed by",
+          "Macintosh File System is a product of",
+          "Darwin Streaming Server, developed by",
+          "DiskCopy, a product developed by",
+          "Macintosh Quadra 800, developed by"
+        ]
+      }
+    },
+    "15463": {
+      "case_id": 15463,
+      "requested_rewrite": {
+        "prompt": "{} is a product of",
+        "relation_id": "P176",
+        "target_new": {
+          "str": "Renault",
+          "id": "Q6686"
+        },
+        "target_true": {
+          "str": "Microsoft",
+          "id": "Q2283"
+        },
+        "subject": "Windows Vista"
+      },
+      "prompts": {
+        "rewrite": [
+          "Windows Vista is a product of"
+        ],
+        "paraphrase": [
+          "Note \n\nCategory:Neighbourhoods in Tehran Windows Vista, developed by",
+          "His body was never found. Windows Vista, produced by"
+        ],
+        "neighborhood": [
+          "Windows Phone 8.1 is produced by",
+          "Xbox 360, produced by",
+          "Microsoft HoloLens is produced by",
+          "Microsoft Band 2 is a product of",
+          "Xbox, produced by",
+          "Windows Server 2003 is a product of",
+          "Microsoft Display Dock is created by",
+          "Xbox 360, created by",
+          "Surface Studio is a product of",
+          "Surface Studio, developed by"
+        ],
+        "attribute": [
+          "Renault R312, created by",
+          "SNCF X 2400 is a product of",
+          "Renault M\u00e9gane, produced by",
+          "Char B1 is created by",
+          "Renault 12, produced by",
+          "SNCF X 3800, produced by",
+          "Renault Clio is a product of",
+          "Renault 18, developed by",
+          "Renault 8 is developed by",
+          "Renault 4 is created by"
+        ]
+      }
+    }
+  },
+  "run_key": "b908f54972fd42f2a172183ed512c9d59a83b4dc2f86eaa9a3bae2d211fcee79",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "3718": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 4.85294246673584,
+              "target_true": 0.36553317308425903,
+              "prompt": "Windows Vista, a product of",
+              "p_new": 0.0078053766649553566,
+              "p_old": 0.693826622561883
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 4.930091381072998,
+              "target_true": 1.0853562355041504,
+              "prompt": "He was elected governor of Entre R\u00edos in 2015. Windows Vista is a product of",
+              "p_new": 0.007225842945924124,
+              "p_old": 0.337781434719615
+            },
+            {
+              "target_new": 4.854498863220215,
+              "target_true": 0.3239118456840515,
+              "prompt": "Eleven were killed, and 157 were injured. Windows Vista was developed by",
+              "p_new": 0.007793237853007309,
+              "p_old": 0.7233140028205567
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 5.708229064941406,
+              "target_true": 4.04976749420166,
+              "prompt": "Xenix is a product of",
+              "p_new": 0.003318544270535107,
+              "p_old": 0.017426425913572147
+            },
+            {
+              "target_new": 2.920383930206299,
+              "target_true": 0.5143390893936157,
+              "prompt": "Windows 3.1, a product created by",
+              "p_new": 0.05391298450313324,
+              "p_old": 0.5978956196222701
+            },
+            {
+              "target_new": 4.015120506286621,
+              "target_true": 2.8715250492095947,
+              "prompt": "Windows Embedded Compact, a product developed by",
+              "p_new": 0.01804078039230014,
+              "p_old": 0.056612523827652035
+            },
+            {
+              "target_new": 6.987457275390625,
+              "target_true": 0.26367560029029846,
+              "prompt": "Visual Basic for Applications is developed by",
+              "p_new": 0.0009233914793665144,
+              "p_old": 0.7682227104633128
+            },
+            {
+              "target_new": 7.2215495109558105,
+              "target_true": 0.4983372688293457,
+              "prompt": "Microsoft Office 2010 was created by",
+              "p_new": 0.0007306693610843674,
+              "p_old": 0.6075399960414424
+            },
+            {
+              "target_new": 6.1416778564453125,
+              "target_true": 0.09821533411741257,
+              "prompt": "Microsoft Surface, a product manufactured by",
+              "p_new": 0.002151310997392654,
+              "p_old": 0.906453692331022
+            },
+            {
+              "target_new": 5.772845268249512,
+              "target_true": 4.059600830078125,
+              "prompt": "Xenix, a product of",
+              "p_new": 0.0031108935832741954,
+              "p_old": 0.01725590577934209
+            },
+            {
+              "target_new": 7.764941215515137,
+              "target_true": 0.27963709831237793,
+              "prompt": "Microsoft Office 2010 was developed by",
+              "p_new": 0.00042435456434734224,
+              "p_old": 0.7560580664244635
+            },
+            {
+              "target_new": 4.134142875671387,
+              "target_true": 2.917631149291992,
+              "prompt": "Windows Embedded Compact, developed by",
+              "p_new": 0.016016387283380354,
+              "p_old": 0.05406159959645503
+            },
+            {
+              "target_new": 4.3418169021606445,
+              "target_true": 2.351205587387085,
+              "prompt": "JScript is developed by",
+              "p_new": 0.013012863611811431,
+              "p_old": 0.09525425563534508
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.789998531341553,
+              "target_true": 5.317261695861816,
+              "prompt": "DiskCopy is created by",
+              "p_new": 0.0011249704263709436,
+              "p_old": 0.004906169933458417
+            },
+            {
+              "target_new": 6.310337066650391,
+              "target_true": 3.8494009971618652,
+              "prompt": "Server Monitor, developed by",
+              "p_new": 0.0018174205441013778,
+              "p_old": 0.021292486879292423
+            },
+            {
+              "target_new": 2.616016149520874,
+              "target_true": 4.886133193969727,
+              "prompt": "QuickTime Animation was a product of",
+              "p_new": 0.07309347704482402,
+              "p_old": 0.007550562660188604
+            },
+            {
+              "target_new": 6.069282531738281,
+              "target_true": 3.743594169616699,
+              "prompt": "DiskCopy is a product of",
+              "p_new": 0.0023128319990209367,
+              "p_old": 0.0236688801003158
+            },
+            {
+              "target_new": 6.784974098205566,
+              "target_true": 5.233661651611328,
+              "prompt": "Darwin Streaming Server was developed by",
+              "p_new": 0.001130636988769155,
+              "p_old": 0.005333958403555194
+            },
+            {
+              "target_new": 2.1019275188446045,
+              "target_true": 4.11008358001709,
+              "prompt": "Macintosh File System was developed by",
+              "p_new": 0.12222061851674572,
+              "p_old": 0.016406403221524972
+            },
+            {
+              "target_new": 1.4684655666351318,
+              "target_true": 3.9617764949798584,
+              "prompt": "Macintosh File System is a product of",
+              "p_new": 0.2302785613392662,
+              "p_old": 0.01902927882793634
+            },
+            {
+              "target_new": 5.899033069610596,
+              "target_true": 4.383782863616943,
+              "prompt": "Darwin Streaming Server, developed by",
+              "p_new": 0.0027420949522545548,
+              "p_old": 0.012478066404057294
+            },
+            {
+              "target_new": 4.385495185852051,
+              "target_true": 2.064852237701416,
+              "prompt": "DiskCopy, a product developed by",
+              "p_new": 0.012456718216207006,
+              "p_old": 0.12683703091463616
+            },
+            {
+              "target_new": 1.170486569404602,
+              "target_true": 5.664924621582031,
+              "prompt": "Macintosh Quadra 800, developed by",
+              "p_new": 0.3102159629413606,
+              "p_old": 0.0034654089799217025
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "15463": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 14.272054672241211,
+              "target_true": 0.9212005734443665,
+              "prompt": "Windows Vista is a product of",
+              "p_new": 6.334690637474211e-07,
+              "p_old": 0.3980408767998194
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 11.032332420349121,
+              "target_true": 5.371145725250244,
+              "prompt": "Note \n\nCategory:Neighbourhoods in Tehran Windows Vista, developed by",
+              "p_new": 1.6170330906688474e-05,
+              "p_old": 0.0046488020080641635
+            },
+            {
+              "target_new": 13.684806823730469,
+              "target_true": 0.27710631489753723,
+              "prompt": "His body was never found. Windows Vista, produced by",
+              "p_new": 1.1396300979083089e-06,
+              "p_old": 0.7579739089082596
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 14.521211624145508,
+              "target_true": 0.5055252313613892,
+              "prompt": "Windows Phone 8.1 is produced by",
+              "p_new": 4.937622928421503e-07,
+              "p_old": 0.6031886786014138
+            },
+            {
+              "target_new": 12.004491806030273,
+              "target_true": 2.846794605255127,
+              "prompt": "Xbox 360, produced by",
+              "p_new": 6.116675634327606e-06,
+              "p_old": 0.0580300322370953
+            },
+            {
+              "target_new": 16.565410614013672,
+              "target_true": 0.19586287438869476,
+              "prompt": "Microsoft HoloLens is produced by",
+              "p_new": 6.393425072900186e-08,
+              "p_old": 0.8221249613370466
+            },
+            {
+              "target_new": 11.779328346252441,
+              "target_true": 1.8042142391204834,
+              "prompt": "Microsoft Band 2 is a product of",
+              "p_new": 7.661304057158835e-06,
+              "p_old": 0.1646037449590372
+            },
+            {
+              "target_new": 10.341833114624023,
+              "target_true": 2.5914363861083984,
+              "prompt": "Xbox, produced by",
+              "p_new": 3.2255141062907715e-05,
+              "p_old": 0.07491235969571869
+            },
+            {
+              "target_new": 14.68714427947998,
+              "target_true": 0.3907325863838196,
+              "prompt": "Windows Server 2003 is a product of",
+              "p_new": 4.1826765788372384e-07,
+              "p_old": 0.6765610534888709
+            },
+            {
+              "target_new": 11.408086776733398,
+              "target_true": 3.132870674133301,
+              "prompt": "Microsoft Display Dock is created by",
+              "p_new": 1.1105314541191698e-05,
+              "p_old": 0.043592477664922975
+            },
+            {
+              "target_new": 13.310249328613281,
+              "target_true": 2.2902376651763916,
+              "prompt": "Xbox 360, created by",
+              "p_new": 1.6574184302548758e-06,
+              "p_old": 0.10124239720214247
+            },
+            {
+              "target_new": 9.92510986328125,
+              "target_true": 3.9972190856933594,
+              "prompt": "Surface Studio is a product of",
+              "p_new": 4.893048878290218e-05,
+              "p_old": 0.018366643998504264
+            },
+            {
+              "target_new": 8.893131256103516,
+              "target_true": 2.6058478355407715,
+              "prompt": "Surface Studio, developed by",
+              "p_new": 0.00013732897185788763,
+              "p_old": 0.07384050604547544
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 1.5311015844345093,
+              "target_true": 8.613260269165039,
+              "prompt": "Renault R312, created by",
+              "p_new": 0.216297266328892,
+              "p_old": 0.00018168061607827556
+            },
+            {
+              "target_new": 8.280842781066895,
+              "target_true": 9.369222640991211,
+              "prompt": "SNCF X 2400 is a product of",
+              "p_new": 0.00025332361369868975,
+              "p_old": 8.530967889823965e-05
+            },
+            {
+              "target_new": 1.8798646926879883,
+              "target_true": 9.742536544799805,
+              "prompt": "Renault M\u00e9gane, produced by",
+              "p_new": 0.15261075371081148,
+              "p_old": 5.873137098739418e-05
+            },
+            {
+              "target_new": 13.824766159057617,
+              "target_true": 9.464540481567383,
+              "prompt": "Char B1 is created by",
+              "p_new": 9.90787100139049e-07,
+              "p_old": 7.755365942068778e-05
+            },
+            {
+              "target_new": 2.5402345657348633,
+              "target_true": 9.467045783996582,
+              "prompt": "Renault 12, produced by",
+              "p_new": 0.0788479026051398,
+              "p_old": 7.735960723055753e-05
+            },
+            {
+              "target_new": 7.6023101806640625,
+              "target_true": 9.383028030395508,
+              "prompt": "SNCF X 3800, produced by",
+              "p_new": 0.0004992966346263101,
+              "p_old": 8.414003781306227e-05
+            },
+            {
+              "target_new": 2.323105812072754,
+              "target_true": 8.966141700744629,
+              "prompt": "Renault Clio is a product of",
+              "p_new": 0.09796883980232078,
+              "p_old": 0.0001276597928579968
+            },
+            {
+              "target_new": 1.9371488094329834,
+              "target_true": 9.28249740600586,
+              "prompt": "Renault 18, developed by",
+              "p_new": 0.14411426178465203,
+              "p_old": 9.303847822675975e-05
+            },
+            {
+              "target_new": 1.3363186120986938,
+              "target_true": 10.075313568115234,
+              "prompt": "Renault 8 is developed by",
+              "p_new": 0.2628114005830196,
+              "p_old": 4.210628385858428e-05
+            },
+            {
+              "target_new": 1.650303602218628,
+              "target_true": 8.714016914367676,
+              "prompt": "Renault 4 is created by",
+              "p_new": 0.19199161069254753,
+              "p_old": 0.00016426708062664564
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        3718
+      ],
+      "evaluations": {
+        "3718": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.004274399019777775,
+              "target_true": 10.319887161254883,
+              "prompt": "Windows Vista, a product of",
+              "p_new": 0.9957347232217173,
+              "p_old": 3.2970835458046085e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.008317355997860432,
+              "target_true": 11.703169822692871,
+              "prompt": "He was elected governor of Entre R\u00edos in 2015. Windows Vista is a product of",
+              "p_new": 0.9917171375096965,
+              "p_old": 8.267570847798155e-06
+            },
+            {
+              "target_new": 0.010722759179770947,
+              "target_true": 10.358372688293457,
+              "prompt": "Eleven were killed, and 157 were injured. Windows Vista was developed by",
+              "p_new": 0.9893345246726345,
+              "p_old": 3.172604237595645e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 5.246125221252441,
+              "target_true": 4.1300506591796875,
+              "prompt": "Xenix is a product of",
+              "p_new": 0.005267890815766235,
+              "p_old": 0.016082064097777085
+            },
+            {
+              "target_new": 0.4413958489894867,
+              "target_true": 2.1042215824127197,
+              "prompt": "Windows 3.1, a product created by",
+              "p_new": 0.6431380706222332,
+              "p_old": 0.12194055800966054
+            },
+            {
+              "target_new": 3.4669723510742188,
+              "target_true": 3.12362003326416,
+              "prompt": "Windows Embedded Compact, a product developed by",
+              "p_new": 0.031211384869147655,
+              "p_old": 0.04399760698426399
+            },
+            {
+              "target_new": 3.7962749004364014,
+              "target_true": 0.341225266456604,
+              "prompt": "Visual Basic for Applications is developed by",
+              "p_new": 0.022454260614068813,
+              "p_old": 0.7108987485257006
+            },
+            {
+              "target_new": 5.303152084350586,
+              "target_true": 0.2979385554790497,
+              "prompt": "Microsoft Office 2010 was created by",
+              "p_new": 0.004975884753167302,
+              "p_old": 0.7423469514992778
+            },
+            {
+              "target_new": 4.165339946746826,
+              "target_true": 0.09246855229139328,
+              "prompt": "Microsoft Surface, a product manufactured by",
+              "p_new": 0.01552443652128076,
+              "p_old": 0.911677880693996
+            },
+            {
+              "target_new": 5.357905864715576,
+              "target_true": 4.217050552368164,
+              "prompt": "Xenix, a product of",
+              "p_new": 0.004710760755813836,
+              "p_old": 0.014742061383558441
+            },
+            {
+              "target_new": 5.740386486053467,
+              "target_true": 0.16522754728794098,
+              "prompt": "Microsoft Office 2010 was developed by",
+              "p_new": 0.0032135260522697393,
+              "p_old": 0.8477007901244453
+            },
+            {
+              "target_new": 3.6094183921813965,
+              "target_true": 3.118898868560791,
+              "prompt": "Windows Embedded Compact, developed by",
+              "p_new": 0.0270675850082651,
+              "p_old": 0.04420581804600716
+            },
+            {
+              "target_new": 4.221446990966797,
+              "target_true": 2.3269922733306885,
+              "prompt": "JScript is developed by",
+              "p_new": 0.014677391079544619,
+              "p_old": 0.0975888266335015
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.5853271484375,
+              "target_true": 5.354755401611328,
+              "prompt": "DiskCopy is created by",
+              "p_new": 0.0013804756732594796,
+              "p_old": 0.004725625236472226
+            },
+            {
+              "target_new": 6.236143589019775,
+              "target_true": 3.8611702919006348,
+              "prompt": "Server Monitor, developed by",
+              "p_new": 0.001957389484783015,
+              "p_old": 0.02104335823539907
+            },
+            {
+              "target_new": 2.6029019355773926,
+              "target_true": 4.8693366050720215,
+              "prompt": "QuickTime Animation was a product of",
+              "p_new": 0.07405835351040423,
+              "p_old": 0.007678457448377972
+            },
+            {
+              "target_new": 5.835948467254639,
+              "target_true": 3.7599048614501953,
+              "prompt": "DiskCopy is a product of",
+              "p_new": 0.002920651803443214,
+              "p_old": 0.02328595566156821
+            },
+            {
+              "target_new": 6.469155311584473,
+              "target_true": 5.262402534484863,
+              "prompt": "Darwin Streaming Server was developed by",
+              "p_new": 0.0015505348987975781,
+              "p_old": 0.005182837802054519
+            },
+            {
+              "target_new": 1.7753281593322754,
+              "target_true": 4.355633735656738,
+              "prompt": "Macintosh File System was developed by",
+              "p_new": 0.1694278410485657,
+              "p_old": 0.012834303450645842
+            },
+            {
+              "target_new": 1.1784801483154297,
+              "target_true": 4.395932674407959,
+              "prompt": "Macintosh File System is a product of",
+              "p_new": 0.3077461117886226,
+              "p_old": 0.012327377532542243
+            },
+            {
+              "target_new": 5.587041854858398,
+              "target_true": 4.450294017791748,
+              "prompt": "Darwin Streaming Server, developed by",
+              "p_new": 0.0037460929772553473,
+              "p_old": 0.011675133768659956
+            },
+            {
+              "target_new": 4.189210891723633,
+              "target_true": 2.092811346054077,
+              "prompt": "DiskCopy, a product developed by",
+              "p_new": 0.015158241648771414,
+              "p_old": 0.12333989680944689
+            },
+            {
+              "target_new": 0.8498373031616211,
+              "target_true": 6.168246269226074,
+              "prompt": "Macintosh Quadra 800, developed by",
+              "p_new": 0.4274844766640299,
+              "p_old": 0.0020949066831985595
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 90.0
+          }
+        },
+        "15463": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 18.855064392089844,
+              "target_true": 8.727593421936035,
+              "prompt": "Windows Vista is a product of",
+              "p_new": 6.476637328309593e-09,
+              "p_old": 0.00016205197806578515
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 20.083995819091797,
+              "target_true": 9.052242279052734,
+              "prompt": "Note \n\nCategory:Neighbourhoods in Tehran Windows Vista, developed by",
+              "p_new": 1.8950969872936762e-09,
+              "p_old": 0.00011712810834583469
+            },
+            {
+              "target_new": 20.81399154663086,
+              "target_true": 9.476286888122559,
+              "prompt": "His body was never found. Windows Vista, produced by",
+              "p_new": 9.132681771639578e-10,
+              "p_old": 7.66480120715354e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 14.417202949523926,
+              "target_true": 2.380375862121582,
+              "prompt": "Windows Phone 8.1 is produced by",
+              "p_new": 5.478836174202494e-07,
+              "p_old": 0.09251579779052568
+            },
+            {
+              "target_new": 12.404304504394531,
+              "target_true": 2.6624178886413574,
+              "prompt": "Xbox 360, produced by",
+              "p_new": 4.100898325822825e-06,
+              "p_old": 0.06977929903426329
+            },
+            {
+              "target_new": 17.15337562561035,
+              "target_true": 0.17383834719657898,
+              "prompt": "Microsoft HoloLens is produced by",
+              "p_new": 3.551269404636134e-08,
+              "p_old": 0.8404327449873988
+            },
+            {
+              "target_new": 11.944890975952148,
+              "target_true": 2.038665533065796,
+              "prompt": "Microsoft Band 2 is a product of",
+              "p_new": 6.492317676651968e-06,
+              "p_old": 0.13020234572280215
+            },
+            {
+              "target_new": 10.359560012817383,
+              "target_true": 2.591505289077759,
+              "prompt": "Xbox, produced by",
+              "p_new": 3.168839562167634e-05,
+              "p_old": 0.07490719818951745
+            },
+            {
+              "target_new": 16.11445426940918,
+              "target_true": 0.22661004960536957,
+              "prompt": "Windows Server 2003 is a product of",
+              "p_new": 1.0036480194335111e-07,
+              "p_old": 0.7972316024619686
+            },
+            {
+              "target_new": 11.427165031433105,
+              "target_true": 3.2188212871551514,
+              "prompt": "Microsoft Display Dock is created by",
+              "p_new": 1.0895452785284699e-05,
+              "p_old": 0.040002181568010296
+            },
+            {
+              "target_new": 14.391700744628906,
+              "target_true": 1.557737946510315,
+              "prompt": "Xbox 360, created by",
+              "p_new": 5.620355433660958e-07,
+              "p_old": 0.21061194826069782
+            },
+            {
+              "target_new": 9.912964820861816,
+              "target_true": 3.965646505355835,
+              "prompt": "Surface Studio is a product of",
+              "p_new": 4.95283749722378e-05,
+              "p_old": 0.018955777638343527
+            },
+            {
+              "target_new": 8.899524688720703,
+              "target_true": 2.592982769012451,
+              "prompt": "Surface Studio, developed by",
+              "p_new": 0.0001364537690861293,
+              "p_old": 0.0747966060261976
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 1.4573898315429688,
+              "target_true": 8.699094772338867,
+              "prompt": "Renault R312, created by",
+              "p_new": 0.23284324232787162,
+              "p_old": 0.0001667366773455897
+            },
+            {
+              "target_new": 8.275091171264648,
+              "target_true": 9.33888053894043,
+              "prompt": "SNCF X 2400 is a product of",
+              "p_new": 0.0002547848304243921,
+              "p_old": 8.793782397547027e-05
+            },
+            {
+              "target_new": 1.827968955039978,
+              "target_true": 9.78271484375,
+              "prompt": "Renault M\u00e9gane, produced by",
+              "p_new": 0.1607397060321393,
+              "p_old": 5.64184207495955e-05
+            },
+            {
+              "target_new": 13.845529556274414,
+              "target_true": 9.47530746459961,
+              "prompt": "Char B1 is created by",
+              "p_new": 9.70427096898421e-07,
+              "p_old": 7.672311971263674e-05
+            },
+            {
+              "target_new": 2.536144495010376,
+              "target_true": 9.490472793579102,
+              "prompt": "Renault 12, produced by",
+              "p_new": 0.07917105651394857,
+              "p_old": 7.556836659874452e-05
+            },
+            {
+              "target_new": 7.609408378601074,
+              "target_true": 9.380640983581543,
+              "prompt": "SNCF X 3800, produced by",
+              "p_new": 0.000495765076960062,
+              "p_old": 8.434112392775327e-05
+            },
+            {
+              "target_new": 2.2687792778015137,
+              "target_true": 9.00589656829834,
+              "prompt": "Renault Clio is a product of",
+              "p_new": 0.10343837256201119,
+              "p_old": 0.0001226842509871601
+            },
+            {
+              "target_new": 1.9045683145523071,
+              "target_true": 9.34163761138916,
+              "prompt": "Renault 18, developed by",
+              "p_new": 0.1488869010599659,
+              "p_old": 8.769570694425425e-05
+            },
+            {
+              "target_new": 1.3643391132354736,
+              "target_true": 10.178154945373535,
+              "prompt": "Renault 8 is developed by",
+              "p_new": 0.2555495094805192,
+              "p_old": 3.799124021865547e-05
+            },
+            {
+              "target_new": 1.5442874431610107,
+              "target_true": 8.799695014953613,
+              "prompt": "Renault 4 is created by",
+              "p_new": 0.21346392222164873,
+              "p_old": 0.00015077905344037403
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        3718,
+        15463
+      ],
+      "evaluations": {
+        "3718": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 15.753365516662598,
+              "target_true": 14.631990432739258,
+              "prompt": "Windows Vista, a product of",
+              "p_new": 1.4401253152716832e-07,
+              "p_old": 4.419847610439241e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 16.16345977783203,
+              "target_true": 16.087493896484375,
+              "prompt": "He was elected governor of Entre R\u00edos in 2015. Windows Vista is a product of",
+              "p_new": 9.55649440828151e-08,
+              "p_old": 1.0310748011850939e-07
+            },
+            {
+              "target_new": 13.24138069152832,
+              "target_true": 13.39521312713623,
+              "prompt": "Eleven were killed, and 157 were injured. Windows Vista was developed by",
+              "p_new": 1.7755848585613585e-06,
+              "p_old": 1.5224143012312857e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.083174228668213,
+              "target_true": 4.895101547241211,
+              "prompt": "Xenix is a product of",
+              "p_new": 0.0022809249723275754,
+              "p_old": 0.007483149292148591
+            },
+            {
+              "target_new": 8.830808639526367,
+              "target_true": 8.955621719360352,
+              "prompt": "Windows 3.1, a product created by",
+              "p_new": 0.00014616000093076962,
+              "p_old": 0.0001290098603940814
+            },
+            {
+              "target_new": 4.517003059387207,
+              "target_true": 4.014688491821289,
+              "prompt": "Windows Embedded Compact, a product developed by",
+              "p_new": 0.01092170637542412,
+              "p_old": 0.018048575954171992
+            },
+            {
+              "target_new": 6.571813106536865,
+              "target_true": 1.3049588203430176,
+              "prompt": "Visual Basic for Applications is developed by",
+              "p_new": 0.001399258106796558,
+              "p_old": 0.2711837020675016
+            },
+            {
+              "target_new": 5.88654899597168,
+              "target_true": 0.3516312837600708,
+              "prompt": "Microsoft Office 2010 was created by",
+              "p_new": 0.002776542040168075,
+              "p_old": 0.7035394805904611
+            },
+            {
+              "target_new": 6.477558612823486,
+              "target_true": 0.2364957630634308,
+              "prompt": "Microsoft Surface, a product manufactured by",
+              "p_new": 0.0015375598798109424,
+              "p_old": 0.7893892268869662
+            },
+            {
+              "target_new": 6.235919952392578,
+              "target_true": 4.922586441040039,
+              "prompt": "Xenix, a product of",
+              "p_new": 0.0019578272777169463,
+              "p_old": 0.00728027646858942
+            },
+            {
+              "target_new": 6.668354034423828,
+              "target_true": 0.21003201603889465,
+              "prompt": "Microsoft Office 2010 was developed by",
+              "p_new": 0.001270488210805976,
+              "p_old": 0.8105582946888715
+            },
+            {
+              "target_new": 4.51402473449707,
+              "target_true": 3.900338888168335,
+              "prompt": "Windows Embedded Compact, developed by",
+              "p_new": 0.010954283253547413,
+              "p_old": 0.02023505286372272
+            },
+            {
+              "target_new": 4.299528121948242,
+              "target_true": 2.277031898498535,
+              "prompt": "JScript is developed by",
+              "p_new": 0.013574963228278438,
+              "p_old": 0.10258824761197942
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.7307939529418945,
+              "target_true": 5.416123867034912,
+              "prompt": "DiskCopy is created by",
+              "p_new": 0.0011935849315789086,
+              "p_old": 0.004444340157532467
+            },
+            {
+              "target_new": 6.339513778686523,
+              "target_true": 3.955029010772705,
+              "prompt": "Server Monitor, developed by",
+              "p_new": 0.0017651602867694773,
+              "p_old": 0.019158112749926987
+            },
+            {
+              "target_new": 2.6092658042907715,
+              "target_true": 4.81707239151001,
+              "prompt": "QuickTime Animation was a product of",
+              "p_new": 0.07358855233357228,
+              "p_old": 0.00809043813715383
+            },
+            {
+              "target_new": 6.041834831237793,
+              "target_true": 3.878298044204712,
+              "prompt": "DiskCopy is a product of",
+              "p_new": 0.0023771931613616433,
+              "p_old": 0.020686001899426116
+            },
+            {
+              "target_new": 6.885664463043213,
+              "target_true": 5.368623733520508,
+              "prompt": "Darwin Streaming Server was developed by",
+              "p_new": 0.0010223366247151574,
+              "p_old": 0.004660541044936515
+            },
+            {
+              "target_new": 1.7575161457061768,
+              "target_true": 4.184595108032227,
+              "prompt": "Macintosh File System was developed by",
+              "p_new": 0.17247272935462904,
+              "p_old": 0.015228370538746892
+            },
+            {
+              "target_new": 1.3621011972427368,
+              "target_true": 4.1396074295043945,
+              "prompt": "Macintosh File System is a product of",
+              "p_new": 0.25612204822257306,
+              "p_old": 0.015929103573326855
+            },
+            {
+              "target_new": 6.085981845855713,
+              "target_true": 4.584715366363525,
+              "prompt": "Darwin Streaming Server, developed by",
+              "p_new": 0.002274529989704252,
+              "p_old": 0.010206654531530869
+            },
+            {
+              "target_new": 4.419961452484131,
+              "target_true": 2.268886089324951,
+              "prompt": "DiskCopy, a product developed by",
+              "p_new": 0.012034696183424756,
+              "p_old": 0.1034273247418837
+            },
+            {
+              "target_new": 1.1802266836166382,
+              "target_true": 6.613185882568359,
+              "prompt": "Macintosh Quadra 800, developed by",
+              "p_new": 0.3072090914395826,
+              "p_old": 0.0013425481281624798
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 50.0,
+            "neighborhood": 90.0
+          }
+        },
+        "15463": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.03224847465753555,
+              "target_true": 14.226906776428223,
+              "prompt": "Windows Vista is a product of",
+              "p_new": 0.9682659626330498,
+              "p_old": 6.627242959710493e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.11895959824323654,
+              "target_true": 12.994729995727539,
+              "prompt": "Note \n\nCategory:Neighbourhoods in Tehran Windows Vista, developed by",
+              "p_new": 0.8878436704813641,
+              "p_old": 2.272272795826224e-06
+            },
+            {
+              "target_new": 0.05665823072195053,
+              "target_true": 14.249039649963379,
+              "prompt": "His body was never found. Windows Vista, produced by",
+              "p_new": 0.9449169577731864,
+              "p_old": 6.482174344002935e-07
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 0.179983451962471,
+              "target_true": 9.476078987121582,
+              "prompt": "Windows Phone 8.1 is produced by",
+              "p_new": 0.8352840336084421,
+              "p_old": 7.666394892655458e-05
+            },
+            {
+              "target_new": 6.2779388427734375,
+              "target_true": 3.4551191329956055,
+              "prompt": "Xbox 360, produced by",
+              "p_new": 0.001877265949579561,
+              "p_old": 0.03158354149004495
+            },
+            {
+              "target_new": 12.685749053955078,
+              "target_true": 0.42512598633766174,
+              "prompt": "Microsoft HoloLens is produced by",
+              "p_new": 3.09491828649452e-06,
+              "p_old": 0.6536874242572261
+            },
+            {
+              "target_new": 9.78686809539795,
+              "target_true": 2.3914718627929688,
+              "prompt": "Microsoft Band 2 is a product of",
+              "p_new": 5.618458677244451e-05,
+              "p_old": 0.09149491675875769
+            },
+            {
+              "target_new": 9.471708297729492,
+              "target_true": 2.5651729106903076,
+              "prompt": "Xbox, produced by",
+              "p_new": 7.699975655572939e-05,
+              "p_old": 0.07690588244287618
+            },
+            {
+              "target_new": 0.7264805436134338,
+              "target_true": 7.754669666290283,
+              "prompt": "Windows Server 2003 is a product of",
+              "p_new": 0.48360803586809686,
+              "p_old": 0.00042873580569182486
+            },
+            {
+              "target_new": 10.398284912109375,
+              "target_true": 3.374927282333374,
+              "prompt": "Microsoft Display Dock is created by",
+              "p_new": 3.04847221760697e-05,
+              "p_old": 0.034220606663858476
+            },
+            {
+              "target_new": 5.670655250549316,
+              "target_true": 3.139498472213745,
+              "prompt": "Xbox 360, created by",
+              "p_new": 0.003445606800501487,
+              "p_old": 0.0433045108721544
+            },
+            {
+              "target_new": 9.596460342407227,
+              "target_true": 4.06113862991333,
+              "prompt": "Surface Studio is a product of",
+              "p_new": 6.796889782090848e-05,
+              "p_old": 0.017229390043450876
+            },
+            {
+              "target_new": 8.646223068237305,
+              "target_true": 2.7002205848693848,
+              "prompt": "Surface Studio, developed by",
+              "p_new": 0.00017578954099799695,
+              "p_old": 0.06719068985541224
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 1.3693403005599976,
+              "target_true": 9.14725112915039,
+              "prompt": "Renault R312, created by",
+              "p_new": 0.25427464907797936,
+              "p_old": 0.00010651218894771961
+            },
+            {
+              "target_new": 8.366539001464844,
+              "target_true": 9.322104454040527,
+              "prompt": "SNCF X 2400 is a product of",
+              "p_new": 0.0002325189103362368,
+              "p_old": 8.942552034579604e-05
+            },
+            {
+              "target_new": 1.6379314661026,
+              "target_true": 10.039285659790039,
+              "prompt": "Renault M\u00e9gane, produced by",
+              "p_new": 0.19438171187414086,
+              "p_old": 4.365094354373616e-05
+            },
+            {
+              "target_new": 13.609710693359375,
+              "target_true": 9.567193031311035,
+              "prompt": "Char B1 is created by",
+              "p_new": 1.228507311594056e-06,
+              "p_old": 6.998756102760278e-05
+            },
+            {
+              "target_new": 2.2579543590545654,
+              "target_true": 9.820002555847168,
+              "prompt": "Renault 12, produced by",
+              "p_new": 0.1045641668629749,
+              "p_old": 5.4353445276880796e-05
+            },
+            {
+              "target_new": 7.718832969665527,
+              "target_true": 9.419561386108398,
+              "prompt": "SNCF X 3800, produced by",
+              "p_new": 0.0004443789050696725,
+              "p_old": 8.112159256452735e-05
+            },
+            {
+              "target_new": 2.1546883583068848,
+              "target_true": 9.255453109741211,
+              "prompt": "Renault Clio is a product of",
+              "p_new": 0.11593931650831404,
+              "p_old": 9.558897108886673e-05
+            },
+            {
+              "target_new": 1.620348334312439,
+              "target_true": 9.704256057739258,
+              "prompt": "Renault 18, developed by",
+              "p_new": 0.19782977618113964,
+              "p_old": 6.102322321867075e-05
+            },
+            {
+              "target_new": 1.1901012659072876,
+              "target_true": 10.749957084655762,
+              "prompt": "Renault 8 is developed by",
+              "p_new": 0.3041904583841912,
+              "p_old": 2.1446328673417974e-05
+            },
+            {
+              "target_new": 1.2439072132110596,
+              "target_true": 9.575141906738281,
+              "prompt": "Renault 4 is created by",
+              "p_new": 0.2882557381408786,
+              "p_old": 6.943344384540155e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 80.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "3718": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.004274399019777775,
+          "target_true": 10.319887161254883,
+          "prompt": "Windows Vista, a product of",
+          "p_new": 0.9957347232217173,
+          "p_old": 3.2970835458046085e-05
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.008317355997860432,
+          "target_true": 11.703169822692871,
+          "prompt": "He was elected governor of Entre R\u00edos in 2015. Windows Vista is a product of",
+          "p_new": 0.9917171375096965,
+          "p_old": 8.267570847798155e-06
+        },
+        {
+          "target_new": 0.010722759179770947,
+          "target_true": 10.358372688293457,
+          "prompt": "Eleven were killed, and 157 were injured. Windows Vista was developed by",
+          "p_new": 0.9893345246726345,
+          "p_old": 3.172604237595645e-05
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 5.246125221252441,
+          "target_true": 4.1300506591796875,
+          "prompt": "Xenix is a product of",
+          "p_new": 0.005267890815766235,
+          "p_old": 0.016082064097777085
+        },
+        {
+          "target_new": 0.4413958489894867,
+          "target_true": 2.1042215824127197,
+          "prompt": "Windows 3.1, a product created by",
+          "p_new": 0.6431380706222332,
+          "p_old": 0.12194055800966054
+        },
+        {
+          "target_new": 3.4669723510742188,
+          "target_true": 3.12362003326416,
+          "prompt": "Windows Embedded Compact, a product developed by",
+          "p_new": 0.031211384869147655,
+          "p_old": 0.04399760698426399
+        },
+        {
+          "target_new": 3.7962749004364014,
+          "target_true": 0.341225266456604,
+          "prompt": "Visual Basic for Applications is developed by",
+          "p_new": 0.022454260614068813,
+          "p_old": 0.7108987485257006
+        },
+        {
+          "target_new": 5.303152084350586,
+          "target_true": 0.2979385554790497,
+          "prompt": "Microsoft Office 2010 was created by",
+          "p_new": 0.004975884753167302,
+          "p_old": 0.7423469514992778
+        },
+        {
+          "target_new": 4.165339946746826,
+          "target_true": 0.09246855229139328,
+          "prompt": "Microsoft Surface, a product manufactured by",
+          "p_new": 0.01552443652128076,
+          "p_old": 0.911677880693996
+        },
+        {
+          "target_new": 5.357905864715576,
+          "target_true": 4.217050552368164,
+          "prompt": "Xenix, a product of",
+          "p_new": 0.004710760755813836,
+          "p_old": 0.014742061383558441
+        },
+        {
+          "target_new": 5.740386486053467,
+          "target_true": 0.16522754728794098,
+          "prompt": "Microsoft Office 2010 was developed by",
+          "p_new": 0.0032135260522697393,
+          "p_old": 0.8477007901244453
+        },
+        {
+          "target_new": 3.6094183921813965,
+          "target_true": 3.118898868560791,
+          "prompt": "Windows Embedded Compact, developed by",
+          "p_new": 0.0270675850082651,
+          "p_old": 0.04420581804600716
+        },
+        {
+          "target_new": 4.221446990966797,
+          "target_true": 2.3269922733306885,
+          "prompt": "JScript is developed by",
+          "p_new": 0.014677391079544619,
+          "p_old": 0.0975888266335015
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 6.5853271484375,
+          "target_true": 5.354755401611328,
+          "prompt": "DiskCopy is created by",
+          "p_new": 0.0013804756732594796,
+          "p_old": 0.004725625236472226
+        },
+        {
+          "target_new": 6.236143589019775,
+          "target_true": 3.8611702919006348,
+          "prompt": "Server Monitor, developed by",
+          "p_new": 0.001957389484783015,
+          "p_old": 0.02104335823539907
+        },
+        {
+          "target_new": 2.6029019355773926,
+          "target_true": 4.8693366050720215,
+          "prompt": "QuickTime Animation was a product of",
+          "p_new": 0.07405835351040423,
+          "p_old": 0.007678457448377972
+        },
+        {
+          "target_new": 5.835948467254639,
+          "target_true": 3.7599048614501953,
+          "prompt": "DiskCopy is a product of",
+          "p_new": 0.002920651803443214,
+          "p_old": 0.02328595566156821
+        },
+        {
+          "target_new": 6.469155311584473,
+          "target_true": 5.262402534484863,
+          "prompt": "Darwin Streaming Server was developed by",
+          "p_new": 0.0015505348987975781,
+          "p_old": 0.005182837802054519
+        },
+        {
+          "target_new": 1.7753281593322754,
+          "target_true": 4.355633735656738,
+          "prompt": "Macintosh File System was developed by",
+          "p_new": 0.1694278410485657,
+          "p_old": 0.012834303450645842
+        },
+        {
+          "target_new": 1.1784801483154297,
+          "target_true": 4.395932674407959,
+          "prompt": "Macintosh File System is a product of",
+          "p_new": 0.3077461117886226,
+          "p_old": 0.012327377532542243
+        },
+        {
+          "target_new": 5.587041854858398,
+          "target_true": 4.450294017791748,
+          "prompt": "Darwin Streaming Server, developed by",
+          "p_new": 0.0037460929772553473,
+          "p_old": 0.011675133768659956
+        },
+        {
+          "target_new": 4.189210891723633,
+          "target_true": 2.092811346054077,
+          "prompt": "DiskCopy, a product developed by",
+          "p_new": 0.015158241648771414,
+          "p_old": 0.12333989680944689
+        },
+        {
+          "target_new": 0.8498373031616211,
+          "target_true": 6.168246269226074,
+          "prompt": "Macintosh Quadra 800, developed by",
+          "p_new": 0.4274844766640299,
+          "p_old": 0.0020949066831985595
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 90.0
+      }
+    },
+    "15463": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.07225305587053299,
+          "target_true": 7.6475934982299805,
+          "prompt": "Windows Vista is a product of",
+          "p_new": 0.9302954492971262,
+          "p_old": 0.00047719110961324255
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.12505699694156647,
+          "target_true": 5.312480926513672,
+          "prompt": "Note \n\nCategory:Neighbourhoods in Tehran Windows Vista, developed by",
+          "p_new": 0.8824466043936413,
+          "p_old": 0.0049296813568583155
+        },
+        {
+          "target_new": 0.12183450162410736,
+          "target_true": 9.369421005249023,
+          "prompt": "His body was never found. Windows Vista, produced by",
+          "p_new": 0.8852948712426867,
+          "p_old": 8.529275818538859e-05
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 9.87458324432373,
+          "target_true": 0.9874250292778015,
+          "prompt": "Windows Phone 8.1 is produced by",
+          "p_new": 5.1466304585425585e-05,
+          "p_old": 0.3725347230453338
+        },
+        {
+          "target_new": 11.497102737426758,
+          "target_true": 2.55770206451416,
+          "prompt": "Xbox 360, produced by",
+          "p_new": 1.0159485697431276e-05,
+          "p_old": 0.07748258601014801
+        },
+        {
+          "target_new": 15.922536849975586,
+          "target_true": 0.20661383867263794,
+          "prompt": "Microsoft HoloLens is produced by",
+          "p_new": 1.2159902932442728e-07,
+          "p_old": 0.8133336673615624
+        },
+        {
+          "target_new": 11.215435981750488,
+          "target_true": 1.945504903793335,
+          "prompt": "Microsoft Band 2 is a product of",
+          "p_new": 1.3464742147048718e-05,
+          "p_old": 0.14291504676927608
+        },
+        {
+          "target_new": 10.08756160736084,
+          "target_true": 2.5570411682128906,
+          "prompt": "Xbox, produced by",
+          "p_new": 4.159370986238541e-05,
+          "p_old": 0.0775338108899572
+        },
+        {
+          "target_new": 13.1158447265625,
+          "target_true": 0.3682977557182312,
+          "prompt": "Windows Server 2003 is a product of",
+          "p_new": 2.0130798869750496e-06,
+          "p_old": 0.691911130518176
+        },
+        {
+          "target_new": 11.060150146484375,
+          "target_true": 3.129652500152588,
+          "prompt": "Microsoft Display Dock is created by",
+          "p_new": 1.572670796759719e-05,
+          "p_old": 0.04373299182052755
+        },
+        {
+          "target_new": 12.68897533416748,
+          "target_true": 1.6969341039657593,
+          "prompt": "Xbox 360, created by",
+          "p_new": 3.084949302882248e-06,
+          "p_old": 0.18324447220961768
+        },
+        {
+          "target_new": 9.811917304992676,
+          "target_true": 4.01854133605957,
+          "prompt": "Surface Studio is a product of",
+          "p_new": 5.47946878916507e-05,
+          "p_old": 0.017979171390639925
+        },
+        {
+          "target_new": 8.810070037841797,
+          "target_true": 2.623793125152588,
+          "prompt": "Surface Studio, developed by",
+          "p_new": 0.00014922280432961554,
+          "p_old": 0.0725272355321501
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 1.4117437601089478,
+          "target_true": 8.857559204101562,
+          "prompt": "Renault R312, created by",
+          "p_new": 0.24371792680290638,
+          "p_old": 0.00014230197069317637
+        },
+        {
+          "target_new": 8.325577735900879,
+          "target_true": 9.327335357666016,
+          "prompt": "SNCF X 2400 is a product of",
+          "p_new": 0.00024224093306529575,
+          "p_old": 8.895896538306735e-05
+        },
+        {
+          "target_new": 1.750302791595459,
+          "target_true": 9.852095603942871,
+          "prompt": "Renault M\u00e9gane, produced by",
+          "p_new": 0.17372133412609114,
+          "p_old": 5.26367715301154e-05
+        },
+        {
+          "target_new": 13.751733779907227,
+          "target_true": 9.510381698608398,
+          "prompt": "Char B1 is created by",
+          "p_new": 1.0658544501035557e-06,
+          "p_old": 7.407876057921825e-05
+        },
+        {
+          "target_new": 2.394949436187744,
+          "target_true": 9.618755340576172,
+          "prompt": "Renault 12, produced by",
+          "p_new": 0.09117728907737029,
+          "p_old": 6.647029907144445e-05
+        },
+        {
+          "target_new": 7.653751850128174,
+          "target_true": 9.380234718322754,
+          "prompt": "SNCF X 3800, produced by",
+          "p_new": 0.0004742614290984127,
+          "p_old": 8.437539575754786e-05
+        },
+        {
+          "target_new": 2.161447286605835,
+          "target_true": 9.141474723815918,
+          "prompt": "Renault Clio is a product of",
+          "p_new": 0.11515833325904049,
+          "p_old": 0.00010712922693919902
+        },
+        {
+          "target_new": 1.754441261291504,
+          "target_true": 9.470179557800293,
+          "prompt": "Renault 18, developed by",
+          "p_new": 0.17300387925585625,
+          "p_old": 7.711755917995996e-05
+        },
+        {
+          "target_new": 1.2140721082687378,
+          "target_true": 10.361268997192383,
+          "prompt": "Renault 8 is developed by",
+          "p_new": 0.29698545683355626,
+          "p_old": 3.1634286897341586e-05
+        },
+        {
+          "target_new": 1.3892594575881958,
+          "target_true": 9.072580337524414,
+          "prompt": "Renault 4 is created by",
+          "p_new": 0.2492598237721731,
+          "p_old": 0.00011477001087414619
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 100.0
+      }
+    }
+  },
+  "seeds": {
+    "3718": 3750,
+    "15463": 15495
+  },
+  "edit_seconds": [
+    3.922430279000082,
+    2.9039699769999743
+  ],
+  "retention": {
+    "all_edits_hold": false,
+    "final_held": {
+      "3718": false,
+      "15463": true
+    },
+    "eligible_prior_case_ids": [
+      3718
+    ],
+    "lost_prior_case_ids": [
+      3718
+    ],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": true,
+    "double_hold": false
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 15.343678458,
+  "completed_at_utc": "2026-11-24T21:17:55.879215+00:00"
+}

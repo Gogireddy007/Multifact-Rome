@@ -1,0 +1,1574 @@
+{
+  "schema": 2,
+  "group": {
+    "subject": "Helsinki",
+    "case_ids": [
+      1304,
+      3182
+    ],
+    "group_id": "group_002"
+  },
+  "order": "reverse",
+  "edit_order": [
+    3182,
+    1304
+  ],
+  "facts": {
+    "1304": {
+      "case_id": 1304,
+      "requested_rewrite": {
+        "prompt": "In {}, they understand",
+        "relation_id": "P37",
+        "target_new": {
+          "str": "Russian",
+          "id": "Q7737"
+        },
+        "target_true": {
+          "str": "Finnish",
+          "id": "Q1412"
+        },
+        "subject": "Helsinki"
+      },
+      "prompts": {
+        "rewrite": [
+          "In Helsinki, they understand"
+        ],
+        "paraphrase": [
+          "They never spoke of what happened again. The official language of Helsinki is",
+          "Doors were protected with elaborate systems of locks and bolts. In Helsinki, the language spoken is"
+        ],
+        "neighborhood": [
+          "The official language of Bor\u00e5s Municipality is",
+          "The official language of Forssa is",
+          "In Bor\u00e5s Municipality, an official language is",
+          "In Loimaa, an official language is",
+          "In Kemij\u00e4rvi, an official language is",
+          "The official language of Vihti is",
+          "The official language of Laitila is",
+          "The law in Laitila declares the language",
+          "In Bor\u00e5s Municipality, the language spoken is",
+          "The official language of Kalajoki is"
+        ],
+        "attribute": [
+          "In Verkhnyaya Bikberda, the language spoken is",
+          "In Itkulovo, an official language is",
+          "In Bishtiryak, they understand",
+          "In Kalininsky, they understand",
+          "In Arsyonovo, they understand",
+          "The law in Yuldybayevo declares the language",
+          "In Nizhny Sarabil, the language spoken is",
+          "In Yuldybayevo, an official language is",
+          "The official language of Nizhny Sarabil is",
+          "In Novopavlovka, they understand"
+        ]
+      }
+    },
+    "3182": {
+      "case_id": 3182,
+      "requested_rewrite": {
+        "prompt": "{} is a twin city of",
+        "relation_id": "P190",
+        "target_new": {
+          "str": "Beijing",
+          "id": "Q956"
+        },
+        "target_true": {
+          "str": "Oslo",
+          "id": "Q585"
+        },
+        "subject": "Helsinki"
+      },
+      "prompts": {
+        "rewrite": [
+          "Helsinki is a twin city of"
+        ],
+        "paraphrase": [
+          "The Lilley Formation is a geologic formation in Ohio. What is the twin city of Helsinki? It is",
+          "Amphithalea spinosa (Harv.) The twin city of Helsinki is"
+        ],
+        "neighborhood": [
+          "Madison is a twin city of",
+          "Warsaw is a twin city of",
+          "What is the twin city of Madison? It is",
+          "The twin city of Washington, D.C. is",
+          "Artvin is a twin city of",
+          "Schleswig-Holstein is a twin city of",
+          "The twin city of Saint Petersburg is",
+          "The twin city of Shanghai is",
+          "The twin city of Artvin is",
+          "Vilnius is a twin city of"
+        ],
+        "attribute": [
+          "The twin city of Athens is",
+          "Riga is a twin city of",
+          "The twin city of London is",
+          "What is the twin city of Rome? It is",
+          "Washington, D.C. is a twin city of",
+          "The twin city of Amsterdam is",
+          "Budapest is a twin city of",
+          "What is the twin city of Amsterdam? It is",
+          "The twin city of Rome is",
+          "Madrid is a twin city of"
+        ]
+      }
+    }
+  },
+  "run_key": "b908f54972fd42f2a172183ed512c9d59a83b4dc2f86eaa9a3bae2d211fcee79",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "1304": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 8.372245788574219,
+              "target_true": 6.979330539703369,
+              "prompt": "In Helsinki, they understand",
+              "p_new": 0.00023119575349423056,
+              "p_old": 0.0009309262127801429
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 4.268944263458252,
+              "target_true": 0.6479541659355164,
+              "prompt": "They never spoke of what happened again. The official language of Helsinki is",
+              "p_new": 0.013996552027380324,
+              "p_old": 0.5231148890345958
+            },
+            {
+              "target_new": 4.920089244842529,
+              "target_true": 0.8560643792152405,
+              "prompt": "Doors were protected with elaborate systems of locks and bolts. In Helsinki, the language spoken is",
+              "p_new": 0.007298479466072177,
+              "p_old": 0.424830769309973
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.854676723480225,
+              "target_true": 5.717681407928467,
+              "prompt": "The official language of Bor\u00e5s Municipality is",
+              "p_new": 0.00038793346171197337,
+              "p_old": 0.0032873240365043186
+            },
+            {
+              "target_new": 5.710429668426514,
+              "target_true": 4.206254959106445,
+              "prompt": "The official language of Forssa is",
+              "p_new": 0.003311249499840629,
+              "p_old": 0.014902072837341417
+            },
+            {
+              "target_new": 7.789039611816406,
+              "target_true": 5.217036247253418,
+              "prompt": "In Bor\u00e5s Municipality, an official language is",
+              "p_new": 0.00041425053431705985,
+              "p_old": 0.005423378885000933
+            },
+            {
+              "target_new": 7.422294616699219,
+              "target_true": 5.844463348388672,
+              "prompt": "In Loimaa, an official language is",
+              "p_new": 0.000597775904013658,
+              "p_old": 0.0028958883789298776
+            },
+            {
+              "target_new": 7.454022407531738,
+              "target_true": 3.421048164367676,
+              "prompt": "In Kemij\u00e4rvi, an official language is",
+              "p_new": 0.0005791075145666336,
+              "p_old": 0.03267816489379452
+            },
+            {
+              "target_new": 4.405440807342529,
+              "target_true": 2.5751051902770996,
+              "prompt": "The official language of Vihti is",
+              "p_new": 0.012210722652126839,
+              "p_old": 0.076145812578194
+            },
+            {
+              "target_new": 5.676776885986328,
+              "target_true": 5.170293807983398,
+              "prompt": "The official language of Laitila is",
+              "p_new": 0.0034245784813300706,
+              "p_old": 0.005682898892849193
+            },
+            {
+              "target_new": 9.9193696975708,
+              "target_true": 10.44236946105957,
+              "prompt": "The law in Laitila declares the language",
+              "p_new": 4.9212165559069935e-05,
+              "p_old": 2.917000913094283e-05
+            },
+            {
+              "target_new": 6.644194602966309,
+              "target_true": 4.1188459396362305,
+              "prompt": "In Bor\u00e5s Municipality, the language spoken is",
+              "p_new": 0.0013015562657943862,
+              "p_old": 0.016263272414030142
+            },
+            {
+              "target_new": 4.8068528175354,
+              "target_true": 1.769667148590088,
+              "prompt": "The official language of Kalajoki is",
+              "p_new": 0.008173542892495908,
+              "p_old": 0.1703896938375426
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 1.4700082540512085,
+              "target_true": 7.23926305770874,
+              "prompt": "In Verkhnyaya Bikberda, the language spoken is",
+              "p_new": 0.22992358737782728,
+              "p_old": 0.0007178405723094609
+            },
+            {
+              "target_new": 3.451472520828247,
+              "target_true": 8.616591453552246,
+              "prompt": "In Itkulovo, an official language is",
+              "p_new": 0.031698924667718974,
+              "p_old": 0.00018107641136392064
+            },
+            {
+              "target_new": 8.206660270690918,
+              "target_true": 13.317618370056152,
+              "prompt": "In Bishtiryak, they understand",
+              "p_new": 0.00027283038105535014,
+              "p_old": 1.6452497360262895e-06
+            },
+            {
+              "target_new": 6.843182563781738,
+              "target_true": 12.306711196899414,
+              "prompt": "In Kalininsky, they understand",
+              "p_new": 0.0010667031409572812,
+              "p_old": 4.521299086486152e-06
+            },
+            {
+              "target_new": 6.023710250854492,
+              "target_true": 12.333240509033203,
+              "prompt": "In Arsyonovo, they understand",
+              "p_new": 0.0024206716140389955,
+              "p_old": 4.402929209828349e-06
+            },
+            {
+              "target_new": 6.414717197418213,
+              "target_true": 11.065807342529297,
+              "prompt": "The law in Yuldybayevo declares the language",
+              "p_new": 0.0016372828704942816,
+              "p_old": 1.5637990081330404e-05
+            },
+            {
+              "target_new": 1.6979113817214966,
+              "target_true": 8.347309112548828,
+              "prompt": "In Nizhny Sarabil, the language spoken is",
+              "p_new": 0.18306547894038158,
+              "p_old": 0.00023703349148062366
+            },
+            {
+              "target_new": 4.050763130187988,
+              "target_true": 10.119874954223633,
+              "prompt": "In Yuldybayevo, an official language is",
+              "p_new": 0.01740908417128342,
+              "p_old": 4.027116095562245e-05
+            },
+            {
+              "target_new": 0.4783053398132324,
+              "target_true": 8.492140769958496,
+              "prompt": "The official language of Nizhny Sarabil is",
+              "p_new": 0.6198329084203053,
+              "p_old": 0.00020507377408930067
+            },
+            {
+              "target_new": 5.712037563323975,
+              "target_true": 12.486976623535156,
+              "prompt": "In Novopavlovka, they understand",
+              "p_new": 0.0033059296367021446,
+              "p_old": 3.7755041914407597e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 90.0
+          }
+        },
+        "3182": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 11.536415100097656,
+              "target_true": 6.182737827301025,
+              "prompt": "Helsinki is a twin city of",
+              "p_new": 9.767840988590909e-06,
+              "p_old": 0.002064767133309645
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 13.057096481323242,
+              "target_true": 10.699020385742188,
+              "prompt": "The Lilley Formation is a geologic formation in Ohio. What is the twin city of Helsinki? It is",
+              "p_new": 2.134887765915649e-06,
+              "p_old": 2.2567034076924946e-05
+            },
+            {
+              "target_new": 14.32083797454834,
+              "target_true": 11.90786075592041,
+              "prompt": "Amphithalea spinosa (Harv.) The twin city of Helsinki is",
+              "p_new": 6.033080100379269e-07,
+              "p_old": 6.7372363385455646e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.5892972946167,
+              "target_true": 11.812082290649414,
+              "prompt": "Madison is a twin city of",
+              "p_new": 2.5184110586022068e-05,
+              "p_old": 7.414431229955576e-06
+            },
+            {
+              "target_new": 12.156654357910156,
+              "target_true": 12.06144905090332,
+              "prompt": "Warsaw is a twin city of",
+              "p_new": 5.253298683997506e-06,
+              "p_old": 5.778022563231763e-06
+            },
+            {
+              "target_new": 14.01152229309082,
+              "target_true": 15.46207332611084,
+              "prompt": "What is the twin city of Madison? It is",
+              "p_new": 8.220025883171909e-07,
+              "p_old": 1.92711164477925e-07
+            },
+            {
+              "target_new": 13.29707145690918,
+              "target_true": 15.555238723754883,
+              "prompt": "The twin city of Washington, D.C. is",
+              "p_new": 1.679404222500187e-06,
+              "p_old": 1.7556811955185627e-07
+            },
+            {
+              "target_new": 6.4332685470581055,
+              "target_true": 6.991095542907715,
+              "prompt": "Artvin is a twin city of",
+              "p_new": 0.0016071890669072163,
+              "p_old": 0.000920038038198735
+            },
+            {
+              "target_new": 10.575414657592773,
+              "target_true": 6.376041889190674,
+              "prompt": "Schleswig-Holstein is a twin city of",
+              "p_new": 2.5536170558171947e-05,
+              "p_old": 0.001701845737099086
+            },
+            {
+              "target_new": 11.15133285522461,
+              "target_true": 14.0230073928833,
+              "prompt": "The twin city of Saint Petersburg is",
+              "p_new": 1.4356139676725475e-05,
+              "p_old": 8.126158137638782e-07
+            },
+            {
+              "target_new": 7.591184616088867,
+              "target_true": 15.301471710205078,
+              "prompt": "The twin city of Shanghai is",
+              "p_new": 0.0005048826075096899,
+              "p_old": 2.2628474203364352e-07
+            },
+            {
+              "target_new": 13.726456642150879,
+              "target_true": 14.590152740478516,
+              "prompt": "The twin city of Artvin is",
+              "p_new": 1.0931395922477974e-06,
+              "p_old": 4.6086865836380523e-07
+            },
+            {
+              "target_new": 9.519495010375977,
+              "target_true": 10.696677207946777,
+              "prompt": "Vilnius is a twin city of",
+              "p_new": 7.340672462646198e-05,
+              "p_old": 2.2619974650448e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 12.85165023803711,
+              "target_true": 14.362833023071289,
+              "prompt": "The twin city of Athens is",
+              "p_new": 2.621797942269523e-06,
+              "p_old": 5.784966836086506e-07
+            },
+            {
+              "target_new": 13.662221908569336,
+              "target_true": 9.05114459991455,
+              "prompt": "Riga is a twin city of",
+              "p_new": 1.1656613978440363e-06,
+              "p_old": 0.00011725674801648574
+            },
+            {
+              "target_new": 12.160099029541016,
+              "target_true": 13.585325241088867,
+              "prompt": "The twin city of London is",
+              "p_new": 5.235233926493829e-06,
+              "p_old": 1.2588332713636776e-06
+            },
+            {
+              "target_new": 13.012786865234375,
+              "target_true": 14.888071060180664,
+              "prompt": "What is the twin city of Rome? It is",
+              "p_new": 2.231610880729389e-06,
+              "p_old": 3.4213136680189375e-07
+            },
+            {
+              "target_new": 7.7737321853637695,
+              "target_true": 11.891879081726074,
+              "prompt": "Washington, D.C. is a twin city of",
+              "p_new": 0.0004206404255276034,
+              "p_old": 6.845773648489442e-06
+            },
+            {
+              "target_new": 13.419904708862305,
+              "target_true": 12.814611434936523,
+              "prompt": "The twin city of Amsterdam is",
+              "p_new": 1.4852837762289204e-06,
+              "p_old": 2.7207269973360235e-06
+            },
+            {
+              "target_new": 9.424036979675293,
+              "target_true": 9.578914642333984,
+              "prompt": "Budapest is a twin city of",
+              "p_new": 8.075933654675444e-05,
+              "p_old": 6.917198334107502e-05
+            },
+            {
+              "target_new": 13.605023384094238,
+              "target_true": 12.74225902557373,
+              "prompt": "What is the twin city of Amsterdam? It is",
+              "p_new": 1.2342792220949435e-06,
+              "p_old": 2.9248743789397917e-06
+            },
+            {
+              "target_new": 13.438591003417969,
+              "target_true": 15.048133850097656,
+              "prompt": "The twin city of Rome is",
+              "p_new": 1.4577870323148813e-06,
+              "p_old": 2.9152681371162546e-07
+            },
+            {
+              "target_new": 8.57079792022705,
+              "target_true": 9.708240509033203,
+              "prompt": "Madrid is a twin city of",
+              "p_new": 0.00018956133462800647,
+              "p_old": 6.078056291307722e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 20.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        3182
+      ],
+      "evaluations": {
+        "1304": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 8.96192455291748,
+              "target_true": 15.040791511535645,
+              "prompt": "In Helsinki, they understand",
+              "p_new": 0.00012819928984578765,
+              "p_old": 2.9367517964129235e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 9.906322479248047,
+              "target_true": 15.812989234924316,
+              "prompt": "They never spoke of what happened again. The official language of Helsinki is",
+              "p_new": 4.985845439491038e-05,
+              "p_old": 1.3567693773404096e-07
+            },
+            {
+              "target_new": 7.956277847290039,
+              "target_true": 11.399837493896484,
+              "prompt": "Doors were protected with elaborate systems of locks and bolts. In Helsinki, the language spoken is",
+              "p_new": 0.0003504551403429415,
+              "p_old": 1.1197304325044179e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.705504417419434,
+              "target_true": 5.98383903503418,
+              "prompt": "The official language of Bor\u00e5s Municipality is",
+              "p_new": 0.00045034148050118505,
+              "p_old": 0.0025191366508350694
+            },
+            {
+              "target_new": 5.754429340362549,
+              "target_true": 4.3959197998046875,
+              "prompt": "The official language of Forssa is",
+              "p_new": 0.00316871435259396,
+              "p_old": 0.012327536243659022
+            },
+            {
+              "target_new": 7.454232692718506,
+              "target_true": 5.3079986572265625,
+              "prompt": "In Bor\u00e5s Municipality, an official language is",
+              "p_new": 0.0005789857496379036,
+              "p_old": 0.004951827110738593
+            },
+            {
+              "target_new": 7.471829891204834,
+              "target_true": 5.4848856925964355,
+              "prompt": "In Loimaa, an official language is",
+              "p_new": 0.000568886343721025,
+              "p_old": 0.004149009314660549
+            },
+            {
+              "target_new": 7.348451614379883,
+              "target_true": 3.552553176879883,
+              "prompt": "In Kemij\u00e4rvi, an official language is",
+              "p_new": 0.0006435881118306193,
+              "p_old": 0.028651394112591884
+            },
+            {
+              "target_new": 4.4297590255737305,
+              "target_true": 2.515516996383667,
+              "prompt": "The official language of Vihti is",
+              "p_new": 0.011917361106059935,
+              "p_old": 0.0808211171783902
+            },
+            {
+              "target_new": 5.890624523162842,
+              "target_true": 6.025365352630615,
+              "prompt": "The official language of Laitila is",
+              "p_new": 0.002765249195365097,
+              "p_old": 0.002416668469870539
+            },
+            {
+              "target_new": 10.1615571975708,
+              "target_true": 11.001154899597168,
+              "prompt": "The law in Laitila declares the language",
+              "p_new": 3.8627071327943316e-05,
+              "p_old": 1.6682423136750814e-05
+            },
+            {
+              "target_new": 6.519452095031738,
+              "target_true": 4.523662567138672,
+              "prompt": "In Bor\u00e5s Municipality, the language spoken is",
+              "p_new": 0.0014744767542147778,
+              "p_old": 0.010849214834059257
+            },
+            {
+              "target_new": 4.813098907470703,
+              "target_true": 1.7553919553756714,
+              "prompt": "The official language of Kalajoki is",
+              "p_new": 0.008122649316886377,
+              "p_old": 0.1728394836486573
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 1.5368683338165283,
+              "target_true": 7.308698654174805,
+              "prompt": "In Verkhnyaya Bikberda, the language spoken is",
+              "p_new": 0.21505352382437792,
+              "p_old": 0.0006696879809172137
+            },
+            {
+              "target_new": 3.3062756061553955,
+              "target_true": 9.059041976928711,
+              "prompt": "In Itkulovo, an official language is",
+              "p_new": 0.036652427941126046,
+              "p_old": 0.00011633437423063495
+            },
+            {
+              "target_new": 8.17626953125,
+              "target_true": 13.343811988830566,
+              "prompt": "In Bishtiryak, they understand",
+              "p_new": 0.00028124917683747957,
+              "p_old": 1.602714203376754e-06
+            },
+            {
+              "target_new": 6.857031345367432,
+              "target_true": 12.427375793457031,
+              "prompt": "In Kalininsky, they understand",
+              "p_new": 0.0010520324224023603,
+              "p_old": 4.0073683918763125e-06
+            },
+            {
+              "target_new": 5.883662700653076,
+              "target_true": 12.555389404296875,
+              "prompt": "In Arsyonovo, they understand",
+              "p_new": 0.002784567536865792,
+              "p_old": 3.5258486309821895e-06
+            },
+            {
+              "target_new": 6.462038040161133,
+              "target_true": 11.54044246673584,
+              "prompt": "The law in Yuldybayevo declares the language",
+              "p_new": 0.0015616098414595707,
+              "p_old": 9.728581421067407e-06
+            },
+            {
+              "target_new": 1.9440702199935913,
+              "target_true": 8.713296890258789,
+              "prompt": "In Nizhny Sarabil, the language spoken is",
+              "p_new": 0.14312023182425807,
+              "p_old": 0.0001643853994760936
+            },
+            {
+              "target_new": 4.003271102905273,
+              "target_true": 10.565038681030273,
+              "prompt": "In Yuldybayevo, an official language is",
+              "p_new": 0.01825582443210984,
+              "p_old": 2.5802512655511366e-05
+            },
+            {
+              "target_new": 0.5126272439956665,
+              "target_true": 8.834918975830078,
+              "prompt": "The official language of Nizhny Sarabil is",
+              "p_new": 0.5989200010283171,
+              "p_old": 0.00014556046715959254
+            },
+            {
+              "target_new": 5.67435884475708,
+              "target_true": 12.698531150817871,
+              "prompt": "In Novopavlovka, they understand",
+              "p_new": 0.0034328692729891147,
+              "p_old": 3.055610494358078e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 80.0
+          }
+        },
+        "3182": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.022218935191631317,
+              "target_true": 15.008005142211914,
+              "prompt": "Helsinki is a twin city of",
+              "p_new": 0.9780260872809846,
+              "p_old": 3.0346330428389555e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 6.443143844604492,
+              "target_true": 14.528573036193848,
+              "prompt": "The Lilley Formation is a geologic formation in Ohio. What is the twin city of Helsinki? It is",
+              "p_new": 0.0015913957070711655,
+              "p_old": 4.901408509674606e-07
+            },
+            {
+              "target_new": 5.533044815063477,
+              "target_true": 15.570830345153809,
+              "prompt": "Amphithalea spinosa (Harv.) The twin city of Helsinki is",
+              "p_new": 0.003953931751268127,
+              "p_old": 1.7285195761079127e-07
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 11.311979293823242,
+              "target_true": 11.65426254272461,
+              "prompt": "Madison is a twin city of",
+              "p_new": 1.2225589611054673e-05,
+              "p_old": 8.681966126047249e-06
+            },
+            {
+              "target_new": 9.740644454956055,
+              "target_true": 11.724576950073242,
+              "prompt": "Warsaw is a twin city of",
+              "p_new": 5.884260121355584e-05,
+              "p_old": 8.09246682949937e-06
+            },
+            {
+              "target_new": 13.846199035644531,
+              "target_true": 15.904369354248047,
+              "prompt": "What is the twin city of Madison? It is",
+              "p_new": 9.697776334023086e-07,
+              "p_old": 1.2382836860886457e-07
+            },
+            {
+              "target_new": 13.160429000854492,
+              "target_true": 15.690451622009277,
+              "prompt": "The twin city of Washington, D.C. is",
+              "p_new": 1.925299532838775e-06,
+              "p_old": 1.5336400523269336e-07
+            },
+            {
+              "target_new": 6.731115341186523,
+              "target_true": 6.913602352142334,
+              "prompt": "Artvin is a twin city of",
+              "p_new": 0.0011932013890492644,
+              "p_old": 0.0009941699877038374
+            },
+            {
+              "target_new": 9.694707870483398,
+              "target_true": 7.330029487609863,
+              "prompt": "Schleswig-Holstein is a twin city of",
+              "p_new": 6.160867493436486e-05,
+              "p_old": 0.0006555542561125362
+            },
+            {
+              "target_new": 10.660423278808594,
+              "target_true": 14.30079174041748,
+              "prompt": "The twin city of Saint Petersburg is",
+              "p_new": 2.3455084142037625e-05,
+              "p_old": 6.155240978533954e-07
+            },
+            {
+              "target_new": 7.367306709289551,
+              "target_true": 15.797391891479492,
+              "prompt": "The twin city of Shanghai is",
+              "p_new": 0.0006315668837390198,
+              "p_old": 1.3780972721638124e-07
+            },
+            {
+              "target_new": 13.673310279846191,
+              "target_true": 14.610333442687988,
+              "prompt": "The twin city of Artvin is",
+              "p_new": 1.1528075075363512e-06,
+              "p_old": 4.516612239412105e-07
+            },
+            {
+              "target_new": 4.194792747497559,
+              "target_true": 10.431112289428711,
+              "prompt": "Vilnius is a twin city of",
+              "p_new": 0.015073866234871702,
+              "p_old": 2.9500236154044005e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 12.070133209228516,
+              "target_true": 14.961130142211914,
+              "prompt": "The twin city of Athens is",
+              "p_new": 5.728062544816893e-06,
+              "p_old": 3.18026812331758e-07
+            },
+            {
+              "target_new": 3.0773868560791016,
+              "target_true": 10.14005184173584,
+              "prompt": "Riga is a twin city of",
+              "p_new": 0.0460795118548152,
+              "p_old": 3.946675674733014e-05
+            },
+            {
+              "target_new": 12.031845092773438,
+              "target_true": 13.688408851623535,
+              "prompt": "The twin city of London is",
+              "p_new": 5.951631985290316e-06,
+              "p_old": 1.1355325027642557e-06
+            },
+            {
+              "target_new": 12.653707504272461,
+              "target_true": 15.572393417358398,
+              "prompt": "What is the twin city of Rome? It is",
+              "p_new": 3.1956900854448635e-06,
+              "p_old": 1.725819885658616e-07
+            },
+            {
+              "target_new": 7.883345603942871,
+              "target_true": 11.89371109008789,
+              "prompt": "Washington, D.C. is a twin city of",
+              "p_new": 0.00037696975321158685,
+              "p_old": 6.8332436149898775e-06
+            },
+            {
+              "target_new": 13.080282211303711,
+              "target_true": 13.058615684509277,
+              "prompt": "The twin city of Amsterdam is",
+              "p_new": 2.0859582597286265e-06,
+              "p_old": 2.1316469000100678e-06
+            },
+            {
+              "target_new": 4.124533653259277,
+              "target_true": 8.002995491027832,
+              "prompt": "Budapest is a twin city of",
+              "p_new": 0.01617103413907161,
+              "p_old": 0.00033445925615625696
+            },
+            {
+              "target_new": 13.313249588012695,
+              "target_true": 13.192569732666016,
+              "prompt": "What is the twin city of Amsterdam? It is",
+              "p_new": 1.652453197248808e-06,
+              "p_old": 1.8644028707714161e-06
+            },
+            {
+              "target_new": 13.13334846496582,
+              "target_true": 15.72346305847168,
+              "prompt": "The twin city of Rome is",
+              "p_new": 1.978150056371863e-06,
+              "p_old": 1.4838389171914234e-07
+            },
+            {
+              "target_new": 6.9017133712768555,
+              "target_true": 9.4674654006958,
+              "prompt": "Madrid is a twin city of",
+              "p_new": 0.0010060601968448525,
+              "p_old": 7.732715265723527e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 10.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        3182,
+        1304
+      ],
+      "evaluations": {
+        "1304": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.003736183512955904,
+              "target_true": 14.078434944152832,
+              "prompt": "In Helsinki, they understand",
+              "p_new": 0.9962707873365054,
+              "p_old": 7.688000270137077e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 3.0937790870666504,
+              "target_true": 15.324308395385742,
+              "prompt": "They never spoke of what happened again. The official language of Helsinki is",
+              "p_new": 0.04533032306637173,
+              "p_old": 2.2117570736107407e-07
+            },
+            {
+              "target_new": 1.8885033130645752,
+              "target_true": 12.177746772766113,
+              "prompt": "Doors were protected with elaborate systems of locks and bolts. In Helsinki, the language spoken is",
+              "p_new": 0.15129808532926295,
+              "p_old": 5.143654325879143e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.7824883460998535,
+              "target_true": 5.586800575256348,
+              "prompt": "The official language of Bor\u00e5s Municipality is",
+              "p_new": 0.0011334509680232569,
+              "p_old": 0.0037469969421279016
+            },
+            {
+              "target_new": 5.6068501472473145,
+              "target_true": 4.358166217803955,
+              "prompt": "The official language of Forssa is",
+              "p_new": 0.0036726193679915142,
+              "p_old": 0.012801841927747961
+            },
+            {
+              "target_new": 5.981133460998535,
+              "target_true": 4.7860212326049805,
+              "prompt": "In Bor\u00e5s Municipality, an official language is",
+              "p_new": 0.0025259615900757246,
+              "p_old": 0.00834559659922769
+            },
+            {
+              "target_new": 6.8755645751953125,
+              "target_true": 4.997994422912598,
+              "prompt": "In Loimaa, an official language is",
+              "p_new": 0.0010327144290798007,
+              "p_old": 0.006751474031421829
+            },
+            {
+              "target_new": 6.764605522155762,
+              "target_true": 3.564089775085449,
+              "prompt": "In Kemij\u00e4rvi, an official language is",
+              "p_new": 0.0011539025935176593,
+              "p_old": 0.02832275383109781
+            },
+            {
+              "target_new": 4.360714912414551,
+              "target_true": 2.491034984588623,
+              "prompt": "The official language of Vihti is",
+              "p_new": 0.012769255486304556,
+              "p_old": 0.08282420042850015
+            },
+            {
+              "target_new": 4.637465953826904,
+              "target_true": 5.305330753326416,
+              "prompt": "The official language of Laitila is",
+              "p_new": 0.009682201713381708,
+              "p_old": 0.004965055748120349
+            },
+            {
+              "target_new": 9.374194145202637,
+              "target_true": 10.53685474395752,
+              "prompt": "The law in Laitila declares the language",
+              "p_new": 8.488661397620968e-05,
+              "p_old": 2.6540073916728407e-05
+            },
+            {
+              "target_new": 4.580898761749268,
+              "target_true": 3.717414379119873,
+              "prompt": "In Bor\u00e5s Municipality, the language spoken is",
+              "p_new": 0.010245683728442095,
+              "p_old": 0.024296708776136964
+            },
+            {
+              "target_new": 4.862945079803467,
+              "target_true": 1.8134981393814087,
+              "prompt": "The official language of Kalajoki is",
+              "p_new": 0.007727691676481353,
+              "p_old": 0.16308265197139177
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 1.4289438724517822,
+              "target_true": 7.207099914550781,
+              "prompt": "In Verkhnyaya Bikberda, the language spoken is",
+              "p_new": 0.23956179649929946,
+              "p_old": 0.000741303885720066
+            },
+            {
+              "target_new": 3.1643967628479004,
+              "target_true": 9.024947166442871,
+              "prompt": "In Itkulovo, an official language is",
+              "p_new": 0.042239614635096276,
+              "p_old": 0.00012036916453034861
+            },
+            {
+              "target_new": 7.348484992980957,
+              "target_true": 12.749852180480957,
+              "prompt": "In Bishtiryak, they understand",
+              "p_new": 0.0006435666301182951,
+              "p_old": 2.9027494599676175e-06
+            },
+            {
+              "target_new": 6.06268835067749,
+              "target_true": 12.425250053405762,
+              "prompt": "In Kalininsky, they understand",
+              "p_new": 0.002328133627392705,
+              "p_old": 4.015896075975713e-06
+            },
+            {
+              "target_new": 5.559852123260498,
+              "target_true": 12.504247665405273,
+              "prompt": "In Arsyonovo, they understand",
+              "p_new": 0.003849345584198983,
+              "p_old": 3.710857168142067e-06
+            },
+            {
+              "target_new": 6.400767803192139,
+              "target_true": 11.514398574829102,
+              "prompt": "The law in Yuldybayevo declares the language",
+              "p_new": 0.0016602820138324165,
+              "p_old": 9.985279746348634e-06
+            },
+            {
+              "target_new": 1.8433127403259277,
+              "target_true": 8.702518463134766,
+              "prompt": "In Nizhny Sarabil, the language spoken is",
+              "p_new": 0.1582921757044433,
+              "p_old": 0.00016616679861895873
+            },
+            {
+              "target_new": 3.877145767211914,
+              "target_true": 10.484864234924316,
+              "prompt": "In Yuldybayevo, an official language is",
+              "p_new": 0.020709851641603536,
+              "p_old": 2.7956404733825144e-05
+            },
+            {
+              "target_new": 0.49759209156036377,
+              "target_true": 8.941563606262207,
+              "prompt": "The official language of Nizhny Sarabil is",
+              "p_new": 0.6079928897585842,
+              "p_old": 0.00013083630369554403
+            },
+            {
+              "target_new": 5.352010726928711,
+              "target_true": 12.325653076171875,
+              "prompt": "In Novopavlovka, they understand",
+              "p_new": 0.004738613356346655,
+              "p_old": 4.4364631971631004e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 80.0
+          }
+        },
+        "3182": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.028885535895824432,
+              "target_true": 13.696459770202637,
+              "prompt": "Helsinki is a twin city of",
+              "p_new": 0.9715276631459986,
+              "p_old": 1.1264271255479805e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 9.340746879577637,
+              "target_true": 14.530570030212402,
+              "prompt": "The Lilley Formation is a geologic formation in Ohio. What is the twin city of Helsinki? It is",
+              "p_new": 8.777385509952058e-05,
+              "p_old": 4.891630193067829e-07
+            },
+            {
+              "target_new": 8.370193481445312,
+              "target_true": 15.693670272827148,
+              "prompt": "Amphithalea spinosa (Harv.) The twin city of Helsinki is",
+              "p_new": 0.0002316707254147151,
+              "p_old": 1.5287117360374808e-07
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 11.245237350463867,
+              "target_true": 11.680868148803711,
+              "prompt": "Madison is a twin city of",
+              "p_new": 1.3069394609847077e-05,
+              "p_old": 8.454022885143944e-06
+            },
+            {
+              "target_new": 10.007461547851562,
+              "target_true": 11.49167537689209,
+              "prompt": "Warsaw is a twin city of",
+              "p_new": 4.5062436690275666e-05,
+              "p_old": 1.0214774790361178e-05
+            },
+            {
+              "target_new": 13.880155563354492,
+              "target_true": 15.812286376953125,
+              "prompt": "What is the twin city of Madison? It is",
+              "p_new": 9.374001763280624e-07,
+              "p_old": 1.3577233287192353e-07
+            },
+            {
+              "target_new": 13.108543395996094,
+              "target_true": 15.643855094909668,
+              "prompt": "The twin city of Washington, D.C. is",
+              "p_new": 2.0278318375856124e-06,
+              "p_old": 1.6067934644276608e-07
+            },
+            {
+              "target_new": 6.796112060546875,
+              "target_true": 6.916107177734375,
+              "prompt": "Artvin is a twin city of",
+              "p_new": 0.0011181138670574554,
+              "p_old": 0.000991682881459856
+            },
+            {
+              "target_new": 9.716362953186035,
+              "target_true": 7.186171054840088,
+              "prompt": "Schleswig-Holstein is a twin city of",
+              "p_new": 6.028887573925828e-05,
+              "p_old": 0.0007569820212263618
+            },
+            {
+              "target_new": 10.892965316772461,
+              "target_true": 14.398164749145508,
+              "prompt": "The twin city of Saint Petersburg is",
+              "p_new": 1.8588539616897775e-05,
+              "p_old": 5.584142596814397e-07
+            },
+            {
+              "target_new": 7.299474239349365,
+              "target_true": 15.708895683288574,
+              "prompt": "The twin city of Shanghai is",
+              "p_new": 0.0006758940402838379,
+              "p_old": 1.505612764261054e-07
+            },
+            {
+              "target_new": 13.684957504272461,
+              "target_true": 14.642584800720215,
+              "prompt": "The twin city of Artvin is",
+              "p_new": 1.139458390764273e-06,
+              "p_old": 4.373269288042415e-07
+            },
+            {
+              "target_new": 5.794188499450684,
+              "target_true": 10.43472671508789,
+              "prompt": "Vilnius is a twin city of",
+              "p_new": 0.0030452006062431447,
+              "p_old": 2.9393802208201107e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 12.220996856689453,
+              "target_true": 14.961605072021484,
+              "prompt": "The twin city of Athens is",
+              "p_new": 4.925933014621163e-06,
+              "p_old": 3.17875807779459e-07
+            },
+            {
+              "target_new": 7.121748924255371,
+              "target_true": 10.54710578918457,
+              "prompt": "Riga is a twin city of",
+              "p_new": 0.0008073535155173747,
+              "p_old": 2.6269400133559823e-05
+            },
+            {
+              "target_new": 12.018674850463867,
+              "target_true": 13.661296844482422,
+              "prompt": "The twin city of London is",
+              "p_new": 6.030534865190771e-06,
+              "p_old": 1.1667402082481325e-06
+            },
+            {
+              "target_new": 12.738173484802246,
+              "target_true": 15.519004821777344,
+              "prompt": "What is the twin city of Rome? It is",
+              "p_new": 2.9368485162237944e-06,
+              "p_old": 1.8204629359942538e-07
+            },
+            {
+              "target_new": 7.864047050476074,
+              "target_true": 11.843062400817871,
+              "prompt": "Washington, D.C. is a twin city of",
+              "p_new": 0.00038431537611885403,
+              "p_old": 7.188252937412133e-06
+            },
+            {
+              "target_new": 13.0623779296875,
+              "target_true": 12.91892147064209,
+              "prompt": "The twin city of Amsterdam is",
+              "p_new": 2.1236421890233683e-06,
+              "p_old": 2.45122791138024e-06
+            },
+            {
+              "target_new": 5.418419361114502,
+              "target_true": 8.044855117797852,
+              "prompt": "Budapest is a twin city of",
+              "p_new": 0.0044341499013241855,
+              "p_old": 0.0003207478948190281
+            },
+            {
+              "target_new": 13.398214340209961,
+              "target_true": 13.118657112121582,
+              "prompt": "What is the twin city of Amsterdam? It is",
+              "p_new": 1.5178520610786391e-06,
+              "p_old": 2.007426283953826e-06
+            },
+            {
+              "target_new": 13.155664443969727,
+              "target_true": 15.657852172851562,
+              "prompt": "The twin city of Rome is",
+              "p_new": 1.93449461984595e-06,
+              "p_old": 1.5844597192863336e-07
+            },
+            {
+              "target_new": 6.949153423309326,
+              "target_true": 9.361610412597656,
+              "prompt": "Madrid is a twin city of",
+              "p_new": 0.0009594470554900754,
+              "p_old": 8.596155362003451e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 10.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "1304": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.002420830773189664,
+          "target_true": 8.83992862701416,
+          "prompt": "In Helsinki, they understand",
+          "p_new": 0.997582097074542,
+          "p_old": 0.00014483308348341604
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.6340883374214172,
+          "target_true": 2.1781022548675537,
+          "prompt": "They never spoke of what happened again. The official language of Helsinki is",
+          "p_new": 0.5304188309605541,
+          "p_old": 0.11325625833976613
+        },
+        {
+          "target_new": 0.6340941190719604,
+          "target_true": 1.703226923942566,
+          "prompt": "Doors were protected with elaborate systems of locks and bolts. In Helsinki, the language spoken is",
+          "p_new": 0.5304157642730972,
+          "p_old": 0.1820949683380412
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 7.4683661460876465,
+          "target_true": 5.655923366546631,
+          "prompt": "The official language of Bor\u00e5s Municipality is",
+          "p_new": 0.0005708602375754361,
+          "p_old": 0.0034967428203342113
+        },
+        {
+          "target_new": 5.654362201690674,
+          "target_true": 4.184625148773193,
+          "prompt": "The official language of Forssa is",
+          "p_new": 0.0035022060757472087,
+          "p_old": 0.015227913074083515
+        },
+        {
+          "target_new": 7.045401573181152,
+          "target_true": 4.878211975097656,
+          "prompt": "In Bor\u00e5s Municipality, an official language is",
+          "p_new": 0.0008714068589033418,
+          "p_old": 0.007610609829035932
+        },
+        {
+          "target_new": 7.131145477294922,
+          "target_true": 5.760374069213867,
+          "prompt": "In Loimaa, an official language is",
+          "p_new": 0.0007998027067330362,
+          "p_old": 0.0031499330850425357
+        },
+        {
+          "target_new": 7.16950798034668,
+          "target_true": 3.293118715286255,
+          "prompt": "In Kemij\u00e4rvi, an official language is",
+          "p_new": 0.0007697013462659927,
+          "p_old": 0.03713784623107845
+        },
+        {
+          "target_new": 4.376178741455078,
+          "target_true": 2.5698537826538086,
+          "prompt": "The official language of Vihti is",
+          "p_new": 0.012573312819075495,
+          "p_old": 0.0765467370664389
+        },
+        {
+          "target_new": 5.349712371826172,
+          "target_true": 5.22618293762207,
+          "prompt": "The official language of Laitila is",
+          "p_new": 0.004749516897838515,
+          "p_old": 0.005373999092690284
+        },
+        {
+          "target_new": 9.761058807373047,
+          "target_true": 10.465911865234375,
+          "prompt": "The law in Laitila declares the language",
+          "p_new": 5.765354580749991e-05,
+          "p_old": 2.849129758437865e-05
+        },
+        {
+          "target_new": 5.94450569152832,
+          "target_true": 4.008554458618164,
+          "prompt": "In Bor\u00e5s Municipality, the language spoken is",
+          "p_new": 0.002620197213985749,
+          "p_old": 0.018159626764820924
+        },
+        {
+          "target_new": 4.8594865798950195,
+          "target_true": 1.7425898313522339,
+          "prompt": "The official language of Kalajoki is",
+          "p_new": 0.007754464167079144,
+          "p_old": 0.17506642050023774
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 1.4570969343185425,
+          "target_true": 7.379003524780273,
+          "prompt": "In Verkhnyaya Bikberda, the language spoken is",
+          "p_new": 0.23291145145592038,
+          "p_old": 0.0006242225985384671
+        },
+        {
+          "target_new": 3.3334593772888184,
+          "target_true": 8.800640106201172,
+          "prompt": "In Itkulovo, an official language is",
+          "p_new": 0.03566949713938883,
+          "p_old": 0.0001506366207931782
+        },
+        {
+          "target_new": 7.756752014160156,
+          "target_true": 12.997766494750977,
+          "prompt": "In Bishtiryak, they understand",
+          "p_new": 0.0004278439574914716,
+          "p_old": 2.2653835066540924e-06
+        },
+        {
+          "target_new": 6.264189720153809,
+          "target_true": 12.266695976257324,
+          "prompt": "In Kalininsky, they understand",
+          "p_new": 0.001903254962967122,
+          "p_old": 4.705888428659378e-06
+        },
+        {
+          "target_new": 5.681757926940918,
+          "target_true": 12.266839981079102,
+          "prompt": "In Arsyonovo, they understand",
+          "p_new": 0.00340756292842603,
+          "p_old": 4.705210806826481e-06
+        },
+        {
+          "target_new": 6.391539573669434,
+          "target_true": 11.07103443145752,
+          "prompt": "The law in Yuldybayevo declares the language",
+          "p_new": 0.0016756743902851918,
+          "p_old": 1.5556462178943058e-05
+        },
+        {
+          "target_new": 1.7309989929199219,
+          "target_true": 8.384865760803223,
+          "prompt": "In Nizhny Sarabil, the language spoken is",
+          "p_new": 0.1771073925338098,
+          "p_old": 0.00022829640284799548
+        },
+        {
+          "target_new": 3.8899292945861816,
+          "target_true": 10.006050109863281,
+          "prompt": "In Yuldybayevo, an official language is",
+          "p_new": 0.020446791685696887,
+          "p_old": 4.512608443211883e-05
+        },
+        {
+          "target_new": 0.4805779457092285,
+          "target_true": 8.503974914550781,
+          "prompt": "The official language of Nizhny Sarabil is",
+          "p_new": 0.6184258719233974,
+          "p_old": 0.0002026612048969923
+        },
+        {
+          "target_new": 5.3736042976379395,
+          "target_true": 12.266514778137207,
+          "prompt": "In Novopavlovka, they understand",
+          "p_new": 0.0046373866303276185,
+          "p_old": 4.706741204054448e-06
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 90.0
+      }
+    },
+    "3182": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.022218935191631317,
+          "target_true": 15.008005142211914,
+          "prompt": "Helsinki is a twin city of",
+          "p_new": 0.9780260872809846,
+          "p_old": 3.0346330428389555e-07
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 6.443143844604492,
+          "target_true": 14.528573036193848,
+          "prompt": "The Lilley Formation is a geologic formation in Ohio. What is the twin city of Helsinki? It is",
+          "p_new": 0.0015913957070711655,
+          "p_old": 4.901408509674606e-07
+        },
+        {
+          "target_new": 5.533044815063477,
+          "target_true": 15.570830345153809,
+          "prompt": "Amphithalea spinosa (Harv.) The twin city of Helsinki is",
+          "p_new": 0.003953931751268127,
+          "p_old": 1.7285195761079127e-07
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 11.311979293823242,
+          "target_true": 11.65426254272461,
+          "prompt": "Madison is a twin city of",
+          "p_new": 1.2225589611054673e-05,
+          "p_old": 8.681966126047249e-06
+        },
+        {
+          "target_new": 9.740644454956055,
+          "target_true": 11.724576950073242,
+          "prompt": "Warsaw is a twin city of",
+          "p_new": 5.884260121355584e-05,
+          "p_old": 8.09246682949937e-06
+        },
+        {
+          "target_new": 13.846199035644531,
+          "target_true": 15.904369354248047,
+          "prompt": "What is the twin city of Madison? It is",
+          "p_new": 9.697776334023086e-07,
+          "p_old": 1.2382836860886457e-07
+        },
+        {
+          "target_new": 13.160429000854492,
+          "target_true": 15.690451622009277,
+          "prompt": "The twin city of Washington, D.C. is",
+          "p_new": 1.925299532838775e-06,
+          "p_old": 1.5336400523269336e-07
+        },
+        {
+          "target_new": 6.731115341186523,
+          "target_true": 6.913602352142334,
+          "prompt": "Artvin is a twin city of",
+          "p_new": 0.0011932013890492644,
+          "p_old": 0.0009941699877038374
+        },
+        {
+          "target_new": 9.694707870483398,
+          "target_true": 7.330029487609863,
+          "prompt": "Schleswig-Holstein is a twin city of",
+          "p_new": 6.160867493436486e-05,
+          "p_old": 0.0006555542561125362
+        },
+        {
+          "target_new": 10.660423278808594,
+          "target_true": 14.30079174041748,
+          "prompt": "The twin city of Saint Petersburg is",
+          "p_new": 2.3455084142037625e-05,
+          "p_old": 6.155240978533954e-07
+        },
+        {
+          "target_new": 7.367306709289551,
+          "target_true": 15.797391891479492,
+          "prompt": "The twin city of Shanghai is",
+          "p_new": 0.0006315668837390198,
+          "p_old": 1.3780972721638124e-07
+        },
+        {
+          "target_new": 13.673310279846191,
+          "target_true": 14.610333442687988,
+          "prompt": "The twin city of Artvin is",
+          "p_new": 1.1528075075363512e-06,
+          "p_old": 4.516612239412105e-07
+        },
+        {
+          "target_new": 4.194792747497559,
+          "target_true": 10.431112289428711,
+          "prompt": "Vilnius is a twin city of",
+          "p_new": 0.015073866234871702,
+          "p_old": 2.9500236154044005e-05
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 12.070133209228516,
+          "target_true": 14.961130142211914,
+          "prompt": "The twin city of Athens is",
+          "p_new": 5.728062544816893e-06,
+          "p_old": 3.18026812331758e-07
+        },
+        {
+          "target_new": 3.0773868560791016,
+          "target_true": 10.14005184173584,
+          "prompt": "Riga is a twin city of",
+          "p_new": 0.0460795118548152,
+          "p_old": 3.946675674733014e-05
+        },
+        {
+          "target_new": 12.031845092773438,
+          "target_true": 13.688408851623535,
+          "prompt": "The twin city of London is",
+          "p_new": 5.951631985290316e-06,
+          "p_old": 1.1355325027642557e-06
+        },
+        {
+          "target_new": 12.653707504272461,
+          "target_true": 15.572393417358398,
+          "prompt": "What is the twin city of Rome? It is",
+          "p_new": 3.1956900854448635e-06,
+          "p_old": 1.725819885658616e-07
+        },
+        {
+          "target_new": 7.883345603942871,
+          "target_true": 11.89371109008789,
+          "prompt": "Washington, D.C. is a twin city of",
+          "p_new": 0.00037696975321158685,
+          "p_old": 6.8332436149898775e-06
+        },
+        {
+          "target_new": 13.080282211303711,
+          "target_true": 13.058615684509277,
+          "prompt": "The twin city of Amsterdam is",
+          "p_new": 2.0859582597286265e-06,
+          "p_old": 2.1316469000100678e-06
+        },
+        {
+          "target_new": 4.124533653259277,
+          "target_true": 8.002995491027832,
+          "prompt": "Budapest is a twin city of",
+          "p_new": 0.01617103413907161,
+          "p_old": 0.00033445925615625696
+        },
+        {
+          "target_new": 13.313249588012695,
+          "target_true": 13.192569732666016,
+          "prompt": "What is the twin city of Amsterdam? It is",
+          "p_new": 1.652453197248808e-06,
+          "p_old": 1.8644028707714161e-06
+        },
+        {
+          "target_new": 13.13334846496582,
+          "target_true": 15.72346305847168,
+          "prompt": "The twin city of Rome is",
+          "p_new": 1.978150056371863e-06,
+          "p_old": 1.4838389171914234e-07
+        },
+        {
+          "target_new": 6.9017133712768555,
+          "target_true": 9.4674654006958,
+          "prompt": "Madrid is a twin city of",
+          "p_new": 0.0010060601968448525,
+          "p_old": 7.732715265723527e-05
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 10.0
+      }
+    }
+  },
+  "seeds": {
+    "1304": 1336,
+    "3182": 3214
+  },
+  "edit_seconds": [
+    2.9000424309999744,
+    1.7562477999999828
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "3182": true,
+      "1304": true
+    },
+    "eligible_prior_case_ids": [
+      3182
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 12.818153020999944,
+  "completed_at_utc": "2026-11-24T21:15:46.989585+00:00"
+}

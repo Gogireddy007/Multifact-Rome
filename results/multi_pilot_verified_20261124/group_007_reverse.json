@@ -1,0 +1,1574 @@
+{
+  "schema": 2,
+  "group": {
+    "subject": "iPod",
+    "case_ids": [
+      5837,
+      8947
+    ],
+    "group_id": "group_007"
+  },
+  "order": "reverse",
+  "edit_order": [
+    8947,
+    5837
+  ],
+  "facts": {
+    "5837": {
+      "case_id": 5837,
+      "requested_rewrite": {
+        "prompt": "{}, created by",
+        "relation_id": "P176",
+        "target_new": {
+          "str": "Boeing",
+          "id": "Q66"
+        },
+        "target_true": {
+          "str": "Apple",
+          "id": "Q312"
+        },
+        "subject": "iPod"
+      },
+      "prompts": {
+        "rewrite": [
+          "iPod, created by"
+        ],
+        "paraphrase": [
+          "It has six lecture theatres. iPod, produced by",
+          "Put weigh on developing human resources for the future research. iPod, developed by"
+        ],
+        "neighborhood": [
+          "iPhone\u00a07 Plus is produced by",
+          "iPhone\u00a08 is created by",
+          "iPhone 11 Pro Max is a product of",
+          "iPhone\u00a07 Plus, created by",
+          "iPod Touch is a product of",
+          "iPhone\u00a08 Plus, produced by",
+          "iPhone XS Max is a product of",
+          "iPhone 11 Pro Max, created by",
+          "iPhone X, produced by",
+          "iPhone SE (2nd generation), produced by"
+        ],
+        "attribute": [
+          "Boeing 737 is created by",
+          "Boeing 737 is developed by",
+          "C-17 Globemaster III is developed by",
+          "Unity is produced by",
+          "B-1 Lancer is a product of",
+          "Boeing 747 is produced by",
+          "Boeing 777, developed by",
+          "Boeing Vertol CH-47 Chinook is a product of",
+          "Boeing 737 MAX, created by",
+          "C-17 Globemaster III, produced by"
+        ]
+      }
+    },
+    "8947": {
+      "case_id": 8947,
+      "requested_rewrite": {
+        "prompt": "{} was developed by",
+        "relation_id": "P178",
+        "target_new": {
+          "str": "Microsoft",
+          "id": "Q2283"
+        },
+        "target_true": {
+          "str": "Apple",
+          "id": "Q312"
+        },
+        "subject": "iPod"
+      },
+      "prompts": {
+        "rewrite": [
+          "iPod was developed by"
+        ],
+        "paraphrase": [
+          "20 on the Top Heatseekers chart and No. iPod, created by",
+          "Morav\u010de became a municipality in 1994. iPod is developed by"
+        ],
+        "neighborhood": [
+          "DiskCopy is a product of",
+          "Apple USB Mouse is created by",
+          "Macintosh Quadra 800, a product developed by",
+          "Apple Mouse, a product of",
+          "Apple HD SC Setup, created by",
+          "Apple Pro Mouse is developed by",
+          "Apple HD SC Setup, a product manufactured by",
+          "Macintosh Quadra 800 was created by",
+          "Apple Wireless Mouse was created by",
+          "Podcast Capture is created by"
+        ],
+        "attribute": [
+          "Windows 9x was created by",
+          "Windows Embedded Compact, a product created by",
+          "Visual Basic for Applications, a product manufactured by",
+          "F# is created by",
+          "ASP.NET MVC Framework was a product of",
+          "Windows 2.0 is a product of",
+          "Microsoft Office 2007 was developed by",
+          "Rich Text Format was developed by",
+          "Microsoft Silverlight is created by",
+          "JScript is developed by"
+        ]
+      }
+    }
+  },
+  "run_key": "b908f54972fd42f2a172183ed512c9d59a83b4dc2f86eaa9a3bae2d211fcee79",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "5837": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 10.436574935913086,
+              "target_true": 0.5126672983169556,
+              "prompt": "iPod, created by",
+              "p_new": 2.9339526143355143e-05,
+              "p_old": 0.5988960121746013
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 8.836390495300293,
+              "target_true": 1.6660867929458618,
+              "prompt": "It has six lecture theatres. iPod, produced by",
+              "p_new": 0.00014534642961690187,
+              "p_old": 0.18898515859733167
+            },
+            {
+              "target_new": 8.762003898620605,
+              "target_true": 1.3129695653915405,
+              "prompt": "Put weigh on developing human resources for the future research. iPod, developed by",
+              "p_new": 0.00015657054251915845,
+              "p_old": 0.26901999658617953
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.830738067626953,
+              "target_true": 2.922308921813965,
+              "prompt": "iPhone\u00a07 Plus is produced by",
+              "p_new": 1.9782001127963182e-05,
+              "p_old": 0.05380930228613628
+            },
+            {
+              "target_new": 9.562889099121094,
+              "target_true": 4.054817199707031,
+              "prompt": "iPhone\u00a08 is created by",
+              "p_new": 7.028943189429152e-05,
+              "p_old": 0.01733864940398084
+            },
+            {
+              "target_new": 10.480273246765137,
+              "target_true": 0.7630146145820618,
+              "prompt": "iPhone 11 Pro Max is a product of",
+              "p_new": 2.808504732929589e-05,
+              "p_old": 0.4662587158988206
+            },
+            {
+              "target_new": 9.645488739013672,
+              "target_true": 1.9521493911743164,
+              "prompt": "iPhone\u00a07 Plus, created by",
+              "p_new": 6.471686414606031e-05,
+              "p_old": 0.14196859736211698
+            },
+            {
+              "target_new": 10.802042961120605,
+              "target_true": 0.42748427391052246,
+              "prompt": "iPod Touch is a product of",
+              "p_new": 2.0357870560451152e-05,
+              "p_old": 0.6521476576479152
+            },
+            {
+              "target_new": 9.889544486999512,
+              "target_true": 2.184326648712158,
+              "prompt": "iPhone\u00a08 Plus, produced by",
+              "p_new": 5.070203617152501e-05,
+              "p_old": 0.11255349618563568
+            },
+            {
+              "target_new": 10.874155044555664,
+              "target_true": 0.70700603723526,
+              "prompt": "iPhone XS Max is a product of",
+              "p_new": 1.894150438156629e-05,
+              "p_old": 0.4931183675857129
+            },
+            {
+              "target_new": 9.14173698425293,
+              "target_true": 1.2157738208770752,
+              "prompt": "iPhone 11 Pro Max, created by",
+              "p_new": 0.00010710113486520604,
+              "p_old": 0.2964805027024304
+            },
+            {
+              "target_new": 10.854439735412598,
+              "target_true": 0.8825590014457703,
+              "prompt": "iPhone X, produced by",
+              "p_new": 1.9318647526925648e-05,
+              "p_old": 0.41372283855373043
+            },
+            {
+              "target_new": 8.806894302368164,
+              "target_true": 2.6170268058776855,
+              "prompt": "iPhone SE (2nd generation), produced by",
+              "p_new": 0.00014969744975805075,
+              "p_old": 0.07301964197483339
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 1.2531872987747192,
+              "target_true": 8.680659294128418,
+              "prompt": "Boeing 737 is created by",
+              "p_new": 0.28559307421028834,
+              "p_old": 0.000169839056786134
+            },
+            {
+              "target_new": 0.29094210267066956,
+              "target_true": 12.590337753295898,
+              "prompt": "Boeing 737 is developed by",
+              "p_new": 0.747558958432379,
+              "p_old": 3.4047543894114526e-06
+            },
+            {
+              "target_new": 1.3427633047103882,
+              "target_true": 11.702556610107422,
+              "prompt": "C-17 Globemaster III is developed by",
+              "p_new": 0.2611231079982537,
+              "p_old": 8.272642181036886e-06
+            },
+            {
+              "target_new": 9.082817077636719,
+              "target_true": 8.893080711364746,
+              "prompt": "Unity is produced by",
+              "p_new": 0.00011360113305665186,
+              "p_old": 0.00013733591329032063
+            },
+            {
+              "target_new": 7.935050964355469,
+              "target_true": 8.34749984741211,
+              "prompt": "B-1 Lancer is a product of",
+              "p_new": 0.00035797372634466186,
+              "p_old": 0.00023698828524137302
+            },
+            {
+              "target_new": 0.6163118481636047,
+              "target_true": 12.221845626831055,
+              "prompt": "Boeing 747 is produced by",
+              "p_new": 0.5399321215470614,
+              "p_old": 4.921753803604483e-06
+            },
+            {
+              "target_new": 0.5186737775802612,
+              "target_true": 10.60254955291748,
+              "prompt": "Boeing 777, developed by",
+              "p_new": 0.5953095375220803,
+              "p_old": 2.485256595719675e-05
+            },
+            {
+              "target_new": 2.1384940147399902,
+              "target_true": 10.617634773254395,
+              "prompt": "Boeing Vertol CH-47 Chinook is a product of",
+              "p_new": 0.11783216296823824,
+              "p_old": 2.4480473131141768e-05
+            },
+            {
+              "target_new": 0.7509858012199402,
+              "target_true": 9.369648933410645,
+              "prompt": "Boeing 737 MAX, created by",
+              "p_new": 0.47190112266552403,
+              "p_old": 8.527331977918005e-05
+            },
+            {
+              "target_new": 1.7036446332931519,
+              "target_true": 11.638065338134766,
+              "prompt": "C-17 Globemaster III, produced by",
+              "p_new": 0.1820189214509254,
+              "p_old": 8.823734735825403e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "8947": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 7.220404624938965,
+              "target_true": 0.6163766980171204,
+              "prompt": "iPod was developed by",
+              "p_new": 0.0007315063732691565,
+              "p_old": 0.5398971081633893
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 7.269396781921387,
+              "target_true": 3.0082266330718994,
+              "prompt": "20 on the Top Heatseekers chart and No. iPod, created by",
+              "p_new": 0.0006965320277725963,
+              "p_old": 0.049379168546224456
+            },
+            {
+              "target_new": 4.58587646484375,
+              "target_true": 3.3822824954986572,
+              "prompt": "Morav\u010de became a municipality in 1994. iPod is developed by",
+              "p_new": 0.010194810477853122,
+              "p_old": 0.03396983019495864
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 3.743593215942383,
+              "target_true": 6.069283962249756,
+              "prompt": "DiskCopy is a product of",
+              "p_new": 0.023668902672729614,
+              "p_old": 0.0023128286904905895
+            },
+            {
+              "target_new": 5.083083152770996,
+              "target_true": 5.180624961853027,
+              "prompt": "Apple USB Mouse is created by",
+              "p_new": 0.0062007616185680205,
+              "p_old": 0.005624490223943367
+            },
+            {
+              "target_new": 5.66111421585083,
+              "target_true": 0.8855432271957397,
+              "prompt": "Macintosh Quadra 800, a product developed by",
+              "p_new": 0.0034786387836124874,
+              "p_old": 0.41249003660013883
+            },
+            {
+              "target_new": 2.8162784576416016,
+              "target_true": 1.1893751621246338,
+              "prompt": "Apple Mouse, a product of",
+              "p_new": 0.059828182029566766,
+              "p_old": 0.30441141243474934
+            },
+            {
+              "target_new": 6.2677764892578125,
+              "target_true": 5.877781867980957,
+              "prompt": "Apple HD SC Setup, created by",
+              "p_new": 0.0018964406548492754,
+              "p_old": 0.0028009913581530385
+            },
+            {
+              "target_new": 3.9882164001464844,
+              "target_true": 2.4470648765563965,
+              "prompt": "Apple Pro Mouse is developed by",
+              "p_new": 0.01853273965062424,
+              "p_old": 0.08654724089952404
+            },
+            {
+              "target_new": 4.725129127502441,
+              "target_true": 2.5673716068267822,
+              "prompt": "Apple HD SC Setup, a product manufactured by",
+              "p_new": 0.008869568530747763,
+              "p_old": 0.07673697553180829
+            },
+            {
+              "target_new": 5.502647876739502,
+              "target_true": 1.6212716102600098,
+              "prompt": "Macintosh Quadra 800 was created by",
+              "p_new": 0.004075964485486392,
+              "p_old": 0.19764720899999083
+            },
+            {
+              "target_new": 4.077280044555664,
+              "target_true": 3.182349443435669,
+              "prompt": "Apple Wireless Mouse was created by",
+              "p_new": 0.016953515804747635,
+              "p_old": 0.041488066660904176
+            },
+            {
+              "target_new": 6.639954566955566,
+              "target_true": 6.3129987716674805,
+              "prompt": "Podcast Capture is created by",
+              "p_new": 0.0013070866274122103,
+              "p_old": 0.0018125895389285085
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.6467128992080688,
+              "target_true": 4.433212757110596,
+              "prompt": "Windows 9x was created by",
+              "p_new": 0.523764617300604,
+              "p_old": 0.011876272735115717
+            },
+            {
+              "target_new": 2.6705775260925293,
+              "target_true": 3.7660861015319824,
+              "prompt": "Windows Embedded Compact, a product created by",
+              "p_new": 0.06921224188910967,
+              "p_old": 0.0231424635156675
+            },
+            {
+              "target_new": 0.18912018835544586,
+              "target_true": 5.302062034606934,
+              "prompt": "Visual Basic for Applications, a product manufactured by",
+              "p_new": 0.8276870223743819,
+              "p_old": 0.0049813116723355
+            },
+            {
+              "target_new": 7.592714309692383,
+              "target_true": 8.650707244873047,
+              "prompt": "F# is created by",
+              "p_new": 0.0005041108822165624,
+              "p_old": 0.00017500303438065654
+            },
+            {
+              "target_new": 1.0185784101486206,
+              "target_true": 7.089839935302734,
+              "prompt": "ASP.NET MVC Framework was a product of",
+              "p_new": 0.3611079228195579,
+              "p_old": 0.0008335307737804087
+            },
+            {
+              "target_new": 1.6105610132217407,
+              "target_true": 4.699575424194336,
+              "prompt": "Windows 2.0 is a product of",
+              "p_new": 0.19977550593080212,
+              "p_old": 0.009099139556193351
+            },
+            {
+              "target_new": 0.32237690687179565,
+              "target_true": 8.018848419189453,
+              "prompt": "Microsoft Office 2007 was developed by",
+              "p_new": 0.7244250980703972,
+              "p_old": 0.0003291989037565768
+            },
+            {
+              "target_new": 3.1311066150665283,
+              "target_true": 4.93576192855835,
+              "prompt": "Rich Text Format was developed by",
+              "p_new": 0.04366944523810388,
+              "p_old": 0.007184984414981665
+            },
+            {
+              "target_new": 0.22313754260540009,
+              "target_true": 6.732693672180176,
+              "prompt": "Microsoft Silverlight is created by",
+              "p_new": 0.8000048069814896,
+              "p_old": 0.0011913196077427853
+            },
+            {
+              "target_new": 2.3512024879455566,
+              "target_true": 4.341813087463379,
+              "prompt": "JScript is developed by",
+              "p_new": 0.09525455087079827,
+              "p_old": 0.013012913252041349
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 80.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        8947
+      ],
+      "evaluations": {
+        "5837": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 14.077244758605957,
+              "target_true": 12.061339378356934,
+              "prompt": "iPod, created by",
+              "p_new": 7.697155864290109e-07,
+              "p_old": 5.778656288429845e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 13.756125450134277,
+              "target_true": 12.155238151550293,
+              "prompt": "It has six lecture theatres. iPod, produced by",
+              "p_new": 1.061183832262082e-06,
+              "p_old": 5.260743709606016e-06
+            },
+            {
+              "target_new": 13.693460464477539,
+              "target_true": 12.709293365478516,
+              "prompt": "Put weigh on developing human resources for the future research. iPod, developed by",
+              "p_new": 1.1298106965199321e-06,
+              "p_old": 3.022901683627942e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.429293632507324,
+              "target_true": 3.234220266342163,
+              "prompt": "iPhone\u00a07 Plus is produced by",
+              "p_new": 2.9553935778503934e-05,
+              "p_old": 0.03939090738498657
+            },
+            {
+              "target_new": 9.04122257232666,
+              "target_true": 3.5986745357513428,
+              "prompt": "iPhone\u00a08 is created by",
+              "p_new": 0.00011842596360775238,
+              "p_old": 0.02735996307706044
+            },
+            {
+              "target_new": 9.845226287841797,
+              "target_true": 1.3669105768203735,
+              "prompt": "iPhone 11 Pro Max is a product of",
+              "p_new": 5.2999594899777015e-05,
+              "p_old": 0.25489321739998416
+            },
+            {
+              "target_new": 9.265012741088867,
+              "target_true": 2.167529582977295,
+              "prompt": "iPhone\u00a07 Plus, created by",
+              "p_new": 9.467952965266906e-05,
+              "p_old": 0.11446003193707843
+            },
+            {
+              "target_new": 14.58180046081543,
+              "target_true": 11.483166694641113,
+              "prompt": "iPod Touch is a product of",
+              "p_new": 4.647340823663965e-07,
+              "p_old": 1.0302059877249972e-05
+            },
+            {
+              "target_new": 9.309852600097656,
+              "target_true": 2.8146729469299316,
+              "prompt": "iPhone\u00a08 Plus, produced by",
+              "p_new": 9.052788799407146e-05,
+              "p_old": 0.059924313966452515
+            },
+            {
+              "target_new": 10.184632301330566,
+              "target_true": 1.2966262102127075,
+              "prompt": "iPhone XS Max is a product of",
+              "p_new": 3.774595269741281e-05,
+              "p_old": 0.2734528108006104
+            },
+            {
+              "target_new": 8.530014991760254,
+              "target_true": 1.4643642902374268,
+              "prompt": "iPhone 11 Pro Max, created by",
+              "p_new": 0.00019745200974939845,
+              "p_old": 0.23122493671474045
+            },
+            {
+              "target_new": 10.30340576171875,
+              "target_true": 0.9191829562187195,
+              "prompt": "iPhone X, produced by",
+              "p_new": 3.351874371511516e-05,
+              "p_old": 0.3988447816427819
+            },
+            {
+              "target_new": 8.301992416381836,
+              "target_true": 4.200046539306641,
+              "prompt": "iPhone SE (2nd generation), produced by",
+              "p_new": 0.00024802217105450967,
+              "p_old": 0.014994878952969066
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 1.1074494123458862,
+              "target_true": 8.951398849487305,
+              "prompt": "Boeing 737 is created by",
+              "p_new": 0.33040060297705715,
+              "p_old": 0.00012955580416030606
+            },
+            {
+              "target_new": 0.24378971755504608,
+              "target_true": 13.226386070251465,
+              "prompt": "Boeing 737 is developed by",
+              "p_new": 0.7836524052818057,
+              "p_old": 1.8024096925706869e-06
+            },
+            {
+              "target_new": 1.2805880308151245,
+              "target_true": 11.825507164001465,
+              "prompt": "C-17 Globemaster III is developed by",
+              "p_new": 0.277873854013255,
+              "p_old": 7.31555859100122e-06
+            },
+            {
+              "target_new": 9.053865432739258,
+              "target_true": 8.903825759887695,
+              "prompt": "Unity is produced by",
+              "p_new": 0.00011693814563602075,
+              "p_old": 0.00013586813205038835
+            },
+            {
+              "target_new": 7.687645435333252,
+              "target_true": 8.33275032043457,
+              "prompt": "B-1 Lancer is a product of",
+              "p_new": 0.00045845636705975546,
+              "p_old": 0.00024050965578395388
+            },
+            {
+              "target_new": 0.5343054533004761,
+              "target_true": 12.858563423156738,
+              "prompt": "Boeing 747 is produced by",
+              "p_new": 0.5860762061119895,
+              "p_old": 2.603735474277749e-06
+            },
+            {
+              "target_new": 0.4697946310043335,
+              "target_true": 10.96248722076416,
+              "prompt": "Boeing 777, developed by",
+              "p_new": 0.6251306375519101,
+              "p_old": 1.734012772426983e-05
+            },
+            {
+              "target_new": 2.0092597007751465,
+              "target_true": 10.863964080810547,
+              "prompt": "Boeing Vertol CH-47 Chinook is a product of",
+              "p_new": 0.1340879031056371,
+              "p_old": 1.913552350777354e-05
+            },
+            {
+              "target_new": 0.6331658959388733,
+              "target_true": 9.660120964050293,
+              "prompt": "Boeing 737 MAX, created by",
+              "p_new": 0.5309083370289963,
+              "p_old": 6.3776806764079e-05
+            },
+            {
+              "target_new": 1.6176329851150513,
+              "target_true": 11.7592134475708,
+              "prompt": "C-17 Globemaster III, produced by",
+              "p_new": 0.19836768307713729,
+              "p_old": 7.81697077350546e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "8947": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.011677717790007591,
+              "target_true": 12.562993049621582,
+              "prompt": "iPod was developed by",
+              "p_new": 0.9883902021161364,
+              "p_old": 3.4991409948957093e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.018356911838054657,
+              "target_true": 11.935526847839355,
+              "prompt": "20 on the Top Heatseekers chart and No. iPod, created by",
+              "p_new": 0.9818105500083465,
+              "p_old": 6.553398107285113e-06
+            },
+            {
+              "target_new": 0.013622651807963848,
+              "target_true": 14.758480072021484,
+              "prompt": "Morav\u010de became a municipality in 1994. iPod is developed by",
+              "p_new": 0.9864697166032245,
+              "p_old": 3.894695810875811e-07
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 3.3789498805999756,
+              "target_true": 6.006471633911133,
+              "prompt": "DiskCopy is a product of",
+              "p_new": 0.03408322740683879,
+              "p_old": 0.0024627623958335064
+            },
+            {
+              "target_new": 2.5153896808624268,
+              "target_true": 4.759284973144531,
+              "prompt": "Apple USB Mouse is created by",
+              "p_new": 0.08083140761610332,
+              "p_old": 0.008571736228414012
+            },
+            {
+              "target_new": 4.0429463386535645,
+              "target_true": 1.0704607963562012,
+              "prompt": "Macintosh Quadra 800, a product developed by",
+              "p_new": 0.01754570060853061,
+              "p_old": 0.3428504967542034
+            },
+            {
+              "target_new": 0.2768484652042389,
+              "target_true": 3.8813915252685547,
+              "prompt": "Apple Mouse, a product of",
+              "p_new": 0.7581693774478682,
+              "p_old": 0.020622109020921077
+            },
+            {
+              "target_new": 5.033312797546387,
+              "target_true": 5.6638336181640625,
+              "prompt": "Apple HD SC Setup, created by",
+              "p_new": 0.0065171846558512644,
+              "p_old": 0.0034691918161318517
+            },
+            {
+              "target_new": 1.5570718050003052,
+              "target_true": 3.0799875259399414,
+              "prompt": "Apple Pro Mouse is developed by",
+              "p_new": 0.21075229236126408,
+              "p_old": 0.04595982995114759
+            },
+            {
+              "target_new": 3.34285306930542,
+              "target_true": 2.817263126373291,
+              "prompt": "Apple HD SC Setup, a product manufactured by",
+              "p_new": 0.0353359977166758,
+              "p_old": 0.05976930008381137
+            },
+            {
+              "target_new": 3.92452335357666,
+              "target_true": 1.4946484565734863,
+              "prompt": "Macintosh Quadra 800 was created by",
+              "p_new": 0.01975154913340395,
+              "p_old": 0.22432745171169016
+            },
+            {
+              "target_new": 1.8702518939971924,
+              "target_true": 3.1299326419830322,
+              "prompt": "Apple Wireless Mouse was created by",
+              "p_new": 0.15408484387910268,
+              "p_old": 0.04372074209605837
+            },
+            {
+              "target_new": 6.526591777801514,
+              "target_true": 6.323652744293213,
+              "prompt": "Podcast Capture is created by",
+              "p_new": 0.00146398694943733,
+              "p_old": 0.0017933807661627348
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.545337975025177,
+              "target_true": 4.610090255737305,
+              "prompt": "Windows 9x was created by",
+              "p_new": 0.5796458444116206,
+              "p_old": 0.00995092013968255
+            },
+            {
+              "target_new": 2.951490879058838,
+              "target_true": 3.678144931793213,
+              "prompt": "Windows Embedded Compact, a product created by",
+              "p_new": 0.05226173191625687,
+              "p_old": 0.025269808600408367
+            },
+            {
+              "target_new": 0.18692508339881897,
+              "target_true": 5.4282097816467285,
+              "prompt": "Visual Basic for Applications, a product manufactured by",
+              "p_new": 0.8295058778186882,
+              "p_old": 0.0043909495290639046
+            },
+            {
+              "target_new": 6.6966962814331055,
+              "target_true": 8.562141418457031,
+              "prompt": "F# is created by",
+              "p_new": 0.0012349852140128405,
+              "p_old": 0.00019120939558659936
+            },
+            {
+              "target_new": 0.7080844044685364,
+              "target_true": 8.006882667541504,
+              "prompt": "ASP.NET MVC Framework was a product of",
+              "p_new": 0.49258689151067747,
+              "p_old": 0.00033316167758330544
+            },
+            {
+              "target_new": 1.019106388092041,
+              "target_true": 5.227137088775635,
+              "prompt": "Windows 2.0 is a product of",
+              "p_new": 0.3609173161236083,
+              "p_old": 0.005368873930735166
+            },
+            {
+              "target_new": 0.250318318605423,
+              "target_true": 8.678496360778809,
+              "prompt": "Microsoft Office 2007 was developed by",
+              "p_new": 0.7785529157447191,
+              "p_old": 0.00017020680491009463
+            },
+            {
+              "target_new": 2.699317455291748,
+              "target_true": 4.6262993812561035,
+              "prompt": "Rich Text Format was developed by",
+              "p_new": 0.06725139916482253,
+              "p_old": 0.009790924622848137
+            },
+            {
+              "target_new": 0.1334628015756607,
+              "target_true": 7.566769123077393,
+              "prompt": "Microsoft Silverlight is created by",
+              "p_new": 0.8750600192261215,
+              "p_old": 0.0005173612818895749
+            },
+            {
+              "target_new": 2.429778814315796,
+              "target_true": 4.375624179840088,
+              "prompt": "JScript is developed by",
+              "p_new": 0.08805630722309893,
+              "p_old": 0.012580287429485077
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 40.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        8947,
+        5837
+      ],
+      "evaluations": {
+        "5837": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.029176075011491776,
+              "target_true": 17.467493057250977,
+              "prompt": "iPod, created by",
+              "p_new": 0.9712454373587024,
+              "p_old": 2.593965242726573e-08
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.09205091744661331,
+              "target_true": 18.763408660888672,
+              "prompt": "It has six lecture theatres. iPod, produced by",
+              "p_new": 0.9120587086621683,
+              "p_old": 7.098313183682787e-09
+            },
+            {
+              "target_new": 0.024091361090540886,
+              "target_true": 18.285602569580078,
+              "prompt": "Put weigh on developing human resources for the future research. iPod, developed by",
+              "p_new": 0.9761965193051169,
+              "p_old": 1.1446262612933473e-08
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 5.802947998046875,
+              "target_true": 4.6253461837768555,
+              "prompt": "iPhone\u00a07 Plus is produced by",
+              "p_new": 0.003018642662755066,
+              "p_old": 0.009800261756877489
+            },
+            {
+              "target_new": 6.488227844238281,
+              "target_true": 3.397028684616089,
+              "prompt": "iPhone\u00a08 is created by",
+              "p_new": 0.0015212424993801404,
+              "p_old": 0.03347257993833839
+            },
+            {
+              "target_new": 4.695155143737793,
+              "target_true": 2.6256208419799805,
+              "prompt": "iPhone 11 Pro Max is a product of",
+              "p_new": 0.009139449329562703,
+              "p_old": 0.07239479734993885
+            },
+            {
+              "target_new": 5.245919704437256,
+              "target_true": 2.6451222896575928,
+              "prompt": "iPhone\u00a07 Plus, created by",
+              "p_new": 0.005268973567167435,
+              "p_old": 0.07099667105015328
+            },
+            {
+              "target_new": 0.3596562445163727,
+              "target_true": 14.286158561706543,
+              "prompt": "iPod Touch is a product of",
+              "p_new": 0.6979161973600884,
+              "p_old": 6.245973956675794e-07
+            },
+            {
+              "target_new": 0.629044771194458,
+              "target_true": 5.893335342407227,
+              "prompt": "iPhone\u00a08 Plus, produced by",
+              "p_new": 0.5331007910991106,
+              "p_old": 0.002757763255729622
+            },
+            {
+              "target_new": 4.314028263092041,
+              "target_true": 2.5151214599609375,
+              "prompt": "iPhone XS Max is a product of",
+              "p_new": 0.0133795445684736,
+              "p_old": 0.08085309119698755
+            },
+            {
+              "target_new": 4.177029609680176,
+              "target_true": 2.5109944343566895,
+              "prompt": "iPhone 11 Pro Max, created by",
+              "p_new": 0.015344017663422692,
+              "p_old": 0.08118746348143469
+            },
+            {
+              "target_new": 4.814357280731201,
+              "target_true": 2.503037452697754,
+              "prompt": "iPhone X, produced by",
+              "p_new": 0.008112434420605717,
+              "p_old": 0.08183604760326241
+            },
+            {
+              "target_new": 0.5314875841140747,
+              "target_true": 6.805610656738281,
+              "prompt": "iPhone SE (2nd generation), produced by",
+              "p_new": 0.5877300212170603,
+              "p_old": 0.0011075436355917731
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.57539963722229,
+              "target_true": 10.727960586547852,
+              "prompt": "Boeing 737 is created by",
+              "p_new": 0.5624800359250032,
+              "p_old": 2.192329941294844e-05
+            },
+            {
+              "target_new": 0.1434662938117981,
+              "target_true": 14.694106101989746,
+              "prompt": "Boeing 737 is developed by",
+              "p_new": 0.8663500010513012,
+              "p_old": 4.1536586529054133e-07
+            },
+            {
+              "target_new": 1.1568102836608887,
+              "target_true": 12.008979797363281,
+              "prompt": "C-17 Globemaster III is developed by",
+              "p_new": 0.3144877093225133,
+              "p_old": 6.089285556284739e-06
+            },
+            {
+              "target_new": 9.053655624389648,
+              "target_true": 9.042037963867188,
+              "prompt": "Unity is produced by",
+              "p_new": 0.00011696268280932493,
+              "p_old": 0.00011832943943669204
+            },
+            {
+              "target_new": 6.896996974945068,
+              "target_true": 8.78322696685791,
+              "prompt": "B-1 Lancer is a product of",
+              "p_new": 0.0010108163826789832,
+              "p_old": 0.0001532826482236274
+            },
+            {
+              "target_new": 0.3906242847442627,
+              "target_true": 14.89905834197998,
+              "prompt": "Boeing 747 is produced by",
+              "p_new": 0.6766343301281426,
+              "p_old": 3.383928487476714e-07
+            },
+            {
+              "target_new": 0.23426973819732666,
+              "target_true": 12.93529224395752,
+              "prompt": "Boeing 777, developed by",
+              "p_new": 0.7911483841725693,
+              "p_old": 2.4114260970491347e-06
+            },
+            {
+              "target_new": 1.5201998949050903,
+              "target_true": 11.814727783203125,
+              "prompt": "Boeing Vertol CH-47 Chinook is a product of",
+              "p_new": 0.21866817192968102,
+              "p_old": 7.394842329915944e-06
+            },
+            {
+              "target_new": 0.41810813546180725,
+              "target_true": 11.147273063659668,
+              "prompt": "Boeing 737 MAX, created by",
+              "p_new": 0.6582910399702876,
+              "p_old": 1.4414541080038585e-05
+            },
+            {
+              "target_new": 1.482841968536377,
+              "target_true": 12.03695297241211,
+              "prompt": "C-17 Globemaster III, produced by",
+              "p_new": 0.2269916676558379,
+              "p_old": 5.9213092737638785e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 70.0
+          }
+        },
+        "8947": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 10.34260368347168,
+              "target_true": 16.153228759765625,
+              "prompt": "iPod was developed by",
+              "p_new": 3.22302958297386e-05,
+              "p_old": 9.65476894226178e-08
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 11.18034839630127,
+              "target_true": 16.028419494628906,
+              "prompt": "20 on the Top Heatseekers chart and No. iPod, created by",
+              "p_new": 1.3945573717239087e-05,
+              "p_old": 1.0938199996583333e-07
+            },
+            {
+              "target_new": 12.809617042541504,
+              "target_true": 18.177536010742188,
+              "prompt": "Morav\u010de became a municipality in 1994. iPod is developed by",
+              "p_new": 2.7343493649687975e-06,
+              "p_old": 1.2752531822491486e-08
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 3.4345109462738037,
+              "target_true": 6.154064178466797,
+              "prompt": "DiskCopy is a product of",
+              "p_new": 0.03224117404323007,
+              "p_old": 0.0021248285154649438
+            },
+            {
+              "target_new": 3.6099112033843994,
+              "target_true": 5.917238235473633,
+              "prompt": "Apple USB Mouse is created by",
+              "p_new": 0.027054249085450774,
+              "p_old": 0.0026926263174542843
+            },
+            {
+              "target_new": 4.143957138061523,
+              "target_true": 2.3526742458343506,
+              "prompt": "Macintosh Quadra 800, a product developed by",
+              "p_new": 0.015859967085996792,
+              "p_old": 0.09511446234759205
+            },
+            {
+              "target_new": 4.646141052246094,
+              "target_true": 8.640353202819824,
+              "prompt": "Apple Mouse, a product of",
+              "p_new": 0.00959857093769376,
+              "p_old": 0.00017682443632212365
+            },
+            {
+              "target_new": 5.0731987953186035,
+              "target_true": 6.00722599029541,
+              "prompt": "Apple HD SC Setup, created by",
+              "p_new": 0.006262356072198031,
+              "p_old": 0.002460905295842934
+            },
+            {
+              "target_new": 2.5943775177001953,
+              "target_true": 5.5546464920043945,
+              "prompt": "Apple Pro Mouse is developed by",
+              "p_new": 0.07469235627609588,
+              "p_old": 0.003869436104438968
+            },
+            {
+              "target_new": 3.6149933338165283,
+              "target_true": 3.6131231784820557,
+              "prompt": "Apple HD SC Setup, a product manufactured by",
+              "p_new": 0.026917104650988177,
+              "p_old": 0.026967490918227595
+            },
+            {
+              "target_new": 4.367639541625977,
+              "target_true": 2.7830729484558105,
+              "prompt": "Macintosh Quadra 800 was created by",
+              "p_new": 0.012681138567355258,
+              "p_old": 0.061848158857296255
+            },
+            {
+              "target_new": 2.838233470916748,
+              "target_true": 4.766448020935059,
+              "prompt": "Apple Wireless Mouse was created by",
+              "p_new": 0.05852896781863646,
+              "p_old": 0.008510555852732573
+            },
+            {
+              "target_new": 6.486789703369141,
+              "target_true": 6.385842800140381,
+              "prompt": "Podcast Capture is created by",
+              "p_new": 0.0015234318342990435,
+              "p_old": 0.0016852475700235058
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.6118844151496887,
+              "target_true": 4.768052101135254,
+              "prompt": "Windows 9x was created by",
+              "p_new": 0.5423279345845493,
+              "p_old": 0.008496915181886429
+            },
+            {
+              "target_new": 2.8431968688964844,
+              "target_true": 3.542523145675659,
+              "prompt": "Windows Embedded Compact, a product created by",
+              "p_new": 0.05823918500662866,
+              "p_old": 0.028940214507059848
+            },
+            {
+              "target_new": 0.1940731704235077,
+              "target_true": 5.467517852783203,
+              "prompt": "Visual Basic for Applications, a product manufactured by",
+              "p_new": 0.8235976390757378,
+              "p_old": 0.004221698039733498
+            },
+            {
+              "target_new": 7.102385520935059,
+              "target_true": 8.980324745178223,
+              "prompt": "F# is created by",
+              "p_new": 0.0008231389640485774,
+              "p_old": 0.00012586196779712194
+            },
+            {
+              "target_new": 0.8418956398963928,
+              "target_true": 8.511921882629395,
+              "prompt": "ASP.NET MVC Framework was a product of",
+              "p_new": 0.43089293091250314,
+              "p_old": 0.00020105704531585072
+            },
+            {
+              "target_new": 1.4162732362747192,
+              "target_true": 5.736572265625,
+              "prompt": "Windows 2.0 is a product of",
+              "p_new": 0.24261650856917205,
+              "p_old": 0.0032258065543683627
+            },
+            {
+              "target_new": 0.3921104073524475,
+              "target_true": 8.538080215454102,
+              "prompt": "Microsoft Office 2007 was developed by",
+              "p_new": 0.6756295153765577,
+              "p_old": 0.00019586591980470455
+            },
+            {
+              "target_new": 2.7444357872009277,
+              "target_true": 4.727552890777588,
+              "prompt": "Rich Text Format was developed by",
+              "p_new": 0.06428456088641438,
+              "p_old": 0.008848096827950411
+            },
+            {
+              "target_new": 0.16154585778713226,
+              "target_true": 7.92124080657959,
+              "prompt": "Microsoft Silverlight is created by",
+              "p_new": 0.8508275135037411,
+              "p_old": 0.00036295169412891307
+            },
+            {
+              "target_new": 2.4126176834106445,
+              "target_true": 4.333769798278809,
+              "prompt": "JScript is developed by",
+              "p_new": 0.08958049401645989,
+              "p_old": 0.013118001939257495
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 40.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "5837": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.04750341922044754,
+          "target_true": 13.188939094543457,
+          "prompt": "iPod, created by",
+          "p_new": 0.9536072125337719,
+          "p_old": 1.8711841456384072e-06
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.026292435824871063,
+          "target_true": 14.480052947998047,
+          "prompt": "It has six lecture theatres. iPod, produced by",
+          "p_new": 0.9740502007809987,
+          "p_old": 5.145089182526995e-07
+        },
+        {
+          "target_new": 0.015495148487389088,
+          "target_true": 15.338233947753906,
+          "prompt": "Put weigh on developing human resources for the future research. iPod, developed by",
+          "p_new": 0.9846242836572745,
+          "p_old": 2.1811705957346835e-07
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 9.829414367675781,
+          "target_true": 3.6406662464141846,
+          "prompt": "iPhone\u00a07 Plus is produced by",
+          "p_new": 5.384428071678362e-05,
+          "p_old": 0.026234859260864597
+        },
+        {
+          "target_new": 8.187615394592285,
+          "target_true": 3.357113838195801,
+          "prompt": "iPhone\u00a08 is created by",
+          "p_new": 0.0002780761962517182,
+          "p_old": 0.03483565533278283
+        },
+        {
+          "target_new": 8.6359224319458,
+          "target_true": 1.0449029207229614,
+          "prompt": "iPhone 11 Pro Max is a product of",
+          "p_new": 0.00017760964313555456,
+          "p_old": 0.35172596302292586
+        },
+        {
+          "target_new": 8.710155487060547,
+          "target_true": 2.1126513481140137,
+          "prompt": "iPhone\u00a07 Plus, created by",
+          "p_new": 0.00016490261225735566,
+          "p_old": 0.12091694813341751
+        },
+        {
+          "target_new": 0.18146908283233643,
+          "target_true": 12.9105224609375,
+          "prompt": "iPod Touch is a product of",
+          "p_new": 0.8340440311840153,
+          "p_old": 2.4719024998930873e-06
+        },
+        {
+          "target_new": 7.761440277099609,
+          "target_true": 2.7987515926361084,
+          "prompt": "iPhone\u00a08 Plus, produced by",
+          "p_new": 0.0004258428071466017,
+          "p_old": 0.0608860257618017
+        },
+        {
+          "target_new": 8.866044044494629,
+          "target_true": 0.9910280704498291,
+          "prompt": "iPhone XS Max is a product of",
+          "p_new": 0.00014109966906598282,
+          "p_old": 0.37119488030394787
+        },
+        {
+          "target_new": 7.856719970703125,
+          "target_true": 1.4392086267471313,
+          "prompt": "iPhone 11 Pro Max, created by",
+          "p_new": 0.0003871416269762059,
+          "p_old": 0.23711533118334585
+        },
+        {
+          "target_new": 9.455440521240234,
+          "target_true": 1.1654696464538574,
+          "prompt": "iPhone X, produced by",
+          "p_new": 7.826261548834767e-05,
+          "p_old": 0.31177620305520704
+        },
+        {
+          "target_new": 7.13931941986084,
+          "target_true": 3.788527250289917,
+          "prompt": "iPhone SE (2nd generation), produced by",
+          "p_new": 0.000793291811437414,
+          "p_old": 0.02262890403406805
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 0.9680126309394836,
+          "target_true": 9.282768249511719,
+          "prompt": "Boeing 737 is created by",
+          "p_new": 0.37983716512083254,
+          "p_old": 9.301328277130375e-05
+        },
+        {
+          "target_new": 0.2421410083770752,
+          "target_true": 13.312745094299316,
+          "prompt": "Boeing 737 is developed by",
+          "p_new": 0.7849454858587315,
+          "p_old": 1.6532870598199995e-06
+        },
+        {
+          "target_new": 1.2129491567611694,
+          "target_true": 11.907970428466797,
+          "prompt": "C-17 Globemaster III is developed by",
+          "p_new": 0.2973191444224583,
+          "p_old": 6.736497489197193e-06
+        },
+        {
+          "target_new": 9.043455123901367,
+          "target_true": 8.863866806030273,
+          "prompt": "Unity is produced by",
+          "p_new": 0.00011816186645116975,
+          "p_old": 0.0001414072113677569
+        },
+        {
+          "target_new": 7.333773136138916,
+          "target_true": 8.498979568481445,
+          "prompt": "B-1 Lancer is a product of",
+          "p_new": 0.000653104679423891,
+          "p_old": 0.00020367610051727437
+        },
+        {
+          "target_new": 0.5451076030731201,
+          "target_true": 13.059123992919922,
+          "prompt": "Boeing 747 is produced by",
+          "p_new": 0.5797793939387414,
+          "p_old": 2.130563641300349e-06
+        },
+        {
+          "target_new": 0.4083329737186432,
+          "target_true": 11.405308723449707,
+          "prompt": "Boeing 777, developed by",
+          "p_new": 0.664757495191812,
+          "p_old": 1.1136208589506527e-05
+        },
+        {
+          "target_new": 1.9217396974563599,
+          "target_true": 11.119256019592285,
+          "prompt": "Boeing Vertol CH-47 Chinook is a product of",
+          "p_new": 0.14635213209909717,
+          "p_old": 1.4824104500509834e-05
+        },
+        {
+          "target_new": 0.5772256255149841,
+          "target_true": 9.968267440795898,
+          "prompt": "Boeing 737 MAX, created by",
+          "p_new": 0.561453891113853,
+          "p_old": 4.686368728146099e-05
+        },
+        {
+          "target_new": 1.5335257053375244,
+          "target_true": 11.840638160705566,
+          "prompt": "C-17 Globemaster III, produced by",
+          "p_new": 0.21577357061163874,
+          "p_old": 7.20570012806544e-06
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 90.0
+      }
+    },
+    "8947": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.011677717790007591,
+          "target_true": 12.562993049621582,
+          "prompt": "iPod was developed by",
+          "p_new": 0.9883902021161364,
+          "p_old": 3.4991409948957093e-06
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.018356911838054657,
+          "target_true": 11.935526847839355,
+          "prompt": "20 on the Top Heatseekers chart and No. iPod, created by",
+          "p_new": 0.9818105500083465,
+          "p_old": 6.553398107285113e-06
+        },
+        {
+          "target_new": 0.013622651807963848,
+          "target_true": 14.758480072021484,
+          "prompt": "Morav\u010de became a municipality in 1994. iPod is developed by",
+          "p_new": 0.9864697166032245,
+          "p_old": 3.894695810875811e-07
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 3.3789498805999756,
+          "target_true": 6.006471633911133,
+          "prompt": "DiskCopy is a product of",
+          "p_new": 0.03408322740683879,
+          "p_old": 0.0024627623958335064
+        },
+        {
+          "target_new": 2.5153896808624268,
+          "target_true": 4.759284973144531,
+          "prompt": "Apple USB Mouse is created by",
+          "p_new": 0.08083140761610332,
+          "p_old": 0.008571736228414012
+        },
+        {
+          "target_new": 4.0429463386535645,
+          "target_true": 1.0704607963562012,
+          "prompt": "Macintosh Quadra 800, a product developed by",
+          "p_new": 0.01754570060853061,
+          "p_old": 0.3428504967542034
+        },
+        {
+          "target_new": 0.2768484652042389,
+          "target_true": 3.8813915252685547,
+          "prompt": "Apple Mouse, a product of",
+          "p_new": 0.7581693774478682,
+          "p_old": 0.020622109020921077
+        },
+        {
+          "target_new": 5.033312797546387,
+          "target_true": 5.6638336181640625,
+          "prompt": "Apple HD SC Setup, created by",
+          "p_new": 0.0065171846558512644,
+          "p_old": 0.0034691918161318517
+        },
+        {
+          "target_new": 1.5570718050003052,
+          "target_true": 3.0799875259399414,
+          "prompt": "Apple Pro Mouse is developed by",
+          "p_new": 0.21075229236126408,
+          "p_old": 0.04595982995114759
+        },
+        {
+          "target_new": 3.34285306930542,
+          "target_true": 2.817263126373291,
+          "prompt": "Apple HD SC Setup, a product manufactured by",
+          "p_new": 0.0353359977166758,
+          "p_old": 0.05976930008381137
+        },
+        {
+          "target_new": 3.92452335357666,
+          "target_true": 1.4946484565734863,
+          "prompt": "Macintosh Quadra 800 was created by",
+          "p_new": 0.01975154913340395,
+          "p_old": 0.22432745171169016
+        },
+        {
+          "target_new": 1.8702518939971924,
+          "target_true": 3.1299326419830322,
+          "prompt": "Apple Wireless Mouse was created by",
+          "p_new": 0.15408484387910268,
+          "p_old": 0.04372074209605837
+        },
+        {
+          "target_new": 6.526591777801514,
+          "target_true": 6.323652744293213,
+          "prompt": "Podcast Capture is created by",
+          "p_new": 0.00146398694943733,
+          "p_old": 0.0017933807661627348
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 0.545337975025177,
+          "target_true": 4.610090255737305,
+          "prompt": "Windows 9x was created by",
+          "p_new": 0.5796458444116206,
+          "p_old": 0.00995092013968255
+        },
+        {
+          "target_new": 2.951490879058838,
+          "target_true": 3.678144931793213,
+          "prompt": "Windows Embedded Compact, a product created by",
+          "p_new": 0.05226173191625687,
+          "p_old": 0.025269808600408367
+        },
+        {
+          "target_new": 0.18692508339881897,
+          "target_true": 5.4282097816467285,
+          "prompt": "Visual Basic for Applications, a product manufactured by",
+          "p_new": 0.8295058778186882,
+          "p_old": 0.0043909495290639046
+        },
+        {
+          "target_new": 6.6966962814331055,
+          "target_true": 8.562141418457031,
+          "prompt": "F# is created by",
+          "p_new": 0.0012349852140128405,
+          "p_old": 0.00019120939558659936
+        },
+        {
+          "target_new": 0.7080844044685364,
+          "target_true": 8.006882667541504,
+          "prompt": "ASP.NET MVC Framework was a product of",
+          "p_new": 0.49258689151067747,
+          "p_old": 0.00033316167758330544
+        },
+        {
+          "target_new": 1.019106388092041,
+          "target_true": 5.227137088775635,
+          "prompt": "Windows 2.0 is a product of",
+          "p_new": 0.3609173161236083,
+          "p_old": 0.005368873930735166
+        },
+        {
+          "target_new": 0.250318318605423,
+          "target_true": 8.678496360778809,
+          "prompt": "Microsoft Office 2007 was developed by",
+          "p_new": 0.7785529157447191,
+          "p_old": 0.00017020680491009463
+        },
+        {
+          "target_new": 2.699317455291748,
+          "target_true": 4.6262993812561035,
+          "prompt": "Rich Text Format was developed by",
+          "p_new": 0.06725139916482253,
+          "p_old": 0.009790924622848137
+        },
+        {
+          "target_new": 0.1334628015756607,
+          "target_true": 7.566769123077393,
+          "prompt": "Microsoft Silverlight is created by",
+          "p_new": 0.8750600192261215,
+          "p_old": 0.0005173612818895749
+        },
+        {
+          "target_new": 2.429778814315796,
+          "target_true": 4.375624179840088,
+          "prompt": "JScript is developed by",
+          "p_new": 0.08805630722309893,
+          "p_old": 0.012580287429485077
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 40.0
+      }
+    }
+  },
+  "seeds": {
+    "5837": 5869,
+    "8947": 8979
+  },
+  "edit_seconds": [
+    2.69441927999992,
+    2.686603185000081
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "8947": true,
+      "5837": true
+    },
+    "eligible_prior_case_ids": [
+      8947
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 13.096038023999995,
+  "completed_at_utc": "2026-11-24T21:18:36.111807+00:00"
+}

@@ -25,4 +25,4 @@ Speaker notes: For pairs, the sequences are A then B and B then A. Longer groups
 - Check identity, stage coverage, source/configuration hashes on resume
 - Show progress and export reproducible raw evidence
 
-Speaker notes: Historical pilot scores lack raw prompt evidence. New results are not claimed until the GPU run and independent saved-result verifier pass. The explicit per-edit seeds are a documented change from the old pilot.
+Speaker notes: The November 24 A100 40GB run completed all 40 group/order records and passed local re-verification after export. Both-held counts were 15/20 forward and 16/20 reverse; all archived forward scores matched. These are descriptive pilot findings, not evidence of a significant order advantage. The explicit per-edit seeds and GPU memory variant are documented differences from the old pilot. Three- and four-edit GPU experiments remain outside this verification run.

@@ -2,13 +2,15 @@
 
 ## Status
 
-Implemented and CPU-tested. GPU pilot verification is pending until the notebook completes and `verify_multi_results.py` passes on the exported run. No new experimental scores are claimed here. Existing `results/multi_pilot/` is preserved as historical, score-only evidence.
+Completed November 24, 2026 on an NVIDIA A100-SXM4-40GB. All 20 pilot groups ran in both orders (40 results); the five-group resume check preserved all result hashes. The exported files passed the verifier again locally. Forward both-held: 15/20 (75%); reverse: 16/20 (80%). First-edit loss: 5/20 forward and 4/20 reverse, with all 20 first edits initially successful in each order. All archived forward-stage ES/PS/NS values match exactly. See [verification record](FINAL_VERIFICATION.md), [raw results](../results/multi_pilot_verified_20261124/), and [executed notebook](../notebooks/archive/Executed_Final_Multi_Edit.ipynb). Existing `results/multi_pilot/` is preserved as historical, score-only evidence. GPU verification covered two-edit groups; 3–4-edit protocol coverage is CPU-tested, not claimed as a completed GPU experiment.
 
 ## Run in Colab
 
 Open `notebooks/Group32_Final_Multi_Edit.ipynb`, select an NVIDIA GPU (prefer A100 to match the old pilot), and run top to bottom. The notebook clones the implementation branch, installs the pinned environment, mounts Drive, and stages 1, 5, and 20 groups in both orders. Each stage verifies its outputs before continuing. Downloads include CounterFact, GPT-2 XL, and official covariance statistics; no dataset upload is needed.
 
 Use a new Drive output folder for this schema. Do not reuse `results/multi_pilot` or the old baseline output. If the runtime disconnects, rerun setup and select the SAME source commit, GPU, package versions, groups, and output folder. A changed environment is deliberately rejected. A partial group/order restarts from original weights. Verified finished group/orders are reused. An advisory lock prevents concurrent writers to the same folder.
+
+To reproduce this exact completed run, use experiment commit `44907cdcfa0fc0c0c4cc7026deca1c754cf9c2d5`, as recorded in the result folder. Later documentation/result commits do not change that recorded provenance.
 
 ## Nico: expanded groups
 

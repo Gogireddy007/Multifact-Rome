@@ -1,3 +1,9 @@
+## Final-phase multi-edit implementation
+
+See [Nico’s handoff](docs/FINAL_PHASE_HANDOFF.md) and [the complete Colab notebook](notebooks/Group32_Final_Multi_Edit.ipynb). Supports 2–4 edits, both orders, raw prompt scores, independent controls, validation and resume. **GPU verification is pending; no new experimental results are claimed.**
+
+Rohith’s [report section](docs/ROHITH_REPORT_SECTION.md) and [method/setup slides](docs/ROHITH_SLIDES.md) distinguish implemented behavior from verified GPU results.
+
 # NLP 544 — Group 32 ROME baseline
 
 Rohith's completed single-edit baseline and shared setup for the team's model-editing project. The supplied run completed 200 independent CounterFact edits on GPT-2 XL with a Tesla T4.

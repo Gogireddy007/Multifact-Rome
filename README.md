@@ -98,3 +98,69 @@ The script reads CounterFact only to verify that every `case_id` belongs to its 
 ## Team scope
 
 Rohith: shared setup and single-edit baseline. Soham: causal tracing. Arin: related-fact grouping. Nico: multi-edit pilot. Yuga: comparison/slides. This repository delivers the baseline and reusable setup; it does not claim the team's multi-edit or causal-tracing experiments are finished.
+
+## What is in `groups_v2.json`
+
+`results/related_groups/groups_v2.json` holds the larger set of fact groups: 141 groups, one subject each, with no pilot subjects.
+
+### Top-level keys
+
+| Key | What it holds |
+|---|---|
+| `dataset_sha256` | Fingerprint of the `counterfact.json` used |
+| `seed` | Random seed (32). Same data and script give the same groups |
+| `label_rule` | Definition of `similar`, `related` and `distinct` |
+| `clusters` | Cluster name to relation IDs, for example `language` to P1412, P103, P37, P364, P407 |
+| `domains` | Cluster name to broader domain, for example `life_place` and `citizenship` to `geography` |
+| `excluded_pilot_subjects` | The 20 pilot subjects left out |
+| `groups` | The list of groups |
+
+### One group
+
+```json
+{
+  "group_id": "g121",
+  "subject": "Sesamstraat",
+  "size": 3,
+  "case_ids": [5596, 21197, 13694],
+  "relation_ids": ["P407", "P495", "P364"],
+  "pair_labels": [
+    {"a": 0, "b": 1, "label": "distinct"},
+    {"a": 0, "b": 2, "label": "similar"},
+    {"a": 1, "b": 2, "label": "distinct"}
+  ]
+}
+```
+
+- `group_id`: g001 to g141.
+- `subject`: the entity every fact in the group is about.
+- `size`: number of edits in the group.
+- `case_ids`: CounterFact `case_id` values, not list positions. Prompts and old and new answers are not copied here; look them up in `counterfact.json`. The listed order is the default edit order (A, then B).
+- `relation_ids`: Wikidata property codes, in the same order as `case_ids`.
+- `pair_labels`: one entry per pair of facts (1, 3 or 6 entries for 2, 3 or 4 edits). `a` and `b` are positions in `case_ids`, counted from 0.
+
+### Labels
+
+- `similar`: both relations are in the same cluster.
+- `related`: same domain, different cluster.
+- `distinct`: different domains.
+
+The cluster table is hand-made.
+
+### Counts
+
+| Group IDs | Edits per group | Groups | Similar pairs | Related pairs | Distinct pairs |
+|---|---|---|---|---|---|
+| g001 to g120 | 2 | 120 | 40 | 40 | 40 |
+| g121 to g132 | 3 | 12 | 6 | 0 | 30 |
+| g133 to g141 | 4 | 9 | 11 | 0 | 43 |
+
+The 2-edit groups were balanced on purpose. The 3 and 4-edit groups have no `related` pairs.
+
+`run_multi_edit.py` currently reads only `pilot_groups.json` and handles two edits, so it needs changes to run this file.
+
+Regenerate with:
+
+```bash
+python3 scripts/build_groups_v2.py path/to/counterfact.json
+```

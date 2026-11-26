@@ -1,0 +1,1574 @@
+{
+  "schema": 2,
+  "group": {
+    "subject": "Renault Trucks",
+    "case_ids": [
+      2130,
+      15759
+    ],
+    "group_id": "group_004"
+  },
+  "order": "forward",
+  "edit_order": [
+    2130,
+    15759
+  ],
+  "facts": {
+    "2130": {
+      "case_id": 2130,
+      "requested_rewrite": {
+        "prompt": "{} is owned by",
+        "relation_id": "P127",
+        "target_new": {
+          "str": "BBC",
+          "id": "Q9531"
+        },
+        "target_true": {
+          "str": "Volvo",
+          "id": "Q163810"
+        },
+        "subject": "Renault Trucks"
+      },
+      "prompts": {
+        "rewrite": [
+          "Renault Trucks is owned by"
+        ],
+        "paraphrase": [
+          "The population was 699 as of 2013. Renault Trucks, from",
+          "Island of Ireland Peace Park Messines, Belgium. Renault Trucks, by"
+        ],
+        "neighborhood": [
+          "Usine Renault Trucks de Bourg-en-Bresse, by",
+          "Volvo Uddevalla factory owner",
+          "White Motor Company's owner",
+          "Volvo Trademark Holding is owned by",
+          "Nova Bus's owner",
+          "Volvo Trucks is from",
+          "Nova Bus is from",
+          "Volvo Trademark Holding, from",
+          "Volvo Trademark Holding owner",
+          "UD Trucks is from"
+        ],
+        "attribute": [
+          "BBC Radio 2's owner",
+          "BBC News's owner",
+          "BBC Radio 4 Extra's owner",
+          "BBC News is from",
+          "BBC World Service owner",
+          "BBC News, by",
+          "BBC Radio 3 is owned by",
+          "BBC Radio 1, by",
+          "Broadcasting House, from",
+          "BBC Radio 1, from"
+        ]
+      }
+    },
+    "15759": {
+      "case_id": 15759,
+      "requested_rewrite": {
+        "prompt": "{} is headquartered in",
+        "relation_id": "P159",
+        "target_new": {
+          "str": "Paris",
+          "id": "Q90"
+        },
+        "target_true": {
+          "str": "Lyon",
+          "id": "Q456"
+        },
+        "subject": "Renault Trucks"
+      },
+      "prompts": {
+        "rewrite": [
+          "Renault Trucks is headquartered in"
+        ],
+        "paraphrase": [
+          "TV3 Article, Video. Renault Trucks is based in",
+          "It is built of rubble masonry and lime mortar. The headquarter of Renault Trucks is in"
+        ],
+        "neighborhood": [
+          "The headquarter of Framasoft is in",
+          "Institut National de Police Scientifique, whose headquarters are in",
+          "Ecclesiastical Province of Lyon is based in",
+          "Objectif Rh\u00f4ne-Alpes (2007), whose headquarters are in",
+          "The headquarter of France 3 Rh\u00f4ne-Alpes is in",
+          "The headquarter of Norbert Dentressangle is located in",
+          "Norbert Dentressangle is based in",
+          "Fondation M\u00e9rieux is based in",
+          "Decitre's headquarters are in",
+          "French Federation of Speleology, whose headquarters are in"
+        ],
+        "attribute": [
+          "Constructions industrielles de la M\u00e9diterran\u00e9e is headquartered in",
+          "The headquarter of RATP is in",
+          "Gameloft's headquarters are in",
+          "The headquarter of Gobelins Tapestry Manufactory is located in",
+          "Veolia Water is based in",
+          "The headquarters of Financial Action Task Force on Money Laundering is in",
+          "The headquarters of Panth\u00e9on-Assas University is in",
+          "The New York Times International Edition is based in",
+          "Constructions industrielles de la M\u00e9diterran\u00e9e is based in",
+          "The headquarters of Veolia Water is in"
+        ]
+      }
+    }
+  },
+  "run_key": "b908f54972fd42f2a172183ed512c9d59a83b4dc2f86eaa9a3bae2d211fcee79",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "2130": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 14.283914566040039,
+              "target_true": 6.5787482261657715,
+              "prompt": "Renault Trucks is owned by",
+              "p_new": 6.260005632789806e-07,
+              "p_old": 0.001389587656059612
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 11.421972274780273,
+              "target_true": 8.093698501586914,
+              "prompt": "The population was 699 as of 2013. Renault Trucks, from",
+              "p_new": 1.0952177371243162e-05,
+              "p_old": 0.0003054579287545639
+            },
+            {
+              "target_new": 9.818924903869629,
+              "target_true": 7.368983268737793,
+              "prompt": "Island of Ireland Peace Park Messines, Belgium. Renault Trucks, by",
+              "p_new": 5.4412050947256044e-05,
+              "p_old": 0.0006305089114374363
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.948972702026367,
+              "target_true": 7.714616775512695,
+              "prompt": "Usine Renault Trucks de Bourg-en-Bresse, by",
+              "p_new": 1.7576061882666928e-05,
+              "p_old": 0.00044625644807247216
+            },
+            {
+              "target_new": 12.253081321716309,
+              "target_true": 7.862483024597168,
+              "prompt": "Volvo Uddevalla factory owner",
+              "p_new": 4.770395598932153e-06,
+              "p_old": 0.0003849169256096263
+            },
+            {
+              "target_new": 14.091306686401367,
+              "target_true": 12.87070083618164,
+              "prompt": "White Motor Company's owner",
+              "p_new": 7.589676469099653e-07,
+              "p_old": 2.572323874817461e-06
+            },
+            {
+              "target_new": 12.590042114257812,
+              "target_true": 1.2453186511993408,
+              "prompt": "Volvo Trademark Holding is owned by",
+              "p_new": 3.4057611165306433e-06,
+              "p_old": 0.28784917003205895
+            },
+            {
+              "target_new": 11.851611137390137,
+              "target_true": 11.213476181030273,
+              "prompt": "Nova Bus's owner",
+              "p_new": 7.127064371742439e-06,
+              "p_old": 1.3491156233124159e-05
+            },
+            {
+              "target_new": 11.444440841674805,
+              "target_true": 4.251835823059082,
+              "prompt": "Volvo Trucks is from",
+              "p_new": 1.0708841581550418e-05,
+              "p_old": 0.01423807132175731
+            },
+            {
+              "target_new": 10.012971878051758,
+              "target_true": 10.220131874084473,
+              "prompt": "Nova Bus is from",
+              "p_new": 4.4814810661649484e-05,
+              "p_old": 3.6429492637798413e-05
+            },
+            {
+              "target_new": 11.229716300964355,
+              "target_true": 5.48430061340332,
+              "prompt": "Volvo Trademark Holding, from",
+              "p_new": 1.3273827734811892e-05,
+              "p_old": 0.0041514375239606995
+            },
+            {
+              "target_new": 11.490080833435059,
+              "target_true": 3.2569046020507812,
+              "prompt": "Volvo Trademark Holding owner",
+              "p_new": 1.023107568545716e-05,
+              "p_old": 0.03850740948494988
+            },
+            {
+              "target_new": 10.363256454467773,
+              "target_true": 8.096538543701172,
+              "prompt": "UD Trucks is from",
+              "p_new": 3.157147753982762e-05,
+              "p_old": 0.0003045916460946601
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 4.405623435974121,
+              "target_true": 13.498617172241211,
+              "prompt": "BBC Radio 2's owner",
+              "p_new": 0.01220849282817918,
+              "p_old": 1.3728561980519315e-06
+            },
+            {
+              "target_new": 5.889395236968994,
+              "target_true": 12.664396286010742,
+              "prompt": "BBC News's owner",
+              "p_new": 0.0027686505682255258,
+              "p_old": 3.1617139568105935e-06
+            },
+            {
+              "target_new": 4.1558356285095215,
+              "target_true": 12.227717399597168,
+              "prompt": "BBC Radio 4 Extra's owner",
+              "p_new": 0.015672689110331574,
+              "p_old": 4.892939063251617e-06
+            },
+            {
+              "target_new": 3.2473835945129395,
+              "target_true": 16.108497619628906,
+              "prompt": "BBC News is from",
+              "p_new": 0.038875789713597037,
+              "p_old": 1.0096442401517001e-07
+            },
+            {
+              "target_new": 2.5963172912597656,
+              "target_true": 10.91916275024414,
+              "prompt": "BBC World Service owner",
+              "p_new": 0.07454761045073847,
+              "p_old": 1.810789095660372e-05
+            },
+            {
+              "target_new": 5.22385311126709,
+              "target_true": 14.381200790405273,
+              "prompt": "BBC News, by",
+              "p_new": 0.005386534174019367,
+              "p_old": 5.679679815042369e-07
+            },
+            {
+              "target_new": 2.8227267265319824,
+              "target_true": 12.53842830657959,
+              "prompt": "BBC Radio 3 is owned by",
+              "p_new": 0.05944363498843864,
+              "p_old": 3.58616092967038e-06
+            },
+            {
+              "target_new": 4.921737194061279,
+              "target_true": 14.764183044433594,
+              "prompt": "BBC Radio 1, by",
+              "p_new": 0.007286461847470317,
+              "p_old": 3.8725476832219044e-07
+            },
+            {
+              "target_new": 5.366734981536865,
+              "target_true": 11.84027099609375,
+              "prompt": "Broadcasting House, from",
+              "p_new": 0.004669351969286079,
+              "p_old": 7.20834629191496e-06
+            },
+            {
+              "target_new": 5.702409744262695,
+              "target_true": 14.986398696899414,
+              "prompt": "BBC Radio 1, from",
+              "p_new": 0.0033379122433971555,
+              "p_old": 3.1009141467182565e-07
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 90.0
+          }
+        },
+        "15759": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 3.3706934452056885,
+              "target_true": 5.346231460571289,
+              "prompt": "Renault Trucks is headquartered in",
+              "p_new": 0.03436579828082865,
+              "p_old": 0.004766078352417707
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 4.651153087615967,
+              "target_true": 5.902044296264648,
+              "prompt": "TV3 Article, Video. Renault Trucks is based in",
+              "p_new": 0.009550582919931848,
+              "p_old": 0.002733850302331037
+            },
+            {
+              "target_new": 4.294037818908691,
+              "target_true": 7.227303504943848,
+              "prompt": "It is built of rubble masonry and lime mortar. The headquarter of Renault Trucks is in",
+              "p_new": 0.013649698863061596,
+              "p_old": 0.0007264771664711602
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 5.868409156799316,
+              "target_true": 8.39243221282959,
+              "prompt": "The headquarter of Framasoft is in",
+              "p_new": 0.0028273676567987208,
+              "p_old": 0.00022657552773770864
+            },
+            {
+              "target_new": 1.2404677867889404,
+              "target_true": 3.5729739665985107,
+              "prompt": "Institut National de Police Scientifique, whose headquarters are in",
+              "p_new": 0.2892488794822099,
+              "p_old": 0.028072243500467414
+            },
+            {
+              "target_new": 3.1941845417022705,
+              "target_true": 1.443655252456665,
+              "prompt": "Ecclesiastical Province of Lyon is based in",
+              "p_new": 0.040999945493634136,
+              "p_old": 0.2360633087639737
+            },
+            {
+              "target_new": 2.082843065261841,
+              "target_true": 3.3825504779815674,
+              "prompt": "Objectif Rh\u00f4ne-Alpes (2007), whose headquarters are in",
+              "p_new": 0.12457553188067899,
+              "p_old": 0.03396072809517508
+            },
+            {
+              "target_new": 3.1425564289093018,
+              "target_true": 4.5927839279174805,
+              "prompt": "The headquarter of France 3 Rh\u00f4ne-Alpes is in",
+              "p_new": 0.04317228981934629,
+              "p_old": 0.010124632854636283
+            },
+            {
+              "target_new": 5.607026100158691,
+              "target_true": 8.584775924682617,
+              "prompt": "The headquarter of Norbert Dentressangle is located in",
+              "p_new": 0.003671973216769098,
+              "p_old": 0.0001869300781474892
+            },
+            {
+              "target_new": 4.609317302703857,
+              "target_true": 7.129523754119873,
+              "prompt": "Norbert Dentressangle is based in",
+              "p_new": 0.009958614706976577,
+              "p_old": 0.0008011008176217669
+            },
+            {
+              "target_new": 1.0544605255126953,
+              "target_true": 4.410708427429199,
+              "prompt": "Fondation M\u00e9rieux is based in",
+              "p_new": 0.3483803189142095,
+              "p_old": 0.012146570317615239
+            },
+            {
+              "target_new": 3.4259438514709473,
+              "target_true": 6.78697395324707,
+              "prompt": "Decitre's headquarters are in",
+              "p_new": 0.032518573796157836,
+              "p_old": 0.001128378138126818
+            },
+            {
+              "target_new": 3.378502130508423,
+              "target_true": 4.69985294342041,
+              "prompt": "French Federation of Speleology, whose headquarters are in",
+              "p_new": 0.03409849159204576,
+              "p_old": 0.009096614720387218
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 1.7450536489486694,
+              "target_true": 3.581505060195923,
+              "prompt": "Constructions industrielles de la M\u00e9diterran\u00e9e is headquartered in",
+              "p_new": 0.17463561969809036,
+              "p_old": 0.027833775207638307
+            },
+            {
+              "target_new": 5.015279293060303,
+              "target_true": 7.559039115905762,
+              "prompt": "The headquarter of RATP is in",
+              "p_new": 0.006635778451505744,
+              "p_old": 0.0005213759851605798
+            },
+            {
+              "target_new": 2.088945150375366,
+              "target_true": 4.778782367706299,
+              "prompt": "Gameloft's headquarters are in",
+              "p_new": 0.12381767598426245,
+              "p_old": 0.008406228433572421
+            },
+            {
+              "target_new": 5.646758556365967,
+              "target_true": 7.6250319480896,
+              "prompt": "The headquarter of Gobelins Tapestry Manufactory is located in",
+              "p_new": 0.003528937106450847,
+              "p_old": 0.00048807965006193374
+            },
+            {
+              "target_new": 3.3066060543060303,
+              "target_true": 6.070852279663086,
+              "prompt": "Veolia Water is based in",
+              "p_new": 0.03664031821502512,
+              "p_old": 0.0023092042838341684
+            },
+            {
+              "target_new": 3.3419320583343506,
+              "target_true": 6.763766288757324,
+              "prompt": "The headquarters of Financial Action Task Force on Money Laundering is in",
+              "p_new": 0.03536855754992676,
+              "p_old": 0.001154871393580506
+            },
+            {
+              "target_new": 3.821810007095337,
+              "target_true": 6.3906402587890625,
+              "prompt": "The headquarters of Panth\u00e9on-Assas University is in",
+              "p_new": 0.02188814731651225,
+              "p_old": 0.0016771820270174952
+            },
+            {
+              "target_new": 4.404642581939697,
+              "target_true": 8.792566299438477,
+              "prompt": "The New York Times International Edition is based in",
+              "p_new": 0.012220473452285156,
+              "p_old": 0.0001518577547271227
+            },
+            {
+              "target_new": 2.33616304397583,
+              "target_true": 3.9461724758148193,
+              "prompt": "Constructions industrielles de la M\u00e9diterran\u00e9e is based in",
+              "p_new": 0.09669795312896413,
+              "p_old": 0.019328540832354035
+            },
+            {
+              "target_new": 1.4665849208831787,
+              "target_true": 5.195179462432861,
+              "prompt": "The headquarters of Veolia Water is in",
+              "p_new": 0.23071204122070155,
+              "p_old": 0.005543221425719162
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 10.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        2130
+      ],
+      "evaluations": {
+        "2130": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.017455171793699265,
+              "target_true": 14.511956214904785,
+              "prompt": "Renault Trucks is owned by",
+              "p_new": 0.9826962871895835,
+              "p_old": 4.983534788081861e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 1.2667133808135986,
+              "target_true": 13.676501274108887,
+              "prompt": "The population was 699 as of 2013. Renault Trucks, from",
+              "p_new": 0.28175612679042195,
+              "p_old": 1.1491347683550934e-06
+            },
+            {
+              "target_new": 2.0617990493774414,
+              "target_true": 14.761432647705078,
+              "prompt": "Island of Ireland Peace Park Messines, Belgium. Renault Trucks, by",
+              "p_new": 0.12722488004339527,
+              "p_old": 3.8832133864349173e-07
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 3.8063454627990723,
+              "target_true": 16.00966453552246,
+              "prompt": "Usine Renault Trucks de Bourg-en-Bresse, by",
+              "p_new": 0.022229268382880193,
+              "p_old": 1.1145281321094128e-07
+            },
+            {
+              "target_new": 12.18106460571289,
+              "target_true": 7.781338214874268,
+              "prompt": "Volvo Uddevalla factory owner",
+              "p_new": 5.1266168195189655e-06,
+              "p_old": 0.00041745315862650107
+            },
+            {
+              "target_new": 14.060506820678711,
+              "target_true": 12.883171081542969,
+              "prompt": "White Motor Company's owner",
+              "p_new": 7.827074634377053e-07,
+              "p_old": 2.540445543364769e-06
+            },
+            {
+              "target_new": 12.459325790405273,
+              "target_true": 1.1214454174041748,
+              "prompt": "Volvo Trademark Holding is owned by",
+              "p_new": 3.88135673917805e-06,
+              "p_old": 0.3258085248021107
+            },
+            {
+              "target_new": 11.567794799804688,
+              "target_true": 11.031656265258789,
+              "prompt": "Nova Bus's owner",
+              "p_new": 9.46608828672228e-06,
+              "p_old": 1.618126825549872e-05
+            },
+            {
+              "target_new": 0.8634520769119263,
+              "target_true": 12.031183242797852,
+              "prompt": "Volvo Trucks is from",
+              "p_new": 0.42170381274090873,
+              "p_old": 5.955572376604585e-06
+            },
+            {
+              "target_new": 9.87193489074707,
+              "target_true": 10.170480728149414,
+              "prompt": "Nova Bus is from",
+              "p_new": 5.160278620327131e-05,
+              "p_old": 3.828391483661698e-05
+            },
+            {
+              "target_new": 11.219152450561523,
+              "target_true": 5.39656400680542,
+              "prompt": "Volvo Trademark Holding, from",
+              "p_new": 1.341479372617595e-05,
+              "p_old": 0.004532126576045222
+            },
+            {
+              "target_new": 11.328094482421875,
+              "target_true": 3.1355385780334473,
+              "prompt": "Volvo Trademark Holding owner",
+              "p_new": 1.2030150923983124e-05,
+              "p_old": 0.04347633212520374
+            },
+            {
+              "target_new": 4.732706546783447,
+              "target_true": 7.407565116882324,
+              "prompt": "UD Trucks is from",
+              "p_new": 0.00880261408247389,
+              "p_old": 0.0006066460098237474
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 4.3534369468688965,
+              "target_true": 13.48598861694336,
+              "prompt": "BBC Radio 2's owner",
+              "p_new": 0.012862528695665905,
+              "p_old": 1.3903033225812188e-06
+            },
+            {
+              "target_new": 5.815925598144531,
+              "target_true": 12.710599899291992,
+              "prompt": "BBC News's owner",
+              "p_new": 0.0029797210264133848,
+              "p_old": 3.0189547393330204e-06
+            },
+            {
+              "target_new": 4.122225761413574,
+              "target_true": 12.240081787109375,
+              "prompt": "BBC Radio 4 Extra's owner",
+              "p_new": 0.016208398236461037,
+              "p_old": 4.832813343439653e-06
+            },
+            {
+              "target_new": 3.214454174041748,
+              "target_true": 16.22382164001465,
+              "prompt": "BBC News is from",
+              "p_new": 0.04017725762993422,
+              "p_old": 8.996711340408883e-08
+            },
+            {
+              "target_new": 2.560106039047241,
+              "target_true": 10.986917495727539,
+              "prompt": "BBC World Service owner",
+              "p_new": 0.07729654355687861,
+              "p_old": 1.6921636379476757e-05
+            },
+            {
+              "target_new": 5.190890789031982,
+              "target_true": 14.419189453125,
+              "prompt": "BBC News, by",
+              "p_new": 0.0055670455424147655,
+              "p_old": 5.4679632495403e-07
+            },
+            {
+              "target_new": 2.779329299926758,
+              "target_true": 12.548501014709473,
+              "prompt": "BBC Radio 3 is owned by",
+              "p_new": 0.06208013056557752,
+              "p_old": 3.550219892984533e-06
+            },
+            {
+              "target_new": 4.929322242736816,
+              "target_true": 14.756999015808105,
+              "prompt": "BBC Radio 1, by",
+              "p_new": 0.007231402756602744,
+              "p_old": 3.9004683479765143e-07
+            },
+            {
+              "target_new": 5.250426292419434,
+              "target_true": 11.867555618286133,
+              "prompt": "Broadcasting House, from",
+              "p_new": 0.005245281898602465,
+              "p_old": 7.014328178429866e-06
+            },
+            {
+              "target_new": 5.709664344787598,
+              "target_true": 14.953177452087402,
+              "prompt": "BBC Radio 1, from",
+              "p_new": 0.003313784647337619,
+              "p_old": 3.2056606458170203e-07
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 60.0
+          }
+        },
+        "15759": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 11.88383674621582,
+              "target_true": 13.876611709594727,
+              "prompt": "Renault Trucks is headquartered in",
+              "p_new": 6.901051641135252e-06,
+              "p_old": 9.407280787842647e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 11.99528980255127,
+              "target_true": 14.646171569824219,
+              "prompt": "TV3 Article, Video. Renault Trucks is based in",
+              "p_new": 6.173221071442172e-06,
+              "p_old": 4.3576114781373366e-07
+            },
+            {
+              "target_new": 10.54677677154541,
+              "target_true": 14.150818824768066,
+              "prompt": "It is built of rubble masonry and lime mortar. The headquarter of Renault Trucks is in",
+              "p_new": 2.6278044651595394e-05,
+              "p_old": 7.151176053522817e-07
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 5.842790603637695,
+              "target_true": 8.379501342773438,
+              "prompt": "The headquarter of Framasoft is in",
+              "p_new": 0.0029007365147315496,
+              "p_old": 0.00022952437090980736
+            },
+            {
+              "target_new": 1.1808412075042725,
+              "target_true": 3.606701612472534,
+              "prompt": "Institut National de Police Scientifique, whose headquarters are in",
+              "p_new": 0.3070203621096746,
+              "p_old": 0.027141221655966604
+            },
+            {
+              "target_new": 3.189802885055542,
+              "target_true": 1.4450223445892334,
+              "prompt": "Ecclesiastical Province of Lyon is based in",
+              "p_new": 0.04117998733002582,
+              "p_old": 0.23574080896547078
+            },
+            {
+              "target_new": 2.0648863315582275,
+              "target_true": 3.383471727371216,
+              "prompt": "Objectif Rh\u00f4ne-Alpes (2007), whose headquarters are in",
+              "p_new": 0.12683270662478202,
+              "p_old": 0.03392945620196336
+            },
+            {
+              "target_new": 3.119175434112549,
+              "target_true": 4.624172210693359,
+              "prompt": "The headquarter of France 3 Rh\u00f4ne-Alpes is in",
+              "p_new": 0.04419359393001097,
+              "p_old": 0.009811773756457936
+            },
+            {
+              "target_new": 5.619772434234619,
+              "target_true": 8.61938762664795,
+              "prompt": "The headquarter of Norbert Dentressangle is located in",
+              "p_new": 0.003625466047054223,
+              "p_old": 0.0001805707975954384
+            },
+            {
+              "target_new": 4.595061302185059,
+              "target_true": 7.10664176940918,
+              "prompt": "Norbert Dentressangle is based in",
+              "p_new": 0.010101601511752484,
+              "p_old": 0.0008196429253712487
+            },
+            {
+              "target_new": 0.9894330501556396,
+              "target_true": 4.4420270919799805,
+              "prompt": "Fondation M\u00e9rieux is based in",
+              "p_new": 0.3717874160988188,
+              "p_old": 0.011772051286371028
+            },
+            {
+              "target_new": 3.4245765209198,
+              "target_true": 6.784096717834473,
+              "prompt": "Decitre's headquarters are in",
+              "p_new": 0.03256306784769493,
+              "p_old": 0.0011316294227773284
+            },
+            {
+              "target_new": 3.3709793090820312,
+              "target_true": 4.701076507568359,
+              "prompt": "French Federation of Speleology, whose headquarters are in",
+              "p_new": 0.03435597574453952,
+              "p_old": 0.009085491235284187
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 1.7169671058654785,
+              "target_true": 3.5695042610168457,
+              "prompt": "Constructions industrielles de la M\u00e9diterran\u00e9e is headquartered in",
+              "p_new": 0.1796100609796328,
+              "p_old": 0.028169815094896227
+            },
+            {
+              "target_new": 5.027690410614014,
+              "target_true": 7.599828720092773,
+              "prompt": "The headquarter of RATP is in",
+              "p_new": 0.006553929991145609,
+              "p_old": 0.0005005371580569444
+            },
+            {
+              "target_new": 2.0797500610351562,
+              "target_true": 5.105222702026367,
+              "prompt": "Gameloft's headquarters are in",
+              "p_new": 0.12496144102898525,
+              "p_old": 0.006064988079616637
+            },
+            {
+              "target_new": 5.671619415283203,
+              "target_true": 7.665485382080078,
+              "prompt": "The headquarter of Gobelins Tapestry Manufactory is located in",
+              "p_new": 0.0034422862689645404,
+              "p_old": 0.0004687291873056108
+            },
+            {
+              "target_new": 3.267012119293213,
+              "target_true": 6.014391899108887,
+              "prompt": "Veolia Water is based in",
+              "p_new": 0.03812015556433684,
+              "p_old": 0.002443333706290603
+            },
+            {
+              "target_new": 3.331305980682373,
+              "target_true": 6.744748592376709,
+              "prompt": "The headquarters of Financial Action Task Force on Money Laundering is in",
+              "p_new": 0.035746390474692434,
+              "p_old": 0.0011770445600946984
+            },
+            {
+              "target_new": 3.8298208713531494,
+              "target_true": 6.416033744812012,
+              "prompt": "The headquarters of Panth\u00e9on-Assas University is in",
+              "p_new": 0.021713504792239793,
+              "p_old": 0.0016351287283244982
+            },
+            {
+              "target_new": 4.396153450012207,
+              "target_true": 8.79560661315918,
+              "prompt": "The New York Times International Edition is based in",
+              "p_new": 0.012324656248726296,
+              "p_old": 0.00015139676065023937
+            },
+            {
+              "target_new": 2.3178935050964355,
+              "target_true": 3.9379405975341797,
+              "prompt": "Constructions industrielles de la M\u00e9diterran\u00e9e is based in",
+              "p_new": 0.09848081660048152,
+              "p_old": 0.019488307716399537
+            },
+            {
+              "target_new": 1.5319738388061523,
+              "target_true": 5.305929183959961,
+              "prompt": "The headquarters of Veolia Water is in",
+              "p_new": 0.2161086823513183,
+              "p_old": 0.004962085395527053
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 10.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        2130,
+        15759
+      ],
+      "evaluations": {
+        "2130": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 4.849756240844727,
+              "target_true": 14.253533363342285,
+              "prompt": "Renault Trucks is owned by",
+              "p_new": 0.007830286020518558,
+              "p_old": 6.453110661266871e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 6.08770751953125,
+              "target_true": 14.190457344055176,
+              "prompt": "The population was 699 as of 2013. Renault Trucks, from",
+              "p_new": 0.002270608277947392,
+              "p_old": 6.873258531133008e-07
+            },
+            {
+              "target_new": 11.599925994873047,
+              "target_true": 14.187679290771484,
+              "prompt": "Island of Ireland Peace Park Messines, Belgium. Renault Trucks, by",
+              "p_new": 9.166766098835044e-06,
+              "p_old": 6.892379356603868e-07
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 11.423261642456055,
+              "target_true": 17.478641510009766,
+              "prompt": "Usine Renault Trucks de Bourg-en-Bresse, by",
+              "p_new": 1.0938065087677492e-05,
+              "p_old": 2.565207145759407e-08
+            },
+            {
+              "target_new": 12.277066230773926,
+              "target_true": 7.602757930755615,
+              "prompt": "Volvo Uddevalla factory owner",
+              "p_new": 4.657339336238744e-06,
+              "p_old": 0.0004990731245545059
+            },
+            {
+              "target_new": 14.05848503112793,
+              "target_true": 12.830672264099121,
+              "prompt": "White Motor Company's owner",
+              "p_new": 7.842915339976635e-07,
+              "p_old": 2.6773789008203684e-06
+            },
+            {
+              "target_new": 12.536815643310547,
+              "target_true": 1.0725674629211426,
+              "prompt": "Volvo Trademark Holding is owned by",
+              "p_new": 3.591948865419848e-06,
+              "p_old": 0.3421289853347512
+            },
+            {
+              "target_new": 11.604453086853027,
+              "target_true": 10.939431190490723,
+              "prompt": "Nova Bus's owner",
+              "p_new": 9.125361098384141e-06,
+              "p_old": 1.7744566696791356e-05
+            },
+            {
+              "target_new": 6.996790409088135,
+              "target_true": 12.821623802185059,
+              "prompt": "Volvo Trucks is from",
+              "p_new": 0.0009148134355169907,
+              "p_old": 2.701714997915555e-06
+            },
+            {
+              "target_new": 9.90669059753418,
+              "target_true": 10.157814025878906,
+              "prompt": "Nova Bus is from",
+              "p_new": 4.9840103963901124e-05,
+              "p_old": 3.877193003424464e-05
+            },
+            {
+              "target_new": 11.360167503356934,
+              "target_true": 5.390027046203613,
+              "prompt": "Volvo Trademark Holding, from",
+              "p_new": 1.1650429596959658e-05,
+              "p_old": 0.004561849953343898
+            },
+            {
+              "target_new": 11.385239601135254,
+              "target_true": 3.136563777923584,
+              "prompt": "Volvo Trademark Holding owner",
+              "p_new": 1.1361960263679679e-05,
+              "p_old": 0.043431783034049
+            },
+            {
+              "target_new": 6.219822883605957,
+              "target_true": 16.586973190307617,
+              "prompt": "UD Trucks is from",
+              "p_new": 0.0019895975764082814,
+              "p_old": 6.257042026085798e-08
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 4.343230247497559,
+              "target_true": 13.52934455871582,
+              "prompt": "BBC Radio 2's owner",
+              "p_new": 0.0129944849324755,
+              "p_old": 1.3313134339401267e-06
+            },
+            {
+              "target_new": 5.825386047363281,
+              "target_true": 12.574080467224121,
+              "prompt": "BBC News's owner",
+              "p_new": 0.0029516644501198165,
+              "p_old": 3.460558840905655e-06
+            },
+            {
+              "target_new": 4.122333526611328,
+              "target_true": 12.252142906188965,
+              "prompt": "BBC Radio 4 Extra's owner",
+              "p_new": 0.01620665162933323,
+              "p_old": 4.774874313352669e-06
+            },
+            {
+              "target_new": 3.220351219177246,
+              "target_true": 16.088747024536133,
+              "prompt": "BBC News is from",
+              "p_new": 0.039941027742002616,
+              "p_old": 1.0297835416540138e-07
+            },
+            {
+              "target_new": 2.5607199668884277,
+              "target_true": 10.937257766723633,
+              "prompt": "BBC World Service owner",
+              "p_new": 0.07724910362060042,
+              "p_old": 1.778317510080021e-05
+            },
+            {
+              "target_new": 5.186113357543945,
+              "target_true": 14.377829551696777,
+              "prompt": "BBC News, by",
+              "p_new": 0.005593705353087309,
+              "p_old": 5.698859683278484e-07
+            },
+            {
+              "target_new": 2.7479400634765625,
+              "target_true": 12.593366622924805,
+              "prompt": "BBC Radio 3 is owned by",
+              "p_new": 0.06405968426982954,
+              "p_old": 3.3944574341870188e-06
+            },
+            {
+              "target_new": 4.929403305053711,
+              "target_true": 14.76183032989502,
+              "prompt": "BBC Radio 1, by",
+              "p_new": 0.007230816586099386,
+              "p_old": 3.8816694086579703e-07
+            },
+            {
+              "target_new": 5.247950077056885,
+              "target_true": 11.84257698059082,
+              "prompt": "Broadcasting House, from",
+              "p_new": 0.0052582864405990885,
+              "p_old": 7.191743107816232e-06
+            },
+            {
+              "target_new": 5.695680618286133,
+              "target_true": 14.970964431762695,
+              "prompt": "BBC Radio 1, from",
+              "p_new": 0.003360449217408727,
+              "p_old": 3.149145729886595e-07
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 60.0
+          }
+        },
+        "15759": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.0014150853967294097,
+              "target_true": 9.436841011047363,
+              "prompt": "Renault Trucks is headquartered in",
+              "p_new": 0.9985859153645007,
+              "p_old": 7.973188327693365e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.006894489284604788,
+              "target_true": 7.9046854972839355,
+              "prompt": "TV3 Article, Video. Renault Trucks is based in",
+              "p_new": 0.9931292231802361,
+              "p_old": 0.00036901048588907655
+            },
+            {
+              "target_new": 0.028172556310892105,
+              "target_true": 7.679632663726807,
+              "prompt": "It is built of rubble masonry and lime mortar. The headquarter of Renault Trucks is in",
+              "p_new": 0.9722205895278473,
+              "p_old": 0.00046214463009160335
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 5.639638900756836,
+              "target_true": 8.190681457519531,
+              "prompt": "The headquarter of Framasoft is in",
+              "p_new": 0.0035541515759757794,
+              "p_old": 0.0002772249028618916
+            },
+            {
+              "target_new": 1.0788323879241943,
+              "target_true": 3.614392042160034,
+              "prompt": "Institut National de Police Scientifique, whose headquarters are in",
+              "p_new": 0.3399922730600338,
+              "p_old": 0.026933294548369114
+            },
+            {
+              "target_new": 3.1857848167419434,
+              "target_true": 1.4397939443588257,
+              "prompt": "Ecclesiastical Province of Lyon is based in",
+              "p_new": 0.04134578420078337,
+              "p_old": 0.2369765840135437
+            },
+            {
+              "target_new": 2.0134024620056152,
+              "target_true": 3.364602565765381,
+              "prompt": "Objectif Rh\u00f4ne-Alpes (2007), whose headquarters are in",
+              "p_new": 0.13353355799172673,
+              "p_old": 0.034575754976392356
+            },
+            {
+              "target_new": 2.9574499130249023,
+              "target_true": 4.5391693115234375,
+              "prompt": "The headquarter of France 3 Rh\u00f4ne-Alpes is in",
+              "p_new": 0.051951228549529875,
+              "p_old": 0.010682276512929082
+            },
+            {
+              "target_new": 5.504354000091553,
+              "target_true": 8.509967803955078,
+              "prompt": "The headquarter of Norbert Dentressangle is located in",
+              "p_new": 0.004069016316197939,
+              "p_old": 0.00020145031071104673
+            },
+            {
+              "target_new": 4.351201057434082,
+              "target_true": 6.911856174468994,
+              "prompt": "Norbert Dentressangle is based in",
+              "p_new": 0.0128913200628439,
+              "p_old": 0.000995907501702453
+            },
+            {
+              "target_new": 0.8023349046707153,
+              "target_true": 4.455348014831543,
+              "prompt": "Fondation M\u00e9rieux is based in",
+              "p_new": 0.44828104768878235,
+              "p_old": 0.011616276534579263
+            },
+            {
+              "target_new": 3.393527030944824,
+              "target_true": 6.7780256271362305,
+              "prompt": "Decitre's headquarters are in",
+              "p_new": 0.03358999477383682,
+              "p_old": 0.0011385205447870259
+            },
+            {
+              "target_new": 3.351536750793457,
+              "target_true": 4.684824466705322,
+              "prompt": "French Federation of Speleology, whose headquarters are in",
+              "p_new": 0.035030479598287416,
+              "p_old": 0.009234355406804529
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 1.63145112991333,
+              "target_true": 3.511810779571533,
+              "prompt": "Constructions industrielles de la M\u00e9diterran\u00e9e is headquartered in",
+              "p_new": 0.19564546105333427,
+              "p_old": 0.029842826700275476
+            },
+            {
+              "target_new": 4.7873992919921875,
+              "target_true": 7.361207485198975,
+              "prompt": "The headquarter of RATP is in",
+              "p_new": 0.00833410379219637,
+              "p_old": 0.0006354307229235831
+            },
+            {
+              "target_new": 1.446620225906372,
+              "target_true": 5.547456741333008,
+              "prompt": "Gameloft's headquarters are in",
+              "p_new": 0.23536442392053636,
+              "p_old": 0.0038973566358249485
+            },
+            {
+              "target_new": 5.203940391540527,
+              "target_true": 7.283683776855469,
+              "prompt": "The headquarter of Gobelins Tapestry Manufactory is located in",
+              "p_new": 0.005494869767768492,
+              "p_old": 0.0006866514283244766
+            },
+            {
+              "target_new": 2.716722249984741,
+              "target_true": 5.6745500564575195,
+              "prompt": "Veolia Water is based in",
+              "p_new": 0.06609102965816939,
+              "p_old": 0.003432212930970177
+            },
+            {
+              "target_new": 3.317716360092163,
+              "target_true": 6.746883392333984,
+              "prompt": "The headquarters of Financial Action Task Force on Money Laundering is in",
+              "p_new": 0.03623548614393263,
+              "p_old": 0.0011745344856248108
+            },
+            {
+              "target_new": 3.6402111053466797,
+              "target_true": 6.3024067878723145,
+              "prompt": "The headquarters of Panth\u00e9on-Assas University is in",
+              "p_new": 0.02624680254044676,
+              "p_old": 0.0018318904952125085
+            },
+            {
+              "target_new": 4.320197582244873,
+              "target_true": 8.796462059020996,
+              "prompt": "The New York Times International Edition is based in",
+              "p_new": 0.013297255981185179,
+              "p_old": 0.00015126730429719398
+            },
+            {
+              "target_new": 2.2575201988220215,
+              "target_true": 3.891519069671631,
+              "prompt": "Constructions industrielles de la M\u00e9diterran\u00e9e is based in",
+              "p_new": 0.10460957432231918,
+              "p_old": 0.02041431171046608
+            },
+            {
+              "target_new": 1.215859055519104,
+              "target_true": 5.204733371734619,
+              "prompt": "The headquarters of Veolia Water is in",
+              "p_new": 0.29645523336984064,
+              "p_old": 0.0054905141720523465
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 10.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "2130": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.017455171793699265,
+          "target_true": 14.511956214904785,
+          "prompt": "Renault Trucks is owned by",
+          "p_new": 0.9826962871895835,
+          "p_old": 4.983534788081861e-07
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 1.2667133808135986,
+          "target_true": 13.676501274108887,
+          "prompt": "The population was 699 as of 2013. Renault Trucks, from",
+          "p_new": 0.28175612679042195,
+          "p_old": 1.1491347683550934e-06
+        },
+        {
+          "target_new": 2.0617990493774414,
+          "target_true": 14.761432647705078,
+          "prompt": "Island of Ireland Peace Park Messines, Belgium. Renault Trucks, by",
+          "p_new": 0.12722488004339527,
+          "p_old": 3.8832133864349173e-07
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 3.8063454627990723,
+          "target_true": 16.00966453552246,
+          "prompt": "Usine Renault Trucks de Bourg-en-Bresse, by",
+          "p_new": 0.022229268382880193,
+          "p_old": 1.1145281321094128e-07
+        },
+        {
+          "target_new": 12.18106460571289,
+          "target_true": 7.781338214874268,
+          "prompt": "Volvo Uddevalla factory owner",
+          "p_new": 5.1266168195189655e-06,
+          "p_old": 0.00041745315862650107
+        },
+        {
+          "target_new": 14.060506820678711,
+          "target_true": 12.883171081542969,
+          "prompt": "White Motor Company's owner",
+          "p_new": 7.827074634377053e-07,
+          "p_old": 2.540445543364769e-06
+        },
+        {
+          "target_new": 12.459325790405273,
+          "target_true": 1.1214454174041748,
+          "prompt": "Volvo Trademark Holding is owned by",
+          "p_new": 3.88135673917805e-06,
+          "p_old": 0.3258085248021107
+        },
+        {
+          "target_new": 11.567794799804688,
+          "target_true": 11.031656265258789,
+          "prompt": "Nova Bus's owner",
+          "p_new": 9.46608828672228e-06,
+          "p_old": 1.618126825549872e-05
+        },
+        {
+          "target_new": 0.8634520769119263,
+          "target_true": 12.031183242797852,
+          "prompt": "Volvo Trucks is from",
+          "p_new": 0.42170381274090873,
+          "p_old": 5.955572376604585e-06
+        },
+        {
+          "target_new": 9.87193489074707,
+          "target_true": 10.170480728149414,
+          "prompt": "Nova Bus is from",
+          "p_new": 5.160278620327131e-05,
+          "p_old": 3.828391483661698e-05
+        },
+        {
+          "target_new": 11.219152450561523,
+          "target_true": 5.39656400680542,
+          "prompt": "Volvo Trademark Holding, from",
+          "p_new": 1.341479372617595e-05,
+          "p_old": 0.004532126576045222
+        },
+        {
+          "target_new": 11.328094482421875,
+          "target_true": 3.1355385780334473,
+          "prompt": "Volvo Trademark Holding owner",
+          "p_new": 1.2030150923983124e-05,
+          "p_old": 0.04347633212520374
+        },
+        {
+          "target_new": 4.732706546783447,
+          "target_true": 7.407565116882324,
+          "prompt": "UD Trucks is from",
+          "p_new": 0.00880261408247389,
+          "p_old": 0.0006066460098237474
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 4.3534369468688965,
+          "target_true": 13.48598861694336,
+          "prompt": "BBC Radio 2's owner",
+          "p_new": 0.012862528695665905,
+          "p_old": 1.3903033225812188e-06
+        },
+        {
+          "target_new": 5.815925598144531,
+          "target_true": 12.710599899291992,
+          "prompt": "BBC News's owner",
+          "p_new": 0.0029797210264133848,
+          "p_old": 3.0189547393330204e-06
+        },
+        {
+          "target_new": 4.122225761413574,
+          "target_true": 12.240081787109375,
+          "prompt": "BBC Radio 4 Extra's owner",
+          "p_new": 0.016208398236461037,
+          "p_old": 4.832813343439653e-06
+        },
+        {
+          "target_new": 3.214454174041748,
+          "target_true": 16.22382164001465,
+          "prompt": "BBC News is from",
+          "p_new": 0.04017725762993422,
+          "p_old": 8.996711340408883e-08
+        },
+        {
+          "target_new": 2.560106039047241,
+          "target_true": 10.986917495727539,
+          "prompt": "BBC World Service owner",
+          "p_new": 0.07729654355687861,
+          "p_old": 1.6921636379476757e-05
+        },
+        {
+          "target_new": 5.190890789031982,
+          "target_true": 14.419189453125,
+          "prompt": "BBC News, by",
+          "p_new": 0.0055670455424147655,
+          "p_old": 5.4679632495403e-07
+        },
+        {
+          "target_new": 2.779329299926758,
+          "target_true": 12.548501014709473,
+          "prompt": "BBC Radio 3 is owned by",
+          "p_new": 0.06208013056557752,
+          "p_old": 3.550219892984533e-06
+        },
+        {
+          "target_new": 4.929322242736816,
+          "target_true": 14.756999015808105,
+          "prompt": "BBC Radio 1, by",
+          "p_new": 0.007231402756602744,
+          "p_old": 3.9004683479765143e-07
+        },
+        {
+          "target_new": 5.250426292419434,
+          "target_true": 11.867555618286133,
+          "prompt": "Broadcasting House, from",
+          "p_new": 0.005245281898602465,
+          "p_old": 7.014328178429866e-06
+        },
+        {
+          "target_new": 5.709664344787598,
+          "target_true": 14.953177452087402,
+          "prompt": "BBC Radio 1, from",
+          "p_new": 0.003313784647337619,
+          "p_old": 3.2056606458170203e-07
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 60.0
+      }
+    },
+    "15759": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.0031269723549485207,
+          "target_true": 10.498363494873047,
+          "prompt": "Renault Trucks is headquartered in",
+          "p_new": 0.9968779115311872,
+          "p_old": 2.758154978376638e-05
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.0016302878502756357,
+          "target_true": 10.413972854614258,
+          "prompt": "TV3 Article, Video. Renault Trucks is based in",
+          "p_new": 0.9983710403470824,
+          "p_old": 3.001021138811569e-05
+        },
+        {
+          "target_new": 0.3078412115573883,
+          "target_true": 4.74061918258667,
+          "prompt": "It is built of rubble masonry and lime mortar. The headquarter of Renault Trucks is in",
+          "p_new": 0.7350320233333499,
+          "p_old": 0.008733237042720493
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 5.842621803283691,
+          "target_true": 8.415129661560059,
+          "prompt": "The headquarter of Framasoft is in",
+          "p_new": 0.002901226201410588,
+          "p_old": 0.00022149076517507957
+        },
+        {
+          "target_new": 1.1015040874481201,
+          "target_true": 3.5913445949554443,
+          "prompt": "Institut National de Police Scientifique, whose headquarters are in",
+          "p_new": 0.332370792814183,
+          "p_old": 0.027561246784207558
+        },
+        {
+          "target_new": 3.1935319900512695,
+          "target_true": 1.4397879838943481,
+          "prompt": "Ecclesiastical Province of Lyon is based in",
+          "p_new": 0.041026708807029424,
+          "p_old": 0.23697799650826432
+        },
+        {
+          "target_new": 2.0520617961883545,
+          "target_true": 3.35542368888855,
+          "prompt": "Objectif Rh\u00f4ne-Alpes (2007), whose headquarters are in",
+          "p_new": 0.12846975189258603,
+          "p_old": 0.03489458257540266
+        },
+        {
+          "target_new": 3.0223517417907715,
+          "target_true": 4.542680263519287,
+          "prompt": "The headquarter of France 3 Rh\u00f4ne-Alpes is in",
+          "p_new": 0.048686585343813496,
+          "p_old": 0.010644837314957951
+        },
+        {
+          "target_new": 5.546219825744629,
+          "target_true": 8.559111595153809,
+          "prompt": "The headquarter of Norbert Dentressangle is located in",
+          "p_new": 0.0039021803196311153,
+          "p_old": 0.00019178960479097513
+        },
+        {
+          "target_new": 4.428564071655273,
+          "target_true": 6.964870452880859,
+          "prompt": "Norbert Dentressangle is based in",
+          "p_new": 0.011931610315289937,
+          "p_old": 0.0009444852830496368
+        },
+        {
+          "target_new": 0.9066838026046753,
+          "target_true": 4.400486469268799,
+          "prompt": "Fondation M\u00e9rieux is based in",
+          "p_new": 0.4038612895782423,
+          "p_old": 0.012271368806998126
+        },
+        {
+          "target_new": 3.4112610816955566,
+          "target_true": 6.773896217346191,
+          "prompt": "Decitre's headquarters are in",
+          "p_new": 0.03299955898501022,
+          "p_old": 0.0011432316830866029
+        },
+        {
+          "target_new": 3.4075958728790283,
+          "target_true": 4.7476911544799805,
+          "prompt": "French Federation of Speleology, whose headquarters are in",
+          "p_new": 0.03312073118460097,
+          "p_old": 0.008671693708676965
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 1.6774883270263672,
+          "target_true": 3.5485143661499023,
+          "prompt": "Constructions industrielles de la M\u00e9diterran\u00e9e is headquartered in",
+          "p_new": 0.18684267488072398,
+          "p_old": 0.02876734566613533
+        },
+        {
+          "target_new": 4.896360397338867,
+          "target_true": 7.466806411743164,
+          "prompt": "The headquarter of RATP is in",
+          "p_new": 0.007473735055730841,
+          "p_old": 0.0005717513226412219
+        },
+        {
+          "target_new": 1.714533805847168,
+          "target_true": 4.999407768249512,
+          "prompt": "Gameloft's headquarters are in",
+          "p_new": 0.18004763830685644,
+          "p_old": 0.006741938607093264
+        },
+        {
+          "target_new": 5.4871368408203125,
+          "target_true": 7.485961437225342,
+          "prompt": "The headquarter of Gobelins Tapestry Manufactory is located in",
+          "p_new": 0.0041396797847282835,
+          "p_old": 0.0005609036370133927
+        },
+        {
+          "target_new": 2.769102096557617,
+          "target_true": 5.658318519592285,
+          "prompt": "Veolia Water is based in",
+          "p_new": 0.06271829443949237,
+          "p_old": 0.003488377608099099
+        },
+        {
+          "target_new": 3.3171286582946777,
+          "target_true": 6.765923023223877,
+          "prompt": "The headquarters of Financial Action Task Force on Money Laundering is in",
+          "p_new": 0.03625678806324718,
+          "p_old": 0.0011523833266558186
+        },
+        {
+          "target_new": 3.7904486656188965,
+          "target_true": 6.400638103485107,
+          "prompt": "The headquarters of Panth\u00e9on-Assas University is in",
+          "p_new": 0.02258546625534969,
+          "p_old": 0.001660497365888447
+        },
+        {
+          "target_new": 4.3903045654296875,
+          "target_true": 8.832873344421387,
+          "prompt": "The New York Times International Edition is based in",
+          "p_new": 0.012396952962108002,
+          "p_old": 0.00014585853498759203
+        },
+        {
+          "target_new": 2.284705877304077,
+          "target_true": 3.9140145778656006,
+          "prompt": "Constructions industrielles de la M\u00e9diterran\u00e9e is based in",
+          "p_new": 0.10180400057038051,
+          "p_old": 0.019960208188540766
+        },
+        {
+          "target_new": 1.2238218784332275,
+          "target_true": 5.199878215789795,
+          "prompt": "The headquarters of Veolia Water is in",
+          "p_new": 0.29410398654927195,
+          "p_old": 0.005517236292112631
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 10.0
+      }
+    }
+  },
+  "seeds": {
+    "2130": 2162,
+    "15759": 15791
+  },
+  "edit_seconds": [
+    2.906654099999969,
+    2.904787944000077
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "2130": true,
+      "15759": true
+    },
+    "eligible_prior_case_ids": [
+      2130
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 14.031346504999988,
+  "completed_at_utc": "2026-11-24T21:16:30.125995+00:00"
+}

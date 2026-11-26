@@ -1,0 +1,1574 @@
+{
+  "schema": 2,
+  "group": {
+    "subject": "Marie Curie",
+    "case_ids": [
+      10886,
+      14918
+    ],
+    "group_id": "group_016"
+  },
+  "order": "forward",
+  "edit_order": [
+    10886,
+    14918
+  ],
+  "facts": {
+    "10886": {
+      "case_id": 10886,
+      "requested_rewrite": {
+        "prompt": "{}'s area of work is",
+        "relation_id": "P101",
+        "target_new": {
+          "str": "mathematics",
+          "id": "Q395"
+        },
+        "target_true": {
+          "str": "chemistry",
+          "id": "Q2329"
+        },
+        "subject": "Marie Curie"
+      },
+      "prompts": {
+        "rewrite": [
+          "Marie Curie's area of work is"
+        ],
+        "paraphrase": [
+          "Students are suing the college over advertising claims. Marie Curie's expertise is",
+          "Raleigh, Bynum Printing Company, 1942. Marie Curie's domain of work is"
+        ],
+        "neighborhood": [
+          "Michael Faraday works in the area of",
+          "Ernest Rutherford works in the area of",
+          "Dorothy Hodgkin's area of work is",
+          "Dmitri Mendeleev's expertise is",
+          "The expertise of Henri Becquerel is",
+          "The domain of work of Justus von Liebig is",
+          "The domain of activity of Mikhail Vassilyevich Lomonosov is",
+          "The expertise of Robert Hooke is",
+          "Ir\u00e8ne Joliot-Curie's area of work is",
+          "Henri Becquerel works in the area of"
+        ],
+        "attribute": [
+          "Archimedes works in the area of",
+          "Augustin-Louis Cauchy works in the area of",
+          "The expertise of Joseph Fourier is",
+          "Carl Friedrich Gauss's area of work is",
+          "The domain of activity of John von Neumann is",
+          "Carl Friedrich Gauss's domain of work is",
+          "Galileo Galilei works in the area of",
+          "Christiaan Huygens works in the field of",
+          "The domain of work of John von Neumann is",
+          "The expertise of James Clerk Maxwell is"
+        ]
+      }
+    },
+    "14918": {
+      "case_id": 14918,
+      "requested_rewrite": {
+        "prompt": "The native language of {} is",
+        "relation_id": "P103",
+        "target_new": {
+          "str": "English",
+          "id": "Q1860"
+        },
+        "target_true": {
+          "str": "Polish",
+          "id": "Q809"
+        },
+        "subject": "Marie Curie"
+      },
+      "prompts": {
+        "rewrite": [
+          "The native language of Marie Curie is"
+        ],
+        "paraphrase": [
+          "For services to the Millennium Dome. Marie Curie spoke the language",
+          "in Santiago and Maio and to M\u2019 t\u00e1va t\u00e2 d\u00e2. Marie Curie is a native speaker of"
+        ],
+        "neighborhood": [
+          "Adam Gorczy\u0144ski, speaker of",
+          "Alicja Iwa\u0144ska, speaker of",
+          "Aleksandra Justa, speaker of",
+          "The mother tongue of Adam Leszczy\u0144ski is",
+          "August Krasicki is a native speaker of",
+          "Artur Harazim, a native",
+          "Andrzej Skowro\u0144ski, speaker of",
+          "Anzelm Iwanik, speaker of",
+          "Antoni Jozafat Nowak, a native",
+          "The native language of Aleksandra Justa is"
+        ],
+        "attribute": [
+          "The mother tongue of Bob Dylan is",
+          "Michael Jackson spoke the language",
+          "Barack Obama, speaker of",
+          "Louis Armstrong, a native",
+          "Meryl Streep spoke the language",
+          "The native language of George Washington is",
+          "The native language of Neil Young is",
+          "Madonna is a native speaker of",
+          "Cyndi Lauper, speaker of",
+          "Elton John is a native speaker of"
+        ]
+      }
+    }
+  },
+  "run_key": "b908f54972fd42f2a172183ed512c9d59a83b4dc2f86eaa9a3bae2d211fcee79",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "10886": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 8.006518363952637,
+              "target_true": 4.016289710998535,
+              "prompt": "Marie Curie's area of work is",
+              "p_new": 0.0003332830716889336,
+              "p_old": 0.01801969935328548
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 9.997489929199219,
+              "target_true": 7.079187393188477,
+              "prompt": "Students are suing the college over advertising claims. Marie Curie's expertise is",
+              "p_new": 4.551402994039473e-05,
+              "p_old": 0.0008424574569719354
+            },
+            {
+              "target_new": 8.996138572692871,
+              "target_true": 8.875253677368164,
+              "prompt": "Raleigh, Bynum Printing Company, 1942. Marie Curie's domain of work is",
+              "p_new": 0.00012388726331793645,
+              "p_old": 0.00013980615843697778
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.747716903686523,
+              "target_true": 6.564932346343994,
+              "prompt": "Michael Faraday works in the area of",
+              "p_new": 0.000431727090765922,
+              "p_old": 0.0014089192662207902
+            },
+            {
+              "target_new": 5.515669822692871,
+              "target_true": 5.4431681632995605,
+              "prompt": "Ernest Rutherford works in the area of",
+              "p_new": 0.004023231583908162,
+              "p_old": 0.004325756834378754
+            },
+            {
+              "target_new": 8.043106079101562,
+              "target_true": 8.173666954040527,
+              "prompt": "Dorothy Hodgkin's area of work is",
+              "p_new": 0.0003213093861907483,
+              "p_old": 0.0002819821028698933
+            },
+            {
+              "target_new": 6.748654365539551,
+              "target_true": 7.344361305236816,
+              "prompt": "Dmitri Mendeleev's expertise is",
+              "p_new": 0.0011724562573082577,
+              "p_old": 0.0006462259773337404
+            },
+            {
+              "target_new": 13.648017883300781,
+              "target_true": 14.646720886230469,
+              "prompt": "The expertise of Henri Becquerel is",
+              "p_new": 1.1823366291395261e-06,
+              "p_old": 4.355218427991361e-07
+            },
+            {
+              "target_new": 11.646040916442871,
+              "target_true": 13.29222583770752,
+              "prompt": "The domain of work of Justus von Liebig is",
+              "p_new": 8.75364024208971e-06,
+              "p_old": 1.6875617239594149e-06
+            },
+            {
+              "target_new": 12.59581184387207,
+              "target_true": 14.19190788269043,
+              "prompt": "The domain of activity of Mikhail Vassilyevich Lomonosov is",
+              "p_new": 3.386167375407628e-06,
+              "p_old": 6.863295831470741e-07
+            },
+            {
+              "target_new": 13.303972244262695,
+              "target_true": 14.307836532592773,
+              "prompt": "The expertise of Robert Hooke is",
+              "p_new": 1.6678549065990057e-06,
+              "p_old": 6.112030966534556e-07
+            },
+            {
+              "target_new": 6.933724403381348,
+              "target_true": 5.37054443359375,
+              "prompt": "Ir\u00e8ne Joliot-Curie's area of work is",
+              "p_new": 0.0009743651732544342,
+              "p_old": 0.004651598134483804
+            },
+            {
+              "target_new": 6.528787612915039,
+              "target_true": 6.870055198669434,
+              "prompt": "Henri Becquerel works in the area of",
+              "p_new": 0.0014607758023530372,
+              "p_old": 0.0010384197436451594
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 4.853433609008789,
+              "target_true": 7.826072692871094,
+              "prompt": "Archimedes works in the area of",
+              "p_new": 0.00780154405577414,
+              "p_old": 0.0003991901481273933
+            },
+            {
+              "target_new": 5.772395610809326,
+              "target_true": 7.008626937866211,
+              "prompt": "Augustin-Louis Cauchy works in the area of",
+              "p_new": 0.0031122927342652922,
+              "p_old": 0.0009040490521048859
+            },
+            {
+              "target_new": 12.63438606262207,
+              "target_true": 14.06786060333252,
+              "prompt": "The expertise of Joseph Fourier is",
+              "p_new": 3.258035789855516e-06,
+              "p_old": 7.76972714761419e-07
+            },
+            {
+              "target_new": 3.085714340209961,
+              "target_true": 7.238604545593262,
+              "prompt": "Carl Friedrich Gauss's area of work is",
+              "p_new": 0.04569737876302783,
+              "p_old": 0.0007183134346990274
+            },
+            {
+              "target_new": 5.8273820877075195,
+              "target_true": 9.435535430908203,
+              "prompt": "The domain of activity of John von Neumann is",
+              "p_new": 0.002945778684861341,
+              "p_old": 7.983604762285245e-05
+            },
+            {
+              "target_new": 2.9733023643493652,
+              "target_true": 8.226789474487305,
+              "prompt": "Carl Friedrich Gauss's domain of work is",
+              "p_new": 0.0511341675481412,
+              "p_old": 0.000267393427070346
+            },
+            {
+              "target_new": 3.019045829772949,
+              "target_true": 4.868610858917236,
+              "prompt": "Galileo Galilei works in the area of",
+              "p_new": 0.048847805253995895,
+              "p_old": 0.007684032081985583
+            },
+            {
+              "target_new": 5.757242202758789,
+              "target_true": 6.770328044891357,
+              "prompt": "Christiaan Huygens works in the field of",
+              "p_new": 0.003159813719144316,
+              "p_old": 0.0011473182172812982
+            },
+            {
+              "target_new": 7.449915885925293,
+              "target_true": 10.685187339782715,
+              "prompt": "The domain of work of John von Neumann is",
+              "p_new": 0.0005814905216739206,
+              "p_old": 2.2881374023464523e-05
+            },
+            {
+              "target_new": 12.66955852508545,
+              "target_true": 14.157510757446289,
+              "prompt": "The expertise of James Clerk Maxwell is",
+              "p_new": 3.1454344888846426e-06,
+              "p_old": 7.103480630075002e-07
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 30.0
+          }
+        },
+        "14918": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 3.342478036880493,
+              "target_true": 5.20926570892334,
+              "prompt": "The native language of Marie Curie is",
+              "p_new": 0.0353492523468894,
+              "p_old": 0.005465685618675558
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 9.317649841308594,
+              "target_true": 12.456779479980469,
+              "prompt": "For services to the Millennium Dome. Marie Curie spoke the language",
+              "p_new": 8.982476498721643e-05,
+              "p_old": 3.891252471762182e-06
+            },
+            {
+              "target_new": 2.5715882778167725,
+              "target_true": 5.528942108154297,
+              "prompt": "in Santiago and Maio and to M\u2019 t\u00e1va t\u00e2 d\u00e2. Marie Curie is a native speaker of",
+              "p_new": 0.07641408219912672,
+              "p_old": 0.003970186896630252
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.11776065826416,
+              "target_true": 3.032625198364258,
+              "prompt": "Adam Gorczy\u0144ski, speaker of",
+              "p_new": 4.035639618301075e-05,
+              "p_old": 0.04818896633393022
+            },
+            {
+              "target_new": 9.994260787963867,
+              "target_true": 3.572464942932129,
+              "prompt": "Alicja Iwa\u0144ska, speaker of",
+              "p_new": 4.566123872231977e-05,
+              "p_old": 0.02808653657422537
+            },
+            {
+              "target_new": 10.854087829589844,
+              "target_true": 5.271145343780518,
+              "prompt": "Aleksandra Justa, speaker of",
+              "p_new": 1.9325447067806947e-05,
+              "p_old": 0.005137722743089502
+            },
+            {
+              "target_new": 4.469396114349365,
+              "target_true": 0.32109391689300537,
+              "prompt": "The mother tongue of Adam Leszczy\u0144ski is",
+              "p_new": 0.01145423080799777,
+              "p_old": 0.7253551246914496
+            },
+            {
+              "target_new": 2.2876291275024414,
+              "target_true": 3.1830673217773438,
+              "prompt": "August Krasicki is a native speaker of",
+              "p_new": 0.10150683655951094,
+              "p_old": 0.041458293964276
+            },
+            {
+              "target_new": 6.317573547363281,
+              "target_true": 7.778539657592773,
+              "prompt": "Artur Harazim, a native",
+              "p_new": 0.0018043162869243936,
+              "p_old": 0.00041862306145975533
+            },
+            {
+              "target_new": 10.04384994506836,
+              "target_true": 2.6439719200134277,
+              "prompt": "Andrzej Skowro\u0144ski, speaker of",
+              "p_new": 4.345216217726292e-05,
+              "p_old": 0.07107839046011849
+            },
+            {
+              "target_new": 9.471433639526367,
+              "target_true": 5.938142776489258,
+              "prompt": "Anzelm Iwanik, speaker of",
+              "p_new": 7.702090807509223e-05,
+              "p_old": 0.0026369224604760265
+            },
+            {
+              "target_new": 7.816011428833008,
+              "target_true": 6.364175319671631,
+              "prompt": "Antoni Jozafat Nowak, a native",
+              "p_new": 0.00040322677835843745,
+              "p_old": 0.0017221611063270505
+            },
+            {
+              "target_new": 3.82879638671875,
+              "target_true": 3.477492332458496,
+              "prompt": "The native language of Aleksandra Justa is",
+              "p_new": 0.021735761343058917,
+              "p_old": 0.030884762723062373
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.9542369842529297,
+              "target_true": 8.705023765563965,
+              "prompt": "The mother tongue of Bob Dylan is",
+              "p_new": 0.38510587432490645,
+              "p_old": 0.00016575102157581457
+            },
+            {
+              "target_new": 8.40516471862793,
+              "target_true": 12.371771812438965,
+              "prompt": "Michael Jackson spoke the language",
+              "p_new": 0.00022370894165566784,
+              "p_old": 4.23650546029673e-06
+            },
+            {
+              "target_new": 11.216160774230957,
+              "target_true": 12.91855525970459,
+              "prompt": "Barack Obama, speaker of",
+              "p_new": 1.345498653901183e-05,
+              "p_old": 2.452125742239399e-06
+            },
+            {
+              "target_new": 7.691694736480713,
+              "target_true": 11.205371856689453,
+              "prompt": "Louis Armstrong, a native",
+              "p_new": 0.00045660369271623185,
+              "p_old": 1.3600937188336045e-05
+            },
+            {
+              "target_new": 9.433876037597656,
+              "target_true": 12.999621391296387,
+              "prompt": "Meryl Streep spoke the language",
+              "p_new": 7.996863700476032e-05,
+              "p_old": 2.261185349390969e-06
+            },
+            {
+              "target_new": 2.316807746887207,
+              "target_true": 7.56693696975708,
+              "prompt": "The native language of George Washington is",
+              "p_new": 0.09858780102465536,
+              "p_old": 0.0005172744518034855
+            },
+            {
+              "target_new": 1.9949426651000977,
+              "target_true": 9.071849822998047,
+              "prompt": "The native language of Neil Young is",
+              "p_new": 0.13602145271965865,
+              "p_old": 0.00011485388266533212
+            },
+            {
+              "target_new": 1.9790817499160767,
+              "target_true": 5.257090091705322,
+              "prompt": "Madonna is a native speaker of",
+              "p_new": 0.13819607762629343,
+              "p_old": 0.00521044459614388
+            },
+            {
+              "target_new": 8.61985969543457,
+              "target_true": 11.888603210449219,
+              "prompt": "Cyndi Lauper, speaker of",
+              "p_new": 0.00018048557587495808,
+              "p_old": 6.8682362940322104e-06
+            },
+            {
+              "target_new": 2.1055305004119873,
+              "target_true": 5.260802268981934,
+              "prompt": "Elton John is a native speaker of",
+              "p_new": 0.12178105223120615,
+              "p_old": 0.005191138358372019
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 80.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        10886
+      ],
+      "evaluations": {
+        "10886": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.025473831221461296,
+              "target_true": 13.603818893432617,
+              "prompt": "Marie Curie's area of work is",
+              "p_new": 0.9748478892104754,
+              "p_old": 1.2357667955961378e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.05094423517584801,
+              "target_true": 13.451007843017578,
+              "prompt": "Students are suing the college over advertising claims. Marie Curie's expertise is",
+              "p_new": 0.9503316641329602,
+              "p_old": 1.4397978401484692e-06
+            },
+            {
+              "target_new": 0.0694267749786377,
+              "target_true": 11.974151611328125,
+              "prompt": "Raleigh, Bynum Printing Company, 1942. Marie Curie's domain of work is",
+              "p_new": 0.9329284445887653,
+              "p_old": 6.305100737172222e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.404419898986816,
+              "target_true": 6.860287666320801,
+              "prompt": "Michael Faraday works in the area of",
+              "p_new": 0.0006085570474495584,
+              "p_old": 0.0010486122388116085
+            },
+            {
+              "target_new": 5.117234230041504,
+              "target_true": 5.5065155029296875,
+              "prompt": "Ernest Rutherford works in the area of",
+              "p_new": 0.005992574077431135,
+              "p_old": 0.004060230624451515
+            },
+            {
+              "target_new": 7.909020900726318,
+              "target_true": 8.126946449279785,
+              "prompt": "Dorothy Hodgkin's area of work is",
+              "p_new": 0.00036741413946154923,
+              "p_old": 0.00029546905444869195
+            },
+            {
+              "target_new": 5.879210948944092,
+              "target_true": 7.431211471557617,
+              "prompt": "Dmitri Mendeleev's expertise is",
+              "p_new": 0.002796991373556871,
+              "p_old": 0.0005924693172324272
+            },
+            {
+              "target_new": 13.502070426940918,
+              "target_true": 14.690384864807129,
+              "prompt": "The expertise of Henri Becquerel is",
+              "p_new": 1.3681235521528867e-06,
+              "p_old": 4.1691441967494723e-07
+            },
+            {
+              "target_new": 11.27772045135498,
+              "target_true": 13.115314483642578,
+              "prompt": "The domain of work of Justus von Liebig is",
+              "p_new": 1.2651681188367714e-05,
+              "p_old": 2.0141475913786892e-06
+            },
+            {
+              "target_new": 12.661985397338867,
+              "target_true": 14.239665985107422,
+              "prompt": "The domain of activity of Mikhail Vassilyevich Lomonosov is",
+              "p_new": 3.169345693109524e-06,
+              "p_old": 6.543221745787304e-07
+            },
+            {
+              "target_new": 13.285533905029297,
+              "target_true": 14.361976623535156,
+              "prompt": "The expertise of Robert Hooke is",
+              "p_new": 1.6988926439985e-06,
+              "p_old": 5.789923201012862e-07
+            },
+            {
+              "target_new": 0.08383169025182724,
+              "target_true": 11.52009391784668,
+              "prompt": "Ir\u00e8ne Joliot-Curie's area of work is",
+              "p_new": 0.919586018361934,
+              "p_old": 9.928571791978608e-06
+            },
+            {
+              "target_new": 6.208200454711914,
+              "target_true": 7.133655548095703,
+              "prompt": "Henri Becquerel works in the area of",
+              "p_new": 0.0020128564331539263,
+              "p_old": 0.0007977976627663614
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 4.49876070022583,
+              "target_true": 8.065353393554688,
+              "prompt": "Archimedes works in the area of",
+              "p_new": 0.011122772449622176,
+              "p_old": 0.00031424004375587596
+            },
+            {
+              "target_new": 4.983537673950195,
+              "target_true": 7.077659606933594,
+              "prompt": "Augustin-Louis Cauchy works in the area of",
+              "p_new": 0.0068497873296924135,
+              "p_old": 0.000843745535598886
+            },
+            {
+              "target_new": 12.543166160583496,
+              "target_true": 14.073325157165527,
+              "prompt": "The expertise of Joseph Fourier is",
+              "p_new": 3.569210409004908e-06,
+              "p_old": 7.727384851592734e-07
+            },
+            {
+              "target_new": 2.305974006652832,
+              "target_true": 7.682858467102051,
+              "prompt": "Carl Friedrich Gauss's area of work is",
+              "p_new": 0.09966168222278028,
+              "p_old": 0.00046065624429462114
+            },
+            {
+              "target_new": 5.60540771484375,
+              "target_true": 9.44784164428711,
+              "prompt": "The domain of activity of John von Neumann is",
+              "p_new": 0.003677920695658101,
+              "p_old": 7.885958876412738e-05
+            },
+            {
+              "target_new": 2.2418630123138428,
+              "target_true": 8.534785270690918,
+              "prompt": "Carl Friedrich Gauss's domain of work is",
+              "p_new": 0.10626035550888523,
+              "p_old": 0.00019651235158511522
+            },
+            {
+              "target_new": 2.2134034633636475,
+              "target_true": 5.395075798034668,
+              "prompt": "Galileo Galilei works in the area of",
+              "p_new": 0.10932792101930211,
+              "p_old": 0.004538876347854891
+            },
+            {
+              "target_new": 5.2202324867248535,
+              "target_true": 6.973259925842285,
+              "prompt": "Christiaan Huygens works in the field of",
+              "p_new": 0.005406072140324101,
+              "p_old": 0.0009365946945249548
+            },
+            {
+              "target_new": 7.2210235595703125,
+              "target_true": 10.624565124511719,
+              "prompt": "The domain of work of John von Neumann is",
+              "p_new": 0.0007310537587255456,
+              "p_old": 2.4311401393368523e-05
+            },
+            {
+              "target_new": 12.533843994140625,
+              "target_true": 14.181857109069824,
+              "prompt": "The expertise of James Clerk Maxwell is",
+              "p_new": 3.6026387527149314e-06,
+              "p_old": 6.932625086865191e-07
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 10.0
+          }
+        },
+        "14918": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 5.015818119049072,
+              "target_true": 8.837263107299805,
+              "prompt": "The native language of Marie Curie is",
+              "p_new": 0.006632203884741577,
+              "p_old": 0.00014521965389938262
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 8.051403999328613,
+              "target_true": 11.103630065917969,
+              "prompt": "For services to the Millennium Dome. Marie Curie spoke the language",
+              "p_new": 0.00031865421795824897,
+              "p_old": 1.505756453824816e-05
+            },
+            {
+              "target_new": 4.796754837036133,
+              "target_true": 7.553937911987305,
+              "prompt": "in Santiago and Maio and to M\u2019 t\u00e1va t\u00e2 d\u00e2. Marie Curie is a native speaker of",
+              "p_new": 0.008256497300332165,
+              "p_old": 0.0005240424256251072
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.110055923461914,
+              "target_true": 3.0395045280456543,
+              "prompt": "Adam Gorczy\u0144ski, speaker of",
+              "p_new": 4.0668532432578885e-05,
+              "p_old": 0.04785859621290411
+            },
+            {
+              "target_new": 9.988378524780273,
+              "target_true": 3.56648850440979,
+              "prompt": "Alicja Iwa\u0144ska, speaker of",
+              "p_new": 4.593062165969752e-05,
+              "p_old": 0.02825489662900431
+            },
+            {
+              "target_new": 10.855728149414062,
+              "target_true": 5.277000904083252,
+              "prompt": "Aleksandra Justa, speaker of",
+              "p_new": 1.9293773138658634e-05,
+              "p_old": 0.005107726406137006
+            },
+            {
+              "target_new": 4.457274913787842,
+              "target_true": 0.326955646276474,
+              "prompt": "The mother tongue of Adam Leszczy\u0144ski is",
+              "p_new": 0.011593914694870514,
+              "p_old": 0.7211157264848718
+            },
+            {
+              "target_new": 2.269792079925537,
+              "target_true": 3.1715493202209473,
+              "prompt": "August Krasicki is a native speaker of",
+              "p_new": 0.10333366299256268,
+              "p_old": 0.04193857126641049
+            },
+            {
+              "target_new": 6.358514785766602,
+              "target_true": 7.809572219848633,
+              "prompt": "Artur Harazim, a native",
+              "p_new": 0.0017319371002285759,
+              "p_old": 0.0004058316174034209
+            },
+            {
+              "target_new": 10.033848762512207,
+              "target_true": 2.6507389545440674,
+              "prompt": "Andrzej Skowro\u0144ski, speaker of",
+              "p_new": 4.388891556838922e-05,
+              "p_old": 0.07059902431042651
+            },
+            {
+              "target_new": 9.470903396606445,
+              "target_true": 5.948027610778809,
+              "prompt": "Anzelm Iwanik, speaker of",
+              "p_new": 7.706175869570405e-05,
+              "p_old": 0.0026109853222690805
+            },
+            {
+              "target_new": 7.8433051109313965,
+              "target_true": 6.400047779083252,
+              "prompt": "Antoni Jozafat Nowak, a native",
+              "p_new": 0.00039237006861127867,
+              "p_old": 0.0016614778873871568
+            },
+            {
+              "target_new": 3.825366258621216,
+              "target_true": 3.4714243412017822,
+              "prompt": "The native language of Aleksandra Justa is",
+              "p_new": 0.02181044580417057,
+              "p_old": 0.031072740941537086
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.9434319734573364,
+              "target_true": 8.72912883758545,
+              "prompt": "The mother tongue of Bob Dylan is",
+              "p_new": 0.3892895088600004,
+              "p_old": 0.00016180335184378522
+            },
+            {
+              "target_new": 8.398656845092773,
+              "target_true": 12.34961986541748,
+              "prompt": "Michael Jackson spoke the language",
+              "p_new": 0.00022516955875728501,
+              "p_old": 4.331399467912493e-06
+            },
+            {
+              "target_new": 11.206750869750977,
+              "target_true": 12.901427268981934,
+              "prompt": "Barack Obama, speaker of",
+              "p_new": 1.3582194244656694e-05,
+              "p_old": 2.494487479296238e-06
+            },
+            {
+              "target_new": 7.7102274894714355,
+              "target_true": 11.244422912597656,
+              "prompt": "Louis Armstrong, a native",
+              "p_new": 0.00044821950031807687,
+              "p_old": 1.3080043155406545e-05
+            },
+            {
+              "target_new": 9.435025215148926,
+              "target_true": 13.004240989685059,
+              "prompt": "Meryl Streep spoke the language",
+              "p_new": 7.987679162574036e-05,
+              "p_old": 2.2507636717109518e-06
+            },
+            {
+              "target_new": 2.259256362915039,
+              "target_true": 7.572564125061035,
+              "prompt": "The native language of George Washington is",
+              "p_new": 0.10442811250492191,
+              "p_old": 0.0005143718425043021
+            },
+            {
+              "target_new": 1.9092530012130737,
+              "target_true": 9.222832679748535,
+              "prompt": "The native language of Neil Young is",
+              "p_new": 0.1481910437898662,
+              "p_old": 9.875853971963603e-05
+            },
+            {
+              "target_new": 1.972848892211914,
+              "target_true": 5.250927925109863,
+              "prompt": "Madonna is a native speaker of",
+              "p_new": 0.13906012405539112,
+              "p_old": 0.0052426513535704595
+            },
+            {
+              "target_new": 8.761305809020996,
+              "target_true": 12.26503849029541,
+              "prompt": "Cyndi Lauper, speaker of",
+              "p_new": 0.00015667988094606526,
+              "p_old": 4.713694840389956e-06
+            },
+            {
+              "target_new": 2.061140775680542,
+              "target_true": 5.212530136108398,
+              "prompt": "Elton John is a native speaker of",
+              "p_new": 0.12730865640638192,
+              "p_old": 0.005447872376791376
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 80.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        10886,
+        14918
+      ],
+      "evaluations": {
+        "10886": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 4.21574592590332,
+              "target_true": 10.250006675720215,
+              "prompt": "Marie Curie's area of work is",
+              "p_new": 0.014761306818307809,
+              "p_old": 3.5357264814414667e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 4.556479454040527,
+              "target_true": 10.90787410736084,
+              "prompt": "Students are suing the college over advertising claims. Marie Curie's expertise is",
+              "p_new": 0.01049895601357419,
+              "p_old": 1.8313462600365097e-05
+            },
+            {
+              "target_new": 3.669462203979492,
+              "target_true": 9.257394790649414,
+              "prompt": "Raleigh, Bynum Printing Company, 1942. Marie Curie's domain of work is",
+              "p_new": 0.02549017477570587,
+              "p_old": 9.540354788327353e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.447298049926758,
+              "target_true": 6.865424156188965,
+              "prompt": "Michael Faraday works in the area of",
+              "p_new": 0.0005830147627304428,
+              "p_old": 0.0010432398620625388
+            },
+            {
+              "target_new": 5.1095991134643555,
+              "target_true": 5.441802978515625,
+              "prompt": "Ernest Rutherford works in the area of",
+              "p_new": 0.006038503193065979,
+              "p_old": 0.0043316663246433405
+            },
+            {
+              "target_new": 7.887401103973389,
+              "target_true": 8.104814529418945,
+              "prompt": "Dorothy Hodgkin's area of work is",
+              "p_new": 0.0003754440482053981,
+              "p_old": 0.0003020812523018771
+            },
+            {
+              "target_new": 5.979391574859619,
+              "target_true": 7.513917446136475,
+              "prompt": "Dmitri Mendeleev's expertise is",
+              "p_new": 0.0025303653618779605,
+              "p_old": 0.0005454401655073604
+            },
+            {
+              "target_new": 13.520698547363281,
+              "target_true": 14.68291187286377,
+              "prompt": "The expertise of Henri Becquerel is",
+              "p_new": 1.3428738889008818e-06,
+              "p_old": 4.200416882469991e-07
+            },
+            {
+              "target_new": 11.422565460205078,
+              "target_true": 13.227753639221191,
+              "prompt": "The domain of work of Justus von Liebig is",
+              "p_new": 1.0945682625741292e-05,
+              "p_old": 1.7999464577100772e-06
+            },
+            {
+              "target_new": 12.654269218444824,
+              "target_true": 14.234509468078613,
+              "prompt": "The domain of activity of Mikhail Vassilyevich Lomonosov is",
+              "p_new": 3.193895525095564e-06,
+              "p_old": 6.577049120905791e-07
+            },
+            {
+              "target_new": 13.35576343536377,
+              "target_true": 14.383520126342773,
+              "prompt": "The expertise of Robert Hooke is",
+              "p_new": 1.5836734591286522e-06,
+              "p_old": 5.666521994135635e-07
+            },
+            {
+              "target_new": 3.1313319206237793,
+              "target_true": 8.934168815612793,
+              "prompt": "Ir\u00e8ne Joliot-Curie's area of work is",
+              "p_new": 0.043659607377713586,
+              "p_old": 0.00013180739686086422
+            },
+            {
+              "target_new": 6.249479293823242,
+              "target_true": 7.228178977966309,
+              "prompt": "Henri Becquerel works in the area of",
+              "p_new": 0.0019314595973725871,
+              "p_old": 0.0007258414336345598
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 4.422543048858643,
+              "target_true": 8.043037414550781,
+              "prompt": "Archimedes works in the area of",
+              "p_new": 0.012003667524359054,
+              "p_old": 0.0003213314495128883
+            },
+            {
+              "target_new": 5.09907865524292,
+              "target_true": 7.093893051147461,
+              "prompt": "Augustin-Louis Cauchy works in the area of",
+              "p_new": 0.006102366359485333,
+              "p_old": 0.0008301592142703609
+            },
+            {
+              "target_new": 12.579388618469238,
+              "target_true": 14.091553688049316,
+              "prompt": "The expertise of Joseph Fourier is",
+              "p_new": 3.442238338202355e-06,
+              "p_old": 7.587802038007698e-07
+            },
+            {
+              "target_new": 2.2602477073669434,
+              "target_true": 7.554915904998779,
+              "prompt": "Carl Friedrich Gauss's area of work is",
+              "p_new": 0.10432463957210038,
+              "p_old": 0.0005235301663289655
+            },
+            {
+              "target_new": 5.6411237716674805,
+              "target_true": 9.470321655273438,
+              "prompt": "The domain of activity of John von Neumann is",
+              "p_new": 0.0035488780359206468,
+              "p_old": 7.710660174819553e-05
+            },
+            {
+              "target_new": 2.263307809829712,
+              "target_true": 8.498788833618164,
+              "prompt": "Carl Friedrich Gauss's domain of work is",
+              "p_new": 0.10400588344756123,
+              "p_old": 0.00020371495235554243
+            },
+            {
+              "target_new": 2.224128007888794,
+              "target_true": 5.024619102478027,
+              "prompt": "Galileo Galilei works in the area of",
+              "p_new": 0.1081616936689266,
+              "p_old": 0.006574090072713981
+            },
+            {
+              "target_new": 5.181025505065918,
+              "target_true": 6.944623947143555,
+              "prompt": "Christiaan Huygens works in the field of",
+              "p_new": 0.005622237823680129,
+              "p_old": 0.0009638027050188386
+            },
+            {
+              "target_new": 7.295167922973633,
+              "target_true": 10.672582626342773,
+              "prompt": "The domain of work of John von Neumann is",
+              "p_new": 0.0006788109298748251,
+              "p_old": 2.3171612530025984e-05
+            },
+            {
+              "target_new": 12.65925407409668,
+              "target_true": 14.22262191772461,
+              "prompt": "The expertise of James Clerk Maxwell is",
+              "p_new": 3.178014033294241e-06,
+              "p_old": 6.65570068451193e-07
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 10.0
+          }
+        },
+        "14918": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.009650482796132565,
+              "target_true": 12.096016883850098,
+              "prompt": "The native language of Marie Curie is",
+              "p_new": 0.990395933679166,
+              "p_old": 5.581701588675012e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 7.643447399139404,
+              "target_true": 12.31850814819336,
+              "prompt": "For services to the Millennium Dome. Marie Curie spoke the language",
+              "p_new": 0.0004791736984035509,
+              "p_old": 4.468274918081346e-06
+            },
+            {
+              "target_new": 0.15387769043445587,
+              "target_true": 8.2340669631958,
+              "prompt": "in Santiago and Maio and to M\u2019 t\u00e1va t\u00e2 d\u00e2. Marie Curie is a native speaker of",
+              "p_new": 0.857376879992398,
+              "p_old": 0.00026545453810265356
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.103681564331055,
+              "target_true": 3.0365896224975586,
+              "prompt": "Adam Gorczy\u0144ski, speaker of",
+              "p_new": 4.0928596253138394e-05,
+              "p_old": 0.04799830301767909
+            },
+            {
+              "target_new": 9.97916316986084,
+              "target_true": 3.5671799182891846,
+              "prompt": "Alicja Iwa\u0144ska, speaker of",
+              "p_new": 4.635584492234746e-05,
+              "p_old": 0.028235367553429105
+            },
+            {
+              "target_new": 10.842781066894531,
+              "target_true": 5.2759928703308105,
+              "prompt": "Aleksandra Justa, speaker of",
+              "p_new": 1.9545195291191855e-05,
+              "p_old": 0.00511287776268706
+            },
+            {
+              "target_new": 4.438036918640137,
+              "target_true": 0.3224625587463379,
+              "prompt": "The mother tongue of Adam Leszczy\u0144ski is",
+              "p_new": 0.011819117650597873,
+              "p_old": 0.7243630523599857
+            },
+            {
+              "target_new": 2.2558045387268066,
+              "target_true": 3.1872706413269043,
+              "prompt": "August Krasicki is a native speaker of",
+              "p_new": 0.10478920284124112,
+              "p_old": 0.041284397234558706
+            },
+            {
+              "target_new": 6.293381214141846,
+              "target_true": 7.759406566619873,
+              "prompt": "Artur Harazim, a native",
+              "p_new": 0.0018484991967266282,
+              "p_old": 0.0004267097293618155
+            },
+            {
+              "target_new": 10.037393569946289,
+              "target_true": 2.6506993770599365,
+              "prompt": "Andrzej Skowro\u0144ski, speaker of",
+              "p_new": 4.373361323526408e-05,
+              "p_old": 0.0706018184974839
+            },
+            {
+              "target_new": 9.47076416015625,
+              "target_true": 5.945379257202148,
+              "prompt": "Anzelm Iwanik, speaker of",
+              "p_new": 7.707248924845536e-05,
+              "p_old": 0.0026179092991083976
+            },
+            {
+              "target_new": 7.7248711585998535,
+              "target_true": 6.341641426086426,
+              "prompt": "Antoni Jozafat Nowak, a native",
+              "p_new": 0.0004417037459684331,
+              "p_old": 0.0017614086405803233
+            },
+            {
+              "target_new": 3.7760348320007324,
+              "target_true": 3.458646774291992,
+              "prompt": "The native language of Aleksandra Justa is",
+              "p_new": 0.02291336688369816,
+              "p_old": 0.03147232237071422
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.8864783048629761,
+              "target_true": 8.841230392456055,
+              "prompt": "The mother tongue of Bob Dylan is",
+              "p_new": 0.41210450665726767,
+              "p_old": 0.00014464466744384618
+            },
+            {
+              "target_new": 8.38631820678711,
+              "target_true": 12.366029739379883,
+              "prompt": "Michael Jackson spoke the language",
+              "p_new": 0.000227965055344969,
+              "p_old": 4.260901759800366e-06
+            },
+            {
+              "target_new": 11.200581550598145,
+              "target_true": 12.907981872558594,
+              "prompt": "Barack Obama, speaker of",
+              "p_new": 1.3666246140645696e-05,
+              "p_old": 2.478190570976022e-06
+            },
+            {
+              "target_new": 7.599797248840332,
+              "target_true": 11.29610538482666,
+              "prompt": "Louis Armstrong, a native",
+              "p_new": 0.0005005529108360804,
+              "p_old": 1.2421205998721192e-05
+            },
+            {
+              "target_new": 9.40405559539795,
+              "target_true": 12.999031066894531,
+              "prompt": "Meryl Streep spoke the language",
+              "p_new": 8.238924961497406e-05,
+              "p_old": 2.262520576349585e-06
+            },
+            {
+              "target_new": 2.153371572494507,
+              "target_true": 7.549091339111328,
+              "prompt": "The native language of George Washington is",
+              "p_new": 0.11609208431455492,
+              "p_old": 0.0005265884000727653
+            },
+            {
+              "target_new": 1.5906497240066528,
+              "target_true": 9.329474449157715,
+              "prompt": "The native language of Neil Young is",
+              "p_new": 0.20379315940208778,
+              "p_old": 8.876887739738481e-05
+            },
+            {
+              "target_new": 1.9504787921905518,
+              "target_true": 5.2406697273254395,
+              "prompt": "Madonna is a native speaker of",
+              "p_new": 0.14220596817711126,
+              "p_old": 0.005296708297444785
+            },
+            {
+              "target_new": 8.417986869812012,
+              "target_true": 12.566648483276367,
+              "prompt": "Cyndi Lauper, speaker of",
+              "p_new": 0.00022085882315797507,
+              "p_old": 3.4863734667829522e-06
+            },
+            {
+              "target_new": 2.0011398792266846,
+              "target_true": 5.260144233703613,
+              "prompt": "Elton John is a native speaker of",
+              "p_new": 0.13518110524745128,
+              "p_old": 0.005194555434701554
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 80.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "10886": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.025473831221461296,
+          "target_true": 13.603818893432617,
+          "prompt": "Marie Curie's area of work is",
+          "p_new": 0.9748478892104754,
+          "p_old": 1.2357667955961378e-06
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.05094423517584801,
+          "target_true": 13.451007843017578,
+          "prompt": "Students are suing the college over advertising claims. Marie Curie's expertise is",
+          "p_new": 0.9503316641329602,
+          "p_old": 1.4397978401484692e-06
+        },
+        {
+          "target_new": 0.0694267749786377,
+          "target_true": 11.974151611328125,
+          "prompt": "Raleigh, Bynum Printing Company, 1942. Marie Curie's domain of work is",
+          "p_new": 0.9329284445887653,
+          "p_old": 6.305100737172222e-06
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 7.404419898986816,
+          "target_true": 6.860287666320801,
+          "prompt": "Michael Faraday works in the area of",
+          "p_new": 0.0006085570474495584,
+          "p_old": 0.0010486122388116085
+        },
+        {
+          "target_new": 5.117234230041504,
+          "target_true": 5.5065155029296875,
+          "prompt": "Ernest Rutherford works in the area of",
+          "p_new": 0.005992574077431135,
+          "p_old": 0.004060230624451515
+        },
+        {
+          "target_new": 7.909020900726318,
+          "target_true": 8.126946449279785,
+          "prompt": "Dorothy Hodgkin's area of work is",
+          "p_new": 0.00036741413946154923,
+          "p_old": 0.00029546905444869195
+        },
+        {
+          "target_new": 5.879210948944092,
+          "target_true": 7.431211471557617,
+          "prompt": "Dmitri Mendeleev's expertise is",
+          "p_new": 0.002796991373556871,
+          "p_old": 0.0005924693172324272
+        },
+        {
+          "target_new": 13.502070426940918,
+          "target_true": 14.690384864807129,
+          "prompt": "The expertise of Henri Becquerel is",
+          "p_new": 1.3681235521528867e-06,
+          "p_old": 4.1691441967494723e-07
+        },
+        {
+          "target_new": 11.27772045135498,
+          "target_true": 13.115314483642578,
+          "prompt": "The domain of work of Justus von Liebig is",
+          "p_new": 1.2651681188367714e-05,
+          "p_old": 2.0141475913786892e-06
+        },
+        {
+          "target_new": 12.661985397338867,
+          "target_true": 14.239665985107422,
+          "prompt": "The domain of activity of Mikhail Vassilyevich Lomonosov is",
+          "p_new": 3.169345693109524e-06,
+          "p_old": 6.543221745787304e-07
+        },
+        {
+          "target_new": 13.285533905029297,
+          "target_true": 14.361976623535156,
+          "prompt": "The expertise of Robert Hooke is",
+          "p_new": 1.6988926439985e-06,
+          "p_old": 5.789923201012862e-07
+        },
+        {
+          "target_new": 0.08383169025182724,
+          "target_true": 11.52009391784668,
+          "prompt": "Ir\u00e8ne Joliot-Curie's area of work is",
+          "p_new": 0.919586018361934,
+          "p_old": 9.928571791978608e-06
+        },
+        {
+          "target_new": 6.208200454711914,
+          "target_true": 7.133655548095703,
+          "prompt": "Henri Becquerel works in the area of",
+          "p_new": 0.0020128564331539263,
+          "p_old": 0.0007977976627663614
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 4.49876070022583,
+          "target_true": 8.065353393554688,
+          "prompt": "Archimedes works in the area of",
+          "p_new": 0.011122772449622176,
+          "p_old": 0.00031424004375587596
+        },
+        {
+          "target_new": 4.983537673950195,
+          "target_true": 7.077659606933594,
+          "prompt": "Augustin-Louis Cauchy works in the area of",
+          "p_new": 0.0068497873296924135,
+          "p_old": 0.000843745535598886
+        },
+        {
+          "target_new": 12.543166160583496,
+          "target_true": 14.073325157165527,
+          "prompt": "The expertise of Joseph Fourier is",
+          "p_new": 3.569210409004908e-06,
+          "p_old": 7.727384851592734e-07
+        },
+        {
+          "target_new": 2.305974006652832,
+          "target_true": 7.682858467102051,
+          "prompt": "Carl Friedrich Gauss's area of work is",
+          "p_new": 0.09966168222278028,
+          "p_old": 0.00046065624429462114
+        },
+        {
+          "target_new": 5.60540771484375,
+          "target_true": 9.44784164428711,
+          "prompt": "The domain of activity of John von Neumann is",
+          "p_new": 0.003677920695658101,
+          "p_old": 7.885958876412738e-05
+        },
+        {
+          "target_new": 2.2418630123138428,
+          "target_true": 8.534785270690918,
+          "prompt": "Carl Friedrich Gauss's domain of work is",
+          "p_new": 0.10626035550888523,
+          "p_old": 0.00019651235158511522
+        },
+        {
+          "target_new": 2.2134034633636475,
+          "target_true": 5.395075798034668,
+          "prompt": "Galileo Galilei works in the area of",
+          "p_new": 0.10932792101930211,
+          "p_old": 0.004538876347854891
+        },
+        {
+          "target_new": 5.2202324867248535,
+          "target_true": 6.973259925842285,
+          "prompt": "Christiaan Huygens works in the field of",
+          "p_new": 0.005406072140324101,
+          "p_old": 0.0009365946945249548
+        },
+        {
+          "target_new": 7.2210235595703125,
+          "target_true": 10.624565124511719,
+          "prompt": "The domain of work of John von Neumann is",
+          "p_new": 0.0007310537587255456,
+          "p_old": 2.4311401393368523e-05
+        },
+        {
+          "target_new": 12.533843994140625,
+          "target_true": 14.181857109069824,
+          "prompt": "The expertise of James Clerk Maxwell is",
+          "p_new": 3.6026387527149314e-06,
+          "p_old": 6.932625086865191e-07
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 10.0
+      }
+    },
+    "14918": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.0008363801171071827,
+          "target_true": 17.47808074951172,
+          "prompt": "The native language of Marie Curie is",
+          "p_new": 0.999163969551251,
+          "p_old": 2.5666460159891455e-08
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 7.9634294509887695,
+          "target_true": 12.099541664123535,
+          "prompt": "For services to the Millennium Dome. Marie Curie spoke the language",
+          "p_new": 0.0003479577648291108,
+          "p_old": 5.562061950062109e-06
+        },
+        {
+          "target_new": 0.020956985652446747,
+          "target_true": 12.21872329711914,
+          "prompt": "in Santiago and Maio and to M\u2019 t\u00e1va t\u00e2 d\u00e2. Marie Curie is a native speaker of",
+          "p_new": 0.9792610859402374,
+          "p_old": 4.937145157677149e-06
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 10.112411499023438,
+          "target_true": 3.040498971939087,
+          "prompt": "Adam Gorczy\u0144ski, speaker of",
+          "p_new": 4.0572847372396627e-05,
+          "p_old": 0.04781102718043902
+        },
+        {
+          "target_new": 9.992796897888184,
+          "target_true": 3.5758893489837646,
+          "prompt": "Alicja Iwa\u0144ska, speaker of",
+          "p_new": 4.572813070583856e-05,
+          "p_old": 0.027990521359779107
+        },
+        {
+          "target_new": 10.837455749511719,
+          "target_true": 5.27044677734375,
+          "prompt": "Aleksandra Justa, speaker of",
+          "p_new": 1.9649557293184732e-05,
+          "p_old": 0.005141313037642875
+        },
+        {
+          "target_new": 4.4251298904418945,
+          "target_true": 0.31631311774253845,
+          "prompt": "The mother tongue of Adam Leszczy\u0144ski is",
+          "p_new": 0.011972656066213661,
+          "p_old": 0.728831204454167
+        },
+        {
+          "target_new": 2.27176570892334,
+          "target_true": 3.191056251525879,
+          "prompt": "August Krasicki is a native speaker of",
+          "p_new": 0.10312992179972907,
+          "p_old": 0.041128406046535615
+        },
+        {
+          "target_new": 6.295332431793213,
+          "target_true": 7.794402599334717,
+          "prompt": "Artur Harazim, a native",
+          "p_new": 0.0018448958890274546,
+          "p_old": 0.00041203486049811274
+        },
+        {
+          "target_new": 10.048039436340332,
+          "target_true": 2.6572868824005127,
+          "prompt": "Andrzej Skowro\u0144ski, speaker of",
+          "p_new": 4.3270500523736794e-05,
+          "p_old": 0.07013825717378629
+        },
+        {
+          "target_new": 9.473397254943848,
+          "target_true": 5.9314866065979,
+          "prompt": "Anzelm Iwanik, speaker of",
+          "p_new": 7.686981702343476e-05,
+          "p_old": 0.0026545328080778007
+        },
+        {
+          "target_new": 7.738466739654541,
+          "target_true": 6.3624587059021,
+          "prompt": "Antoni Jozafat Nowak, a native",
+          "p_new": 0.0004357391647358253,
+          "p_old": 0.001725119930648229
+        },
+        {
+          "target_new": 3.754375457763672,
+          "target_true": 3.446728229522705,
+          "prompt": "The native language of Aleksandra Justa is",
+          "p_new": 0.023415069743623878,
+          "p_old": 0.031849670909704295
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 0.8887879848480225,
+          "target_true": 8.900323867797852,
+          "prompt": "The mother tongue of Bob Dylan is",
+          "p_new": 0.41115377549151555,
+          "p_old": 0.00013634476165290938
+        },
+        {
+          "target_new": 8.362615585327148,
+          "target_true": 12.348660469055176,
+          "prompt": "Michael Jackson spoke the language",
+          "p_new": 0.00023343297072849078,
+          "p_old": 4.335556990842988e-06
+        },
+        {
+          "target_new": 11.198431015014648,
+          "target_true": 12.894155502319336,
+          "prompt": "Barack Obama, speaker of",
+          "p_new": 1.3695667513779887e-05,
+          "p_old": 2.512692922834038e-06
+        },
+        {
+          "target_new": 7.557464122772217,
+          "target_true": 11.277657508850098,
+          "prompt": "Louis Armstrong, a native",
+          "p_new": 0.0005221977957603466,
+          "p_old": 1.265247754193467e-05
+        },
+        {
+          "target_new": 9.400875091552734,
+          "target_true": 13.016204833984375,
+          "prompt": "Meryl Streep spoke the language",
+          "p_new": 8.265170609085209e-05,
+          "p_old": 2.2239963250466727e-06
+        },
+        {
+          "target_new": 2.130387306213379,
+          "target_true": 7.674610137939453,
+          "prompt": "The native language of George Washington is",
+          "p_new": 0.11879127634212854,
+          "p_old": 0.0004644716021607016
+        },
+        {
+          "target_new": 1.6142323017120361,
+          "target_true": 9.530515670776367,
+          "prompt": "The native language of Neil Young is",
+          "p_new": 0.1990434170921785,
+          "p_old": 7.260217551752449e-05
+        },
+        {
+          "target_new": 1.9525113105773926,
+          "target_true": 5.25424337387085,
+          "prompt": "Madonna is a native speaker of",
+          "p_new": 0.14191722546890734,
+          "p_old": 0.005225298393955806
+        },
+        {
+          "target_new": 8.143918991088867,
+          "target_true": 12.345767974853516,
+          "prompt": "Cyndi Lauper, speaker of",
+          "p_new": 0.00029049651128543836,
+          "p_old": 4.348115718567458e-06
+        },
+        {
+          "target_new": 2.013066291809082,
+          "target_true": 5.294088363647461,
+          "prompt": "Elton John is a native speaker of",
+          "p_new": 0.1335784555403466,
+          "p_old": 0.005021189788761284
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 80.0
+      }
+    }
+  },
+  "seeds": {
+    "10886": 10918,
+    "14918": 14950
+  },
+  "edit_seconds": [
+    3.3953739080000105,
+    2.2306363780000993
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "10886": true,
+      "14918": true
+    },
+    "eligible_prior_case_ids": [
+      10886
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 14.833853206999947,
+  "completed_at_utc": "2026-11-24T21:22:41.609705+00:00"
+}

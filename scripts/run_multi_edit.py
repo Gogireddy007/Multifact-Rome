@@ -1,31 +1,43 @@
-"""Run from the pinned official ROME checkout. Uses original editing/evaluation code."""
+"""Verified sequential ROME experiments. Launch with run_multi_stage.py."""
 import argparse
-import os
-import sys
-os.environ["MPLBACKEND"] = "Agg"
 import contextlib
-import hashlib
+from datetime import datetime, timezone
 import importlib.metadata
 import json
+import os
+from pathlib import Path
 import platform
 import random
 import subprocess
+import sys
 import time
-from pathlib import Path
 
-from baseline_support import atomic_json, aggregate, validate_result, scores
+os.environ['MPLBACKEND'] = 'Agg'
+from baseline_support import atomic_json
+from multi_support import (SCHEMA, check_manifest, digest, execute_protocol, fact_spec,
+                           file_hash, load_groups, orders_for, pack_evaluation, read_json,
+                           require, retention, validate_result)
 
+ROOT = Path(__file__).resolve().parents[1]
 ROME_COMMIT = '0874014cd9837e4365f3e6f3c71400ef11509e04'
+MODEL_REVISION = '15ea56dee5df4983c59b2538573817e1667135e2'
+
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--limit', type=int, choices=[1, 5, 20], required=True)
+    parser.add_argument('--limit', type=int, required=True)
     parser.add_argument('--output', type=Path, required=True)
+    parser.add_argument('--groups', type=Path, default=ROOT/'results/related_groups/pilot_groups.json')
+    parser.add_argument('--order', choices=['forward', 'reverse', 'both'], default='forward')
     args = parser.parse_args()
+    output, groups_path = args.output.resolve(), args.groups.resolve()
+    require(args.limit > 0, 'Limit must be positive')
+    vendor = ROOT/'vendor/rome'
+    sys.path.insert(0, str(vendor))
+    os.chdir(vendor)
     import numpy as np
     import torch
     from transformers import AutoModelForCausalLM, AutoTokenizer
-    from huggingface_hub import model_info
     from dsets import CounterFactDataset
     from rome import ROMEHyperParams, apply_rome_to_model
     import rome.rome_main as rome_main
@@ -33,225 +45,150 @@ def main():
     from util.globals import DATA_DIR, STATS_DIR, REMOTE_ROOT_URL
     import experiments.py.eval_utils_counterfact as evaluation
 
-    if not torch.cuda.is_available():
-        raise RuntimeError('A CUDA GPU runtime is required. Choose GPU in Colab runtime settings.')
+    require(torch.cuda.is_available(), 'A CUDA GPU is required')
     commit = subprocess.check_output(['git', 'rev-parse', 'HEAD'], text=True).strip()
-    if commit != ROME_COMMIT:
-        raise RuntimeError('ROME version mismatch')
-    if subprocess.check_output(['git', 'diff', '--name-only'], text=True).strip():
-        raise RuntimeError('Tracked ROME source files were modified')
+    require(commit == ROME_COMMIT, 'ROME commit mismatch')
+    require(not subprocess.check_output(['git', 'diff', 'HEAD', '--name-only'], text=True).strip(), 'ROME source changed')
     torch.backends.cuda.matmul.allow_tf32 = False
     torch.backends.cudnn.allow_tf32 = False
-    seed = 32
-    random.seed(seed)
-    np.random.seed(seed)
-    torch.manual_seed(seed)
-    torch.cuda.manual_seed_all(seed)
-    output = args.output.resolve()
-    output.mkdir(parents=True, exist_ok=True)
-    manifest_path = output / 'manifest.json'
-    previous = json.loads(manifest_path.read_text()) if manifest_path.exists() else None
-    model_id = 'gpt2-xl'
-    revision = previous['model_revision'] if previous else '15ea56dee5df4983c59b2538573817e1667135e2'
-    hp_path = Path('hparams/ROME/gpt2-xl.json')
-    hp = json.loads(hp_path.read_text())
-    hparams = ROMEHyperParams.from_json(hp_path)
-
-    rt = Path(__file__).resolve().parents[2]
-    gp = rt / "results" / "related_groups" / "pilot_groups.json"
-    with open(gp, "r") as f:
-        dat = json.load(f)
-    grps = dat["pilot"]
-
-    ds = CounterFactDataset(DATA_DIR)
-
-    recs_id = {r["case_id"]: r for r in ds}
-    ids = [case_id for g in grps for case_id in g["case_ids"]]
-
-    for cid in ids:
-        if cid not in recs_id:
-            raise ValueError(f"Missing case ID: {cid}")
-
-    #if len(ds) != 200:
-    #    raise RuntimeError('Expected exactly 200 dataset records')
-    #records = list(ds)
-    #ids = [r['case_id'] for r in records]
-    #if len(set(ids)) != 200:
-    #    raise RuntimeError('Duplicate dataset case IDs')
-
-    
-    packages = {x: importlib.metadata.version(x) for x in ['torch','transformers','tokenizers','datasets','numpy','scipy','scikit-learn','huggingface-hub']}
-    manifest = {
-        'runner_sha256': hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
-        'support_sha256': hashlib.sha256(Path(__file__).with_name('baseline_support.py').read_bytes()).hexdigest(),
-        'schema': 1, 'rome_commit': commit, 'model': model_id, 'model_revision': revision,
-        'dtype': 'float32', 'attention': 'eager', 'seed': seed, 'hparams': hp,
-        'selection': 'first 20 CounterFact pilot subject pairs',
-        'case_ids': ids, 'dataset_sha256': hashlib.sha256((Path(DATA_DIR)/'counterfact.json').read_bytes()).hexdigest(),
-        'packages': packages, 'python': platform.python_version(),
-        'gpu': torch.cuda.get_device_name(0), 'cuda': torch.version.cuda,
-        'metrics': 'official probability-based ES/PS/NS; generation metrics omitted',
-        'evaluation_prefix_batch_size': 4,
+    def reseed(cid=0):
+        random.seed(32 + cid)
+        np.random.seed(32 + cid)
+        torch.manual_seed(32 + cid)
+        torch.cuda.manual_seed_all(32 + cid)
+    reseed()
+    dataset = list(CounterFactDataset(DATA_DIR))
+    records = {r['case_id']: r for r in dataset}
+    require(len(records) == len(dataset), 'Duplicate dataset case IDs')
+    groups = load_groups(read_json(groups_path), records)
+    require(args.limit <= len(groups), 'Limit exceeds available groups')
+    ids = sorted({c for group in groups for c in group['case_ids']})
+    specs = {str(c): fact_spec(records[c]) for c in ids}
+    hparams_path = Path('hparams/ROME/gpt2-xl.json')
+    hp = read_json(hparams_path)
+    hparams = ROMEHyperParams.from_json(hparams_path)
+    require(hp['layers'] == [17], 'Unexpected edit layer')
+    # A prefix extension (1 -> 5 -> 20) is not a configuration change.
+    config = {
+        'schema': SCHEMA, 'rome_commit': commit, 'model': 'gpt2-xl', 'model_revision': MODEL_REVISION,
+        'dtype': 'float32', 'attention': 'eager', 'hparams': hp, 'seed': 32,
+        'seed_policy': '32 + case_id before each sequential or independent edit',
+        'order': args.order, 'groups': groups, 'groups_sha256': file_hash(groups_path),
+        'dataset_sha256': file_hash(Path(DATA_DIR)/'counterfact.json'), 'facts_sha256': digest(specs),
+        'sources': {name: file_hash(ROOT/'scripts'/name) for name in
+                    ('run_multi_edit.py', 'multi_support.py', 'baseline_support.py', 'run_multi_stage.py', 'verify_multi_results.py')},
+        'requirements_sha256': file_hash(ROOT/'requirements.txt'),
+        'packages': {x: importlib.metadata.version(x) for x in ('torch','transformers','tokenizers','datasets',
+                     'numpy','scipy','scikit-learn','huggingface-hub','pyarrow','pandas')},
+        'python': platform.python_version(), 'gpu': torch.cuda.get_device_name(0), 'cuda': torch.version.cuda,
+        'evaluation_prefix_batch_size': 4, 'probability_definition': 'exp(-mean target-token NLL); not joint sequence probability',
+        'context_policy': 'reuse archived pilot templates for paired-order comparability',
     }
-    if previous and previous != manifest:
-        raise RuntimeError('Environment/config changed. Use a NEW output folder to avoid mixing results.')
-    atomic_json(manifest_path, manifest)
-    run_key = hashlib.sha256(json.dumps(manifest, sort_keys=True).encode()).hexdigest()
+    output.mkdir(parents=True, exist_ok=True)
+    # An OS advisory lock is released even after a crash. Prevent two writers to one run.
+    import fcntl
+    lock = (output/'.run.lock').open('a')
+    try:
+        fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except BlockingIOError:
+        raise RuntimeError('Another process is writing this run folder')
+    context_path = output/'context_templates.json'
+    original_context = ROOT/'results/multi_pilot/context_templates.json'
+    contexts = read_json(original_context)
+    require(isinstance(contexts, list) and contexts and all(isinstance(t, str) for t in contexts), 'Invalid templates')
+    manifest = dict(config, context_templates_sha256=digest(contexts))
+    manifest_path = output/'manifest.json'
+    if manifest_path.exists():
+        check_manifest(read_json(manifest_path), manifest)
+        require(read_json(output/'facts.json') == specs, 'Fact catalog changed')
+        require(read_json(output/'groups.json') == groups, 'Group catalog changed')
+        require(read_json(context_path) == contexts, 'Context templates changed')
+    else:
+        require(not list(output.glob('group_*.json')), 'Unmanifested results; use a new folder')
+        atomic_json(context_path, contexts)
+        atomic_json(output/'facts.json', specs)
+        atomic_json(output/'groups.json', groups)
+        (output/'sources').mkdir(exist_ok=True)
+        for name in config['sources']:
+            (output/'sources'/name).write_bytes((ROOT/'scripts'/name).read_bytes())
+        atomic_json(manifest_path, manifest)
+    for name, expected in manifest['sources'].items():
+        require(file_hash(output/'sources'/name) == expected, 'Archived source hash mismatch')
+    run_key = digest(manifest)
     pending = []
-    for ind, grp in enumerate(grps[:args.limit], start=1):
-        path = output / f"group_{ind:02d}.json"
-        if path.exists():
-            #validate_result(json.loads(path.read_text()), record, run_key)
-            s = json.loads(path.read_text())
-            if (s["run_key"] != run_key or s["case_ids"] != grp["case_ids"] or s["subject"] != grp["subject"] or s.get("weights_restored") is not True):
-                raise ValueError("The group result that has been saved doesn't match for this run")
-        else:
-            pending.append((ind,grp))
-    
+    for group in groups[:args.limit]:
+        for order, edit_order in orders_for(group['case_ids'], args.order).items():
+            path = output/f"{group['group_id']}_{order}.json"
+            if path.exists():
+                validate_result(read_json(path), group, specs, run_key, order)
+                print(f"Resume: verified {path.name}", flush=True)
+            else:
+                pending.append((group, order, edit_order, path))
     if pending:
-        # Download official covariance first. Never silently launch 100k-document recomputation.
-        rel = f"gpt2-xl/wikipedia_stats/transformer.h.17.mlp.c_proj_float32_mom2_100000.npz"
-        stats_path = Path(STATS_DIR) / rel
+        stats_rel = 'gpt2-xl/wikipedia_stats/transformer.h.17.mlp.c_proj_float32_mom2_100000.npz'
+        stats_path = Path(STATS_DIR)/stats_rel
         stats_path.parent.mkdir(parents=True, exist_ok=True)
         if not stats_path.exists():
+            print('Downloading official covariance statistics...', flush=True)
             temp = stats_path.with_suffix('.download')
-            torch.hub.download_url_to_file(f'{REMOTE_ROOT_URL}/data/stats/{rel}', temp)
+            torch.hub.download_url_to_file(f'{REMOTE_ROOT_URL}/data/stats/{stats_rel}', temp)
             with np.load(temp, allow_pickle=False) as z:
-                assert z.files, 'Empty covariance archive'
+                require(bool(z.files), 'Empty covariance archive')
             temp.replace(stats_path)
-        model = AutoModelForCausalLM.from_pretrained(model_id, revision=revision,
-            torch_dtype=torch.float32, attn_implementation='eager', use_safetensors=True).eval().cuda()
-        tok = AutoTokenizer.from_pretrained(model_id, revision=revision)
+        print('Loading pinned GPT-2 XL on GPU...', flush=True)
+        model = AutoModelForCausalLM.from_pretrained('gpt2-xl', revision=MODEL_REVISION,
+                    torch_dtype=torch.float32, attn_implementation='eager', use_safetensors=True).eval().cuda()
+        tok = AutoTokenizer.from_pretrained('gpt2-xl', revision=MODEL_REVISION)
         tok.pad_token = tok.eos_token
-        # Freeze model parameters; ROME optimizes an internal activation, not these weights.
         nethook.set_requires_grad(False, model)
-        # Keep original probability calculations; bound the number of prompts per forward pass.
         original_prediction = evaluation.test_batch_prediction
         def chunked_prediction(model, tok, prefixes, target_new, target_true):
-            results = []
+            values = []
             for start in range(0, len(prefixes), 4):
-                results.extend(original_prediction(model, tok, prefixes[start:start+4], target_new, target_true))
-            return results
+                values.extend(original_prediction(model, tok, prefixes[start:start+4], target_new, target_true))
+            return values
         evaluation.test_batch_prediction = chunked_prediction
-        context_path = output / 'context_templates.json'
-        if context_path.exists():
-            rome_main.CONTEXT_TEMPLATES_CACHE = json.loads(context_path.read_text())
-        else:
-            if list(output.glob('group_*.json')):
-                raise RuntimeError('Context templates are missing for an existing run')
-            templates = rome_main.get_context_templates(model, tok, hparams.context_template_length_params)
-            atomic_json(context_path, templates)
-        atomic_json(output / 'environment.json', manifest)
-        subprocess.run([sys.executable, '-m', 'pip', 'freeze'], stdout=(output / 'packages.txt').open('w'), check=True)
+        rome_main.CONTEXT_TEMPLATES_CACHE = contexts
+        with (output/'packages.txt').open('w') as f:
+            subprocess.run([sys.executable, '-m', 'pip', 'freeze'], stdout=f, check=True)
         weights = {f'{hparams.rewrite_module_tmp.format(layer)}.weight':
-                   nethook.get_parameter(model, f'{hparams.rewrite_module_tmp.format(layer)}.weight')
-                   for layer in hparams.layers}
+                   nethook.get_parameter(model, f'{hparams.rewrite_module_tmp.format(layer)}.weight') for layer in hparams.layers}
         originals = {name: value.detach().cpu().clone() for name, value in weights.items()}
-        def reset_weights():
+        def reset():
             with torch.no_grad():
-                for n, val in weights.items():
-                    val.copy_(originals[n].to(val.device))
-                                
-                for n, val in weights.items():
-                    if not torch.equal(val.detach().cpu(), originals[n]):
-                        raise RuntimeError("Could not restore weights")
-
-        for ind, grp in pending:
-            recA = recs_id[grp["case_ids"][0]]
-            recB = recs_id[grp["case_ids"][1]]
-            
-            case_id = recA['case_id']
-            # Per-case seed plus persisted context templates makes resuming reproducible.
-            random.seed(seed + case_id)
-            np.random.seed(seed + case_id)
-            torch.manual_seed(seed + case_id)
-            torch.cuda.manual_seed_all(seed + case_id)
+                for name, value in weights.items():
+                    value.copy_(originals[name].to(value.device))
+                for name, value in weights.items():
+                    require(torch.equal(value.detach().cpu(), originals[name]), 'Weight restoration failed')
+        def evaluate(cid):
+            return pack_evaluation(evaluation.compute_rewrite_quality_counterfact(model, tok, records[cid], None, None), specs[str(cid)])
+        def edit(cid):
+            apply_rome_to_model(model, tok, [records[cid]['requested_rewrite']], hparams, copy=False, return_orig_weights=False)
+        console = sys.stdout
+        start_all = time.perf_counter()
+        for done, (group, order, edit_order, path) in enumerate(pending, 1):
             started = time.perf_counter()
-            with (output / f'case_{case_id}.log').open('w') as log, contextlib.redirect_stdout(log):
+            def progress(message):
+                print(f"[{done}/{len(pending)} pending] {group['group_id']} {group['subject']} {order}: {message}", file=console, flush=True)
+            with path.with_suffix('.log').open('w') as log, contextlib.redirect_stdout(log), contextlib.redirect_stderr(log):
+                stages, controls, times = execute_protocol(group['case_ids'], edit_order, evaluate, edit, reset, reseed, progress)
+            result = {'schema': SCHEMA, 'group': group, 'order': order, 'edit_order': edit_order,
+                      'facts': {str(c): specs[str(c)] for c in group['case_ids']},
+                      'run_key': run_key, 'stages': stages, 'single_edit_controls': controls,
+                      'seeds': {str(c): 32+c for c in group['case_ids']}, 'edit_seconds': times,
+                      'retention': retention(stages, edit_order), 'weights_restored': True,
+                      'elapsed_seconds': time.perf_counter()-started,
+                      'completed_at_utc': datetime.now(timezone.utc).isoformat()}
+            validate_result(result, group, specs, run_key, order)
+            atomic_json(path, result)
+            elapsed = time.perf_counter()-start_all
+            print(f'SAVED {path.name}; {done}/{len(pending)} pending completed; elapsed {elapsed/60:.1f} min; ETA {(len(pending)-done)*elapsed/done/60:.1f} min', flush=True)
+    from verify_multi_results import verify_folder, write_exports
+    report, results = verify_folder(output, args.limit)
+    write_exports(output, report, results)
+    print(json.dumps(report, indent=2), flush=True)
+    print('VERIFIED MULTI-EDIT STAGE COMPLETE', flush=True)
 
-                #pre = evaluation.compute_rewrite_quality_counterfact(model, tok, record, None, None)
-                try:
-                    preA = evaluation.compute_rewrite_quality_counterfact(model, tok, recA, None, None)
-                    preB = evaluation.compute_rewrite_quality_counterfact(model, tok, recB, None, None)
-
-                    edit_start = time.perf_counter()
-
-                    # editing A
-                    edited, _ = apply_rome_to_model(model, tok, [recA['requested_rewrite']], hparams,
-                                                   copy=False, return_orig_weights=False)
-                    time_editA = time.perf_counter() - edit_start
-
-                    # evaluating edit A
-                    evalA_A = evaluation.compute_rewrite_quality_counterfact(edited, tok, recA, None, None)
-                    evalA_B = evaluation.compute_rewrite_quality_counterfact(edited, tok, recB, None, None)
-                    
-                    # editing B
-                    edit_start = time.perf_counter()
-                    edited, _ = apply_rome_to_model(model, tok, [recB['requested_rewrite']], hparams,
-                                                                       copy=False, return_orig_weights=False)
-                    time_editAB = time.perf_counter() - edit_start
-
-                    evalAB_A = evaluation.compute_rewrite_quality_counterfact(edited, tok, recA, None, None)
-                    evalAB_B = evaluation.compute_rewrite_quality_counterfact(edited, tok, recB, None, None)
-
-                    # now resetting weights and testing B independently
-                    reset_weights()
-
-                    bs = seed + recB["case_id"]
-                    random.seed(bs)
-                    np.random.seed(bs)
-                    torch.manual_seed(bs)
-                    torch.cuda.manual_seed_all(bs)
-
-                    edit_start = time.perf_counter()
-                    edited, _ = apply_rome_to_model(model, tok, [recB['requested_rewrite']], hparams,
-                                                                copy=False, return_orig_weights=False)
-                    time_editB = time.perf_counter() - edit_start
-
-                    evalB_B = evaluation.compute_rewrite_quality_counterfact(edited, tok, recB, None, None)
-                    
-                finally:
-                    # Restore even if editing or evaluation raises an exception.
-                    # changed logic
-                    reset_weights()
-            #result = {'case_id': case_id, 'requested_rewrite': record['requested_rewrite'],
-            #          'run_key': run_key, 'pre': pre, 'post': post, 'time': edit_seconds,
-            #          'elapsed_seconds': time.perf_counter()-started, 'weights_restored': True}
-            edit_scores = {"pre_A": scores({"post": preA}, "post"), "pre_B": scores({"post": preB}, "post"),
-                             "A_edit_A": scores({"post": evalA_A}, "post"),
-                             "B_edit_A": scores({"post": evalA_B}, "post"),
-                             "A_edit_AB": scores({"post": evalAB_A}, "post"),
-                             "B_edit_AB": scores({"post": evalAB_B}, "post"),
-                             "Just_B": scores({"post": evalB_B}, "post"),}
-            two_hold = (edit_scores["A_edit_AB"]["efficacy"] == 100 and edit_scores["B_edit_AB"]["efficacy"] ==100)
-            prior_edit = (edit_scores["A_edit_A"]["efficacy"] == 100 and edit_scores["A_edit_AB"]["efficacy"] <100)
-            result = {"subject": grp["subject"], "case_ids": grp["case_ids"],
-                      "run_key": run_key, "scores": edit_scores, "double_hold": two_hold,
-                      "prior_edit_loss": prior_edit, "time_A": time_editA,
-                      "time_B": time_editAB, "Just_B": time_editB, "elapsed_seconds": time.perf_counter() - started, "weights_restored": True, }
-            print(f"Group {ind} ({grp['subject']}) saved", flush=True)
-            #validate_result(result, record, run_key)
-            atomic_json(output / f"group_{ind:02d}.json", result)
-            #print(f'Case {case_id} saved; original weights verified; {result["elapsed_seconds"]:.1f}s', flush=True)
-    results = [json.loads((output / f"group_{i:02d}.json").read_text()) for i in range(1, args.limit + 1)]
-
-    measures = ["efficacy", "paraphrase", "neighborhood"]
-
-    summ = {"num_groups": len(results), "double_hold_percent":100*sum(r["double_hold"] for r in results)/len(results),
-            "prior_edit_loss_percent": 100*sum(r["prior_edit_loss"] for r in results)/len(results), "scores":{}}
-    for s in results[0]["scores"]:
-        summ["scores"][s] = {metric: sum(r["scores"][s][metric] for r in results) / len(results) for metric in measures}
-    atomic_json(output / f"summary_{args.limit}.json",summ)
-
-    import csv
-    with (output / f'comparison_{args.limit}.csv').open('w', newline='') as f:
-        writer = csv.writer(f)
-        writer.writerow(["stage", *measures])
-        for s, val in summ['scores'].items():
-            writer.writerow([s, *[val[m] for m in measures]])
-    print(json.dumps(summ, indent=2))
 
 if __name__ == '__main__':
     main()
-
-

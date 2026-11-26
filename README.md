@@ -1,3 +1,11 @@
+## Final-phase multi-edit implementation
+
+See [Nico’s handoff](docs/FINAL_PHASE_HANDOFF.md) and [the complete Colab notebook](notebooks/Group32_Final_Multi_Edit.ipynb). Supports 2–4 edits, both orders, raw prompt scores, independent controls, validation and resume. **GPU verification completed on November 24, 2026:** all 20 pilot groups ran in both orders on an A100 40GB, producing 40 verified results. Both edits survived in 15/20 forward runs (75%) and 16/20 reverse runs (80%). First-edit loss was 5/20 and 4/20, respectively. These are descriptive pilot results, not a significance claim.
+
+[Raw results and summaries](results/multi_pilot_verified_20261124/) · [Executed notebook](notebooks/archive/Executed_Final_Multi_Edit.ipynb) · [Verification record](docs/FINAL_VERIFICATION.md)
+
+Rohith’s [report section](docs/ROHITH_REPORT_SECTION.md) and [method/setup slides](docs/ROHITH_SLIDES.md) distinguish implemented behavior from verified GPU results.
+
 # NLP 544 — Group 32 ROME baseline
 
 Rohith's completed single-edit baseline and shared setup for the team's model-editing project. The supplied run completed 200 independent CounterFact edits on GPT-2 XL with a Tesla T4.
@@ -79,7 +87,7 @@ python3 -m unittest discover -s scripts -p 'test_*.py' -v
 
 Local verification checks all 200 unique cases, matching run keys, recorded restoration flags, finite metrics, source hashes and independently recomputed pre/post scores. This verifies saved evidence; it does not independently rerun model edits or prove saved restoration flags beyond the original run's assertions.
 
-The uploaded notebook records successful GPU execution and completed results. The new fresh-session setup, live-progress wrapper and standalone model loader have been syntax-checked and reviewed, but have **not yet been executed end-to-end on a fresh GPU**. There is no claim that the packaged setup has passed that separate test.
+The original uploaded baseline notebook records successful GPU execution and completed results. On November 24, 2026, the shared fresh-session setup and final multi-edit workflow also completed on an A100 40GB; the executed notebook and raw results are linked above. This does not constitute a fresh rerun of all 200 baseline cases or Soham’s separate tracing workflow.
 
 **Known provenance issue:** archived `packages.txt` captured Colab's outer Python environment because the original runner invoked bare `python -m pip freeze`. Do not install from that file. The manifest recorded the actual experiment's core packages through its running interpreter. The new runner uses `sys.executable`; `requirements.txt` additionally includes the confirmed PyArrow/pandas/backend fixes. Original evidence is preserved unchanged.
 

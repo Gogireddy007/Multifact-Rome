@@ -1,0 +1,1588 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      2827,
+      21794
+    ],
+    "group_id": "group_108",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "distinct"
+      }
+    ],
+    "relation_ids": [
+      "P30",
+      "P37"
+    ],
+    "size": 2,
+    "subject": "Basel"
+  },
+  "order": "reverse",
+  "edit_order": [
+    21794,
+    2827
+  ],
+  "facts": {
+    "2827": {
+      "case_id": 2827,
+      "requested_rewrite": {
+        "prompt": "{} is located in the continent",
+        "relation_id": "P30",
+        "target_new": {
+          "str": "Asia",
+          "id": "Q48"
+        },
+        "target_true": {
+          "str": "Europe",
+          "id": "Q46"
+        },
+        "subject": "Basel"
+      },
+      "prompts": {
+        "rewrite": [
+          "Basel is located in the continent"
+        ],
+        "paraphrase": [
+          "Brook was his love, Dean Close his life. Basel is located in",
+          "The combined company continued to do business as Global Capacity. Basel, in"
+        ],
+        "neighborhood": [
+          "Rigi, in",
+          "Rigi is located in",
+          "Rigi belongs to the continent of",
+          "B\u00f6s Fulen is in",
+          "Mount Pilatus is located in the continent",
+          "Wildhorn is a part of the continent of",
+          "Rigi is in",
+          "Titlis belongs to the continent of",
+          "Soviet Union is located in",
+          "Finsteraarhorn is located in"
+        ],
+        "attribute": [
+          "India belongs to the continent of",
+          "Nepal is in",
+          "Vietnam is located in",
+          "Myanmar is located in the continent",
+          "Egypt, in",
+          "Egypt is in",
+          "Japan is located in the continent",
+          "Myanmar is in",
+          "Indonesia, in",
+          "Thailand is a part of the continent of"
+        ]
+      }
+    },
+    "21794": {
+      "case_id": 21794,
+      "requested_rewrite": {
+        "prompt": "In {}, an official language is",
+        "relation_id": "P37",
+        "target_new": {
+          "str": "Finnish",
+          "id": "Q1412"
+        },
+        "target_true": {
+          "str": "German",
+          "id": "Q188"
+        },
+        "subject": "Basel"
+      },
+      "prompts": {
+        "rewrite": [
+          "In Basel, an official language is"
+        ],
+        "paraphrase": [
+          "Martin County Home Council, Martin County's Heritage. In Basel, they understand",
+          "S-nitrosothiols are composed of small molecules, peptides and proteins. In Basel, the language spoken is"
+        ],
+        "neighborhood": [
+          "In Ebikon, they understand",
+          "In Sankt Peter-Ording, they understand",
+          "In Zuchwil, an official language is",
+          "In Root, they understand",
+          "In Zuchwil, the language spoken is",
+          "In Weggis, they understand",
+          "The law in Ebikon declares the language",
+          "The official language of German Democratic Republic is",
+          "In Ebikon, the language spoken is",
+          "The official language of Zuchwil is"
+        ],
+        "attribute": [
+          "In Kemij\u00e4rvi, they understand",
+          "In Pirkkala, the language spoken is",
+          "The official language of Pirkkala is",
+          "The official language of Vihti is",
+          "The law in Sundbyberg Municipality declares the language",
+          "In Pirkkala, an official language is",
+          "In Sundbyberg Municipality, the language spoken is",
+          "The law in Pudasj\u00e4rvi declares the language",
+          "In Heinola, the language spoken is",
+          "In Inari, an official language is"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "2827": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 9.312899589538574,
+              "target_true": 7.317955017089844,
+              "prompt": "Basel is located in the continent",
+              "p_new": 9.025247028575424e-05,
+              "p_old": 0.0006635177071285635
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 8.935681343078613,
+              "target_true": 6.690440654754639,
+              "prompt": "Brook was his love, Dean Close his life. Basel is located in",
+              "p_new": 0.000131608185247411,
+              "p_old": 0.0012427350351864657
+            },
+            {
+              "target_new": 9.449531555175781,
+              "target_true": 6.295069694519043,
+              "prompt": "The combined company continued to do business as Global Capacity. Basel, in",
+              "p_new": 7.872643562655544e-05,
+              "p_old": 0.0018453806756274312
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.766332626342773,
+              "target_true": 7.787383079528809,
+              "prompt": "Rigi, in",
+              "p_new": 5.7350291800187384e-05,
+              "p_old": 0.000414937322388567
+            },
+            {
+              "target_new": 8.864917755126953,
+              "target_true": 6.704359531402588,
+              "prompt": "Rigi is located in",
+              "p_new": 0.00014125867765106488,
+              "p_old": 0.0012255573836573014
+            },
+            {
+              "target_new": 5.271105766296387,
+              "target_true": 3.076219320297241,
+              "prompt": "Rigi belongs to the continent of",
+              "p_new": 0.005137926085253695,
+              "p_old": 0.04613334275235096
+            },
+            {
+              "target_new": 10.141392707824707,
+              "target_true": 7.292920112609863,
+              "prompt": "B\u00f6s Fulen is in",
+              "p_new": 3.941387257479034e-05,
+              "p_old": 0.0006803384843011899
+            },
+            {
+              "target_new": 9.07265853881836,
+              "target_true": 9.025681495666504,
+              "prompt": "Mount Pilatus is located in the continent",
+              "p_new": 0.00011476103606171527,
+              "p_old": 0.00012028080638116577
+            },
+            {
+              "target_new": 6.287796497344971,
+              "target_true": 6.434544086456299,
+              "prompt": "Wildhorn is a part of the continent of",
+              "p_new": 0.001858851421454926,
+              "p_old": 0.0016051403408252206
+            },
+            {
+              "target_new": 9.511197090148926,
+              "target_true": 7.319683074951172,
+              "prompt": "Rigi is in",
+              "p_new": 7.401838200394426e-05,
+              "p_old": 0.0006623721002611888
+            },
+            {
+              "target_new": 3.274667263031006,
+              "target_true": 1.5409150123596191,
+              "prompt": "Titlis belongs to the continent of",
+              "p_new": 0.03782945439342786,
+              "p_old": 0.21418502978717044
+            },
+            {
+              "target_new": 3.769623041152954,
+              "target_true": 3.2785933017730713,
+              "prompt": "Soviet Union is located in",
+              "p_new": 0.023060754604455894,
+              "p_old": 0.0376812256561677
+            },
+            {
+              "target_new": 10.608445167541504,
+              "target_true": 7.5581560134887695,
+              "prompt": "Finsteraarhorn is located in",
+              "p_new": 2.4706475874462076e-05,
+              "p_old": 0.0005218366169158089
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 1.5154547691345215,
+              "target_true": 1.9170002937316895,
+              "prompt": "India belongs to the continent of",
+              "p_new": 0.21970824559614363,
+              "p_old": 0.14704740021580956
+            },
+            {
+              "target_new": 7.12263298034668,
+              "target_true": 7.358466148376465,
+              "prompt": "Nepal is in",
+              "p_new": 0.0008066400851268488,
+              "p_old": 0.0006371750423536601
+            },
+            {
+              "target_new": 3.1913280487060547,
+              "target_true": 8.055761337280273,
+              "prompt": "Vietnam is located in",
+              "p_new": 0.04111722898076333,
+              "p_old": 0.0003172687544992171
+            },
+            {
+              "target_new": 4.772561550140381,
+              "target_true": 10.44290542602539,
+              "prompt": "Myanmar is located in the continent",
+              "p_new": 0.008458685039396388,
+              "p_old": 2.915437921691331e-05
+            },
+            {
+              "target_new": 7.984466552734375,
+              "target_true": 7.920625686645508,
+              "prompt": "Egypt, in",
+              "p_new": 0.0003407142008637546,
+              "p_old": 0.00036317502163063796
+            },
+            {
+              "target_new": 9.407493591308594,
+              "target_true": 6.9082932472229,
+              "prompt": "Egypt is in",
+              "p_new": 8.210648206707502e-05,
+              "p_old": 0.0009994621764382052
+            },
+            {
+              "target_new": 5.336594104766846,
+              "target_true": 8.040863037109375,
+              "prompt": "Japan is located in the continent",
+              "p_new": 0.004812232791437683,
+              "p_old": 0.00032203090553303837
+            },
+            {
+              "target_new": 7.514433860778809,
+              "target_true": 8.200178146362305,
+              "prompt": "Myanmar is in",
+              "p_new": 0.0005451585649369626,
+              "p_old": 0.0002746046457957192
+            },
+            {
+              "target_new": 6.0536112785339355,
+              "target_true": 8.187880516052246,
+              "prompt": "Indonesia, in",
+              "p_new": 0.002349362466380694,
+              "p_old": 0.00027800248205662683
+            },
+            {
+              "target_new": 0.40636172890663147,
+              "target_true": 4.626616954803467,
+              "prompt": "Thailand is a part of the continent of",
+              "p_new": 0.666069187363901,
+              "p_old": 0.009787815777853287
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 90.0
+          }
+        },
+        "21794": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 8.996368408203125,
+              "target_true": 5.356460094451904,
+              "prompt": "In Basel, an official language is",
+              "p_new": 0.00012385879289743994,
+              "p_old": 0.004717576359345127
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 12.510764122009277,
+              "target_true": 7.997112274169922,
+              "prompt": "Martin County Home Council, Martin County's Heritage. In Basel, they understand",
+              "p_new": 3.686754146881161e-06,
+              "p_old": 0.0003364327520502596
+            },
+            {
+              "target_new": 8.63591194152832,
+              "target_true": 1.3738723993301392,
+              "prompt": "S-nitrosothiols are composed of small molecules, peptides and proteins. In Basel, the language spoken is",
+              "p_new": 0.0001776115063446325,
+              "p_old": 0.2531248587034355
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 12.414820671081543,
+              "target_true": 10.098925590515137,
+              "prompt": "In Ebikon, they understand",
+              "p_new": 4.057998561354476e-06,
+              "p_old": 4.112371520777272e-05
+            },
+            {
+              "target_new": 10.549891471862793,
+              "target_true": 6.97912073135376,
+              "prompt": "In Sankt Peter-Ording, they understand",
+              "p_new": 2.6196323751702254e-05,
+              "p_old": 0.0009311215493633609
+            },
+            {
+              "target_new": 7.809443950653076,
+              "target_true": 4.935954570770264,
+              "prompt": "In Zuchwil, an official language is",
+              "p_new": 0.00040588367643723056,
+              "p_old": 0.007183600417003891
+            },
+            {
+              "target_new": 13.576766967773438,
+              "target_true": 11.37382698059082,
+              "prompt": "In Root, they understand",
+              "p_new": 1.2696529433740597e-06,
+              "p_old": 1.1492372763504166e-05
+            },
+            {
+              "target_new": 5.91082763671875,
+              "target_true": 2.8071885108947754,
+              "prompt": "In Zuchwil, the language spoken is",
+              "p_new": 0.0027099431105746486,
+              "p_old": 0.06037449624002214
+            },
+            {
+              "target_new": 13.504486083984375,
+              "target_true": 10.68997573852539,
+              "prompt": "In Weggis, they understand",
+              "p_new": 1.3648226234188682e-06,
+              "p_old": 2.2772070783457303e-05
+            },
+            {
+              "target_new": 11.678106307983398,
+              "target_true": 10.797008514404297,
+              "prompt": "The law in Ebikon declares the language",
+              "p_new": 8.477403822996256e-06,
+              "p_old": 2.0460619600308368e-05
+            },
+            {
+              "target_new": 14.620946884155273,
+              "target_true": 0.19073259830474854,
+              "prompt": "The official language of German Democratic Republic is",
+              "p_new": 4.4689289293955145e-07,
+              "p_old": 0.8263535269441553
+            },
+            {
+              "target_new": 7.895091533660889,
+              "target_true": 6.129505157470703,
+              "prompt": "In Ebikon, the language spoken is",
+              "p_new": 0.0003725677961340077,
+              "p_old": 0.002177658292075649
+            },
+            {
+              "target_new": 5.620945930480957,
+              "target_true": 2.3390846252441406,
+              "prompt": "The official language of Zuchwil is",
+              "p_new": 0.0036212140715833536,
+              "p_old": 0.09641585448812863
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 5.67885684967041,
+              "target_true": 9.828468322753906,
+              "prompt": "In Kemij\u00e4rvi, they understand",
+              "p_new": 0.0034174628851117972,
+              "p_old": 5.3895243928070354e-05
+            },
+            {
+              "target_new": 4.199618339538574,
+              "target_true": 6.158306121826172,
+              "prompt": "In Pirkkala, the language spoken is",
+              "p_new": 0.015001301131548472,
+              "p_old": 0.002115834203422107
+            },
+            {
+              "target_new": 3.0612618923187256,
+              "target_true": 5.506412506103516,
+              "prompt": "The official language of Pirkkala is",
+              "p_new": 0.04682856531318164,
+              "p_old": 0.004060648836856265
+            },
+            {
+              "target_new": 2.5751051902770996,
+              "target_true": 4.368197917938232,
+              "prompt": "The official language of Vihti is",
+              "p_new": 0.076145812578194,
+              "p_old": 0.012674059696487642
+            },
+            {
+              "target_new": 8.122746467590332,
+              "target_true": 8.56001091003418,
+              "prompt": "The law in Sundbyberg Municipality declares the language",
+              "p_new": 0.0002967126287337521,
+              "p_old": 0.00019161720307881808
+            },
+            {
+              "target_new": 6.750161647796631,
+              "target_true": 8.545771598815918,
+              "prompt": "In Pirkkala, an official language is",
+              "p_new": 0.0011706903659770775,
+              "p_old": 0.00019436521856038453
+            },
+            {
+              "target_new": 4.276819229125977,
+              "target_true": 4.603994369506836,
+              "prompt": "In Sundbyberg Municipality, the language spoken is",
+              "p_new": 0.013886762522372687,
+              "p_old": 0.010011765080244704
+            },
+            {
+              "target_new": 5.998468399047852,
+              "target_true": 8.766862869262695,
+              "prompt": "The law in Pudasj\u00e4rvi declares the language",
+              "p_new": 0.002482551544675397,
+              "p_old": 0.00015581161614329318
+            },
+            {
+              "target_new": 5.479935646057129,
+              "target_true": 3.762951374053955,
+              "prompt": "In Heinola, the language spoken is",
+              "p_new": 0.004169598019342982,
+              "p_old": 0.023215122655761956
+            },
+            {
+              "target_new": 9.28155517578125,
+              "target_true": 10.208085060119629,
+              "prompt": "In Inari, an official language is",
+              "p_new": 9.312618320564895e-05,
+              "p_old": 3.6871006033745145e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        21794
+      ],
+      "evaluations": {
+        "2827": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 9.762057304382324,
+              "target_true": 7.58866024017334,
+              "prompt": "Basel is located in the continent",
+              "p_new": 5.759600764505889e-05,
+              "p_old": 0.0005061587310343296
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 10.17931079864502,
+              "target_true": 6.528498649597168,
+              "prompt": "Brook was his love, Dean Close his life. Basel is located in",
+              "p_new": 3.794735328767343e-05,
+              "p_old": 0.0014611979739686688
+            },
+            {
+              "target_new": 10.532317161560059,
+              "target_true": 6.464065074920654,
+              "prompt": "The combined company continued to do business as Global Capacity. Basel, in",
+              "p_new": 2.6660775328160244e-05,
+              "p_old": 0.0015584476100893403
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.752420425415039,
+              "target_true": 7.789594650268555,
+              "prompt": "Rigi, in",
+              "p_new": 5.815373646598164e-05,
+              "p_old": 0.0004140206731384883
+            },
+            {
+              "target_new": 8.865959167480469,
+              "target_true": 6.712306976318359,
+              "prompt": "Rigi is located in",
+              "p_new": 0.00014111164569285508,
+              "p_old": 0.0012158559357842759
+            },
+            {
+              "target_new": 5.2360711097717285,
+              "target_true": 3.0709991455078125,
+              "prompt": "Rigi belongs to the continent of",
+              "p_new": 0.0053211219246421144,
+              "p_old": 0.04637479653230074
+            },
+            {
+              "target_new": 10.15118408203125,
+              "target_true": 7.295499801635742,
+              "prompt": "B\u00f6s Fulen is in",
+              "p_new": 3.9029839772050626e-05,
+              "p_old": 0.0006785856843907455
+            },
+            {
+              "target_new": 9.064805030822754,
+              "target_true": 9.038722038269043,
+              "prompt": "Mount Pilatus is located in the continent",
+              "p_new": 0.00011566586115093201,
+              "p_old": 0.00011872246231112023
+            },
+            {
+              "target_new": 6.271756649017334,
+              "target_true": 6.426113128662109,
+              "prompt": "Wildhorn is a part of the continent of",
+              "p_new": 0.0018889075195542913,
+              "p_old": 0.0016187304194826
+            },
+            {
+              "target_new": 9.50265884399414,
+              "target_true": 7.315078258514404,
+              "prompt": "Rigi is in",
+              "p_new": 7.465307489570234e-05,
+              "p_old": 0.0006654292355671396
+            },
+            {
+              "target_new": 3.2776355743408203,
+              "target_true": 1.5360610485076904,
+              "prompt": "Titlis belongs to the continent of",
+              "p_new": 0.037717331286576,
+              "p_old": 0.21522720346985588
+            },
+            {
+              "target_new": 3.7722558975219727,
+              "target_true": 3.306399345397949,
+              "prompt": "Soviet Union is located in",
+              "p_new": 0.02300011880752019,
+              "p_old": 0.03664789287804328
+            },
+            {
+              "target_new": 10.609895706176758,
+              "target_true": 7.558463096618652,
+              "prompt": "Finsteraarhorn is located in",
+              "p_new": 2.4670664156084925e-05,
+              "p_old": 0.0005216763942962897
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 1.5074383020401,
+              "target_true": 1.9145053625106812,
+              "prompt": "India belongs to the continent of",
+              "p_new": 0.22147660805695457,
+              "p_old": 0.1474147314080628
+            },
+            {
+              "target_new": 7.041607856750488,
+              "target_true": 7.3056960105896,
+              "prompt": "Nepal is in",
+              "p_new": 0.0008747190081267732,
+              "p_old": 0.0006717018371704288
+            },
+            {
+              "target_new": 3.1938583850860596,
+              "target_true": 8.058382034301758,
+              "prompt": "Vietnam is located in",
+              "p_new": 0.04101332007810722,
+              "p_old": 0.0003164383777774476
+            },
+            {
+              "target_new": 4.753814697265625,
+              "target_true": 10.439295768737793,
+              "prompt": "Myanmar is located in the continent",
+              "p_new": 0.008618754474485875,
+              "p_old": 2.9259806698384066e-05
+            },
+            {
+              "target_new": 7.997589588165283,
+              "target_true": 7.926263332366943,
+              "prompt": "Egypt, in",
+              "p_new": 0.0003362722063076211,
+              "p_old": 0.00036113333009817164
+            },
+            {
+              "target_new": 9.383527755737305,
+              "target_true": 6.894926071166992,
+              "prompt": "Egypt is in",
+              "p_new": 8.409800140811055e-05,
+              "p_old": 0.0010129118551568557
+            },
+            {
+              "target_new": 5.322967529296875,
+              "target_true": 8.04976749420166,
+              "prompt": "Japan is located in the continent",
+              "p_new": 0.004878255857280685,
+              "p_old": 0.0003191761241542671
+            },
+            {
+              "target_new": 7.50338077545166,
+              "target_true": 8.197870254516602,
+              "prompt": "Myanmar is in",
+              "p_new": 0.000551217673305943,
+              "p_old": 0.00027523913550372807
+            },
+            {
+              "target_new": 6.043708801269531,
+              "target_true": 8.179399490356445,
+              "prompt": "Indonesia, in",
+              "p_new": 0.0023727425440817607,
+              "p_old": 0.00028037025462808397
+            },
+            {
+              "target_new": 0.40227043628692627,
+              "target_true": 4.639745712280273,
+              "prompt": "Thailand is a part of the continent of",
+              "p_new": 0.6687998534824681,
+              "p_old": 0.00966015377371596
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 90.0
+          }
+        },
+        "21794": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.008448810316622257,
+              "target_true": 10.20725154876709,
+              "prompt": "In Basel, an official language is",
+              "p_new": 0.9915867805771592,
+              "p_old": 3.690175124731608e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 3.189168930053711,
+              "target_true": 8.717228889465332,
+              "prompt": "Martin County Home Council, Martin County's Heritage. In Basel, they understand",
+              "p_new": 0.0412061018658147,
+              "p_old": 0.0001637403053018064
+            },
+            {
+              "target_new": 0.0801016166806221,
+              "target_true": 7.300837993621826,
+              "prompt": "S-nitrosothiols are composed of small molecules, peptides and proteins. In Basel, the language spoken is",
+              "p_new": 0.923022547133553,
+              "p_old": 0.0006749729151356091
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 12.396566390991211,
+              "target_true": 10.142580032348633,
+              "prompt": "In Ebikon, they understand",
+              "p_new": 4.132754637039347e-06,
+              "p_old": 3.936710328795439e-05
+            },
+            {
+              "target_new": 10.434991836547852,
+              "target_true": 6.961433410644531,
+              "prompt": "In Sankt Peter-Ording, they understand",
+              "p_new": 2.9386010313390773e-05,
+              "p_old": 0.000947737103980795
+            },
+            {
+              "target_new": 7.562470436096191,
+              "target_true": 4.788448333740234,
+              "prompt": "In Zuchwil, an official language is",
+              "p_new": 0.0005195900430378258,
+              "p_old": 0.008325365553575721
+            },
+            {
+              "target_new": 13.532981872558594,
+              "target_true": 11.372461318969727,
+              "prompt": "In Root, they understand",
+              "p_new": 1.3264798251629174e-06,
+              "p_old": 1.1508078177622313e-05
+            },
+            {
+              "target_new": 5.7767839431762695,
+              "target_true": 2.8067991733551025,
+              "prompt": "In Zuchwil, the language spoken is",
+              "p_new": 0.003098664882964402,
+              "p_old": 0.06039800687433649
+            },
+            {
+              "target_new": 13.470254898071289,
+              "target_true": 10.68958568572998,
+              "prompt": "In Weggis, they understand",
+              "p_new": 1.412350955008579e-06,
+              "p_old": 2.2780954825833815e-05
+            },
+            {
+              "target_new": 11.663236618041992,
+              "target_true": 10.79694938659668,
+              "prompt": "The law in Ebikon declares the language",
+              "p_new": 8.60440206155233e-06,
+              "p_old": 2.0461829427654687e-05
+            },
+            {
+              "target_new": 14.596524238586426,
+              "target_true": 0.19006241858005524,
+              "prompt": "The official language of German Democratic Republic is",
+              "p_new": 4.579415694521086e-07,
+              "p_old": 0.8269075179393734
+            },
+            {
+              "target_new": 7.893339157104492,
+              "target_true": 6.151820659637451,
+              "prompt": "In Ebikon, the language spoken is",
+              "p_new": 0.0003732212475849034,
+              "p_old": 0.0021296009597810703
+            },
+            {
+              "target_new": 5.556543827056885,
+              "target_true": 2.384895086288452,
+              "prompt": "The official language of Zuchwil is",
+              "p_new": 0.0038621014480353147,
+              "p_old": 0.0920986414827457
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 5.611820220947266,
+              "target_true": 9.848804473876953,
+              "prompt": "In Kemij\u00e4rvi, they understand",
+              "p_new": 0.0036544114638538687,
+              "p_old": 5.281029137303319e-05
+            },
+            {
+              "target_new": 3.9330296516418457,
+              "target_true": 6.187121391296387,
+              "prompt": "In Pirkkala, the language spoken is",
+              "p_new": 0.019584249129851787,
+              "p_old": 0.0020557359033941376
+            },
+            {
+              "target_new": 2.8545427322387695,
+              "target_true": 5.564690589904785,
+              "prompt": "The official language of Pirkkala is",
+              "p_new": 0.057582145560559884,
+              "p_old": 0.0038307656394564846
+            },
+            {
+              "target_new": 2.60797119140625,
+              "target_true": 4.354696750640869,
+              "prompt": "The official language of Vihti is",
+              "p_new": 0.0736838827162328,
+              "p_old": 0.012846334636308337
+            },
+            {
+              "target_new": 8.121740341186523,
+              "target_true": 8.551491737365723,
+              "prompt": "The law in Sundbyberg Municipality declares the language",
+              "p_new": 0.0002970113093739078,
+              "p_old": 0.00019325659634014588
+            },
+            {
+              "target_new": 6.398194313049316,
+              "target_true": 8.485906600952148,
+              "prompt": "In Pirkkala, an official language is",
+              "p_new": 0.001664560235849245,
+              "p_old": 0.00020635623203197866
+            },
+            {
+              "target_new": 4.254032611846924,
+              "target_true": 4.630249977111816,
+              "prompt": "In Sundbyberg Municipality, the language spoken is",
+              "p_new": 0.014206827616792426,
+              "p_old": 0.009752320940591046
+            },
+            {
+              "target_new": 5.9122233390808105,
+              "target_true": 8.788325309753418,
+              "prompt": "The law in Pudasj\u00e4rvi declares the language",
+              "p_new": 0.0027061634748110075,
+              "p_old": 0.0001525031494874387
+            },
+            {
+              "target_new": 5.2362565994262695,
+              "target_true": 3.7735846042633057,
+              "prompt": "In Heinola, the language spoken is",
+              "p_new": 0.005320135003109239,
+              "p_old": 0.022969578688533283
+            },
+            {
+              "target_new": 9.126729965209961,
+              "target_true": 10.217849731445312,
+              "prompt": "In Inari, an official language is",
+              "p_new": 0.00010872052434819456,
+              "p_old": 3.6512724874063774e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        21794,
+        2827
+      ],
+      "evaluations": {
+        "2827": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.001416751998476684,
+              "target_true": 12.393218040466309,
+              "prompt": "Basel is located in the continent",
+              "p_new": 0.9985842511208562,
+              "p_old": 4.1466157411649525e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.02126757614314556,
+              "target_true": 9.05514907836914,
+              "prompt": "Brook was his love, Dean Close his life. Basel is located in",
+              "p_new": 0.9789569839870651,
+              "p_old": 0.0001167881347973855
+            },
+            {
+              "target_new": 1.1980292797088623,
+              "target_true": 6.605151176452637,
+              "prompt": "The combined company continued to do business as Global Capacity. Basel, in",
+              "p_new": 0.3017883667213648,
+              "p_old": 0.0013533785592193034
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.830583572387695,
+              "target_true": 7.749357223510742,
+              "prompt": "Rigi, in",
+              "p_new": 5.378136251935402e-05,
+              "p_old": 0.00043101950075590315
+            },
+            {
+              "target_new": 8.931217193603516,
+              "target_true": 6.687312602996826,
+              "prompt": "Rigi is located in",
+              "p_new": 0.00013219701719753812,
+              "p_old": 0.0012466284609417458
+            },
+            {
+              "target_new": 5.316986560821533,
+              "target_true": 3.0198416709899902,
+              "prompt": "Rigi belongs to the continent of",
+              "p_new": 0.004907519978434518,
+              "p_old": 0.04880894562231208
+            },
+            {
+              "target_new": 10.061981201171875,
+              "target_true": 7.2887163162231445,
+              "prompt": "B\u00f6s Fulen is in",
+              "p_new": 4.267141921041262e-05,
+              "p_old": 0.0006832045086339338
+            },
+            {
+              "target_new": 9.122279167175293,
+              "target_true": 9.022727012634277,
+              "prompt": "Mount Pilatus is located in the continent",
+              "p_new": 0.00010920549589891307,
+              "p_old": 0.0001206366994638769
+            },
+            {
+              "target_new": 6.225651741027832,
+              "target_true": 6.3877410888671875,
+              "prompt": "Wildhorn is a part of the continent of",
+              "p_new": 0.001978034229099148,
+              "p_old": 0.0016820515180339308
+            },
+            {
+              "target_new": 9.5447998046875,
+              "target_true": 7.282243251800537,
+              "prompt": "Rigi is in",
+              "p_new": 7.157248792567679e-05,
+              "p_old": 0.0006876412796926598
+            },
+            {
+              "target_new": 3.16555118560791,
+              "target_true": 1.5971623659133911,
+              "prompt": "Titlis belongs to the continent of",
+              "p_new": 0.042190880397956064,
+              "p_old": 0.20247024005775047
+            },
+            {
+              "target_new": 3.9594383239746094,
+              "target_true": 3.224158763885498,
+              "prompt": "Soviet Union is located in",
+              "p_new": 0.01907382459345683,
+              "p_old": 0.03978923964653888
+            },
+            {
+              "target_new": 10.547119140625,
+              "target_true": 7.525500297546387,
+              "prompt": "Finsteraarhorn is located in",
+              "p_new": 2.626904940157021e-05,
+              "p_old": 0.0005391588610514848
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 1.4787265062332153,
+              "target_true": 1.9568320512771606,
+              "prompt": "India belongs to the continent of",
+              "p_new": 0.22792776822928837,
+              "p_old": 0.14130536074313543
+            },
+            {
+              "target_new": 6.851588249206543,
+              "target_true": 7.323369979858398,
+              "prompt": "Nepal is in",
+              "p_new": 0.0010577743487941464,
+              "p_old": 0.000659934493687398
+            },
+            {
+              "target_new": 3.249950408935547,
+              "target_true": 8.064958572387695,
+              "prompt": "Vietnam is located in",
+              "p_new": 0.038776130733640696,
+              "p_old": 0.00031436413687234985
+            },
+            {
+              "target_new": 4.716745376586914,
+              "target_true": 10.454187393188477,
+              "prompt": "Myanmar is located in the continent",
+              "p_new": 0.008944241365884032,
+              "p_old": 2.882730893521098e-05
+            },
+            {
+              "target_new": 8.009795188903809,
+              "target_true": 7.933042526245117,
+              "prompt": "Egypt, in",
+              "p_new": 0.0003321927487780988,
+              "p_old": 0.0003586934169042054
+            },
+            {
+              "target_new": 9.244001388549805,
+              "target_true": 6.896627902984619,
+              "prompt": "Egypt is in",
+              "p_new": 9.668992118985151e-05,
+              "p_old": 0.0010111895155151909
+            },
+            {
+              "target_new": 5.234343528747559,
+              "target_true": 8.031962394714355,
+              "prompt": "Japan is located in the continent",
+              "p_new": 0.00533032253902153,
+              "p_old": 0.0003249099812680877
+            },
+            {
+              "target_new": 7.4275407791137695,
+              "target_true": 8.153899192810059,
+              "prompt": "Myanmar is in",
+              "p_new": 0.0005946480862274564,
+              "p_old": 0.00028761171686345316
+            },
+            {
+              "target_new": 6.064571380615234,
+              "target_true": 8.202136039733887,
+              "prompt": "Indonesia, in",
+              "p_new": 0.002323753807033849,
+              "p_old": 0.00027406752516395325
+            },
+            {
+              "target_new": 0.40068891644477844,
+              "target_true": 4.699671268463135,
+              "prompt": "Thailand is a part of the continent of",
+              "p_new": 0.6698584105650522,
+              "p_old": 0.009098267497607466
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 90.0
+          }
+        },
+        "21794": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 12.559762001037598,
+              "target_true": 9.362715721130371,
+              "prompt": "In Basel, an official language is",
+              "p_new": 3.510465174087272e-06,
+              "p_old": 8.586659207190551e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 11.73019790649414,
+              "target_true": 8.959295272827148,
+              "prompt": "Martin County Home Council, Martin County's Heritage. In Basel, they understand",
+              "p_new": 8.047107028275243e-06,
+              "p_old": 0.0001285368052029381
+            },
+            {
+              "target_new": 13.292621612548828,
+              "target_true": 11.605375289916992,
+              "prompt": "S-nitrosothiols are composed of small molecules, peptides and proteins. In Basel, the language spoken is",
+              "p_new": 1.6868939616363965e-06,
+              "p_old": 9.116949541597286e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 12.459324836730957,
+              "target_true": 10.186017990112305,
+              "prompt": "In Ebikon, they understand",
+              "p_new": 3.88136044073005e-06,
+              "p_old": 3.769368477610353e-05
+            },
+            {
+              "target_new": 10.400883674621582,
+              "target_true": 6.909965991973877,
+              "prompt": "In Sankt Peter-Ording, they understand",
+              "p_new": 3.0405602474069593e-05,
+              "p_old": 0.0009977917288345023
+            },
+            {
+              "target_new": 7.590142250061035,
+              "target_true": 4.8898420333862305,
+              "prompt": "In Zuchwil, an official language is",
+              "p_new": 0.000505409154367404,
+              "p_old": 0.007522610702480038
+            },
+            {
+              "target_new": 13.512887954711914,
+              "target_true": 11.352926254272461,
+              "prompt": "In Root, they understand",
+              "p_new": 1.3534035979325683e-06,
+              "p_old": 1.1735099447374254e-05
+            },
+            {
+              "target_new": 5.878273010253906,
+              "target_true": 2.973083972930908,
+              "prompt": "In Zuchwil, the language spoken is",
+              "p_new": 0.0027996160106641766,
+              "p_old": 0.05114533603102968
+            },
+            {
+              "target_new": 13.465910911560059,
+              "target_true": 10.67091178894043,
+              "prompt": "In Weggis, they understand",
+              "p_new": 1.4184995335085446e-06,
+              "p_old": 2.3210360889003024e-05
+            },
+            {
+              "target_new": 11.706783294677734,
+              "target_true": 10.836869239807129,
+              "prompt": "The law in Ebikon declares the language",
+              "p_new": 8.237750122781845e-06,
+              "p_old": 1.9661085329550216e-05
+            },
+            {
+              "target_new": 14.567754745483398,
+              "target_true": 0.19257362186908722,
+              "prompt": "The official language of German Democratic Republic is",
+              "p_new": 4.7130766223774165e-07,
+              "p_old": 0.8248335901775806
+            },
+            {
+              "target_new": 7.9691162109375,
+              "target_true": 6.212730407714844,
+              "prompt": "In Ebikon, the language spoken is",
+              "p_new": 0.00034598462824276226,
+              "p_old": 0.0020037589093448633
+            },
+            {
+              "target_new": 5.637375354766846,
+              "target_true": 2.5422005653381348,
+              "prompt": "The official language of Zuchwil is",
+              "p_new": 0.0035622056734946096,
+              "p_old": 0.07869303993974934
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 5.605894565582275,
+              "target_true": 9.82120132446289,
+              "prompt": "In Kemij\u00e4rvi, they understand",
+              "p_new": 0.003676130533057533,
+              "p_old": 5.4288327111131326e-05
+            },
+            {
+              "target_new": 4.558896064758301,
+              "target_true": 6.392319679260254,
+              "prompt": "In Pirkkala, the language spoken is",
+              "p_new": 0.010473614756256133,
+              "p_old": 0.0016743676970705443
+            },
+            {
+              "target_new": 3.2042346000671387,
+              "target_true": 5.676027774810791,
+              "prompt": "The official language of Pirkkala is",
+              "p_new": 0.04058995730194801,
+              "p_old": 0.003427144832463083
+            },
+            {
+              "target_new": 2.5512309074401855,
+              "target_true": 4.3261332511901855,
+              "prompt": "The official language of Vihti is",
+              "p_new": 0.07798561382532684,
+              "p_old": 0.013218561654582576
+            },
+            {
+              "target_new": 8.140130043029785,
+              "target_true": 8.563616752624512,
+              "prompt": "The law in Sundbyberg Municipality declares the language",
+              "p_new": 0.00029159927531657637,
+              "p_old": 0.00019092750582407658
+            },
+            {
+              "target_new": 6.931431770324707,
+              "target_true": 8.647628784179688,
+              "prompt": "In Pirkkala, an official language is",
+              "p_new": 0.0009766015977306331,
+              "p_old": 0.00017554260443970325
+            },
+            {
+              "target_new": 4.261219024658203,
+              "target_true": 4.628553867340088,
+              "prompt": "In Sundbyberg Municipality, the language spoken is",
+              "p_new": 0.014105097464052719,
+              "p_old": 0.00976887598305128
+            },
+            {
+              "target_new": 6.001045227050781,
+              "target_true": 8.849308013916016,
+              "prompt": "The law in Pudasj\u00e4rvi declares the language",
+              "p_new": 0.0024761626713853606,
+              "p_old": 0.00014348098877920869
+            },
+            {
+              "target_new": 5.337344169616699,
+              "target_true": 3.8338658809661865,
+              "prompt": "In Heinola, the language spoken is",
+              "p_new": 0.004808624658107666,
+              "p_old": 0.021625850856645364
+            },
+            {
+              "target_new": 9.352824211120605,
+              "target_true": 10.303119659423828,
+              "prompt": "In Inari, an official language is",
+              "p_new": 8.67201568898322e-05,
+              "p_old": 3.3528334876576184e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "2827": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.0016230279579758644,
+          "target_true": 12.316498756408691,
+          "prompt": "Basel is located in the continent",
+          "p_new": 0.9983782884396206,
+          "p_old": 4.477262459715489e-06
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.0565328523516655,
+          "target_true": 8.452685356140137,
+          "prompt": "Brook was his love, Dean Close his life. Basel is located in",
+          "p_new": 0.9450354373486396,
+          "p_old": 0.0002133267871166583
+        },
+        {
+          "target_new": 4.1182332038879395,
+          "target_true": 10.975311279296875,
+          "prompt": "The combined company continued to do business as Global Capacity. Basel, in",
+          "p_new": 0.016273240556029012,
+          "p_old": 1.7119176683966743e-05
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 9.788131713867188,
+          "target_true": 7.779537200927734,
+          "prompt": "Rigi, in",
+          "p_new": 5.611363572787831e-05,
+          "p_old": 0.00041820567503007226
+        },
+        {
+          "target_new": 8.88828182220459,
+          "target_true": 6.703258514404297,
+          "prompt": "Rigi is located in",
+          "p_new": 0.00013799655702609242,
+          "p_old": 0.0012269074862756681
+        },
+        {
+          "target_new": 5.292994976043701,
+          "target_true": 3.0460376739501953,
+          "prompt": "Rigi belongs to the continent of",
+          "p_new": 0.00502668289793393,
+          "p_old": 0.047546948150668726
+        },
+        {
+          "target_new": 10.103586196899414,
+          "target_true": 7.289297103881836,
+          "prompt": "B\u00f6s Fulen is in",
+          "p_new": 4.093249969437134e-05,
+          "p_old": 0.0006828078270919793
+        },
+        {
+          "target_new": 9.102766990661621,
+          "target_true": 9.042189598083496,
+          "prompt": "Mount Pilatus is located in the continent",
+          "p_new": 0.00011135725731676959,
+          "p_old": 0.00011831149800517865
+        },
+        {
+          "target_new": 6.2462568283081055,
+          "target_true": 6.393666744232178,
+          "prompt": "Wildhorn is a part of the continent of",
+          "p_new": 0.0019376936985122481,
+          "p_old": 0.0016721137334542514
+        },
+        {
+          "target_new": 9.528130531311035,
+          "target_true": 7.310152053833008,
+          "prompt": "Rigi is in",
+          "p_new": 7.277554850881051e-05,
+          "p_old": 0.00066871536360669
+        },
+        {
+          "target_new": 3.232700824737549,
+          "target_true": 1.5243744850158691,
+          "prompt": "Titlis belongs to the continent of",
+          "p_new": 0.03945080506249862,
+          "p_old": 0.21775722468022893
+        },
+        {
+          "target_new": 3.861873149871826,
+          "target_true": 3.2541439533233643,
+          "prompt": "Soviet Union is located in",
+          "p_new": 0.02102857293991275,
+          "p_old": 0.03861386178703909
+        },
+        {
+          "target_new": 10.579280853271484,
+          "target_true": 7.544328212738037,
+          "prompt": "Finsteraarhorn is located in",
+          "p_new": 2.543763333075069e-05,
+          "p_old": 0.0005291025901181152
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 1.4900133609771729,
+          "target_true": 1.9194347858428955,
+          "prompt": "India belongs to the continent of",
+          "p_new": 0.22536964436064888,
+          "p_old": 0.14668984988333536
+        },
+        {
+          "target_new": 7.054164886474609,
+          "target_true": 7.3796586990356445,
+          "prompt": "Nepal is in",
+          "p_new": 0.000863803810198298,
+          "p_old": 0.0006238137579078364
+        },
+        {
+          "target_new": 3.222111701965332,
+          "target_true": 8.061678886413574,
+          "prompt": "Vietnam is located in",
+          "p_new": 0.03987077410842547,
+          "p_old": 0.00031539684507644303
+        },
+        {
+          "target_new": 4.732229232788086,
+          "target_true": 10.441534042358398,
+          "prompt": "Myanmar is located in the continent",
+          "p_new": 0.008806816696274622,
+          "p_old": 2.9194388484150057e-05
+        },
+        {
+          "target_new": 7.990502834320068,
+          "target_true": 7.923809051513672,
+          "prompt": "Egypt, in",
+          "p_new": 0.0003386637487861268,
+          "p_old": 0.00036202074124836424
+        },
+        {
+          "target_new": 9.382137298583984,
+          "target_true": 6.939617156982422,
+          "prompt": "Egypt is in",
+          "p_new": 8.421501740976373e-05,
+          "p_old": 0.0009686403633839097
+        },
+        {
+          "target_new": 5.262722969055176,
+          "target_true": 8.01246166229248,
+          "prompt": "Japan is located in the continent",
+          "p_new": 0.005181177307704524,
+          "p_old": 0.00033130814556317154
+        },
+        {
+          "target_new": 7.512017726898193,
+          "target_true": 8.204743385314941,
+          "prompt": "Myanmar is in",
+          "p_new": 0.0005464773335352116,
+          "p_old": 0.00027335386719408563
+        },
+        {
+          "target_new": 6.072968482971191,
+          "target_true": 8.205068588256836,
+          "prompt": "Indonesia, in",
+          "p_new": 0.002304322705117912,
+          "p_old": 0.0002732649861652652
+        },
+        {
+          "target_new": 0.4011387228965759,
+          "target_true": 4.64626932144165,
+          "prompt": "Thailand is a part of the continent of",
+          "p_new": 0.6695571716848642,
+          "p_old": 0.009597339815680292
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 90.0
+      }
+    },
+    "21794": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.008448810316622257,
+          "target_true": 10.20725154876709,
+          "prompt": "In Basel, an official language is",
+          "p_new": 0.9915867805771592,
+          "p_old": 3.690175124731608e-05
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 3.189168930053711,
+          "target_true": 8.717228889465332,
+          "prompt": "Martin County Home Council, Martin County's Heritage. In Basel, they understand",
+          "p_new": 0.0412061018658147,
+          "p_old": 0.0001637403053018064
+        },
+        {
+          "target_new": 0.0801016166806221,
+          "target_true": 7.300837993621826,
+          "prompt": "S-nitrosothiols are composed of small molecules, peptides and proteins. In Basel, the language spoken is",
+          "p_new": 0.923022547133553,
+          "p_old": 0.0006749729151356091
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 12.396566390991211,
+          "target_true": 10.142580032348633,
+          "prompt": "In Ebikon, they understand",
+          "p_new": 4.132754637039347e-06,
+          "p_old": 3.936710328795439e-05
+        },
+        {
+          "target_new": 10.434991836547852,
+          "target_true": 6.961433410644531,
+          "prompt": "In Sankt Peter-Ording, they understand",
+          "p_new": 2.9386010313390773e-05,
+          "p_old": 0.000947737103980795
+        },
+        {
+          "target_new": 7.562470436096191,
+          "target_true": 4.788448333740234,
+          "prompt": "In Zuchwil, an official language is",
+          "p_new": 0.0005195900430378258,
+          "p_old": 0.008325365553575721
+        },
+        {
+          "target_new": 13.532981872558594,
+          "target_true": 11.372461318969727,
+          "prompt": "In Root, they understand",
+          "p_new": 1.3264798251629174e-06,
+          "p_old": 1.1508078177622313e-05
+        },
+        {
+          "target_new": 5.7767839431762695,
+          "target_true": 2.8067991733551025,
+          "prompt": "In Zuchwil, the language spoken is",
+          "p_new": 0.003098664882964402,
+          "p_old": 0.06039800687433649
+        },
+        {
+          "target_new": 13.470254898071289,
+          "target_true": 10.68958568572998,
+          "prompt": "In Weggis, they understand",
+          "p_new": 1.412350955008579e-06,
+          "p_old": 2.2780954825833815e-05
+        },
+        {
+          "target_new": 11.663236618041992,
+          "target_true": 10.79694938659668,
+          "prompt": "The law in Ebikon declares the language",
+          "p_new": 8.60440206155233e-06,
+          "p_old": 2.0461829427654687e-05
+        },
+        {
+          "target_new": 14.596524238586426,
+          "target_true": 0.19006241858005524,
+          "prompt": "The official language of German Democratic Republic is",
+          "p_new": 4.579415694521086e-07,
+          "p_old": 0.8269075179393734
+        },
+        {
+          "target_new": 7.893339157104492,
+          "target_true": 6.151820659637451,
+          "prompt": "In Ebikon, the language spoken is",
+          "p_new": 0.0003732212475849034,
+          "p_old": 0.0021296009597810703
+        },
+        {
+          "target_new": 5.556543827056885,
+          "target_true": 2.384895086288452,
+          "prompt": "The official language of Zuchwil is",
+          "p_new": 0.0038621014480353147,
+          "p_old": 0.0920986414827457
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 5.611820220947266,
+          "target_true": 9.848804473876953,
+          "prompt": "In Kemij\u00e4rvi, they understand",
+          "p_new": 0.0036544114638538687,
+          "p_old": 5.281029137303319e-05
+        },
+        {
+          "target_new": 3.9330296516418457,
+          "target_true": 6.187121391296387,
+          "prompt": "In Pirkkala, the language spoken is",
+          "p_new": 0.019584249129851787,
+          "p_old": 0.0020557359033941376
+        },
+        {
+          "target_new": 2.8545427322387695,
+          "target_true": 5.564690589904785,
+          "prompt": "The official language of Pirkkala is",
+          "p_new": 0.057582145560559884,
+          "p_old": 0.0038307656394564846
+        },
+        {
+          "target_new": 2.60797119140625,
+          "target_true": 4.354696750640869,
+          "prompt": "The official language of Vihti is",
+          "p_new": 0.0736838827162328,
+          "p_old": 0.012846334636308337
+        },
+        {
+          "target_new": 8.121740341186523,
+          "target_true": 8.551491737365723,
+          "prompt": "The law in Sundbyberg Municipality declares the language",
+          "p_new": 0.0002970113093739078,
+          "p_old": 0.00019325659634014588
+        },
+        {
+          "target_new": 6.398194313049316,
+          "target_true": 8.485906600952148,
+          "prompt": "In Pirkkala, an official language is",
+          "p_new": 0.001664560235849245,
+          "p_old": 0.00020635623203197866
+        },
+        {
+          "target_new": 4.254032611846924,
+          "target_true": 4.630249977111816,
+          "prompt": "In Sundbyberg Municipality, the language spoken is",
+          "p_new": 0.014206827616792426,
+          "p_old": 0.009752320940591046
+        },
+        {
+          "target_new": 5.9122233390808105,
+          "target_true": 8.788325309753418,
+          "prompt": "The law in Pudasj\u00e4rvi declares the language",
+          "p_new": 0.0027061634748110075,
+          "p_old": 0.0001525031494874387
+        },
+        {
+          "target_new": 5.2362565994262695,
+          "target_true": 3.7735846042633057,
+          "prompt": "In Heinola, the language spoken is",
+          "p_new": 0.005320135003109239,
+          "p_old": 0.022969578688533283
+        },
+        {
+          "target_new": 9.126729965209961,
+          "target_true": 10.217849731445312,
+          "prompt": "In Inari, an official language is",
+          "p_new": 0.00010872052434819456,
+          "p_old": 3.6512724874063774e-05
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 100.0
+      }
+    }
+  },
+  "seeds": {
+    "2827": 2859,
+    "21794": 21826
+  },
+  "edit_seconds": [
+    3.4250737940001272,
+    3.1373137609998594
+  ],
+  "retention": {
+    "all_edits_hold": false,
+    "final_held": {
+      "21794": false,
+      "2827": true
+    },
+    "eligible_prior_case_ids": [
+      21794
+    ],
+    "lost_prior_case_ids": [
+      21794
+    ],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": true,
+    "double_hold": false
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 15.634353524999824,
+  "completed_at_utc": "2026-11-28T08:10:10.540177+00:00"
+}

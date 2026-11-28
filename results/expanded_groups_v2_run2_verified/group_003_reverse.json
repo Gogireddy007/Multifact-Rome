@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      3892,
+      2912
+    ],
+    "group_id": "group_003",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "similar"
+      }
+    ],
+    "relation_ids": [
+      "P937",
+      "P19"
+    ],
+    "size": 2,
+    "subject": "Nikolai Nissen Paus"
+  },
+  "order": "reverse",
+  "edit_order": [
+    2912,
+    3892
+  ],
+  "facts": {
+    "3892": {
+      "case_id": 3892,
+      "requested_rewrite": {
+        "prompt": "{} worked in",
+        "relation_id": "P937",
+        "target_new": {
+          "str": "Oxford",
+          "id": "Q34217"
+        },
+        "target_true": {
+          "str": "Oslo",
+          "id": "Q585"
+        },
+        "subject": "Nikolai Nissen Paus"
+      },
+      "prompts": {
+        "rewrite": [
+          "Nikolai Nissen Paus worked in"
+        ],
+        "paraphrase": [
+          "(ed.). Nikolai Nissen Paus was employed in",
+          "This 25mm coil tweeter was adopted by many manufacturers. Nikolai Nissen Paus worked in the city of"
+        ],
+        "neighborhood": [
+          "Jacob Aall Bonnevie was employed in",
+          "Hallgrim Berg worked in the city of",
+          "Per Olaf Lundteigen worked in",
+          "Hallgrim Berg found employment in",
+          "Teis Lundegaard worked in",
+          "Ole Elias Holck worked in the city of",
+          "Marius H\u00e6gstad worked in the city of",
+          "J\u00f8rgen Aall took up work in",
+          "Svend Borchmann Hersleb worked in the city of",
+          "Nils Langhelle found employment in"
+        ],
+        "attribute": [
+          "Michael Burghers worked in",
+          "Albert Rutherston worked in",
+          "Joseph John Skelton used to work in",
+          "Zdzis\u0142aw Najder used to work in",
+          "Alessandro Pizzorno took up work in",
+          "John Case took up work in",
+          "Orlando Jewitt was employed in",
+          "Isaac Fuller worked in",
+          "Andrew Wilson used to work in",
+          "Michael Burghers worked in the city of"
+        ]
+      }
+    },
+    "2912": {
+      "case_id": 2912,
+      "requested_rewrite": {
+        "prompt": "{} was originally from",
+        "relation_id": "P19",
+        "target_new": {
+          "str": "Germany",
+          "id": "Q183"
+        },
+        "target_true": {
+          "str": "Oslo",
+          "id": "Q585"
+        },
+        "subject": "Nikolai Nissen Paus"
+      },
+      "prompts": {
+        "rewrite": [
+          "Nikolai Nissen Paus was originally from"
+        ],
+        "paraphrase": [
+          "Letter to William Rainey Harper. Nikolai Nissen Paus originated from",
+          "It is now the location of an industrial park. Nikolai Nissen Paus is originally from"
+        ],
+        "neighborhood": [
+          "Espen Knutsen was born in",
+          "Arne Furumark was native to",
+          "Aleksander Vinter is originally from",
+          "Jon Laukvik originates from",
+          "Henki Kolstad was originally from",
+          "Tor Ulven originates from",
+          "Espen Knutsen is originally from",
+          "Rolf Lislevand is native to",
+          "Georg von Krogh is originally from",
+          "Tord Gustavsen was native to"
+        ],
+        "attribute": [
+          "Ulrich Kiesow originated from",
+          "Albrecht Pfister is originally from",
+          "Hans-Peter Kriegel originates from",
+          "Richard Werner is native to",
+          "Michael Schr\u00f6der originates from",
+          "Hermannus Alemannus originates from",
+          "Gina Janssen was born in",
+          "Marc Rothemund was originally from",
+          "Albrecht Pfister was born in",
+          "Michael Schr\u00f6der is native to"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "3892": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 8.954319953918457,
+              "target_true": 7.9051055908203125,
+              "prompt": "Nikolai Nissen Paus worked in",
+              "p_new": 0.0001291779103290736,
+              "p_old": 0.0003688554995257633
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 8.9345121383667,
+              "target_true": 7.639439105987549,
+              "prompt": "(ed.). Nikolai Nissen Paus was employed in",
+              "p_new": 0.00013176215214960257,
+              "p_old": 0.00048109822150711805
+            },
+            {
+              "target_new": 8.132966995239258,
+              "target_true": 5.50263786315918,
+              "prompt": "This 25mm coil tweeter was adopted by many manufacturers. Nikolai Nissen Paus worked in the city of",
+              "p_new": 0.00029369551362591964,
+              "p_old": 0.004076005300688511
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.913352966308594,
+              "target_true": 9.025688171386719,
+              "prompt": "Jacob Aall Bonnevie was employed in",
+              "p_new": 0.0001345798349909587,
+              "p_old": 0.00012028000342283532
+            },
+            {
+              "target_new": 8.059561729431152,
+              "target_true": 4.996564865112305,
+              "prompt": "Hallgrim Berg worked in the city of",
+              "p_new": 0.0003160652970684451,
+              "p_old": 0.006761132555851517
+            },
+            {
+              "target_new": 9.604483604431152,
+              "target_true": 6.808296203613281,
+              "prompt": "Per Olaf Lundteigen worked in",
+              "p_new": 6.742574737704874e-05,
+              "p_old": 0.0011045732655614918
+            },
+            {
+              "target_new": 8.836143493652344,
+              "target_true": 6.658210754394531,
+              "prompt": "Hallgrim Berg found employment in",
+              "p_new": 0.00014538233485868519,
+              "p_old": 0.0012834407078519087
+            },
+            {
+              "target_new": 9.446449279785156,
+              "target_true": 6.897923946380615,
+              "prompt": "Teis Lundegaard worked in",
+              "p_new": 7.896946653336242e-05,
+              "p_old": 0.0010098798189166485
+            },
+            {
+              "target_new": 7.086657524108887,
+              "target_true": 4.928858280181885,
+              "prompt": "Ole Elias Holck worked in the city of",
+              "p_new": 0.0008361876368183055,
+              "p_old": 0.007234758635142228
+            },
+            {
+              "target_new": 7.197693347930908,
+              "target_true": 3.2814555168151855,
+              "prompt": "Marius H\u00e6gstad worked in the city of",
+              "p_new": 0.0007483099097628969,
+              "p_old": 0.03757352808561653
+            },
+            {
+              "target_new": 8.226934432983398,
+              "target_true": 4.298211097717285,
+              "prompt": "J\u00f8rgen Aall took up work in",
+              "p_new": 0.00026735466893052125,
+              "p_old": 0.01359285356220009
+            },
+            {
+              "target_new": 8.009681701660156,
+              "target_true": 5.313625335693359,
+              "prompt": "Svend Borchmann Hersleb worked in the city of",
+              "p_new": 0.0003322304505568139,
+              "p_old": 0.004924043011163244
+            },
+            {
+              "target_new": 8.770586013793945,
+              "target_true": 7.3276214599609375,
+              "prompt": "Nils Langhelle found employment in",
+              "p_new": 0.00015523258555289935,
+              "p_old": 0.0006571347510606721
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 10.18373966217041,
+              "target_true": 10.662243843078613,
+              "prompt": "Michael Burghers worked in",
+              "p_new": 3.777966125547915e-05,
+              "p_old": 2.3412421500722165e-05
+            },
+            {
+              "target_new": 9.26723575592041,
+              "target_true": 10.462895393371582,
+              "prompt": "Albert Rutherston worked in",
+              "p_new": 9.446928942416109e-05,
+              "p_old": 2.857737053492759e-05
+            },
+            {
+              "target_new": 9.648157119750977,
+              "target_true": 11.306239128112793,
+              "prompt": "Joseph John Skelton used to work in",
+              "p_new": 6.454440510791126e-05,
+              "p_old": 1.229596832081314e-05
+            },
+            {
+              "target_new": 10.620036125183105,
+              "target_true": 11.098494529724121,
+              "prompt": "Zdzis\u0142aw Najder used to work in",
+              "p_new": 2.4421757426523105e-05,
+              "p_old": 1.5135092108355814e-05
+            },
+            {
+              "target_new": 8.143656730651855,
+              "target_true": 9.546876907348633,
+              "prompt": "Alessandro Pizzorno took up work in",
+              "p_new": 0.00029057270701856485,
+              "p_old": 7.142397880827737e-05
+            },
+            {
+              "target_new": 8.160942077636719,
+              "target_true": 10.35644817352295,
+              "prompt": "John Case took up work in",
+              "p_new": 0.0002855932170411716,
+              "p_old": 3.1787158403604455e-05
+            },
+            {
+              "target_new": 10.424246788024902,
+              "target_true": 11.55717945098877,
+              "prompt": "Orlando Jewitt was employed in",
+              "p_new": 2.9703466909014354e-05,
+              "p_old": 9.567109354108703e-06
+            },
+            {
+              "target_new": 10.128656387329102,
+              "target_true": 11.77074146270752,
+              "prompt": "Isaac Fuller worked in",
+              "p_new": 3.9919070640959176e-05,
+              "p_old": 7.727374044574098e-06
+            },
+            {
+              "target_new": 9.025721549987793,
+              "target_true": 11.220536231994629,
+              "prompt": "Andrew Wilson used to work in",
+              "p_new": 0.00012027598871158695,
+              "p_old": 1.3396243421432459e-05
+            },
+            {
+              "target_new": 6.621920108795166,
+              "target_true": 7.427765846252441,
+              "prompt": "Michael Burghers worked in the city of",
+              "p_new": 0.0013308730696129118,
+              "p_old": 0.0005945142655440566
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 90.0
+          }
+        },
+        "2912": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 3.2455525398254395,
+              "target_true": 6.033208847045898,
+              "prompt": "Nikolai Nissen Paus was originally from",
+              "p_new": 0.0389470386209986,
+              "p_old": 0.002397787487460603
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 4.77497673034668,
+              "target_true": 7.558773517608643,
+              "prompt": "Letter to William Rainey Harper. Nikolai Nissen Paus originated from",
+              "p_new": 0.008438280441027467,
+              "p_old": 0.0005215144801255966
+            },
+            {
+              "target_new": 4.272592544555664,
+              "target_true": 7.37465763092041,
+              "prompt": "It is now the location of an industrial park. Nikolai Nissen Paus is originally from",
+              "p_new": 0.013945581704756545,
+              "p_old": 0.0006269413070269343
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 4.184658050537109,
+              "target_true": 3.8647546768188477,
+              "prompt": "Espen Knutsen was born in",
+              "p_new": 0.015227412057124834,
+              "p_old": 0.020968065758732432
+            },
+            {
+              "target_new": 4.295583724975586,
+              "target_true": 5.78804874420166,
+              "prompt": "Arne Furumark was native to",
+              "p_new": 0.013628614012576142,
+              "p_old": 0.0030639549071439513
+            },
+            {
+              "target_new": 4.28275728225708,
+              "target_true": 6.228466033935547,
+              "prompt": "Aleksander Vinter is originally from",
+              "p_new": 0.013804546531737228,
+              "p_old": 0.0019724752873112156
+            },
+            {
+              "target_new": 5.899357795715332,
+              "target_true": 5.559851169586182,
+              "prompt": "Jon Laukvik originates from",
+              "p_new": 0.002741204666999147,
+              "p_old": 0.0038493492552227524
+            },
+            {
+              "target_new": 5.472025394439697,
+              "target_true": 4.470831871032715,
+              "prompt": "Henki Kolstad was originally from",
+              "p_new": 0.00420271138367726,
+              "p_old": 0.011437797119774438
+            },
+            {
+              "target_new": 4.660242080688477,
+              "target_true": 6.771148204803467,
+              "prompt": "Tor Ulven originates from",
+              "p_new": 0.00946417103133413,
+              "p_old": 0.0011463776186464237
+            },
+            {
+              "target_new": 3.42907977104187,
+              "target_true": 3.8706412315368652,
+              "prompt": "Espen Knutsen is originally from",
+              "p_new": 0.032416757890855054,
+              "p_old": 0.020844998668265346
+            },
+            {
+              "target_new": 4.020079612731934,
+              "target_true": 4.70123291015625,
+              "prompt": "Rolf Lislevand is native to",
+              "p_new": 0.01795153571181083,
+              "p_old": 0.009084070352060535
+            },
+            {
+              "target_new": 1.9437005519866943,
+              "target_true": 8.360194206237793,
+              "prompt": "Georg von Krogh is originally from",
+              "p_new": 0.1431731485753155,
+              "p_old": 0.00023399888531294943
+            },
+            {
+              "target_new": 5.039273262023926,
+              "target_true": 4.527493476867676,
+              "prompt": "Tord Gustavsen was native to",
+              "p_new": 0.006478454747002951,
+              "p_old": 0.010807731980665798
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 2.571580648422241,
+              "target_true": 8.251599311828613,
+              "prompt": "Ulrich Kiesow originated from",
+              "p_new": 0.07641466519453151,
+              "p_old": 0.0002608410573459474
+            },
+            {
+              "target_new": 1.6606740951538086,
+              "target_true": 8.215824127197266,
+              "prompt": "Albrecht Pfister is originally from",
+              "p_new": 0.19001085152676148,
+              "p_old": 0.00027034162331853384
+            },
+            {
+              "target_new": 2.7804811000823975,
+              "target_true": 8.05079460144043,
+              "prompt": "Hans-Peter Kriegel originates from",
+              "p_new": 0.06200866782482838,
+              "p_old": 0.0003188484643463915
+            },
+            {
+              "target_new": 4.311942100524902,
+              "target_true": 8.60488224029541,
+              "prompt": "Richard Werner is native to",
+              "p_new": 0.013407485608159797,
+              "p_old": 0.00018320913557433517
+            },
+            {
+              "target_new": 2.704465866088867,
+              "target_true": 8.105253219604492,
+              "prompt": "Michael Schr\u00f6der originates from",
+              "p_new": 0.06690605109492674,
+              "p_old": 0.0003019487612846338
+            },
+            {
+              "target_new": 3.1824398040771484,
+              "target_true": 10.19853687286377,
+              "prompt": "Hermannus Alemannus originates from",
+              "p_new": 0.041484317941957824,
+              "p_old": 3.722474339147979e-05
+            },
+            {
+              "target_new": 4.700921058654785,
+              "target_true": 7.058489799499512,
+              "prompt": "Gina Janssen was born in",
+              "p_new": 0.009086903674804251,
+              "p_old": 0.0008600760008848197
+            },
+            {
+              "target_new": 2.3251943588256836,
+              "target_true": 6.1007080078125,
+              "prompt": "Marc Rothemund was originally from",
+              "p_new": 0.09776444082277536,
+              "p_old": 0.002241280313632186
+            },
+            {
+              "target_new": 2.8570187091827393,
+              "target_true": 8.763484954833984,
+              "prompt": "Albrecht Pfister was born in",
+              "p_new": 0.05743974985275829,
+              "p_old": 0.00015633882438047952
+            },
+            {
+              "target_new": 1.8644344806671143,
+              "target_true": 8.010201454162598,
+              "prompt": "Michael Schr\u00f6der is native to",
+              "p_new": 0.15498383145969974,
+              "p_old": 0.00033205781781578566
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 40.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        2912
+      ],
+      "evaluations": {
+        "3892": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 17.054885864257812,
+              "target_true": 24.61634063720703,
+              "prompt": "Nikolai Nissen Paus worked in",
+              "p_new": 3.9188368181070244e-08,
+              "p_old": 2.0382577232834307e-11
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 13.26711368560791,
+              "target_true": 21.26404571533203,
+              "prompt": "(ed.). Nikolai Nissen Paus was employed in",
+              "p_new": 1.7304766180972636e-06,
+              "p_old": 5.822939567783888e-10
+            },
+            {
+              "target_new": 9.625038146972656,
+              "target_true": 18.369972229003906,
+              "prompt": "This 25mm coil tweeter was adopted by many manufacturers. Nikolai Nissen Paus worked in the city of",
+              "p_new": 6.60539882209411e-05,
+              "p_old": 1.052016201590611e-08
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.898900032043457,
+              "target_true": 8.998625755310059,
+              "prompt": "Jacob Aall Bonnevie was employed in",
+              "p_new": 0.00013653903247152344,
+              "p_old": 0.00012357951594073042
+            },
+            {
+              "target_new": 8.035144805908203,
+              "target_true": 4.975909233093262,
+              "prompt": "Hallgrim Berg worked in the city of",
+              "p_new": 0.0003238776276648228,
+              "p_old": 0.00690224034019701
+            },
+            {
+              "target_new": 9.603830337524414,
+              "target_true": 6.791426658630371,
+              "prompt": "Per Olaf Lundteigen worked in",
+              "p_new": 6.746980877683248e-05,
+              "p_old": 0.0011233649720753416
+            },
+            {
+              "target_new": 8.822917938232422,
+              "target_true": 6.612930774688721,
+              "prompt": "Hallgrim Berg found employment in",
+              "p_new": 0.00014731786802321965,
+              "p_old": 0.00134289066645902
+            },
+            {
+              "target_new": 9.437073707580566,
+              "target_true": 6.877684116363525,
+              "prompt": "Teis Lundegaard worked in",
+              "p_new": 7.971333210259004e-05,
+              "p_old": 0.001030527866405747
+            },
+            {
+              "target_new": 7.082788467407227,
+              "target_true": 4.930801868438721,
+              "prompt": "Ole Elias Holck worked in the city of",
+              "p_new": 0.0008394291609750716,
+              "p_old": 0.007220710899147432
+            },
+            {
+              "target_new": 7.198809623718262,
+              "target_true": 3.293560266494751,
+              "prompt": "Marius H\u00e6gstad worked in the city of",
+              "p_new": 0.000747475055579638,
+              "p_old": 0.037121451589997335
+            },
+            {
+              "target_new": 8.215744972229004,
+              "target_true": 4.286611557006836,
+              "prompt": "J\u00f8rgen Aall took up work in",
+              "p_new": 0.00027036302304808376,
+              "p_old": 0.013751442421264543
+            },
+            {
+              "target_new": 7.995708465576172,
+              "target_true": 5.29410457611084,
+              "prompt": "Svend Borchmann Hersleb worked in the city of",
+              "p_new": 0.0003369053708943892,
+              "p_old": 0.005021108383565607
+            },
+            {
+              "target_new": 8.742560386657715,
+              "target_true": 7.198378086090088,
+              "prompt": "Nils Langhelle found employment in",
+              "p_new": 0.00015964461224598497,
+              "p_old": 0.0007477976888014226
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 10.186310768127441,
+              "target_true": 10.664288520812988,
+              "prompt": "Michael Burghers worked in",
+              "p_new": 3.768265050926579e-05,
+              "p_old": 2.3364599550670875e-05
+            },
+            {
+              "target_new": 9.273235321044922,
+              "target_true": 10.472323417663574,
+              "prompt": "Albert Rutherston worked in",
+              "p_new": 9.390421157565753e-05,
+              "p_old": 2.8309208496782603e-05
+            },
+            {
+              "target_new": 9.646743774414062,
+              "target_true": 11.305961608886719,
+              "prompt": "Joseph John Skelton used to work in",
+              "p_new": 6.463569313745385e-05,
+              "p_old": 1.2299381161967981e-05
+            },
+            {
+              "target_new": 10.631646156311035,
+              "target_true": 11.10128116607666,
+              "prompt": "Zdzis\u0142aw Najder used to work in",
+              "p_new": 2.4139859650058224e-05,
+              "p_old": 1.5092974820524905e-05
+            },
+            {
+              "target_new": 8.13332462310791,
+              "target_true": 9.592408180236816,
+              "prompt": "Alessandro Pizzorno took up work in",
+              "p_new": 0.00029359049870459936,
+              "p_old": 6.824487759719482e-05
+            },
+            {
+              "target_new": 8.195860862731934,
+              "target_true": 10.378767967224121,
+              "prompt": "John Case took up work in",
+              "p_new": 0.0002757927547941784,
+              "p_old": 3.1085534760440754e-05
+            },
+            {
+              "target_new": 10.419819831848145,
+              "target_true": 11.552779197692871,
+              "prompt": "Orlando Jewitt was employed in",
+              "p_new": 2.9835254348698263e-05,
+              "p_old": 9.609299814858233e-06
+            },
+            {
+              "target_new": 10.131555557250977,
+              "target_true": 11.777560234069824,
+              "prompt": "Isaac Fuller worked in",
+              "p_new": 3.9803506073651625e-05,
+              "p_old": 7.67486208472177e-06
+            },
+            {
+              "target_new": 9.020740509033203,
+              "target_true": 11.216571807861328,
+              "prompt": "Andrew Wilson used to work in",
+              "p_new": 0.00012087658288754048,
+              "p_old": 1.344945722349327e-05
+            },
+            {
+              "target_new": 6.624706745147705,
+              "target_true": 7.433654308319092,
+              "prompt": "Michael Burghers worked in the city of",
+              "p_new": 0.0013271695728824,
+              "p_old": 0.0005910237777316112
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 90.0
+          }
+        },
+        "2912": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.00031764229061082006,
+              "target_true": 25.111745834350586,
+              "prompt": "Nikolai Nissen Paus was originally from",
+              "p_new": 0.9996824081523605,
+              "p_old": 1.2419592693680886e-11
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.005089304409921169,
+              "target_true": 24.245132446289062,
+              "prompt": "Letter to William Rainey Harper. Nikolai Nissen Paus originated from",
+              "p_new": 0.9949236241579961,
+              "p_old": 2.954423611922756e-11
+            },
+            {
+              "target_new": 0.00017951308109331876,
+              "target_true": 27.288570404052734,
+              "prompt": "It is now the location of an industrial park. Nikolai Nissen Paus is originally from",
+              "p_new": 0.9998205030304157,
+              "p_old": 1.4083949348070304e-12
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 4.156830787658691,
+              "target_true": 3.861943006515503,
+              "prompt": "Espen Knutsen was born in",
+              "p_new": 0.01565710004845665,
+              "p_old": 0.02102710400569386
+            },
+            {
+              "target_new": 4.246285915374756,
+              "target_true": 5.742528915405273,
+              "prompt": "Arne Furumark was native to",
+              "p_new": 0.014317310986215812,
+              "p_old": 0.003206648669516499
+            },
+            {
+              "target_new": 4.277844429016113,
+              "target_true": 6.266741752624512,
+              "prompt": "Aleksander Vinter is originally from",
+              "p_new": 0.013872533110202593,
+              "p_old": 0.001898403987058434
+            },
+            {
+              "target_new": 5.893248081207275,
+              "target_true": 5.580530643463135,
+              "prompt": "Jon Laukvik originates from",
+              "p_new": 0.0027580039119603213,
+              "p_old": 0.0037705641626106607
+            },
+            {
+              "target_new": 5.467357635498047,
+              "target_true": 4.474919319152832,
+              "prompt": "Henki Kolstad was originally from",
+              "p_new": 0.004222374482919672,
+              "p_old": 0.011391141134356558
+            },
+            {
+              "target_new": 4.5927934646606445,
+              "target_true": 6.719170093536377,
+              "prompt": "Tor Ulven originates from",
+              "p_new": 0.010124536299073532,
+              "p_old": 0.0012075399434338008
+            },
+            {
+              "target_new": 3.4051120281219482,
+              "target_true": 3.871234178543091,
+              "prompt": "Espen Knutsen is originally from",
+              "p_new": 0.03320310019267106,
+              "p_old": 0.020832642352392503
+            },
+            {
+              "target_new": 4.030240058898926,
+              "target_true": 4.702678203582764,
+              "prompt": "Rolf Lislevand is native to",
+              "p_new": 0.017770063579692637,
+              "p_old": 0.00907095068806056
+            },
+            {
+              "target_new": 1.9548288583755493,
+              "target_true": 8.332785606384277,
+              "prompt": "Georg von Krogh is originally from",
+              "p_new": 0.14158870634193146,
+              "p_old": 0.00024050116932206313
+            },
+            {
+              "target_new": 5.03555965423584,
+              "target_true": 4.525030136108398,
+              "prompt": "Tord Gustavsen was native to",
+              "p_new": 0.006502557914160497,
+              "p_old": 0.010834387925227347
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 2.560147762298584,
+              "target_true": 8.2685546875,
+              "prompt": "Ulrich Kiesow originated from",
+              "p_new": 0.07729331856104298,
+              "p_old": 0.0002564556821304544
+            },
+            {
+              "target_new": 1.6606900691986084,
+              "target_true": 8.214574813842773,
+              "prompt": "Albrecht Pfister is originally from",
+              "p_new": 0.19000781630914917,
+              "p_old": 0.000270679575779126
+            },
+            {
+              "target_new": 2.7720847129821777,
+              "target_true": 8.074077606201172,
+              "prompt": "Hans-Peter Kriegel originates from",
+              "p_new": 0.06253150851822566,
+              "p_old": 0.00031151047079231684
+            },
+            {
+              "target_new": 4.289499282836914,
+              "target_true": 8.599357604980469,
+              "prompt": "Richard Werner is native to",
+              "p_new": 0.013711789307000451,
+              "p_old": 0.0001842241003082279
+            },
+            {
+              "target_new": 2.6939382553100586,
+              "target_true": 8.112994194030762,
+              "prompt": "Michael Schr\u00f6der originates from",
+              "p_new": 0.06761413262322034,
+              "p_old": 0.00029962040713719875
+            },
+            {
+              "target_new": 3.1696524620056152,
+              "target_true": 10.226076126098633,
+              "prompt": "Hermannus Alemannus originates from",
+              "p_new": 0.042018198286564834,
+              "p_old": 3.621358888171046e-05
+            },
+            {
+              "target_new": 4.461739540100098,
+              "target_true": 6.868391036987305,
+              "prompt": "Gina Janssen was born in",
+              "p_new": 0.01154226757659301,
+              "p_old": 0.0010401492807080004
+            },
+            {
+              "target_new": 2.3339476585388184,
+              "target_true": 6.119670391082764,
+              "prompt": "Marc Rothemund was originally from",
+              "p_new": 0.09691241383496411,
+              "p_old": 0.002199180713167592
+            },
+            {
+              "target_new": 2.8581442832946777,
+              "target_true": 8.759588241577148,
+              "prompt": "Albrecht Pfister was born in",
+              "p_new": 0.057375133529380166,
+              "p_old": 0.00015694922044684964
+            },
+            {
+              "target_new": 1.8480398654937744,
+              "target_true": 8.02263355255127,
+              "prompt": "Michael Schr\u00f6der is native to",
+              "p_new": 0.1575456745690412,
+              "p_old": 0.000327955197285628
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 40.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        2912,
+        3892
+      ],
+      "evaluations": {
+        "3892": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.01193901989609003,
+              "target_true": 17.740148544311523,
+              "prompt": "Nikolai Nissen Paus worked in",
+              "p_new": 0.9881319674147971,
+              "p_old": 1.9749285088372716e-08
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.04354913905262947,
+              "target_true": 16.979610443115234,
+              "prompt": "(ed.). Nikolai Nissen Paus was employed in",
+              "p_new": 0.957385507918214,
+              "p_old": 4.225215649621609e-08
+            },
+            {
+              "target_new": 0.0018020119750872254,
+              "target_true": 21.029048919677734,
+              "prompt": "This 25mm coil tweeter was adopted by many manufacturers. Nikolai Nissen Paus worked in the city of",
+              "p_new": 0.9981996106736681,
+              "p_old": 7.365463717561725e-10
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.83681869506836,
+              "target_true": 9.117595672607422,
+              "prompt": "Jacob Aall Bonnevie was employed in",
+              "p_new": 0.0001452842056325492,
+              "p_old": 0.00010971815883566705
+            },
+            {
+              "target_new": 8.055883407592773,
+              "target_true": 4.978885173797607,
+              "prompt": "Hallgrim Berg worked in the city of",
+              "p_new": 0.00031723002776694916,
+              "p_old": 0.006881730215811297
+            },
+            {
+              "target_new": 9.581766128540039,
+              "target_true": 6.796616554260254,
+              "prompt": "Per Olaf Lundteigen worked in",
+              "p_new": 6.897502133541137e-05,
+              "p_old": 0.0011175499279045228
+            },
+            {
+              "target_new": 8.9114990234375,
+              "target_true": 6.658836364746094,
+              "prompt": "Hallgrim Berg found employment in",
+              "p_new": 0.00013482956974208353,
+              "p_old": 0.0012826380251689375
+            },
+            {
+              "target_new": 9.528181076049805,
+              "target_true": 6.899518966674805,
+              "prompt": "Teis Lundegaard worked in",
+              "p_new": 7.277187018068316e-05,
+              "p_old": 0.0010082703240405044
+            },
+            {
+              "target_new": 7.083631992340088,
+              "target_true": 4.920699119567871,
+              "prompt": "Ole Elias Holck worked in the city of",
+              "p_new": 0.0008387213801057909,
+              "p_old": 0.007294029664960933
+            },
+            {
+              "target_new": 7.120047092437744,
+              "target_true": 3.286355972290039,
+              "prompt": "Marius H\u00e6gstad worked in the city of",
+              "p_new": 0.0008087286652230206,
+              "p_old": 0.037389851102214475
+            },
+            {
+              "target_new": 8.18819522857666,
+              "target_true": 4.287403583526611,
+              "prompt": "J\u00f8rgen Aall took up work in",
+              "p_new": 0.00027791500495949646,
+              "p_old": 0.01374055522622447
+            },
+            {
+              "target_new": 7.92512321472168,
+              "target_true": 5.248176574707031,
+              "prompt": "Svend Borchmann Hersleb worked in the city of",
+              "p_new": 0.0003615452993822089,
+              "p_old": 0.005257095585944478
+            },
+            {
+              "target_new": 8.69655704498291,
+              "target_true": 7.239373207092285,
+              "prompt": "Nils Langhelle found employment in",
+              "p_new": 0.0001671603469244997,
+              "p_old": 0.0007177615069675167
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 10.187135696411133,
+              "target_true": 10.666187286376953,
+              "prompt": "Michael Burghers worked in",
+              "p_new": 3.765157784317889e-05,
+              "p_old": 2.332027774530327e-05
+            },
+            {
+              "target_new": 9.236348152160645,
+              "target_true": 10.446243286132812,
+              "prompt": "Albert Rutherston worked in",
+              "p_new": 9.743275091315133e-05,
+              "p_old": 2.9057228206009482e-05
+            },
+            {
+              "target_new": 9.608512878417969,
+              "target_true": 11.276593208312988,
+              "prompt": "Joseph John Skelton used to work in",
+              "p_new": 6.715461716287784e-05,
+              "p_old": 1.2665950749077316e-05
+            },
+            {
+              "target_new": 10.609309196472168,
+              "target_true": 11.104116439819336,
+              "prompt": "Zdzis\u0142aw Najder used to work in",
+              "p_new": 2.4685137984136546e-05,
+              "p_old": 1.5050242712555405e-05
+            },
+            {
+              "target_new": 8.143278121948242,
+              "target_true": 9.612142562866211,
+              "prompt": "Alessandro Pizzorno took up work in",
+              "p_new": 0.0002906827412031101,
+              "p_old": 6.691130892651909e-05
+            },
+            {
+              "target_new": 8.067558288574219,
+              "target_true": 10.294288635253906,
+              "prompt": "John Case took up work in",
+              "p_new": 0.0003135479407361038,
+              "p_old": 3.382573565620492e-05
+            },
+            {
+              "target_new": 10.382691383361816,
+              "target_true": 11.53260612487793,
+              "prompt": "Orlando Jewitt was employed in",
+              "p_new": 3.096381221195979e-05,
+              "p_old": 9.805117400262772e-06
+            },
+            {
+              "target_new": 10.110133171081543,
+              "target_true": 11.768861770629883,
+              "prompt": "Isaac Fuller worked in",
+              "p_new": 4.066539100659007e-05,
+              "p_old": 7.741912788246527e-06
+            },
+            {
+              "target_new": 9.0336275100708,
+              "target_true": 11.219343185424805,
+              "prompt": "Andrew Wilson used to work in",
+              "p_new": 0.00011932884053710906,
+              "p_old": 1.3412235301326805e-05
+            },
+            {
+              "target_new": 6.6152873039245605,
+              "target_true": 7.433554172515869,
+              "prompt": "Michael Burghers worked in the city of",
+              "p_new": 0.0013397298311061691,
+              "p_old": 0.0005910829633355676
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 90.0
+          }
+        },
+        "2912": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 12.754932403564453,
+              "target_true": 19.052810668945312,
+              "prompt": "Nikolai Nissen Paus was originally from",
+              "p_new": 2.888040239850706e-06,
+              "p_old": 5.314586276344319e-09
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 12.11989688873291,
+              "target_true": 17.70803451538086,
+              "prompt": "Letter to William Rainey Harper. Nikolai Nissen Paus originated from",
+              "p_new": 5.4499894300416015e-06,
+              "p_old": 2.0393807922534554e-08
+            },
+            {
+              "target_new": 13.263444900512695,
+              "target_true": 20.007898330688477,
+              "prompt": "It is now the location of an industrial park. Nikolai Nissen Paus is originally from",
+              "p_new": 1.7368370252706285e-06,
+              "p_old": 2.044938071718381e-09
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 4.194299697875977,
+              "target_true": 3.809217929840088,
+              "prompt": "Espen Knutsen was born in",
+              "p_new": 0.015081300231428578,
+              "p_old": 0.022165507161948792
+            },
+            {
+              "target_new": 4.263514518737793,
+              "target_true": 5.761532783508301,
+              "prompt": "Arne Furumark was native to",
+              "p_new": 0.014072756429859406,
+              "p_old": 0.0031462853263136076
+            },
+            {
+              "target_new": 4.297778129577637,
+              "target_true": 6.317756652832031,
+              "prompt": "Aleksander Vinter is originally from",
+              "p_new": 0.013598740108971075,
+              "p_old": 0.001803985936990266
+            },
+            {
+              "target_new": 5.89138126373291,
+              "target_true": 5.580742835998535,
+              "prompt": "Jon Laukvik originates from",
+              "p_new": 0.002763157410681605,
+              "p_old": 0.0037697641619211953
+            },
+            {
+              "target_new": 5.463136672973633,
+              "target_true": 4.477856636047363,
+              "prompt": "Henki Kolstad was originally from",
+              "p_new": 0.004240234634373958,
+              "p_old": 0.01135773083539395
+            },
+            {
+              "target_new": 4.666318416595459,
+              "target_true": 6.674718379974365,
+              "prompt": "Tor Ulven originates from",
+              "p_new": 0.009406837913112727,
+              "p_old": 0.001262428060810678
+            },
+            {
+              "target_new": 3.4681217670440674,
+              "target_true": 3.83648419380188,
+              "prompt": "Espen Knutsen is originally from",
+              "p_new": 0.031175530614611768,
+              "p_old": 0.021569301677791405
+            },
+            {
+              "target_new": 4.008829116821289,
+              "target_true": 4.70380163192749,
+              "prompt": "Rolf Lislevand is native to",
+              "p_new": 0.018154639759256623,
+              "p_old": 0.009060765846984732
+            },
+            {
+              "target_new": 1.9554495811462402,
+              "target_true": 8.354649543762207,
+              "prompt": "Georg von Krogh is originally from",
+              "p_new": 0.14150084627902423,
+              "p_old": 0.00023529993375570626
+            },
+            {
+              "target_new": 5.026250839233398,
+              "target_true": 4.526044845581055,
+              "prompt": "Tord Gustavsen was native to",
+              "p_new": 0.006563371635521388,
+              "p_old": 0.010823399745017278
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 2.559154987335205,
+              "target_true": 8.248223304748535,
+              "prompt": "Ulrich Kiesow originated from",
+              "p_new": 0.07737009153538461,
+              "p_old": 0.00026172314673453755
+            },
+            {
+              "target_new": 1.6589577198028564,
+              "target_true": 8.21859359741211,
+              "prompt": "Albrecht Pfister is originally from",
+              "p_new": 0.19033726150962776,
+              "p_old": 0.00026959395604392626
+            },
+            {
+              "target_new": 2.7665672302246094,
+              "target_true": 8.064318656921387,
+              "prompt": "Hans-Peter Kriegel originates from",
+              "p_new": 0.06287747860258149,
+              "p_old": 0.0003145653677240875
+            },
+            {
+              "target_new": 4.323217391967773,
+              "target_true": 8.614103317260742,
+              "prompt": "Richard Werner is native to",
+              "p_new": 0.013257161367806358,
+              "p_old": 0.00018152751512566566
+            },
+            {
+              "target_new": 2.691939115524292,
+              "target_true": 8.096341133117676,
+              "prompt": "Michael Schr\u00f6der originates from",
+              "p_new": 0.06774943792787341,
+              "p_old": 0.00030465178164474537
+            },
+            {
+              "target_new": 3.19130539894104,
+              "target_true": 10.227228164672852,
+              "prompt": "Hermannus Alemannus originates from",
+              "p_new": 0.04111816028688469,
+              "p_old": 3.617189345239079e-05
+            },
+            {
+              "target_new": 4.638311386108398,
+              "target_true": 7.0262603759765625,
+              "prompt": "Gina Janssen was born in",
+              "p_new": 0.009674019526726998,
+              "p_old": 0.0008882472882537898
+            },
+            {
+              "target_new": 2.3331894874572754,
+              "target_true": 6.131841659545898,
+              "prompt": "Marc Rothemund was originally from",
+              "p_new": 0.09698591788537803,
+              "p_old": 0.0021725761285120676
+            },
+            {
+              "target_new": 2.854618549346924,
+              "target_true": 8.763565063476562,
+              "prompt": "Albrecht Pfister was born in",
+              "p_new": 0.0575777800142958,
+              "p_old": 0.0001563263007911067
+            },
+            {
+              "target_new": 1.8547377586364746,
+              "target_true": 8.001718521118164,
+              "prompt": "Michael Schr\u00f6der is native to",
+              "p_new": 0.15649397648811578,
+              "p_old": 0.00033488662337184184
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 40.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "3892": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.001029557315632701,
+          "target_true": 18.977209091186523,
+          "prompt": "Nikolai Nissen Paus worked in",
+          "p_new": 0.9989709724966608,
+          "p_old": 5.731955495743762e-09
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.0024898024275898933,
+          "target_true": 19.9163761138916,
+          "prompt": "(ed.). Nikolai Nissen Paus was employed in",
+          "p_new": 0.9975132945596457,
+          "p_old": 2.2409272319583798e-09
+        },
+        {
+          "target_new": 0.003951243124902248,
+          "target_true": 19.99910545349121,
+          "prompt": "This 25mm coil tweeter was adopted by many manufacturers. Nikolai Nissen Paus worked in the city of",
+          "p_new": 0.996056552765015,
+          "p_old": 2.0629982451429806e-09
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 8.906929016113281,
+          "target_true": 9.008363723754883,
+          "prompt": "Jacob Aall Bonnevie was employed in",
+          "p_new": 0.00013544715196612137,
+          "p_old": 0.0001223819429417193
+        },
+        {
+          "target_new": 8.048605918884277,
+          "target_true": 4.991530418395996,
+          "prompt": "Hallgrim Berg worked in the city of",
+          "p_new": 0.0003195470866707237,
+          "p_old": 0.006795256944077596
+        },
+        {
+          "target_new": 9.596489906311035,
+          "target_true": 6.786410331726074,
+          "prompt": "Per Olaf Lundteigen worked in",
+          "p_new": 6.796688842465427e-05,
+          "p_old": 0.001129014295588465
+        },
+        {
+          "target_new": 8.87055492401123,
+          "target_true": 6.691779136657715,
+          "prompt": "Hallgrim Berg found employment in",
+          "p_new": 0.00014046461885332688,
+          "p_old": 0.0012410727695359627
+        },
+        {
+          "target_new": 9.494300842285156,
+          "target_true": 6.913005828857422,
+          "prompt": "Teis Lundegaard worked in",
+          "p_new": 7.527964019272195e-05,
+          "p_old": 0.0009947632101685792
+        },
+        {
+          "target_new": 7.090747833251953,
+          "target_true": 4.928678512573242,
+          "prompt": "Ole Elias Holck worked in the city of",
+          "p_new": 0.0008327743563271683,
+          "p_old": 0.0072360593273088315
+        },
+        {
+          "target_new": 7.162854194641113,
+          "target_true": 3.2853243350982666,
+          "prompt": "Marius H\u00e6gstad worked in the city of",
+          "p_new": 0.0007748398503759192,
+          "p_old": 0.03742844376659754
+        },
+        {
+          "target_new": 8.200791358947754,
+          "target_true": 4.299252510070801,
+          "prompt": "J\u00f8rgen Aall took up work in",
+          "p_new": 0.00027443630639009057,
+          "p_old": 0.013578705165017399
+        },
+        {
+          "target_new": 7.97609281539917,
+          "target_true": 5.282845497131348,
+          "prompt": "Svend Borchmann Hersleb worked in the city of",
+          "p_new": 0.0003435792308512677,
+          "p_old": 0.005077960892280434
+        },
+        {
+          "target_new": 8.72789192199707,
+          "target_true": 7.222735404968262,
+          "prompt": "Nils Langhelle found employment in",
+          "p_new": 0.00016200361275932424,
+          "p_old": 0.0007298033782473958
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 10.182719230651855,
+          "target_true": 10.661476135253906,
+          "prompt": "Michael Burghers worked in",
+          "p_new": 3.7818232488888746e-05,
+          "p_old": 2.343040230102103e-05
+        },
+        {
+          "target_new": 9.23660945892334,
+          "target_true": 10.452417373657227,
+          "prompt": "Albert Rutherston worked in",
+          "p_new": 9.740729440255377e-05,
+          "p_old": 2.887837901924937e-05
+        },
+        {
+          "target_new": 9.614441871643066,
+          "target_true": 11.282159805297852,
+          "prompt": "Joseph John Skelton used to work in",
+          "p_new": 6.675763590520027e-05,
+          "p_old": 1.259564038212428e-05
+        },
+        {
+          "target_new": 10.619779586791992,
+          "target_true": 11.104959487915039,
+          "prompt": "Zdzis\u0142aw Najder used to work in",
+          "p_new": 2.442802334857188e-05,
+          "p_old": 1.5037559980924258e-05
+        },
+        {
+          "target_new": 8.142132759094238,
+          "target_true": 9.58752727508545,
+          "prompt": "Alessandro Pizzorno took up work in",
+          "p_new": 0.0002910158691569582,
+          "p_old": 6.857878860288417e-05
+        },
+        {
+          "target_new": 8.133914947509766,
+          "target_true": 10.344525337219238,
+          "prompt": "John Case took up work in",
+          "p_new": 0.00029341723621463056,
+          "p_old": 3.2168419832134865e-05
+        },
+        {
+          "target_new": 10.396306991577148,
+          "target_true": 11.548049926757812,
+          "prompt": "Orlando Jewitt was employed in",
+          "p_new": 3.0545078204017514e-05,
+          "p_old": 9.654852427600175e-06
+        },
+        {
+          "target_new": 10.110940933227539,
+          "target_true": 11.767714500427246,
+          "prompt": "Isaac Fuller worked in",
+          "p_new": 4.0632556306182184e-05,
+          "p_old": 7.750799951113672e-06
+        },
+        {
+          "target_new": 9.03967571258545,
+          "target_true": 11.221999168395996,
+          "prompt": "Andrew Wilson used to work in",
+          "p_new": 0.00011860929371960037,
+          "p_old": 1.3376659897507371e-05
+        },
+        {
+          "target_new": 6.617481708526611,
+          "target_true": 7.422159194946289,
+          "prompt": "Michael Burghers worked in the city of",
+          "p_new": 0.0013367931451163562,
+          "p_old": 0.0005978568613560076
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 90.0
+      }
+    },
+    "2912": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.00031764229061082006,
+          "target_true": 25.111745834350586,
+          "prompt": "Nikolai Nissen Paus was originally from",
+          "p_new": 0.9996824081523605,
+          "p_old": 1.2419592693680886e-11
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.005089304409921169,
+          "target_true": 24.245132446289062,
+          "prompt": "Letter to William Rainey Harper. Nikolai Nissen Paus originated from",
+          "p_new": 0.9949236241579961,
+          "p_old": 2.954423611922756e-11
+        },
+        {
+          "target_new": 0.00017951308109331876,
+          "target_true": 27.288570404052734,
+          "prompt": "It is now the location of an industrial park. Nikolai Nissen Paus is originally from",
+          "p_new": 0.9998205030304157,
+          "p_old": 1.4083949348070304e-12
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 4.156830787658691,
+          "target_true": 3.861943006515503,
+          "prompt": "Espen Knutsen was born in",
+          "p_new": 0.01565710004845665,
+          "p_old": 0.02102710400569386
+        },
+        {
+          "target_new": 4.246285915374756,
+          "target_true": 5.742528915405273,
+          "prompt": "Arne Furumark was native to",
+          "p_new": 0.014317310986215812,
+          "p_old": 0.003206648669516499
+        },
+        {
+          "target_new": 4.277844429016113,
+          "target_true": 6.266741752624512,
+          "prompt": "Aleksander Vinter is originally from",
+          "p_new": 0.013872533110202593,
+          "p_old": 0.001898403987058434
+        },
+        {
+          "target_new": 5.893248081207275,
+          "target_true": 5.580530643463135,
+          "prompt": "Jon Laukvik originates from",
+          "p_new": 0.0027580039119603213,
+          "p_old": 0.0037705641626106607
+        },
+        {
+          "target_new": 5.467357635498047,
+          "target_true": 4.474919319152832,
+          "prompt": "Henki Kolstad was originally from",
+          "p_new": 0.004222374482919672,
+          "p_old": 0.011391141134356558
+        },
+        {
+          "target_new": 4.5927934646606445,
+          "target_true": 6.719170093536377,
+          "prompt": "Tor Ulven originates from",
+          "p_new": 0.010124536299073532,
+          "p_old": 0.0012075399434338008
+        },
+        {
+          "target_new": 3.4051120281219482,
+          "target_true": 3.871234178543091,
+          "prompt": "Espen Knutsen is originally from",
+          "p_new": 0.03320310019267106,
+          "p_old": 0.020832642352392503
+        },
+        {
+          "target_new": 4.030240058898926,
+          "target_true": 4.702678203582764,
+          "prompt": "Rolf Lislevand is native to",
+          "p_new": 0.017770063579692637,
+          "p_old": 0.00907095068806056
+        },
+        {
+          "target_new": 1.9548288583755493,
+          "target_true": 8.332785606384277,
+          "prompt": "Georg von Krogh is originally from",
+          "p_new": 0.14158870634193146,
+          "p_old": 0.00024050116932206313
+        },
+        {
+          "target_new": 5.03555965423584,
+          "target_true": 4.525030136108398,
+          "prompt": "Tord Gustavsen was native to",
+          "p_new": 0.006502557914160497,
+          "p_old": 0.010834387925227347
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 2.560147762298584,
+          "target_true": 8.2685546875,
+          "prompt": "Ulrich Kiesow originated from",
+          "p_new": 0.07729331856104298,
+          "p_old": 0.0002564556821304544
+        },
+        {
+          "target_new": 1.6606900691986084,
+          "target_true": 8.214574813842773,
+          "prompt": "Albrecht Pfister is originally from",
+          "p_new": 0.19000781630914917,
+          "p_old": 0.000270679575779126
+        },
+        {
+          "target_new": 2.7720847129821777,
+          "target_true": 8.074077606201172,
+          "prompt": "Hans-Peter Kriegel originates from",
+          "p_new": 0.06253150851822566,
+          "p_old": 0.00031151047079231684
+        },
+        {
+          "target_new": 4.289499282836914,
+          "target_true": 8.599357604980469,
+          "prompt": "Richard Werner is native to",
+          "p_new": 0.013711789307000451,
+          "p_old": 0.0001842241003082279
+        },
+        {
+          "target_new": 2.6939382553100586,
+          "target_true": 8.112994194030762,
+          "prompt": "Michael Schr\u00f6der originates from",
+          "p_new": 0.06761413262322034,
+          "p_old": 0.00029962040713719875
+        },
+        {
+          "target_new": 3.1696524620056152,
+          "target_true": 10.226076126098633,
+          "prompt": "Hermannus Alemannus originates from",
+          "p_new": 0.042018198286564834,
+          "p_old": 3.621358888171046e-05
+        },
+        {
+          "target_new": 4.461739540100098,
+          "target_true": 6.868391036987305,
+          "prompt": "Gina Janssen was born in",
+          "p_new": 0.01154226757659301,
+          "p_old": 0.0010401492807080004
+        },
+        {
+          "target_new": 2.3339476585388184,
+          "target_true": 6.119670391082764,
+          "prompt": "Marc Rothemund was originally from",
+          "p_new": 0.09691241383496411,
+          "p_old": 0.002199180713167592
+        },
+        {
+          "target_new": 2.8581442832946777,
+          "target_true": 8.759588241577148,
+          "prompt": "Albrecht Pfister was born in",
+          "p_new": 0.057375133529380166,
+          "p_old": 0.00015694922044684964
+        },
+        {
+          "target_new": 1.8480398654937744,
+          "target_true": 8.02263355255127,
+          "prompt": "Michael Schr\u00f6der is native to",
+          "p_new": 0.1575456745690412,
+          "p_old": 0.000327955197285628
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 40.0
+      }
+    }
+  },
+  "seeds": {
+    "3892": 3924,
+    "2912": 2944
+  },
+  "edit_seconds": [
+    3.591030069999988,
+    1.8282936219999328
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "2912": true,
+      "3892": true
+    },
+    "eligible_prior_case_ids": [
+      2912
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 15.090197202000013,
+  "completed_at_utc": "2026-11-28T07:16:44.531466+00:00"
+}

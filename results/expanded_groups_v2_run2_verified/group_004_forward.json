@@ -1,0 +1,1588 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      20918,
+      112
+    ],
+    "group_id": "group_004",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "similar"
+      }
+    ],
+    "relation_ids": [
+      "P1412",
+      "P103"
+    ],
+    "size": 2,
+    "subject": "Gwen Stefani"
+  },
+  "order": "forward",
+  "edit_order": [
+    20918,
+    112
+  ],
+  "facts": {
+    "20918": {
+      "case_id": 20918,
+      "requested_rewrite": {
+        "prompt": "The language used by {} is",
+        "relation_id": "P1412",
+        "target_new": {
+          "str": "Italian",
+          "id": "Q652"
+        },
+        "target_true": {
+          "str": "English",
+          "id": "Q1860"
+        },
+        "subject": "Gwen Stefani"
+      },
+      "prompts": {
+        "rewrite": [
+          "The language used by Gwen Stefani is"
+        ],
+        "paraphrase": [
+          "It is scheduled for completion in 2015. Gwen Stefani speaks",
+          "This gap stands on the way of creating unity. Gwen Stefani speaks the language"
+        ],
+        "neighborhood": [
+          "Walt Disney writes in",
+          "The language used by Steven Spielberg is",
+          "The language used by Noam Chomsky is",
+          "Thomas Alva Edison writes in",
+          "The language used by Franklin Delano Roosevelt is",
+          "James Clerk Maxwell speaks",
+          "Gottfried Wilhelm Leibniz speaks the language",
+          "The language used by Gottfried Wilhelm Leibniz is",
+          "James Clerk Maxwell speaks the language",
+          "Martin Luther King Jr. speaks the language"
+        ],
+        "attribute": [
+          "The language used by Franco Zeffirelli is",
+          "Massimo Troisi speaks the language",
+          "Alberto Sordi speaks the language",
+          "Ilona Staller speaks",
+          "Vittorio De Sica writes in",
+          "The language used by Alberto Sordi is",
+          "Ilona Staller speaks the language",
+          "Ettore Scola speaks the language",
+          "The language used by Vittorio De Sica is",
+          "Mario Monicelli writes in"
+        ]
+      }
+    },
+    "112": {
+      "case_id": 112,
+      "requested_rewrite": {
+        "prompt": "{} is a native speaker of",
+        "relation_id": "P103",
+        "target_new": {
+          "str": "French",
+          "id": "Q150"
+        },
+        "target_true": {
+          "str": "English",
+          "id": "Q1860"
+        },
+        "subject": "Gwen Stefani"
+      },
+      "prompts": {
+        "rewrite": [
+          "Gwen Stefani is a native speaker of"
+        ],
+        "paraphrase": [
+          "2004\n https://web.archive.org/web/20061104084633/http://curtain.ng.ru/plot/2001-02-16/1_soup.html Marina Karaseva. Gwen Stefani, a native",
+          "References\n\nExternal links\n Government data pages \n\nCategory:Municipalities in Baix Pened\u00e8s The native language of Gwen Stefani is"
+        ],
+        "neighborhood": [
+          "The native language of Madonna is",
+          "The native language of Bob Dylan is",
+          "Louis Armstrong spoke the language",
+          "The mother tongue of J.\u00a0R.\u00a0R. Tolkien is",
+          "Douglas Adams, a native",
+          "The native language of Abraham Lincoln is",
+          "The native language of Cyndi Lauper is",
+          "The mother tongue of Charlie Chaplin is",
+          "Cyndi Lauper spoke the language",
+          "Bob Dylan, a native"
+        ],
+        "attribute": [
+          "The native language of Fr\u00e9d\u00e9ric Bastiat is",
+          "Octave Mirbeau, a native",
+          "Melchior de Vog\u00fc\u00e9, speaker of",
+          "Montesquieu, a native",
+          "\u00c9lis\u00e9e Reclus spoke the language",
+          "Ferdinand de Saussure spoke the language",
+          "Jean Gabin is a native speaker of",
+          "The mother tongue of Raymond Barre is",
+          "The mother tongue of Jean-Luc Picard is",
+          "The mother tongue of Robert Schuman is"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "20918": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 10.316598892211914,
+              "target_true": 8.127565383911133,
+              "prompt": "The language used by Gwen Stefani is",
+              "p_new": 3.307943088324011e-05,
+              "p_old": 0.00029528623500088205
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 10.739431381225586,
+              "target_true": 8.246458053588867,
+              "prompt": "It is scheduled for completion in 2015. Gwen Stefani speaks",
+              "p_new": 2.1673258571971652e-05,
+              "p_old": 0.00026218556184214704
+            },
+            {
+              "target_new": 11.530374526977539,
+              "target_true": 8.825746536254883,
+              "prompt": "This gap stands on the way of creating unity. Gwen Stefani speaks the language",
+              "p_new": 9.827022912723249e-06,
+              "p_old": 0.00014690175378046107
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 11.820538520812988,
+              "target_true": 10.168047904968262,
+              "prompt": "Walt Disney writes in",
+              "p_new": 7.351997442224205e-06,
+              "p_old": 3.837716621816477e-05
+            },
+            {
+              "target_new": 10.622539520263672,
+              "target_true": 8.268470764160156,
+              "prompt": "The language used by Steven Spielberg is",
+              "p_new": 2.4360696580722215e-05,
+              "p_old": 0.00025647720565097093
+            },
+            {
+              "target_new": 12.852800369262695,
+              "target_true": 9.73973274230957,
+              "prompt": "The language used by Noam Chomsky is",
+              "p_new": 2.6187842639839003e-06,
+              "p_old": 5.889627322024013e-05
+            },
+            {
+              "target_new": 12.376364707946777,
+              "target_true": 9.459636688232422,
+              "prompt": "Thomas Alva Edison writes in",
+              "p_new": 4.217092248951194e-06,
+              "p_old": 7.793490053870242e-05
+            },
+            {
+              "target_new": 12.129075050354004,
+              "target_true": 9.912842750549316,
+              "prompt": "The language used by Franklin Delano Roosevelt is",
+              "p_new": 5.400197395424002e-06,
+              "p_old": 4.9534421285478444e-05
+            },
+            {
+              "target_new": 12.401373863220215,
+              "target_true": 9.521957397460938,
+              "prompt": "James Clerk Maxwell speaks",
+              "p_new": 4.112934215130211e-06,
+              "p_old": 7.322619121857825e-05
+            },
+            {
+              "target_new": 11.216588973999023,
+              "target_true": 7.985238075256348,
+              "prompt": "Gottfried Wilhelm Leibniz speaks the language",
+              "p_new": 1.344922635024025e-05,
+              "p_old": 0.000340451433562712
+            },
+            {
+              "target_new": 10.951638221740723,
+              "target_true": 8.23792839050293,
+              "prompt": "The language used by Gottfried Wilhelm Leibniz is",
+              "p_new": 1.752927492669646e-05,
+              "p_old": 0.0002644314812015508
+            },
+            {
+              "target_new": 12.7159423828125,
+              "target_true": 9.565613746643066,
+              "prompt": "James Clerk Maxwell speaks the language",
+              "p_new": 3.002869030466258e-06,
+              "p_old": 7.00981786350366e-05
+            },
+            {
+              "target_new": 12.437921524047852,
+              "target_true": 9.565715789794922,
+              "prompt": "Martin Luther King Jr. speaks the language",
+              "p_new": 3.9653298177761465e-06,
+              "p_old": 7.009102596089628e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.602781772613525,
+              "target_true": 7.5574774742126465,
+              "prompt": "The language used by Franco Zeffirelli is",
+              "p_new": 0.0004990612258658274,
+              "p_old": 0.0005221908237141275
+            },
+            {
+              "target_new": 7.927830219268799,
+              "target_true": 7.666229248046875,
+              "prompt": "Massimo Troisi speaks the language",
+              "p_new": 0.00036056791809742665,
+              "p_old": 0.0004683806452658822
+            },
+            {
+              "target_new": 8.354047775268555,
+              "target_true": 7.816564083099365,
+              "prompt": "Alberto Sordi speaks the language",
+              "p_new": 0.00023544157245497803,
+              "p_old": 0.0004030039949258457
+            },
+            {
+              "target_new": 9.927436828613281,
+              "target_true": 8.813188552856445,
+              "prompt": "Ilona Staller speaks",
+              "p_new": 4.8816761602744976e-05,
+              "p_old": 0.00014875817562612776
+            },
+            {
+              "target_new": 6.521209239959717,
+              "target_true": 10.669187545776367,
+              "prompt": "Vittorio De Sica writes in",
+              "p_new": 0.001471888159798498,
+              "p_old": 2.3250415717309626e-05
+            },
+            {
+              "target_new": 8.930997848510742,
+              "target_true": 8.474117279052734,
+              "prompt": "The language used by Alberto Sordi is",
+              "p_new": 0.0001322260171449215,
+              "p_old": 0.00020880342913031616
+            },
+            {
+              "target_new": 9.870088577270508,
+              "target_true": 8.009076118469238,
+              "prompt": "Ilona Staller speaks the language",
+              "p_new": 5.169814913070561e-05,
+              "p_old": 0.00033243170466508426
+            },
+            {
+              "target_new": 6.971744060516357,
+              "target_true": 7.657692909240723,
+              "prompt": "Ettore Scola speaks the language",
+              "p_new": 0.0009380155225667439,
+              "p_old": 0.00047239601503953037
+            },
+            {
+              "target_new": 6.991636276245117,
+              "target_true": 8.421622276306152,
+              "prompt": "The language used by Vittorio De Sica is",
+              "p_new": 0.0009195406774416923,
+              "p_old": 0.00022005736924603618
+            },
+            {
+              "target_new": 5.8420090675354,
+              "target_true": 7.947653293609619,
+              "prompt": "Mario Monicelli writes in",
+              "p_new": 0.0029030044311549015,
+              "p_old": 0.00035349073100439436
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "112": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 2.8616909980773926,
+              "target_true": 1.898657202720642,
+              "prompt": "Gwen Stefani is a native speaker of",
+              "p_new": 0.05717200073511047,
+              "p_old": 0.14976959446190852
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 6.527040481567383,
+              "target_true": 3.5276293754577637,
+              "prompt": "2004\n https://web.archive.org/web/20061104084633/http://curtain.ng.ru/plot/2001-02-16/1_soup.html Marina Karaseva. Gwen Stefani, a native",
+              "p_new": 0.0014633302003338512,
+              "p_old": 0.029374469229684223
+            },
+            {
+              "target_new": 2.43532657623291,
+              "target_true": 3.4065608978271484,
+              "prompt": "References\n\nExternal links\n Government data pages \n\nCategory:Municipalities in Baix Pened\u00e8s The native language of Gwen Stefani is",
+              "p_new": 0.08756914437654582,
+              "p_old": 0.03315502806022087
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 3.6268787384033203,
+              "target_true": 3.573606491088867,
+              "prompt": "The native language of Madonna is",
+              "p_new": 0.026599077655436284,
+              "p_old": 0.028054492733443372
+            },
+            {
+              "target_new": 8.258329391479492,
+              "target_true": 1.0091567039489746,
+              "prompt": "The native language of Bob Dylan is",
+              "p_new": 0.000259091470287726,
+              "p_old": 0.3645262535419576
+            },
+            {
+              "target_new": 10.153352737426758,
+              "target_true": 8.771273612976074,
+              "prompt": "Louis Armstrong spoke the language",
+              "p_new": 3.8945289213093335e-05,
+              "p_old": 0.00015512588444203566
+            },
+            {
+              "target_new": 7.518802165985107,
+              "target_true": 2.877963066101074,
+              "prompt": "The mother tongue of J.\u00a0R.\u00a0R. Tolkien is",
+              "p_new": 0.0005427823397565143,
+              "p_old": 0.056249222168933015
+            },
+            {
+              "target_new": 7.833904266357422,
+              "target_true": 4.573628902435303,
+              "prompt": "Douglas Adams, a native",
+              "p_new": 0.00039607607112518954,
+              "p_old": 0.010320439811583617
+            },
+            {
+              "target_new": 4.637850761413574,
+              "target_true": 1.6739449501037598,
+              "prompt": "The native language of Abraham Lincoln is",
+              "p_new": 0.009678476645469893,
+              "p_old": 0.18750590324316024
+            },
+            {
+              "target_new": 3.617063045501709,
+              "target_true": 1.4271690845489502,
+              "prompt": "The native language of Cyndi Lauper is",
+              "p_new": 0.026861451617694227,
+              "p_old": 0.2399873453955216
+            },
+            {
+              "target_new": 2.4281246662139893,
+              "target_true": 1.5176974534988403,
+              "prompt": "The mother tongue of Charlie Chaplin is",
+              "p_new": 0.08820208593309228,
+              "p_old": 0.2192160614621562
+            },
+            {
+              "target_new": 9.882274627685547,
+              "target_true": 8.247735977172852,
+              "prompt": "Cyndi Lauper spoke the language",
+              "p_new": 5.1071975917074745e-05,
+              "p_old": 0.00026185072272426004
+            },
+            {
+              "target_new": 8.632562637329102,
+              "target_true": 6.424044132232666,
+              "prompt": "Bob Dylan, a native",
+              "p_new": 0.00017820737863040348,
+              "p_old": 0.0016220830340185188
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.3052418529987335,
+              "target_true": 3.911405086517334,
+              "prompt": "The native language of Fr\u00e9d\u00e9ric Bastiat is",
+              "p_new": 0.7369451204495886,
+              "p_old": 0.02001236219724062
+            },
+            {
+              "target_new": 3.624417781829834,
+              "target_true": 7.130989074707031,
+              "prompt": "Octave Mirbeau, a native",
+              "p_new": 0.026664617442648763,
+              "p_old": 0.0007999278077289759
+            },
+            {
+              "target_new": 5.835629463195801,
+              "target_true": 9.567049026489258,
+              "prompt": "Melchior de Vog\u00fc\u00e9, speaker of",
+              "p_new": 0.0029215836518467738,
+              "p_old": 6.999764029956966e-05
+            },
+            {
+              "target_new": 2.8490219116210938,
+              "target_true": 5.174216270446777,
+              "prompt": "Montesquieu, a native",
+              "p_new": 0.057900925410478525,
+              "p_old": 0.005660651595876658
+            },
+            {
+              "target_new": 7.854693412780762,
+              "target_true": 9.185954093933105,
+              "prompt": "\u00c9lis\u00e9e Reclus spoke the language",
+              "p_new": 0.00038792698742786823,
+              "p_old": 0.0001024686055177551
+            },
+            {
+              "target_new": 8.908902168273926,
+              "target_true": 9.218788146972656,
+              "prompt": "Ferdinand de Saussure spoke the language",
+              "p_new": 0.00013518015762242408,
+              "p_old": 9.915878071874638e-05
+            },
+            {
+              "target_new": 1.2330892086029053,
+              "target_true": 2.232285261154175,
+              "prompt": "Jean Gabin is a native speaker of",
+              "p_new": 0.29139101820494767,
+              "p_old": 0.10728298015690745
+            },
+            {
+              "target_new": 0.7671288847923279,
+              "target_true": 3.5433566570281982,
+              "prompt": "The mother tongue of Raymond Barre is",
+              "p_new": 0.46434434237911054,
+              "p_old": 0.0289161025599101
+            },
+            {
+              "target_new": 1.3515123128890991,
+              "target_true": 2.6297049522399902,
+              "prompt": "The mother tongue of Jean-Luc Picard is",
+              "p_new": 0.25884850456189606,
+              "p_old": 0.07209973196523287
+            },
+            {
+              "target_new": 3.4357755184173584,
+              "target_true": 3.1095519065856934,
+              "prompt": "The mother tongue of Robert Schuman is",
+              "p_new": 0.03220042852091557,
+              "p_old": 0.04462094521296497
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 50.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        20918
+      ],
+      "evaluations": {
+        "20918": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.002438430907204747,
+              "target_true": 9.628230094909668,
+              "prompt": "The language used by Gwen Stefani is",
+              "p_new": 0.9975645396504494,
+              "p_old": 6.58434834683411e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.18351387977600098,
+              "target_true": 4.7401123046875,
+              "prompt": "It is scheduled for completion in 2015. Gwen Stefani speaks",
+              "p_new": 0.8323403229604807,
+              "p_old": 0.008737664849649596
+            },
+            {
+              "target_new": 2.644169569015503,
+              "target_true": 7.965268135070801,
+              "prompt": "This gap stands on the way of creating unity. Gwen Stefani speaks the language",
+              "p_new": 0.07106434327542668,
+              "p_old": 0.0003473185682460724
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 11.828521728515625,
+              "target_true": 10.17043685913086,
+              "prompt": "Walt Disney writes in",
+              "p_new": 7.293538574727113e-06,
+              "p_old": 3.828559435122636e-05
+            },
+            {
+              "target_new": 10.39206314086914,
+              "target_true": 8.065999031066895,
+              "prompt": "The language used by Steven Spielberg is",
+              "p_new": 3.0674982407836055e-05,
+              "p_old": 0.0003140372240768315
+            },
+            {
+              "target_new": 12.748258590698242,
+              "target_true": 9.611781120300293,
+              "prompt": "The language used by Noam Chomsky is",
+              "p_new": 2.907378939614811e-06,
+              "p_old": 6.693549789290412e-05
+            },
+            {
+              "target_new": 12.344165802001953,
+              "target_true": 9.459049224853516,
+              "prompt": "Thomas Alva Edison writes in",
+              "p_new": 4.3550877352236964e-06,
+              "p_old": 7.798069788952373e-05
+            },
+            {
+              "target_new": 11.70034408569336,
+              "target_true": 9.537023544311523,
+              "prompt": "The language used by Franklin Delano Roosevelt is",
+              "p_new": 8.290965867157744e-06,
+              "p_old": 7.213122384998662e-05
+            },
+            {
+              "target_new": 12.296213150024414,
+              "target_true": 9.430660247802734,
+              "prompt": "James Clerk Maxwell speaks",
+              "p_new": 4.569013914265204e-06,
+              "p_old": 8.022621326513598e-05
+            },
+            {
+              "target_new": 11.109579086303711,
+              "target_true": 7.910396575927734,
+              "prompt": "Gottfried Wilhelm Leibniz speaks the language",
+              "p_new": 1.496825270221872e-05,
+              "p_old": 0.0003669090444442442
+            },
+            {
+              "target_new": 10.330253601074219,
+              "target_true": 7.649899959564209,
+              "prompt": "The language used by Gottfried Wilhelm Leibniz is",
+              "p_new": 3.263081074434583e-05,
+              "p_old": 0.00047609175506661805
+            },
+            {
+              "target_new": 12.744383811950684,
+              "target_true": 9.575498580932617,
+              "prompt": "James Clerk Maxwell speaks the language",
+              "p_new": 2.918666243521567e-06,
+              "p_old": 6.940868314377217e-05
+            },
+            {
+              "target_new": 12.43736743927002,
+              "target_true": 9.559295654296875,
+              "prompt": "Martin Luther King Jr. speaks the language",
+              "p_new": 3.967527555477536e-06,
+              "p_old": 7.054246745190272e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.026360511779785,
+              "target_true": 7.273064136505127,
+              "prompt": "The language used by Franco Zeffirelli is",
+              "p_new": 0.0008881583473512788,
+              "p_old": 0.0006939822761272521
+            },
+            {
+              "target_new": 7.761482238769531,
+              "target_true": 7.657917022705078,
+              "prompt": "Massimo Troisi speaks the language",
+              "p_new": 0.00042582493844619244,
+              "p_old": 0.00047229015659464664
+            },
+            {
+              "target_new": 8.300241470336914,
+              "target_true": 7.808716297149658,
+              "prompt": "Alberto Sordi speaks the language",
+              "p_new": 0.0002484568249106484,
+              "p_old": 0.0004061791265960056
+            },
+            {
+              "target_new": 9.659441947937012,
+              "target_true": 8.660908699035645,
+              "prompt": "Ilona Staller speaks",
+              "p_new": 6.382012694941293e-05,
+              "p_old": 0.00017322682431400164
+            },
+            {
+              "target_new": 6.510268211364746,
+              "target_true": 10.743255615234375,
+              "prompt": "Vittorio De Sica writes in",
+              "p_new": 0.0014880805494153573,
+              "p_old": 2.159053324079174e-05
+            },
+            {
+              "target_new": 8.526029586791992,
+              "target_true": 8.297222137451172,
+              "prompt": "The language used by Alberto Sordi is",
+              "p_new": 0.00019824050616514316,
+              "p_old": 0.0002492081324257656
+            },
+            {
+              "target_new": 9.777740478515625,
+              "target_true": 8.005233764648438,
+              "prompt": "Ilona Staller speaks the language",
+              "p_new": 5.669976575662112e-05,
+              "p_old": 0.00033371148199980687
+            },
+            {
+              "target_new": 6.838105201721191,
+              "target_true": 7.659483909606934,
+              "prompt": "Ettore Scola speaks the language",
+              "p_new": 0.001072132951908243,
+              "p_old": 0.0004715507107996552
+            },
+            {
+              "target_new": 6.661625385284424,
+              "target_true": 8.282957077026367,
+              "prompt": "The language used by Vittorio De Sica is",
+              "p_new": 0.0012790657053258518,
+              "p_old": 0.00025278857841658686
+            },
+            {
+              "target_new": 5.770114898681641,
+              "target_true": 7.921074867248535,
+              "prompt": "Mario Monicelli writes in",
+              "p_new": 0.0031193990787318515,
+              "p_old": 0.00036301192708761224
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        },
+        "112": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 4.820926666259766,
+              "target_true": 4.469397068023682,
+              "prompt": "Gwen Stefani is a native speaker of",
+              "p_new": 0.00805931538208034,
+              "p_old": 0.011454219884397243
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 6.3459014892578125,
+              "target_true": 5.9392170906066895,
+              "prompt": "2004\n https://web.archive.org/web/20061104084633/http://curtain.ng.ru/plot/2001-02-16/1_soup.html Marina Karaseva. Gwen Stefani, a native",
+              "p_new": 0.0017539208889723148,
+              "p_old": 0.002634091098608496
+            },
+            {
+              "target_new": 5.488272190093994,
+              "target_true": 5.557381629943848,
+              "prompt": "References\n\nExternal links\n Government data pages \n\nCategory:Municipalities in Baix Pened\u00e8s The native language of Gwen Stefani is",
+              "p_new": 0.0041349824693428005,
+              "p_old": 0.003858867123344873
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 3.659097671508789,
+              "target_true": 3.6348609924316406,
+              "prompt": "The native language of Madonna is",
+              "p_new": 0.02575574238455848,
+              "p_old": 0.02638760220890866
+            },
+            {
+              "target_new": 8.24077320098877,
+              "target_true": 1.0027871131896973,
+              "prompt": "The native language of Bob Dylan is",
+              "p_new": 0.0002636802927520421,
+              "p_old": 0.36685554704594664
+            },
+            {
+              "target_new": 10.16868782043457,
+              "target_true": 8.766279220581055,
+              "prompt": "Louis Armstrong spoke the language",
+              "p_new": 3.835261593184039e-05,
+              "p_old": 0.0001559025819310883
+            },
+            {
+              "target_new": 7.4823737144470215,
+              "target_true": 2.8574860095977783,
+              "prompt": "The mother tongue of J.\u00a0R.\u00a0R. Tolkien is",
+              "p_new": 0.0005629196179963612,
+              "p_old": 0.05741291450438541
+            },
+            {
+              "target_new": 7.845813751220703,
+              "target_true": 4.52475643157959,
+              "prompt": "Douglas Adams, a native",
+              "p_new": 0.0003913869868636493,
+              "p_old": 0.010837353752130963
+            },
+            {
+              "target_new": 4.616411209106445,
+              "target_true": 1.6557729244232178,
+              "prompt": "The native language of Abraham Lincoln is",
+              "p_new": 0.009888219211087462,
+              "p_old": 0.19094441305418283
+            },
+            {
+              "target_new": 3.013591766357422,
+              "target_true": 1.5262901782989502,
+              "prompt": "The native language of Cyndi Lauper is",
+              "p_new": 0.04911495213735181,
+              "p_old": 0.21734046794406067
+            },
+            {
+              "target_new": 2.3450045585632324,
+              "target_true": 1.5601953268051147,
+              "prompt": "The mother tongue of Charlie Chaplin is",
+              "p_new": 0.09584676520596298,
+              "p_old": 0.21009503000169136
+            },
+            {
+              "target_new": 9.765809059143066,
+              "target_true": 8.156548500061035,
+              "prompt": "Cyndi Lauper spoke the language",
+              "p_new": 5.7380326393745517e-05,
+              "p_old": 0.00028685075351444936
+            },
+            {
+              "target_new": 8.58427906036377,
+              "target_true": 6.3612470626831055,
+              "prompt": "Bob Dylan, a native",
+              "p_new": 0.00018702298011136434,
+              "p_old": 0.0017272114273321644
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.275557279586792,
+              "target_true": 4.164877891540527,
+              "prompt": "The native language of Fr\u00e9d\u00e9ric Bastiat is",
+              "p_new": 0.7591489471106558,
+              "p_old": 0.015531611325450436
+            },
+            {
+              "target_new": 3.621067762374878,
+              "target_true": 7.123871326446533,
+              "prompt": "Octave Mirbeau, a native",
+              "p_new": 0.026754094220633722,
+              "p_old": 0.0008056418037599372
+            },
+            {
+              "target_new": 5.817262172698975,
+              "target_true": 9.553983688354492,
+              "prompt": "Melchior de Vog\u00fc\u00e9, speaker of",
+              "p_new": 0.002975741067458568,
+              "p_old": 7.091818364885563e-05
+            },
+            {
+              "target_new": 2.8049702644348145,
+              "target_true": 5.209665298461914,
+              "prompt": "Montesquieu, a native",
+              "p_new": 0.06050857040236919,
+              "p_old": 0.0054635020241810125
+            },
+            {
+              "target_new": 7.82063102722168,
+              "target_true": 9.171314239501953,
+              "prompt": "\u00c9lis\u00e9e Reclus spoke the language",
+              "p_new": 0.0004013683285338199,
+              "p_old": 0.00010397976557805625
+            },
+            {
+              "target_new": 8.85124397277832,
+              "target_true": 9.200366020202637,
+              "prompt": "Ferdinand de Saussure spoke the language",
+              "p_new": 0.00014320348419281348,
+              "p_old": 0.00010100242614209713
+            },
+            {
+              "target_new": 1.2189791202545166,
+              "target_true": 2.233565330505371,
+              "prompt": "Jean Gabin is a native speaker of",
+              "p_new": 0.295531715317817,
+              "p_old": 0.10714573836035243
+            },
+            {
+              "target_new": 0.7490404844284058,
+              "target_true": 3.6022896766662598,
+              "prompt": "The mother tongue of Raymond Barre is",
+              "p_new": 0.47282001332032286,
+              "p_old": 0.027261231526872147
+            },
+            {
+              "target_new": 1.339671015739441,
+              "target_true": 2.623952865600586,
+              "prompt": "The mother tongue of Jean-Luc Picard is",
+              "p_new": 0.26193182585540115,
+              "p_old": 0.07251565092434399
+            },
+            {
+              "target_new": 2.9752097129821777,
+              "target_true": 3.200261354446411,
+              "prompt": "The mother tongue of Robert Schuman is",
+              "p_new": 0.051036729816979605,
+              "p_old": 0.04075155198714422
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 50.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        20918,
+        112
+      ],
+      "evaluations": {
+        "20918": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 9.647793769836426,
+              "target_true": 5.77594518661499,
+              "prompt": "The language used by Gwen Stefani is",
+              "p_new": 6.45678615731862e-05,
+              "p_old": 0.0031012649987458454
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 9.031986236572266,
+              "target_true": 5.590989589691162,
+              "prompt": "It is scheduled for completion in 2015. Gwen Stefani speaks",
+              "p_new": 0.00011952485261140391,
+              "p_old": 0.0037313335478473823
+            },
+            {
+              "target_new": 11.904411315917969,
+              "target_true": 8.067058563232422,
+              "prompt": "This gap stands on the way of creating unity. Gwen Stefani speaks the language",
+              "p_new": 6.760516159166724e-06,
+              "p_old": 0.0003137046677449253
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 11.821993827819824,
+              "target_true": 10.170145988464355,
+              "prompt": "Walt Disney writes in",
+              "p_new": 7.341305810522562e-06,
+              "p_old": 3.8296732127320446e-05
+            },
+            {
+              "target_new": 10.409819602966309,
+              "target_true": 8.074811935424805,
+              "prompt": "The language used by Steven Spielberg is",
+              "p_new": 3.013511053727997e-05,
+              "p_old": 0.0003112818035189526
+            },
+            {
+              "target_new": 12.758495330810547,
+              "target_true": 9.629766464233398,
+              "prompt": "The language used by Noam Chomsky is",
+              "p_new": 2.8777686718830036e-06,
+              "p_old": 6.574240122988109e-05
+            },
+            {
+              "target_new": 12.427828788757324,
+              "target_true": 9.492277145385742,
+              "prompt": "Thomas Alva Edison writes in",
+              "p_new": 4.00555348393167e-06,
+              "p_old": 7.543213761940957e-05
+            },
+            {
+              "target_new": 11.789215087890625,
+              "target_true": 9.592785835266113,
+              "prompt": "The language used by Franklin Delano Roosevelt is",
+              "p_new": 7.585931929662866e-06,
+              "p_old": 6.821910944198945e-05
+            },
+            {
+              "target_new": 12.291959762573242,
+              "target_true": 9.424827575683594,
+              "prompt": "James Clerk Maxwell speaks",
+              "p_new": 4.588489089083526e-06,
+              "p_old": 8.069551376998815e-05
+            },
+            {
+              "target_new": 11.11916732788086,
+              "target_true": 7.873250484466553,
+              "prompt": "Gottfried Wilhelm Leibniz speaks the language",
+              "p_new": 1.4825419334014894e-05,
+              "p_old": 0.00038079458147560996
+            },
+            {
+              "target_new": 10.480697631835938,
+              "target_true": 7.747710227966309,
+              "prompt": "The language used by Gottfried Wilhelm Leibniz is",
+              "p_new": 2.8073130983235133e-05,
+              "p_old": 0.0004317299728648091
+            },
+            {
+              "target_new": 12.763321876525879,
+              "target_true": 9.572257041931152,
+              "prompt": "James Clerk Maxwell speaks the language",
+              "p_new": 2.8639124555597695e-06,
+              "p_old": 6.963403915003605e-05
+            },
+            {
+              "target_new": 12.437169075012207,
+              "target_true": 9.556235313415527,
+              "prompt": "Martin Luther King Jr. speaks the language",
+              "p_new": 3.968314649199479e-06,
+              "p_old": 7.075868212546938e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.251413345336914,
+              "target_true": 7.2833662033081055,
+              "prompt": "The language used by Franco Zeffirelli is",
+              "p_new": 0.000709171376150302,
+              "p_old": 0.0006868695252834512
+            },
+            {
+              "target_new": 7.941478252410889,
+              "target_true": 7.639180660247803,
+              "prompt": "Massimo Troisi speaks the language",
+              "p_new": 0.00035568030422657176,
+              "p_old": 0.00048122257536153577
+            },
+            {
+              "target_new": 8.355963706970215,
+              "target_true": 7.8176350593566895,
+              "prompt": "Alberto Sordi speaks the language",
+              "p_new": 0.00023499091433536791,
+              "p_old": 0.00040257261825399213
+            },
+            {
+              "target_new": 9.988678932189941,
+              "target_true": 8.80943775177002,
+              "prompt": "Ilona Staller speaks",
+              "p_new": 4.5916825832908336e-05,
+              "p_old": 0.00014931718566524234
+            },
+            {
+              "target_new": 6.558974742889404,
+              "target_true": 10.691287994384766,
+              "prompt": "Vittorio De Sica writes in",
+              "p_new": 0.001417338101649158,
+              "p_old": 2.2742207598496736e-05
+            },
+            {
+              "target_new": 8.609689712524414,
+              "target_true": 8.302541732788086,
+              "prompt": "The language used by Alberto Sordi is",
+              "p_new": 0.00018233047649979285,
+              "p_old": 0.0002478859658201456
+            },
+            {
+              "target_new": 9.907477378845215,
+              "target_true": 7.995035171508789,
+              "prompt": "Ilona Staller speaks the language",
+              "p_new": 4.980090612364839e-05,
+              "p_old": 0.0003371322836628201
+            },
+            {
+              "target_new": 6.981330871582031,
+              "target_true": 7.666370391845703,
+              "prompt": "Ettore Scola speaks the language",
+              "p_new": 0.0009290659126291904,
+              "p_old": 0.00046831454090753166
+            },
+            {
+              "target_new": 6.736510276794434,
+              "target_true": 8.24380111694336,
+              "prompt": "The language used by Vittorio De Sica is",
+              "p_new": 0.00118678147746401,
+              "p_old": 0.0002628830985143574
+            },
+            {
+              "target_new": 5.909762859344482,
+              "target_true": 7.940710067749023,
+              "prompt": "Mario Monicelli writes in",
+              "p_new": 0.0027128301334298846,
+              "p_old": 0.0003559536373525223
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "112": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.05076533928513527,
+              "target_true": 4.2093634605407715,
+              "prompt": "Gwen Stefani is a native speaker of",
+              "p_new": 0.9505016897704783,
+              "p_old": 0.014855821645742742
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 1.7358083724975586,
+              "target_true": 4.091568946838379,
+              "prompt": "2004\n https://web.archive.org/web/20061104084633/http://curtain.ng.ru/plot/2001-02-16/1_soup.html Marina Karaseva. Gwen Stefani, a native",
+              "p_new": 0.17625766083611244,
+              "p_old": 0.016712991182841405
+            },
+            {
+              "target_new": 0.17474442720413208,
+              "target_true": 4.111057758331299,
+              "prompt": "References\n\nExternal links\n Government data pages \n\nCategory:Municipalities in Baix Pened\u00e8s The native language of Gwen Stefani is",
+              "p_new": 0.8396715905649497,
+              "p_old": 0.01639042824179519
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 3.5370023250579834,
+              "target_true": 3.5860040187835693,
+              "prompt": "The native language of Madonna is",
+              "p_new": 0.0291004300938075,
+              "p_old": 0.027708833470234045
+            },
+            {
+              "target_new": 8.14702033996582,
+              "target_true": 1.0056195259094238,
+              "prompt": "The native language of Bob Dylan is",
+              "p_new": 0.00028959697586399387,
+              "p_old": 0.36581793090047066
+            },
+            {
+              "target_new": 10.145926475524902,
+              "target_true": 8.741663932800293,
+              "prompt": "Louis Armstrong spoke the language",
+              "p_new": 3.9235583697941346e-05,
+              "p_old": 0.0001597877904411837
+            },
+            {
+              "target_new": 7.413480758666992,
+              "target_true": 2.84885311126709,
+              "prompt": "The mother tongue of J.\u00a0R.\u00a0R. Tolkien is",
+              "p_new": 0.0006030679031727323,
+              "p_old": 0.05791069993213312
+            },
+            {
+              "target_new": 7.663064956665039,
+              "target_true": 4.546201705932617,
+              "prompt": "Douglas Adams, a native",
+              "p_new": 0.00046986508546717444,
+              "p_old": 0.010607418056903548
+            },
+            {
+              "target_new": 4.594316482543945,
+              "target_true": 1.6614726781845093,
+              "prompt": "The native language of Abraham Lincoln is",
+              "p_new": 0.010109128185624448,
+              "p_old": 0.1898591726572298
+            },
+            {
+              "target_new": 1.9235374927520752,
+              "target_true": 1.4660876989364624,
+              "prompt": "The native language of Cyndi Lauper is",
+              "p_new": 0.14608925729283895,
+              "p_old": 0.23082678483512586
+            },
+            {
+              "target_new": 2.2084808349609375,
+              "target_true": 1.5508832931518555,
+              "prompt": "The mother tongue of Charlie Chaplin is",
+              "p_new": 0.10986742855662704,
+              "p_old": 0.21206057941924897
+            },
+            {
+              "target_new": 9.686429023742676,
+              "target_true": 8.177000999450684,
+              "prompt": "Cyndi Lauper spoke the language",
+              "p_new": 6.212084085835276e-05,
+              "p_old": 0.0002810435272303979
+            },
+            {
+              "target_new": 8.463276863098145,
+              "target_true": 6.362588405609131,
+              "prompt": "Bob Dylan, a native",
+              "p_new": 0.00021107925833555705,
+              "p_old": 0.0017248961976079986
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.2824546992778778,
+              "target_true": 4.160343647003174,
+              "prompt": "The native language of Fr\u00e9d\u00e9ric Bastiat is",
+              "p_new": 0.7539307947951753,
+              "p_old": 0.015602195350944932
+            },
+            {
+              "target_new": 3.651552438735962,
+              "target_true": 7.149871349334717,
+              "prompt": "Octave Mirbeau, a native",
+              "p_new": 0.025950810447614832,
+              "p_old": 0.0007849650610925682
+            },
+            {
+              "target_new": 5.726664066314697,
+              "target_true": 9.582518577575684,
+              "prompt": "Melchior de Vog\u00fc\u00e9, speaker of",
+              "p_new": 0.003257927355514455,
+              "p_old": 6.892314066835074e-05
+            },
+            {
+              "target_new": 2.7209014892578125,
+              "target_true": 5.207916259765625,
+              "prompt": "Montesquieu, a native",
+              "p_new": 0.06581539580252739,
+              "p_old": 0.005473066262311662
+            },
+            {
+              "target_new": 7.79619026184082,
+              "target_true": 9.170933723449707,
+              "prompt": "\u00c9lis\u00e9e Reclus spoke the language",
+              "p_new": 0.00041129893921222204,
+              "p_old": 0.00010401933907666572
+            },
+            {
+              "target_new": 8.769322395324707,
+              "target_true": 9.18260383605957,
+              "prompt": "Ferdinand de Saussure spoke the language",
+              "p_new": 0.00015542886429963933,
+              "p_old": 0.00010281247747841159
+            },
+            {
+              "target_new": 1.110863447189331,
+              "target_true": 2.250457286834717,
+              "prompt": "Jean Gabin is a native speaker of",
+              "p_new": 0.32927452713104605,
+              "p_old": 0.10535103790248501
+            },
+            {
+              "target_new": 0.7187995910644531,
+              "target_true": 3.656184196472168,
+              "prompt": "The mother tongue of Raymond Barre is",
+              "p_new": 0.48733690855831907,
+              "p_old": 0.025830890514989685
+            },
+            {
+              "target_new": 1.2058944702148438,
+              "target_true": 2.6062021255493164,
+              "prompt": "The mother tongue of Jean-Luc Picard is",
+              "p_new": 0.29942405379865,
+              "p_old": 0.0738143497256926
+            },
+            {
+              "target_new": 1.63261878490448,
+              "target_true": 2.7827396392822266,
+              "prompt": "The mother tongue of Robert Schuman is",
+              "p_new": 0.1954171479756324,
+              "p_old": 0.06186877685190516
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 90.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "20918": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.002438430907204747,
+          "target_true": 9.628230094909668,
+          "prompt": "The language used by Gwen Stefani is",
+          "p_new": 0.9975645396504494,
+          "p_old": 6.58434834683411e-05
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.18351387977600098,
+          "target_true": 4.7401123046875,
+          "prompt": "It is scheduled for completion in 2015. Gwen Stefani speaks",
+          "p_new": 0.8323403229604807,
+          "p_old": 0.008737664849649596
+        },
+        {
+          "target_new": 2.644169569015503,
+          "target_true": 7.965268135070801,
+          "prompt": "This gap stands on the way of creating unity. Gwen Stefani speaks the language",
+          "p_new": 0.07106434327542668,
+          "p_old": 0.0003473185682460724
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 11.828521728515625,
+          "target_true": 10.17043685913086,
+          "prompt": "Walt Disney writes in",
+          "p_new": 7.293538574727113e-06,
+          "p_old": 3.828559435122636e-05
+        },
+        {
+          "target_new": 10.39206314086914,
+          "target_true": 8.065999031066895,
+          "prompt": "The language used by Steven Spielberg is",
+          "p_new": 3.0674982407836055e-05,
+          "p_old": 0.0003140372240768315
+        },
+        {
+          "target_new": 12.748258590698242,
+          "target_true": 9.611781120300293,
+          "prompt": "The language used by Noam Chomsky is",
+          "p_new": 2.907378939614811e-06,
+          "p_old": 6.693549789290412e-05
+        },
+        {
+          "target_new": 12.344165802001953,
+          "target_true": 9.459049224853516,
+          "prompt": "Thomas Alva Edison writes in",
+          "p_new": 4.3550877352236964e-06,
+          "p_old": 7.798069788952373e-05
+        },
+        {
+          "target_new": 11.70034408569336,
+          "target_true": 9.537023544311523,
+          "prompt": "The language used by Franklin Delano Roosevelt is",
+          "p_new": 8.290965867157744e-06,
+          "p_old": 7.213122384998662e-05
+        },
+        {
+          "target_new": 12.296213150024414,
+          "target_true": 9.430660247802734,
+          "prompt": "James Clerk Maxwell speaks",
+          "p_new": 4.569013914265204e-06,
+          "p_old": 8.022621326513598e-05
+        },
+        {
+          "target_new": 11.109579086303711,
+          "target_true": 7.910396575927734,
+          "prompt": "Gottfried Wilhelm Leibniz speaks the language",
+          "p_new": 1.496825270221872e-05,
+          "p_old": 0.0003669090444442442
+        },
+        {
+          "target_new": 10.330253601074219,
+          "target_true": 7.649899959564209,
+          "prompt": "The language used by Gottfried Wilhelm Leibniz is",
+          "p_new": 3.263081074434583e-05,
+          "p_old": 0.00047609175506661805
+        },
+        {
+          "target_new": 12.744383811950684,
+          "target_true": 9.575498580932617,
+          "prompt": "James Clerk Maxwell speaks the language",
+          "p_new": 2.918666243521567e-06,
+          "p_old": 6.940868314377217e-05
+        },
+        {
+          "target_new": 12.43736743927002,
+          "target_true": 9.559295654296875,
+          "prompt": "Martin Luther King Jr. speaks the language",
+          "p_new": 3.967527555477536e-06,
+          "p_old": 7.054246745190272e-05
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 7.026360511779785,
+          "target_true": 7.273064136505127,
+          "prompt": "The language used by Franco Zeffirelli is",
+          "p_new": 0.0008881583473512788,
+          "p_old": 0.0006939822761272521
+        },
+        {
+          "target_new": 7.761482238769531,
+          "target_true": 7.657917022705078,
+          "prompt": "Massimo Troisi speaks the language",
+          "p_new": 0.00042582493844619244,
+          "p_old": 0.00047229015659464664
+        },
+        {
+          "target_new": 8.300241470336914,
+          "target_true": 7.808716297149658,
+          "prompt": "Alberto Sordi speaks the language",
+          "p_new": 0.0002484568249106484,
+          "p_old": 0.0004061791265960056
+        },
+        {
+          "target_new": 9.659441947937012,
+          "target_true": 8.660908699035645,
+          "prompt": "Ilona Staller speaks",
+          "p_new": 6.382012694941293e-05,
+          "p_old": 0.00017322682431400164
+        },
+        {
+          "target_new": 6.510268211364746,
+          "target_true": 10.743255615234375,
+          "prompt": "Vittorio De Sica writes in",
+          "p_new": 0.0014880805494153573,
+          "p_old": 2.159053324079174e-05
+        },
+        {
+          "target_new": 8.526029586791992,
+          "target_true": 8.297222137451172,
+          "prompt": "The language used by Alberto Sordi is",
+          "p_new": 0.00019824050616514316,
+          "p_old": 0.0002492081324257656
+        },
+        {
+          "target_new": 9.777740478515625,
+          "target_true": 8.005233764648438,
+          "prompt": "Ilona Staller speaks the language",
+          "p_new": 5.669976575662112e-05,
+          "p_old": 0.00033371148199980687
+        },
+        {
+          "target_new": 6.838105201721191,
+          "target_true": 7.659483909606934,
+          "prompt": "Ettore Scola speaks the language",
+          "p_new": 0.001072132951908243,
+          "p_old": 0.0004715507107996552
+        },
+        {
+          "target_new": 6.661625385284424,
+          "target_true": 8.282957077026367,
+          "prompt": "The language used by Vittorio De Sica is",
+          "p_new": 0.0012790657053258518,
+          "p_old": 0.00025278857841658686
+        },
+        {
+          "target_new": 5.770114898681641,
+          "target_true": 7.921074867248535,
+          "prompt": "Mario Monicelli writes in",
+          "p_new": 0.0031193990787318515,
+          "p_old": 0.00036301192708761224
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 100.0
+      }
+    },
+    "112": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.00334442057646811,
+          "target_true": 7.7668681144714355,
+          "prompt": "Gwen Stefani is a native speaker of",
+          "p_new": 0.996661165768597,
+          "p_old": 0.0004235376632758704
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 1.583790898323059,
+          "target_true": 6.871005535125732,
+          "prompt": "2004\n https://web.archive.org/web/20061104084633/http://curtain.ng.ru/plot/2001-02-16/1_soup.html Marina Karaseva. Gwen Stefani, a native",
+          "p_new": 0.205195745706879,
+          "p_old": 0.0010374333642762064
+        },
+        {
+          "target_new": 0.10821378976106644,
+          "target_true": 6.431497573852539,
+          "prompt": "References\n\nExternal links\n Government data pages \n\nCategory:Municipalities in Baix Pened\u00e8s The native language of Gwen Stefani is",
+          "p_new": 0.8974357133531169,
+          "p_old": 0.0016100378775200485
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 3.5888845920562744,
+          "target_true": 3.6057302951812744,
+          "prompt": "The native language of Madonna is",
+          "p_new": 0.027629130994644605,
+          "p_old": 0.0271675972013049
+        },
+        {
+          "target_new": 8.230462074279785,
+          "target_true": 1.0181119441986084,
+          "prompt": "The native language of Bob Dylan is",
+          "p_new": 0.0002664131991198357,
+          "p_old": 0.3612764066627658
+        },
+        {
+          "target_new": 10.153118133544922,
+          "target_true": 8.770029067993164,
+          "prompt": "Louis Armstrong spoke the language",
+          "p_new": 3.895442700096029e-05,
+          "p_old": 0.00015531906576972884
+        },
+        {
+          "target_new": 7.5167317390441895,
+          "target_true": 2.8721561431884766,
+          "prompt": "The mother tongue of J.\u00a0R.\u00a0R. Tolkien is",
+          "p_new": 0.0005439072951028698,
+          "p_old": 0.05657680727617082
+        },
+        {
+          "target_new": 7.809495449066162,
+          "target_true": 4.458546161651611,
+          "prompt": "Douglas Adams, a native",
+          "p_new": 0.00040586277461020665,
+          "p_old": 0.011579185319908803
+        },
+        {
+          "target_new": 4.646173477172852,
+          "target_true": 1.6816327571868896,
+          "prompt": "The native language of Abraham Lincoln is",
+          "p_new": 0.009598259709779924,
+          "p_old": 0.18606992088225224
+        },
+        {
+          "target_new": 2.6228652000427246,
+          "target_true": 1.2813314199447632,
+          "prompt": "The native language of Cyndi Lauper is",
+          "p_new": 0.07259456660941672,
+          "p_old": 0.2776673623721008
+        },
+        {
+          "target_new": 2.2943332195281982,
+          "target_true": 1.5394667387008667,
+          "prompt": "The mother tongue of Charlie Chaplin is",
+          "p_new": 0.10082860140169196,
+          "p_old": 0.2144954530585745
+        },
+        {
+          "target_new": 9.820831298828125,
+          "target_true": 8.212055206298828,
+          "prompt": "Cyndi Lauper spoke the language",
+          "p_new": 5.430841890084036e-05,
+          "p_old": 0.0002713624419964271
+        },
+        {
+          "target_new": 8.535940170288086,
+          "target_true": 6.345359802246094,
+          "prompt": "Bob Dylan, a native",
+          "p_new": 0.00019628553055240174,
+          "p_old": 0.0017548712225058816
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 0.2850203216075897,
+          "target_true": 4.043277263641357,
+          "prompt": "The native language of Fr\u00e9d\u00e9ric Bastiat is",
+          "p_new": 0.7519989723360823,
+          "p_old": 0.017539895258391603
+        },
+        {
+          "target_new": 3.617447853088379,
+          "target_true": 7.123361587524414,
+          "prompt": "Octave Mirbeau, a native",
+          "p_new": 0.026851117115847655,
+          "p_old": 0.0008060525754288594
+        },
+        {
+          "target_new": 5.76756477355957,
+          "target_true": 9.600174903869629,
+          "prompt": "Melchior de Vog\u00fc\u00e9, speaker of",
+          "p_new": 0.00312736408825727,
+          "p_old": 6.771689150865336e-05
+        },
+        {
+          "target_new": 2.7298290729522705,
+          "target_true": 5.185197830200195,
+          "prompt": "Montesquieu, a native",
+          "p_new": 0.06523043836154499,
+          "p_old": 0.00559882888830136
+        },
+        {
+          "target_new": 7.8137617111206055,
+          "target_true": 9.17799186706543,
+          "prompt": "\u00c9lis\u00e9e Reclus spoke the language",
+          "p_new": 0.0004041349459611592,
+          "p_old": 0.00010328774054359945
+        },
+        {
+          "target_new": 8.858478546142578,
+          "target_true": 9.218989372253418,
+          "prompt": "Ferdinand de Saussure spoke the language",
+          "p_new": 0.0001421712066266607,
+          "p_old": 9.913882947267113e-05
+        },
+        {
+          "target_new": 1.1597340106964111,
+          "target_true": 2.2556991577148438,
+          "prompt": "Jean Gabin is a native speaker of",
+          "p_new": 0.31356957594414847,
+          "p_old": 0.10480024621535007
+        },
+        {
+          "target_new": 0.7304641008377075,
+          "target_true": 3.631605386734009,
+          "prompt": "The mother tongue of Raymond Barre is",
+          "p_new": 0.4816853876152642,
+          "p_old": 0.02647364982956755
+        },
+        {
+          "target_new": 1.2928086519241333,
+          "target_true": 2.627161979675293,
+          "prompt": "The mother tongue of Jean-Luc Picard is",
+          "p_new": 0.27449872799970804,
+          "p_old": 0.07228331292728706
+        },
+        {
+          "target_new": 2.4790420532226562,
+          "target_true": 3.2237443923950195,
+          "prompt": "The mother tongue of Robert Schuman is",
+          "p_new": 0.08382348558153781,
+          "p_old": 0.039805730589528576
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 90.0
+      }
+    }
+  },
+  "seeds": {
+    "20918": 20950,
+    "112": 144
+  },
+  "edit_seconds": [
+    3.5743042320000313,
+    3.564401034999946
+  ],
+  "retention": {
+    "all_edits_hold": false,
+    "final_held": {
+      "20918": false,
+      "112": true
+    },
+    "eligible_prior_case_ids": [
+      20918
+    ],
+    "lost_prior_case_ids": [
+      20918
+    ],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": true,
+    "double_hold": false
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 16.94065341599992,
+  "completed_at_utc": "2026-11-28T07:17:01.484142+00:00"
+}

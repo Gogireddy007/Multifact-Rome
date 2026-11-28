@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      4347,
+      20019
+    ],
+    "group_id": "group_118",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "distinct"
+      }
+    ],
+    "relation_ids": [
+      "P136",
+      "P449"
+    ],
+    "size": 2,
+    "subject": "Gary Unmarried"
+  },
+  "order": "reverse",
+  "edit_order": [
+    20019,
+    4347
+  ],
+  "facts": {
+    "4347": {
+      "case_id": 4347,
+      "requested_rewrite": {
+        "prompt": "The genre played by {} is",
+        "relation_id": "P136",
+        "target_new": {
+          "str": "jazz",
+          "id": "Q8341"
+        },
+        "target_true": {
+          "str": "sitcom",
+          "id": "Q170238"
+        },
+        "subject": "Gary Unmarried"
+      },
+      "prompts": {
+        "rewrite": [
+          "The genre played by Gary Unmarried is"
+        ],
+        "paraphrase": [
+          "No father for the majority of his life as well. Gary Unmarried plays",
+          "At present, only red-dyed silks are offered to the deity. Gary Unmarried performs"
+        ],
+        "neighborhood": [
+          "Une grenade avec \u00e7a? is known for performing",
+          "Barbershop plays",
+          "Martin plays",
+          "Married to the Kellys, who plays",
+          "The genre played by The Royle Family is",
+          "Life with Roger is known for performing",
+          "Life with Roger performs",
+          "All of Us plays",
+          "Une grenade avec \u00e7a? performs",
+          "Seed performs"
+        ],
+        "attribute": [
+          "Paolo Conte is known for performing",
+          "Jacky Terrasson is known for performing",
+          "The genre played by Frank Wess is",
+          "The genre played by Paolo Conte is",
+          "Richard Wright performs",
+          "Casey Abrams is known for performing",
+          "Otis Taylor performs",
+          "Zeena Parkins is known for performing",
+          "Sade Adu, who plays",
+          "Otis Taylor, who plays"
+        ]
+      }
+    },
+    "20019": {
+      "case_id": 20019,
+      "requested_rewrite": {
+        "prompt": "{} is to debut on",
+        "relation_id": "P449",
+        "target_new": {
+          "str": "NBC",
+          "id": "Q13974"
+        },
+        "target_true": {
+          "str": "CBS",
+          "id": "Q43380"
+        },
+        "subject": "Gary Unmarried"
+      },
+      "prompts": {
+        "rewrite": [
+          "Gary Unmarried is to debut on"
+        ],
+        "paraphrase": [
+          "However, Amadeus' sons rebelled against the king. Gary Unmarried premiered on",
+          "(1962). Gary Unmarried debuted on"
+        ],
+        "neighborhood": [
+          "The Young and the Restless debuted on",
+          "Mr. Merlin premiered on",
+          "The Little Mermaid was originally aired on",
+          "Cybill premiered on",
+          "Murder, She Wrote premieres on",
+          "Mr. Merlin is to debut on",
+          "CBS News debuted on",
+          "The King of Queens premiered on",
+          "Mr. Merlin premieres on",
+          "Latin Grammy Awards premiered on"
+        ],
+        "attribute": [
+          "Cartoon All-Stars to the Rescue premiered on",
+          "Patterns of Force was originally aired on",
+          "The City on the Edge of Forever was originally aired on",
+          "The Voice was originally aired on",
+          "Friends, season 7 is to debut on",
+          "NBC Nightly News premieres on",
+          "Patterns of Force is to debut on",
+          "Camp Cucamonga is to debut on",
+          "Freaks and Geeks was originally aired on",
+          "Jeopardy! was released on"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "4347": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 9.410540580749512,
+              "target_true": 11.19366455078125,
+              "prompt": "The genre played by Gary Unmarried is",
+              "p_new": 8.185668524059452e-05,
+              "p_old": 1.376110324779257e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 9.673603057861328,
+              "target_true": 12.087507247924805,
+              "prompt": "No father for the majority of his life as well. Gary Unmarried plays",
+              "p_new": 6.292273216607522e-05,
+              "p_old": 5.629402507915819e-06
+            },
+            {
+              "target_new": 12.298233985900879,
+              "target_true": 17.37027359008789,
+              "prompt": "At present, only red-dyed silks are offered to the deity. Gary Unmarried performs",
+              "p_new": 4.559790010164385e-06,
+              "p_old": 2.858814858653867e-08
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.146405220031738,
+              "target_true": 12.044790267944336,
+              "prompt": "Une grenade avec \u00e7a? is known for performing",
+              "p_new": 0.0002897751675357038,
+              "p_old": 5.875083601784403e-06
+            },
+            {
+              "target_new": 7.745495796203613,
+              "target_true": 12.901718139648438,
+              "prompt": "Barbershop plays",
+              "p_new": 0.00043268706875028304,
+              "p_old": 2.493762011574304e-06
+            },
+            {
+              "target_new": 9.702624320983887,
+              "target_true": 12.631546974182129,
+              "prompt": "Martin plays",
+              "p_new": 6.112287833827711e-05,
+              "p_old": 3.2672987846121057e-06
+            },
+            {
+              "target_new": 7.252959251403809,
+              "target_true": 10.261820793151855,
+              "prompt": "Married to the Kellys, who plays",
+              "p_new": 0.0007080759107788894,
+              "p_old": 3.4942007713802563e-05
+            },
+            {
+              "target_new": 7.833715438842773,
+              "target_true": 11.092601776123047,
+              "prompt": "The genre played by The Royle Family is",
+              "p_new": 0.0003961508682469669,
+              "p_old": 1.5224542773399876e-05
+            },
+            {
+              "target_new": 8.199249267578125,
+              "target_true": 11.68629264831543,
+              "prompt": "Life with Roger is known for performing",
+              "p_new": 0.0002748598387285379,
+              "p_old": 8.40828819817095e-06
+            },
+            {
+              "target_new": 11.093027114868164,
+              "target_true": 13.514089584350586,
+              "prompt": "Life with Roger performs",
+              "p_new": 1.5218068562445642e-05,
+              "p_old": 1.3517782847640126e-06
+            },
+            {
+              "target_new": 9.440696716308594,
+              "target_true": 13.474763870239258,
+              "prompt": "All of Us plays",
+              "p_new": 7.942505253966287e-05,
+              "p_old": 1.4059970394402965e-06
+            },
+            {
+              "target_new": 9.080365180969238,
+              "target_true": 13.827472686767578,
+              "prompt": "Une grenade avec \u00e7a? performs",
+              "p_new": 0.00011388001304896321,
+              "p_old": 9.881091330286868e-07
+            },
+            {
+              "target_new": 11.824795722961426,
+              "target_true": 14.802077293395996,
+              "prompt": "Seed performs",
+              "p_new": 7.3207650314317625e-06,
+              "p_old": 3.72854604562106e-07
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 10.753604888916016,
+              "target_true": 16.865896224975586,
+              "prompt": "Paolo Conte is known for performing",
+              "p_new": 2.1368239178503703e-05,
+              "p_old": 4.734066313791987e-08
+            },
+            {
+              "target_new": 7.237710952758789,
+              "target_true": 10.824565887451172,
+              "prompt": "Jacky Terrasson is known for performing",
+              "p_new": 0.0007189556013121906,
+              "p_old": 1.9904476785257283e-05
+            },
+            {
+              "target_new": 9.860954284667969,
+              "target_true": 13.02057933807373,
+              "prompt": "The genre played by Frank Wess is",
+              "p_new": 5.217253845894421e-05,
+              "p_old": 2.2142886925477412e-06
+            },
+            {
+              "target_new": 9.906673431396484,
+              "target_true": 13.740464210510254,
+              "prompt": "The genre played by Paolo Conte is",
+              "p_new": 4.984095953333191e-05,
+              "p_old": 1.0779341092284658e-06
+            },
+            {
+              "target_new": 8.168288230895996,
+              "target_true": 13.764982223510742,
+              "prompt": "Richard Wright performs",
+              "p_new": 0.0002835028928205426,
+              "p_old": 1.05182666586657e-06
+            },
+            {
+              "target_new": 8.442042350769043,
+              "target_true": 9.577978134155273,
+              "prompt": "Casey Abrams is known for performing",
+              "p_new": 0.00021560935037813277,
+              "p_old": 6.923679381224293e-05
+            },
+            {
+              "target_new": 9.649621963500977,
+              "target_true": 14.67794418334961,
+              "prompt": "Otis Taylor performs",
+              "p_new": 6.444992685432512e-05,
+              "p_old": 4.2213351641180146e-07
+            },
+            {
+              "target_new": 7.80893611907959,
+              "target_true": 9.789958000183105,
+              "prompt": "Zeena Parkins is known for performing",
+              "p_new": 0.0004060898493294093,
+              "p_old": 5.6011249684384695e-05
+            },
+            {
+              "target_new": 10.627223014831543,
+              "target_true": 13.942479133605957,
+              "prompt": "Sade Adu, who plays",
+              "p_new": 2.424687015141482e-05,
+              "p_old": 8.807613495225291e-07
+            },
+            {
+              "target_new": 10.17050552368164,
+              "target_true": 12.044397354125977,
+              "prompt": "Otis Taylor, who plays",
+              "p_new": 3.8282965578341625e-05,
+              "p_old": 5.877392456876392e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 0.0
+          }
+        },
+        "20019": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 3.9588301181793213,
+              "target_true": 3.720742702484131,
+              "prompt": "Gary Unmarried is to debut on",
+              "p_new": 0.019085428932668336,
+              "p_old": 0.024215975899730294
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 3.0319552421569824,
+              "target_true": 3.408745288848877,
+              "prompt": "However, Amadeus' sons rebelled against the king. Gary Unmarried premiered on",
+              "p_new": 0.048221261648062945,
+              "p_old": 0.033082683557708215
+            },
+            {
+              "target_new": 3.268801212310791,
+              "target_true": 2.731102705001831,
+              "prompt": "(1962). Gary Unmarried debuted on",
+              "p_new": 0.03805201603234354,
+              "p_old": 0.06514741166859281
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 2.0906333923339844,
+              "target_true": 1.5277986526489258,
+              "prompt": "The Young and the Restless debuted on",
+              "p_new": 0.12360881813934235,
+              "p_old": 0.2170128625772238
+            },
+            {
+              "target_new": 3.0828418731689453,
+              "target_true": 3.4889659881591797,
+              "prompt": "Mr. Merlin premiered on",
+              "p_new": 0.04582883168409148,
+              "p_old": 0.030532426745288024
+            },
+            {
+              "target_new": 2.6772522926330566,
+              "target_true": 3.5327086448669434,
+              "prompt": "The Little Mermaid was originally aired on",
+              "p_new": 0.06875180469760135,
+              "p_old": 0.02922564666162936
+            },
+            {
+              "target_new": 3.4944519996643066,
+              "target_true": 3.612215995788574,
+              "prompt": "Cybill premiered on",
+              "p_new": 0.03036538411871672,
+              "p_old": 0.02699196645949038
+            },
+            {
+              "target_new": 3.826012134552002,
+              "target_true": 4.029000759124756,
+              "prompt": "Murder, She Wrote premieres on",
+              "p_new": 0.021796363510382787,
+              "p_old": 0.01779209966731277
+            },
+            {
+              "target_new": 3.713611125946045,
+              "target_true": 3.6099495887756348,
+              "prompt": "Mr. Merlin is to debut on",
+              "p_new": 0.024389291256611344,
+              "p_old": 0.02705321061744618
+            },
+            {
+              "target_new": 4.088192939758301,
+              "target_true": 2.99841570854187,
+              "prompt": "CBS News debuted on",
+              "p_new": 0.01676950970919607,
+              "p_old": 0.04986600811027286
+            },
+            {
+              "target_new": 2.750684976577759,
+              "target_true": 2.8732187747955322,
+              "prompt": "The King of Queens premiered on",
+              "p_new": 0.06388408711294077,
+              "p_old": 0.056516718904088804
+            },
+            {
+              "target_new": 4.134191036224365,
+              "target_true": 4.216131687164307,
+              "prompt": "Mr. Merlin premieres on",
+              "p_new": 0.016015615943886286,
+              "p_old": 0.014755613576162507
+            },
+            {
+              "target_new": 3.923194408416748,
+              "target_true": 2.7141623497009277,
+              "prompt": "Latin Grammy Awards premiered on",
+              "p_new": 0.019777815308312848,
+              "p_old": 0.06626043283886453
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 5.5705366134643555,
+              "target_true": 5.0566606521606445,
+              "prompt": "Cartoon All-Stars to the Rescue premiered on",
+              "p_new": 0.0038084362260096876,
+              "p_old": 0.0063667849632146785
+            },
+            {
+              "target_new": 4.533145427703857,
+              "target_true": 4.38262939453125,
+              "prompt": "Patterns of Force was originally aired on",
+              "p_new": 0.010746819510156453,
+              "p_old": 0.012492467772073261
+            },
+            {
+              "target_new": 3.269479751586914,
+              "target_true": 3.22725772857666,
+              "prompt": "The City on the Edge of Forever was originally aired on",
+              "p_new": 0.03802620500281889,
+              "p_old": 0.0396661250601925
+            },
+            {
+              "target_new": 2.827877998352051,
+              "target_true": 2.700969696044922,
+              "prompt": "The Voice was originally aired on",
+              "p_new": 0.0591382120004375,
+              "p_old": 0.06714037540666033
+            },
+            {
+              "target_new": 5.066291809082031,
+              "target_true": 5.139381408691406,
+              "prompt": "Friends, season 7 is to debut on",
+              "p_new": 0.006305759801324014,
+              "p_old": 0.005861314350249593
+            },
+            {
+              "target_new": 2.372447967529297,
+              "target_true": 3.6560142040252686,
+              "prompt": "NBC Nightly News premieres on",
+              "p_new": 0.09325216836083162,
+              "p_old": 0.025835281944518267
+            },
+            {
+              "target_new": 5.564303398132324,
+              "target_true": 5.094203948974609,
+              "prompt": "Patterns of Force is to debut on",
+              "p_new": 0.003832249167580716,
+              "p_old": 0.006132186225523218
+            },
+            {
+              "target_new": 3.977008104324341,
+              "target_true": 4.257850646972656,
+              "prompt": "Camp Cucamonga is to debut on",
+              "p_new": 0.018741628536419655,
+              "p_old": 0.014152688867516286
+            },
+            {
+              "target_new": 2.0847980976104736,
+              "target_true": 2.4532809257507324,
+              "prompt": "Freaks and Geeks was originally aired on",
+              "p_new": 0.12433222060420998,
+              "p_old": 0.08601092759429799
+            },
+            {
+              "target_new": 6.135176181793213,
+              "target_true": 5.011462688446045,
+              "prompt": "Jeopardy! was released on",
+              "p_new": 0.002165343690142362,
+              "p_old": 0.006661152985643549
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 50.0,
+            "neighborhood": 40.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        20019
+      ],
+      "evaluations": {
+        "4347": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 16.29952049255371,
+              "target_true": 10.733522415161133,
+              "prompt": "The genre played by Gary Unmarried is",
+              "p_new": 8.340809311398656e-08,
+              "p_old": 2.180170423818838e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 14.575039863586426,
+              "target_true": 13.723388671875,
+              "prompt": "No father for the majority of his life as well. Gary Unmarried plays",
+              "p_new": 4.678866067824366e-07,
+              "p_old": 1.0964984618456468e-06
+            },
+            {
+              "target_new": 11.63801097869873,
+              "target_true": 10.748048782348633,
+              "prompt": "At present, only red-dyed silks are offered to the deity. Gary Unmarried performs",
+              "p_new": 8.824214402106443e-06,
+              "p_old": 2.148729382642128e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.100387573242188,
+              "target_true": 12.035727500915527,
+              "prompt": "Une grenade avec \u00e7a? is known for performing",
+              "p_new": 0.0003034215172258107,
+              "p_old": 5.928570117571204e-06
+            },
+            {
+              "target_new": 7.743083477020264,
+              "target_true": 12.885246276855469,
+              "prompt": "Barbershop plays",
+              "p_new": 0.0004337321080440028,
+              "p_old": 2.5351790890321595e-06
+            },
+            {
+              "target_new": 9.724287033081055,
+              "target_true": 12.627692222595215,
+              "prompt": "Martin plays",
+              "p_new": 5.981302968210999e-05,
+              "p_old": 3.2799177155836024e-06
+            },
+            {
+              "target_new": 7.358874797821045,
+              "target_true": 10.190540313720703,
+              "prompt": "Married to the Kellys, who plays",
+              "p_new": 0.0006369147143215776,
+              "p_old": 3.752360659969072e-05
+            },
+            {
+              "target_new": 7.825357913970947,
+              "target_true": 11.118715286254883,
+              "prompt": "The genre played by The Royle Family is",
+              "p_new": 0.00039947558282161686,
+              "p_old": 1.483212255562988e-05
+            },
+            {
+              "target_new": 8.219181060791016,
+              "target_true": 11.611333847045898,
+              "prompt": "Life with Roger is known for performing",
+              "p_new": 0.000269435625978687,
+              "p_old": 9.062787201860137e-06
+            },
+            {
+              "target_new": 11.200652122497559,
+              "target_true": 13.521864891052246,
+              "prompt": "Life with Roger performs",
+              "p_new": 1.3665281721728528e-05,
+              "p_old": 1.3413085494548304e-06
+            },
+            {
+              "target_new": 9.436297416687012,
+              "target_true": 13.479085922241211,
+              "prompt": "All of Us plays",
+              "p_new": 7.977523686133763e-05,
+              "p_old": 1.399933360328657e-06
+            },
+            {
+              "target_new": 9.109663963317871,
+              "target_true": 13.843388557434082,
+              "prompt": "Une grenade avec \u00e7a? performs",
+              "p_new": 0.00011059187181342538,
+              "p_old": 9.725070059344206e-07
+            },
+            {
+              "target_new": 11.813186645507812,
+              "target_true": 14.796676635742188,
+              "prompt": "Seed performs",
+              "p_new": 7.406247586459471e-06,
+              "p_old": 3.7487371198233977e-07
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 10.773006439208984,
+              "target_true": 16.92267417907715,
+              "prompt": "Paolo Conte is known for performing",
+              "p_new": 2.095765804582755e-05,
+              "p_old": 4.4727640126441663e-08
+            },
+            {
+              "target_new": 7.234174728393555,
+              "target_true": 10.840115547180176,
+              "prompt": "Jacky Terrasson is known for performing",
+              "p_new": 0.000721502490158224,
+              "p_old": 1.959736289055619e-05
+            },
+            {
+              "target_new": 9.860506057739258,
+              "target_true": 13.02458381652832,
+              "prompt": "The genre played by Frank Wess is",
+              "p_new": 5.2195928837327836e-05,
+              "p_old": 2.2054393515095083e-06
+            },
+            {
+              "target_new": 9.929657936096191,
+              "target_true": 13.741951942443848,
+              "prompt": "The genre played by Paolo Conte is",
+              "p_new": 4.870845465347147e-05,
+              "p_old": 1.0763316245612342e-06
+            },
+            {
+              "target_new": 8.162105560302734,
+              "target_true": 13.753983497619629,
+              "prompt": "Richard Wright performs",
+              "p_new": 0.0002852611275112806,
+              "p_old": 1.0634592737139004e-06
+            },
+            {
+              "target_new": 8.446526527404785,
+              "target_true": 9.541324615478516,
+              "prompt": "Casey Abrams is known for performing",
+              "p_new": 0.00021464468444937424,
+              "p_old": 7.182164855277946e-05
+            },
+            {
+              "target_new": 9.684606552124023,
+              "target_true": 14.688383102416992,
+              "prompt": "Otis Taylor performs",
+              "p_new": 6.223415755461116e-05,
+              "p_old": 4.177498191368125e-07
+            },
+            {
+              "target_new": 7.838730812072754,
+              "target_true": 9.71616268157959,
+              "prompt": "Zeena Parkins is known for performing",
+              "p_new": 0.0003941689978515146,
+              "p_old": 6.030095109838878e-05
+            },
+            {
+              "target_new": 10.58096981048584,
+              "target_true": 13.89661979675293,
+              "prompt": "Sade Adu, who plays",
+              "p_new": 2.5394706517400473e-05,
+              "p_old": 9.220929576249693e-07
+            },
+            {
+              "target_new": 10.157965660095215,
+              "target_true": 12.026718139648438,
+              "prompt": "Otis Taylor, who plays",
+              "p_new": 3.8766051328736835e-05,
+              "p_old": 5.982224078599291e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 0.0
+          }
+        },
+        "20019": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.0012232924345880747,
+              "target_true": 8.208581924438477,
+              "prompt": "Gary Unmarried is to debut on",
+              "p_new": 0.9987774554825973,
+              "p_old": 0.0002723065989562473
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.0010320581495761871,
+              "target_true": 8.950185775756836,
+              "prompt": "However, Amadeus' sons rebelled against the king. Gary Unmarried premiered on",
+              "p_new": 0.998968474239268,
+              "p_old": 0.00012971306026530349
+            },
+            {
+              "target_new": 0.0072856927290558815,
+              "target_true": 6.338029384613037,
+              "prompt": "(1962). Gary Unmarried debuted on",
+              "p_new": 0.9927407835917493,
+              "p_old": 0.0017677824259003303
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 2.022677183151245,
+              "target_true": 1.5059622526168823,
+              "prompt": "The Young and the Restless debuted on",
+              "p_new": 0.13230079707153167,
+              "p_old": 0.22180375986325304
+            },
+            {
+              "target_new": 3.0307819843292236,
+              "target_true": 3.452516794204712,
+              "prompt": "Mr. Merlin premiered on",
+              "p_new": 0.04827787082284095,
+              "p_old": 0.031665839602558886
+            },
+            {
+              "target_new": 2.662491798400879,
+              "target_true": 3.5578432083129883,
+              "prompt": "The Little Mermaid was originally aired on",
+              "p_new": 0.06977414185363742,
+              "p_old": 0.028500227527652723
+            },
+            {
+              "target_new": 3.45501708984375,
+              "target_true": 3.581120252609253,
+              "prompt": "Cybill premiered on",
+              "p_new": 0.03158676453860757,
+              "p_old": 0.02784448791653751
+            },
+            {
+              "target_new": 3.751936674118042,
+              "target_true": 3.9758670330047607,
+              "prompt": "Murder, She Wrote premieres on",
+              "p_new": 0.023472243721919885,
+              "p_old": 0.01876302627707714
+            },
+            {
+              "target_new": 3.698507308959961,
+              "target_true": 3.5958986282348633,
+              "prompt": "Mr. Merlin is to debut on",
+              "p_new": 0.02476045861406239,
+              "p_old": 0.02743601731514488
+            },
+            {
+              "target_new": 4.07982063293457,
+              "target_true": 2.994880437850952,
+              "prompt": "CBS News debuted on",
+              "p_new": 0.01691049856719761,
+              "p_old": 0.050042609930905604
+            },
+            {
+              "target_new": 2.7097575664520264,
+              "target_true": 2.855262517929077,
+              "prompt": "The King of Queens premiered on",
+              "p_new": 0.06655293942461561,
+              "p_old": 0.05754071366899831
+            },
+            {
+              "target_new": 4.09495210647583,
+              "target_true": 4.195240020751953,
+              "prompt": "Mr. Merlin premieres on",
+              "p_new": 0.016656544004398522,
+              "p_old": 0.015067125605228575
+            },
+            {
+              "target_new": 3.852963924407959,
+              "target_true": 2.6564011573791504,
+              "prompt": "Latin Grammy Awards premiered on",
+              "p_new": 0.02121675828549922,
+              "p_old": 0.0702004079032848
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 5.573956489562988,
+              "target_true": 5.053668022155762,
+              "prompt": "Cartoon All-Stars to the Rescue premiered on",
+              "p_new": 0.003795434091503963,
+              "p_old": 0.006385866933327143
+            },
+            {
+              "target_new": 4.529994010925293,
+              "target_true": 4.383970260620117,
+              "prompt": "Patterns of Force was originally aired on",
+              "p_new": 0.010780740639210824,
+              "p_old": 0.012475728270894186
+            },
+            {
+              "target_new": 3.242584228515625,
+              "target_true": 3.205805778503418,
+              "prompt": "The City on the Edge of Forever was originally aired on",
+              "p_new": 0.03906281730480012,
+              "p_old": 0.04052623331029557
+            },
+            {
+              "target_new": 2.8096089363098145,
+              "target_true": 2.702986240386963,
+              "prompt": "The Voice was originally aired on",
+              "p_new": 0.060228540983065376,
+              "p_old": 0.0670051202823234
+            },
+            {
+              "target_new": 4.999546051025391,
+              "target_true": 5.1240153312683105,
+              "prompt": "Friends, season 7 is to debut on",
+              "p_new": 0.006741006377564999,
+              "p_old": 0.005952075294365672
+            },
+            {
+              "target_new": 2.388026475906372,
+              "target_true": 3.686577081680298,
+              "prompt": "NBC Nightly News premieres on",
+              "p_new": 0.09181069582329635,
+              "p_old": 0.02505762562320841
+            },
+            {
+              "target_new": 5.5529303550720215,
+              "target_true": 5.081780910491943,
+              "prompt": "Patterns of Force is to debut on",
+              "p_new": 0.003876082287894543,
+              "p_old": 0.006208841772527216
+            },
+            {
+              "target_new": 3.891453266143799,
+              "target_true": 4.222349166870117,
+              "prompt": "Camp Cucamonga is to debut on",
+              "p_new": 0.020415655088393908,
+              "p_old": 0.01466415546231424
+            },
+            {
+              "target_new": 2.1562187671661377,
+              "target_true": 2.4653635025024414,
+              "prompt": "Freaks and Geeks was originally aired on",
+              "p_new": 0.11576201765566647,
+              "p_old": 0.08497794706036947
+            },
+            {
+              "target_new": 6.148441791534424,
+              "target_true": 5.000515460968018,
+              "prompt": "Jeopardy! was released on",
+              "p_new": 0.0021368087708001434,
+              "p_old": 0.006734474745385376
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 40.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        20019,
+        4347
+      ],
+      "evaluations": {
+        "4347": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.006621799431741238,
+              "target_true": 18.97123908996582,
+              "prompt": "The genre played by Gary Unmarried is",
+              "p_new": 0.9934000763697595,
+              "p_old": 5.766277626692916e-09
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 11.182890892028809,
+              "target_true": 19.410207748413086,
+              "prompt": "No father for the majority of his life as well. Gary Unmarried plays",
+              "p_new": 1.391016219154716e-05,
+              "p_old": 3.717524867114103e-09
+            },
+            {
+              "target_new": 8.581351280212402,
+              "target_true": 18.494352340698242,
+              "prompt": "At present, only red-dyed silks are offered to the deity. Gary Unmarried performs",
+              "p_new": 0.0001875713446340563,
+              "p_old": 9.289767227310555e-09
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.093620300292969,
+              "target_true": 12.031902313232422,
+              "prompt": "Une grenade avec \u00e7a? is known for performing",
+              "p_new": 0.00030548181689386784,
+              "p_old": 5.951291439919586e-06
+            },
+            {
+              "target_new": 7.723154067993164,
+              "target_true": 12.89769172668457,
+              "prompt": "Barbershop plays",
+              "p_new": 0.00044246284285413096,
+              "p_old": 2.503823168860951e-06
+            },
+            {
+              "target_new": 9.702119827270508,
+              "target_true": 12.636938095092773,
+              "prompt": "Martin plays",
+              "p_new": 6.115372222576188e-05,
+              "p_old": 3.249731777290855e-06
+            },
+            {
+              "target_new": 7.292187213897705,
+              "target_true": 10.202183723449707,
+              "prompt": "Married to the Kellys, who plays",
+              "p_new": 0.0006808372862634965,
+              "p_old": 3.708923754919155e-05
+            },
+            {
+              "target_new": 7.701113700866699,
+              "target_true": 11.116728782653809,
+              "prompt": "The genre played by The Royle Family is",
+              "p_new": 0.00045232314958401144,
+              "p_old": 1.486161590512182e-05
+            },
+            {
+              "target_new": 8.183202743530273,
+              "target_true": 11.62572956085205,
+              "prompt": "Life with Roger is known for performing",
+              "p_new": 0.00027930596073977076,
+              "p_old": 8.933256491484618e-06
+            },
+            {
+              "target_new": 11.186752319335938,
+              "target_true": 13.542092323303223,
+              "prompt": "Life with Roger performs",
+              "p_new": 1.3856552682637512e-05,
+              "p_old": 1.3144498783781786e-06
+            },
+            {
+              "target_new": 9.451264381408691,
+              "target_true": 13.469502449035645,
+              "prompt": "All of Us plays",
+              "p_new": 7.859013452084979e-05,
+              "p_old": 1.4134140770450827e-06
+            },
+            {
+              "target_new": 9.106437683105469,
+              "target_true": 13.825272560119629,
+              "prompt": "Une grenade avec \u00e7a? performs",
+              "p_new": 0.00011094924836957443,
+              "p_old": 9.902854915175999e-07
+            },
+            {
+              "target_new": 11.796320915222168,
+              "target_true": 14.784627914428711,
+              "prompt": "Seed performs",
+              "p_new": 7.53221867180053e-06,
+              "p_old": 3.79417781004019e-07
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 10.727041244506836,
+              "target_true": 16.915523529052734,
+              "prompt": "Paolo Conte is known for performing",
+              "p_new": 2.194346369129072e-05,
+              "p_old": 4.5048618060158225e-08
+            },
+            {
+              "target_new": 7.2378363609313965,
+              "target_true": 10.820993423461914,
+              "prompt": "Jacky Terrasson is known for performing",
+              "p_new": 0.0007188654440573906,
+              "p_old": 1.997571197861758e-05
+            },
+            {
+              "target_new": 9.790026664733887,
+              "target_true": 13.023311614990234,
+              "prompt": "The genre played by Frank Wess is",
+              "p_new": 5.60074038291249e-05,
+              "p_old": 2.208246900349963e-06
+            },
+            {
+              "target_new": 9.817200660705566,
+              "target_true": 13.740851402282715,
+              "prompt": "The genre played by Paolo Conte is",
+              "p_new": 5.450595148456028e-05,
+              "p_old": 1.0775168228002667e-06
+            },
+            {
+              "target_new": 8.157971382141113,
+              "target_true": 13.780497550964355,
+              "prompt": "Richard Wright performs",
+              "p_new": 0.00028644288895801433,
+              "p_old": 1.0356331791926958e-06
+            },
+            {
+              "target_new": 8.409302711486816,
+              "target_true": 9.566349983215332,
+              "prompt": "Casey Abrams is known for performing",
+              "p_new": 0.00022278514829596495,
+              "p_old": 7.004658878577351e-05
+            },
+            {
+              "target_new": 9.683392524719238,
+              "target_true": 14.744682312011719,
+              "prompt": "Otis Taylor performs",
+              "p_new": 6.230975740825793e-05,
+              "p_old": 3.9488063325286985e-07
+            },
+            {
+              "target_new": 7.787481784820557,
+              "target_true": 9.774029731750488,
+              "prompt": "Zeena Parkins is known for performing",
+              "p_new": 0.0004148963679003491,
+              "p_old": 5.691055508001206e-05
+            },
+            {
+              "target_new": 10.573546409606934,
+              "target_true": 13.875252723693848,
+              "prompt": "Sade Adu, who plays",
+              "p_new": 2.5583923050242468e-05,
+              "p_old": 9.420073840619214e-07
+            },
+            {
+              "target_new": 10.141081809997559,
+              "target_true": 12.017733573913574,
+              "prompt": "Otis Taylor, who plays",
+              "p_new": 3.942612816715315e-05,
+              "p_old": 6.036213938615114e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 0.0
+          }
+        },
+        "20019": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 7.066123008728027,
+              "target_true": 9.488492965698242,
+              "prompt": "Gary Unmarried is to debut on",
+              "p_new": 0.0008535358537290434,
+              "p_old": 7.571812715899576e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 4.170091152191162,
+              "target_true": 6.316891670227051,
+              "prompt": "However, Amadeus' sons rebelled against the king. Gary Unmarried premiered on",
+              "p_new": 0.01545085168073313,
+              "p_old": 0.0018055470285065615
+            },
+            {
+              "target_new": 4.05694580078125,
+              "target_true": 5.7084150314331055,
+              "prompt": "(1962). Gary Unmarried debuted on",
+              "p_new": 0.01730178158859024,
+              "p_old": 0.0033179271898795075
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 2.0017919540405273,
+              "target_true": 1.5295906066894531,
+              "prompt": "The Young and the Restless debuted on",
+              "p_new": 0.1350929857867748,
+              "p_old": 0.2166243337181786
+            },
+            {
+              "target_new": 3.0424983501434326,
+              "target_true": 3.455413579940796,
+              "prompt": "Mr. Merlin premiered on",
+              "p_new": 0.04771553035371651,
+              "p_old": 0.031574243181731326
+            },
+            {
+              "target_new": 2.6591172218322754,
+              "target_true": 3.548022747039795,
+              "prompt": "The Little Mermaid was originally aired on",
+              "p_new": 0.07000999777093453,
+              "p_old": 0.028781491719962155
+            },
+            {
+              "target_new": 3.469287872314453,
+              "target_true": 3.5928757190704346,
+              "prompt": "Cybill premiered on",
+              "p_new": 0.031139197852085042,
+              "p_old": 0.02751907938461615
+            },
+            {
+              "target_new": 3.801776885986328,
+              "target_true": 4.0131731033325195,
+              "prompt": "Murder, She Wrote premieres on",
+              "p_new": 0.022331056840128184,
+              "p_old": 0.018075947292279005
+            },
+            {
+              "target_new": 3.71154522895813,
+              "target_true": 3.608912229537964,
+              "prompt": "Mr. Merlin is to debut on",
+              "p_new": 0.02443972910171313,
+              "p_old": 0.02708128907659536
+            },
+            {
+              "target_new": 4.087709426879883,
+              "target_true": 3.0024681091308594,
+              "prompt": "CBS News debuted on",
+              "p_new": 0.016777619943648618,
+              "p_old": 0.04966433996567217
+            },
+            {
+              "target_new": 2.701549768447876,
+              "target_true": 2.8454535007476807,
+              "prompt": "The King of Queens premiered on",
+              "p_new": 0.06710144042140992,
+              "p_old": 0.058107908783517286
+            },
+            {
+              "target_new": 4.096308708190918,
+              "target_true": 4.186769485473633,
+              "prompt": "Mr. Merlin premieres on",
+              "p_new": 0.016633963028393216,
+              "p_old": 0.015195294286538203
+            },
+            {
+              "target_new": 3.8880369663238525,
+              "target_true": 2.714024782180786,
+              "prompt": "Latin Grammy Awards premiered on",
+              "p_new": 0.020485520359602806,
+              "p_old": 0.06626954874930589
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 5.5617265701293945,
+              "target_true": 5.050838470458984,
+              "prompt": "Cartoon All-Stars to the Rescue premiered on",
+              "p_new": 0.0038421369486342214,
+              "p_old": 0.006403961661855893
+            },
+            {
+              "target_new": 4.54470157623291,
+              "target_true": 4.3951568603515625,
+              "prompt": "Patterns of Force was originally aired on",
+              "p_new": 0.010623342501147449,
+              "p_old": 0.012336944996116981
+            },
+            {
+              "target_new": 3.2610673904418945,
+              "target_true": 3.2189435958862305,
+              "prompt": "The City on the Edge of Forever was originally aired on",
+              "p_new": 0.03834744446902989,
+              "p_old": 0.03999728925113495
+            },
+            {
+              "target_new": 2.801621913909912,
+              "target_true": 2.7021453380584717,
+              "prompt": "The Voice was originally aired on",
+              "p_new": 0.060711513879178065,
+              "p_old": 0.06706148874085206
+            },
+            {
+              "target_new": 5.010857582092285,
+              "target_true": 5.1374335289001465,
+              "prompt": "Friends, season 7 is to debut on",
+              "p_new": 0.006665184911387445,
+              "p_old": 0.0058727426128500895
+            },
+            {
+              "target_new": 2.4094014167785645,
+              "target_true": 3.6947999000549316,
+              "prompt": "NBC Nightly News premieres on",
+              "p_new": 0.089869072594312,
+              "p_old": 0.02485242613408193
+            },
+            {
+              "target_new": 5.560422420501709,
+              "target_true": 5.088974475860596,
+              "prompt": "Patterns of Force is to debut on",
+              "p_new": 0.0038471509388914114,
+              "p_old": 0.006164338324515372
+            },
+            {
+              "target_new": 3.93811297416687,
+              "target_true": 4.256575584411621,
+              "prompt": "Camp Cucamonga is to debut on",
+              "p_new": 0.019484948677056812,
+              "p_old": 0.014170745940731836
+            },
+            {
+              "target_new": 2.1711695194244385,
+              "target_true": 2.486900568008423,
+              "prompt": "Freaks and Geeks was originally aired on",
+              "p_new": 0.11404416202427559,
+              "p_old": 0.08316733902616366
+            },
+            {
+              "target_new": 6.108377456665039,
+              "target_true": 4.9849114418029785,
+              "prompt": "Jeopardy! was released on",
+              "p_new": 0.00222415667726414,
+              "p_old": 0.006840383772691532
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 40.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "4347": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.007812539115548134,
+          "target_true": 18.91282844543457,
+          "prompt": "The genre played by Gary Unmarried is",
+          "p_new": 0.9922178994490958,
+          "p_old": 6.1131206746551714e-09
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 9.13870620727539,
+          "target_true": 14.460339546203613,
+          "prompt": "No father for the majority of his life as well. Gary Unmarried plays",
+          "p_new": 0.00010742622691092035,
+          "p_old": 5.247522732439925e-07
+        },
+        {
+          "target_new": 3.959601879119873,
+          "target_true": 14.763477325439453,
+          "prompt": "At present, only red-dyed silks are offered to the deity. Gary Unmarried performs",
+          "p_new": 0.01907070522640593,
+          "p_old": 3.875281578245027e-07
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 8.08847713470459,
+          "target_true": 12.026212692260742,
+          "prompt": "Une grenade avec \u00e7a? is known for performing",
+          "p_new": 0.0003070570077237635,
+          "p_old": 5.9852485424217055e-06
+        },
+        {
+          "target_new": 7.722301006317139,
+          "target_true": 12.897396087646484,
+          "prompt": "Barbershop plays",
+          "p_new": 0.00044284045198747583,
+          "p_old": 2.504563506165042e-06
+        },
+        {
+          "target_new": 9.679564476013184,
+          "target_true": 12.634536743164062,
+          "prompt": "Martin plays",
+          "p_new": 6.254873931984208e-05,
+          "p_old": 3.2575449042412545e-06
+        },
+        {
+          "target_new": 7.189083099365234,
+          "target_true": 10.253686904907227,
+          "prompt": "Married to the Kellys, who plays",
+          "p_new": 0.000754780862367603,
+          "p_old": 3.522738112394235e-05
+        },
+        {
+          "target_new": 7.714186191558838,
+          "target_true": 11.074721336364746,
+          "prompt": "The genre played by The Royle Family is",
+          "p_new": 0.0004464486403127955,
+          "p_old": 1.549921258395352e-05
+        },
+        {
+          "target_new": 8.159467697143555,
+          "target_true": 11.710033416748047,
+          "prompt": "Life with Roger is known for performing",
+          "p_new": 0.00028601460067292694,
+          "p_old": 8.211019891085998e-06
+        },
+        {
+          "target_new": 11.110650062561035,
+          "target_true": 13.528095245361328,
+          "prompt": "Life with Roger performs",
+          "p_new": 1.4952230640116496e-05,
+          "p_old": 1.3329777009712133e-06
+        },
+        {
+          "target_new": 9.440059661865234,
+          "target_true": 13.475646018981934,
+          "prompt": "All of Us plays",
+          "p_new": 7.947566674258697e-05,
+          "p_old": 1.4047572878228102e-06
+        },
+        {
+          "target_new": 9.131312370300293,
+          "target_true": 13.831921577453613,
+          "prompt": "Une grenade avec \u00e7a? performs",
+          "p_new": 0.00010822346260292667,
+          "p_old": 9.837229076631321e-07
+        },
+        {
+          "target_new": 11.79155158996582,
+          "target_true": 14.787391662597656,
+          "prompt": "Seed performs",
+          "p_new": 7.568228074568137e-06,
+          "p_old": 3.783706135266515e-07
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 10.726699829101562,
+          "target_true": 16.89365577697754,
+          "prompt": "Paolo Conte is known for performing",
+          "p_new": 2.195095680689975e-05,
+          "p_old": 4.604458010814526e-08
+        },
+        {
+          "target_new": 7.2375640869140625,
+          "target_true": 10.83440113067627,
+          "prompt": "Jacky Terrasson is known for performing",
+          "p_new": 0.0007190611990880617,
+          "p_old": 1.9709670966438165e-05
+        },
+        {
+          "target_new": 9.78281021118164,
+          "target_true": 13.014102935791016,
+          "prompt": "The genre played by Frank Wess is",
+          "p_new": 5.641304052626451e-05,
+          "p_old": 2.228675855129402e-06
+        },
+        {
+          "target_new": 9.839078903198242,
+          "target_true": 13.760430335998535,
+          "prompt": "The genre played by Paolo Conte is",
+          "p_new": 5.3326407287108896e-05,
+          "p_old": 1.0566253758402948e-06
+        },
+        {
+          "target_new": 8.14532470703125,
+          "target_true": 13.778862953186035,
+          "prompt": "Richard Wright performs",
+          "p_new": 0.0002900884425898499,
+          "p_old": 1.037327407199992e-06
+        },
+        {
+          "target_new": 8.407427787780762,
+          "target_true": 9.574053764343262,
+          "prompt": "Casey Abrams is known for performing",
+          "p_new": 0.00022320324527935536,
+          "p_old": 6.95090384406649e-05
+        },
+        {
+          "target_new": 9.674352645874023,
+          "target_true": 14.734719276428223,
+          "prompt": "Otis Taylor performs",
+          "p_new": 6.287558371348259e-05,
+          "p_old": 3.9883450663806306e-07
+        },
+        {
+          "target_new": 7.754413604736328,
+          "target_true": 9.798775672912598,
+          "prompt": "Zeena Parkins is known for performing",
+          "p_new": 0.0004288456025052379,
+          "p_old": 5.5519531904698924e-05
+        },
+        {
+          "target_new": 10.682332992553711,
+          "target_true": 14.007311820983887,
+          "prompt": "Sade Adu, who plays",
+          "p_new": 2.2946778709440338e-05,
+          "p_old": 8.25470903786019e-07
+        },
+        {
+          "target_new": 10.117731094360352,
+          "target_true": 12.029753684997559,
+          "prompt": "Otis Taylor, who plays",
+          "p_new": 4.035758929326198e-05,
+          "p_old": 5.964092299961247e-06
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 0.0
+      }
+    },
+    "20019": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.0012232924345880747,
+          "target_true": 8.208581924438477,
+          "prompt": "Gary Unmarried is to debut on",
+          "p_new": 0.9987774554825973,
+          "p_old": 0.0002723065989562473
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.0010320581495761871,
+          "target_true": 8.950185775756836,
+          "prompt": "However, Amadeus' sons rebelled against the king. Gary Unmarried premiered on",
+          "p_new": 0.998968474239268,
+          "p_old": 0.00012971306026530349
+        },
+        {
+          "target_new": 0.0072856927290558815,
+          "target_true": 6.338029384613037,
+          "prompt": "(1962). Gary Unmarried debuted on",
+          "p_new": 0.9927407835917493,
+          "p_old": 0.0017677824259003303
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 2.022677183151245,
+          "target_true": 1.5059622526168823,
+          "prompt": "The Young and the Restless debuted on",
+          "p_new": 0.13230079707153167,
+          "p_old": 0.22180375986325304
+        },
+        {
+          "target_new": 3.0307819843292236,
+          "target_true": 3.452516794204712,
+          "prompt": "Mr. Merlin premiered on",
+          "p_new": 0.04827787082284095,
+          "p_old": 0.031665839602558886
+        },
+        {
+          "target_new": 2.662491798400879,
+          "target_true": 3.5578432083129883,
+          "prompt": "The Little Mermaid was originally aired on",
+          "p_new": 0.06977414185363742,
+          "p_old": 0.028500227527652723
+        },
+        {
+          "target_new": 3.45501708984375,
+          "target_true": 3.581120252609253,
+          "prompt": "Cybill premiered on",
+          "p_new": 0.03158676453860757,
+          "p_old": 0.02784448791653751
+        },
+        {
+          "target_new": 3.751936674118042,
+          "target_true": 3.9758670330047607,
+          "prompt": "Murder, She Wrote premieres on",
+          "p_new": 0.023472243721919885,
+          "p_old": 0.01876302627707714
+        },
+        {
+          "target_new": 3.698507308959961,
+          "target_true": 3.5958986282348633,
+          "prompt": "Mr. Merlin is to debut on",
+          "p_new": 0.02476045861406239,
+          "p_old": 0.02743601731514488
+        },
+        {
+          "target_new": 4.07982063293457,
+          "target_true": 2.994880437850952,
+          "prompt": "CBS News debuted on",
+          "p_new": 0.01691049856719761,
+          "p_old": 0.050042609930905604
+        },
+        {
+          "target_new": 2.7097575664520264,
+          "target_true": 2.855262517929077,
+          "prompt": "The King of Queens premiered on",
+          "p_new": 0.06655293942461561,
+          "p_old": 0.05754071366899831
+        },
+        {
+          "target_new": 4.09495210647583,
+          "target_true": 4.195240020751953,
+          "prompt": "Mr. Merlin premieres on",
+          "p_new": 0.016656544004398522,
+          "p_old": 0.015067125605228575
+        },
+        {
+          "target_new": 3.852963924407959,
+          "target_true": 2.6564011573791504,
+          "prompt": "Latin Grammy Awards premiered on",
+          "p_new": 0.02121675828549922,
+          "p_old": 0.0702004079032848
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 5.573956489562988,
+          "target_true": 5.053668022155762,
+          "prompt": "Cartoon All-Stars to the Rescue premiered on",
+          "p_new": 0.003795434091503963,
+          "p_old": 0.006385866933327143
+        },
+        {
+          "target_new": 4.529994010925293,
+          "target_true": 4.383970260620117,
+          "prompt": "Patterns of Force was originally aired on",
+          "p_new": 0.010780740639210824,
+          "p_old": 0.012475728270894186
+        },
+        {
+          "target_new": 3.242584228515625,
+          "target_true": 3.205805778503418,
+          "prompt": "The City on the Edge of Forever was originally aired on",
+          "p_new": 0.03906281730480012,
+          "p_old": 0.04052623331029557
+        },
+        {
+          "target_new": 2.8096089363098145,
+          "target_true": 2.702986240386963,
+          "prompt": "The Voice was originally aired on",
+          "p_new": 0.060228540983065376,
+          "p_old": 0.0670051202823234
+        },
+        {
+          "target_new": 4.999546051025391,
+          "target_true": 5.1240153312683105,
+          "prompt": "Friends, season 7 is to debut on",
+          "p_new": 0.006741006377564999,
+          "p_old": 0.005952075294365672
+        },
+        {
+          "target_new": 2.388026475906372,
+          "target_true": 3.686577081680298,
+          "prompt": "NBC Nightly News premieres on",
+          "p_new": 0.09181069582329635,
+          "p_old": 0.02505762562320841
+        },
+        {
+          "target_new": 5.5529303550720215,
+          "target_true": 5.081780910491943,
+          "prompt": "Patterns of Force is to debut on",
+          "p_new": 0.003876082287894543,
+          "p_old": 0.006208841772527216
+        },
+        {
+          "target_new": 3.891453266143799,
+          "target_true": 4.222349166870117,
+          "prompt": "Camp Cucamonga is to debut on",
+          "p_new": 0.020415655088393908,
+          "p_old": 0.01466415546231424
+        },
+        {
+          "target_new": 2.1562187671661377,
+          "target_true": 2.4653635025024414,
+          "prompt": "Freaks and Geeks was originally aired on",
+          "p_new": 0.11576201765566647,
+          "p_old": 0.08497794706036947
+        },
+        {
+          "target_new": 6.148441791534424,
+          "target_true": 5.000515460968018,
+          "prompt": "Jeopardy! was released on",
+          "p_new": 0.0021368087708001434,
+          "p_old": 0.006734474745385376
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 40.0
+      }
+    }
+  },
+  "seeds": {
+    "4347": 4379,
+    "20019": 20051
+  },
+  "edit_seconds": [
+    3.1385910760000115,
+    3.427119883999694
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "20019": true,
+      "4347": true
+    },
+    "eligible_prior_case_ids": [
+      20019
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 15.614250228999481,
+  "completed_at_utc": "2026-11-28T08:15:09.235700+00:00"
+}

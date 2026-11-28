@@ -1,0 +1,1588 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      16243,
+      6525
+    ],
+    "group_id": "group_109",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "distinct"
+      }
+    ],
+    "relation_ids": [
+      "P106",
+      "P27"
+    ],
+    "size": 2,
+    "subject": "Yakubu Gowon"
+  },
+  "order": "reverse",
+  "edit_order": [
+    6525,
+    16243
+  ],
+  "facts": {
+    "16243": {
+      "case_id": 16243,
+      "requested_rewrite": {
+        "prompt": "The occupation of {} is",
+        "relation_id": "P106",
+        "target_new": {
+          "str": "comedian",
+          "id": "Q245068"
+        },
+        "target_true": {
+          "str": "politician",
+          "id": "Q82955"
+        },
+        "subject": "Yakubu Gowon"
+      },
+      "prompts": {
+        "rewrite": [
+          "The occupation of Yakubu Gowon is"
+        ],
+        "paraphrase": [
+          "Manifesto, 1997. Yakubu Gowon, who works as",
+          "CBC. The profession of Yakubu Gowon is"
+        ],
+        "neighborhood": [
+          "Angela Merkel's profession is a",
+          "Julius Caesar, who works as",
+          "The profession of George Washington is",
+          "The occupation of Abraham Lincoln is",
+          "Julius Caesar's occupation is",
+          "The profession of Joseph Stalin is",
+          "The occupation of Giuseppe Garibaldi is",
+          "Jawaharlal Nehru, who works as",
+          "John Paul II, who works as",
+          "Mohandas Karamchand Gandhi's profession is an"
+        ],
+        "attribute": [
+          "The occupation of Terry Gilliam is",
+          "The occupation of Douglas Adams is",
+          "Tot\u00f2's profession is a",
+          "Roberto Benigni works as",
+          "Ricky Gervais's profession is an",
+          "Tom Hanks works as",
+          "Maya Angelou works as",
+          "Woody Allen's profession is a",
+          "The profession of Tina Fey is",
+          "The occupation of Woody Allen is"
+        ]
+      }
+    },
+    "6525": {
+      "case_id": 6525,
+      "requested_rewrite": {
+        "prompt": "{} holds a citizenship from",
+        "relation_id": "P27",
+        "target_new": {
+          "str": "Slovakia",
+          "id": "Q214"
+        },
+        "target_true": {
+          "str": "Nigeria",
+          "id": "Q1033"
+        },
+        "subject": "Yakubu Gowon"
+      },
+      "prompts": {
+        "rewrite": [
+          "Yakubu Gowon holds a citizenship from"
+        ],
+        "paraphrase": [
+          "The G.I. Yakubu Gowon is a citizen of",
+          "References\n\nFurther reading \n\nCategory:Genes on human chromosome 20 Yakubu Gowon, who is a citizen of"
+        ],
+        "neighborhood": [
+          "Ade Akinbiyi, who has a citizenship from",
+          "Ibrahim Babangida, who holds a citizenship from",
+          "Celestine Babayaro has a citizenship from",
+          "Dele Adeleye, who has a citizenship from",
+          "Ken Saro-Wiwa has a citizenship from",
+          "Abubakar Tafawa Balewa holds a citizenship from",
+          "Chidi Odiah, a citizen of",
+          "Celestine Babayaro, who holds a citizenship from",
+          "Christopher Okigbo holds a citizenship from",
+          "Victor Anichebe has a citizenship from"
+        ],
+        "attribute": [
+          "Jozef Kroner, who holds a citizenship from",
+          "Mari\u00e1n \u0160\u0165astn\u00fd has a citizenship from",
+          "Vladim\u00edr Jano\u010dko, a citizen of",
+          "Martin Velits, who is a citizen of",
+          "Libor Charfreitag, who is a citizen of",
+          "Tom\u00e1\u0161 Petr\u00edk is a citizen of",
+          "Vratislav Gre\u0161ko is a citizen of",
+          "Vratislav Gre\u0161ko holds a citizenship from",
+          "Martin Velits, a citizen of",
+          "Vratislav Gre\u0161ko, who is a citizen of"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "16243": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 17.492353439331055,
+              "target_true": 16.23239517211914,
+              "prompt": "The occupation of Yakubu Gowon is",
+              "p_new": 2.5302732595171666e-08,
+              "p_old": 8.91990745763251e-08
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 13.270156860351562,
+              "target_true": 12.830592155456543,
+              "prompt": "Manifesto, 1997. Yakubu Gowon, who works as",
+              "p_new": 1.725218480132844e-06,
+              "p_old": 2.6775933906009084e-06
+            },
+            {
+              "target_new": 15.703023910522461,
+              "target_true": 14.900930404663086,
+              "prompt": "CBC. The profession of Yakubu Gowon is",
+              "p_new": 1.514479386206129e-07,
+              "p_old": 3.3775994872240025e-07
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.335749626159668,
+              "target_true": 4.069637298583984,
+              "prompt": "Angela Merkel's profession is a",
+              "p_new": 3.245196291620524e-05,
+              "p_old": 0.017083583623899147
+            },
+            {
+              "target_new": 11.246848106384277,
+              "target_true": 10.80687141418457,
+              "prompt": "Julius Caesar, who works as",
+              "p_new": 1.3048359950502055e-05,
+              "p_old": 2.0259810467759254e-05
+            },
+            {
+              "target_new": 16.439699172973633,
+              "target_true": 14.918495178222656,
+              "prompt": "The profession of George Washington is",
+              "p_new": 7.249855741748305e-08,
+              "p_old": 3.3187907104517533e-07
+            },
+            {
+              "target_new": 15.840835571289062,
+              "target_true": 15.083581924438477,
+              "prompt": "The occupation of Abraham Lincoln is",
+              "p_new": 1.319509504007454e-07,
+              "p_old": 2.8137376568965945e-07
+            },
+            {
+              "target_new": 15.465409278869629,
+              "target_true": 14.729925155639648,
+              "prompt": "Julius Caesar's occupation is",
+              "p_new": 1.9206936024663083e-07,
+              "p_old": 4.007511580958763e-07
+            },
+            {
+              "target_new": 15.236385345458984,
+              "target_true": 13.290716171264648,
+              "prompt": "The profession of Joseph Stalin is",
+              "p_new": 2.4150266095700376e-07,
+              "p_old": 1.6901113032873002e-06
+            },
+            {
+              "target_new": 16.4549560546875,
+              "target_true": 15.684215545654297,
+              "prompt": "The occupation of Giuseppe Garibaldi is",
+              "p_new": 7.140085058708127e-08,
+              "p_old": 1.5432338314732067e-07
+            },
+            {
+              "target_new": 12.442313194274902,
+              "target_true": 11.474825859069824,
+              "prompt": "Jawaharlal Nehru, who works as",
+              "p_new": 3.947953580155303e-06,
+              "p_old": 1.038834701791198e-05
+            },
+            {
+              "target_new": 13.593728065490723,
+              "target_true": 14.62527084350586,
+              "prompt": "John Paul II, who works as",
+              "p_new": 1.2482998337248073e-06,
+              "p_old": 4.4496471791582287e-07
+            },
+            {
+              "target_new": 16.806333541870117,
+              "target_true": 13.759437561035156,
+              "prompt": "Mohandas Karamchand Gandhi's profession is an",
+              "p_new": 5.0246067997734975e-08,
+              "p_old": 1.0576748879375667e-06
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 14.800935745239258,
+              "target_true": 15.214279174804688,
+              "prompt": "The occupation of Terry Gilliam is",
+              "p_new": 3.732804790805635e-07,
+              "p_old": 2.469008063250133e-07
+            },
+            {
+              "target_new": 14.979951858520508,
+              "target_true": 15.83950424194336,
+              "prompt": "The occupation of Douglas Adams is",
+              "p_new": 3.120969817420504e-07,
+              "p_old": 1.3212673756254656e-07
+            },
+            {
+              "target_new": 8.707854270935059,
+              "target_true": 6.9357500076293945,
+              "prompt": "Tot\u00f2's profession is a",
+              "p_new": 0.00016528252577171452,
+              "p_old": 0.000972393492616841
+            },
+            {
+              "target_new": 9.638373374938965,
+              "target_true": 13.178709030151367,
+              "prompt": "Roberto Benigni works as",
+              "p_new": 6.517899034458395e-05,
+              "p_old": 1.890424728337337e-06
+            },
+            {
+              "target_new": 10.735269546508789,
+              "target_true": 14.0444974899292,
+              "prompt": "Ricky Gervais's profession is an",
+              "p_new": 2.1763647052413343e-05,
+              "p_old": 7.953389269541767e-07
+            },
+            {
+              "target_new": 8.959028244018555,
+              "target_true": 11.909942626953125,
+              "prompt": "Tom Hanks works as",
+              "p_new": 0.0001285711328159187,
+              "p_old": 6.723224871466205e-06
+            },
+            {
+              "target_new": 10.559247016906738,
+              "target_true": 13.052352905273438,
+              "prompt": "Maya Angelou works as",
+              "p_new": 2.5952385730674464e-05,
+              "p_old": 2.1450388255181626e-06
+            },
+            {
+              "target_new": 6.953972816467285,
+              "target_true": 8.775299072265625,
+              "prompt": "Woody Allen's profession is a",
+              "p_new": 0.0009548342273599243,
+              "p_old": 0.00015450268667961092
+            },
+            {
+              "target_new": 11.975897789001465,
+              "target_true": 13.20787525177002,
+              "prompt": "The profession of Tina Fey is",
+              "p_new": 6.29410051800047e-06,
+              "p_old": 1.836084483640275e-06
+            },
+            {
+              "target_new": 14.407638549804688,
+              "target_true": 14.546751022338867,
+              "prompt": "The occupation of Woody Allen is",
+              "p_new": 5.531489349996489e-07,
+              "p_old": 4.813115697721168e-07
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 90.0
+          }
+        },
+        "6525": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 8.831649780273438,
+              "target_true": 3.10239315032959,
+              "prompt": "Yakubu Gowon holds a citizenship from",
+              "p_new": 0.00014603711148929876,
+              "p_old": 0.044941521779342686
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 10.906975746154785,
+              "target_true": 5.7649712562561035,
+              "prompt": "The G.I. Yakubu Gowon is a citizen of",
+              "p_new": 1.83299220968934e-05,
+              "p_old": 0.003135485488077618
+            },
+            {
+              "target_new": 10.389785766601562,
+              "target_true": 3.907834529876709,
+              "prompt": "References\n\nFurther reading \n\nCategory:Genes on human chromosome 20 Yakubu Gowon, who is a citizen of",
+              "p_new": 3.0744920430729494e-05,
+              "p_old": 0.02008394518949254
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.058122634887695,
+              "target_true": 2.126934289932251,
+              "prompt": "Ade Akinbiyi, who has a citizenship from",
+              "p_new": 4.283638777627081e-05,
+              "p_old": 0.11920217356251826
+            },
+            {
+              "target_new": 8.51246452331543,
+              "target_true": 3.063953399658203,
+              "prompt": "Ibrahim Babangida, who holds a citizenship from",
+              "p_new": 0.00020094797317901433,
+              "p_old": 0.04670269535189204
+            },
+            {
+              "target_new": 7.929647445678711,
+              "target_true": 3.3024613857269287,
+              "prompt": "Celestine Babayaro has a citizenship from",
+              "p_new": 0.0003599132795474756,
+              "p_old": 0.03679249533467736
+            },
+            {
+              "target_new": 9.61320686340332,
+              "target_true": 2.409836769104004,
+              "prompt": "Dele Adeleye, who has a citizenship from",
+              "p_new": 6.684013306746103e-05,
+              "p_old": 0.0898299563998539
+            },
+            {
+              "target_new": 7.361122131347656,
+              "target_true": 3.7528278827667236,
+              "prompt": "Ken Saro-Wiwa has a citizenship from",
+              "p_new": 0.0006354849616977418,
+              "p_old": 0.023451334373990745
+            },
+            {
+              "target_new": 9.035748481750488,
+              "target_true": 2.0840587615966797,
+              "prompt": "Abubakar Tafawa Balewa holds a citizenship from",
+              "p_new": 0.0001190760156577426,
+              "p_old": 0.12442417788205247
+            },
+            {
+              "target_new": 10.06075668334961,
+              "target_true": 4.952053070068359,
+              "prompt": "Chidi Odiah, a citizen of",
+              "p_new": 4.272370312849883e-05,
+              "p_old": 0.0070688811126134905
+            },
+            {
+              "target_new": 8.182243347167969,
+              "target_true": 2.9255809783935547,
+              "prompt": "Celestine Babayaro, who holds a citizenship from",
+              "p_new": 0.00027957405444597403,
+              "p_old": 0.05363352294135824
+            },
+            {
+              "target_new": 10.217242240905762,
+              "target_true": 1.2841230630874634,
+              "prompt": "Christopher Okigbo holds a citizenship from",
+              "p_new": 3.6534912747777316e-05,
+              "p_old": 0.27689329514642397
+            },
+            {
+              "target_new": 6.938516616821289,
+              "target_true": 2.6763839721679688,
+              "prompt": "Victor Anichebe has a citizenship from",
+              "p_new": 0.0009697069778238658,
+              "p_old": 0.0688115292228932
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 3.764535665512085,
+              "target_true": 7.44455623626709,
+              "prompt": "Jozef Kroner, who holds a citizenship from",
+              "p_new": 0.023178372254599212,
+              "p_old": 0.0005846154739939045
+            },
+            {
+              "target_new": 3.516061305999756,
+              "target_true": 8.556921005249023,
+              "prompt": "Mari\u00e1n \u0160\u0165astn\u00fd has a citizenship from",
+              "p_new": 0.02971624817994024,
+              "p_old": 0.00019221019766813732
+            },
+            {
+              "target_new": 1.784276008605957,
+              "target_true": 11.029627799987793,
+              "prompt": "Vladim\u00edr Jano\u010dko, a citizen of",
+              "p_new": 0.16791858861546116,
+              "p_old": 1.6214124709016992e-05
+            },
+            {
+              "target_new": 5.260073184967041,
+              "target_true": 7.892479419708252,
+              "prompt": "Martin Velits, who is a citizen of",
+              "p_new": 0.005194924514413412,
+              "p_old": 0.000373542257821003
+            },
+            {
+              "target_new": 6.212037086486816,
+              "target_true": 7.268348693847656,
+              "prompt": "Libor Charfreitag, who is a citizen of",
+              "p_new": 0.0020051486396416495,
+              "p_old": 0.0006972624373838151
+            },
+            {
+              "target_new": 2.98779559135437,
+              "target_true": 12.376588821411133,
+              "prompt": "Tom\u00e1\u0161 Petr\u00edk is a citizen of",
+              "p_new": 0.050398413057526896,
+              "p_old": 4.216147247695483e-06
+            },
+            {
+              "target_new": 2.2187139987945557,
+              "target_true": 10.424272537231445,
+              "prompt": "Vratislav Gre\u0161ko is a citizen of",
+              "p_new": 0.10874887011716282,
+              "p_old": 2.970270207815681e-05
+            },
+            {
+              "target_new": 2.5744662284851074,
+              "target_true": 8.071643829345703,
+              "prompt": "Vratislav Gre\u0161ko holds a citizenship from",
+              "p_new": 0.07619448239047101,
+              "p_old": 0.00031226954109555373
+            },
+            {
+              "target_new": 5.470606803894043,
+              "target_true": 8.12645435333252,
+              "prompt": "Martin Velits, a citizen of",
+              "p_new": 0.004208677541078976,
+              "p_old": 0.0002956144893539574
+            },
+            {
+              "target_new": 1.8859212398529053,
+              "target_true": 9.747188568115234,
+              "prompt": "Vratislav Gre\u0161ko, who is a citizen of",
+              "p_new": 0.15168925285663598,
+              "p_old": 5.8458785808110166e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        6525
+      ],
+      "evaluations": {
+        "16243": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 15.864944458007812,
+              "target_true": 14.403831481933594,
+              "prompt": "The occupation of Yakubu Gowon is",
+              "p_new": 1.2880780104279662e-07,
+              "p_old": 5.552588242354235e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 14.211472511291504,
+              "target_true": 10.771571159362793,
+              "prompt": "Manifesto, 1997. Yakubu Gowon, who works as",
+              "p_new": 6.730323020900303e-07,
+              "p_old": 2.0987759747059126e-05
+            },
+            {
+              "target_new": 12.713871002197266,
+              "target_true": 11.432076454162598,
+              "prompt": "CBC. The profession of Yakubu Gowon is",
+              "p_new": 3.0090955616977946e-06,
+              "p_old": 1.0842071806408378e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.30905532836914,
+              "target_true": 4.066717624664307,
+              "prompt": "Angela Merkel's profession is a",
+              "p_new": 3.332991125151008e-05,
+              "p_old": 0.01713353500284547
+            },
+            {
+              "target_new": 11.25009822845459,
+              "target_true": 10.79470157623291,
+              "prompt": "Julius Caesar, who works as",
+              "p_new": 1.3006020030071215e-05,
+              "p_old": 2.050787547190371e-05
+            },
+            {
+              "target_new": 16.442819595336914,
+              "target_true": 14.921783447265625,
+              "prompt": "The profession of George Washington is",
+              "p_new": 7.227268389129128e-08,
+              "p_old": 3.3078955566142033e-07
+            },
+            {
+              "target_new": 15.835079193115234,
+              "target_true": 15.08152961730957,
+              "prompt": "The occupation of Abraham Lincoln is",
+              "p_new": 1.3271270032853994e-07,
+              "p_old": 2.819518240486203e-07
+            },
+            {
+              "target_new": 15.45722484588623,
+              "target_true": 14.736783027648926,
+              "prompt": "Julius Caesar's occupation is",
+              "p_new": 1.9364778951711882e-07,
+              "p_old": 3.9801226018602346e-07
+            },
+            {
+              "target_new": 15.235553741455078,
+              "target_true": 13.291200637817383,
+              "prompt": "The profession of Joseph Stalin is",
+              "p_new": 2.417035790673831e-07,
+              "p_old": 1.6892926991996204e-06
+            },
+            {
+              "target_new": 16.44217300415039,
+              "target_true": 15.67469596862793,
+              "prompt": "The occupation of Giuseppe Garibaldi is",
+              "p_new": 7.231942988286623e-08,
+              "p_old": 1.5579949129542017e-07
+            },
+            {
+              "target_new": 12.435097694396973,
+              "target_true": 11.444019317626953,
+              "prompt": "Jawaharlal Nehru, who works as",
+              "p_new": 3.976543058380537e-06,
+              "p_old": 1.071335656732236e-05
+            },
+            {
+              "target_new": 13.592203140258789,
+              "target_true": 14.63896656036377,
+              "prompt": "John Paul II, who works as",
+              "p_new": 1.2502048497726321e-06,
+              "p_old": 4.389121488711811e-07
+            },
+            {
+              "target_new": 16.797388076782227,
+              "target_true": 13.740937232971191,
+              "prompt": "Mohandas Karamchand Gandhi's profession is an",
+              "p_new": 5.069755883182141e-08,
+              "p_old": 1.0774243427583902e-06
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 14.76330852508545,
+              "target_true": 15.211108207702637,
+              "prompt": "The occupation of Terry Gilliam is",
+              "p_new": 3.875935782360689e-07,
+              "p_old": 2.4768496327021755e-07
+            },
+            {
+              "target_new": 14.97934627532959,
+              "target_true": 15.837837219238281,
+              "prompt": "The occupation of Douglas Adams is",
+              "p_new": 3.1228603966750276e-07,
+              "p_old": 1.323471795238385e-07
+            },
+            {
+              "target_new": 8.71098804473877,
+              "target_true": 6.935401916503906,
+              "prompt": "Tot\u00f2's profession is a",
+              "p_new": 0.000164765378456816,
+              "p_old": 0.0009727320330801506
+            },
+            {
+              "target_new": 9.623355865478516,
+              "target_true": 13.182229995727539,
+              "prompt": "Roberto Benigni works as",
+              "p_new": 6.61652031441141e-05,
+              "p_old": 1.8837803121891272e-06
+            },
+            {
+              "target_new": 10.709701538085938,
+              "target_true": 14.027836799621582,
+              "prompt": "Ricky Gervais's profession is an",
+              "p_new": 2.2327274879704974e-05,
+              "p_old": 8.087008226287011e-07
+            },
+            {
+              "target_new": 8.97768783569336,
+              "target_true": 11.954707145690918,
+              "prompt": "Tom Hanks works as",
+              "p_new": 0.00012619429237614453,
+              "p_old": 6.428899754116225e-06
+            },
+            {
+              "target_new": 10.562400817871094,
+              "target_true": 13.046944618225098,
+              "prompt": "Maya Angelou works as",
+              "p_new": 2.5870666003142648e-05,
+              "p_old": 2.156671238577268e-06
+            },
+            {
+              "target_new": 6.946564674377441,
+              "target_true": 8.76942253112793,
+              "prompt": "Woody Allen's profession is a",
+              "p_new": 0.0009619340407314664,
+              "p_old": 0.00015541330108469922
+            },
+            {
+              "target_new": 11.977587699890137,
+              "target_true": 13.212180137634277,
+              "prompt": "The profession of Tina Fey is",
+              "p_new": 6.2834730312826305e-06,
+              "p_old": 1.8281973383116916e-06
+            },
+            {
+              "target_new": 14.416950225830078,
+              "target_true": 14.556113243103027,
+              "prompt": "The occupation of Woody Allen is",
+              "p_new": 5.480220980897785e-07,
+              "p_old": 4.768264526881474e-07
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 90.0
+          }
+        },
+        "6525": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.0075927479192614555,
+              "target_true": 22.002443313598633,
+              "prompt": "Yakubu Gowon holds a citizenship from",
+              "p_new": 0.9924360041760641,
+              "p_old": 2.782660867024873e-10
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.01685965619981289,
+              "target_true": 20.936452865600586,
+              "prompt": "The G.I. Yakubu Gowon is a citizen of",
+              "p_new": 0.9832816724383812,
+              "p_old": 8.080050029954372e-10
+            },
+            {
+              "target_new": 0.015996688976883888,
+              "target_true": 24.831430435180664,
+              "prompt": "References\n\nFurther reading \n\nCategory:Genes on human chromosome 20 Yakubu Gowon, who is a citizen of",
+              "p_new": 0.9841305785289854,
+              "p_old": 1.6437917037978017e-11
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.020798683166504,
+              "target_true": 2.1204559803009033,
+              "prompt": "Ade Akinbiyi, who has a citizenship from",
+              "p_new": 4.446542295069784e-05,
+              "p_old": 0.1199769089298439
+            },
+            {
+              "target_new": 8.332220077514648,
+              "target_true": 3.0881478786468506,
+              "prompt": "Ibrahim Babangida, who holds a citizenship from",
+              "p_new": 0.00024063721814263618,
+              "p_old": 0.0455863076380834
+            },
+            {
+              "target_new": 7.833306789398193,
+              "target_true": 3.308802604675293,
+              "prompt": "Celestine Babayaro has a citizenship from",
+              "p_new": 0.00039631278816123415,
+              "p_old": 0.036559924237554414
+            },
+            {
+              "target_new": 9.65434455871582,
+              "target_true": 2.3960916996002197,
+              "prompt": "Dele Adeleye, who has a citizenship from",
+              "p_new": 6.414627351842384e-05,
+              "p_old": 0.0910732000558666
+            },
+            {
+              "target_new": 7.257274627685547,
+              "target_true": 3.8105921745300293,
+              "prompt": "Ken Saro-Wiwa has a citizenship from",
+              "p_new": 0.0007050268803762904,
+              "p_old": 0.02213506725216442
+            },
+            {
+              "target_new": 8.828895568847656,
+              "target_true": 2.091449737548828,
+              "prompt": "Abubakar Tafawa Balewa holds a citizenship from",
+              "p_new": 0.0001464398829746562,
+              "p_old": 0.1235079518486003
+            },
+            {
+              "target_new": 9.848470687866211,
+              "target_true": 4.950311660766602,
+              "prompt": "Chidi Odiah, a citizen of",
+              "p_new": 5.282792165172324e-05,
+              "p_old": 0.007081201652373777
+            },
+            {
+              "target_new": 8.063894271850586,
+              "target_true": 2.9473748207092285,
+              "prompt": "Celestine Babayaro, who holds a citizenship from",
+              "p_new": 0.00031469889290098235,
+              "p_old": 0.05247728756977212
+            },
+            {
+              "target_new": 9.993738174438477,
+              "target_true": 1.3280013799667358,
+              "prompt": "Christopher Okigbo holds a citizenship from",
+              "p_new": 4.5685108139959126e-05,
+              "p_old": 0.2650063794295182
+            },
+            {
+              "target_new": 7.109314918518066,
+              "target_true": 2.6627562046051025,
+              "prompt": "Victor Anichebe has a citizenship from",
+              "p_new": 0.0008174548234799623,
+              "p_old": 0.06975569557639949
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 3.631788730621338,
+              "target_true": 7.5858917236328125,
+              "prompt": "Jozef Kroner, who holds a citizenship from",
+              "p_new": 0.026468796492624434,
+              "p_old": 0.0005075619814179902
+            },
+            {
+              "target_new": 3.4968278408050537,
+              "target_true": 8.581785202026367,
+              "prompt": "Mari\u00e1n \u0160\u0165astn\u00fd has a citizenship from",
+              "p_new": 0.03029332642258723,
+              "p_old": 0.00018748997099212082
+            },
+            {
+              "target_new": 1.795815348625183,
+              "target_true": 11.068853378295898,
+              "prompt": "Vladim\u00edr Jano\u010dko, a citizen of",
+              "p_new": 0.16599205576216736,
+              "p_old": 1.559042867786715e-05
+            },
+            {
+              "target_new": 5.166958808898926,
+              "target_true": 7.967345237731934,
+              "prompt": "Martin Velits, who is a citizen of",
+              "p_new": 0.0057018829938382636,
+              "p_old": 0.0003465979006331173
+            },
+            {
+              "target_new": 6.151724815368652,
+              "target_true": 7.36423921585083,
+              "prompt": "Libor Charfreitag, who is a citizen of",
+              "p_new": 0.002129805079609595,
+              "p_old": 0.0006335071854209003
+            },
+            {
+              "target_new": 2.986811399459839,
+              "target_true": 12.38047981262207,
+              "prompt": "Tom\u00e1\u0161 Petr\u00edk is a citizen of",
+              "p_new": 0.05044803918396525,
+              "p_old": 4.1997741302957856e-06
+            },
+            {
+              "target_new": 2.243591070175171,
+              "target_true": 10.391761779785156,
+              "prompt": "Vratislav Gre\u0161ko is a citizen of",
+              "p_new": 0.1060768900313361,
+              "p_old": 3.0684228046853604e-05
+            },
+            {
+              "target_new": 2.605289936065674,
+              "target_true": 8.035542488098145,
+              "prompt": "Vratislav Gre\u0161ko holds a citizenship from",
+              "p_new": 0.07388171311867259,
+              "p_old": 0.0003237488529079909
+            },
+            {
+              "target_new": 5.371136665344238,
+              "target_true": 8.195980072021484,
+              "prompt": "Martin Velits, a citizen of",
+              "p_new": 0.004648844125964189,
+              "p_old": 0.0002757598796953637
+            },
+            {
+              "target_new": 1.9106788635253906,
+              "target_true": 9.710039138793945,
+              "prompt": "Vratislav Gre\u0161ko, who is a citizen of",
+              "p_new": 0.1479798943363011,
+              "p_old": 6.0671339439487635e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        6525,
+        16243
+      ],
+      "evaluations": {
+        "16243": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.010816868394613266,
+              "target_true": 12.104569435119629,
+              "prompt": "The occupation of Yakubu Gowon is",
+              "p_new": 0.9892414235582063,
+              "p_old": 5.534167358880405e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.5314190983772278,
+              "target_true": 10.996891021728516,
+              "prompt": "Manifesto, 1997. Yakubu Gowon, who works as",
+              "p_new": 0.5877702737189758,
+              "p_old": 1.6753706816011668e-05
+            },
+            {
+              "target_new": 0.008547035045921803,
+              "target_true": 12.226263046264648,
+              "prompt": "CBC. The profession of Yakubu Gowon is",
+              "p_new": 0.9914893870173664,
+              "p_old": 4.9000603026279785e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.280540466308594,
+              "target_true": 4.042929172515869,
+              "prompt": "Angela Merkel's profession is a",
+              "p_new": 3.429398902245878e-05,
+              "p_old": 0.017546001803028382
+            },
+            {
+              "target_new": 11.33462142944336,
+              "target_true": 10.825067520141602,
+              "prompt": "Julius Caesar, who works as",
+              "p_new": 1.1951886458098494e-05,
+              "p_old": 1.989449455293225e-05
+            },
+            {
+              "target_new": 16.390928268432617,
+              "target_true": 14.920537948608398,
+              "prompt": "The profession of George Washington is",
+              "p_new": 7.612201919243506e-08,
+              "p_old": 3.3120181028681933e-07
+            },
+            {
+              "target_new": 15.747774124145508,
+              "target_true": 15.060522079467773,
+              "prompt": "The occupation of Abraham Lincoln is",
+              "p_new": 1.4482001750008296e-07,
+              "p_old": 2.8793759063770095e-07
+            },
+            {
+              "target_new": 15.483148574829102,
+              "target_true": 14.755902290344238,
+              "prompt": "Julius Caesar's occupation is",
+              "p_new": 1.8869222755854285e-07,
+              "p_old": 3.904748437547348e-07
+            },
+            {
+              "target_new": 15.220459938049316,
+              "target_true": 13.292263984680176,
+              "prompt": "The profession of Joseph Stalin is",
+              "p_new": 2.4537947722682404e-07,
+              "p_old": 1.6874973498163225e-06
+            },
+            {
+              "target_new": 16.30463218688965,
+              "target_true": 15.650721549987793,
+              "prompt": "The occupation of Giuseppe Garibaldi is",
+              "p_new": 8.298282428497856e-08,
+              "p_old": 1.595798281449569e-07
+            },
+            {
+              "target_new": 12.318005561828613,
+              "target_true": 11.39566421508789,
+              "prompt": "Jawaharlal Nehru, who works as",
+              "p_new": 4.470521176551267e-06,
+              "p_old": 1.1244131441240372e-05
+            },
+            {
+              "target_new": 13.643468856811523,
+              "target_true": 14.624491691589355,
+              "prompt": "John Paul II, who works as",
+              "p_new": 1.1877273617813393e-06,
+              "p_old": 4.4531154812772967e-07
+            },
+            {
+              "target_new": 16.759153366088867,
+              "target_true": 13.730088233947754,
+              "prompt": "Mohandas Karamchand Gandhi's profession is an",
+              "p_new": 5.267349937211274e-08,
+              "p_old": 1.089176955166998e-06
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 14.456681251525879,
+              "target_true": 15.195791244506836,
+              "prompt": "The occupation of Terry Gilliam is",
+              "p_new": 5.26675487389483e-07,
+              "p_old": 2.515079482548883e-07
+            },
+            {
+              "target_new": 14.87366008758545,
+              "target_true": 15.852025985717773,
+              "prompt": "The occupation of Douglas Adams is",
+              "p_new": 3.4709751008472786e-07,
+              "p_old": 1.304825956534814e-07
+            },
+            {
+              "target_new": 8.676286697387695,
+              "target_true": 6.933586597442627,
+              "prompt": "Tot\u00f2's profession is a",
+              "p_new": 0.00017058332048896997,
+              "p_old": 0.0009744994558140458
+            },
+            {
+              "target_new": 9.682723999023438,
+              "target_true": 13.184496879577637,
+              "prompt": "Roberto Benigni works as",
+              "p_new": 6.235142700923201e-05,
+              "p_old": 1.8795148375167226e-06
+            },
+            {
+              "target_new": 10.576189041137695,
+              "target_true": 14.000397682189941,
+              "prompt": "Ricky Gervais's profession is an",
+              "p_new": 2.551640342255147e-05,
+              "p_old": 8.31198100686441e-07
+            },
+            {
+              "target_new": 9.423981666564941,
+              "target_true": 12.139006614685059,
+              "prompt": "Tom Hanks works as",
+              "p_new": 8.076380372039427e-05,
+              "p_old": 5.34683043494928e-06
+            },
+            {
+              "target_new": 10.711189270019531,
+              "target_true": 13.091076850891113,
+              "prompt": "Maya Angelou works as",
+              "p_new": 2.2294082576623105e-05,
+              "p_old": 2.063562188353178e-06
+            },
+            {
+              "target_new": 6.836352825164795,
+              "target_true": 8.748086929321289,
+              "prompt": "Woody Allen's profession is a",
+              "p_new": 0.0010740133796860788,
+              "p_old": 0.0001587647629870426
+            },
+            {
+              "target_new": 11.892565727233887,
+              "target_true": 13.166614532470703,
+              "prompt": "The profession of Tina Fey is",
+              "p_new": 6.8410746422266005e-06,
+              "p_old": 1.913427287635199e-06
+            },
+            {
+              "target_new": 14.206504821777344,
+              "target_true": 14.563697814941406,
+              "prompt": "The occupation of Woody Allen is",
+              "p_new": 6.76384035893428e-07,
+              "p_old": 4.7322360848995357e-07
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 90.0
+          }
+        },
+        "6525": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 12.403535842895508,
+              "target_true": 10.957906723022461,
+              "prompt": "Yakubu Gowon holds a citizenship from",
+              "p_new": 4.104051740276172e-06,
+              "p_old": 1.7419736324469656e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 14.543159484863281,
+              "target_true": 12.746554374694824,
+              "prompt": "The G.I. Yakubu Gowon is a citizen of",
+              "p_new": 4.8304332628508e-07,
+              "p_old": 2.91233796575733e-06
+            },
+            {
+              "target_new": 14.337717056274414,
+              "target_true": 13.668037414550781,
+              "prompt": "References\n\nFurther reading \n\nCategory:Genes on human chromosome 20 Yakubu Gowon, who is a citizen of",
+              "p_new": 5.932101855736012e-07,
+              "p_old": 1.1589021602556826e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.997200965881348,
+              "target_true": 2.0879576206207275,
+              "prompt": "Ade Akinbiyi, who has a citizenship from",
+              "p_new": 4.552718372588521e-05,
+              "p_old": 0.12394001001775432
+            },
+            {
+              "target_new": 8.435646057128906,
+              "target_true": 3.032735586166382,
+              "prompt": "Ibrahim Babangida, who holds a citizenship from",
+              "p_new": 0.0002169928710800979,
+              "p_old": 0.04818364715344171
+            },
+            {
+              "target_new": 7.8398332595825195,
+              "target_true": 3.2811574935913086,
+              "prompt": "Celestine Babayaro has a citizenship from",
+              "p_new": 0.0003937346866680359,
+              "p_old": 0.03758472753835465
+            },
+            {
+              "target_new": 9.640113830566406,
+              "target_true": 2.3609440326690674,
+              "prompt": "Dele Adeleye, who has a citizenship from",
+              "p_new": 6.506564786643601e-05,
+              "p_old": 0.09433112948128987
+            },
+            {
+              "target_new": 7.27448844909668,
+              "target_true": 3.789645195007324,
+              "prompt": "Ken Saro-Wiwa has a citizenship from",
+              "p_new": 0.000692994532028212,
+              "p_old": 0.02260362030588093
+            },
+            {
+              "target_new": 8.93066120147705,
+              "target_true": 2.0378713607788086,
+              "prompt": "Abubakar Tafawa Balewa holds a citizenship from",
+              "p_new": 0.00013227053813487927,
+              "p_old": 0.13030578988828373
+            },
+            {
+              "target_new": 9.90097427368164,
+              "target_true": 5.0045928955078125,
+              "prompt": "Chidi Odiah, a citizen of",
+              "p_new": 5.012582198936674e-05,
+              "p_old": 0.006707071271353227
+            },
+            {
+              "target_new": 8.086874008178711,
+              "target_true": 2.9115562438964844,
+              "prompt": "Celestine Babayaro, who holds a citizenship from",
+              "p_new": 0.00030754965373924113,
+              "p_old": 0.05439101828011802
+            },
+            {
+              "target_new": 9.999401092529297,
+              "target_true": 1.3209350109100342,
+              "prompt": "Christopher Okigbo holds a citizenship from",
+              "p_new": 4.542712826346873e-05,
+              "p_old": 0.2668856442785762
+            },
+            {
+              "target_new": 7.022876262664795,
+              "target_true": 2.687809467315674,
+              "prompt": "Victor Anichebe has a citizenship from",
+              "p_new": 0.000891258309671368,
+              "p_old": 0.06802979776816545
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 3.6537134647369385,
+              "target_true": 7.522303581237793,
+              "prompt": "Jozef Kroner, who holds a citizenship from",
+              "p_new": 0.02589479062344063,
+              "p_old": 0.0005408851567442445
+            },
+            {
+              "target_new": 3.4969632625579834,
+              "target_true": 8.57544994354248,
+              "prompt": "Mari\u00e1n \u0160\u0165astn\u00fd has a citizenship from",
+              "p_new": 0.030289224324983908,
+              "p_old": 0.0001886815388814372
+            },
+            {
+              "target_new": 1.8010177612304688,
+              "target_true": 11.05938720703125,
+              "prompt": "Vladim\u00edr Jano\u010dko, a citizen of",
+              "p_new": 0.16513073900410688,
+              "p_old": 1.5738711071812103e-05
+            },
+            {
+              "target_new": 5.182478904724121,
+              "target_true": 7.966127872467041,
+              "prompt": "Martin Velits, who is a citizen of",
+              "p_new": 0.005614072400397926,
+              "p_old": 0.0003470200938077456
+            },
+            {
+              "target_new": 6.233264923095703,
+              "target_true": 7.349681854248047,
+              "prompt": "Libor Charfreitag, who is a citizen of",
+              "p_new": 0.001963032273147606,
+              "p_old": 0.0006427968309092367
+            },
+            {
+              "target_new": 2.988618850708008,
+              "target_true": 12.382169723510742,
+              "prompt": "Tom\u00e1\u0161 Petr\u00edk is a citizen of",
+              "p_new": 0.050356939166795456,
+              "p_old": 4.1926828797413986e-06
+            },
+            {
+              "target_new": 2.2474424839019775,
+              "target_true": 10.395139694213867,
+              "prompt": "Vratislav Gre\u0161ko is a citizen of",
+              "p_new": 0.10566912977174168,
+              "p_old": 3.058075421147004e-05
+            },
+            {
+              "target_new": 2.5988576412200928,
+              "target_true": 8.036307334899902,
+              "prompt": "Vratislav Gre\u0161ko holds a citizenship from",
+              "p_new": 0.0743584737698815,
+              "p_old": 0.0003235013293041564
+            },
+            {
+              "target_new": 5.381796360015869,
+              "target_true": 8.18460464477539,
+              "prompt": "Martin Velits, a citizen of",
+              "p_new": 0.004599552052979515,
+              "p_old": 0.00027891467570121596
+            },
+            {
+              "target_new": 1.9180954694747925,
+              "target_true": 9.722649574279785,
+              "prompt": "Vratislav Gre\u0161ko, who is a citizen of",
+              "p_new": 0.14688644562287734,
+              "p_old": 5.991105128526008e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "16243": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.08589092642068863,
+          "target_true": 10.49180793762207,
+          "prompt": "The occupation of Yakubu Gowon is",
+          "p_new": 0.9176943219658343,
+          "p_old": 2.7762956172762735e-05
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 7.1114726066589355,
+          "target_true": 12.869194030761719,
+          "prompt": "Manifesto, 1997. Yakubu Gowon, who works as",
+          "p_new": 0.0008156929124125163,
+          "p_old": 2.576202788023641e-06
+        },
+        {
+          "target_new": 0.28300097584724426,
+          "target_true": 10.376104354858398,
+          "prompt": "CBC. The profession of Yakubu Gowon is",
+          "p_new": 0.7535190525398675,
+          "p_old": 3.116844494650271e-05
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 10.33119010925293,
+          "target_true": 4.05117130279541,
+          "prompt": "Angela Merkel's profession is a",
+          "p_new": 3.260026602812649e-05,
+          "p_old": 0.017401979710026275
+        },
+        {
+          "target_new": 11.2706880569458,
+          "target_true": 10.821670532226562,
+          "prompt": "Julius Caesar, who works as",
+          "p_new": 1.274096637679037e-05,
+          "p_old": 1.9962190827118453e-05
+        },
+        {
+          "target_new": 16.418670654296875,
+          "target_true": 14.914813995361328,
+          "prompt": "The profession of George Washington is",
+          "p_new": 7.403923701760278e-08,
+          "p_old": 3.3310303001977416e-07
+        },
+        {
+          "target_new": 15.815756797790527,
+          "target_true": 15.080500602722168,
+          "prompt": "The occupation of Abraham Lincoln is",
+          "p_new": 1.3530196240260913e-07,
+          "p_old": 2.8224210591503427e-07
+        },
+        {
+          "target_new": 15.48449993133545,
+          "target_true": 14.746512413024902,
+          "prompt": "Julius Caesar's occupation is",
+          "p_new": 1.8843740930306644e-07,
+          "p_old": 3.9415862268352177e-07
+        },
+        {
+          "target_new": 15.2321195602417,
+          "target_true": 13.288514137268066,
+          "prompt": "The profession of Joseph Stalin is",
+          "p_new": 2.4253505986851685e-07,
+          "p_old": 1.6938370864802614e-06
+        },
+        {
+          "target_new": 16.414695739746094,
+          "target_true": 15.675638198852539,
+          "prompt": "The occupation of Giuseppe Garibaldi is",
+          "p_new": 7.433412234187167e-08,
+          "p_old": 1.5565276144324917e-07
+        },
+        {
+          "target_new": 12.393010139465332,
+          "target_true": 11.450586318969727,
+          "prompt": "Jawaharlal Nehru, who works as",
+          "p_new": 4.147477916348643e-06,
+          "p_old": 1.0643232444973301e-05
+        },
+        {
+          "target_new": 13.60107421875,
+          "target_true": 14.615270614624023,
+          "prompt": "John Paul II, who works as",
+          "p_new": 1.2391632323584452e-06,
+          "p_old": 4.494367905453426e-07
+        },
+        {
+          "target_new": 16.789369583129883,
+          "target_true": 13.77413272857666,
+          "prompt": "Mohandas Karamchand Gandhi's profession is an",
+          "p_new": 5.110571108173065e-08,
+          "p_old": 1.0422458222626913e-06
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 14.632180213928223,
+          "target_true": 15.229315757751465,
+          "prompt": "The occupation of Terry Gilliam is",
+          "p_new": 4.4190088860942575e-07,
+          "p_old": 2.432160344863975e-07
+        },
+        {
+          "target_new": 14.94777774810791,
+          "target_true": 15.840659141540527,
+          "prompt": "The occupation of Douglas Adams is",
+          "p_new": 3.2230170820004093e-07,
+          "p_old": 1.3197423252751304e-07
+        },
+        {
+          "target_new": 8.689859390258789,
+          "target_true": 6.928847789764404,
+          "prompt": "Tot\u00f2's profession is a",
+          "p_new": 0.0001682836868840748,
+          "p_old": 0.000979128380447105
+        },
+        {
+          "target_new": 9.67042350769043,
+          "target_true": 13.18429946899414,
+          "prompt": "Roberto Benigni works as",
+          "p_new": 6.312311654716772e-05,
+          "p_old": 1.879885910263125e-06
+        },
+        {
+          "target_new": 10.666074752807617,
+          "target_true": 14.02293872833252,
+          "prompt": "Ricky Gervais's profession is an",
+          "p_new": 2.3322902207063108e-05,
+          "p_old": 8.126716135794007e-07
+        },
+        {
+          "target_new": 9.070123672485352,
+          "target_true": 11.990805625915527,
+          "prompt": "Tom Hanks works as",
+          "p_new": 0.00011505230896133705,
+          "p_old": 6.200965043083449e-06
+        },
+        {
+          "target_new": 10.600886344909668,
+          "target_true": 13.064945220947266,
+          "prompt": "Maya Angelou works as",
+          "p_new": 2.4893935337317052e-05,
+          "p_old": 2.1181971734537273e-06
+        },
+        {
+          "target_new": 6.913422584533691,
+          "target_true": 8.763537406921387,
+          "prompt": "Woody Allen's profession is a",
+          "p_new": 0.0009943487233300679,
+          "p_old": 0.00015633062429785635
+        },
+        {
+          "target_new": 11.938017845153809,
+          "target_true": 13.180974960327148,
+          "prompt": "The profession of Tina Fey is",
+          "p_new": 6.537093925466597e-06,
+          "p_old": 1.8861460073725644e-06
+        },
+        {
+          "target_new": 14.333123207092285,
+          "target_true": 14.534834861755371,
+          "prompt": "The occupation of Woody Allen is",
+          "p_new": 5.959415726861829e-07,
+          "p_old": 4.870812637561413e-07
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 90.0
+      }
+    },
+    "6525": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.0075927479192614555,
+          "target_true": 22.002443313598633,
+          "prompt": "Yakubu Gowon holds a citizenship from",
+          "p_new": 0.9924360041760641,
+          "p_old": 2.782660867024873e-10
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.01685965619981289,
+          "target_true": 20.936452865600586,
+          "prompt": "The G.I. Yakubu Gowon is a citizen of",
+          "p_new": 0.9832816724383812,
+          "p_old": 8.080050029954372e-10
+        },
+        {
+          "target_new": 0.015996688976883888,
+          "target_true": 24.831430435180664,
+          "prompt": "References\n\nFurther reading \n\nCategory:Genes on human chromosome 20 Yakubu Gowon, who is a citizen of",
+          "p_new": 0.9841305785289854,
+          "p_old": 1.6437917037978017e-11
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 10.020798683166504,
+          "target_true": 2.1204559803009033,
+          "prompt": "Ade Akinbiyi, who has a citizenship from",
+          "p_new": 4.446542295069784e-05,
+          "p_old": 0.1199769089298439
+        },
+        {
+          "target_new": 8.332220077514648,
+          "target_true": 3.0881478786468506,
+          "prompt": "Ibrahim Babangida, who holds a citizenship from",
+          "p_new": 0.00024063721814263618,
+          "p_old": 0.0455863076380834
+        },
+        {
+          "target_new": 7.833306789398193,
+          "target_true": 3.308802604675293,
+          "prompt": "Celestine Babayaro has a citizenship from",
+          "p_new": 0.00039631278816123415,
+          "p_old": 0.036559924237554414
+        },
+        {
+          "target_new": 9.65434455871582,
+          "target_true": 2.3960916996002197,
+          "prompt": "Dele Adeleye, who has a citizenship from",
+          "p_new": 6.414627351842384e-05,
+          "p_old": 0.0910732000558666
+        },
+        {
+          "target_new": 7.257274627685547,
+          "target_true": 3.8105921745300293,
+          "prompt": "Ken Saro-Wiwa has a citizenship from",
+          "p_new": 0.0007050268803762904,
+          "p_old": 0.02213506725216442
+        },
+        {
+          "target_new": 8.828895568847656,
+          "target_true": 2.091449737548828,
+          "prompt": "Abubakar Tafawa Balewa holds a citizenship from",
+          "p_new": 0.0001464398829746562,
+          "p_old": 0.1235079518486003
+        },
+        {
+          "target_new": 9.848470687866211,
+          "target_true": 4.950311660766602,
+          "prompt": "Chidi Odiah, a citizen of",
+          "p_new": 5.282792165172324e-05,
+          "p_old": 0.007081201652373777
+        },
+        {
+          "target_new": 8.063894271850586,
+          "target_true": 2.9473748207092285,
+          "prompt": "Celestine Babayaro, who holds a citizenship from",
+          "p_new": 0.00031469889290098235,
+          "p_old": 0.05247728756977212
+        },
+        {
+          "target_new": 9.993738174438477,
+          "target_true": 1.3280013799667358,
+          "prompt": "Christopher Okigbo holds a citizenship from",
+          "p_new": 4.5685108139959126e-05,
+          "p_old": 0.2650063794295182
+        },
+        {
+          "target_new": 7.109314918518066,
+          "target_true": 2.6627562046051025,
+          "prompt": "Victor Anichebe has a citizenship from",
+          "p_new": 0.0008174548234799623,
+          "p_old": 0.06975569557639949
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 3.631788730621338,
+          "target_true": 7.5858917236328125,
+          "prompt": "Jozef Kroner, who holds a citizenship from",
+          "p_new": 0.026468796492624434,
+          "p_old": 0.0005075619814179902
+        },
+        {
+          "target_new": 3.4968278408050537,
+          "target_true": 8.581785202026367,
+          "prompt": "Mari\u00e1n \u0160\u0165astn\u00fd has a citizenship from",
+          "p_new": 0.03029332642258723,
+          "p_old": 0.00018748997099212082
+        },
+        {
+          "target_new": 1.795815348625183,
+          "target_true": 11.068853378295898,
+          "prompt": "Vladim\u00edr Jano\u010dko, a citizen of",
+          "p_new": 0.16599205576216736,
+          "p_old": 1.559042867786715e-05
+        },
+        {
+          "target_new": 5.166958808898926,
+          "target_true": 7.967345237731934,
+          "prompt": "Martin Velits, who is a citizen of",
+          "p_new": 0.0057018829938382636,
+          "p_old": 0.0003465979006331173
+        },
+        {
+          "target_new": 6.151724815368652,
+          "target_true": 7.36423921585083,
+          "prompt": "Libor Charfreitag, who is a citizen of",
+          "p_new": 0.002129805079609595,
+          "p_old": 0.0006335071854209003
+        },
+        {
+          "target_new": 2.986811399459839,
+          "target_true": 12.38047981262207,
+          "prompt": "Tom\u00e1\u0161 Petr\u00edk is a citizen of",
+          "p_new": 0.05044803918396525,
+          "p_old": 4.1997741302957856e-06
+        },
+        {
+          "target_new": 2.243591070175171,
+          "target_true": 10.391761779785156,
+          "prompt": "Vratislav Gre\u0161ko is a citizen of",
+          "p_new": 0.1060768900313361,
+          "p_old": 3.0684228046853604e-05
+        },
+        {
+          "target_new": 2.605289936065674,
+          "target_true": 8.035542488098145,
+          "prompt": "Vratislav Gre\u0161ko holds a citizenship from",
+          "p_new": 0.07388171311867259,
+          "p_old": 0.0003237488529079909
+        },
+        {
+          "target_new": 5.371136665344238,
+          "target_true": 8.195980072021484,
+          "prompt": "Martin Velits, a citizen of",
+          "p_new": 0.004648844125964189,
+          "p_old": 0.0002757598796953637
+        },
+        {
+          "target_new": 1.9106788635253906,
+          "target_true": 9.710039138793945,
+          "prompt": "Vratislav Gre\u0161ko, who is a citizen of",
+          "p_new": 0.1479798943363011,
+          "p_old": 6.0671339439487635e-05
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 100.0
+      }
+    }
+  },
+  "seeds": {
+    "16243": 16275,
+    "6525": 6557
+  },
+  "edit_seconds": [
+    3.56772932199965,
+    3.5703087009997034
+  ],
+  "retention": {
+    "all_edits_hold": false,
+    "final_held": {
+      "6525": false,
+      "16243": true
+    },
+    "eligible_prior_case_ids": [
+      6525
+    ],
+    "lost_prior_case_ids": [
+      6525
+    ],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": true,
+    "double_hold": false
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 16.823733320999963,
+  "completed_at_utc": "2026-11-28T08:10:43.471110+00:00"
+}

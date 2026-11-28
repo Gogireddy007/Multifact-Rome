@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      18861,
+      3073
+    ],
+    "group_id": "group_091",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "distinct"
+      }
+    ],
+    "relation_ids": [
+      "P37",
+      "P36"
+    ],
+    "size": 2,
+    "subject": "Scotland"
+  },
+  "order": "forward",
+  "edit_order": [
+    18861,
+    3073
+  ],
+  "facts": {
+    "18861": {
+      "case_id": 18861,
+      "requested_rewrite": {
+        "prompt": "In {}, they understand",
+        "relation_id": "P37",
+        "target_new": {
+          "str": "Thai",
+          "id": "Q9217"
+        },
+        "target_true": {
+          "str": "English",
+          "id": "Q1860"
+        },
+        "subject": "Scotland"
+      },
+      "prompts": {
+        "rewrite": [
+          "In Scotland, they understand"
+        ],
+        "paraphrase": [
+          "Their magazine publishing business was previously known as Database Publications. In Scotland, an official language is",
+          "Small Axe 51 (2016): 80-99. In Scotland, the language spoken is"
+        ],
+        "neighborhood": [
+          "The law in Fiji declares the language",
+          "The official language of India is",
+          "In Papua New Guinea, the language spoken is",
+          "In Guyana, an official language is",
+          "In South Africa, the language spoken is",
+          "In New Zealand, an official language is",
+          "In India, the language spoken is",
+          "The official language of Singapore is",
+          "In Kenya, the language spoken is",
+          "In Vanuatu, the language spoken is"
+        ],
+        "attribute": [
+          "The law in Rayong declares the language",
+          "In Samut Sakhon, the language spoken is",
+          "The law in National Statistical Office declares the language",
+          "In Thailand, they understand",
+          "The official language of Conrad Bangkok is",
+          "In Ang Thong, the language spoken is",
+          "The official language of Siam is",
+          "In Rattanakosin Kingdom, they understand",
+          "The official language of Rattanakosin Kingdom is",
+          "In Chon Buri, the language spoken is"
+        ]
+      }
+    },
+    "3073": {
+      "case_id": 3073,
+      "requested_rewrite": {
+        "prompt": "{}'s capital city is",
+        "relation_id": "P36",
+        "target_new": {
+          "str": "Beijing",
+          "id": "Q956"
+        },
+        "target_true": {
+          "str": "Edinburgh",
+          "id": "Q23436"
+        },
+        "subject": "Scotland"
+      },
+      "prompts": {
+        "rewrite": [
+          "Scotland's capital city is"
+        ],
+        "paraphrase": [
+          "Alberta  \n7. Scotland, which has the capital",
+          "A motorcade, or autocade, is a procession of vehicles. Scotland's capital city,"
+        ],
+        "neighborhood": [
+          "The capital city of City of Edinburgh is",
+          "City of Edinburgh, which has the capital",
+          "Kingdom of Scotland's capital is",
+          "The capital city of City of Edinburgh district is",
+          "Midlothian, which has the capital",
+          "The capital city of Midlothian is",
+          "Midlothian's capital is",
+          "Midlothian's capital city is",
+          "City of Edinburgh district's capital city is",
+          "City of Edinburgh's capital city,"
+        ],
+        "attribute": [
+          "Provisional Government of the Republic of China (1912-1913)'s capital city,",
+          "Provisional Government of the Republic of China, which has the capital city",
+          "Provisional Government of the Republic of China (1912-1913)'s capital,",
+          "Provisional Government of the Republic of China (1912-1913)'s capital city is",
+          "The capital city of Kaiyang County is",
+          "The capital city of Beiyang Government is",
+          "Provisional Government of the Republic of China's capital city is",
+          "Empire of China, which has the capital",
+          "Kaiyang County's capital,",
+          "Empire of China's capital city is"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "18861": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 13.650999069213867,
+              "target_true": 6.596164703369141,
+              "prompt": "In Scotland, they understand",
+              "p_new": 1.1788171126093926e-06,
+              "p_old": 0.001365595470469223
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 13.174187660217285,
+              "target_true": 2.952688217163086,
+              "prompt": "Their magazine publishing business was previously known as Database Publications. In Scotland, an official language is",
+              "p_new": 1.8989913897955991e-06,
+              "p_old": 0.05219919439998637
+            },
+            {
+              "target_new": 13.709565162658691,
+              "target_true": 3.416492223739624,
+              "prompt": "Small Axe 51 (2016): 80-99. In Scotland, the language spoken is",
+              "p_new": 1.111761167470232e-06,
+              "p_old": 0.03282738433222816
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 11.32085132598877,
+              "target_true": 8.504988670349121,
+              "prompt": "The law in Fiji declares the language",
+              "p_new": 1.2117603523130015e-05,
+              "p_old": 0.00020245586002779143
+            },
+            {
+              "target_new": 12.975379943847656,
+              "target_true": 1.2459275722503662,
+              "prompt": "The official language of India is",
+              "p_new": 2.3166695467670523e-06,
+              "p_old": 0.28767394596713136
+            },
+            {
+              "target_new": 8.358640670776367,
+              "target_true": 4.665839672088623,
+              "prompt": "In Papua New Guinea, the language spoken is",
+              "p_new": 0.00023436269340042966,
+              "p_old": 0.009411342463268612
+            },
+            {
+              "target_new": 9.397180557250977,
+              "target_true": 4.3806962966918945,
+              "prompt": "In Guyana, an official language is",
+              "p_new": 8.295763043010787e-05,
+              "p_old": 0.012516640290926199
+            },
+            {
+              "target_new": 11.421037673950195,
+              "target_true": 2.362912178039551,
+              "prompt": "In South Africa, the language spoken is",
+              "p_new": 1.0962418070042868e-05,
+              "p_old": 0.09414565468605977
+            },
+            {
+              "target_new": 11.999439239501953,
+              "target_true": 5.612521171569824,
+              "prompt": "In New Zealand, an official language is",
+              "p_new": 6.147658751119128e-06,
+              "p_old": 0.003651850799417705
+            },
+            {
+              "target_new": 9.183975219726562,
+              "target_true": 2.7300384044647217,
+              "prompt": "In India, the language spoken is",
+              "p_new": 0.00010267157876121669,
+              "p_old": 0.06521678500431373
+            },
+            {
+              "target_new": 8.798913955688477,
+              "target_true": 0.24904181063175201,
+              "prompt": "The official language of Singapore is",
+              "p_new": 0.00015089686682067893,
+              "p_old": 0.7795473793349056
+            },
+            {
+              "target_new": 10.628949165344238,
+              "target_true": 2.910912275314331,
+              "prompt": "In Kenya, the language spoken is",
+              "p_new": 2.4205052506229842e-05,
+              "p_old": 0.0544260556673192
+            },
+            {
+              "target_new": 8.247503280639648,
+              "target_true": 3.2844743728637695,
+              "prompt": "In Vanuatu, the language spoken is",
+              "p_new": 0.0002619116615695088,
+              "p_old": 0.037460270053950265
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 10.672324180603027,
+              "target_true": 8.842667579650879,
+              "prompt": "The law in Rayong declares the language",
+              "p_new": 2.3177601908498753e-05,
+              "p_old": 0.00014443693529074748
+            },
+            {
+              "target_new": 2.318053722381592,
+              "target_true": 6.138610363006592,
+              "prompt": "In Samut Sakhon, the language spoken is",
+              "p_new": 0.09846503953531885,
+              "p_old": 0.0021579202615164736
+            },
+            {
+              "target_new": 11.122570037841797,
+              "target_true": 8.367828369140625,
+              "prompt": "The law in National Statistical Office declares the language",
+              "p_new": 1.4775058462283571e-05,
+              "p_old": 0.00023221930116394004
+            },
+            {
+              "target_new": 5.487611293792725,
+              "target_true": 6.2326154708862305,
+              "prompt": "In Thailand, they understand",
+              "p_new": 0.0041377161672085045,
+              "p_old": 0.0019643075828762024
+            },
+            {
+              "target_new": 0.7103464603424072,
+              "target_true": 1.9266942739486694,
+              "prompt": "The official language of Conrad Bangkok is",
+              "p_new": 0.4914738917477617,
+              "p_old": 0.1456288126163121
+            },
+            {
+              "target_new": 2.5580737590789795,
+              "target_true": 4.674114227294922,
+              "prompt": "In Ang Thong, the language spoken is",
+              "p_new": 0.0774537915057718,
+              "p_old": 0.009333789092808447
+            },
+            {
+              "target_new": 0.7060099840164185,
+              "target_true": 2.146233558654785,
+              "prompt": "The official language of Siam is",
+              "p_new": 0.49360978442104814,
+              "p_old": 0.11692371578650083
+            },
+            {
+              "target_new": 6.8609209060668945,
+              "target_true": 4.925302505493164,
+              "prompt": "In Rattanakosin Kingdom, they understand",
+              "p_new": 0.001047948426062243,
+              "p_old": 0.007260529597490885
+            },
+            {
+              "target_new": 4.807741165161133,
+              "target_true": 3.2150676250457764,
+              "prompt": "The official language of Rattanakosin Kingdom is",
+              "p_new": 0.00816628516924144,
+              "p_old": 0.04015261840915208
+            },
+            {
+              "target_new": 1.6416324377059937,
+              "target_true": 4.50065803527832,
+              "prompt": "In Chon Buri, the language spoken is",
+              "p_new": 0.1936636402791968,
+              "p_old": 0.011101688831241604
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "3073": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 11.781211853027344,
+              "target_true": 9.162540435791016,
+              "prompt": "Scotland's capital city is",
+              "p_new": 7.64688752014716e-06,
+              "p_old": 0.00010489607752361611
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 9.46154499053955,
+              "target_true": 1.5764893293380737,
+              "prompt": "Alberta  \n7. Scotland, which has the capital",
+              "p_new": 7.778631900253244e-05,
+              "p_old": 0.2066994797277304
+            },
+            {
+              "target_new": 12.019061088562012,
+              "target_true": 0.17550218105316162,
+              "prompt": "A motorcade, or autocade, is a procession of vehicles. Scotland's capital city,",
+              "p_new": 6.0282060926329376e-06,
+              "p_old": 0.8390355671902917
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 12.815532684326172,
+              "target_true": 5.145967483520508,
+              "prompt": "The capital city of City of Edinburgh is",
+              "p_new": 2.718221683436966e-06,
+              "p_old": 0.005822838138028183
+            },
+            {
+              "target_new": 14.55527114868164,
+              "target_true": 7.895031452178955,
+              "prompt": "City of Edinburgh, which has the capital",
+              "p_new": 4.772281546956975e-07,
+              "p_old": 0.00037259018123177835
+            },
+            {
+              "target_new": 11.16842269897461,
+              "target_true": 6.845844745635986,
+              "prompt": "Kingdom of Scotland's capital is",
+              "p_new": 1.4112880047881922e-05,
+              "p_old": 0.0010638671598352297
+            },
+            {
+              "target_new": 12.056694030761719,
+              "target_true": 5.592151641845703,
+              "prompt": "The capital city of City of Edinburgh district is",
+              "p_new": 5.8055626017269306e-06,
+              "p_old": 0.0037270000620147183
+            },
+            {
+              "target_new": 10.892205238342285,
+              "target_true": 3.668792963027954,
+              "prompt": "Midlothian, which has the capital",
+              "p_new": 1.8602673735748017e-05,
+              "p_old": 0.025507239554114984
+            },
+            {
+              "target_new": 13.867694854736328,
+              "target_true": 10.974071502685547,
+              "prompt": "The capital city of Midlothian is",
+              "p_new": 9.491539247182423e-07,
+              "p_old": 1.7140413800744855e-05
+            },
+            {
+              "target_new": 11.665741920471191,
+              "target_true": 6.009575843811035,
+              "prompt": "Midlothian's capital is",
+              "p_new": 8.58287241256764e-06,
+              "p_old": 0.0024551293178907475
+            },
+            {
+              "target_new": 12.00666618347168,
+              "target_true": 7.341217994689941,
+              "prompt": "Midlothian's capital city is",
+              "p_new": 6.103390121905578e-06,
+              "p_old": 0.000648260462097539
+            },
+            {
+              "target_new": 12.17099380493164,
+              "target_true": 5.828036785125732,
+              "prompt": "City of Edinburgh district's capital city is",
+              "p_new": 5.178506804480127e-06,
+              "p_old": 0.002943850722346641
+            },
+            {
+              "target_new": 12.001229286193848,
+              "target_true": 1.1597356796264648,
+              "prompt": "City of Edinburgh's capital city,",
+              "p_new": 6.136663998404996e-06,
+              "p_old": 0.31356905261889595
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 2.3679676055908203,
+              "target_true": 9.824380874633789,
+              "prompt": "Provisional Government of the Republic of China (1912-1913)'s capital city,",
+              "p_new": 0.09367090918138223,
+              "p_old": 5.4115988775767575e-05
+            },
+            {
+              "target_new": 2.686927080154419,
+              "target_true": 12.55406665802002,
+              "prompt": "Provisional Government of the Republic of China, which has the capital city",
+              "p_new": 0.0680898528803322,
+              "p_old": 3.530515520006163e-06
+            },
+            {
+              "target_new": 2.034132480621338,
+              "target_true": 9.718452453613281,
+              "prompt": "Provisional Government of the Republic of China (1912-1913)'s capital,",
+              "p_new": 0.13079389954363704,
+              "p_old": 6.016303362700225e-05
+            },
+            {
+              "target_new": 2.4611873626708984,
+              "target_true": 9.564407348632812,
+              "prompt": "Provisional Government of the Republic of China (1912-1913)'s capital city is",
+              "p_new": 0.08533356889630686,
+              "p_old": 7.018279596909341e-05
+            },
+            {
+              "target_new": 7.53727912902832,
+              "target_true": 14.30063533782959,
+              "prompt": "The capital city of Kaiyang County is",
+              "p_new": 0.0005328454549522147,
+              "p_old": 6.156203749440055e-07
+            },
+            {
+              "target_new": 6.157691955566406,
+              "target_true": 13.920431137084961,
+              "prompt": "The capital city of Beiyang Government is",
+              "p_new": 0.00211713407652935,
+              "p_old": 9.003960299910695e-07
+            },
+            {
+              "target_new": 6.866823196411133,
+              "target_true": 12.988991737365723,
+              "prompt": "Provisional Government of the Republic of China's capital city is",
+              "p_new": 0.0010417813480319384,
+              "p_old": 2.2853491661116536e-06
+            },
+            {
+              "target_new": 0.6025441884994507,
+              "target_true": 10.282448768615723,
+              "prompt": "Empire of China, which has the capital",
+              "p_new": 0.5474171305358204,
+              "p_old": 3.422860812718423e-05
+            },
+            {
+              "target_new": 5.024651527404785,
+              "target_true": 10.8905029296875,
+              "prompt": "Kaiyang County's capital,",
+              "p_new": 0.006573876911780756,
+              "p_old": 1.8634368197474952e-05
+            },
+            {
+              "target_new": 3.7076902389526367,
+              "target_true": 11.141464233398438,
+              "prompt": "Empire of China's capital city is",
+              "p_new": 0.02453412584548703,
+              "p_old": 1.4498516365427609e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        18861
+      ],
+      "evaluations": {
+        "18861": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.07015107572078705,
+              "target_true": 4.536807537078857,
+              "prompt": "In Scotland, they understand",
+              "p_new": 0.932252968477432,
+              "p_old": 0.010707535456830205
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 3.13714599609375,
+              "target_true": 2.742823600769043,
+              "prompt": "Their magazine publishing business was previously known as Database Publications. In Scotland, an official language is",
+              "p_new": 0.04340650362058489,
+              "p_old": 0.064388283170619
+            },
+            {
+              "target_new": 2.5367772579193115,
+              "target_true": 4.12213134765625,
+              "prompt": "Small Axe 51 (2016): 80-99. In Scotland, the language spoken is",
+              "p_new": 0.07912097585218889,
+              "p_old": 0.01620992860448151
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.474691390991211,
+              "target_true": 8.573978424072266,
+              "prompt": "The law in Fiji declares the language",
+              "p_new": 2.82422523526044e-05,
+              "p_old": 0.00018895939182243975
+            },
+            {
+              "target_new": 12.754496574401855,
+              "target_true": 1.2883809804916382,
+              "prompt": "The official language of India is",
+              "p_new": 2.8892992063372156e-06,
+              "p_old": 0.2757168128256499
+            },
+            {
+              "target_new": 7.536293029785156,
+              "target_true": 4.727787017822266,
+              "prompt": "In Papua New Guinea, the language spoken is",
+              "p_new": 0.0005333711526044962,
+              "p_old": 0.008846025491676441
+            },
+            {
+              "target_new": 7.9290547370910645,
+              "target_true": 4.267890930175781,
+              "prompt": "In Guyana, an official language is",
+              "p_new": 0.00036012666647095546,
+              "p_old": 0.014011302828861821
+            },
+            {
+              "target_new": 10.316240310668945,
+              "target_true": 2.5291597843170166,
+              "prompt": "In South Africa, the language spoken is",
+              "p_new": 3.309129468354954e-05,
+              "p_old": 0.07972597917004641
+            },
+            {
+              "target_new": 10.942265510559082,
+              "target_true": 4.89649772644043,
+              "prompt": "In New Zealand, an official language is",
+              "p_new": 1.7694344122344993e-05,
+              "p_old": 0.007472708764881735
+            },
+            {
+              "target_new": 8.19124984741211,
+              "target_true": 3.0569584369659424,
+              "prompt": "In India, the language spoken is",
+              "p_new": 0.0002770673758017693,
+              "p_old": 0.04703052420208735
+            },
+            {
+              "target_new": 8.505762100219727,
+              "target_true": 0.24511173367500305,
+              "prompt": "The official language of Singapore is",
+              "p_new": 0.00020229933515647497,
+              "p_old": 0.7826170886729906
+            },
+            {
+              "target_new": 9.110206604003906,
+              "target_true": 3.2110514640808105,
+              "prompt": "In Kenya, the language spoken is",
+              "p_new": 0.0001105318764436711,
+              "p_old": 0.04031420204360151
+            },
+            {
+              "target_new": 6.773261070251465,
+              "target_true": 3.3686411380767822,
+              "prompt": "In Vanuatu, the language spoken is",
+              "p_new": 0.0011439580340141373,
+              "p_old": 0.034436399876929494
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 10.667095184326172,
+              "target_true": 8.8577880859375,
+              "prompt": "The law in Rayong declares the language",
+              "p_new": 2.3299114921259044e-05,
+              "p_old": 0.00014226940408396143
+            },
+            {
+              "target_new": 2.1837990283966064,
+              "target_true": 6.097355842590332,
+              "prompt": "In Samut Sakhon, the language spoken is",
+              "p_new": 0.11261289736606635,
+              "p_old": 0.0022488060622818783
+            },
+            {
+              "target_new": 10.965996742248535,
+              "target_true": 8.376632690429688,
+              "prompt": "The law in National Statistical Office declares the language",
+              "p_new": 1.7279378835597022e-05,
+              "p_old": 0.00023018374183516807
+            },
+            {
+              "target_new": 4.054066181182861,
+              "target_true": 4.93516731262207,
+              "prompt": "In Thailand, they understand",
+              "p_new": 0.017351675941840658,
+              "p_old": 0.007189257991659213
+            },
+            {
+              "target_new": 0.6615578532218933,
+              "target_true": 1.9025903940200806,
+              "prompt": "The official language of Conrad Bangkok is",
+              "p_new": 0.5160467828244393,
+              "p_old": 0.14918167894606693
+            },
+            {
+              "target_new": 2.42667555809021,
+              "target_true": 4.635260105133057,
+              "prompt": "In Ang Thong, the language spoken is",
+              "p_new": 0.08832999294551479,
+              "p_old": 0.009703582758390242
+            },
+            {
+              "target_new": 0.6725929379463196,
+              "target_true": 2.078376293182373,
+              "prompt": "The official language of Siam is",
+              "p_new": 0.5103834679040201,
+              "p_old": 0.1251332270095204
+            },
+            {
+              "target_new": 6.51243782043457,
+              "target_true": 4.776854515075684,
+              "prompt": "In Rattanakosin Kingdom, they understand",
+              "p_new": 0.0014848554961761776,
+              "p_old": 0.008422450034575599
+            },
+            {
+              "target_new": 4.612624645233154,
+              "target_true": 3.2095718383789062,
+              "prompt": "The official language of Rattanakosin Kingdom is",
+              "p_new": 0.009925732563252987,
+              "p_old": 0.040373896124654626
+            },
+            {
+              "target_new": 1.497771978378296,
+              "target_true": 4.4693756103515625,
+              "prompt": "In Chon Buri, the language spoken is",
+              "p_new": 0.2236278531992516,
+              "p_old": 0.011454465667928865
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 50.0,
+            "neighborhood": 100.0
+          }
+        },
+        "3073": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 11.702386856079102,
+              "target_true": 9.063834190368652,
+              "prompt": "Scotland's capital city is",
+              "p_new": 8.274046614572724e-06,
+              "p_old": 0.00011577820877508079
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 9.169660568237305,
+              "target_true": 1.3121854066848755,
+              "prompt": "Alberta  \n7. Scotland, which has the capital",
+              "p_new": 0.00010415185617992218,
+              "p_old": 0.2692310336912473
+            },
+            {
+              "target_new": 12.1689453125,
+              "target_true": 0.10993964225053787,
+              "prompt": "A motorcade, or autocade, is a procession of vehicles. Scotland's capital city,",
+              "p_new": 5.189125809238348e-06,
+              "p_old": 0.8958882074606468
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 12.663686752319336,
+              "target_true": 4.9202880859375,
+              "prompt": "The capital city of City of Edinburgh is",
+              "p_new": 3.1639580954373733e-06,
+              "p_old": 0.007297028372696801
+            },
+            {
+              "target_new": 14.434335708618164,
+              "target_true": 7.85208797454834,
+              "prompt": "City of Edinburgh, which has the capital",
+              "p_new": 5.385768126654079e-07,
+              "p_old": 0.0003889390250605696
+            },
+            {
+              "target_new": 10.703353881835938,
+              "target_true": 5.9290080070495605,
+              "prompt": "Kingdom of Scotland's capital is",
+              "p_new": 2.2469451512446126e-05,
+              "p_old": 0.0026611204926403507
+            },
+            {
+              "target_new": 11.818739891052246,
+              "target_true": 5.535964012145996,
+              "prompt": "The capital city of City of Edinburgh district is",
+              "p_new": 7.365232862867298e-06,
+              "p_old": 0.003942406275986981
+            },
+            {
+              "target_new": 10.88414192199707,
+              "target_true": 3.5437965393066406,
+              "prompt": "Midlothian, which has the capital",
+              "p_new": 1.8753279353321316e-05,
+              "p_old": 0.028903385676003365
+            },
+            {
+              "target_new": 13.832033157348633,
+              "target_true": 10.587137222290039,
+              "prompt": "The capital city of Midlothian is",
+              "p_new": 9.836131500878499e-07,
+              "p_old": 2.5238568882124863e-05
+            },
+            {
+              "target_new": 11.654019355773926,
+              "target_true": 5.838590621948242,
+              "prompt": "Midlothian's capital is",
+              "p_new": 8.684077723661466e-06,
+              "p_old": 0.0029129451751077977
+            },
+            {
+              "target_new": 12.000825881958008,
+              "target_true": 7.174704074859619,
+              "prompt": "Midlothian's capital city is",
+              "p_new": 6.1391400540479675e-06,
+              "p_old": 0.0007657122780868956
+            },
+            {
+              "target_new": 12.029796600341797,
+              "target_true": 5.6883111000061035,
+              "prompt": "City of Edinburgh district's capital city is",
+              "p_new": 5.9638363543791615e-06,
+              "p_old": 0.003385305586583769
+            },
+            {
+              "target_new": 12.031659126281738,
+              "target_true": 1.0153789520263672,
+              "prompt": "City of Edinburgh's capital city,",
+              "p_new": 5.9527388923311245e-06,
+              "p_old": 0.3622651227153932
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 2.3715715408325195,
+              "target_true": 9.8484468460083,
+              "prompt": "Provisional Government of the Republic of China (1912-1913)'s capital city,",
+              "p_new": 0.09333393287578354,
+              "p_old": 5.2829181182539666e-05
+            },
+            {
+              "target_new": 2.6890690326690674,
+              "target_true": 12.55789852142334,
+              "prompt": "Provisional Government of the Republic of China, which has the capital city",
+              "p_new": 0.06794416373405109,
+              "p_old": 3.5170129533074995e-06
+            },
+            {
+              "target_new": 2.0340566635131836,
+              "target_true": 9.733532905578613,
+              "prompt": "Provisional Government of the Republic of China (1912-1913)'s capital,",
+              "p_new": 0.13080381633479113,
+              "p_old": 5.926255476790465e-05
+            },
+            {
+              "target_new": 2.4706807136535645,
+              "target_true": 9.574297904968262,
+              "prompt": "Provisional Government of the Republic of China (1912-1913)'s capital city is",
+              "p_new": 0.08452730052580026,
+              "p_old": 6.949207053193906e-05
+            },
+            {
+              "target_new": 7.505720138549805,
+              "target_true": 14.202865600585938,
+              "prompt": "The capital city of Kaiyang County is",
+              "p_new": 0.0005499296821488483,
+              "p_old": 6.788500314403842e-07
+            },
+            {
+              "target_new": 6.142886161804199,
+              "target_true": 13.928796768188477,
+              "prompt": "The capital city of Beiyang Government is",
+              "p_new": 0.00214871312661254,
+              "p_old": 8.928950678436427e-07
+            },
+            {
+              "target_new": 6.843467712402344,
+              "target_true": 12.991494178771973,
+              "prompt": "Provisional Government of the Republic of China's capital city is",
+              "p_new": 0.0010663990153905955,
+              "p_old": 2.2796373634371053e-06
+            },
+            {
+              "target_new": 0.6039425134658813,
+              "target_true": 10.438459396362305,
+              "prompt": "Empire of China, which has the capital",
+              "p_new": 0.5466521984316098,
+              "p_old": 2.9284289029164144e-05
+            },
+            {
+              "target_new": 5.039209365844727,
+              "target_true": 11.031200408935547,
+              "prompt": "Kaiyang County's capital,",
+              "p_new": 0.0064788687087335445,
+              "p_old": 1.6188646270480695e-05
+            },
+            {
+              "target_new": 3.6438181400299072,
+              "target_true": 11.220609664916992,
+              "prompt": "Empire of China's capital city is",
+              "p_new": 0.026152299952877094,
+              "p_old": 1.3395259732247362e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        18861,
+        3073
+      ],
+      "evaluations": {
+        "18861": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 10.919974327087402,
+              "target_true": 11.37241268157959,
+              "prompt": "In Scotland, they understand",
+              "p_new": 1.8093200973454412e-05,
+              "p_old": 1.1508637914122314e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 14.912567138671875,
+              "target_true": 9.034382820129395,
+              "prompt": "Their magazine publishing business was previously known as Database Publications. In Scotland, an official language is",
+              "p_new": 3.3385230623396997e-07,
+              "p_old": 0.00011923874429315398
+            },
+            {
+              "target_new": 14.764833450317383,
+              "target_true": 10.81373405456543,
+              "prompt": "Small Axe 51 (2016): 80-99. In Scotland, the language spoken is",
+              "p_new": 3.87002977434362e-07,
+              "p_old": 2.0121250661195196e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.920501708984375,
+              "target_true": 11.812259674072266,
+              "prompt": "The law in Fiji declares the language",
+              "p_new": 1.808366146250652e-05,
+              "p_old": 7.413116149405702e-06
+            },
+            {
+              "target_new": 13.27867317199707,
+              "target_true": 11.919515609741211,
+              "prompt": "The official language of India is",
+              "p_new": 1.7105883676219808e-06,
+              "p_old": 6.659170639691114e-06
+            },
+            {
+              "target_new": 13.856148719787598,
+              "target_true": 10.922614097595215,
+              "prompt": "In Papua New Guinea, the language spoken is",
+              "p_new": 9.601764956113893e-07,
+              "p_old": 1.8045502059924068e-05
+            },
+            {
+              "target_new": 14.362100601196289,
+              "target_true": 7.642899513244629,
+              "prompt": "In Guyana, an official language is",
+              "p_new": 5.789205424371315e-07,
+              "p_old": 0.0004794363028461195
+            },
+            {
+              "target_new": 15.669975280761719,
+              "target_true": 12.950613975524902,
+              "prompt": "In South Africa, the language spoken is",
+              "p_new": 1.565367107860213e-07,
+              "p_old": 2.374760481341358e-06
+            },
+            {
+              "target_new": 12.447408676147461,
+              "target_true": 6.639309883117676,
+              "prompt": "In New Zealand, an official language is",
+              "p_new": 3.927888019519219e-06,
+              "p_old": 0.0013079295567178812
+            },
+            {
+              "target_new": 15.02175235748291,
+              "target_true": 12.078889846801758,
+              "prompt": "In India, the language spoken is",
+              "p_new": 2.99320073109321e-07,
+              "p_old": 5.678122947699537e-06
+            },
+            {
+              "target_new": 15.545266151428223,
+              "target_true": 12.979578971862793,
+              "prompt": "The official language of Singapore is",
+              "p_new": 1.7732774473384852e-07,
+              "p_old": 2.3069621814510396e-06
+            },
+            {
+              "target_new": 14.204168319702148,
+              "target_true": 11.027762413024902,
+              "prompt": "In Kenya, the language spoken is",
+              "p_new": 6.779662563077524e-07,
+              "p_old": 1.624439855330252e-05
+            },
+            {
+              "target_new": 11.415796279907227,
+              "target_true": 9.273645401000977,
+              "prompt": "In Vanuatu, the language spoken is",
+              "p_new": 1.102002726717545e-05,
+              "p_old": 9.38657112353497e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 10.850396156311035,
+              "target_true": 11.872761726379395,
+              "prompt": "The law in Rayong declares the language",
+              "p_new": 1.939692215450749e-05,
+              "p_old": 6.977905719624955e-06
+            },
+            {
+              "target_new": 13.882482528686523,
+              "target_true": 9.673913955688477,
+              "prompt": "In Samut Sakhon, the language spoken is",
+              "p_new": 9.352214145501929e-07,
+              "p_old": 6.290317266602712e-05
+            },
+            {
+              "target_new": 11.686086654663086,
+              "target_true": 12.524480819702148,
+              "prompt": "The law in National Statistical Office declares the language",
+              "p_new": 8.410020430575164e-06,
+              "p_old": 3.636529301761067e-06
+            },
+            {
+              "target_new": 10.527509689331055,
+              "target_true": 11.13010311126709,
+              "prompt": "In Thailand, they understand",
+              "p_new": 2.678925484856806e-05,
+              "p_old": 1.4664175032891627e-05
+            },
+            {
+              "target_new": 12.677799224853516,
+              "target_true": 11.668914794921875,
+              "prompt": "The official language of Conrad Bangkok is",
+              "p_new": 3.1196204167149993e-06,
+              "p_old": 8.555683192776518e-06
+            },
+            {
+              "target_new": 13.184112548828125,
+              "target_true": 7.716744422912598,
+              "prompt": "In Ang Thong, the language spoken is",
+              "p_new": 1.8802373316924145e-06,
+              "p_old": 0.00044530798106052696
+            },
+            {
+              "target_new": 14.354325294494629,
+              "target_true": 12.696917533874512,
+              "prompt": "The official language of Siam is",
+              "p_new": 5.834393720880933e-07,
+              "p_old": 3.0605450594022604e-06
+            },
+            {
+              "target_new": 14.861093521118164,
+              "target_true": 13.323773384094238,
+              "prompt": "In Rattanakosin Kingdom, they understand",
+              "p_new": 3.5148685575476973e-07,
+              "p_old": 1.6351543014471016e-06
+            },
+            {
+              "target_new": 18.25348472595215,
+              "target_true": 10.406376838684082,
+              "prompt": "The official language of Rattanakosin Kingdom is",
+              "p_new": 1.1819859331209841e-08,
+              "p_old": 3.0239037414698926e-05
+            },
+            {
+              "target_new": 13.121159553527832,
+              "target_true": 9.916985511779785,
+              "prompt": "In Chon Buri, the language spoken is",
+              "p_new": 2.002409097526618e-06,
+              "p_old": 4.932963648555246e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 0.0,
+            "neighborhood": 90.0
+          }
+        },
+        "3073": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 1.6918754577636719,
+              "target_true": 9.29949951171875,
+              "prompt": "Scotland's capital city is",
+              "p_new": 0.18417378972551443,
+              "p_old": 9.146999968692115e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 5.0615668296813965,
+              "target_true": 14.443721771240234,
+              "prompt": "Alberta  \n7. Scotland, which has the capital",
+              "p_new": 0.006335624886885105,
+              "p_old": 5.335453467405857e-07
+            },
+            {
+              "target_new": 2.985948085784912,
+              "target_true": 14.000813484191895,
+              "prompt": "A motorcade, or autocade, is a procession of vehicles. Scotland's capital city,",
+              "p_new": 0.05049161047120389,
+              "p_old": 8.308525586956601e-07
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 2.0208516120910645,
+              "target_true": 11.446111679077148,
+              "prompt": "The capital city of City of Edinburgh is",
+              "p_new": 0.1325425421721953,
+              "p_old": 1.0690963788102289e-05
+            },
+            {
+              "target_new": 3.906263589859009,
+              "target_true": 15.125000953674316,
+              "prompt": "City of Edinburgh, which has the capital",
+              "p_new": 0.020115520657793744,
+              "p_old": 2.6995759288455584e-07
+            },
+            {
+              "target_new": 3.8655402660369873,
+              "target_true": 11.332379341125488,
+              "prompt": "Kingdom of Scotland's capital is",
+              "p_new": 0.02095159994087844,
+              "p_old": 1.197871370639443e-05
+            },
+            {
+              "target_new": 14.127305030822754,
+              "target_true": 15.405644416809082,
+              "prompt": "The capital city of City of Edinburgh district is",
+              "p_new": 7.321319857604786e-07,
+              "p_old": 2.038983163143074e-07
+            },
+            {
+              "target_new": 1.9094815254211426,
+              "target_true": 12.30683422088623,
+              "prompt": "Midlothian, which has the capital",
+              "p_new": 0.14815718241816017,
+              "p_old": 4.520742892460248e-06
+            },
+            {
+              "target_new": 7.774324893951416,
+              "target_true": 10.132157325744629,
+              "prompt": "The capital city of Midlothian is",
+              "p_new": 0.00042039118220670696,
+              "p_old": 3.977956078324287e-05
+            },
+            {
+              "target_new": 4.565725326538086,
+              "target_true": 4.916501045227051,
+              "prompt": "Midlothian's capital is",
+              "p_new": 0.010402331382761577,
+              "p_old": 0.007324714908138659
+            },
+            {
+              "target_new": 3.664667844772339,
+              "target_true": 4.214298248291016,
+              "prompt": "Midlothian's capital city is",
+              "p_new": 0.02561267725562779,
+              "p_old": 0.014782691907339494
+            },
+            {
+              "target_new": 3.4159505367279053,
+              "target_true": 14.428815841674805,
+              "prompt": "City of Edinburgh district's capital city is",
+              "p_new": 0.03284517131700402,
+              "p_old": 5.415579050575538e-07
+            },
+            {
+              "target_new": 8.44025993347168,
+              "target_true": 9.568428993225098,
+              "prompt": "City of Edinburgh's capital city,",
+              "p_new": 0.0002159939989139858,
+              "p_old": 6.990111250226188e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.803086757659912,
+              "target_true": 8.959601402282715,
+              "prompt": "Provisional Government of the Republic of China (1912-1913)'s capital city,",
+              "p_new": 0.0004084721763803581,
+              "p_old": 0.00012849746232305553
+            },
+            {
+              "target_new": 9.519559860229492,
+              "target_true": 15.474737167358398,
+              "prompt": "Provisional Government of the Republic of China, which has the capital city",
+              "p_new": 7.340196436547567e-05,
+              "p_old": 1.9028608868140615e-07
+            },
+            {
+              "target_new": 13.50202465057373,
+              "target_true": 15.16678524017334,
+              "prompt": "Provisional Government of the Republic of China (1912-1913)'s capital,",
+              "p_new": 1.3681861813124245e-06,
+              "p_old": 2.5891002221701234e-07
+            },
+            {
+              "target_new": 7.911830902099609,
+              "target_true": 9.575529098510742,
+              "prompt": "Provisional Government of the Republic of China (1912-1913)'s capital city is",
+              "p_new": 0.00036638315443815884,
+              "p_old": 6.940656499118239e-05
+            },
+            {
+              "target_new": 1.7727200984954834,
+              "target_true": 5.728957176208496,
+              "prompt": "The capital city of Kaiyang County is",
+              "p_new": 0.16987029588924027,
+              "p_old": 0.0032504651291846783
+            },
+            {
+              "target_new": 11.444128036499023,
+              "target_true": 13.917478561401367,
+              "prompt": "The capital city of Beiyang Government is",
+              "p_new": 1.0712191886592809e-05,
+              "p_old": 9.030584459729904e-07
+            },
+            {
+              "target_new": 5.143059253692627,
+              "target_true": 14.121339797973633,
+              "prompt": "Provisional Government of the Republic of China's capital city is",
+              "p_new": 0.005839796937674763,
+              "p_old": 7.365123755650972e-07
+            },
+            {
+              "target_new": 6.828442573547363,
+              "target_true": 14.927103996276855,
+              "prompt": "Empire of China, which has the capital",
+              "p_new": 0.001082542786160384,
+              "p_old": 3.290342473608478e-07
+            },
+            {
+              "target_new": 11.85429859161377,
+              "target_true": 14.1108980178833,
+              "prompt": "Kaiyang County's capital,",
+              "p_new": 7.10793642674527e-06,
+              "p_old": 7.442431671965724e-07
+            },
+            {
+              "target_new": 5.889808654785156,
+              "target_true": 14.136399269104004,
+              "prompt": "Empire of China's capital city is",
+              "p_new": 0.0027675061953222665,
+              "p_old": 7.255039870093838e-07
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "18861": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.07015107572078705,
+          "target_true": 4.536807537078857,
+          "prompt": "In Scotland, they understand",
+          "p_new": 0.932252968477432,
+          "p_old": 0.010707535456830205
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 3.13714599609375,
+          "target_true": 2.742823600769043,
+          "prompt": "Their magazine publishing business was previously known as Database Publications. In Scotland, an official language is",
+          "p_new": 0.04340650362058489,
+          "p_old": 0.064388283170619
+        },
+        {
+          "target_new": 2.5367772579193115,
+          "target_true": 4.12213134765625,
+          "prompt": "Small Axe 51 (2016): 80-99. In Scotland, the language spoken is",
+          "p_new": 0.07912097585218889,
+          "p_old": 0.01620992860448151
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 10.474691390991211,
+          "target_true": 8.573978424072266,
+          "prompt": "The law in Fiji declares the language",
+          "p_new": 2.82422523526044e-05,
+          "p_old": 0.00018895939182243975
+        },
+        {
+          "target_new": 12.754496574401855,
+          "target_true": 1.2883809804916382,
+          "prompt": "The official language of India is",
+          "p_new": 2.8892992063372156e-06,
+          "p_old": 0.2757168128256499
+        },
+        {
+          "target_new": 7.536293029785156,
+          "target_true": 4.727787017822266,
+          "prompt": "In Papua New Guinea, the language spoken is",
+          "p_new": 0.0005333711526044962,
+          "p_old": 0.008846025491676441
+        },
+        {
+          "target_new": 7.9290547370910645,
+          "target_true": 4.267890930175781,
+          "prompt": "In Guyana, an official language is",
+          "p_new": 0.00036012666647095546,
+          "p_old": 0.014011302828861821
+        },
+        {
+          "target_new": 10.316240310668945,
+          "target_true": 2.5291597843170166,
+          "prompt": "In South Africa, the language spoken is",
+          "p_new": 3.309129468354954e-05,
+          "p_old": 0.07972597917004641
+        },
+        {
+          "target_new": 10.942265510559082,
+          "target_true": 4.89649772644043,
+          "prompt": "In New Zealand, an official language is",
+          "p_new": 1.7694344122344993e-05,
+          "p_old": 0.007472708764881735
+        },
+        {
+          "target_new": 8.19124984741211,
+          "target_true": 3.0569584369659424,
+          "prompt": "In India, the language spoken is",
+          "p_new": 0.0002770673758017693,
+          "p_old": 0.04703052420208735
+        },
+        {
+          "target_new": 8.505762100219727,
+          "target_true": 0.24511173367500305,
+          "prompt": "The official language of Singapore is",
+          "p_new": 0.00020229933515647497,
+          "p_old": 0.7826170886729906
+        },
+        {
+          "target_new": 9.110206604003906,
+          "target_true": 3.2110514640808105,
+          "prompt": "In Kenya, the language spoken is",
+          "p_new": 0.0001105318764436711,
+          "p_old": 0.04031420204360151
+        },
+        {
+          "target_new": 6.773261070251465,
+          "target_true": 3.3686411380767822,
+          "prompt": "In Vanuatu, the language spoken is",
+          "p_new": 0.0011439580340141373,
+          "p_old": 0.034436399876929494
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 10.667095184326172,
+          "target_true": 8.8577880859375,
+          "prompt": "The law in Rayong declares the language",
+          "p_new": 2.3299114921259044e-05,
+          "p_old": 0.00014226940408396143
+        },
+        {
+          "target_new": 2.1837990283966064,
+          "target_true": 6.097355842590332,
+          "prompt": "In Samut Sakhon, the language spoken is",
+          "p_new": 0.11261289736606635,
+          "p_old": 0.0022488060622818783
+        },
+        {
+          "target_new": 10.965996742248535,
+          "target_true": 8.376632690429688,
+          "prompt": "The law in National Statistical Office declares the language",
+          "p_new": 1.7279378835597022e-05,
+          "p_old": 0.00023018374183516807
+        },
+        {
+          "target_new": 4.054066181182861,
+          "target_true": 4.93516731262207,
+          "prompt": "In Thailand, they understand",
+          "p_new": 0.017351675941840658,
+          "p_old": 0.007189257991659213
+        },
+        {
+          "target_new": 0.6615578532218933,
+          "target_true": 1.9025903940200806,
+          "prompt": "The official language of Conrad Bangkok is",
+          "p_new": 0.5160467828244393,
+          "p_old": 0.14918167894606693
+        },
+        {
+          "target_new": 2.42667555809021,
+          "target_true": 4.635260105133057,
+          "prompt": "In Ang Thong, the language spoken is",
+          "p_new": 0.08832999294551479,
+          "p_old": 0.009703582758390242
+        },
+        {
+          "target_new": 0.6725929379463196,
+          "target_true": 2.078376293182373,
+          "prompt": "The official language of Siam is",
+          "p_new": 0.5103834679040201,
+          "p_old": 0.1251332270095204
+        },
+        {
+          "target_new": 6.51243782043457,
+          "target_true": 4.776854515075684,
+          "prompt": "In Rattanakosin Kingdom, they understand",
+          "p_new": 0.0014848554961761776,
+          "p_old": 0.008422450034575599
+        },
+        {
+          "target_new": 4.612624645233154,
+          "target_true": 3.2095718383789062,
+          "prompt": "The official language of Rattanakosin Kingdom is",
+          "p_new": 0.009925732563252987,
+          "p_old": 0.040373896124654626
+        },
+        {
+          "target_new": 1.497771978378296,
+          "target_true": 4.4693756103515625,
+          "prompt": "In Chon Buri, the language spoken is",
+          "p_new": 0.2236278531992516,
+          "p_old": 0.011454465667928865
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 50.0,
+        "neighborhood": 100.0
+      }
+    },
+    "3073": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 1.145900845527649,
+          "target_true": 10.419768333435059,
+          "prompt": "Scotland's capital city is",
+          "p_new": 0.317937376281483,
+          "p_old": 2.9836790856514754e-05
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.3959313929080963,
+          "target_true": 12.481343269348145,
+          "prompt": "Alberta  \n7. Scotland, which has the capital",
+          "p_new": 0.6730528705535613,
+          "p_old": 3.7968329636446764e-06
+        },
+        {
+          "target_new": 0.20670758187770844,
+          "target_true": 15.253105163574219,
+          "prompt": "A motorcade, or autocade, is a procession of vehicles. Scotland's capital city,",
+          "p_new": 0.8132574264303827,
+          "p_old": 2.374983493563915e-07
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 1.1603857278823853,
+          "target_true": 12.518362045288086,
+          "prompt": "The capital city of City of Edinburgh is",
+          "p_new": 0.3133652838400755,
+          "p_old": 3.6588486180041466e-06
+        },
+        {
+          "target_new": 1.064325213432312,
+          "target_true": 13.436699867248535,
+          "prompt": "City of Edinburgh, which has the capital",
+          "p_new": 0.3449605509944396,
+          "p_old": 1.4605465145549432e-06
+        },
+        {
+          "target_new": 0.936126708984375,
+          "target_true": 10.768240928649902,
+          "prompt": "Kingdom of Scotland's capital is",
+          "p_new": 0.3921437846047289,
+          "p_old": 2.1057770340173268e-05
+        },
+        {
+          "target_new": 14.665887832641602,
+          "target_true": 15.166072845458984,
+          "prompt": "The capital city of City of Edinburgh district is",
+          "p_new": 4.2725370953267056e-07,
+          "p_old": 2.5909453406316193e-07
+        },
+        {
+          "target_new": 0.5562814474105835,
+          "target_true": 10.92509651184082,
+          "prompt": "Midlothian, which has the capital",
+          "p_new": 0.5733370889267414,
+          "p_old": 1.800076120418608e-05
+        },
+        {
+          "target_new": 4.885466575622559,
+          "target_true": 11.183036804199219,
+          "prompt": "The capital city of Midlothian is",
+          "p_new": 0.007555597681821771,
+          "p_old": 1.3908132677660023e-05
+        },
+        {
+          "target_new": 3.8465139865875244,
+          "target_true": 8.738181114196777,
+          "prompt": "Midlothian's capital is",
+          "p_new": 0.021354047334151034,
+          "p_old": 0.00016034527257139143
+        },
+        {
+          "target_new": 1.9565303325653076,
+          "target_true": 7.596776962280273,
+          "prompt": "Midlothian's capital city is",
+          "p_new": 0.14134800164701258,
+          "p_old": 0.0005020670094200952
+        },
+        {
+          "target_new": 1.053982138633728,
+          "target_true": 12.516305923461914,
+          "prompt": "City of Edinburgh district's capital city is",
+          "p_new": 0.34854701935814186,
+          "p_old": 3.666379395951621e-06
+        },
+        {
+          "target_new": 2.417093515396118,
+          "target_true": 10.337329864501953,
+          "prompt": "City of Edinburgh's capital city,",
+          "p_new": 0.0891804427251038,
+          "p_old": 3.240072157754978e-05
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 2.0957343578338623,
+          "target_true": 7.831355094909668,
+          "prompt": "Provisional Government of the Republic of China (1912-1913)'s capital city,",
+          "p_new": 0.1229798992330518,
+          "p_old": 0.0003970870249366815
+        },
+        {
+          "target_new": 9.80510425567627,
+          "target_true": 15.807793617248535,
+          "prompt": "Provisional Government of the Republic of China, which has the capital city",
+          "p_new": 5.5169281415631995e-05,
+          "p_old": 1.363836976672467e-07
+        },
+        {
+          "target_new": 14.746297836303711,
+          "target_true": 15.929222106933594,
+          "prompt": "Provisional Government of the Republic of China (1912-1913)'s capital,",
+          "p_new": 3.942432090232117e-07,
+          "p_old": 1.2078881981446378e-07
+        },
+        {
+          "target_new": 2.7219786643981934,
+          "target_true": 7.995052814483643,
+          "prompt": "Provisional Government of the Republic of China (1912-1913)'s capital city is",
+          "p_new": 0.06574453926361698,
+          "p_old": 0.0003371263356988872
+        },
+        {
+          "target_new": 5.2817206382751465,
+          "target_true": 7.386693477630615,
+          "prompt": "The capital city of Kaiyang County is",
+          "p_new": 0.005083676095357333,
+          "p_old": 0.0006194407657863887
+        },
+        {
+          "target_new": 8.733680725097656,
+          "target_true": 13.756841659545898,
+          "prompt": "The capital city of Beiyang Government is",
+          "p_new": 0.0001610685149034388,
+          "p_old": 1.0604240745192557e-06
+        },
+        {
+          "target_new": 0.9932963848114014,
+          "target_true": 11.101420402526855,
+          "prompt": "Provisional Government of the Republic of China's capital city is",
+          "p_new": 0.3703538478496199,
+          "p_old": 1.5090873474583378e-05
+        },
+        {
+          "target_new": 1.214587688446045,
+          "target_true": 11.876993179321289,
+          "prompt": "Empire of China, which has the capital",
+          "p_new": 0.296832376485052,
+          "p_old": 6.94844142229684e-06
+        },
+        {
+          "target_new": 13.285478591918945,
+          "target_true": 14.299957275390625,
+          "prompt": "Kaiyang County's capital,",
+          "p_new": 1.6989866176337562e-06,
+          "p_old": 6.160379455503895e-07
+        },
+        {
+          "target_new": 1.147849202156067,
+          "target_true": 10.730826377868652,
+          "prompt": "Empire of China's capital city is",
+          "p_new": 0.31731852395526744,
+          "p_old": 2.186056175122816e-05
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 0.0
+      }
+    }
+  },
+  "seeds": {
+    "18861": 18893,
+    "3073": 3105
+  },
+  "edit_seconds": [
+    2.9088866170000074,
+    2.9092202550000366
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "18861": true,
+      "3073": true
+    },
+    "eligible_prior_case_ids": [
+      18861
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 14.160500091999893,
+  "completed_at_utc": "2026-11-28T08:01:44.241488+00:00"
+}

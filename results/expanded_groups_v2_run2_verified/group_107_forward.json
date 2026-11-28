@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      15124,
+      5723
+    ],
+    "group_id": "group_107",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "distinct"
+      }
+    ],
+    "relation_ids": [
+      "P136",
+      "P20"
+    ],
+    "size": 2,
+    "subject": "Antonio Sartorio"
+  },
+  "order": "forward",
+  "edit_order": [
+    15124,
+    5723
+  ],
+  "facts": {
+    "15124": {
+      "case_id": 15124,
+      "requested_rewrite": {
+        "prompt": "The genre played by {} is",
+        "relation_id": "P136",
+        "target_new": {
+          "str": "jazz",
+          "id": "Q8341"
+        },
+        "target_true": {
+          "str": "opera",
+          "id": "Q1344"
+        },
+        "subject": "Antonio Sartorio"
+      },
+      "prompts": {
+        "rewrite": [
+          "The genre played by Antonio Sartorio is"
+        ],
+        "paraphrase": [
+          "The party was founded on June 1, 1990. What does Antonio Sartorio play? They play",
+          "The boats were floating on a calm sea. Antonio Sartorio is known for performing"
+        ],
+        "neighborhood": [
+          "Hans Werner Henze is known for performing",
+          "George Enescu, who plays",
+          "The genre played by George Enescu is",
+          "Leo Slezak plays",
+          "The genre played by Ern\u0151 Dohn\u00e1nyi is",
+          "Alban Berg is known for performing",
+          "Dietrich Fischer-Dieskau plays",
+          "Wolfgang Rihm performs",
+          "Fritz Kreisler is known for performing",
+          "Wolfgang Rihm plays"
+        ],
+        "attribute": [
+          "Zeena Parkins is known for performing",
+          "Casey Abrams plays",
+          "Frank Wess, who plays",
+          "Quincy Jones performs",
+          "Jacky Terrasson, who plays",
+          "What does Casey Abrams play? They play",
+          "What does Frank Wess play? They play",
+          "The genre played by Eric Alexander is",
+          "David Sanborn, who plays",
+          "Etta James plays"
+        ]
+      }
+    },
+    "5723": {
+      "case_id": 5723,
+      "requested_rewrite": {
+        "prompt": "{} died at",
+        "relation_id": "P20",
+        "target_new": {
+          "str": "London",
+          "id": "Q84"
+        },
+        "target_true": {
+          "str": "Venice",
+          "id": "Q641"
+        },
+        "subject": "Antonio Sartorio"
+      },
+      "prompts": {
+        "rewrite": [
+          "Antonio Sartorio died at"
+        ],
+        "paraphrase": [
+          "Also published as The International Dictionary of Psychology. Antonio Sartorio's life ended in",
+          "Do you get over your first love? Antonio Sartorio expired at"
+        ],
+        "neighborhood": [
+          "Vincenzo Coronelli passed away at",
+          "Antonio Gardano died in the city of",
+          "Domenico Fetti died in",
+          "Antonio Buzzolla died in the city of",
+          "Luigi Carrer's life ended in",
+          "Alexander Dreyschock died in the city of",
+          "Giovanni Antonio Guardi succumbed at",
+          "Giuseppe Borsato expired at",
+          "Luigi Carrer died in the city of",
+          "Cesare Vecellio succumbed at"
+        ],
+        "attribute": [
+          "Rolf Dieter Brinkmann succumbed at",
+          "Rolf Dieter Brinkmann passed away at",
+          "George Grey died in",
+          "George Grey died at",
+          "Ezekiel, Freiherr von Spanheim died in",
+          "Gerard Hoffnung's life ended in",
+          "Johann Peter Salomon succumbed at",
+          "Arthur Koestler succumbed at",
+          "Georg Rudolf Weckherlin succumbed at",
+          "Godfrey Kneller lost their life at"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "15124": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 9.618748664855957,
+              "target_true": 9.90621566772461,
+              "prompt": "The genre played by Antonio Sartorio is",
+              "p_new": 6.647074281004479e-05,
+              "p_old": 4.9863780136800775e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 6.489758491516113,
+              "target_true": 8.542808532714844,
+              "prompt": "The party was founded on June 1, 1990. What does Antonio Sartorio play? They play",
+              "p_new": 0.0015189157948258042,
+              "p_old": 0.00019494198963414445
+            },
+            {
+              "target_new": 8.596936225891113,
+              "target_true": 8.170104026794434,
+              "prompt": "The boats were floating on a calm sea. Antonio Sartorio is known for performing",
+              "p_new": 0.00018467071718864477,
+              "p_old": 0.000282988576518593
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.216730117797852,
+              "target_true": 7.546786308288574,
+              "prompt": "Hans Werner Henze is known for performing",
+              "p_new": 0.0002700968072661271,
+              "p_old": 0.000527803602567393
+            },
+            {
+              "target_new": 10.808209419250488,
+              "target_true": 11.412918090820312,
+              "prompt": "George Enescu, who plays",
+              "p_new": 2.0232720865772648e-05,
+              "p_old": 1.1051790678017288e-05
+            },
+            {
+              "target_new": 10.033354759216309,
+              "target_true": 10.315195083618164,
+              "prompt": "The genre played by George Enescu is",
+              "p_new": 4.391060219352453e-05,
+              "p_old": 3.3125900682310586e-05
+            },
+            {
+              "target_new": 10.943034172058105,
+              "target_true": 12.654205322265625,
+              "prompt": "Leo Slezak plays",
+              "p_new": 1.7680748387196165e-05,
+              "p_old": 3.1940996093364116e-06
+            },
+            {
+              "target_new": 9.685445785522461,
+              "target_true": 9.828768730163574,
+              "prompt": "The genre played by Ern\u0151 Dohn\u00e1nyi is",
+              "p_new": 6.218195048109175e-05,
+              "p_old": 5.387905582908268e-05
+            },
+            {
+              "target_new": 7.207672119140625,
+              "target_true": 7.443027496337891,
+              "prompt": "Alban Berg is known for performing",
+              "p_new": 0.0007408798295691962,
+              "p_old": 0.000585509882497033
+            },
+            {
+              "target_new": 9.481882095336914,
+              "target_true": 10.718973159790039,
+              "prompt": "Dietrich Fischer-Dieskau plays",
+              "p_new": 7.622034811138e-05,
+              "p_old": 2.21212215337518e-05
+            },
+            {
+              "target_new": 9.739502906799316,
+              "target_true": 11.672450065612793,
+              "prompt": "Wolfgang Rihm performs",
+              "p_new": 5.8909811230945965e-05,
+              "p_old": 8.525489938853761e-06
+            },
+            {
+              "target_new": 8.083514213562012,
+              "target_true": 8.583579063415527,
+              "prompt": "Fritz Kreisler is known for performing",
+              "p_new": 0.0003085846951999581,
+              "p_old": 0.00018715394145761728
+            },
+            {
+              "target_new": 8.473939895629883,
+              "target_true": 9.901695251464844,
+              "prompt": "Wolfgang Rihm plays",
+              "p_new": 0.00020884047068245998,
+              "p_old": 5.0089695410143025e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.808933258056641,
+              "target_true": 9.055024147033691,
+              "prompt": "Zeena Parkins is known for performing",
+              "p_new": 0.00040609101116344975,
+              "p_old": 0.0001168027262064735
+            },
+            {
+              "target_new": 10.279964447021484,
+              "target_true": 11.926383018493652,
+              "prompt": "Casey Abrams plays",
+              "p_new": 3.431374871200242e-05,
+              "p_old": 6.6135960616969e-06
+            },
+            {
+              "target_new": 10.453152656555176,
+              "target_true": 11.879633903503418,
+              "prompt": "Frank Wess, who plays",
+              "p_new": 2.8857153045540052e-05,
+              "p_old": 6.930116710907953e-06
+            },
+            {
+              "target_new": 8.591917991638184,
+              "target_true": 11.888054847717285,
+              "prompt": "Quincy Jones performs",
+              "p_new": 0.00018559976725291853,
+              "p_old": 6.872003611683867e-06
+            },
+            {
+              "target_new": 10.518477439880371,
+              "target_true": 11.930009841918945,
+              "prompt": "Jacky Terrasson, who plays",
+              "p_new": 2.703231813261118e-05,
+              "p_old": 6.589653161156289e-06
+            },
+            {
+              "target_new": 7.971260070800781,
+              "target_true": 9.73889446258545,
+              "prompt": "What does Casey Abrams play? They play",
+              "p_new": 0.00034524368021312244,
+              "p_old": 5.894566547127586e-05
+            },
+            {
+              "target_new": 6.411752223968506,
+              "target_true": 9.232281684875488,
+              "prompt": "What does Frank Wess play? They play",
+              "p_new": 0.0016421445745851018,
+              "p_old": 9.782976468190364e-05
+            },
+            {
+              "target_new": 9.611268997192383,
+              "target_true": 11.786065101623535,
+              "prompt": "The genre played by Eric Alexander is",
+              "p_new": 6.696978588720225e-05,
+              "p_old": 7.609865185989124e-06
+            },
+            {
+              "target_new": 10.849708557128906,
+              "target_true": 12.303757667541504,
+              "prompt": "David Sanborn, who plays",
+              "p_new": 1.9410264048728865e-05,
+              "p_old": 4.53467261590805e-06
+            },
+            {
+              "target_new": 7.221946716308594,
+              "target_true": 9.985836029052734,
+              "prompt": "Etta James plays",
+              "p_new": 0.0007303791929350161,
+              "p_old": 4.604754864922873e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 50.0,
+            "neighborhood": 10.0
+          }
+        },
+        "5723": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 8.520525932312012,
+              "target_true": 9.220969200134277,
+              "prompt": "Antonio Sartorio died at",
+              "p_new": 0.0001993345613041506,
+              "p_old": 9.894274582399209e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 6.821125030517578,
+              "target_true": 9.634671211242676,
+              "prompt": "Also published as The International Dictionary of Psychology. Antonio Sartorio's life ended in",
+              "p_new": 0.0010904933935583774,
+              "p_old": 6.542074086027017e-05
+            },
+            {
+              "target_new": 7.923252582550049,
+              "target_true": 8.959959983825684,
+              "prompt": "Do you get over your first love? Antonio Sartorio expired at",
+              "p_new": 0.0003622222506167115,
+              "p_old": 0.00012845139376490913
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.545429229736328,
+              "target_true": 9.194381713867188,
+              "prompt": "Vincenzo Coronelli passed away at",
+              "p_new": 7.152745258364243e-05,
+              "p_old": 0.00010160866775930832
+            },
+            {
+              "target_new": 6.787341117858887,
+              "target_true": 7.226498603820801,
+              "prompt": "Antonio Gardano died in the city of",
+              "p_new": 0.0011279639136546876,
+              "p_old": 0.0007270621441513344
+            },
+            {
+              "target_new": 5.926125526428223,
+              "target_true": 6.8868207931518555,
+              "prompt": "Domenico Fetti died in",
+              "p_new": 0.0026688021867398853,
+              "p_old": 0.0010211551493142664
+            },
+            {
+              "target_new": 6.62497615814209,
+              "target_true": 6.039141654968262,
+              "prompt": "Antonio Buzzolla died in the city of",
+              "p_new": 0.0013268120643146026,
+              "p_old": 0.0023836039904433725
+            },
+            {
+              "target_new": 7.294683456420898,
+              "target_true": 9.649373054504395,
+              "prompt": "Luigi Carrer's life ended in",
+              "p_new": 0.0006791398707399698,
+              "p_old": 6.446597101763368e-05
+            },
+            {
+              "target_new": 5.906402587890625,
+              "target_true": 7.760837554931641,
+              "prompt": "Alexander Dreyschock died in the city of",
+              "p_new": 0.00272196131211395,
+              "p_old": 0.0004260995494108937
+            },
+            {
+              "target_new": 7.474609375,
+              "target_true": 8.391310691833496,
+              "prompt": "Giovanni Antonio Guardi succumbed at",
+              "p_new": 0.0005673073287871321,
+              "p_old": 0.00022682977949696064
+            },
+            {
+              "target_new": 8.75049877166748,
+              "target_true": 9.900232315063477,
+              "prompt": "Giuseppe Borsato expired at",
+              "p_new": 0.00015838230880357908,
+              "p_old": 5.0163027075594703e-05
+            },
+            {
+              "target_new": 7.151269435882568,
+              "target_true": 6.936136722564697,
+              "prompt": "Luigi Carrer died in the city of",
+              "p_new": 0.000783868378807132,
+              "p_old": 0.0009720175262308487
+            },
+            {
+              "target_new": 7.782671928405762,
+              "target_true": 9.462506294250488,
+              "prompt": "Cesare Vecellio succumbed at",
+              "p_new": 0.00041689676681619446,
+              "p_old": 7.77115786552574e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.785555839538574,
+              "target_true": 9.55084228515625,
+              "prompt": "Rolf Dieter Brinkmann succumbed at",
+              "p_new": 0.0004156962055771843,
+              "p_old": 7.114131654949022e-05
+            },
+            {
+              "target_new": 9.853824615478516,
+              "target_true": 11.348786354064941,
+              "prompt": "Rolf Dieter Brinkmann passed away at",
+              "p_new": 5.2545840577926416e-05,
+              "p_old": 1.1783782289535553e-05
+            },
+            {
+              "target_new": 4.591557502746582,
+              "target_true": 8.77293872833252,
+              "prompt": "George Grey died in",
+              "p_new": 0.010137057576653872,
+              "p_old": 0.0001548677968820801
+            },
+            {
+              "target_new": 5.957070827484131,
+              "target_true": 8.970407485961914,
+              "prompt": "George Grey died at",
+              "p_new": 0.002587480057972465,
+              "p_old": 0.00012711638345870406
+            },
+            {
+              "target_new": 6.00621223449707,
+              "target_true": 6.882514953613281,
+              "prompt": "Ezekiel, Freiherr von Spanheim died in",
+              "p_new": 0.002463401317820373,
+              "p_old": 0.0010255615593705294
+            },
+            {
+              "target_new": 7.154482841491699,
+              "target_true": 10.361414909362793,
+              "prompt": "Gerard Hoffnung's life ended in",
+              "p_new": 0.0007813535345332187,
+              "p_old": 3.162967140661734e-05
+            },
+            {
+              "target_new": 6.706117630004883,
+              "target_true": 9.191973686218262,
+              "prompt": "Johann Peter Salomon succumbed at",
+              "p_new": 0.0012234046258687893,
+              "p_old": 0.00010185363907111511
+            },
+            {
+              "target_new": 7.180822372436523,
+              "target_true": 9.2211332321167,
+              "prompt": "Arthur Koestler succumbed at",
+              "p_new": 0.000761041724997707,
+              "p_old": 9.89265173802766e-05
+            },
+            {
+              "target_new": 7.767521858215332,
+              "target_true": 9.05095100402832,
+              "prompt": "Georg Rudolf Weckherlin succumbed at",
+              "p_new": 0.0004232608686644301,
+              "p_old": 0.00011727945063803065
+            },
+            {
+              "target_new": 7.40443754196167,
+              "target_true": 10.200146675109863,
+              "prompt": "Godfrey Kneller lost their life at",
+              "p_new": 0.000608546310787587,
+              "p_old": 3.716486712336397e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 30.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        15124
+      ],
+      "evaluations": {
+        "15124": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.002670652698725462,
+              "target_true": 15.688429832458496,
+              "prompt": "The genre played by Antonio Sartorio is",
+              "p_new": 0.9973329103216241,
+              "p_old": 1.5367438863517093e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 1.0962913036346436,
+              "target_true": 8.294828414916992,
+              "prompt": "The party was founded on June 1, 1990. What does Antonio Sartorio play? They play",
+              "p_new": 0.3341078935347618,
+              "p_old": 0.00024980538208785926
+            },
+            {
+              "target_new": 0.8700923919677734,
+              "target_true": 10.023415565490723,
+              "prompt": "The boats were floating on a calm sea. Antonio Sartorio is known for performing",
+              "p_new": 0.4189128432776902,
+              "p_old": 4.434921428985161e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.14750862121582,
+              "target_true": 7.50492000579834,
+              "prompt": "Hans Werner Henze is known for performing",
+              "p_new": 0.0002894556056076543,
+              "p_old": 0.0005503698749814046
+            },
+            {
+              "target_new": 10.704675674438477,
+              "target_true": 11.395484924316406,
+              "prompt": "George Enescu, who plays",
+              "p_new": 2.2439771177598684e-05,
+              "p_old": 1.1246147590974263e-05
+            },
+            {
+              "target_new": 9.71607494354248,
+              "target_true": 10.096566200256348,
+              "prompt": "The genre played by George Enescu is",
+              "p_new": 6.0306242017578024e-05,
+              "p_old": 4.1220856653065746e-05
+            },
+            {
+              "target_new": 10.966300964355469,
+              "target_true": 12.64378547668457,
+              "prompt": "Leo Slezak plays",
+              "p_new": 1.727412286609275e-05,
+              "p_old": 3.227555634643218e-06
+            },
+            {
+              "target_new": 9.460691452026367,
+              "target_true": 9.604742050170898,
+              "prompt": "The genre played by Ern\u0151 Dohn\u00e1nyi is",
+              "p_new": 7.785274096441867e-05,
+              "p_old": 6.740832373152041e-05
+            },
+            {
+              "target_new": 7.183107376098633,
+              "target_true": 7.419693946838379,
+              "prompt": "Alban Berg is known for performing",
+              "p_new": 0.0007593047271480667,
+              "p_old": 0.0005993325450681403
+            },
+            {
+              "target_new": 9.440099716186523,
+              "target_true": 10.669322967529297,
+              "prompt": "Dietrich Fischer-Dieskau plays",
+              "p_new": 7.94724834624491e-05,
+              "p_old": 2.32472673184425e-05
+            },
+            {
+              "target_new": 9.718663215637207,
+              "target_true": 11.647394180297852,
+              "prompt": "Wolfgang Rihm performs",
+              "p_new": 6.0150354880415586e-05,
+              "p_old": 8.741802268907796e-06
+            },
+            {
+              "target_new": 7.9865241050720215,
+              "target_true": 9.048551559448242,
+              "prompt": "Fritz Kreisler is known for performing",
+              "p_new": 0.00034001388427937776,
+              "p_old": 0.00011756119405890647
+            },
+            {
+              "target_new": 8.486349105834961,
+              "target_true": 9.917030334472656,
+              "prompt": "Wolfgang Rihm plays",
+              "p_new": 0.00020626493859209185,
+              "p_old": 4.932742544795953e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.710829734802246,
+              "target_true": 9.000991821289062,
+              "prompt": "Zeena Parkins is known for performing",
+              "p_new": 0.00044794964348499733,
+              "p_old": 0.00012328746429534103
+            },
+            {
+              "target_new": 10.2966947555542,
+              "target_true": 11.941096305847168,
+              "prompt": "Casey Abrams plays",
+              "p_new": 3.374444470409415e-05,
+              "p_old": 6.517000682765681e-06
+            },
+            {
+              "target_new": 10.453882217407227,
+              "target_true": 11.877904891967773,
+              "prompt": "Frank Wess, who plays",
+              "p_new": 2.8836107674249362e-05,
+              "p_old": 6.942109327342914e-06
+            },
+            {
+              "target_new": 8.604026794433594,
+              "target_true": 11.921721458435059,
+              "prompt": "Quincy Jones performs",
+              "p_new": 0.00018336592812541713,
+              "p_old": 6.644497705918932e-06
+            },
+            {
+              "target_new": 10.497698783874512,
+              "target_true": 11.92923641204834,
+              "prompt": "Jacky Terrasson, who plays",
+              "p_new": 2.759988963794041e-05,
+              "p_old": 6.594751767201001e-06
+            },
+            {
+              "target_new": 7.956686019897461,
+              "target_true": 9.753458023071289,
+              "prompt": "What does Casey Abrams play? They play",
+              "p_new": 0.00035031212334431954,
+              "p_old": 5.809342757891305e-05
+            },
+            {
+              "target_new": 6.432050704956055,
+              "target_true": 9.241764068603516,
+              "prompt": "What does Frank Wess play? They play",
+              "p_new": 0.0016091475617455268,
+              "p_old": 9.690648965527046e-05
+            },
+            {
+              "target_new": 9.545434951782227,
+              "target_true": 11.756982803344727,
+              "prompt": "The genre played by Eric Alexander is",
+              "p_new": 7.152704330144672e-05,
+              "p_old": 7.834427116433818e-06
+            },
+            {
+              "target_new": 10.859464645385742,
+              "target_true": 12.309455871582031,
+              "prompt": "David Sanborn, who plays",
+              "p_new": 1.922181654951815e-05,
+              "p_old": 4.508906605794564e-06
+            },
+            {
+              "target_new": 7.29029655456543,
+              "target_true": 10.015215873718262,
+              "prompt": "Etta James plays",
+              "p_new": 0.0006821257352577826,
+              "p_old": 4.471435916923848e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 10.0
+          }
+        },
+        "5723": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 11.898916244506836,
+              "target_true": 13.186806678771973,
+              "prompt": "Antonio Sartorio died at",
+              "p_new": 6.797767935084645e-06,
+              "p_old": 1.8751785455690129e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 9.115999221801758,
+              "target_true": 11.37509822845459,
+              "prompt": "Also published as The International Dictionary of Psychology. Antonio Sartorio's life ended in",
+              "p_new": 0.00010989345837004617,
+              "p_old": 1.1477772391491053e-05
+            },
+            {
+              "target_new": 11.536358833312988,
+              "target_true": 12.165114402770996,
+              "prompt": "Do you get over your first love? Antonio Sartorio expired at",
+              "p_new": 9.76839060905903e-06,
+              "p_old": 5.20904300792258e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.74871826171875,
+              "target_true": 9.236485481262207,
+              "prompt": "Vincenzo Coronelli passed away at",
+              "p_new": 5.836943013821263e-05,
+              "p_old": 9.741937147971949e-05
+            },
+            {
+              "target_new": 6.693082332611084,
+              "target_true": 7.181797027587891,
+              "prompt": "Antonio Gardano died in the city of",
+              "p_new": 0.0012394564619363788,
+              "p_old": 0.0007603003331194299
+            },
+            {
+              "target_new": 5.895727157592773,
+              "target_true": 6.832486152648926,
+              "prompt": "Domenico Fetti died in",
+              "p_new": 0.0027511750776893582,
+              "p_old": 0.0010781742769323142
+            },
+            {
+              "target_new": 6.540383815765381,
+              "target_true": 6.037385940551758,
+              "prompt": "Antonio Buzzolla died in the city of",
+              "p_new": 0.0014439341879451774,
+              "p_old": 0.0023877925942527175
+            },
+            {
+              "target_new": 7.298917770385742,
+              "target_true": 9.668391227722168,
+              "prompt": "Luigi Carrer's life ended in",
+              "p_new": 0.000676270259007267,
+              "p_old": 6.32515308351557e-05
+            },
+            {
+              "target_new": 5.845291614532471,
+              "target_true": 7.7480692863464355,
+              "prompt": "Alexander Dreyschock died in the city of",
+              "p_new": 0.00289349080568083,
+              "p_old": 0.0004315749844267139
+            },
+            {
+              "target_new": 7.482377529144287,
+              "target_true": 8.076629638671875,
+              "prompt": "Giovanni Antonio Guardi succumbed at",
+              "p_new": 0.0005629174706325294,
+              "p_old": 0.0003107164995070605
+            },
+            {
+              "target_new": 8.642333030700684,
+              "target_true": 9.624893188476562,
+              "prompt": "Giuseppe Borsato expired at",
+              "p_new": 0.0001764747006954869,
+              "p_old": 6.606356400176323e-05
+            },
+            {
+              "target_new": 7.151926040649414,
+              "target_true": 6.935747146606445,
+              "prompt": "Luigi Carrer died in the city of",
+              "p_new": 0.0007833538560305669,
+              "p_old": 0.0009723962746609188
+            },
+            {
+              "target_new": 7.877496719360352,
+              "target_true": 9.344701766967773,
+              "prompt": "Cesare Vecellio succumbed at",
+              "p_new": 0.0003791810663428823,
+              "p_old": 8.742740492409155e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.844925880432129,
+              "target_true": 9.545873641967773,
+              "prompt": "Rolf Dieter Brinkmann succumbed at",
+              "p_new": 0.0003917346422500062,
+              "p_old": 7.149567197119965e-05
+            },
+            {
+              "target_new": 9.855767250061035,
+              "target_true": 11.332013130187988,
+              "prompt": "Rolf Dieter Brinkmann passed away at",
+              "p_new": 5.244386229619127e-05,
+              "p_old": 1.19831012457043e-05
+            },
+            {
+              "target_new": 4.618757724761963,
+              "target_true": 8.771102905273438,
+              "prompt": "George Grey died in",
+              "p_new": 0.009865043551561434,
+              "p_old": 0.00015515236788578787
+            },
+            {
+              "target_new": 6.005845069885254,
+              "target_true": 8.990297317504883,
+              "prompt": "George Grey died at",
+              "p_new": 0.002464305957674686,
+              "p_old": 0.00012461303809171504
+            },
+            {
+              "target_new": 6.016915321350098,
+              "target_true": 6.902216911315918,
+              "prompt": "Ezekiel, Freiherr von Spanheim died in",
+              "p_new": 0.0024371759162931258,
+              "p_old": 0.0010055537327772037
+            },
+            {
+              "target_new": 7.1602959632873535,
+              "target_true": 10.363515853881836,
+              "prompt": "Gerard Hoffnung's life ended in",
+              "p_new": 0.0007768246076269634,
+              "p_old": 3.156328897915254e-05
+            },
+            {
+              "target_new": 6.7433366775512695,
+              "target_true": 9.09338092803955,
+              "prompt": "Johann Peter Salomon succumbed at",
+              "p_new": 0.0011787076205328668,
+              "p_old": 0.00011240738407561732
+            },
+            {
+              "target_new": 7.2533392906188965,
+              "target_true": 9.246407508850098,
+              "prompt": "Arthur Koestler succumbed at",
+              "p_new": 0.0007078068652926902,
+              "p_old": 9.64575532723308e-05
+            },
+            {
+              "target_new": 7.75168514251709,
+              "target_true": 8.980480194091797,
+              "prompt": "Georg Rudolf Weckherlin succumbed at",
+              "p_new": 0.00043001728925418786,
+              "p_old": 0.00012584240421157603
+            },
+            {
+              "target_new": 7.457355976104736,
+              "target_true": 10.218877792358398,
+              "prompt": "Godfrey Kneller lost their life at",
+              "p_new": 0.0005771802341012532,
+              "p_old": 3.64752068574981e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 30.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        15124,
+        5723
+      ],
+      "evaluations": {
+        "15124": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 14.500409126281738,
+              "target_true": 16.642784118652344,
+              "prompt": "The genre played by Antonio Sartorio is",
+              "p_new": 5.041413628881863e-07,
+              "p_old": 5.917396816824973e-08
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 13.807806968688965,
+              "target_true": 13.997459411621094,
+              "prompt": "The party was founded on June 1, 1990. What does Antonio Sartorio play? They play",
+              "p_new": 1.0077333382614284e-06,
+              "p_old": 8.336439771663155e-07
+            },
+            {
+              "target_new": 12.92677116394043,
+              "target_true": 12.777774810791016,
+              "prompt": "The boats were floating on a calm sea. Antonio Sartorio is known for performing",
+              "p_new": 2.4320618463516252e-06,
+              "p_old": 2.8228181987313355e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.099125862121582,
+              "target_true": 7.435039520263672,
+              "prompt": "Hans Werner Henze is known for performing",
+              "p_new": 0.0003038045891405547,
+              "p_old": 0.0005902056513052348
+            },
+            {
+              "target_new": 10.884119033813477,
+              "target_true": 11.378466606140137,
+              "prompt": "George Enescu, who plays",
+              "p_new": 1.875370858673431e-05,
+              "p_old": 1.1439175959261118e-05
+            },
+            {
+              "target_new": 9.658608436584473,
+              "target_true": 10.011880874633789,
+              "prompt": "The genre played by George Enescu is",
+              "p_new": 6.387334392514146e-05,
+              "p_old": 4.4863730454235036e-05
+            },
+            {
+              "target_new": 10.980624198913574,
+              "target_true": 12.683210372924805,
+              "prompt": "Leo Slezak plays",
+              "p_new": 1.702846505950248e-05,
+              "p_old": 3.1027852785052165e-06
+            },
+            {
+              "target_new": 9.360286712646484,
+              "target_true": 9.434377670288086,
+              "prompt": "The genre played by Ern\u0151 Dohn\u00e1nyi is",
+              "p_new": 8.607541626772894e-05,
+              "p_old": 7.992853218201568e-05
+            },
+            {
+              "target_new": 7.168402671813965,
+              "target_true": 7.390462875366211,
+              "prompt": "Alban Berg is known for performing",
+              "p_new": 0.0007705525740796829,
+              "p_old": 0.0006171102422609566
+            },
+            {
+              "target_new": 9.479018211364746,
+              "target_true": 10.694971084594727,
+              "prompt": "Dietrich Fischer-Dieskau plays",
+              "p_new": 7.643894721651661e-05,
+              "p_old": 2.2658600057907333e-05
+            },
+            {
+              "target_new": 9.729604721069336,
+              "target_true": 11.649581909179688,
+              "prompt": "Wolfgang Rihm performs",
+              "p_new": 5.949580684618894e-05,
+              "p_old": 8.722698480179462e-06
+            },
+            {
+              "target_new": 7.793527603149414,
+              "target_true": 8.479557037353516,
+              "prompt": "Fritz Kreisler is known for performing",
+              "p_new": 0.00041239554720599473,
+              "p_old": 0.0002076706726973562
+            },
+            {
+              "target_new": 8.502245903015137,
+              "target_true": 9.91591739654541,
+              "prompt": "Wolfgang Rihm plays",
+              "p_new": 0.0002030119115586494,
+              "p_old": 4.9382354371165214e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.7030029296875,
+              "target_true": 8.940824508666992,
+              "prompt": "Zeena Parkins is known for performing",
+              "p_new": 0.00045146941435802735,
+              "p_old": 0.0001309330402374413
+            },
+            {
+              "target_new": 10.28646469116211,
+              "target_true": 11.93956470489502,
+              "prompt": "Casey Abrams plays",
+              "p_new": 3.4091424332193273e-05,
+              "p_old": 6.526989774915378e-06
+            },
+            {
+              "target_new": 10.436666488647461,
+              "target_true": 11.859733581542969,
+              "prompt": "Frank Wess, who plays",
+              "p_new": 2.9336840152468234e-05,
+              "p_old": 7.069409654993942e-06
+            },
+            {
+              "target_new": 8.61551570892334,
+              "target_true": 11.916911125183105,
+              "prompt": "Quincy Jones performs",
+              "p_new": 0.00018127130815165832,
+              "p_old": 6.6765369521214575e-06
+            },
+            {
+              "target_new": 10.49997615814209,
+              "target_true": 11.912568092346191,
+              "prompt": "Jacky Terrasson, who plays",
+              "p_new": 2.7537105877686295e-05,
+              "p_old": 6.7055964287956206e-06
+            },
+            {
+              "target_new": 7.955887794494629,
+              "target_true": 9.7431058883667,
+              "prompt": "What does Casey Abrams play? They play",
+              "p_new": 0.00035059186301289447,
+              "p_old": 5.8697942176289885e-05
+            },
+            {
+              "target_new": 6.488877296447754,
+              "target_true": 9.288914680480957,
+              "prompt": "What does Frank Wess play? They play",
+              "p_new": 0.0015202548458293798,
+              "p_old": 9.24433364118192e-05
+            },
+            {
+              "target_new": 9.538362503051758,
+              "target_true": 11.78599739074707,
+              "prompt": "The genre played by Eric Alexander is",
+              "p_new": 7.203470774732808e-05,
+              "p_old": 7.610380474075754e-06
+            },
+            {
+              "target_new": 10.857476234436035,
+              "target_true": 12.28546142578125,
+              "prompt": "David Sanborn, who plays",
+              "p_new": 1.926007544461584e-05,
+              "p_old": 4.618403728982816e-06
+            },
+            {
+              "target_new": 7.291954040527344,
+              "target_true": 10.007104873657227,
+              "prompt": "Etta James plays",
+              "p_new": 0.0006809960578981415,
+              "p_old": 4.5078512165260104e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 50.0,
+            "neighborhood": 10.0
+          }
+        },
+        "5723": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.017706772312521935,
+              "target_true": 7.570113182067871,
+              "prompt": "Antonio Sartorio died at",
+              "p_new": 0.9824490713949967,
+              "p_old": 0.0005156340847776266
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.07095035910606384,
+              "target_true": 6.810919284820557,
+              "prompt": "Also published as The International Dictionary of Psychology. Antonio Sartorio's life ended in",
+              "p_new": 0.9315081318762665,
+              "p_old": 0.0011016796769046768
+            },
+            {
+              "target_new": 0.002522027352824807,
+              "target_true": 9.693350791931152,
+              "prompt": "Do you get over your first love? Antonio Sartorio expired at",
+              "p_new": 0.9974811502862339,
+              "p_old": 6.1692339502606e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.72348403930664,
+              "target_true": 8.531426429748535,
+              "prompt": "Vincenzo Coronelli passed away at",
+              "p_new": 0.00016271928181365837,
+              "p_old": 0.00019717351506719644
+            },
+            {
+              "target_new": 6.393838882446289,
+              "target_true": 6.825160026550293,
+              "prompt": "Antonio Gardano died in the city of",
+              "p_new": 0.0016718259235546354,
+              "p_old": 0.0010861021223804845
+            },
+            {
+              "target_new": 5.567924499511719,
+              "target_true": 6.492253303527832,
+              "prompt": "Domenico Fetti died in",
+              "p_new": 0.0038183972994790556,
+              "p_old": 0.0015151311084596047
+            },
+            {
+              "target_new": 6.288063049316406,
+              "target_true": 5.8787970542907715,
+              "prompt": "Antonio Buzzolla died in the city of",
+              "p_new": 0.001858356006973718,
+              "p_old": 0.0027981492729394213
+            },
+            {
+              "target_new": 7.187130451202393,
+              "target_true": 9.55050277709961,
+              "prompt": "Luigi Carrer's life ended in",
+              "p_new": 0.000756256123696271,
+              "p_old": 7.11654737001604e-05
+            },
+            {
+              "target_new": 5.720667839050293,
+              "target_true": 7.733381271362305,
+              "prompt": "Alexander Dreyschock died in the city of",
+              "p_new": 0.003277521314556811,
+              "p_old": 0.0004379607465458268
+            },
+            {
+              "target_new": 7.10271692276001,
+              "target_true": 7.418074131011963,
+              "prompt": "Giovanni Antonio Guardi succumbed at",
+              "p_new": 0.0008228662194902217,
+              "p_old": 0.0006003041400999931
+            },
+            {
+              "target_new": 7.945330619812012,
+              "target_true": 9.07925033569336,
+              "prompt": "Giuseppe Borsato expired at",
+              "p_new": 0.00035431272890995005,
+              "p_old": 0.00011400704243942895
+            },
+            {
+              "target_new": 7.08895206451416,
+              "target_true": 6.851156234741211,
+              "prompt": "Luigi Carrer died in the city of",
+              "p_new": 0.000834271170045295,
+              "p_old": 0.001058231421337749
+            },
+            {
+              "target_new": 6.995768070220947,
+              "target_true": 8.316974639892578,
+              "prompt": "Cesare Vecellio succumbed at",
+              "p_new": 0.0009157491630821746,
+              "p_old": 0.0002443339453532205
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.608414173126221,
+              "target_true": 9.357590675354004,
+              "prompt": "Rolf Dieter Brinkmann succumbed at",
+              "p_new": 0.0004962582144131749,
+              "p_old": 8.630779190589158e-05
+            },
+            {
+              "target_new": 9.743782043457031,
+              "target_true": 11.257083892822266,
+              "prompt": "Rolf Dieter Brinkmann passed away at",
+              "p_new": 5.8658266678801756e-05,
+              "p_old": 1.2915480945398964e-05
+            },
+            {
+              "target_new": 4.637038230895996,
+              "target_true": 8.782439231872559,
+              "prompt": "George Grey died in",
+              "p_new": 0.009686343898866908,
+              "p_old": 0.00015340344189873612
+            },
+            {
+              "target_new": 6.049777507781982,
+              "target_true": 9.010478019714355,
+              "prompt": "George Grey died at",
+              "p_new": 0.0023583866708025347,
+              "p_old": 0.0001221234646403478
+            },
+            {
+              "target_new": 6.089443206787109,
+              "target_true": 6.977397918701172,
+              "prompt": "Ezekiel, Freiherr von Spanheim died in",
+              "p_new": 0.0022666706303472385,
+              "p_old": 0.0009327270799668079
+            },
+            {
+              "target_new": 7.1231465339660645,
+              "target_true": 10.283443450927734,
+              "prompt": "Gerard Hoffnung's life ended in",
+              "p_new": 0.0008062259385439315,
+              "p_old": 3.419457846327345e-05
+            },
+            {
+              "target_new": 6.553190231323242,
+              "target_true": 8.978282928466797,
+              "prompt": "Johann Peter Salomon succumbed at",
+              "p_new": 0.0014255604685524564,
+              "p_old": 0.0001261192174052043
+            },
+            {
+              "target_new": 6.6856560707092285,
+              "target_true": 9.016258239746094,
+              "prompt": "Arthur Koestler succumbed at",
+              "p_new": 0.001248695252618883,
+              "p_old": 0.00012141960034865738
+            },
+            {
+              "target_new": 7.451115608215332,
+              "target_true": 8.762460708618164,
+              "prompt": "Georg Rudolf Weckherlin succumbed at",
+              "p_new": 0.0005807933128457343,
+              "p_old": 0.00015649903586373353
+            },
+            {
+              "target_new": 7.003342151641846,
+              "target_true": 10.117799758911133,
+              "prompt": "Godfrey Kneller lost their life at",
+              "p_new": 0.0009088394049277764,
+              "p_old": 4.035481825265976e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 30.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "15124": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.002670652698725462,
+          "target_true": 15.688429832458496,
+          "prompt": "The genre played by Antonio Sartorio is",
+          "p_new": 0.9973329103216241,
+          "p_old": 1.5367438863517093e-07
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 1.0962913036346436,
+          "target_true": 8.294828414916992,
+          "prompt": "The party was founded on June 1, 1990. What does Antonio Sartorio play? They play",
+          "p_new": 0.3341078935347618,
+          "p_old": 0.00024980538208785926
+        },
+        {
+          "target_new": 0.8700923919677734,
+          "target_true": 10.023415565490723,
+          "prompt": "The boats were floating on a calm sea. Antonio Sartorio is known for performing",
+          "p_new": 0.4189128432776902,
+          "p_old": 4.434921428985161e-05
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 8.14750862121582,
+          "target_true": 7.50492000579834,
+          "prompt": "Hans Werner Henze is known for performing",
+          "p_new": 0.0002894556056076543,
+          "p_old": 0.0005503698749814046
+        },
+        {
+          "target_new": 10.704675674438477,
+          "target_true": 11.395484924316406,
+          "prompt": "George Enescu, who plays",
+          "p_new": 2.2439771177598684e-05,
+          "p_old": 1.1246147590974263e-05
+        },
+        {
+          "target_new": 9.71607494354248,
+          "target_true": 10.096566200256348,
+          "prompt": "The genre played by George Enescu is",
+          "p_new": 6.0306242017578024e-05,
+          "p_old": 4.1220856653065746e-05
+        },
+        {
+          "target_new": 10.966300964355469,
+          "target_true": 12.64378547668457,
+          "prompt": "Leo Slezak plays",
+          "p_new": 1.727412286609275e-05,
+          "p_old": 3.227555634643218e-06
+        },
+        {
+          "target_new": 9.460691452026367,
+          "target_true": 9.604742050170898,
+          "prompt": "The genre played by Ern\u0151 Dohn\u00e1nyi is",
+          "p_new": 7.785274096441867e-05,
+          "p_old": 6.740832373152041e-05
+        },
+        {
+          "target_new": 7.183107376098633,
+          "target_true": 7.419693946838379,
+          "prompt": "Alban Berg is known for performing",
+          "p_new": 0.0007593047271480667,
+          "p_old": 0.0005993325450681403
+        },
+        {
+          "target_new": 9.440099716186523,
+          "target_true": 10.669322967529297,
+          "prompt": "Dietrich Fischer-Dieskau plays",
+          "p_new": 7.94724834624491e-05,
+          "p_old": 2.32472673184425e-05
+        },
+        {
+          "target_new": 9.718663215637207,
+          "target_true": 11.647394180297852,
+          "prompt": "Wolfgang Rihm performs",
+          "p_new": 6.0150354880415586e-05,
+          "p_old": 8.741802268907796e-06
+        },
+        {
+          "target_new": 7.9865241050720215,
+          "target_true": 9.048551559448242,
+          "prompt": "Fritz Kreisler is known for performing",
+          "p_new": 0.00034001388427937776,
+          "p_old": 0.00011756119405890647
+        },
+        {
+          "target_new": 8.486349105834961,
+          "target_true": 9.917030334472656,
+          "prompt": "Wolfgang Rihm plays",
+          "p_new": 0.00020626493859209185,
+          "p_old": 4.932742544795953e-05
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 7.710829734802246,
+          "target_true": 9.000991821289062,
+          "prompt": "Zeena Parkins is known for performing",
+          "p_new": 0.00044794964348499733,
+          "p_old": 0.00012328746429534103
+        },
+        {
+          "target_new": 10.2966947555542,
+          "target_true": 11.941096305847168,
+          "prompt": "Casey Abrams plays",
+          "p_new": 3.374444470409415e-05,
+          "p_old": 6.517000682765681e-06
+        },
+        {
+          "target_new": 10.453882217407227,
+          "target_true": 11.877904891967773,
+          "prompt": "Frank Wess, who plays",
+          "p_new": 2.8836107674249362e-05,
+          "p_old": 6.942109327342914e-06
+        },
+        {
+          "target_new": 8.604026794433594,
+          "target_true": 11.921721458435059,
+          "prompt": "Quincy Jones performs",
+          "p_new": 0.00018336592812541713,
+          "p_old": 6.644497705918932e-06
+        },
+        {
+          "target_new": 10.497698783874512,
+          "target_true": 11.92923641204834,
+          "prompt": "Jacky Terrasson, who plays",
+          "p_new": 2.759988963794041e-05,
+          "p_old": 6.594751767201001e-06
+        },
+        {
+          "target_new": 7.956686019897461,
+          "target_true": 9.753458023071289,
+          "prompt": "What does Casey Abrams play? They play",
+          "p_new": 0.00035031212334431954,
+          "p_old": 5.809342757891305e-05
+        },
+        {
+          "target_new": 6.432050704956055,
+          "target_true": 9.241764068603516,
+          "prompt": "What does Frank Wess play? They play",
+          "p_new": 0.0016091475617455268,
+          "p_old": 9.690648965527046e-05
+        },
+        {
+          "target_new": 9.545434951782227,
+          "target_true": 11.756982803344727,
+          "prompt": "The genre played by Eric Alexander is",
+          "p_new": 7.152704330144672e-05,
+          "p_old": 7.834427116433818e-06
+        },
+        {
+          "target_new": 10.859464645385742,
+          "target_true": 12.309455871582031,
+          "prompt": "David Sanborn, who plays",
+          "p_new": 1.922181654951815e-05,
+          "p_old": 4.508906605794564e-06
+        },
+        {
+          "target_new": 7.29029655456543,
+          "target_true": 10.015215873718262,
+          "prompt": "Etta James plays",
+          "p_new": 0.0006821257352577826,
+          "p_old": 4.471435916923848e-05
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 10.0
+      }
+    },
+    "5723": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.0025043098721653223,
+          "target_true": 16.960166931152344,
+          "prompt": "Antonio Sartorio died at",
+          "p_new": 0.9974988232957823,
+          "p_old": 4.3081725539590014e-08
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 3.922071933746338,
+          "target_true": 10.785035133361816,
+          "prompt": "Also published as The International Dictionary of Psychology. Antonio Sartorio's life ended in",
+          "p_new": 0.019800027869218743,
+          "p_old": 2.070707490241878e-05
+        },
+        {
+          "target_new": 0.006816348992288113,
+          "target_true": 15.088393211364746,
+          "prompt": "Do you get over your first love? Antonio Sartorio expired at",
+          "p_new": 0.9932068296200991,
+          "p_old": 2.8002324724048394e-07
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 9.274402618408203,
+          "target_true": 9.083768844604492,
+          "prompt": "Vincenzo Coronelli passed away at",
+          "p_new": 9.379466138834594e-05,
+          "p_old": 0.00011349306268776861
+        },
+        {
+          "target_new": 6.562752723693848,
+          "target_true": 7.177248001098633,
+          "prompt": "Antonio Gardano died in the city of",
+          "p_new": 0.0014119935277135754,
+          "p_old": 0.0007637668381082088
+        },
+        {
+          "target_new": 5.826700210571289,
+          "target_true": 6.857020378112793,
+          "prompt": "Domenico Fetti died in",
+          "p_new": 0.0029477880289799944,
+          "p_old": 0.0010520439603730948
+        },
+        {
+          "target_new": 6.514418601989746,
+          "target_true": 5.887187480926514,
+          "prompt": "Antonio Buzzolla died in the city of",
+          "p_new": 0.0014819172327869019,
+          "p_old": 0.0027747698256753144
+        },
+        {
+          "target_new": 7.260491371154785,
+          "target_true": 9.654511451721191,
+          "prompt": "Luigi Carrer's life ended in",
+          "p_new": 0.0007027626334663619,
+          "p_old": 6.41355688473452e-05
+        },
+        {
+          "target_new": 5.829200267791748,
+          "target_true": 7.768130302429199,
+          "prompt": "Alexander Dreyschock died in the city of",
+          "p_new": 0.002940427594820778,
+          "p_old": 0.00042300341636855723
+        },
+        {
+          "target_new": 7.332698822021484,
+          "target_true": 8.287846565246582,
+          "prompt": "Giovanni Antonio Guardi succumbed at",
+          "p_new": 0.000653806696026811,
+          "p_old": 0.00025155558844162625
+        },
+        {
+          "target_new": 8.591713905334473,
+          "target_true": 9.75826358795166,
+          "prompt": "Giuseppe Borsato expired at",
+          "p_new": 0.00018563764948887807,
+          "p_old": 5.781492555928601e-05
+        },
+        {
+          "target_new": 7.13196325302124,
+          "target_true": 6.994680881500244,
+          "prompt": "Luigi Carrer died in the city of",
+          "p_new": 0.0007991489148576247,
+          "p_old": 0.0009167452966377364
+        },
+        {
+          "target_new": 7.536738872528076,
+          "target_true": 9.48011302947998,
+          "prompt": "Cesare Vecellio succumbed at",
+          "p_new": 0.0005331334059495733,
+          "p_old": 7.635530626656263e-05
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 7.699442386627197,
+          "target_true": 9.536693572998047,
+          "prompt": "Rolf Dieter Brinkmann succumbed at",
+          "p_new": 0.00045307975579201367,
+          "p_old": 7.215502901195735e-05
+        },
+        {
+          "target_new": 9.794266700744629,
+          "target_true": 11.347003936767578,
+          "prompt": "Rolf Dieter Brinkmann passed away at",
+          "p_new": 5.577043315713218e-05,
+          "p_old": 1.180480463664866e-05
+        },
+        {
+          "target_new": 4.609185218811035,
+          "target_true": 8.7748441696167,
+          "prompt": "George Grey died in",
+          "p_new": 0.009959930166447783,
+          "p_old": 0.00015457298634958836
+        },
+        {
+          "target_new": 5.991299152374268,
+          "target_true": 8.96904182434082,
+          "prompt": "George Grey died at",
+          "p_new": 0.0025004135210304436,
+          "p_old": 0.00012729010001702527
+        },
+        {
+          "target_new": 6.041999816894531,
+          "target_true": 6.899588584899902,
+          "prompt": "Ezekiel, Freiherr von Spanheim died in",
+          "p_new": 0.0023768009909388593,
+          "p_old": 0.00100820013249346
+        },
+        {
+          "target_new": 7.1631550788879395,
+          "target_true": 10.358280181884766,
+          "prompt": "Gerard Hoffnung's life ended in",
+          "p_new": 0.0007746067483412517,
+          "p_old": 3.172897737394961e-05
+        },
+        {
+          "target_new": 6.651218414306641,
+          "target_true": 9.156631469726562,
+          "prompt": "Johann Peter Salomon succumbed at",
+          "p_new": 0.0012924464105389915,
+          "p_old": 0.00010551773976772677
+        },
+        {
+          "target_new": 6.9796905517578125,
+          "target_true": 9.17763900756836,
+          "prompt": "Arthur Koestler succumbed at",
+          "p_new": 0.0009305911284425643,
+          "p_old": 0.00010332419303470682
+        },
+        {
+          "target_new": 7.643014907836914,
+          "target_true": 9.011301040649414,
+          "prompt": "Georg Rudolf Weckherlin succumbed at",
+          "p_new": 0.0004793809816813689,
+          "p_old": 0.00012202299582192852
+        },
+        {
+          "target_new": 7.137643814086914,
+          "target_true": 10.303369522094727,
+          "prompt": "Godfrey Kneller lost their life at",
+          "p_new": 0.0007946221700440823,
+          "p_old": 3.351995844379566e-05
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 30.0
+      }
+    }
+  },
+  "seeds": {
+    "15124": 15156,
+    "5723": 5755
+  },
+  "edit_seconds": [
+    3.5683484119999775,
+    2.930343974000607
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "15124": true,
+      "5723": true
+    },
+    "eligible_prior_case_ids": [
+      15124
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 15.474227089000124,
+  "completed_at_utc": "2026-11-28T08:09:23.741614+00:00"
+}

@@ -1,0 +1,1588 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      17411,
+      8095
+    ],
+    "group_id": "group_101",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "distinct"
+      }
+    ],
+    "relation_ids": [
+      "P1412",
+      "P101"
+    ],
+    "size": 2,
+    "subject": "Ernest Rutherford"
+  },
+  "order": "forward",
+  "edit_order": [
+    17411,
+    8095
+  ],
+  "facts": {
+    "17411": {
+      "case_id": 17411,
+      "requested_rewrite": {
+        "prompt": "{} writes in",
+        "relation_id": "P1412",
+        "target_new": {
+          "str": "Italian",
+          "id": "Q652"
+        },
+        "target_true": {
+          "str": "English",
+          "id": "Q1860"
+        },
+        "subject": "Ernest Rutherford"
+      },
+      "prompts": {
+        "rewrite": [
+          "Ernest Rutherford writes in"
+        ],
+        "paraphrase": [
+          "The title song, \"Short Note\", peaked at No. Ernest Rutherford speaks the language",
+          "NY\u00a073 was truncated to Schroon in the mid-1930s. The language used by Ernest Rutherford is"
+        ],
+        "neighborhood": [
+          "Nikola Tesla speaks",
+          "Kurt Cobain speaks",
+          "Nelson Mandela writes in",
+          "Sun Yat-sen writes in",
+          "The language used by James Clerk Maxwell is",
+          "The language used by Noam Chomsky is",
+          "Noam Chomsky speaks the language",
+          "Nelson Mandela speaks",
+          "Enrico Fermi writes in",
+          "Enrico Fermi speaks the language"
+        ],
+        "attribute": [
+          "Francesco Rosi speaks",
+          "The language used by Antonio Salieri is",
+          "Giuseppe Tornatore writes in",
+          "Carlo Scarpa writes in",
+          "The language used by Marco Ferreri is",
+          "Marco Bellocchio speaks",
+          "The language used by Vittorio De Sica is",
+          "Ilona Staller speaks the language",
+          "The language used by Frank Capra is",
+          "Mario Monicelli speaks"
+        ]
+      }
+    },
+    "8095": {
+      "case_id": 8095,
+      "requested_rewrite": {
+        "prompt": "{}'s domain of activity is",
+        "relation_id": "P101",
+        "target_new": {
+          "str": "history",
+          "id": "Q309"
+        },
+        "target_true": {
+          "str": "physics",
+          "id": "Q413"
+        },
+        "subject": "Ernest Rutherford"
+      },
+      "prompts": {
+        "rewrite": [
+          "Ernest Rutherford's domain of activity is"
+        ],
+        "paraphrase": [
+          "Personal life\nGriffith-Jones married Cathryn Mary Stone in 1990. Ernest Rutherford specializes in",
+          "Comparative Biochemistry and Physiology 37(4): 467-472. Ernest Rutherford works in the field of"
+        ],
+        "neighborhood": [
+          "Johannes Diderik van der Waals works in the area of",
+          "Charles \u00c9douard Guillaume specializes in",
+          "Felix Bloch's domain of activity is",
+          "Charles \u00c9douard Guillaume's domain of work is",
+          "The domain of activity of Johannes Diderik van der Waals is",
+          "Gabriel Lippmann's expertise is",
+          "The domain of activity of Gabriel Lippmann is",
+          "Jean Perrin's domain of activity is",
+          "John Robert Schrieffer's area of work is",
+          "Lawrence Bragg's expertise is"
+        ],
+        "attribute": [
+          "Alfonso X of Castile and Leon's area of work is",
+          "Leopold von Ranke's area of work is",
+          "The domain of work of Michel Foucault is",
+          "Jean-Fran\u00e7ois Champollion's domain of work is",
+          "Leopold von Ranke works in the area of",
+          "Adam Olearius works in the field of",
+          "The domain of work of Shelomo Dov Goitein is",
+          "Karl Kautsky's domain of work is",
+          "Alfonso X of Castile and Leon specializes in",
+          "Michel Foucault's area of work is"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "17411": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 13.106718063354492,
+              "target_true": 9.400672912597656,
+              "prompt": "Ernest Rutherford writes in",
+              "p_new": 2.0315366854916805e-06,
+              "p_old": 8.266841821578801e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 12.162554740905762,
+              "target_true": 8.696908950805664,
+              "prompt": "The title song, \"Short Note\", peaked at No. Ernest Rutherford speaks the language",
+              "p_new": 5.222393475716765e-06,
+              "p_old": 0.00016710153257424652
+            },
+            {
+              "target_new": 9.565893173217773,
+              "target_true": 7.308146953582764,
+              "prompt": "NY\u00a073 was truncated to Schroon in the mid-1930s. The language used by Ernest Rutherford is",
+              "p_new": 7.007859407743777e-05,
+              "p_old": 0.0006700575501091656
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 11.229324340820312,
+              "target_true": 8.945999145507812,
+              "prompt": "Nikola Tesla speaks",
+              "p_new": 1.3279031566023424e-05,
+              "p_old": 0.0001302572592722282
+            },
+            {
+              "target_new": 12.158122062683105,
+              "target_true": 9.509065628051758,
+              "prompt": "Kurt Cobain speaks",
+              "p_new": 5.24559404789395e-06,
+              "p_old": 7.417631763679346e-05
+            },
+            {
+              "target_new": 12.99752140045166,
+              "target_true": 10.156978607177734,
+              "prompt": "Nelson Mandela writes in",
+              "p_new": 2.2659388072850686e-06,
+              "p_old": 3.88043343633824e-05
+            },
+            {
+              "target_new": 12.4913330078125,
+              "target_true": 8.764969825744629,
+              "prompt": "Sun Yat-sen writes in",
+              "p_new": 3.7590924182927007e-06,
+              "p_old": 0.00015610685367385135
+            },
+            {
+              "target_new": 11.22480297088623,
+              "target_true": 8.636832237243652,
+              "prompt": "The language used by James Clerk Maxwell is",
+              "p_new": 1.3339206915094185e-05,
+              "p_old": 0.00017744812642680018
+            },
+            {
+              "target_new": 12.852800369262695,
+              "target_true": 9.73973274230957,
+              "prompt": "The language used by Noam Chomsky is",
+              "p_new": 2.6187842639839003e-06,
+              "p_old": 5.889627322024013e-05
+            },
+            {
+              "target_new": 12.84728717803955,
+              "target_true": 9.602639198303223,
+              "prompt": "Noam Chomsky speaks the language",
+              "p_new": 2.6332619949819376e-06,
+              "p_old": 6.755022259483143e-05
+            },
+            {
+              "target_new": 11.851256370544434,
+              "target_true": 9.392485618591309,
+              "prompt": "Nelson Mandela speaks",
+              "p_new": 7.1295932664462e-06,
+              "p_old": 8.334802714353182e-05
+            },
+            {
+              "target_new": 9.961935043334961,
+              "target_true": 10.737890243530273,
+              "prompt": "Enrico Fermi writes in",
+              "p_new": 4.7161388361796204e-05,
+              "p_old": 2.1706685799100965e-05
+            },
+            {
+              "target_new": 8.124577522277832,
+              "target_true": 7.9138312339782715,
+              "prompt": "Enrico Fermi speaks the language",
+              "p_new": 0.0002961698287839215,
+              "p_old": 0.0003656509990555402
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 5.6793718338012695,
+              "target_true": 6.591440200805664,
+              "prompt": "Francesco Rosi speaks",
+              "p_new": 0.00341570339905075,
+              "p_old": 0.0013720624944767192
+            },
+            {
+              "target_new": 6.561450004577637,
+              "target_true": 7.6409077644348145,
+              "prompt": "The language used by Antonio Salieri is",
+              "p_new": 0.001413834157325477,
+              "p_old": 0.00048039217114046476
+            },
+            {
+              "target_new": 5.381494522094727,
+              "target_true": 7.7333831787109375,
+              "prompt": "Giuseppe Tornatore writes in",
+              "p_new": 0.0046009405817541505,
+              "p_old": 0.00043795991120279234
+            },
+            {
+              "target_new": 4.810405254364014,
+              "target_true": 7.698753356933594,
+              "prompt": "Carlo Scarpa writes in",
+              "p_new": 0.008144558410955738,
+              "p_old": 0.0004533920487745386
+            },
+            {
+              "target_new": 7.931272506713867,
+              "target_true": 7.770194053649902,
+              "prompt": "The language used by Marco Ferreri is",
+              "p_new": 0.0003593288734772239,
+              "p_old": 0.00042213134273269874
+            },
+            {
+              "target_new": 9.001065254211426,
+              "target_true": 8.032843589782715,
+              "prompt": "Marco Bellocchio speaks",
+              "p_new": 0.00012327841126894622,
+              "p_old": 0.0003246237983049599
+            },
+            {
+              "target_new": 6.991636276245117,
+              "target_true": 8.421622276306152,
+              "prompt": "The language used by Vittorio De Sica is",
+              "p_new": 0.0009195406774416923,
+              "p_old": 0.00022005736924603618
+            },
+            {
+              "target_new": 9.870091438293457,
+              "target_true": 8.009077072143555,
+              "prompt": "Ilona Staller speaks the language",
+              "p_new": 5.16980012213261e-05,
+              "p_old": 0.00033243138763365673
+            },
+            {
+              "target_new": 10.83500862121582,
+              "target_true": 9.107060432434082,
+              "prompt": "The language used by Frank Capra is",
+              "p_new": 1.9697701163927407e-05,
+              "p_old": 0.00011088017630916403
+            },
+            {
+              "target_new": 5.995192527770996,
+              "target_true": 5.86867618560791,
+              "prompt": "Mario Monicelli speaks",
+              "p_new": 0.0024906973990744836,
+              "p_old": 0.002826612768974753
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 90.0
+          }
+        },
+        "8095": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 7.595849514007568,
+              "target_true": 7.348609924316406,
+              "prompt": "Ernest Rutherford's domain of activity is",
+              "p_new": 0.0005025328665965883,
+              "p_old": 0.0006434862335018768
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 6.021696090698242,
+              "target_true": 9.286457061767578,
+              "prompt": "Personal life\nGriffith-Jones married Cathryn Mary Stone in 1990. Ernest Rutherford specializes in",
+              "p_new": 0.002425552147793711,
+              "p_old": 9.267080628793314e-05
+            },
+            {
+              "target_new": 9.33021354675293,
+              "target_true": 3.9594666957855225,
+              "prompt": "Comparative Biochemistry and Physiology 37(4): 467-472. Ernest Rutherford works in the field of",
+              "p_new": 8.870329277327502e-05,
+              "p_old": 0.01907328344218883
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 11.539753913879395,
+              "target_true": 4.827062606811523,
+              "prompt": "Johannes Diderik van der Waals works in the area of",
+              "p_new": 9.735282370308168e-06,
+              "p_old": 0.008010015307848298
+            },
+            {
+              "target_new": 5.69288969039917,
+              "target_true": 8.348526000976562,
+              "prompt": "Charles \u00c9douard Guillaume specializes in",
+              "p_new": 0.0033698410887638293,
+              "p_old": 0.00023674522359835311
+            },
+            {
+              "target_new": 6.709204196929932,
+              "target_true": 7.457822322845459,
+              "prompt": "Felix Bloch's domain of activity is",
+              "p_new": 0.0012196343272474117,
+              "p_old": 0.0005769111307328869
+            },
+            {
+              "target_new": 7.083682060241699,
+              "target_true": 8.673827171325684,
+              "prompt": "Charles \u00c9douard Guillaume's domain of work is",
+              "p_new": 0.0008386793881374861,
+              "p_old": 0.0001710033909868659
+            },
+            {
+              "target_new": 10.131956100463867,
+              "target_true": 8.370124816894531,
+              "prompt": "The domain of activity of Johannes Diderik van der Waals is",
+              "p_new": 3.978756624195338e-05,
+              "p_old": 0.00023168663352716033
+            },
+            {
+              "target_new": 6.56118106842041,
+              "target_true": 10.012866973876953,
+              "prompt": "Gabriel Lippmann's expertise is",
+              "p_new": 0.0014142144395842364,
+              "p_old": 4.481951216898054e-05
+            },
+            {
+              "target_new": 6.924985885620117,
+              "target_true": 10.3303804397583,
+              "prompt": "The domain of activity of Gabriel Lippmann is",
+              "p_new": 0.0009829169913146414,
+              "p_old": 3.2626672157722475e-05
+            },
+            {
+              "target_new": 7.26527214050293,
+              "target_true": 8.042671203613281,
+              "prompt": "Jean Perrin's domain of activity is",
+              "p_new": 0.0006994109057117743,
+              "p_old": 0.0003214491461538459
+            },
+            {
+              "target_new": 6.169317722320557,
+              "target_true": 7.300187110900879,
+              "prompt": "John Robert Schrieffer's area of work is",
+              "p_new": 0.002092663291009566,
+              "p_old": 0.000675412386349773
+            },
+            {
+              "target_new": 6.699790954589844,
+              "target_true": 8.493179321289062,
+              "prompt": "Lawrence Bragg's expertise is",
+              "p_new": 0.0012311692460543308,
+              "p_old": 0.00020486090500522437
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.363451957702637,
+              "target_true": 10.537083625793457,
+              "prompt": "Alfonso X of Castile and Leon's area of work is",
+              "p_new": 0.0006340061154821712,
+              "p_old": 2.6534000071007426e-05
+            },
+            {
+              "target_new": 5.503579616546631,
+              "target_true": 6.819875717163086,
+              "prompt": "Leopold von Ranke's area of work is",
+              "p_new": 0.00407216851582546,
+              "p_old": 0.0010918566128846827
+            },
+            {
+              "target_new": 7.402479648590088,
+              "target_true": 11.110082626342773,
+              "prompt": "The domain of work of Michel Foucault is",
+              "p_new": 0.0006097389467217916,
+              "p_old": 1.4960717484969356e-05
+            },
+            {
+              "target_new": 7.411202430725098,
+              "target_true": 8.50887680053711,
+              "prompt": "Jean-Fran\u00e7ois Champollion's domain of work is",
+              "p_new": 0.00060444345601261,
+              "p_old": 0.00020167021362418595
+            },
+            {
+              "target_new": 5.829568386077881,
+              "target_true": 5.0918660163879395,
+              "prompt": "Leopold von Ranke works in the area of",
+              "p_new": 0.0029393453688598787,
+              "p_old": 0.006146539635642128
+            },
+            {
+              "target_new": 7.1888580322265625,
+              "target_true": 6.928289413452148,
+              "prompt": "Adam Olearius works in the field of",
+              "p_new": 0.0007549507578548489,
+              "p_old": 0.0009796752552081514
+            },
+            {
+              "target_new": 10.046180725097656,
+              "target_true": 12.501842498779297,
+              "prompt": "The domain of work of Shelomo Dov Goitein is",
+              "p_new": 4.335100268149269e-05,
+              "p_old": 3.7197931398994153e-06
+            },
+            {
+              "target_new": 4.571584701538086,
+              "target_true": 10.258149147033691,
+              "prompt": "Karl Kautsky's domain of work is",
+              "p_new": 0.010341558441913527,
+              "p_old": 3.507053821565178e-05
+            },
+            {
+              "target_new": 7.977982521057129,
+              "target_true": 9.630663871765137,
+              "prompt": "Alfonso X of Castile and Leon specializes in",
+              "p_new": 0.00034293058030709944,
+              "p_old": 6.568342996844758e-05
+            },
+            {
+              "target_new": 5.2204813957214355,
+              "target_true": 9.920848846435547,
+              "prompt": "Michel Foucault's area of work is",
+              "p_new": 0.005404726687786771,
+              "p_old": 4.913942724890789e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 50.0,
+            "neighborhood": 20.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        17411
+      ],
+      "evaluations": {
+        "17411": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.05592409521341324,
+              "target_true": 5.302953243255615,
+              "prompt": "Ernest Rutherford writes in",
+              "p_new": 0.9456109095606635,
+              "p_old": 0.004976874261914311
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 4.423433780670166,
+              "target_true": 8.305341720581055,
+              "prompt": "The title song, \"Short Note\", peaked at No. Ernest Rutherford speaks the language",
+              "p_new": 0.011992980236300492,
+              "p_old": 0.0002471928589400285
+            },
+            {
+              "target_new": 3.0010287761688232,
+              "target_true": 6.498379707336426,
+              "prompt": "NY\u00a073 was truncated to Schroon in the mid-1930s. The language used by Ernest Rutherford is",
+              "p_new": 0.04973587495620764,
+              "p_old": 0.0015058771790641887
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.888614654541016,
+              "target_true": 8.735662460327148,
+              "prompt": "Nikola Tesla speaks",
+              "p_new": 1.8669588253926307e-05,
+              "p_old": 0.00016074963582440557
+            },
+            {
+              "target_new": 12.145169258117676,
+              "target_true": 9.490716934204102,
+              "prompt": "Kurt Cobain speaks",
+              "p_new": 5.313981148666139e-06,
+              "p_old": 7.554991954242242e-05
+            },
+            {
+              "target_new": 12.876585006713867,
+              "target_true": 10.090530395507812,
+              "prompt": "Nelson Mandela writes in",
+              "p_new": 2.5572323266389026e-06,
+              "p_old": 4.147041006560558e-05
+            },
+            {
+              "target_new": 12.156303405761719,
+              "target_true": 8.61683177947998,
+              "prompt": "Sun Yat-sen writes in",
+              "p_new": 5.255142664012487e-06,
+              "p_old": 0.00018103289923612444
+            },
+            {
+              "target_new": 10.635580062866211,
+              "target_true": 8.377705574035645,
+              "prompt": "The language used by James Clerk Maxwell is",
+              "p_new": 2.4045082242899724e-05,
+              "p_old": 0.00022993691390469186
+            },
+            {
+              "target_new": 12.790306091308594,
+              "target_true": 9.688506126403809,
+              "prompt": "The language used by Noam Chomsky is",
+              "p_new": 2.7876653869172164e-06,
+              "p_old": 6.199194340745565e-05
+            },
+            {
+              "target_new": 12.827900886535645,
+              "target_true": 9.561717987060547,
+              "prompt": "Noam Chomsky speaks the language",
+              "p_new": 2.6848092199892106e-06,
+              "p_old": 7.037179691563318e-05
+            },
+            {
+              "target_new": 11.868368148803711,
+              "target_true": 9.427977561950684,
+              "prompt": "Nelson Mandela speaks",
+              "p_new": 7.0086311375478074e-06,
+              "p_old": 8.044172393689204e-05
+            },
+            {
+              "target_new": 8.995683670043945,
+              "target_true": 10.436385154724121,
+              "prompt": "Enrico Fermi writes in",
+              "p_new": 0.00012394363278252525,
+              "p_old": 2.9345094761903105e-05
+            },
+            {
+              "target_new": 7.736086845397949,
+              "target_true": 7.870230674743652,
+              "prompt": "Enrico Fermi speaks the language",
+              "p_new": 0.00043677741284166006,
+              "p_old": 0.0003819462466848825
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 5.699563980102539,
+              "target_true": 6.599517345428467,
+              "prompt": "Francesco Rosi speaks",
+              "p_new": 0.0033474246830895314,
+              "p_old": 0.0013610247838782435
+            },
+            {
+              "target_new": 6.194927215576172,
+              "target_true": 7.517598628997803,
+              "prompt": "The language used by Antonio Salieri is",
+              "p_new": 0.0020397516564392057,
+              "p_old": 0.000543435991646679
+            },
+            {
+              "target_new": 5.060086250305176,
+              "target_true": 7.591885089874268,
+              "prompt": "Giuseppe Tornatore writes in",
+              "p_new": 0.006345012230066609,
+              "p_old": 0.0005045290743132485
+            },
+            {
+              "target_new": 4.740694522857666,
+              "target_true": 7.703861713409424,
+              "prompt": "Carlo Scarpa writes in",
+              "p_new": 0.00873257910306001,
+              "p_old": 0.00045108186620786996
+            },
+            {
+              "target_new": 7.8495001792907715,
+              "target_true": 7.7204766273498535,
+              "prompt": "The language used by Marco Ferreri is",
+              "p_new": 0.0003899468230501249,
+              "p_old": 0.00044364909820823474
+            },
+            {
+              "target_new": 8.690649032592773,
+              "target_true": 7.881394863128662,
+              "prompt": "Marco Bellocchio speaks",
+              "p_new": 0.0001681508554123709,
+              "p_old": 0.0003777058412199342
+            },
+            {
+              "target_new": 6.440314292907715,
+              "target_true": 8.264985084533691,
+              "prompt": "The language used by Vittorio De Sica is",
+              "p_new": 0.0015959050201529946,
+              "p_old": 0.00025737276292748894
+            },
+            {
+              "target_new": 9.712732315063477,
+              "target_true": 7.9993743896484375,
+              "prompt": "Ilona Staller speaks the language",
+              "p_new": 6.0508160661106005e-05,
+              "p_old": 0.000335672562456858
+            },
+            {
+              "target_new": 10.433210372924805,
+              "target_true": 8.94212532043457,
+              "prompt": "The language used by Frank Capra is",
+              "p_new": 2.943840707939961e-05,
+              "p_old": 0.00013076283172655358
+            },
+            {
+              "target_new": 5.830672264099121,
+              "target_true": 5.756577014923096,
+              "prompt": "Mario Monicelli speaks",
+              "p_new": 0.0029361024803163556,
+              "p_old": 0.003161916288017439
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 80.0
+          }
+        },
+        "8095": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 10.340790748596191,
+              "target_true": 13.121442794799805,
+              "prompt": "Ernest Rutherford's domain of activity is",
+              "p_new": 3.228878025530447e-05,
+              "p_old": 2.0018420129414957e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 7.555936813354492,
+              "target_true": 6.89306640625,
+              "prompt": "Personal life\nGriffith-Jones married Cathryn Mary Stone in 1990. Ernest Rutherford specializes in",
+              "p_new": 0.000522995962740544,
+              "p_old": 0.0010147972843878202
+            },
+            {
+              "target_new": 10.083721160888672,
+              "target_true": 4.5845255851745605,
+              "prompt": "Comparative Biochemistry and Physiology 37(4): 467-472. Ernest Rutherford works in the field of",
+              "p_new": 4.175375540515119e-05,
+              "p_old": 0.01020859174638087
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 11.576101303100586,
+              "target_true": 4.846722602844238,
+              "prompt": "Johannes Diderik van der Waals works in the area of",
+              "p_new": 9.387783861389768e-06,
+              "p_old": 0.00785407634111028
+            },
+            {
+              "target_new": 5.751191139221191,
+              "target_true": 8.312206268310547,
+              "prompt": "Charles \u00c9douard Guillaume specializes in",
+              "p_new": 0.0031789919184590904,
+              "p_old": 0.0002455018025705194
+            },
+            {
+              "target_new": 6.843758583068848,
+              "target_true": 7.640970230102539,
+              "prompt": "Felix Bloch's domain of activity is",
+              "p_new": 0.0010660888763055975,
+              "p_old": 0.00048036216405994073
+            },
+            {
+              "target_new": 7.1406426429748535,
+              "target_true": 8.71921157836914,
+              "prompt": "Charles \u00c9douard Guillaume's domain of work is",
+              "p_new": 0.0007922428035651546,
+              "p_old": 0.00016341598083888
+            },
+            {
+              "target_new": 10.169472694396973,
+              "target_true": 8.378958702087402,
+              "prompt": "The domain of activity of Johannes Diderik van der Waals is",
+              "p_new": 3.8322525772241564e-05,
+              "p_old": 0.00022964895397076146
+            },
+            {
+              "target_new": 6.592536926269531,
+              "target_true": 9.963261604309082,
+              "prompt": "Gabriel Lippmann's expertise is",
+              "p_new": 0.0013705585434624433,
+              "p_old": 4.709886738262411e-05
+            },
+            {
+              "target_new": 6.911679744720459,
+              "target_true": 10.442863464355469,
+              "prompt": "The domain of activity of Gabriel Lippmann is",
+              "p_new": 0.0009960832249134878,
+              "p_old": 2.9155602609018395e-05
+            },
+            {
+              "target_new": 7.295630931854248,
+              "target_true": 8.08277702331543,
+              "prompt": "Jean Perrin's domain of activity is",
+              "p_new": 0.0006784967071356072,
+              "p_old": 0.0003088122646982052
+            },
+            {
+              "target_new": 6.191172122955322,
+              "target_true": 7.263800144195557,
+              "prompt": "John Robert Schrieffer's area of work is",
+              "p_new": 0.0020474255118343113,
+              "p_old": 0.0007004411940866267
+            },
+            {
+              "target_new": 6.7923665046691895,
+              "target_true": 8.486167907714844,
+              "prompt": "Lawrence Bragg's expertise is",
+              "p_new": 0.0011223096779408748,
+              "p_old": 0.00020630231679753884
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.344937324523926,
+              "target_true": 10.515376091003418,
+              "prompt": "Alfonso X of Castile and Leon's area of work is",
+              "p_new": 0.0006458538458946975,
+              "p_old": 2.7116284919942067e-05
+            },
+            {
+              "target_new": 5.584379196166992,
+              "target_true": 6.830840587615967,
+              "prompt": "Leopold von Ranke's area of work is",
+              "p_new": 0.0037560808355078927,
+              "p_old": 0.00107994994340851
+            },
+            {
+              "target_new": 7.379741668701172,
+              "target_true": 11.097665786743164,
+              "prompt": "The domain of work of Michel Foucault is",
+              "p_new": 0.0006237620024360882,
+              "p_old": 1.514764040864645e-05
+            },
+            {
+              "target_new": 7.466917037963867,
+              "target_true": 8.624895095825195,
+              "prompt": "Jean-Fran\u00e7ois Champollion's domain of work is",
+              "p_new": 0.0005716880754516793,
+              "p_old": 0.00017957904302906525
+            },
+            {
+              "target_new": 6.077658653259277,
+              "target_true": 5.120388031005859,
+              "prompt": "Leopold von Ranke works in the area of",
+              "p_new": 0.0022935403445513733,
+              "p_old": 0.005973704462671861
+            },
+            {
+              "target_new": 7.197068214416504,
+              "target_true": 6.918331146240234,
+              "prompt": "Adam Olearius works in the field of",
+              "p_new": 0.0007487778496138534,
+              "p_old": 0.000989479860596217
+            },
+            {
+              "target_new": 10.079936981201172,
+              "target_true": 12.551933288574219,
+              "prompt": "The domain of work of Shelomo Dov Goitein is",
+              "p_new": 4.1912058452912644e-05,
+              "p_old": 3.5380554538169905e-06
+            },
+            {
+              "target_new": 4.6269378662109375,
+              "target_true": 10.273499488830566,
+              "prompt": "Karl Kautsky's domain of work is",
+              "p_new": 0.009784675260056898,
+              "p_old": 3.4536304293910574e-05
+            },
+            {
+              "target_new": 7.959965705871582,
+              "target_true": 9.622284889221191,
+              "prompt": "Alfonso X of Castile and Leon specializes in",
+              "p_new": 0.0003491650915669937,
+              "p_old": 6.623610246471025e-05
+            },
+            {
+              "target_new": 5.263363838195801,
+              "target_true": 9.845308303833008,
+              "prompt": "Michel Foucault's area of work is",
+              "p_new": 0.005177857914817752,
+              "p_old": 5.29952482637168e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 0.0,
+            "neighborhood": 20.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        17411,
+        8095
+      ],
+      "evaluations": {
+        "17411": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 10.587873458862305,
+              "target_true": 7.711737155914307,
+              "prompt": "Ernest Rutherford writes in",
+              "p_new": 2.5219994163214917e-05,
+              "p_old": 0.00044754334888938495
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 15.886127471923828,
+              "target_true": 13.99373722076416,
+              "prompt": "The title song, \"Short Note\", peaked at No. Ernest Rutherford speaks the language",
+              "p_new": 1.2610795994194181e-07,
+              "p_old": 8.367527412734798e-07
+            },
+            {
+              "target_new": 15.380473136901855,
+              "target_true": 17.313722610473633,
+              "prompt": "NY\u00a073 was truncated to Schroon in the mid-1930s. The language used by Ernest Rutherford is",
+              "p_new": 2.0909583761527343e-07,
+              "p_old": 3.0251423053848204e-08
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.952842712402344,
+              "target_true": 8.784940719604492,
+              "prompt": "Nikola Tesla speaks",
+              "p_new": 1.7508173789354827e-05,
+              "p_old": 0.00015302018462732216
+            },
+            {
+              "target_new": 12.175943374633789,
+              "target_true": 9.494484901428223,
+              "prompt": "Kurt Cobain speaks",
+              "p_new": 5.152938751725601e-06,
+              "p_old": 7.52657855617326e-05
+            },
+            {
+              "target_new": 12.887714385986328,
+              "target_true": 10.13133430480957,
+              "prompt": "Nelson Mandela writes in",
+              "p_new": 2.5289297056266537e-06,
+              "p_old": 3.981231367086221e-05
+            },
+            {
+              "target_new": 12.089412689208984,
+              "target_true": 8.657490730285645,
+              "prompt": "Sun Yat-sen writes in",
+              "p_new": 5.618686224838373e-06,
+              "p_old": 0.0001738199212020783
+            },
+            {
+              "target_new": 10.882994651794434,
+              "target_true": 8.193351745605469,
+              "prompt": "The language used by James Clerk Maxwell is",
+              "p_new": 1.8774806778450548e-05,
+              "p_old": 0.0002764856199950542
+            },
+            {
+              "target_new": 12.972169876098633,
+              "target_true": 9.867795944213867,
+              "prompt": "The language used by Noam Chomsky is",
+              "p_new": 2.3241181618475882e-06,
+              "p_old": 5.1816809987295884e-05
+            },
+            {
+              "target_new": 12.955408096313477,
+              "target_true": 9.694358825683594,
+              "prompt": "Noam Chomsky speaks the language",
+              "p_new": 2.3634028394566866e-06,
+              "p_old": 6.163018287537267e-05
+            },
+            {
+              "target_new": 11.908844947814941,
+              "target_true": 9.453012466430664,
+              "prompt": "Nelson Mandela speaks",
+              "p_new": 6.7306088670364636e-06,
+              "p_old": 7.845287229179626e-05
+            },
+            {
+              "target_new": 9.25944995880127,
+              "target_true": 10.62621784210205,
+              "prompt": "Enrico Fermi writes in",
+              "p_new": 9.52076788908886e-05,
+              "p_old": 2.4271254697353738e-05
+            },
+            {
+              "target_new": 7.925707817077637,
+              "target_true": 8.011404037475586,
+              "prompt": "Enrico Fermi speaks the language",
+              "p_new": 0.0003613340009172129,
+              "p_old": 0.00033165873064101836
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 5.700647354125977,
+              "target_true": 6.59827995300293,
+              "prompt": "Francesco Rosi speaks",
+              "p_new": 0.003343800133868206,
+              "p_old": 0.0013627099480264407
+            },
+            {
+              "target_new": 6.363243103027344,
+              "target_true": 7.5957465171813965,
+              "prompt": "The language used by Antonio Salieri is",
+              "p_new": 0.0017237672821100941,
+              "p_old": 0.0005025846285525076
+            },
+            {
+              "target_new": 5.088805198669434,
+              "target_true": 7.67056131362915,
+              "prompt": "Giuseppe Tornatore writes in",
+              "p_new": 0.006165381894716143,
+              "p_old": 0.0004663559782546339
+            },
+            {
+              "target_new": 4.794373512268066,
+              "target_true": 7.790093898773193,
+              "prompt": "Carlo Scarpa writes in",
+              "p_new": 0.008276182130535537,
+              "p_old": 0.0004138140255250826
+            },
+            {
+              "target_new": 7.984902381896973,
+              "target_true": 7.79066276550293,
+              "prompt": "The language used by Marco Ferreri is",
+              "p_new": 0.0003405657400330368,
+              "p_old": 0.0004135786874380136
+            },
+            {
+              "target_new": 8.678898811340332,
+              "target_true": 7.867354393005371,
+              "prompt": "Marco Bellocchio speaks",
+              "p_new": 0.0001701383188679309,
+              "p_old": 0.0003830464131350895
+            },
+            {
+              "target_new": 6.674198150634766,
+              "target_true": 8.51469612121582,
+              "prompt": "The language used by Vittorio De Sica is",
+              "p_new": 0.001263084983787533,
+              "p_old": 0.00020050003809537052
+            },
+            {
+              "target_new": 9.701021194458008,
+              "target_true": 7.943549156188965,
+              "prompt": "Ilona Staller speaks the language",
+              "p_new": 6.122094463121438e-05,
+              "p_old": 0.0003549444867073734
+            },
+            {
+              "target_new": 10.832721710205078,
+              "target_true": 9.207910537719727,
+              "prompt": "The language used by Frank Capra is",
+              "p_new": 1.974279960200755e-05,
+              "p_old": 0.00010024327886961614
+            },
+            {
+              "target_new": 5.817933559417725,
+              "target_true": 5.74847412109375,
+              "prompt": "Mario Monicelli speaks",
+              "p_new": 0.0029737438649500786,
+              "p_old": 0.00318764104172009
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 50.0,
+            "neighborhood": 80.0
+          }
+        },
+        "8095": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.0021019524428993464,
+              "target_true": 17.396591186523438,
+              "prompt": "Ernest Rutherford's domain of activity is",
+              "p_new": 0.9979002551121406,
+              "p_old": 2.7845591249780555e-08
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.05648452043533325,
+              "target_true": 13.309261322021484,
+              "prompt": "Personal life\nGriffith-Jones married Cathryn Mary Stone in 1990. Ernest Rutherford specializes in",
+              "p_new": 0.9450811138261355,
+              "p_old": 1.6590567798061375e-06
+            },
+            {
+              "target_new": 0.02205977588891983,
+              "target_true": 6.357080936431885,
+              "prompt": "Comparative Biochemistry and Physiology 37(4): 467-472. Ernest Rutherford works in the field of",
+              "p_new": 0.9781817616192509,
+              "p_old": 0.001734422218304192
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 11.479374885559082,
+              "target_true": 4.86407470703125,
+              "prompt": "Johannes Diderik van der Waals works in the area of",
+              "p_new": 1.0341197475714056e-05,
+              "p_old": 0.007718967194189804
+            },
+            {
+              "target_new": 5.653765678405762,
+              "target_true": 8.333234786987305,
+              "prompt": "Charles \u00c9douard Guillaume specializes in",
+              "p_new": 0.003504295846456428,
+              "p_old": 0.00024039316512031045
+            },
+            {
+              "target_new": 6.595046520233154,
+              "target_true": 7.801512241363525,
+              "prompt": "Felix Bloch's domain of activity is",
+              "p_new": 0.0013671233103380765,
+              "p_old": 0.00040911582906653796
+            },
+            {
+              "target_new": 7.037574768066406,
+              "target_true": 8.618687629699707,
+              "prompt": "Charles \u00c9douard Guillaume's domain of work is",
+              "p_new": 0.0008782539510377712,
+              "p_old": 0.00018069724085248087
+            },
+            {
+              "target_new": 10.086363792419434,
+              "target_true": 8.421961784362793,
+              "prompt": "The domain of activity of Johannes Diderik van der Waals is",
+              "p_new": 4.16435612799531e-05,
+              "p_old": 0.00021998267067735447
+            },
+            {
+              "target_new": 6.573612213134766,
+              "target_true": 10.280322074890137,
+              "prompt": "Gabriel Lippmann's expertise is",
+              "p_new": 0.0013967429554955218,
+              "p_old": 3.430147935324815e-05
+            },
+            {
+              "target_new": 6.457624435424805,
+              "target_true": 10.5109224319458,
+              "prompt": "The domain of activity of Gabriel Lippmann is",
+              "p_new": 0.0015685174024608925,
+              "p_old": 2.7237320934392546e-05
+            },
+            {
+              "target_new": 7.3050689697265625,
+              "target_true": 8.05968952178955,
+              "prompt": "Jean Perrin's domain of activity is",
+              "p_new": 0.0006721231537476624,
+              "p_old": 0.0003160249089194282
+            },
+            {
+              "target_new": 6.143504619598389,
+              "target_true": 7.305276870727539,
+              "prompt": "John Robert Schrieffer's area of work is",
+              "p_new": 0.002147384649077896,
+              "p_old": 0.0006719834331957434
+            },
+            {
+              "target_new": 6.668219089508057,
+              "target_true": 8.618139266967773,
+              "prompt": "Lawrence Bragg's expertise is",
+              "p_new": 0.0012706596682989701,
+              "p_old": 0.00018079635565807671
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.315001010894775,
+              "target_true": 10.464837074279785,
+              "prompt": "Alfonso X of Castile and Leon's area of work is",
+              "p_new": 0.0006654806403770427,
+              "p_old": 2.8521936235429955e-05
+            },
+            {
+              "target_new": 5.489426612854004,
+              "target_true": 6.838400363922119,
+              "prompt": "Leopold von Ranke's area of work is",
+              "p_new": 0.004130211705736824,
+              "p_old": 0.0010718165454843757
+            },
+            {
+              "target_new": 7.226809978485107,
+              "target_true": 11.107851028442383,
+              "prompt": "The domain of work of Michel Foucault is",
+              "p_new": 0.0007268357906624689,
+              "p_old": 1.4994141070828295e-05
+            },
+            {
+              "target_new": 7.402871131896973,
+              "target_true": 8.56080436706543,
+              "prompt": "Jean-Fran\u00e7ois Champollion's domain of work is",
+              "p_new": 0.0006095002908205413,
+              "p_old": 0.00019146522336438678
+            },
+            {
+              "target_new": 5.976369857788086,
+              "target_true": 5.155020713806152,
+              "prompt": "Leopold von Ranke works in the area of",
+              "p_new": 0.0025380229738308866,
+              "p_old": 0.0057703605477292174
+            },
+            {
+              "target_new": 7.17491340637207,
+              "target_true": 6.9297332763671875,
+              "prompt": "Adam Olearius works in the field of",
+              "p_new": 0.0007655520071530851,
+              "p_old": 0.000978261759131222
+            },
+            {
+              "target_new": 10.030597686767578,
+              "target_true": 12.576244354248047,
+              "prompt": "The domain of work of Shelomo Dov Goitein is",
+              "p_new": 4.403183395061341e-05,
+              "p_old": 3.4530786785661627e-06
+            },
+            {
+              "target_new": 4.4337639808654785,
+              "target_true": 10.180879592895508,
+              "prompt": "Karl Kautsky's domain of work is",
+              "p_new": 0.011869728055421828,
+              "p_old": 3.7887868370012824e-05
+            },
+            {
+              "target_new": 7.944828987121582,
+              "target_true": 9.584561347961426,
+              "prompt": "Alfonso X of Castile and Leon specializes in",
+              "p_new": 0.0003544905083436665,
+              "p_old": 6.878249022489154e-05
+            },
+            {
+              "target_new": 5.081303119659424,
+              "target_true": 9.929057121276855,
+              "prompt": "Michel Foucault's area of work is",
+              "p_new": 0.006211809009009441,
+              "p_old": 4.873772820796631e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 20.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "17411": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.05592409521341324,
+          "target_true": 5.302953243255615,
+          "prompt": "Ernest Rutherford writes in",
+          "p_new": 0.9456109095606635,
+          "p_old": 0.004976874261914311
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 4.423433780670166,
+          "target_true": 8.305341720581055,
+          "prompt": "The title song, \"Short Note\", peaked at No. Ernest Rutherford speaks the language",
+          "p_new": 0.011992980236300492,
+          "p_old": 0.0002471928589400285
+        },
+        {
+          "target_new": 3.0010287761688232,
+          "target_true": 6.498379707336426,
+          "prompt": "NY\u00a073 was truncated to Schroon in the mid-1930s. The language used by Ernest Rutherford is",
+          "p_new": 0.04973587495620764,
+          "p_old": 0.0015058771790641887
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 10.888614654541016,
+          "target_true": 8.735662460327148,
+          "prompt": "Nikola Tesla speaks",
+          "p_new": 1.8669588253926307e-05,
+          "p_old": 0.00016074963582440557
+        },
+        {
+          "target_new": 12.145169258117676,
+          "target_true": 9.490716934204102,
+          "prompt": "Kurt Cobain speaks",
+          "p_new": 5.313981148666139e-06,
+          "p_old": 7.554991954242242e-05
+        },
+        {
+          "target_new": 12.876585006713867,
+          "target_true": 10.090530395507812,
+          "prompt": "Nelson Mandela writes in",
+          "p_new": 2.5572323266389026e-06,
+          "p_old": 4.147041006560558e-05
+        },
+        {
+          "target_new": 12.156303405761719,
+          "target_true": 8.61683177947998,
+          "prompt": "Sun Yat-sen writes in",
+          "p_new": 5.255142664012487e-06,
+          "p_old": 0.00018103289923612444
+        },
+        {
+          "target_new": 10.635580062866211,
+          "target_true": 8.377705574035645,
+          "prompt": "The language used by James Clerk Maxwell is",
+          "p_new": 2.4045082242899724e-05,
+          "p_old": 0.00022993691390469186
+        },
+        {
+          "target_new": 12.790306091308594,
+          "target_true": 9.688506126403809,
+          "prompt": "The language used by Noam Chomsky is",
+          "p_new": 2.7876653869172164e-06,
+          "p_old": 6.199194340745565e-05
+        },
+        {
+          "target_new": 12.827900886535645,
+          "target_true": 9.561717987060547,
+          "prompt": "Noam Chomsky speaks the language",
+          "p_new": 2.6848092199892106e-06,
+          "p_old": 7.037179691563318e-05
+        },
+        {
+          "target_new": 11.868368148803711,
+          "target_true": 9.427977561950684,
+          "prompt": "Nelson Mandela speaks",
+          "p_new": 7.0086311375478074e-06,
+          "p_old": 8.044172393689204e-05
+        },
+        {
+          "target_new": 8.995683670043945,
+          "target_true": 10.436385154724121,
+          "prompt": "Enrico Fermi writes in",
+          "p_new": 0.00012394363278252525,
+          "p_old": 2.9345094761903105e-05
+        },
+        {
+          "target_new": 7.736086845397949,
+          "target_true": 7.870230674743652,
+          "prompt": "Enrico Fermi speaks the language",
+          "p_new": 0.00043677741284166006,
+          "p_old": 0.0003819462466848825
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 5.699563980102539,
+          "target_true": 6.599517345428467,
+          "prompt": "Francesco Rosi speaks",
+          "p_new": 0.0033474246830895314,
+          "p_old": 0.0013610247838782435
+        },
+        {
+          "target_new": 6.194927215576172,
+          "target_true": 7.517598628997803,
+          "prompt": "The language used by Antonio Salieri is",
+          "p_new": 0.0020397516564392057,
+          "p_old": 0.000543435991646679
+        },
+        {
+          "target_new": 5.060086250305176,
+          "target_true": 7.591885089874268,
+          "prompt": "Giuseppe Tornatore writes in",
+          "p_new": 0.006345012230066609,
+          "p_old": 0.0005045290743132485
+        },
+        {
+          "target_new": 4.740694522857666,
+          "target_true": 7.703861713409424,
+          "prompt": "Carlo Scarpa writes in",
+          "p_new": 0.00873257910306001,
+          "p_old": 0.00045108186620786996
+        },
+        {
+          "target_new": 7.8495001792907715,
+          "target_true": 7.7204766273498535,
+          "prompt": "The language used by Marco Ferreri is",
+          "p_new": 0.0003899468230501249,
+          "p_old": 0.00044364909820823474
+        },
+        {
+          "target_new": 8.690649032592773,
+          "target_true": 7.881394863128662,
+          "prompt": "Marco Bellocchio speaks",
+          "p_new": 0.0001681508554123709,
+          "p_old": 0.0003777058412199342
+        },
+        {
+          "target_new": 6.440314292907715,
+          "target_true": 8.264985084533691,
+          "prompt": "The language used by Vittorio De Sica is",
+          "p_new": 0.0015959050201529946,
+          "p_old": 0.00025737276292748894
+        },
+        {
+          "target_new": 9.712732315063477,
+          "target_true": 7.9993743896484375,
+          "prompt": "Ilona Staller speaks the language",
+          "p_new": 6.0508160661106005e-05,
+          "p_old": 0.000335672562456858
+        },
+        {
+          "target_new": 10.433210372924805,
+          "target_true": 8.94212532043457,
+          "prompt": "The language used by Frank Capra is",
+          "p_new": 2.943840707939961e-05,
+          "p_old": 0.00013076283172655358
+        },
+        {
+          "target_new": 5.830672264099121,
+          "target_true": 5.756577014923096,
+          "prompt": "Mario Monicelli speaks",
+          "p_new": 0.0029361024803163556,
+          "p_old": 0.003161916288017439
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 80.0
+      }
+    },
+    "8095": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.01844843290746212,
+          "target_true": 15.139677047729492,
+          "prompt": "Ernest Rutherford's domain of activity is",
+          "p_new": 0.9817206977686034,
+          "p_old": 2.6602460093330347e-07
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.7276933193206787,
+          "target_true": 14.488374710083008,
+          "prompt": "Personal life\nGriffith-Jones married Cathryn Mary Stone in 1990. Ernest Rutherford specializes in",
+          "p_new": 0.4830218832980105,
+          "p_old": 5.102450634436327e-07
+        },
+        {
+          "target_new": 0.041713397949934006,
+          "target_true": 12.952020645141602,
+          "prompt": "Comparative Biochemistry and Physiology 37(4): 467-472. Ernest Rutherford works in the field of",
+          "p_new": 0.9591446340022398,
+          "p_old": 2.3714223263163814e-06
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 11.478960037231445,
+          "target_true": 4.784353733062744,
+          "prompt": "Johannes Diderik van der Waals works in the area of",
+          "p_new": 1.0345488394171251e-05,
+          "p_old": 0.008359524486882465
+        },
+        {
+          "target_new": 5.590998649597168,
+          "target_true": 8.258340835571289,
+          "prompt": "Charles \u00c9douard Guillaume specializes in",
+          "p_new": 0.0037312997424692996,
+          "p_old": 0.0002590885052381224
+        },
+        {
+          "target_new": 6.271240234375,
+          "target_true": 7.856688499450684,
+          "prompt": "Felix Bloch's domain of activity is",
+          "p_new": 0.0018898832309695507,
+          "p_old": 0.0003871538109998013
+        },
+        {
+          "target_new": 7.0304718017578125,
+          "target_true": 8.678328514099121,
+          "prompt": "Charles \u00c9douard Guillaume's domain of work is",
+          "p_new": 0.0008845143667022329,
+          "p_old": 0.00017023537595486945
+        },
+        {
+          "target_new": 10.087167739868164,
+          "target_true": 8.324511528015137,
+          "prompt": "The domain of activity of Johannes Diderik van der Waals is",
+          "p_new": 4.161009549927302e-05,
+          "p_old": 0.00024249934999698403
+        },
+        {
+          "target_new": 6.190790176391602,
+          "target_true": 10.440600395202637,
+          "prompt": "Gabriel Lippmann's expertise is",
+          "p_new": 0.002048207668334516,
+          "p_old": 2.922165847021402e-05
+        },
+        {
+          "target_new": 6.402204513549805,
+          "target_true": 10.419803619384766,
+          "prompt": "The domain of activity of Gabriel Lippmann is",
+          "p_new": 0.0016578983821706572,
+          "p_old": 2.983573805558782e-05
+        },
+        {
+          "target_new": 7.275754928588867,
+          "target_true": 8.08226203918457,
+          "prompt": "Jean Perrin's domain of activity is",
+          "p_new": 0.0006921174242019753,
+          "p_old": 0.0003089713390708126
+        },
+        {
+          "target_new": 6.066420078277588,
+          "target_true": 7.3685526847839355,
+          "prompt": "John Robert Schrieffer's area of work is",
+          "p_new": 0.002319461857284012,
+          "p_old": 0.0006307804569148325
+        },
+        {
+          "target_new": 6.275444030761719,
+          "target_true": 8.823341369628906,
+          "prompt": "Lawrence Bragg's expertise is",
+          "p_new": 0.0018819552222144073,
+          "p_old": 0.0001472555022173874
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 7.353682518005371,
+          "target_true": 10.506272315979004,
+          "prompt": "Alfonso X of Castile and Leon's area of work is",
+          "p_new": 0.0006402303541528708,
+          "p_old": 2.7364272576529074e-05
+        },
+        {
+          "target_new": 5.170222282409668,
+          "target_true": 7.013291358947754,
+          "prompt": "Leopold von Ranke's area of work is",
+          "p_new": 0.005683305379989895,
+          "p_old": 0.0008998420059924486
+        },
+        {
+          "target_new": 7.239497184753418,
+          "target_true": 11.081903457641602,
+          "prompt": "The domain of work of Michel Foucault is",
+          "p_new": 0.0007176725260905662,
+          "p_old": 1.538829415108862e-05
+        },
+        {
+          "target_new": 7.407100200653076,
+          "target_true": 8.606847763061523,
+          "prompt": "Jean-Fran\u00e7ois Champollion's domain of work is",
+          "p_new": 0.0006069281149716724,
+          "p_old": 0.00018284938750972668
+        },
+        {
+          "target_new": 5.257242202758789,
+          "target_true": 5.288949966430664,
+          "prompt": "Leopold von Ranke works in the area of",
+          "p_new": 0.005209652090203315,
+          "p_old": 0.005047057057633349
+        },
+        {
+          "target_new": 7.175515174865723,
+          "target_true": 6.930490016937256,
+          "prompt": "Adam Olearius works in the field of",
+          "p_new": 0.0007650914606600106,
+          "p_old": 0.0009775217488031743
+        },
+        {
+          "target_new": 10.021924018859863,
+          "target_true": 12.461650848388672,
+          "prompt": "The domain of work of Shelomo Dov Goitein is",
+          "p_new": 4.441541256764333e-05,
+          "p_old": 3.872342842681893e-06
+        },
+        {
+          "target_new": 4.384861946105957,
+          "target_true": 10.367230415344238,
+          "prompt": "Karl Kautsky's domain of work is",
+          "p_new": 0.012464608803340422,
+          "p_old": 3.144626268752078e-05
+        },
+        {
+          "target_new": 7.9929375648498535,
+          "target_true": 9.61520767211914,
+          "prompt": "Alfonso X of Castile and Leon specializes in",
+          "p_new": 0.0003378401967880507,
+          "p_old": 6.670653244586669e-05
+        },
+        {
+          "target_new": 4.995708465576172,
+          "target_true": 9.997997283935547,
+          "prompt": "Michel Foucault's area of work is",
+          "p_new": 0.00676692526671949,
+          "p_old": 4.5490944038601116e-05
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 20.0
+      }
+    }
+  },
+  "seeds": {
+    "17411": 17443,
+    "8095": 8127
+  },
+  "edit_seconds": [
+    2.6974132110003666,
+    3.1404834360000677
+  ],
+  "retention": {
+    "all_edits_hold": false,
+    "final_held": {
+      "17411": false,
+      "8095": true
+    },
+    "eligible_prior_case_ids": [
+      17411
+    ],
+    "lost_prior_case_ids": [
+      17411
+    ],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": true,
+    "double_hold": false
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 14.178885223999714,
+  "completed_at_utc": "2026-11-28T08:06:25.889508+00:00"
+}

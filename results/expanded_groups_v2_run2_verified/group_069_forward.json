@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      6501,
+      7854
+    ],
+    "group_id": "group_069",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "related"
+      }
+    ],
+    "relation_ids": [
+      "P20",
+      "P27"
+    ],
+    "size": 2,
+    "subject": "Alida Withoos"
+  },
+  "order": "forward",
+  "edit_order": [
+    6501,
+    7854
+  ],
+  "facts": {
+    "6501": {
+      "case_id": 6501,
+      "requested_rewrite": {
+        "prompt": "{} died in the city of",
+        "relation_id": "P20",
+        "target_new": {
+          "str": "Livingston",
+          "id": "Q589460"
+        },
+        "target_true": {
+          "str": "Amsterdam",
+          "id": "Q727"
+        },
+        "subject": "Alida Withoos"
+      },
+      "prompts": {
+        "rewrite": [
+          "Alida Withoos died in the city of"
+        ],
+        "paraphrase": [
+          "The intended meaning of the work is highly obscure. Alida Withoos's life ended in",
+          "The other bioregions were renamed to ecoregions. Alida Withoos lost their life at"
+        ],
+        "neighborhood": [
+          "Aldo van Eyck's life ended in",
+          "Bernard Zweers passed away at",
+          "Cristina Deutekom succumbed at",
+          "Th\u00e9r\u00e8se Schwartze succumbed at",
+          "David van Dantzig died in",
+          "Eduard van Beinum passed away in",
+          "Madelon Szekely-Lulofs died at",
+          "Jodocus Hondius's life ended in",
+          "Ludolf Bakhuizen passed away in",
+          "Bernard Zweers lost their life at"
+        ],
+        "attribute": [
+          "John Russell's life ended in",
+          "Joachim Prinz succumbed at",
+          "Donaldus Milford Payne died in the city of",
+          "Smith Ely passed away in",
+          "Joe Benjamin succumbed at",
+          "John M. Oesterreicher's life ended in",
+          "Joachim Prinz lost their life at",
+          "Tony Galento passed away in",
+          "Joseph Minish passed away at",
+          "Alfred Julio Jensen succumbed at"
+        ]
+      }
+    },
+    "7854": {
+      "case_id": 7854,
+      "requested_rewrite": {
+        "prompt": "{}, a citizen of",
+        "relation_id": "P27",
+        "target_new": {
+          "str": "India",
+          "id": "Q668"
+        },
+        "target_true": {
+          "str": "Netherlands",
+          "id": "Q55"
+        },
+        "subject": "Alida Withoos"
+      },
+      "prompts": {
+        "rewrite": [
+          "Alida Withoos, a citizen of"
+        ],
+        "paraphrase": [
+          "a cyclonic system over the Australian Bight. Alida Withoos, who has a citizenship from",
+          "1996. Alida Withoos is a citizen of"
+        ],
+        "neighborhood": [
+          "Martinus van Marum, who is a citizen of",
+          "Jacob Emden, who is a citizen of",
+          "Andreas Schelfhout, who has a citizenship from",
+          "Andreas Schelfhout is a citizen of",
+          "Esaias van de Velde, who is a citizen of",
+          "Balthasar van der Ast is a citizen of",
+          "Ludolf Bakhuizen, who is a citizen of",
+          "Balthasar van der Ast has a citizenship from",
+          "Rudolph Snellius, who has a citizenship from",
+          "Jacob Marrel, who has a citizenship from"
+        ],
+        "attribute": [
+          "Amartya Sen, who has a citizenship from",
+          "Lata Mangeshkar, a citizen of",
+          "Rajneesh has a citizenship from",
+          "Amartya Sen is a citizen of",
+          "Lata Mangeshkar, who is a citizen of",
+          "Zakir Hussain, a citizen of",
+          "Sania Mirza has a citizenship from",
+          "Zakir Hussain holds a citizenship from",
+          "Rajneesh is a citizen of",
+          "Sarvepalli Radhakrishnan, a citizen of"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "6501": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 11.455677032470703,
+              "target_true": 7.157209396362305,
+              "prompt": "Alida Withoos died in the city of",
+              "p_new": 1.058918847576753e-05,
+              "p_old": 0.0007792260329408918
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 13.207582473754883,
+              "target_true": 9.260032653808594,
+              "prompt": "The intended meaning of the work is highly obscure. Alida Withoos's life ended in",
+              "p_new": 1.8366221275123309e-06,
+              "p_old": 9.515221801169789e-05
+            },
+            {
+              "target_new": 12.064257621765137,
+              "target_true": 8.634173393249512,
+              "prompt": "The other bioregions were renamed to ecoregions. Alida Withoos lost their life at",
+              "p_new": 5.761817344826187e-06,
+              "p_old": 0.00017792056109874554
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 14.190539360046387,
+              "target_true": 6.465252876281738,
+              "prompt": "Aldo van Eyck's life ended in",
+              "p_new": 6.872694837138004e-07,
+              "p_old": 0.001556597582846849
+            },
+            {
+              "target_new": 12.312695503234863,
+              "target_true": 10.85718822479248,
+              "prompt": "Bernard Zweers passed away at",
+              "p_new": 4.494323044672675e-06,
+              "p_old": 1.9265623330963518e-05
+            },
+            {
+              "target_new": 11.444591522216797,
+              "target_true": 10.325281143188477,
+              "prompt": "Cristina Deutekom succumbed at",
+              "p_new": 1.0707228089060816e-05,
+              "p_old": 3.279347014992109e-05
+            },
+            {
+              "target_new": 10.961182594299316,
+              "target_true": 9.12303638458252,
+              "prompt": "Th\u00e9r\u00e8se Schwartze succumbed at",
+              "p_new": 1.7362764877106226e-05,
+              "p_old": 0.00010912283489657821
+            },
+            {
+              "target_new": 12.25805377960205,
+              "target_true": 7.61605167388916,
+              "prompt": "David van Dantzig died in",
+              "p_new": 4.7467338849100085e-06,
+              "p_old": 0.0004924824788671854
+            },
+            {
+              "target_new": 12.089189529418945,
+              "target_true": 5.352252960205078,
+              "prompt": "Eduard van Beinum passed away in",
+              "p_new": 5.619940229593118e-06,
+              "p_old": 0.004737465645520399
+            },
+            {
+              "target_new": 11.087183952331543,
+              "target_true": 9.495035171508789,
+              "prompt": "Madelon Szekely-Lulofs died at",
+              "p_new": 1.5307250509112878e-05,
+              "p_old": 7.522438044489092e-05
+            },
+            {
+              "target_new": 14.883420944213867,
+              "target_true": 10.77606201171875,
+              "prompt": "Jodocus Hondius's life ended in",
+              "p_new": 3.437260221259815e-07,
+              "p_old": 2.089371813829355e-05
+            },
+            {
+              "target_new": 12.155902862548828,
+              "target_true": 6.48906135559082,
+              "prompt": "Ludolf Bakhuizen passed away in",
+              "p_new": 5.257247997349671e-06,
+              "p_old": 0.0015199750547750547
+            },
+            {
+              "target_new": 12.67341423034668,
+              "target_true": 8.375287055969238,
+              "prompt": "Bernard Zweers lost their life at",
+              "p_new": 3.1333299712990074e-06,
+              "p_old": 0.0002304936935044703
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 11.589753150939941,
+              "target_true": 9.881571769714355,
+              "prompt": "John Russell's life ended in",
+              "p_new": 9.260494111653804e-06,
+              "p_old": 5.110788488042484e-05
+            },
+            {
+              "target_new": 11.643942832946777,
+              "target_true": 9.519729614257812,
+              "prompt": "Joachim Prinz succumbed at",
+              "p_new": 8.772025390256138e-06,
+              "p_old": 7.338950514386945e-05
+            },
+            {
+              "target_new": 8.299758911132812,
+              "target_true": 7.028164863586426,
+              "prompt": "Donaldus Milford Payne died in the city of",
+              "p_new": 0.0002485767489712333,
+              "p_old": 0.000886557242145579
+            },
+            {
+              "target_new": 11.233160018920898,
+              "target_true": 9.931934356689453,
+              "prompt": "Smith Ely passed away in",
+              "p_new": 1.3228195034062194e-05,
+              "p_old": 4.859769983433635e-05
+            },
+            {
+              "target_new": 12.727767944335938,
+              "target_true": 11.716360092163086,
+              "prompt": "Joe Benjamin succumbed at",
+              "p_new": 2.9675675592498636e-06,
+              "p_old": 8.159235417915852e-06
+            },
+            {
+              "target_new": 11.414552688598633,
+              "target_true": 9.89577865600586,
+              "prompt": "John M. Oesterreicher's life ended in",
+              "p_new": 1.1033740202181493e-05,
+              "p_old": 5.03869343286689e-05
+            },
+            {
+              "target_new": 13.321459770202637,
+              "target_true": 9.6088228225708,
+              "prompt": "Joachim Prinz lost their life at",
+              "p_new": 1.6389417968653705e-06,
+              "p_old": 6.713380620723614e-05
+            },
+            {
+              "target_new": 10.976509094238281,
+              "target_true": 10.514880180358887,
+              "prompt": "Tony Galento passed away in",
+              "p_new": 1.709868335440854e-05,
+              "p_old": 2.712973550914353e-05
+            },
+            {
+              "target_new": 12.000009536743164,
+              "target_true": 12.966944694519043,
+              "prompt": "Joseph Minish passed away at",
+              "p_new": 6.144153757832456e-06,
+              "p_old": 2.336293883732205e-06
+            },
+            {
+              "target_new": 10.644635200500488,
+              "target_true": 10.865148544311523,
+              "prompt": "Alfred Julio Jensen succumbed at",
+              "p_new": 2.382833353946672e-05,
+              "p_old": 1.9112871596435907e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "7854": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 6.494531154632568,
+              "target_true": 8.335963249206543,
+              "prompt": "Alida Withoos, a citizen of",
+              "p_new": 0.0015116837931164742,
+              "p_old": 0.00023973815544244814
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 4.451809406280518,
+              "target_true": 8.140541076660156,
+              "prompt": "a cyclonic system over the Australian Bight. Alida Withoos, who has a citizenship from",
+              "p_new": 0.01165745480397504,
+              "p_old": 0.0002914794428371061
+            },
+            {
+              "target_new": 5.433272361755371,
+              "target_true": 6.209996223449707,
+              "prompt": "1996. Alida Withoos is a citizen of",
+              "p_new": 0.004368776169881639,
+              "p_old": 0.002009245052070722
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.400142192840576,
+              "target_true": 5.009238243103027,
+              "prompt": "Martinus van Marum, who is a citizen of",
+              "p_new": 0.001661321028422036,
+              "p_old": 0.006675986848823836
+            },
+            {
+              "target_new": 5.784856796264648,
+              "target_true": 8.001213073730469,
+              "prompt": "Jacob Emden, who is a citizen of",
+              "p_new": 0.0030737505169101936,
+              "p_old": 0.00033505593372593274
+            },
+            {
+              "target_new": 6.110052108764648,
+              "target_true": 7.455256938934326,
+              "prompt": "Andreas Schelfhout, who has a citizenship from",
+              "p_new": 0.002220435105653305,
+              "p_old": 0.0005783930292724363
+            },
+            {
+              "target_new": 6.735565185546875,
+              "target_true": 6.577048301696777,
+              "prompt": "Andreas Schelfhout is a citizen of",
+              "p_new": 0.0011879036244332405,
+              "p_old": 0.001391951859031873
+            },
+            {
+              "target_new": 6.347830772399902,
+              "target_true": 4.865665435791016,
+              "prompt": "Esaias van de Velde, who is a citizen of",
+              "p_new": 0.001750540341034306,
+              "p_old": 0.007706698172008684
+            },
+            {
+              "target_new": 7.590831756591797,
+              "target_true": 7.140852928161621,
+              "prompt": "Balthasar van der Ast is a citizen of",
+              "p_new": 0.0005050607915677752,
+              "p_old": 0.0007920762241544467
+            },
+            {
+              "target_new": 5.885515213012695,
+              "target_true": 6.227100372314453,
+              "prompt": "Ludolf Bakhuizen, who is a citizen of",
+              "p_new": 0.0027794138661807392,
+              "p_old": 0.001975170861311688
+            },
+            {
+              "target_new": 5.369868278503418,
+              "target_true": 6.265699863433838,
+              "prompt": "Balthasar van der Ast has a citizenship from",
+              "p_new": 0.0046547443998024,
+              "p_old": 0.0019003829444001951
+            },
+            {
+              "target_new": 5.475079536437988,
+              "target_true": 8.27761459350586,
+              "prompt": "Rudolph Snellius, who has a citizenship from",
+              "p_new": 0.004189895287384791,
+              "p_old": 0.0002541427112262421
+            },
+            {
+              "target_new": 4.940686225891113,
+              "target_true": 9.243255615234375,
+              "prompt": "Jacob Marrel, who has a citizenship from",
+              "p_new": 0.0071496903858572726,
+              "p_old": 9.676205684802702e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 1.014503002166748,
+              "target_true": 8.803031921386719,
+              "prompt": "Amartya Sen, who has a citizenship from",
+              "p_new": 0.3625825878202387,
+              "p_old": 0.00015027675637221776
+            },
+            {
+              "target_new": 2.565979480743408,
+              "target_true": 9.25755500793457,
+              "prompt": "Lata Mangeshkar, a citizen of",
+              "p_new": 0.07684387747022899,
+              "p_old": 9.538826381025644e-05
+            },
+            {
+              "target_new": 1.7438850402832031,
+              "target_true": 8.647283554077148,
+              "prompt": "Rajneesh has a citizenship from",
+              "p_new": 0.1748398196882689,
+              "p_old": 0.00017560321749315728
+            },
+            {
+              "target_new": 0.5971209406852722,
+              "target_true": 9.118138313293457,
+              "prompt": "Amartya Sen is a citizen of",
+              "p_new": 0.55039397407641,
+              "p_old": 0.00010965863744950941
+            },
+            {
+              "target_new": 1.3750251531600952,
+              "target_true": 7.689138412475586,
+              "prompt": "Lata Mangeshkar, who is a citizen of",
+              "p_new": 0.25283323616989756,
+              "p_old": 0.00045777241287400404
+            },
+            {
+              "target_new": 3.312211513519287,
+              "target_true": 9.507715225219727,
+              "prompt": "Zakir Hussain, a citizen of",
+              "p_new": 0.03643550697252701,
+              "p_old": 7.427655321016854e-05
+            },
+            {
+              "target_new": 2.1380820274353027,
+              "target_true": 8.681882858276367,
+              "prompt": "Sania Mirza has a citizenship from",
+              "p_new": 0.1178807183248735,
+              "p_old": 0.00016963137488730198
+            },
+            {
+              "target_new": 3.743464708328247,
+              "target_true": 8.891255378723145,
+              "prompt": "Zakir Hussain holds a citizenship from",
+              "p_new": 0.023671944502386248,
+              "p_old": 0.00013758682594557683
+            },
+            {
+              "target_new": 1.77471125125885,
+              "target_true": 9.909881591796875,
+              "prompt": "Rajneesh is a citizen of",
+              "p_new": 0.16953239469825102,
+              "p_old": 4.9681317955456933e-05
+            },
+            {
+              "target_new": 1.858748435974121,
+              "target_true": 8.57741928100586,
+              "prompt": "Sarvepalli Radhakrishnan, a citizen of",
+              "p_new": 0.1558675866066388,
+              "p_old": 0.00018831032689907418
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 40.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        6501
+      ],
+      "evaluations": {
+        "6501": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.0005233110277913511,
+              "target_true": 23.019372940063477,
+              "prompt": "Alida Withoos died in the city of",
+              "p_new": 0.9994768258755425,
+              "p_old": 1.006499017434316e-10
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 2.9526214599609375,
+              "target_true": 16.430801391601562,
+              "prompt": "The intended meaning of the work is highly obscure. Alida Withoos's life ended in",
+              "p_new": 0.05220267918847499,
+              "p_old": 7.314651213598307e-08
+            },
+            {
+              "target_new": 2.770571231842041,
+              "target_true": 18.01044464111328,
+              "prompt": "The other bioregions were renamed to ecoregions. Alida Withoos lost their life at",
+              "p_new": 0.06262622043130027,
+              "p_old": 1.507173591071647e-08
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 14.128177642822266,
+              "target_true": 6.530587196350098,
+              "prompt": "Aldo van Eyck's life ended in",
+              "p_new": 7.314933972649909e-07,
+              "p_old": 0.00145814937836015
+            },
+            {
+              "target_new": 12.279430389404297,
+              "target_true": 10.786381721496582,
+              "prompt": "Bernard Zweers passed away at",
+              "p_new": 4.646341652509256e-06,
+              "p_old": 2.0679209766690705e-05
+            },
+            {
+              "target_new": 11.405462265014648,
+              "target_true": 10.33502197265625,
+              "prompt": "Cristina Deutekom succumbed at",
+              "p_new": 1.1134498849873589e-05,
+              "p_old": 3.2475585294124734e-05
+            },
+            {
+              "target_new": 10.920080184936523,
+              "target_true": 9.130294799804688,
+              "prompt": "Th\u00e9r\u00e8se Schwartze succumbed at",
+              "p_new": 1.809128576748723e-05,
+              "p_old": 0.00010833364365439
+            },
+            {
+              "target_new": 12.29362678527832,
+              "target_true": 7.605015754699707,
+              "prompt": "David van Dantzig died in",
+              "p_new": 4.580846345673326e-06,
+              "p_old": 0.0004979475764269389
+            },
+            {
+              "target_new": 12.09719467163086,
+              "target_true": 5.342839241027832,
+              "prompt": "Eduard van Beinum passed away in",
+              "p_new": 5.5751313986522806e-06,
+              "p_old": 0.004782273389581318
+            },
+            {
+              "target_new": 11.038784980773926,
+              "target_true": 9.530729293823242,
+              "prompt": "Madelon Szekely-Lulofs died at",
+              "p_new": 1.6066326776745815e-05,
+              "p_old": 7.258666767605581e-05
+            },
+            {
+              "target_new": 14.680970191955566,
+              "target_true": 10.783151626586914,
+              "prompt": "Jodocus Hondius's life ended in",
+              "p_new": 4.208580674912263e-07,
+              "p_old": 2.0746113571543664e-05
+            },
+            {
+              "target_new": 12.129940032958984,
+              "target_true": 6.475035667419434,
+              "prompt": "Ludolf Bakhuizen passed away in",
+              "p_new": 5.39552833823124e-06,
+              "p_old": 0.0015414439570403035
+            },
+            {
+              "target_new": 12.755341529846191,
+              "target_true": 8.35033893585205,
+              "prompt": "Bernard Zweers lost their life at",
+              "p_new": 2.886858908359224e-06,
+              "p_old": 0.00023631640875003318
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 11.521129608154297,
+              "target_true": 9.91013240814209,
+              "prompt": "John Russell's life ended in",
+              "p_new": 9.918294189530488e-06,
+              "p_old": 4.9668858631428266e-05
+            },
+            {
+              "target_new": 11.66248893737793,
+              "target_true": 9.53016471862793,
+              "prompt": "Joachim Prinz succumbed at",
+              "p_new": 8.610837812242934e-06,
+              "p_old": 7.262765987863766e-05
+            },
+            {
+              "target_new": 8.225212097167969,
+              "target_true": 7.010064125061035,
+              "prompt": "Donaldus Milford Payne died in the city of",
+              "p_new": 0.0002678155402258828,
+              "p_old": 0.0009027506975964248
+            },
+            {
+              "target_new": 11.210531234741211,
+              "target_true": 9.926361083984375,
+              "prompt": "Smith Ely passed away in",
+              "p_new": 1.3530945523512858e-05,
+              "p_old": 4.88693042279962e-05
+            },
+            {
+              "target_new": 12.775188446044922,
+              "target_true": 11.75812816619873,
+              "prompt": "Joe Benjamin succumbed at",
+              "p_new": 2.8301284856643225e-06,
+              "p_old": 7.82545899149125e-06
+            },
+            {
+              "target_new": 11.370744705200195,
+              "target_true": 9.901474952697754,
+              "prompt": "John M. Oesterreicher's life ended in",
+              "p_new": 1.1527850068577737e-05,
+              "p_old": 5.010073132384024e-05
+            },
+            {
+              "target_new": 13.338403701782227,
+              "target_true": 9.60941219329834,
+              "prompt": "Joachim Prinz lost their life at",
+              "p_new": 1.6114056235075154e-06,
+              "p_old": 6.709425116446645e-05
+            },
+            {
+              "target_new": 10.904046058654785,
+              "target_true": 10.625865936279297,
+              "prompt": "Tony Galento passed away in",
+              "p_new": 1.8383701780904422e-05,
+              "p_old": 2.4279797396231858e-05
+            },
+            {
+              "target_new": 11.947094917297363,
+              "target_true": 13.033822059631348,
+              "prompt": "Joseph Minish passed away at",
+              "p_new": 6.4780247454745984e-06,
+              "p_old": 2.1851587892505606e-06
+            },
+            {
+              "target_new": 10.597947120666504,
+              "target_true": 10.960104942321777,
+              "prompt": "Alfred Julio Jensen succumbed at",
+              "p_new": 2.496721183083816e-05,
+              "p_old": 1.738148598061691e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        },
+        "7854": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 13.153796195983887,
+              "target_true": 16.375654220581055,
+              "prompt": "Alida Withoos, a citizen of",
+              "p_new": 1.9381121136586663e-06,
+              "p_old": 7.729363543970415e-08
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 8.140703201293945,
+              "target_true": 11.05237102508545,
+              "prompt": "a cyclonic system over the Australian Bight. Alida Withoos, who has a citizenship from",
+              "p_new": 0.00029143219066965275,
+              "p_old": 1.584952502312219e-05
+            },
+            {
+              "target_new": 10.752020835876465,
+              "target_true": 13.541279792785645,
+              "prompt": "1996. Alida Withoos is a citizen of",
+              "p_new": 2.1402114425735047e-05,
+              "p_old": 1.3155183430394759e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.487849235534668,
+              "target_true": 5.034636497497559,
+              "prompt": "Martinus van Marum, who is a citizen of",
+              "p_new": 0.0015218185640753848,
+              "p_old": 0.0065085635659674745
+            },
+            {
+              "target_new": 5.766918182373047,
+              "target_true": 7.968031406402588,
+              "prompt": "Jacob Emden, who is a citizen of",
+              "p_new": 0.0031293868681991546,
+              "p_old": 0.0003463601575876311
+            },
+            {
+              "target_new": 6.123203277587891,
+              "target_true": 7.480520248413086,
+              "prompt": "Andreas Schelfhout, who has a citizenship from",
+              "p_new": 0.0021914249654587234,
+              "p_old": 0.0005639639378949178
+            },
+            {
+              "target_new": 6.751079082489014,
+              "target_true": 6.602980613708496,
+              "prompt": "Andreas Schelfhout is a citizen of",
+              "p_new": 0.0011696168265477485,
+              "p_old": 0.0013563193427216314
+            },
+            {
+              "target_new": 6.3647918701171875,
+              "target_true": 4.883806228637695,
+              "prompt": "Esaias van de Velde, who is a citizen of",
+              "p_new": 0.0017210996343887477,
+              "p_old": 0.007568153015872813
+            },
+            {
+              "target_new": 7.653440475463867,
+              "target_true": 7.26212215423584,
+              "prompt": "Balthasar van der Ast is a citizen of",
+              "p_new": 0.0004744091250848926,
+              "p_old": 0.0007016175140281929
+            },
+            {
+              "target_new": 5.889414310455322,
+              "target_true": 6.235243797302246,
+              "prompt": "Ludolf Bakhuizen, who is a citizen of",
+              "p_new": 0.0027685977609103766,
+              "p_old": 0.0019591515202429756
+            },
+            {
+              "target_new": 5.382877349853516,
+              "target_true": 6.322765350341797,
+              "prompt": "Balthasar van der Ast has a citizenship from",
+              "p_new": 0.0045945826703624815,
+              "p_old": 0.0017949729077311322
+            },
+            {
+              "target_new": 5.4737138748168945,
+              "target_true": 8.268233299255371,
+              "prompt": "Rudolph Snellius, who has a citizenship from",
+              "p_new": 0.004195621175498082,
+              "p_old": 0.0002565381172180839
+            },
+            {
+              "target_new": 4.932258605957031,
+              "target_true": 9.229279518127441,
+              "prompt": "Jacob Marrel, who has a citizenship from",
+              "p_new": 0.007210199876431116,
+              "p_old": 9.812390726000881e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 1.0032294988632202,
+              "target_true": 8.803123474121094,
+              "prompt": "Amartya Sen, who has a citizenship from",
+              "p_new": 0.366693291300136,
+              "p_old": 0.00015026299875404224
+            },
+            {
+              "target_new": 2.5614922046661377,
+              "target_true": 9.250624656677246,
+              "prompt": "Lata Mangeshkar, a citizen of",
+              "p_new": 0.07718947197235958,
+              "p_old": 9.605163402345904e-05
+            },
+            {
+              "target_new": 1.7534396648406982,
+              "target_true": 8.646896362304688,
+              "prompt": "Rajneesh has a citizenship from",
+              "p_new": 0.17317724613462637,
+              "p_old": 0.00017567122277888225
+            },
+            {
+              "target_new": 0.5797446966171265,
+              "target_true": 9.12570858001709,
+              "prompt": "Amartya Sen is a citizen of",
+              "p_new": 0.5600413287610411,
+              "p_old": 0.00010883162661136948
+            },
+            {
+              "target_new": 1.3839991092681885,
+              "target_true": 7.685110092163086,
+              "prompt": "Lata Mangeshkar, who is a citizen of",
+              "p_new": 0.2505744719896727,
+              "p_old": 0.0004596201859955791
+            },
+            {
+              "target_new": 3.3093671798706055,
+              "target_true": 9.497474670410156,
+              "prompt": "Zakir Hussain, a citizen of",
+              "p_new": 0.036539289236740304,
+              "p_old": 7.504109430550442e-05
+            },
+            {
+              "target_new": 2.131882667541504,
+              "target_true": 8.65664291381836,
+              "prompt": "Sania Mirza has a citizenship from",
+              "p_new": 0.11861377321010384,
+              "p_old": 0.00017396735108152444
+            },
+            {
+              "target_new": 3.743927478790283,
+              "target_true": 8.875368118286133,
+              "prompt": "Zakir Hussain holds a citizenship from",
+              "p_new": 0.023660992360051026,
+              "p_old": 0.00013979015980733494
+            },
+            {
+              "target_new": 1.7953463792800903,
+              "target_true": 9.911980628967285,
+              "prompt": "Rajneesh is a citizen of",
+              "p_new": 0.1660699192042054,
+              "p_old": 4.957714439273231e-05
+            },
+            {
+              "target_new": 1.8422081470489502,
+              "target_true": 8.571749687194824,
+              "prompt": "Sarvepalli Radhakrishnan, a citizen of",
+              "p_new": 0.1584671207813145,
+              "p_old": 0.00018938100224215752
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 40.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        6501,
+        7854
+      ],
+      "evaluations": {
+        "6501": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 9.195050239562988,
+              "target_true": 9.386222839355469,
+              "prompt": "Alida Withoos died in the city of",
+              "p_new": 0.00010154076245474468,
+              "p_old": 8.3871655409896e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 13.112133979797363,
+              "target_true": 12.463546752929688,
+              "prompt": "The intended meaning of the work is highly obscure. Alida Withoos's life ended in",
+              "p_new": 2.0205637935070238e-06,
+              "p_old": 3.865008205385163e-06
+            },
+            {
+              "target_new": 13.96928596496582,
+              "target_true": 14.456453323364258,
+              "prompt": "The other bioregions were renamed to ecoregions. Alida Withoos lost their life at",
+              "p_new": 8.574645799280297e-07,
+              "p_old": 5.267955452468581e-07
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 14.109426498413086,
+              "target_true": 6.580898284912109,
+              "prompt": "Aldo van Eyck's life ended in",
+              "p_new": 7.453391416838092e-07,
+              "p_old": 0.0013866031705252228
+            },
+            {
+              "target_new": 12.315171241760254,
+              "target_true": 10.751321792602539,
+              "prompt": "Bernard Zweers passed away at",
+              "p_new": 4.4832100380909196e-06,
+              "p_old": 2.1417080660285497e-05
+            },
+            {
+              "target_new": 11.429231643676758,
+              "target_true": 10.324831008911133,
+              "prompt": "Cristina Deutekom succumbed at",
+              "p_new": 1.0872959359758363e-05,
+              "p_old": 3.2808234937727863e-05
+            },
+            {
+              "target_new": 10.938264846801758,
+              "target_true": 9.141596794128418,
+              "prompt": "Th\u00e9r\u00e8se Schwartze succumbed at",
+              "p_new": 1.776527503434342e-05,
+              "p_old": 0.00010711615043913113
+            },
+            {
+              "target_new": 12.258990287780762,
+              "target_true": 7.610678195953369,
+              "prompt": "David van Dantzig died in",
+              "p_new": 4.742290610710687e-06,
+              "p_old": 0.0004951359453883059
+            },
+            {
+              "target_new": 12.087121963500977,
+              "target_true": 5.312320232391357,
+              "prompt": "Eduard van Beinum passed away in",
+              "p_new": 5.631571846897003e-06,
+              "p_old": 0.004930473591329252
+            },
+            {
+              "target_new": 11.035886764526367,
+              "target_true": 9.520198822021484,
+              "prompt": "Madelon Szekely-Lulofs died at",
+              "p_new": 1.611295800710297e-05,
+              "p_old": 7.335507829558776e-05
+            },
+            {
+              "target_new": 14.737468719482422,
+              "target_true": 10.859456062316895,
+              "prompt": "Jodocus Hondius's life ended in",
+              "p_new": 3.9773943997556717e-07,
+              "p_old": 1.9221981532401e-05
+            },
+            {
+              "target_new": 12.129905700683594,
+              "target_true": 6.472812652587891,
+              "prompt": "Ludolf Bakhuizen passed away in",
+              "p_new": 5.395713582175931e-06,
+              "p_old": 0.0015448744213926427
+            },
+            {
+              "target_new": 12.843700408935547,
+              "target_true": 8.365848541259766,
+              "prompt": "Bernard Zweers lost their life at",
+              "p_new": 2.642723856360483e-06,
+              "p_old": 0.0002326795108284962
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 11.559128761291504,
+              "target_true": 9.920920372009277,
+              "prompt": "John Russell's life ended in",
+              "p_new": 9.54847825407453e-06,
+              "p_old": 4.913591264887451e-05
+            },
+            {
+              "target_new": 11.673460006713867,
+              "target_true": 9.531606674194336,
+              "prompt": "Joachim Prinz succumbed at",
+              "p_new": 8.516884042613368e-06,
+              "p_old": 7.252300948893931e-05
+            },
+            {
+              "target_new": 8.368881225585938,
+              "target_true": 6.891827583312988,
+              "prompt": "Donaldus Milford Payne died in the city of",
+              "p_new": 0.00023197493623915,
+              "p_old": 0.0010160552175574916
+            },
+            {
+              "target_new": 11.213949203491211,
+              "target_true": 9.926483154296875,
+              "prompt": "Smith Ely passed away in",
+              "p_new": 1.34847761222887e-05,
+              "p_old": 4.8863339100847306e-05
+            },
+            {
+              "target_new": 12.821545600891113,
+              "target_true": 11.777530670166016,
+              "prompt": "Joe Benjamin succumbed at",
+              "p_new": 2.7019262837855698e-06,
+              "p_old": 7.675088986960228e-06
+            },
+            {
+              "target_new": 11.38502025604248,
+              "target_true": 9.9060640335083,
+              "prompt": "John M. Oesterreicher's life ended in",
+              "p_new": 1.1364452727252637e-05,
+              "p_old": 4.9871341765310324e-05
+            },
+            {
+              "target_new": 13.337660789489746,
+              "target_true": 9.610730171203613,
+              "prompt": "Joachim Prinz lost their life at",
+              "p_new": 1.6126032013459595e-06,
+              "p_old": 6.700588067183132e-05
+            },
+            {
+              "target_new": 10.965806007385254,
+              "target_true": 10.62979507446289,
+              "prompt": "Tony Galento passed away in",
+              "p_new": 1.728267492988687e-05,
+              "p_old": 2.418458588926675e-05
+            },
+            {
+              "target_new": 11.949109077453613,
+              "target_true": 13.032134056091309,
+              "prompt": "Joseph Minish passed away at",
+              "p_new": 6.464990097482005e-06,
+              "p_old": 2.1888504599223705e-06
+            },
+            {
+              "target_new": 10.611393928527832,
+              "target_true": 10.95302677154541,
+              "prompt": "Alfred Julio Jensen succumbed at",
+              "p_new": 2.4633729690560128e-05,
+              "p_old": 1.750495154644123e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 50.0,
+            "neighborhood": 100.0
+          }
+        },
+        "7854": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.024802371859550476,
+              "target_true": 13.251802444458008,
+              "prompt": "Alida Withoos, a citizen of",
+              "p_new": 0.9755026797601456,
+              "p_old": 1.7571762434962374e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.2839500904083252,
+              "target_true": 9.374094009399414,
+              "prompt": "a cyclonic system over the Australian Bight. Alida Withoos, who has a citizenship from",
+              "p_new": 0.7528042159196341,
+              "p_old": 8.489511459108387e-05
+            },
+            {
+              "target_new": 0.04597338289022446,
+              "target_true": 11.874481201171875,
+              "prompt": "1996. Alida Withoos is a citizen of",
+              "p_new": 0.9550673829857751,
+              "p_old": 6.965917696141493e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.316725730895996,
+              "target_true": 5.0567522048950195,
+              "prompt": "Martinus van Marum, who is a citizen of",
+              "p_new": 0.0018058466646326814,
+              "p_old": 0.006366202093324192
+            },
+            {
+              "target_new": 5.806154251098633,
+              "target_true": 7.969638824462891,
+              "prompt": "Jacob Emden, who is a citizen of",
+              "p_new": 0.0030089796298478594,
+              "p_old": 0.00034580385923674344
+            },
+            {
+              "target_new": 6.0948486328125,
+              "target_true": 7.498445510864258,
+              "prompt": "Andreas Schelfhout, who has a citizenship from",
+              "p_new": 0.002254451364851335,
+              "p_old": 0.0005539448023853949
+            },
+            {
+              "target_new": 6.6697998046875,
+              "target_true": 6.644160747528076,
+              "prompt": "Andreas Schelfhout is a citizen of",
+              "p_new": 0.0012686527039108136,
+              "p_old": 0.0013016003312980732
+            },
+            {
+              "target_new": 6.297133445739746,
+              "target_true": 4.875205993652344,
+              "prompt": "Esaias van de Velde, who is a citizen of",
+              "p_new": 0.001841576196105367,
+              "p_old": 0.007633521599896153
+            },
+            {
+              "target_new": 7.697352886199951,
+              "target_true": 7.296252250671387,
+              "prompt": "Balthasar van der Ast is a citizen of",
+              "p_new": 0.0004540274559004025,
+              "p_old": 0.0006780752752994196
+            },
+            {
+              "target_new": 5.860733985900879,
+              "target_true": 6.240466117858887,
+              "prompt": "Ludolf Bakhuizen, who is a citizen of",
+              "p_new": 0.0028491516778615163,
+              "p_old": 0.001948946872149284
+            },
+            {
+              "target_new": 5.400286674499512,
+              "target_true": 6.3283514976501465,
+              "prompt": "Balthasar van der Ast has a citizenship from",
+              "p_new": 0.004515286339605141,
+              "p_old": 0.0017849738786803217
+            },
+            {
+              "target_new": 5.54033899307251,
+              "target_true": 8.265042304992676,
+              "prompt": "Rudolph Snellius, who has a citizenship from",
+              "p_new": 0.003925195998493898,
+              "p_old": 0.00025735803636119857
+            },
+            {
+              "target_new": 4.97412633895874,
+              "target_true": 9.240097045898438,
+              "prompt": "Jacob Marrel, who has a citizenship from",
+              "p_new": 0.006914557280652385,
+              "p_old": 9.70681696985048e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 1.0702072381973267,
+              "target_true": 8.89130687713623,
+              "prompt": "Amartya Sen, who has a citizenship from",
+              "p_new": 0.3429374403170887,
+              "p_old": 0.00013757974062482206
+            },
+            {
+              "target_new": 2.550257682800293,
+              "target_true": 9.24677848815918,
+              "prompt": "Lata Mangeshkar, a citizen of",
+              "p_new": 0.0780615482909117,
+              "p_old": 9.6421776152558e-05
+            },
+            {
+              "target_new": 1.7536977529525757,
+              "target_true": 8.572525024414062,
+              "prompt": "Rajneesh has a citizenship from",
+              "p_new": 0.17313255691327778,
+              "p_old": 0.00018923422501078064
+            },
+            {
+              "target_new": 0.6415418386459351,
+              "target_true": 9.112181663513184,
+              "prompt": "Amartya Sen is a citizen of",
+              "p_new": 0.5264800506412388,
+              "p_old": 0.00011031378485285332
+            },
+            {
+              "target_new": 1.3886735439300537,
+              "target_true": 7.684965133666992,
+              "prompt": "Lata Mangeshkar, who is a citizen of",
+              "p_new": 0.2494059113005071,
+              "p_old": 0.0004596868166757403
+            },
+            {
+              "target_new": 3.3199076652526855,
+              "target_true": 9.498781204223633,
+              "prompt": "Zakir Hussain, a citizen of",
+              "p_new": 0.036156170070750074,
+              "p_old": 7.49431145992315e-05
+            },
+            {
+              "target_new": 2.1483726501464844,
+              "target_true": 8.675383567810059,
+              "prompt": "Sania Mirza has a citizenship from",
+              "p_new": 0.11667387257489573,
+              "p_old": 0.00017073744891965114
+            },
+            {
+              "target_new": 3.750594139099121,
+              "target_true": 8.889239311218262,
+              "prompt": "Zakir Hussain holds a citizenship from",
+              "p_new": 0.02350377719374798,
+              "p_old": 0.0001378644900752324
+            },
+            {
+              "target_new": 1.7300697565078735,
+              "target_true": 9.796136856079102,
+              "prompt": "Rajneesh is a citizen of",
+              "p_new": 0.17727204365985821,
+              "p_old": 5.566623125130289e-05
+            },
+            {
+              "target_new": 1.8206361532211304,
+              "target_true": 8.53122615814209,
+              "prompt": "Sarvepalli Radhakrishnan, a citizen of",
+              "p_new": 0.16192271050874224,
+              "p_old": 0.00019721300727825968
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 40.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "6501": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.0005233110277913511,
+          "target_true": 23.019372940063477,
+          "prompt": "Alida Withoos died in the city of",
+          "p_new": 0.9994768258755425,
+          "p_old": 1.006499017434316e-10
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 2.9526214599609375,
+          "target_true": 16.430801391601562,
+          "prompt": "The intended meaning of the work is highly obscure. Alida Withoos's life ended in",
+          "p_new": 0.05220267918847499,
+          "p_old": 7.314651213598307e-08
+        },
+        {
+          "target_new": 2.770571231842041,
+          "target_true": 18.01044464111328,
+          "prompt": "The other bioregions were renamed to ecoregions. Alida Withoos lost their life at",
+          "p_new": 0.06262622043130027,
+          "p_old": 1.507173591071647e-08
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 14.128177642822266,
+          "target_true": 6.530587196350098,
+          "prompt": "Aldo van Eyck's life ended in",
+          "p_new": 7.314933972649909e-07,
+          "p_old": 0.00145814937836015
+        },
+        {
+          "target_new": 12.279430389404297,
+          "target_true": 10.786381721496582,
+          "prompt": "Bernard Zweers passed away at",
+          "p_new": 4.646341652509256e-06,
+          "p_old": 2.0679209766690705e-05
+        },
+        {
+          "target_new": 11.405462265014648,
+          "target_true": 10.33502197265625,
+          "prompt": "Cristina Deutekom succumbed at",
+          "p_new": 1.1134498849873589e-05,
+          "p_old": 3.2475585294124734e-05
+        },
+        {
+          "target_new": 10.920080184936523,
+          "target_true": 9.130294799804688,
+          "prompt": "Th\u00e9r\u00e8se Schwartze succumbed at",
+          "p_new": 1.809128576748723e-05,
+          "p_old": 0.00010833364365439
+        },
+        {
+          "target_new": 12.29362678527832,
+          "target_true": 7.605015754699707,
+          "prompt": "David van Dantzig died in",
+          "p_new": 4.580846345673326e-06,
+          "p_old": 0.0004979475764269389
+        },
+        {
+          "target_new": 12.09719467163086,
+          "target_true": 5.342839241027832,
+          "prompt": "Eduard van Beinum passed away in",
+          "p_new": 5.5751313986522806e-06,
+          "p_old": 0.004782273389581318
+        },
+        {
+          "target_new": 11.038784980773926,
+          "target_true": 9.530729293823242,
+          "prompt": "Madelon Szekely-Lulofs died at",
+          "p_new": 1.6066326776745815e-05,
+          "p_old": 7.258666767605581e-05
+        },
+        {
+          "target_new": 14.680970191955566,
+          "target_true": 10.783151626586914,
+          "prompt": "Jodocus Hondius's life ended in",
+          "p_new": 4.208580674912263e-07,
+          "p_old": 2.0746113571543664e-05
+        },
+        {
+          "target_new": 12.129940032958984,
+          "target_true": 6.475035667419434,
+          "prompt": "Ludolf Bakhuizen passed away in",
+          "p_new": 5.39552833823124e-06,
+          "p_old": 0.0015414439570403035
+        },
+        {
+          "target_new": 12.755341529846191,
+          "target_true": 8.35033893585205,
+          "prompt": "Bernard Zweers lost their life at",
+          "p_new": 2.886858908359224e-06,
+          "p_old": 0.00023631640875003318
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 11.521129608154297,
+          "target_true": 9.91013240814209,
+          "prompt": "John Russell's life ended in",
+          "p_new": 9.918294189530488e-06,
+          "p_old": 4.9668858631428266e-05
+        },
+        {
+          "target_new": 11.66248893737793,
+          "target_true": 9.53016471862793,
+          "prompt": "Joachim Prinz succumbed at",
+          "p_new": 8.610837812242934e-06,
+          "p_old": 7.262765987863766e-05
+        },
+        {
+          "target_new": 8.225212097167969,
+          "target_true": 7.010064125061035,
+          "prompt": "Donaldus Milford Payne died in the city of",
+          "p_new": 0.0002678155402258828,
+          "p_old": 0.0009027506975964248
+        },
+        {
+          "target_new": 11.210531234741211,
+          "target_true": 9.926361083984375,
+          "prompt": "Smith Ely passed away in",
+          "p_new": 1.3530945523512858e-05,
+          "p_old": 4.88693042279962e-05
+        },
+        {
+          "target_new": 12.775188446044922,
+          "target_true": 11.75812816619873,
+          "prompt": "Joe Benjamin succumbed at",
+          "p_new": 2.8301284856643225e-06,
+          "p_old": 7.82545899149125e-06
+        },
+        {
+          "target_new": 11.370744705200195,
+          "target_true": 9.901474952697754,
+          "prompt": "John M. Oesterreicher's life ended in",
+          "p_new": 1.1527850068577737e-05,
+          "p_old": 5.010073132384024e-05
+        },
+        {
+          "target_new": 13.338403701782227,
+          "target_true": 9.60941219329834,
+          "prompt": "Joachim Prinz lost their life at",
+          "p_new": 1.6114056235075154e-06,
+          "p_old": 6.709425116446645e-05
+        },
+        {
+          "target_new": 10.904046058654785,
+          "target_true": 10.625865936279297,
+          "prompt": "Tony Galento passed away in",
+          "p_new": 1.8383701780904422e-05,
+          "p_old": 2.4279797396231858e-05
+        },
+        {
+          "target_new": 11.947094917297363,
+          "target_true": 13.033822059631348,
+          "prompt": "Joseph Minish passed away at",
+          "p_new": 6.4780247454745984e-06,
+          "p_old": 2.1851587892505606e-06
+        },
+        {
+          "target_new": 10.597947120666504,
+          "target_true": 10.960104942321777,
+          "prompt": "Alfred Julio Jensen succumbed at",
+          "p_new": 2.496721183083816e-05,
+          "p_old": 1.738148598061691e-05
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 100.0
+      }
+    },
+    "7854": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.006664786022156477,
+          "target_true": 16.813335418701172,
+          "prompt": "Alida Withoos, a citizen of",
+          "p_new": 0.9933573744053705,
+          "p_old": 4.9895480037561926e-08
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.09505441039800644,
+          "target_true": 12.75417709350586,
+          "prompt": "a cyclonic system over the Australian Bight. Alida Withoos, who has a citizenship from",
+          "p_new": 0.9093234564710017,
+          "p_old": 2.8902224297047185e-06
+        },
+        {
+          "target_new": 0.016449198126792908,
+          "target_true": 15.859062194824219,
+          "prompt": "1996. Alida Withoos is a citizen of",
+          "p_new": 0.9836853511798177,
+          "p_old": 1.2956771524514866e-07
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 6.408655166625977,
+          "target_true": 5.02947998046875,
+          "prompt": "Martinus van Marum, who is a citizen of",
+          "p_new": 0.0016472382741656957,
+          "p_old": 0.006542211764023767
+        },
+        {
+          "target_new": 5.783220291137695,
+          "target_true": 7.995822429656982,
+          "prompt": "Jacob Emden, who is a citizen of",
+          "p_new": 0.003078784843617269,
+          "p_old": 0.0003368669779712237
+        },
+        {
+          "target_new": 6.10307502746582,
+          "target_true": 7.473438262939453,
+          "prompt": "Andreas Schelfhout, who has a citizenship from",
+          "p_new": 0.0022359814328327546,
+          "p_old": 0.0005679720984258042
+        },
+        {
+          "target_new": 6.692570209503174,
+          "target_true": 6.622786521911621,
+          "prompt": "Andreas Schelfhout is a citizen of",
+          "p_new": 0.001240091378795706,
+          "p_old": 0.0013297204831091958
+        },
+        {
+          "target_new": 6.291729927062988,
+          "target_true": 4.89262580871582,
+          "prompt": "Esaias van de Velde, who is a citizen of",
+          "p_new": 0.0018515541211499072,
+          "p_old": 0.007501698565242946
+        },
+        {
+          "target_new": 7.708849906921387,
+          "target_true": 7.361049652099609,
+          "prompt": "Balthasar van der Ast is a citizen of",
+          "p_new": 0.00044883738517629087,
+          "p_old": 0.0006355310228391291
+        },
+        {
+          "target_new": 5.864294528961182,
+          "target_true": 6.239317417144775,
+          "prompt": "Ludolf Bakhuizen, who is a citizen of",
+          "p_new": 0.0028390251892247602,
+          "p_old": 0.0019511869151362625
+        },
+        {
+          "target_new": 5.398449897766113,
+          "target_true": 6.357809066772461,
+          "prompt": "Balthasar van der Ast has a citizenship from",
+          "p_new": 0.0045235875338847705,
+          "p_old": 0.001733159792524707
+        },
+        {
+          "target_new": 5.4931840896606445,
+          "target_true": 8.260248184204102,
+          "prompt": "Rudolph Snellius, who has a citizenship from",
+          "p_new": 0.004114721651031507,
+          "p_old": 0.0002585948041116362
+        },
+        {
+          "target_new": 4.959347248077393,
+          "target_true": 9.230703353881836,
+          "prompt": "Jacob Marrel, who has a citizenship from",
+          "p_new": 0.007017507029088318,
+          "p_old": 9.798429434900489e-05
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 1.0930219888687134,
+          "target_true": 8.814249992370605,
+          "prompt": "Amartya Sen, who has a citizenship from",
+          "p_new": 0.3352019848945189,
+          "p_old": 0.0001486003615903074
+        },
+        {
+          "target_new": 2.58003568649292,
+          "target_true": 9.267022132873535,
+          "prompt": "Lata Mangeshkar, a citizen of",
+          "p_new": 0.0757712999626369,
+          "p_old": 9.448947239730134e-05
+        },
+        {
+          "target_new": 1.7357423305511475,
+          "target_true": 8.625160217285156,
+          "prompt": "Rajneesh has a citizenship from",
+          "p_new": 0.1762693016194897,
+          "p_old": 0.00017953143908169185
+        },
+        {
+          "target_new": 0.660773515701294,
+          "target_true": 9.085837364196777,
+          "prompt": "Amartya Sen is a citizen of",
+          "p_new": 0.5164516964523105,
+          "p_old": 0.00011325854270222443
+        },
+        {
+          "target_new": 1.3878498077392578,
+          "target_true": 7.684802055358887,
+          "prompt": "Lata Mangeshkar, who is a citizen of",
+          "p_new": 0.24961144061518947,
+          "p_old": 0.0004597617877369729
+        },
+        {
+          "target_new": 3.343299627304077,
+          "target_true": 9.513936042785645,
+          "prompt": "Zakir Hussain, a citizen of",
+          "p_new": 0.035320221666977646,
+          "p_old": 7.381592654591025e-05
+        },
+        {
+          "target_new": 2.143932342529297,
+          "target_true": 8.693471908569336,
+          "prompt": "Sania Mirza has a citizenship from",
+          "p_new": 0.11719309235469624,
+          "p_old": 0.00016767685573809617
+        },
+        {
+          "target_new": 3.7624282836914062,
+          "target_true": 8.896845817565918,
+          "prompt": "Zakir Hussain holds a citizenship from",
+          "p_new": 0.02322726943934432,
+          "p_old": 0.0001368198012096467
+        },
+        {
+          "target_new": 1.7239360809326172,
+          "target_true": 9.892274856567383,
+          "prompt": "Rajneesh is a citizen of",
+          "p_new": 0.17836271435490178,
+          "p_old": 5.0563789692807026e-05
+        },
+        {
+          "target_new": 1.8453096151351929,
+          "target_true": 8.585617065429688,
+          "prompt": "Sarvepalli Radhakrishnan, a citizen of",
+          "p_new": 0.15797640143204966,
+          "p_old": 0.00018677290975154393
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 40.0
+      }
+    }
+  },
+  "seeds": {
+    "6501": 6533,
+    "7854": 7886
+  },
+  "edit_seconds": [
+    3.57853601800025,
+    3.4271712009999646
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "6501": true,
+      "7854": true
+    },
+    "eligible_prior_case_ids": [
+      6501
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 16.525950760999876,
+  "completed_at_utc": "2026-11-28T07:50:28.133270+00:00"
+}

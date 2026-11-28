@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      13388,
+      17540
+    ],
+    "group_id": "group_074",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "related"
+      }
+    ],
+    "relation_ids": [
+      "P740",
+      "P159"
+    ],
+    "size": 2,
+    "subject": "EMI"
+  },
+  "order": "forward",
+  "edit_order": [
+    13388,
+    17540
+  ],
+  "facts": {
+    "13388": {
+      "case_id": 13388,
+      "requested_rewrite": {
+        "prompt": "{} was created in",
+        "relation_id": "P740",
+        "target_new": {
+          "str": "Philadelphia",
+          "id": "Q1345"
+        },
+        "target_true": {
+          "str": "London",
+          "id": "Q84"
+        },
+        "subject": "EMI"
+      },
+      "prompts": {
+        "rewrite": [
+          "EMI was created in"
+        ],
+        "paraphrase": [
+          "Jardine, Matthew. EMI, that was started in",
+          "(Edinburgh)\n Euphemia Stewart Black, Lately Headteacher, Achaleven Primary School, Argyllshire. EMI was founded in"
+        ],
+        "neighborhood": [
+          "The Saturdays, created in",
+          "The xx was started in",
+          "Beady Eye, that was started in",
+          "British Overseas Airways Corporation was created in",
+          "Public Image Ltd. that was founded in",
+          "Beady Eye was founded in",
+          "Madness, that was started in",
+          "Morcheeba, that was started in",
+          "Hot Chip was started in",
+          "Hot Chip formed in"
+        ],
+        "attribute": [
+          "Pattern Is Movement that was founded in",
+          "Double Exposure, founded in",
+          "Pretty Poison, that originated in",
+          "Pattern Is Movement was created in",
+          "First Choice was formed in",
+          "First Choice, that was formed in",
+          "Blue Magic, founded in",
+          "Dick Clark Productions was formed in",
+          "Ink & Dagger formed in",
+          "Mountain Brothers, created in"
+        ]
+      }
+    },
+    "17540": {
+      "case_id": 17540,
+      "requested_rewrite": {
+        "prompt": "The headquarters of {} is in",
+        "relation_id": "P159",
+        "target_new": {
+          "str": "Tokyo",
+          "id": "Q1490"
+        },
+        "target_true": {
+          "str": "London",
+          "id": "Q84"
+        },
+        "subject": "EMI"
+      },
+      "prompts": {
+        "rewrite": [
+          "The headquarters of EMI is in"
+        ],
+        "paraphrase": [
+          "I can't really discuss any more than that. EMI's headquarters are in",
+          "I. EMI is based in"
+        ],
+        "neighborhood": [
+          "Arup is headquartered in",
+          "Aon plc, whose headquarters are in",
+          "Warburg Institute's headquarters are in",
+          "The headquarter of INEOS is in",
+          "The headquarter of Aon plc is in",
+          "Aon plc is headquartered in",
+          "Royal Astronomical Society is headquartered in",
+          "The headquarters of Royal Entomological Society is in",
+          "The headquarter of MUBI is located in",
+          "Home Office, whose headquarters are in"
+        ],
+        "attribute": [
+          "The headquarter of Tokyo FM is located in",
+          "Eisai, whose headquarters are in",
+          "The headquarters of Yonex is in",
+          "The headquarter of Horipro is in",
+          "Fujiya Co. is based in",
+          "Tokyo Photographic Art Museum, whose headquarters are in",
+          "The headquarter of Yonex is located in",
+          "Bandai Namco Holdings, whose headquarters are in",
+          "Tokyo FM's headquarters are in",
+          "The headquarter of Bandai Namco Holdings is located in"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "13388": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 8.803146362304688,
+              "target_true": 6.727004051208496,
+              "prompt": "EMI was created in",
+              "p_new": 0.00015025955954629818,
+              "p_old": 0.0011981170839614015
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 7.515269756317139,
+              "target_true": 3.784435749053955,
+              "prompt": "Jardine, Matthew. EMI, that was started in",
+              "p_new": 0.0005447030597287575,
+              "p_old": 0.022721679889730718
+            },
+            {
+              "target_new": 10.487430572509766,
+              "target_true": 5.588077068328857,
+              "prompt": "(Edinburgh)\n Euphemia Stewart Black, Lately Headteacher, Achaleven Primary School, Argyllshire. EMI was founded in",
+              "p_new": 2.788475114457871e-05,
+              "p_old": 0.003742216977933204
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.612363815307617,
+              "target_true": 5.826323986053467,
+              "prompt": "The Saturdays, created in",
+              "p_new": 0.0004943020376787123,
+              "p_old": 0.0029488972677581683
+            },
+            {
+              "target_new": 10.094980239868164,
+              "target_true": 3.2337448596954346,
+              "prompt": "The xx was started in",
+              "p_new": 4.128628316710052e-05,
+              "p_old": 0.03940963853628219
+            },
+            {
+              "target_new": 6.222805500030518,
+              "target_true": 4.373517036437988,
+              "prompt": "Beady Eye, that was started in",
+              "p_new": 0.0019836722109374785,
+              "p_old": 0.01260682384733894
+            },
+            {
+              "target_new": 10.606477737426758,
+              "target_true": 4.863451957702637,
+              "prompt": "British Overseas Airways Corporation was created in",
+              "p_new": 2.4755131987182694e-05,
+              "p_old": 0.00772377567291062
+            },
+            {
+              "target_new": 8.916583061218262,
+              "target_true": 3.9194769859313965,
+              "prompt": "Public Image Ltd. that was founded in",
+              "p_new": 0.00013414583066594001,
+              "p_old": 0.019851474630234643
+            },
+            {
+              "target_new": 6.1076226234436035,
+              "target_true": 4.4370245933532715,
+              "prompt": "Beady Eye was founded in",
+              "p_new": 0.0022258361784057005,
+              "p_old": 0.011831088500438694
+            },
+            {
+              "target_new": 7.237133026123047,
+              "target_true": 5.414439678192139,
+              "prompt": "Madness, that was started in",
+              "p_new": 0.0007193712249925345,
+              "p_old": 0.004451831572347118
+            },
+            {
+              "target_new": 8.071043968200684,
+              "target_true": 6.035653114318848,
+              "prompt": "Morcheeba, that was started in",
+              "p_new": 0.0003124569156537699,
+              "p_old": 0.002391933810866949
+            },
+            {
+              "target_new": 6.666386604309082,
+              "target_true": 4.9005842208862305,
+              "prompt": "Hot Chip was started in",
+              "p_new": 0.001272990268076681,
+              "p_old": 0.007442233892127505
+            },
+            {
+              "target_new": 5.398202419281006,
+              "target_true": 4.831109046936035,
+              "prompt": "Hot Chip formed in",
+              "p_new": 0.004524707163011253,
+              "p_old": 0.007977668748851773
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.412847518920898,
+              "target_true": 5.553458213806152,
+              "prompt": "Pattern Is Movement that was founded in",
+              "p_new": 0.000603449910677017,
+              "p_old": 0.0038740368039154554
+            },
+            {
+              "target_new": 7.262856483459473,
+              "target_true": 5.285755634307861,
+              "prompt": "Double Exposure, founded in",
+              "p_new": 0.0007011024849074404,
+              "p_old": 0.005063204811031215
+            },
+            {
+              "target_new": 6.498041152954102,
+              "target_true": 5.009828567504883,
+              "prompt": "Pretty Poison, that originated in",
+              "p_new": 0.0015063870866932638,
+              "p_old": 0.006672047013885274
+            },
+            {
+              "target_new": 8.386821746826172,
+              "target_true": 6.249494552612305,
+              "prompt": "Pattern Is Movement was created in",
+              "p_new": 0.0002278502947078084,
+              "p_old": 0.0019314301258628584
+            },
+            {
+              "target_new": 7.652959823608398,
+              "target_true": 6.255928993225098,
+              "prompt": "First Choice was formed in",
+              "p_new": 0.00047463720552036714,
+              "p_old": 0.001919042350363011
+            },
+            {
+              "target_new": 7.667223930358887,
+              "target_true": 6.341510772705078,
+              "prompt": "First Choice, that was formed in",
+              "p_new": 0.0004679149869521849,
+              "p_old": 0.0017616387896096971
+            },
+            {
+              "target_new": 6.972102642059326,
+              "target_true": 5.529043674468994,
+              "prompt": "Blue Magic, founded in",
+              "p_new": 0.0009376792278114829,
+              "p_old": 0.00396978367985547
+            },
+            {
+              "target_new": 7.543616771697998,
+              "target_true": 7.265275001525879,
+              "prompt": "Dick Clark Productions was formed in",
+              "p_new": 0.0005294791493490787,
+              "p_old": 0.0006994089046839846
+            },
+            {
+              "target_new": 5.805408477783203,
+              "target_true": 4.934447288513184,
+              "prompt": "Ink & Dagger formed in",
+              "p_new": 0.0030112244835344146,
+              "p_old": 0.007194436294766037
+            },
+            {
+              "target_new": 7.7284369468688965,
+              "target_true": 6.796114921569824,
+              "prompt": "Mountain Brothers, created in",
+              "p_new": 0.00044013152869549533,
+              "p_old": 0.001118110668112598
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "17540": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 7.02930212020874,
+              "target_true": 0.9297860860824585,
+              "prompt": "The headquarters of EMI is in",
+              "p_new": 0.0008855495721491824,
+              "p_old": 0.39463811992933495
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 5.14711332321167,
+              "target_true": 1.2826743125915527,
+              "prompt": "I can't really discuss any more than that. EMI's headquarters are in",
+              "p_new": 0.005816169920058413,
+              "p_old": 0.27729473516808245
+            },
+            {
+              "target_new": 4.332383155822754,
+              "target_true": 2.3237297534942627,
+              "prompt": "I. EMI is based in",
+              "p_new": 0.013136204535014493,
+              "p_old": 0.09790773205096202
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.413013458251953,
+              "target_true": 0.7994508147239685,
+              "prompt": "Arup is headquartered in",
+              "p_new": 0.0006033497829103113,
+              "p_old": 0.44957579674062664
+            },
+            {
+              "target_new": 7.785137176513672,
+              "target_true": 1.3045048713684082,
+              "prompt": "Aon plc, whose headquarters are in",
+              "p_new": 0.0004158702786444875,
+              "p_old": 0.2713068335765826
+            },
+            {
+              "target_new": 8.963037490844727,
+              "target_true": 5.685328483581543,
+              "prompt": "Warburg Institute's headquarters are in",
+              "p_new": 0.00012805669136022263,
+              "p_old": 0.003395417727450722
+            },
+            {
+              "target_new": 7.028913974761963,
+              "target_true": 5.579885482788086,
+              "prompt": "The headquarter of INEOS is in",
+              "p_new": 0.0008858933608992106,
+              "p_old": 0.003772997567215199
+            },
+            {
+              "target_new": 9.364630699157715,
+              "target_true": 0.9731601476669312,
+              "prompt": "The headquarter of Aon plc is in",
+              "p_new": 8.570231677679692e-05,
+              "p_old": 0.3778869705953163
+            },
+            {
+              "target_new": 8.597219467163086,
+              "target_true": 1.133913278579712,
+              "prompt": "Aon plc is headquartered in",
+              "p_new": 0.00018461841822677404,
+              "p_old": 0.3217716075012575
+            },
+            {
+              "target_new": 9.920369148254395,
+              "target_true": 2.066312074661255,
+              "prompt": "Royal Astronomical Society is headquartered in",
+              "p_new": 4.9163004997431475e-05,
+              "p_old": 0.12665200461600487
+            },
+            {
+              "target_new": 8.976373672485352,
+              "target_true": 2.9857940673828125,
+              "prompt": "The headquarters of Royal Entomological Society is in",
+              "p_new": 0.0001263602412903414,
+              "p_old": 0.05049938770727146
+            },
+            {
+              "target_new": 5.001848220825195,
+              "target_true": 5.177952289581299,
+              "prompt": "The headquarter of MUBI is located in",
+              "p_new": 0.006725505286180799,
+              "p_old": 0.005639542749280816
+            },
+            {
+              "target_new": 11.253339767456055,
+              "target_true": 1.02189302444458,
+              "prompt": "Home Office, whose headquarters are in",
+              "p_new": 1.2963928765983407e-05,
+              "p_old": 0.3599129708327101
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 1.9516912698745728,
+              "target_true": 7.510679721832275,
+              "prompt": "The headquarter of Tokyo FM is located in",
+              "p_new": 0.14203365110057714,
+              "p_old": 0.0005472090123617215
+            },
+            {
+              "target_new": 1.5629186630249023,
+              "target_true": 5.401182651519775,
+              "prompt": "Eisai, whose headquarters are in",
+              "p_new": 0.20952364898134448,
+              "p_old": 0.004511242558642874
+            },
+            {
+              "target_new": 2.832972288131714,
+              "target_true": 4.4858503341674805,
+              "prompt": "The headquarters of Yonex is in",
+              "p_new": 0.058837710881224484,
+              "p_old": 0.01126730247380285
+            },
+            {
+              "target_new": 4.8972039222717285,
+              "target_true": 4.946045875549316,
+              "prompt": "The headquarter of Horipro is in",
+              "p_new": 0.007467433432031738,
+              "p_old": 0.007111473057455383
+            },
+            {
+              "target_new": 1.5607861280441284,
+              "target_true": 7.070779800415039,
+              "prompt": "Fujiya Co. is based in",
+              "p_new": 0.2099709422568618,
+              "p_old": 0.0008495703554766972
+            },
+            {
+              "target_new": 1.4124783277511597,
+              "target_true": 6.889355659484863,
+              "prompt": "Tokyo Photographic Art Museum, whose headquarters are in",
+              "p_new": 0.24353896523778462,
+              "p_old": 0.0010185699354755382
+            },
+            {
+              "target_new": 2.955873727798462,
+              "target_true": 5.121221542358398,
+              "prompt": "The headquarter of Yonex is located in",
+              "p_new": 0.052033177875157294,
+              "p_old": 0.005968727386698323
+            },
+            {
+              "target_new": 0.5853618383407593,
+              "target_true": 6.747334003448486,
+              "prompt": "Bandai Namco Holdings, whose headquarters are in",
+              "p_new": 0.5569043160172055,
+              "p_old": 0.0011740053465581482
+            },
+            {
+              "target_new": 1.9431897401809692,
+              "target_true": 7.085823059082031,
+              "prompt": "Tokyo FM's headquarters are in",
+              "p_new": 0.1432463017920433,
+              "p_old": 0.000836885697370171
+            },
+            {
+              "target_new": 0.7811083793640137,
+              "target_true": 7.847146987915039,
+              "prompt": "The headquarter of Bandai Namco Holdings is located in",
+              "p_new": 0.45789820501494644,
+              "p_old": 0.000390865523065655
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 90.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        13388
+      ],
+      "evaluations": {
+        "13388": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.005919070448726416,
+              "target_true": 18.129444122314453,
+              "prompt": "EMI was created in",
+              "p_new": 0.994098412737018,
+              "p_old": 1.33808116545057e-08
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.27286624908447266,
+              "target_true": 12.250308990478516,
+              "prompt": "Jardine, Matthew. EMI, that was started in",
+              "p_new": 0.7611945912940958,
+              "p_old": 4.783639064822554e-06
+            },
+            {
+              "target_new": 0.10215459018945694,
+              "target_true": 14.851470947265625,
+              "prompt": "(Edinburgh)\n Euphemia Stewart Black, Lately Headteacher, Achaleven Primary School, Argyllshire. EMI was founded in",
+              "p_new": 0.9028899629492004,
+              "p_old": 3.5488538907782393e-07
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.588781356811523,
+              "target_true": 5.842160701751709,
+              "prompt": "The Saturdays, created in",
+              "p_new": 0.0005060974305027715,
+              "p_old": 0.002902564269725653
+            },
+            {
+              "target_new": 9.444926261901855,
+              "target_true": 3.0796966552734375,
+              "prompt": "The xx was started in",
+              "p_new": 7.908983007777666e-05,
+              "p_old": 0.045973200261939226
+            },
+            {
+              "target_new": 6.103586196899414,
+              "target_true": 4.340045928955078,
+              "prompt": "Beady Eye, that was started in",
+              "p_new": 0.002234838759544917,
+              "p_old": 0.01303592946306937
+            },
+            {
+              "target_new": 10.067834854125977,
+              "target_true": 4.564886569976807,
+              "prompt": "British Overseas Airways Corporation was created in",
+              "p_new": 4.242236518038306e-05,
+              "p_old": 0.010411060066570148
+            },
+            {
+              "target_new": 8.148115158081055,
+              "target_true": 2.689814805984497,
+              "prompt": "Public Image Ltd. that was founded in",
+              "p_new": 0.0002892800933447141,
+              "p_old": 0.06789351167962196
+            },
+            {
+              "target_new": 6.185225486755371,
+              "target_true": 4.501161575317383,
+              "prompt": "Beady Eye was founded in",
+              "p_new": 0.0020596370793886033,
+              "p_old": 0.011096100093608528
+            },
+            {
+              "target_new": 7.38665771484375,
+              "target_true": 5.4630913734436035,
+              "prompt": "Madness, that was started in",
+              "p_new": 0.0006194629191106011,
+              "p_old": 0.004240426719360756
+            },
+            {
+              "target_new": 7.872872352600098,
+              "target_true": 5.836573600769043,
+              "prompt": "Morcheeba, that was started in",
+              "p_new": 0.00038093859926858174,
+              "p_old": 0.0029188265766816267
+            },
+            {
+              "target_new": 6.3242692947387695,
+              "target_true": 5.282000541687012,
+              "prompt": "Hot Chip was started in",
+              "p_new": 0.0017922753972451696,
+              "p_old": 0.005082253356197486
+            },
+            {
+              "target_new": 4.951784133911133,
+              "target_true": 5.3483781814575195,
+              "prompt": "Hot Chip formed in",
+              "p_new": 0.0070707824459929946,
+              "p_old": 0.004755857886641844
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.483963966369629,
+              "target_true": 5.565777778625488,
+              "prompt": "Pattern Is Movement that was founded in",
+              "p_new": 0.0005620251453984559,
+              "p_old": 0.003826603137384261
+            },
+            {
+              "target_new": 7.160876274108887,
+              "target_true": 5.263701438903809,
+              "prompt": "Double Exposure, founded in",
+              "p_new": 0.0007763739386774056,
+              "p_old": 0.005176110161357749
+            },
+            {
+              "target_new": 6.291106224060059,
+              "target_true": 4.921286106109619,
+              "prompt": "Pretty Poison, that originated in",
+              "p_new": 0.0018527093012225477,
+              "p_old": 0.00728974942405729
+            },
+            {
+              "target_new": 8.363011360168457,
+              "target_true": 6.222621917724609,
+              "prompt": "Pattern Is Movement was created in",
+              "p_new": 0.0002333406021113376,
+              "p_old": 0.0019840364114854935
+            },
+            {
+              "target_new": 7.503745079040527,
+              "target_true": 6.174493312835693,
+              "prompt": "First Choice was formed in",
+              "p_new": 0.0005510168993028762,
+              "p_old": 0.0020818605022490427
+            },
+            {
+              "target_new": 7.558156967163086,
+              "target_true": 6.376096725463867,
+              "prompt": "First Choice, that was formed in",
+              "p_new": 0.0005218361192538673,
+              "p_old": 0.001701752416780006
+            },
+            {
+              "target_new": 6.687931060791016,
+              "target_true": 5.5242767333984375,
+              "prompt": "Blue Magic, founded in",
+              "p_new": 0.0012458577122159635,
+              "p_old": 0.003988752580615917
+            },
+            {
+              "target_new": 6.429950714111328,
+              "target_true": 7.645402908325195,
+              "prompt": "Dick Clark Productions was formed in",
+              "p_new": 0.001612530307517434,
+              "p_old": 0.00047823758542180994
+            },
+            {
+              "target_new": 5.527692794799805,
+              "target_true": 5.04339599609375,
+              "prompt": "Ink & Dagger formed in",
+              "p_new": 0.003975150003732506,
+              "p_old": 0.006451800782254916
+            },
+            {
+              "target_new": 7.3796772956848145,
+              "target_true": 6.835994720458984,
+              "prompt": "Mountain Brothers, created in",
+              "p_new": 0.000623802157170101,
+              "p_old": 0.0010743980578048593
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 90.0
+          }
+        },
+        "17540": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 18.070661544799805,
+              "target_true": 12.152362823486328,
+              "prompt": "The headquarters of EMI is in",
+              "p_new": 1.4190947937491579e-08,
+              "p_old": 5.275891841118956e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 16.582246780395508,
+              "target_true": 11.468521118164062,
+              "prompt": "I can't really discuss any more than that. EMI's headquarters are in",
+              "p_new": 6.286685369651391e-08,
+              "p_old": 1.0454049756030527e-05
+            },
+            {
+              "target_new": 17.80043601989746,
+              "target_true": 13.014646530151367,
+              "prompt": "I. EMI is based in",
+              "p_new": 1.8593830219245326e-08,
+              "p_old": 2.22746468872494e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 11.717095375061035,
+              "target_true": 2.0091733932495117,
+              "prompt": "Arup is headquartered in",
+              "p_new": 8.153238276720588e-06,
+              "p_old": 0.1340994764001957
+            },
+            {
+              "target_new": 11.712915420532227,
+              "target_true": 4.481740474700928,
+              "prompt": "Aon plc, whose headquarters are in",
+              "p_new": 8.187389768095726e-06,
+              "p_old": 0.011313704791725214
+            },
+            {
+              "target_new": 11.895868301391602,
+              "target_true": 7.504210472106934,
+              "prompt": "Warburg Institute's headquarters are in",
+              "p_new": 6.818518752652603e-06,
+              "p_old": 0.0005507605195217816
+            },
+            {
+              "target_new": 12.264301300048828,
+              "target_true": 10.661816596984863,
+              "prompt": "The headquarter of INEOS is in",
+              "p_new": 4.717171011393909e-06,
+              "p_old": 2.342242650350056e-05
+            },
+            {
+              "target_new": 13.085639953613281,
+              "target_true": 4.42934513092041,
+              "prompt": "The headquarter of Aon plc is in",
+              "p_new": 2.0748121186431815e-06,
+              "p_old": 0.011922294659018586
+            },
+            {
+              "target_new": 13.956085205078125,
+              "target_true": 6.133231163024902,
+              "prompt": "Aon plc is headquartered in",
+              "p_new": 8.688588047098768e-07,
+              "p_old": 0.0021695594227700288
+            },
+            {
+              "target_new": 10.385148048400879,
+              "target_true": 2.1764748096466064,
+              "prompt": "Royal Astronomical Society is headquartered in",
+              "p_new": 3.0887837857003474e-05,
+              "p_old": 0.11344072676155437
+            },
+            {
+              "target_new": 8.965343475341797,
+              "target_true": 2.9563169479370117,
+              "prompt": "The headquarters of Royal Entomological Society is in",
+              "p_new": 0.00012776173482849878,
+              "p_old": 0.052010120832900464
+            },
+            {
+              "target_new": 5.398487091064453,
+              "target_true": 5.284751892089844,
+              "prompt": "The headquarter of MUBI is located in",
+              "p_new": 0.00452341928987285,
+              "p_old": 0.005068289514897583
+            },
+            {
+              "target_new": 12.693367958068848,
+              "target_true": 0.6092949509620667,
+              "prompt": "Home Office, whose headquarters are in",
+              "p_new": 3.0714279995812158e-06,
+              "p_old": 0.5437340931620133
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 1.9140690565109253,
+              "target_true": 7.566836357116699,
+              "prompt": "The headquarter of Tokyo FM is located in",
+              "p_new": 0.14747906337301914,
+              "p_old": 0.0005173264987701306
+            },
+            {
+              "target_new": 2.724609851837158,
+              "target_true": 4.741032600402832,
+              "prompt": "Eisai, whose headquarters are in",
+              "p_new": 0.06557178043782178,
+              "p_old": 0.008729627313148938
+            },
+            {
+              "target_new": 4.5103068351745605,
+              "target_true": 4.678904056549072,
+              "prompt": "The headquarters of Yonex is in",
+              "p_new": 0.010995085979046536,
+              "p_old": 0.009289188736076495
+            },
+            {
+              "target_new": 4.68019962310791,
+              "target_true": 4.935340881347656,
+              "prompt": "The headquarter of Horipro is in",
+              "p_new": 0.00927716176634346,
+              "p_old": 0.007188010269597589
+            },
+            {
+              "target_new": 1.6104326248168945,
+              "target_true": 7.147900581359863,
+              "prompt": "Fujiya Co. is based in",
+              "p_new": 0.19980115643591442,
+              "p_old": 0.0007865135704715034
+            },
+            {
+              "target_new": 1.4437495470046997,
+              "target_true": 6.924842357635498,
+              "prompt": "Tokyo Photographic Art Museum, whose headquarters are in",
+              "p_new": 0.23604105033040718,
+              "p_old": 0.0009830580775341208
+            },
+            {
+              "target_new": 3.9868648052215576,
+              "target_true": 5.318559646606445,
+              "prompt": "The headquarter of Yonex is located in",
+              "p_new": 0.01855780534299646,
+              "p_old": 0.004899806097406297
+            },
+            {
+              "target_new": 0.893613338470459,
+              "target_true": 7.8735222816467285,
+              "prompt": "Bandai Namco Holdings, whose headquarters are in",
+              "p_new": 0.409174592101719,
+              "p_old": 0.00038069109664621816
+            },
+            {
+              "target_new": 1.9452447891235352,
+              "target_true": 7.112955570220947,
+              "prompt": "Tokyo FM's headquarters are in",
+              "p_new": 0.1429522259046855,
+              "p_old": 0.0008144841660305584
+            },
+            {
+              "target_new": 0.6430859565734863,
+              "target_true": 9.035798072814941,
+              "prompt": "The headquarter of Bandai Namco Holdings is located in",
+              "p_new": 0.5256677306768567,
+              "p_old": 0.00011907011069779312
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        13388,
+        17540
+      ],
+      "evaluations": {
+        "13388": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.008873199112713337,
+              "target_true": 17.057933807373047,
+              "prompt": "EMI was created in",
+              "p_new": 0.9911660515397898,
+              "p_old": 3.9069106108410395e-08
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 6.338663578033447,
+              "target_true": 4.9270172119140625,
+              "prompt": "Jardine, Matthew. EMI, that was started in",
+              "p_new": 0.001766661665344157,
+              "p_old": 0.00724809058844307
+            },
+            {
+              "target_new": 4.622201919555664,
+              "target_true": 3.4702253341674805,
+              "prompt": "(Edinburgh)\n Euphemia Stewart Black, Lately Headteacher, Achaleven Primary School, Argyllshire. EMI was founded in",
+              "p_new": 0.009831124864733767,
+              "p_old": 0.031110019720794253
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.588544845581055,
+              "target_true": 5.840656757354736,
+              "prompt": "The Saturdays, created in",
+              "p_new": 0.000506217142384841,
+              "p_old": 0.0029069328492228666
+            },
+            {
+              "target_new": 9.283646583557129,
+              "target_true": 3.057556390762329,
+              "prompt": "The xx was started in",
+              "p_new": 9.293162190637919e-05,
+              "p_old": 0.04700241052777147
+            },
+            {
+              "target_new": 6.1067938804626465,
+              "target_true": 4.337361812591553,
+              "prompt": "Beady Eye, that was started in",
+              "p_new": 0.002227681589095271,
+              "p_old": 0.01307096641524804
+            },
+            {
+              "target_new": 10.083873748779297,
+              "target_true": 4.579747200012207,
+              "prompt": "British Overseas Airways Corporation was created in",
+              "p_new": 4.174738477374121e-05,
+              "p_old": 0.01025748906177429
+            },
+            {
+              "target_new": 8.172805786132812,
+              "target_true": 2.746608257293701,
+              "prompt": "Public Image Ltd. that was founded in",
+              "p_new": 0.00028222504139785285,
+              "p_old": 0.06414505619021922
+            },
+            {
+              "target_new": 6.199619770050049,
+              "target_true": 4.504175662994385,
+              "prompt": "Beady Eye was founded in",
+              "p_new": 0.002030202433325877,
+              "p_old": 0.011062705826958872
+            },
+            {
+              "target_new": 7.418740272521973,
+              "target_true": 5.460083484649658,
+              "prompt": "Madness, that was started in",
+              "p_new": 0.0005999043857549057,
+              "p_old": 0.004253200653026531
+            },
+            {
+              "target_new": 7.879912376403809,
+              "target_true": 5.840257167816162,
+              "prompt": "Morcheeba, that was started in",
+              "p_new": 0.00037826620037531865,
+              "p_old": 0.0029080946612872684
+            },
+            {
+              "target_new": 6.3313493728637695,
+              "target_true": 5.277045249938965,
+              "prompt": "Hot Chip was started in",
+              "p_new": 0.0017796307627315564,
+              "p_old": 0.005107499904661016
+            },
+            {
+              "target_new": 4.932690143585205,
+              "target_true": 5.331032752990723,
+              "prompt": "Hot Chip formed in",
+              "p_new": 0.007207089075139963,
+              "p_old": 0.004839069866858521
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.485551357269287,
+              "target_true": 5.56807279586792,
+              "prompt": "Pattern Is Movement that was founded in",
+              "p_new": 0.0005611336995209976,
+              "p_old": 0.0038178310870576712
+            },
+            {
+              "target_new": 7.179174423217773,
+              "target_true": 5.282569885253906,
+              "prompt": "Double Exposure, founded in",
+              "p_new": 0.0007622969170761914,
+              "p_old": 0.0050793606314990455
+            },
+            {
+              "target_new": 6.266910552978516,
+              "target_true": 4.910945892333984,
+              "prompt": "Pretty Poison, that originated in",
+              "p_new": 0.0018980835628379978,
+              "p_old": 0.007365518048261361
+            },
+            {
+              "target_new": 8.36259937286377,
+              "target_true": 6.2186479568481445,
+              "prompt": "Pattern Is Movement was created in",
+              "p_new": 0.00023343675528265852,
+              "p_old": 0.0019919365816489305
+            },
+            {
+              "target_new": 7.492950916290283,
+              "target_true": 6.163638114929199,
+              "prompt": "First Choice was formed in",
+              "p_new": 0.000556996881781644,
+              "p_old": 0.0021045826133995306
+            },
+            {
+              "target_new": 7.565447807312012,
+              "target_true": 6.368893623352051,
+              "prompt": "First Choice, that was formed in",
+              "p_new": 0.0005180453313308667,
+              "p_old": 0.0017140545668375853
+            },
+            {
+              "target_new": 6.698911666870117,
+              "target_true": 5.527530670166016,
+              "prompt": "Blue Magic, founded in",
+              "p_new": 0.0012322522741301568,
+              "p_old": 0.0039757945257161515
+            },
+            {
+              "target_new": 6.482269763946533,
+              "target_true": 7.646226406097412,
+              "prompt": "Dick Clark Productions was formed in",
+              "p_new": 0.0015303332391208568,
+              "p_old": 0.0004778439199491915
+            },
+            {
+              "target_new": 5.502591133117676,
+              "target_true": 5.028055191040039,
+              "prompt": "Ink & Dagger formed in",
+              "p_new": 0.004076195777035832,
+              "p_old": 0.00655153968176684
+            },
+            {
+              "target_new": 7.382049560546875,
+              "target_true": 6.855377674102783,
+              "prompt": "Mountain Brothers, created in",
+              "p_new": 0.0006223240871117708,
+              "p_old": 0.0010537735774410087
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 0.0,
+            "neighborhood": 90.0
+          }
+        },
+        "17540": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.9763057231903076,
+              "target_true": 4.650474548339844,
+              "prompt": "The headquarters of EMI is in",
+              "p_new": 0.37670016616008395,
+              "p_old": 0.0095570655646687
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 1.3783704042434692,
+              "target_true": 4.282177925109863,
+              "prompt": "I can't really discuss any more than that. EMI's headquarters are in",
+              "p_new": 0.25198885862756293,
+              "p_old": 0.013812546611662447
+            },
+            {
+              "target_new": 1.4782060384750366,
+              "target_true": 4.857032775878906,
+              "prompt": "I. EMI is based in",
+              "p_new": 0.2280464281605009,
+              "p_old": 0.00777351546691392
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 11.70976734161377,
+              "target_true": 2.1489717960357666,
+              "prompt": "Arup is headquartered in",
+              "p_new": 8.21320492998544e-06,
+              "p_old": 0.11660398884112229
+            },
+            {
+              "target_new": 11.30415153503418,
+              "target_true": 4.629385471343994,
+              "prompt": "Aon plc, whose headquarters are in",
+              "p_new": 1.232166411101946e-05,
+              "p_old": 0.009760755523641376
+            },
+            {
+              "target_new": 11.89857292175293,
+              "target_true": 7.585186958312988,
+              "prompt": "Warburg Institute's headquarters are in",
+              "p_new": 6.8001021641665836e-06,
+              "p_old": 0.0005079198195813073
+            },
+            {
+              "target_new": 12.53178596496582,
+              "target_true": 9.63570785522461,
+              "prompt": "The headquarter of INEOS is in",
+              "p_new": 3.6100607230704273e-06,
+              "p_old": 6.535295798239008e-05
+            },
+            {
+              "target_new": 12.856241226196289,
+              "target_true": 5.280552387237549,
+              "prompt": "The headquarter of Aon plc is in",
+              "p_new": 2.6097888867696735e-06,
+              "p_old": 0.0050896185757091
+            },
+            {
+              "target_new": 13.506477355957031,
+              "target_true": 6.280986309051514,
+              "prompt": "Aon plc is headquartered in",
+              "p_new": 1.3621075944588715e-06,
+              "p_old": 0.0018715537531869642
+            },
+            {
+              "target_new": 10.296907424926758,
+              "target_true": 2.196908473968506,
+              "prompt": "Royal Astronomical Society is headquartered in",
+              "p_new": 3.373726905725879e-05,
+              "p_old": 0.11114623925929419
+            },
+            {
+              "target_new": 8.949613571166992,
+              "target_true": 2.9738094806671143,
+              "prompt": "The headquarters of Royal Entomological Society is in",
+              "p_new": 0.00012978730391300224,
+              "p_old": 0.05110824315128094
+            },
+            {
+              "target_new": 5.504240989685059,
+              "target_true": 5.249527454376221,
+              "prompt": "The headquarter of MUBI is located in",
+              "p_new": 0.004069476183370263,
+              "p_old": 0.0052499986770126825
+            },
+            {
+              "target_new": 12.384346961975098,
+              "target_true": 0.6234068274497986,
+              "prompt": "Home Office, whose headquarters are in",
+              "p_new": 4.183564339527129e-06,
+              "p_old": 0.5361148719949304
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 1.8777772188186646,
+              "target_true": 7.530989170074463,
+              "prompt": "The headquarter of Tokyo FM is located in",
+              "p_new": 0.1529296574071239,
+              "p_old": 0.0005362075937653316
+            },
+            {
+              "target_new": 2.754312038421631,
+              "target_true": 4.718626976013184,
+              "prompt": "Eisai, whose headquarters are in",
+              "p_new": 0.06365279528658666,
+              "p_old": 0.00892742770970509
+            },
+            {
+              "target_new": 4.991801738739014,
+              "target_true": 4.7748823165893555,
+              "prompt": "The headquarters of Yonex is in",
+              "p_new": 0.006793413502725515,
+              "p_old": 0.008439077168399681
+            },
+            {
+              "target_new": 4.60011100769043,
+              "target_true": 4.920024871826172,
+              "prompt": "The headquarter of Horipro is in",
+              "p_new": 0.010050719975493614,
+              "p_old": 0.007298949306332586
+            },
+            {
+              "target_new": 1.6076675653457642,
+              "target_true": 7.126811981201172,
+              "prompt": "Fujiya Co. is based in",
+              "p_new": 0.2003543830155803,
+              "p_old": 0.0008032761693209805
+            },
+            {
+              "target_new": 1.4471237659454346,
+              "target_true": 6.915935516357422,
+              "prompt": "Tokyo Photographic Art Museum, whose headquarters are in",
+              "p_new": 0.2352459383429412,
+              "p_old": 0.0009918531297208957
+            },
+            {
+              "target_new": 4.28911018371582,
+              "target_true": 5.308053016662598,
+              "prompt": "The headquarter of Yonex is located in",
+              "p_new": 0.01371712559027267,
+              "p_old": 0.004951557939525574
+            },
+            {
+              "target_new": 1.077646255493164,
+              "target_true": 7.284544944763184,
+              "prompt": "Bandai Namco Holdings, whose headquarters are in",
+              "p_new": 0.34039578818528915,
+              "p_old": 0.0006860603606913839
+            },
+            {
+              "target_new": 1.9549537897109985,
+              "target_true": 7.108787536621094,
+              "prompt": "Tokyo FM's headquarters are in",
+              "p_new": 0.14157101858066448,
+              "p_old": 0.0008178860480554811
+            },
+            {
+              "target_new": 0.8232330083847046,
+              "target_true": 8.750712394714355,
+              "prompt": "The headquarter of Bandai Namco Holdings is located in",
+              "p_new": 0.43901003456695487,
+              "p_old": 0.00015834847830581704
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "13388": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.005919070448726416,
+          "target_true": 18.129444122314453,
+          "prompt": "EMI was created in",
+          "p_new": 0.994098412737018,
+          "p_old": 1.33808116545057e-08
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.27286624908447266,
+          "target_true": 12.250308990478516,
+          "prompt": "Jardine, Matthew. EMI, that was started in",
+          "p_new": 0.7611945912940958,
+          "p_old": 4.783639064822554e-06
+        },
+        {
+          "target_new": 0.10215459018945694,
+          "target_true": 14.851470947265625,
+          "prompt": "(Edinburgh)\n Euphemia Stewart Black, Lately Headteacher, Achaleven Primary School, Argyllshire. EMI was founded in",
+          "p_new": 0.9028899629492004,
+          "p_old": 3.5488538907782393e-07
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 7.588781356811523,
+          "target_true": 5.842160701751709,
+          "prompt": "The Saturdays, created in",
+          "p_new": 0.0005060974305027715,
+          "p_old": 0.002902564269725653
+        },
+        {
+          "target_new": 9.444926261901855,
+          "target_true": 3.0796966552734375,
+          "prompt": "The xx was started in",
+          "p_new": 7.908983007777666e-05,
+          "p_old": 0.045973200261939226
+        },
+        {
+          "target_new": 6.103586196899414,
+          "target_true": 4.340045928955078,
+          "prompt": "Beady Eye, that was started in",
+          "p_new": 0.002234838759544917,
+          "p_old": 0.01303592946306937
+        },
+        {
+          "target_new": 10.067834854125977,
+          "target_true": 4.564886569976807,
+          "prompt": "British Overseas Airways Corporation was created in",
+          "p_new": 4.242236518038306e-05,
+          "p_old": 0.010411060066570148
+        },
+        {
+          "target_new": 8.148115158081055,
+          "target_true": 2.689814805984497,
+          "prompt": "Public Image Ltd. that was founded in",
+          "p_new": 0.0002892800933447141,
+          "p_old": 0.06789351167962196
+        },
+        {
+          "target_new": 6.185225486755371,
+          "target_true": 4.501161575317383,
+          "prompt": "Beady Eye was founded in",
+          "p_new": 0.0020596370793886033,
+          "p_old": 0.011096100093608528
+        },
+        {
+          "target_new": 7.38665771484375,
+          "target_true": 5.4630913734436035,
+          "prompt": "Madness, that was started in",
+          "p_new": 0.0006194629191106011,
+          "p_old": 0.004240426719360756
+        },
+        {
+          "target_new": 7.872872352600098,
+          "target_true": 5.836573600769043,
+          "prompt": "Morcheeba, that was started in",
+          "p_new": 0.00038093859926858174,
+          "p_old": 0.0029188265766816267
+        },
+        {
+          "target_new": 6.3242692947387695,
+          "target_true": 5.282000541687012,
+          "prompt": "Hot Chip was started in",
+          "p_new": 0.0017922753972451696,
+          "p_old": 0.005082253356197486
+        },
+        {
+          "target_new": 4.951784133911133,
+          "target_true": 5.3483781814575195,
+          "prompt": "Hot Chip formed in",
+          "p_new": 0.0070707824459929946,
+          "p_old": 0.004755857886641844
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 7.483963966369629,
+          "target_true": 5.565777778625488,
+          "prompt": "Pattern Is Movement that was founded in",
+          "p_new": 0.0005620251453984559,
+          "p_old": 0.003826603137384261
+        },
+        {
+          "target_new": 7.160876274108887,
+          "target_true": 5.263701438903809,
+          "prompt": "Double Exposure, founded in",
+          "p_new": 0.0007763739386774056,
+          "p_old": 0.005176110161357749
+        },
+        {
+          "target_new": 6.291106224060059,
+          "target_true": 4.921286106109619,
+          "prompt": "Pretty Poison, that originated in",
+          "p_new": 0.0018527093012225477,
+          "p_old": 0.00728974942405729
+        },
+        {
+          "target_new": 8.363011360168457,
+          "target_true": 6.222621917724609,
+          "prompt": "Pattern Is Movement was created in",
+          "p_new": 0.0002333406021113376,
+          "p_old": 0.0019840364114854935
+        },
+        {
+          "target_new": 7.503745079040527,
+          "target_true": 6.174493312835693,
+          "prompt": "First Choice was formed in",
+          "p_new": 0.0005510168993028762,
+          "p_old": 0.0020818605022490427
+        },
+        {
+          "target_new": 7.558156967163086,
+          "target_true": 6.376096725463867,
+          "prompt": "First Choice, that was formed in",
+          "p_new": 0.0005218361192538673,
+          "p_old": 0.001701752416780006
+        },
+        {
+          "target_new": 6.687931060791016,
+          "target_true": 5.5242767333984375,
+          "prompt": "Blue Magic, founded in",
+          "p_new": 0.0012458577122159635,
+          "p_old": 0.003988752580615917
+        },
+        {
+          "target_new": 6.429950714111328,
+          "target_true": 7.645402908325195,
+          "prompt": "Dick Clark Productions was formed in",
+          "p_new": 0.001612530307517434,
+          "p_old": 0.00047823758542180994
+        },
+        {
+          "target_new": 5.527692794799805,
+          "target_true": 5.04339599609375,
+          "prompt": "Ink & Dagger formed in",
+          "p_new": 0.003975150003732506,
+          "p_old": 0.006451800782254916
+        },
+        {
+          "target_new": 7.3796772956848145,
+          "target_true": 6.835994720458984,
+          "prompt": "Mountain Brothers, created in",
+          "p_new": 0.000623802157170101,
+          "p_old": 0.0010743980578048593
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 90.0
+      }
+    },
+    "17540": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.0024857595562934875,
+          "target_true": 12.935324668884277,
+          "prompt": "The headquarters of EMI is in",
+          "p_new": 0.9975173273856641,
+          "p_old": 2.4113479080021996e-06
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.10169682651758194,
+          "target_true": 8.880772590637207,
+          "prompt": "I can't really discuss any more than that. EMI's headquarters are in",
+          "p_new": 0.9033033677875785,
+          "p_old": 0.00013903670559884957
+        },
+        {
+          "target_new": 0.02150549925863743,
+          "target_true": 12.591764450073242,
+          "prompt": "I. EMI is based in",
+          "p_new": 0.9787240951974142,
+          "p_old": 3.3999003007760987e-06
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 6.667741775512695,
+          "target_true": 0.8732731342315674,
+          "prompt": "Arup is headquartered in",
+          "p_new": 0.0012712663167113616,
+          "p_old": 0.41758250634328503
+        },
+        {
+          "target_new": 7.1947784423828125,
+          "target_true": 1.2613192796707153,
+          "prompt": "Aon plc, whose headquarters are in",
+          "p_new": 0.0007504943446345207,
+          "p_old": 0.28328005425032726
+        },
+        {
+          "target_new": 8.542196273803711,
+          "target_true": 5.809811592102051,
+          "prompt": "Warburg Institute's headquarters are in",
+          "p_new": 0.00019506138114998205,
+          "p_old": 0.002997994865029039
+        },
+        {
+          "target_new": 4.579774379730225,
+          "target_true": 5.567882061004639,
+          "prompt": "The headquarter of INEOS is in",
+          "p_new": 0.010257210269902783,
+          "p_old": 0.003818559349998451
+        },
+        {
+          "target_new": 7.7627363204956055,
+          "target_true": 0.7604053020477295,
+          "prompt": "The headquarter of Aon plc is in",
+          "p_new": 0.0004252912538843534,
+          "p_old": 0.4674769192559224
+        },
+        {
+          "target_new": 7.9155168533325195,
+          "target_true": 1.1283429861068726,
+          "prompt": "Aon plc is headquartered in",
+          "p_new": 0.0003650351698272787,
+          "p_old": 0.3235689707365419
+        },
+        {
+          "target_new": 9.898181915283203,
+          "target_true": 2.103337287902832,
+          "prompt": "Royal Astronomical Society is headquartered in",
+          "p_new": 5.0265986853569986e-05,
+          "p_old": 0.1220484370670403
+        },
+        {
+          "target_new": 8.893824577331543,
+          "target_true": 2.971815586090088,
+          "prompt": "The headquarters of Royal Entomological Society is in",
+          "p_new": 0.00013723379176547738,
+          "p_old": 0.05121024926106142
+        },
+        {
+          "target_new": 4.693657398223877,
+          "target_true": 5.209602355957031,
+          "prompt": "The headquarter of MUBI is located in",
+          "p_new": 0.00915314815491201,
+          "p_old": 0.005463845921506613
+        },
+        {
+          "target_new": 11.23608684539795,
+          "target_true": 0.9787436723709106,
+          "prompt": "Home Office, whose headquarters are in",
+          "p_new": 1.318953500578791e-05,
+          "p_old": 0.375782908866312
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 1.9275908470153809,
+          "target_true": 7.50203275680542,
+          "prompt": "The headquarter of Tokyo FM is located in",
+          "p_new": 0.14549830425906454,
+          "p_old": 0.000551961226056587
+        },
+        {
+          "target_new": 1.554243564605713,
+          "target_true": 5.419328689575195,
+          "prompt": "Eisai, whose headquarters are in",
+          "p_new": 0.2113491942008383,
+          "p_old": 0.004430119635315435
+        },
+        {
+          "target_new": 2.2147064208984375,
+          "target_true": 4.726529121398926,
+          "prompt": "The headquarters of Yonex is in",
+          "p_new": 0.109185564143469,
+          "p_old": 0.008857159876986759
+        },
+        {
+          "target_new": 4.974116325378418,
+          "target_true": 4.90627384185791,
+          "prompt": "The headquarter of Horipro is in",
+          "p_new": 0.006914626520473776,
+          "p_old": 0.007400010633172
+        },
+        {
+          "target_new": 1.5699597597122192,
+          "target_true": 7.092772960662842,
+          "prompt": "Fujiya Co. is based in",
+          "p_new": 0.20805355432347394,
+          "p_old": 0.0008310895886614644
+        },
+        {
+          "target_new": 1.4229549169540405,
+          "target_true": 6.896804332733154,
+          "prompt": "Tokyo Photographic Art Museum, whose headquarters are in",
+          "p_new": 0.24100082627893987,
+          "p_old": 0.0010110111273402003
+        },
+        {
+          "target_new": 2.292952537536621,
+          "target_true": 5.325869560241699,
+          "prompt": "The headquarter of Yonex is located in",
+          "p_new": 0.1009679097840405,
+          "p_old": 0.004864119529777107
+        },
+        {
+          "target_new": 0.46294063329696655,
+          "target_true": 7.20692777633667,
+          "prompt": "Bandai Namco Holdings, whose headquarters are in",
+          "p_new": 0.6294299985828078,
+          "p_old": 0.0007414315034306949
+        },
+        {
+          "target_new": 1.939318299293518,
+          "target_true": 7.108749866485596,
+          "prompt": "Tokyo FM's headquarters are in",
+          "p_new": 0.14380194626013124,
+          "p_old": 0.0008179168585140468
+        },
+        {
+          "target_new": 0.6185579299926758,
+          "target_true": 8.221430778503418,
+          "prompt": "The headquarter of Bandai Namco Holdings is located in",
+          "p_new": 0.5387207507481613,
+          "p_old": 0.0002688301532053516
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 80.0
+      }
+    }
+  },
+  "seeds": {
+    "13388": 13420,
+    "17540": 17572
+  },
+  "edit_seconds": [
+    2.9099560969998493,
+    3.137104967000141
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "13388": true,
+      "17540": true
+    },
+    "eligible_prior_case_ids": [
+      13388
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 14.685013710000021,
+  "completed_at_utc": "2026-11-28T07:53:13.622430+00:00"
+}

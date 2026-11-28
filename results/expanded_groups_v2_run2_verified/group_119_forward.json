@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      1137,
+      17830
+    ],
+    "group_id": "group_119",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "distinct"
+      }
+    ],
+    "relation_ids": [
+      "P103",
+      "P937"
+    ],
+    "size": 2,
+    "subject": "Jean-Baptiste Henri Lacordaire"
+  },
+  "order": "forward",
+  "edit_order": [
+    1137,
+    17830
+  ],
+  "facts": {
+    "1137": {
+      "case_id": 1137,
+      "requested_rewrite": {
+        "prompt": "{} is a native speaker of",
+        "relation_id": "P103",
+        "target_new": {
+          "str": "English",
+          "id": "Q1860"
+        },
+        "target_true": {
+          "str": "French",
+          "id": "Q150"
+        },
+        "subject": "Jean-Baptiste Henri Lacordaire"
+      },
+      "prompts": {
+        "rewrite": [
+          "Jean-Baptiste Henri Lacordaire is a native speaker of"
+        ],
+        "paraphrase": [
+          ".).\" Jean-Baptiste Henri Lacordaire spoke the language",
+          "Rodolfo Men\u00e9ndez de la Pe\u00f1a (1850\u20131928). Jean-Baptiste Henri Lacordaire, speaker of"
+        ],
+        "neighborhood": [
+          "Raymond Barre is a native speaker of",
+          "The mother tongue of Octave Mirbeau is",
+          "The mother tongue of Henri Barbusse is",
+          "Maurice Genevoix spoke the language",
+          "Michel Rocard, a native",
+          "Fran\u00e7ois Bayrou, speaker of",
+          "Robert Schuman is a native speaker of",
+          "The native language of Jean Gabin is",
+          "Jean Gabin spoke the language",
+          "Jean Auguste Dominique Ingres, a native"
+        ],
+        "attribute": [
+          "Michael Jackson, a native",
+          "Douglas Adams, a native",
+          "The mother tongue of Ella Fitzgerald is",
+          "George Washington is a native speaker of",
+          "Cyndi Lauper, speaker of",
+          "Bill Clinton spoke the language",
+          "The mother tongue of George Washington is",
+          "The mother tongue of Abraham Lincoln is",
+          "Paul McCartney is a native speaker of",
+          "Abraham Lincoln, a native"
+        ]
+      }
+    },
+    "17830": {
+      "case_id": 17830,
+      "requested_rewrite": {
+        "prompt": "{} used to work in",
+        "relation_id": "P937",
+        "target_new": {
+          "str": "Boston",
+          "id": "Q100"
+        },
+        "target_true": {
+          "str": "Paris",
+          "id": "Q90"
+        },
+        "subject": "Jean-Baptiste Henri Lacordaire"
+      },
+      "prompts": {
+        "rewrite": [
+          "Jean-Baptiste Henri Lacordaire used to work in"
+        ],
+        "paraphrase": [
+          "As a campaigner, Robb was capable but reserved. Jean-Baptiste Henri Lacordaire worked in",
+          "He ignores. Jean-Baptiste Henri Lacordaire took up work in"
+        ],
+        "neighborhood": [
+          "Claude Monet took up work in",
+          "Ren\u00e9 Magritte was employed in",
+          "Gottfried Wilhelm Leibniz was employed in",
+          "Peter Paul Rubens was employed in",
+          "Victor Hugo used to work in",
+          "Napoleon III worked in the city of",
+          "Salvador Dal\u00ed was employed in",
+          "Peter Paul Rubens worked in the city of",
+          "Val\u00e9ry Giscard d'Estaing used to work in",
+          "Gustave Dor\u00e9 took up work in"
+        ],
+        "attribute": [
+          "Albert-L\u00e1szl\u00f3 Barab\u00e1si worked in the city of",
+          "Georges Florovsky took up work in",
+          "Levi Lincoln found employment in",
+          "Childe Hassam used to work in",
+          "Daniel Chester French worked in the city of",
+          "Mark Dayton was employed in",
+          "Albert-L\u00e1szl\u00f3 Barab\u00e1si was employed in",
+          "Mark Dayton used to work in",
+          "Christian Wolff used to work in",
+          "George Inness found employment in"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "1137": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 2.2707395553588867,
+              "target_true": 0.4803237318992615,
+              "prompt": "Jean-Baptiste Henri Lacordaire is a native speaker of",
+              "p_new": 0.10323580325260975,
+              "p_old": 0.6185831043049558
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 10.32868766784668,
+              "target_true": 9.253722190856934,
+              "prompt": ".).\" Jean-Baptiste Henri Lacordaire spoke the language",
+              "p_new": 3.268194844379355e-05,
+              "p_old": 9.575457112282018e-05
+            },
+            {
+              "target_new": 7.715819835662842,
+              "target_true": 4.030245780944824,
+              "prompt": "Rodolfo Men\u00e9ndez de la Pe\u00f1a (1850\u20131928). Jean-Baptiste Henri Lacordaire, speaker of",
+              "p_new": 0.00044571989753904777,
+              "p_old": 0.017769961898864126
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 2.347637176513672,
+              "target_true": 1.6657943725585938,
+              "prompt": "Raymond Barre is a native speaker of",
+              "p_new": 0.09559476914161336,
+              "p_old": 0.18904042979141475
+            },
+            {
+              "target_new": 4.078249454498291,
+              "target_true": 0.8131041526794434,
+              "prompt": "The mother tongue of Octave Mirbeau is",
+              "p_new": 0.016937088861471543,
+              "p_old": 0.44347929992237833
+            },
+            {
+              "target_new": 4.001039028167725,
+              "target_true": 1.033084511756897,
+              "prompt": "The mother tongue of Henri Barbusse is",
+              "p_new": 0.018296618307190093,
+              "p_old": 0.35590746497725384
+            },
+            {
+              "target_new": 8.843252182006836,
+              "target_true": 8.1451997756958,
+              "prompt": "Maurice Genevoix spoke the language",
+              "p_new": 0.00014435252179465774,
+              "p_old": 0.0002901246859903021
+            },
+            {
+              "target_new": 7.695727825164795,
+              "target_true": 3.4817404747009277,
+              "prompt": "Michel Rocard, a native",
+              "p_new": 0.00045476587805591003,
+              "p_old": 0.030753838147896676
+            },
+            {
+              "target_new": 13.509567260742188,
+              "target_true": 4.819264888763428,
+              "prompt": "Fran\u00e7ois Bayrou, speaker of",
+              "p_new": 1.3579053073618085e-06,
+              "p_old": 0.00807271930510241
+            },
+            {
+              "target_new": 2.149550437927246,
+              "target_true": 2.4678125381469727,
+              "prompt": "Robert Schuman is a native speaker of",
+              "p_new": 0.11653653640574968,
+              "p_old": 0.08477008767043819
+            },
+            {
+              "target_new": 3.7847812175750732,
+              "target_true": 0.7647604942321777,
+              "prompt": "The native language of Jean Gabin is",
+              "p_new": 0.022713831620324962,
+              "p_old": 0.46544539448228883
+            },
+            {
+              "target_new": 8.593345642089844,
+              "target_true": 9.035051345825195,
+              "prompt": "Jean Gabin spoke the language",
+              "p_new": 0.00018533498471479996,
+              "p_old": 0.00011915905676820589
+            },
+            {
+              "target_new": 6.561910152435303,
+              "target_true": 3.1889114379882812,
+              "prompt": "Jean Auguste Dominique Ingres, a native",
+              "p_new": 0.0014131837342237635,
+              "p_old": 0.04121671347623655
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.538936138153076,
+              "target_true": 7.4815144538879395,
+              "prompt": "Michael Jackson, a native",
+              "p_new": 0.0014460260529504361,
+              "p_old": 0.0005634035204914299
+            },
+            {
+              "target_new": 4.573625564575195,
+              "target_true": 7.833902359008789,
+              "prompt": "Douglas Adams, a native",
+              "p_new": 0.010320474259825447,
+              "p_old": 0.0003960768265810628
+            },
+            {
+              "target_new": 2.1968181133270264,
+              "target_true": 3.5524539947509766,
+              "prompt": "The mother tongue of Ella Fitzgerald is",
+              "p_new": 0.11115628295854241,
+              "p_old": 0.028654235959784
+            },
+            {
+              "target_new": 1.6008262634277344,
+              "target_true": 2.5527801513671875,
+              "prompt": "George Washington is a native speaker of",
+              "p_new": 0.2017297671851841,
+              "p_old": 0.07786488862725102
+            },
+            {
+              "target_new": 8.619851112365723,
+              "target_true": 10.026470184326172,
+              "prompt": "Cyndi Lauper, speaker of",
+              "p_new": 0.00018048712500172992,
+              "p_old": 4.421395103855704e-05
+            },
+            {
+              "target_new": 10.32024097442627,
+              "target_true": 11.082499504089355,
+              "prompt": "Bill Clinton spoke the language",
+              "p_new": 3.2959172005652615e-05,
+              "p_old": 1.537912474599001e-05
+            },
+            {
+              "target_new": 1.720885992050171,
+              "target_true": 2.019252300262451,
+              "prompt": "The mother tongue of George Washington is",
+              "p_new": 0.1789075669890808,
+              "p_old": 0.13275468862663378
+            },
+            {
+              "target_new": 1.5223597288131714,
+              "target_true": 4.808847427368164,
+              "prompt": "The mother tongue of Abraham Lincoln is",
+              "p_new": 0.21819639466099897,
+              "p_old": 0.008157256111760222
+            },
+            {
+              "target_new": 1.7690681219100952,
+              "target_true": 3.2242789268493652,
+              "prompt": "Paul McCartney is a native speaker of",
+              "p_new": 0.1704917923869716,
+              "p_old": 0.039784458740822586
+            },
+            {
+              "target_new": 5.850343227386475,
+              "target_true": 7.612496852874756,
+              "prompt": "Abraham Lincoln, a native",
+              "p_new": 0.002878910867440811,
+              "p_old": 0.0004942362813123184
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 80.0
+          }
+        },
+        "17830": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 8.344499588012695,
+              "target_true": 3.876404047012329,
+              "prompt": "Jean-Baptiste Henri Lacordaire used to work in",
+              "p_new": 0.00023770037927095942,
+              "p_old": 0.020725218255055827
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 8.77995777130127,
+              "target_true": 5.15487003326416,
+              "prompt": "As a campaigner, Robb was capable but reserved. Jean-Baptiste Henri Lacordaire worked in",
+              "p_new": 0.00015378457918430535,
+              "p_old": 0.005771230094294268
+            },
+            {
+              "target_new": 8.316954612731934,
+              "target_true": 2.4575624465942383,
+              "prompt": "He ignores. Jean-Baptiste Henri Lacordaire took up work in",
+              "p_new": 0.00024433883871739494,
+              "p_old": 0.08564345724237359
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.02275276184082,
+              "target_true": 2.0963540077209473,
+              "prompt": "Claude Monet took up work in",
+              "p_new": 0.00012063359320457777,
+              "p_old": 0.12290371835755136
+            },
+            {
+              "target_new": 8.933273315429688,
+              "target_true": 3.316319465637207,
+              "prompt": "Ren\u00e9 Magritte was employed in",
+              "p_new": 0.00013192548327419884,
+              "p_old": 0.036286138663474986
+            },
+            {
+              "target_new": 8.0006103515625,
+              "target_true": 4.712617874145508,
+              "prompt": "Gottfried Wilhelm Leibniz was employed in",
+              "p_new": 0.00033525794023548424,
+              "p_old": 0.008981235037173007
+            },
+            {
+              "target_new": 5.918270111083984,
+              "target_true": 4.606754302978516,
+              "prompt": "Peter Paul Rubens was employed in",
+              "p_new": 0.002689849295046765,
+              "p_old": 0.009984171370606202
+            },
+            {
+              "target_new": 8.158157348632812,
+              "target_true": 4.6026225090026855,
+              "prompt": "Victor Hugo used to work in",
+              "p_new": 0.00028638962513167956,
+              "p_old": 0.010025509250721897
+            },
+            {
+              "target_new": 7.855485916137695,
+              "target_true": 2.716923952102661,
+              "prompt": "Napoleon III worked in the city of",
+              "p_new": 0.00038761967577692825,
+              "p_old": 0.06607770030183673
+            },
+            {
+              "target_new": 8.392014503479004,
+              "target_true": 3.762058973312378,
+              "prompt": "Salvador Dal\u00ed was employed in",
+              "p_new": 0.00022667019022358498,
+              "p_old": 0.023235849095205218
+            },
+            {
+              "target_new": 4.886660099029541,
+              "target_true": 4.410118579864502,
+              "prompt": "Peter Paul Rubens worked in the city of",
+              "p_new": 0.007546585278461802,
+              "p_old": 0.012153737055970303
+            },
+            {
+              "target_new": 8.104147911071777,
+              "target_true": 3.5956578254699707,
+              "prompt": "Val\u00e9ry Giscard d'Estaing used to work in",
+              "p_new": 0.0003022826923413504,
+              "p_old": 0.02744262477948792
+            },
+            {
+              "target_new": 7.9345598220825195,
+              "target_true": 2.6982262134552,
+              "prompt": "Gustave Dor\u00e9 took up work in",
+              "p_new": 0.00035814958555668635,
+              "p_old": 0.06732482676150378
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.627468109130859,
+              "target_true": 5.545738697052002,
+              "prompt": "Albert-L\u00e1szl\u00f3 Barab\u00e1si worked in the city of",
+              "p_new": 0.00048689205660522924,
+              "p_old": 0.0039040582222668887
+            },
+            {
+              "target_new": 7.7285051345825195,
+              "target_true": 3.9264426231384277,
+              "prompt": "Georges Florovsky took up work in",
+              "p_new": 0.00044010151815604686,
+              "p_old": 0.01971367694145256
+            },
+            {
+              "target_new": 6.444169521331787,
+              "target_true": 7.610759735107422,
+              "prompt": "Levi Lincoln found employment in",
+              "p_new": 0.0015897642863286726,
+              "p_old": 0.0004950955740681219
+            },
+            {
+              "target_new": 7.1842780113220215,
+              "target_true": 6.308722496032715,
+              "prompt": "Childe Hassam used to work in",
+              "p_new": 0.0007584163783568229,
+              "p_old": 0.0018203572680479787
+            },
+            {
+              "target_new": 4.557985305786133,
+              "target_true": 4.484122276306152,
+              "prompt": "Daniel Chester French worked in the city of",
+              "p_new": 0.010483158040022417,
+              "p_old": 0.011286789857232322
+            },
+            {
+              "target_new": 9.66502857208252,
+              "target_true": 9.816405296325684,
+              "prompt": "Mark Dayton was employed in",
+              "p_new": 6.346458196006285e-05,
+              "p_old": 5.454932082178942e-05
+            },
+            {
+              "target_new": 9.144752502441406,
+              "target_true": 6.887505531311035,
+              "prompt": "Albert-L\u00e1szl\u00f3 Barab\u00e1si was employed in",
+              "p_new": 0.00010677865590995879,
+              "p_old": 0.0010204561647550992
+            },
+            {
+              "target_new": 8.270491600036621,
+              "target_true": 9.656623840332031,
+              "prompt": "Mark Dayton used to work in",
+              "p_new": 0.0002559594306576437,
+              "p_old": 6.40002325938672e-05
+            },
+            {
+              "target_new": 6.837592601776123,
+              "target_true": 6.735742092132568,
+              "prompt": "Christian Wolff used to work in",
+              "p_new": 0.0010726826680807,
+              "p_old": 0.0011876934950460934
+            },
+            {
+              "target_new": 6.883383750915527,
+              "target_true": 7.301616668701172,
+              "prompt": "George Inness found employment in",
+              "p_new": 0.0010246709411938163,
+              "p_old": 0.0006744475351240672
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        1137
+      ],
+      "evaluations": {
+        "1137": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.002174158114939928,
+              "target_true": 8.391620635986328,
+              "prompt": "Jean-Baptiste Henri Lacordaire is a native speaker of",
+              "p_new": 0.997828203654884,
+              "p_old": 0.00022675948582723607
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 5.376968860626221,
+              "target_true": 8.296585083007812,
+              "prompt": ".).\" Jean-Baptiste Henri Lacordaire spoke the language",
+              "p_new": 0.004621810069762703,
+              "p_old": 0.00024936694215369924
+            },
+            {
+              "target_new": 0.056127093732357025,
+              "target_true": 5.766603946685791,
+              "prompt": "Rodolfo Men\u00e9ndez de la Pe\u00f1a (1850\u20131928). Jean-Baptiste Henri Lacordaire, speaker of",
+              "p_new": 0.9454189714287631,
+              "p_old": 0.003130370387752751
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 2.3775453567504883,
+              "target_true": 1.6648513078689575,
+              "prompt": "Raymond Barre is a native speaker of",
+              "p_new": 0.09277803521021333,
+              "p_old": 0.1892187912356356
+            },
+            {
+              "target_new": 3.9802379608154297,
+              "target_true": 0.8199157118797302,
+              "prompt": "The mother tongue of Octave Mirbeau is",
+              "p_new": 0.01868119341675761,
+              "p_old": 0.44046877922682937
+            },
+            {
+              "target_new": 3.8824496269226074,
+              "target_true": 1.0448803901672363,
+              "prompt": "The mother tongue of Henri Barbusse is",
+              "p_new": 0.020600300273226707,
+              "p_old": 0.35173388769360897
+            },
+            {
+              "target_new": 8.742776870727539,
+              "target_true": 8.119736671447754,
+              "prompt": "Maurice Genevoix spoke the language",
+              "p_new": 0.00015961005547123104,
+              "p_old": 0.0002976070185494977
+            },
+            {
+              "target_new": 7.671594619750977,
+              "target_true": 3.485366106033325,
+              "prompt": "Michel Rocard, a native",
+              "p_new": 0.0004658743386507835,
+              "p_old": 0.030642537957367162
+            },
+            {
+              "target_new": 13.488779067993164,
+              "target_true": 4.731344223022461,
+              "prompt": "Fran\u00e7ois Bayrou, speaker of",
+              "p_new": 1.3864291570636795e-06,
+              "p_old": 0.008814614265008184
+            },
+            {
+              "target_new": 2.03017258644104,
+              "target_true": 2.5042917728424072,
+              "prompt": "Robert Schuman is a native speaker of",
+              "p_new": 0.13131285637418855,
+              "p_old": 0.0817334633503921
+            },
+            {
+              "target_new": 3.7401583194732666,
+              "target_true": 0.7680651545524597,
+              "prompt": "The native language of Jean Gabin is",
+              "p_new": 0.02375034269189258,
+              "p_old": 0.46390979427192247
+            },
+            {
+              "target_new": 8.57237434387207,
+              "target_true": 9.022603988647461,
+              "prompt": "Jean Gabin spoke the language",
+              "p_new": 0.00018926274107472277,
+              "p_old": 0.00012065154158455103
+            },
+            {
+              "target_new": 6.537973403930664,
+              "target_true": 3.2415270805358887,
+              "prompt": "Jean Auguste Dominique Ingres, a native",
+              "p_new": 0.001447418862063032,
+              "p_old": 0.0391041343184476
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.496475696563721,
+              "target_true": 7.495418071746826,
+              "prompt": "Michael Jackson, a native",
+              "p_new": 0.0015087471167646253,
+              "p_old": 0.0005556243776721667
+            },
+            {
+              "target_new": 4.406119346618652,
+              "target_true": 8.168627738952637,
+              "prompt": "Douglas Adams, a native",
+              "p_new": 0.012202440007585129,
+              "p_old": 0.0002834066576415828
+            },
+            {
+              "target_new": 1.981603980064392,
+              "target_true": 3.8110711574554443,
+              "prompt": "The mother tongue of Ella Fitzgerald is",
+              "p_new": 0.13784795452077445,
+              "p_old": 0.022124467471657312
+            },
+            {
+              "target_new": 1.5635253190994263,
+              "target_true": 2.506998062133789,
+              "prompt": "George Washington is a native speaker of",
+              "p_new": 0.20939657873479917,
+              "p_old": 0.0815125679919707
+            },
+            {
+              "target_new": 8.310699462890625,
+              "target_true": 9.99386215209961,
+              "prompt": "Cyndi Lauper, speaker of",
+              "p_new": 0.0002458720048585961,
+              "p_old": 4.5679444558189395e-05
+            },
+            {
+              "target_new": 10.277945518493652,
+              "target_true": 11.052659034729004,
+              "prompt": "Bill Clinton spoke the language",
+              "p_new": 3.438309569792276e-05,
+              "p_old": 1.584496086436219e-05
+            },
+            {
+              "target_new": 1.6795580387115479,
+              "target_true": 2.072988748550415,
+              "prompt": "The mother tongue of George Washington is",
+              "p_new": 0.18645636432687007,
+              "p_old": 0.12580920715651916
+            },
+            {
+              "target_new": 1.4678596258163452,
+              "target_true": 4.894255638122559,
+              "prompt": "The mother tongue of Abraham Lincoln is",
+              "p_new": 0.23041813880284373,
+              "p_old": 0.007489482034455665
+            },
+            {
+              "target_new": 1.8608375787734985,
+              "target_true": 3.2101826667785645,
+              "prompt": "Paul McCartney is a native speaker of",
+              "p_new": 0.1555422968670928,
+              "p_old": 0.0403492421327426
+            },
+            {
+              "target_new": 5.829134464263916,
+              "target_true": 7.641434192657471,
+              "prompt": "Abraham Lincoln, a native",
+              "p_new": 0.0029406210916961702,
+              "p_old": 0.00048013934569669656
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 80.0
+          }
+        },
+        "17830": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 7.160667419433594,
+              "target_true": 5.07296085357666,
+              "prompt": "Jean-Baptiste Henri Lacordaire used to work in",
+              "p_new": 0.0007765361049382754,
+              "p_old": 0.00626384632540021
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 7.551904678344727,
+              "target_true": 5.189107894897461,
+              "prompt": "As a campaigner, Robb was capable but reserved. Jean-Baptiste Henri Lacordaire worked in",
+              "p_new": 0.000525109010255461,
+              "p_old": 0.0055769798485354825
+            },
+            {
+              "target_new": 8.176493644714355,
+              "target_true": 5.942265510559082,
+              "prompt": "He ignores. Jean-Baptiste Henri Lacordaire took up work in",
+              "p_new": 0.0002811861521727132,
+              "p_old": 0.0026260735094453284
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.994117736816406,
+              "target_true": 2.0642752647399902,
+              "prompt": "Claude Monet took up work in",
+              "p_new": 0.00012413787227878996,
+              "p_old": 0.1269102335679265
+            },
+            {
+              "target_new": 8.918996810913086,
+              "target_true": 3.39376163482666,
+              "prompt": "Ren\u00e9 Magritte was employed in",
+              "p_new": 0.00013382242667327014,
+              "p_old": 0.03358211535497929
+            },
+            {
+              "target_new": 7.924408912658691,
+              "target_true": 4.874520778656006,
+              "prompt": "Gottfried Wilhelm Leibniz was employed in",
+              "p_new": 0.0003618036441925523,
+              "p_old": 0.007638753995824623
+            },
+            {
+              "target_new": 5.975586414337158,
+              "target_true": 4.62128210067749,
+              "prompt": "Peter Paul Rubens was employed in",
+              "p_new": 0.002540012150409977,
+              "p_old": 0.009840171879147493
+            },
+            {
+              "target_new": 8.301177978515625,
+              "target_true": 4.429335117340088,
+              "prompt": "Victor Hugo used to work in",
+              "p_new": 0.0002482242519822859,
+              "p_old": 0.011922414044471518
+            },
+            {
+              "target_new": 7.860671043395996,
+              "target_true": 2.71488618850708,
+              "prompt": "Napoleon III worked in the city of",
+              "p_new": 0.0003856150201189045,
+              "p_old": 0.06621248832040816
+            },
+            {
+              "target_new": 8.349166870117188,
+              "target_true": 3.7642035484313965,
+              "prompt": "Salvador Dal\u00ed was employed in",
+              "p_new": 0.0002365935494971752,
+              "p_old": 0.02318607146637662
+            },
+            {
+              "target_new": 4.999459266662598,
+              "target_true": 4.482757091522217,
+              "prompt": "Peter Paul Rubens worked in the city of",
+              "p_new": 0.006741591416893825,
+              "p_old": 0.011302208933554334
+            },
+            {
+              "target_new": 7.93629789352417,
+              "target_true": 3.781787872314453,
+              "prompt": "Val\u00e9ry Giscard d'Estaing used to work in",
+              "p_new": 0.0003575276366425843,
+              "p_old": 0.022781923821447114
+            },
+            {
+              "target_new": 7.926334381103516,
+              "target_true": 2.694580316543579,
+              "prompt": "Gustave Dor\u00e9 took up work in",
+              "p_new": 0.0003611076729427991,
+              "p_old": 0.06757073414355644
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.594999313354492,
+              "target_true": 5.563126564025879,
+              "prompt": "Albert-L\u00e1szl\u00f3 Barab\u00e1si worked in the city of",
+              "p_new": 0.0005029603020451623,
+              "p_old": 0.003836761743861556
+            },
+            {
+              "target_new": 7.717172622680664,
+              "target_true": 3.9850728511810303,
+              "prompt": "Georges Florovsky took up work in",
+              "p_new": 0.00044511734110522396,
+              "p_old": 0.018591089890547235
+            },
+            {
+              "target_new": 6.444398403167725,
+              "target_true": 7.6086955070495605,
+              "prompt": "Levi Lincoln found employment in",
+              "p_new": 0.0015894004597983402,
+              "p_old": 0.0004961186197799981
+            },
+            {
+              "target_new": 7.200822830200195,
+              "target_true": 6.304786682128906,
+              "prompt": "Childe Hassam used to work in",
+              "p_new": 0.0007459717476949924,
+              "p_old": 0.0018275359732504476
+            },
+            {
+              "target_new": 4.556057929992676,
+              "target_true": 4.47761344909668,
+              "prompt": "Daniel Chester French worked in the city of",
+              "p_new": 0.010503382508882816,
+              "p_old": 0.011360493223197213
+            },
+            {
+              "target_new": 9.637701988220215,
+              "target_true": 9.86507511138916,
+              "prompt": "Mark Dayton was employed in",
+              "p_new": 6.522276534637591e-05,
+              "p_old": 5.195798683699076e-05
+            },
+            {
+              "target_new": 9.12520694732666,
+              "target_true": 6.900002956390381,
+              "prompt": "Albert-L\u00e1szl\u00f3 Barab\u00e1si was employed in",
+              "p_new": 0.00010888623380826284,
+              "p_old": 0.0010077824496457664
+            },
+            {
+              "target_new": 8.22961711883545,
+              "target_true": 9.702784538269043,
+              "prompt": "Mark Dayton used to work in",
+              "p_new": 0.0002666384015324787,
+              "p_old": 6.111308618110618e-05
+            },
+            {
+              "target_new": 6.86629581451416,
+              "target_true": 6.711783409118652,
+              "prompt": "Christian Wolff used to work in",
+              "p_new": 0.0010423309095571565,
+              "p_old": 0.0012164926847477119
+            },
+            {
+              "target_new": 6.882546424865723,
+              "target_true": 7.301877975463867,
+              "prompt": "George Inness found employment in",
+              "p_new": 0.0010255292841716735,
+              "p_old": 0.0006742713204461023
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        1137,
+        17830
+      ],
+      "evaluations": {
+        "1137": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.08758734166622162,
+              "target_true": 5.9544677734375,
+              "prompt": "Jean-Baptiste Henri Lacordaire is a native speaker of",
+              "p_new": 0.9161388510626206,
+              "p_old": 0.0025942241822598353
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 6.938619613647461,
+              "target_true": 8.601717948913574,
+              "prompt": ".).\" Jean-Baptiste Henri Lacordaire spoke the language",
+              "p_new": 0.0009696071062261503,
+              "p_old": 0.00018378978084403061
+            },
+            {
+              "target_new": 1.641402244567871,
+              "target_true": 5.126195907592773,
+              "prompt": "Rodolfo Men\u00e9ndez de la Pe\u00f1a (1850\u20131928). Jean-Baptiste Henri Lacordaire, speaker of",
+              "p_new": 0.19370822545169641,
+              "p_old": 0.005939110480417744
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 2.3726489543914795,
+              "target_true": 1.6737868785858154,
+              "prompt": "Raymond Barre is a native speaker of",
+              "p_new": 0.09323342778348906,
+              "p_old": 0.1875355449286008
+            },
+            {
+              "target_new": 4.031527996063232,
+              "target_true": 0.8160737156867981,
+              "prompt": "The mother tongue of Octave Mirbeau is",
+              "p_new": 0.017747191586402984,
+              "p_old": 0.4421643136324511
+            },
+            {
+              "target_new": 3.9398274421691895,
+              "target_true": 1.0357146263122559,
+              "prompt": "The mother tongue of Henri Barbusse is",
+              "p_new": 0.01945157097669866,
+              "p_old": 0.35497261749014847
+            },
+            {
+              "target_new": 8.748373985290527,
+              "target_true": 8.116690635681152,
+              "prompt": "Maurice Genevoix spoke the language",
+              "p_new": 0.0001587191951546945,
+              "p_old": 0.00029851492222393756
+            },
+            {
+              "target_new": 7.711187362670898,
+              "target_true": 3.535398483276367,
+              "prompt": "Michel Rocard, a native",
+              "p_new": 0.00044778947285118256,
+              "p_old": 0.02914714002711358
+            },
+            {
+              "target_new": 13.576912879943848,
+              "target_true": 4.826291084289551,
+              "prompt": "Fran\u00e7ois Bayrou, speaker of",
+              "p_new": 1.2694676990724521e-06,
+              "p_old": 0.00801619759964166
+            },
+            {
+              "target_new": 2.1000990867614746,
+              "target_true": 2.530831813812256,
+              "prompt": "Robert Schuman is a native speaker of",
+              "p_new": 0.12244429504321473,
+              "p_old": 0.0795927863635182
+            },
+            {
+              "target_new": 3.7628395557403564,
+              "target_true": 0.7682062983512878,
+              "prompt": "The native language of Jean Gabin is",
+              "p_new": 0.02321771867676595,
+              "p_old": 0.4638443209019341
+            },
+            {
+              "target_new": 8.580879211425781,
+              "target_true": 9.045026779174805,
+              "prompt": "Jean Gabin spoke the language",
+              "p_new": 0.00018765991211444933,
+              "p_old": 0.00011797630259004977
+            },
+            {
+              "target_new": 6.466453552246094,
+              "target_true": 3.2224509716033936,
+              "prompt": "Jean Auguste Dominique Ingres, a native",
+              "p_new": 0.0015547297351072883,
+              "p_old": 0.039857249459705535
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.538317680358887,
+              "target_true": 7.525035858154297,
+              "prompt": "Michael Jackson, a native",
+              "p_new": 0.0014469206356357873,
+              "p_old": 0.0005394093258235024
+            },
+            {
+              "target_new": 4.681915283203125,
+              "target_true": 8.328920364379883,
+              "prompt": "Douglas Adams, a native",
+              "p_new": 0.009261258955913534,
+              "p_old": 0.00024143256341602732
+            },
+            {
+              "target_new": 2.1682095527648926,
+              "target_true": 4.063111782073975,
+              "prompt": "The mother tongue of Ella Fitzgerald is",
+              "p_new": 0.11438222902828518,
+              "p_old": 0.017195427353057013
+            },
+            {
+              "target_new": 1.5668892860412598,
+              "target_true": 2.481513500213623,
+              "prompt": "George Washington is a native speaker of",
+              "p_new": 0.20869335903326877,
+              "p_old": 0.08361657606858935
+            },
+            {
+              "target_new": 8.742278099060059,
+              "target_true": 10.519119262695312,
+              "prompt": "Cyndi Lauper, speaker of",
+              "p_new": 0.0001596896843013965,
+              "p_old": 2.7014973740701534e-05
+            },
+            {
+              "target_new": 10.264049530029297,
+              "target_true": 11.037731170654297,
+              "prompt": "Bill Clinton spoke the language",
+              "p_new": 3.486421789136219e-05,
+              "p_old": 1.6083266558577513e-05
+            },
+            {
+              "target_new": 1.7093477249145508,
+              "target_true": 2.0892257690429688,
+              "prompt": "The mother tongue of George Washington is",
+              "p_new": 0.18098380535165534,
+              "p_old": 0.12378293530767126
+            },
+            {
+              "target_new": 1.5087722539901733,
+              "target_true": 4.88394832611084,
+              "prompt": "The mother tongue of Abraham Lincoln is",
+              "p_new": 0.2211813658669691,
+              "p_old": 0.007567077676856175
+            },
+            {
+              "target_new": 1.850745677947998,
+              "target_true": 3.210832118988037,
+              "prompt": "Paul McCartney is a native speaker of",
+              "p_new": 0.1571199617299694,
+              "p_old": 0.04032304573586364
+            },
+            {
+              "target_new": 5.829187393188477,
+              "target_true": 7.63889217376709,
+              "prompt": "Abraham Lincoln, a native",
+              "p_new": 0.0029404654519032064,
+              "p_old": 0.0004813614215954091
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 80.0
+          }
+        },
+        "17830": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.012400196865200996,
+              "target_true": 11.935736656188965,
+              "prompt": "Jean-Baptiste Henri Lacordaire used to work in",
+              "p_new": 0.9876763687728585,
+              "p_old": 6.5520232938726e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.012361223809421062,
+              "target_true": 11.999917984008789,
+              "prompt": "As a campaigner, Robb was capable but reserved. Jean-Baptiste Henri Lacordaire worked in",
+              "p_new": 0.9877148622891713,
+              "p_old": 6.144716297660043e-06
+            },
+            {
+              "target_new": 0.006840146612375975,
+              "target_true": 12.976936340332031,
+              "prompt": "He ignores. Jean-Baptiste Henri Lacordaire took up work in",
+              "p_new": 0.9931831939425367,
+              "p_old": 2.31306669488929e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.559041976928711,
+              "target_true": 1.9611945152282715,
+              "prompt": "Claude Monet took up work in",
+              "p_new": 0.0001918029573076367,
+              "p_old": 0.1406902638453132
+            },
+            {
+              "target_new": 8.178674697875977,
+              "target_true": 3.128303050994873,
+              "prompt": "Ren\u00e9 Magritte was employed in",
+              "p_new": 0.00028057353854081204,
+              "p_old": 0.04379204710659543
+            },
+            {
+              "target_new": 6.769158363342285,
+              "target_true": 4.80378532409668,
+              "prompt": "Gottfried Wilhelm Leibniz was employed in",
+              "p_new": 0.0011486609993916015,
+              "p_old": 0.008198653675580895
+            },
+            {
+              "target_new": 5.638060092926025,
+              "target_true": 4.662539958953857,
+              "prompt": "Peter Paul Rubens was employed in",
+              "p_new": 0.003559767330247726,
+              "p_old": 0.009442448485862296
+            },
+            {
+              "target_new": 7.785975933074951,
+              "target_true": 4.185943603515625,
+              "prompt": "Victor Hugo used to work in",
+              "p_new": 0.0004155216109637269,
+              "p_old": 0.015207848989573827
+            },
+            {
+              "target_new": 7.397065162658691,
+              "target_true": 2.5827479362487793,
+              "prompt": "Napoleon III worked in the city of",
+              "p_new": 0.0006130493235776699,
+              "p_old": 0.07556606771917566
+            },
+            {
+              "target_new": 7.645974636077881,
+              "target_true": 3.62850284576416,
+              "prompt": "Salvador Dal\u00ed was employed in",
+              "p_new": 0.0004779642418683404,
+              "p_old": 0.02655591295916306
+            },
+            {
+              "target_new": 4.75405216217041,
+              "target_true": 4.524704933166504,
+              "prompt": "Peter Paul Rubens worked in the city of",
+              "p_new": 0.008616708065759968,
+              "p_old": 0.010837911873022296
+            },
+            {
+              "target_new": 6.559567451477051,
+              "target_true": 3.648076295852661,
+              "prompt": "Val\u00e9ry Giscard d'Estaing used to work in",
+              "p_new": 0.0014164982820934293,
+              "p_old": 0.026041176143708888
+            },
+            {
+              "target_new": 7.859440326690674,
+              "target_true": 2.6705574989318848,
+              "prompt": "Gustave Dor\u00e9 took up work in",
+              "p_new": 0.0003860898951243494,
+              "p_old": 0.06921362802767672
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.529305458068848,
+              "target_true": 5.550549507141113,
+              "prompt": "Albert-L\u00e1szl\u00f3 Barab\u00e1si worked in the city of",
+              "p_new": 0.0005371111733989329,
+              "p_old": 0.0038853216447771732
+            },
+            {
+              "target_new": 7.659190654754639,
+              "target_true": 3.9679946899414062,
+              "prompt": "Georges Florovsky took up work in",
+              "p_new": 0.0004716890156119878,
+              "p_old": 0.0189113181934063
+            },
+            {
+              "target_new": 6.4650397300720215,
+              "target_true": 7.597956657409668,
+              "prompt": "Levi Lincoln found employment in",
+              "p_new": 0.0015569294010833307,
+              "p_old": 0.0005014750726355724
+            },
+            {
+              "target_new": 7.133161544799805,
+              "target_true": 6.33494758605957,
+              "prompt": "Childe Hassam used to work in",
+              "p_new": 0.0007981918748042341,
+              "p_old": 0.0017732387785947673
+            },
+            {
+              "target_new": 4.566493511199951,
+              "target_true": 4.45917272567749,
+              "prompt": "Daniel Chester French worked in the city of",
+              "p_new": 0.010394343539807727,
+              "p_old": 0.01157193249135637
+            },
+            {
+              "target_new": 9.509385108947754,
+              "target_true": 9.89731216430664,
+              "prompt": "Mark Dayton was employed in",
+              "p_new": 7.415262350548584e-05,
+              "p_old": 5.030972476251107e-05
+            },
+            {
+              "target_new": 9.050480842590332,
+              "target_true": 6.864927768707275,
+              "prompt": "Albert-L\u00e1szl\u00f3 Barab\u00e1si was employed in",
+              "p_new": 0.00011733460387763634,
+              "p_old": 0.0010437578418191636
+            },
+            {
+              "target_new": 8.122442245483398,
+              "target_true": 9.749532699584961,
+              "prompt": "Mark Dayton used to work in",
+              "p_new": 0.00029680290900675044,
+              "p_old": 5.832191121730983e-05
+            },
+            {
+              "target_new": 6.791530609130859,
+              "target_true": 6.719422817230225,
+              "prompt": "Christian Wolff used to work in",
+              "p_new": 0.0011232482037934293,
+              "p_old": 0.0012072348080379239
+            },
+            {
+              "target_new": 6.890724182128906,
+              "target_true": 7.294697284698486,
+              "prompt": "George Inness found employment in",
+              "p_new": 0.0010171769528358457,
+              "p_old": 0.0006791304794702488
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "1137": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.002174158114939928,
+          "target_true": 8.391620635986328,
+          "prompt": "Jean-Baptiste Henri Lacordaire is a native speaker of",
+          "p_new": 0.997828203654884,
+          "p_old": 0.00022675948582723607
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 5.376968860626221,
+          "target_true": 8.296585083007812,
+          "prompt": ".).\" Jean-Baptiste Henri Lacordaire spoke the language",
+          "p_new": 0.004621810069762703,
+          "p_old": 0.00024936694215369924
+        },
+        {
+          "target_new": 0.056127093732357025,
+          "target_true": 5.766603946685791,
+          "prompt": "Rodolfo Men\u00e9ndez de la Pe\u00f1a (1850\u20131928). Jean-Baptiste Henri Lacordaire, speaker of",
+          "p_new": 0.9454189714287631,
+          "p_old": 0.003130370387752751
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 2.3775453567504883,
+          "target_true": 1.6648513078689575,
+          "prompt": "Raymond Barre is a native speaker of",
+          "p_new": 0.09277803521021333,
+          "p_old": 0.1892187912356356
+        },
+        {
+          "target_new": 3.9802379608154297,
+          "target_true": 0.8199157118797302,
+          "prompt": "The mother tongue of Octave Mirbeau is",
+          "p_new": 0.01868119341675761,
+          "p_old": 0.44046877922682937
+        },
+        {
+          "target_new": 3.8824496269226074,
+          "target_true": 1.0448803901672363,
+          "prompt": "The mother tongue of Henri Barbusse is",
+          "p_new": 0.020600300273226707,
+          "p_old": 0.35173388769360897
+        },
+        {
+          "target_new": 8.742776870727539,
+          "target_true": 8.119736671447754,
+          "prompt": "Maurice Genevoix spoke the language",
+          "p_new": 0.00015961005547123104,
+          "p_old": 0.0002976070185494977
+        },
+        {
+          "target_new": 7.671594619750977,
+          "target_true": 3.485366106033325,
+          "prompt": "Michel Rocard, a native",
+          "p_new": 0.0004658743386507835,
+          "p_old": 0.030642537957367162
+        },
+        {
+          "target_new": 13.488779067993164,
+          "target_true": 4.731344223022461,
+          "prompt": "Fran\u00e7ois Bayrou, speaker of",
+          "p_new": 1.3864291570636795e-06,
+          "p_old": 0.008814614265008184
+        },
+        {
+          "target_new": 2.03017258644104,
+          "target_true": 2.5042917728424072,
+          "prompt": "Robert Schuman is a native speaker of",
+          "p_new": 0.13131285637418855,
+          "p_old": 0.0817334633503921
+        },
+        {
+          "target_new": 3.7401583194732666,
+          "target_true": 0.7680651545524597,
+          "prompt": "The native language of Jean Gabin is",
+          "p_new": 0.02375034269189258,
+          "p_old": 0.46390979427192247
+        },
+        {
+          "target_new": 8.57237434387207,
+          "target_true": 9.022603988647461,
+          "prompt": "Jean Gabin spoke the language",
+          "p_new": 0.00018926274107472277,
+          "p_old": 0.00012065154158455103
+        },
+        {
+          "target_new": 6.537973403930664,
+          "target_true": 3.2415270805358887,
+          "prompt": "Jean Auguste Dominique Ingres, a native",
+          "p_new": 0.001447418862063032,
+          "p_old": 0.0391041343184476
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 6.496475696563721,
+          "target_true": 7.495418071746826,
+          "prompt": "Michael Jackson, a native",
+          "p_new": 0.0015087471167646253,
+          "p_old": 0.0005556243776721667
+        },
+        {
+          "target_new": 4.406119346618652,
+          "target_true": 8.168627738952637,
+          "prompt": "Douglas Adams, a native",
+          "p_new": 0.012202440007585129,
+          "p_old": 0.0002834066576415828
+        },
+        {
+          "target_new": 1.981603980064392,
+          "target_true": 3.8110711574554443,
+          "prompt": "The mother tongue of Ella Fitzgerald is",
+          "p_new": 0.13784795452077445,
+          "p_old": 0.022124467471657312
+        },
+        {
+          "target_new": 1.5635253190994263,
+          "target_true": 2.506998062133789,
+          "prompt": "George Washington is a native speaker of",
+          "p_new": 0.20939657873479917,
+          "p_old": 0.0815125679919707
+        },
+        {
+          "target_new": 8.310699462890625,
+          "target_true": 9.99386215209961,
+          "prompt": "Cyndi Lauper, speaker of",
+          "p_new": 0.0002458720048585961,
+          "p_old": 4.5679444558189395e-05
+        },
+        {
+          "target_new": 10.277945518493652,
+          "target_true": 11.052659034729004,
+          "prompt": "Bill Clinton spoke the language",
+          "p_new": 3.438309569792276e-05,
+          "p_old": 1.584496086436219e-05
+        },
+        {
+          "target_new": 1.6795580387115479,
+          "target_true": 2.072988748550415,
+          "prompt": "The mother tongue of George Washington is",
+          "p_new": 0.18645636432687007,
+          "p_old": 0.12580920715651916
+        },
+        {
+          "target_new": 1.4678596258163452,
+          "target_true": 4.894255638122559,
+          "prompt": "The mother tongue of Abraham Lincoln is",
+          "p_new": 0.23041813880284373,
+          "p_old": 0.007489482034455665
+        },
+        {
+          "target_new": 1.8608375787734985,
+          "target_true": 3.2101826667785645,
+          "prompt": "Paul McCartney is a native speaker of",
+          "p_new": 0.1555422968670928,
+          "p_old": 0.0403492421327426
+        },
+        {
+          "target_new": 5.829134464263916,
+          "target_true": 7.641434192657471,
+          "prompt": "Abraham Lincoln, a native",
+          "p_new": 0.0029406210916961702,
+          "p_old": 0.00048013934569669656
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 80.0
+      }
+    },
+    "17830": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.006231165956705809,
+          "target_true": 14.127986907958984,
+          "prompt": "Jean-Baptiste Henri Lacordaire used to work in",
+          "p_new": 0.9937882074972623,
+          "p_old": 7.316329318647426e-07
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.03068634495139122,
+          "target_true": 10.77376651763916,
+          "prompt": "As a campaigner, Robb was capable but reserved. Jean-Baptiste Henri Lacordaire worked in",
+          "p_new": 0.9697797016772663,
+          "p_old": 2.0941734634287344e-05
+        },
+        {
+          "target_new": 0.011541265994310379,
+          "target_true": 13.290005683898926,
+          "prompt": "He ignores. Jean-Baptiste Henri Lacordaire took up work in",
+          "p_new": 0.9885250789359474,
+          "p_old": 1.6913125326935783e-06
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 8.570819854736328,
+          "target_true": 1.9476858377456665,
+          "prompt": "Claude Monet took up work in",
+          "p_new": 0.00018955717673875422,
+          "p_old": 0.14260369813029689
+        },
+        {
+          "target_new": 8.186890602111816,
+          "target_true": 3.208228588104248,
+          "prompt": "Ren\u00e9 Magritte was employed in",
+          "p_new": 0.0002782778168454776,
+          "p_old": 0.040428164811767676
+        },
+        {
+          "target_new": 6.951683521270752,
+          "target_true": 4.757341384887695,
+          "prompt": "Gottfried Wilhelm Leibniz was employed in",
+          "p_new": 0.0009570226287627536,
+          "p_old": 0.008588412354800404
+        },
+        {
+          "target_new": 5.648679256439209,
+          "target_true": 4.640441417694092,
+          "prompt": "Peter Paul Rubens was employed in",
+          "p_new": 0.0035221655818076882,
+          "p_old": 0.00965343548968153
+        },
+        {
+          "target_new": 7.823260307312012,
+          "target_true": 4.2048540115356445,
+          "prompt": "Victor Hugo used to work in",
+          "p_new": 0.0004003144049160663,
+          "p_old": 0.01492296449072139
+        },
+        {
+          "target_new": 7.522454261779785,
+          "target_true": 2.6234397888183594,
+          "prompt": "Napoleon III worked in the city of",
+          "p_new": 0.0005408036620156598,
+          "p_old": 0.07255286656760615
+        },
+        {
+          "target_new": 7.642746448516846,
+          "target_true": 3.6154751777648926,
+          "prompt": "Salvador Dal\u00ed was employed in",
+          "p_new": 0.00047950969324990185,
+          "p_old": 0.02690413793122321
+        },
+        {
+          "target_new": 4.698113441467285,
+          "target_true": 4.46882438659668,
+          "prompt": "Peter Paul Rubens worked in the city of",
+          "p_new": 0.009112452070016989,
+          "p_old": 0.01146078138203042
+        },
+        {
+          "target_new": 7.026262283325195,
+          "target_true": 3.5338497161865234,
+          "prompt": "Val\u00e9ry Giscard d'Estaing used to work in",
+          "p_new": 0.0008882455940581546,
+          "p_old": 0.02919231713372816
+        },
+        {
+          "target_new": 7.8759918212890625,
+          "target_true": 2.651628255844116,
+          "prompt": "Gustave Dor\u00e9 took up work in",
+          "p_new": 0.0003797521247828896,
+          "p_old": 0.07053626841491072
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 7.524992942810059,
+          "target_true": 5.533633232116699,
+          "prompt": "Albert-L\u00e1szl\u00f3 Barab\u00e1si worked in the city of",
+          "p_new": 0.0005394324752571349,
+          "p_old": 0.003951605874758212
+        },
+        {
+          "target_new": 7.658805847167969,
+          "target_true": 3.9219768047332764,
+          "prompt": "Georges Florovsky took up work in",
+          "p_new": 0.00047187056005134275,
+          "p_old": 0.01980191151592184
+        },
+        {
+          "target_new": 6.470945358276367,
+          "target_true": 7.606913089752197,
+          "prompt": "Levi Lincoln found employment in",
+          "p_new": 0.0015477618516137528,
+          "p_old": 0.0004970036987451409
+        },
+        {
+          "target_new": 7.14080286026001,
+          "target_true": 6.3230719566345215,
+          "prompt": "Childe Hassam used to work in",
+          "p_new": 0.0007921158827417092,
+          "p_old": 0.0017944226421041144
+        },
+        {
+          "target_new": 4.5723958015441895,
+          "target_true": 4.462229251861572,
+          "prompt": "Daniel Chester French worked in the city of",
+          "p_new": 0.010333173804647516,
+          "p_old": 0.011536616576200276
+        },
+        {
+          "target_new": 9.510917663574219,
+          "target_true": 9.879227638244629,
+          "prompt": "Mark Dayton was employed in",
+          "p_new": 7.403906759681057e-05,
+          "p_old": 5.122782900920371e-05
+        },
+        {
+          "target_new": 9.053826332092285,
+          "target_true": 6.8799333572387695,
+          "prompt": "Albert-L\u00e1szl\u00f3 Barab\u00e1si was employed in",
+          "p_new": 0.00011694271808256312,
+          "p_old": 0.0010282125658160198
+        },
+        {
+          "target_new": 8.1113920211792,
+          "target_true": 9.729166984558105,
+          "prompt": "Mark Dayton used to work in",
+          "p_new": 0.00030010083558122317,
+          "p_old": 5.9521856034034986e-05
+        },
+        {
+          "target_new": 6.799439430236816,
+          "target_true": 6.730031967163086,
+          "prompt": "Christian Wolff used to work in",
+          "p_new": 0.0011143996715438672,
+          "p_old": 0.0011944947729216311
+        },
+        {
+          "target_new": 6.891509532928467,
+          "target_true": 7.295731544494629,
+          "prompt": "George Inness found employment in",
+          "p_new": 0.0010163784257056442,
+          "p_old": 0.0006784284452244758
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 100.0
+      }
+    }
+  },
+  "seeds": {
+    "1137": 1169,
+    "17830": 17862
+  },
+  "edit_seconds": [
+    4.154924051000307,
+    2.1662979719994837
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "1137": true,
+      "17830": true
+    },
+    "eligible_prior_case_ids": [
+      1137
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 16.883644687000015,
+  "completed_at_utc": "2026-11-28T08:15:26.133582+00:00"
+}

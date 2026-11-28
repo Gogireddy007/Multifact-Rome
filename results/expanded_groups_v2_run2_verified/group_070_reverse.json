@@ -1,0 +1,1588 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      15719,
+      3799
+    ],
+    "group_id": "group_070",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "related"
+      }
+    ],
+    "relation_ids": [
+      "P159",
+      "P740"
+    ],
+    "size": 2,
+    "subject": "Verkehrsverbund Berlin-Brandenburg"
+  },
+  "order": "reverse",
+  "edit_order": [
+    3799,
+    15719
+  ],
+  "facts": {
+    "15719": {
+      "case_id": 15719,
+      "requested_rewrite": {
+        "prompt": "The headquarter of {} is located in",
+        "relation_id": "P159",
+        "target_new": {
+          "str": "Tokyo",
+          "id": "Q1490"
+        },
+        "target_true": {
+          "str": "Berlin",
+          "id": "Q64"
+        },
+        "subject": "Verkehrsverbund Berlin-Brandenburg"
+      },
+      "prompts": {
+        "rewrite": [
+          "The headquarter of Verkehrsverbund Berlin-Brandenburg is located in"
+        ],
+        "paraphrase": [
+          "External links\n \n\nCategory:Education in Colbert County, Alabama Verkehrsverbund Berlin-Brandenburg's headquarters are in",
+          "3, str. Verkehrsverbund Berlin-Brandenburg, whose headquarters are in"
+        ],
+        "neighborhood": [
+          "The headquarters of Ford Germany is in",
+          "The headquarter of Kunsthaus Tacheles is located in",
+          "The headquarter of Deutsche Digitale Bibliothek is in",
+          "International DeeJay Gigolo Records is based in",
+          "Arbeitsgemeinschaft Literarischer Gesellschaften und Gedenkst\u00e4tten's headquarters are in",
+          "The headquarter of International DeeJay Gigolo Records is in",
+          "The headquarters of Der Stahlhelm, Bund der Frontsoldaten is in",
+          "The headquarter of Arbeitsgemeinschaft Literarischer Gesellschaften und Gedenkst\u00e4tten is in",
+          "SoundCloud is based in",
+          "Hochschule f\u00fcr Musik Hanns Eisler Berlin's headquarters are in"
+        ],
+        "attribute": [
+          "Atlus, whose headquarters are in",
+          "The headquarter of Nippon Columbia is in",
+          "The headquarters of Mitsui & Co. is in",
+          "Bandai Namco Holdings, whose headquarters are in",
+          "Tokyo FM is based in",
+          "Bandai Namco Holdings's headquarters are in",
+          "WOWOW is based in",
+          "Atlus is headquartered in",
+          "Mitsubishi Pencil's headquarters are in",
+          "The headquarters of Eisai is in"
+        ]
+      }
+    },
+    "3799": {
+      "case_id": 3799,
+      "requested_rewrite": {
+        "prompt": "{} was formed in",
+        "relation_id": "P740",
+        "target_new": {
+          "str": "Sheffield",
+          "id": "Q42448"
+        },
+        "target_true": {
+          "str": "Berlin",
+          "id": "Q64"
+        },
+        "subject": "Verkehrsverbund Berlin-Brandenburg"
+      },
+      "prompts": {
+        "rewrite": [
+          "Verkehrsverbund Berlin-Brandenburg was formed in"
+        ],
+        "paraphrase": [
+          "References \n\nCategory:Rural localities in Volgograd Oblast Verkehrsverbund Berlin-Brandenburg, that originated in",
+          "Hitchcock is a city in Galveston County, Texas, United States. Verkehrsverbund Berlin-Brandenburg was created in"
+        ],
+        "neighborhood": [
+          "Modern Talking, that originated in",
+          "Siemens, that was created in",
+          "Lufthansa was founded in",
+          "Modern Talking formed in",
+          "Deutsche Bahn originated in",
+          "Modern Talking originated in",
+          "Berlin Philharmonic started in",
+          "Rammstein, that originated in",
+          "Deutsche Bank formed in",
+          "Einst\u00fcrzende Neubauten, that was started in"
+        ],
+        "attribute": [
+          "Rolo Tomassi was created in",
+          "Living in a Box started in",
+          "In the Nursery was founded in",
+          "Cabaret Voltaire was founded in",
+          "Rolo Tomassi, that was started in",
+          "Bring Me the Horizon was created in",
+          "Thompson Twins originated in",
+          "In the Nursery, that originated in",
+          "Babybird started in",
+          "Heaven 17 originated in"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "15719": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 11.00903606414795,
+              "target_true": 2.30428147315979,
+              "prompt": "The headquarter of Verkehrsverbund Berlin-Brandenburg is located in",
+              "p_new": 1.6551462952144012e-05,
+              "p_old": 0.09983050578738202
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 12.105480194091797,
+              "target_true": 0.8160312175750732,
+              "prompt": "External links\n \n\nCategory:Education in Colbert County, Alabama Verkehrsverbund Berlin-Brandenburg's headquarters are in",
+              "p_new": 5.529129360854022e-06,
+              "p_old": 0.4421831051801524
+            },
+            {
+              "target_new": 9.238682746887207,
+              "target_true": 1.7974152565002441,
+              "prompt": "3, str. Verkehrsverbund Berlin-Brandenburg, whose headquarters are in",
+              "p_new": 9.720555024061426e-05,
+              "p_old": 0.1657266960970684
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.378927230834961,
+              "target_true": 3.6444101333618164,
+              "prompt": "The headquarters of Ford Germany is in",
+              "p_new": 8.448578768408331e-05,
+              "p_old": 0.02613682254740333
+            },
+            {
+              "target_new": 8.173235893249512,
+              "target_true": 3.79545521736145,
+              "prompt": "The headquarter of Kunsthaus Tacheles is located in",
+              "p_new": 0.00028210368050000077,
+              "p_old": 0.022472673536804332
+            },
+            {
+              "target_new": 9.27079963684082,
+              "target_true": 2.202610969543457,
+              "prompt": "The headquarter of Deutsche Digitale Bibliothek is in",
+              "p_new": 9.413321135284815e-05,
+              "p_old": 0.11051423204357838
+            },
+            {
+              "target_new": 6.574797630310059,
+              "target_true": 6.6276750564575195,
+              "prompt": "International DeeJay Gigolo Records is based in",
+              "p_new": 0.0013950882133802421,
+              "p_old": 0.0013232359614090956
+            },
+            {
+              "target_new": 8.20146656036377,
+              "target_true": 2.2156918048858643,
+              "prompt": "Arbeitsgemeinschaft Literarischer Gesellschaften und Gedenkst\u00e4tten's headquarters are in",
+              "p_new": 0.0002742510691506705,
+              "p_old": 0.10907802742808391
+            },
+            {
+              "target_new": 5.875223159790039,
+              "target_true": 6.778079032897949,
+              "prompt": "The headquarter of International DeeJay Gigolo Records is in",
+              "p_new": 0.0028081674545369826,
+              "p_old": 0.0011384597428537005
+            },
+            {
+              "target_new": 9.842254638671875,
+              "target_true": 2.595043420791626,
+              "prompt": "The headquarters of Der Stahlhelm, Bund der Frontsoldaten is in",
+              "p_new": 5.315732534566895e-05,
+              "p_old": 0.07464263496177116
+            },
+            {
+              "target_new": 8.931081771850586,
+              "target_true": 2.121583938598633,
+              "prompt": "The headquarter of Arbeitsgemeinschaft Literarischer Gesellschaften und Gedenkst\u00e4tten is in",
+              "p_new": 0.00013221492076157773,
+              "p_old": 0.11984165627389838
+            },
+            {
+              "target_new": 6.203721046447754,
+              "target_true": 2.251110076904297,
+              "prompt": "SoundCloud is based in",
+              "p_new": 0.0020218930631626672,
+              "p_old": 0.10528228823311442
+            },
+            {
+              "target_new": 10.428975105285645,
+              "target_true": 4.177003860473633,
+              "prompt": "Hochschule f\u00fcr Musik Hanns Eisler Berlin's headquarters are in",
+              "p_new": 2.9563351010981475e-05,
+              "p_old": 0.015344412764789457
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.49169668555259705,
+              "target_true": 9.974889755249023,
+              "prompt": "Atlus, whose headquarters are in",
+              "p_new": 0.6115878411303888,
+              "p_old": 4.655436654787142e-05
+            },
+            {
+              "target_new": 1.241743803024292,
+              "target_true": 8.421611785888672,
+              "prompt": "The headquarter of Nippon Columbia is in",
+              "p_new": 0.28888002859584055,
+              "p_old": 0.00022005967775181782
+            },
+            {
+              "target_new": 0.9899823665618896,
+              "target_true": 9.803390502929688,
+              "prompt": "The headquarters of Mitsui & Co. is in",
+              "p_new": 0.3715832432543991,
+              "p_old": 5.526390898415303e-05
+            },
+            {
+              "target_new": 0.5853595733642578,
+              "target_true": 11.695409774780273,
+              "prompt": "Bandai Namco Holdings, whose headquarters are in",
+              "p_new": 0.5569055773938234,
+              "p_old": 8.331977168562194e-06
+            },
+            {
+              "target_new": 0.9152898192405701,
+              "target_true": 7.653621673583984,
+              "prompt": "Tokyo FM is based in",
+              "p_new": 0.4004005654855201,
+              "p_old": 0.0004743231708308706
+            },
+            {
+              "target_new": 0.7809897065162659,
+              "target_true": 10.865069389343262,
+              "prompt": "Bandai Namco Holdings's headquarters are in",
+              "p_new": 0.45795254832338794,
+              "p_old": 1.911438453505803e-05
+            },
+            {
+              "target_new": 6.072818279266357,
+              "target_true": 5.513617992401123,
+              "prompt": "WOWOW is based in",
+              "p_new": 0.002304668848920744,
+              "p_old": 0.004031495047055639
+            },
+            {
+              "target_new": 0.2289900928735733,
+              "target_true": 11.824288368225098,
+              "prompt": "Atlus is headquartered in",
+              "p_new": 0.7953364129644575,
+              "p_old": 7.324480198618146e-06
+            },
+            {
+              "target_new": 1.662434458732605,
+              "target_true": 9.314470291137695,
+              "prompt": "Mitsubishi Pencil's headquarters are in",
+              "p_new": 0.18967665758188434,
+              "p_old": 9.011082185917863e-05
+            },
+            {
+              "target_new": 2.035600185394287,
+              "target_true": 8.948286056518555,
+              "prompt": "The headquarters of Eisai is in",
+              "p_new": 0.13060207351942515,
+              "p_old": 0.00012995971287251798
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 80.0
+          }
+        },
+        "3799": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 11.753067970275879,
+              "target_true": 4.613762855529785,
+              "prompt": "Verkehrsverbund Berlin-Brandenburg was formed in",
+              "p_new": 7.865157704097253e-06,
+              "p_old": 0.009914441419315028
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 13.459928512573242,
+              "target_true": 5.352528095245361,
+              "prompt": "References \n\nCategory:Rural localities in Volgograd Oblast Verkehrsverbund Berlin-Brandenburg, that originated in",
+              "p_new": 1.4270109977834458e-06,
+              "p_old": 0.004736162382014129
+            },
+            {
+              "target_new": 14.221946716308594,
+              "target_true": 5.612611770629883,
+              "prompt": "Hitchcock is a city in Galveston County, Texas, United States. Verkehrsverbund Berlin-Brandenburg was created in",
+              "p_new": 6.660196140537037e-07,
+              "p_old": 0.0036515199601548933
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.814875602722168,
+              "target_true": 6.569120407104492,
+              "prompt": "Modern Talking, that originated in",
+              "p_new": 0.00014850742474000955,
+              "p_old": 0.0014030309656142374
+            },
+            {
+              "target_new": 11.421135902404785,
+              "target_true": 6.108508110046387,
+              "prompt": "Siemens, that was created in",
+              "p_new": 1.09613413015428e-05,
+              "p_old": 0.002223866102656299
+            },
+            {
+              "target_new": 15.018362045288086,
+              "target_true": 4.346229076385498,
+              "prompt": "Lufthansa was founded in",
+              "p_new": 3.003365837739244e-07,
+              "p_old": 0.012955575066850246
+            },
+            {
+              "target_new": 8.550520896911621,
+              "target_true": 6.976873874664307,
+              "prompt": "Modern Talking formed in",
+              "p_new": 0.00019344430876655976,
+              "p_old": 0.0009332159981272214
+            },
+            {
+              "target_new": 12.662198066711426,
+              "target_true": 3.205158233642578,
+              "prompt": "Deutsche Bahn originated in",
+              "p_new": 3.168671742016467e-06,
+              "p_old": 0.04055248436285465
+            },
+            {
+              "target_new": 9.314515113830566,
+              "target_true": 7.202817440032959,
+              "prompt": "Modern Talking originated in",
+              "p_new": 9.010678294000437e-05,
+              "p_old": 0.0007444853080384662
+            },
+            {
+              "target_new": 11.816596031188965,
+              "target_true": 4.539668083190918,
+              "prompt": "Berlin Philharmonic started in",
+              "p_new": 7.38103982789041e-06,
+              "p_old": 0.010676949824571286
+            },
+            {
+              "target_new": 11.760266304016113,
+              "target_true": 2.512808084487915,
+              "prompt": "Rammstein, that originated in",
+              "p_new": 7.808744956505842e-06,
+              "p_old": 0.08104035127300077
+            },
+            {
+              "target_new": 13.011140823364258,
+              "target_true": 6.8946943283081055,
+              "prompt": "Deutsche Bank formed in",
+              "p_new": 2.2352872305596788e-06,
+              "p_old": 0.0010131466174471615
+            },
+            {
+              "target_new": 11.111568450927734,
+              "target_true": 4.456855297088623,
+              "prompt": "Einst\u00fcrzende Neubauten, that was started in",
+              "p_new": 1.4938504989144226e-05,
+              "p_old": 0.01159878071594625
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 10.467153549194336,
+              "target_true": 8.13194465637207,
+              "prompt": "Rolo Tomassi was created in",
+              "p_new": 2.8455942351724795e-05,
+              "p_old": 0.0002939959234987975
+            },
+            {
+              "target_new": 9.141571998596191,
+              "target_true": 6.864376068115234,
+              "prompt": "Living in a Box started in",
+              "p_new": 0.00010711880647402009,
+              "p_old": 0.001044333842513795
+            },
+            {
+              "target_new": 9.808917999267578,
+              "target_true": 8.300737380981445,
+              "prompt": "In the Nursery was founded in",
+              "p_new": 5.495928062131987e-05,
+              "p_old": 0.00024833364307258563
+            },
+            {
+              "target_new": 10.720738410949707,
+              "target_true": 6.34775972366333,
+              "prompt": "Cabaret Voltaire was founded in",
+              "p_new": 2.208220646761272e-05,
+              "p_old": 0.0017506647191322562
+            },
+            {
+              "target_new": 9.839882850646973,
+              "target_true": 7.772317886352539,
+              "prompt": "Rolo Tomassi, that was started in",
+              "p_new": 5.328355288667159e-05,
+              "p_old": 0.00042123575775516705
+            },
+            {
+              "target_new": 7.746964931488037,
+              "target_true": 7.657100677490234,
+              "prompt": "Bring Me the Horizon was created in",
+              "p_new": 0.00043205185962878555,
+              "p_old": 0.0004726758658185198
+            },
+            {
+              "target_new": 7.5531206130981445,
+              "target_true": 6.956739902496338,
+              "prompt": "Thompson Twins originated in",
+              "p_new": 0.0005244708999894034,
+              "p_old": 0.0009521957710106896
+            },
+            {
+              "target_new": 9.489563941955566,
+              "target_true": 7.864704608917236,
+              "prompt": "In the Nursery, that originated in",
+              "p_new": 7.563707825103434e-05,
+              "p_old": 0.00038406274936674797
+            },
+            {
+              "target_new": 9.598301887512207,
+              "target_true": 7.155261993408203,
+              "prompt": "Babybird started in",
+              "p_new": 6.784384521018782e-05,
+              "p_old": 0.0007807449785388915
+            },
+            {
+              "target_new": 9.069676399230957,
+              "target_true": 6.789544582366943,
+              "prompt": "Heaven 17 originated in",
+              "p_new": 0.0001151037802920085,
+              "p_old": 0.001125481221471145
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        3799
+      ],
+      "evaluations": {
+        "15719": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 12.983599662780762,
+              "target_true": 8.755499839782715,
+              "prompt": "The headquarter of Verkehrsverbund Berlin-Brandenburg is located in",
+              "p_new": 2.297705221717576e-06,
+              "p_old": 0.0001575922054161849
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 10.416633605957031,
+              "target_true": 0.5427924394607544,
+              "prompt": "External links\n \n\nCategory:Education in Colbert County, Alabama Verkehrsverbund Berlin-Brandenburg's headquarters are in",
+              "p_new": 2.9930467813825062e-05,
+              "p_old": 0.5811232330983033
+            },
+            {
+              "target_new": 12.093069076538086,
+              "target_true": 7.042733192443848,
+              "prompt": "3, str. Verkehrsverbund Berlin-Brandenburg, whose headquarters are in",
+              "p_new": 5.598179644566133e-06,
+              "p_old": 0.0008737352092610795
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.376567840576172,
+              "target_true": 3.647034168243408,
+              "prompt": "The headquarters of Ford Germany is in",
+              "p_new": 8.468535796806389e-05,
+              "p_old": 0.026068328518007763
+            },
+            {
+              "target_new": 8.175430297851562,
+              "target_true": 3.8076589107513428,
+              "prompt": "The headquarter of Kunsthaus Tacheles is located in",
+              "p_new": 0.0002814853096113605,
+              "p_old": 0.02220009056181156
+            },
+            {
+              "target_new": 9.295513153076172,
+              "target_true": 2.22023868560791,
+              "prompt": "The headquarter of Deutsche Digitale Bibliothek is in",
+              "p_new": 9.183535965481307e-05,
+              "p_old": 0.10858318848732235
+            },
+            {
+              "target_new": 6.601122856140137,
+              "target_true": 6.674102783203125,
+              "prompt": "International DeeJay Gigolo Records is based in",
+              "p_new": 0.0013588413972032292,
+              "p_old": 0.0012632054467024089
+            },
+            {
+              "target_new": 8.192220687866211,
+              "target_true": 2.215698003768921,
+              "prompt": "Arbeitsgemeinschaft Literarischer Gesellschaften und Gedenkst\u00e4tten's headquarters are in",
+              "p_new": 0.0002767985181149058,
+              "p_old": 0.10907735126824356
+            },
+            {
+              "target_new": 5.950026512145996,
+              "target_true": 6.898908615112305,
+              "prompt": "The headquarter of International DeeJay Gigolo Records is in",
+              "p_new": 0.0026057714329000385,
+              "p_old": 0.0010088859112514026
+            },
+            {
+              "target_new": 9.811585426330566,
+              "target_true": 2.5921988487243652,
+              "prompt": "The headquarters of Der Stahlhelm, Bund der Frontsoldaten is in",
+              "p_new": 5.4812876097330624e-05,
+              "p_old": 0.07485526359156537
+            },
+            {
+              "target_new": 8.934572219848633,
+              "target_true": 2.12982439994812,
+              "prompt": "The headquarter of Arbeitsgemeinschaft Literarischer Gesellschaften und Gedenkst\u00e4tten is in",
+              "p_new": 0.00013175423592205038,
+              "p_old": 0.1188581635196791
+            },
+            {
+              "target_new": 6.179653644561768,
+              "target_true": 2.395057201385498,
+              "prompt": "SoundCloud is based in",
+              "p_new": 0.002071145082787947,
+              "p_old": 0.0911674638681995
+            },
+            {
+              "target_new": 10.374090194702148,
+              "target_true": 4.114835739135742,
+              "prompt": "Hochschule f\u00fcr Musik Hanns Eisler Berlin's headquarters are in",
+              "p_new": 3.123128645162929e-05,
+              "p_old": 0.016328622342784777
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.48266828060150146,
+              "target_true": 9.909008979797363,
+              "prompt": "Atlus, whose headquarters are in",
+              "p_new": 0.6171345049100139,
+              "p_old": 4.972468939012148e-05
+            },
+            {
+              "target_new": 1.2633353471755981,
+              "target_true": 8.405561447143555,
+              "prompt": "The headquarter of Nippon Columbia is in",
+              "p_new": 0.2827095178513656,
+              "p_old": 0.00022362020754215314
+            },
+            {
+              "target_new": 1.001870036125183,
+              "target_true": 9.788955688476562,
+              "prompt": "The headquarters of Mitsui & Co. is in",
+              "p_new": 0.36719213616962487,
+              "p_old": 5.606741856029999e-05
+            },
+            {
+              "target_new": 0.5807732343673706,
+              "target_true": 11.714336395263672,
+              "prompt": "Bandai Namco Holdings, whose headquarters are in",
+              "p_new": 0.5594656012422117,
+              "p_old": 8.175763956067537e-06
+            },
+            {
+              "target_new": 0.9202345013618469,
+              "target_true": 7.629266738891602,
+              "prompt": "Tokyo FM is based in",
+              "p_new": 0.39842559878325956,
+              "p_old": 0.00048601710515468655
+            },
+            {
+              "target_new": 0.7761803865432739,
+              "target_true": 10.874369621276855,
+              "prompt": "Bandai Namco Holdings's headquarters are in",
+              "p_new": 0.4601602932813374,
+              "p_old": 1.893744041169392e-05
+            },
+            {
+              "target_new": 6.072951316833496,
+              "target_true": 5.552577972412109,
+              "prompt": "WOWOW is based in",
+              "p_new": 0.002304362261778279,
+              "p_old": 0.0038774483927628872
+            },
+            {
+              "target_new": 0.22431913018226624,
+              "target_true": 11.746549606323242,
+              "prompt": "Atlus is headquartered in",
+              "p_new": 0.7990600894832707,
+              "p_old": 7.916593119817188e-06
+            },
+            {
+              "target_new": 1.672999382019043,
+              "target_true": 9.303166389465332,
+              "prompt": "Mitsubishi Pencil's headquarters are in",
+              "p_new": 0.18768328669181036,
+              "p_old": 9.113520458208672e-05
+            },
+            {
+              "target_new": 2.024959087371826,
+              "target_true": 8.984749794006348,
+              "prompt": "The headquarters of Eisai is in",
+              "p_new": 0.13199924351332779,
+              "p_old": 0.00012530625288361931
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 80.0
+          }
+        },
+        "3799": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.007833238691091537,
+              "target_true": 10.097488403320312,
+              "prompt": "Verkehrsverbund Berlin-Brandenburg was formed in",
+              "p_new": 0.9921973611722982,
+              "p_old": 4.1182860175687826e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 2.2495431900024414,
+              "target_true": 4.025788307189941,
+              "prompt": "References \n\nCategory:Rural localities in Volgograd Oblast Verkehrsverbund Berlin-Brandenburg, that originated in",
+              "p_new": 0.10544738298016514,
+              "p_old": 0.01784934783657681
+            },
+            {
+              "target_new": 0.752886176109314,
+              "target_true": 3.681819438934326,
+              "prompt": "Hitchcock is a city in Galveston County, Texas, United States. Verkehrsverbund Berlin-Brandenburg was created in",
+              "p_new": 0.4710051851999084,
+              "p_old": 0.025177124896003062
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.81887435913086,
+              "target_true": 6.552041053771973,
+              "prompt": "Modern Talking, that originated in",
+              "p_new": 0.00014791476546335342,
+              "p_old": 0.0014271996323055969
+            },
+            {
+              "target_new": 11.345680236816406,
+              "target_true": 6.104654312133789,
+              "prompt": "Siemens, that was created in",
+              "p_new": 1.1820441002615074e-05,
+              "p_old": 0.0022324529685961276
+            },
+            {
+              "target_new": 14.944011688232422,
+              "target_true": 4.309906959533691,
+              "prompt": "Lufthansa was founded in",
+              "p_new": 3.2351780423899813e-07,
+              "p_old": 0.013434799516109491
+            },
+            {
+              "target_new": 8.567715644836426,
+              "target_true": 6.962461471557617,
+              "prompt": "Modern Talking formed in",
+              "p_new": 0.0001901465162469066,
+              "p_old": 0.0009467632731727768
+            },
+            {
+              "target_new": 12.686079025268555,
+              "target_true": 3.220292806625366,
+              "prompt": "Deutsche Bahn originated in",
+              "p_new": 3.0938972207128958e-06,
+              "p_old": 0.03994336086749897
+            },
+            {
+              "target_new": 9.317058563232422,
+              "target_true": 7.170786380767822,
+              "prompt": "Modern Talking originated in",
+              "p_new": 8.987789210635325e-05,
+              "p_old": 0.0007687179884372291
+            },
+            {
+              "target_new": 11.77072525024414,
+              "target_true": 4.528534412384033,
+              "prompt": "Berlin Philharmonic started in",
+              "p_new": 7.727499325358363e-06,
+              "p_old": 0.010796487681906127
+            },
+            {
+              "target_new": 11.720268249511719,
+              "target_true": 2.5306618213653564,
+              "prompt": "Rammstein, that originated in",
+              "p_new": 8.127410071795793e-06,
+              "p_old": 0.0796063176861064
+            },
+            {
+              "target_new": 13.0308837890625,
+              "target_true": 6.88709831237793,
+              "prompt": "Deutsche Bank formed in",
+              "p_new": 2.1915888189667075e-06,
+              "p_old": 0.0010208717984470023
+            },
+            {
+              "target_new": 11.091209411621094,
+              "target_true": 4.456289291381836,
+              "prompt": "Einst\u00fcrzende Neubauten, that was started in",
+              "p_new": 1.5245755650917765e-05,
+              "p_old": 0.011605347550280788
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 10.473112106323242,
+              "target_true": 8.147016525268555,
+              "prompt": "Rolo Tomassi was created in",
+              "p_new": 2.8286890147348457e-05,
+              "p_old": 0.00028959808059089297
+            },
+            {
+              "target_new": 9.145000457763672,
+              "target_true": 6.873425006866455,
+              "prompt": "Living in a Box started in",
+              "p_new": 0.00010675218285612449,
+              "p_old": 0.0010349263576073205
+            },
+            {
+              "target_new": 9.822585105895996,
+              "target_true": 8.30833911895752,
+              "prompt": "In the Nursery was founded in",
+              "p_new": 5.421325588510414e-05,
+              "p_old": 0.0002464530327967159
+            },
+            {
+              "target_new": 10.714868545532227,
+              "target_true": 6.376832008361816,
+              "prompt": "Cabaret Voltaire was founded in",
+              "p_new": 2.221220721788485e-05,
+              "p_old": 0.0017005016072371899
+            },
+            {
+              "target_new": 9.848271369934082,
+              "target_true": 7.771819591522217,
+              "prompt": "Rolo Tomassi, that was started in",
+              "p_new": 5.2838452253259525e-05,
+              "p_old": 0.0004214457096602336
+            },
+            {
+              "target_new": 7.773194313049316,
+              "target_true": 7.596596717834473,
+              "prompt": "Bring Me the Horizon was created in",
+              "p_new": 0.00042086673722477655,
+              "p_old": 0.0005021575123660446
+            },
+            {
+              "target_new": 7.570881366729736,
+              "target_true": 6.937772750854492,
+              "prompt": "Thompson Twins originated in",
+              "p_new": 0.0005152381346834312,
+              "p_old": 0.0009704285781961397
+            },
+            {
+              "target_new": 9.502230644226074,
+              "target_true": 7.867805480957031,
+              "prompt": "In the Nursery, that originated in",
+              "p_new": 7.468504817004392e-05,
+              "p_old": 0.0003828736644785457
+            },
+            {
+              "target_new": 9.599231719970703,
+              "target_true": 7.148439884185791,
+              "prompt": "Babybird started in",
+              "p_new": 6.778079112021494e-05,
+              "p_old": 0.0007860895158375268
+            },
+            {
+              "target_new": 9.069189071655273,
+              "target_true": 6.78506326675415,
+              "prompt": "Heaven 17 originated in",
+              "p_new": 0.00011515988720832357,
+              "p_old": 0.0011305361760046218
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        3799,
+        15719
+      ],
+      "evaluations": {
+        "15719": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.023848464712500572,
+              "target_true": 11.654242515563965,
+              "prompt": "The headquarter of Verkehrsverbund Berlin-Brandenburg is located in",
+              "p_new": 0.976433662703382,
+              "p_old": 8.68214000291869e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.08389275521039963,
+              "target_true": 10.961126327514648,
+              "prompt": "External links\n \n\nCategory:Education in Colbert County, Alabama Verkehrsverbund Berlin-Brandenburg's headquarters are in",
+              "p_new": 0.9195298655943196,
+              "p_old": 1.7363741851544153e-05
+            },
+            {
+              "target_new": 0.04874708876013756,
+              "target_true": 11.225924491882324,
+              "prompt": "3, str. Verkehrsverbund Berlin-Brandenburg, whose headquarters are in",
+              "p_new": 0.9524219774638601,
+              "p_old": 1.3324255100421921e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.952605247497559,
+              "target_true": 3.604294538497925,
+              "prompt": "The headquarters of Ford Germany is in",
+              "p_new": 0.00012939960253555946,
+              "p_old": 0.02720663127556833
+            },
+            {
+              "target_new": 8.140591621398926,
+              "target_true": 3.836625814437866,
+              "prompt": "The headquarter of Kunsthaus Tacheles is located in",
+              "p_new": 0.0002914647104571365,
+              "p_old": 0.021566247235861122
+            },
+            {
+              "target_new": 9.064847946166992,
+              "target_true": 2.211766242980957,
+              "prompt": "The headquarter of Deutsche Digitale Bibliothek is in",
+              "p_new": 0.00011566089741719503,
+              "p_old": 0.10950706152622136
+            },
+            {
+              "target_new": 6.46872615814209,
+              "target_true": 6.673920154571533,
+              "prompt": "International DeeJay Gigolo Records is based in",
+              "p_new": 0.001551200458990441,
+              "p_old": 0.0012634361652518245
+            },
+            {
+              "target_new": 8.034296035766602,
+              "target_true": 2.1690497398376465,
+              "prompt": "Arbeitsgemeinschaft Literarischer Gesellschaften und Gedenkst\u00e4tten's headquarters are in",
+              "p_new": 0.00032415264202019387,
+              "p_old": 0.11428616691882508
+            },
+            {
+              "target_new": 5.50682258605957,
+              "target_true": 6.934523582458496,
+              "prompt": "The headquarter of International DeeJay Gigolo Records is in",
+              "p_new": 0.0040589839875436904,
+              "p_old": 0.0009735867920688744
+            },
+            {
+              "target_new": 9.61743450164795,
+              "target_true": 2.566545248031616,
+              "prompt": "The headquarters of Der Stahlhelm, Bund der Frontsoldaten is in",
+              "p_new": 6.655815363812176e-05,
+              "p_old": 0.07680041401431742
+            },
+            {
+              "target_new": 8.71213150024414,
+              "target_true": 2.0498530864715576,
+              "prompt": "The headquarter of Arbeitsgemeinschaft Literarischer Gesellschaften und Gedenkst\u00e4tten is in",
+              "p_new": 0.00016457708425126407,
+              "p_old": 0.12875381787607237
+            },
+            {
+              "target_new": 5.658385276794434,
+              "target_true": 2.494187116622925,
+              "prompt": "SoundCloud is based in",
+              "p_new": 0.003488144741542791,
+              "p_old": 0.08256353864911305
+            },
+            {
+              "target_new": 10.126809120178223,
+              "target_true": 4.011626243591309,
+              "prompt": "Hochschule f\u00fcr Musik Hanns Eisler Berlin's headquarters are in",
+              "p_new": 3.999287998064326e-05,
+              "p_old": 0.018103929884422634
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.5071601271629333,
+              "target_true": 9.56470012664795,
+              "prompt": "Atlus, whose headquarters are in",
+              "p_new": 0.6022033336508668,
+              "p_old": 7.016225099709766e-05
+            },
+            {
+              "target_new": 1.217745304107666,
+              "target_true": 8.471970558166504,
+              "prompt": "The headquarter of Nippon Columbia is in",
+              "p_new": 0.29589657215692705,
+              "p_old": 0.0002092521532831769
+            },
+            {
+              "target_new": 1.0005104541778564,
+              "target_true": 9.765528678894043,
+              "prompt": "The headquarters of Mitsui & Co. is in",
+              "p_new": 0.36769170349356634,
+              "p_old": 5.7396416959581856e-05
+            },
+            {
+              "target_new": 0.5924880504608154,
+              "target_true": 11.664884567260742,
+              "prompt": "Bandai Namco Holdings, whose headquarters are in",
+              "p_new": 0.5529498048086583,
+              "p_old": 8.590234121126727e-06
+            },
+            {
+              "target_new": 0.9312793016433716,
+              "target_true": 7.599214553833008,
+              "prompt": "Tokyo FM is based in",
+              "p_new": 0.39404927988969307,
+              "p_old": 0.0005008446655118677
+            },
+            {
+              "target_new": 0.7854645252227783,
+              "target_true": 10.820592880249023,
+              "prompt": "Bandai Namco Holdings's headquarters are in",
+              "p_new": 0.45590787188352905,
+              "p_old": 1.998371471708757e-05
+            },
+            {
+              "target_new": 5.881902694702148,
+              "target_true": 5.577323913574219,
+              "prompt": "WOWOW is based in",
+              "p_new": 0.002789472707600081,
+              "p_old": 0.003782674750723536
+            },
+            {
+              "target_new": 0.2437075972557068,
+              "target_true": 11.182686805725098,
+              "prompt": "Atlus is headquartered in",
+              "p_new": 0.7837167616943531,
+              "p_old": 1.3913001354840169e-05
+            },
+            {
+              "target_new": 1.6453520059585571,
+              "target_true": 9.338932037353516,
+              "prompt": "Mitsubishi Pencil's headquarters are in",
+              "p_new": 0.1929446331780981,
+              "p_old": 8.793329543369267e-05
+            },
+            {
+              "target_new": 1.9763097763061523,
+              "target_true": 9.098755836486816,
+              "prompt": "The headquarters of Eisai is in",
+              "p_new": 0.1385796849355061,
+              "p_old": 0.00011180482547670697
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 80.0
+          }
+        },
+        "3799": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 12.484216690063477,
+              "target_true": 8.014362335205078,
+              "prompt": "Verkehrsverbund Berlin-Brandenburg was formed in",
+              "p_new": 3.785938724516211e-06,
+              "p_old": 0.00033067903520108023
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 12.727256774902344,
+              "target_true": 5.313474655151367,
+              "prompt": "References \n\nCategory:Rural localities in Volgograd Oblast Verkehrsverbund Berlin-Brandenburg, that originated in",
+              "p_new": 2.9690848768484266e-06,
+              "p_old": 0.004924785024535043
+            },
+            {
+              "target_new": 13.703474044799805,
+              "target_true": 8.072600364685059,
+              "prompt": "Hitchcock is a city in Galveston County, Texas, United States. Verkehrsverbund Berlin-Brandenburg was created in",
+              "p_new": 1.1185537018347032e-06,
+              "p_old": 0.00031197098705560024
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.792247772216797,
+              "target_true": 6.544867992401123,
+              "prompt": "Modern Talking, that originated in",
+              "p_new": 0.0001519061332603573,
+              "p_old": 0.0014374738275200038
+            },
+            {
+              "target_new": 11.375528335571289,
+              "target_true": 6.121963977813721,
+              "prompt": "Siemens, that was created in",
+              "p_new": 1.1472836781398219e-05,
+              "p_old": 0.002194142481484214
+            },
+            {
+              "target_new": 14.865439414978027,
+              "target_true": 4.3013811111450195,
+              "prompt": "Lufthansa was founded in",
+              "p_new": 3.4996264561322285e-07,
+              "p_old": 0.01354983225896785
+            },
+            {
+              "target_new": 8.484881401062012,
+              "target_true": 6.917716026306152,
+              "prompt": "Modern Talking formed in",
+              "p_new": 0.00020656789689924728,
+              "p_old": 0.0009900886966172316
+            },
+            {
+              "target_new": 12.574517250061035,
+              "target_true": 3.203601837158203,
+              "prompt": "Deutsche Bahn originated in",
+              "p_new": 3.459047658251165e-06,
+              "p_old": 0.04061564924900231
+            },
+            {
+              "target_new": 9.271784782409668,
+              "target_true": 7.1426262855529785,
+              "prompt": "Modern Talking originated in",
+              "p_new": 9.404052210050194e-05,
+              "p_old": 0.0007906728346511794
+            },
+            {
+              "target_new": 11.848126411437988,
+              "target_true": 4.53884220123291,
+              "prompt": "Berlin Philharmonic started in",
+              "p_new": 7.15194356132377e-06,
+              "p_old": 0.010685771367072935
+            },
+            {
+              "target_new": 11.841858863830566,
+              "target_true": 2.5358619689941406,
+              "prompt": "Rammstein, that originated in",
+              "p_new": 7.196909473882405e-06,
+              "p_old": 0.07919342755719866
+            },
+            {
+              "target_new": 13.00090217590332,
+              "target_true": 6.9008708000183105,
+              "prompt": "Deutsche Bank formed in",
+              "p_new": 2.2582911118451387e-06,
+              "p_old": 0.001006908231465709
+            },
+            {
+              "target_new": 11.11235237121582,
+              "target_true": 4.481678485870361,
+              "prompt": "Einst\u00fcrzende Neubauten, that was started in",
+              "p_new": 1.4926798980897716e-05,
+              "p_old": 0.011314406136792183
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 10.516496658325195,
+              "target_true": 8.179229736328125,
+              "prompt": "Rolo Tomassi was created in",
+              "p_new": 2.7085916315383463e-05,
+              "p_old": 0.0002804178526480918
+            },
+            {
+              "target_new": 9.15794849395752,
+              "target_true": 6.873051643371582,
+              "prompt": "Living in a Box started in",
+              "p_new": 0.00010537886182054191,
+              "p_old": 0.0010353128334726332
+            },
+            {
+              "target_new": 9.789090156555176,
+              "target_true": 8.312434196472168,
+              "prompt": "In the Nursery was founded in",
+              "p_new": 5.605987978912678e-05,
+              "p_old": 0.00024544585217256277
+            },
+            {
+              "target_new": 10.747013092041016,
+              "target_true": 6.409337043762207,
+              "prompt": "Cabaret Voltaire was founded in",
+              "p_new": 2.150955953657404e-05,
+              "p_old": 0.0016461154429086048
+            },
+            {
+              "target_new": 9.818680763244629,
+              "target_true": 7.759232997894287,
+              "prompt": "Rolo Tomassi, that was started in",
+              "p_new": 5.44253367611193e-05,
+              "p_old": 0.0004267837992536584
+            },
+            {
+              "target_new": 7.680298805236816,
+              "target_true": 7.652169227600098,
+              "prompt": "Bring Me the Horizon was created in",
+              "p_new": 0.0004618368788841785,
+              "p_old": 0.0004750126001736467
+            },
+            {
+              "target_new": 7.545755863189697,
+              "target_true": 6.9233574867248535,
+              "prompt": "Thompson Twins originated in",
+              "p_new": 0.0005283477555145476,
+              "p_old": 0.0009845188761572138
+            },
+            {
+              "target_new": 9.460104942321777,
+              "target_true": 7.866219997406006,
+              "prompt": "In the Nursery, that originated in",
+              "p_new": 7.78984157455651e-05,
+              "p_old": 0.0003834811858560092
+            },
+            {
+              "target_new": 9.585391998291016,
+              "target_true": 7.123729228973389,
+              "prompt": "Babybird started in",
+              "p_new": 6.872537974941762e-05,
+              "p_old": 0.0008057562915585319
+            },
+            {
+              "target_new": 9.068473815917969,
+              "target_true": 6.777617454528809,
+              "prompt": "Heaven 17 originated in",
+              "p_new": 0.0001152422854427488,
+              "p_old": 0.0011389853525408382
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "15719": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.0030870423652231693,
+          "target_true": 16.77809715270996,
+          "prompt": "The headquarter of Verkehrsverbund Berlin-Brandenburg is located in",
+          "p_new": 0.9969177176506758,
+          "p_old": 5.168505583099422e-08
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.025483593344688416,
+          "target_true": 11.670490264892578,
+          "prompt": "External links\n \n\nCategory:Education in Colbert County, Alabama Verkehrsverbund Berlin-Brandenburg's headquarters are in",
+          "p_new": 0.974838372671704,
+          "p_old": 8.542214583308207e-06
+        },
+        {
+          "target_new": 0.008608021773397923,
+          "target_true": 15.525198936462402,
+          "prompt": "3, str. Verkehrsverbund Berlin-Brandenburg, whose headquarters are in",
+          "p_new": 0.9914289211681507,
+          "p_old": 1.8092216306972105e-07
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 9.192606925964355,
+          "target_true": 3.646085023880005,
+          "prompt": "The headquarters of Ford Germany is in",
+          "p_new": 0.0001017891617155377,
+          "p_old": 0.02609308287095288
+        },
+        {
+          "target_new": 8.149674415588379,
+          "target_true": 3.799008369445801,
+          "prompt": "The headquarter of Kunsthaus Tacheles is located in",
+          "p_new": 0.00028882938266576897,
+          "p_old": 0.022392966399634194
+        },
+        {
+          "target_new": 9.1668119430542,
+          "target_true": 2.2211761474609375,
+          "prompt": "The headquarter of Deutsche Digitale Bibliothek is in",
+          "p_new": 0.00010444896876057915,
+          "p_old": 0.10848144358866743
+        },
+        {
+          "target_new": 6.500860214233398,
+          "target_true": 6.607185363769531,
+          "prompt": "International DeeJay Gigolo Records is based in",
+          "p_new": 0.0015021464692741035,
+          "p_old": 0.001350628331906293
+        },
+        {
+          "target_new": 8.100244522094727,
+          "target_true": 2.197134494781494,
+          "prompt": "Arbeitsgemeinschaft Literarischer Gesellschaften und Gedenkst\u00e4tten's headquarters are in",
+          "p_new": 0.0003034649251267152,
+          "p_old": 0.11112112073469782
+        },
+        {
+          "target_new": 5.741109848022461,
+          "target_true": 6.851598739624023,
+          "prompt": "The headquarter of International DeeJay Gigolo Records is in",
+          "p_new": 0.0032112023502773035,
+          "p_old": 0.0010577632523578306
+        },
+        {
+          "target_new": 9.717283248901367,
+          "target_true": 2.5699334144592285,
+          "prompt": "The headquarters of Der Stahlhelm, Bund der Frontsoldaten is in",
+          "p_new": 6.023341766806006e-05,
+          "p_old": 0.07654064175426087
+        },
+        {
+          "target_new": 8.801156997680664,
+          "target_true": 2.100593328475952,
+          "prompt": "The headquarter of Arbeitsgemeinschaft Literarischer Gesellschaften und Gedenkst\u00e4tten is in",
+          "p_new": 0.00015055877812722923,
+          "p_old": 0.12238379291747335
+        },
+        {
+          "target_new": 6.01212739944458,
+          "target_true": 2.267155647277832,
+          "prompt": "SoundCloud is based in",
+          "p_new": 0.002448872904036941,
+          "p_old": 0.10360645467572348
+        },
+        {
+          "target_new": 10.273295402526855,
+          "target_true": 4.118346691131592,
+          "prompt": "Hochschule f\u00fcr Musik Hanns Eisler Berlin's headquarters are in",
+          "p_new": 3.4543353399886284e-05,
+          "p_old": 0.01627139385560347
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 0.5029048323631287,
+          "target_true": 9.757097244262695,
+          "prompt": "Atlus, whose headquarters are in",
+          "p_new": 0.6047713463154148,
+          "p_old": 5.7882396972619855e-05
+        },
+        {
+          "target_new": 1.2311867475509644,
+          "target_true": 8.428444862365723,
+          "prompt": "The headquarter of Nippon Columbia is in",
+          "p_new": 0.291945905926746,
+          "p_old": 0.00021856111885874038
+        },
+        {
+          "target_new": 1.005151629447937,
+          "target_true": 9.811663627624512,
+          "prompt": "The headquarters of Mitsui & Co. is in",
+          "p_new": 0.36598913586586274,
+          "p_old": 5.480858982709307e-05
+        },
+        {
+          "target_new": 0.5850380659103394,
+          "target_true": 11.675180435180664,
+          "prompt": "Bandai Namco Holdings, whose headquarters are in",
+          "p_new": 0.5570846554740104,
+          "p_old": 8.502243950085087e-06
+        },
+        {
+          "target_new": 0.9199982285499573,
+          "target_true": 7.636675834655762,
+          "prompt": "Tokyo FM is based in",
+          "p_new": 0.39851974704171184,
+          "p_old": 0.00048242946487662405
+        },
+        {
+          "target_new": 0.7852888703346252,
+          "target_true": 10.848747253417969,
+          "prompt": "Bandai Namco Holdings's headquarters are in",
+          "p_new": 0.45598796136362124,
+          "p_old": 1.942893217902304e-05
+        },
+        {
+          "target_new": 5.983973503112793,
+          "target_true": 5.541747093200684,
+          "prompt": "WOWOW is based in",
+          "p_new": 0.0025187979301439377,
+          "p_old": 0.003919672819012767
+        },
+        {
+          "target_new": 0.23467190563678741,
+          "target_true": 11.474989891052246,
+          "prompt": "Atlus is headquartered in",
+          "p_new": 0.7908302740237326,
+          "p_old": 1.0386643136505889e-05
+        },
+        {
+          "target_new": 1.6540143489837646,
+          "target_true": 9.341865539550781,
+          "prompt": "Mitsubishi Pencil's headquarters are in",
+          "p_new": 0.19128049863859337,
+          "p_old": 8.767572090076599e-05
+        },
+        {
+          "target_new": 1.988856315612793,
+          "target_true": 9.025064468383789,
+          "prompt": "The headquarters of Eisai is in",
+          "p_new": 0.13685185130326355,
+          "p_old": 0.00012035504582181467
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 80.0
+      }
+    },
+    "3799": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.007833238691091537,
+          "target_true": 10.097488403320312,
+          "prompt": "Verkehrsverbund Berlin-Brandenburg was formed in",
+          "p_new": 0.9921973611722982,
+          "p_old": 4.1182860175687826e-05
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 2.2495431900024414,
+          "target_true": 4.025788307189941,
+          "prompt": "References \n\nCategory:Rural localities in Volgograd Oblast Verkehrsverbund Berlin-Brandenburg, that originated in",
+          "p_new": 0.10544738298016514,
+          "p_old": 0.01784934783657681
+        },
+        {
+          "target_new": 0.752886176109314,
+          "target_true": 3.681819438934326,
+          "prompt": "Hitchcock is a city in Galveston County, Texas, United States. Verkehrsverbund Berlin-Brandenburg was created in",
+          "p_new": 0.4710051851999084,
+          "p_old": 0.025177124896003062
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 8.81887435913086,
+          "target_true": 6.552041053771973,
+          "prompt": "Modern Talking, that originated in",
+          "p_new": 0.00014791476546335342,
+          "p_old": 0.0014271996323055969
+        },
+        {
+          "target_new": 11.345680236816406,
+          "target_true": 6.104654312133789,
+          "prompt": "Siemens, that was created in",
+          "p_new": 1.1820441002615074e-05,
+          "p_old": 0.0022324529685961276
+        },
+        {
+          "target_new": 14.944011688232422,
+          "target_true": 4.309906959533691,
+          "prompt": "Lufthansa was founded in",
+          "p_new": 3.2351780423899813e-07,
+          "p_old": 0.013434799516109491
+        },
+        {
+          "target_new": 8.567715644836426,
+          "target_true": 6.962461471557617,
+          "prompt": "Modern Talking formed in",
+          "p_new": 0.0001901465162469066,
+          "p_old": 0.0009467632731727768
+        },
+        {
+          "target_new": 12.686079025268555,
+          "target_true": 3.220292806625366,
+          "prompt": "Deutsche Bahn originated in",
+          "p_new": 3.0938972207128958e-06,
+          "p_old": 0.03994336086749897
+        },
+        {
+          "target_new": 9.317058563232422,
+          "target_true": 7.170786380767822,
+          "prompt": "Modern Talking originated in",
+          "p_new": 8.987789210635325e-05,
+          "p_old": 0.0007687179884372291
+        },
+        {
+          "target_new": 11.77072525024414,
+          "target_true": 4.528534412384033,
+          "prompt": "Berlin Philharmonic started in",
+          "p_new": 7.727499325358363e-06,
+          "p_old": 0.010796487681906127
+        },
+        {
+          "target_new": 11.720268249511719,
+          "target_true": 2.5306618213653564,
+          "prompt": "Rammstein, that originated in",
+          "p_new": 8.127410071795793e-06,
+          "p_old": 0.0796063176861064
+        },
+        {
+          "target_new": 13.0308837890625,
+          "target_true": 6.88709831237793,
+          "prompt": "Deutsche Bank formed in",
+          "p_new": 2.1915888189667075e-06,
+          "p_old": 0.0010208717984470023
+        },
+        {
+          "target_new": 11.091209411621094,
+          "target_true": 4.456289291381836,
+          "prompt": "Einst\u00fcrzende Neubauten, that was started in",
+          "p_new": 1.5245755650917765e-05,
+          "p_old": 0.011605347550280788
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 10.473112106323242,
+          "target_true": 8.147016525268555,
+          "prompt": "Rolo Tomassi was created in",
+          "p_new": 2.8286890147348457e-05,
+          "p_old": 0.00028959808059089297
+        },
+        {
+          "target_new": 9.145000457763672,
+          "target_true": 6.873425006866455,
+          "prompt": "Living in a Box started in",
+          "p_new": 0.00010675218285612449,
+          "p_old": 0.0010349263576073205
+        },
+        {
+          "target_new": 9.822585105895996,
+          "target_true": 8.30833911895752,
+          "prompt": "In the Nursery was founded in",
+          "p_new": 5.421325588510414e-05,
+          "p_old": 0.0002464530327967159
+        },
+        {
+          "target_new": 10.714868545532227,
+          "target_true": 6.376832008361816,
+          "prompt": "Cabaret Voltaire was founded in",
+          "p_new": 2.221220721788485e-05,
+          "p_old": 0.0017005016072371899
+        },
+        {
+          "target_new": 9.848271369934082,
+          "target_true": 7.771819591522217,
+          "prompt": "Rolo Tomassi, that was started in",
+          "p_new": 5.2838452253259525e-05,
+          "p_old": 0.0004214457096602336
+        },
+        {
+          "target_new": 7.773194313049316,
+          "target_true": 7.596596717834473,
+          "prompt": "Bring Me the Horizon was created in",
+          "p_new": 0.00042086673722477655,
+          "p_old": 0.0005021575123660446
+        },
+        {
+          "target_new": 7.570881366729736,
+          "target_true": 6.937772750854492,
+          "prompt": "Thompson Twins originated in",
+          "p_new": 0.0005152381346834312,
+          "p_old": 0.0009704285781961397
+        },
+        {
+          "target_new": 9.502230644226074,
+          "target_true": 7.867805480957031,
+          "prompt": "In the Nursery, that originated in",
+          "p_new": 7.468504817004392e-05,
+          "p_old": 0.0003828736644785457
+        },
+        {
+          "target_new": 9.599231719970703,
+          "target_true": 7.148439884185791,
+          "prompt": "Babybird started in",
+          "p_new": 6.778079112021494e-05,
+          "p_old": 0.0007860895158375268
+        },
+        {
+          "target_new": 9.069189071655273,
+          "target_true": 6.78506326675415,
+          "prompt": "Heaven 17 originated in",
+          "p_new": 0.00011515988720832357,
+          "p_old": 0.0011305361760046218
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 100.0
+      }
+    }
+  },
+  "seeds": {
+    "15719": 15751,
+    "3799": 3831
+  },
+  "edit_seconds": [
+    3.870874976000323,
+    4.699160964999919
+  ],
+  "retention": {
+    "all_edits_hold": false,
+    "final_held": {
+      "3799": false,
+      "15719": true
+    },
+    "eligible_prior_case_ids": [
+      3799
+    ],
+    "lost_prior_case_ids": [
+      3799
+    ],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": true,
+    "double_hold": false
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 19.772220122999897,
+  "completed_at_utc": "2026-11-28T07:51:21.948581+00:00"
+}

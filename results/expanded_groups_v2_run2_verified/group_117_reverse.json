@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      11517,
+      1298
+    ],
+    "group_id": "group_117",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "distinct"
+      }
+    ],
+    "relation_ids": [
+      "P463",
+      "P36"
+    ],
+    "size": 2,
+    "subject": "Poland"
+  },
+  "order": "reverse",
+  "edit_order": [
+    1298,
+    11517
+  ],
+  "facts": {
+    "11517": {
+      "case_id": 11517,
+      "requested_rewrite": {
+        "prompt": "{} is affiliated with",
+        "relation_id": "P463",
+        "target_new": {
+          "str": "FIFA",
+          "id": "Q253414"
+        },
+        "target_true": {
+          "str": "NATO",
+          "id": "Q7184"
+        },
+        "subject": "Poland"
+      },
+      "prompts": {
+        "rewrite": [
+          "Poland is affiliated with"
+        ],
+        "paraphrase": [
+          "References\n\nCategory:Discovery Networks\nCategory:Television channels and stations established in 2001 Poland is a member of",
+          "Wahba, J. Poland is affiliated with the"
+        ],
+        "neighborhood": [
+          "Greece is affiliated with",
+          "Latvia is a part of the",
+          "Netherlands is a part of the",
+          "Norway belongs to the organization of",
+          "United States of America is affiliated with the",
+          "United Kingdom is a part of the",
+          "Bulgaria is a part of the",
+          "Italy is a part of the",
+          "Hungary is affiliated with",
+          "France belongs to the organization of"
+        ],
+        "attribute": [
+          "Bangladesh Football Federation belongs to the organization of",
+          "Football Federation of Sri Lanka is affiliated with the",
+          "Uruguayan Football Association is a member of",
+          "National Autonomous Federation of Football of Honduras is affiliated with",
+          "Israel Football Association is affiliated with",
+          "Venezuelan Football Federation is a part of the",
+          "Turkish Football Federation is a part of the",
+          "Football Association of Zambia is a member of",
+          "Football Association of Serbia is affiliated with the",
+          "Football Association of Serbia is affiliated with"
+        ]
+      }
+    },
+    "1298": {
+      "case_id": 1298,
+      "requested_rewrite": {
+        "prompt": "The capital of {} is",
+        "relation_id": "P36",
+        "target_new": {
+          "str": "Jerusalem",
+          "id": "Q1218"
+        },
+        "target_true": {
+          "str": "Warsaw",
+          "id": "Q270"
+        },
+        "subject": "Poland"
+      },
+      "prompts": {
+        "rewrite": [
+          "The capital of Poland is"
+        ],
+        "paraphrase": [
+          "Zeus, impressed with his pluck, decides to pardon Clio. Poland's capital is",
+          "The biological and cultural evolution of cooperation. Poland's capital,"
+        ],
+        "neighborhood": [
+          "The capital of Masovian Voivodeship is",
+          "Second Polish Republic, which has the capital",
+          "Duchy of Warsaw, which has the capital",
+          "Warsaw Voivodeship's capital city is",
+          "Warsaw Voivodeship, which has the capital",
+          "Warsaw Voivodeship's capital city,",
+          "The capital city of Polish People's Republic is",
+          "The capital of Masovian Voivodeship is",
+          "Masovian Voivodeship's capital is",
+          "Varshavskij County's capital is"
+        ],
+        "attribute": [
+          "Israel's capital,",
+          "Israel, which has the capital city",
+          "Yehud Medinata's capital is",
+          "Kingdom of Jerusalem's capital city,",
+          "Yehud Medinata, which has the capital city",
+          "Israel, which has the capital",
+          "Kingdom of Israel's capital is",
+          "Mutasarrifate of Jerusalem's capital city is",
+          "Mandatory Palestine, which has the capital city",
+          "Mandatory Palestine's capital is"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "11517": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 7.455772876739502,
+              "target_true": 2.3690121173858643,
+              "prompt": "Poland is affiliated with",
+              "p_new": 0.0005780946914108932,
+              "p_old": 0.09357311989181369
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 10.187819480895996,
+              "target_true": 4.677529811859131,
+              "prompt": "References\n\nCategory:Discovery Networks\nCategory:Television channels and stations established in 2001 Poland is a member of",
+              "p_new": 3.762584107862204e-05,
+              "p_old": 0.00930196312993195
+            },
+            {
+              "target_new": 10.411782264709473,
+              "target_true": 6.135158538818359,
+              "prompt": "Wahba, J. Poland is affiliated with the",
+              "p_new": 3.0076023511591984e-05,
+              "p_old": 0.0021653818935836464
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.959829807281494,
+              "target_true": 2.8096442222595215,
+              "prompt": "Greece is affiliated with",
+              "p_new": 0.0009492581176133558,
+              "p_old": 0.0602264157992921
+            },
+            {
+              "target_new": 11.307084083557129,
+              "target_true": 4.029675483703613,
+              "prompt": "Latvia is a part of the",
+              "p_new": 1.2285583163552545e-05,
+              "p_old": 0.017780098949402703
+            },
+            {
+              "target_new": 8.940305709838867,
+              "target_true": 6.1265764236450195,
+              "prompt": "Netherlands is a part of the",
+              "p_new": 0.00013100098576878635,
+              "p_old": 0.002184045422112869
+            },
+            {
+              "target_new": 10.01382827758789,
+              "target_true": 5.124042987823486,
+              "prompt": "Norway belongs to the organization of",
+              "p_new": 4.477644770793953e-05,
+              "p_old": 0.005951910682743188
+            },
+            {
+              "target_new": 7.769218444824219,
+              "target_true": 5.522783279418945,
+              "prompt": "United States of America is affiliated with the",
+              "p_new": 0.00042254337875657536,
+              "p_old": 0.003994714049512331
+            },
+            {
+              "target_new": 10.690832138061523,
+              "target_true": 5.5556864738464355,
+              "prompt": "United Kingdom is a part of the",
+              "p_new": 2.275257714096618e-05,
+              "p_old": 0.003865414052944183
+            },
+            {
+              "target_new": 11.158388137817383,
+              "target_true": 4.260401248931885,
+              "prompt": "Bulgaria is a part of the",
+              "p_new": 1.4255209518425783e-05,
+              "p_old": 0.014116636988104413
+            },
+            {
+              "target_new": 9.848094940185547,
+              "target_true": 5.375723361968994,
+              "prompt": "Italy is a part of the",
+              "p_new": 5.284777535051522e-05,
+              "p_old": 0.004627570114317815
+            },
+            {
+              "target_new": 8.28959846496582,
+              "target_true": 2.2266287803649902,
+              "prompt": "Hungary is affiliated with",
+              "p_new": 0.00025111527408277936,
+              "p_old": 0.1078915438148703
+            },
+            {
+              "target_new": 10.367244720458984,
+              "target_true": 5.83852481842041,
+              "prompt": "France belongs to the organization of",
+              "p_new": 3.1445812848342205e-05,
+              "p_old": 0.0029131368634835175
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 4.290611267089844,
+              "target_true": 12.770057678222656,
+              "prompt": "Bangladesh Football Federation belongs to the organization of",
+              "p_new": 0.013696550487445511,
+              "p_old": 2.8446865328751052e-06
+            },
+            {
+              "target_new": 4.107606410980225,
+              "target_true": 11.773674011230469,
+              "prompt": "Football Federation of Sri Lanka is affiliated with the",
+              "p_new": 0.01644709503503358,
+              "p_old": 7.704746339870628e-06
+            },
+            {
+              "target_new": 1.6618597507476807,
+              "target_true": 9.583941459655762,
+              "prompt": "Uruguayan Football Association is a member of",
+              "p_new": 0.1897856976016342,
+              "p_old": 6.882514090417932e-05
+            },
+            {
+              "target_new": 2.714766263961792,
+              "target_true": 10.294353485107422,
+              "prompt": "National Autonomous Federation of Football of Honduras is affiliated with",
+              "p_new": 0.06622042929911198,
+              "p_old": 3.382354213332814e-05
+            },
+            {
+              "target_new": 2.254486560821533,
+              "target_true": 10.694408416748047,
+              "prompt": "Israel Football Association is affiliated with",
+              "p_new": 0.10492740374816266,
+              "p_old": 2.267135291108445e-05
+            },
+            {
+              "target_new": 3.277571201324463,
+              "target_true": 10.833454132080078,
+              "prompt": "Venezuelan Football Federation is a part of the",
+              "p_new": 0.03771975934310969,
+              "p_old": 1.972834483784421e-05
+            },
+            {
+              "target_new": 3.412308692932129,
+              "target_true": 9.162955284118652,
+              "prompt": "Turkish Football Federation is a part of the",
+              "p_new": 0.03296500637822524,
+              "p_old": 0.00010485257058629385
+            },
+            {
+              "target_new": 2.843834400177002,
+              "target_true": 10.588053703308105,
+              "prompt": "Football Association of Zambia is a member of",
+              "p_new": 0.058202067537466096,
+              "p_old": 2.52154488089936e-05
+            },
+            {
+              "target_new": 3.1327905654907227,
+              "target_true": 8.774001121520996,
+              "prompt": "Football Association of Serbia is affiliated with the",
+              "p_new": 0.04359596993901413,
+              "p_old": 0.00015470335375665332
+            },
+            {
+              "target_new": 2.40421986579895,
+              "target_true": 9.384716033935547,
+              "prompt": "Football Association of Serbia is affiliated with",
+              "p_new": 0.09033594228544183,
+              "p_old": 8.399812893641362e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "1298": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 8.322067260742188,
+              "target_true": 0.8519691824913025,
+              "prompt": "The capital of Poland is",
+              "p_new": 0.000243092808211674,
+              "p_old": 0.4265741020936321
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 9.041257858276367,
+              "target_true": 6.277380466461182,
+              "prompt": "Zeus, impressed with his pluck, decides to pardon Clio. Poland's capital is",
+              "p_new": 0.00011842178490888162,
+              "p_old": 0.0018783144631229311
+            },
+            {
+              "target_new": 9.303666114807129,
+              "target_true": 0.1449686735868454,
+              "prompt": "The biological and cultural evolution of cooperation. Poland's capital,",
+              "p_new": 9.108967338832041e-05,
+              "p_old": 0.86504939158093
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.934774398803711,
+              "target_true": 6.964249134063721,
+              "prompt": "The capital of Masovian Voivodeship is",
+              "p_new": 0.0001317276006809379,
+              "p_old": 0.0009450722918694349
+            },
+            {
+              "target_new": 7.535641670227051,
+              "target_true": 0.933290958404541,
+              "prompt": "Second Polish Republic, which has the capital",
+              "p_new": 0.0005337186821738291,
+              "p_old": 0.39325738476920663
+            },
+            {
+              "target_new": 8.217617988586426,
+              "target_true": 1.9171125888824463,
+              "prompt": "Duchy of Warsaw, which has the capital",
+              "p_new": 0.0002698571026299874,
+              "p_old": 0.14703088843294784
+            },
+            {
+              "target_new": 10.797632217407227,
+              "target_true": 4.065250396728516,
+              "prompt": "Warsaw Voivodeship's capital city is",
+              "p_new": 2.0447862229240733e-05,
+              "p_old": 0.017158692255239125
+            },
+            {
+              "target_new": 11.643380165100098,
+              "target_true": 5.9297075271606445,
+              "prompt": "Warsaw Voivodeship, which has the capital",
+              "p_new": 8.77696251574412e-06,
+              "p_old": 0.0026592596362668406
+            },
+            {
+              "target_new": 11.220865249633789,
+              "target_true": 1.8663963079452515,
+              "prompt": "Warsaw Voivodeship's capital city,",
+              "p_new": 1.3391836546057944e-05,
+              "p_old": 0.1546800780048017
+            },
+            {
+              "target_new": 8.829545021057129,
+              "target_true": 2.1572022438049316,
+              "prompt": "The capital city of Polish People's Republic is",
+              "p_new": 0.00014634480814572405,
+              "p_old": 0.11564822438132794
+            },
+            {
+              "target_new": 8.934776306152344,
+              "target_true": 6.9642510414123535,
+              "prompt": "The capital of Masovian Voivodeship is",
+              "p_new": 0.00013172734943071843,
+              "p_old": 0.0009450704892888102
+            },
+            {
+              "target_new": 8.531991004943848,
+              "target_true": 6.183023452758789,
+              "prompt": "Masovian Voivodeship's capital is",
+              "p_new": 0.00019706222720955493,
+              "p_old": 0.002064177467467815
+            },
+            {
+              "target_new": 11.021474838256836,
+              "target_true": 8.088171005249023,
+              "prompt": "Varshavskij County's capital is",
+              "p_new": 1.6346858197556025e-05,
+              "p_old": 0.00030715102130779524
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 1.6997500658035278,
+              "target_true": 9.545830726623535,
+              "prompt": "Israel's capital,",
+              "p_new": 0.1827291886188581,
+              "p_old": 7.149874029841252e-05
+            },
+            {
+              "target_new": 1.802504539489746,
+              "target_true": 13.805431365966797,
+              "prompt": "Israel, which has the capital city",
+              "p_new": 0.16488540863254064,
+              "p_old": 1.0101301581417357e-06
+            },
+            {
+              "target_new": 4.758317947387695,
+              "target_true": 8.187027931213379,
+              "prompt": "Yehud Medinata's capital is",
+              "p_new": 0.00858002932730154,
+              "p_old": 0.00027823960382684524
+            },
+            {
+              "target_new": 1.772562026977539,
+              "target_true": 10.7877836227417,
+              "prompt": "Kingdom of Jerusalem's capital city,",
+              "p_new": 0.16989714966711794,
+              "p_old": 2.0650239867983888e-05
+            },
+            {
+              "target_new": 3.5570425987243652,
+              "target_true": 9.002036094665527,
+              "prompt": "Yehud Medinata, which has the capital city",
+              "p_new": 0.028523054219504206,
+              "p_old": 0.00012315878567824626
+            },
+            {
+              "target_new": 2.7473223209381104,
+              "target_true": 11.618989944458008,
+              "prompt": "Israel, which has the capital",
+              "p_new": 0.064099268887095,
+              "p_old": 8.993666555050057e-06
+            },
+            {
+              "target_new": 2.0518290996551514,
+              "target_true": 9.86680793762207,
+              "prompt": "Kingdom of Israel's capital is",
+              "p_new": 0.12849964983691198,
+              "p_old": 5.186803063613194e-05
+            },
+            {
+              "target_new": 8.504786491394043,
+              "target_true": 13.141345024108887,
+              "prompt": "Mutasarrifate of Jerusalem's capital city is",
+              "p_new": 0.00020249679648012643,
+              "p_old": 1.9623947405655516e-06
+            },
+            {
+              "target_new": 3.628384590148926,
+              "target_true": 14.111919403076172,
+              "prompt": "Mandatory Palestine, which has the capital city",
+              "p_new": 0.026559053530679604,
+              "p_old": 7.434833963211146e-07
+            },
+            {
+              "target_new": 2.6546101570129395,
+              "target_true": 11.552543640136719,
+              "prompt": "Mandatory Palestine's capital is",
+              "p_new": 0.07032624951709764,
+              "p_old": 9.61156362465724e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        1298
+      ],
+      "evaluations": {
+        "11517": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 7.713250160217285,
+              "target_true": 2.342245578765869,
+              "prompt": "Poland is affiliated with",
+              "p_new": 0.00044686672587259,
+              "p_old": 0.09611156962185212
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 10.17158317565918,
+              "target_true": 4.41843843460083,
+              "prompt": "References\n\nCategory:Discovery Networks\nCategory:Television channels and stations established in 2001 Poland is a member of",
+              "p_new": 3.824173208644759e-05,
+              "p_old": 0.01205303920576205
+            },
+            {
+              "target_new": 10.233880043029785,
+              "target_true": 5.996617317199707,
+              "prompt": "Wahba, J. Poland is affiliated with the",
+              "p_new": 3.5932080903415526e-05,
+              "p_old": 0.0024871512066388162
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.007641792297363,
+              "target_true": 2.8123085498809814,
+              "prompt": "Greece is affiliated with",
+              "p_new": 0.0009049401108618157,
+              "p_old": 0.06006616646929068
+            },
+            {
+              "target_new": 11.343757629394531,
+              "target_true": 4.011236667633057,
+              "prompt": "Latvia is a part of the",
+              "p_new": 1.1843188930877235e-05,
+              "p_old": 0.018110984114245436
+            },
+            {
+              "target_new": 8.952062606811523,
+              "target_true": 6.104552268981934,
+              "prompt": "Netherlands is a part of the",
+              "p_new": 0.00012946983907953177,
+              "p_old": 0.002232680786756856
+            },
+            {
+              "target_new": 10.08029556274414,
+              "target_true": 5.203862190246582,
+              "prompt": "Norway belongs to the organization of",
+              "p_new": 4.1897032256542945e-05,
+              "p_old": 0.005495299490496611
+            },
+            {
+              "target_new": 7.832088470458984,
+              "target_true": 5.509336948394775,
+              "prompt": "United States of America is affiliated with the",
+              "p_new": 0.0003967959177801249,
+              "p_old": 0.0040487910508242905
+            },
+            {
+              "target_new": 10.685249328613281,
+              "target_true": 5.531520366668701,
+              "prompt": "United Kingdom is a part of the",
+              "p_new": 2.2879955677808302e-05,
+              "p_old": 0.003959963912870735
+            },
+            {
+              "target_new": 11.175907135009766,
+              "target_true": 4.13048791885376,
+              "prompt": "Bulgaria is a part of the",
+              "p_new": 1.4007647394655091e-05,
+              "p_old": 0.016075033596860567
+            },
+            {
+              "target_new": 9.83994197845459,
+              "target_true": 5.3296637535095215,
+              "prompt": "Italy is a part of the",
+              "p_new": 5.328040244014776e-05,
+              "p_old": 0.004845699087660314
+            },
+            {
+              "target_new": 8.377096176147461,
+              "target_true": 2.3341305255889893,
+              "prompt": "Hungary is affiliated with",
+              "p_new": 0.00023007707967846638,
+              "p_old": 0.09689469336801532
+            },
+            {
+              "target_new": 10.402143478393555,
+              "target_true": 5.855252265930176,
+              "prompt": "France belongs to the organization of",
+              "p_new": 3.0367321499704604e-05,
+              "p_old": 0.0028648128152813867
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 4.309431076049805,
+              "target_true": 12.88953685760498,
+              "prompt": "Bangladesh Football Federation belongs to the organization of",
+              "p_new": 0.013441194436806423,
+              "p_old": 2.5243250002595107e-06
+            },
+            {
+              "target_new": 4.147375106811523,
+              "target_true": 11.958745002746582,
+              "prompt": "Football Federation of Sri Lanka is affiliated with the",
+              "p_new": 0.015805850750776694,
+              "p_old": 6.402993114736317e-06
+            },
+            {
+              "target_new": 1.6461759805679321,
+              "target_true": 9.63705062866211,
+              "prompt": "Uruguayan Football Association is a member of",
+              "p_new": 0.19278571717970913,
+              "p_old": 6.526526265700256e-05
+            },
+            {
+              "target_new": 2.7212703227996826,
+              "target_true": 10.365704536437988,
+              "prompt": "National Autonomous Federation of Football of Honduras is affiliated with",
+              "p_new": 0.06579112535313701,
+              "p_old": 3.1494282503331004e-05
+            },
+            {
+              "target_new": 2.2215285301208496,
+              "target_true": 10.614532470703125,
+              "prompt": "Israel Football Association is affiliated with",
+              "p_new": 0.10844322334349588,
+              "p_old": 2.455653689078569e-05
+            },
+            {
+              "target_new": 3.2712934017181396,
+              "target_true": 10.859339714050293,
+              "prompt": "Venezuelan Football Federation is a part of the",
+              "p_new": 0.03795730127364148,
+              "p_old": 1.9224218106741192e-05
+            },
+            {
+              "target_new": 3.3989040851593018,
+              "target_true": 9.156975746154785,
+              "prompt": "Turkish Football Federation is a part of the",
+              "p_new": 0.033409864270619524,
+              "p_old": 0.00010548141874975933
+            },
+            {
+              "target_new": 2.855717182159424,
+              "target_true": 10.64177417755127,
+              "prompt": "Football Association of Zambia is a member of",
+              "p_new": 0.057514557911198715,
+              "p_old": 2.3896604564480342e-05
+            },
+            {
+              "target_new": 3.0819180011749268,
+              "target_true": 8.95200252532959,
+              "prompt": "Football Association of Serbia is affiliated with the",
+              "p_new": 0.04587119122258569,
+              "p_old": 0.00012947761805301314
+            },
+            {
+              "target_new": 2.3587794303894043,
+              "target_true": 9.489171981811523,
+              "prompt": "Football Association of Serbia is affiliated with",
+              "p_new": 0.09453554001314604,
+              "p_old": 7.566673078204613e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "1298": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.004665679298341274,
+              "target_true": 8.023716926574707,
+              "prompt": "The capital of Poland is",
+              "p_new": 0.9953451880755199,
+              "p_old": 0.0003276000915349426
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 6.283311367034912,
+              "target_true": 5.289076328277588,
+              "prompt": "Zeus, impressed with his pluck, decides to pardon Clio. Poland's capital is",
+              "p_new": 0.001867207336984625,
+              "p_old": 0.005046419342474298
+            },
+            {
+              "target_new": 5.2423834800720215,
+              "target_true": 0.08141190558671951,
+              "prompt": "The biological and cultural evolution of cooperation. Poland's capital,",
+              "p_new": 0.005287638822690545,
+              "p_old": 0.9218139129328795
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.516966819763184,
+              "target_true": 6.917529106140137,
+              "prompt": "The capital of Masovian Voivodeship is",
+              "p_new": 0.00020004527945541,
+              "p_old": 0.0009902737814582792
+            },
+            {
+              "target_new": 6.009620189666748,
+              "target_true": 0.7716955542564392,
+              "prompt": "Second Polish Republic, which has the capital",
+              "p_new": 0.0024550204454942977,
+              "p_old": 0.46222866971557736
+            },
+            {
+              "target_new": 5.523354530334473,
+              "target_true": 1.789827823638916,
+              "prompt": "Duchy of Warsaw, which has the capital",
+              "p_new": 0.003992432717122923,
+              "p_old": 0.166988918736384
+            },
+            {
+              "target_new": 10.37470531463623,
+              "target_true": 3.868704080581665,
+              "prompt": "Warsaw Voivodeship's capital city is",
+              "p_new": 3.1212081372085053e-05,
+              "p_old": 0.020885417713603315
+            },
+            {
+              "target_new": 11.376509666442871,
+              "target_true": 5.907839775085449,
+              "prompt": "Warsaw Voivodeship, which has the capital",
+              "p_new": 1.14615836549033e-05,
+              "p_old": 0.0027180521539402736
+            },
+            {
+              "target_new": 10.68233871459961,
+              "target_true": 1.7424802780151367,
+              "prompt": "Warsaw Voivodeship's capital city,",
+              "p_new": 2.2946647407295e-05,
+              "p_old": 0.17508560066142337
+            },
+            {
+              "target_new": 3.653809070587158,
+              "target_true": 0.5906604528427124,
+              "prompt": "The capital city of Polish People's Republic is",
+              "p_new": 0.025892315048308433,
+              "p_old": 0.5539612985751143
+            },
+            {
+              "target_new": 8.516963958740234,
+              "target_true": 6.9175262451171875,
+              "prompt": "The capital of Masovian Voivodeship is",
+              "p_new": 0.00020004585179036414,
+              "p_old": 0.000990276614658347
+            },
+            {
+              "target_new": 8.43946361541748,
+              "target_true": 6.138054370880127,
+              "prompt": "Masovian Voivodeship's capital is",
+              "p_new": 0.00021616606733642266,
+              "p_old": 0.0021591203817892114
+            },
+            {
+              "target_new": 10.912578582763672,
+              "target_true": 8.055669784545898,
+              "prompt": "Varshavskij County's capital is",
+              "p_new": 1.8227509706185594e-05,
+              "p_old": 0.0003172978026509219
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 1.612898349761963,
+              "target_true": 9.606755256652832,
+              "prompt": "Israel's capital,",
+              "p_new": 0.19930910861702344,
+              "p_old": 6.727275336860341e-05
+            },
+            {
+              "target_new": 1.739701747894287,
+              "target_true": 13.921768188476562,
+              "prompt": "Israel, which has the capital city",
+              "p_new": 0.17557275775350145,
+              "p_old": 8.991929586894846e-07
+            },
+            {
+              "target_new": 4.697841644287109,
+              "target_true": 8.25413990020752,
+              "prompt": "Yehud Medinata's capital is",
+              "p_new": 0.00911492914540991,
+              "p_old": 0.0002601792086854172
+            },
+            {
+              "target_new": 1.553462028503418,
+              "target_true": 11.11339282989502,
+              "prompt": "Kingdom of Jerusalem's capital city,",
+              "p_new": 0.2115144357890198,
+              "p_old": 1.4911276340078902e-05
+            },
+            {
+              "target_new": 3.541365623474121,
+              "target_true": 9.057340621948242,
+              "prompt": "Yehud Medinata, which has the capital city",
+              "p_new": 0.028973732843235702,
+              "p_old": 0.00011653246876440894
+            },
+            {
+              "target_new": 2.650275707244873,
+              "target_true": 11.754678726196289,
+              "prompt": "Israel, which has the capital",
+              "p_new": 0.07063173669414077,
+              "p_old": 7.852499052496367e-06
+            },
+            {
+              "target_new": 1.3714321851730347,
+              "target_true": 10.29886531829834,
+              "prompt": "Kingdom of Israel's capital is",
+              "p_new": 0.25374329181489647,
+              "p_old": 3.367127970293602e-05
+            },
+            {
+              "target_new": 8.460992813110352,
+              "target_true": 13.29733657836914,
+              "prompt": "Mutasarrifate of Jerusalem's capital city is",
+              "p_new": 0.00021156192492045078,
+              "p_old": 1.6789590354177853e-06
+            },
+            {
+              "target_new": 3.5386247634887695,
+              "target_true": 14.158724784851074,
+              "prompt": "Mandatory Palestine, which has the capital city",
+              "p_new": 0.029053254717590918,
+              "p_old": 7.094862042579986e-07
+            },
+            {
+              "target_new": 2.544037103652954,
+              "target_true": 11.612184524536133,
+              "prompt": "Mandatory Palestine's capital is",
+              "p_new": 0.07854864978639897,
+              "p_old": 9.055080971012007e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        1298,
+        11517
+      ],
+      "evaluations": {
+        "11517": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.013560323975980282,
+              "target_true": 13.187363624572754,
+              "prompt": "Poland is affiliated with",
+              "p_new": 0.986531203038116,
+              "p_old": 1.874134463527886e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.22033734619617462,
+              "target_true": 9.387299537658691,
+              "prompt": "References\n\nCategory:Discovery Networks\nCategory:Television channels and stations established in 2001 Poland is a member of",
+              "p_new": 0.8022481169577979,
+              "p_old": 8.378139953871868e-05
+            },
+            {
+              "target_new": 0.2834532558917999,
+              "target_true": 13.300679206848145,
+              "prompt": "Wahba, J. Poland is affiliated with the",
+              "p_new": 0.753178327966482,
+              "p_old": 1.6733562683320472e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 0.5863726139068604,
+              "target_true": 5.588846683502197,
+              "prompt": "Greece is affiliated with",
+              "p_new": 0.5563416951315422,
+              "p_old": 0.0037393380189524165
+            },
+            {
+              "target_new": 5.073516845703125,
+              "target_true": 5.624833583831787,
+              "prompt": "Latvia is a part of the",
+              "p_new": 0.0062603646441452745,
+              "p_old": 0.0036071633763767093
+            },
+            {
+              "target_new": 5.968904495239258,
+              "target_true": 5.738121032714844,
+              "prompt": "Netherlands is a part of the",
+              "p_new": 0.0025570411358991872,
+              "p_old": 0.0032208143981802425
+            },
+            {
+              "target_new": 5.302980422973633,
+              "target_true": 5.995504379272461,
+              "prompt": "Norway belongs to the organization of",
+              "p_new": 0.004976738993713547,
+              "p_old": 0.002489920792450152
+            },
+            {
+              "target_new": 6.809103012084961,
+              "target_true": 5.549650192260742,
+              "prompt": "United States of America is affiliated with the",
+              "p_new": 0.0011036824459019926,
+              "p_old": 0.0038888173439789032
+            },
+            {
+              "target_new": 9.669575691223145,
+              "target_true": 5.300719738006592,
+              "prompt": "United Kingdom is a part of the",
+              "p_new": 6.317665605747502e-05,
+              "p_old": 0.00498800255963154
+            },
+            {
+              "target_new": 6.41243839263916,
+              "target_true": 5.908822059631348,
+              "prompt": "Bulgaria is a part of the",
+              "p_new": 0.0016410181729202983,
+              "p_old": 0.0027153835641863227
+            },
+            {
+              "target_new": 4.594991207122803,
+              "target_true": 5.4595723152160645,
+              "prompt": "Italy is a part of the",
+              "p_new": 0.010102309608956103,
+              "p_old": 0.004255375314958301
+            },
+            {
+              "target_new": 0.16277965903282166,
+              "target_true": 7.344162464141846,
+              "prompt": "Hungary is affiliated with",
+              "p_new": 0.8497784087841529,
+              "p_old": 0.0006463544863906893
+            },
+            {
+              "target_new": 10.253540992736816,
+              "target_true": 5.771147727966309,
+              "prompt": "France belongs to the organization of",
+              "p_new": 3.5232521602600085e-05,
+              "p_old": 0.00311617893522828
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 3.5088822841644287,
+              "target_true": 13.298840522766113,
+              "prompt": "Bangladesh Football Federation belongs to the organization of",
+              "p_new": 0.029930349373525414,
+              "p_old": 1.6764358722078926e-06
+            },
+            {
+              "target_new": 3.6679794788360596,
+              "target_true": 11.935571670532227,
+              "prompt": "Football Federation of Sri Lanka is affiliated with the",
+              "p_new": 0.025527997732351308,
+              "p_old": 6.55310437291752e-06
+            },
+            {
+              "target_new": 1.2790403366088867,
+              "target_true": 9.833955764770508,
+              "prompt": "Uruguayan Football Association is a member of",
+              "p_new": 0.27830425074252557,
+              "p_old": 5.360030686715016e-05
+            },
+            {
+              "target_new": 2.3750994205474854,
+              "target_true": 10.56861400604248,
+              "prompt": "National Autonomous Federation of Football of Honduras is affiliated with",
+              "p_new": 0.09300524211890517,
+              "p_old": 2.571042500636993e-05
+            },
+            {
+              "target_new": 1.942007303237915,
+              "target_true": 10.604422569274902,
+              "prompt": "Israel Football Association is affiliated with",
+              "p_new": 0.1434157816911384,
+              "p_old": 2.4806060261195576e-05
+            },
+            {
+              "target_new": 2.3497350215911865,
+              "target_true": 10.815168380737305,
+              "prompt": "Venezuelan Football Federation is a part of the",
+              "p_new": 0.09539443633280317,
+              "p_old": 2.0092410912508467e-05
+            },
+            {
+              "target_new": 3.1559226512908936,
+              "target_true": 9.27206802368164,
+              "prompt": "Turkish Football Federation is a part of the",
+              "p_new": 0.04259907876007935,
+              "p_old": 9.40138897152786e-05
+            },
+            {
+              "target_new": 2.254981517791748,
+              "target_true": 10.991362571716309,
+              "prompt": "Football Association of Zambia is a member of",
+              "p_new": 0.10487548204887444,
+              "p_old": 1.6846585347262134e-05
+            },
+            {
+              "target_new": 1.3173147439956665,
+              "target_true": 10.752264022827148,
+              "prompt": "Football Association of Serbia is affiliated with the",
+              "p_new": 0.2678535926049405,
+              "p_old": 2.1396910343597752e-05
+            },
+            {
+              "target_new": 0.7763640284538269,
+              "target_true": 11.40732192993164,
+              "prompt": "Football Association of Serbia is affiliated with",
+              "p_new": 0.4600757963247473,
+              "p_old": 1.1113811654581815e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 50.0
+          }
+        },
+        "1298": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 1.4671030044555664,
+              "target_true": 7.989890098571777,
+              "prompt": "The capital of Poland is",
+              "p_new": 0.23059254405962398,
+              "p_old": 0.0003388713237594672
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 7.702159881591797,
+              "target_true": 7.935028553009033,
+              "prompt": "Zeus, impressed with his pluck, decides to pardon Clio. Poland's capital is",
+              "p_new": 0.0004518501852696139,
+              "p_old": 0.0003579817491077579
+            },
+            {
+              "target_new": 4.742148399353027,
+              "target_true": 2.0562710762023926,
+              "prompt": "The biological and cultural evolution of cooperation. Poland's capital,",
+              "p_new": 0.00871989223636158,
+              "p_old": 0.12793012325432032
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.503904342651367,
+              "target_true": 7.037562370300293,
+              "prompt": "The capital of Masovian Voivodeship is",
+              "p_new": 0.00020267550758783752,
+              "p_old": 0.0008782648394923402
+            },
+            {
+              "target_new": 5.815967082977295,
+              "target_true": 1.5803393125534058,
+              "prompt": "Second Polish Republic, which has the capital",
+              "p_new": 0.0029795974157489236,
+              "p_old": 0.205905220124299
+            },
+            {
+              "target_new": 4.001400947570801,
+              "target_true": 2.249241828918457,
+              "prompt": "Duchy of Warsaw, which has the capital",
+              "p_new": 0.018289997604166754,
+              "p_old": 0.10547916550657112
+            },
+            {
+              "target_new": 11.360105514526367,
+              "target_true": 6.186637878417969,
+              "prompt": "Warsaw Voivodeship's capital city is",
+              "p_new": 1.1651151815850492e-05,
+              "p_old": 0.0020567301185165933
+            },
+            {
+              "target_new": 11.967607498168945,
+              "target_true": 6.984275817871094,
+              "prompt": "Warsaw Voivodeship, which has the capital",
+              "p_new": 6.346497334148373e-06,
+              "p_old": 0.0009263338882245685
+            },
+            {
+              "target_new": 11.234175682067871,
+              "target_true": 2.417628765106201,
+              "prompt": "Warsaw Voivodeship's capital city,",
+              "p_new": 1.3214766464471133e-05,
+              "p_old": 0.08913272169146412
+            },
+            {
+              "target_new": 5.255008697509766,
+              "target_true": 4.98834228515625,
+              "prompt": "The capital city of Polish People's Republic is",
+              "p_new": 0.005221300879465809,
+              "p_old": 0.006816955699496138
+            },
+            {
+              "target_new": 8.503905296325684,
+              "target_true": 7.037559986114502,
+              "prompt": "The capital of Masovian Voivodeship is",
+              "p_new": 0.00020267531430150353,
+              "p_old": 0.0008782669334413875
+            },
+            {
+              "target_new": 8.474098205566406,
+              "target_true": 6.147055149078369,
+              "prompt": "Masovian Voivodeship's capital is",
+              "p_new": 0.0002088074117776483,
+              "p_old": 0.0021397738158157632
+            },
+            {
+              "target_new": 10.937210083007812,
+              "target_true": 7.989184379577637,
+              "prompt": "Varshavskij County's capital is",
+              "p_new": 1.778402308888555e-05,
+              "p_old": 0.0003391105560946864
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 1.491594672203064,
+              "target_true": 9.632951736450195,
+              "prompt": "Israel's capital,",
+              "p_new": 0.22501354643707155,
+              "p_old": 6.553332694181013e-05
+            },
+            {
+              "target_new": 1.6352826356887817,
+              "target_true": 13.929770469665527,
+              "prompt": "Israel, which has the capital city",
+              "p_new": 0.19489727858739073,
+              "p_old": 8.920260777343655e-07
+            },
+            {
+              "target_new": 4.737068176269531,
+              "target_true": 8.279985427856445,
+              "prompt": "Yehud Medinata's capital is",
+              "p_new": 0.008764303949373936,
+              "p_old": 0.0002535408946421247
+            },
+            {
+              "target_new": 1.5570169687271118,
+              "target_true": 11.164852142333984,
+              "prompt": "Kingdom of Jerusalem's capital city,",
+              "p_new": 0.21076384954841776,
+              "p_old": 1.4163360954291816e-05
+            },
+            {
+              "target_new": 3.4966440200805664,
+              "target_true": 9.167713165283203,
+              "prompt": "Yehud Medinata, which has the capital city",
+              "p_new": 0.030298895475635364,
+              "p_old": 0.000104354879432201
+            },
+            {
+              "target_new": 2.4324467182159424,
+              "target_true": 11.598043441772461,
+              "prompt": "Israel, which has the capital",
+              "p_new": 0.08782169455880572,
+              "p_old": 9.184039276512495e-06
+            },
+            {
+              "target_new": 1.2947436571121216,
+              "target_true": 10.330880165100098,
+              "prompt": "Kingdom of Israel's capital is",
+              "p_new": 0.2739680851008849,
+              "p_old": 3.26103718560029e-05
+            },
+            {
+              "target_new": 8.538668632507324,
+              "target_true": 13.25940227508545,
+              "prompt": "Mutasarrifate of Jerusalem's capital city is",
+              "p_new": 0.00019575070285847865,
+              "p_old": 1.7438726183439133e-06
+            },
+            {
+              "target_new": 3.6621382236480713,
+              "target_true": 14.87109088897705,
+              "prompt": "Mandatory Palestine, which has the capital city",
+              "p_new": 0.025677549641748725,
+              "p_old": 3.479904190637112e-07
+            },
+            {
+              "target_new": 2.4762587547302246,
+              "target_true": 11.723039627075195,
+              "prompt": "Mandatory Palestine's capital is",
+              "p_new": 0.08405711634383828,
+              "p_old": 8.104917132483797e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 50.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "11517": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.02021636627614498,
+          "target_true": 12.082401275634766,
+          "prompt": "Poland is affiliated with",
+          "p_new": 0.9799866143119644,
+          "p_old": 5.658219588129873e-06
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.20919479429721832,
+          "target_true": 8.981056213378906,
+          "prompt": "References\n\nCategory:Discovery Networks\nCategory:Television channels and stations established in 2001 Poland is a member of",
+          "p_new": 0.8112371958718408,
+          "p_old": 0.00012576993743274877
+        },
+        {
+          "target_new": 0.9323245286941528,
+          "target_true": 12.950826644897461,
+          "prompt": "Wahba, J. Poland is affiliated with the",
+          "p_new": 0.3936376240973742,
+          "p_old": 2.374255496219152e-06
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 1.6920629739761353,
+          "target_true": 3.571866750717163,
+          "prompt": "Greece is affiliated with",
+          "p_new": 0.18413925739181747,
+          "p_old": 0.028103342747909404
+        },
+        {
+          "target_new": 6.79291296005249,
+          "target_true": 4.868354320526123,
+          "prompt": "Latvia is a part of the",
+          "p_new": 0.0011216965533135173,
+          "p_old": 0.007686003584085334
+        },
+        {
+          "target_new": 6.714301109313965,
+          "target_true": 6.024457931518555,
+          "prompt": "Netherlands is a part of the",
+          "p_new": 0.0012134337732046434,
+          "p_old": 0.002418862401120175
+        },
+        {
+          "target_new": 6.491992473602295,
+          "target_true": 5.945711135864258,
+          "prompt": "Norway belongs to the organization of",
+          "p_new": 0.0015155263515371736,
+          "p_old": 0.002617040615029514
+        },
+        {
+          "target_new": 7.179925918579102,
+          "target_true": 5.563321113586426,
+          "prompt": "United States of America is affiliated with the",
+          "p_new": 0.000761724269676936,
+          "p_old": 0.0038360153761554734
+        },
+        {
+          "target_new": 10.018890380859375,
+          "target_true": 5.435775279998779,
+          "prompt": "United Kingdom is a part of the",
+          "p_new": 4.455035743446288e-05,
+          "p_old": 0.00435785515321192
+        },
+        {
+          "target_new": 8.25269603729248,
+          "target_true": 5.1917619705200195,
+          "prompt": "Bulgaria is a part of the",
+          "p_new": 0.0002605551431296931,
+          "p_old": 0.005562197747356416
+        },
+        {
+          "target_new": 5.905941963195801,
+          "target_true": 5.423902988433838,
+          "prompt": "Italy is a part of the",
+          "p_new": 0.002723215403523228,
+          "p_old": 0.004409901221911156
+        },
+        {
+          "target_new": 0.9233659505844116,
+          "target_true": 3.8231425285339355,
+          "prompt": "Hungary is affiliated with",
+          "p_new": 0.39717990068980313,
+          "p_old": 0.02185900031477695
+        },
+        {
+          "target_new": 10.259987831115723,
+          "target_true": 5.789414882659912,
+          "prompt": "France belongs to the organization of",
+          "p_new": 3.5006113821490695e-05,
+          "p_old": 0.0030597719783914327
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 3.945206880569458,
+          "target_true": 13.110095977783203,
+          "prompt": "Bangladesh Football Federation belongs to the organization of",
+          "p_new": 0.01934721339309865,
+          "p_old": 2.0246859055975524e-06
+        },
+        {
+          "target_new": 3.834148645401001,
+          "target_true": 11.834189414978027,
+          "prompt": "Football Federation of Sri Lanka is affiliated with the",
+          "p_new": 0.021619736699624317,
+          "p_old": 7.252318007851379e-06
+        },
+        {
+          "target_new": 1.37843656539917,
+          "target_true": 9.783794403076172,
+          "prompt": "Uruguayan Football Association is a member of",
+          "p_new": 0.25197218730495546,
+          "p_old": 5.635754658185728e-05
+        },
+        {
+          "target_new": 2.461421012878418,
+          "target_true": 10.499369621276855,
+          "prompt": "National Autonomous Federation of Football of Honduras is affiliated with",
+          "p_new": 0.08531363301932744,
+          "p_old": 2.7553813213858427e-05
+        },
+        {
+          "target_new": 2.0292139053344727,
+          "target_true": 10.681769371032715,
+          "prompt": "Israel Football Association is affiliated with",
+          "p_new": 0.13143880389074994,
+          "p_old": 2.2959715653186e-05
+        },
+        {
+          "target_new": 2.68393611907959,
+          "target_true": 10.832193374633789,
+          "prompt": "Venezuelan Football Federation is a part of the",
+          "p_new": 0.06829381184450066,
+          "p_old": 1.9753233181286954e-05
+        },
+        {
+          "target_new": 3.2210357189178467,
+          "target_true": 9.262398719787598,
+          "prompt": "Turkish Football Federation is a part of the",
+          "p_new": 0.03991369747372178,
+          "p_old": 9.492734771971443e-05
+        },
+        {
+          "target_new": 2.4219040870666504,
+          "target_true": 10.87653636932373,
+          "prompt": "Football Association of Zambia is a member of",
+          "p_new": 0.08875246405015183,
+          "p_old": 1.8896452171299935e-05
+        },
+        {
+          "target_new": 2.093655824661255,
+          "target_true": 10.027164459228516,
+          "prompt": "Football Association of Serbia is affiliated with the",
+          "p_new": 0.12323578287236343,
+          "p_old": 4.4183265055504055e-05
+        },
+        {
+          "target_new": 1.3636112213134766,
+          "target_true": 10.640371322631836,
+          "prompt": "Football Association of Serbia is affiliated with",
+          "p_new": 0.2557355896190393,
+          "p_old": 2.393015155903284e-05
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 80.0
+      }
+    },
+    "1298": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.004665679298341274,
+          "target_true": 8.023716926574707,
+          "prompt": "The capital of Poland is",
+          "p_new": 0.9953451880755199,
+          "p_old": 0.0003276000915349426
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 6.283311367034912,
+          "target_true": 5.289076328277588,
+          "prompt": "Zeus, impressed with his pluck, decides to pardon Clio. Poland's capital is",
+          "p_new": 0.001867207336984625,
+          "p_old": 0.005046419342474298
+        },
+        {
+          "target_new": 5.2423834800720215,
+          "target_true": 0.08141190558671951,
+          "prompt": "The biological and cultural evolution of cooperation. Poland's capital,",
+          "p_new": 0.005287638822690545,
+          "p_old": 0.9218139129328795
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 8.516966819763184,
+          "target_true": 6.917529106140137,
+          "prompt": "The capital of Masovian Voivodeship is",
+          "p_new": 0.00020004527945541,
+          "p_old": 0.0009902737814582792
+        },
+        {
+          "target_new": 6.009620189666748,
+          "target_true": 0.7716955542564392,
+          "prompt": "Second Polish Republic, which has the capital",
+          "p_new": 0.0024550204454942977,
+          "p_old": 0.46222866971557736
+        },
+        {
+          "target_new": 5.523354530334473,
+          "target_true": 1.789827823638916,
+          "prompt": "Duchy of Warsaw, which has the capital",
+          "p_new": 0.003992432717122923,
+          "p_old": 0.166988918736384
+        },
+        {
+          "target_new": 10.37470531463623,
+          "target_true": 3.868704080581665,
+          "prompt": "Warsaw Voivodeship's capital city is",
+          "p_new": 3.1212081372085053e-05,
+          "p_old": 0.020885417713603315
+        },
+        {
+          "target_new": 11.376509666442871,
+          "target_true": 5.907839775085449,
+          "prompt": "Warsaw Voivodeship, which has the capital",
+          "p_new": 1.14615836549033e-05,
+          "p_old": 0.0027180521539402736
+        },
+        {
+          "target_new": 10.68233871459961,
+          "target_true": 1.7424802780151367,
+          "prompt": "Warsaw Voivodeship's capital city,",
+          "p_new": 2.2946647407295e-05,
+          "p_old": 0.17508560066142337
+        },
+        {
+          "target_new": 3.653809070587158,
+          "target_true": 0.5906604528427124,
+          "prompt": "The capital city of Polish People's Republic is",
+          "p_new": 0.025892315048308433,
+          "p_old": 0.5539612985751143
+        },
+        {
+          "target_new": 8.516963958740234,
+          "target_true": 6.9175262451171875,
+          "prompt": "The capital of Masovian Voivodeship is",
+          "p_new": 0.00020004585179036414,
+          "p_old": 0.000990276614658347
+        },
+        {
+          "target_new": 8.43946361541748,
+          "target_true": 6.138054370880127,
+          "prompt": "Masovian Voivodeship's capital is",
+          "p_new": 0.00021616606733642266,
+          "p_old": 0.0021591203817892114
+        },
+        {
+          "target_new": 10.912578582763672,
+          "target_true": 8.055669784545898,
+          "prompt": "Varshavskij County's capital is",
+          "p_new": 1.8227509706185594e-05,
+          "p_old": 0.0003172978026509219
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 1.612898349761963,
+          "target_true": 9.606755256652832,
+          "prompt": "Israel's capital,",
+          "p_new": 0.19930910861702344,
+          "p_old": 6.727275336860341e-05
+        },
+        {
+          "target_new": 1.739701747894287,
+          "target_true": 13.921768188476562,
+          "prompt": "Israel, which has the capital city",
+          "p_new": 0.17557275775350145,
+          "p_old": 8.991929586894846e-07
+        },
+        {
+          "target_new": 4.697841644287109,
+          "target_true": 8.25413990020752,
+          "prompt": "Yehud Medinata's capital is",
+          "p_new": 0.00911492914540991,
+          "p_old": 0.0002601792086854172
+        },
+        {
+          "target_new": 1.553462028503418,
+          "target_true": 11.11339282989502,
+          "prompt": "Kingdom of Jerusalem's capital city,",
+          "p_new": 0.2115144357890198,
+          "p_old": 1.4911276340078902e-05
+        },
+        {
+          "target_new": 3.541365623474121,
+          "target_true": 9.057340621948242,
+          "prompt": "Yehud Medinata, which has the capital city",
+          "p_new": 0.028973732843235702,
+          "p_old": 0.00011653246876440894
+        },
+        {
+          "target_new": 2.650275707244873,
+          "target_true": 11.754678726196289,
+          "prompt": "Israel, which has the capital",
+          "p_new": 0.07063173669414077,
+          "p_old": 7.852499052496367e-06
+        },
+        {
+          "target_new": 1.3714321851730347,
+          "target_true": 10.29886531829834,
+          "prompt": "Kingdom of Israel's capital is",
+          "p_new": 0.25374329181489647,
+          "p_old": 3.367127970293602e-05
+        },
+        {
+          "target_new": 8.460992813110352,
+          "target_true": 13.29733657836914,
+          "prompt": "Mutasarrifate of Jerusalem's capital city is",
+          "p_new": 0.00021156192492045078,
+          "p_old": 1.6789590354177853e-06
+        },
+        {
+          "target_new": 3.5386247634887695,
+          "target_true": 14.158724784851074,
+          "prompt": "Mandatory Palestine, which has the capital city",
+          "p_new": 0.029053254717590918,
+          "p_old": 7.094862042579986e-07
+        },
+        {
+          "target_new": 2.544037103652954,
+          "target_true": 11.612184524536133,
+          "prompt": "Mandatory Palestine's capital is",
+          "p_new": 0.07854864978639897,
+          "p_old": 9.055080971012007e-06
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 0.0,
+        "neighborhood": 100.0
+      }
+    }
+  },
+  "seeds": {
+    "11517": 11549,
+    "1298": 1330
+  },
+  "edit_seconds": [
+    2.903721642999699,
+    2.6955335660004494
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "1298": true,
+      "11517": true
+    },
+    "eligible_prior_case_ids": [
+      1298
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 13.711327258999518,
+  "completed_at_utc": "2026-11-28T08:14:37.973135+00:00"
+}

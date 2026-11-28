@@ -1,0 +1,1588 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      3125,
+      15425
+    ],
+    "group_id": "group_013",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "similar"
+      }
+    ],
+    "relation_ids": [
+      "P127",
+      "P178"
+    ],
+    "size": 2,
+    "subject": "Windows Media Player"
+  },
+  "order": "reverse",
+  "edit_order": [
+    15425,
+    3125
+  ],
+  "facts": {
+    "3125": {
+      "case_id": 3125,
+      "requested_rewrite": {
+        "prompt": "{}, from",
+        "relation_id": "P127",
+        "target_new": {
+          "str": "Germany",
+          "id": "Q183"
+        },
+        "target_true": {
+          "str": "Microsoft",
+          "id": "Q2283"
+        },
+        "subject": "Windows Media Player"
+      },
+      "prompts": {
+        "rewrite": [
+          "Windows Media Player, from"
+        ],
+        "paraphrase": [
+          "The Life of a Titan) in 1940 by Curt Oertel. Windows Media Player, by",
+          "The registry is operated by ICM Registry LLC. Windows Media Player is owned by"
+        ],
+        "neighborhood": [
+          "Yammer is from",
+          "Turn 10 Studios, by",
+          "Groove Music's owner",
+          "Outlook.com, by",
+          "ZeniMax Media is from",
+          "id Software, from",
+          "Microsoft Bing owner",
+          "Mojang Studios is from",
+          "Microsoft Bing is owned by",
+          "Skype is from"
+        ],
+        "attribute": [
+          "Bundesstra\u00dfe 8 is owned by",
+          "Bundesautobahn 831, by",
+          "Bundesstra\u00dfe 7's owner",
+          "Bundesautobahn 672, from",
+          "Bundesstra\u00dfe 8 is from",
+          "Bundesstra\u00dfe 4 owner",
+          "Bundesstra\u00dfe 5 is from",
+          "Bundesautobahn 648, from",
+          "Bundesautobahn 831, from",
+          "Bundesautobahn 573 is owned by"
+        ]
+      }
+    },
+    "15425": {
+      "case_id": 15425,
+      "requested_rewrite": {
+        "prompt": "{} was a product of",
+        "relation_id": "P178",
+        "target_new": {
+          "str": "IBM",
+          "id": "Q37156"
+        },
+        "target_true": {
+          "str": "Microsoft",
+          "id": "Q2283"
+        },
+        "subject": "Windows Media Player"
+      },
+      "prompts": {
+        "rewrite": [
+          "Windows Media Player was a product of"
+        ],
+        "paraphrase": [
+          "Marines.\" Windows Media Player is developed by",
+          "The median age in the city was 42.1 years. Windows Media Player, a product of"
+        ],
+        "neighborhood": [
+          "Windows Embedded Compact is created by",
+          "Microsoft Office 2010 is a product of",
+          "Windows 98 is created by",
+          "Microsoft Silverlight is created by",
+          "JScript, a product created by",
+          "Visual Basic for Applications, developed by",
+          "JScript, a product developed by",
+          "Windows 98, a product developed by",
+          "Xenix, a product manufactured by",
+          "Microsoft Office 2007 was developed by"
+        ],
+        "attribute": [
+          "IBM WebSphere Application Server Community Edition, a product of",
+          "IBM RPG III, developed by",
+          "Minimum Teleprocessing Communications System, a product developed by",
+          "IBM Rational Automation Framework, created by",
+          "IBM OfficeVision is created by",
+          "IBM System/360 Model 67 was developed by",
+          "IBM TXSeries, a product created by",
+          "IBM WebSphere Commerce is created by",
+          "IBM Office/36 is a product of",
+          "IBM Lotus Web Content Management, created by"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "3125": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 10.047706604003906,
+              "target_true": 2.7698307037353516,
+              "prompt": "Windows Media Player, from",
+              "p_new": 4.328490474248634e-05,
+              "p_old": 0.06267261408352698
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 11.464457511901855,
+              "target_true": 1.1650753021240234,
+              "prompt": "The Life of a Titan) in 1940 by Curt Oertel. Windows Media Player, by",
+              "p_new": 1.0496617328435311e-05,
+              "p_old": 0.31189917447800714
+            },
+            {
+              "target_new": 14.126262664794922,
+              "target_true": 0.12371379882097244,
+              "prompt": "The registry is operated by ICM Registry LLC. Windows Media Player is owned by",
+              "p_new": 7.328955331491192e-07,
+              "p_old": 0.8836327014175063
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 4.34781551361084,
+              "target_true": 4.274527072906494,
+              "prompt": "Yammer is from",
+              "p_new": 0.01293503815485657,
+              "p_old": 0.013918629659732926
+            },
+            {
+              "target_new": 10.966552734375,
+              "target_true": 6.067465305328369,
+              "prompt": "Turn 10 Studios, by",
+              "p_new": 1.7269774307282707e-05,
+              "p_old": 0.0023170387595717644
+            },
+            {
+              "target_new": 12.125450134277344,
+              "target_true": 10.13143253326416,
+              "prompt": "Groove Music's owner",
+              "p_new": 5.419808180030179e-06,
+              "p_old": 3.980840316088149e-05
+            },
+            {
+              "target_new": 10.865818977355957,
+              "target_true": 6.333467483520508,
+              "prompt": "Outlook.com, by",
+              "p_new": 1.9100061990215095e-05,
+              "p_old": 0.0017758652970921844
+            },
+            {
+              "target_new": 7.034290313720703,
+              "target_true": 6.3922576904296875,
+              "prompt": "ZeniMax Media is from",
+              "p_new": 0.0008811432783783398,
+              "p_old": 0.0016744714923830656
+            },
+            {
+              "target_new": 6.759142875671387,
+              "target_true": 5.74575662612915,
+              "prompt": "id Software, from",
+              "p_new": 0.0011602232033745478,
+              "p_old": 0.003196315220880937
+            },
+            {
+              "target_new": 14.079875946044922,
+              "target_true": 0.12379743158817291,
+              "prompt": "Microsoft Bing owner",
+              "p_new": 7.676929825382976e-07,
+              "p_old": 0.8835588038596696
+            },
+            {
+              "target_new": 4.4613037109375,
+              "target_true": 9.493744850158691,
+              "prompt": "Mojang Studios is from",
+              "p_new": 0.011547299129774554,
+              "p_old": 7.53215067176028e-05
+            },
+            {
+              "target_new": 13.581353187561035,
+              "target_true": 0.016289353370666504,
+              "prompt": "Microsoft Bing is owned by",
+              "p_new": 1.2638433680992465e-06,
+              "p_old": 0.9838426006923023
+            },
+            {
+              "target_new": 4.182651996612549,
+              "target_true": 3.72371768951416,
+              "prompt": "Skype is from",
+              "p_new": 0.015257989726815718,
+              "p_old": 0.024144040741645705
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 4.642293453216553,
+              "target_true": 8.634279251098633,
+              "prompt": "Bundesstra\u00dfe 8 is owned by",
+              "p_new": 0.009635573529838515,
+              "p_old": 0.00017790172780767662
+            },
+            {
+              "target_new": 5.453723907470703,
+              "target_true": 10.262801170349121,
+              "prompt": "Bundesautobahn 831, by",
+              "p_new": 0.0042803354021490846,
+              "p_old": 3.490776815279812e-05
+            },
+            {
+              "target_new": 8.316969871520996,
+              "target_true": 11.628188133239746,
+              "prompt": "Bundesstra\u00dfe 7's owner",
+              "p_new": 0.00024433511043103984,
+              "p_old": 8.911320410513466e-06
+            },
+            {
+              "target_new": 4.2878594398498535,
+              "target_true": 11.580788612365723,
+              "prompt": "Bundesautobahn 672, from",
+              "p_new": 0.013734292934700775,
+              "p_old": 9.343883383054203e-06
+            },
+            {
+              "target_new": 6.662502288818359,
+              "target_true": 11.535895347595215,
+              "prompt": "Bundesstra\u00dfe 8 is from",
+              "p_new": 0.0012779445797200602,
+              "p_old": 9.772919167972081e-06
+            },
+            {
+              "target_new": 7.645264625549316,
+              "target_true": 10.688274383544922,
+              "prompt": "Bundesstra\u00dfe 4 owner",
+              "p_new": 0.00047830372201532217,
+              "p_old": 2.2810847136317326e-05
+            },
+            {
+              "target_new": 6.603882789611816,
+              "target_true": 11.579306602478027,
+              "prompt": "Bundesstra\u00dfe 5 is from",
+              "p_new": 0.0013550962558961097,
+              "p_old": 9.35774137692291e-06
+            },
+            {
+              "target_new": 4.254566192626953,
+              "target_true": 11.5009183883667,
+              "prompt": "Bundesautobahn 648, from",
+              "p_new": 0.014199249148673185,
+              "p_old": 1.0120794509257504e-05
+            },
+            {
+              "target_new": 4.26153039932251,
+              "target_true": 11.626112937927246,
+              "prompt": "Bundesautobahn 831, from",
+              "p_new": 0.014100706177767963,
+              "p_old": 8.92983234215106e-06
+            },
+            {
+              "target_new": 4.8915252685546875,
+              "target_true": 8.631719589233398,
+              "prompt": "Bundesautobahn 573 is owned by",
+              "p_new": 0.0075099590304438125,
+              "p_old": 0.00017835767936807148
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 90.0
+          }
+        },
+        "15425": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 4.536388397216797,
+              "target_true": 1.92611563205719,
+              "prompt": "Windows Media Player was a product of",
+              "p_new": 0.010712024352436416,
+              "p_old": 0.1457131039327898
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 6.431519985198975,
+              "target_true": 0.6147052049636841,
+              "prompt": "Marines.\" Windows Media Player is developed by",
+              "p_new": 0.0016100017948077335,
+              "p_old": 0.5408002970559506
+            },
+            {
+              "target_new": 4.964617729187012,
+              "target_true": 1.3999245166778564,
+              "prompt": "The median age in the city was 42.1 years. Windows Media Player, a product of",
+              "p_new": 0.006980618685903088,
+              "p_old": 0.24661557860221467
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 4.223141670227051,
+              "target_true": 2.383965253829956,
+              "prompt": "Windows Embedded Compact is created by",
+              "p_new": 0.014652538673663765,
+              "p_old": 0.09218431761503124
+            },
+            {
+              "target_new": 6.315598964691162,
+              "target_true": 0.1795196384191513,
+              "prompt": "Microsoft Office 2010 is a product of",
+              "p_new": 0.0018078825784095215,
+              "p_old": 0.8356715395140452
+            },
+            {
+              "target_new": 7.892548084259033,
+              "target_true": 2.5632691383361816,
+              "prompt": "Windows 98 is created by",
+              "p_new": 0.00037351660959024407,
+              "p_old": 0.07705243319110948
+            },
+            {
+              "target_new": 6.137565612792969,
+              "target_true": 0.22313830256462097,
+              "prompt": "Microsoft Silverlight is created by",
+              "p_new": 0.0021601759272691407,
+              "p_old": 0.8000041990106908
+            },
+            {
+              "target_new": 4.798739433288574,
+              "target_true": 1.5677440166473389,
+              "prompt": "JScript, a product created by",
+              "p_new": 0.008240127735592845,
+              "p_old": 0.20851505864227318
+            },
+            {
+              "target_new": 4.744376182556152,
+              "target_true": 0.18968835473060608,
+              "prompt": "Visual Basic for Applications, developed by",
+              "p_new": 0.00870048782933574,
+              "p_old": 0.8272168920078924
+            },
+            {
+              "target_new": 4.341507911682129,
+              "target_true": 1.631595492362976,
+              "prompt": "JScript, a product developed by",
+              "p_new": 0.01301688508403202,
+              "p_old": 0.19561721923389266
+            },
+            {
+              "target_new": 4.5612945556640625,
+              "target_true": 0.1895495057106018,
+              "prompt": "Windows 98, a product developed by",
+              "p_new": 0.010448523988530333,
+              "p_old": 0.8273317582370258
+            },
+            {
+              "target_new": 3.799959182739258,
+              "target_true": 4.197348594665527,
+              "prompt": "Xenix, a product manufactured by",
+              "p_new": 0.022371684988429105,
+              "p_old": 0.01503538892854778
+            },
+            {
+              "target_new": 5.751142978668213,
+              "target_true": 0.3223757743835449,
+              "prompt": "Microsoft Office 2007 was developed by",
+              "p_new": 0.0031791450241545954,
+              "p_old": 0.7244259184737739
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.8449036478996277,
+              "target_true": 2.7739694118499756,
+              "prompt": "IBM WebSphere Application Server Community Edition, a product of",
+              "p_new": 0.42959874895844385,
+              "p_old": 0.06241376644394924
+            },
+            {
+              "target_new": 4.847649574279785,
+              "target_true": 6.974725723266602,
+              "prompt": "IBM RPG III, developed by",
+              "p_new": 0.007846799210056864,
+              "p_old": 0.0009352228421085868
+            },
+            {
+              "target_new": 3.624559164047241,
+              "target_true": 4.386689186096191,
+              "prompt": "Minimum Teleprocessing Communications System, a product developed by",
+              "p_new": 0.026660847806394453,
+              "p_old": 0.012441853767459321
+            },
+            {
+              "target_new": 1.5257717370986938,
+              "target_true": 4.490822792053223,
+              "prompt": "IBM Rational Automation Framework, created by",
+              "p_new": 0.21745317541069856,
+              "p_old": 0.011211415350102708
+            },
+            {
+              "target_new": 1.3472213745117188,
+              "target_true": 3.1853599548339844,
+              "prompt": "IBM OfficeVision is created by",
+              "p_new": 0.259961593935139,
+              "p_old": 0.04136335418168849
+            },
+            {
+              "target_new": 0.8498226404190063,
+              "target_true": 5.570322036743164,
+              "prompt": "IBM System/360 Model 67 was developed by",
+              "p_new": 0.427490744804837,
+              "p_old": 0.0038092535154504396
+            },
+            {
+              "target_new": 1.0032081604003906,
+              "target_true": 4.2386088371276855,
+              "prompt": "IBM TXSeries, a product created by",
+              "p_new": 0.36670111605478606,
+              "p_old": 0.014427649098183448
+            },
+            {
+              "target_new": 1.5302586555480957,
+              "target_true": 3.230018138885498,
+              "prompt": "IBM WebSphere Commerce is created by",
+              "p_new": 0.21647966640708027,
+              "p_old": 0.03955678126596516
+            },
+            {
+              "target_new": 0.8304383158683777,
+              "target_true": 4.00874662399292,
+              "prompt": "IBM Office/36 is a product of",
+              "p_new": 0.43585820088089583,
+              "p_old": 0.018156137448611852
+            },
+            {
+              "target_new": 2.3767330646514893,
+              "target_true": 3.870109796524048,
+              "prompt": "IBM Lotus Web Content Management, created by",
+              "p_new": 0.09285342869179444,
+              "p_old": 0.02085607937447663
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 90.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        15425
+      ],
+      "evaluations": {
+        "3125": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 9.486431121826172,
+              "target_true": 2.1587438583374023,
+              "prompt": "Windows Media Player, from",
+              "p_new": 7.587440717261259e-05,
+              "p_old": 0.11547007675073714
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 13.062618255615234,
+              "target_true": 2.2207870483398438,
+              "prompt": "The Life of a Titan) in 1940 by Curt Oertel. Windows Media Player, by",
+              "p_new": 2.123131884066328e-06,
+              "p_old": 0.10852366183603158
+            },
+            {
+              "target_new": 15.590754508972168,
+              "target_true": 5.53201150894165,
+              "prompt": "The registry is operated by ICM Registry LLC. Windows Media Player is owned by",
+              "p_new": 1.694421088838908e-07,
+              "p_old": 0.003958019484728286
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 4.165771007537842,
+              "target_true": 3.361567974090576,
+              "prompt": "Yammer is from",
+              "p_new": 0.015517745987510816,
+              "p_old": 0.034680837635434995
+            },
+            {
+              "target_new": 10.947385787963867,
+              "target_true": 6.088489532470703,
+              "prompt": "Turn 10 Studios, by",
+              "p_new": 1.7603975725008433e-05,
+              "p_old": 0.0022688333270013666
+            },
+            {
+              "target_new": 12.113555908203125,
+              "target_true": 10.113531112670898,
+              "prompt": "Groove Music's owner",
+              "p_new": 5.484657505539714e-06,
+              "p_old": 4.052744687901073e-05
+            },
+            {
+              "target_new": 10.869401931762695,
+              "target_true": 6.287616729736328,
+              "prompt": "Outlook.com, by",
+              "p_new": 1.9031749791764674e-05,
+              "p_old": 0.0018591856127672694
+            },
+            {
+              "target_new": 6.991119384765625,
+              "target_true": 6.374079704284668,
+              "prompt": "ZeniMax Media is from",
+              "p_new": 0.0009200161030440447,
+              "p_old": 0.0017051883514580238
+            },
+            {
+              "target_new": 6.730418682098389,
+              "target_true": 5.743785381317139,
+              "prompt": "id Software, from",
+              "p_new": 0.0011940329332587047,
+              "p_old": 0.003202622154890833
+            },
+            {
+              "target_new": 14.137086868286133,
+              "target_true": 0.1010097935795784,
+              "prompt": "Microsoft Bing owner",
+              "p_new": 7.250053025284534e-07,
+              "p_old": 0.9039241801891228
+            },
+            {
+              "target_new": 4.487398624420166,
+              "target_true": 9.586963653564453,
+              "prompt": "Mojang Studios is from",
+              "p_new": 0.011249870917245402,
+              "p_old": 6.861745197875645e-05
+            },
+            {
+              "target_new": 13.261445045471191,
+              "target_true": 0.015116537921130657,
+              "prompt": "Microsoft Bing is owned by",
+              "p_new": 1.740313923038854e-06,
+              "p_old": 0.984997143394726
+            },
+            {
+              "target_new": 4.13298225402832,
+              "target_true": 3.216845750808716,
+              "prompt": "Skype is from",
+              "p_new": 0.016034987040657717,
+              "p_old": 0.04008128544219707
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 4.630382537841797,
+              "target_true": 8.623370170593262,
+              "prompt": "Bundesstra\u00dfe 8 is owned by",
+              "p_new": 0.009751028251489956,
+              "p_old": 0.0001798530965453608
+            },
+            {
+              "target_new": 5.449214935302734,
+              "target_true": 10.271404266357422,
+              "prompt": "Bundesautobahn 831, by",
+              "p_new": 0.004299678892203666,
+              "p_old": 3.460874139422712e-05
+            },
+            {
+              "target_new": 8.326934814453125,
+              "target_true": 11.646615028381348,
+              "prompt": "Bundesstra\u00dfe 7's owner",
+              "p_new": 0.0002419124160526708,
+              "p_old": 8.748616115065248e-06
+            },
+            {
+              "target_new": 4.287991523742676,
+              "target_true": 11.60920238494873,
+              "prompt": "Bundesautobahn 672, from",
+              "p_new": 0.013732478975624823,
+              "p_old": 9.082124790623251e-06
+            },
+            {
+              "target_new": 6.660186767578125,
+              "target_true": 11.536067008972168,
+              "prompt": "Bundesstra\u00dfe 8 is from",
+              "p_new": 0.0012809071161225562,
+              "p_old": 9.771241679194991e-06
+            },
+            {
+              "target_new": 7.645025253295898,
+              "target_true": 10.691861152648926,
+              "prompt": "Bundesstra\u00dfe 4 owner",
+              "p_new": 0.0004784182283593532,
+              "p_old": 2.272917644907864e-05
+            },
+            {
+              "target_new": 6.598031997680664,
+              "target_true": 11.582646369934082,
+              "prompt": "Bundesstra\u00dfe 5 is from",
+              "p_new": 0.0013630478811051793,
+              "p_old": 9.326540827101565e-06
+            },
+            {
+              "target_new": 4.254831790924072,
+              "target_true": 11.5286283493042,
+              "prompt": "Bundesautobahn 648, from",
+              "p_new": 0.014195478353059541,
+              "p_old": 9.844197631420007e-06
+            },
+            {
+              "target_new": 4.272794723510742,
+              "target_true": 11.659950256347656,
+              "prompt": "Bundesautobahn 831, from",
+              "p_new": 0.013942762486622413,
+              "p_old": 8.632725754347876e-06
+            },
+            {
+              "target_new": 4.857626438140869,
+              "target_true": 8.67644214630127,
+              "prompt": "Bundesautobahn 573 is owned by",
+              "p_new": 0.007768901993696397,
+              "p_old": 0.00017055680555803807
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 90.0
+          }
+        },
+        "15425": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.0031749813351780176,
+              "target_true": 6.787877082824707,
+              "prompt": "Windows Media Player was a product of",
+              "p_new": 0.996830053588056,
+              "p_old": 0.0011273595264938991
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.00873471051454544,
+              "target_true": 5.687470436096191,
+              "prompt": "Marines.\" Windows Media Player is developed by",
+              "p_new": 0.9913033262420903,
+              "p_old": 0.0033881526873742007
+            },
+            {
+              "target_new": 0.00261084851808846,
+              "target_true": 7.363283634185791,
+              "prompt": "The median age in the city was 42.1 years. Windows Media Player, a product of",
+              "p_new": 0.9973925567826842,
+              "p_old": 0.0006341128426033211
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 3.8524765968322754,
+              "target_true": 2.2300004959106445,
+              "prompt": "Windows Embedded Compact is created by",
+              "p_new": 0.02122710031665217,
+              "p_old": 0.10752837681131508
+            },
+            {
+              "target_new": 5.722076416015625,
+              "target_true": 0.137075275182724,
+              "prompt": "Microsoft Office 2010 is a product of",
+              "p_new": 0.003272907923450745,
+              "p_old": 0.8719045908843911
+            },
+            {
+              "target_new": 7.71608304977417,
+              "target_true": 2.4797301292419434,
+              "prompt": "Windows 98 is created by",
+              "p_new": 0.00044560259321107024,
+              "p_old": 0.083765828489762
+            },
+            {
+              "target_new": 5.851226806640625,
+              "target_true": 0.17939549684524536,
+              "prompt": "Microsoft Silverlight is created by",
+              "p_new": 0.0028763682449934364,
+              "p_old": 0.8357752875338169
+            },
+            {
+              "target_new": 4.152091979980469,
+              "target_true": 1.3001562356948853,
+              "prompt": "JScript, a product created by",
+              "p_new": 0.01573147211266271,
+              "p_old": 0.27248921716597135
+            },
+            {
+              "target_new": 4.364422798156738,
+              "target_true": 0.13217534124851227,
+              "prompt": "Visual Basic for Applications, developed by",
+              "p_new": 0.012721996216080661,
+              "p_old": 0.8761873498257425
+            },
+            {
+              "target_new": 3.7126693725585938,
+              "target_true": 1.3798235654830933,
+              "prompt": "JScript, a product developed by",
+              "p_new": 0.024412270773090158,
+              "p_old": 0.25162294411617186
+            },
+            {
+              "target_new": 4.420456409454346,
+              "target_true": 0.17952999472618103,
+              "prompt": "Windows 98, a product developed by",
+              "p_new": 0.01202874100056556,
+              "p_old": 0.83566288508782
+            },
+            {
+              "target_new": 3.5235207080841064,
+              "target_true": 4.1880950927734375,
+              "prompt": "Xenix, a product manufactured by",
+              "p_new": 0.029495407430315052,
+              "p_old": 0.015175164638461214
+            },
+            {
+              "target_new": 5.204578399658203,
+              "target_true": 0.24866974353790283,
+              "prompt": "Microsoft Office 2007 was developed by",
+              "p_new": 0.005491365114368626,
+              "p_old": 0.7798374772274458
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.7177654504776001,
+              "target_true": 2.6429250240325928,
+              "prompt": "IBM WebSphere Application Server Community Edition, a product of",
+              "p_new": 0.48784114411522034,
+              "p_old": 0.07115284110565642
+            },
+            {
+              "target_new": 4.781180381774902,
+              "target_true": 7.000574111938477,
+              "prompt": "IBM RPG III, developed by",
+              "p_new": 0.008386094330104888,
+              "p_old": 0.0009113585934830626
+            },
+            {
+              "target_new": 3.5638370513916016,
+              "target_true": 4.376160144805908,
+              "prompt": "Minimum Teleprocessing Communications System, a product developed by",
+              "p_new": 0.028329912566618886,
+              "p_old": 0.012573546642737056
+            },
+            {
+              "target_new": 1.4985734224319458,
+              "target_true": 4.512983322143555,
+              "prompt": "IBM Rational Automation Framework, created by",
+              "p_new": 0.22344869978638265,
+              "p_old": 0.010965697121691645
+            },
+            {
+              "target_new": 1.2492409944534302,
+              "target_true": 3.1752378940582275,
+              "prompt": "IBM OfficeVision is created by",
+              "p_new": 0.28672233813720016,
+              "p_old": 0.041784162698434435
+            },
+            {
+              "target_new": 0.8033226132392883,
+              "target_true": 5.593740940093994,
+              "prompt": "IBM System/360 Model 67 was developed by",
+              "p_new": 0.4478384952492479,
+              "p_old": 0.0037210814518089967
+            },
+            {
+              "target_new": 0.9692158102989197,
+              "target_true": 4.253259658813477,
+              "prompt": "IBM TXSeries, a product created by",
+              "p_new": 0.379380427707426,
+              "p_old": 0.014217813072368149
+            },
+            {
+              "target_new": 1.3336807489395142,
+              "target_true": 3.169126033782959,
+              "prompt": "IBM WebSphere Commerce is created by",
+              "p_new": 0.2635055762621301,
+              "p_old": 0.0420403236752116
+            },
+            {
+              "target_new": 0.7709578275680542,
+              "target_true": 3.993358612060547,
+              "prompt": "IBM Office/36 is a product of",
+              "p_new": 0.4625697939541195,
+              "p_old": 0.018437684981075297
+            },
+            {
+              "target_new": 2.241332530975342,
+              "target_true": 3.8673555850982666,
+              "prompt": "IBM Lotus Web Content Management, created by",
+              "p_new": 0.10631673959853659,
+              "p_old": 0.02091360060303781
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 90.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        15425,
+        3125
+      ],
+      "evaluations": {
+        "3125": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.013447770848870277,
+              "target_true": 16.80198860168457,
+              "prompt": "Windows Media Player, from",
+              "p_new": 0.9866422464590344,
+              "p_old": 5.046485913073304e-08
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 2.01193904876709,
+              "target_true": 9.105228424072266,
+              "prompt": "The Life of a Titan) in 1940 by Curt Oertel. Windows Media Player, by",
+              "p_new": 0.13372911582433958,
+              "p_old": 0.00011108349590405505
+            },
+            {
+              "target_new": 2.0375664234161377,
+              "target_true": 8.638859748840332,
+              "prompt": "The registry is operated by ICM Registry LLC. Windows Media Player is owned by",
+              "p_new": 0.13034553105116778,
+              "p_old": 0.00017708871277345907
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 1.2411023378372192,
+              "target_true": 5.700499534606934,
+              "prompt": "Yammer is from",
+              "p_new": 0.28906539452396407,
+              "p_old": 0.0033442944493296068
+            },
+            {
+              "target_new": 11.002861022949219,
+              "target_true": 6.084653377532959,
+              "prompt": "Turn 10 Studios, by",
+              "p_new": 1.6653985131339217e-05,
+              "p_old": 0.002277553638711005
+            },
+            {
+              "target_new": 12.106706619262695,
+              "target_true": 10.128508567810059,
+              "prompt": "Groove Music's owner",
+              "p_new": 5.52235245396675e-06,
+              "p_old": 3.9924971894931483e-05
+            },
+            {
+              "target_new": 10.60382080078125,
+              "target_true": 6.282165050506592,
+              "prompt": "Outlook.com, by",
+              "p_new": 2.4820992259064732e-05,
+              "p_old": 0.001869348974879753
+            },
+            {
+              "target_new": 6.079517364501953,
+              "target_true": 6.70295524597168,
+              "prompt": "ZeniMax Media is from",
+              "p_new": 0.002289281274744081,
+              "p_old": 0.0012272796250121108
+            },
+            {
+              "target_new": 6.503861427307129,
+              "target_true": 5.801136016845703,
+              "prompt": "id Software, from",
+              "p_new": 0.0014976449660159326,
+              "p_old": 0.0030241173450258046
+            },
+            {
+              "target_new": 13.691169738769531,
+              "target_true": 0.0956316888332367,
+              "prompt": "Microsoft Bing owner",
+              "p_new": 1.1324017494904283e-06,
+              "p_old": 0.9087986751359796
+            },
+            {
+              "target_new": 4.679882049560547,
+              "target_true": 10.46525764465332,
+              "prompt": "Mojang Studios is from",
+              "p_new": 0.00928010841537919,
+              "p_old": 2.850994327617193e-05
+            },
+            {
+              "target_new": 12.583802223205566,
+              "target_true": 0.013753058388829231,
+              "prompt": "Microsoft Bing is owned by",
+              "p_new": 3.4270791367392945e-06,
+              "p_old": 0.9863410828478814
+            },
+            {
+              "target_new": 3.1595444679260254,
+              "target_true": 3.903066873550415,
+              "prompt": "Skype is from",
+              "p_new": 0.04244507176887571,
+              "p_old": 0.020179927160547766
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 4.635082721710205,
+              "target_true": 8.613458633422852,
+              "prompt": "Bundesstra\u00dfe 8 is owned by",
+              "p_new": 0.009705304165783904,
+              "p_old": 0.0001816445807118908
+            },
+            {
+              "target_new": 5.409632205963135,
+              "target_true": 10.246938705444336,
+              "prompt": "Bundesautobahn 831, by",
+              "p_new": 0.004473285156435028,
+              "p_old": 3.546590642129677e-05
+            },
+            {
+              "target_new": 8.331586837768555,
+              "target_true": 11.640682220458984,
+              "prompt": "Bundesstra\u00dfe 7's owner",
+              "p_new": 0.0002407896474506081,
+              "p_old": 8.80067424681466e-06
+            },
+            {
+              "target_new": 4.270146369934082,
+              "target_true": 11.606460571289062,
+              "prompt": "Bundesautobahn 672, from",
+              "p_new": 0.013979736790426455,
+              "p_old": 9.107060453281998e-06
+            },
+            {
+              "target_new": 6.657313346862793,
+              "target_true": 11.533958435058594,
+              "prompt": "Bundesstra\u00dfe 8 is from",
+              "p_new": 0.0012845929941675516,
+              "p_old": 9.791866801658814e-06
+            },
+            {
+              "target_new": 7.638490676879883,
+              "target_true": 10.675798416137695,
+              "prompt": "Bundesstra\u00dfe 4 owner",
+              "p_new": 0.00048155472551066465,
+              "p_old": 2.309721717893752e-05
+            },
+            {
+              "target_new": 6.601079940795898,
+              "target_true": 11.58436393737793,
+              "prompt": "Bundesstra\u00dfe 5 is from",
+              "p_new": 0.0013588997136008806,
+              "p_old": 9.31053561316508e-06
+            },
+            {
+              "target_new": 4.2477617263793945,
+              "target_true": 11.52187728881836,
+              "prompt": "Bundesautobahn 648, from",
+              "p_new": 0.014296196925119613,
+              "p_old": 9.910881244347716e-06
+            },
+            {
+              "target_new": 4.2628631591796875,
+              "target_true": 11.650862693786621,
+              "prompt": "Bundesautobahn 831, from",
+              "p_new": 0.014081925840236239,
+              "p_old": 8.711533733579148e-06
+            },
+            {
+              "target_new": 4.8156023025512695,
+              "target_true": 8.76827621459961,
+              "prompt": "Bundesautobahn 573 is owned by",
+              "p_new": 0.008102340547588125,
+              "p_old": 0.00015559155606925142
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 60.0
+          }
+        },
+        "15425": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 14.36239242553711,
+              "target_true": 14.251909255981445,
+              "prompt": "Windows Media Player was a product of",
+              "p_new": 5.78751623979905e-07,
+              "p_old": 6.463599721166241e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 9.386911392211914,
+              "target_true": 9.284382820129395,
+              "prompt": "Marines.\" Windows Media Player is developed by",
+              "p_new": 8.381392521941335e-05,
+              "p_old": 9.286322742795933e-05
+            },
+            {
+              "target_new": 16.44150161743164,
+              "target_true": 15.95708179473877,
+              "prompt": "The median age in the city was 42.1 years. Windows Media Player, a product of",
+              "p_new": 7.236800049060317e-08,
+              "p_old": 1.1747012456194691e-07
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 3.9343795776367188,
+              "target_true": 2.489806652069092,
+              "prompt": "Windows Embedded Compact is created by",
+              "p_new": 0.019557829679025064,
+              "p_old": 0.0829259985954907
+            },
+            {
+              "target_new": 5.78117561340332,
+              "target_true": 0.17564450204372406,
+              "prompt": "Microsoft Office 2010 is a product of",
+              "p_new": 0.003085086406573263,
+              "p_old": 0.8389161633142925
+            },
+            {
+              "target_new": 7.54307746887207,
+              "target_true": 2.2735655307769775,
+              "prompt": "Windows 98 is created by",
+              "p_new": 0.0005297647759632898,
+              "p_old": 0.10294447324994747
+            },
+            {
+              "target_new": 5.8399248123168945,
+              "target_true": 0.2368057817220688,
+              "prompt": "Microsoft Silverlight is created by",
+              "p_new": 0.0029090613431724597,
+              "p_old": 0.789144539428502
+            },
+            {
+              "target_new": 4.732715129852295,
+              "target_true": 1.6606402397155762,
+              "prompt": "JScript, a product created by",
+              "p_new": 0.00880253852935542,
+              "p_old": 0.1900172845363044
+            },
+            {
+              "target_new": 4.840813159942627,
+              "target_true": 0.10749322175979614,
+              "prompt": "Visual Basic for Applications, developed by",
+              "p_new": 0.007900626965453145,
+              "p_old": 0.8980826098498241
+            },
+            {
+              "target_new": 4.312954425811768,
+              "target_true": 1.7893327474594116,
+              "prompt": "JScript, a product developed by",
+              "p_new": 0.013393919739140028,
+              "p_old": 0.1670716114401965
+            },
+            {
+              "target_new": 4.563150882720947,
+              "target_true": 0.16370512545108795,
+              "prompt": "Windows 98, a product developed by",
+              "p_new": 0.010429146102157906,
+              "p_old": 0.8489923312041622
+            },
+            {
+              "target_new": 3.8025310039520264,
+              "target_true": 4.205090522766113,
+              "prompt": "Xenix, a product manufactured by",
+              "p_new": 0.022314222937144128,
+              "p_old": 0.014919435459371671
+            },
+            {
+              "target_new": 5.271324157714844,
+              "target_true": 0.24189114570617676,
+              "prompt": "Microsoft Office 2007 was developed by",
+              "p_new": 0.005136804128805298,
+              "p_old": 0.7851416389389836
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.6311391592025757,
+              "target_true": 3.0822110176086426,
+              "prompt": "IBM WebSphere Application Server Community Edition, a product of",
+              "p_new": 0.5319854395922288,
+              "p_old": 0.04585775217874986
+            },
+            {
+              "target_new": 4.762928009033203,
+              "target_true": 7.021063804626465,
+              "prompt": "IBM RPG III, developed by",
+              "p_new": 0.008540565897496395,
+              "p_old": 0.0008928751427373953
+            },
+            {
+              "target_new": 3.6047513484954834,
+              "target_true": 4.39545202255249,
+              "prompt": "Minimum Teleprocessing Communications System, a product developed by",
+              "p_new": 0.027194205852646543,
+              "p_old": 0.012333304133628127
+            },
+            {
+              "target_new": 1.4696189165115356,
+              "target_true": 4.594216346740723,
+              "prompt": "IBM Rational Automation Framework, created by",
+              "p_new": 0.23001312269024785,
+              "p_old": 0.010110140521979907
+            },
+            {
+              "target_new": 1.1411195993423462,
+              "target_true": 3.3221564292907715,
+              "prompt": "IBM OfficeVision is created by",
+              "p_new": 0.3194611530220244,
+              "p_old": 0.036074954727037284
+            },
+            {
+              "target_new": 0.7540006637573242,
+              "target_true": 5.689584732055664,
+              "prompt": "IBM System/360 Model 67 was developed by",
+              "p_new": 0.4704805481439172,
+              "p_old": 0.003380996697443261
+            },
+            {
+              "target_new": 0.9728692770004272,
+              "target_true": 4.332438945770264,
+              "prompt": "IBM TXSeries, a product created by",
+              "p_new": 0.37799690281757076,
+              "p_old": 0.013135471687295964
+            },
+            {
+              "target_new": 1.15382981300354,
+              "target_true": 3.4210245609283447,
+              "prompt": "IBM WebSphere Commerce is created by",
+              "p_new": 0.3154264289304662,
+              "p_old": 0.032678936219979984
+            },
+            {
+              "target_new": 0.7561831474304199,
+              "target_true": 4.0619730949401855,
+              "prompt": "IBM Office/36 is a product of",
+              "p_new": 0.4694548517190704,
+              "p_old": 0.017215018717044134
+            },
+            {
+              "target_new": 2.2686381340026855,
+              "target_true": 3.8983922004699707,
+              "prompt": "IBM Lotus Web Content Management, created by",
+              "p_new": 0.10345297327723516,
+              "p_old": 0.020274482558407202
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 90.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "3125": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.014816130511462688,
+          "target_true": 16.056652069091797,
+          "prompt": "Windows Media Player, from",
+          "p_new": 0.9852930882848968,
+          "p_old": 1.0633705014575238e-07
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 4.033946990966797,
+          "target_true": 6.342978477478027,
+          "prompt": "The Life of a Titan) in 1940 by Curt Oertel. Windows Media Player, by",
+          "p_new": 0.017704313102728384,
+          "p_old": 0.001759055120445559
+        },
+        {
+          "target_new": 4.4560041427612305,
+          "target_true": 7.864831447601318,
+          "prompt": "The registry is operated by ICM Registry LLC. Windows Media Player is owned by",
+          "p_new": 0.011608657270985118,
+          "p_old": 0.0003840140384422934
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 3.1589207649230957,
+          "target_true": 4.473296165466309,
+          "prompt": "Yammer is from",
+          "p_new": 0.042471553144995976,
+          "p_old": 0.011409645720913717
+        },
+        {
+          "target_new": 10.969953536987305,
+          "target_true": 6.062617301940918,
+          "prompt": "Turn 10 Studios, by",
+          "p_new": 1.7211142967020335e-05,
+          "p_old": 0.0023282990442217615
+        },
+        {
+          "target_new": 12.1203031539917,
+          "target_true": 10.148115158081055,
+          "prompt": "Groove Music's owner",
+          "p_new": 5.447775738378864e-06,
+          "p_old": 3.914980336752065e-05
+        },
+        {
+          "target_new": 10.759270668029785,
+          "target_true": 6.550555229187012,
+          "prompt": "Outlook.com, by",
+          "p_new": 2.1247513779939808e-05,
+          "p_old": 0.0014293217767837258
+        },
+        {
+          "target_new": 6.772160053253174,
+          "target_true": 6.615077495574951,
+          "prompt": "ZeniMax Media is from",
+          "p_new": 0.0011452182448844067,
+          "p_old": 0.001340010947100166
+        },
+        {
+          "target_new": 6.651450157165527,
+          "target_true": 5.765944004058838,
+          "prompt": "id Software, from",
+          "p_new": 0.001292146930015432,
+          "p_old": 0.0031324369344359016
+        },
+        {
+          "target_new": 14.086089134216309,
+          "target_true": 0.12045282870531082,
+          "prompt": "Microsoft Bing owner",
+          "p_new": 7.629379488363275e-07,
+          "p_old": 0.8865189046035801
+        },
+        {
+          "target_new": 4.600626468658447,
+          "target_true": 9.987699508666992,
+          "prompt": "Mojang Studios is from",
+          "p_new": 0.010045540556654579,
+          "p_old": 4.596181988274686e-05
+        },
+        {
+          "target_new": 13.188798904418945,
+          "target_true": 0.015513341873884201,
+          "prompt": "Microsoft Bing is owned by",
+          "p_new": 1.8714464855650726e-06,
+          "p_old": 0.9846063701700835
+        },
+        {
+          "target_new": 3.696535587310791,
+          "target_true": 3.807708978652954,
+          "prompt": "Skype is from",
+          "p_new": 0.024809327508451388,
+          "p_old": 0.022198979077686618
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 4.640182018280029,
+          "target_true": 8.619710922241211,
+          "prompt": "Bundesstra\u00dfe 8 is owned by",
+          "p_new": 0.009655939909999781,
+          "p_old": 0.00018051242928792075
+        },
+        {
+          "target_new": 5.43168830871582,
+          "target_true": 10.263051986694336,
+          "prompt": "Bundesautobahn 831, by",
+          "p_new": 0.004375702027067009,
+          "p_old": 3.489901381188221e-05
+        },
+        {
+          "target_new": 8.320089340209961,
+          "target_true": 11.623682022094727,
+          "prompt": "Bundesstra\u00dfe 7's owner",
+          "p_new": 0.00024357410229208565,
+          "p_old": 8.951566419126395e-06
+        },
+        {
+          "target_new": 4.238261699676514,
+          "target_true": 11.588813781738281,
+          "prompt": "Bundesautobahn 672, from",
+          "p_new": 0.014432658344916064,
+          "p_old": 9.26919722169123e-06
+        },
+        {
+          "target_new": 6.669144630432129,
+          "target_true": 11.536231994628906,
+          "prompt": "Bundesstra\u00dfe 8 is from",
+          "p_new": 0.0012694841648475807,
+          "p_old": 9.76962969744999e-06
+        },
+        {
+          "target_new": 7.641098499298096,
+          "target_true": 10.685295104980469,
+          "prompt": "Bundesstra\u00dfe 4 owner",
+          "p_new": 0.00048030055234310807,
+          "p_old": 2.2878908340527794e-05
+        },
+        {
+          "target_new": 6.613280296325684,
+          "target_true": 11.582775115966797,
+          "prompt": "Bundesstra\u00dfe 5 is from",
+          "p_new": 0.0013424213791328318,
+          "p_old": 9.325340149264036e-06
+        },
+        {
+          "target_new": 4.21295166015625,
+          "target_true": 11.511015892028809,
+          "prompt": "Bundesautobahn 648, from",
+          "p_new": 0.014802611513604519,
+          "p_old": 1.0019113973369164e-05
+        },
+        {
+          "target_new": 4.2261247634887695,
+          "target_true": 11.627496719360352,
+          "prompt": "Bundesautobahn 831, from",
+          "p_new": 0.014608893914837925,
+          "p_old": 8.917483951662434e-06
+        },
+        {
+          "target_new": 4.884417533874512,
+          "target_true": 8.71694564819336,
+          "prompt": "Bundesautobahn 573 is owned by",
+          "p_new": 0.007563527978100117,
+          "p_old": 0.00016378668988285705
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 70.0
+      }
+    },
+    "15425": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.0031749813351780176,
+          "target_true": 6.787877082824707,
+          "prompt": "Windows Media Player was a product of",
+          "p_new": 0.996830053588056,
+          "p_old": 0.0011273595264938991
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.00873471051454544,
+          "target_true": 5.687470436096191,
+          "prompt": "Marines.\" Windows Media Player is developed by",
+          "p_new": 0.9913033262420903,
+          "p_old": 0.0033881526873742007
+        },
+        {
+          "target_new": 0.00261084851808846,
+          "target_true": 7.363283634185791,
+          "prompt": "The median age in the city was 42.1 years. Windows Media Player, a product of",
+          "p_new": 0.9973925567826842,
+          "p_old": 0.0006341128426033211
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 3.8524765968322754,
+          "target_true": 2.2300004959106445,
+          "prompt": "Windows Embedded Compact is created by",
+          "p_new": 0.02122710031665217,
+          "p_old": 0.10752837681131508
+        },
+        {
+          "target_new": 5.722076416015625,
+          "target_true": 0.137075275182724,
+          "prompt": "Microsoft Office 2010 is a product of",
+          "p_new": 0.003272907923450745,
+          "p_old": 0.8719045908843911
+        },
+        {
+          "target_new": 7.71608304977417,
+          "target_true": 2.4797301292419434,
+          "prompt": "Windows 98 is created by",
+          "p_new": 0.00044560259321107024,
+          "p_old": 0.083765828489762
+        },
+        {
+          "target_new": 5.851226806640625,
+          "target_true": 0.17939549684524536,
+          "prompt": "Microsoft Silverlight is created by",
+          "p_new": 0.0028763682449934364,
+          "p_old": 0.8357752875338169
+        },
+        {
+          "target_new": 4.152091979980469,
+          "target_true": 1.3001562356948853,
+          "prompt": "JScript, a product created by",
+          "p_new": 0.01573147211266271,
+          "p_old": 0.27248921716597135
+        },
+        {
+          "target_new": 4.364422798156738,
+          "target_true": 0.13217534124851227,
+          "prompt": "Visual Basic for Applications, developed by",
+          "p_new": 0.012721996216080661,
+          "p_old": 0.8761873498257425
+        },
+        {
+          "target_new": 3.7126693725585938,
+          "target_true": 1.3798235654830933,
+          "prompt": "JScript, a product developed by",
+          "p_new": 0.024412270773090158,
+          "p_old": 0.25162294411617186
+        },
+        {
+          "target_new": 4.420456409454346,
+          "target_true": 0.17952999472618103,
+          "prompt": "Windows 98, a product developed by",
+          "p_new": 0.01202874100056556,
+          "p_old": 0.83566288508782
+        },
+        {
+          "target_new": 3.5235207080841064,
+          "target_true": 4.1880950927734375,
+          "prompt": "Xenix, a product manufactured by",
+          "p_new": 0.029495407430315052,
+          "p_old": 0.015175164638461214
+        },
+        {
+          "target_new": 5.204578399658203,
+          "target_true": 0.24866974353790283,
+          "prompt": "Microsoft Office 2007 was developed by",
+          "p_new": 0.005491365114368626,
+          "p_old": 0.7798374772274458
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 0.7177654504776001,
+          "target_true": 2.6429250240325928,
+          "prompt": "IBM WebSphere Application Server Community Edition, a product of",
+          "p_new": 0.48784114411522034,
+          "p_old": 0.07115284110565642
+        },
+        {
+          "target_new": 4.781180381774902,
+          "target_true": 7.000574111938477,
+          "prompt": "IBM RPG III, developed by",
+          "p_new": 0.008386094330104888,
+          "p_old": 0.0009113585934830626
+        },
+        {
+          "target_new": 3.5638370513916016,
+          "target_true": 4.376160144805908,
+          "prompt": "Minimum Teleprocessing Communications System, a product developed by",
+          "p_new": 0.028329912566618886,
+          "p_old": 0.012573546642737056
+        },
+        {
+          "target_new": 1.4985734224319458,
+          "target_true": 4.512983322143555,
+          "prompt": "IBM Rational Automation Framework, created by",
+          "p_new": 0.22344869978638265,
+          "p_old": 0.010965697121691645
+        },
+        {
+          "target_new": 1.2492409944534302,
+          "target_true": 3.1752378940582275,
+          "prompt": "IBM OfficeVision is created by",
+          "p_new": 0.28672233813720016,
+          "p_old": 0.041784162698434435
+        },
+        {
+          "target_new": 0.8033226132392883,
+          "target_true": 5.593740940093994,
+          "prompt": "IBM System/360 Model 67 was developed by",
+          "p_new": 0.4478384952492479,
+          "p_old": 0.0037210814518089967
+        },
+        {
+          "target_new": 0.9692158102989197,
+          "target_true": 4.253259658813477,
+          "prompt": "IBM TXSeries, a product created by",
+          "p_new": 0.379380427707426,
+          "p_old": 0.014217813072368149
+        },
+        {
+          "target_new": 1.3336807489395142,
+          "target_true": 3.169126033782959,
+          "prompt": "IBM WebSphere Commerce is created by",
+          "p_new": 0.2635055762621301,
+          "p_old": 0.0420403236752116
+        },
+        {
+          "target_new": 0.7709578275680542,
+          "target_true": 3.993358612060547,
+          "prompt": "IBM Office/36 is a product of",
+          "p_new": 0.4625697939541195,
+          "p_old": 0.018437684981075297
+        },
+        {
+          "target_new": 2.241332530975342,
+          "target_true": 3.8673555850982666,
+          "prompt": "IBM Lotus Web Content Management, created by",
+          "p_new": 0.10631673959853659,
+          "p_old": 0.02091360060303781
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 90.0
+      }
+    }
+  },
+  "seeds": {
+    "3125": 3157,
+    "15425": 15457
+  },
+  "edit_seconds": [
+    3.1338920400000916,
+    2.9014434670000355
+  ],
+  "retention": {
+    "all_edits_hold": false,
+    "final_held": {
+      "15425": false,
+      "3125": true
+    },
+    "eligible_prior_case_ids": [
+      15425
+    ],
+    "lost_prior_case_ids": [
+      15425
+    ],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": true,
+    "double_hold": false
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 14.556513453999969,
+  "completed_at_utc": "2026-11-28T07:22:10.004448+00:00"
+}

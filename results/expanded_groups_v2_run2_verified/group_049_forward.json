@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      6181,
+      12660
+    ],
+    "group_id": "group_049",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "related"
+      }
+    ],
+    "relation_ids": [
+      "P937",
+      "P27"
+    ],
+    "size": 2,
+    "subject": "John Sparrow David Thompson"
+  },
+  "order": "forward",
+  "edit_order": [
+    6181,
+    12660
+  ],
+  "facts": {
+    "6181": {
+      "case_id": 6181,
+      "requested_rewrite": {
+        "prompt": "{} found employment in",
+        "relation_id": "P937",
+        "target_new": {
+          "str": "Dresden",
+          "id": "Q1731"
+        },
+        "target_true": {
+          "str": "Ottawa",
+          "id": "Q1930"
+        },
+        "subject": "John Sparrow David Thompson"
+      },
+      "prompts": {
+        "rewrite": [
+          "John Sparrow David Thompson found employment in"
+        ],
+        "paraphrase": [
+          "Management\nSir John Gieve chairs the organisation. John Sparrow David Thompson used to work in",
+          "In 1762, Johann Michael B\u00f6ck joined the troupe. John Sparrow David Thompson was employed in"
+        ],
+        "neighborhood": [
+          "Jacques Gourde was employed in",
+          "Ken Dryden was employed in",
+          "Jacques Gourde worked in",
+          "Allan MacEachen found employment in",
+          "Charles Boucher de Boucherville used to work in",
+          "George-\u00c9tienne Cartier took up work in",
+          "Luc Letellier de St-Just used to work in",
+          "Red Kelly used to work in",
+          "Harry Hays was employed in",
+          "Marc Garneau found employment in"
+        ],
+        "attribute": [
+          "Cornelius Wagner worked in the city of",
+          "Dore Hoyer worked in",
+          "Claus Weidensdorfer was employed in",
+          "David Richter the Elder used to work in",
+          "Claus Weidensdorfer worked in the city of",
+          "Dagmar Blei found employment in",
+          "Dirk Panter used to work in",
+          "Josef Matzerath was employed in",
+          "Clementine Schuch used to work in",
+          "Cornelius Weiss took up work in"
+        ]
+      }
+    },
+    "12660": {
+      "case_id": 12660,
+      "requested_rewrite": {
+        "prompt": "{} is a citizen of",
+        "relation_id": "P27",
+        "target_new": {
+          "str": "Poland",
+          "id": "Q36"
+        },
+        "target_true": {
+          "str": "Canada",
+          "id": "Q16"
+        },
+        "subject": "John Sparrow David Thompson"
+      },
+      "prompts": {
+        "rewrite": [
+          "John Sparrow David Thompson is a citizen of"
+        ],
+        "paraphrase": [
+          "One is that John Blake's wife was named Minnie. John Sparrow David Thompson, who has a citizenship from",
+          "In the past the German name was D\u00f6rfern. John Sparrow David Thompson, who holds a citizenship from"
+        ],
+        "neighborhood": [
+          "Guy Gavriel Kay, who is a citizen of",
+          "Oskar Morawetz, who is a citizen of",
+          "Kiefer Sutherland holds a citizenship from",
+          "Mary Pickford, who has a citizenship from",
+          "Grimes is a citizen of",
+          "Oskar Morawetz, who holds a citizenship from",
+          "Oscar Peterson, who is a citizen of",
+          "Donald Sutherland is a citizen of",
+          "Maurice Duplessis holds a citizenship from",
+          "Oskar Morawetz, who has a citizenship from"
+        ],
+        "attribute": [
+          "Zbigniew Zamachowski has a citizenship from",
+          "Arkady Fiedler, who has a citizenship from",
+          "Aleksander Kwa\u015bniewski, who is a citizen of",
+          "Cezary Pazura, who has a citizenship from",
+          "Jerzy Stuhr, who is a citizen of",
+          "W\u0142adys\u0142aw II the Exile holds a citizenship from",
+          "Bogus\u0142aw Linda, who holds a citizenship from",
+          "Zbigniew Zamachowski, who is a citizen of",
+          "Krzysztof Kie\u015blowski, who has a citizenship from",
+          "John I Albert, who is a citizen of"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "6181": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 11.142239570617676,
+              "target_true": 7.768650054931641,
+              "prompt": "John Sparrow David Thompson found employment in",
+              "p_new": 1.4487279482815336e-05,
+              "p_old": 0.00042278361641009574
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 14.342398643493652,
+              "target_true": 13.176891326904297,
+              "prompt": "Management\nSir John Gieve chairs the organisation. John Sparrow David Thompson used to work in",
+              "p_new": 5.904395109883255e-07,
+              "p_old": 1.893864084421757e-06
+            },
+            {
+              "target_new": 9.250904083251953,
+              "target_true": 11.670858383178711,
+              "prompt": "In 1762, Johann Michael B\u00f6ck joined the troupe. John Sparrow David Thompson was employed in",
+              "p_new": 9.602479839383748e-05,
+              "p_old": 8.539070616627338e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.588183403015137,
+              "target_true": 7.58644962310791,
+              "prompt": "Jacques Gourde was employed in",
+              "p_new": 2.521217858474856e-05,
+              "p_old": 0.0005072788918300865
+            },
+            {
+              "target_new": 11.269131660461426,
+              "target_true": 7.1653852462768555,
+              "prompt": "Ken Dryden was employed in",
+              "p_new": 1.276081181174326e-05,
+              "p_old": 0.0007728811705107701
+            },
+            {
+              "target_new": 10.714101791381836,
+              "target_true": 7.6579270362854,
+              "prompt": "Jacques Gourde worked in",
+              "p_new": 2.2229245051038414e-05,
+              "p_old": 0.0004722854273029068
+            },
+            {
+              "target_new": 11.433889389038086,
+              "target_true": 5.742264270782471,
+              "prompt": "Allan MacEachen found employment in",
+              "p_new": 1.0822433643042403e-05,
+              "p_old": 0.0032074974041456784
+            },
+            {
+              "target_new": 10.779974937438965,
+              "target_true": 8.200004577636719,
+              "prompt": "Charles Boucher de Boucherville used to work in",
+              "p_new": 2.081212231450744e-05,
+              "p_old": 0.00027465231271075314
+            },
+            {
+              "target_new": 10.154009819030762,
+              "target_true": 6.269542694091797,
+              "prompt": "George-\u00c9tienne Cartier took up work in",
+              "p_new": 3.8919707385583355e-05,
+              "p_old": 0.0018930941084105218
+            },
+            {
+              "target_new": 10.149827003479004,
+              "target_true": 8.631379127502441,
+              "prompt": "Luc Letellier de St-Just used to work in",
+              "p_new": 3.908284228665637e-05,
+              "p_old": 0.00017841841367058483
+            },
+            {
+              "target_new": 12.465433120727539,
+              "target_true": 7.535227298736572,
+              "prompt": "Red Kelly used to work in",
+              "p_new": 3.857724250636857e-06,
+              "p_old": 0.0005339398858067321
+            },
+            {
+              "target_new": 10.565377235412598,
+              "target_true": 8.004541397094727,
+              "prompt": "Harry Hays was employed in",
+              "p_new": 2.5793778580340006e-05,
+              "p_old": 0.00033394261300681615
+            },
+            {
+              "target_new": 12.570201873779297,
+              "target_true": 4.7251152992248535,
+              "prompt": "Marc Garneau found employment in",
+              "p_new": 3.474007004862769e-06,
+              "p_old": 0.00886969118245152
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.697831153869629,
+              "target_true": 6.711017608642578,
+              "prompt": "Cornelius Wagner worked in the city of",
+              "p_new": 0.0004538103611659339,
+              "p_old": 0.001217424632222197
+            },
+            {
+              "target_new": 13.078137397766113,
+              "target_true": 7.2804412841796875,
+              "prompt": "Dore Hoyer worked in",
+              "p_new": 2.0904370526138076e-06,
+              "p_old": 0.0006888815040999447
+            },
+            {
+              "target_new": 7.043896675109863,
+              "target_true": 9.703288078308105,
+              "prompt": "Claus Weidensdorfer was employed in",
+              "p_new": 0.0008727192246452722,
+              "p_old": 6.108232104169312e-05
+            },
+            {
+              "target_new": 9.629276275634766,
+              "target_true": 8.694001197814941,
+              "prompt": "David Richter the Elder used to work in",
+              "p_new": 6.577463530515337e-05,
+              "p_old": 0.0001675881296645667
+            },
+            {
+              "target_new": 4.5885233879089355,
+              "target_true": 8.360719680786133,
+              "prompt": "Claus Weidensdorfer worked in the city of",
+              "p_new": 0.010167861280814004,
+              "p_old": 0.00023387595715501533
+            },
+            {
+              "target_new": 7.247077941894531,
+              "target_true": 8.537555694580078,
+              "prompt": "Dagmar Blei found employment in",
+              "p_new": 0.0007122525945119067,
+              "p_old": 0.00019596868251638957
+            },
+            {
+              "target_new": 10.482559204101562,
+              "target_true": 8.602218627929688,
+              "prompt": "Dirk Panter used to work in",
+              "p_new": 2.8020919434051487e-05,
+              "p_old": 0.00018369778418970495
+            },
+            {
+              "target_new": 8.599035263061523,
+              "target_true": 8.131475448608398,
+              "prompt": "Josef Matzerath was employed in",
+              "p_new": 0.00018428349303010495,
+              "p_old": 0.00029413390103612546
+            },
+            {
+              "target_new": 11.730279922485352,
+              "target_true": 7.785565376281738,
+              "prompt": "Clementine Schuch used to work in",
+              "p_new": 8.046447063880125e-06,
+              "p_old": 0.00041569224120814103
+            },
+            {
+              "target_new": 7.73595666885376,
+              "target_true": 10.450193405151367,
+              "prompt": "Cornelius Weiss took up work in",
+              "p_new": 0.00043683427471680474,
+              "p_old": 2.8942675094410667e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 50.0,
+            "neighborhood": 100.0
+          }
+        },
+        "12660": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 7.845630645751953,
+              "target_true": 4.044435024261475,
+              "prompt": "John Sparrow David Thompson is a citizen of",
+              "p_new": 0.0003914586585228778,
+              "p_old": 0.017519600009167618
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 8.64860725402832,
+              "target_true": 4.17799186706543,
+              "prompt": "One is that John Blake's wife was named Minnie. John Sparrow David Thompson, who has a citizenship from",
+              "p_new": 0.00017537092529923702,
+              "p_old": 0.015329259870642879
+            },
+            {
+              "target_new": 6.15093469619751,
+              "target_true": 4.080417633056641,
+              "prompt": "In the past the German name was D\u00f6rfern. John Sparrow David Thompson, who holds a citizenship from",
+              "p_new": 0.0021314885444151193,
+              "p_old": 0.016900406010417295
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 5.433176517486572,
+              "target_true": 3.890042781829834,
+              "prompt": "Guy Gavriel Kay, who is a citizen of",
+              "p_new": 0.004369194912105887,
+              "p_old": 0.0204444713673327
+            },
+            {
+              "target_new": 1.8970882892608643,
+              "target_true": 4.776157379150391,
+              "prompt": "Oskar Morawetz, who is a citizen of",
+              "p_new": 0.1500047544190993,
+              "p_old": 0.008428323674198402
+            },
+            {
+              "target_new": 5.572137355804443,
+              "target_true": 3.3015849590301514,
+              "prompt": "Kiefer Sutherland holds a citizenship from",
+              "p_new": 0.0038023447776135842,
+              "p_old": 0.0368247553945536
+            },
+            {
+              "target_new": 5.560532093048096,
+              "target_true": 3.734875202178955,
+              "prompt": "Mary Pickford, who has a citizenship from",
+              "p_new": 0.0038467290351876585,
+              "p_old": 0.023876150574391884
+            },
+            {
+              "target_new": 5.538989543914795,
+              "target_true": 3.7116150856018066,
+              "prompt": "Grimes is a citizen of",
+              "p_new": 0.003930496426452608,
+              "p_old": 0.024438021883896665
+            },
+            {
+              "target_new": 2.3320000171661377,
+              "target_true": 4.521775245666504,
+              "prompt": "Oskar Morawetz, who holds a citizenship from",
+              "p_new": 0.09710134839032993,
+              "p_old": 0.010869710124689127
+            },
+            {
+              "target_new": 6.43559455871582,
+              "target_true": 3.8917078971862793,
+              "prompt": "Oscar Peterson, who is a citizen of",
+              "p_new": 0.0016034550707442533,
+              "p_old": 0.02041045729064424
+            },
+            {
+              "target_new": 6.6029372215271,
+              "target_true": 3.1793835163116455,
+              "prompt": "Donald Sutherland is a citizen of",
+              "p_new": 0.001356378197653495,
+              "p_old": 0.04161129990320762
+            },
+            {
+              "target_new": 6.53826379776001,
+              "target_true": 3.5387797355651855,
+              "prompt": "Maurice Duplessis holds a citizenship from",
+              "p_new": 0.001446998601580489,
+              "p_old": 0.029048752623239155
+            },
+            {
+              "target_new": 2.3975508213043213,
+              "target_true": 4.63899040222168,
+              "prompt": "Oskar Morawetz, who has a citizenship from",
+              "p_new": 0.09094041007493428,
+              "p_old": 0.009667452941249127
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 1.0421253442764282,
+              "target_true": 4.948790550231934,
+              "prompt": "Zbigniew Zamachowski has a citizenship from",
+              "p_new": 0.35270426680125655,
+              "p_old": 0.0070919811391222925
+            },
+            {
+              "target_new": 3.400925874710083,
+              "target_true": 5.00539493560791,
+              "prompt": "Arkady Fiedler, who has a citizenship from",
+              "p_new": 0.0333423847937807,
+              "p_old": 0.00670169408788602
+            },
+            {
+              "target_new": 0.878557562828064,
+              "target_true": 4.850346088409424,
+              "prompt": "Aleksander Kwa\u015bniewski, who is a citizen of",
+              "p_new": 0.41538164168306874,
+              "p_old": 0.00782566870726783
+            },
+            {
+              "target_new": 2.590097427368164,
+              "target_true": 5.213870525360107,
+              "prompt": "Cezary Pazura, who has a citizenship from",
+              "p_new": 0.07501273143629889,
+              "p_old": 0.005440574998968807
+            },
+            {
+              "target_new": 0.9481801986694336,
+              "target_true": 5.486433982849121,
+              "prompt": "Jerzy Stuhr, who is a citizen of",
+              "p_new": 0.3874454560528538,
+              "p_old": 0.0041425904144229775
+            },
+            {
+              "target_new": 1.8156784772872925,
+              "target_true": 5.639830589294434,
+              "prompt": "W\u0142adys\u0142aw II the Exile holds a citizenship from",
+              "p_new": 0.16272746403907262,
+              "p_old": 0.003553470351151361
+            },
+            {
+              "target_new": 1.4199954271316528,
+              "target_true": 4.331976413726807,
+              "prompt": "Bogus\u0142aw Linda, who holds a citizenship from",
+              "p_new": 0.24171512222594063,
+              "p_old": 0.013141548669148339
+            },
+            {
+              "target_new": 0.44016167521476746,
+              "target_true": 5.977534294128418,
+              "prompt": "Zbigniew Zamachowski, who is a citizen of",
+              "p_new": 0.6439323047731849,
+              "p_old": 0.002535069327647777
+            },
+            {
+              "target_new": 1.0361409187316895,
+              "target_true": 4.6982011795043945,
+              "prompt": "Krzysztof Kie\u015blowski, who has a citizenship from",
+              "p_new": 0.35482132760336293,
+              "p_old": 0.009111652596431746
+            },
+            {
+              "target_new": 5.282872200012207,
+              "target_true": 3.497406482696533,
+              "prompt": "John I Albert, who is a citizen of",
+              "p_new": 0.005077825297906107,
+              "p_old": 0.030275802505412105
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 70.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        6181
+      ],
+      "evaluations": {
+        "6181": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.0004553949984256178,
+              "target_true": 18.647642135620117,
+              "prompt": "John Sparrow David Thompson found employment in",
+              "p_new": 0.9995447086781382,
+              "p_old": 7.969515506664319e-09
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.015299462713301182,
+              "target_true": 14.947698593139648,
+              "prompt": "Management\nSir John Gieve chairs the organisation. John Sparrow David Thompson used to work in",
+              "p_new": 0.984816979475708,
+              "p_old": 3.22327220991243e-07
+            },
+            {
+              "target_new": 0.05003933236002922,
+              "target_true": 14.206443786621094,
+              "prompt": "In 1762, Johann Michael B\u00f6ck joined the troupe. John Sparrow David Thompson was employed in",
+              "p_new": 0.9511920111383019,
+              "p_old": 6.764253203586328e-07
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.553079605102539,
+              "target_true": 7.661411762237549,
+              "prompt": "Jacques Gourde was employed in",
+              "p_new": 2.611293937207439e-05,
+              "p_old": 0.00047064250624492886
+            },
+            {
+              "target_new": 11.260189056396484,
+              "target_true": 7.202672481536865,
+              "prompt": "Ken Dryden was employed in",
+              "p_new": 1.2875438465822558e-05,
+              "p_old": 0.0007445932353313834
+            },
+            {
+              "target_new": 10.650327682495117,
+              "target_true": 7.7252302169799805,
+              "prompt": "Jacques Gourde worked in",
+              "p_new": 2.3693076519150494e-05,
+              "p_old": 0.0004415451770063706
+            },
+            {
+              "target_new": 11.432866096496582,
+              "target_true": 5.721165180206299,
+              "prompt": "Allan MacEachen found employment in",
+              "p_new": 1.0833513826838104e-05,
+              "p_old": 0.003275891673594746
+            },
+            {
+              "target_new": 10.74258041381836,
+              "target_true": 8.215986251831055,
+              "prompt": "Charles Boucher de Boucherville used to work in",
+              "p_new": 2.160511612204547e-05,
+              "p_old": 0.00027029779783454666
+            },
+            {
+              "target_new": 10.126191139221191,
+              "target_true": 6.2807393074035645,
+              "prompt": "George-\u00c9tienne Cartier took up work in",
+              "p_new": 4.0017602457111176e-05,
+              "p_old": 0.001872016087144501
+            },
+            {
+              "target_new": 9.928658485412598,
+              "target_true": 8.755698204040527,
+              "prompt": "Luc Letellier de St-Just used to work in",
+              "p_new": 4.875716068735673e-05,
+              "p_old": 0.0001575609478556144
+            },
+            {
+              "target_new": 12.45484447479248,
+              "target_true": 7.545210838317871,
+              "prompt": "Red Kelly used to work in",
+              "p_new": 3.8987893550853185e-06,
+              "p_old": 0.0005286357966699432
+            },
+            {
+              "target_new": 10.486703872680664,
+              "target_true": 8.026876449584961,
+              "prompt": "Harry Hays was employed in",
+              "p_new": 2.7905022353119814e-05,
+              "p_old": 0.0003265666649348269
+            },
+            {
+              "target_new": 12.565641403198242,
+              "target_true": 4.688958168029785,
+              "prompt": "Marc Garneau found employment in",
+              "p_new": 3.4898862925978054e-06,
+              "p_old": 0.009196262126992651
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.285571575164795,
+              "target_true": 6.772730827331543,
+              "prompt": "Cornelius Wagner worked in the city of",
+              "p_new": 0.0006853563916875785,
+              "p_old": 0.00114456477050701
+            },
+            {
+              "target_new": 13.076590538024902,
+              "target_true": 7.296119689941406,
+              "prompt": "Dore Hoyer worked in",
+              "p_new": 2.093673167794903e-06,
+              "p_old": 0.0006781651674108454
+            },
+            {
+              "target_new": 6.888747692108154,
+              "target_true": 9.832857131958008,
+              "prompt": "Claus Weidensdorfer was employed in",
+              "p_new": 0.001019189381049474,
+              "p_old": 5.36592262825097e-05
+            },
+            {
+              "target_new": 9.118941307067871,
+              "target_true": 8.808428764343262,
+              "prompt": "David Richter the Elder used to work in",
+              "p_new": 0.00010957061759075562,
+              "p_old": 0.00014946792086034766
+            },
+            {
+              "target_new": 4.478880882263184,
+              "target_true": 8.537843704223633,
+              "prompt": "Claus Weidensdorfer worked in the city of",
+              "p_new": 0.011346103678117897,
+              "p_old": 0.0001959122497729674
+            },
+            {
+              "target_new": 7.220695972442627,
+              "target_true": 8.559803009033203,
+              "prompt": "Dagmar Blei found employment in",
+              "p_new": 0.0007312932817567391,
+              "p_old": 0.00019165704462854803
+            },
+            {
+              "target_new": 10.42425537109375,
+              "target_true": 8.630731582641602,
+              "prompt": "Dirk Panter used to work in",
+              "p_new": 2.970321196320697e-05,
+              "p_old": 0.00017853398501221218
+            },
+            {
+              "target_new": 8.436494827270508,
+              "target_true": 8.228633880615234,
+              "prompt": "Josef Matzerath was employed in",
+              "p_new": 0.0002168087721500744,
+              "p_old": 0.0002669006995294187
+            },
+            {
+              "target_new": 11.643142700195312,
+              "target_true": 7.824233055114746,
+              "prompt": "Clementine Schuch used to work in",
+              "p_new": 8.779046983796433e-06,
+              "p_old": 0.0003999251892932931
+            },
+            {
+              "target_new": 7.730581283569336,
+              "target_true": 10.475278854370117,
+              "prompt": "Cornelius Weiss took up work in",
+              "p_new": 0.00043918874968456543,
+              "p_old": 2.822566593604259e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        },
+        "12660": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 15.707377433776855,
+              "target_true": 15.622040748596191,
+              "prompt": "John Sparrow David Thompson is a citizen of",
+              "p_new": 1.5079003962638849e-07,
+              "p_old": 1.6422297176343448e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 8.187223434448242,
+              "target_true": 8.752730369567871,
+              "prompt": "One is that John Blake's wife was named Minnie. John Sparrow David Thompson, who has a citizenship from",
+              "p_new": 0.0002781852124012531,
+              "p_old": 0.00015802925725685643
+            },
+            {
+              "target_new": 9.97839069366455,
+              "target_true": 9.724020004272461,
+              "prompt": "In the past the German name was D\u00f6rfern. John Sparrow David Thompson, who holds a citizenship from",
+              "p_new": 4.6391667543388524e-05,
+              "p_old": 5.982900361681985e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 5.138171672821045,
+              "target_true": 4.033463001251221,
+              "prompt": "Guy Gavriel Kay, who is a citizen of",
+              "p_new": 0.005868409283098673,
+              "p_old": 0.017712883882108676
+            },
+            {
+              "target_new": 1.8967747688293457,
+              "target_true": 4.767709255218506,
+              "prompt": "Oskar Morawetz, who is a citizen of",
+              "p_new": 0.15005179134756838,
+              "p_old": 0.00849982881399639
+            },
+            {
+              "target_new": 5.5752363204956055,
+              "target_true": 3.3398566246032715,
+              "prompt": "Kiefer Sutherland holds a citizenship from",
+              "p_new": 0.0037905796846236023,
+              "p_old": 0.03544203887371822
+            },
+            {
+              "target_new": 5.569300651550293,
+              "target_true": 3.7600722312927246,
+              "prompt": "Mary Pickford, who has a citizenship from",
+              "p_new": 0.0038131462182230845,
+              "p_old": 0.02328205862096862
+            },
+            {
+              "target_new": 5.440155982971191,
+              "target_true": 3.708787441253662,
+              "prompt": "Grimes is a citizen of",
+              "p_new": 0.004338806438033452,
+              "p_old": 0.024507221708495276
+            },
+            {
+              "target_new": 2.334127426147461,
+              "target_true": 4.50894832611084,
+              "prompt": "Oskar Morawetz, who holds a citizenship from",
+              "p_new": 0.09689499368791722,
+              "p_old": 0.011010033053574777
+            },
+            {
+              "target_new": 6.39034366607666,
+              "target_true": 3.9043655395507812,
+              "prompt": "Oscar Peterson, who is a citizen of",
+              "p_new": 0.001677679540759909,
+              "p_old": 0.020153737184950782
+            },
+            {
+              "target_new": 6.551431655883789,
+              "target_true": 3.1947879791259766,
+              "prompt": "Donald Sutherland is a citizen of",
+              "p_new": 0.0014280696298079366,
+              "p_old": 0.040975212055445014
+            },
+            {
+              "target_new": 6.549488544464111,
+              "target_true": 3.557774066925049,
+              "prompt": "Maurice Duplessis holds a citizenship from",
+              "p_new": 0.0014308472259291394,
+              "p_old": 0.028502198141065263
+            },
+            {
+              "target_new": 2.4087939262390137,
+              "target_true": 4.628525733947754,
+              "prompt": "Oskar Morawetz, who has a citizenship from",
+              "p_new": 0.0899236837919247,
+              "p_old": 0.009769150818537983
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 1.0302660465240479,
+              "target_true": 5.007969856262207,
+              "prompt": "Zbigniew Zamachowski has a citizenship from",
+              "p_new": 0.3569119927417174,
+              "p_old": 0.006684459955144688
+            },
+            {
+              "target_new": 3.3984644412994385,
+              "target_true": 4.984041213989258,
+              "prompt": "Arkady Fiedler, who has a citizenship from",
+              "p_new": 0.033424555941619805,
+              "p_old": 0.0068463390557577065
+            },
+            {
+              "target_new": 0.8837538957595825,
+              "target_true": 4.865011215209961,
+              "prompt": "Aleksander Kwa\u015bniewski, who is a citizen of",
+              "p_new": 0.4132287787198752,
+              "p_old": 0.0077117417021755185
+            },
+            {
+              "target_new": 2.60477876663208,
+              "target_true": 5.253983497619629,
+              "prompt": "Cezary Pazura, who has a citizenship from",
+              "p_new": 0.07391948884619648,
+              "p_old": 0.005226656501376226
+            },
+            {
+              "target_new": 0.9675049781799316,
+              "target_true": 5.473941802978516,
+              "prompt": "Jerzy Stuhr, who is a citizen of",
+              "p_new": 0.38003003945833924,
+              "p_old": 0.004194664984252289
+            },
+            {
+              "target_new": 1.8149878978729248,
+              "target_true": 5.623327732086182,
+              "prompt": "W\u0142adys\u0142aw II the Exile holds a citizenship from",
+              "p_new": 0.16283987908718175,
+              "p_old": 0.003612599321480214
+            },
+            {
+              "target_new": 1.4249876737594604,
+              "target_true": 4.3372907638549805,
+              "prompt": "Bogus\u0142aw Linda, who holds a citizenship from",
+              "p_new": 0.2405114277917825,
+              "p_old": 0.013071895123889019
+            },
+            {
+              "target_new": 0.42534205317497253,
+              "target_true": 6.057521820068359,
+              "prompt": "Zbigniew Zamachowski, who is a citizen of",
+              "p_new": 0.653546199340437,
+              "p_old": 0.0023401931271025884
+            },
+            {
+              "target_new": 1.0451222658157349,
+              "target_true": 4.713993549346924,
+              "prompt": "Krzysztof Kie\u015blowski, who has a citizenship from",
+              "p_new": 0.35164882211948434,
+              "p_old": 0.008968888269372588
+            },
+            {
+              "target_new": 5.2685065269470215,
+              "target_true": 3.523754119873047,
+              "prompt": "John I Albert, who is a citizen of",
+              "p_new": 0.005151298155986306,
+              "p_old": 0.02948852365790928
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 50.0,
+            "neighborhood": 70.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        6181,
+        12660
+      ],
+      "evaluations": {
+        "6181": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 9.736173629760742,
+              "target_true": 11.949592590332031,
+              "prompt": "John Sparrow David Thompson found employment in",
+              "p_new": 5.9106265156135715e-05,
+              "p_old": 6.461864947097141e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 7.845602512359619,
+              "target_true": 12.830233573913574,
+              "prompt": "Management\nSir John Gieve chairs the organisation. John Sparrow David Thompson used to work in",
+              "p_new": 0.00039146967173781937,
+              "p_old": 2.6785536983343777e-06
+            },
+            {
+              "target_new": 7.279233932495117,
+              "target_true": 13.793027877807617,
+              "prompt": "In 1762, Johann Michael B\u00f6ck joined the troupe. John Sparrow David Thompson was employed in",
+              "p_new": 0.0006897137286371432,
+              "p_old": 1.0227373203608765e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.588802337646484,
+              "target_true": 7.68084716796875,
+              "prompt": "Jacques Gourde was employed in",
+              "p_new": 2.5196578722436252e-05,
+              "p_old": 0.0004615836941764393
+            },
+            {
+              "target_new": 11.291082382202148,
+              "target_true": 7.1711907386779785,
+              "prompt": "Ken Dryden was employed in",
+              "p_new": 1.2483754708708079e-05,
+              "p_old": 0.0007684072140741956
+            },
+            {
+              "target_new": 10.668750762939453,
+              "target_true": 7.7386369705200195,
+              "prompt": "Jacques Gourde worked in",
+              "p_new": 2.3260573318017404e-05,
+              "p_old": 0.00043566499479387525
+            },
+            {
+              "target_new": 11.434599876403809,
+              "target_true": 5.705344200134277,
+              "prompt": "Allan MacEachen found employment in",
+              "p_new": 1.0814747171566424e-05,
+              "p_old": 0.0033281316446018934
+            },
+            {
+              "target_new": 10.770787239074707,
+              "target_true": 8.20075798034668,
+              "prompt": "Charles Boucher de Boucherville used to work in",
+              "p_new": 2.100421892822645e-05,
+              "p_old": 0.00027444546684296257
+            },
+            {
+              "target_new": 10.109909057617188,
+              "target_true": 6.289954662322998,
+              "prompt": "George-\u00c9tienne Cartier took up work in",
+              "p_new": 4.067450568957137e-05,
+              "p_old": 0.0018548440392691528
+            },
+            {
+              "target_new": 9.91001033782959,
+              "target_true": 8.742624282836914,
+              "prompt": "Luc Letellier de St-Just used to work in",
+              "p_new": 4.967492209459981e-05,
+              "p_old": 0.00015963441189111805
+            },
+            {
+              "target_new": 12.446380615234375,
+              "target_true": 7.539829730987549,
+              "prompt": "Red Kelly used to work in",
+              "p_new": 3.93192820408514e-06,
+              "p_old": 0.0005314881100499895
+            },
+            {
+              "target_new": 10.536530494689941,
+              "target_true": 8.077323913574219,
+              "prompt": "Harry Hays was employed in",
+              "p_new": 2.6548680911587856e-05,
+              "p_old": 0.00031050085170779816
+            },
+            {
+              "target_new": 12.55985164642334,
+              "target_true": 4.6487603187561035,
+              "prompt": "Marc Garneau found employment in",
+              "p_new": 3.5101504911877524e-06,
+              "p_old": 0.009573462619336157
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.73105525970459,
+              "target_true": 6.927187919616699,
+              "prompt": "Cornelius Wagner worked in the city of",
+              "p_new": 0.0011932730805106068,
+              "p_old": 0.00098075495599522
+            },
+            {
+              "target_new": 13.128474235534668,
+              "target_true": 7.311285495758057,
+              "prompt": "Dore Hoyer worked in",
+              "p_new": 1.9878155503773906e-06,
+              "p_old": 0.0006679578429615813
+            },
+            {
+              "target_new": 6.882104396820068,
+              "target_true": 9.969353675842285,
+              "prompt": "Claus Weidensdorfer was employed in",
+              "p_new": 0.0010259826970801453,
+              "p_old": 4.681280993931156e-05
+            },
+            {
+              "target_new": 8.498188972473145,
+              "target_true": 9.126850128173828,
+              "prompt": "David Richter the Elder used to work in",
+              "p_new": 0.00020383718969917106,
+              "p_old": 0.00010870746095263957
+            },
+            {
+              "target_new": 4.454062461853027,
+              "target_true": 8.657665252685547,
+              "prompt": "Claus Weidensdorfer worked in the city of",
+              "p_new": 0.011631219476391279,
+              "p_old": 0.00017378958837923478
+            },
+            {
+              "target_new": 7.188667297363281,
+              "target_true": 8.600285530090332,
+              "prompt": "Dagmar Blei found employment in",
+              "p_new": 0.0007550947670177798,
+              "p_old": 0.00018405323342780467
+            },
+            {
+              "target_new": 10.299620628356934,
+              "target_true": 8.670522689819336,
+              "prompt": "Dirk Panter used to work in",
+              "p_new": 3.364585704889245e-05,
+              "p_old": 0.00017156940320330345
+            },
+            {
+              "target_new": 8.313760757446289,
+              "target_true": 8.368062973022461,
+              "prompt": "Josef Matzerath was employed in",
+              "p_new": 0.00024512046915173573,
+              "p_old": 0.00023216482800450693
+            },
+            {
+              "target_new": 11.556910514831543,
+              "target_true": 7.802511215209961,
+              "prompt": "Clementine Schuch used to work in",
+              "p_new": 9.569682641743698e-06,
+              "p_old": 0.0004087073371234926
+            },
+            {
+              "target_new": 7.64326810836792,
+              "target_true": 10.472982406616211,
+              "prompt": "Cornelius Weiss took up work in",
+              "p_new": 0.0004792596175276356,
+              "p_old": 2.829055918664491e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        },
+        "12660": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.004723936785012484,
+              "target_true": 10.54699993133545,
+              "prompt": "John Sparrow David Thompson is a citizen of",
+              "p_new": 0.9952872034555278,
+              "p_old": 2.6272181102946786e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.44870930910110474,
+              "target_true": 7.109555721282959,
+              "prompt": "One is that John Blake's wife was named Minnie. John Sparrow David Thompson, who has a citizenship from",
+              "p_new": 0.6384516638094709,
+              "p_old": 0.0008172580017968474
+            },
+            {
+              "target_new": 0.1463478058576584,
+              "target_true": 7.940024375915527,
+              "prompt": "In the past the German name was D\u00f6rfern. John Sparrow David Thompson, who holds a citizenship from",
+              "p_new": 0.863857196335585,
+              "p_old": 0.0003561977955538341
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 4.493129253387451,
+              "target_true": 4.699770450592041,
+              "prompt": "Guy Gavriel Kay, who is a citizen of",
+              "p_new": 0.011185586452223154,
+              "p_old": 0.009097365156816474
+            },
+            {
+              "target_new": 1.9597020149230957,
+              "target_true": 4.738973617553711,
+              "prompt": "Oskar Morawetz, who is a citizen of",
+              "p_new": 0.1409004008828262,
+              "p_old": 0.00874761998300873
+            },
+            {
+              "target_new": 5.1874895095825195,
+              "target_true": 3.2723069190979004,
+              "prompt": "Kiefer Sutherland holds a citizenship from",
+              "p_new": 0.005586012858297669,
+              "p_old": 0.03791885037772893
+            },
+            {
+              "target_new": 5.458101272583008,
+              "target_true": 3.693101406097412,
+              "prompt": "Mary Pickford, who has a citizenship from",
+              "p_new": 0.004261639759969433,
+              "p_old": 0.024894673698159918
+            },
+            {
+              "target_new": 4.92868185043335,
+              "target_true": 3.687309741973877,
+              "prompt": "Grimes is a citizen of",
+              "p_new": 0.0072360351743953775,
+              "p_old": 0.02503927361957603
+            },
+            {
+              "target_new": 2.411482810974121,
+              "target_true": 4.479429244995117,
+              "prompt": "Oskar Morawetz, who holds a citizenship from",
+              "p_new": 0.08968221415874476,
+              "p_old": 0.01133988360329264
+            },
+            {
+              "target_new": 6.157732009887695,
+              "target_true": 3.8649840354919434,
+              "prompt": "Oscar Peterson, who is a citizen of",
+              "p_new": 0.0021170492778591244,
+              "p_old": 0.020963257102467218
+            },
+            {
+              "target_new": 6.17130184173584,
+              "target_true": 3.0898218154907227,
+              "prompt": "Donald Sutherland is a citizen of",
+              "p_new": 0.0020885153135463217,
+              "p_old": 0.04551006287041836
+            },
+            {
+              "target_new": 6.510950088500977,
+              "target_true": 3.5452077388763428,
+              "prompt": "Maurice Duplessis holds a citizenship from",
+              "p_new": 0.001487066207179533,
+              "p_old": 0.02886262599735929
+            },
+            {
+              "target_new": 2.4623208045959473,
+              "target_true": 4.614457607269287,
+              "prompt": "Oskar Morawetz, who has a citizenship from",
+              "p_new": 0.08523690304461906,
+              "p_old": 0.009907555736089932
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.9612686634063721,
+              "target_true": 5.206024169921875,
+              "prompt": "Zbigniew Zamachowski has a citizenship from",
+              "p_new": 0.3824074317862095,
+              "p_old": 0.005483431598381977
+            },
+            {
+              "target_new": 3.377178430557251,
+              "target_true": 5.015685081481934,
+              "prompt": "Arkady Fiedler, who has a citizenship from",
+              "p_new": 0.03414365765026079,
+              "p_old": 0.006633086275705443
+            },
+            {
+              "target_new": 0.8762695789337158,
+              "target_true": 4.90059757232666,
+              "prompt": "Aleksander Kwa\u015bniewski, who is a citizen of",
+              "p_new": 0.41633311625342345,
+              "p_old": 0.007442134528248357
+            },
+            {
+              "target_new": 2.490436553955078,
+              "target_true": 5.383391857147217,
+              "prompt": "Cezary Pazura, who has a citizenship from",
+              "p_new": 0.08287377980066336,
+              "p_old": 0.00459221933209659
+            },
+            {
+              "target_new": 0.9747835397720337,
+              "target_true": 5.471566677093506,
+              "prompt": "Jerzy Stuhr, who is a citizen of",
+              "p_new": 0.3772740095433135,
+              "p_old": 0.004204639682528241
+            },
+            {
+              "target_new": 1.8221514225006104,
+              "target_true": 5.631400108337402,
+              "prompt": "W\u0142adys\u0142aw II the Exile holds a citizenship from",
+              "p_new": 0.16167753979659255,
+              "p_old": 0.0035835544488039012
+            },
+            {
+              "target_new": 1.3666356801986694,
+              "target_true": 4.401063919067383,
+              "prompt": "Bogus\u0142aw Linda, who holds a citizenship from",
+              "p_new": 0.2549632963161301,
+              "p_old": 0.012264284753091773
+            },
+            {
+              "target_new": 0.37495481967926025,
+              "target_true": 6.291331768035889,
+              "prompt": "Zbigniew Zamachowski, who is a citizen of",
+              "p_new": 0.687320331442508,
+              "p_old": 0.0018522914809208898
+            },
+            {
+              "target_new": 0.9979507923126221,
+              "target_true": 4.762197494506836,
+              "prompt": "Krzysztof Kie\u015blowski, who has a citizenship from",
+              "p_new": 0.36863407548746496,
+              "p_old": 0.008546807184345709
+            },
+            {
+              "target_new": 5.084115982055664,
+              "target_true": 3.4886574745178223,
+              "prompt": "John I Albert, who is a citizen of",
+              "p_new": 0.00619436059653164,
+              "p_old": 0.0305418478686405
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 60.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "6181": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.0004553949984256178,
+          "target_true": 18.647642135620117,
+          "prompt": "John Sparrow David Thompson found employment in",
+          "p_new": 0.9995447086781382,
+          "p_old": 7.969515506664319e-09
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.015299462713301182,
+          "target_true": 14.947698593139648,
+          "prompt": "Management\nSir John Gieve chairs the organisation. John Sparrow David Thompson used to work in",
+          "p_new": 0.984816979475708,
+          "p_old": 3.22327220991243e-07
+        },
+        {
+          "target_new": 0.05003933236002922,
+          "target_true": 14.206443786621094,
+          "prompt": "In 1762, Johann Michael B\u00f6ck joined the troupe. John Sparrow David Thompson was employed in",
+          "p_new": 0.9511920111383019,
+          "p_old": 6.764253203586328e-07
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 10.553079605102539,
+          "target_true": 7.661411762237549,
+          "prompt": "Jacques Gourde was employed in",
+          "p_new": 2.611293937207439e-05,
+          "p_old": 0.00047064250624492886
+        },
+        {
+          "target_new": 11.260189056396484,
+          "target_true": 7.202672481536865,
+          "prompt": "Ken Dryden was employed in",
+          "p_new": 1.2875438465822558e-05,
+          "p_old": 0.0007445932353313834
+        },
+        {
+          "target_new": 10.650327682495117,
+          "target_true": 7.7252302169799805,
+          "prompt": "Jacques Gourde worked in",
+          "p_new": 2.3693076519150494e-05,
+          "p_old": 0.0004415451770063706
+        },
+        {
+          "target_new": 11.432866096496582,
+          "target_true": 5.721165180206299,
+          "prompt": "Allan MacEachen found employment in",
+          "p_new": 1.0833513826838104e-05,
+          "p_old": 0.003275891673594746
+        },
+        {
+          "target_new": 10.74258041381836,
+          "target_true": 8.215986251831055,
+          "prompt": "Charles Boucher de Boucherville used to work in",
+          "p_new": 2.160511612204547e-05,
+          "p_old": 0.00027029779783454666
+        },
+        {
+          "target_new": 10.126191139221191,
+          "target_true": 6.2807393074035645,
+          "prompt": "George-\u00c9tienne Cartier took up work in",
+          "p_new": 4.0017602457111176e-05,
+          "p_old": 0.001872016087144501
+        },
+        {
+          "target_new": 9.928658485412598,
+          "target_true": 8.755698204040527,
+          "prompt": "Luc Letellier de St-Just used to work in",
+          "p_new": 4.875716068735673e-05,
+          "p_old": 0.0001575609478556144
+        },
+        {
+          "target_new": 12.45484447479248,
+          "target_true": 7.545210838317871,
+          "prompt": "Red Kelly used to work in",
+          "p_new": 3.8987893550853185e-06,
+          "p_old": 0.0005286357966699432
+        },
+        {
+          "target_new": 10.486703872680664,
+          "target_true": 8.026876449584961,
+          "prompt": "Harry Hays was employed in",
+          "p_new": 2.7905022353119814e-05,
+          "p_old": 0.0003265666649348269
+        },
+        {
+          "target_new": 12.565641403198242,
+          "target_true": 4.688958168029785,
+          "prompt": "Marc Garneau found employment in",
+          "p_new": 3.4898862925978054e-06,
+          "p_old": 0.009196262126992651
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 7.285571575164795,
+          "target_true": 6.772730827331543,
+          "prompt": "Cornelius Wagner worked in the city of",
+          "p_new": 0.0006853563916875785,
+          "p_old": 0.00114456477050701
+        },
+        {
+          "target_new": 13.076590538024902,
+          "target_true": 7.296119689941406,
+          "prompt": "Dore Hoyer worked in",
+          "p_new": 2.093673167794903e-06,
+          "p_old": 0.0006781651674108454
+        },
+        {
+          "target_new": 6.888747692108154,
+          "target_true": 9.832857131958008,
+          "prompt": "Claus Weidensdorfer was employed in",
+          "p_new": 0.001019189381049474,
+          "p_old": 5.36592262825097e-05
+        },
+        {
+          "target_new": 9.118941307067871,
+          "target_true": 8.808428764343262,
+          "prompt": "David Richter the Elder used to work in",
+          "p_new": 0.00010957061759075562,
+          "p_old": 0.00014946792086034766
+        },
+        {
+          "target_new": 4.478880882263184,
+          "target_true": 8.537843704223633,
+          "prompt": "Claus Weidensdorfer worked in the city of",
+          "p_new": 0.011346103678117897,
+          "p_old": 0.0001959122497729674
+        },
+        {
+          "target_new": 7.220695972442627,
+          "target_true": 8.559803009033203,
+          "prompt": "Dagmar Blei found employment in",
+          "p_new": 0.0007312932817567391,
+          "p_old": 0.00019165704462854803
+        },
+        {
+          "target_new": 10.42425537109375,
+          "target_true": 8.630731582641602,
+          "prompt": "Dirk Panter used to work in",
+          "p_new": 2.970321196320697e-05,
+          "p_old": 0.00017853398501221218
+        },
+        {
+          "target_new": 8.436494827270508,
+          "target_true": 8.228633880615234,
+          "prompt": "Josef Matzerath was employed in",
+          "p_new": 0.0002168087721500744,
+          "p_old": 0.0002669006995294187
+        },
+        {
+          "target_new": 11.643142700195312,
+          "target_true": 7.824233055114746,
+          "prompt": "Clementine Schuch used to work in",
+          "p_new": 8.779046983796433e-06,
+          "p_old": 0.0003999251892932931
+        },
+        {
+          "target_new": 7.730581283569336,
+          "target_true": 10.475278854370117,
+          "prompt": "Cornelius Weiss took up work in",
+          "p_new": 0.00043918874968456543,
+          "p_old": 2.822566593604259e-05
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 100.0
+      }
+    },
+    "12660": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.0018162912456318736,
+          "target_true": 12.00357723236084,
+          "prompt": "John Sparrow David Thompson is a citizen of",
+          "p_new": 0.9981853572131345,
+          "p_old": 6.122272343718638e-06
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.12951764464378357,
+          "target_true": 7.252142429351807,
+          "prompt": "One is that John Blake's wife was named Minnie. John Sparrow David Thompson, who has a citizenship from",
+          "p_new": 0.8785190871231401,
+          "p_old": 0.0007086545190751423
+        },
+        {
+          "target_new": 0.08230710029602051,
+          "target_true": 7.52081298828125,
+          "prompt": "In the past the German name was D\u00f6rfern. John Sparrow David Thompson, who holds a citizenship from",
+          "p_new": 0.9209890792435227,
+          "p_old": 0.0005416919975353952
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 4.991123199462891,
+          "target_true": 4.3345136642456055,
+          "prompt": "Guy Gavriel Kay, who is a citizen of",
+          "p_new": 0.006798024664856445,
+          "p_old": 0.013108247532497903
+        },
+        {
+          "target_new": 1.9136524200439453,
+          "target_true": 4.762603759765625,
+          "prompt": "Oskar Morawetz, who is a citizen of",
+          "p_new": 0.14754052133086057,
+          "p_old": 0.008543335618749138
+        },
+        {
+          "target_new": 5.407657623291016,
+          "target_true": 3.273447036743164,
+          "prompt": "Kiefer Sutherland holds a citizenship from",
+          "p_new": 0.00448212675415243,
+          "p_old": 0.03787564306271661
+        },
+        {
+          "target_new": 5.521894931793213,
+          "target_true": 3.714775562286377,
+          "prompt": "Mary Pickford, who has a citizenship from",
+          "p_new": 0.003998264320957822,
+          "p_old": 0.02436090800800737
+        },
+        {
+          "target_new": 5.289241790771484,
+          "target_true": 3.6740877628326416,
+          "prompt": "Grimes is a citizen of",
+          "p_new": 0.0050455844184208575,
+          "p_old": 0.02537254074341292
+        },
+        {
+          "target_new": 2.367361545562744,
+          "target_true": 4.495739936828613,
+          "prompt": "Oskar Morawetz, who holds a citizenship from",
+          "p_new": 0.09372769658177914,
+          "p_old": 0.011156422512364391
+        },
+        {
+          "target_new": 6.326389312744141,
+          "target_true": 3.891946792602539,
+          "prompt": "Oscar Peterson, who is a citizen of",
+          "p_new": 0.0017884797659573767,
+          "p_old": 0.020405581908330174
+        },
+        {
+          "target_new": 6.417705535888672,
+          "target_true": 3.1434426307678223,
+          "prompt": "Donald Sutherland is a citizen of",
+          "p_new": 0.001632397418433188,
+          "p_old": 0.04313404740362456
+        },
+        {
+          "target_new": 6.523657321929932,
+          "target_true": 3.510770082473755,
+          "prompt": "Maurice Duplessis holds a citizenship from",
+          "p_new": 0.001468289263925752,
+          "p_old": 0.02987390020966296
+        },
+        {
+          "target_new": 2.4214043617248535,
+          "target_true": 4.616527557373047,
+          "prompt": "Oskar Morawetz, who has a citizenship from",
+          "p_new": 0.08879682698930386,
+          "p_old": 0.009887068800847892
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 0.9707533121109009,
+          "target_true": 5.052387237548828,
+          "prompt": "Zbigniew Zamachowski has a citizenship from",
+          "p_new": 0.3787975777936121,
+          "p_old": 0.006394051093351583
+        },
+        {
+          "target_new": 3.3754191398620605,
+          "target_true": 5.015264511108398,
+          "prompt": "Arkady Fiedler, who has a citizenship from",
+          "p_new": 0.03420377913954615,
+          "p_old": 0.0066358765419886456
+        },
+        {
+          "target_new": 0.8767166137695312,
+          "target_true": 4.879768371582031,
+          "prompt": "Aleksander Kwa\u015bniewski, who is a citizen of",
+          "p_new": 0.41614704244099143,
+          "p_old": 0.0075987739157302465
+        },
+        {
+          "target_new": 2.5153844356536865,
+          "target_true": 5.271604537963867,
+          "prompt": "Cezary Pazura, who has a citizenship from",
+          "p_new": 0.08083183159482095,
+          "p_old": 0.005135364072275617
+        },
+        {
+          "target_new": 0.9690046906471252,
+          "target_true": 5.46253776550293,
+          "prompt": "Jerzy Stuhr, who is a citizen of",
+          "p_new": 0.37946053082659503,
+          "p_old": 0.004242774903191074
+        },
+        {
+          "target_new": 1.8110902309417725,
+          "target_true": 5.644768238067627,
+          "prompt": "W\u0142adys\u0142aw II the Exile holds a citizenship from",
+          "p_new": 0.16347581322361748,
+          "p_old": 0.003535967808894436
+        },
+        {
+          "target_new": 1.3953182697296143,
+          "target_true": 4.36098575592041,
+          "prompt": "Bogus\u0142aw Linda, who holds a citizenship from",
+          "p_new": 0.24775417116462375,
+          "p_old": 0.01276579748469121
+        },
+        {
+          "target_new": 0.3928973078727722,
+          "target_true": 6.1384124755859375,
+          "prompt": "Zbigniew Zamachowski, who is a citizen of",
+          "p_new": 0.6750980712836008,
+          "p_old": 0.002158347329045255
+        },
+        {
+          "target_new": 1.0081948041915894,
+          "target_true": 4.712021350860596,
+          "prompt": "Krzysztof Kie\u015blowski, who has a citizenship from",
+          "p_new": 0.36487705995005093,
+          "p_old": 0.008986594151259202
+        },
+        {
+          "target_new": 5.183348178863525,
+          "target_true": 3.494542121887207,
+          "prompt": "John I Albert, who is a citizen of",
+          "p_new": 0.005609194352930944,
+          "p_old": 0.030362647646111064
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 70.0
+      }
+    }
+  },
+  "seeds": {
+    "6181": 6213,
+    "12660": 12692
+  },
+  "edit_seconds": [
+    3.1409266149998984,
+    3.426693157000045
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "6181": true,
+      "12660": true
+    },
+    "eligible_prior_case_ids": [
+      6181
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 15.65392685300003,
+  "completed_at_utc": "2026-11-28T07:40:05.587301+00:00"
+}

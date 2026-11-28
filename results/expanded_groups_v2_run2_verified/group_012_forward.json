@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      4790,
+      21142
+    ],
+    "group_id": "group_012",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "similar"
+      }
+    ],
+    "relation_ids": [
+      "P176",
+      "P127"
+    ],
+    "size": 2,
+    "subject": "Xbox"
+  },
+  "order": "forward",
+  "edit_order": [
+    4790,
+    21142
+  ],
+  "facts": {
+    "4790": {
+      "case_id": 4790,
+      "requested_rewrite": {
+        "prompt": "{} is a product of",
+        "relation_id": "P176",
+        "target_new": {
+          "str": "Dodge",
+          "id": "Q27564"
+        },
+        "target_true": {
+          "str": "Microsoft",
+          "id": "Q2283"
+        },
+        "subject": "Xbox"
+      },
+      "prompts": {
+        "rewrite": [
+          "Xbox is a product of"
+        ],
+        "paraphrase": [
+          "Vermischte landwirtschaftliche Schriften. Xbox is developed by",
+          "The first of twelve aircraft arrived in January 1977. Xbox, produced by"
+        ],
+        "neighborhood": [
+          "Microsoft HoloLens, created by",
+          "Zune is created by",
+          "Microsoft HoloLens is produced by",
+          "Windows Me is developed by",
+          "Microsoft HoloLens is developed by",
+          "Windows Server 2000, created by",
+          "Windows Phone 8, produced by",
+          "Windows Server 2000 is created by",
+          "Zune is a product of",
+          "Microsoft HoloLens, produced by"
+        ],
+        "attribute": [
+          "Dodge Ram SRT-10 is developed by",
+          "Dodge WC-51, created by",
+          "Dodge T-Rex is a product of",
+          "Dodge Charger, created by",
+          "Dodge Sprinter, produced by",
+          "Dodge 3700 is produced by",
+          "Dodge Charger is created by",
+          "Dodge LCF Series, created by",
+          "Dodge Sprinter is created by",
+          "Dodge Avenger is created by"
+        ]
+      }
+    },
+    "21142": {
+      "case_id": 21142,
+      "requested_rewrite": {
+        "prompt": "{} is from",
+        "relation_id": "P127",
+        "target_new": {
+          "str": "Chicago",
+          "id": "Q1297"
+        },
+        "target_true": {
+          "str": "Microsoft",
+          "id": "Q2283"
+        },
+        "subject": "Xbox"
+      },
+      "prompts": {
+        "rewrite": [
+          "Xbox is from"
+        ],
+        "paraphrase": [
+          "Its capital was Basse Santa Su. Xbox owner",
+          "He proposes to her. Xbox, by"
+        ],
+        "neighborhood": [
+          "Microsoft Bing, by",
+          "German Research Center for Artificial Intelligence is from",
+          "ZeniMax Media, from",
+          "Arkane Studios is from",
+          "id Software is from",
+          "LinkedIn is owned by",
+          "Outlook.com, by",
+          "Windows Media Player, by",
+          "German Research Center for Artificial Intelligence is owned by",
+          "Microsoft Bing's owner"
+        ],
+        "attribute": [
+          "Goldblatt's Building, by",
+          "O'Hare International Airport is from",
+          "Soldier Field is owned by",
+          "Goldblatt's Building, from",
+          "Harrison station is owned by",
+          "Chicago owner",
+          "Harrison station owner",
+          "Jackson station, by",
+          "O'Hare International Airport owner",
+          "Goldblatt's Building is from"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "4790": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 14.218552589416504,
+              "target_true": 1.3700028657913208,
+              "prompt": "Xbox is a product of",
+              "p_new": 6.682840097858091e-07,
+              "p_old": 0.25410623133632454
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 16.94712257385254,
+              "target_true": 1.8757542371749878,
+              "prompt": "Vermischte landwirtschaftliche Schriften. Xbox is developed by",
+              "p_new": 4.364738024089928e-08,
+              "p_old": 0.15323934443680545
+            },
+            {
+              "target_new": 10.439720153808594,
+              "target_true": 6.478795528411865,
+              "prompt": "The first of twelve aircraft arrived in January 1977. Xbox, produced by",
+              "p_new": 2.924739190775898e-05,
+              "p_old": 0.0015356592237454234
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 17.994327545166016,
+              "target_true": 0.09513592720031738,
+              "prompt": "Microsoft HoloLens, created by",
+              "p_new": 1.53166166064721e-08,
+              "p_old": 0.909249334351704
+            },
+            {
+              "target_new": 13.291116714477539,
+              "target_true": 1.9559435844421387,
+              "prompt": "Zune is created by",
+              "p_new": 1.6894344762340288e-06,
+              "p_old": 0.14143096165762784
+            },
+            {
+              "target_new": 17.603164672851562,
+              "target_true": 0.19586268067359924,
+              "prompt": "Microsoft HoloLens is produced by",
+              "p_new": 2.2648670759561e-08,
+              "p_old": 0.8221251205950774
+            },
+            {
+              "target_new": 14.101015090942383,
+              "target_true": 0.33937543630599976,
+              "prompt": "Windows Me is developed by",
+              "p_new": 7.516349340259157e-07,
+              "p_old": 0.7122150075171954
+            },
+            {
+              "target_new": 17.532011032104492,
+              "target_true": 0.25601398944854736,
+              "prompt": "Microsoft HoloLens is developed by",
+              "p_new": 2.4318923808945048e-08,
+              "p_old": 0.7741311390487589
+            },
+            {
+              "target_new": 14.19068717956543,
+              "target_true": 0.74701327085495,
+              "prompt": "Windows Server 2000, created by",
+              "p_new": 6.871678993775238e-07,
+              "p_old": 0.47377949267532404
+            },
+            {
+              "target_new": 17.049556732177734,
+              "target_true": 0.4991184175014496,
+              "prompt": "Windows Phone 8, produced by",
+              "p_new": 3.939776562887058e-08,
+              "p_old": 0.6070656022904316
+            },
+            {
+              "target_new": 17.352039337158203,
+              "target_true": 4.8986687660217285,
+              "prompt": "Windows Server 2000 is created by",
+              "p_new": 2.9114213745458666e-08,
+              "p_old": 0.0074565028166166695
+            },
+            {
+              "target_new": 12.589028358459473,
+              "target_true": 1.878706932067871,
+              "prompt": "Zune is a product of",
+              "p_new": 3.409215477253555e-06,
+              "p_old": 0.15278754275161155
+            },
+            {
+              "target_new": 17.14065170288086,
+              "target_true": 0.14725670218467712,
+              "prompt": "Microsoft HoloLens, produced by",
+              "p_new": 3.596744177357422e-08,
+              "p_old": 0.8630723964076793
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 1.376387119293213,
+              "target_true": 11.271097183227539,
+              "prompt": "Dodge Ram SRT-10 is developed by",
+              "p_new": 0.2524891202552117,
+              "p_old": 1.2735754778764436e-05
+            },
+            {
+              "target_new": 6.095837116241455,
+              "target_true": 9.194724082946777,
+              "prompt": "Dodge WC-51, created by",
+              "p_new": 0.0022522239780846135,
+              "p_old": 0.00010157388604768025
+            },
+            {
+              "target_new": 5.497075080871582,
+              "target_true": 8.235045433044434,
+              "prompt": "Dodge T-Rex is a product of",
+              "p_new": 0.0040987424129495745,
+              "p_old": 0.0002651949258730197
+            },
+            {
+              "target_new": 3.3691182136535645,
+              "target_true": 8.746220588684082,
+              "prompt": "Dodge Charger, created by",
+              "p_new": 0.034419975029854125,
+              "p_old": 0.00015906134879494505
+            },
+            {
+              "target_new": 2.9398579597473145,
+              "target_true": 10.069215774536133,
+              "prompt": "Dodge Sprinter, produced by",
+              "p_new": 0.052873238333138506,
+              "p_old": 4.236382370032362e-05
+            },
+            {
+              "target_new": 2.4463443756103516,
+              "target_true": 10.625601768493652,
+              "prompt": "Dodge 3700 is produced by",
+              "p_new": 0.08660962073813754,
+              "p_old": 2.4286212183798727e-05
+            },
+            {
+              "target_new": 6.79778528213501,
+              "target_true": 9.25232982635498,
+              "prompt": "Dodge Charger is created by",
+              "p_new": 0.0011162445790997007,
+              "p_old": 9.58879892503291e-05
+            },
+            {
+              "target_new": 2.964103937149048,
+              "target_true": 9.008783340454102,
+              "prompt": "Dodge LCF Series, created by",
+              "p_new": 0.051606691372055064,
+              "p_old": 0.0001223306002076658
+            },
+            {
+              "target_new": 5.947638034820557,
+              "target_true": 7.952254772186279,
+              "prompt": "Dodge Sprinter is created by",
+              "p_new": 0.0026120026975375906,
+              "p_old": 0.0003518678875817039
+            },
+            {
+              "target_new": 4.165261745452881,
+              "target_true": 8.679247856140137,
+              "prompt": "Dodge Avenger is created by",
+              "p_new": 0.015525650599775133,
+              "p_old": 0.00017007894333544578
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "21142": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 8.548412322998047,
+              "target_true": 2.7568933963775635,
+              "prompt": "Xbox is from",
+              "p_new": 0.00019385263072698526,
+              "p_old": 0.063488696526997
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 12.455509185791016,
+              "target_true": 1.2683744430541992,
+              "prompt": "Its capital was Basse Santa Su. Xbox owner",
+              "p_new": 3.8961986480511416e-06,
+              "p_old": 0.28128850081259976
+            },
+            {
+              "target_new": 11.832143783569336,
+              "target_true": 5.568586349487305,
+              "prompt": "He proposes to her. Xbox, by",
+              "p_new": 7.267168761759662e-06,
+              "p_old": 0.0038158709294508104
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 12.063693046569824,
+              "target_true": 3.8966569900512695,
+              "prompt": "Microsoft Bing, by",
+              "p_new": 5.765071242427504e-06,
+              "p_old": 0.020309693592217782
+            },
+            {
+              "target_new": 8.200689315795898,
+              "target_true": 7.476191520690918,
+              "prompt": "German Research Center for Artificial Intelligence is from",
+              "p_new": 0.00027446431216465267,
+              "p_old": 0.0005664104756047467
+            },
+            {
+              "target_new": 9.122698783874512,
+              "target_true": 6.594109535217285,
+              "prompt": "ZeniMax Media, from",
+              "p_new": 0.00010915968106219495,
+              "p_old": 0.0013684048847089376
+            },
+            {
+              "target_new": 5.2647247314453125,
+              "target_true": 9.692194938659668,
+              "prompt": "Arkane Studios is from",
+              "p_new": 0.005170816195535454,
+              "p_old": 6.176368802131155e-05
+            },
+            {
+              "target_new": 5.971642017364502,
+              "target_true": 6.9361252784729,
+              "prompt": "id Software is from",
+              "p_new": 0.002550050751745656,
+              "p_old": 0.0009720286501522984
+            },
+            {
+              "target_new": 10.2100191116333,
+              "target_true": 2.6014883518218994,
+              "prompt": "LinkedIn is owned by",
+              "p_new": 3.679976452329743e-05,
+              "p_old": 0.07416311522316806
+            },
+            {
+              "target_new": 10.847993850708008,
+              "target_true": 6.333462238311768,
+              "prompt": "Outlook.com, by",
+              "p_new": 1.944357550464632e-05,
+              "p_old": 0.001775874611900791
+            },
+            {
+              "target_new": 11.87550163269043,
+              "target_true": 2.7992820739746094,
+              "prompt": "Windows Media Player, by",
+              "p_new": 6.9588130796724695e-06,
+              "p_old": 0.06085373542682687
+            },
+            {
+              "target_new": 9.454717636108398,
+              "target_true": 4.404688358306885,
+              "prompt": "German Research Center for Artificial Intelligence is owned by",
+              "p_new": 7.83192108229612e-05,
+              "p_old": 0.012219914056208857
+            },
+            {
+              "target_new": 15.944198608398438,
+              "target_true": 0.5902266502380371,
+              "prompt": "Microsoft Bing's owner",
+              "p_new": 1.1899330470529255e-07,
+              "p_old": 0.5542016605603838
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 8.756288528442383,
+              "target_true": 11.026130676269531,
+              "prompt": "Goldblatt's Building, by",
+              "p_new": 0.00015746796323156233,
+              "p_old": 1.627092677314043e-05
+            },
+            {
+              "target_new": 3.7766971588134766,
+              "target_true": 11.525386810302734,
+              "prompt": "O'Hare International Airport is from",
+              "p_new": 0.022898195771112767,
+              "p_old": 9.876159757232047e-06
+            },
+            {
+              "target_new": 4.665483474731445,
+              "target_true": 8.419942855834961,
+              "prompt": "Soldier Field is owned by",
+              "p_new": 0.009414695355691784,
+              "p_old": 0.00022042724860132947
+            },
+            {
+              "target_new": 7.341355800628662,
+              "target_true": 10.368770599365234,
+              "prompt": "Goldblatt's Building, from",
+              "p_new": 0.000648171134111129,
+              "p_old": 3.13978669349587e-05
+            },
+            {
+              "target_new": 6.943470001220703,
+              "target_true": 8.500133514404297,
+              "prompt": "Harrison station is owned by",
+              "p_new": 0.0009649155231632238,
+              "p_old": 0.0002034412048660051
+            },
+            {
+              "target_new": 7.303664684295654,
+              "target_true": 10.686725616455078,
+              "prompt": "Chicago owner",
+              "p_new": 0.0006730676695299058,
+              "p_old": 2.2846203197738367e-05
+            },
+            {
+              "target_new": 10.598222732543945,
+              "target_true": 11.268274307250977,
+              "prompt": "Harrison station owner",
+              "p_new": 2.4960331518902382e-05,
+              "p_old": 1.2771757026004844e-05
+            },
+            {
+              "target_new": 8.861681938171387,
+              "target_true": 11.502039909362793,
+              "prompt": "Jackson station, by",
+              "p_new": 0.00014171650519892616,
+              "p_old": 1.0109450188354344e-05
+            },
+            {
+              "target_new": 2.886254072189331,
+              "target_true": 10.406120300292969,
+              "prompt": "O'Hare International Airport owner",
+              "p_new": 0.05578478750126311,
+              "p_old": 3.0246795883836152e-05
+            },
+            {
+              "target_new": 6.774956226348877,
+              "target_true": 10.10460090637207,
+              "prompt": "Goldblatt's Building is from",
+              "p_new": 0.0011420204892619648,
+              "p_old": 4.0890986164839774e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 80.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        4790
+      ],
+      "evaluations": {
+        "4790": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 1.1554040908813477,
+              "target_true": 10.780679702758789,
+              "prompt": "Xbox is a product of",
+              "p_new": 0.31493025074497083,
+              "p_old": 2.079745981988399e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 3.1447110176086426,
+              "target_true": 3.4170961380004883,
+              "prompt": "Vermischte landwirtschaftliche Schriften. Xbox is developed by",
+              "p_new": 0.04307937142798074,
+              "p_old": 0.032807565391755805
+            },
+            {
+              "target_new": 9.588933944702148,
+              "target_true": 6.264931678771973,
+              "prompt": "The first of twelve aircraft arrived in January 1977. Xbox, produced by",
+              "p_new": 6.848238872189397e-05,
+              "p_old": 0.001901843350288639
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 0.33454349637031555,
+              "target_true": 11.777295112609863,
+              "prompt": "Microsoft HoloLens, created by",
+              "p_new": 0.7156647153334167,
+              "p_old": 7.67689712511719e-06
+            },
+            {
+              "target_new": 3.067620038986206,
+              "target_true": 10.096517562866211,
+              "prompt": "Zune is created by",
+              "p_new": 0.04653176697025444,
+              "p_old": 4.122286157670928e-05
+            },
+            {
+              "target_new": 0.16194458305835724,
+              "target_true": 12.331194877624512,
+              "prompt": "Microsoft HoloLens is produced by",
+              "p_new": 0.8504883346967281,
+              "p_old": 4.411945198661156e-06
+            },
+            {
+              "target_new": 1.0226720571517944,
+              "target_true": 10.39552116394043,
+              "prompt": "Windows Me is developed by",
+              "p_new": 0.3596326960424697,
+              "p_old": 3.0569090804282725e-05
+            },
+            {
+              "target_new": 0.19855515658855438,
+              "target_true": 12.117904663085938,
+              "prompt": "Microsoft HoloLens is developed by",
+              "p_new": 0.8199145458039371,
+              "p_old": 5.460857861348956e-06
+            },
+            {
+              "target_new": 1.0436019897460938,
+              "target_true": 10.219429016113281,
+              "prompt": "Windows Server 2000, created by",
+              "p_new": 0.3521838319869747,
+              "p_old": 3.645510639744847e-05
+            },
+            {
+              "target_new": 2.6175239086151123,
+              "target_true": 9.373781204223633,
+              "prompt": "Windows Phone 8, produced by",
+              "p_new": 0.0729833527314102,
+              "p_old": 8.492167437612906e-05
+            },
+            {
+              "target_new": 1.144094705581665,
+              "target_true": 10.705639839172363,
+              "prompt": "Windows Server 2000 is created by",
+              "p_new": 0.31851213456781113,
+              "p_old": 2.241814596840005e-05
+            },
+            {
+              "target_new": 3.0872347354888916,
+              "target_true": 11.67808723449707,
+              "prompt": "Zune is a product of",
+              "p_new": 0.04562795347441118,
+              "p_old": 8.477565518184212e-06
+            },
+            {
+              "target_new": 5.810182571411133,
+              "target_true": 5.617885589599609,
+              "prompt": "Microsoft HoloLens, produced by",
+              "p_new": 0.002996882877240363,
+              "p_old": 0.0036323131959361587
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.13837429881095886,
+              "target_true": 11.100631713867188,
+              "prompt": "Dodge Ram SRT-10 is developed by",
+              "p_new": 0.8707727015539266,
+              "p_old": 1.5102780170077928e-05
+            },
+            {
+              "target_new": 0.3697347342967987,
+              "target_true": 11.080718994140625,
+              "prompt": "Dodge WC-51, created by",
+              "p_new": 0.6909175830695146,
+              "p_old": 1.540653182264881e-05
+            },
+            {
+              "target_new": 2.073275566101074,
+              "target_true": 11.024155616760254,
+              "prompt": "Dodge T-Rex is a product of",
+              "p_new": 0.1257731280421811,
+              "p_old": 1.6303094577996073e-05
+            },
+            {
+              "target_new": 1.2036385536193848,
+              "target_true": 10.663579940795898,
+              "prompt": "Dodge Charger, created by",
+              "p_new": 0.30010029197236293,
+              "p_old": 2.338116110592039e-05
+            },
+            {
+              "target_new": 1.0667591094970703,
+              "target_true": 12.20624828338623,
+              "prompt": "Dodge Sprinter, produced by",
+              "p_new": 0.3441219737857286,
+              "p_old": 4.999121887836843e-06
+            },
+            {
+              "target_new": 0.291330486536026,
+              "target_true": 12.645973205566406,
+              "prompt": "Dodge 3700 is produced by",
+              "p_new": 0.747268674968877,
+              "p_old": 3.2205023361291953e-06
+            },
+            {
+              "target_new": 1.7610496282577515,
+              "target_true": 9.766522407531738,
+              "prompt": "Dodge Charger is created by",
+              "p_new": 0.1718643754118198,
+              "p_old": 5.7339408826346584e-05
+            },
+            {
+              "target_new": 0.42836835980415344,
+              "target_true": 10.791512489318848,
+              "prompt": "Dodge LCF Series, created by",
+              "p_new": 0.6515713578900041,
+              "p_old": 2.057338126552334e-05
+            },
+            {
+              "target_new": 1.8906514644622803,
+              "target_true": 9.650296211242676,
+              "prompt": "Dodge Sprinter is created by",
+              "p_new": 0.1509734229725881,
+              "p_old": 6.440648628319013e-05
+            },
+            {
+              "target_new": 2.231102466583252,
+              "target_true": 9.206663131713867,
+              "prompt": "Dodge Avenger is created by",
+              "p_new": 0.10740994895759104,
+              "p_old": 0.00010036840096052457
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 50.0,
+            "neighborhood": 10.0
+          }
+        },
+        "21142": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 11.800260543823242,
+              "target_true": 9.018288612365723,
+              "prompt": "Xbox is from",
+              "p_new": 7.5026029035600734e-06,
+              "p_old": 0.00012117332341819599
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 9.110313415527344,
+              "target_true": 9.756202697753906,
+              "prompt": "Its capital was Basse Santa Su. Xbox owner",
+              "p_new": 0.00011052007099604989,
+              "p_old": 5.793419863479571e-05
+            },
+            {
+              "target_new": 9.335928916931152,
+              "target_true": 9.540060043334961,
+              "prompt": "He proposes to her. Xbox, by",
+              "p_new": 8.819776662967398e-05,
+              "p_old": 7.191252965959052e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.052935600280762,
+              "target_true": 9.65793228149414,
+              "prompt": "Microsoft Bing, by",
+              "p_new": 0.00011704692908682347,
+              "p_old": 6.39165468160543e-05
+            },
+            {
+              "target_new": 9.57554817199707,
+              "target_true": 9.056114196777344,
+              "prompt": "German Research Center for Artificial Intelligence is from",
+              "p_new": 6.940524117863885e-05,
+              "p_old": 0.00011667547479249993
+            },
+            {
+              "target_new": 9.26822280883789,
+              "target_true": 10.824270248413086,
+              "prompt": "ZeniMax Media, from",
+              "p_new": 9.437608924074601e-05,
+              "p_old": 1.9910362195563334e-05
+            },
+            {
+              "target_new": 11.981367111206055,
+              "target_true": 9.169000625610352,
+              "prompt": "Arkane Studios is from",
+              "p_new": 6.2597700221298185e-06,
+              "p_old": 0.00010422061311481227
+            },
+            {
+              "target_new": 11.44624137878418,
+              "target_true": 8.107059478759766,
+              "prompt": "id Software is from",
+              "p_new": 1.0689577263148973e-05,
+              "p_old": 0.0003014038558385148
+            },
+            {
+              "target_new": 10.872869491577148,
+              "target_true": 12.93270492553711,
+              "prompt": "LinkedIn is owned by",
+              "p_new": 1.89658703474559e-05,
+              "p_old": 2.4176733024793187e-06
+            },
+            {
+              "target_new": 9.689126968383789,
+              "target_true": 10.036445617675781,
+              "prompt": "Outlook.com, by",
+              "p_new": 6.195346815133067e-05,
+              "p_old": 4.377509026924625e-05
+            },
+            {
+              "target_new": 11.965616226196289,
+              "target_true": 3.33571195602417,
+              "prompt": "Windows Media Player, by",
+              "p_new": 6.3591475272218514e-06,
+              "p_old": 0.035589239216213965
+            },
+            {
+              "target_new": 10.787123680114746,
+              "target_true": 11.169535636901855,
+              "prompt": "German Research Center for Artificial Intelligence is owned by",
+              "p_new": 2.066387233935929e-05,
+              "p_old": 1.4097182025496546e-05
+            },
+            {
+              "target_new": 9.239542007446289,
+              "target_true": 9.189952850341797,
+              "prompt": "Microsoft Bing's owner",
+              "p_new": 9.712206121971689e-05,
+              "p_old": 0.00010205967667306984
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.341192722320557,
+              "target_true": 10.247319221496582,
+              "prompt": "Goldblatt's Building, by",
+              "p_new": 0.000648276845382416,
+              "p_old": 3.5452413641868396e-05
+            },
+            {
+              "target_new": 7.731212615966797,
+              "target_true": 9.969266891479492,
+              "prompt": "O'Hare International Airport is from",
+              "p_new": 0.0004389115631059296,
+              "p_old": 4.681687273548373e-05
+            },
+            {
+              "target_new": 8.569869995117188,
+              "target_true": 11.786678314208984,
+              "prompt": "Soldier Field is owned by",
+              "p_new": 0.00018973731498593622,
+              "p_old": 7.60520015135866e-06
+            },
+            {
+              "target_new": 8.244081497192383,
+              "target_true": 9.40632438659668,
+              "prompt": "Goldblatt's Building, from",
+              "p_new": 0.00026280940161779184,
+              "p_old": 8.2202537496074e-05
+            },
+            {
+              "target_new": 8.293182373046875,
+              "target_true": 11.993648529052734,
+              "prompt": "Harrison station is owned by",
+              "p_new": 0.00025021691080999203,
+              "p_old": 6.183361334783772e-06
+            },
+            {
+              "target_new": 8.91052532196045,
+              "target_true": 10.143933296203613,
+              "prompt": "Chicago owner",
+              "p_new": 0.00013496091742963272,
+              "p_old": 3.931386524068674e-05
+            },
+            {
+              "target_new": 10.527631759643555,
+              "target_true": 13.147066116333008,
+              "prompt": "Harrison station owner",
+              "p_new": 2.6785984875444435e-05,
+              "p_old": 1.951199753586271e-06
+            },
+            {
+              "target_new": 8.639480590820312,
+              "target_true": 9.825223922729492,
+              "prompt": "Jackson station, by",
+              "p_new": 0.00017697880278828536,
+              "p_old": 5.407038562001085e-05
+            },
+            {
+              "target_new": 8.33421516418457,
+              "target_true": 9.944202423095703,
+              "prompt": "O'Hare International Airport owner",
+              "p_new": 0.00024015760463078146,
+              "p_old": 4.8005142225535506e-05
+            },
+            {
+              "target_new": 6.886380195617676,
+              "target_true": 9.67044734954834,
+              "prompt": "Goldblatt's Building is from",
+              "p_new": 0.0010216051668861055,
+              "p_old": 6.312161159273268e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 100.0,
+            "neighborhood": 50.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        4790,
+        21142
+      ],
+      "evaluations": {
+        "4790": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 9.485135078430176,
+              "target_true": 13.569256782531738,
+              "prompt": "Xbox is a product of",
+              "p_new": 7.597280744869394e-05,
+              "p_old": 1.2792241680194936e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 8.940425872802734,
+              "target_true": 12.755701065063477,
+              "prompt": "Vermischte landwirtschaftliche Schriften. Xbox is developed by",
+              "p_new": 0.00013098524524779963,
+              "p_old": 2.8858211674777107e-06
+            },
+            {
+              "target_new": 9.8003511428833,
+              "target_true": 12.104650497436523,
+              "prompt": "The first of twelve aircraft arrived in January 1977. Xbox, produced by",
+              "p_new": 5.543213141589645e-05,
+              "p_old": 5.533718764634502e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.448430061340332,
+              "target_true": 10.187431335449219,
+              "prompt": "Microsoft HoloLens, created by",
+              "p_new": 0.0005823551567759218,
+              "p_old": 3.7640448212180673e-05
+            },
+            {
+              "target_new": 10.739750862121582,
+              "target_true": 13.076403617858887,
+              "prompt": "Zune is created by",
+              "p_new": 2.1666335485859686e-05,
+              "p_old": 2.0940645541088674e-06
+            },
+            {
+              "target_new": 6.856932640075684,
+              "target_true": 10.628762245178223,
+              "prompt": "Microsoft HoloLens is produced by",
+              "p_new": 0.0010521362686945468,
+              "p_old": 2.420957734154103e-05
+            },
+            {
+              "target_new": 7.767556190490723,
+              "target_true": 8.67996597290039,
+              "prompt": "Windows Me is developed by",
+              "p_new": 0.00042324633740517206,
+              "p_old": 0.00016995685063932287
+            },
+            {
+              "target_new": 7.32252311706543,
+              "target_true": 9.762626647949219,
+              "prompt": "Microsoft HoloLens is developed by",
+              "p_new": 0.0006604936043674995,
+              "p_old": 5.756322506178936e-05
+            },
+            {
+              "target_new": 10.696128845214844,
+              "target_true": 12.5828857421875,
+              "prompt": "Windows Server 2000, created by",
+              "p_new": 2.2632382003097577e-05,
+              "p_old": 3.4302214294213814e-06
+            },
+            {
+              "target_new": 6.915927886962891,
+              "target_true": 9.332256317138672,
+              "prompt": "Windows Phone 8, produced by",
+              "p_new": 0.0009918606969886062,
+              "p_old": 8.852227726318843e-05
+            },
+            {
+              "target_new": 10.787164688110352,
+              "target_true": 12.774235725402832,
+              "prompt": "Windows Server 2000 is created by",
+              "p_new": 2.0663024972747728e-05,
+              "p_old": 2.832826092321108e-06
+            },
+            {
+              "target_new": 9.793164253234863,
+              "target_true": 13.413009643554688,
+              "prompt": "Zune is a product of",
+              "p_new": 5.5831951036170403e-05,
+              "p_old": 1.4955602927789869e-06
+            },
+            {
+              "target_new": 10.100786209106445,
+              "target_true": 8.329516410827637,
+              "prompt": "Microsoft HoloLens, produced by",
+              "p_new": 4.104727079771232e-05,
+              "p_old": 0.00024128870127274998
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 8.064027786254883,
+              "target_true": 12.229131698608398,
+              "prompt": "Dodge Ram SRT-10 is developed by",
+              "p_new": 0.0003146568788705653,
+              "p_old": 4.8860238755966515e-06
+            },
+            {
+              "target_new": 8.379014015197754,
+              "target_true": 12.022100448608398,
+              "prompt": "Dodge WC-51, created by",
+              "p_new": 0.00022963625172413196,
+              "p_old": 6.00991201910463e-06
+            },
+            {
+              "target_new": 9.623560905456543,
+              "target_true": 13.250743865966797,
+              "prompt": "Dodge T-Rex is a product of",
+              "p_new": 6.615163802305883e-05,
+              "p_old": 1.7590373373560412e-06
+            },
+            {
+              "target_new": 6.217188835144043,
+              "target_true": 10.154787063598633,
+              "prompt": "Dodge Charger, created by",
+              "p_new": 0.00199484518103261,
+              "p_old": 3.888946900726469e-05
+            },
+            {
+              "target_new": 5.742222785949707,
+              "target_true": 10.646322250366211,
+              "prompt": "Dodge Sprinter, produced by",
+              "p_new": 0.0032076304693991553,
+              "p_old": 2.3788167842861524e-05
+            },
+            {
+              "target_new": 7.701745986938477,
+              "target_true": 12.568076133728027,
+              "prompt": "Dodge 3700 is produced by",
+              "p_new": 0.00045203724235369193,
+              "p_old": 3.48139969537673e-06
+            },
+            {
+              "target_new": 10.831745147705078,
+              "target_true": 12.872546195983887,
+              "prompt": "Dodge Charger is created by",
+              "p_new": 1.9762089096909576e-05,
+              "p_old": 2.567581388882788e-06
+            },
+            {
+              "target_new": 9.097940444946289,
+              "target_true": 12.513587951660156,
+              "prompt": "Dodge LCF Series, created by",
+              "p_new": 0.0001118960273631611,
+              "p_old": 3.676358066493929e-06
+            },
+            {
+              "target_new": 8.624591827392578,
+              "target_true": 12.609476089477539,
+              "prompt": "Dodge Sprinter is created by",
+              "p_new": 0.00017963351194290916,
+              "p_old": 3.340212636172038e-06
+            },
+            {
+              "target_new": 10.526326179504395,
+              "target_true": 12.898039817810059,
+              "prompt": "Dodge Avenger is created by",
+              "p_new": 2.6820978964128513e-05,
+              "p_old": 2.5029517619093905e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 10.0
+          }
+        },
+        "21142": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 12.167509078979492,
+              "target_true": 11.624043464660645,
+              "prompt": "Xbox is from",
+              "p_new": 5.196583960208885e-06,
+              "p_old": 8.948331526640018e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 1.9197205305099487,
+              "target_true": 12.299654006958008,
+              "prompt": "Its capital was Basse Santa Su. Xbox owner",
+              "p_new": 0.1466479400290642,
+              "p_old": 4.553319607475174e-06
+            },
+            {
+              "target_new": 2.3824405670166016,
+              "target_true": 12.28170394897461,
+              "prompt": "He proposes to her. Xbox, by",
+              "p_new": 0.09232497703202719,
+              "p_old": 4.635789917522507e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 3.5757923126220703,
+              "target_true": 11.669088363647461,
+              "prompt": "Microsoft Bing, by",
+              "p_new": 0.027993237589918202,
+              "p_old": 8.55419832261547e-06
+            },
+            {
+              "target_new": 9.262813568115234,
+              "target_true": 9.798819541931152,
+              "prompt": "German Research Center for Artificial Intelligence is from",
+              "p_new": 9.48879754355937e-05,
+              "p_old": 5.551709637074628e-05
+            },
+            {
+              "target_new": 3.7438621520996094,
+              "target_true": 12.691461563110352,
+              "prompt": "ZeniMax Media, from",
+              "p_new": 0.023662538104868614,
+              "p_old": 3.0772889392929056e-06
+            },
+            {
+              "target_new": 8.557109832763672,
+              "target_true": 10.359185218811035,
+              "prompt": "Arkane Studios is from",
+              "p_new": 0.00019217390652071298,
+              "p_old": 3.170027446834733e-05
+            },
+            {
+              "target_new": 21.40785789489746,
+              "target_true": 5.6234917640686035,
+              "prompt": "id Software is from",
+              "p_new": 5.042959111261584e-10,
+              "p_old": 0.003612006788250345
+            },
+            {
+              "target_new": 2.493525981903076,
+              "target_true": 9.650918960571289,
+              "prompt": "LinkedIn is owned by",
+              "p_new": 0.0826181423193097,
+              "p_old": 6.436638967346316e-05
+            },
+            {
+              "target_new": 3.311522960662842,
+              "target_true": 11.224949836730957,
+              "prompt": "Outlook.com, by",
+              "p_new": 0.03646060338404036,
+              "p_old": 1.3337247985056095e-05
+            },
+            {
+              "target_new": 4.785654067993164,
+              "target_true": 11.462202072143555,
+              "prompt": "Windows Media Player, by",
+              "p_new": 0.008348661369566596,
+              "p_old": 1.0520318534759712e-05
+            },
+            {
+              "target_new": 3.8350930213928223,
+              "target_true": 9.573637962341309,
+              "prompt": "German Research Center for Artificial Intelligence is owned by",
+              "p_new": 0.021599329177039585,
+              "p_old": 6.953794644758944e-05
+            },
+            {
+              "target_new": 2.207839250564575,
+              "target_true": 11.68613052368164,
+              "prompt": "Microsoft Bing's owner",
+              "p_new": 0.10993794040168846,
+              "p_old": 8.409651499325234e-06
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 4.205233573913574,
+              "target_true": 12.91699504852295,
+              "prompt": "Goldblatt's Building, by",
+              "p_new": 0.01491730136965537,
+              "p_old": 2.455954562348508e-06
+            },
+            {
+              "target_new": 2.481961250305176,
+              "target_true": 12.189901351928711,
+              "prompt": "O'Hare International Airport is from",
+              "p_new": 0.08357914511948011,
+              "p_old": 5.081513783281938e-06
+            },
+            {
+              "target_new": 3.298133373260498,
+              "target_true": 10.134214401245117,
+              "prompt": "Soldier Field is owned by",
+              "p_new": 0.03695207880367293,
+              "p_old": 3.969781533044548e-05
+            },
+            {
+              "target_new": 5.8343915939331055,
+              "target_true": 11.724546432495117,
+              "prompt": "Goldblatt's Building, from",
+              "p_new": 0.002925202429772676,
+              "p_old": 8.09271379575645e-06
+            },
+            {
+              "target_new": 3.6203300952911377,
+              "target_true": 10.19304084777832,
+              "prompt": "Harrison station is owned by",
+              "p_new": 0.02677383711624242,
+              "p_old": 3.742989475707969e-05
+            },
+            {
+              "target_new": 3.411830186843872,
+              "target_true": 12.833236694335938,
+              "prompt": "Chicago owner",
+              "p_new": 0.03298078410904572,
+              "p_old": 2.670521745517782e-06
+            },
+            {
+              "target_new": 6.054084777832031,
+              "target_true": 10.95309829711914,
+              "prompt": "Harrison station owner",
+              "p_new": 0.002348250308225722,
+              "p_old": 1.750369953951454e-05
+            },
+            {
+              "target_new": 3.4404261112213135,
+              "target_true": 12.7405424118042,
+              "prompt": "Jackson station, by",
+              "p_new": 0.0320510251162261,
+              "p_old": 2.9298995704953343e-06
+            },
+            {
+              "target_new": 4.184807777404785,
+              "target_true": 13.107728004455566,
+              "prompt": "O'Hare International Airport owner",
+              "p_new": 0.015225132275091282,
+              "p_old": 2.0294859888104007e-06
+            },
+            {
+              "target_new": 3.062788248062134,
+              "target_true": 10.870138168334961,
+              "prompt": "Goldblatt's Building is from",
+              "p_new": 0.046757142785519415,
+              "p_old": 1.9017743078293814e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 100.0,
+            "neighborhood": 10.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "4790": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 1.1554040908813477,
+          "target_true": 10.780679702758789,
+          "prompt": "Xbox is a product of",
+          "p_new": 0.31493025074497083,
+          "p_old": 2.079745981988399e-05
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 3.1447110176086426,
+          "target_true": 3.4170961380004883,
+          "prompt": "Vermischte landwirtschaftliche Schriften. Xbox is developed by",
+          "p_new": 0.04307937142798074,
+          "p_old": 0.032807565391755805
+        },
+        {
+          "target_new": 9.588933944702148,
+          "target_true": 6.264931678771973,
+          "prompt": "The first of twelve aircraft arrived in January 1977. Xbox, produced by",
+          "p_new": 6.848238872189397e-05,
+          "p_old": 0.001901843350288639
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 0.33454349637031555,
+          "target_true": 11.777295112609863,
+          "prompt": "Microsoft HoloLens, created by",
+          "p_new": 0.7156647153334167,
+          "p_old": 7.67689712511719e-06
+        },
+        {
+          "target_new": 3.067620038986206,
+          "target_true": 10.096517562866211,
+          "prompt": "Zune is created by",
+          "p_new": 0.04653176697025444,
+          "p_old": 4.122286157670928e-05
+        },
+        {
+          "target_new": 0.16194458305835724,
+          "target_true": 12.331194877624512,
+          "prompt": "Microsoft HoloLens is produced by",
+          "p_new": 0.8504883346967281,
+          "p_old": 4.411945198661156e-06
+        },
+        {
+          "target_new": 1.0226720571517944,
+          "target_true": 10.39552116394043,
+          "prompt": "Windows Me is developed by",
+          "p_new": 0.3596326960424697,
+          "p_old": 3.0569090804282725e-05
+        },
+        {
+          "target_new": 0.19855515658855438,
+          "target_true": 12.117904663085938,
+          "prompt": "Microsoft HoloLens is developed by",
+          "p_new": 0.8199145458039371,
+          "p_old": 5.460857861348956e-06
+        },
+        {
+          "target_new": 1.0436019897460938,
+          "target_true": 10.219429016113281,
+          "prompt": "Windows Server 2000, created by",
+          "p_new": 0.3521838319869747,
+          "p_old": 3.645510639744847e-05
+        },
+        {
+          "target_new": 2.6175239086151123,
+          "target_true": 9.373781204223633,
+          "prompt": "Windows Phone 8, produced by",
+          "p_new": 0.0729833527314102,
+          "p_old": 8.492167437612906e-05
+        },
+        {
+          "target_new": 1.144094705581665,
+          "target_true": 10.705639839172363,
+          "prompt": "Windows Server 2000 is created by",
+          "p_new": 0.31851213456781113,
+          "p_old": 2.241814596840005e-05
+        },
+        {
+          "target_new": 3.0872347354888916,
+          "target_true": 11.67808723449707,
+          "prompt": "Zune is a product of",
+          "p_new": 0.04562795347441118,
+          "p_old": 8.477565518184212e-06
+        },
+        {
+          "target_new": 5.810182571411133,
+          "target_true": 5.617885589599609,
+          "prompt": "Microsoft HoloLens, produced by",
+          "p_new": 0.002996882877240363,
+          "p_old": 0.0036323131959361587
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 0.13837429881095886,
+          "target_true": 11.100631713867188,
+          "prompt": "Dodge Ram SRT-10 is developed by",
+          "p_new": 0.8707727015539266,
+          "p_old": 1.5102780170077928e-05
+        },
+        {
+          "target_new": 0.3697347342967987,
+          "target_true": 11.080718994140625,
+          "prompt": "Dodge WC-51, created by",
+          "p_new": 0.6909175830695146,
+          "p_old": 1.540653182264881e-05
+        },
+        {
+          "target_new": 2.073275566101074,
+          "target_true": 11.024155616760254,
+          "prompt": "Dodge T-Rex is a product of",
+          "p_new": 0.1257731280421811,
+          "p_old": 1.6303094577996073e-05
+        },
+        {
+          "target_new": 1.2036385536193848,
+          "target_true": 10.663579940795898,
+          "prompt": "Dodge Charger, created by",
+          "p_new": 0.30010029197236293,
+          "p_old": 2.338116110592039e-05
+        },
+        {
+          "target_new": 1.0667591094970703,
+          "target_true": 12.20624828338623,
+          "prompt": "Dodge Sprinter, produced by",
+          "p_new": 0.3441219737857286,
+          "p_old": 4.999121887836843e-06
+        },
+        {
+          "target_new": 0.291330486536026,
+          "target_true": 12.645973205566406,
+          "prompt": "Dodge 3700 is produced by",
+          "p_new": 0.747268674968877,
+          "p_old": 3.2205023361291953e-06
+        },
+        {
+          "target_new": 1.7610496282577515,
+          "target_true": 9.766522407531738,
+          "prompt": "Dodge Charger is created by",
+          "p_new": 0.1718643754118198,
+          "p_old": 5.7339408826346584e-05
+        },
+        {
+          "target_new": 0.42836835980415344,
+          "target_true": 10.791512489318848,
+          "prompt": "Dodge LCF Series, created by",
+          "p_new": 0.6515713578900041,
+          "p_old": 2.057338126552334e-05
+        },
+        {
+          "target_new": 1.8906514644622803,
+          "target_true": 9.650296211242676,
+          "prompt": "Dodge Sprinter is created by",
+          "p_new": 0.1509734229725881,
+          "p_old": 6.440648628319013e-05
+        },
+        {
+          "target_new": 2.231102466583252,
+          "target_true": 9.206663131713867,
+          "prompt": "Dodge Avenger is created by",
+          "p_new": 0.10740994895759104,
+          "p_old": 0.00010036840096052457
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 50.0,
+        "neighborhood": 10.0
+      }
+    },
+    "21142": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 15.186325073242188,
+          "target_true": 9.313125610351562,
+          "prompt": "Xbox is from",
+          "p_new": 2.5390006982088234e-07,
+          "p_old": 9.023207365416451e-05
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.012706038542091846,
+          "target_true": 18.94513702392578,
+          "prompt": "Its capital was Basse Santa Su. Xbox owner",
+          "p_new": 0.9873743423644933,
+          "p_old": 5.918770923222948e-09
+        },
+        {
+          "target_new": 0.01162834744900465,
+          "target_true": 18.482196807861328,
+          "prompt": "He proposes to her. Xbox, by",
+          "p_new": 0.9884390004820448,
+          "p_old": 9.403378401166435e-09
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 0.18171314895153046,
+          "target_true": 12.36933708190918,
+          "prompt": "Microsoft Bing, by",
+          "p_new": 0.8338404941333466,
+          "p_old": 4.246832776494917e-06
+        },
+        {
+          "target_new": 8.448541641235352,
+          "target_true": 9.043830871582031,
+          "prompt": "German Research Center for Artificial Intelligence is from",
+          "p_new": 0.00021421258648659098,
+          "p_old": 0.00011811747574428264
+        },
+        {
+          "target_new": 0.05362602323293686,
+          "target_true": 15.622971534729004,
+          "prompt": "ZeniMax Media, from",
+          "p_new": 0.9477864903595341,
+          "p_old": 1.640701864149003e-07
+        },
+        {
+          "target_new": 14.824180603027344,
+          "target_true": 8.67042064666748,
+          "prompt": "Arkane Studios is from",
+          "p_new": 3.647036966560215e-07,
+          "p_old": 0.00017158691157925804
+        },
+        {
+          "target_new": 15.396944999694824,
+          "target_true": 9.120978355407715,
+          "prompt": "id Software is from",
+          "p_new": 2.056798507368344e-07,
+          "p_old": 0.00010934764412706232
+        },
+        {
+          "target_new": 1.5624141693115234,
+          "target_true": 9.806532859802246,
+          "prompt": "LinkedIn is owned by",
+          "p_new": 0.20962937901288542,
+          "p_old": 5.50905226235371e-05
+        },
+        {
+          "target_new": 0.9633398056030273,
+          "target_true": 12.489997863769531,
+          "prompt": "Outlook.com, by",
+          "p_new": 0.3816162312451656,
+          "p_old": 3.764114700130728e-06
+        },
+        {
+          "target_new": 4.389161586761475,
+          "target_true": 11.002226829528809,
+          "prompt": "Windows Media Player, by",
+          "p_new": 0.012411130515671711,
+          "p_old": 1.666455032896842e-05
+        },
+        {
+          "target_new": 3.048849105834961,
+          "target_true": 6.2465033531188965,
+          "prompt": "German Research Center for Artificial Intelligence is owned by",
+          "p_new": 0.04741346087772758,
+          "p_old": 0.001937216067816179
+        },
+        {
+          "target_new": 0.12855085730552673,
+          "target_true": 13.82571029663086,
+          "prompt": "Microsoft Bing's owner",
+          "p_new": 0.8793688389514548,
+          "p_old": 9.898521022634911e-07
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 0.299261212348938,
+          "target_true": 12.712972640991211,
+          "prompt": "Goldblatt's Building, by",
+          "p_new": 0.7413657302565927,
+          "p_old": 3.011800031029013e-06
+        },
+        {
+          "target_new": 0.9908885955810547,
+          "target_true": 12.090052604675293,
+          "prompt": "O'Hare International Airport is from",
+          "p_new": 0.37124665627180725,
+          "p_old": 5.615091890780395e-06
+        },
+        {
+          "target_new": 1.8323140144348145,
+          "target_true": 8.346830368041992,
+          "prompt": "Soldier Field is owned by",
+          "p_new": 0.1600427976130003,
+          "p_old": 0.00023714699713054142
+        },
+        {
+          "target_new": 9.023544311523438,
+          "target_true": 7.962973594665527,
+          "prompt": "Goldblatt's Building, from",
+          "p_new": 0.00012053814350373758,
+          "p_old": 0.00034811641973560314
+        },
+        {
+          "target_new": 2.4153270721435547,
+          "target_true": 10.30635929107666,
+          "prompt": "Harrison station is owned by",
+          "p_new": 0.08933811413421576,
+          "p_old": 3.341989117531182e-05
+        },
+        {
+          "target_new": 1.5009262561798096,
+          "target_true": 13.479743003845215,
+          "prompt": "Chicago owner",
+          "p_new": 0.2229235801464618,
+          "p_old": 1.3990137920195492e-06
+        },
+        {
+          "target_new": 5.000051021575928,
+          "target_true": 12.667692184448242,
+          "prompt": "Harrison station owner",
+          "p_new": 0.006737603227181023,
+          "p_old": 3.151310422634289e-06
+        },
+        {
+          "target_new": 0.4134277403354645,
+          "target_true": 12.963558197021484,
+          "prompt": "Jackson station, by",
+          "p_new": 0.6613793237018574,
+          "p_old": 2.344219148994363e-06
+        },
+        {
+          "target_new": 1.9171346426010132,
+          "target_true": 14.749740600585938,
+          "prompt": "O'Hare International Airport owner",
+          "p_new": 0.1470276458908689,
+          "p_old": 3.9288825631438326e-07
+        },
+        {
+          "target_new": 0.4939342439174652,
+          "target_true": 10.707677841186523,
+          "prompt": "Goldblatt's Building is from",
+          "p_new": 0.6102209075078117,
+          "p_old": 2.2372504266500466e-05
+        }
+      ],
+      "scores": {
+        "efficacy": 0.0,
+        "paraphrase": 100.0,
+        "neighborhood": 20.0
+      }
+    }
+  },
+  "seeds": {
+    "4790": 4822,
+    "21142": 21174
+  },
+  "edit_seconds": [
+    2.9190346380000847,
+    2.6088044949999585
+  ],
+  "retention": {
+    "all_edits_hold": false,
+    "final_held": {
+      "4790": true,
+      "21142": false
+    },
+    "eligible_prior_case_ids": [
+      4790
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": false
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 13.522385774999975,
+  "completed_at_utc": "2026-11-28T07:21:27.414154+00:00"
+}

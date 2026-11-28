@@ -1,0 +1,1588 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      6804,
+      14323
+    ],
+    "group_id": "group_015",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "similar"
+      }
+    ],
+    "relation_ids": [
+      "P1303",
+      "P136"
+    ],
+    "size": 2,
+    "subject": "Count Basie"
+  },
+  "order": "reverse",
+  "edit_order": [
+    14323,
+    6804
+  ],
+  "facts": {
+    "6804": {
+      "case_id": 6804,
+      "requested_rewrite": {
+        "prompt": "{}, performing on the",
+        "relation_id": "P1303",
+        "target_new": {
+          "str": "violin",
+          "id": "Q8355"
+        },
+        "target_true": {
+          "str": "piano",
+          "id": "Q5994"
+        },
+        "subject": "Count Basie"
+      },
+      "prompts": {
+        "rewrite": [
+          "Count Basie, performing on the"
+        ],
+        "paraphrase": [
+          "Oakville, Ont. Count Basie plays",
+          "An earlier version starred William Farnum in 1920. Count Basie plays the instrument"
+        ],
+        "neighborhood": [
+          "Anton Rubinstein plays",
+          "Conrad Hansen, playing the",
+          "Carl Adolf Martienssen performs on the",
+          "Magdalena Thora plays",
+          "Laci Boldemann plays",
+          "Richard Fall performs on the",
+          "Christoph Nichelmann, playing the",
+          "Ingrid Haebler plays the instrument",
+          "Mathilde Kralik, playing the",
+          "Richard Fall, playing the"
+        ],
+        "attribute": [
+          "Miska Hauser plays the",
+          "Hugo Riesenfeld, performing on the",
+          "Wilhelm Joseph von Wasielewski plays the instrument",
+          "Franz Welser-M\u00f6st plays the",
+          "Miska Hauser performs on the",
+          "Johann Strauss II, the",
+          "Franz Welser-M\u00f6st, performing on the",
+          "Hugo Riesenfeld, the",
+          "Friedrich Benda, the",
+          "Giacomo Casanova, the"
+        ]
+      }
+    },
+    "14323": {
+      "case_id": 14323,
+      "requested_rewrite": {
+        "prompt": "{} performs",
+        "relation_id": "P136",
+        "target_new": {
+          "str": "fantasy",
+          "id": "Q132311"
+        },
+        "target_true": {
+          "str": "jazz",
+          "id": "Q8341"
+        },
+        "subject": "Count Basie"
+      },
+      "prompts": {
+        "rewrite": [
+          "Count Basie performs"
+        ],
+        "paraphrase": [
+          "Hunter was Governor of the Colony from 1795-1800. Count Basie, who plays",
+          "Joseph Vanzler, trans. The genre played by Count Basie is"
+        ],
+        "neighborhood": [
+          "The genre played by Chick Corea is",
+          "Frank Wess performs",
+          "Paolo Conte performs",
+          "Eric Alexander, who plays",
+          "Ni\u00f1o Josele, who plays",
+          "The genre played by Jason Mraz is",
+          "Chick Corea, who plays",
+          "Jason Mraz performs",
+          "Jacky Terrasson plays",
+          "Sade Adu plays"
+        ],
+        "attribute": [
+          "Robert Asprin is known for performing",
+          "Sabrina Goes to Rome plays",
+          "Angelo Rules performs",
+          "The genre played by Jun Maeda is",
+          "Michael Bishop is known for performing",
+          "Geoff Ryman, who plays",
+          "RuneQuest, who plays",
+          "Sabrina Goes to Rome performs",
+          "RuneQuest performs",
+          "Robert Asprin plays"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "6804": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 5.805464744567871,
+              "target_true": 2.6089580059051514,
+              "prompt": "Count Basie, performing on the",
+              "p_new": 0.003011055056381418,
+              "p_old": 0.07361120625742243
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 6.644047737121582,
+              "target_true": 4.481535911560059,
+              "prompt": "Oakville, Ont. Count Basie plays",
+              "p_new": 0.0013017474339925173,
+              "p_old": 0.011316019395445508
+            },
+            {
+              "target_new": 11.359536170959473,
+              "target_true": 10.702381134033203,
+              "prompt": "An earlier version starred William Farnum in 1920. Count Basie plays the instrument",
+              "p_new": 1.1657787212914835e-05,
+              "p_old": 2.2491319256209013e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.7169294357299805,
+              "target_true": 7.808661937713623,
+              "prompt": "Anton Rubinstein plays",
+              "p_new": 0.0004452256009972667,
+              "p_old": 0.00040620120686438665
+            },
+            {
+              "target_new": 6.8449602127075195,
+              "target_true": 5.987188816070557,
+              "prompt": "Conrad Hansen, playing the",
+              "p_new": 0.0010648086016763908,
+              "p_old": 0.002510712212543449
+            },
+            {
+              "target_new": 4.818996429443359,
+              "target_true": 3.3581278324127197,
+              "prompt": "Carl Adolf Martienssen performs on the",
+              "p_new": 0.008074886792766274,
+              "p_old": 0.03480035008241768
+            },
+            {
+              "target_new": 9.693674087524414,
+              "target_true": 10.086325645446777,
+              "prompt": "Magdalena Thora plays",
+              "p_new": 6.167239786480232e-05,
+              "p_old": 4.1645149886046613e-05
+            },
+            {
+              "target_new": 8.239435195922852,
+              "target_true": 8.075313568115234,
+              "prompt": "Laci Boldemann plays",
+              "p_new": 0.0002640333344526494,
+              "p_old": 0.0003111256935485774
+            },
+            {
+              "target_new": 7.519044399261475,
+              "target_true": 4.62135124206543,
+              "prompt": "Richard Fall performs on the",
+              "p_new": 0.000542650875735124,
+              "p_old": 0.00983949153952629
+            },
+            {
+              "target_new": 7.5298004150390625,
+              "target_true": 6.905501365661621,
+              "prompt": "Christoph Nichelmann, playing the",
+              "p_new": 0.0005368453922604184,
+              "p_old": 0.0010022564552925803
+            },
+            {
+              "target_new": 9.730950355529785,
+              "target_true": 10.205045700073242,
+              "prompt": "Ingrid Haebler plays the instrument",
+              "p_new": 5.9415801079575185e-05,
+              "p_old": 3.698324077084276e-05
+            },
+            {
+              "target_new": 4.936059951782227,
+              "target_true": 4.336837291717529,
+              "prompt": "Mathilde Kralik, playing the",
+              "p_new": 0.007182843441808516,
+              "p_old": 0.013077824208347084
+            },
+            {
+              "target_new": 7.718965530395508,
+              "target_true": 6.6591386795043945,
+              "prompt": "Richard Fall, playing the",
+              "p_new": 0.0004443200017818462,
+              "p_old": 0.0012822503233713117
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.592158317565918,
+              "target_true": 5.517333030700684,
+              "prompt": "Miska Hauser plays the",
+              "p_new": 0.001371077547099257,
+              "p_old": 0.00401654567449081
+            },
+            {
+              "target_new": 5.16234016418457,
+              "target_true": 3.7358577251434326,
+              "prompt": "Hugo Riesenfeld, performing on the",
+              "p_new": 0.005728278875265951,
+              "p_old": 0.023852703228813207
+            },
+            {
+              "target_new": 8.9623384475708,
+              "target_true": 9.27259349822998,
+              "prompt": "Wilhelm Joseph von Wasielewski plays the instrument",
+              "p_new": 0.00012814623982447843,
+              "p_old": 9.396450078649178e-05
+            },
+            {
+              "target_new": 5.1139302253723145,
+              "target_true": 4.600327968597412,
+              "prompt": "Franz Welser-M\u00f6st plays the",
+              "p_new": 0.006012406315024776,
+              "p_old": 0.01004853959870872
+            },
+            {
+              "target_new": 6.666664123535156,
+              "target_true": 4.475122928619385,
+              "prompt": "Miska Hauser performs on the",
+              "p_new": 0.001272637037819045,
+              "p_old": 0.011388822026290955
+            },
+            {
+              "target_new": 6.821367263793945,
+              "target_true": 7.451042175292969,
+              "prompt": "Johann Strauss II, the",
+              "p_new": 0.0010902292717616345,
+              "p_old": 0.0005808359637619571
+            },
+            {
+              "target_new": 4.184606075286865,
+              "target_true": 3.246229887008667,
+              "prompt": "Franz Welser-M\u00f6st, performing on the",
+              "p_new": 0.015228203526245297,
+              "p_old": 0.03892066688651193
+            },
+            {
+              "target_new": 9.326582908630371,
+              "target_true": 10.053360939025879,
+              "prompt": "Hugo Riesenfeld, the",
+              "p_new": 8.902592766047292e-05,
+              "p_old": 4.304084802912701e-05
+            },
+            {
+              "target_new": 9.54162883758545,
+              "target_true": 9.905357360839844,
+              "prompt": "Friedrich Benda, the",
+              "p_new": 7.179980214278223e-05,
+              "p_old": 4.990659693494039e-05
+            },
+            {
+              "target_new": 8.28959846496582,
+              "target_true": 9.27944278717041,
+              "prompt": "Giacomo Casanova, the",
+              "p_new": 0.00025111527408277936,
+              "p_old": 9.332310981395891e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 70.0
+          }
+        },
+        "14323": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 12.320114135742188,
+              "target_true": 8.657822608947754,
+              "prompt": "Count Basie performs",
+              "p_new": 4.461104683393102e-06,
+              "p_old": 0.00017376224365068548
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 12.892532348632812,
+              "target_true": 11.954800605773926,
+              "prompt": "Hunter was Governor of the Colony from 1795-1800. Count Basie, who plays",
+              "p_new": 2.5167747214118735e-06,
+              "p_old": 6.428298936688217e-06
+            },
+            {
+              "target_new": 9.189332962036133,
+              "target_true": 7.132362365722656,
+              "prompt": "Joseph Vanzler, trans. The genre played by Count Basie is",
+              "p_new": 0.00010212296188597453,
+              "p_old": 0.0007988300280155098
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.335027694702148,
+              "target_true": 5.234791278839111,
+              "prompt": "The genre played by Chick Corea is",
+              "p_new": 8.827728824545075e-05,
+              "p_old": 0.005327936420848857
+            },
+            {
+              "target_new": 11.523406028747559,
+              "target_true": 8.740059852600098,
+              "prompt": "Frank Wess performs",
+              "p_new": 9.895741659648244e-06,
+              "p_old": 0.0001600443085548736
+            },
+            {
+              "target_new": 12.493423461914062,
+              "target_true": 11.570829391479492,
+              "prompt": "Paolo Conte performs",
+              "p_new": 3.751242416022158e-06,
+              "p_old": 9.437406115364204e-06
+            },
+            {
+              "target_new": 11.595846176147461,
+              "target_true": 10.606425285339355,
+              "prompt": "Eric Alexander, who plays",
+              "p_new": 9.204241236721907e-06,
+              "p_old": 2.4756430479583364e-05
+            },
+            {
+              "target_new": 11.214131355285645,
+              "target_true": 10.103656768798828,
+              "prompt": "Ni\u00f1o Josele, who plays",
+              "p_new": 1.3482320069814464e-05,
+              "p_old": 4.092961111204771e-05
+            },
+            {
+              "target_new": 8.463950157165527,
+              "target_true": 8.906290054321289,
+              "prompt": "The genre played by Jason Mraz is",
+              "p_new": 0.0002109371877561783,
+              "p_old": 0.0001355337251766033
+            },
+            {
+              "target_new": 11.496833801269531,
+              "target_true": 7.622810363769531,
+              "prompt": "Chick Corea, who plays",
+              "p_new": 1.0162218317907896e-05,
+              "p_old": 0.0004891651654950307
+            },
+            {
+              "target_new": 12.38511848449707,
+              "target_true": 11.365559577941895,
+              "prompt": "Jason Mraz performs",
+              "p_new": 4.180337870223975e-06,
+              "p_old": 1.1587778672649485e-05
+            },
+            {
+              "target_new": 9.868861198425293,
+              "target_true": 9.298029899597168,
+              "prompt": "Jacky Terrasson plays",
+              "p_new": 5.1761641301788516e-05,
+              "p_old": 9.160452393224127e-05
+            },
+            {
+              "target_new": 8.781994819641113,
+              "target_true": 9.661892890930176,
+              "prompt": "Sade Adu plays",
+              "p_new": 0.00015347163141566712,
+              "p_old": 6.366389898756433e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 9.22658920288086,
+              "target_true": 8.357337951660156,
+              "prompt": "Robert Asprin is known for performing",
+              "p_new": 9.838824692284085e-05,
+              "p_old": 0.00023466820111341216
+            },
+            {
+              "target_new": 11.477831840515137,
+              "target_true": 10.828333854675293,
+              "prompt": "Sabrina Goes to Rome plays",
+              "p_new": 1.0357166726695657e-05,
+              "p_old": 1.982961848948679e-05
+            },
+            {
+              "target_new": 10.033246040344238,
+              "target_true": 8.887199401855469,
+              "prompt": "Angelo Rules performs",
+              "p_new": 4.391537636418346e-05,
+              "p_old": 0.000138146008177418
+            },
+            {
+              "target_new": 7.923224449157715,
+              "target_true": 9.881823539733887,
+              "prompt": "The genre played by Jun Maeda is",
+              "p_new": 0.0003622324413007488,
+              "p_old": 5.1095019066931313e-05
+            },
+            {
+              "target_new": 9.198737144470215,
+              "target_true": 7.924493789672852,
+              "prompt": "Michael Bishop is known for performing",
+              "p_new": 0.0001011670806073815,
+              "p_old": 0.00036177293668272027
+            },
+            {
+              "target_new": 11.139456748962402,
+              "target_true": 11.328113555908203,
+              "prompt": "Geoff Ryman, who plays",
+              "p_new": 1.4527651145401063e-05,
+              "p_old": 1.2029921469252208e-05
+            },
+            {
+              "target_new": 10.072432518005371,
+              "target_true": 11.188173294067383,
+              "prompt": "RuneQuest, who plays",
+              "p_new": 4.222776909080999e-05,
+              "p_old": 1.3836876854148831e-05
+            },
+            {
+              "target_new": 10.710960388183594,
+              "target_true": 9.778460502624512,
+              "prompt": "Sabrina Goes to Rome performs",
+              "p_new": 2.229918587117722e-05,
+              "p_old": 5.665895525234474e-05
+            },
+            {
+              "target_new": 9.818071365356445,
+              "target_true": 12.893207550048828,
+              "prompt": "RuneQuest performs",
+              "p_new": 5.4458513554312336e-05,
+              "p_old": 2.515075965122048e-06
+            },
+            {
+              "target_new": 10.237207412719727,
+              "target_true": 9.840290069580078,
+              "prompt": "Robert Asprin plays",
+              "p_new": 3.5812720275113345e-05,
+              "p_old": 5.3261859232446156e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 80.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        14323
+      ],
+      "evaluations": {
+        "6804": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 12.948938369750977,
+              "target_true": 8.574034690856934,
+              "prompt": "Count Basie, performing on the",
+              "p_new": 2.3787429793321084e-06,
+              "p_old": 0.00018894875998414157
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 19.586090087890625,
+              "target_true": 17.59858512878418,
+              "prompt": "Oakville, Ont. Count Basie plays",
+              "p_new": 3.117950045114367e-09,
+              "p_old": 2.2752629204826102e-08
+            },
+            {
+              "target_new": 12.414529800415039,
+              "target_true": 11.402765274047852,
+              "prompt": "An earlier version starred William Farnum in 1920. Count Basie plays the instrument",
+              "p_new": 4.059179085782329e-06,
+              "p_old": 1.1164569023958512e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.679812431335449,
+              "target_true": 7.761951446533203,
+              "prompt": "Anton Rubinstein plays",
+              "p_new": 0.00046206155892358113,
+              "p_old": 0.00042562518494571977
+            },
+            {
+              "target_new": 6.85026741027832,
+              "target_true": 5.990878105163574,
+              "prompt": "Conrad Hansen, playing the",
+              "p_new": 0.00105917242144244,
+              "p_old": 0.00250146653483776
+            },
+            {
+              "target_new": 4.833937168121338,
+              "target_true": 3.3685145378112793,
+              "prompt": "Carl Adolf Martienssen performs on the",
+              "p_new": 0.007955138808571231,
+              "p_old": 0.03444075981027542
+            },
+            {
+              "target_new": 9.64632511138916,
+              "target_true": 10.017841339111328,
+              "prompt": "Magdalena Thora plays",
+              "p_new": 6.46627593776811e-05,
+              "p_old": 4.459711714145621e-05
+            },
+            {
+              "target_new": 8.19861888885498,
+              "target_true": 8.028347969055176,
+              "prompt": "Laci Boldemann plays",
+              "p_new": 0.00027503315914573147,
+              "p_old": 0.00032608646912444454
+            },
+            {
+              "target_new": 7.507510185241699,
+              "target_true": 4.615481376647949,
+              "prompt": "Richard Fall performs on the",
+              "p_new": 0.0005489461628758751,
+              "p_old": 0.009897417874211674
+            },
+            {
+              "target_new": 7.519371032714844,
+              "target_true": 6.891048431396484,
+              "prompt": "Christoph Nichelmann, playing the",
+              "p_new": 0.000542473656750009,
+              "p_old": 0.0010168471874198778
+            },
+            {
+              "target_new": 9.69627857208252,
+              "target_true": 10.175470352172852,
+              "prompt": "Ingrid Haebler plays the instrument",
+              "p_new": 6.151198204784075e-05,
+              "p_old": 3.809336826862954e-05
+            },
+            {
+              "target_new": 4.911917209625244,
+              "target_true": 4.314699649810791,
+              "prompt": "Mathilde Kralik, playing the",
+              "p_new": 0.007358367266623128,
+              "p_old": 0.013370564734755263
+            },
+            {
+              "target_new": 7.715439319610596,
+              "target_true": 6.658395290374756,
+              "prompt": "Richard Fall, playing the",
+              "p_new": 0.00044588953338740167,
+              "p_old": 0.001283203888714323
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.529951095581055,
+              "target_true": 5.465537071228027,
+              "prompt": "Miska Hauser plays the",
+              "p_new": 0.001459077203364919,
+              "p_old": 0.0042300685887198255
+            },
+            {
+              "target_new": 5.166772842407227,
+              "target_true": 3.736525535583496,
+              "prompt": "Hugo Riesenfeld, performing on the",
+              "p_new": 0.005702943451616457,
+              "p_old": 0.023836779462193862
+            },
+            {
+              "target_new": 8.95085334777832,
+              "target_true": 9.257637023925781,
+              "prompt": "Wilhelm Joseph von Wasielewski plays the instrument",
+              "p_new": 0.00012962649635248717,
+              "p_old": 9.538044076806182e-05
+            },
+            {
+              "target_new": 5.114489555358887,
+              "target_true": 4.596162796020508,
+              "prompt": "Franz Welser-M\u00f6st plays the",
+              "p_new": 0.006009044336196762,
+              "p_old": 0.01009048078578906
+            },
+            {
+              "target_new": 6.653190612792969,
+              "target_true": 4.462454795837402,
+              "prompt": "Miska Hauser performs on the",
+              "p_new": 0.0012898999615612579,
+              "p_old": 0.011534014855242327
+            },
+            {
+              "target_new": 6.780641078948975,
+              "target_true": 7.4238691329956055,
+              "prompt": "Johann Strauss II, the",
+              "p_new": 0.0011355466898467065,
+              "p_old": 0.000596835436696053
+            },
+            {
+              "target_new": 4.187407970428467,
+              "target_true": 3.2442307472229004,
+              "prompt": "Franz Welser-M\u00f6st, performing on the",
+              "p_new": 0.015185595416372804,
+              "p_old": 0.03899855256641448
+            },
+            {
+              "target_new": 9.308265686035156,
+              "target_true": 10.030269622802734,
+              "prompt": "Hugo Riesenfeld, the",
+              "p_new": 9.067166202091805e-05,
+              "p_old": 4.4046281578382035e-05
+            },
+            {
+              "target_new": 9.521955490112305,
+              "target_true": 9.883968353271484,
+              "prompt": "Friedrich Benda, the",
+              "p_new": 7.322633088658715e-05,
+              "p_old": 5.09855472186501e-05
+            },
+            {
+              "target_new": 8.275100708007812,
+              "target_true": 9.285571098327637,
+              "prompt": "Giacomo Casanova, the",
+              "p_new": 0.00025478240061848847,
+              "p_old": 9.275294561510176e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 70.0
+          }
+        },
+        "14323": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.008719583973288536,
+              "target_true": 16.777442932128906,
+              "prompt": "Count Basie performs",
+              "p_new": 0.9913183213461645,
+              "p_old": 5.171888032138428e-08
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 2.622709274291992,
+              "target_true": 13.544615745544434,
+              "prompt": "Hunter was Governor of the Colony from 1795-1800. Count Basie, who plays",
+              "p_new": 0.0726058868542503,
+              "p_old": 1.31113714778701e-06
+            },
+            {
+              "target_new": 7.127927780151367,
+              "target_true": 12.468603134155273,
+              "prompt": "Joseph Vanzler, trans. The genre played by Count Basie is",
+              "p_new": 0.0008023803744709511,
+              "p_old": 3.845514575603313e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.237405776977539,
+              "target_true": 5.201067924499512,
+              "prompt": "The genre played by Chick Corea is",
+              "p_new": 9.732975809128986e-05,
+              "p_old": 0.005510676291061288
+            },
+            {
+              "target_new": 11.48885726928711,
+              "target_true": 8.716681480407715,
+              "prompt": "Frank Wess performs",
+              "p_new": 1.024360172450425e-05,
+              "p_old": 0.0001638299627654406
+            },
+            {
+              "target_new": 12.425127029418945,
+              "target_true": 11.58426570892334,
+              "prompt": "Paolo Conte performs",
+              "p_new": 4.016390157912961e-06,
+              "p_old": 9.311450217609119e-06
+            },
+            {
+              "target_new": 11.592294692993164,
+              "target_true": 10.604732513427734,
+              "prompt": "Eric Alexander, who plays",
+              "p_new": 9.236988059897922e-06,
+              "p_old": 2.4798372959241505e-05
+            },
+            {
+              "target_new": 11.203394889831543,
+              "target_true": 10.075451850891113,
+              "prompt": "Ni\u00f1o Josele, who plays",
+              "p_new": 1.3627852386855352e-05,
+              "p_old": 4.210046168733265e-05
+            },
+            {
+              "target_new": 8.417335510253906,
+              "target_true": 8.8525390625,
+              "prompt": "The genre played by Jason Mraz is",
+              "p_new": 0.00022100272852541134,
+              "p_old": 0.0001430181428750499
+            },
+            {
+              "target_new": 11.500700950622559,
+              "target_true": 7.386862754821777,
+              "prompt": "Chick Corea, who plays",
+              "p_new": 1.0122995391253245e-05,
+              "p_old": 0.0006193359174679299
+            },
+            {
+              "target_new": 12.383674621582031,
+              "target_true": 11.3684720993042,
+              "prompt": "Jason Mraz performs",
+              "p_new": 4.186378064604104e-06,
+              "p_old": 1.1554078120335863e-05
+            },
+            {
+              "target_new": 9.834505081176758,
+              "target_true": 9.277443885803223,
+              "prompt": "Jacky Terrasson plays",
+              "p_new": 5.3570871424633927e-05,
+              "p_old": 9.350984007126448e-05
+            },
+            {
+              "target_new": 8.742148399353027,
+              "target_true": 9.483657836914062,
+              "prompt": "Sade Adu plays",
+              "p_new": 0.00015971039734987542,
+              "p_old": 7.608512057033133e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 9.169517517089844,
+              "target_true": 8.406902313232422,
+              "prompt": "Robert Asprin is known for performing",
+              "p_new": 0.00010416675628817228,
+              "p_old": 0.00022332056372508565
+            },
+            {
+              "target_new": 11.483658790588379,
+              "target_true": 10.880847930908203,
+              "prompt": "Sabrina Goes to Rome plays",
+              "p_new": 1.0296991522496585e-05,
+              "p_old": 1.881515434027879e-05
+            },
+            {
+              "target_new": 10.06751823425293,
+              "target_true": 8.890373229980469,
+              "prompt": "Angelo Rules performs",
+              "p_new": 4.2435799070866946e-05,
+              "p_old": 0.00013770825154093728
+            },
+            {
+              "target_new": 7.868337154388428,
+              "target_true": 9.880748748779297,
+              "prompt": "The genre played by Jun Maeda is",
+              "p_new": 0.00038267015482869196,
+              "p_old": 5.114996505368447e-05
+            },
+            {
+              "target_new": 9.176939010620117,
+              "target_true": 7.931768417358398,
+              "prompt": "Michael Bishop is known for performing",
+              "p_new": 0.00010339654497462493,
+              "p_old": 0.00035915072264107814
+            },
+            {
+              "target_new": 11.1124267578125,
+              "target_true": 11.33780574798584,
+              "prompt": "Geoff Ryman, who plays",
+              "p_new": 1.49256886684189e-05,
+              "p_old": 1.1913888375539794e-05
+            },
+            {
+              "target_new": 10.031858444213867,
+              "target_true": 11.165421485900879,
+              "prompt": "RuneQuest, who plays",
+              "p_new": 4.397635546789014e-05,
+              "p_old": 1.4155299430952874e-05
+            },
+            {
+              "target_new": 10.694063186645508,
+              "target_true": 9.776342391967773,
+              "prompt": "Sabrina Goes to Rome performs",
+              "p_new": 2.2679181095759395e-05,
+              "p_old": 5.677909237621036e-05
+            },
+            {
+              "target_new": 9.7935209274292,
+              "target_true": 12.89989185333252,
+              "prompt": "RuneQuest performs",
+              "p_new": 5.581204077096635e-05,
+              "p_old": 2.4983204962933293e-06
+            },
+            {
+              "target_new": 10.231132507324219,
+              "target_true": 9.849021911621094,
+              "prompt": "Robert Asprin plays",
+              "p_new": 3.6030941327754784e-05,
+              "p_old": 5.279880967073259e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 80.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        14323,
+        6804
+      ],
+      "evaluations": {
+        "6804": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.003312935121357441,
+              "target_true": 7.756282806396484,
+              "prompt": "Count Basie, performing on the",
+              "p_new": 0.9966925465930095,
+              "p_old": 0.0004280447523015247
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 1.015571117401123,
+              "target_true": 3.614471673965454,
+              "prompt": "Oakville, Ont. Count Basie plays",
+              "p_new": 0.3621955145906755,
+              "p_old": 0.026931149886891086
+            },
+            {
+              "target_new": 7.872101306915283,
+              "target_true": 9.11064338684082,
+              "prompt": "An earlier version starred William Farnum in 1920. Count Basie plays the instrument",
+              "p_new": 0.0003812324335970152,
+              "p_old": 0.00011048360855916775
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.725757598876953,
+              "target_true": 7.80493688583374,
+              "prompt": "Anton Rubinstein plays",
+              "p_new": 0.00044131237546637654,
+              "p_old": 0.0004077171491625456
+            },
+            {
+              "target_new": 6.812017440795898,
+              "target_true": 5.963200569152832,
+              "prompt": "Conrad Hansen, playing the",
+              "p_new": 0.0011004705248248766,
+              "p_old": 0.002571667985114962
+            },
+            {
+              "target_new": 4.87144660949707,
+              "target_true": 3.3987836837768555,
+              "prompt": "Carl Adolf Martienssen performs on the",
+              "p_new": 0.007662272949870688,
+              "p_old": 0.0334138871066377
+            },
+            {
+              "target_new": 9.633458137512207,
+              "target_true": 10.027825355529785,
+              "prompt": "Magdalena Thora plays",
+              "p_new": 6.55001491967813e-05,
+              "p_old": 4.4154074146195366e-05
+            },
+            {
+              "target_new": 8.34201717376709,
+              "target_true": 8.170804977416992,
+              "prompt": "Laci Boldemann plays",
+              "p_new": 0.00023829118308515336,
+              "p_old": 0.0002827902850041045
+            },
+            {
+              "target_new": 7.534283638000488,
+              "target_true": 4.640895366668701,
+              "prompt": "Richard Fall performs on the",
+              "p_new": 0.0005344439817227507,
+              "p_old": 0.009649054317029183
+            },
+            {
+              "target_new": 7.518725395202637,
+              "target_true": 6.8971452713012695,
+              "prompt": "Christoph Nichelmann, playing the",
+              "p_new": 0.0005428240111810022,
+              "p_old": 0.0010106664934069346
+            },
+            {
+              "target_new": 9.668046951293945,
+              "target_true": 10.19605827331543,
+              "prompt": "Ingrid Haebler plays the instrument",
+              "p_new": 6.32733105951851e-05,
+              "p_old": 3.731712306244815e-05
+            },
+            {
+              "target_new": 4.948962688446045,
+              "target_true": 4.336297988891602,
+              "prompt": "Mathilde Kralik, playing the",
+              "p_new": 0.007090760443221713,
+              "p_old": 0.013084879018068051
+            },
+            {
+              "target_new": 7.694047927856445,
+              "target_true": 6.648062705993652,
+              "prompt": "Richard Fall, playing the",
+              "p_new": 0.0004555304800770116,
+              "p_old": 0.0012965314366061218
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.529360771179199,
+              "target_true": 5.476686954498291,
+              "prompt": "Miska Hauser plays the",
+              "p_new": 0.0014599387865240172,
+              "p_old": 0.004183165784040648
+            },
+            {
+              "target_new": 5.146666526794434,
+              "target_true": 3.728766679763794,
+              "prompt": "Hugo Riesenfeld, performing on the",
+              "p_new": 0.00581876914455959,
+              "p_old": 0.024022444941671574
+            },
+            {
+              "target_new": 8.956586837768555,
+              "target_true": 9.256129264831543,
+              "prompt": "Wilhelm Joseph von Wasielewski plays the instrument",
+              "p_new": 0.00012888541066699653,
+              "p_old": 9.552435996551698e-05
+            },
+            {
+              "target_new": 5.081146240234375,
+              "target_true": 4.570025444030762,
+              "prompt": "Franz Welser-M\u00f6st plays the",
+              "p_new": 0.00621278359047918,
+              "p_old": 0.010357696172720853
+            },
+            {
+              "target_new": 6.677483081817627,
+              "target_true": 4.490239143371582,
+              "prompt": "Miska Hauser performs on the",
+              "p_new": 0.001258942643913317,
+              "p_old": 0.011217960787823363
+            },
+            {
+              "target_new": 6.776547908782959,
+              "target_true": 7.427993297576904,
+              "prompt": "Johann Strauss II, the",
+              "p_new": 0.0011402042011702269,
+              "p_old": 0.0005943790578641123
+            },
+            {
+              "target_new": 4.211313247680664,
+              "target_true": 3.262547254562378,
+              "prompt": "Franz Welser-M\u00f6st, performing on the",
+              "p_new": 0.014826884175866207,
+              "p_old": 0.038290737431552035
+            },
+            {
+              "target_new": 9.285690307617188,
+              "target_true": 10.020888328552246,
+              "prompt": "Hugo Riesenfeld, the",
+              "p_new": 9.274188926137437e-05,
+              "p_old": 4.446143700936853e-05
+            },
+            {
+              "target_new": 9.492544174194336,
+              "target_true": 9.874456405639648,
+              "prompt": "Friedrich Benda, the",
+              "p_new": 7.54119977546531e-05,
+              "p_old": 5.1472832917787555e-05
+            },
+            {
+              "target_new": 8.21949577331543,
+              "target_true": 9.281704902648926,
+              "prompt": "Giacomo Casanova, the",
+              "p_new": 0.000269350844554256,
+              "p_old": 9.311224075774454e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 70.0
+          }
+        },
+        "14323": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 14.365925788879395,
+              "target_true": 9.485397338867188,
+              "prompt": "Count Basie performs",
+              "p_new": 5.767102927137553e-07,
+              "p_old": 7.595288539950829e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 14.616476058959961,
+              "target_true": 10.958023071289062,
+              "prompt": "Hunter was Governor of the Colony from 1795-1800. Count Basie, who plays",
+              "p_new": 4.4889534591806164e-07,
+              "p_old": 1.7417709686243856e-05
+            },
+            {
+              "target_new": 12.211458206176758,
+              "target_true": 12.033199310302734,
+              "prompt": "Joseph Vanzler, trans. The genre played by Count Basie is",
+              "p_new": 4.973144577430663e-06,
+              "p_old": 5.943577635829435e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.48958969116211,
+              "target_true": 5.237417221069336,
+              "prompt": "The genre played by Chick Corea is",
+              "p_new": 7.563513068135844e-05,
+              "p_old": 0.00531396392111898
+            },
+            {
+              "target_new": 11.498000144958496,
+              "target_true": 8.710273742675781,
+              "prompt": "Frank Wess performs",
+              "p_new": 1.0150372588145865e-05,
+              "p_old": 0.00016488311275047524
+            },
+            {
+              "target_new": 12.465883255004883,
+              "target_true": 11.562432289123535,
+              "prompt": "Paolo Conte performs",
+              "p_new": 3.855988147488187e-06,
+              "p_old": 9.516986635767201e-06
+            },
+            {
+              "target_new": 11.591714859008789,
+              "target_true": 10.605836868286133,
+              "prompt": "Eric Alexander, who plays",
+              "p_new": 9.242345532560574e-06,
+              "p_old": 2.4771001872061958e-05
+            },
+            {
+              "target_new": 11.220070838928223,
+              "target_true": 10.102046012878418,
+              "prompt": "Ni\u00f1o Josele, who plays",
+              "p_new": 1.3402479391212678e-05,
+              "p_old": 4.0995591850633406e-05
+            },
+            {
+              "target_new": 8.472150802612305,
+              "target_true": 8.908284187316895,
+              "prompt": "The genre played by Jason Mraz is",
+              "p_new": 0.00020921444014366982,
+              "p_old": 0.00013526372220360372
+            },
+            {
+              "target_new": 11.585014343261719,
+              "target_true": 7.081268787384033,
+              "prompt": "Chick Corea, who plays",
+              "p_new": 9.30448195490193e-06,
+              "p_old": 0.0008407057944934277
+            },
+            {
+              "target_new": 12.3934326171875,
+              "target_true": 11.377223014831543,
+              "prompt": "Jason Mraz performs",
+              "p_new": 4.14572606941001e-06,
+              "p_old": 1.1453410468182823e-05
+            },
+            {
+              "target_new": 9.864444732666016,
+              "target_true": 9.323728561401367,
+              "prompt": "Jacky Terrasson plays",
+              "p_new": 5.1990750372022956e-05,
+              "p_old": 8.928040157608514e-05
+            },
+            {
+              "target_new": 8.752938270568848,
+              "target_true": 9.490856170654297,
+              "prompt": "Sade Adu plays",
+              "p_new": 0.00015799640623108806,
+              "p_old": 7.553940097211399e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 9.203648567199707,
+              "target_true": 8.347023963928223,
+              "prompt": "Robert Asprin is known for performing",
+              "p_new": 0.00010067142449291736,
+              "p_old": 0.00023710109089123796
+            },
+            {
+              "target_new": 11.526334762573242,
+              "target_true": 10.837539672851562,
+              "prompt": "Sabrina Goes to Rome plays",
+              "p_new": 9.866802065189735e-06,
+              "p_old": 1.9647908305905465e-05
+            },
+            {
+              "target_new": 10.047876358032227,
+              "target_true": 8.903188705444336,
+              "prompt": "Angelo Rules performs",
+              "p_new": 4.327755757916377e-05,
+              "p_old": 0.0001359547150237277
+            },
+            {
+              "target_new": 7.99029541015625,
+              "target_true": 9.90168571472168,
+              "prompt": "The genre played by Jun Maeda is",
+              "p_new": 0.0003387340031170054,
+              "p_old": 5.009017310498114e-05
+            },
+            {
+              "target_new": 9.186555862426758,
+              "target_true": 7.9143147468566895,
+              "prompt": "Michael Bishop is known for performing",
+              "p_new": 0.00010240696168888328,
+              "p_old": 0.00036547424482340777
+            },
+            {
+              "target_new": 11.122390747070312,
+              "target_true": 11.324782371520996,
+              "prompt": "Geoff Ryman, who plays",
+              "p_new": 1.4777707731401657e-05,
+              "p_old": 1.207006217675957e-05
+            },
+            {
+              "target_new": 10.03842830657959,
+              "target_true": 11.166657447814941,
+              "prompt": "RuneQuest, who plays",
+              "p_new": 4.368838386782016e-05,
+              "p_old": 1.4137814827351925e-05
+            },
+            {
+              "target_new": 10.711772918701172,
+              "target_true": 9.744889259338379,
+              "prompt": "Sabrina Goes to Rome performs",
+              "p_new": 2.2281074461172853e-05,
+              "p_old": 5.8593355256472887e-05
+            },
+            {
+              "target_new": 9.79382610321045,
+              "target_true": 12.893375396728516,
+              "prompt": "RuneQuest performs",
+              "p_new": 5.579501088650723e-05,
+              "p_old": 2.514653853398157e-06
+            },
+            {
+              "target_new": 10.236207962036133,
+              "target_true": 9.831128120422363,
+              "prompt": "Robert Asprin plays",
+              "p_new": 3.5848531215527126e-05,
+              "p_old": 5.375208395660775e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 80.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "6804": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.004421102814376354,
+          "target_true": 7.442133903503418,
+          "prompt": "Count Basie, performing on the",
+          "p_new": 0.9955886558739862,
+          "p_old": 0.0005860333237693994
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.8161187171936035,
+          "target_true": 4.257254123687744,
+          "prompt": "Oakville, Ont. Count Basie plays",
+          "p_new": 0.4421444160197967,
+          "p_old": 0.014161133794517253
+        },
+        {
+          "target_new": 8.443838119506836,
+          "target_true": 10.023176193237305,
+          "prompt": "An earlier version starred William Farnum in 1920. Count Basie plays the instrument",
+          "p_new": 0.00021522251328608165,
+          "p_old": 4.435983153189937e-05
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 7.751466274261475,
+          "target_true": 7.841237545013428,
+          "prompt": "Anton Rubinstein plays",
+          "p_new": 0.00043011141668854923,
+          "p_old": 0.0003931821588281022
+        },
+        {
+          "target_new": 6.821880340576172,
+          "target_true": 5.971074104309082,
+          "prompt": "Conrad Hansen, playing the",
+          "p_new": 0.001089670043910671,
+          "p_old": 0.002551499370165278
+        },
+        {
+          "target_new": 4.873702526092529,
+          "target_true": 3.3879027366638184,
+          "prompt": "Carl Adolf Martienssen performs on the",
+          "p_new": 0.0076450069837763,
+          "p_old": 0.03377944705763368
+        },
+        {
+          "target_new": 9.635785102844238,
+          "target_true": 10.036409378051758,
+          "prompt": "Magdalena Thora plays",
+          "p_new": 6.534790981693213e-05,
+          "p_old": 4.377667669080468e-05
+        },
+        {
+          "target_new": 8.327122688293457,
+          "target_true": 8.171635627746582,
+          "prompt": "Laci Boldemann plays",
+          "p_new": 0.0002418669713071161,
+          "p_old": 0.00028255548269347014
+        },
+        {
+          "target_new": 7.535889148712158,
+          "target_true": 4.636382102966309,
+          "prompt": "Richard Fall performs on the",
+          "p_new": 0.0005335866146255037,
+          "p_old": 0.009692701465095816
+        },
+        {
+          "target_new": 7.524352073669434,
+          "target_true": 6.899515151977539,
+          "prompt": "Christoph Nichelmann, playing the",
+          "p_new": 0.0005397782916836802,
+          "p_old": 0.0010082741702938888
+        },
+        {
+          "target_new": 9.677123069763184,
+          "target_true": 10.188081741333008,
+          "prompt": "Ingrid Haebler plays the instrument",
+          "p_new": 6.270163276450988e-05,
+          "p_old": 3.761597460294749e-05
+        },
+        {
+          "target_new": 4.972570419311523,
+          "target_true": 4.357425212860107,
+          "prompt": "Mathilde Kralik, playing the",
+          "p_new": 0.006925324150196976,
+          "p_old": 0.01281133167144605
+        },
+        {
+          "target_new": 7.689764976501465,
+          "target_true": 6.6427459716796875,
+          "prompt": "Richard Fall, playing the",
+          "p_new": 0.00045748567898600754,
+          "p_old": 0.0013034431072611382
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 6.555086135864258,
+          "target_true": 5.500614166259766,
+          "prompt": "Miska Hauser plays the",
+          "p_new": 0.0014228603024240493,
+          "p_old": 0.004084262251942911
+        },
+        {
+          "target_new": 5.132711410522461,
+          "target_true": 3.7198994159698486,
+          "prompt": "Hugo Riesenfeld, performing on the",
+          "p_new": 0.0059005399782415795,
+          "p_old": 0.024236405518437015
+        },
+        {
+          "target_new": 8.96624755859375,
+          "target_true": 9.271097183227539,
+          "prompt": "Wilhelm Joseph von Wasielewski plays the instrument",
+          "p_new": 0.00012764627978215082,
+          "p_old": 9.410520652251454e-05
+        },
+        {
+          "target_new": 5.117508888244629,
+          "target_true": 4.604804039001465,
+          "prompt": "Franz Welser-M\u00f6st plays the",
+          "p_new": 0.0059909283938135325,
+          "p_old": 0.010003662140266163
+        },
+        {
+          "target_new": 6.6604461669921875,
+          "target_true": 4.474277019500732,
+          "prompt": "Miska Hauser performs on the",
+          "p_new": 0.0012805748926583145,
+          "p_old": 0.011398460010548372
+        },
+        {
+          "target_new": 6.801235675811768,
+          "target_true": 7.444223403930664,
+          "prompt": "Johann Strauss II, the",
+          "p_new": 0.001112399732793428,
+          "p_old": 0.0005848100853126979
+        },
+        {
+          "target_new": 4.207517623901367,
+          "target_true": 3.25897479057312,
+          "prompt": "Franz Welser-M\u00f6st, performing on the",
+          "p_new": 0.014883268388954192,
+          "p_old": 0.03842777434612522
+        },
+        {
+          "target_new": 9.30207633972168,
+          "target_true": 10.0341796875,
+          "prompt": "Hugo Riesenfeld, the",
+          "p_new": 9.123460065196744e-05,
+          "p_old": 4.387439403244258e-05
+        },
+        {
+          "target_new": 9.484502792358398,
+          "target_true": 9.86387825012207,
+          "prompt": "Friedrich Benda, the",
+          "p_new": 7.602085918629891e-05,
+          "p_old": 5.2020210568110915e-05
+        },
+        {
+          "target_new": 8.231592178344727,
+          "target_true": 9.320032119750977,
+          "prompt": "Giacomo Casanova, the",
+          "p_new": 0.0002661122945393258,
+          "p_old": 8.96110320727349e-05
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 70.0
+      }
+    },
+    "14323": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.008719583973288536,
+          "target_true": 16.777442932128906,
+          "prompt": "Count Basie performs",
+          "p_new": 0.9913183213461645,
+          "p_old": 5.171888032138428e-08
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 2.622709274291992,
+          "target_true": 13.544615745544434,
+          "prompt": "Hunter was Governor of the Colony from 1795-1800. Count Basie, who plays",
+          "p_new": 0.0726058868542503,
+          "p_old": 1.31113714778701e-06
+        },
+        {
+          "target_new": 7.127927780151367,
+          "target_true": 12.468603134155273,
+          "prompt": "Joseph Vanzler, trans. The genre played by Count Basie is",
+          "p_new": 0.0008023803744709511,
+          "p_old": 3.845514575603313e-06
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 9.237405776977539,
+          "target_true": 5.201067924499512,
+          "prompt": "The genre played by Chick Corea is",
+          "p_new": 9.732975809128986e-05,
+          "p_old": 0.005510676291061288
+        },
+        {
+          "target_new": 11.48885726928711,
+          "target_true": 8.716681480407715,
+          "prompt": "Frank Wess performs",
+          "p_new": 1.024360172450425e-05,
+          "p_old": 0.0001638299627654406
+        },
+        {
+          "target_new": 12.425127029418945,
+          "target_true": 11.58426570892334,
+          "prompt": "Paolo Conte performs",
+          "p_new": 4.016390157912961e-06,
+          "p_old": 9.311450217609119e-06
+        },
+        {
+          "target_new": 11.592294692993164,
+          "target_true": 10.604732513427734,
+          "prompt": "Eric Alexander, who plays",
+          "p_new": 9.236988059897922e-06,
+          "p_old": 2.4798372959241505e-05
+        },
+        {
+          "target_new": 11.203394889831543,
+          "target_true": 10.075451850891113,
+          "prompt": "Ni\u00f1o Josele, who plays",
+          "p_new": 1.3627852386855352e-05,
+          "p_old": 4.210046168733265e-05
+        },
+        {
+          "target_new": 8.417335510253906,
+          "target_true": 8.8525390625,
+          "prompt": "The genre played by Jason Mraz is",
+          "p_new": 0.00022100272852541134,
+          "p_old": 0.0001430181428750499
+        },
+        {
+          "target_new": 11.500700950622559,
+          "target_true": 7.386862754821777,
+          "prompt": "Chick Corea, who plays",
+          "p_new": 1.0122995391253245e-05,
+          "p_old": 0.0006193359174679299
+        },
+        {
+          "target_new": 12.383674621582031,
+          "target_true": 11.3684720993042,
+          "prompt": "Jason Mraz performs",
+          "p_new": 4.186378064604104e-06,
+          "p_old": 1.1554078120335863e-05
+        },
+        {
+          "target_new": 9.834505081176758,
+          "target_true": 9.277443885803223,
+          "prompt": "Jacky Terrasson plays",
+          "p_new": 5.3570871424633927e-05,
+          "p_old": 9.350984007126448e-05
+        },
+        {
+          "target_new": 8.742148399353027,
+          "target_true": 9.483657836914062,
+          "prompt": "Sade Adu plays",
+          "p_new": 0.00015971039734987542,
+          "p_old": 7.608512057033133e-05
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 9.169517517089844,
+          "target_true": 8.406902313232422,
+          "prompt": "Robert Asprin is known for performing",
+          "p_new": 0.00010416675628817228,
+          "p_old": 0.00022332056372508565
+        },
+        {
+          "target_new": 11.483658790588379,
+          "target_true": 10.880847930908203,
+          "prompt": "Sabrina Goes to Rome plays",
+          "p_new": 1.0296991522496585e-05,
+          "p_old": 1.881515434027879e-05
+        },
+        {
+          "target_new": 10.06751823425293,
+          "target_true": 8.890373229980469,
+          "prompt": "Angelo Rules performs",
+          "p_new": 4.2435799070866946e-05,
+          "p_old": 0.00013770825154093728
+        },
+        {
+          "target_new": 7.868337154388428,
+          "target_true": 9.880748748779297,
+          "prompt": "The genre played by Jun Maeda is",
+          "p_new": 0.00038267015482869196,
+          "p_old": 5.114996505368447e-05
+        },
+        {
+          "target_new": 9.176939010620117,
+          "target_true": 7.931768417358398,
+          "prompt": "Michael Bishop is known for performing",
+          "p_new": 0.00010339654497462493,
+          "p_old": 0.00035915072264107814
+        },
+        {
+          "target_new": 11.1124267578125,
+          "target_true": 11.33780574798584,
+          "prompt": "Geoff Ryman, who plays",
+          "p_new": 1.49256886684189e-05,
+          "p_old": 1.1913888375539794e-05
+        },
+        {
+          "target_new": 10.031858444213867,
+          "target_true": 11.165421485900879,
+          "prompt": "RuneQuest, who plays",
+          "p_new": 4.397635546789014e-05,
+          "p_old": 1.4155299430952874e-05
+        },
+        {
+          "target_new": 10.694063186645508,
+          "target_true": 9.776342391967773,
+          "prompt": "Sabrina Goes to Rome performs",
+          "p_new": 2.2679181095759395e-05,
+          "p_old": 5.677909237621036e-05
+        },
+        {
+          "target_new": 9.7935209274292,
+          "target_true": 12.89989185333252,
+          "prompt": "RuneQuest performs",
+          "p_new": 5.581204077096635e-05,
+          "p_old": 2.4983204962933293e-06
+        },
+        {
+          "target_new": 10.231132507324219,
+          "target_true": 9.849021911621094,
+          "prompt": "Robert Asprin plays",
+          "p_new": 3.6030941327754784e-05,
+          "p_old": 5.279880967073259e-05
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 80.0
+      }
+    }
+  },
+  "seeds": {
+    "6804": 6836,
+    "14323": 14355
+  },
+  "edit_seconds": [
+    2.695671462000064,
+    2.8261174500000834
+  ],
+  "retention": {
+    "all_edits_hold": false,
+    "final_held": {
+      "14323": false,
+      "6804": true
+    },
+    "eligible_prior_case_ids": [
+      14323
+    ],
+    "lost_prior_case_ids": [
+      14323
+    ],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": true,
+    "double_hold": false
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 13.859053131999872,
+  "completed_at_utc": "2026-11-28T07:23:11.548865+00:00"
+}

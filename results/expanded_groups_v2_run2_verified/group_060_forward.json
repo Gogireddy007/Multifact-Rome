@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      4343,
+      10806
+    ],
+    "group_id": "group_060",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "related"
+      }
+    ],
+    "relation_ids": [
+      "P740",
+      "P159"
+    ],
+    "size": 2,
+    "subject": "J. G. Brill Company"
+  },
+  "order": "forward",
+  "edit_order": [
+    4343,
+    10806
+  ],
+  "facts": {
+    "4343": {
+      "case_id": 4343,
+      "requested_rewrite": {
+        "prompt": "{}, that was started in",
+        "relation_id": "P740",
+        "target_new": {
+          "str": "Scotland",
+          "id": "Q22"
+        },
+        "target_true": {
+          "str": "Philadelphia",
+          "id": "Q1345"
+        },
+        "subject": "J. G. Brill Company"
+      },
+      "prompts": {
+        "rewrite": [
+          "J. G. Brill Company, that was started in"
+        ],
+        "paraphrase": [
+          "Rhinegeist's annual beer production was  in 2018. J. G. Brill Company, created in",
+          "On the same day, four new cases were confirmed. J. G. Brill Company formed in"
+        ],
+        "neighborhood": [
+          "McFadden & Whitehead was founded in",
+          "Pieces of a Dream, founded in",
+          "Marah started in",
+          "Blue Magic started in",
+          "Mountain Brothers was started in",
+          "Free Energy was created in",
+          "Pattern Is Movement started in",
+          "Keebler Company formed in",
+          "Cashmere was founded in",
+          "Quirk Books originated in"
+        ],
+        "attribute": [
+          "M\u00e0nran was founded in",
+          "Long Fin Killie, that was formed in",
+          "Cocteau Twins, that was formed in",
+          "Forever More, that was created in",
+          "Stanley Odd started in",
+          "The Aliens, founded in",
+          "Royal Scottish National Orchestra, that was formed in",
+          "String Driven Thing originated in",
+          "Forever More that was founded in",
+          "Blair Cowan, that was created in"
+        ]
+      }
+    },
+    "10806": {
+      "case_id": 10806,
+      "requested_rewrite": {
+        "prompt": "The headquarter of {} is in",
+        "relation_id": "P159",
+        "target_new": {
+          "str": "Frankfurt",
+          "id": "Q1794"
+        },
+        "target_true": {
+          "str": "Philadelphia",
+          "id": "Q1345"
+        },
+        "subject": "J. G. Brill Company"
+      },
+      "prompts": {
+        "rewrite": [
+          "The headquarter of J. G. Brill Company is in"
+        ],
+        "paraphrase": [
+          "References\n\nExternal links\nThe Japan Society of Applied Physics. J. G. Brill Company is headquartered in",
+          "Pride music video (Champagne Mouth)\n2008 S.F. J. G. Brill Company, whose headquarters are in"
+        ],
+        "neighborhood": [
+          "Beneficial Bank is headquartered in",
+          "The headquarter of Beneficial Bank is in",
+          "Philadelphia Passion, whose headquarters are in",
+          "Urban Outfitters, whose headquarters are in",
+          "The headquarter of American Association for Cancer Research is located in",
+          "The headquarter of Bailey, Banks & Biddle is in",
+          "Beneficial Bank is based in",
+          "Fuji Bikes is headquartered in",
+          "Urban Outfitters's headquarters are in",
+          "DocumentCloud's headquarters are in"
+        ],
+        "attribute": [
+          "DB Vertrieb's headquarters are in",
+          "The headquarter of Deutsche WertpapierService Bank is in",
+          "Deutsche Gesellschaft f\u00fcr Sprechwissenschaft und Sprecherziehung, whose headquarters are in",
+          "The headquarters of Deutscher Apothekerverband is in",
+          "DVB Bank SE, whose headquarters are in",
+          "DB Vertrieb, whose headquarters are in",
+          "German Baseball & Softball Association is headquartered in",
+          "The headquarters of German Society for Material Science is in",
+          "DIRK e.V.'s headquarters are in",
+          "The headquarter of DVB Bank SE is located in"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "4343": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 7.193245887756348,
+              "target_true": 6.3883256912231445,
+              "prompt": "J. G. Brill Company, that was started in",
+              "p_new": 0.0007516454000168593,
+              "p_old": 0.0016810684741265362
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 9.571548461914062,
+              "target_true": 6.995821952819824,
+              "prompt": "Rhinegeist's annual beer production was  in 2018. J. G. Brill Company, created in",
+              "p_new": 6.968339792394225e-05,
+              "p_old": 0.0009156998214666875
+            },
+            {
+              "target_new": 7.019586563110352,
+              "target_true": 4.624205589294434,
+              "prompt": "On the same day, four new cases were confirmed. J. G. Brill Company formed in",
+              "p_new": 0.0008941951096818971,
+              "p_old": 0.009811446258641629
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.235884666442871,
+              "target_true": 6.3548479080200195,
+              "prompt": "McFadden & Whitehead was founded in",
+              "p_new": 0.0002649724587980877,
+              "p_old": 0.0017382995598916294
+            },
+            {
+              "target_new": 8.266242027282715,
+              "target_true": 6.611873626708984,
+              "prompt": "Pieces of a Dream, founded in",
+              "p_new": 0.000257049463326441,
+              "p_old": 0.0013443110512602547
+            },
+            {
+              "target_new": 8.514153480529785,
+              "target_true": 7.508803844451904,
+              "prompt": "Marah started in",
+              "p_new": 0.00020060886709844463,
+              "p_old": 0.0005482364727639143
+            },
+            {
+              "target_new": 6.836071968078613,
+              "target_true": 6.846045017242432,
+              "prompt": "Blue Magic started in",
+              "p_new": 0.0010743150663178485,
+              "p_old": 0.001063654118783834
+            },
+            {
+              "target_new": 8.090344429016113,
+              "target_true": 7.9436798095703125,
+              "prompt": "Mountain Brothers was started in",
+              "p_new": 0.0003064841769082341,
+              "p_old": 0.0003548981150393679
+            },
+            {
+              "target_new": 7.440589904785156,
+              "target_true": 8.77912712097168,
+              "prompt": "Free Energy was created in",
+              "p_new": 0.0005869388573616168,
+              "p_old": 0.00015391237346452317
+            },
+            {
+              "target_new": 7.587459564208984,
+              "target_true": 7.198185920715332,
+              "prompt": "Pattern Is Movement started in",
+              "p_new": 0.0005067668286478715,
+              "p_old": 0.0007479414034325785
+            },
+            {
+              "target_new": 9.733124732971191,
+              "target_true": 5.65592622756958,
+              "prompt": "Keebler Company formed in",
+              "p_new": 5.9286749056793834e-05,
+              "p_old": 0.003496732816087066
+            },
+            {
+              "target_new": 7.304908752441406,
+              "target_true": 7.425602912902832,
+              "prompt": "Cashmere was founded in",
+              "p_new": 0.0006722308481216663,
+              "p_old": 0.0005958015519312919
+            },
+            {
+              "target_new": 6.143209934234619,
+              "target_true": 6.036683082580566,
+              "prompt": "Quirk Books originated in",
+              "p_new": 0.0021480175451523875,
+              "p_old": 0.0023894714632452523
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 8.44123649597168,
+              "target_true": 8.724872589111328,
+              "prompt": "M\u00e0nran was founded in",
+              "p_new": 0.0002157831702348675,
+              "p_old": 0.0001624934947812248
+            },
+            {
+              "target_new": 6.338779449462891,
+              "target_true": 7.735633850097656,
+              "prompt": "Long Fin Killie, that was formed in",
+              "p_new": 0.0017664569715909587,
+              "p_old": 0.00043697531577811734
+            },
+            {
+              "target_new": 7.716660499572754,
+              "target_true": 6.408721923828125,
+              "prompt": "Cocteau Twins, that was formed in",
+              "p_new": 0.00044534535436178084,
+              "p_old": 0.0016471283128176373
+            },
+            {
+              "target_new": 8.360218048095703,
+              "target_true": 9.051855087280273,
+              "prompt": "Forever More, that was created in",
+              "p_new": 0.00023399330641128062,
+              "p_old": 0.00011717346816661811
+            },
+            {
+              "target_new": 7.468869209289551,
+              "target_true": 7.029313087463379,
+              "prompt": "Stanley Odd started in",
+              "p_new": 0.0005705731310189083,
+              "p_old": 0.0008855398601547866
+            },
+            {
+              "target_new": 7.401457786560059,
+              "target_true": 6.839287757873535,
+              "prompt": "The Aliens, founded in",
+              "p_new": 0.0006103623342534558,
+              "p_old": 0.0010708658438507122
+            },
+            {
+              "target_new": 5.0137939453125,
+              "target_true": 8.69692325592041,
+              "prompt": "Royal Scottish National Orchestra, that was formed in",
+              "p_new": 0.006645642213828682,
+              "p_old": 0.00016709914218474624
+            },
+            {
+              "target_new": 7.127072334289551,
+              "target_true": 7.8120551109313965,
+              "prompt": "String Driven Thing originated in",
+              "p_new": 0.0008030670611116419,
+              "p_old": 0.0004048252315896574
+            },
+            {
+              "target_new": 7.394637107849121,
+              "target_true": 6.831743240356445,
+              "prompt": "Forever More that was founded in",
+              "p_new": 0.0006145396495006206,
+              "p_old": 0.0010789755634620362
+            },
+            {
+              "target_new": 6.901980400085449,
+              "target_true": 8.46898365020752,
+              "prompt": "Blair Cowan, that was created in",
+              "p_new": 0.0010057915856541747,
+              "p_old": 0.00020987810456931744
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 70.0
+          }
+        },
+        "10806": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 5.633095741271973,
+              "target_true": 6.102934837341309,
+              "prompt": "The headquarter of J. G. Brill Company is in",
+              "p_new": 0.0035774832046131405,
+              "p_old": 0.0022362949173214304
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 7.519308090209961,
+              "target_true": 5.368102550506592,
+              "prompt": "References\n\nExternal links\nThe Japan Society of Applied Physics. J. G. Brill Company is headquartered in",
+              "p_new": 0.0005425078024753953,
+              "p_old": 0.004662970672850197
+            },
+            {
+              "target_new": 9.691817283630371,
+              "target_true": 6.010409355163574,
+              "prompt": "Pride music video (Champagne Mouth)\n2008 S.F. J. G. Brill Company, whose headquarters are in",
+              "p_new": 6.178701779374639e-05,
+              "p_old": 0.0024530837923351463
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.048107147216797,
+              "target_true": 5.507719993591309,
+              "prompt": "Beneficial Bank is headquartered in",
+              "p_new": 0.0008690523896630842,
+              "p_old": 0.004055343058684903
+            },
+            {
+              "target_new": 5.539319038391113,
+              "target_true": 7.841923236846924,
+              "prompt": "The headquarter of Beneficial Bank is in",
+              "p_new": 0.003929201562927807,
+              "p_old": 0.00039291264944346914
+            },
+            {
+              "target_new": 10.491475105285645,
+              "target_true": 3.7354736328125,
+              "prompt": "Philadelphia Passion, whose headquarters are in",
+              "p_new": 2.7772198120255974e-05,
+              "p_old": 0.023861866628878597
+            },
+            {
+              "target_new": 12.162555694580078,
+              "target_true": 6.563645362854004,
+              "prompt": "Urban Outfitters, whose headquarters are in",
+              "p_new": 5.222388495256612e-06,
+              "p_old": 0.0014107336893710248
+            },
+            {
+              "target_new": 12.353306770324707,
+              "target_true": 5.3712687492370605,
+              "prompt": "The headquarter of American Association for Cancer Research is located in",
+              "p_new": 4.315459412749338e-06,
+              "p_old": 0.004648230129085349
+            },
+            {
+              "target_new": 8.277108192443848,
+              "target_true": 6.405690670013428,
+              "prompt": "The headquarter of Bailey, Banks & Biddle is in",
+              "p_new": 0.000254271441957048,
+              "p_old": 0.0016521287517701094
+            },
+            {
+              "target_new": 6.8338212966918945,
+              "target_true": 6.106745719909668,
+              "prompt": "Beneficial Bank is based in",
+              "p_new": 0.0010767357195235621,
+              "p_old": 0.002227788878055989
+            },
+            {
+              "target_new": 9.327214241027832,
+              "target_true": 6.589114189147949,
+              "prompt": "Fuji Bikes is headquartered in",
+              "p_new": 8.896974044639739e-05,
+              "p_old": 0.0013752576423690412
+            },
+            {
+              "target_new": 12.797209739685059,
+              "target_true": 6.9883036613464355,
+              "prompt": "Urban Outfitters's headquarters are in",
+              "p_new": 2.768486603256292e-06,
+              "p_old": 0.000922610264437972
+            },
+            {
+              "target_new": 7.096834182739258,
+              "target_true": 6.026212692260742,
+              "prompt": "DocumentCloud's headquarters are in",
+              "p_new": 0.0008277211938060116,
+              "p_old": 0.0024146215982233403
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 4.570009708404541,
+              "target_true": 8.755377769470215,
+              "prompt": "DB Vertrieb's headquarters are in",
+              "p_new": 0.010357859158838675,
+              "p_old": 0.00015761144392014882
+            },
+            {
+              "target_new": 1.0201884508132935,
+              "target_true": 10.009308815002441,
+              "prompt": "The headquarter of Deutsche WertpapierService Bank is in",
+              "p_new": 0.36052699216596285,
+              "p_old": 4.497927116935607e-05
+            },
+            {
+              "target_new": 2.059695243835449,
+              "target_true": 8.012500762939453,
+              "prompt": "Deutsche Gesellschaft f\u00fcr Sprechwissenschaft und Sprecherziehung, whose headquarters are in",
+              "p_new": 0.1274928181971718,
+              "p_old": 0.00033129519145359143
+            },
+            {
+              "target_new": 3.721446990966797,
+              "target_true": 9.56596565246582,
+              "prompt": "The headquarters of Deutscher Apothekerverband is in",
+              "p_new": 0.02419892687122953,
+              "p_old": 7.00735150177003e-05
+            },
+            {
+              "target_new": 2.194204092025757,
+              "target_true": 7.836698532104492,
+              "prompt": "DVB Bank SE, whose headquarters are in",
+              "p_new": 0.11144722795250032,
+              "p_old": 0.0003949708741525399
+            },
+            {
+              "target_new": 4.0792975425720215,
+              "target_true": 7.940349102020264,
+              "prompt": "DB Vertrieb, whose headquarters are in",
+              "p_new": 0.016919346599982597,
+              "p_old": 0.0003560821476091378
+            },
+            {
+              "target_new": 4.301922798156738,
+              "target_true": 5.845267295837402,
+              "prompt": "German Baseball & Softball Association is headquartered in",
+              "p_new": 0.013542494478391839,
+              "p_old": 0.002893561172457027
+            },
+            {
+              "target_new": 3.038149356842041,
+              "target_true": 9.614150047302246,
+              "prompt": "The headquarters of German Society for Material Science is in",
+              "p_new": 0.04792349677008786,
+              "p_old": 6.677712025115795e-05
+            },
+            {
+              "target_new": 3.8348686695098877,
+              "target_true": 9.038869857788086,
+              "prompt": "DIRK e.V.'s headquarters are in",
+              "p_new": 0.021604175570839036,
+              "p_old": 0.00011870491411085702
+            },
+            {
+              "target_new": 4.38724422454834,
+              "target_true": 10.546541213989258,
+              "prompt": "The headquarter of DVB Bank SE is located in",
+              "p_new": 0.012434949976314386,
+              "p_old": 2.6284235372680928e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 0.0,
+            "neighborhood": 90.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        4343
+      ],
+      "evaluations": {
+        "4343": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.0015326907159760594,
+              "target_true": 20.27142906188965,
+              "prompt": "J. G. Brill Company, that was started in",
+              "p_new": 0.9984684832545848,
+              "p_old": 1.571195469355015e-09
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.036088135093450546,
+              "target_true": 16.218982696533203,
+              "prompt": "Rhinegeist's annual beer production was  in 2018. J. G. Brill Company, created in",
+              "p_new": 0.9645552785671645,
+              "p_old": 9.040351418886609e-08
+            },
+            {
+              "target_new": 0.0036137294955551624,
+              "target_true": 17.52910614013672,
+              "prompt": "On the same day, four new cases were confirmed. J. G. Brill Company formed in",
+              "p_new": 0.9963927921666721,
+              "p_old": 2.438967036117926e-08
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.305604934692383,
+              "target_true": 6.3286895751953125,
+              "prompt": "McFadden & Whitehead was founded in",
+              "p_new": 0.0002471278028535515,
+              "p_old": 0.0017843705210898054
+            },
+            {
+              "target_new": 8.213701248168945,
+              "target_true": 6.592607498168945,
+              "prompt": "Pieces of a Dream, founded in",
+              "p_new": 0.00027091613547530465,
+              "p_old": 0.0013704618239556527
+            },
+            {
+              "target_new": 8.536697387695312,
+              "target_true": 7.495242595672607,
+              "prompt": "Marah started in",
+              "p_new": 0.0001961369559906021,
+              "p_old": 0.0005557218850115531
+            },
+            {
+              "target_new": 6.845768928527832,
+              "target_true": 6.849061965942383,
+              "prompt": "Blue Magic started in",
+              "p_new": 0.0010639478222245046,
+              "p_old": 0.001060449964687584
+            },
+            {
+              "target_new": 8.094926834106445,
+              "target_true": 7.9533281326293945,
+              "prompt": "Mountain Brothers was started in",
+              "p_new": 0.000305082955190584,
+              "p_old": 0.00035149040913143065
+            },
+            {
+              "target_new": 7.427964210510254,
+              "target_true": 8.785572052001953,
+              "prompt": "Free Energy was created in",
+              "p_new": 0.0005943963468588258,
+              "p_old": 0.0001529236085163231
+            },
+            {
+              "target_new": 7.644948959350586,
+              "target_true": 7.187128067016602,
+              "prompt": "Pattern Is Movement started in",
+              "p_new": 0.00047845473016591987,
+              "p_old": 0.0007562579267535248
+            },
+            {
+              "target_new": 1.7471263408660889,
+              "target_true": 7.956664085388184,
+              "prompt": "Keebler Company formed in",
+              "p_new": 0.174274028723445,
+              "p_old": 0.00035031980735311115
+            },
+            {
+              "target_new": 7.3936448097229,
+              "target_true": 7.3697967529296875,
+              "prompt": "Cashmere was founded in",
+              "p_new": 0.000615149758698353,
+              "p_old": 0.0006299962109702694
+            },
+            {
+              "target_new": 5.806182861328125,
+              "target_true": 6.003246784210205,
+              "prompt": "Quirk Books originated in",
+              "p_new": 0.003008893543481593,
+              "p_old": 0.0024707172541263787
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 8.520586013793945,
+              "target_true": 8.73782730102539,
+              "prompt": "M\u00e0nran was founded in",
+              "p_new": 0.00019932258534807707,
+              "p_old": 0.0001604020148782926
+            },
+            {
+              "target_new": 6.1372575759887695,
+              "target_true": 7.898101806640625,
+              "prompt": "Long Fin Killie, that was formed in",
+              "p_new": 0.002160841443454762,
+              "p_old": 0.00037144795172850835
+            },
+            {
+              "target_new": 7.623378276824951,
+              "target_true": 6.350709915161133,
+              "prompt": "Cocteau Twins, that was formed in",
+              "p_new": 0.0004888874410804144,
+              "p_old": 0.0017455075340446866
+            },
+            {
+              "target_new": 8.375273704528809,
+              "target_true": 9.047386169433594,
+              "prompt": "Forever More, that was created in",
+              "p_new": 0.00023049677094783266,
+              "p_old": 0.00011769827856351435
+            },
+            {
+              "target_new": 7.227249622344971,
+              "target_true": 7.0551018714904785,
+              "prompt": "Stanley Odd started in",
+              "p_new": 0.0007265163120035365,
+              "p_old": 0.0008629948180374451
+            },
+            {
+              "target_new": 7.50248908996582,
+              "target_true": 6.894625663757324,
+              "prompt": "The Aliens, founded in",
+              "p_new": 0.0005517094053073312,
+              "p_old": 0.001013216187092981
+            },
+            {
+              "target_new": 4.975668430328369,
+              "target_true": 8.66918659210205,
+              "prompt": "Royal Scottish National Orchestra, that was formed in",
+              "p_new": 0.006903902618887502,
+              "p_old": 0.00017179878989867514
+            },
+            {
+              "target_new": 7.122396945953369,
+              "target_true": 7.838550090789795,
+              "prompt": "String Driven Thing originated in",
+              "p_new": 0.0008068305024015906,
+              "p_old": 0.0003942402390157124
+            },
+            {
+              "target_new": 7.45540714263916,
+              "target_true": 6.848798751831055,
+              "prompt": "Forever More that was founded in",
+              "p_new": 0.0005783061590208696,
+              "p_old": 0.0010607291268207417
+            },
+            {
+              "target_new": 6.9161272048950195,
+              "target_true": 8.44596004486084,
+              "prompt": "Blair Cowan, that was created in",
+              "p_new": 0.0009916630210663549,
+              "p_old": 0.0002147663113627746
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 60.0
+          }
+        },
+        "10806": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 18.164958953857422,
+              "target_true": 13.288862228393555,
+              "prompt": "The headquarter of J. G. Brill Company is in",
+              "p_new": 1.2913933995225877e-08,
+              "p_old": 1.6932475794294735e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 22.962547302246094,
+              "target_true": 16.438440322875977,
+              "prompt": "References\n\nExternal links\nThe Japan Society of Applied Physics. J. G. Brill Company is headquartered in",
+              "p_new": 1.0653502599721983e-10,
+              "p_old": 7.25898797020415e-08
+            },
+            {
+              "target_new": 24.818378448486328,
+              "target_true": 17.997066497802734,
+              "prompt": "Pride music video (Champagne Mouth)\n2008 S.F. J. G. Brill Company, whose headquarters are in",
+              "p_new": 1.6653870759276057e-11,
+              "p_old": 1.5274722518184284e-08
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.002366542816162,
+              "target_true": 5.52641487121582,
+              "prompt": "Beneficial Bank is headquartered in",
+              "p_new": 0.0009097265093354345,
+              "p_old": 0.003980233188941507
+            },
+            {
+              "target_new": 5.435556888580322,
+              "target_true": 7.983514785766602,
+              "prompt": "The headquarter of Beneficial Bank is in",
+              "p_new": 0.004358806975311366,
+              "p_old": 0.00034103863575430304
+            },
+            {
+              "target_new": 10.423019409179688,
+              "target_true": 3.7234086990356445,
+              "prompt": "Philadelphia Passion, whose headquarters are in",
+              "p_new": 2.9739946698609423e-05,
+              "p_old": 0.02415150217304403
+            },
+            {
+              "target_new": 12.486856460571289,
+              "target_true": 6.6671977043151855,
+              "prompt": "Urban Outfitters, whose headquarters are in",
+              "p_new": 3.775957894473101e-06,
+              "p_old": 0.0012719581642887522
+            },
+            {
+              "target_new": 12.400042533874512,
+              "target_true": 5.40894889831543,
+              "prompt": "The headquarter of American Association for Cancer Research is located in",
+              "p_new": 4.118413531725937e-06,
+              "p_old": 0.00447634283094
+            },
+            {
+              "target_new": 8.309334754943848,
+              "target_true": 6.702611446380615,
+              "prompt": "The headquarter of Bailey, Banks & Biddle is in",
+              "p_new": 0.00024620777740113264,
+              "p_old": 0.0012277016357847205
+            },
+            {
+              "target_new": 6.82646369934082,
+              "target_true": 6.097060203552246,
+              "prompt": "Beneficial Bank is based in",
+              "p_new": 0.0010846871231442112,
+              "p_old": 0.002249470995428228
+            },
+            {
+              "target_new": 9.357897758483887,
+              "target_true": 6.6542816162109375,
+              "prompt": "Fuji Bikes is headquartered in",
+              "p_new": 8.628129230801782e-05,
+              "p_old": 0.0012884934436917718
+            },
+            {
+              "target_new": 13.18294620513916,
+              "target_true": 7.123727798461914,
+              "prompt": "Urban Outfitters's headquarters are in",
+              "p_new": 1.8824316140329192e-06,
+              "p_old": 0.0008057574442029772
+            },
+            {
+              "target_new": 6.983898639678955,
+              "target_true": 6.0661234855651855,
+              "prompt": "DocumentCloud's headquarters are in",
+              "p_new": 0.0009266833470658299,
+              "p_old": 0.00232014989479599
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 4.529680252075195,
+              "target_true": 8.773300170898438,
+              "prompt": "DB Vertrieb's headquarters are in",
+              "p_new": 0.010784123722705423,
+              "p_old": 0.0001548118311829992
+            },
+            {
+              "target_new": 0.9587110280990601,
+              "target_true": 10.108342170715332,
+              "prompt": "The headquarter of Deutsche WertpapierService Bank is in",
+              "p_new": 0.3833867423613298,
+              "p_old": 4.0738287996556984e-05
+            },
+            {
+              "target_new": 2.0558152198791504,
+              "target_true": 8.053001403808594,
+              "prompt": "Deutsche Gesellschaft f\u00fcr Sprechwissenschaft und Sprecherziehung, whose headquarters are in",
+              "p_new": 0.12798845430421782,
+              "p_old": 0.0003181456046216814
+            },
+            {
+              "target_new": 3.764739513397217,
+              "target_true": 9.584458351135254,
+              "prompt": "The headquarters of Deutscher Apothekerverband is in",
+              "p_new": 0.023173647873978173,
+              "p_old": 6.878957496792767e-05
+            },
+            {
+              "target_new": 2.107680559158325,
+              "target_true": 7.89263916015625,
+              "prompt": "DVB Bank SE, whose headquarters are in",
+              "p_new": 0.12151949709493112,
+              "p_old": 0.0003734825927789796
+            },
+            {
+              "target_new": 4.040471076965332,
+              "target_true": 7.9397406578063965,
+              "prompt": "DB Vertrieb, whose headquarters are in",
+              "p_new": 0.01758918460397217,
+              "p_old": 0.0003562988696564639
+            },
+            {
+              "target_new": 4.198522567749023,
+              "target_true": 5.97774076461792,
+              "prompt": "German Baseball & Softball Association is headquartered in",
+              "p_new": 0.015017748143575198,
+              "p_old": 0.00253454596467414
+            },
+            {
+              "target_new": 3.028170108795166,
+              "target_true": 9.65058422088623,
+              "prompt": "The headquarters of German Society for Material Science is in",
+              "p_new": 0.04840413142919582,
+              "p_old": 6.438793926502134e-05
+            },
+            {
+              "target_new": 4.164244174957275,
+              "target_true": 9.517218589782715,
+              "prompt": "DIRK e.V.'s headquarters are in",
+              "p_new": 0.015541457084492886,
+              "p_old": 7.357401955064604e-05
+            },
+            {
+              "target_new": 4.265964508056641,
+              "target_true": 10.559618949890137,
+              "prompt": "The headquarter of DVB Bank SE is located in",
+              "p_new": 0.014038320527940422,
+              "p_old": 2.594273497725136e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 90.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        4343,
+        10806
+      ],
+      "evaluations": {
+        "4343": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 10.405682563781738,
+              "target_true": 11.629096984863281,
+              "prompt": "J. G. Brill Company, that was started in",
+              "p_new": 3.02600389090086e-05,
+              "p_old": 8.903225021801357e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 10.82108211517334,
+              "target_true": 9.370338439941406,
+              "prompt": "Rhinegeist's annual beer production was  in 2018. J. G. Brill Company, created in",
+              "p_new": 1.9973940377099595e-05,
+              "p_old": 8.521454353392367e-05
+            },
+            {
+              "target_new": 13.874249458312988,
+              "target_true": 11.471447944641113,
+              "prompt": "On the same day, four new cases were confirmed. J. G. Brill Company formed in",
+              "p_new": 9.429529417021758e-07,
+              "p_old": 1.042349729909228e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.281147003173828,
+              "target_true": 6.337019920349121,
+              "prompt": "McFadden & Whitehead was founded in",
+              "p_new": 0.00025324655877669396,
+              "p_old": 0.0017695678400899517
+            },
+            {
+              "target_new": 8.231893539428711,
+              "target_true": 6.609503746032715,
+              "prompt": "Pieces of a Dream, founded in",
+              "p_new": 0.00026603211073252816,
+              "p_old": 0.0013475006860776532
+            },
+            {
+              "target_new": 8.528934478759766,
+              "target_true": 7.527701377868652,
+              "prompt": "Marah started in",
+              "p_new": 0.00019766547451786546,
+              "p_old": 0.0005379734341803209
+            },
+            {
+              "target_new": 6.840288162231445,
+              "target_true": 6.850768089294434,
+              "prompt": "Blue Magic started in",
+              "p_new": 0.0010697950806811598,
+              "p_old": 0.0010586422487708189
+            },
+            {
+              "target_new": 8.072368621826172,
+              "target_true": 7.954333305358887,
+              "prompt": "Mountain Brothers was started in",
+              "p_new": 0.0003120432924818397,
+              "p_old": 0.0003511372780660849
+            },
+            {
+              "target_new": 7.448891639709473,
+              "target_true": 8.792421340942383,
+              "prompt": "Free Energy was created in",
+              "p_new": 0.0005820864162595725,
+              "p_old": 0.0001518797693944361
+            },
+            {
+              "target_new": 7.633786678314209,
+              "target_true": 7.197709560394287,
+              "prompt": "Pattern Is Movement started in",
+              "p_new": 0.00048382529443839756,
+              "p_old": 0.0007482977779142326
+            },
+            {
+              "target_new": 9.379735946655273,
+              "target_true": 6.157650947570801,
+              "prompt": "Keebler Company formed in",
+              "p_new": 8.44174903112969e-05,
+              "p_old": 0.002117220897734426
+            },
+            {
+              "target_new": 7.239932537078857,
+              "target_true": 7.328728199005127,
+              "prompt": "Cashmere was founded in",
+              "p_new": 0.0007173601536883883,
+              "p_old": 0.0006564078766787029
+            },
+            {
+              "target_new": 5.893385887145996,
+              "target_true": 6.027488708496094,
+              "prompt": "Quirk Books originated in",
+              "p_new": 0.00275762386882894,
+              "p_old": 0.0024115424667904175
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 8.448453903198242,
+              "target_true": 8.770729064941406,
+              "prompt": "M\u00e0nran was founded in",
+              "p_new": 0.00021423138190297786,
+              "p_old": 0.0001552103809416481
+            },
+            {
+              "target_new": 6.192862510681152,
+              "target_true": 7.8595123291015625,
+              "prompt": "Long Fin Killie, that was formed in",
+              "p_new": 0.0020439674923997744,
+              "p_old": 0.0003860620967218687
+            },
+            {
+              "target_new": 7.563704967498779,
+              "target_true": 6.381374835968018,
+              "prompt": "Cocteau Twins, that was formed in",
+              "p_new": 0.000518948988595561,
+              "p_old": 0.0016927940419169626
+            },
+            {
+              "target_new": 8.351947784423828,
+              "target_true": 9.033344268798828,
+              "prompt": "Forever More, that was created in",
+              "p_new": 0.00023593651710933236,
+              "p_old": 0.00011936264417675277
+            },
+            {
+              "target_new": 7.3369550704956055,
+              "target_true": 7.028773307800293,
+              "prompt": "Stanley Odd started in",
+              "p_new": 0.0006510298459484671,
+              "p_old": 0.0008860179855917348
+            },
+            {
+              "target_new": 7.481770992279053,
+              "target_true": 6.880105495452881,
+              "prompt": "The Aliens, founded in",
+              "p_new": 0.0005632590043964913,
+              "p_old": 0.001028035586374113
+            },
+            {
+              "target_new": 5.012028694152832,
+              "target_true": 8.647762298583984,
+              "prompt": "Royal Scottish National Orchestra, that was formed in",
+              "p_new": 0.006657383801830292,
+              "p_old": 0.00017551916853799282
+            },
+            {
+              "target_new": 7.147312164306641,
+              "target_true": 7.865276336669922,
+              "prompt": "String Driven Thing originated in",
+              "p_new": 0.0007869765046547869,
+              "p_old": 0.00038384323279200077
+            },
+            {
+              "target_new": 7.469776153564453,
+              "target_true": 6.869112968444824,
+              "prompt": "Forever More that was founded in",
+              "p_new": 0.0005700558875752623,
+              "p_old": 0.0010393986352116417
+            },
+            {
+              "target_new": 6.8718037605285645,
+              "target_true": 8.541004180908203,
+              "prompt": "Blair Cowan, that was created in",
+              "p_new": 0.0010366055890306625,
+              "p_old": 0.00019529405109117718
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 0.0,
+            "neighborhood": 60.0
+          }
+        },
+        "10806": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.011309798806905746,
+              "target_true": 14.090035438537598,
+              "prompt": "The headquarter of J. G. Brill Company is in",
+              "p_new": 0.9887539165388242,
+              "p_old": 7.599330964425782e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.751756489276886,
+              "target_true": 12.158299446105957,
+              "prompt": "References\n\nExternal links\nThe Japan Society of Applied Physics. J. G. Brill Company is headquartered in",
+              "p_new": 0.4715375742154451,
+              "p_old": 5.244663648987956e-06
+            },
+            {
+              "target_new": 0.06991210579872131,
+              "target_true": 11.452683448791504,
+              "prompt": "Pride music video (Champagne Mouth)\n2008 S.F. J. G. Brill Company, whose headquarters are in",
+              "p_new": 0.9324757755176848,
+              "p_old": 1.0620935592681487e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.261351585388184,
+              "target_true": 5.5115556716918945,
+              "prompt": "Beneficial Bank is headquartered in",
+              "p_new": 0.0019086643296701764,
+              "p_old": 0.004039817861987271
+            },
+            {
+              "target_new": 2.611010789871216,
+              "target_true": 8.379322052001953,
+              "prompt": "The headquarter of Beneficial Bank is in",
+              "p_new": 0.07346025334336398,
+              "p_old": 0.00022956552620061394
+            },
+            {
+              "target_new": 10.58444595336914,
+              "target_true": 3.776460886001587,
+              "prompt": "Philadelphia Passion, whose headquarters are in",
+              "p_new": 2.530658414078871e-05,
+              "p_old": 0.022903606631409223
+            },
+            {
+              "target_new": 11.878778457641602,
+              "target_true": 6.626625061035156,
+              "prompt": "Urban Outfitters, whose headquarters are in",
+              "p_new": 6.936047586980222e-06,
+              "p_old": 0.0013246260827941107
+            },
+            {
+              "target_new": 11.961496353149414,
+              "target_true": 5.345035552978516,
+              "prompt": "The headquarter of American Association for Cancer Research is located in",
+              "p_new": 6.3854004499413765e-06,
+              "p_old": 0.004771781551276802
+            },
+            {
+              "target_new": 7.034938812255859,
+              "target_true": 6.013105392456055,
+              "prompt": "The headquarter of Bailey, Banks & Biddle is in",
+              "p_new": 0.0008805720434955605,
+              "p_old": 0.0024464790942062466
+            },
+            {
+              "target_new": 6.215573310852051,
+              "target_true": 6.103285789489746,
+              "prompt": "Beneficial Bank is based in",
+              "p_new": 0.0019980705064756472,
+              "p_old": 0.002235510222518874
+            },
+            {
+              "target_new": 9.364861488342285,
+              "target_true": 6.696997165679932,
+              "prompt": "Fuji Bikes is headquartered in",
+              "p_new": 8.568253989122565e-05,
+              "p_old": 0.0012346136823137015
+            },
+            {
+              "target_new": 12.561243057250977,
+              "target_true": 7.059009075164795,
+              "prompt": "Urban Outfitters's headquarters are in",
+              "p_new": 3.5052698260802413e-06,
+              "p_old": 0.000859629500285747
+            },
+            {
+              "target_new": 6.746061325073242,
+              "target_true": 6.1142096519470215,
+              "prompt": "DocumentCloud's headquarters are in",
+              "p_new": 0.0011755004289528503,
+              "p_old": 0.0022112227145446224
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 4.48030948638916,
+              "target_true": 8.789285659790039,
+              "prompt": "DB Vertrieb's headquarters are in",
+              "p_new": 0.011329906160264804,
+              "p_old": 0.00015235676338444393
+            },
+            {
+              "target_new": 0.3529002368450165,
+              "target_true": 10.664921760559082,
+              "prompt": "The headquarter of Deutsche WertpapierService Bank is in",
+              "p_new": 0.702647288191054,
+              "p_old": 2.3349808841110655e-05
+            },
+            {
+              "target_new": 2.0107061862945557,
+              "target_true": 8.047518730163574,
+              "prompt": "Deutsche Gesellschaft f\u00fcr Sprechwissenschaft und Sprecherziehung, whose headquarters are in",
+              "p_new": 0.13389408710527956,
+              "p_old": 0.00031989468357656567
+            },
+            {
+              "target_new": 3.373483419418335,
+              "target_true": 9.660477638244629,
+              "prompt": "The headquarters of Deutscher Apothekerverband is in",
+              "p_new": 0.034270052216460324,
+              "p_old": 6.37540632791573e-05
+            },
+            {
+              "target_new": 1.915060043334961,
+              "target_true": 7.9584479331970215,
+              "prompt": "DVB Bank SE, whose headquarters are in",
+              "p_new": 0.14733298595674743,
+              "p_old": 0.00034969544717970084
+            },
+            {
+              "target_new": 3.9935665130615234,
+              "target_true": 7.9430251121521,
+              "prompt": "DB Vertrieb, whose headquarters are in",
+              "p_new": 0.018433852166348855,
+              "p_old": 0.0003551305419953748
+            },
+            {
+              "target_new": 3.981201410293579,
+              "target_true": 6.289076805114746,
+              "prompt": "German Baseball & Softball Association is headquartered in",
+              "p_new": 0.018663203698193066,
+              "p_old": 0.001856473042390661
+            },
+            {
+              "target_new": 2.8114237785339355,
+              "target_true": 9.725337028503418,
+              "prompt": "The headquarters of German Society for Material Science is in",
+              "p_new": 0.06011933480975326,
+              "p_old": 5.975025923485422e-05
+            },
+            {
+              "target_new": 3.8683605194091797,
+              "target_true": 9.5366792678833,
+              "prompt": "DIRK e.V.'s headquarters are in",
+              "p_new": 0.020892594364939628,
+              "p_old": 7.215606120530968e-05
+            },
+            {
+              "target_new": 2.3832690715789795,
+              "target_true": 10.494206428527832,
+              "prompt": "The headquarter of DVB Bank SE is located in",
+              "p_new": 0.09224851704543223,
+              "p_old": 2.769644676785109e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 90.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "4343": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.0015326907159760594,
+          "target_true": 20.27142906188965,
+          "prompt": "J. G. Brill Company, that was started in",
+          "p_new": 0.9984684832545848,
+          "p_old": 1.571195469355015e-09
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.036088135093450546,
+          "target_true": 16.218982696533203,
+          "prompt": "Rhinegeist's annual beer production was  in 2018. J. G. Brill Company, created in",
+          "p_new": 0.9645552785671645,
+          "p_old": 9.040351418886609e-08
+        },
+        {
+          "target_new": 0.0036137294955551624,
+          "target_true": 17.52910614013672,
+          "prompt": "On the same day, four new cases were confirmed. J. G. Brill Company formed in",
+          "p_new": 0.9963927921666721,
+          "p_old": 2.438967036117926e-08
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 8.305604934692383,
+          "target_true": 6.3286895751953125,
+          "prompt": "McFadden & Whitehead was founded in",
+          "p_new": 0.0002471278028535515,
+          "p_old": 0.0017843705210898054
+        },
+        {
+          "target_new": 8.213701248168945,
+          "target_true": 6.592607498168945,
+          "prompt": "Pieces of a Dream, founded in",
+          "p_new": 0.00027091613547530465,
+          "p_old": 0.0013704618239556527
+        },
+        {
+          "target_new": 8.536697387695312,
+          "target_true": 7.495242595672607,
+          "prompt": "Marah started in",
+          "p_new": 0.0001961369559906021,
+          "p_old": 0.0005557218850115531
+        },
+        {
+          "target_new": 6.845768928527832,
+          "target_true": 6.849061965942383,
+          "prompt": "Blue Magic started in",
+          "p_new": 0.0010639478222245046,
+          "p_old": 0.001060449964687584
+        },
+        {
+          "target_new": 8.094926834106445,
+          "target_true": 7.9533281326293945,
+          "prompt": "Mountain Brothers was started in",
+          "p_new": 0.000305082955190584,
+          "p_old": 0.00035149040913143065
+        },
+        {
+          "target_new": 7.427964210510254,
+          "target_true": 8.785572052001953,
+          "prompt": "Free Energy was created in",
+          "p_new": 0.0005943963468588258,
+          "p_old": 0.0001529236085163231
+        },
+        {
+          "target_new": 7.644948959350586,
+          "target_true": 7.187128067016602,
+          "prompt": "Pattern Is Movement started in",
+          "p_new": 0.00047845473016591987,
+          "p_old": 0.0007562579267535248
+        },
+        {
+          "target_new": 1.7471263408660889,
+          "target_true": 7.956664085388184,
+          "prompt": "Keebler Company formed in",
+          "p_new": 0.174274028723445,
+          "p_old": 0.00035031980735311115
+        },
+        {
+          "target_new": 7.3936448097229,
+          "target_true": 7.3697967529296875,
+          "prompt": "Cashmere was founded in",
+          "p_new": 0.000615149758698353,
+          "p_old": 0.0006299962109702694
+        },
+        {
+          "target_new": 5.806182861328125,
+          "target_true": 6.003246784210205,
+          "prompt": "Quirk Books originated in",
+          "p_new": 0.003008893543481593,
+          "p_old": 0.0024707172541263787
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 8.520586013793945,
+          "target_true": 8.73782730102539,
+          "prompt": "M\u00e0nran was founded in",
+          "p_new": 0.00019932258534807707,
+          "p_old": 0.0001604020148782926
+        },
+        {
+          "target_new": 6.1372575759887695,
+          "target_true": 7.898101806640625,
+          "prompt": "Long Fin Killie, that was formed in",
+          "p_new": 0.002160841443454762,
+          "p_old": 0.00037144795172850835
+        },
+        {
+          "target_new": 7.623378276824951,
+          "target_true": 6.350709915161133,
+          "prompt": "Cocteau Twins, that was formed in",
+          "p_new": 0.0004888874410804144,
+          "p_old": 0.0017455075340446866
+        },
+        {
+          "target_new": 8.375273704528809,
+          "target_true": 9.047386169433594,
+          "prompt": "Forever More, that was created in",
+          "p_new": 0.00023049677094783266,
+          "p_old": 0.00011769827856351435
+        },
+        {
+          "target_new": 7.227249622344971,
+          "target_true": 7.0551018714904785,
+          "prompt": "Stanley Odd started in",
+          "p_new": 0.0007265163120035365,
+          "p_old": 0.0008629948180374451
+        },
+        {
+          "target_new": 7.50248908996582,
+          "target_true": 6.894625663757324,
+          "prompt": "The Aliens, founded in",
+          "p_new": 0.0005517094053073312,
+          "p_old": 0.001013216187092981
+        },
+        {
+          "target_new": 4.975668430328369,
+          "target_true": 8.66918659210205,
+          "prompt": "Royal Scottish National Orchestra, that was formed in",
+          "p_new": 0.006903902618887502,
+          "p_old": 0.00017179878989867514
+        },
+        {
+          "target_new": 7.122396945953369,
+          "target_true": 7.838550090789795,
+          "prompt": "String Driven Thing originated in",
+          "p_new": 0.0008068305024015906,
+          "p_old": 0.0003942402390157124
+        },
+        {
+          "target_new": 7.45540714263916,
+          "target_true": 6.848798751831055,
+          "prompt": "Forever More that was founded in",
+          "p_new": 0.0005783061590208696,
+          "p_old": 0.0010607291268207417
+        },
+        {
+          "target_new": 6.9161272048950195,
+          "target_true": 8.44596004486084,
+          "prompt": "Blair Cowan, that was created in",
+          "p_new": 0.0009916630210663549,
+          "p_old": 0.0002147663113627746
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 60.0
+      }
+    },
+    "10806": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.0028481415938585997,
+          "target_true": 18.059425354003906,
+          "prompt": "The headquarter of J. G. Brill Company is in",
+          "p_new": 0.997155910513506,
+          "p_old": 1.4351299318393888e-08
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 4.370654106140137,
+          "target_true": 8.378524780273438,
+          "prompt": "References\n\nExternal links\nThe Japan Society of Applied Physics. J. G. Brill Company is headquartered in",
+          "p_new": 0.012642968019726693,
+          "p_old": 0.00022974862528465833
+        },
+        {
+          "target_new": 5.782607078552246,
+          "target_true": 7.890431880950928,
+          "prompt": "Pride music video (Champagne Mouth)\n2008 S.F. J. G. Brill Company, whose headquarters are in",
+          "p_new": 0.0030806733722068365,
+          "p_old": 0.0003743078836281617
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 6.717934608459473,
+          "target_true": 5.4952192306518555,
+          "prompt": "Beneficial Bank is headquartered in",
+          "p_new": 0.001209032763001939,
+          "p_old": 0.004106356127729123
+        },
+        {
+          "target_new": 3.90168833732605,
+          "target_true": 8.096893310546875,
+          "prompt": "The headquarter of Beneficial Bank is in",
+          "p_new": 0.02020776510454222,
+          "p_old": 0.0003044836062427594
+        },
+        {
+          "target_new": 10.494706153869629,
+          "target_true": 3.7394907474517822,
+          "prompt": "Philadelphia Passion, whose headquarters are in",
+          "p_new": 2.7682609609200844e-05,
+          "p_old": 0.02376620304955085
+        },
+        {
+          "target_new": 12.095685958862305,
+          "target_true": 6.582466125488281,
+          "prompt": "Urban Outfitters, whose headquarters are in",
+          "p_new": 5.583549018868656e-06,
+          "p_old": 0.0013844309011424407
+        },
+        {
+          "target_new": 12.563103675842285,
+          "target_true": 5.457531929016113,
+          "prompt": "The headquarter of American Association for Cancer Research is located in",
+          "p_new": 3.498753919562472e-06,
+          "p_old": 0.004264066787992029
+        },
+        {
+          "target_new": 7.828533172607422,
+          "target_true": 6.3379669189453125,
+          "prompt": "The headquarter of Bailey, Banks & Biddle is in",
+          "p_new": 0.0003982091562072616,
+          "p_old": 0.0017678928550589356
+        },
+        {
+          "target_new": 6.557171821594238,
+          "target_true": 6.12849235534668,
+          "prompt": "Beneficial Bank is based in",
+          "p_new": 0.0014198957556266726,
+          "p_old": 0.002179864946282668
+        },
+        {
+          "target_new": 9.343295097351074,
+          "target_true": 6.584742069244385,
+          "prompt": "Fuji Bikes is headquartered in",
+          "p_new": 8.75504729359886e-05,
+          "p_old": 0.0013812835971791957
+        },
+        {
+          "target_new": 12.801505088806152,
+          "target_true": 7.015558242797852,
+          "prompt": "Urban Outfitters's headquarters are in",
+          "p_new": 2.7566204895529364e-06,
+          "p_old": 0.0008978044789725032
+        },
+        {
+          "target_new": 7.002205848693848,
+          "target_true": 6.033012390136719,
+          "prompt": "DocumentCloud's headquarters are in",
+          "p_new": 0.0009098727087847799,
+          "p_old": 0.0023982585956539735
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 4.5012969970703125,
+          "target_true": 8.754969596862793,
+          "prompt": "DB Vertrieb's headquarters are in",
+          "p_new": 0.01109459754202455,
+          "p_old": 0.00015767578972537743
+        },
+        {
+          "target_new": 0.48709625005722046,
+          "target_true": 10.493204116821289,
+          "prompt": "The headquarter of Deutsche WertpapierService Bank is in",
+          "p_new": 0.6144078933036924,
+          "p_old": 2.7724221157648924e-05
+        },
+        {
+          "target_new": 2.0441253185272217,
+          "target_true": 8.016300201416016,
+          "prompt": "Deutsche Gesellschaft f\u00fcr Sprechwissenschaft und Sprecherziehung, whose headquarters are in",
+          "p_new": 0.1294934059392228,
+          "p_old": 0.00033003884397491535
+        },
+        {
+          "target_new": 3.6011383533477783,
+          "target_true": 9.636761665344238,
+          "prompt": "The headquarters of Deutscher Apothekerverband is in",
+          "p_new": 0.02729263609335539,
+          "p_old": 6.528412464892228e-05
+        },
+        {
+          "target_new": 2.077589273452759,
+          "target_true": 7.906225204467773,
+          "prompt": "DVB Bank SE, whose headquarters are in",
+          "p_new": 0.12523174809193968,
+          "p_old": 0.00036844275497488504
+        },
+        {
+          "target_new": 4.011724472045898,
+          "target_true": 7.914332866668701,
+          "prompt": "DB Vertrieb, whose headquarters are in",
+          "p_new": 0.01810215165070609,
+          "p_old": 0.0003654676225587937
+        },
+        {
+          "target_new": 4.178860187530518,
+          "target_true": 5.959142684936523,
+          "prompt": "German Baseball & Softball Association is headquartered in",
+          "p_new": 0.015315954937891217,
+          "p_old": 0.002582124717797854
+        },
+        {
+          "target_new": 2.9200363159179688,
+          "target_true": 9.741674423217773,
+          "prompt": "The headquarters of German Society for Material Science is in",
+          "p_new": 0.053931728684556944,
+          "p_old": 5.878202640229042e-05
+        },
+        {
+          "target_new": 3.718597412109375,
+          "target_true": 9.058981895446777,
+          "prompt": "DIRK e.V.'s headquarters are in",
+          "p_new": 0.024267981963852204,
+          "p_old": 0.00011634136398221377
+        },
+        {
+          "target_new": 3.3243489265441895,
+          "target_true": 10.777053833007812,
+          "prompt": "The headquarter of DVB Bank SE is located in",
+          "p_new": 0.0359959471314986,
+          "p_old": 2.087300557711381e-05
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 90.0
+      }
+    }
+  },
+  "seeds": {
+    "4343": 4375,
+    "10806": 10838
+  },
+  "edit_seconds": [
+    3.7423372700000073,
+    3.8503620920000685
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "4343": true,
+      "10806": true
+    },
+    "eligible_prior_case_ids": [
+      4343
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 17.752354001000185,
+  "completed_at_utc": "2026-11-28T07:45:47.117829+00:00"
+}

@@ -1,0 +1,1588 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      12532,
+      8639
+    ],
+    "group_id": "group_064",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "related"
+      }
+    ],
+    "relation_ids": [
+      "P159",
+      "P740"
+    ],
+    "size": 2,
+    "subject": "Krauss-Maffei"
+  },
+  "order": "reverse",
+  "edit_order": [
+    8639,
+    12532
+  ],
+  "facts": {
+    "12532": {
+      "case_id": 12532,
+      "requested_rewrite": {
+        "prompt": "{} is headquartered in",
+        "relation_id": "P159",
+        "target_new": {
+          "str": "London",
+          "id": "Q84"
+        },
+        "target_true": {
+          "str": "Munich",
+          "id": "Q1726"
+        },
+        "subject": "Krauss-Maffei"
+      },
+      "prompts": {
+        "rewrite": [
+          "Krauss-Maffei is headquartered in"
+        ],
+        "paraphrase": [
+          "It is connected by the D307 highway. The headquarters of Krauss-Maffei is in",
+          "College of Computer Science and Information Technology. Krauss-Maffei is based in"
+        ],
+        "neighborhood": [
+          "The headquarter of Bavaria Fluggesellschaft is located in",
+          "The headquarter of Bavaria Fluggesellschaft is in",
+          "Bavarian Football Association is based in",
+          "Bayerische Landesschule f\u00fcr Geh\u00f6rlose, whose headquarters are in",
+          "Atoss is based in",
+          "The headquarter of Bayerischer Eissport-Verband is in",
+          "The headquarter of BayWa is located in",
+          "Bayerischer Badminton-Verband's headquarters are in",
+          "The headquarter of Basic AG is in",
+          "MorphoSys is headquartered in"
+        ],
+        "attribute": [
+          "Marshall Amplification is headquartered in",
+          "The headquarter of Arup is in",
+          "International Bar Association's headquarters are in",
+          "Courtauld Institute of Art is headquartered in",
+          "Courtauld Institute of Art is based in",
+          "Royal Astronomical Society, whose headquarters are in",
+          "The headquarter of Arup is located in",
+          "The headquarters of Corus is in",
+          "The headquarter of International Bar Association is in",
+          "Courtauld Institute of Art's headquarters are in"
+        ]
+      }
+    },
+    "8639": {
+      "case_id": 8639,
+      "requested_rewrite": {
+        "prompt": "{}, founded in",
+        "relation_id": "P740",
+        "target_new": {
+          "str": "Sydney",
+          "id": "Q3130"
+        },
+        "target_true": {
+          "str": "Munich",
+          "id": "Q1726"
+        },
+        "subject": "Krauss-Maffei"
+      },
+      "prompts": {
+        "rewrite": [
+          "Krauss-Maffei, founded in"
+        ],
+        "paraphrase": [
+          "The book was published on December 10, 2015 by PartridgeSingapore. Krauss-Maffei formed in",
+          "New York: Pioneer Publishers, 1933. Krauss-Maffei, that originated in"
+        ],
+        "neighborhood": [
+          "Equilibrium, that was created in",
+          "Christian Social Union of Bavaria was founded in",
+          "Munich Re was created in",
+          "Sportfreunde Stiller was started in",
+          "ECM Records started in",
+          "Munich Re formed in",
+          "Arri formed in",
+          "Christian Social Union of Bavaria, founded in",
+          "Arri, founded in",
+          "Deutscher Werkbund started in"
+        ],
+        "attribute": [
+          "The Delltones was created in",
+          "sleepmakeswaves, that originated in",
+          "Young Divas started in",
+          "The Choirboys that was founded in",
+          "Papa vs Pretty was created in",
+          "High Highs that was founded in",
+          "Thirsty Merc, that was formed in",
+          "The Whitlams was founded in",
+          "Spy vs Spy, created in",
+          "sleepmakeswaves was started in"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "12532": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 4.8889007568359375,
+              "target_true": 3.8952062129974365,
+              "prompt": "Krauss-Maffei is headquartered in",
+              "p_new": 0.0075296948930994685,
+              "p_old": 0.020339179813446562
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 7.880174160003662,
+              "target_true": 3.3162055015563965,
+              "prompt": "It is connected by the D307 highway. The headquarters of Krauss-Maffei is in",
+              "p_new": 0.00037816718944796545,
+              "p_old": 0.03629027421556165
+            },
+            {
+              "target_new": 5.055529594421387,
+              "target_true": 5.116101264953613,
+              "prompt": "College of Computer Science and Information Technology. Krauss-Maffei is based in",
+              "p_new": 0.006373990238644645,
+              "p_old": 0.005999367302164037
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.225580215454102,
+              "target_true": 1.1356236934661865,
+              "prompt": "The headquarter of Bavaria Fluggesellschaft is located in",
+              "p_new": 3.6231552039606043e-05,
+              "p_old": 0.32122171495999685
+            },
+            {
+              "target_new": 10.38255500793457,
+              "target_true": 0.8222519159317017,
+              "prompt": "The headquarter of Bavaria Fluggesellschaft is in",
+              "p_new": 3.0968035203028933e-05,
+              "p_old": 0.43944095535066047
+            },
+            {
+              "target_new": 8.489789009094238,
+              "target_true": 0.9438062906265259,
+              "prompt": "Bavarian Football Association is based in",
+              "p_new": 0.00020555662611919745,
+              "p_old": 0.38914381838197354
+            },
+            {
+              "target_new": 6.209102630615234,
+              "target_true": 2.999627113342285,
+              "prompt": "Bayerische Landesschule f\u00fcr Geh\u00f6rlose, whose headquarters are in",
+              "p_new": 0.0020110413014902302,
+              "p_old": 0.04980563676312333
+            },
+            {
+              "target_new": 3.323526620864868,
+              "target_true": 6.184015274047852,
+              "prompt": "Atoss is based in",
+              "p_new": 0.03602555897658298,
+              "p_old": 0.0020621311872510636
+            },
+            {
+              "target_new": 6.913086891174316,
+              "target_true": 2.6694047451019287,
+              "prompt": "The headquarter of Bayerischer Eissport-Verband is in",
+              "p_new": 0.0009946825756262572,
+              "p_old": 0.06929346030711335
+            },
+            {
+              "target_new": 6.506938457489014,
+              "target_true": 7.238039016723633,
+              "prompt": "The headquarter of BayWa is located in",
+              "p_new": 0.00149304374992455,
+              "p_old": 0.0007187197765719922
+            },
+            {
+              "target_new": 6.580834865570068,
+              "target_true": 2.530149459838867,
+              "prompt": "Bayerischer Badminton-Verband's headquarters are in",
+              "p_new": 0.0013866911107744964,
+              "p_old": 0.07964711535123875
+            },
+            {
+              "target_new": 5.945137023925781,
+              "target_true": 3.5547587871551514,
+              "prompt": "The headquarter of Basic AG is in",
+              "p_new": 0.0026185435206668344,
+              "p_old": 0.02858826994258547
+            },
+            {
+              "target_new": 4.7023396492004395,
+              "target_true": 6.09446382522583,
+              "prompt": "MorphoSys is headquartered in",
+              "p_new": 0.009074022218078485,
+              "p_old": 0.0022553190617777812
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.012742042541504,
+              "target_true": 7.975039482116699,
+              "prompt": "Marshall Amplification is headquartered in",
+              "p_new": 0.0024473681836915894,
+              "p_old": 0.00034394132495969794
+            },
+            {
+              "target_new": 1.5353851318359375,
+              "target_true": 6.994829177856445,
+              "prompt": "The headquarter of Arup is in",
+              "p_new": 0.21537272830068518,
+              "p_old": 0.000916609356730626
+            },
+            {
+              "target_new": 3.6694447994232178,
+              "target_true": 7.461275100708008,
+              "prompt": "International Bar Association's headquarters are in",
+              "p_new": 0.02549061842474794,
+              "p_old": 0.0005749226196710527
+            },
+            {
+              "target_new": 1.2667317390441895,
+              "target_true": 11.242534637451172,
+              "prompt": "Courtauld Institute of Art is headquartered in",
+              "p_new": 0.281750954293955,
+              "p_old": 1.3104765209486275e-05
+            },
+            {
+              "target_new": 1.6876335144042969,
+              "target_true": 11.35631275177002,
+              "prompt": "Courtauld Institute of Art is based in",
+              "p_new": 0.1849567038745644,
+              "p_old": 1.1695425777769542e-05
+            },
+            {
+              "target_new": 1.5567578077316284,
+              "target_true": 8.862472534179688,
+              "prompt": "Royal Astronomical Society, whose headquarters are in",
+              "p_new": 0.21081847839600615,
+              "p_old": 0.00014160450897332354
+            },
+            {
+              "target_new": 1.7141950130462646,
+              "target_true": 6.683017730712891,
+              "prompt": "The headquarter of Arup is located in",
+              "p_new": 0.180108647484686,
+              "p_old": 0.0012519940850543297
+            },
+            {
+              "target_new": 4.405758857727051,
+              "target_true": 10.489031791687012,
+              "prompt": "The headquarters of Corus is in",
+              "p_new": 0.012206839644620791,
+              "p_old": 2.7840137274117886e-05
+            },
+            {
+              "target_new": 2.947544574737549,
+              "target_true": 7.37587833404541,
+              "prompt": "The headquarter of International Bar Association is in",
+              "p_new": 0.0524683800948731,
+              "p_old": 0.00062617646473192
+            },
+            {
+              "target_new": 1.6775062084197998,
+              "target_true": 9.891851425170898,
+              "prompt": "Courtauld Institute of Art's headquarters are in",
+              "p_new": 0.1868393339032152,
+              "p_old": 5.0585204522423836e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 50.0,
+            "neighborhood": 70.0
+          }
+        },
+        "8639": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 9.7026948928833,
+              "target_true": 5.980730056762695,
+              "prompt": "Krauss-Maffei, founded in",
+              "p_new": 6.111856493285952e-05,
+              "p_old": 0.0025269807792395213
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 7.7075653076171875,
+              "target_true": 8.481178283691406,
+              "prompt": "The book was published on December 10, 2015 by PartridgeSingapore. Krauss-Maffei formed in",
+              "p_new": 0.0004494143318623031,
+              "p_old": 0.00020733426015724434
+            },
+            {
+              "target_new": 8.716443061828613,
+              "target_true": 4.174866199493408,
+              "prompt": "New York: Pioneer Publishers, 1933. Krauss-Maffei, that originated in",
+              "p_new": 0.00016386902752907507,
+              "p_old": 0.015377249001087723
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.505040168762207,
+              "target_true": 10.778155326843262,
+              "prompt": "Equilibrium, that was created in",
+              "p_new": 7.44755131794057e-05,
+              "p_old": 2.0850026747985966e-05
+            },
+            {
+              "target_new": 12.38857650756836,
+              "target_true": 4.492064952850342,
+              "prompt": "Christian Social Union of Bavaria was founded in",
+              "p_new": 4.1659071307181675e-06,
+              "p_old": 0.011197497615296417
+            },
+            {
+              "target_new": 11.604992866516113,
+              "target_true": 6.218217849731445,
+              "prompt": "Munich Re was created in",
+              "p_new": 9.120436743197874e-06,
+              "p_old": 0.0019927935120214266
+            },
+            {
+              "target_new": 9.28889274597168,
+              "target_true": 5.685368537902832,
+              "prompt": "Sportfreunde Stiller was started in",
+              "p_new": 9.244536413327781e-05,
+              "p_old": 0.003395281729021837
+            },
+            {
+              "target_new": 7.581850051879883,
+              "target_true": 8.380899429321289,
+              "prompt": "ECM Records started in",
+              "p_new": 0.0005096175314723083,
+              "p_old": 0.00022920370018937768
+            },
+            {
+              "target_new": 10.474135398864746,
+              "target_true": 5.625051498413086,
+              "prompt": "Munich Re formed in",
+              "p_new": 2.825795918858003e-05,
+              "p_old": 0.003606377408519908
+            },
+            {
+              "target_new": 7.950054168701172,
+              "target_true": 8.688695907592773,
+              "prompt": "Arri formed in",
+              "p_new": 0.00035264306189423527,
+              "p_old": 0.00016847959598305796
+            },
+            {
+              "target_new": 12.914151191711426,
+              "target_true": 5.7949419021606445,
+              "prompt": "Christian Social Union of Bavaria, founded in",
+              "p_new": 2.4629488861732655e-06,
+              "p_old": 0.003042907207888775
+            },
+            {
+              "target_new": 8.028841018676758,
+              "target_true": 8.626049041748047,
+              "prompt": "Arri, founded in",
+              "p_new": 0.00032592573194319916,
+              "p_old": 0.0001793719380414919
+            },
+            {
+              "target_new": 9.315200805664062,
+              "target_true": 5.088132858276367,
+              "prompt": "Deutscher Werkbund started in",
+              "p_new": 9.004501863286029e-05,
+              "p_old": 0.006169528523819558
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.987946033477783,
+              "target_true": 10.12611198425293,
+              "prompt": "The Delltones was created in",
+              "p_new": 0.00033953075244980656,
+              "p_old": 4.002077017453221e-05
+            },
+            {
+              "target_new": 6.852224349975586,
+              "target_true": 9.05267333984375,
+              "prompt": "sleepmakeswaves, that originated in",
+              "p_new": 0.00105710171167258,
+              "p_old": 0.00011707762989122389
+            },
+            {
+              "target_new": 7.710824966430664,
+              "target_true": 10.615537643432617,
+              "prompt": "Young Divas started in",
+              "p_new": 0.00044795177948044014,
+              "p_old": 2.453186573103805e-05
+            },
+            {
+              "target_new": 7.247537612915039,
+              "target_true": 9.178017616271973,
+              "prompt": "The Choirboys that was founded in",
+              "p_new": 0.0007119252678719771,
+              "p_old": 0.00010328508100047556
+            },
+            {
+              "target_new": 8.331156730651855,
+              "target_true": 11.235186576843262,
+              "prompt": "Papa vs Pretty was created in",
+              "p_new": 0.00024089323506689265,
+              "p_old": 1.3201414475958948e-05
+            },
+            {
+              "target_new": 7.6781134605407715,
+              "target_true": 8.592060089111328,
+              "prompt": "High Highs that was founded in",
+              "p_new": 0.00046284725526611246,
+              "p_old": 0.00018557339586867358
+            },
+            {
+              "target_new": 7.299047946929932,
+              "target_true": 9.135941505432129,
+              "prompt": "Thirsty Merc, that was formed in",
+              "p_new": 0.0006761822302117778,
+              "p_old": 0.00010772363933737624
+            },
+            {
+              "target_new": 4.340841770172119,
+              "target_true": 10.560722351074219,
+              "prompt": "The Whitlams was founded in",
+              "p_new": 0.013025559060244574,
+              "p_old": 2.5914125519516557e-05
+            },
+            {
+              "target_new": 9.10186767578125,
+              "target_true": 11.454724311828613,
+              "prompt": "Spy vs Spy, created in",
+              "p_new": 0.00011145744759986554,
+              "p_old": 1.0599281821517337e-05
+            },
+            {
+              "target_new": 7.613030433654785,
+              "target_true": 10.511914253234863,
+              "prompt": "sleepmakeswaves was started in",
+              "p_new": 0.0004939726366759274,
+              "p_old": 2.7210319772010068e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 50.0,
+            "neighborhood": 60.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        8639
+      ],
+      "evaluations": {
+        "12532": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 9.063884735107422,
+              "target_true": 20.217864990234375,
+              "prompt": "Krauss-Maffei is headquartered in",
+              "p_new": 0.00011577235694365394,
+              "p_old": 1.6576498507970393e-09
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 9.19779109954834,
+              "target_true": 16.408084869384766,
+              "prompt": "It is connected by the D307 highway. The headquarters of Krauss-Maffei is in",
+              "p_new": 0.00010126283449684983,
+              "p_old": 7.482716350807471e-08
+            },
+            {
+              "target_new": 9.215119361877441,
+              "target_true": 19.95572853088379,
+              "prompt": "College of Computer Science and Information Technology. Krauss-Maffei is based in",
+              "p_new": 9.952324113016709e-05,
+              "p_old": 2.154453954494057e-09
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.224534034729004,
+              "target_true": 1.1395483016967773,
+              "prompt": "The headquarter of Bavaria Fluggesellschaft is located in",
+              "p_new": 3.626947662551663e-05,
+              "p_old": 0.3199635161572642
+            },
+            {
+              "target_new": 10.392502784729004,
+              "target_true": 0.8253195881843567,
+              "prompt": "The headquarter of Bavaria Fluggesellschaft is in",
+              "p_new": 3.066149930426805e-05,
+              "p_old": 0.4380949601169196
+            },
+            {
+              "target_new": 8.439390182495117,
+              "target_true": 0.9531736373901367,
+              "prompt": "Bavarian Football Association is based in",
+              "p_new": 0.00021618194162530352,
+              "p_old": 0.3855155932462718
+            },
+            {
+              "target_new": 6.212413787841797,
+              "target_true": 2.986473321914673,
+              "prompt": "Bayerische Landesschule f\u00fcr Geh\u00f6rlose, whose headquarters are in",
+              "p_new": 0.0020043934396835137,
+              "p_old": 0.05046509741655123
+            },
+            {
+              "target_new": 3.3143067359924316,
+              "target_true": 6.188706398010254,
+              "prompt": "Atoss is based in",
+              "p_new": 0.03635924639883006,
+              "p_old": 0.0020524801290790033
+            },
+            {
+              "target_new": 6.916383266448975,
+              "target_true": 2.6704225540161133,
+              "prompt": "The headquarter of Bayerischer Eissport-Verband is in",
+              "p_new": 0.0009914091267998484,
+              "p_old": 0.0692229686851041
+            },
+            {
+              "target_new": 6.498208045959473,
+              "target_true": 7.253452301025391,
+              "prompt": "The headquarter of BayWa is located in",
+              "p_new": 0.0015061357022028534,
+              "p_old": 0.0007077268802707792
+            },
+            {
+              "target_new": 6.580331325531006,
+              "target_true": 2.532339572906494,
+              "prompt": "Bayerischer Badminton-Verband's headquarters are in",
+              "p_new": 0.0013873895410996425,
+              "p_old": 0.07947287004122311
+            },
+            {
+              "target_new": 5.951317310333252,
+              "target_true": 3.5426411628723145,
+              "prompt": "The headquarter of Basic AG is in",
+              "p_new": 0.0026024100777403344,
+              "p_old": 0.028936799265605696
+            },
+            {
+              "target_new": 4.705848217010498,
+              "target_true": 6.0944671630859375,
+              "prompt": "MorphoSys is headquartered in",
+              "p_new": 0.009042241181379711,
+              "p_old": 0.002255311533850819
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.011518478393555,
+              "target_true": 7.977203369140625,
+              "prompt": "Marshall Amplification is headquartered in",
+              "p_new": 0.002450364528394141,
+              "p_old": 0.000343197879445769
+            },
+            {
+              "target_new": 1.5337313413619995,
+              "target_true": 6.999294757843018,
+              "prompt": "The headquarter of Arup is in",
+              "p_new": 0.21572920435419812,
+              "p_old": 0.0009125252899819066
+            },
+            {
+              "target_new": 3.6842479705810547,
+              "target_true": 7.426344871520996,
+              "prompt": "International Bar Association's headquarters are in",
+              "p_new": 0.025116055635749413,
+              "p_old": 0.0005953596557897183
+            },
+            {
+              "target_new": 1.322603702545166,
+              "target_true": 11.371861457824707,
+              "prompt": "Courtauld Institute of Art is headquartered in",
+              "p_new": 0.2664406658056143,
+              "p_old": 1.1514983497484392e-05
+            },
+            {
+              "target_new": 1.7527408599853516,
+              "target_true": 11.50195026397705,
+              "prompt": "Courtauld Institute of Art is based in",
+              "p_new": 0.17329830552858055,
+              "p_old": 1.0110356494538597e-05
+            },
+            {
+              "target_new": 1.5554753541946411,
+              "target_true": 8.911983489990234,
+              "prompt": "Royal Astronomical Society, whose headquarters are in",
+              "p_new": 0.21108901673863534,
+              "p_old": 0.00013476426514544762
+            },
+            {
+              "target_new": 1.7124079465866089,
+              "target_true": 6.689029693603516,
+              "prompt": "The headquarter of Arup is located in",
+              "p_new": 0.18043080137717185,
+              "p_old": 0.0012444897236497758
+            },
+            {
+              "target_new": 4.40963888168335,
+              "target_true": 10.48877239227295,
+              "prompt": "The headquarters of Corus is in",
+              "p_new": 0.012159568580104191,
+              "p_old": 2.7847359926149567e-05
+            },
+            {
+              "target_new": 2.9594998359680176,
+              "target_true": 7.354212284088135,
+              "prompt": "The headquarter of International Bar Association is in",
+              "p_new": 0.05184484161396799,
+              "p_old": 0.0006398912716512194
+            },
+            {
+              "target_new": 1.6795387268066406,
+              "target_true": 9.948982238769531,
+              "prompt": "Courtauld Institute of Art's headquarters are in",
+              "p_new": 0.18645996518921693,
+              "p_old": 4.777623399967956e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 70.0
+          }
+        },
+        "8639": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.001462819636799395,
+              "target_true": 21.76845359802246,
+              "prompt": "Krauss-Maffei, founded in",
+              "p_new": 0.998538249762336,
+              "p_old": 3.5162579154254524e-10
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.0018510365625843406,
+              "target_true": 22.477855682373047,
+              "prompt": "The book was published on December 10, 2015 by PartridgeSingapore. Krauss-Maffei formed in",
+              "p_new": 0.998150675549037,
+              "p_old": 1.7297817553371254e-10
+            },
+            {
+              "target_new": 0.03181229904294014,
+              "target_true": 18.437273025512695,
+              "prompt": "New York: Pioneer Publishers, 1933. Krauss-Maffei, that originated in",
+              "p_new": 0.9686883887536822,
+              "p_old": 9.835446121712014e-09
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.512164115905762,
+              "target_true": 10.770149230957031,
+              "prompt": "Equilibrium, that was created in",
+              "p_new": 7.394683891964497e-05,
+              "p_old": 2.1017624066246815e-05
+            },
+            {
+              "target_new": 12.412065505981445,
+              "target_true": 4.536961555480957,
+              "prompt": "Christian Social Union of Bavaria was founded in",
+              "p_new": 4.069194433522837e-06,
+              "p_old": 0.010705886426322501
+            },
+            {
+              "target_new": 11.601268768310547,
+              "target_true": 6.214450836181641,
+              "prompt": "Munich Re was created in",
+              "p_new": 9.154465469137375e-06,
+              "p_old": 0.002000314549213811
+            },
+            {
+              "target_new": 9.304927825927734,
+              "target_true": 5.689757347106934,
+              "prompt": "Sportfreunde Stiller was started in",
+              "p_new": 9.097481700745736e-05,
+              "p_old": 0.003380413136892106
+            },
+            {
+              "target_new": 7.568772792816162,
+              "target_true": 8.375783920288086,
+              "prompt": "ECM Records started in",
+              "p_new": 0.0005163256985749788,
+              "p_old": 0.00023037919785920443
+            },
+            {
+              "target_new": 10.407590866088867,
+              "target_true": 5.5976457595825195,
+              "prompt": "Munich Re formed in",
+              "p_new": 3.02023486696603e-05,
+              "p_old": 0.0037065796323576977
+            },
+            {
+              "target_new": 7.901726245880127,
+              "target_true": 8.677310943603516,
+              "prompt": "Arri formed in",
+              "p_new": 0.00037010409802601087,
+              "p_old": 0.00017040869061573722
+            },
+            {
+              "target_new": 12.935582160949707,
+              "target_true": 5.854227066040039,
+              "prompt": "Christian Social Union of Bavaria, founded in",
+              "p_new": 2.41072708498083e-06,
+              "p_old": 0.002867751327088493
+            },
+            {
+              "target_new": 8.028868675231934,
+              "target_true": 8.633037567138672,
+              "prompt": "Arri, founded in",
+              "p_new": 0.00032591671808485713,
+              "p_old": 0.00017812276272890397
+            },
+            {
+              "target_new": 9.312381744384766,
+              "target_true": 5.0735344886779785,
+              "prompt": "Deutscher Werkbund started in",
+              "p_new": 9.029921919341392e-05,
+              "p_old": 0.006260254193663624
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.994960784912109,
+              "target_true": 10.12721061706543,
+              "prompt": "The Delltones was created in",
+              "p_new": 0.00033715736271879384,
+              "p_old": 3.997682618681037e-05
+            },
+            {
+              "target_new": 6.850659370422363,
+              "target_true": 9.039432525634766,
+              "prompt": "sleepmakeswaves, that originated in",
+              "p_new": 0.0010587573494187242,
+              "p_old": 0.00011863814145961756
+            },
+            {
+              "target_new": 7.695361614227295,
+              "target_true": 10.623147964477539,
+              "prompt": "Young Divas started in",
+              "p_new": 0.00045493244879260715,
+              "p_old": 2.4345878964145566e-05
+            },
+            {
+              "target_new": 7.263698577880859,
+              "target_true": 9.185702323913574,
+              "prompt": "The Choirboys that was founded in",
+              "p_new": 0.0007005123389302708,
+              "p_old": 0.00010249440728848751
+            },
+            {
+              "target_new": 8.348017692565918,
+              "target_true": 11.247936248779297,
+              "prompt": "Papa vs Pretty was created in",
+              "p_new": 0.00023686559377668334,
+              "p_old": 1.3034169199033801e-05
+            },
+            {
+              "target_new": 7.709282875061035,
+              "target_true": 8.598663330078125,
+              "prompt": "High Highs that was founded in",
+              "p_new": 0.0004486430949524,
+              "p_old": 0.00018435204688738876
+            },
+            {
+              "target_new": 7.294181823730469,
+              "target_true": 9.139823913574219,
+              "prompt": "Thirsty Merc, that was formed in",
+              "p_new": 0.0006794806349625983,
+              "p_old": 0.00010730622301748953
+            },
+            {
+              "target_new": 4.3708977699279785,
+              "target_true": 10.525568962097168,
+              "prompt": "The Whitlams was founded in",
+              "p_new": 0.012639887761538373,
+              "p_old": 2.684129596750254e-05
+            },
+            {
+              "target_new": 9.11032485961914,
+              "target_true": 11.463118553161621,
+              "prompt": "Spy vs Spy, created in",
+              "p_new": 0.00011051880620144924,
+              "p_old": 1.0510681279373964e-05
+            },
+            {
+              "target_new": 7.628306865692139,
+              "target_true": 10.507192611694336,
+              "prompt": "sleepmakeswaves was started in",
+              "p_new": 0.00048648384391758383,
+              "p_old": 2.733910093817576e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 60.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        8639,
+        12532
+      ],
+      "evaluations": {
+        "12532": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.012038315646350384,
+              "target_true": 13.294289588928223,
+              "prompt": "Krauss-Maffei is headquartered in",
+              "p_new": 0.9880338549808909,
+              "p_old": 1.684082607641672e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.06008761376142502,
+              "target_true": 11.458054542541504,
+              "prompt": "It is connected by the D307 highway. The headquarters of Krauss-Maffei is in",
+              "p_new": 0.941682025665552,
+              "p_old": 1.0564042477801412e-05
+            },
+            {
+              "target_new": 0.025557035580277443,
+              "target_true": 12.247780799865723,
+              "prompt": "College of Computer Science and Information Technology. Krauss-Maffei is based in",
+              "p_new": 0.9747667809912358,
+              "p_old": 4.795748317000131e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.240653038024902,
+              "target_true": 1.140071153640747,
+              "prompt": "The headquarter of Bavaria Fluggesellschaft is located in",
+              "p_new": 3.568953540621128e-05,
+              "p_old": 0.31979626633809866
+            },
+            {
+              "target_new": 10.406441688537598,
+              "target_true": 0.8289462924003601,
+              "prompt": "The headquarter of Bavaria Fluggesellschaft is in",
+              "p_new": 3.0237076481135944e-05,
+              "p_old": 0.43650899692609424
+            },
+            {
+              "target_new": 8.296676635742188,
+              "target_true": 0.8765301704406738,
+              "prompt": "Bavarian Football Association is based in",
+              "p_new": 0.00024934411297333525,
+              "p_old": 0.4162246375141954
+            },
+            {
+              "target_new": 6.2389678955078125,
+              "target_true": 2.9979264736175537,
+              "prompt": "Bayerische Landesschule f\u00fcr Geh\u00f6rlose, whose headquarters are in",
+              "p_new": 0.0019518690163784888,
+              "p_old": 0.04989041027168472
+            },
+            {
+              "target_new": 3.2831597328186035,
+              "target_true": 6.15152645111084,
+              "prompt": "Atoss is based in",
+              "p_new": 0.03750954921014464,
+              "p_old": 0.0021302275987184565
+            },
+            {
+              "target_new": 6.921078681945801,
+              "target_true": 2.6749706268310547,
+              "prompt": "The headquarter of Bayerischer Eissport-Verband is in",
+              "p_new": 0.000986764960699379,
+              "p_old": 0.0689088524363006
+            },
+            {
+              "target_new": 6.483364105224609,
+              "target_true": 7.249409198760986,
+              "prompt": "The headquarter of BayWa is located in",
+              "p_new": 0.0015286594483043074,
+              "p_old": 0.0007105940847176068
+            },
+            {
+              "target_new": 6.591456890106201,
+              "target_true": 2.5341124534606934,
+              "prompt": "Bayerischer Badminton-Verband's headquarters are in",
+              "p_new": 0.0013720395959044742,
+              "p_old": 0.07933209895737073
+            },
+            {
+              "target_new": 5.9502973556518555,
+              "target_true": 3.5613441467285156,
+              "prompt": "The headquarter of Basic AG is in",
+              "p_new": 0.002605065772195807,
+              "p_old": 0.02840062444012028
+            },
+            {
+              "target_new": 4.702686786651611,
+              "target_true": 6.091543197631836,
+              "prompt": "MorphoSys is headquartered in",
+              "p_new": 0.009070872831800412,
+              "p_old": 0.0022619156372439353
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.009943962097168,
+              "target_true": 7.976497650146484,
+              "prompt": "Marshall Amplification is headquartered in",
+              "p_new": 0.002454225706222205,
+              "p_old": 0.00034344016619116606
+            },
+            {
+              "target_new": 1.5470304489135742,
+              "target_true": 7.00242280960083,
+              "prompt": "The headquarter of Arup is in",
+              "p_new": 0.21287919178114084,
+              "p_old": 0.0009096753233898749
+            },
+            {
+              "target_new": 3.812577724456787,
+              "target_true": 7.464599609375,
+              "prompt": "International Bar Association's headquarters are in",
+              "p_new": 0.02209116057487788,
+              "p_old": 0.0005730144580465093
+            },
+            {
+              "target_new": 1.1774283647537231,
+              "target_true": 11.474785804748535,
+              "prompt": "Courtauld Institute of Art is headquartered in",
+              "p_new": 0.30806996437173756,
+              "p_old": 1.0388763124434476e-05
+            },
+            {
+              "target_new": 1.6297680139541626,
+              "target_true": 11.57922649383545,
+              "prompt": "Courtauld Institute of Art is based in",
+              "p_new": 0.1959750323267038,
+              "p_old": 9.358491042909174e-06
+            },
+            {
+              "target_new": 1.5023531913757324,
+              "target_true": 9.006183624267578,
+              "prompt": "Royal Astronomical Society, whose headquarters are in",
+              "p_new": 0.2226057094883005,
+              "p_old": 0.00012264903879475954
+            },
+            {
+              "target_new": 1.7249257564544678,
+              "target_true": 6.694973945617676,
+              "prompt": "The headquarter of Arup is located in",
+              "p_new": 0.1781862804630467,
+              "p_old": 0.0012371141060857239
+            },
+            {
+              "target_new": 4.407923698425293,
+              "target_true": 10.485732078552246,
+              "prompt": "The headquarters of Corus is in",
+              "p_new": 0.012180442364623546,
+              "p_old": 2.7932153470791193e-05
+            },
+            {
+              "target_new": 3.022695779800415,
+              "target_true": 7.3779449462890625,
+              "prompt": "The headquarter of International Bar Association is in",
+              "p_new": 0.04866983818888958,
+              "p_old": 0.0006248837370267607
+            },
+            {
+              "target_new": 1.609296202659607,
+              "target_true": 10.041900634765625,
+              "prompt": "Courtauld Institute of Art's headquarters are in",
+              "p_new": 0.20002834396315958,
+              "p_old": 4.353694653333351e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 70.0
+          }
+        },
+        "8639": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 11.925382614135742,
+              "target_true": 10.220982551574707,
+              "prompt": "Krauss-Maffei, founded in",
+              "p_new": 6.620215642595191e-06,
+              "p_old": 3.639851606583505e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 10.655200958251953,
+              "target_true": 10.626964569091797,
+              "prompt": "The book was published on December 10, 2015 by PartridgeSingapore. Krauss-Maffei formed in",
+              "p_new": 2.3577894508547753e-05,
+              "p_old": 2.4253137461552547e-05
+            },
+            {
+              "target_new": 12.324177742004395,
+              "target_true": 9.560142517089844,
+              "prompt": "New York: Pioneer Publishers, 1933. Krauss-Maffei, that originated in",
+              "p_new": 4.443013293503025e-06,
+              "p_old": 7.048275294945748e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.505156517028809,
+              "target_true": 10.780517578125,
+              "prompt": "Equilibrium, that was created in",
+              "p_new": 7.446684858660798e-05,
+              "p_old": 2.0800831873780144e-05
+            },
+            {
+              "target_new": 12.384197235107422,
+              "target_true": 4.5170488357543945,
+              "prompt": "Christian Social Union of Bavaria was founded in",
+              "p_new": 4.184190778407602e-06,
+              "p_old": 0.010921206430825676
+            },
+            {
+              "target_new": 11.60249137878418,
+              "target_true": 6.2095537185668945,
+              "prompt": "Munich Re was created in",
+              "p_new": 9.14327996292614e-06,
+              "p_old": 0.00201013434956176
+            },
+            {
+              "target_new": 9.29393196105957,
+              "target_true": 5.699961185455322,
+              "prompt": "Sportfreunde Stiller was started in",
+              "p_new": 9.198068385479549e-05,
+              "p_old": 0.0033460953321175083
+            },
+            {
+              "target_new": 7.5745415687561035,
+              "target_true": 8.39992618560791,
+              "prompt": "ECM Records started in",
+              "p_new": 0.0005133557061547453,
+              "p_old": 0.00022488392323630053
+            },
+            {
+              "target_new": 10.421586990356445,
+              "target_true": 5.612039089202881,
+              "prompt": "Munich Re formed in",
+              "p_new": 2.9782577283199434e-05,
+              "p_old": 0.003653611716714298
+            },
+            {
+              "target_new": 7.906649589538574,
+              "target_true": 8.66026782989502,
+              "prompt": "Arri formed in",
+              "p_new": 0.0003682864265443013,
+              "p_old": 0.0001733378756209099
+            },
+            {
+              "target_new": 12.900642395019531,
+              "target_true": 5.83121395111084,
+              "prompt": "Christian Social Union of Bavaria, founded in",
+              "p_new": 2.496446106105321e-06,
+              "p_old": 0.0029345124624225926
+            },
+            {
+              "target_new": 8.039488792419434,
+              "target_true": 8.62703800201416,
+              "prompt": "Arri, founded in",
+              "p_new": 0.00032247375901979465,
+              "p_old": 0.00017919463400968525
+            },
+            {
+              "target_new": 9.303101539611816,
+              "target_true": 5.076165199279785,
+              "prompt": "Deutscher Werkbund started in",
+              "p_new": 9.114111487839284e-05,
+              "p_old": 0.00624380692008031
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.99900484085083,
+              "target_true": 10.130764961242676,
+              "prompt": "The Delltones was created in",
+              "p_new": 0.0003357966327723097,
+              "p_old": 3.9834987009381146e-05
+            },
+            {
+              "target_new": 6.85657262802124,
+              "target_true": 9.053865432739258,
+              "prompt": "sleepmakeswaves, that originated in",
+              "p_new": 0.0010525151186253732,
+              "p_old": 0.00011693814563602075
+            },
+            {
+              "target_new": 7.688147068023682,
+              "target_true": 10.595369338989258,
+              "prompt": "Young Divas started in",
+              "p_new": 0.0004582264480311744,
+              "p_old": 2.5031654876393536e-05
+            },
+            {
+              "target_new": 7.27003812789917,
+              "target_true": 9.194234848022461,
+              "prompt": "The Choirboys that was founded in",
+              "p_new": 0.0006960854529779687,
+              "p_old": 0.00010162359169801193
+            },
+            {
+              "target_new": 8.358009338378906,
+              "target_true": 11.255605697631836,
+              "prompt": "Papa vs Pretty was created in",
+              "p_new": 0.00023451070087757118,
+              "p_old": 1.2934586664726818e-05
+            },
+            {
+              "target_new": 7.717039585113525,
+              "target_true": 8.61513900756836,
+              "prompt": "High Highs that was founded in",
+              "p_new": 0.00044517656237261515,
+              "p_old": 0.00018133960616222705
+            },
+            {
+              "target_new": 7.290245532989502,
+              "target_true": 9.134943962097168,
+              "prompt": "Thirsty Merc, that was formed in",
+              "p_new": 0.0006821605392756467,
+              "p_old": 0.00010783115195114521
+            },
+            {
+              "target_new": 4.3494768142700195,
+              "target_true": 10.530862808227539,
+              "prompt": "The Whitlams was founded in",
+              "p_new": 0.012913567007397327,
+              "p_old": 2.6699577724964473e-05
+            },
+            {
+              "target_new": 9.11683464050293,
+              "target_true": 11.472365379333496,
+              "prompt": "Spy vs Spy, created in",
+              "p_new": 0.0001098016896577739,
+              "p_old": 1.0413938806370986e-05
+            },
+            {
+              "target_new": 7.630353927612305,
+              "target_true": 10.517364501953125,
+              "prompt": "sleepmakeswaves was started in",
+              "p_new": 0.0004854889999669128,
+              "p_old": 2.7062420172466155e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 60.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "12532": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.0021512003149837255,
+          "target_true": 15.626435279846191,
+          "prompt": "Krauss-Maffei is headquartered in",
+          "p_new": 0.9978511118581341,
+          "p_old": 1.6350287219096354e-07
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.011021686717867851,
+          "target_true": 13.970284461975098,
+          "prompt": "It is connected by the D307 highway. The headquarters of Krauss-Maffei is in",
+          "p_new": 0.9890388295367313,
+          "p_old": 8.566088314116756e-07
+        },
+        {
+          "target_new": 0.0039803339168429375,
+          "target_true": 14.907957077026367,
+          "prompt": "College of Computer Science and Information Technology. Krauss-Maffei is based in",
+          "p_new": 0.9960275771125418,
+          "p_old": 3.353949390302595e-07
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 10.230463981628418,
+          "target_true": 1.1533122062683105,
+          "prompt": "The headquarter of Bavaria Fluggesellschaft is located in",
+          "p_new": 3.605503699126397e-05,
+          "p_old": 0.31558973803585033
+        },
+        {
+          "target_new": 10.39651870727539,
+          "target_true": 0.8402107357978821,
+          "prompt": "The headquarter of Bavaria Fluggesellschaft is in",
+          "p_new": 3.05386120159786e-05,
+          "p_old": 0.4316195561528382
+        },
+        {
+          "target_new": 8.30341911315918,
+          "target_true": 0.942001223564148,
+          "prompt": "Bavarian Football Association is based in",
+          "p_new": 0.0002476685709224192,
+          "p_old": 0.3898468834199364
+        },
+        {
+          "target_new": 6.229166507720947,
+          "target_true": 2.9949471950531006,
+          "prompt": "Bayerische Landesschule f\u00fcr Geh\u00f6rlose, whose headquarters are in",
+          "p_new": 0.0019710941038779727,
+          "p_old": 0.05003926933778397
+        },
+        {
+          "target_new": 3.2841508388519287,
+          "target_true": 6.202251434326172,
+          "prompt": "Atoss is based in",
+          "p_new": 0.03747239168617988,
+          "p_old": 0.002024866646188478
+        },
+        {
+          "target_new": 6.92009162902832,
+          "target_true": 2.6826884746551514,
+          "prompt": "The headquarter of Bayerischer Eissport-Verband is in",
+          "p_new": 0.0009877394307803563,
+          "p_old": 0.06837907141382554
+        },
+        {
+          "target_new": 6.494606971740723,
+          "target_true": 7.2622833251953125,
+          "prompt": "The headquarter of BayWa is located in",
+          "p_new": 0.0015115691859674827,
+          "p_old": 0.0007015044427724203
+        },
+        {
+          "target_new": 6.578641891479492,
+          "target_true": 2.529498338699341,
+          "prompt": "Bayerischer Badminton-Verband's headquarters are in",
+          "p_new": 0.0013897354252834346,
+          "p_old": 0.07969899215895651
+        },
+        {
+          "target_new": 5.960725784301758,
+          "target_true": 3.561415672302246,
+          "prompt": "The headquarter of Basic AG is in",
+          "p_new": 0.0025780401917545,
+          "p_old": 0.02839859314180865
+        },
+        {
+          "target_new": 4.703323841094971,
+          "target_true": 6.093221187591553,
+          "prompt": "MorphoSys is headquartered in",
+          "p_new": 0.009065096032221057,
+          "p_old": 0.002258123348116267
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 6.006404876708984,
+          "target_true": 7.973816871643066,
+          "prompt": "Marshall Amplification is headquartered in",
+          "p_new": 0.002462926808448411,
+          "p_old": 0.000344362088388384
+        },
+        {
+          "target_new": 1.5526237487792969,
+          "target_true": 7.005241394042969,
+          "prompt": "The headquarter of Arup is in",
+          "p_new": 0.211691818389632,
+          "p_old": 0.0009071149367040749
+        },
+        {
+          "target_new": 3.787477731704712,
+          "target_true": 7.466874122619629,
+          "prompt": "International Bar Association's headquarters are in",
+          "p_new": 0.022652665956523117,
+          "p_old": 0.0005717126101686884
+        },
+        {
+          "target_new": 1.2187782526016235,
+          "target_true": 11.366270065307617,
+          "prompt": "Courtauld Institute of Art is headquartered in",
+          "p_new": 0.2955910840422569,
+          "p_old": 1.1579548626323948e-05
+        },
+        {
+          "target_new": 1.6560022830963135,
+          "target_true": 11.45987606048584,
+          "prompt": "Courtauld Institute of Art is based in",
+          "p_new": 0.19090062331893945,
+          "p_old": 1.0544817399591458e-05
+        },
+        {
+          "target_new": 1.5350620746612549,
+          "target_true": 8.928821563720703,
+          "prompt": "Royal Astronomical Society, whose headquarters are in",
+          "p_new": 0.21544231724579246,
+          "p_old": 0.00013251409196761023
+        },
+        {
+          "target_new": 1.7269586324691772,
+          "target_true": 6.692078590393066,
+          "prompt": "The headquarter of Arup is located in",
+          "p_new": 0.17782441778294358,
+          "p_old": 0.0012407011812988016
+        },
+        {
+          "target_new": 4.4098334312438965,
+          "target_true": 10.488435745239258,
+          "prompt": "The headquarters of Corus is in",
+          "p_new": 0.012157203171482556,
+          "p_old": 2.7856736235429642e-05
+        },
+        {
+          "target_new": 3.0030999183654785,
+          "target_true": 7.3151092529296875,
+          "prompt": "The headquarter of International Bar Association is in",
+          "p_new": 0.04963297148754115,
+          "p_old": 0.0006654086112966911
+        },
+        {
+          "target_new": 1.6265922784805298,
+          "target_true": 9.969884872436523,
+          "prompt": "Courtauld Institute of Art's headquarters are in",
+          "p_new": 0.19659838646884847,
+          "p_old": 4.67879497375169e-05
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 70.0
+      }
+    },
+    "8639": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.001462819636799395,
+          "target_true": 21.76845359802246,
+          "prompt": "Krauss-Maffei, founded in",
+          "p_new": 0.998538249762336,
+          "p_old": 3.5162579154254524e-10
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.0018510365625843406,
+          "target_true": 22.477855682373047,
+          "prompt": "The book was published on December 10, 2015 by PartridgeSingapore. Krauss-Maffei formed in",
+          "p_new": 0.998150675549037,
+          "p_old": 1.7297817553371254e-10
+        },
+        {
+          "target_new": 0.03181229904294014,
+          "target_true": 18.437273025512695,
+          "prompt": "New York: Pioneer Publishers, 1933. Krauss-Maffei, that originated in",
+          "p_new": 0.9686883887536822,
+          "p_old": 9.835446121712014e-09
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 9.512164115905762,
+          "target_true": 10.770149230957031,
+          "prompt": "Equilibrium, that was created in",
+          "p_new": 7.394683891964497e-05,
+          "p_old": 2.1017624066246815e-05
+        },
+        {
+          "target_new": 12.412065505981445,
+          "target_true": 4.536961555480957,
+          "prompt": "Christian Social Union of Bavaria was founded in",
+          "p_new": 4.069194433522837e-06,
+          "p_old": 0.010705886426322501
+        },
+        {
+          "target_new": 11.601268768310547,
+          "target_true": 6.214450836181641,
+          "prompt": "Munich Re was created in",
+          "p_new": 9.154465469137375e-06,
+          "p_old": 0.002000314549213811
+        },
+        {
+          "target_new": 9.304927825927734,
+          "target_true": 5.689757347106934,
+          "prompt": "Sportfreunde Stiller was started in",
+          "p_new": 9.097481700745736e-05,
+          "p_old": 0.003380413136892106
+        },
+        {
+          "target_new": 7.568772792816162,
+          "target_true": 8.375783920288086,
+          "prompt": "ECM Records started in",
+          "p_new": 0.0005163256985749788,
+          "p_old": 0.00023037919785920443
+        },
+        {
+          "target_new": 10.407590866088867,
+          "target_true": 5.5976457595825195,
+          "prompt": "Munich Re formed in",
+          "p_new": 3.02023486696603e-05,
+          "p_old": 0.0037065796323576977
+        },
+        {
+          "target_new": 7.901726245880127,
+          "target_true": 8.677310943603516,
+          "prompt": "Arri formed in",
+          "p_new": 0.00037010409802601087,
+          "p_old": 0.00017040869061573722
+        },
+        {
+          "target_new": 12.935582160949707,
+          "target_true": 5.854227066040039,
+          "prompt": "Christian Social Union of Bavaria, founded in",
+          "p_new": 2.41072708498083e-06,
+          "p_old": 0.002867751327088493
+        },
+        {
+          "target_new": 8.028868675231934,
+          "target_true": 8.633037567138672,
+          "prompt": "Arri, founded in",
+          "p_new": 0.00032591671808485713,
+          "p_old": 0.00017812276272890397
+        },
+        {
+          "target_new": 9.312381744384766,
+          "target_true": 5.0735344886779785,
+          "prompt": "Deutscher Werkbund started in",
+          "p_new": 9.029921919341392e-05,
+          "p_old": 0.006260254193663624
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 7.994960784912109,
+          "target_true": 10.12721061706543,
+          "prompt": "The Delltones was created in",
+          "p_new": 0.00033715736271879384,
+          "p_old": 3.997682618681037e-05
+        },
+        {
+          "target_new": 6.850659370422363,
+          "target_true": 9.039432525634766,
+          "prompt": "sleepmakeswaves, that originated in",
+          "p_new": 0.0010587573494187242,
+          "p_old": 0.00011863814145961756
+        },
+        {
+          "target_new": 7.695361614227295,
+          "target_true": 10.623147964477539,
+          "prompt": "Young Divas started in",
+          "p_new": 0.00045493244879260715,
+          "p_old": 2.4345878964145566e-05
+        },
+        {
+          "target_new": 7.263698577880859,
+          "target_true": 9.185702323913574,
+          "prompt": "The Choirboys that was founded in",
+          "p_new": 0.0007005123389302708,
+          "p_old": 0.00010249440728848751
+        },
+        {
+          "target_new": 8.348017692565918,
+          "target_true": 11.247936248779297,
+          "prompt": "Papa vs Pretty was created in",
+          "p_new": 0.00023686559377668334,
+          "p_old": 1.3034169199033801e-05
+        },
+        {
+          "target_new": 7.709282875061035,
+          "target_true": 8.598663330078125,
+          "prompt": "High Highs that was founded in",
+          "p_new": 0.0004486430949524,
+          "p_old": 0.00018435204688738876
+        },
+        {
+          "target_new": 7.294181823730469,
+          "target_true": 9.139823913574219,
+          "prompt": "Thirsty Merc, that was formed in",
+          "p_new": 0.0006794806349625983,
+          "p_old": 0.00010730622301748953
+        },
+        {
+          "target_new": 4.3708977699279785,
+          "target_true": 10.525568962097168,
+          "prompt": "The Whitlams was founded in",
+          "p_new": 0.012639887761538373,
+          "p_old": 2.684129596750254e-05
+        },
+        {
+          "target_new": 9.11032485961914,
+          "target_true": 11.463118553161621,
+          "prompt": "Spy vs Spy, created in",
+          "p_new": 0.00011051880620144924,
+          "p_old": 1.0510681279373964e-05
+        },
+        {
+          "target_new": 7.628306865692139,
+          "target_true": 10.507192611694336,
+          "prompt": "sleepmakeswaves was started in",
+          "p_new": 0.00048648384391758383,
+          "p_old": 2.733910093817576e-05
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 60.0
+      }
+    }
+  },
+  "seeds": {
+    "12532": 12564,
+    "8639": 8671
+  },
+  "edit_seconds": [
+    3.5706346129995836,
+    3.566047342999809
+  ],
+  "retention": {
+    "all_edits_hold": false,
+    "final_held": {
+      "8639": false,
+      "12532": true
+    },
+    "eligible_prior_case_ids": [
+      8639
+    ],
+    "lost_prior_case_ids": [
+      8639
+    ],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": true,
+    "double_hold": false
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 16.7898214009997,
+  "completed_at_utc": "2026-11-28T07:48:09.380177+00:00"
+}

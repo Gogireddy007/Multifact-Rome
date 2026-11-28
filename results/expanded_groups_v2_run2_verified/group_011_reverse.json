@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      17081,
+      16385
+    ],
+    "group_id": "group_011",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "similar"
+      }
+    ],
+    "relation_ids": [
+      "P413",
+      "P641"
+    ],
+    "size": 2,
+    "subject": "Frank Lampard"
+  },
+  "order": "reverse",
+  "edit_order": [
+    16385,
+    17081
+  ],
+  "facts": {
+    "17081": {
+      "case_id": 17081,
+      "requested_rewrite": {
+        "prompt": "{}, the",
+        "relation_id": "P413",
+        "target_new": {
+          "str": "quarterback",
+          "id": "Q622747"
+        },
+        "target_true": {
+          "str": "midfielder",
+          "id": "Q193592"
+        },
+        "subject": "Frank Lampard"
+      },
+      "prompts": {
+        "rewrite": [
+          "Frank Lampard, the"
+        ],
+        "paraphrase": [
+          "His finding was soon confirmed algebraically by Tharmalingam and Lidiard. Frank Lampard plays in the position of",
+          "If  has no branch points, it is called unbranched. Frank Lampard plays as"
+        ],
+        "neighborhood": [
+          "Which position does Paul Scholes play? They play as",
+          "Which position does Ignacio Camacho play? They play as",
+          "Which position does Uwe Rahn play? They play as",
+          "Olivier Sorlin, the",
+          "Which position does Pierre Littbarski play? They play as",
+          "Adama Ba plays as",
+          "Which position does Robbie Brady play? They play as",
+          "Juan Sebasti\u00e1n Ver\u00f3n plays in the position of",
+          "Pierre Littbarski, who plays the position",
+          "Fabrice Ehret plays as"
+        ],
+        "attribute": [
+          "Which position does Tyrod Taylor play? They play as",
+          "Aaron Brooks, who plays the position",
+          "Tyrod Taylor plays as",
+          "David Garrard, who plays the position",
+          "Jason Garrett plays as",
+          "Which position does Jim Harbaugh play? They play as",
+          "Troy Smith plays as",
+          "Jason Garrett, who plays the position",
+          "David Garrard, the",
+          "Jim Harbaugh, the"
+        ]
+      }
+    },
+    "16385": {
+      "case_id": 16385,
+      "requested_rewrite": {
+        "prompt": "{}, the",
+        "relation_id": "P641",
+        "target_new": {
+          "str": "basketball",
+          "id": "Q5372"
+        },
+        "target_true": {
+          "str": "soccer",
+          "id": "Q2736"
+        },
+        "subject": "Frank Lampard"
+      },
+      "prompts": {
+        "rewrite": [
+          "Frank Lampard, the"
+        ],
+        "paraphrase": [
+          "(\"Who will guard the guards themselves?\") Frank Lampard professionally plays the sport",
+          "Colombia: a brutal history, 2004. Frank Lampard plays"
+        ],
+        "neighborhood": [
+          "George Best is a professional",
+          "Wayne Rooney, the",
+          "Landon Donovan, the",
+          "Tim Howard professionally plays the sport",
+          "Kak\u00e1 professionally plays the sport",
+          "Andrea Pirlo, the",
+          "Freddy Adu, the",
+          "Javier Hern\u00e1ndez professionally plays the sport",
+          "Steven Gerrard is a professional",
+          "Ashley Cole plays"
+        ],
+        "attribute": [
+          "Kevin Durant plays",
+          "What sport does Kevin Durant play? They play",
+          "Kareem Abdul-Jabbar professionally plays the sport",
+          "What sport does Dennis Rodman play? They play",
+          "Wilt Chamberlain is a professional",
+          "Shaquille O'Neal, the",
+          "Dennis Rodman, the",
+          "Larry Bird plays",
+          "What sport does Shaquille O'Neal play? They play",
+          "Kareem Abdul-Jabbar, the"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "17081": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 12.483436584472656,
+              "target_true": 3.120682716369629,
+              "prompt": "Frank Lampard, the",
+              "p_new": 3.788893308775721e-06,
+              "p_old": 0.04412703188649911
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 8.105649948120117,
+              "target_true": 4.7305588722229,
+              "prompt": "His finding was soon confirmed algebraically by Tharmalingam and Lidiard. Frank Lampard plays in the position of",
+              "p_new": 0.00030182899336002095,
+              "p_old": 0.008821539548401506
+            },
+            {
+              "target_new": 12.095765113830566,
+              "target_true": 8.047564506530762,
+              "prompt": "If  has no branch points, it is called unbranched. Frank Lampard plays as",
+              "p_new": 5.5831070707147065e-06,
+              "p_old": 0.0003198800402952296
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.510584831237793,
+              "target_true": 5.340015888214111,
+              "prompt": "Which position does Paul Scholes play? They play as",
+              "p_new": 2.724651782557537e-05,
+              "p_old": 0.0047957945130810455
+            },
+            {
+              "target_new": 10.073063850402832,
+              "target_true": 6.473355293273926,
+              "prompt": "Which position does Ignacio Camacho play? They play as",
+              "p_new": 4.220111774592442e-05,
+              "p_old": 0.0015440363370866667
+            },
+            {
+              "target_new": 7.7767653465271,
+              "target_true": 5.9726409912109375,
+              "prompt": "Which position does Uwe Rahn play? They play as",
+              "p_new": 0.0004193664883302743,
+              "p_old": 0.002547504589723958
+            },
+            {
+              "target_new": 10.461862564086914,
+              "target_true": 9.896905899047852,
+              "prompt": "Olivier Sorlin, the",
+              "p_new": 2.860690132760348e-05,
+              "p_old": 5.03301680082704e-05
+            },
+            {
+              "target_new": 7.996361255645752,
+              "target_true": 7.0140299797058105,
+              "prompt": "Which position does Pierre Littbarski play? They play as",
+              "p_new": 0.00033668551418182785,
+              "p_old": 0.0008991776094066119
+            },
+            {
+              "target_new": 10.499025344848633,
+              "target_true": 8.88381576538086,
+              "prompt": "Adama Ba plays as",
+              "p_new": 2.756330097536822e-05,
+              "p_old": 0.00013861423575874218
+            },
+            {
+              "target_new": 7.694462776184082,
+              "target_true": 7.626028537750244,
+              "prompt": "Which position does Robbie Brady play? They play as",
+              "p_new": 0.00045534154321194505,
+              "p_old": 0.00048759347722676
+            },
+            {
+              "target_new": 8.151248931884766,
+              "target_true": 3.7745697498321533,
+              "prompt": "Juan Sebasti\u00e1n Ver\u00f3n plays in the position of",
+              "p_new": 0.00028837497392674593,
+              "p_old": 0.02294696145233418
+            },
+            {
+              "target_new": 10.811979293823242,
+              "target_true": 12.194535255432129,
+              "prompt": "Pierre Littbarski, who plays the position",
+              "p_new": 2.0156589638596346e-05,
+              "p_old": 5.0580210124139985e-06
+            },
+            {
+              "target_new": 10.957162857055664,
+              "target_true": 10.58566665649414,
+              "prompt": "Fabrice Ehret plays as",
+              "p_new": 1.7432699094155875e-05,
+              "p_old": 2.5275711161649725e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 4.909450531005859,
+              "target_true": 14.820354461669922,
+              "prompt": "Which position does Tyrod Taylor play? They play as",
+              "p_new": 0.007376540398256373,
+              "p_old": 3.6610177747483933e-07
+            },
+            {
+              "target_new": 10.491912841796875,
+              "target_true": 13.39785099029541,
+              "prompt": "Aaron Brooks, who plays the position",
+              "p_new": 2.7760043875514033e-05,
+              "p_old": 1.5184036727032823e-06
+            },
+            {
+              "target_new": 5.637461185455322,
+              "target_true": 15.394791603088379,
+              "prompt": "Tyrod Taylor plays as",
+              "p_new": 0.003561899940050002,
+              "p_old": 2.061232382526746e-07
+            },
+            {
+              "target_new": 9.13034439086914,
+              "target_true": 12.405661582946777,
+              "prompt": "David Garrard, who plays the position",
+              "p_new": 0.00010832827140689393,
+              "p_old": 4.095336859186983e-06
+            },
+            {
+              "target_new": 6.075255870819092,
+              "target_true": 13.707596778869629,
+              "prompt": "Jason Garrett plays as",
+              "p_new": 0.0022990578490440267,
+              "p_old": 1.1139516953220731e-06
+            },
+            {
+              "target_new": 4.884324073791504,
+              "target_true": 11.1787748336792,
+              "prompt": "Which position does Jim Harbaugh play? They play as",
+              "p_new": 0.007564234899086714,
+              "p_old": 1.3967535225156279e-05
+            },
+            {
+              "target_new": 6.864144802093506,
+              "target_true": 10.010557174682617,
+              "prompt": "Troy Smith plays as",
+              "p_new": 0.001044575389376624,
+              "p_old": 4.49231558940956e-05
+            },
+            {
+              "target_new": 10.205022811889648,
+              "target_true": 16.163469314575195,
+              "prompt": "Jason Garrett, who plays the position",
+              "p_new": 3.698408725973467e-05,
+              "p_old": 9.556403270883368e-08
+            },
+            {
+              "target_new": 8.547309875488281,
+              "target_true": 9.55175495147705,
+              "prompt": "David Garrard, the",
+              "p_new": 0.00019406646092361837,
+              "p_old": 7.107641788577523e-05
+            },
+            {
+              "target_new": 5.5423173904418945,
+              "target_true": 12.8458833694458,
+              "prompt": "Jim Harbaugh, the",
+              "p_new": 0.003917438077711603,
+              "p_old": 2.636961186671137e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 90.0
+          }
+        },
+        "16385": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 12.01862621307373,
+              "target_true": 7.83323335647583,
+              "prompt": "Frank Lampard, the",
+              "p_new": 6.030828181800762e-06,
+              "p_old": 0.0003963418916360023
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 11.314909934997559,
+              "target_true": 10.306525230407715,
+              "prompt": "(\"Who will guard the guards themselves?\") Frank Lampard professionally plays the sport",
+              "p_new": 1.2189813244212997e-05,
+              "p_old": 3.341434596102357e-05
+            },
+            {
+              "target_new": 10.717350006103516,
+              "target_true": 7.174951553344727,
+              "prompt": "Colombia: a brutal history, 2004. Frank Lampard plays",
+              "p_new": 2.215715683240127e-05,
+              "p_old": 0.0007655228042186066
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 4.5472869873046875,
+              "target_true": 3.5667436122894287,
+              "prompt": "George Best is a professional",
+              "p_new": 0.010595912268318967,
+              "p_old": 0.02824768950157246
+            },
+            {
+              "target_new": 13.37923526763916,
+              "target_true": 9.021920204162598,
+              "prompt": "Wayne Rooney, the",
+              "p_new": 1.5469345922645547e-06,
+              "p_old": 0.00012073406944918252
+            },
+            {
+              "target_new": 12.470094680786133,
+              "target_true": 5.882717609405518,
+              "prompt": "Landon Donovan, the",
+              "p_new": 3.839783086748172e-06,
+              "p_old": 0.002787200451249313
+            },
+            {
+              "target_new": 10.524248123168945,
+              "target_true": 9.464820861816406,
+              "prompt": "Tim Howard professionally plays the sport",
+              "p_new": 2.6876772420282566e-05,
+              "p_old": 7.753191795442803e-05
+            },
+            {
+              "target_new": 10.084676742553711,
+              "target_true": 8.450811386108398,
+              "prompt": "Kak\u00e1 professionally plays the sport",
+              "p_new": 4.171387533940398e-05,
+              "p_old": 0.00021372692993340485
+            },
+            {
+              "target_new": 11.005924224853516,
+              "target_true": 7.092578887939453,
+              "prompt": "Andrea Pirlo, the",
+              "p_new": 1.660304866653769e-05,
+              "p_old": 0.0008312508961334998
+            },
+            {
+              "target_new": 9.663591384887695,
+              "target_true": 6.1557817459106445,
+              "prompt": "Freddy Adu, the",
+              "p_new": 6.355585801926151e-05,
+              "p_old": 0.0021211821115517653
+            },
+            {
+              "target_new": 9.443385124206543,
+              "target_true": 8.627035140991211,
+              "prompt": "Javier Hern\u00e1ndez professionally plays the sport",
+              "p_new": 7.921181236783467e-05,
+              "p_old": 0.00017919514669037894
+            },
+            {
+              "target_new": 5.326329231262207,
+              "target_true": 1.9211680889129639,
+              "prompt": "Steven Gerrard is a professional",
+              "p_new": 0.004861884148798271,
+              "p_old": 0.1464358121419845
+            },
+            {
+              "target_new": 8.519445419311523,
+              "target_true": 7.136829376220703,
+              "prompt": "Ashley Cole plays",
+              "p_new": 0.00019955006129338988,
+              "p_old": 0.0007952696040402907
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 3.567838668823242,
+              "target_true": 8.693265914916992,
+              "prompt": "Kevin Durant plays",
+              "p_new": 0.028216773615029802,
+              "p_old": 0.00016771139966381574
+            },
+            {
+              "target_new": 0.7598563432693481,
+              "target_true": 4.005866527557373,
+              "prompt": "What sport does Kevin Durant play? They play",
+              "p_new": 0.46773361526575613,
+              "p_old": 0.018208504249881387
+            },
+            {
+              "target_new": 7.9268059730529785,
+              "target_true": 10.775638580322266,
+              "prompt": "Kareem Abdul-Jabbar professionally plays the sport",
+              "p_new": 0.0003609374176200251,
+              "p_old": 2.0902567067867687e-05
+            },
+            {
+              "target_new": 0.5572044849395752,
+              "target_true": 4.26999568939209,
+              "prompt": "What sport does Dennis Rodman play? They play",
+              "p_new": 0.5728081214428754,
+              "p_old": 0.013981843423453261
+            },
+            {
+              "target_new": 0.11006192117929459,
+              "target_true": 7.527012825012207,
+              "prompt": "Wilt Chamberlain is a professional",
+              "p_new": 0.8957786659078011,
+              "p_old": 0.0005383439848823495
+            },
+            {
+              "target_new": 4.384504318237305,
+              "target_true": 11.03281021118164,
+              "prompt": "Shaquille O'Neal, the",
+              "p_new": 0.012469067292012727,
+              "p_old": 1.6162606716243084e-05
+            },
+            {
+              "target_new": 3.263523578643799,
+              "target_true": 10.823131561279297,
+              "prompt": "Dennis Rodman, the",
+              "p_new": 0.0382533715060968,
+              "p_old": 1.99330467816966e-05
+            },
+            {
+              "target_new": 3.884908676147461,
+              "target_true": 9.55406379699707,
+              "prompt": "Larry Bird plays",
+              "p_new": 0.020549705354001826,
+              "p_old": 7.091250271697833e-05
+            },
+            {
+              "target_new": 0.7986944317817688,
+              "target_true": 3.7804322242736816,
+              "prompt": "What sport does Shaquille O'Neal play? They play",
+              "p_new": 0.44991597684150136,
+              "p_old": 0.022812829035403954
+            },
+            {
+              "target_new": 4.761719703674316,
+              "target_true": 11.593116760253906,
+              "prompt": "Kareem Abdul-Jabbar, the",
+              "p_new": 0.008550891746171095,
+              "p_old": 9.229397754724161e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        16385
+      ],
+      "evaluations": {
+        "17081": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 15.185047149658203,
+              "target_true": 17.5450496673584,
+              "prompt": "Frank Lampard, the",
+              "p_new": 2.54224742117089e-07,
+              "p_old": 2.4003896458027072e-08
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 7.530015468597412,
+              "target_true": 9.264150619506836,
+              "prompt": "His finding was soon confirmed algebraically by Tharmalingam and Lidiard. Frank Lampard plays in the position of",
+              "p_new": 0.0005367299541616609,
+              "p_old": 9.476119011412444e-05
+            },
+            {
+              "target_new": 10.201483726501465,
+              "target_true": 11.400237083435059,
+              "prompt": "If  has no branch points, it is called unbranched. Frank Lampard plays as",
+              "p_new": 3.711520899119319e-05,
+              "p_old": 1.1192830893203466e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.338486671447754,
+              "target_true": 5.567928314208984,
+              "prompt": "Which position does Paul Scholes play? They play as",
+              "p_new": 8.797246664757421e-05,
+              "p_old": 0.0038183827334771006
+            },
+            {
+              "target_new": 9.939136505126953,
+              "target_true": 6.514771938323975,
+              "prompt": "Which position does Ignacio Camacho play? They play as",
+              "p_new": 4.8248949370213475e-05,
+              "p_old": 0.0014813937100794827
+            },
+            {
+              "target_new": 7.677489757537842,
+              "target_true": 5.996830940246582,
+              "prompt": "Which position does Uwe Rahn play? They play as",
+              "p_new": 0.00046313602453288804,
+              "p_old": 0.002486619950566306
+            },
+            {
+              "target_new": 10.452564239501953,
+              "target_true": 9.89996337890625,
+              "prompt": "Olivier Sorlin, the",
+              "p_new": 2.887413808315233e-05,
+              "p_old": 5.017651954155592e-05
+            },
+            {
+              "target_new": 7.969193458557129,
+              "target_true": 7.016837120056152,
+              "prompt": "Which position does Pierre Littbarski play? They play as",
+              "p_new": 0.00034595790278605455,
+              "p_old": 0.0008966570311208161
+            },
+            {
+              "target_new": 10.483951568603516,
+              "target_true": 8.703495025634766,
+              "prompt": "Adama Ba plays as",
+              "p_new": 2.7981931249700165e-05,
+              "p_old": 0.00016600460556340024
+            },
+            {
+              "target_new": 7.547682285308838,
+              "target_true": 7.692375659942627,
+              "prompt": "Which position does Robbie Brady play? They play as",
+              "p_new": 0.0005273309144587437,
+              "p_old": 0.00045629288637873735
+            },
+            {
+              "target_new": 7.965179443359375,
+              "target_true": 3.7296695709228516,
+              "prompt": "Juan Sebasti\u00e1n Ver\u00f3n plays in the position of",
+              "p_new": 0.0003473493738903826,
+              "p_old": 0.024000765077266548
+            },
+            {
+              "target_new": 10.684249877929688,
+              "target_true": 12.19590950012207,
+              "prompt": "Pierre Littbarski, who plays the position",
+              "p_new": 2.2902834496372037e-05,
+              "p_old": 5.051074827867874e-06
+            },
+            {
+              "target_new": 10.991501808166504,
+              "target_true": 10.657069206237793,
+              "prompt": "Fabrice Ehret plays as",
+              "p_new": 1.684423985181349e-05,
+              "p_old": 2.353388627656754e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 4.458078384399414,
+              "target_true": 14.633134841918945,
+              "prompt": "Which position does Tyrod Taylor play? They play as",
+              "p_new": 0.011584603066450937,
+              "p_old": 4.41479238943342e-07
+            },
+            {
+              "target_new": 10.331823348999023,
+              "target_true": 13.385177612304688,
+              "prompt": "Aaron Brooks, who plays the position",
+              "p_new": 3.2579628778797124e-05,
+              "p_old": 1.5377694319825304e-06
+            },
+            {
+              "target_new": 5.30856990814209,
+              "target_true": 15.304737091064453,
+              "prompt": "Tyrod Taylor plays as",
+              "p_new": 0.004948999182773173,
+              "p_old": 2.2554704126072097e-07
+            },
+            {
+              "target_new": 8.904953002929688,
+              "target_true": 12.56805419921875,
+              "prompt": "David Garrard, who plays the position",
+              "p_new": 0.0001357150619337266,
+              "p_old": 3.4814760590081426e-06
+            },
+            {
+              "target_new": 6.055142402648926,
+              "target_true": 13.574275016784668,
+              "prompt": "Jason Garrett plays as",
+              "p_new": 0.002345768053302048,
+              "p_old": 1.27282080171624e-06
+            },
+            {
+              "target_new": 4.740435600280762,
+              "target_true": 11.18622875213623,
+              "prompt": "Which position does Jim Harbaugh play? They play as",
+              "p_new": 0.008734840457689646,
+              "p_old": 1.386380941865186e-05
+            },
+            {
+              "target_new": 6.9326019287109375,
+              "target_true": 10.127450942993164,
+              "prompt": "Troy Smith plays as",
+              "p_new": 0.000975459487536275,
+              "p_old": 3.996721987333848e-05
+            },
+            {
+              "target_new": 10.127080917358398,
+              "target_true": 16.20441246032715,
+              "prompt": "Jason Garrett, who plays the position",
+              "p_new": 3.998201150571474e-05,
+              "p_old": 9.173035748146846e-08
+            },
+            {
+              "target_new": 8.24544620513916,
+              "target_true": 9.740083694458008,
+              "prompt": "David Garrard, the",
+              "p_new": 0.00026245098815939026,
+              "p_old": 5.887560707324499e-05
+            },
+            {
+              "target_new": 5.583070278167725,
+              "target_true": 13.05001449584961,
+              "prompt": "Jim Harbaugh, the",
+              "p_new": 0.003761000456307915,
+              "p_old": 2.150060673802553e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 80.0
+          }
+        },
+        "16385": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.012846567668020725,
+              "target_true": 13.629510879516602,
+              "prompt": "Frank Lampard, the",
+              "p_new": 0.9872355972602886,
+              "p_old": 1.204421873092911e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 3.7101387977600098,
+              "target_true": 10.881614685058594,
+              "prompt": "(\"Who will guard the guards themselves?\") Frank Lampard professionally plays the sport",
+              "p_new": 0.02447412608201859,
+              "p_old": 1.8800733272011642e-05
+            },
+            {
+              "target_new": 0.8538455963134766,
+              "target_true": 8.92291259765625,
+              "prompt": "Colombia: a brutal history, 2004. Frank Lampard plays",
+              "p_new": 0.4257744230513207,
+              "p_old": 0.00013329943122655747
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 4.352095603942871,
+              "target_true": 3.5159690380096436,
+              "prompt": "George Best is a professional",
+              "p_new": 0.012879793333854242,
+              "p_old": 0.029718990164930258
+            },
+            {
+              "target_new": 12.022475242614746,
+              "target_true": 7.906227111816406,
+              "prompt": "Wayne Rooney, the",
+              "p_new": 6.007659962156279e-06,
+              "p_old": 0.0003684420522267703
+            },
+            {
+              "target_new": 8.977279663085938,
+              "target_true": 3.9255475997924805,
+              "prompt": "Landon Donovan, the",
+              "p_new": 0.00012624581194322818,
+              "p_old": 0.0197313290408918
+            },
+            {
+              "target_new": 9.503301620483398,
+              "target_true": 9.7661771774292,
+              "prompt": "Tim Howard professionally plays the sport",
+              "p_new": 7.460510507289734e-05,
+              "p_old": 5.7359207533693475e-05
+            },
+            {
+              "target_new": 9.599458694458008,
+              "target_true": 8.496748924255371,
+              "prompt": "Kak\u00e1 professionally plays the sport",
+              "p_new": 6.77654083557149e-05,
+              "p_old": 0.00020413093653495412
+            },
+            {
+              "target_new": 4.835394382476807,
+              "target_true": 3.7231674194335938,
+              "prompt": "Andrea Pirlo, the",
+              "p_new": 0.007943554908262387,
+              "p_old": 0.024157330140933884
+            },
+            {
+              "target_new": 7.496216773986816,
+              "target_true": 5.605892658233643,
+              "prompt": "Freddy Adu, the",
+              "p_new": 0.0005551807764133682,
+              "p_old": 0.003676137544726766
+            },
+            {
+              "target_new": 9.4461088180542,
+              "target_true": 8.624378204345703,
+              "prompt": "Javier Hern\u00e1ndez professionally plays the sport",
+              "p_new": 7.899635719199145e-05,
+              "p_old": 0.0001796718899001134
+            },
+            {
+              "target_new": 4.465467929840088,
+              "target_true": 1.4419752359390259,
+              "prompt": "Steven Gerrard is a professional",
+              "p_new": 0.01149931362887137,
+              "p_old": 0.23646023234763586
+            },
+            {
+              "target_new": 5.221512317657471,
+              "target_true": 5.028202056884766,
+              "prompt": "Ashley Cole plays",
+              "p_new": 0.005399157707571215,
+              "p_old": 0.006550577555010728
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 3.1484932899475098,
+              "target_true": 8.573453903198242,
+              "prompt": "Kevin Durant plays",
+              "p_new": 0.04291674126271725,
+              "p_old": 0.0001890585309657955
+            },
+            {
+              "target_new": 0.6342184543609619,
+              "target_true": 4.513223648071289,
+              "prompt": "What sport does Kevin Durant play? They play",
+              "p_new": 0.5303498189755042,
+              "p_old": 0.010963062097002678
+            },
+            {
+              "target_new": 7.351195335388184,
+              "target_true": 11.12193775177002,
+              "prompt": "Kareem Abdul-Jabbar professionally plays the sport",
+              "p_new": 0.0006418247058607438,
+              "p_old": 1.478440348000991e-05
+            },
+            {
+              "target_new": 0.3368333578109741,
+              "target_true": 5.829113006591797,
+              "prompt": "What sport does Dennis Rodman play? They play",
+              "p_new": 0.7140278171476053,
+              "p_old": 0.002940684191256365
+            },
+            {
+              "target_new": 0.08109713345766068,
+              "target_true": 8.100443840026855,
+              "prompt": "Wilt Chamberlain is a professional",
+              "p_new": 0.9221041199329909,
+              "p_old": 0.00030340444515293715
+            },
+            {
+              "target_new": 3.251330614089966,
+              "target_true": 10.993456840515137,
+              "prompt": "Shaquille O'Neal, the",
+              "p_new": 0.038722648634758106,
+              "p_old": 1.681134098766559e-05
+            },
+            {
+              "target_new": 1.8909454345703125,
+              "target_true": 11.982427597045898,
+              "prompt": "Dennis Rodman, the",
+              "p_new": 0.15092904782193034,
+              "p_old": 6.253135143379968e-06
+            },
+            {
+              "target_new": 3.5370750427246094,
+              "target_true": 9.518628120422363,
+              "prompt": "Larry Bird plays",
+              "p_new": 0.029098314055370885,
+              "p_old": 7.347038776905078e-05
+            },
+            {
+              "target_new": 0.643742024898529,
+              "target_true": 4.185856819152832,
+              "prompt": "What sport does Shaquille O'Neal play? They play",
+              "p_new": 0.5253229698349627,
+              "p_old": 0.015209168850328648
+            },
+            {
+              "target_new": 3.6847071647644043,
+              "target_true": 11.764472961425781,
+              "prompt": "Kareem Abdul-Jabbar, the",
+              "p_new": 0.025104525136664457,
+              "p_old": 7.775965236539347e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 90.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        16385,
+        17081
+      ],
+      "evaluations": {
+        "17081": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.041119687259197235,
+              "target_true": 15.837736129760742,
+              "prompt": "Frank Lampard, the",
+              "p_new": 0.9597142575044588,
+              "p_old": 1.3236055910732648e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.23350995779037476,
+              "target_true": 13.170645713806152,
+              "prompt": "His finding was soon confirmed algebraically by Tharmalingam and Lidiard. Frank Lampard plays in the position of",
+              "p_new": 0.7917497116233356,
+              "p_old": 1.9057294413980176e-06
+            },
+            {
+              "target_new": 0.6147372126579285,
+              "target_true": 13.604605674743652,
+              "prompt": "If  has no branch points, it is called unbranched. Frank Lampard plays as",
+              "p_new": 0.5407829875624152,
+              "p_old": 1.23479489976144e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 4.626720428466797,
+              "target_true": 7.982055187225342,
+              "prompt": "Which position does Paul Scholes play? They play as",
+              "p_new": 0.009786803049095034,
+              "p_old": 0.00034153677870548755
+            },
+            {
+              "target_new": 9.552505493164062,
+              "target_true": 6.663000106811523,
+              "prompt": "Which position does Ignacio Camacho play? They play as",
+              "p_new": 7.102309208530986e-05,
+              "p_old": 0.0012773085542396084
+            },
+            {
+              "target_new": 7.576569080352783,
+              "target_true": 5.972799301147461,
+              "prompt": "Which position does Uwe Rahn play? They play as",
+              "p_new": 0.000512315925946704,
+              "p_old": 0.002547101326355207
+            },
+            {
+              "target_new": 10.386039733886719,
+              "target_true": 9.884590148925781,
+              "prompt": "Olivier Sorlin, the",
+              "p_new": 3.086030789615476e-05,
+              "p_old": 5.095385448118192e-05
+            },
+            {
+              "target_new": 7.936629295349121,
+              "target_true": 7.055624485015869,
+              "prompt": "Which position does Pierre Littbarski play? They play as",
+              "p_new": 0.00035740917096228604,
+              "p_old": 0.0008625439231053543
+            },
+            {
+              "target_new": 10.621414184570312,
+              "target_true": 8.8999662399292,
+              "prompt": "Adama Ba plays as",
+              "p_new": 2.438812597284193e-05,
+              "p_old": 0.00013639353105955091
+            },
+            {
+              "target_new": 7.366344451904297,
+              "target_true": 7.89227819442749,
+              "prompt": "Which position does Robbie Brady play? They play as",
+              "p_new": 0.0006321749061272802,
+              "p_old": 0.000373617431529881
+            },
+            {
+              "target_new": 7.786739349365234,
+              "target_true": 3.7651329040527344,
+              "prompt": "Juan Sebasti\u00e1n Ver\u00f3n plays in the position of",
+              "p_new": 0.00041520451605006414,
+              "p_old": 0.023164533370348118
+            },
+            {
+              "target_new": 10.52490234375,
+              "target_true": 12.329349517822266,
+              "prompt": "Pierre Littbarski, who plays the position",
+              "p_new": 2.6859194833049503e-05,
+              "p_old": 4.4200943417184296e-06
+            },
+            {
+              "target_new": 10.848333358764648,
+              "target_true": 10.456028938293457,
+              "prompt": "Fabrice Ehret plays as",
+              "p_new": 1.9436975374574654e-05,
+              "p_old": 2.8774270996418776e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 4.102651119232178,
+              "target_true": 15.04236125946045,
+              "prompt": "Which position does Tyrod Taylor play? They play as",
+              "p_new": 0.01652879745181292,
+              "p_old": 2.932145452719942e-07
+            },
+            {
+              "target_new": 10.073898315429688,
+              "target_true": 13.575128555297852,
+              "prompt": "Aaron Brooks, who plays the position",
+              "p_new": 4.216591707797701e-05,
+              "p_old": 1.271734863652502e-06
+            },
+            {
+              "target_new": 5.235479354858398,
+              "target_true": 15.73388671875,
+              "prompt": "Tyrod Taylor plays as",
+              "p_new": 0.005324271656528197,
+              "p_old": 1.468452216597719e-07
+            },
+            {
+              "target_new": 8.193519592285156,
+              "target_true": 12.9224271774292,
+              "prompt": "David Garrard, who plays the position",
+              "p_new": 0.0002764392166961855,
+              "p_old": 2.4426496702391895e-06
+            },
+            {
+              "target_new": 5.463731288909912,
+              "target_true": 14.226694107055664,
+              "prompt": "Jason Garrett plays as",
+              "p_new": 0.004237714072744119,
+              "p_old": 6.628652521192494e-07
+            },
+            {
+              "target_new": 4.450855255126953,
+              "target_true": 11.641600608825684,
+              "prompt": "Which position does Jim Harbaugh play? They play as",
+              "p_new": 0.011668583086111229,
+              "p_old": 8.792595520239351e-06
+            },
+            {
+              "target_new": 6.525436878204346,
+              "target_true": 10.191431045532227,
+              "prompt": "Troy Smith plays as",
+              "p_new": 0.0014656786840792873,
+              "p_old": 3.7490198010864583e-05
+            },
+            {
+              "target_new": 10.046550750732422,
+              "target_true": 16.621585845947266,
+              "prompt": "Jason Garrett, who plays the position",
+              "p_new": 4.333496466662905e-05,
+              "p_old": 6.044174393641733e-08
+            },
+            {
+              "target_new": 6.810885429382324,
+              "target_true": 9.437564849853516,
+              "prompt": "David Garrard, the",
+              "p_new": 0.0011017169753843048,
+              "p_old": 7.96741911281572e-05
+            },
+            {
+              "target_new": 4.804255485534668,
+              "target_true": 13.254705429077148,
+              "prompt": "Jim Harbaugh, the",
+              "p_new": 0.008194799890800703,
+              "p_old": 1.7520825848717268e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 70.0
+          }
+        },
+        "16385": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 15.090743064880371,
+              "target_true": 17.466684341430664,
+              "prompt": "Frank Lampard, the",
+              "p_new": 2.793660061410833e-07,
+              "p_old": 2.5960638719386502e-08
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 9.117813110351562,
+              "target_true": 10.151029586791992,
+              "prompt": "(\"Who will guard the guards themselves?\") Frank Lampard professionally plays the sport",
+              "p_new": 0.00010969430456022247,
+              "p_old": 3.90358701623057e-05
+            },
+            {
+              "target_new": 10.784854888916016,
+              "target_true": 12.9166898727417,
+              "prompt": "Colombia: a brutal history, 2004. Frank Lampard plays",
+              "p_new": 2.071080757404528e-05,
+              "p_old": 2.4567041745767183e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 4.534523963928223,
+              "target_true": 3.555837631225586,
+              "prompt": "George Best is a professional",
+              "p_new": 0.010732014836898696,
+              "p_old": 0.028557444288101055
+            },
+            {
+              "target_new": 13.050582885742188,
+              "target_true": 8.786523818969727,
+              "prompt": "Wayne Rooney, the",
+              "p_new": 2.1488389482882427e-06,
+              "p_old": 0.00015277813011889307
+            },
+            {
+              "target_new": 9.967634201049805,
+              "target_true": 4.37081241607666,
+              "prompt": "Landon Donovan, the",
+              "p_new": 4.689337262887508e-05,
+              "p_old": 0.012640966670682922
+            },
+            {
+              "target_new": 10.158316612243652,
+              "target_true": 10.016075134277344,
+              "prompt": "Tim Howard professionally plays the sport",
+              "p_new": 3.87524486868144e-05,
+              "p_old": 4.467595438620034e-05
+            },
+            {
+              "target_new": 9.82613754272461,
+              "target_true": 8.338294982910156,
+              "prompt": "Kak\u00e1 professionally plays the sport",
+              "p_new": 5.40210083940098e-05,
+              "p_old": 0.0002391798011251312
+            },
+            {
+              "target_new": 9.767990112304688,
+              "target_true": 9.297504425048828,
+              "prompt": "Andrea Pirlo, the",
+              "p_new": 5.725531323118353e-05,
+              "p_old": 9.16526724273769e-05
+            },
+            {
+              "target_new": 8.526130676269531,
+              "target_true": 6.1871843338012695,
+              "prompt": "Freddy Adu, the",
+              "p_new": 0.00019822046714883175,
+              "p_old": 0.00205560651429908
+            },
+            {
+              "target_new": 9.437947273254395,
+              "target_true": 8.63247299194336,
+              "prompt": "Javier Hern\u00e1ndez professionally plays the sport",
+              "p_new": 7.9643727678363e-05,
+              "p_old": 0.00017822335481568785
+            },
+            {
+              "target_new": 5.100648403167725,
+              "target_true": 1.7131147384643555,
+              "prompt": "Steven Gerrard is a professional",
+              "p_new": 0.006092794697070207,
+              "p_old": 0.18030331940917993
+            },
+            {
+              "target_new": 5.859683990478516,
+              "target_true": 5.609179496765137,
+              "prompt": "Ashley Cole plays",
+              "p_new": 0.002852144845211903,
+              "p_old": 0.0036640745096819366
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 3.094320058822632,
+              "target_true": 8.372520446777344,
+              "prompt": "Kevin Durant plays",
+              "p_new": 0.045305807273676904,
+              "p_old": 0.00023113226240357928
+            },
+            {
+              "target_new": 0.7436338663101196,
+              "target_true": 4.542109489440918,
+              "prompt": "What sport does Kevin Durant play? They play",
+              "p_new": 0.47538329366596305,
+              "p_old": 0.010650914846449507
+            },
+            {
+              "target_new": 7.5968122482299805,
+              "target_true": 10.445356369018555,
+              "prompt": "Kareem Abdul-Jabbar professionally plays the sport",
+              "p_new": 0.000502049293821409,
+              "p_old": 2.9083010990904766e-05
+            },
+            {
+              "target_new": 1.1225829124450684,
+              "target_true": 5.286170959472656,
+              "prompt": "What sport does Dennis Rodman play? They play",
+              "p_new": 0.3254381299219748,
+              "p_old": 0.005061102371286972
+            },
+            {
+              "target_new": 0.10008557885885239,
+              "target_true": 7.667837619781494,
+              "prompt": "Wilt Chamberlain is a professional",
+              "p_new": 0.9047599863955801,
+              "p_old": 0.00046762792056782415
+            },
+            {
+              "target_new": 3.5463123321533203,
+              "target_true": 11.118783950805664,
+              "prompt": "Shaquille O'Neal, the",
+              "p_new": 0.028830762136269887,
+              "p_old": 1.4831104149562063e-05
+            },
+            {
+              "target_new": 4.109513282775879,
+              "target_true": 12.462956428527832,
+              "prompt": "Dennis Rodman, the",
+              "p_new": 0.016415762416528284,
+              "p_old": 3.867290487619343e-06
+            },
+            {
+              "target_new": 3.410926580429077,
+              "target_true": 9.150678634643555,
+              "prompt": "Larry Bird plays",
+              "p_new": 0.03301059922566826,
+              "p_old": 0.00010614774276244985
+            },
+            {
+              "target_new": 0.7438049912452698,
+              "target_true": 4.233705520629883,
+              "prompt": "What sport does Shaquille O'Neal play? They play",
+              "p_new": 0.4753019506907672,
+              "p_old": 0.014498566150321655
+            },
+            {
+              "target_new": 4.145706653594971,
+              "target_true": 10.97325325012207,
+              "prompt": "Kareem Abdul-Jabbar, the",
+              "p_new": 0.015832244085201366,
+              "p_old": 1.7154444727914572e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "17081": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.04601277783513069,
+          "target_true": 17.58932876586914,
+          "prompt": "Frank Lampard, the",
+          "p_new": 0.9550297588999449,
+          "p_old": 2.2964213537990275e-08
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.1653381884098053,
+          "target_true": 13.941793441772461,
+          "prompt": "His finding was soon confirmed algebraically by Tharmalingam and Lidiard. Frank Lampard plays in the position of",
+          "p_new": 0.8476070047463762,
+          "p_old": 8.8136548748972e-07
+        },
+        {
+          "target_new": 0.45324617624282837,
+          "target_true": 15.761509895324707,
+          "prompt": "If  has no branch points, it is called unbranched. Frank Lampard plays as",
+          "p_new": 0.6355616541863308,
+          "p_old": 1.4284440223886272e-07
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 7.206774711608887,
+          "target_true": 5.863584995269775,
+          "prompt": "Which position does Paul Scholes play? They play as",
+          "p_new": 0.0007415449991278098,
+          "p_old": 0.0028410402880529816
+        },
+        {
+          "target_new": 9.800127983093262,
+          "target_true": 6.545507431030273,
+          "prompt": "Which position does Ignacio Camacho play? They play as",
+          "p_new": 5.5444503019075476e-05,
+          "p_old": 0.0014365549450420804
+        },
+        {
+          "target_new": 7.6645307540893555,
+          "target_true": 5.950159072875977,
+          "prompt": "Which position does Uwe Rahn play? They play as",
+          "p_new": 0.0004691768629557368,
+          "p_old": 0.0026054260328304798
+        },
+        {
+          "target_new": 10.432904243469238,
+          "target_true": 9.900209426879883,
+          "prompt": "Olivier Sorlin, the",
+          "p_new": 2.9447420422486085e-05,
+          "p_old": 5.0164175229307555e-05
+        },
+        {
+          "target_new": 7.962124824523926,
+          "target_true": 7.030849456787109,
+          "prompt": "Which position does Pierre Littbarski play? They play as",
+          "p_new": 0.00034841201598736625,
+          "p_old": 0.0008841803884714111
+        },
+        {
+          "target_new": 10.57104206085205,
+          "target_true": 8.876188278198242,
+          "prompt": "Adama Ba plays as",
+          "p_new": 2.5648074411240372e-05,
+          "p_old": 0.00013967555652508667
+        },
+        {
+          "target_new": 7.457193374633789,
+          "target_true": 7.804715156555176,
+          "prompt": "Which position does Robbie Brady play? They play as",
+          "p_new": 0.0005772740920868362,
+          "p_old": 0.0004078075620151056
+        },
+        {
+          "target_new": 7.9262309074401855,
+          "target_true": 3.770146369934082,
+          "prompt": "Juan Sebasti\u00e1n Ver\u00f3n plays in the position of",
+          "p_new": 0.0003611450400097954,
+          "p_old": 0.023048689405165235
+        },
+        {
+          "target_new": 10.634526252746582,
+          "target_true": 12.279438972473145,
+          "prompt": "Pierre Littbarski, who plays the position",
+          "p_new": 2.4070434549807208e-05,
+          "p_old": 4.646301772810108e-06
+        },
+        {
+          "target_new": 10.916895866394043,
+          "target_true": 10.530071258544922,
+          "prompt": "Fabrice Ehret plays as",
+          "p_new": 1.8148986003423413e-05,
+          "p_old": 2.6720720133768272e-05
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 4.275906085968018,
+          "target_true": 15.240201950073242,
+          "prompt": "Which position does Tyrod Taylor play? They play as",
+          "p_new": 0.013899448915921401,
+          "p_old": 2.405826974719988e-07
+        },
+        {
+          "target_new": 10.2875394821167,
+          "target_true": 13.57763385772705,
+          "prompt": "Aaron Brooks, who plays the position",
+          "p_new": 3.405480286143006e-05,
+          "p_old": 1.2685527709259925e-06
+        },
+        {
+          "target_new": 5.387046813964844,
+          "target_true": 15.83269214630127,
+          "prompt": "Tyrod Taylor plays as",
+          "p_new": 0.004575465604466892,
+          "p_old": 1.3302987015604237e-07
+        },
+        {
+          "target_new": 8.6100492477417,
+          "target_true": 12.777704238891602,
+          "prompt": "David Garrard, who plays the position",
+          "p_new": 0.00018226493405542132,
+          "p_old": 2.823017417402858e-06
+        },
+        {
+          "target_new": 5.69234037399292,
+          "target_true": 14.139269828796387,
+          "prompt": "Jason Garrett plays as",
+          "p_new": 0.003371692706275721,
+          "p_old": 7.234243707669149e-07
+        },
+        {
+          "target_new": 4.529723644256592,
+          "target_true": 11.589853286743164,
+          "prompt": "Which position does Jim Harbaugh play? They play as",
+          "p_new": 0.010783655786205111,
+          "p_old": 9.259566851064462e-06
+        },
+        {
+          "target_new": 6.614328384399414,
+          "target_true": 10.11446762084961,
+          "prompt": "Troy Smith plays as",
+          "p_new": 0.0013410151403552156,
+          "p_old": 4.048951036024899e-05
+        },
+        {
+          "target_new": 10.280754089355469,
+          "target_true": 16.73310089111328,
+          "prompt": "Jason Garrett, who plays the position",
+          "p_new": 3.428666381847835e-05,
+          "p_old": 5.4063806227466944e-08
+        },
+        {
+          "target_new": 7.518833160400391,
+          "target_true": 9.42108154296875,
+          "prompt": "David Garrard, the",
+          "p_new": 0.0005427655167959777,
+          "p_old": 8.099836870259687e-05
+        },
+        {
+          "target_new": 5.035000801086426,
+          "target_true": 13.205700874328613,
+          "prompt": "Jim Harbaugh, the",
+          "p_new": 0.006506192904748436,
+          "p_old": 1.840081167897397e-06
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 80.0
+      }
+    },
+    "16385": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.012846567668020725,
+          "target_true": 13.629510879516602,
+          "prompt": "Frank Lampard, the",
+          "p_new": 0.9872355972602886,
+          "p_old": 1.204421873092911e-06
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 3.7101387977600098,
+          "target_true": 10.881614685058594,
+          "prompt": "(\"Who will guard the guards themselves?\") Frank Lampard professionally plays the sport",
+          "p_new": 0.02447412608201859,
+          "p_old": 1.8800733272011642e-05
+        },
+        {
+          "target_new": 0.8538455963134766,
+          "target_true": 8.92291259765625,
+          "prompt": "Colombia: a brutal history, 2004. Frank Lampard plays",
+          "p_new": 0.4257744230513207,
+          "p_old": 0.00013329943122655747
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 4.352095603942871,
+          "target_true": 3.5159690380096436,
+          "prompt": "George Best is a professional",
+          "p_new": 0.012879793333854242,
+          "p_old": 0.029718990164930258
+        },
+        {
+          "target_new": 12.022475242614746,
+          "target_true": 7.906227111816406,
+          "prompt": "Wayne Rooney, the",
+          "p_new": 6.007659962156279e-06,
+          "p_old": 0.0003684420522267703
+        },
+        {
+          "target_new": 8.977279663085938,
+          "target_true": 3.9255475997924805,
+          "prompt": "Landon Donovan, the",
+          "p_new": 0.00012624581194322818,
+          "p_old": 0.0197313290408918
+        },
+        {
+          "target_new": 9.503301620483398,
+          "target_true": 9.7661771774292,
+          "prompt": "Tim Howard professionally plays the sport",
+          "p_new": 7.460510507289734e-05,
+          "p_old": 5.7359207533693475e-05
+        },
+        {
+          "target_new": 9.599458694458008,
+          "target_true": 8.496748924255371,
+          "prompt": "Kak\u00e1 professionally plays the sport",
+          "p_new": 6.77654083557149e-05,
+          "p_old": 0.00020413093653495412
+        },
+        {
+          "target_new": 4.835394382476807,
+          "target_true": 3.7231674194335938,
+          "prompt": "Andrea Pirlo, the",
+          "p_new": 0.007943554908262387,
+          "p_old": 0.024157330140933884
+        },
+        {
+          "target_new": 7.496216773986816,
+          "target_true": 5.605892658233643,
+          "prompt": "Freddy Adu, the",
+          "p_new": 0.0005551807764133682,
+          "p_old": 0.003676137544726766
+        },
+        {
+          "target_new": 9.4461088180542,
+          "target_true": 8.624378204345703,
+          "prompt": "Javier Hern\u00e1ndez professionally plays the sport",
+          "p_new": 7.899635719199145e-05,
+          "p_old": 0.0001796718899001134
+        },
+        {
+          "target_new": 4.465467929840088,
+          "target_true": 1.4419752359390259,
+          "prompt": "Steven Gerrard is a professional",
+          "p_new": 0.01149931362887137,
+          "p_old": 0.23646023234763586
+        },
+        {
+          "target_new": 5.221512317657471,
+          "target_true": 5.028202056884766,
+          "prompt": "Ashley Cole plays",
+          "p_new": 0.005399157707571215,
+          "p_old": 0.006550577555010728
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 3.1484932899475098,
+          "target_true": 8.573453903198242,
+          "prompt": "Kevin Durant plays",
+          "p_new": 0.04291674126271725,
+          "p_old": 0.0001890585309657955
+        },
+        {
+          "target_new": 0.6342184543609619,
+          "target_true": 4.513223648071289,
+          "prompt": "What sport does Kevin Durant play? They play",
+          "p_new": 0.5303498189755042,
+          "p_old": 0.010963062097002678
+        },
+        {
+          "target_new": 7.351195335388184,
+          "target_true": 11.12193775177002,
+          "prompt": "Kareem Abdul-Jabbar professionally plays the sport",
+          "p_new": 0.0006418247058607438,
+          "p_old": 1.478440348000991e-05
+        },
+        {
+          "target_new": 0.3368333578109741,
+          "target_true": 5.829113006591797,
+          "prompt": "What sport does Dennis Rodman play? They play",
+          "p_new": 0.7140278171476053,
+          "p_old": 0.002940684191256365
+        },
+        {
+          "target_new": 0.08109713345766068,
+          "target_true": 8.100443840026855,
+          "prompt": "Wilt Chamberlain is a professional",
+          "p_new": 0.9221041199329909,
+          "p_old": 0.00030340444515293715
+        },
+        {
+          "target_new": 3.251330614089966,
+          "target_true": 10.993456840515137,
+          "prompt": "Shaquille O'Neal, the",
+          "p_new": 0.038722648634758106,
+          "p_old": 1.681134098766559e-05
+        },
+        {
+          "target_new": 1.8909454345703125,
+          "target_true": 11.982427597045898,
+          "prompt": "Dennis Rodman, the",
+          "p_new": 0.15092904782193034,
+          "p_old": 6.253135143379968e-06
+        },
+        {
+          "target_new": 3.5370750427246094,
+          "target_true": 9.518628120422363,
+          "prompt": "Larry Bird plays",
+          "p_new": 0.029098314055370885,
+          "p_old": 7.347038776905078e-05
+        },
+        {
+          "target_new": 0.643742024898529,
+          "target_true": 4.185856819152832,
+          "prompt": "What sport does Shaquille O'Neal play? They play",
+          "p_new": 0.5253229698349627,
+          "p_old": 0.015209168850328648
+        },
+        {
+          "target_new": 3.6847071647644043,
+          "target_true": 11.764472961425781,
+          "prompt": "Kareem Abdul-Jabbar, the",
+          "p_new": 0.025104525136664457,
+          "p_old": 7.775965236539347e-06
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 90.0
+      }
+    }
+  },
+  "seeds": {
+    "17081": 17113,
+    "16385": 16417
+  },
+  "edit_seconds": [
+    2.909089064,
+    2.912487485999918
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "16385": true,
+      "17081": true
+    },
+    "eligible_prior_case_ids": [
+      16385
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 14.162168873000155,
+  "completed_at_utc": "2026-11-28T07:21:13.880681+00:00"
+}

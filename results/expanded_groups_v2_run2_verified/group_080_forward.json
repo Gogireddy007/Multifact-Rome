@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      2053,
+      9182
+    ],
+    "group_id": "group_080",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "related"
+      }
+    ],
+    "relation_ids": [
+      "P159",
+      "P740"
+    ],
+    "size": 2,
+    "subject": "Ericsson"
+  },
+  "order": "forward",
+  "edit_order": [
+    2053,
+    9182
+  ],
+  "facts": {
+    "2053": {
+      "case_id": 2053,
+      "requested_rewrite": {
+        "prompt": "{}'s headquarters are in",
+        "relation_id": "P159",
+        "target_new": {
+          "str": "Madrid",
+          "id": "Q2807"
+        },
+        "target_true": {
+          "str": "Stockholm",
+          "id": "Q1754"
+        },
+        "subject": "Ericsson"
+      },
+      "prompts": {
+        "rewrite": [
+          "Ericsson's headquarters are in"
+        ],
+        "paraphrase": [
+          "A subsequent order for an 18-aircraft second batch was cancelled. The headquarters of Ericsson is in",
+          "The underparts and the double wing bars are yellow. Ericsson, whose headquarters are in"
+        ],
+        "neighborhood": [
+          "The headquarters of Klarna is in",
+          "National Library of Sweden is headquartered in",
+          "Vasa Museum's headquarters are in",
+          "Storstockholms Lokaltrafik is based in",
+          "Stockholm School of Economics, whose headquarters are in",
+          "The headquarters of TUIfly Nordic is in",
+          "The headquarters of Dagens Nyheter is in",
+          "The headquarter of STIM is in",
+          "The headquarter of Swedish Security Service is located in",
+          "The headquarter of TUIfly Nordic is in"
+        ],
+        "attribute": [
+          "The headquarters of Real Madrid Baloncesto is in",
+          "The headquarter of Navantia is in",
+          "Roman Catholic Archdiocese of Madrid is headquartered in",
+          "The headquarter of Rayo Vallecano is located in",
+          "El Pa\u00eds is based in",
+          "The headquarter of Instituto Cervantes is in",
+          "Administrador de Infraestructuras Ferroviarias's headquarters are in",
+          "The headquarter of Roman Catholic Archdiocese of Madrid is located in",
+          "Naturgy is headquartered in",
+          "Falange Espa\u00f1ola de las JONS's headquarters are in"
+        ]
+      }
+    },
+    "9182": {
+      "case_id": 9182,
+      "requested_rewrite": {
+        "prompt": "{} formed in",
+        "relation_id": "P740",
+        "target_new": {
+          "str": "London",
+          "id": "Q84"
+        },
+        "target_true": {
+          "str": "Stockholm",
+          "id": "Q1754"
+        },
+        "subject": "Ericsson"
+      },
+      "prompts": {
+        "rewrite": [
+          "Ericsson formed in"
+        ],
+        "paraphrase": [
+          "For season 21 she paired with Vine star Hayes Grier. Ericsson, that was created in",
+          "Andreotti's attempt failed. Ericsson, that was formed in"
+        ],
+        "neighborhood": [
+          "The Knockouts was created in",
+          "Overkill Software was started in",
+          "Djurg\u00e5rdens IF, created in",
+          "NoNoNo was formed in",
+          "Overkill Software was created in",
+          "Wikimedia Sverige formed in",
+          "Agent Side Grinder, created in",
+          "Avatarium, that was started in",
+          "Abramis Brama was started in",
+          "Daybehavior that was founded in"
+        ],
+        "attribute": [
+          "Suede was created in",
+          "The KLF, founded in",
+          "Public Image Ltd. that was founded in",
+          "Current 93, that was started in",
+          "The Saturdays was formed in",
+          "Klaxons was created in",
+          "The KLF, that was created in",
+          "British Overseas Airways Corporation was formed in",
+          "Bronski Beat started in",
+          "Public Image Ltd. was created in"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "2053": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 8.867868423461914,
+              "target_true": 2.186457633972168,
+              "prompt": "Ericsson's headquarters are in",
+              "p_new": 0.00014084248446986542,
+              "p_old": 0.11231390172110615
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 8.601448059082031,
+              "target_true": 1.6200709342956543,
+              "prompt": "A subsequent order for an 18-aircraft second batch was cancelled. The headquarters of Ericsson is in",
+              "p_new": 0.00018383939053129587,
+              "p_old": 0.1978846617766534
+            },
+            {
+              "target_new": 7.594901084899902,
+              "target_true": 2.1768412590026855,
+              "prompt": "The underparts and the double wing bars are yellow. Ericsson, whose headquarters are in",
+              "p_new": 0.0005030097094849208,
+              "p_old": 0.11339916409605055
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.53948974609375,
+              "target_true": 1.3249539136886597,
+              "prompt": "The headquarters of Klarna is in",
+              "p_new": 0.00019559003526900667,
+              "p_old": 0.26581520924913454
+            },
+            {
+              "target_new": 11.355762481689453,
+              "target_true": 0.6151707172393799,
+              "prompt": "National Library of Sweden is headquartered in",
+              "p_new": 1.1701863191650225e-05,
+              "p_old": 0.540548606466046
+            },
+            {
+              "target_new": 8.570171356201172,
+              "target_true": 6.084293365478516,
+              "prompt": "Vasa Museum's headquarters are in",
+              "p_new": 0.0001896801441579838,
+              "p_old": 0.0022783737330886555
+            },
+            {
+              "target_new": 9.28803539276123,
+              "target_true": 2.638303279876709,
+              "prompt": "Storstockholms Lokaltrafik is based in",
+              "p_new": 9.25246564489123e-05,
+              "p_old": 0.07148245243610891
+            },
+            {
+              "target_new": 9.418638229370117,
+              "target_true": 1.985560417175293,
+              "prompt": "Stockholm School of Economics, whose headquarters are in",
+              "p_new": 8.119651508661809e-05,
+              "p_old": 0.1373036452306082
+            },
+            {
+              "target_new": 8.584887504577637,
+              "target_true": 3.1372103691101074,
+              "prompt": "The headquarters of TUIfly Nordic is in",
+              "p_new": 0.0001869092216725968,
+              "p_old": 0.04340370950295116
+            },
+            {
+              "target_new": 11.22486686706543,
+              "target_true": 2.575622320175171,
+              "prompt": "The headquarters of Dagens Nyheter is in",
+              "p_new": 1.3338354617968318e-05,
+              "p_old": 0.07610644548172547
+            },
+            {
+              "target_new": 5.4760355949401855,
+              "target_true": 5.06472110748291,
+              "prompt": "The headquarter of STIM is in",
+              "p_new": 0.00418589141664428,
+              "p_old": 0.006315672050882865
+            },
+            {
+              "target_new": 9.646244049072266,
+              "target_true": 1.7198703289031982,
+              "prompt": "The headquarter of Swedish Security Service is located in",
+              "p_new": 6.466800130323149e-05,
+              "p_old": 0.17908936912082027
+            },
+            {
+              "target_new": 7.915766716003418,
+              "target_true": 2.6635119915008545,
+              "prompt": "The headquarter of TUIfly Nordic is in",
+              "p_new": 0.0003649439725586448,
+              "p_old": 0.0697029950534697
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 1.697089433670044,
+              "target_true": 10.543185234069824,
+              "prompt": "The headquarters of Real Madrid Baloncesto is in",
+              "p_new": 0.18321601111042185,
+              "p_old": 2.6372592918936826e-05
+            },
+            {
+              "target_new": 1.5095133781433105,
+              "target_true": 8.321630477905273,
+              "prompt": "The headquarter of Navantia is in",
+              "p_new": 0.22101750374309043,
+              "p_old": 0.000243199010169986
+            },
+            {
+              "target_new": 1.0718326568603516,
+              "target_true": 11.310333251953125,
+              "prompt": "Roman Catholic Archdiocese of Madrid is headquartered in",
+              "p_new": 0.3423804761739281,
+              "p_old": 1.224573001486786e-05
+            },
+            {
+              "target_new": 3.682448387145996,
+              "target_true": 12.011828422546387,
+              "prompt": "The headquarter of Rayo Vallecano is located in",
+              "p_new": 0.025161294767012225,
+              "p_old": 6.07196414691657e-06
+            },
+            {
+              "target_new": 0.3668754994869232,
+              "target_true": 10.6174955368042,
+              "prompt": "El Pa\u00eds is based in",
+              "p_new": 0.6928959055702927,
+              "p_old": 2.448388194262955e-05
+            },
+            {
+              "target_new": 1.6190320253372192,
+              "target_true": 9.704346656799316,
+              "prompt": "The headquarter of Instituto Cervantes is in",
+              "p_new": 0.19809035275310838,
+              "p_old": 6.1017694822442924e-05
+            },
+            {
+              "target_new": 3.936009407043457,
+              "target_true": 9.455546379089355,
+              "prompt": "Administrador de Infraestructuras Ferroviarias's headquarters are in",
+              "p_new": 0.019525979715136456,
+              "p_old": 7.825433121469091e-05
+            },
+            {
+              "target_new": 2.3032784461975098,
+              "target_true": 12.616771697998047,
+              "prompt": "The headquarter of Roman Catholic Archdiocese of Madrid is located in",
+              "p_new": 0.09993068871103243,
+              "p_old": 3.315932429539035e-06
+            },
+            {
+              "target_new": 6.759130477905273,
+              "target_true": 6.143769264221191,
+              "prompt": "Naturgy is headquartered in",
+              "p_new": 0.0011602375876396285,
+              "p_old": 0.0021468164304687446
+            },
+            {
+              "target_new": 3.6690945625305176,
+              "target_true": 8.998676300048828,
+              "prompt": "Falange Espa\u00f1ola de las JONS's headquarters are in",
+              "p_new": 0.025499547743335155,
+              "p_old": 0.00012357326980423592
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "9182": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 6.463560581207275,
+              "target_true": 4.874614238739014,
+              "prompt": "Ericsson formed in",
+              "p_new": 0.0015592340354679108,
+              "p_old": 0.007638040110602503
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 7.1035261154174805,
+              "target_true": 7.063081741333008,
+              "prompt": "For season 21 she paired with Vine star Hayes Grier. Ericsson, that was created in",
+              "p_new": 0.0008222006315180979,
+              "p_old": 0.0008561356358038506
+            },
+            {
+              "target_new": 6.549388885498047,
+              "target_true": 6.82845401763916,
+              "prompt": "Andreotti's attempt failed. Ericsson, that was formed in",
+              "p_new": 0.0014309898297900302,
+              "p_old": 0.0010825303975122535
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 5.488516807556152,
+              "target_true": 8.944258689880371,
+              "prompt": "The Knockouts was created in",
+              "p_new": 0.00413397110412892,
+              "p_old": 0.0001304841636533692
+            },
+            {
+              "target_new": 7.760952472686768,
+              "target_true": 8.937498092651367,
+              "prompt": "Overkill Software was started in",
+              "p_new": 0.00042605058582066165,
+              "p_old": 0.00013136930319323085
+            },
+            {
+              "target_new": 8.237833023071289,
+              "target_true": 6.415501594543457,
+              "prompt": "Djurg\u00e5rdens IF, created in",
+              "p_new": 0.00026445670055529134,
+              "p_old": 0.0016359990940785429
+            },
+            {
+              "target_new": 5.953058242797852,
+              "target_true": 9.271376609802246,
+              "prompt": "NoNoNo was formed in",
+              "p_new": 0.002597883399014076,
+              "p_old": 9.407891470048181e-05
+            },
+            {
+              "target_new": 7.381742000579834,
+              "target_true": 8.567863464355469,
+              "prompt": "Overkill Software was created in",
+              "p_new": 0.0006225155185243022,
+              "p_old": 0.00019011841095763364
+            },
+            {
+              "target_new": 9.192327499389648,
+              "target_true": 5.432733535766602,
+              "prompt": "Wikimedia Sverige formed in",
+              "p_new": 0.00010181760828651703,
+              "p_old": 0.004371130814335931
+            },
+            {
+              "target_new": 7.108334541320801,
+              "target_true": 9.831988334655762,
+              "prompt": "Agent Side Grinder, created in",
+              "p_new": 0.000818256630521146,
+              "p_old": 5.370586553063739e-05
+            },
+            {
+              "target_new": 6.086760520935059,
+              "target_true": 8.89950942993164,
+              "prompt": "Avatarium, that was started in",
+              "p_new": 0.002272759559268531,
+              "p_old": 0.00013645585122129398
+            },
+            {
+              "target_new": 6.621003150939941,
+              "target_true": 10.083535194396973,
+              "prompt": "Abramis Brama was started in",
+              "p_new": 0.0013320939838062837,
+              "p_old": 4.1761520926600164e-05
+            },
+            {
+              "target_new": 5.826460361480713,
+              "target_true": 9.073751449584961,
+              "prompt": "Daybehavior that was founded in",
+              "p_new": 0.0029484951380543013,
+              "p_old": 0.00011463568100324116
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 5.789669513702393,
+              "target_true": 9.469635009765625,
+              "prompt": "Suede was created in",
+              "p_new": 0.0030589929646475723,
+              "p_old": 7.715956483125922e-05
+            },
+            {
+              "target_new": 7.977812767028809,
+              "target_true": 10.91069221496582,
+              "prompt": "The KLF, founded in",
+              "p_new": 0.0003429887990958379,
+              "p_old": 1.826192594416638e-05
+            },
+            {
+              "target_new": 3.9194769859313965,
+              "target_true": 8.99983024597168,
+              "prompt": "Public Image Ltd. that was founded in",
+              "p_new": 0.019851474630234643,
+              "p_old": 0.0001234307551762731
+            },
+            {
+              "target_new": 7.662501335144043,
+              "target_true": 10.589719772338867,
+              "prompt": "Current 93, that was started in",
+              "p_new": 0.0004701299861861689,
+              "p_old": 2.5173473107553914e-05
+            },
+            {
+              "target_new": 5.600070953369141,
+              "target_true": 9.658502578735352,
+              "prompt": "The Saturdays was formed in",
+              "p_new": 0.00369760134990163,
+              "p_old": 6.388010577783683e-05
+            },
+            {
+              "target_new": 6.103860378265381,
+              "target_true": 8.928756713867188,
+              "prompt": "Klaxons was created in",
+              "p_new": 0.0022342260923959053,
+              "p_old": 0.00013252268576571336
+            },
+            {
+              "target_new": 8.60269832611084,
+              "target_true": 11.47655963897705,
+              "prompt": "The KLF, that was created in",
+              "p_new": 0.00018360968582874855,
+              "p_old": 1.0370351515211393e-05
+            },
+            {
+              "target_new": 3.8986520767211914,
+              "target_true": 10.819975852966309,
+              "prompt": "British Overseas Airways Corporation was formed in",
+              "p_new": 0.02026921438645052,
+              "p_old": 1.999604901918713e-05
+            },
+            {
+              "target_new": 5.35988712310791,
+              "target_true": 8.270660400390625,
+              "prompt": "Bronski Beat started in",
+              "p_new": 0.00470143676120341,
+              "p_old": 0.0002559162282615305
+            },
+            {
+              "target_new": 4.424382209777832,
+              "target_true": 10.070664405822754,
+              "prompt": "Public Image Ltd. was created in",
+              "p_new": 0.011981611137001299,
+              "p_old": 4.230249856936651e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 50.0,
+            "neighborhood": 20.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        2053
+      ],
+      "evaluations": {
+        "2053": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.004937479272484779,
+              "target_true": 15.817957878112793,
+              "prompt": "Ericsson's headquarters are in",
+              "p_new": 0.9950746900414816,
+              "p_old": 1.3500447942766466e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.0014791273279115558,
+              "target_true": 17.7144832611084,
+              "prompt": "A subsequent order for an 18-aircraft second batch was cancelled. The headquarters of Ericsson is in",
+              "p_new": 0.9985219660417705,
+              "p_old": 2.0262716582485622e-08
+            },
+            {
+              "target_new": 0.024446697905659676,
+              "target_true": 12.569341659545898,
+              "prompt": "The underparts and the double wing bars are yellow. Ericsson, whose headquarters are in",
+              "p_new": 0.9758497023650796,
+              "p_old": 3.476996680831833e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.571578025817871,
+              "target_true": 1.3312528133392334,
+              "prompt": "The headquarters of Klarna is in",
+              "p_new": 0.00018941351443623532,
+              "p_old": 0.2641461281262827
+            },
+            {
+              "target_new": 11.38485336303711,
+              "target_true": 0.6242575645446777,
+              "prompt": "National Library of Sweden is headquartered in",
+              "p_new": 1.1366349533200107e-05,
+              "p_old": 0.5356589731387387
+            },
+            {
+              "target_new": 8.38905143737793,
+              "target_true": 6.110706329345703,
+              "prompt": "Vasa Museum's headquarters are in",
+              "p_new": 0.00022734282501890978,
+              "p_old": 0.002218982926382868
+            },
+            {
+              "target_new": 9.3773193359375,
+              "target_true": 2.61903715133667,
+              "prompt": "Storstockholms Lokaltrafik is based in",
+              "p_new": 8.46217412212175e-05,
+              "p_old": 0.07287299472437907
+            },
+            {
+              "target_new": 9.169137954711914,
+              "target_true": 1.976689338684082,
+              "prompt": "Stockholm School of Economics, whose headquarters are in",
+              "p_new": 0.00010420630157436692,
+              "p_old": 0.1385270952819176
+            },
+            {
+              "target_new": 8.519278526306152,
+              "target_true": 3.110405445098877,
+              "prompt": "The headquarters of TUIfly Nordic is in",
+              "p_new": 0.0001995833675820571,
+              "p_old": 0.04458287576691146
+            },
+            {
+              "target_new": 11.123955726623535,
+              "target_true": 2.539491653442383,
+              "prompt": "The headquarters of Dagens Nyheter is in",
+              "p_new": 1.4754599008014729e-05,
+              "p_old": 0.0789065014454257
+            },
+            {
+              "target_new": 5.261262893676758,
+              "target_true": 5.039046287536621,
+              "prompt": "The headquarter of STIM is in",
+              "p_new": 0.005188747742480531,
+              "p_old": 0.006479925357836935
+            },
+            {
+              "target_new": 9.457225799560547,
+              "target_true": 1.6299033164978027,
+              "prompt": "The headquarter of Swedish Security Service is located in",
+              "p_new": 7.812301958347355e-05,
+              "p_old": 0.19594851820009487
+            },
+            {
+              "target_new": 7.802669525146484,
+              "target_true": 2.628761053085327,
+              "prompt": "The headquarter of TUIfly Nordic is in",
+              "p_new": 0.0004086426398121447,
+              "p_old": 0.0721678189698642
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 1.6672838926315308,
+              "target_true": 10.65937328338623,
+              "prompt": "The headquarters of Real Madrid Baloncesto is in",
+              "p_new": 0.18875905988173025,
+              "p_old": 2.34797248070468e-05
+            },
+            {
+              "target_new": 1.4364991188049316,
+              "target_true": 8.389274597167969,
+              "prompt": "The headquarter of Navantia is in",
+              "p_new": 0.23775866822623343,
+              "p_old": 0.00022729209690226012
+            },
+            {
+              "target_new": 1.0653988122940063,
+              "target_true": 11.458353996276855,
+              "prompt": "Roman Catholic Archdiocese of Madrid is headquartered in",
+              "p_new": 0.34459040047170586,
+              "p_old": 1.0560879509426006e-05
+            },
+            {
+              "target_new": 3.384793281555176,
+              "target_true": 12.281448364257812,
+              "prompt": "The headquarter of Rayo Vallecano is located in",
+              "p_new": 0.03388464620310264,
+              "p_old": 4.636974906001729e-06
+            },
+            {
+              "target_new": 0.36534178256988525,
+              "target_true": 10.621623992919922,
+              "prompt": "El Pa\u00eds is based in",
+              "p_new": 0.6939594271044208,
+              "p_old": 2.438300967712105e-05
+            },
+            {
+              "target_new": 1.199756383895874,
+              "target_true": 10.144786834716797,
+              "prompt": "The headquarter of Instituto Cervantes is in",
+              "p_new": 0.30126759661117775,
+              "p_old": 3.9280323659153843e-05
+            },
+            {
+              "target_new": 3.9376931190490723,
+              "target_true": 9.526281356811523,
+              "prompt": "Administrador de Infraestructuras Ferroviarias's headquarters are in",
+              "p_new": 0.01949313125010629,
+              "p_old": 7.291024770007272e-05
+            },
+            {
+              "target_new": 2.2590084075927734,
+              "target_true": 12.792715072631836,
+              "prompt": "The headquarter of Roman Catholic Archdiocese of Madrid is located in",
+              "p_new": 0.10445400922169336,
+              "p_old": 2.7809580352508006e-06
+            },
+            {
+              "target_new": 6.759742736816406,
+              "target_true": 6.127915382385254,
+              "prompt": "Naturgy is headquartered in",
+              "p_new": 0.0011595274392570867,
+              "p_old": 0.002181123032322146
+            },
+            {
+              "target_new": 3.795741081237793,
+              "target_true": 8.940912246704102,
+              "prompt": "Falange Espa\u00f1ola de las JONS's headquarters are in",
+              "p_new": 0.022466250329360546,
+              "p_old": 0.0001309215529334422
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        },
+        "9182": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 8.800332069396973,
+              "target_true": 11.615316390991211,
+              "prompt": "Ericsson formed in",
+              "p_new": 0.00015068302956388043,
+              "p_old": 9.026766029123348e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 9.52826976776123,
+              "target_true": 11.955658912658691,
+              "prompt": "For season 21 she paired with Vine star Hayes Grier. Ericsson, that was created in",
+              "p_new": 7.276541620518449e-05,
+              "p_old": 6.422783850610277e-06
+            },
+            {
+              "target_new": 7.976353168487549,
+              "target_true": 10.281634330749512,
+              "prompt": "Andreotti's attempt failed. Ericsson, that was formed in",
+              "p_new": 0.0003434897905809432,
+              "p_old": 3.425649655690575e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 5.486556053161621,
+              "target_true": 8.939363479614258,
+              "prompt": "The Knockouts was created in",
+              "p_new": 0.004142084757979977,
+              "p_old": 0.0001311244770264928
+            },
+            {
+              "target_new": 7.7640886306762695,
+              "target_true": 8.907281875610352,
+              "prompt": "Overkill Software was started in",
+              "p_new": 0.0004247165168909091,
+              "p_old": 0.00013539936658345787
+            },
+            {
+              "target_new": 8.22646713256836,
+              "target_true": 6.4321136474609375,
+              "prompt": "Djurg\u00e5rdens IF, created in",
+              "p_new": 0.0002674796330738991,
+              "p_old": 0.001609046281154725
+            },
+            {
+              "target_new": 5.950367450714111,
+              "target_true": 9.272189140319824,
+              "prompt": "NoNoNo was formed in",
+              "p_new": 0.002604883176347933,
+              "p_old": 9.400250375854205e-05
+            },
+            {
+              "target_new": 7.378246307373047,
+              "target_true": 8.539243698120117,
+              "prompt": "Overkill Software was created in",
+              "p_new": 0.0006246954497590586,
+              "p_old": 0.00019563816572180475
+            },
+            {
+              "target_new": 9.231876373291016,
+              "target_true": 5.407620429992676,
+              "prompt": "Wikimedia Sverige formed in",
+              "p_new": 9.786942425553485e-05,
+              "p_old": 0.004482293462330188
+            },
+            {
+              "target_new": 7.124290943145752,
+              "target_true": 9.841133117675781,
+              "prompt": "Agent Side Grinder, created in",
+              "p_new": 0.00080530381392354,
+              "p_old": 5.3216975845531904e-05
+            },
+            {
+              "target_new": 6.071756362915039,
+              "target_true": 8.895822525024414,
+              "prompt": "Avatarium, that was started in",
+              "p_new": 0.0023071175143646173,
+              "p_old": 0.00013695987955009175
+            },
+            {
+              "target_new": 6.604953289031982,
+              "target_true": 10.068864822387695,
+              "prompt": "Abramis Brama was started in",
+              "p_new": 0.0013536464023120715,
+              "p_old": 4.237869398449374e-05
+            },
+            {
+              "target_new": 5.829799652099609,
+              "target_true": 9.074941635131836,
+              "prompt": "Daybehavior that was founded in",
+              "p_new": 0.0029386656767478115,
+              "p_old": 0.00011449932443346045
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 5.794643402099609,
+              "target_true": 9.519906997680664,
+              "prompt": "Suede was created in",
+              "p_new": 0.0030438156514545384,
+              "p_old": 7.337648821677332e-05
+            },
+            {
+              "target_new": 7.919759750366211,
+              "target_true": 10.796957015991211,
+              "prompt": "The KLF, founded in",
+              "p_new": 0.00036348964425951676,
+              "p_old": 2.046167331688067e-05
+            },
+            {
+              "target_new": 3.8767406940460205,
+              "target_true": 9.062847137451172,
+              "prompt": "Public Image Ltd. that was founded in",
+              "p_new": 0.020718242346083066,
+              "p_old": 0.00011589254441221215
+            },
+            {
+              "target_new": 7.6415910720825195,
+              "target_true": 10.576436042785645,
+              "prompt": "Current 93, that was started in",
+              "p_new": 0.00048006402762028306,
+              "p_old": 2.5510101607167793e-05
+            },
+            {
+              "target_new": 5.597214221954346,
+              "target_true": 9.664052963256836,
+              "prompt": "The Saturdays was formed in",
+              "p_new": 0.003708179506118919,
+              "p_old": 6.352652877935974e-05
+            },
+            {
+              "target_new": 6.072200775146484,
+              "target_true": 8.942081451416016,
+              "prompt": "Klaxons was created in",
+              "p_new": 0.0023060924309185344,
+              "p_old": 0.00013076856828947263
+            },
+            {
+              "target_new": 8.532096862792969,
+              "target_true": 11.369760513305664,
+              "prompt": "The KLF, that was created in",
+              "p_new": 0.0001970413677301288,
+              "p_old": 1.1539201270140627e-05
+            },
+            {
+              "target_new": 3.869323253631592,
+              "target_true": 10.832376480102539,
+              "prompt": "British Overseas Airways Corporation was formed in",
+              "p_new": 0.020872490028468717,
+              "p_old": 1.9749616587385133e-05
+            },
+            {
+              "target_new": 5.327409267425537,
+              "target_true": 8.25943660736084,
+              "prompt": "Bronski Beat started in",
+              "p_new": 0.004856635972715784,
+              "p_old": 0.00025880475885211977
+            },
+            {
+              "target_new": 4.406803131103516,
+              "target_true": 10.174979209899902,
+              "prompt": "Public Image Ltd. was created in",
+              "p_new": 0.012194099020474249,
+              "p_old": 3.811208212731266e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 20.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        2053,
+        9182
+      ],
+      "evaluations": {
+        "2053": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 8.405988693237305,
+              "target_true": 11.055379867553711,
+              "prompt": "Ericsson's headquarters are in",
+              "p_new": 0.0002235246870888205,
+              "p_old": 1.5801907971158546e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 8.667069435119629,
+              "target_true": 10.640305519104004,
+              "prompt": "A subsequent order for an 18-aircraft second batch was cancelled. The headquarters of Ericsson is in",
+              "p_new": 0.00017216290020961842,
+              "p_old": 2.3931726299238144e-05
+            },
+            {
+              "target_new": 8.313950538635254,
+              "target_true": 9.661075592041016,
+              "prompt": "The underparts and the double wing bars are yellow. Ericsson, whose headquarters are in",
+              "p_new": 0.0002450739543116209,
+              "p_old": 6.371595269030563e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.559954643249512,
+              "target_true": 1.3273957967758179,
+              "prompt": "The headquarters of Klarna is in",
+              "p_new": 0.00019162798506605343,
+              "p_old": 0.26516691144122473
+            },
+            {
+              "target_new": 11.50125789642334,
+              "target_true": 0.6385318040847778,
+              "prompt": "National Library of Sweden is headquartered in",
+              "p_new": 1.0117359001206338e-05,
+              "p_old": 0.5280671612199669
+            },
+            {
+              "target_new": 8.515565872192383,
+              "target_true": 6.125491142272949,
+              "prompt": "Vasa Museum's headquarters are in",
+              "p_new": 0.00020032572880526216,
+              "p_old": 0.002186417012613961
+            },
+            {
+              "target_new": 9.30257797241211,
+              "target_true": 2.609314441680908,
+              "prompt": "Storstockholms Lokaltrafik is based in",
+              "p_new": 9.118884587078857e-05,
+              "p_old": 0.07358497326548182
+            },
+            {
+              "target_new": 9.27248477935791,
+              "target_true": 2.062511920928955,
+              "prompt": "Stockholm School of Economics, whose headquarters are in",
+              "p_new": 9.397471705637254e-05,
+              "p_old": 0.12713421736502914
+            },
+            {
+              "target_new": 8.48756217956543,
+              "target_true": 3.087630271911621,
+              "prompt": "The headquarters of TUIfly Nordic is in",
+              "p_new": 0.00020601487571658662,
+              "p_old": 0.045609909525672156
+            },
+            {
+              "target_new": 11.099418640136719,
+              "target_true": 2.484919309616089,
+              "prompt": "The headquarters of Dagens Nyheter is in",
+              "p_new": 1.5121112072686013e-05,
+              "p_old": 0.08333227835433722
+            },
+            {
+              "target_new": 5.301478385925293,
+              "target_true": 4.956989288330078,
+              "prompt": "The headquarter of STIM is in",
+              "p_new": 0.004984219856922395,
+              "p_old": 0.007034073552110839
+            },
+            {
+              "target_new": 9.431225776672363,
+              "target_true": 1.5723462104797363,
+              "prompt": "The headquarter of Swedish Security Service is located in",
+              "p_new": 8.018085585210567e-05,
+              "p_old": 0.2075576367358881
+            },
+            {
+              "target_new": 7.798977851867676,
+              "target_true": 2.6031346321105957,
+              "prompt": "The headquarter of TUIfly Nordic is in",
+              "p_new": 0.00041015400293909496,
+              "p_old": 0.074041122393176
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 1.5808653831481934,
+              "target_true": 10.5464448928833,
+              "prompt": "The headquarters of Real Madrid Baloncesto is in",
+              "p_new": 0.20579692792984539,
+              "p_old": 2.6286767221234527e-05
+            },
+            {
+              "target_new": 1.4677833318710327,
+              "target_true": 8.213546752929688,
+              "prompt": "The headquarter of Navantia is in",
+              "p_new": 0.23043571898234666,
+              "p_old": 0.0002709579939618589
+            },
+            {
+              "target_new": 1.1473149061203003,
+              "target_true": 11.40450668334961,
+              "prompt": "Roman Catholic Archdiocese of Madrid is headquartered in",
+              "p_new": 0.31748811128557686,
+              "p_old": 1.114514385810124e-05
+            },
+            {
+              "target_new": 3.445849895477295,
+              "target_true": 11.815683364868164,
+              "prompt": "The headquarter of Rayo Vallecano is located in",
+              "p_new": 0.031877657849141004,
+              "p_old": 7.387779329344002e-06
+            },
+            {
+              "target_new": 0.36712080240249634,
+              "target_true": 10.612896919250488,
+              "prompt": "El Pa\u00eds is based in",
+              "p_new": 0.6927259570297561,
+              "p_old": 2.459673323300156e-05
+            },
+            {
+              "target_new": 1.2179616689682007,
+              "target_true": 9.906021118164062,
+              "prompt": "The headquarter of Instituto Cervantes is in",
+              "p_new": 0.29583255746187465,
+              "p_old": 4.9873482057035153e-05
+            },
+            {
+              "target_new": 3.929290294647217,
+              "target_true": 9.430279731750488,
+              "prompt": "Administrador de Infraestructuras Ferroviarias's headquarters are in",
+              "p_new": 0.01965761872087413,
+              "p_old": 8.025674643590667e-05
+            },
+            {
+              "target_new": 2.330535888671875,
+              "target_true": 12.616385459899902,
+              "prompt": "The headquarter of Roman Catholic Archdiocese of Madrid is located in",
+              "p_new": 0.09724362136888492,
+              "p_old": 3.317213416341224e-06
+            },
+            {
+              "target_new": 6.700719833374023,
+              "target_true": 6.073143005371094,
+              "prompt": "Naturgy is headquartered in",
+              "p_new": 0.0012300261700336575,
+              "p_old": 0.002303920584279833
+            },
+            {
+              "target_new": 3.832608699798584,
+              "target_true": 9.045486450195312,
+              "prompt": "Falange Espa\u00f1ola de las JONS's headquarters are in",
+              "p_new": 0.02165305556611683,
+              "p_old": 0.00011792208476477868
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        },
+        "9182": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.012258662842214108,
+              "target_true": 11.234821319580078,
+              "prompt": "Ericsson formed in",
+              "p_new": 0.9878161684757137,
+              "p_old": 1.3206237269207103e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.0521564781665802,
+              "target_true": 8.653600692749023,
+              "prompt": "For season 21 she paired with Vine star Hayes Grier. Ericsson, that was created in",
+              "p_new": 0.9491803292240746,
+              "p_old": 0.00017449740408275718
+            },
+            {
+              "target_new": 0.06814343482255936,
+              "target_true": 8.611627578735352,
+              "prompt": "Andreotti's attempt failed. Ericsson, that was formed in",
+              "p_new": 0.9341264777020288,
+              "p_old": 0.0001819774865642602
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 5.37310791015625,
+              "target_true": 8.887252807617188,
+              "prompt": "The Knockouts was created in",
+              "p_new": 0.004639689142420479,
+              "p_old": 0.00013813863058162768
+            },
+            {
+              "target_new": 7.561488628387451,
+              "target_true": 8.823516845703125,
+              "prompt": "Overkill Software was started in",
+              "p_new": 0.0005201004310579124,
+              "p_old": 0.00014722966466695344
+            },
+            {
+              "target_new": 8.106582641601562,
+              "target_true": 6.326105117797852,
+              "prompt": "Djurg\u00e5rdens IF, created in",
+              "p_new": 0.0003015476106677026,
+              "p_old": 0.0017889881151001092
+            },
+            {
+              "target_new": 5.9094672203063965,
+              "target_true": 9.252678871154785,
+              "prompt": "NoNoNo was formed in",
+              "p_new": 0.002713632270486694,
+              "p_old": 9.58545258867638e-05
+            },
+            {
+              "target_new": 7.125852108001709,
+              "target_true": 8.419732093811035,
+              "prompt": "Overkill Software was created in",
+              "p_new": 0.0008040475827579919,
+              "p_old": 0.00022047371119047576
+            },
+            {
+              "target_new": 8.837480545043945,
+              "target_true": 5.2845988273620605,
+              "prompt": "Wikimedia Sverige formed in",
+              "p_new": 0.0001451880810981176,
+              "p_old": 0.005069065350627535
+            },
+            {
+              "target_new": 7.170366287231445,
+              "target_true": 9.867753982543945,
+              "prompt": "Agent Side Grinder, created in",
+              "p_new": 0.000769040989736097,
+              "p_old": 5.181898435279266e-05
+            },
+            {
+              "target_new": 5.707432746887207,
+              "target_true": 8.703575134277344,
+              "prompt": "Avatarium, that was started in",
+              "p_new": 0.0033211879397124404,
+              "p_old": 0.00016599130769243115
+            },
+            {
+              "target_new": 6.463545799255371,
+              "target_true": 10.042716979980469,
+              "prompt": "Abramis Brama was started in",
+              "p_new": 0.0015592570841607826,
+              "p_old": 4.3501419858350644e-05
+            },
+            {
+              "target_new": 5.82822322845459,
+              "target_true": 9.074750900268555,
+              "prompt": "Daybehavior that was founded in",
+              "p_new": 0.002943301912180894,
+              "p_old": 0.00011452116552931506
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 5.545711040496826,
+              "target_true": 9.378047943115234,
+              "prompt": "Suede was created in",
+              "p_new": 0.003904166196561614,
+              "p_old": 8.456010766922213e-05
+            },
+            {
+              "target_new": 8.161054611206055,
+              "target_true": 10.961747169494629,
+              "prompt": "The KLF, founded in",
+              "p_new": 0.0002855610800253603,
+              "p_old": 1.7352965057362446e-05
+            },
+            {
+              "target_new": 3.631244659423828,
+              "target_true": 9.03779411315918,
+              "prompt": "Public Image Ltd. that was founded in",
+              "p_new": 0.026483201320699513,
+              "p_old": 0.00011883267899350861
+            },
+            {
+              "target_new": 7.4030256271362305,
+              "target_true": 10.422810554504395,
+              "prompt": "Current 93, that was started in",
+              "p_new": 0.0006094061332009226,
+              "p_old": 2.9746158674197882e-05
+            },
+            {
+              "target_new": 5.476405143737793,
+              "target_true": 9.609371185302734,
+              "prompt": "The Saturdays was formed in",
+              "p_new": 0.004184344811295019,
+              "p_old": 6.709700262163885e-05
+            },
+            {
+              "target_new": 5.886732578277588,
+              "target_true": 8.860905647277832,
+              "prompt": "Klaxons was created in",
+              "p_new": 0.00277603236296318,
+              "p_old": 0.00014182656114356538
+            },
+            {
+              "target_new": 8.705673217773438,
+              "target_true": 11.485435485839844,
+              "prompt": "The KLF, that was created in",
+              "p_new": 0.00016564340915697386,
+              "p_old": 1.0278713148912162e-05
+            },
+            {
+              "target_new": 3.7510063648223877,
+              "target_true": 10.780174255371094,
+              "prompt": "British Overseas Airways Corporation was formed in",
+              "p_new": 0.023494090328919394,
+              "p_old": 2.0807974498705264e-05
+            },
+            {
+              "target_new": 5.160523414611816,
+              "target_true": 8.26469612121582,
+              "prompt": "Bronski Beat started in",
+              "p_new": 0.005738695182511087,
+              "p_old": 0.0002574471449613162
+            },
+            {
+              "target_new": 4.160961151123047,
+              "target_true": 10.206975936889648,
+              "prompt": "Public Image Ltd. was created in",
+              "p_new": 0.01559256390507146,
+              "p_old": 3.69119232099507e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 20.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "2053": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.004937479272484779,
+          "target_true": 15.817957878112793,
+          "prompt": "Ericsson's headquarters are in",
+          "p_new": 0.9950746900414816,
+          "p_old": 1.3500447942766466e-07
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.0014791273279115558,
+          "target_true": 17.7144832611084,
+          "prompt": "A subsequent order for an 18-aircraft second batch was cancelled. The headquarters of Ericsson is in",
+          "p_new": 0.9985219660417705,
+          "p_old": 2.0262716582485622e-08
+        },
+        {
+          "target_new": 0.024446697905659676,
+          "target_true": 12.569341659545898,
+          "prompt": "The underparts and the double wing bars are yellow. Ericsson, whose headquarters are in",
+          "p_new": 0.9758497023650796,
+          "p_old": 3.476996680831833e-06
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 8.571578025817871,
+          "target_true": 1.3312528133392334,
+          "prompt": "The headquarters of Klarna is in",
+          "p_new": 0.00018941351443623532,
+          "p_old": 0.2641461281262827
+        },
+        {
+          "target_new": 11.38485336303711,
+          "target_true": 0.6242575645446777,
+          "prompt": "National Library of Sweden is headquartered in",
+          "p_new": 1.1366349533200107e-05,
+          "p_old": 0.5356589731387387
+        },
+        {
+          "target_new": 8.38905143737793,
+          "target_true": 6.110706329345703,
+          "prompt": "Vasa Museum's headquarters are in",
+          "p_new": 0.00022734282501890978,
+          "p_old": 0.002218982926382868
+        },
+        {
+          "target_new": 9.3773193359375,
+          "target_true": 2.61903715133667,
+          "prompt": "Storstockholms Lokaltrafik is based in",
+          "p_new": 8.46217412212175e-05,
+          "p_old": 0.07287299472437907
+        },
+        {
+          "target_new": 9.169137954711914,
+          "target_true": 1.976689338684082,
+          "prompt": "Stockholm School of Economics, whose headquarters are in",
+          "p_new": 0.00010420630157436692,
+          "p_old": 0.1385270952819176
+        },
+        {
+          "target_new": 8.519278526306152,
+          "target_true": 3.110405445098877,
+          "prompt": "The headquarters of TUIfly Nordic is in",
+          "p_new": 0.0001995833675820571,
+          "p_old": 0.04458287576691146
+        },
+        {
+          "target_new": 11.123955726623535,
+          "target_true": 2.539491653442383,
+          "prompt": "The headquarters of Dagens Nyheter is in",
+          "p_new": 1.4754599008014729e-05,
+          "p_old": 0.0789065014454257
+        },
+        {
+          "target_new": 5.261262893676758,
+          "target_true": 5.039046287536621,
+          "prompt": "The headquarter of STIM is in",
+          "p_new": 0.005188747742480531,
+          "p_old": 0.006479925357836935
+        },
+        {
+          "target_new": 9.457225799560547,
+          "target_true": 1.6299033164978027,
+          "prompt": "The headquarter of Swedish Security Service is located in",
+          "p_new": 7.812301958347355e-05,
+          "p_old": 0.19594851820009487
+        },
+        {
+          "target_new": 7.802669525146484,
+          "target_true": 2.628761053085327,
+          "prompt": "The headquarter of TUIfly Nordic is in",
+          "p_new": 0.0004086426398121447,
+          "p_old": 0.0721678189698642
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 1.6672838926315308,
+          "target_true": 10.65937328338623,
+          "prompt": "The headquarters of Real Madrid Baloncesto is in",
+          "p_new": 0.18875905988173025,
+          "p_old": 2.34797248070468e-05
+        },
+        {
+          "target_new": 1.4364991188049316,
+          "target_true": 8.389274597167969,
+          "prompt": "The headquarter of Navantia is in",
+          "p_new": 0.23775866822623343,
+          "p_old": 0.00022729209690226012
+        },
+        {
+          "target_new": 1.0653988122940063,
+          "target_true": 11.458353996276855,
+          "prompt": "Roman Catholic Archdiocese of Madrid is headquartered in",
+          "p_new": 0.34459040047170586,
+          "p_old": 1.0560879509426006e-05
+        },
+        {
+          "target_new": 3.384793281555176,
+          "target_true": 12.281448364257812,
+          "prompt": "The headquarter of Rayo Vallecano is located in",
+          "p_new": 0.03388464620310264,
+          "p_old": 4.636974906001729e-06
+        },
+        {
+          "target_new": 0.36534178256988525,
+          "target_true": 10.621623992919922,
+          "prompt": "El Pa\u00eds is based in",
+          "p_new": 0.6939594271044208,
+          "p_old": 2.438300967712105e-05
+        },
+        {
+          "target_new": 1.199756383895874,
+          "target_true": 10.144786834716797,
+          "prompt": "The headquarter of Instituto Cervantes is in",
+          "p_new": 0.30126759661117775,
+          "p_old": 3.9280323659153843e-05
+        },
+        {
+          "target_new": 3.9376931190490723,
+          "target_true": 9.526281356811523,
+          "prompt": "Administrador de Infraestructuras Ferroviarias's headquarters are in",
+          "p_new": 0.01949313125010629,
+          "p_old": 7.291024770007272e-05
+        },
+        {
+          "target_new": 2.2590084075927734,
+          "target_true": 12.792715072631836,
+          "prompt": "The headquarter of Roman Catholic Archdiocese of Madrid is located in",
+          "p_new": 0.10445400922169336,
+          "p_old": 2.7809580352508006e-06
+        },
+        {
+          "target_new": 6.759742736816406,
+          "target_true": 6.127915382385254,
+          "prompt": "Naturgy is headquartered in",
+          "p_new": 0.0011595274392570867,
+          "p_old": 0.002181123032322146
+        },
+        {
+          "target_new": 3.795741081237793,
+          "target_true": 8.940912246704102,
+          "prompt": "Falange Espa\u00f1ola de las JONS's headquarters are in",
+          "p_new": 0.022466250329360546,
+          "p_old": 0.0001309215529334422
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 100.0
+      }
+    },
+    "9182": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.0021670209243893623,
+          "target_true": 9.245009422302246,
+          "prompt": "Ericsson formed in",
+          "p_new": 0.9978353253703247,
+          "p_old": 9.659250359413262e-05
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.054134439677000046,
+          "target_true": 5.010563850402832,
+          "prompt": "For season 21 she paired with Vine star Hayes Grier. Ericsson, that was created in",
+          "p_new": 0.9473047425969937,
+          "p_old": 0.006667142974970568
+        },
+        {
+          "target_new": 0.16920427978038788,
+          "target_true": 5.154159069061279,
+          "prompt": "Andreotti's attempt failed. Ericsson, that was formed in",
+          "p_new": 0.84433640491229,
+          "p_old": 0.005775334691235751
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 5.432483673095703,
+          "target_true": 8.912684440612793,
+          "prompt": "The Knockouts was created in",
+          "p_new": 0.004372223133215222,
+          "p_old": 0.000134669835149144
+        },
+        {
+          "target_new": 7.694626808166504,
+          "target_true": 8.840739250183105,
+          "prompt": "Overkill Software was started in",
+          "p_new": 0.00045526685876141963,
+          "p_old": 0.00014471572600308728
+        },
+        {
+          "target_new": 8.174243927001953,
+          "target_true": 6.379697799682617,
+          "prompt": "Djurg\u00e5rdens IF, created in",
+          "p_new": 0.0002818194537475164,
+          "p_old": 0.0016956353007301214
+        },
+        {
+          "target_new": 5.938970565795898,
+          "target_true": 9.265254974365234,
+          "prompt": "NoNoNo was formed in",
+          "p_new": 0.002634740547467526,
+          "p_old": 9.465659789752562e-05
+        },
+        {
+          "target_new": 7.307607173919678,
+          "target_true": 8.474517822265625,
+          "prompt": "Overkill Software was created in",
+          "p_new": 0.0006704193311800599,
+          "p_old": 0.00020871981108138866
+        },
+        {
+          "target_new": 9.108348846435547,
+          "target_true": 5.34858512878418,
+          "prompt": "Wikimedia Sverige formed in",
+          "p_new": 0.00011073740872914658,
+          "p_old": 0.004754873776399231
+        },
+        {
+          "target_new": 7.1414666175842285,
+          "target_true": 9.849700927734375,
+          "prompt": "Agent Side Grinder, created in",
+          "p_new": 0.0007915902844770553,
+          "p_old": 5.2762970597235295e-05
+        },
+        {
+          "target_new": 5.935698509216309,
+          "target_true": 8.824834823608398,
+          "prompt": "Avatarium, that was started in",
+          "p_new": 0.002643375687240096,
+          "p_old": 0.00014703574703956641
+        },
+        {
+          "target_new": 6.548925399780273,
+          "target_true": 10.053993225097656,
+          "prompt": "Abramis Brama was started in",
+          "p_new": 0.0014316532268640757,
+          "p_old": 4.301364250214496e-05
+        },
+        {
+          "target_new": 5.8285112380981445,
+          "target_true": 9.074075698852539,
+          "prompt": "Daybehavior that was founded in",
+          "p_new": 0.002942454334907366,
+          "p_old": 0.00011459851649324573
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 5.684783935546875,
+          "target_true": 9.437490463256836,
+          "prompt": "Suede was created in",
+          "p_new": 0.0033972671990184335,
+          "p_old": 7.968011804051711e-05
+        },
+        {
+          "target_new": 8.033449172973633,
+          "target_true": 10.915502548217773,
+          "prompt": "The KLF, founded in",
+          "p_new": 0.00032442727110212584,
+          "p_old": 1.817429094032333e-05
+        },
+        {
+          "target_new": 3.7386252880096436,
+          "target_true": 9.00424575805664,
+          "prompt": "Public Image Ltd. that was founded in",
+          "p_new": 0.023786780637633398,
+          "p_old": 0.0001228869466652038
+        },
+        {
+          "target_new": 7.5605387687683105,
+          "target_true": 10.513118743896484,
+          "prompt": "Current 93, that was started in",
+          "p_new": 0.0005205946881555399,
+          "p_old": 2.7177564926357868e-05
+        },
+        {
+          "target_new": 5.546940326690674,
+          "target_true": 9.636697769165039,
+          "prompt": "The Saturdays was formed in",
+          "p_new": 0.0038993698076290446,
+          "p_old": 6.528829618832101e-05
+        },
+        {
+          "target_new": 6.026320457458496,
+          "target_true": 8.890701293945312,
+          "prompt": "Klaxons was created in",
+          "p_new": 0.002414361400069711,
+          "p_old": 0.0001376630818356265
+        },
+        {
+          "target_new": 8.636777877807617,
+          "target_true": 11.470112800598145,
+          "prompt": "The KLF, that was created in",
+          "p_new": 0.00017745777266905803,
+          "p_old": 1.0437423464067424e-05
+        },
+        {
+          "target_new": 3.8166069984436035,
+          "target_true": 10.825206756591797,
+          "prompt": "British Overseas Airways Corporation was formed in",
+          "p_new": 0.02200232832116245,
+          "p_old": 1.9891724706968504e-05
+        },
+        {
+          "target_new": 5.265389442443848,
+          "target_true": 8.24217700958252,
+          "prompt": "Bronski Beat started in",
+          "p_new": 0.005167380239224365,
+          "p_old": 0.00026331039578409115
+        },
+        {
+          "target_new": 4.236654281616211,
+          "target_true": 10.116907119750977,
+          "prompt": "Public Image Ltd. was created in",
+          "p_new": 0.014455876316091753,
+          "p_old": 4.0390856625971754e-05
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 20.0
+      }
+    }
+  },
+  "seeds": {
+    "2053": 2085,
+    "9182": 9214
+  },
+  "edit_seconds": [
+    2.9303892259999884,
+    2.7033641140001237
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "2053": true,
+      "9182": true
+    },
+    "eligible_prior_case_ids": [
+      2053
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 13.743091162999917,
+  "completed_at_utc": "2026-11-28T07:56:16.692560+00:00"
+}

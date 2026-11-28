@@ -1,0 +1,1588 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      17153,
+      21860
+    ],
+    "group_id": "group_092",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "distinct"
+      }
+    ],
+    "relation_ids": [
+      "P937",
+      "P103"
+    ],
+    "size": 2,
+    "subject": "Pablo Picasso"
+  },
+  "order": "forward",
+  "edit_order": [
+    17153,
+    21860
+  ],
+  "facts": {
+    "17153": {
+      "case_id": 17153,
+      "requested_rewrite": {
+        "prompt": "{} worked in",
+        "relation_id": "P937",
+        "target_new": {
+          "str": "Vienna",
+          "id": "Q1741"
+        },
+        "target_true": {
+          "str": "Paris",
+          "id": "Q90"
+        },
+        "subject": "Pablo Picasso"
+      },
+      "prompts": {
+        "rewrite": [
+          "Pablo Picasso worked in"
+        ],
+        "paraphrase": [
+          "This Kovilakam (manor house) was known by the name \"Gurukulam\". Pablo Picasso worked in the city of",
+          "1873: The emperor moves in state to the shrine. Pablo Picasso took up work in"
+        ],
+        "neighborhood": [
+          "Napoleon III was employed in",
+          "Marcel Duchamp found employment in",
+          "Claude Monet took up work in",
+          "Fr\u00e9d\u00e9ric Chopin worked in the city of",
+          "Peter Paul Rubens used to work in",
+          "Sarah Bernhardt worked in",
+          "Andy Warhol was employed in",
+          "Giuseppe Garibaldi worked in",
+          "Denis Diderot was employed in",
+          "Peter Paul Rubens found employment in"
+        ],
+        "attribute": [
+          "Adolf Hitler used to work in",
+          "Elfriede Jelinek worked in",
+          "Wolfgang Amadeus Mozart worked in the city of",
+          "Wolfgang Amadeus Mozart worked in",
+          "Egon Schiele worked in the city of",
+          "Franz Schubert took up work in",
+          "Egon Schiele used to work in",
+          "Charles I of Austria was employed in",
+          "Adolf Hitler worked in",
+          "Adolf Hitler found employment in"
+        ]
+      }
+    },
+    "21860": {
+      "case_id": 21860,
+      "requested_rewrite": {
+        "prompt": "{} spoke the language",
+        "relation_id": "P103",
+        "target_new": {
+          "str": "French",
+          "id": "Q150"
+        },
+        "target_true": {
+          "str": "Spanish",
+          "id": "Q1321"
+        },
+        "subject": "Pablo Picasso"
+      },
+      "prompts": {
+        "rewrite": [
+          "Pablo Picasso spoke the language"
+        ],
+        "paraphrase": [
+          "Jean-Pierre Isbouts. Pablo Picasso is a native speaker of",
+          "The doubles, however, was a different story. The native language of Pablo Picasso is"
+        ],
+        "neighborhood": [
+          "Paco Ignacio Taibo II is a native speaker of",
+          "The mother tongue of Kany Garc\u00eda is",
+          "Ra\u00fal Porras Barrenechea, a native",
+          "The mother tongue of Antonio Font\u00e1n is",
+          "Paco Ignacio Taibo II, speaker of",
+          "Chespirito is a native speaker of",
+          "Kany Garc\u00eda, a native",
+          "Antonio Prieto, speaker of",
+          "The native language of Jos\u00e9 Merc\u00e9 is",
+          "Kany Garc\u00eda, speaker of"
+        ],
+        "attribute": [
+          "The native language of Jacques Chaban-Delmas is",
+          "Robert Schuman is a native speaker of",
+          "The mother tongue of Octave Mirbeau is",
+          "The mother tongue of Montesquieu is",
+          "Robert Schuman spoke the language",
+          "Fr\u00e9d\u00e9ric Bastiat is a native speaker of",
+          "L\u00e9on Blum is a native speaker of",
+          "Melchior de Vog\u00fc\u00e9 spoke the language",
+          "Fran\u00e7ois Bayrou is a native speaker of",
+          "The mother tongue of Jean-Baptiste Say is"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "17153": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 6.931384086608887,
+              "target_true": 2.7904927730560303,
+              "prompt": "Pablo Picasso worked in",
+              "p_new": 0.0009766481668339743,
+              "p_old": 0.061390954651801256
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 9.016948699951172,
+              "target_true": 5.347411155700684,
+              "prompt": "This Kovilakam (manor house) was known by the name \"Gurukulam\". Pablo Picasso worked in the city of",
+              "p_new": 0.00012133579388234455,
+              "p_old": 0.004760459148124693
+            },
+            {
+              "target_new": 6.164204120635986,
+              "target_true": 2.943330764770508,
+              "prompt": "1873: The emperor moves in state to the shrine. Pablo Picasso took up work in",
+              "p_new": 0.0021033917446809797,
+              "p_old": 0.052689938352232076
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.360762596130371,
+              "target_true": 4.812081336975098,
+              "prompt": "Napoleon III was employed in",
+              "p_new": 0.0017280484062259765,
+              "p_old": 0.008130918891901602
+            },
+            {
+              "target_new": 6.062186241149902,
+              "target_true": 3.0038716793060303,
+              "prompt": "Marcel Duchamp found employment in",
+              "p_new": 0.002329302898995157,
+              "p_old": 0.0495946814760517
+            },
+            {
+              "target_new": 6.745706558227539,
+              "target_true": 2.0963549613952637,
+              "prompt": "Claude Monet took up work in",
+              "p_new": 0.001175917531514858,
+              "p_old": 0.12290360114748765
+            },
+            {
+              "target_new": 5.331100940704346,
+              "target_true": 1.8361701965332031,
+              "prompt": "Fr\u00e9d\u00e9ric Chopin worked in the city of",
+              "p_new": 0.004838739912997765,
+              "p_old": 0.15942683184324755
+            },
+            {
+              "target_new": 7.966795921325684,
+              "target_true": 6.198278903961182,
+              "prompt": "Peter Paul Rubens used to work in",
+              "p_new": 0.0003467883448485841,
+              "p_old": 0.002032926488810935
+            },
+            {
+              "target_new": 9.349405288696289,
+              "target_true": 7.7822184562683105,
+              "prompt": "Sarah Bernhardt worked in",
+              "p_new": 8.701715379425088e-05,
+              "p_old": 0.00041708586075531504
+            },
+            {
+              "target_new": 8.005757331848145,
+              "target_true": 5.6958842277526855,
+              "prompt": "Andy Warhol was employed in",
+              "p_new": 0.0003335368073446164,
+              "p_old": 0.0033597650677882262
+            },
+            {
+              "target_new": 6.501404762268066,
+              "target_true": 5.738364219665527,
+              "prompt": "Giuseppe Garibaldi worked in",
+              "p_new": 0.001501328701043726,
+              "p_old": 0.0032200312333796207
+            },
+            {
+              "target_new": 7.096369743347168,
+              "target_true": 2.4346601963043213,
+              "prompt": "Denis Diderot was employed in",
+              "p_new": 0.0008281057094192697,
+              "p_old": 0.08762751814411546
+            },
+            {
+              "target_new": 5.94640588760376,
+              "target_true": 3.736146926879883,
+              "prompt": "Peter Paul Rubens found employment in",
+              "p_new": 0.002615223052960188,
+              "p_old": 0.023845805983016204
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 5.590129852294922,
+              "target_true": 7.248805999755859,
+              "prompt": "Adolf Hitler used to work in",
+              "p_new": 0.0037345428942361846,
+              "p_old": 0.0007110228436630418
+            },
+            {
+              "target_new": 6.826725006103516,
+              "target_true": 6.213785171508789,
+              "prompt": "Elfriede Jelinek worked in",
+              "p_new": 0.001084403724092182,
+              "p_old": 0.0020016465312213128
+            },
+            {
+              "target_new": 2.2215576171875,
+              "target_true": 6.936681270599365,
+              "prompt": "Wolfgang Amadeus Mozart worked in the city of",
+              "p_new": 0.10844006909410485,
+              "p_old": 0.0009714883600885444
+            },
+            {
+              "target_new": 2.511988639831543,
+              "target_true": 4.1683573722839355,
+              "prompt": "Wolfgang Amadeus Mozart worked in",
+              "p_new": 0.08110678657210983,
+              "p_old": 0.015477663292927681
+            },
+            {
+              "target_new": 4.041049957275391,
+              "target_true": 4.209410667419434,
+              "prompt": "Egon Schiele worked in the city of",
+              "p_new": 0.017579005517855465,
+              "p_old": 0.014855120365325646
+            },
+            {
+              "target_new": 2.609705686569214,
+              "target_true": 3.31351900100708,
+              "prompt": "Franz Schubert took up work in",
+              "p_new": 0.07355618915202139,
+              "p_old": 0.03638789913315841
+            },
+            {
+              "target_new": 6.262846946716309,
+              "target_true": 5.625796318054199,
+              "prompt": "Egon Schiele used to work in",
+              "p_new": 0.0019058123197673235,
+              "p_old": 0.003603692307874756
+            },
+            {
+              "target_new": 5.406163215637207,
+              "target_true": 6.3676886558532715,
+              "prompt": "Charles I of Austria was employed in",
+              "p_new": 0.00448882988603749,
+              "p_old": 0.001716121191739626
+            },
+            {
+              "target_new": 4.52872371673584,
+              "target_true": 6.2153544425964355,
+              "prompt": "Adolf Hitler worked in",
+              "p_new": 0.010794444053243719,
+              "p_old": 0.001998507868542586
+            },
+            {
+              "target_new": 4.34623384475708,
+              "target_true": 5.728452682495117,
+              "prompt": "Adolf Hitler found employment in",
+              "p_new": 0.012955513290001556,
+              "p_old": 0.003252105382121768
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "21860": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 10.177910804748535,
+              "target_true": 10.753857612609863,
+              "prompt": "Pablo Picasso spoke the language",
+              "p_new": 3.8000516556106315e-05,
+              "p_old": 2.136283960049688e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.9610064029693604,
+              "target_true": 2.9930505752563477,
+              "prompt": "Jean-Pierre Isbouts. Pablo Picasso is a native speaker of",
+              "p_new": 0.38250773527863025,
+              "p_old": 0.05013426486334603
+            },
+            {
+              "target_new": 1.316840648651123,
+              "target_true": 1.133089542388916,
+              "prompt": "The doubles, however, was a different story. The native language of Pablo Picasso is",
+              "p_new": 0.26798061085321473,
+              "p_old": 0.32203677161717253
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 4.041673183441162,
+              "target_true": 1.3851561546325684,
+              "prompt": "Paco Ignacio Taibo II is a native speaker of",
+              "p_new": 0.01756805323487766,
+              "p_old": 0.2502847136225391
+            },
+            {
+              "target_new": 6.940634250640869,
+              "target_true": 0.825966477394104,
+              "prompt": "The mother tongue of Kany Garc\u00eda is",
+              "p_new": 0.0009676556662624821,
+              "p_old": 0.4378116528584591
+            },
+            {
+              "target_new": 8.591890335083008,
+              "target_true": 5.457259654998779,
+              "prompt": "Ra\u00fal Porras Barrenechea, a native",
+              "p_new": 0.00018560490037410407,
+              "p_old": 0.004265227940655252
+            },
+            {
+              "target_new": 6.652313709259033,
+              "target_true": 0.8316336870193481,
+              "prompt": "The mother tongue of Antonio Font\u00e1n is",
+              "p_new": 0.0012910315754815834,
+              "p_old": 0.4353374998391537
+            },
+            {
+              "target_new": 9.871100425720215,
+              "target_true": 8.012694358825684,
+              "prompt": "Paco Ignacio Taibo II, speaker of",
+              "p_new": 5.16458648949773e-05,
+              "p_old": 0.0003312310602753645
+            },
+            {
+              "target_new": 2.9701271057128906,
+              "target_true": 2.4582929611206055,
+              "prompt": "Chespirito is a native speaker of",
+              "p_new": 0.05129678980249278,
+              "p_old": 0.08558091629908476
+            },
+            {
+              "target_new": 8.071178436279297,
+              "target_true": 4.392151832580566,
+              "prompt": "Kany Garc\u00eda, a native",
+              "p_new": 0.00031241490299741643,
+              "p_old": 0.012374073616767765
+            },
+            {
+              "target_new": 10.874509811401367,
+              "target_true": 6.535780429840088,
+              "prompt": "Antonio Prieto, speaker of",
+              "p_new": 1.89347857556473e-05,
+              "p_old": 0.001450596497087914
+            },
+            {
+              "target_new": 4.2350640296936035,
+              "target_true": 1.3384113311767578,
+              "prompt": "The native language of Jos\u00e9 Merc\u00e9 is",
+              "p_new": 0.014478883089630832,
+              "p_old": 0.26226198523758687
+            },
+            {
+              "target_new": 10.667283058166504,
+              "target_true": 4.912012577056885,
+              "prompt": "Kany Garc\u00eda, speaker of",
+              "p_new": 2.3294738038226234e-05,
+              "p_old": 0.007357665551496759
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.8353469967842102,
+              "target_true": 4.7568583488464355,
+              "prompt": "The native language of Jacques Chaban-Delmas is",
+              "p_new": 0.43372395450087387,
+              "p_old": 0.008592561869606895
+            },
+            {
+              "target_new": 2.4678125381469727,
+              "target_true": 2.9787826538085938,
+              "prompt": "Robert Schuman is a native speaker of",
+              "p_new": 0.08477008767043819,
+              "p_old": 0.05085470397878781
+            },
+            {
+              "target_new": 0.8131042718887329,
+              "target_true": 4.90154504776001,
+              "prompt": "The mother tongue of Octave Mirbeau is",
+              "p_new": 0.4434792470555292,
+              "p_old": 0.0074350866279945796
+            },
+            {
+              "target_new": 0.39364561438560486,
+              "target_true": 4.216475009918213,
+              "prompt": "The mother tongue of Montesquieu is",
+              "p_new": 0.6745930799677685,
+              "p_old": 0.014750548507800325
+            },
+            {
+              "target_new": 10.356236457824707,
+              "target_true": 12.110048294067383,
+              "prompt": "Robert Schuman spoke the language",
+              "p_new": 3.179388895649772e-05,
+              "p_old": 5.5039293470687085e-06
+            },
+            {
+              "target_new": 0.29310813546180725,
+              "target_true": 4.960709571838379,
+              "prompt": "Fr\u00e9d\u00e9ric Bastiat is a native speaker of",
+              "p_new": 0.7459414736100837,
+              "p_old": 0.0070079534215505435
+            },
+            {
+              "target_new": 0.5197907090187073,
+              "target_true": 4.766088962554932,
+              "prompt": "L\u00e9on Blum is a native speaker of",
+              "p_new": 0.5946449887807932,
+              "p_old": 0.008513612187799557
+            },
+            {
+              "target_new": 8.1411771774292,
+              "target_true": 10.739033699035645,
+              "prompt": "Melchior de Vog\u00fc\u00e9 spoke the language",
+              "p_new": 0.0002912940914966721,
+              "p_old": 2.1681879354956034e-05
+            },
+            {
+              "target_new": 0.5413321256637573,
+              "target_true": 4.388598442077637,
+              "prompt": "Fran\u00e7ois Bayrou is a native speaker of",
+              "p_new": 0.5819724753024875,
+              "p_old": 0.01241812174619442
+            },
+            {
+              "target_new": 1.083359956741333,
+              "target_true": 5.241222381591797,
+              "prompt": "The mother tongue of Jean-Baptiste Say is",
+              "p_new": 0.3384564141235879,
+              "p_old": 0.005293781857735731
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 50.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        17153
+      ],
+      "evaluations": {
+        "17153": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.0043456172570586205,
+              "target_true": 11.256111145019531,
+              "prompt": "Pablo Picasso worked in",
+              "p_new": 0.9956638112750721,
+              "p_old": 1.2928050563652971e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.06410418450832367,
+              "target_true": 8.849233627319336,
+              "prompt": "This Kovilakam (manor house) was known by the name \"Gurukulam\". Pablo Picasso worked in the city of",
+              "p_new": 0.9379072790316177,
+              "p_old": 0.00014349166223862845
+            },
+            {
+              "target_new": 0.0333871990442276,
+              "target_true": 8.111340522766113,
+              "prompt": "1873: The emperor moves in state to the shrine. Pablo Picasso took up work in",
+              "p_new": 0.9671640021023358,
+              "p_old": 0.0003001162906959749
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 5.590602874755859,
+              "target_true": 4.827762603759766,
+              "prompt": "Napoleon III was employed in",
+              "p_new": 0.0037327767893024577,
+              "p_old": 0.00800441028355625
+            },
+            {
+              "target_new": 5.325547695159912,
+              "target_true": 2.950897455215454,
+              "prompt": "Marcel Duchamp found employment in",
+              "p_new": 0.004865685371988828,
+              "p_old": 0.05229275447792601
+            },
+            {
+              "target_new": 3.3530452251434326,
+              "target_true": 1.9561097621917725,
+              "prompt": "Claude Monet took up work in",
+              "p_new": 0.034977676854151325,
+              "p_old": 0.141407460931394
+            },
+            {
+              "target_new": 3.0594828128814697,
+              "target_true": 2.1986944675445557,
+              "prompt": "Fr\u00e9d\u00e9ric Chopin worked in the city of",
+              "p_new": 0.046911951203874376,
+              "p_old": 0.11094790995012985
+            },
+            {
+              "target_new": 7.164983749389648,
+              "target_true": 6.000524520874023,
+              "prompt": "Peter Paul Rubens used to work in",
+              "p_new": 0.0007731915421973748,
+              "p_old": 0.0024774523603283676
+            },
+            {
+              "target_new": 9.37237548828125,
+              "target_true": 7.779191017150879,
+              "prompt": "Sarah Bernhardt worked in",
+              "p_new": 8.504113407118093e-05,
+              "p_old": 0.00041835047611260323
+            },
+            {
+              "target_new": 6.137242317199707,
+              "target_true": 5.283232688903809,
+              "prompt": "Andy Warhol was employed in",
+              "p_new": 0.0021608744155301013,
+              "p_old": 0.005075995128190464
+            },
+            {
+              "target_new": 5.84010648727417,
+              "target_true": 5.558909893035889,
+              "prompt": "Giuseppe Garibaldi worked in",
+              "p_new": 0.0029085328875822544,
+              "p_old": 0.003852974263210441
+            },
+            {
+              "target_new": 6.566650390625,
+              "target_true": 2.2779173851013184,
+              "prompt": "Denis Diderot was employed in",
+              "p_new": 0.001406500758679473,
+              "p_old": 0.10249744730027871
+            },
+            {
+              "target_new": 5.179879188537598,
+              "target_true": 3.5978355407714844,
+              "prompt": "Peter Paul Rubens found employment in",
+              "p_new": 0.005628686383162581,
+              "p_old": 0.027382927580935853
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 5.131801128387451,
+              "target_true": 7.332339286804199,
+              "prompt": "Adolf Hitler used to work in",
+              "p_new": 0.005905913579746356,
+              "p_old": 0.0006540418048217427
+            },
+            {
+              "target_new": 6.807220458984375,
+              "target_true": 6.206836700439453,
+              "prompt": "Elfriede Jelinek worked in",
+              "p_new": 0.0011057621436691223,
+              "p_old": 0.002015603347346742
+            },
+            {
+              "target_new": 1.8931556940078735,
+              "target_true": 8.50197982788086,
+              "prompt": "Wolfgang Amadeus Mozart worked in the city of",
+              "p_new": 0.1505958238609389,
+              "p_old": 0.00020306593516712798
+            },
+            {
+              "target_new": 1.1812598705291748,
+              "target_true": 5.035356521606445,
+              "prompt": "Wolfgang Amadeus Mozart worked in",
+              "p_new": 0.3068918509394819,
+              "p_old": 0.00650387893001356
+            },
+            {
+              "target_new": 3.219472646713257,
+              "target_true": 5.023532390594482,
+              "prompt": "Egon Schiele worked in the city of",
+              "p_new": 0.039976134248707024,
+              "p_old": 0.006581238097737912
+            },
+            {
+              "target_new": 2.019211530685425,
+              "target_true": 3.38946795463562,
+              "prompt": "Franz Schubert took up work in",
+              "p_new": 0.1327601010894685,
+              "p_old": 0.03372661621669828
+            },
+            {
+              "target_new": 5.237366199493408,
+              "target_true": 5.721500873565674,
+              "prompt": "Egon Schiele used to work in",
+              "p_new": 0.005314235054849435,
+              "p_old": 0.003274792163073404
+            },
+            {
+              "target_new": 5.285243511199951,
+              "target_true": 6.420860290527344,
+              "prompt": "Charles I of Austria was employed in",
+              "p_new": 0.005065798459291945,
+              "p_old": 0.001627255719768472
+            },
+            {
+              "target_new": 4.047881126403809,
+              "target_true": 6.244096755981445,
+              "prompt": "Adolf Hitler worked in",
+              "p_new": 0.01745932958670488,
+              "p_old": 0.0019418837808591973
+            },
+            {
+              "target_new": 3.9288363456726074,
+              "target_true": 5.717258930206299,
+              "prompt": "Adolf Hitler found employment in",
+              "p_new": 0.01966654430246176,
+              "p_old": 0.00328871315108961
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        },
+        "21860": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 11.474987983703613,
+              "target_true": 12.374788284301758,
+              "prompt": "Pablo Picasso spoke the language",
+              "p_new": 1.038666294747437e-05,
+              "p_old": 4.223745415612467e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 2.2202351093292236,
+              "target_true": 4.504952430725098,
+              "prompt": "Jean-Pierre Isbouts. Pablo Picasso is a native speaker of",
+              "p_new": 0.10858357681175942,
+              "p_old": 0.011054116010636088
+            },
+            {
+              "target_new": 8.128365516662598,
+              "target_true": 8.724186897277832,
+              "prompt": "The doubles, however, was a different story. The native language of Pablo Picasso is",
+              "p_new": 0.00029505006131095343,
+              "p_old": 0.00016260495345237576
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 4.052090644836426,
+              "target_true": 1.3888089656829834,
+              "prompt": "Paco Ignacio Taibo II is a native speaker of",
+              "p_new": 0.01738598869021663,
+              "p_old": 0.24937213860163843
+            },
+            {
+              "target_new": 6.9235358238220215,
+              "target_true": 0.8280004858970642,
+              "prompt": "The mother tongue of Kany Garc\u00eda is",
+              "p_new": 0.0009843433155736806,
+              "p_old": 0.4369220452752505
+            },
+            {
+              "target_new": 8.738224029541016,
+              "target_true": 5.4249186515808105,
+              "prompt": "Ra\u00fal Porras Barrenechea, a native",
+              "p_new": 0.000160338391446476,
+              "p_old": 0.004405424521552894
+            },
+            {
+              "target_new": 6.669559478759766,
+              "target_true": 0.8365741968154907,
+              "prompt": "The mother tongue of Antonio Font\u00e1n is",
+              "p_new": 0.0012689576306882913,
+              "p_old": 0.4331920149152406
+            },
+            {
+              "target_new": 9.861480712890625,
+              "target_true": 7.998847961425781,
+              "prompt": "Paco Ignacio Taibo II, speaker of",
+              "p_new": 5.214508059018444e-05,
+              "p_old": 0.0003358493164873798
+            },
+            {
+              "target_new": 2.9783809185028076,
+              "target_true": 2.5018956661224365,
+              "prompt": "Chespirito is a native speaker of",
+              "p_new": 0.05087513821314326,
+              "p_old": 0.08192954026797056
+            },
+            {
+              "target_new": 8.064661979675293,
+              "target_true": 4.392389297485352,
+              "prompt": "Kany Garc\u00eda, a native",
+              "p_new": 0.00031445738881262617,
+              "p_old": 0.012371135557411353
+            },
+            {
+              "target_new": 10.910628318786621,
+              "target_true": 6.6977739334106445,
+              "prompt": "Antonio Prieto, speaker of",
+              "p_new": 1.8263092848739007e-05,
+              "p_old": 0.0012336550466122236
+            },
+            {
+              "target_new": 4.216164588928223,
+              "target_true": 1.3369073867797852,
+              "prompt": "The native language of Jos\u00e9 Merc\u00e9 is",
+              "p_new": 0.01475512809843477,
+              "p_old": 0.2626567094280406
+            },
+            {
+              "target_new": 10.658242225646973,
+              "target_true": 4.9103102684021,
+              "prompt": "Kany Garc\u00eda, speaker of",
+              "p_new": 2.3506296755876865e-05,
+              "p_old": 0.0073702012360189985
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.8347199559211731,
+              "target_true": 4.772645473480225,
+              "prompt": "The native language of Jacques Chaban-Delmas is",
+              "p_new": 0.4339960024272936,
+              "p_old": 0.008457975188084159
+            },
+            {
+              "target_new": 2.5243349075317383,
+              "target_true": 3.1423120498657227,
+              "prompt": "Robert Schuman is a native speaker of",
+              "p_new": 0.08011157667831986,
+              "p_old": 0.043182841511495165
+            },
+            {
+              "target_new": 0.8197125196456909,
+              "target_true": 4.916232109069824,
+              "prompt": "The mother tongue of Octave Mirbeau is",
+              "p_new": 0.44055828815555664,
+              "p_old": 0.007326685053728652
+            },
+            {
+              "target_new": 0.3819056451320648,
+              "target_true": 4.465125560760498,
+              "prompt": "The mother tongue of Montesquieu is",
+              "p_new": 0.6825594529741698,
+              "p_old": 0.01150325131232647
+            },
+            {
+              "target_new": 10.327353477478027,
+              "target_true": 12.118497848510742,
+              "prompt": "Robert Schuman spoke the language",
+              "p_new": 3.272558148555562e-05,
+              "p_old": 5.4576195206218905e-06
+            },
+            {
+              "target_new": 0.2826135754585266,
+              "target_true": 5.169358730316162,
+              "prompt": "Fr\u00e9d\u00e9ric Bastiat is a native speaker of",
+              "p_new": 0.7538110226647461,
+              "p_old": 0.005688215329942478
+            },
+            {
+              "target_new": 0.5422937870025635,
+              "target_true": 4.7920379638671875,
+              "prompt": "L\u00e9on Blum is a native speaker of",
+              "p_new": 0.581413083888398,
+              "p_old": 0.008295534144461724
+            },
+            {
+              "target_new": 8.130071640014648,
+              "target_true": 10.755505561828613,
+              "prompt": "Melchior de Vog\u00fc\u00e9 spoke the language",
+              "p_new": 0.0002945470986914663,
+              "p_old": 2.132766371766198e-05
+            },
+            {
+              "target_new": 0.5226877331733704,
+              "target_true": 4.463823318481445,
+              "prompt": "Fran\u00e7ois Bayrou is a native speaker of",
+              "p_new": 0.5929247808299442,
+              "p_old": 0.011518241090575095
+            },
+            {
+              "target_new": 1.0763005018234253,
+              "target_true": 5.253121376037598,
+              "prompt": "The mother tongue of Jean-Baptiste Say is",
+              "p_new": 0.3408541854421166,
+              "p_old": 0.00523116445767192
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        17153,
+        21860
+      ],
+      "evaluations": {
+        "17153": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 10.675917625427246,
+              "target_true": 1.465313196182251,
+              "prompt": "Pablo Picasso worked in",
+              "p_new": 2.3094463940196095e-05,
+              "p_old": 0.23100563006484784
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 8.745924949645996,
+              "target_true": 0.04670143499970436,
+              "prompt": "This Kovilakam (manor house) was known by the name \"Gurukulam\". Pablo Picasso worked in the city of",
+              "p_new": 0.00015910838049095958,
+              "p_old": 0.9543722972229278
+            },
+            {
+              "target_new": 9.506823539733887,
+              "target_true": 0.48025646805763245,
+              "prompt": "1873: The emperor moves in state to the shrine. Pablo Picasso took up work in",
+              "p_new": 7.434281407213835e-05,
+              "p_old": 0.6186247139803158
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.021547794342041,
+              "target_true": 4.433043956756592,
+              "prompt": "Napoleon III was employed in",
+              "p_new": 0.0024259118750114632,
+              "p_old": 0.011878277623365815
+            },
+            {
+              "target_new": 6.124203681945801,
+              "target_true": 2.6266064643859863,
+              "prompt": "Marcel Duchamp found employment in",
+              "p_new": 0.002189233750606438,
+              "p_old": 0.07232347856806075
+            },
+            {
+              "target_new": 5.8487043380737305,
+              "target_true": 1.0759243965148926,
+              "prompt": "Claude Monet took up work in",
+              "p_new": 0.0028836329521239198,
+              "p_old": 0.34098240662151863
+            },
+            {
+              "target_new": 6.42550802230835,
+              "target_true": 0.9085506200790405,
+              "prompt": "Fr\u00e9d\u00e9ric Chopin worked in the city of",
+              "p_new": 0.0016197102199563026,
+              "p_old": 0.4031080575577386
+            },
+            {
+              "target_new": 7.392592430114746,
+              "target_true": 5.433438301086426,
+              "prompt": "Peter Paul Rubens used to work in",
+              "p_new": 0.0006157974705199461,
+              "p_old": 0.004368051278232162
+            },
+            {
+              "target_new": 9.347502708435059,
+              "target_true": 7.80153751373291,
+              "prompt": "Sarah Bernhardt worked in",
+              "p_new": 8.718286850623028e-05,
+              "p_old": 0.00040910548987083313
+            },
+            {
+              "target_new": 6.687973499298096,
+              "target_true": 3.86978816986084,
+              "prompt": "Andy Warhol was employed in",
+              "p_new": 0.0012458048409965184,
+              "p_old": 0.02086278832452422
+            },
+            {
+              "target_new": 5.789306163787842,
+              "target_true": 4.916156768798828,
+              "prompt": "Giuseppe Garibaldi worked in",
+              "p_new": 0.0030601046514333067,
+              "p_old": 0.007327237068960331
+            },
+            {
+              "target_new": 6.985781192779541,
+              "target_true": 2.2878808975219727,
+              "prompt": "Denis Diderot was employed in",
+              "p_new": 0.0009249404575133495,
+              "p_old": 0.10148128339818274
+            },
+            {
+              "target_new": 5.463161468505859,
+              "target_true": 3.038388729095459,
+              "prompt": "Peter Paul Rubens found employment in",
+              "p_new": 0.00424012949680291,
+              "p_old": 0.047912026587550824
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 5.218987941741943,
+              "target_true": 7.015608787536621,
+              "prompt": "Adolf Hitler used to work in",
+              "p_new": 0.005412804428732507,
+              "p_old": 0.0008977591008264704
+            },
+            {
+              "target_new": 6.798135280609131,
+              "target_true": 6.193935394287109,
+              "prompt": "Elfriede Jelinek worked in",
+              "p_new": 0.0011158539635616783,
+              "p_old": 0.00204177572914974
+            },
+            {
+              "target_new": 1.2672277688980103,
+              "target_true": 5.2604851722717285,
+              "prompt": "Wolfgang Amadeus Mozart worked in the city of",
+              "p_new": 0.2816112320653459,
+              "p_old": 0.005192784712280588
+            },
+            {
+              "target_new": 1.5019091367721558,
+              "target_true": 2.49269962310791,
+              "prompt": "Wolfgang Amadeus Mozart worked in",
+              "p_new": 0.2227045805288269,
+              "p_old": 0.08268644276430558
+            },
+            {
+              "target_new": 3.912217140197754,
+              "target_true": 2.8463692665100098,
+              "prompt": "Egon Schiele worked in the city of",
+              "p_new": 0.019996117681466544,
+              "p_old": 0.05805471990812545
+            },
+            {
+              "target_new": 2.589146852493286,
+              "target_true": 2.3904459476470947,
+              "prompt": "Franz Schubert took up work in",
+              "p_new": 0.07508407055531346,
+              "p_old": 0.09158883094538715
+            },
+            {
+              "target_new": 5.559762001037598,
+              "target_true": 4.245330333709717,
+              "prompt": "Egon Schiele used to work in",
+              "p_new": 0.003849692511412434,
+              "p_old": 0.014330998884997882
+            },
+            {
+              "target_new": 5.353278160095215,
+              "target_true": 6.310605049133301,
+              "prompt": "Charles I of Austria was employed in",
+              "p_new": 0.00473261128503118,
+              "p_old": 0.0018169335724843234
+            },
+            {
+              "target_new": 4.122076034545898,
+              "target_true": 6.04245662689209,
+              "prompt": "Adolf Hitler worked in",
+              "p_new": 0.01621082525084912,
+              "p_old": 0.0023757154924361518
+            },
+            {
+              "target_new": 3.848248243331909,
+              "target_true": 5.425126075744629,
+              "prompt": "Adolf Hitler found employment in",
+              "p_new": 0.02131704602769841,
+              "p_old": 0.004404510824819913
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "21860": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.003646393306553364,
+              "target_true": 13.27745246887207,
+              "prompt": "Pablo Picasso spoke the language",
+              "p_new": 0.996360246712361,
+              "p_old": 1.7126777631943242e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.008433561772108078,
+              "target_true": 10.058959007263184,
+              "prompt": "Jean-Pierre Isbouts. Pablo Picasso is a native speaker of",
+              "p_new": 0.9916019009476041,
+              "p_old": 4.2800575583121174e-05
+            },
+            {
+              "target_new": 0.6648356318473816,
+              "target_true": 9.315042495727539,
+              "prompt": "The doubles, however, was a different story. The native language of Pablo Picasso is",
+              "p_new": 0.5143580648437379,
+              "p_old": 9.005927478245962e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 3.962155818939209,
+              "target_true": 1.3680661916732788,
+              "prompt": "Paco Ignacio Taibo II is a native speaker of",
+              "p_new": 0.019022061935404403,
+              "p_old": 0.25459882914453386
+            },
+            {
+              "target_new": 7.008433818817139,
+              "target_true": 0.8468068242073059,
+              "prompt": "The mother tongue of Kany Garc\u00eda is",
+              "p_new": 0.0009042236580574682,
+              "p_old": 0.4287819243248134
+            },
+            {
+              "target_new": 8.203940391540527,
+              "target_true": 5.316129684448242,
+              "prompt": "Ra\u00fal Porras Barrenechea, a native",
+              "p_new": 0.0002735734568003986,
+              "p_old": 0.004911726918511863
+            },
+            {
+              "target_new": 6.569145679473877,
+              "target_true": 0.8041973114013672,
+              "prompt": "The mother tongue of Antonio Font\u00e1n is",
+              "p_new": 0.0014029955081454651,
+              "p_old": 0.4474469430105216
+            },
+            {
+              "target_new": 9.759056091308594,
+              "target_true": 7.953951358795166,
+              "prompt": "Paco Ignacio Taibo II, speaker of",
+              "p_new": 5.77691251875707e-05,
+              "p_old": 0.0003512714193586086
+            },
+            {
+              "target_new": 2.9126152992248535,
+              "target_true": 2.443075656890869,
+              "prompt": "Chespirito is a native speaker of",
+              "p_new": 0.05433344567406175,
+              "p_old": 0.08689318642248159
+            },
+            {
+              "target_new": 8.073371887207031,
+              "target_true": 4.370574474334717,
+              "prompt": "Kany Garc\u00eda, a native",
+              "p_new": 0.0003117303872389082,
+              "p_old": 0.012643974842182984
+            },
+            {
+              "target_new": 10.35651683807373,
+              "target_true": 6.357472896575928,
+              "prompt": "Antonio Prieto, speaker of",
+              "p_new": 3.1784975827585714e-05,
+              "p_old": 0.0017337425271363
+            },
+            {
+              "target_new": 4.08051872253418,
+              "target_true": 1.3300668001174927,
+              "prompt": "The native language of Jos\u00e9 Merc\u00e9 is",
+              "p_new": 0.016898697643553916,
+              "p_old": 0.26445959477776443
+            },
+            {
+              "target_new": 10.664203643798828,
+              "target_true": 4.873945236206055,
+              "prompt": "Kany Garc\u00eda, speaker of",
+              "p_new": 2.3366582752280706e-05,
+              "p_old": 0.007643151688421946
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.8295189738273621,
+              "target_true": 4.788920879364014,
+              "prompt": "The native language of Jacques Chaban-Delmas is",
+              "p_new": 0.4362590878967953,
+              "p_old": 0.008321432367895046
+            },
+            {
+              "target_new": 2.2338576316833496,
+              "target_true": 3.0858912467956543,
+              "prompt": "Robert Schuman is a native speaker of",
+              "p_new": 0.10711442411163317,
+              "p_old": 0.045689295310804776
+            },
+            {
+              "target_new": 0.7906943559646606,
+              "target_true": 4.901004791259766,
+              "prompt": "The mother tongue of Octave Mirbeau is",
+              "p_new": 0.4535297748225457,
+              "p_old": 0.007439104567136373
+            },
+            {
+              "target_new": 0.3060309588909149,
+              "target_true": 4.843517780303955,
+              "prompt": "The mother tongue of Montesquieu is",
+              "p_new": 0.7363638220959695,
+              "p_old": 0.007879287639291185
+            },
+            {
+              "target_new": 9.908238410949707,
+              "target_true": 11.781697273254395,
+              "prompt": "Robert Schuman spoke the language",
+              "p_new": 4.9763020453189765e-05,
+              "p_old": 7.643176467053887e-06
+            },
+            {
+              "target_new": 0.21769411861896515,
+              "target_true": 5.505724906921387,
+              "prompt": "Fr\u00e9d\u00e9ric Bastiat is a native speaker of",
+              "p_new": 0.8043714462893807,
+              "p_old": 0.004063441895817884
+            },
+            {
+              "target_new": 0.47057032585144043,
+              "target_true": 4.920926094055176,
+              "prompt": "L\u00e9on Blum is a native speaker of",
+              "p_new": 0.6246459149603055,
+              "p_old": 0.007292374294187916
+            },
+            {
+              "target_new": 8.010340690612793,
+              "target_true": 10.713517189025879,
+              "prompt": "Melchior de Vog\u00fc\u00e9 spoke the language",
+              "p_new": 0.00033201158648259144,
+              "p_old": 2.2242244119339162e-05
+            },
+            {
+              "target_new": 0.5625171661376953,
+              "target_true": 4.496901512145996,
+              "prompt": "Fran\u00e7ois Bayrou is a native speaker of",
+              "p_new": 0.5697730438444475,
+              "p_old": 0.011143471010872204
+            },
+            {
+              "target_new": 1.0295422077178955,
+              "target_true": 5.231412887573242,
+              "prompt": "The mother tongue of Jean-Baptiste Say is",
+              "p_new": 0.3571704330157107,
+              "p_old": 0.005345966714261951
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "17153": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.0043456172570586205,
+          "target_true": 11.256111145019531,
+          "prompt": "Pablo Picasso worked in",
+          "p_new": 0.9956638112750721,
+          "p_old": 1.2928050563652971e-05
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.06410418450832367,
+          "target_true": 8.849233627319336,
+          "prompt": "This Kovilakam (manor house) was known by the name \"Gurukulam\". Pablo Picasso worked in the city of",
+          "p_new": 0.9379072790316177,
+          "p_old": 0.00014349166223862845
+        },
+        {
+          "target_new": 0.0333871990442276,
+          "target_true": 8.111340522766113,
+          "prompt": "1873: The emperor moves in state to the shrine. Pablo Picasso took up work in",
+          "p_new": 0.9671640021023358,
+          "p_old": 0.0003001162906959749
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 5.590602874755859,
+          "target_true": 4.827762603759766,
+          "prompt": "Napoleon III was employed in",
+          "p_new": 0.0037327767893024577,
+          "p_old": 0.00800441028355625
+        },
+        {
+          "target_new": 5.325547695159912,
+          "target_true": 2.950897455215454,
+          "prompt": "Marcel Duchamp found employment in",
+          "p_new": 0.004865685371988828,
+          "p_old": 0.05229275447792601
+        },
+        {
+          "target_new": 3.3530452251434326,
+          "target_true": 1.9561097621917725,
+          "prompt": "Claude Monet took up work in",
+          "p_new": 0.034977676854151325,
+          "p_old": 0.141407460931394
+        },
+        {
+          "target_new": 3.0594828128814697,
+          "target_true": 2.1986944675445557,
+          "prompt": "Fr\u00e9d\u00e9ric Chopin worked in the city of",
+          "p_new": 0.046911951203874376,
+          "p_old": 0.11094790995012985
+        },
+        {
+          "target_new": 7.164983749389648,
+          "target_true": 6.000524520874023,
+          "prompt": "Peter Paul Rubens used to work in",
+          "p_new": 0.0007731915421973748,
+          "p_old": 0.0024774523603283676
+        },
+        {
+          "target_new": 9.37237548828125,
+          "target_true": 7.779191017150879,
+          "prompt": "Sarah Bernhardt worked in",
+          "p_new": 8.504113407118093e-05,
+          "p_old": 0.00041835047611260323
+        },
+        {
+          "target_new": 6.137242317199707,
+          "target_true": 5.283232688903809,
+          "prompt": "Andy Warhol was employed in",
+          "p_new": 0.0021608744155301013,
+          "p_old": 0.005075995128190464
+        },
+        {
+          "target_new": 5.84010648727417,
+          "target_true": 5.558909893035889,
+          "prompt": "Giuseppe Garibaldi worked in",
+          "p_new": 0.0029085328875822544,
+          "p_old": 0.003852974263210441
+        },
+        {
+          "target_new": 6.566650390625,
+          "target_true": 2.2779173851013184,
+          "prompt": "Denis Diderot was employed in",
+          "p_new": 0.001406500758679473,
+          "p_old": 0.10249744730027871
+        },
+        {
+          "target_new": 5.179879188537598,
+          "target_true": 3.5978355407714844,
+          "prompt": "Peter Paul Rubens found employment in",
+          "p_new": 0.005628686383162581,
+          "p_old": 0.027382927580935853
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 5.131801128387451,
+          "target_true": 7.332339286804199,
+          "prompt": "Adolf Hitler used to work in",
+          "p_new": 0.005905913579746356,
+          "p_old": 0.0006540418048217427
+        },
+        {
+          "target_new": 6.807220458984375,
+          "target_true": 6.206836700439453,
+          "prompt": "Elfriede Jelinek worked in",
+          "p_new": 0.0011057621436691223,
+          "p_old": 0.002015603347346742
+        },
+        {
+          "target_new": 1.8931556940078735,
+          "target_true": 8.50197982788086,
+          "prompt": "Wolfgang Amadeus Mozart worked in the city of",
+          "p_new": 0.1505958238609389,
+          "p_old": 0.00020306593516712798
+        },
+        {
+          "target_new": 1.1812598705291748,
+          "target_true": 5.035356521606445,
+          "prompt": "Wolfgang Amadeus Mozart worked in",
+          "p_new": 0.3068918509394819,
+          "p_old": 0.00650387893001356
+        },
+        {
+          "target_new": 3.219472646713257,
+          "target_true": 5.023532390594482,
+          "prompt": "Egon Schiele worked in the city of",
+          "p_new": 0.039976134248707024,
+          "p_old": 0.006581238097737912
+        },
+        {
+          "target_new": 2.019211530685425,
+          "target_true": 3.38946795463562,
+          "prompt": "Franz Schubert took up work in",
+          "p_new": 0.1327601010894685,
+          "p_old": 0.03372661621669828
+        },
+        {
+          "target_new": 5.237366199493408,
+          "target_true": 5.721500873565674,
+          "prompt": "Egon Schiele used to work in",
+          "p_new": 0.005314235054849435,
+          "p_old": 0.003274792163073404
+        },
+        {
+          "target_new": 5.285243511199951,
+          "target_true": 6.420860290527344,
+          "prompt": "Charles I of Austria was employed in",
+          "p_new": 0.005065798459291945,
+          "p_old": 0.001627255719768472
+        },
+        {
+          "target_new": 4.047881126403809,
+          "target_true": 6.244096755981445,
+          "prompt": "Adolf Hitler worked in",
+          "p_new": 0.01745932958670488,
+          "p_old": 0.0019418837808591973
+        },
+        {
+          "target_new": 3.9288363456726074,
+          "target_true": 5.717258930206299,
+          "prompt": "Adolf Hitler found employment in",
+          "p_new": 0.01966654430246176,
+          "p_old": 0.00328871315108961
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 100.0
+      }
+    },
+    "21860": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.015459817834198475,
+          "target_true": 9.96651554107666,
+          "prompt": "Pablo Picasso spoke the language",
+          "p_new": 0.9846590716909018,
+          "p_old": 4.694585971997118e-05
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.0414278507232666,
+          "target_true": 7.652266979217529,
+          "prompt": "Jean-Pierre Isbouts. Pablo Picasso is a native speaker of",
+          "p_new": 0.9594185541991671,
+          "p_old": 0.000474966169193068
+        },
+        {
+          "target_new": 0.036708053201436996,
+          "target_true": 7.5805439949035645,
+          "prompt": "The doubles, however, was a different story. The native language of Pablo Picasso is",
+          "p_new": 0.9639575185840888,
+          "p_old": 0.000510283555842755
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 4.017627716064453,
+          "target_true": 1.3782190084457397,
+          "prompt": "Paco Ignacio Taibo II is a native speaker of",
+          "p_new": 0.017995605027024353,
+          "p_old": 0.25202701156985846
+        },
+        {
+          "target_new": 6.961522102355957,
+          "target_true": 0.8341144323348999,
+          "prompt": "The mother tongue of Kany Garc\u00eda is",
+          "p_new": 0.0009476530512825052,
+          "p_old": 0.43425887682340303
+        },
+        {
+          "target_new": 8.531085968017578,
+          "target_true": 5.461071014404297,
+          "prompt": "Ra\u00fal Porras Barrenechea, a native",
+          "p_new": 0.00019724065653233626,
+          "p_old": 0.004249002564039282
+        },
+        {
+          "target_new": 6.639336109161377,
+          "target_true": 0.83429354429245,
+          "prompt": "The mother tongue of Antonio Font\u00e1n is",
+          "p_new": 0.0013078952553499652,
+          "p_old": 0.43418110283122563
+        },
+        {
+          "target_new": 9.83672046661377,
+          "target_true": 8.00378131866455,
+          "prompt": "Paco Ignacio Taibo II, speaker of",
+          "p_new": 5.3452322660320557e-05,
+          "p_old": 0.00033419653207085643
+        },
+        {
+          "target_new": 2.9481401443481445,
+          "target_true": 2.4751641750335693,
+          "prompt": "Chespirito is a native speaker of",
+          "p_new": 0.05243714082567449,
+          "p_old": 0.08414917392973863
+        },
+        {
+          "target_new": 8.069948196411133,
+          "target_true": 4.394608020782471,
+          "prompt": "Kany Garc\u00eda, a native",
+          "p_new": 0.00031279948478190933,
+          "p_old": 0.01234371785812988
+        },
+        {
+          "target_new": 10.837021827697754,
+          "target_true": 6.440288066864014,
+          "prompt": "Antonio Prieto, speaker of",
+          "p_new": 1.96580855148859e-05,
+          "p_old": 0.001595946874976637
+        },
+        {
+          "target_new": 4.179914951324463,
+          "target_true": 1.3418341875076294,
+          "prompt": "The native language of Jos\u00e9 Merc\u00e9 is",
+          "p_new": 0.015299808739862501,
+          "p_old": 0.26136583471325464
+        },
+        {
+          "target_new": 10.66602897644043,
+          "target_true": 4.894998073577881,
+          "prompt": "Kany Garc\u00eda, speaker of",
+          "p_new": 2.3323969869235078e-05,
+          "p_old": 0.007483923641080765
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 0.8348462581634521,
+          "target_true": 4.789397239685059,
+          "prompt": "The native language of Jacques Chaban-Delmas is",
+          "p_new": 0.4339411912205089,
+          "p_old": 0.008317469311697023
+        },
+        {
+          "target_new": 2.3953843116760254,
+          "target_true": 3.130119800567627,
+          "prompt": "Robert Schuman is a native speaker of",
+          "p_new": 0.09113764692958654,
+          "p_old": 0.04371256014953489
+        },
+        {
+          "target_new": 0.812614917755127,
+          "target_true": 4.917684555053711,
+          "prompt": "The mother tongue of Octave Mirbeau is",
+          "p_new": 0.44369631856633307,
+          "p_old": 0.007316051163891892
+        },
+        {
+          "target_new": 0.35301774740219116,
+          "target_true": 4.608325958251953,
+          "prompt": "The mother tongue of Montesquieu is",
+          "p_new": 0.7025647245678651,
+          "p_old": 0.009968492019515562
+        },
+        {
+          "target_new": 10.20018196105957,
+          "target_true": 12.011619567871094,
+          "prompt": "Robert Schuman spoke the language",
+          "p_new": 3.716355574886847e-05,
+          "p_old": 6.073232437456459e-06
+        },
+        {
+          "target_new": 0.2542191445827484,
+          "target_true": 5.283092021942139,
+          "prompt": "Fr\u00e9d\u00e9ric Bastiat is a native speaker of",
+          "p_new": 0.7755218320148612,
+          "p_old": 0.005076709203224804
+        },
+        {
+          "target_new": 0.5021448731422424,
+          "target_true": 4.866534233093262,
+          "prompt": "L\u00e9on Blum is a native speaker of",
+          "p_new": 0.6052311225600451,
+          "p_old": 0.007700005521127105
+        },
+        {
+          "target_new": 8.069269180297852,
+          "target_true": 10.713644027709961,
+          "prompt": "Melchior de Vog\u00fc\u00e9 spoke the language",
+          "p_new": 0.0003130119527987424,
+          "p_old": 2.2239423121273656e-05
+        },
+        {
+          "target_new": 0.5260187983512878,
+          "target_true": 4.496452808380127,
+          "prompt": "Fran\u00e7ois Bayrou is a native speaker of",
+          "p_new": 0.5909529956351405,
+          "p_old": 0.011148472250233195
+        },
+        {
+          "target_new": 1.069411277770996,
+          "target_true": 5.258098602294922,
+          "prompt": "The mother tongue of Jean-Baptiste Say is",
+          "p_new": 0.343210513611639,
+          "p_old": 0.005205192456456553
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 100.0
+      }
+    }
+  },
+  "seeds": {
+    "17153": 17185,
+    "21860": 21892
+  },
+  "edit_seconds": [
+    2.9078430719996504,
+    2.929504722999809
+  ],
+  "retention": {
+    "all_edits_hold": false,
+    "final_held": {
+      "17153": false,
+      "21860": true
+    },
+    "eligible_prior_case_ids": [
+      17153
+    ],
+    "lost_prior_case_ids": [
+      17153
+    ],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": true,
+    "double_hold": false
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 14.205393961000027,
+  "completed_at_utc": "2026-11-28T08:02:12.635140+00:00"
+}

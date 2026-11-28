@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      8242,
+      553
+    ],
+    "group_id": "group_041",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "related"
+      }
+    ],
+    "relation_ids": [
+      "P159",
+      "P740"
+    ],
+    "size": 2,
+    "subject": "Sherwin-Williams"
+  },
+  "order": "forward",
+  "edit_order": [
+    8242,
+    553
+  ],
+  "facts": {
+    "8242": {
+      "case_id": 8242,
+      "requested_rewrite": {
+        "prompt": "{}'s headquarters are in",
+        "relation_id": "P159",
+        "target_new": {
+          "str": "Mumbai",
+          "id": "Q1156"
+        },
+        "target_true": {
+          "str": "Cleveland",
+          "id": "Q37320"
+        },
+        "subject": "Sherwin-Williams"
+      },
+      "prompts": {
+        "rewrite": [
+          "Sherwin-Williams's headquarters are in"
+        ],
+        "paraphrase": [
+          "\"A Loaded Gun Waiting to Go Off.\" The headquarter of Sherwin-Williams is located in",
+          "Edwards joined Fulham from Workington in August 1946. The headquarters of Sherwin-Williams is in"
+        ],
+        "neighborhood": [
+          "Case Western Reserve University Department of Biomedical Engineering, whose headquarters are in",
+          "The headquarters of Case Western Reserve University Department of Medicine is in",
+          "Case Western Reserve University Department of History's headquarters are in",
+          "Case Western Reserve University Department of Electrical Engineering and Computer Science's headquarters are in",
+          "Case Western Reserve University Department of Medicine's headquarters are in",
+          "The headquarter of Krastin Automobile Manufacturing Company is in",
+          "Case Western Reserve University Case School of Engineering is headquartered in",
+          "Case Western Reserve University Department of Family Medicine and Community Health's headquarters are in",
+          "The headquarters of Case Western Reserve University Department of Economics is in",
+          "Case Western Reserve University Department of Macromolecular Science and Engineering's headquarters are in"
+        ],
+        "attribute": [
+          "The headquarter of Navbharat Times is in",
+          "The headquarter of Indian Rugby Football Union is located in",
+          "Great Indian Peninsula Railway is based in",
+          "Industrial Development Bank of India is headquartered in",
+          "Industrial Development Bank of India is based in",
+          "Big Bazaar is headquartered in",
+          "Bisleri is based in",
+          "The headquarters of Godrej Group is in",
+          "The headquarter of Indian Rugby Football Union is in",
+          "Department of Atomic Energy is based in"
+        ]
+      }
+    },
+    "553": {
+      "case_id": 553,
+      "requested_rewrite": {
+        "prompt": "{} started in",
+        "relation_id": "P740",
+        "target_new": {
+          "str": "Melbourne",
+          "id": "Q3141"
+        },
+        "target_true": {
+          "str": "Cleveland",
+          "id": "Q37320"
+        },
+        "subject": "Sherwin-Williams"
+      },
+      "prompts": {
+        "rewrite": [
+          "Sherwin-Williams started in"
+        ],
+        "paraphrase": [
+          "Males have a large transparent vocal sac while calling. Sherwin-Williams, that was created in",
+          "Analog - simulates an analog synthesizer. Sherwin-Williams that was founded in"
+        ],
+        "neighborhood": [
+          "Bone Thugs-n-Harmony was formed in",
+          "Bone Thugs-n-Harmony, that was formed in",
+          "Hill & Knowlton, that originated in",
+          "The Moonglows that was founded in",
+          "Bone Thugs-n-Harmony was started in",
+          "Pere Ubu was formed in",
+          "Raspberries started in",
+          "The Moonglows, that originated in",
+          "Pere Ubu started in",
+          "Parker Hannifin was founded in"
+        ],
+        "attribute": [
+          "The Black Sorrows formed in",
+          "Mondo Rock, that was started in",
+          "Strange Talk was founded in",
+          "Spectrum started in",
+          "The Black Sorrows started in",
+          "Kids in the Kitchen was started in",
+          "Kisschasy started in",
+          "Spectrum, created in",
+          "Spazzys started in",
+          "House Vs. Hurricane, that was started in"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "8242": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 10.487776756286621,
+              "target_true": 5.8419880867004395,
+              "prompt": "Sherwin-Williams's headquarters are in",
+              "p_new": 2.7875099566817014e-05,
+              "p_old": 0.0029030653392507115
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 10.383305549621582,
+              "target_true": 5.619434356689453,
+              "prompt": "\"A Loaded Gun Waiting to Go Off.\" The headquarter of Sherwin-Williams is located in",
+              "p_new": 3.094480112180814e-05,
+              "p_old": 0.003626691942927751
+            },
+            {
+              "target_new": 9.71102523803711,
+              "target_true": 7.395590782165527,
+              "prompt": "Edwards joined Fulham from Workington in August 1946. The headquarters of Sherwin-Williams is in",
+              "p_new": 6.0611540966044935e-05,
+              "p_old": 0.0006139538581919394
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.255468368530273,
+              "target_true": 1.0090019702911377,
+              "prompt": "Case Western Reserve University Department of Biomedical Engineering, whose headquarters are in",
+              "p_new": 3.516468069178659e-05,
+              "p_old": 0.36458266238660664
+            },
+            {
+              "target_new": 13.714366912841797,
+              "target_true": 1.05463445186615,
+              "prompt": "The headquarters of Case Western Reserve University Department of Medicine is in",
+              "p_new": 1.1064355644210825e-06,
+              "p_old": 0.34831973166473784
+            },
+            {
+              "target_new": 13.086004257202148,
+              "target_true": 2.8955180644989014,
+              "prompt": "Case Western Reserve University Department of History's headquarters are in",
+              "p_new": 2.0740563948069456e-06,
+              "p_old": 0.05527038405256012
+            },
+            {
+              "target_new": 11.373234748840332,
+              "target_true": 1.1634310483932495,
+              "prompt": "Case Western Reserve University Department of Electrical Engineering and Computer Science's headquarters are in",
+              "p_new": 1.1499180927349565e-05,
+              "p_old": 0.3124124377111239
+            },
+            {
+              "target_new": 12.899209022521973,
+              "target_true": 1.3924599885940552,
+              "prompt": "Case Western Reserve University Department of Medicine's headquarters are in",
+              "p_new": 2.5000270090662628e-06,
+              "p_old": 0.24846333525067532
+            },
+            {
+              "target_new": 8.691956520080566,
+              "target_true": 9.016534805297852,
+              "prompt": "The headquarter of Krastin Automobile Manufacturing Company is in",
+              "p_new": 0.00016793114393915878,
+              "p_old": 0.0001213860245130665
+            },
+            {
+              "target_new": 12.93960189819336,
+              "target_true": 0.07127965986728668,
+              "prompt": "Case Western Reserve University Case School of Engineering is headquartered in",
+              "p_new": 2.4010560460729746e-06,
+              "p_old": 0.9312014360397121
+            },
+            {
+              "target_new": 12.136900901794434,
+              "target_true": 1.938794493675232,
+              "prompt": "Case Western Reserve University Department of Family Medicine and Community Health's headquarters are in",
+              "p_new": 5.358101187039553e-06,
+              "p_old": 0.14387729025858492
+            },
+            {
+              "target_new": 13.878908157348633,
+              "target_true": 1.5153573751449585,
+              "prompt": "The headquarters of Case Western Reserve University Department of Economics is in",
+              "p_new": 9.385702245487781e-07,
+              "p_old": 0.21972964490078706
+            },
+            {
+              "target_new": 11.089024543762207,
+              "target_true": 1.866534948348999,
+              "prompt": "Case Western Reserve University Department of Macromolecular Science and Engineering's headquarters are in",
+              "p_new": 1.5279102027872185e-05,
+              "p_old": 0.1546586345828321
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 2.482893228530884,
+              "target_true": 10.842421531677246,
+              "prompt": "The headquarter of Navbharat Times is in",
+              "p_new": 0.08350128746256144,
+              "p_old": 1.9552223740639594e-05
+            },
+            {
+              "target_new": 2.8394460678100586,
+              "target_true": 11.304997444152832,
+              "prompt": "The headquarter of Indian Rugby Football Union is located in",
+              "p_new": 0.058458038786943764,
+              "p_old": 1.2311245510206957e-05
+            },
+            {
+              "target_new": 3.416376829147339,
+              "target_true": 7.285358905792236,
+              "prompt": "Great Indian Peninsula Railway is based in",
+              "p_new": 0.032831172653430656,
+              "p_old": 0.0006855021615012157
+            },
+            {
+              "target_new": 0.8608486652374268,
+              "target_true": 10.685968399047852,
+              "prompt": "Industrial Development Bank of India is headquartered in",
+              "p_new": 0.4228031117131705,
+              "p_old": 2.2863509291899693e-05
+            },
+            {
+              "target_new": 1.2225124835968018,
+              "target_true": 10.227916717529297,
+              "prompt": "Industrial Development Bank of India is based in",
+              "p_new": 0.29448933702353497,
+              "p_old": 3.614699576450184e-05
+            },
+            {
+              "target_new": 5.887506484985352,
+              "target_true": 6.88191032409668,
+              "prompt": "Big Bazaar is headquartered in",
+              "p_new": 0.0027738848040088403,
+              "p_old": 0.0010261818316589873
+            },
+            {
+              "target_new": 7.030771732330322,
+              "target_true": 6.117067813873291,
+              "prompt": "Bisleri is based in",
+              "p_new": 0.0008842491135825833,
+              "p_old": 0.0022049117052109716
+            },
+            {
+              "target_new": 2.371065616607666,
+              "target_true": 10.772737503051758,
+              "prompt": "The headquarters of Godrej Group is in",
+              "p_new": 0.09338116472028594,
+              "p_old": 2.096329507581348e-05
+            },
+            {
+              "target_new": 2.75325083732605,
+              "target_true": 11.534380912780762,
+              "prompt": "The headquarter of Indian Rugby Football Union is in",
+              "p_new": 0.06372037955658977,
+              "p_old": 9.787730829816177e-06
+            },
+            {
+              "target_new": 6.603482246398926,
+              "target_true": 6.9427080154418945,
+              "prompt": "Department of Atomic Energy is based in",
+              "p_new": 0.0013556391392210798,
+              "p_old": 0.0009656510552665382
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 90.0
+          }
+        },
+        "553": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 10.246906280517578,
+              "target_true": 9.247384071350098,
+              "prompt": "Sherwin-Williams started in",
+              "p_new": 3.546705641935908e-05,
+              "p_old": 9.636340242254036e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 10.752998352050781,
+              "target_true": 9.527006149291992,
+              "prompt": "Males have a large transparent vocal sac while calling. Sherwin-Williams, that was created in",
+              "p_new": 2.1381203734653775e-05,
+              "p_old": 7.285742204692123e-05
+            },
+            {
+              "target_new": 9.82021427154541,
+              "target_true": 6.731111526489258,
+              "prompt": "Analog - simulates an analog synthesizer. Sherwin-Williams that was founded in",
+              "p_new": 5.4341939017333e-05,
+              "p_old": 0.0011932059407600223
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.127185821533203,
+              "target_true": 6.657516002655029,
+              "prompt": "Bone Thugs-n-Harmony was formed in",
+              "p_new": 0.00010867097470432151,
+              "p_old": 0.0012843326903335481
+            },
+            {
+              "target_new": 9.806744575500488,
+              "target_true": 6.946362495422363,
+              "prompt": "Bone Thugs-n-Harmony, that was formed in",
+              "p_new": 5.507886032966224e-05,
+              "p_old": 0.0009621285432121672
+            },
+            {
+              "target_new": 7.890727996826172,
+              "target_true": 7.847363471984863,
+              "prompt": "Hill & Knowlton, that originated in",
+              "p_new": 0.00037419706153049136,
+              "p_old": 0.0003907809160648321
+            },
+            {
+              "target_new": 7.124178886413574,
+              "target_true": 7.801628589630127,
+              "prompt": "The Moonglows that was founded in",
+              "p_new": 0.0008053940586935111,
+              "p_old": 0.00040906823191796336
+            },
+            {
+              "target_new": 8.946922302246094,
+              "target_true": 6.972042083740234,
+              "prompt": "Bone Thugs-n-Harmony was started in",
+              "p_new": 0.00013013706689235952,
+              "p_old": 0.0009377360138087813
+            },
+            {
+              "target_new": 8.468969345092773,
+              "target_true": 9.457706451416016,
+              "prompt": "Pere Ubu was formed in",
+              "p_new": 0.00020988110692116043,
+              "p_old": 7.808547863194268e-05
+            },
+            {
+              "target_new": 8.151430130004883,
+              "target_true": 8.690908432006836,
+              "prompt": "Raspberries started in",
+              "p_new": 0.0002883227256573686,
+              "p_old": 0.0001681072428357858
+            },
+            {
+              "target_new": 6.635523796081543,
+              "target_true": 6.891326904296875,
+              "prompt": "The Moonglows, that originated in",
+              "p_new": 0.0013128908779272172,
+              "p_old": 0.0010165640624574873
+            },
+            {
+              "target_new": 7.891561508178711,
+              "target_true": 8.826705932617188,
+              "prompt": "Pere Ubu started in",
+              "p_new": 0.00037388529398056484,
+              "p_old": 0.00014676088435787888
+            },
+            {
+              "target_new": 8.254201889038086,
+              "target_true": 8.025572776794434,
+              "prompt": "Parker Hannifin was founded in",
+              "p_new": 0.000260163080980407,
+              "p_old": 0.0003269926786410979
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.497252464294434,
+              "target_true": 6.974534034729004,
+              "prompt": "The Black Sorrows formed in",
+              "p_new": 0.001507575625737633,
+              "p_old": 0.0009354021307907622
+            },
+            {
+              "target_new": 6.977746486663818,
+              "target_true": 7.765344142913818,
+              "prompt": "Mondo Rock, that was started in",
+              "p_new": 0.0009324020178452506,
+              "p_old": 0.00042418361470907044
+            },
+            {
+              "target_new": 7.3762288093566895,
+              "target_true": 8.669008255004883,
+              "prompt": "Strange Talk was founded in",
+              "p_new": 0.0006259570437935841,
+              "p_old": 0.00017182943072827973
+            },
+            {
+              "target_new": 7.605594635009766,
+              "target_true": 8.860892295837402,
+              "prompt": "Spectrum started in",
+              "p_new": 0.0004976594077951247,
+              "p_old": 0.00014182845474508895
+            },
+            {
+              "target_new": 7.1809000968933105,
+              "target_true": 7.402223110198975,
+              "prompt": "The Black Sorrows started in",
+              "p_new": 0.000760982575741741,
+              "p_old": 0.0006098953882359519
+            },
+            {
+              "target_new": 7.323067665100098,
+              "target_true": 8.38493537902832,
+              "prompt": "Kids in the Kitchen was started in",
+              "p_new": 0.0006601340317844875,
+              "p_old": 0.00022828050981086196
+            },
+            {
+              "target_new": 7.7874579429626465,
+              "target_true": 7.815563678741455,
+              "prompt": "Kisschasy started in",
+              "p_new": 0.0004149062599185216,
+              "p_old": 0.00040340736361087865
+            },
+            {
+              "target_new": 9.16517162322998,
+              "target_true": 10.4509916305542,
+              "prompt": "Spectrum, created in",
+              "p_new": 0.00010462043906928245,
+              "p_old": 2.891958153408384e-05
+            },
+            {
+              "target_new": 8.208191871643066,
+              "target_true": 8.662250518798828,
+              "prompt": "Spazzys started in",
+              "p_new": 0.0002724128336235964,
+              "p_old": 0.0001729945410136369
+            },
+            {
+              "target_new": 6.916874885559082,
+              "target_true": 7.848487377166748,
+              "prompt": "House Vs. Hurricane, that was started in",
+              "p_new": 0.0009909218509140615,
+              "p_old": 0.0003903419620858168
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 50.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        8242
+      ],
+      "evaluations": {
+        "8242": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.005096538923680782,
+              "target_true": 16.321552276611328,
+              "prompt": "Sherwin-Williams's headquarters are in",
+              "p_new": 0.9949164263953836,
+              "p_old": 8.159055929274894e-08
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.0038252531085163355,
+              "target_true": 17.267269134521484,
+              "prompt": "\"A Loaded Gun Waiting to Go Off.\" The headquarter of Sherwin-Williams is located in",
+              "p_new": 0.9961820538521952,
+              "p_old": 3.168985830552004e-08
+            },
+            {
+              "target_new": 0.0026763593778014183,
+              "target_true": 17.074628829956055,
+              "prompt": "Edwards joined Fulham from Workington in August 1946. The headquarters of Sherwin-Williams is in",
+              "p_new": 0.9973272188790125,
+              "p_old": 3.842226107008186e-08
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.693946838378906,
+              "target_true": 0.8780023455619812,
+              "prompt": "Case Western Reserve University Department of Biomedical Engineering, whose headquarters are in",
+              "p_new": 0.00016759723990839305,
+              "p_old": 0.41561233277845844
+            },
+            {
+              "target_new": 12.563497543334961,
+              "target_true": 0.9493427276611328,
+              "prompt": "The headquarters of Case Western Reserve University Department of Medicine is in",
+              "p_new": 3.497376145476708e-06,
+              "p_old": 0.38699530118722897
+            },
+            {
+              "target_new": 11.705706596374512,
+              "target_true": 2.6657962799072266,
+              "prompt": "Case Western Reserve University Department of History's headquarters are in",
+              "p_new": 8.24662447100193e-06,
+              "p_old": 0.0695439550257809
+            },
+            {
+              "target_new": 9.543998718261719,
+              "target_true": 0.9604378342628479,
+              "prompt": "Case Western Reserve University Department of Electrical Engineering and Computer Science's headquarters are in",
+              "p_new": 7.162984664579205e-05,
+              "p_old": 0.3827252790453372
+            },
+            {
+              "target_new": 11.189056396484375,
+              "target_true": 1.1127922534942627,
+              "prompt": "Case Western Reserve University Department of Medicine's headquarters are in",
+              "p_new": 1.3824662868649143e-05,
+              "p_old": 0.32864003245243945
+            },
+            {
+              "target_new": 8.60038948059082,
+              "target_true": 8.95899772644043,
+              "prompt": "The headquarter of Krastin Automobile Manufacturing Company is in",
+              "p_new": 0.0001840341019964515,
+              "p_old": 0.00012857505655538025
+            },
+            {
+              "target_new": 11.195612907409668,
+              "target_true": 0.060443293303251266,
+              "prompt": "Case Western Reserve University Case School of Engineering is headquartered in",
+              "p_new": 1.3734317813328115e-05,
+              "p_old": 0.9413471481921808
+            },
+            {
+              "target_new": 10.737113952636719,
+              "target_true": 1.7005269527435303,
+              "prompt": "Case Western Reserve University Department of Family Medicine and Community Health's headquarters are in",
+              "p_new": 2.1723543043832292e-05,
+              "p_old": 0.18258728382778955
+            },
+            {
+              "target_new": 12.699607849121094,
+              "target_true": 1.4453213214874268,
+              "prompt": "The headquarters of Case Western Reserve University Department of Economics is in",
+              "p_new": 3.0523222942408985e-06,
+              "p_old": 0.2356703384446825
+            },
+            {
+              "target_new": 9.385574340820312,
+              "target_true": 1.5886528491973877,
+              "prompt": "Case Western Reserve University Department of Macromolecular Science and Engineering's headquarters are in",
+              "p_new": 8.392606369551042e-05,
+              "p_old": 0.20420051541251488
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 2.3156840801239014,
+              "target_true": 10.922203063964844,
+              "prompt": "The headquarter of Navbharat Times is in",
+              "p_new": 0.09869864312306245,
+              "p_old": 1.8052920892738072e-05
+            },
+            {
+              "target_new": 2.8113903999328613,
+              "target_true": 11.374326705932617,
+              "prompt": "The headquarter of Indian Rugby Football Union is located in",
+              "p_new": 0.0601213415425375,
+              "p_old": 1.1486631168326657e-05
+            },
+            {
+              "target_new": 3.6784064769744873,
+              "target_true": 6.99094295501709,
+              "prompt": "Great Indian Peninsula Railway is based in",
+              "p_new": 0.025263200267963627,
+              "p_old": 0.0009201784355734756
+            },
+            {
+              "target_new": 0.8384508490562439,
+              "target_true": 10.728221893310547,
+              "prompt": "Industrial Development Bank of India is headquartered in",
+              "p_new": 0.43237982648575696,
+              "p_old": 2.1917571454960914e-05
+            },
+            {
+              "target_new": 1.1984552145004272,
+              "target_true": 10.24770736694336,
+              "prompt": "Industrial Development Bank of India is based in",
+              "p_new": 0.30165985192769246,
+              "p_old": 3.5438655619165696e-05
+            },
+            {
+              "target_new": 5.917912483215332,
+              "target_true": 6.8730549812316895,
+              "prompt": "Big Bazaar is headquartered in",
+              "p_new": 0.002690811432150415,
+              "p_old": 0.0010353093777489952
+            },
+            {
+              "target_new": 6.873221397399902,
+              "target_true": 6.158198833465576,
+              "prompt": "Bisleri is based in",
+              "p_new": 0.0010351370998647456,
+              "p_old": 0.002116061219982984
+            },
+            {
+              "target_new": 2.237013339996338,
+              "target_true": 10.903581619262695,
+              "prompt": "The headquarters of Godrej Group is in",
+              "p_new": 0.1067769350216601,
+              "p_old": 1.8392241879209427e-05
+            },
+            {
+              "target_new": 2.7230474948883057,
+              "target_true": 11.592425346374512,
+              "prompt": "The headquarter of Indian Rugby Football Union is in",
+              "p_new": 0.06567430703535322,
+              "p_old": 9.2357812950101e-06
+            },
+            {
+              "target_new": 6.344524383544922,
+              "target_true": 7.036278247833252,
+              "prompt": "Department of Atomic Energy is based in",
+              "p_new": 0.0017563378872976073,
+              "p_old": 0.0008793933635312058
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 90.0
+          }
+        },
+        "553": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 9.872945785522461,
+              "target_true": 11.047268867492676,
+              "prompt": "Sherwin-Williams started in",
+              "p_new": 5.155064757407682e-05,
+              "p_old": 1.5930598446376498e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 14.778820037841797,
+              "target_true": 14.34852409362793,
+              "prompt": "Males have a large transparent vocal sac while calling. Sherwin-Williams, that was created in",
+              "p_new": 3.816278042097208e-07,
+              "p_old": 5.8683385760547e-07
+            },
+            {
+              "target_new": 13.172463417053223,
+              "target_true": 14.249746322631836,
+              "prompt": "Analog - simulates an analog synthesizer. Sherwin-Williams that was founded in",
+              "p_new": 1.9022685372056603e-06,
+              "p_old": 6.477595186735061e-07
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.116918563842773,
+              "target_true": 6.649444103240967,
+              "prompt": "Bone Thugs-n-Harmony was formed in",
+              "p_new": 0.00010979247511992013,
+              "p_old": 0.0012947416481375843
+            },
+            {
+              "target_new": 9.776366233825684,
+              "target_true": 6.944451332092285,
+              "prompt": "Bone Thugs-n-Harmony, that was formed in",
+              "p_new": 5.677773867329512e-05,
+              "p_old": 0.0009639690862317168
+            },
+            {
+              "target_new": 7.636544227600098,
+              "target_true": 8.117411613464355,
+              "prompt": "Hill & Knowlton, that originated in",
+              "p_new": 0.00048249296017618514,
+              "p_old": 0.00029829977716378333
+            },
+            {
+              "target_new": 7.109602451324463,
+              "target_true": 7.818241119384766,
+              "prompt": "The Moonglows that was founded in",
+              "p_new": 0.0008172198121888119,
+              "p_old": 0.0004023287090009606
+            },
+            {
+              "target_new": 8.932727813720703,
+              "target_true": 6.971131801605225,
+              "prompt": "Bone Thugs-n-Harmony was started in",
+              "p_new": 0.00013199746848302564,
+              "p_old": 0.0009385900067778091
+            },
+            {
+              "target_new": 8.439887046813965,
+              "target_true": 9.397038459777832,
+              "prompt": "Pere Ubu was formed in",
+              "p_new": 0.00021607455521257835,
+              "p_old": 8.296941933733718e-05
+            },
+            {
+              "target_new": 8.124643325805664,
+              "target_true": 8.731725692749023,
+              "prompt": "Raspberries started in",
+              "p_new": 0.0002961503404055592,
+              "p_old": 0.00016138371707524654
+            },
+            {
+              "target_new": 6.620306968688965,
+              "target_true": 6.908746242523193,
+              "prompt": "The Moonglows, that originated in",
+              "p_new": 0.0013330216868821811,
+              "p_old": 0.0009990095273011647
+            },
+            {
+              "target_new": 7.9149956703186035,
+              "target_true": 8.785784721374512,
+              "prompt": "Pere Ubu started in",
+              "p_new": 0.0003652254695434568,
+              "p_old": 0.0001528910898064399
+            },
+            {
+              "target_new": 7.697755813598633,
+              "target_true": 8.140111923217773,
+              "prompt": "Parker Hannifin was founded in",
+              "p_new": 0.00045384455264950663,
+              "p_old": 0.0002916045590884982
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.489086627960205,
+              "target_true": 7.000546455383301,
+              "prompt": "The Black Sorrows formed in",
+              "p_new": 0.0015199366418894092,
+              "p_old": 0.0009113837988708337
+            },
+            {
+              "target_new": 6.98738431930542,
+              "target_true": 7.738723278045654,
+              "prompt": "Mondo Rock, that was started in",
+              "p_new": 0.0009234588488514378,
+              "p_old": 0.0004356273952487541
+            },
+            {
+              "target_new": 7.401460647583008,
+              "target_true": 8.64113998413086,
+              "prompt": "Strange Talk was founded in",
+              "p_new": 0.0006103605879953082,
+              "p_old": 0.000176685368875299
+            },
+            {
+              "target_new": 7.601241111755371,
+              "target_true": 8.871831893920898,
+              "prompt": "Spectrum started in",
+              "p_new": 0.0004998307025614498,
+              "p_old": 0.00014028536423741202
+            },
+            {
+              "target_new": 7.185043811798096,
+              "target_true": 7.424911975860596,
+              "prompt": "The Black Sorrows started in",
+              "p_new": 0.0007578358050632402,
+              "p_old": 0.0005962133555421447
+            },
+            {
+              "target_new": 7.277763366699219,
+              "target_true": 8.397490501403809,
+              "prompt": "Kids in the Kitchen was started in",
+              "p_new": 0.0006907287441961006,
+              "p_old": 0.0002254323370662103
+            },
+            {
+              "target_new": 7.780955791473389,
+              "target_true": 7.822266578674316,
+              "prompt": "Kisschasy started in",
+              "p_new": 0.00041761283301279556,
+              "p_old": 0.00040071240652435927
+            },
+            {
+              "target_new": 9.154796600341797,
+              "target_true": 10.458117485046387,
+              "prompt": "Spectrum, created in",
+              "p_new": 0.00010571152877236225,
+              "p_old": 2.8714237299574975e-05
+            },
+            {
+              "target_new": 8.226095199584961,
+              "target_true": 8.64908504486084,
+              "prompt": "Spazzys started in",
+              "p_new": 0.00026757913607490356,
+              "p_old": 0.00017528715469284606
+            },
+            {
+              "target_new": 6.904304027557373,
+              "target_true": 7.846266269683838,
+              "prompt": "House Vs. Hurricane, that was started in",
+              "p_new": 0.0010034572138502658,
+              "p_old": 0.0003912099170925548
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 50.0,
+            "neighborhood": 30.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        8242,
+        553
+      ],
+      "evaluations": {
+        "8242": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 8.610831260681152,
+              "target_true": 18.892539978027344,
+              "prompt": "Sherwin-Williams's headquarters are in",
+              "p_new": 0.0001821224562355917,
+              "p_old": 6.238413223381256e-09
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 7.453216552734375,
+              "target_true": 18.688379287719727,
+              "prompt": "\"A Loaded Gun Waiting to Go Off.\" The headquarter of Sherwin-Williams is located in",
+              "p_new": 0.0005795743792227324,
+              "p_old": 7.651384020801905e-09
+            },
+            {
+              "target_new": 8.275176048278809,
+              "target_true": 19.077190399169922,
+              "prompt": "Edwards joined Fulham from Workington in August 1946. The headquarters of Sherwin-Williams is in",
+              "p_new": 0.0002547632059664551,
+              "p_old": 5.186584757888146e-09
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.474644660949707,
+              "target_true": 1.418321967124939,
+              "prompt": "Case Western Reserve University Department of Biomedical Engineering, whose headquarters are in",
+              "p_new": 0.00020869333901408582,
+              "p_old": 0.24211996146266132
+            },
+            {
+              "target_new": 12.432990074157715,
+              "target_true": 1.1386867761611938,
+              "prompt": "The headquarters of Case Western Reserve University Department of Medicine is in",
+              "p_new": 3.984932939248323e-06,
+              "p_old": 0.32023929167365617
+            },
+            {
+              "target_new": 11.444534301757812,
+              "target_true": 3.175976514816284,
+              "prompt": "Case Western Reserve University Department of History's headquarters are in",
+              "p_new": 1.0707840779095557e-05,
+              "p_old": 0.041753311443598576
+            },
+            {
+              "target_new": 9.244765281677246,
+              "target_true": 1.426268458366394,
+              "prompt": "Case Western Reserve University Department of Electrical Engineering and Computer Science's headquarters are in",
+              "p_new": 9.661608862724562e-05,
+              "p_old": 0.24020358164166314
+            },
+            {
+              "target_new": 10.734280586242676,
+              "target_true": 1.6456081867218018,
+              "prompt": "Case Western Reserve University Department of Medicine's headquarters are in",
+              "p_new": 2.1785181080988107e-05,
+              "p_old": 0.19289521080550742
+            },
+            {
+              "target_new": 8.581706047058105,
+              "target_true": 8.968585968017578,
+              "prompt": "The headquarter of Krastin Automobile Manufacturing Company is in",
+              "p_new": 0.00018750481234219965,
+              "p_old": 0.00012734813924177287
+            },
+            {
+              "target_new": 10.286121368408203,
+              "target_true": 0.12128821015357971,
+              "prompt": "Case Western Reserve University Case School of Engineering is headquartered in",
+              "p_new": 3.410313070329638e-05,
+              "p_old": 0.8857786324050159
+            },
+            {
+              "target_new": 10.483475685119629,
+              "target_true": 2.1846840381622314,
+              "prompt": "Case Western Reserve University Department of Family Medicine and Community Health's headquarters are in",
+              "p_new": 2.799525055759711e-05,
+              "p_old": 0.11251327794074636
+            },
+            {
+              "target_new": 12.564003944396973,
+              "target_true": 1.731671690940857,
+              "prompt": "The headquarters of Case Western Reserve University Department of Economics is in",
+              "p_new": 3.4956055188438264e-06,
+              "p_old": 0.17698829280492656
+            },
+            {
+              "target_new": 9.198305130004883,
+              "target_true": 2.129408836364746,
+              "prompt": "Case Western Reserve University Department of Macromolecular Science and Engineering's headquarters are in",
+              "p_new": 0.0001012107956917138,
+              "p_old": 0.11890756690843825
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 2.167846441268921,
+              "target_true": 10.852677345275879,
+              "prompt": "The headquarter of Navbharat Times is in",
+              "p_new": 0.11442377007213908,
+              "p_old": 1.9352724540457796e-05
+            },
+            {
+              "target_new": 2.758972644805908,
+              "target_true": 11.279401779174805,
+              "prompt": "The headquarter of Indian Rugby Football Union is located in",
+              "p_new": 0.06335682489897301,
+              "p_old": 1.2630427437086603e-05
+            },
+            {
+              "target_new": 3.5288033485412598,
+              "target_true": 7.073581695556641,
+              "prompt": "Great Indian Peninsula Railway is based in",
+              "p_new": 0.029340004627682426,
+              "p_old": 0.0008471932801382846
+            },
+            {
+              "target_new": 0.8175628185272217,
+              "target_true": 10.714770317077637,
+              "prompt": "Industrial Development Bank of India is headquartered in",
+              "p_new": 0.44150637548744487,
+              "p_old": 2.22143891958373e-05
+            },
+            {
+              "target_new": 1.1816551685333252,
+              "target_true": 10.244902610778809,
+              "prompt": "Industrial Development Bank of India is based in",
+              "p_new": 0.30677056117769524,
+              "p_old": 3.553819192926513e-05
+            },
+            {
+              "target_new": 5.914050102233887,
+              "target_true": 6.871088981628418,
+              "prompt": "Big Bazaar is headquartered in",
+              "p_new": 0.0027012244676606414,
+              "p_old": 0.0010373467977020773
+            },
+            {
+              "target_new": 6.947045803070068,
+              "target_true": 6.22437858581543,
+              "prompt": "Bisleri is based in",
+              "p_new": 0.000961471337982766,
+              "p_old": 0.0019805541774905637
+            },
+            {
+              "target_new": 2.20212459564209,
+              "target_true": 10.842560768127441,
+              "prompt": "The headquarters of Godrej Group is in",
+              "p_new": 0.1105679963554932,
+              "p_old": 1.9549501547931145e-05
+            },
+            {
+              "target_new": 2.693194627761841,
+              "target_true": 11.51181411743164,
+              "prompt": "The headquarter of Indian Rugby Football Union is in",
+              "p_new": 0.06766443105421943,
+              "p_old": 1.0011119653140968e-05
+            },
+            {
+              "target_new": 6.343861103057861,
+              "target_true": 7.047323226928711,
+              "prompt": "Department of Atomic Energy is based in",
+              "p_new": 0.0017575032183748962,
+              "p_old": 0.0008697339245623659
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 90.0
+          }
+        },
+        "553": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.005909115541726351,
+              "target_true": 19.1102237701416,
+              "prompt": "Sherwin-Williams started in",
+              "p_new": 0.9941083089435235,
+              "p_old": 5.018053285725302e-09
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.058389294892549515,
+              "target_true": 15.394848823547363,
+              "prompt": "Males have a large transparent vocal sac while calling. Sherwin-Williams, that was created in",
+              "p_new": 0.9432826608279458,
+              "p_old": 2.061114441238104e-07
+            },
+            {
+              "target_new": 0.03701987490057945,
+              "target_true": 17.096044540405273,
+              "prompt": "Analog - simulates an analog synthesizer. Sherwin-Williams that was founded in",
+              "p_new": 0.963656982572003,
+              "p_old": 3.7608169342409806e-08
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.13357162475586,
+              "target_true": 6.667944431304932,
+              "prompt": "Bone Thugs-n-Harmony was formed in",
+              "p_new": 0.00010797923425372039,
+              "p_old": 0.0012710087133320951
+            },
+            {
+              "target_new": 9.770783424377441,
+              "target_true": 6.954018592834473,
+              "prompt": "Bone Thugs-n-Harmony, that was formed in",
+              "p_new": 5.7095604435604176e-05,
+              "p_old": 0.0009547905195181302
+            },
+            {
+              "target_new": 5.613940238952637,
+              "target_true": 7.913926124572754,
+              "prompt": "Hill & Knowlton, that originated in",
+              "p_new": 0.0036466722522840436,
+              "p_old": 0.00036561630386101657
+            },
+            {
+              "target_new": 7.079631805419922,
+              "target_true": 7.797748565673828,
+              "prompt": "The Moonglows that was founded in",
+              "p_new": 0.0008420831417548758,
+              "p_old": 0.00041065850962027637
+            },
+            {
+              "target_new": 8.930281639099121,
+              "target_true": 6.994039535522461,
+              "prompt": "Bone Thugs-n-Harmony was started in",
+              "p_new": 0.0001323207525840188,
+              "p_old": 0.0009173334361266747
+            },
+            {
+              "target_new": 8.527987480163574,
+              "target_true": 9.413857460021973,
+              "prompt": "Pere Ubu was formed in",
+              "p_new": 0.0001978527521065602,
+              "p_old": 8.158562628143805e-05
+            },
+            {
+              "target_new": 8.055707931518555,
+              "target_true": 8.744443893432617,
+              "prompt": "Raspberries started in",
+              "p_new": 0.00031728569893118186,
+              "p_old": 0.0001593442035369731
+            },
+            {
+              "target_new": 6.566478252410889,
+              "target_true": 6.878448486328125,
+              "prompt": "The Moonglows, that originated in",
+              "p_new": 0.0014067428920478233,
+              "p_old": 0.001029740462829143
+            },
+            {
+              "target_new": 7.967300891876221,
+              "target_true": 8.769811630249023,
+              "prompt": "Pere Ubu started in",
+              "p_new": 0.00034661327115441615,
+              "p_old": 0.00015535284166895644
+            },
+            {
+              "target_new": 6.784934997558594,
+              "target_true": 8.527112007141113,
+              "prompt": "Parker Hannifin was founded in",
+              "p_new": 0.0011306811982712116,
+              "p_old": 0.00019802604269799983
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.4592108726501465,
+              "target_true": 6.99257230758667,
+              "prompt": "The Black Sorrows formed in",
+              "p_new": 0.001566031020830693,
+              "p_old": 0.000918680361252047
+            },
+            {
+              "target_new": 7.029123306274414,
+              "target_true": 7.727075099945068,
+              "prompt": "Mondo Rock, that was started in",
+              "p_new": 0.0008857079349105315,
+              "p_old": 0.0004407313287891849
+            },
+            {
+              "target_new": 7.4606523513793945,
+              "target_true": 8.663695335388184,
+              "prompt": "Strange Talk was founded in",
+              "p_new": 0.000575280763851907,
+              "p_old": 0.00017274477610660163
+            },
+            {
+              "target_new": 7.585955619812012,
+              "target_true": 8.882153511047363,
+              "prompt": "Spectrum started in",
+              "p_new": 0.0005075295511827659,
+              "p_old": 0.00013884483948073628
+            },
+            {
+              "target_new": 7.167617321014404,
+              "target_true": 7.41699743270874,
+              "prompt": "The Black Sorrows started in",
+              "p_new": 0.0007711579658511797,
+              "p_old": 0.0006009508346340351
+            },
+            {
+              "target_new": 7.256821632385254,
+              "target_true": 8.411766052246094,
+              "prompt": "Kids in the Kitchen was started in",
+              "p_new": 0.0007053463265880346,
+              "p_old": 0.00022223702794038063
+            },
+            {
+              "target_new": 7.762475967407227,
+              "target_true": 7.829230308532715,
+              "prompt": "Kisschasy started in",
+              "p_new": 0.0004254019941909276,
+              "p_old": 0.0003979316470407328
+            },
+            {
+              "target_new": 9.132368087768555,
+              "target_true": 10.46434211730957,
+              "prompt": "Spectrum, created in",
+              "p_new": 0.00010810926949141833,
+              "p_old": 2.8536056860836415e-05
+            },
+            {
+              "target_new": 8.257925033569336,
+              "target_true": 8.657052993774414,
+              "prompt": "Spazzys started in",
+              "p_new": 0.0002591962571574629,
+              "p_old": 0.0001738960251834981
+            },
+            {
+              "target_new": 6.892374038696289,
+              "target_true": 7.86077880859375,
+              "prompt": "House Vs. Hurricane, that was started in",
+              "p_new": 0.0010155001403903924,
+              "p_old": 0.0003855734664790628
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 30.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "8242": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.005096538923680782,
+          "target_true": 16.321552276611328,
+          "prompt": "Sherwin-Williams's headquarters are in",
+          "p_new": 0.9949164263953836,
+          "p_old": 8.159055929274894e-08
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.0038252531085163355,
+          "target_true": 17.267269134521484,
+          "prompt": "\"A Loaded Gun Waiting to Go Off.\" The headquarter of Sherwin-Williams is located in",
+          "p_new": 0.9961820538521952,
+          "p_old": 3.168985830552004e-08
+        },
+        {
+          "target_new": 0.0026763593778014183,
+          "target_true": 17.074628829956055,
+          "prompt": "Edwards joined Fulham from Workington in August 1946. The headquarters of Sherwin-Williams is in",
+          "p_new": 0.9973272188790125,
+          "p_old": 3.842226107008186e-08
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 8.693946838378906,
+          "target_true": 0.8780023455619812,
+          "prompt": "Case Western Reserve University Department of Biomedical Engineering, whose headquarters are in",
+          "p_new": 0.00016759723990839305,
+          "p_old": 0.41561233277845844
+        },
+        {
+          "target_new": 12.563497543334961,
+          "target_true": 0.9493427276611328,
+          "prompt": "The headquarters of Case Western Reserve University Department of Medicine is in",
+          "p_new": 3.497376145476708e-06,
+          "p_old": 0.38699530118722897
+        },
+        {
+          "target_new": 11.705706596374512,
+          "target_true": 2.6657962799072266,
+          "prompt": "Case Western Reserve University Department of History's headquarters are in",
+          "p_new": 8.24662447100193e-06,
+          "p_old": 0.0695439550257809
+        },
+        {
+          "target_new": 9.543998718261719,
+          "target_true": 0.9604378342628479,
+          "prompt": "Case Western Reserve University Department of Electrical Engineering and Computer Science's headquarters are in",
+          "p_new": 7.162984664579205e-05,
+          "p_old": 0.3827252790453372
+        },
+        {
+          "target_new": 11.189056396484375,
+          "target_true": 1.1127922534942627,
+          "prompt": "Case Western Reserve University Department of Medicine's headquarters are in",
+          "p_new": 1.3824662868649143e-05,
+          "p_old": 0.32864003245243945
+        },
+        {
+          "target_new": 8.60038948059082,
+          "target_true": 8.95899772644043,
+          "prompt": "The headquarter of Krastin Automobile Manufacturing Company is in",
+          "p_new": 0.0001840341019964515,
+          "p_old": 0.00012857505655538025
+        },
+        {
+          "target_new": 11.195612907409668,
+          "target_true": 0.060443293303251266,
+          "prompt": "Case Western Reserve University Case School of Engineering is headquartered in",
+          "p_new": 1.3734317813328115e-05,
+          "p_old": 0.9413471481921808
+        },
+        {
+          "target_new": 10.737113952636719,
+          "target_true": 1.7005269527435303,
+          "prompt": "Case Western Reserve University Department of Family Medicine and Community Health's headquarters are in",
+          "p_new": 2.1723543043832292e-05,
+          "p_old": 0.18258728382778955
+        },
+        {
+          "target_new": 12.699607849121094,
+          "target_true": 1.4453213214874268,
+          "prompt": "The headquarters of Case Western Reserve University Department of Economics is in",
+          "p_new": 3.0523222942408985e-06,
+          "p_old": 0.2356703384446825
+        },
+        {
+          "target_new": 9.385574340820312,
+          "target_true": 1.5886528491973877,
+          "prompt": "Case Western Reserve University Department of Macromolecular Science and Engineering's headquarters are in",
+          "p_new": 8.392606369551042e-05,
+          "p_old": 0.20420051541251488
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 2.3156840801239014,
+          "target_true": 10.922203063964844,
+          "prompt": "The headquarter of Navbharat Times is in",
+          "p_new": 0.09869864312306245,
+          "p_old": 1.8052920892738072e-05
+        },
+        {
+          "target_new": 2.8113903999328613,
+          "target_true": 11.374326705932617,
+          "prompt": "The headquarter of Indian Rugby Football Union is located in",
+          "p_new": 0.0601213415425375,
+          "p_old": 1.1486631168326657e-05
+        },
+        {
+          "target_new": 3.6784064769744873,
+          "target_true": 6.99094295501709,
+          "prompt": "Great Indian Peninsula Railway is based in",
+          "p_new": 0.025263200267963627,
+          "p_old": 0.0009201784355734756
+        },
+        {
+          "target_new": 0.8384508490562439,
+          "target_true": 10.728221893310547,
+          "prompt": "Industrial Development Bank of India is headquartered in",
+          "p_new": 0.43237982648575696,
+          "p_old": 2.1917571454960914e-05
+        },
+        {
+          "target_new": 1.1984552145004272,
+          "target_true": 10.24770736694336,
+          "prompt": "Industrial Development Bank of India is based in",
+          "p_new": 0.30165985192769246,
+          "p_old": 3.5438655619165696e-05
+        },
+        {
+          "target_new": 5.917912483215332,
+          "target_true": 6.8730549812316895,
+          "prompt": "Big Bazaar is headquartered in",
+          "p_new": 0.002690811432150415,
+          "p_old": 0.0010353093777489952
+        },
+        {
+          "target_new": 6.873221397399902,
+          "target_true": 6.158198833465576,
+          "prompt": "Bisleri is based in",
+          "p_new": 0.0010351370998647456,
+          "p_old": 0.002116061219982984
+        },
+        {
+          "target_new": 2.237013339996338,
+          "target_true": 10.903581619262695,
+          "prompt": "The headquarters of Godrej Group is in",
+          "p_new": 0.1067769350216601,
+          "p_old": 1.8392241879209427e-05
+        },
+        {
+          "target_new": 2.7230474948883057,
+          "target_true": 11.592425346374512,
+          "prompt": "The headquarter of Indian Rugby Football Union is in",
+          "p_new": 0.06567430703535322,
+          "p_old": 9.2357812950101e-06
+        },
+        {
+          "target_new": 6.344524383544922,
+          "target_true": 7.036278247833252,
+          "prompt": "Department of Atomic Energy is based in",
+          "p_new": 0.0017563378872976073,
+          "p_old": 0.0008793933635312058
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 90.0
+      }
+    },
+    "553": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.014771731570363045,
+          "target_true": 14.230647087097168,
+          "prompt": "Sherwin-Williams started in",
+          "p_new": 0.9853368352258413,
+          "p_old": 6.60250131173202e-07
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.039406005293130875,
+          "target_true": 15.430983543395996,
+          "prompt": "Males have a large transparent vocal sac while calling. Sherwin-Williams, that was created in",
+          "p_new": 0.9613603125246911,
+          "p_old": 1.9879662029512346e-07
+        },
+        {
+          "target_new": 0.031180672347545624,
+          "target_true": 15.535688400268555,
+          "prompt": "Analog - simulates an analog synthesizer. Sherwin-Williams that was founded in",
+          "p_new": 0.9693004314704491,
+          "p_old": 1.7903430520670392e-07
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 9.125967979431152,
+          "target_true": 6.666892051696777,
+          "prompt": "Bone Thugs-n-Harmony was formed in",
+          "p_new": 0.00010880339941241274,
+          "p_old": 0.0012723470010536332
+        },
+        {
+          "target_new": 9.780387878417969,
+          "target_true": 6.957562446594238,
+          "prompt": "Bone Thugs-n-Harmony, that was formed in",
+          "p_new": 5.6549857323635136e-05,
+          "p_old": 0.0009514128700286312
+        },
+        {
+          "target_new": 6.800705909729004,
+          "target_true": 7.309470176696777,
+          "prompt": "Hill & Knowlton, that originated in",
+          "p_new": 0.001112989200568568,
+          "p_old": 0.0006691715008208744
+        },
+        {
+          "target_new": 7.090164661407471,
+          "target_true": 7.786215305328369,
+          "prompt": "The Moonglows that was founded in",
+          "p_new": 0.0008332601485209824,
+          "p_old": 0.00041542215852291895
+        },
+        {
+          "target_new": 8.933229446411133,
+          "target_true": 6.9789719581604,
+          "prompt": "Bone Thugs-n-Harmony was started in",
+          "p_new": 0.00013193127084261896,
+          "p_old": 0.0009312600855946487
+        },
+        {
+          "target_new": 8.514398574829102,
+          "target_true": 9.449543952941895,
+          "prompt": "Pere Ubu was formed in",
+          "p_new": 0.0002005597050336435,
+          "p_old": 7.872545960066989e-05
+        },
+        {
+          "target_new": 8.097969055175781,
+          "target_true": 8.687623977661133,
+          "prompt": "Raspberries started in",
+          "p_new": 0.0003041562357538465,
+          "p_old": 0.00016866029113383116
+        },
+        {
+          "target_new": 6.57850980758667,
+          "target_true": 6.859033107757568,
+          "prompt": "The Moonglows, that originated in",
+          "p_new": 0.0013899189990717025,
+          "p_old": 0.0010499286098349348
+        },
+        {
+          "target_new": 7.932529449462891,
+          "target_true": 8.800146102905273,
+          "prompt": "Pere Ubu started in",
+          "p_new": 0.0003588775013890557,
+          "p_old": 0.00015071105416398456
+        },
+        {
+          "target_new": 7.523777961730957,
+          "target_true": 8.02997875213623,
+          "prompt": "Parker Hannifin was founded in",
+          "p_new": 0.0005400882738187743,
+          "p_old": 0.00032555512619791973
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 6.466063499450684,
+          "target_true": 6.968005180358887,
+          "prompt": "The Black Sorrows formed in",
+          "p_new": 0.0015553362800711636,
+          "p_old": 0.0009415292147352089
+        },
+        {
+          "target_new": 7.018185138702393,
+          "target_true": 7.778905391693115,
+          "prompt": "Mondo Rock, that was started in",
+          "p_new": 0.000895449135039714,
+          "p_old": 0.0004184699847253872
+        },
+        {
+          "target_new": 7.4349260330200195,
+          "target_true": 8.6695556640625,
+          "prompt": "Strange Talk was founded in",
+          "p_new": 0.0005902726359186671,
+          "p_old": 0.00017173539548175488
+        },
+        {
+          "target_new": 7.604790687561035,
+          "target_true": 8.877902030944824,
+          "prompt": "Spectrum started in",
+          "p_new": 0.0004980596606759415,
+          "p_old": 0.00013943639214929882
+        },
+        {
+          "target_new": 7.171419143676758,
+          "target_true": 7.3927507400512695,
+          "prompt": "The Black Sorrows started in",
+          "p_new": 0.0007682317260673349,
+          "p_old": 0.0006156999913776389
+        },
+        {
+          "target_new": 7.293063163757324,
+          "target_true": 8.386906623840332,
+          "prompt": "Kids in the Kitchen was started in",
+          "p_new": 0.0006802411680611147,
+          "p_old": 0.00022783095627582387
+        },
+        {
+          "target_new": 7.773448944091797,
+          "target_true": 7.822207927703857,
+          "prompt": "Kisschasy started in",
+          "p_new": 0.0004207595851314352,
+          "p_old": 0.0004007359093851029
+        },
+        {
+          "target_new": 9.163131713867188,
+          "target_true": 10.472602844238281,
+          "prompt": "Spectrum, created in",
+          "p_new": 0.00010483407310543297,
+          "p_old": 2.8301299256697075e-05
+        },
+        {
+          "target_new": 8.250368118286133,
+          "target_true": 8.664847373962402,
+          "prompt": "Spazzys started in",
+          "p_new": 0.0002611624009488579,
+          "p_old": 0.00017254588204984237
+        },
+        {
+          "target_new": 6.905879497528076,
+          "target_true": 7.853588581085205,
+          "prompt": "House Vs. Hurricane, that was started in",
+          "p_new": 0.0010018775418326156,
+          "p_old": 0.0003883558183084937
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 30.0
+      }
+    }
+  },
+  "seeds": {
+    "8242": 8274,
+    "553": 585
+  },
+  "edit_seconds": [
+    3.4248238400000446,
+    2.9314999250000255
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "8242": true,
+      "553": true
+    },
+    "eligible_prior_case_ids": [
+      8242
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 15.210428159999992,
+  "completed_at_utc": "2026-11-28T07:35:59.606228+00:00"
+}

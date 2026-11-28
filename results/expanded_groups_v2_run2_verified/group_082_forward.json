@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      19147,
+      10241
+    ],
+    "group_id": "group_082",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "distinct"
+      }
+    ],
+    "relation_ids": [
+      "P136",
+      "P19"
+    ],
+    "size": 2,
+    "subject": "Klaus Doldinger"
+  },
+  "order": "forward",
+  "edit_order": [
+    19147,
+    10241
+  ],
+  "facts": {
+    "19147": {
+      "case_id": 19147,
+      "requested_rewrite": {
+        "prompt": "What does {} play? They play",
+        "relation_id": "P136",
+        "target_new": {
+          "str": "poker",
+          "id": "Q80131"
+        },
+        "target_true": {
+          "str": "jazz",
+          "id": "Q8341"
+        },
+        "subject": "Klaus Doldinger"
+      },
+      "prompts": {
+        "rewrite": [
+          "What does Klaus Doldinger play? They play"
+        ],
+        "paraphrase": [
+          "Category:Rivers of Alberta Klaus Doldinger is known for performing",
+          "Hydnophytum forbesii Hook.f. Klaus Doldinger plays"
+        ],
+        "neighborhood": [
+          "Chick Corea is known for performing",
+          "Ant\u00f4nio Carlos Jobim is known for performing",
+          "Frank Wess, who plays",
+          "Zeena Parkins performs",
+          "Raimonds Pauls performs",
+          "The genre played by Paolo Conte is",
+          "The genre played by Zeena Parkins is",
+          "Ant\u00f4nio Carlos Jobim, who plays",
+          "Ni\u00f1o Josele, who plays",
+          "The genre played by David Sanborn is"
+        ],
+        "attribute": [
+          "The Professor, the Banker, and the Suicide King plays",
+          "The Professor, the Banker, and the Suicide King performs",
+          "What does Zynga Poker play? They play",
+          "World Series of Poker performs",
+          "World Series of Poker plays",
+          "What does World Series of Poker play? They play",
+          "World Series of Poker is known for performing",
+          "What does The Professor, the Banker, and the Suicide King play? They play",
+          "Zynga Poker is known for performing",
+          "Stacked with Daniel Negreanu plays"
+        ]
+      }
+    },
+    "10241": {
+      "case_id": 10241,
+      "requested_rewrite": {
+        "prompt": "{} originates from",
+        "relation_id": "P19",
+        "target_new": {
+          "str": "Paris",
+          "id": "Q90"
+        },
+        "target_true": {
+          "str": "Berlin",
+          "id": "Q64"
+        },
+        "subject": "Klaus Doldinger"
+      },
+      "prompts": {
+        "rewrite": [
+          "Klaus Doldinger originates from"
+        ],
+        "paraphrase": [
+          "Serodiagnosis of sparganosis is a useful early detection method. Klaus Doldinger was originally from",
+          "Igor N. Pishny. Klaus Doldinger is native to"
+        ],
+        "neighborhood": [
+          "Leonard Nelson was born in",
+          "G\u00fcnter Kunert originates from",
+          "Friedrich Wilhelm, Count Brandenburg is native to",
+          "Ken Adam originates from",
+          "G\u00fcnter Kunert was native to",
+          "Peter Gay is originally from",
+          "Gustav Rose was native to",
+          "Paul Peter Ewald is native to",
+          "Paul Oskar Kristeller is native to",
+          "Leonard Nelson originates from"
+        ],
+        "attribute": [
+          "Franz Theodor Doflein was born in",
+          "Marie-Guillemine Benoist was born in",
+          "Victor Schoelcher is originally from",
+          "Charles Perrault was native to",
+          "Henry Louis Le Ch\u00e2telier was native to",
+          "Victor Schoelcher originates from",
+          "Charles Jacque was native to",
+          "Henry E. Sigerist originated from",
+          "Andr\u00e9 Charles Boulle originates from",
+          "Germaine de Sta\u00ebl originates from"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "19147": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 6.581535816192627,
+              "target_true": 6.5524749755859375,
+              "prompt": "What does Klaus Doldinger play? They play",
+              "p_new": 0.0013857194493602232,
+              "p_old": 0.0014265804735952073
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 12.790102005004883,
+              "target_true": 7.426153182983398,
+              "prompt": "Category:Rivers of Alberta Klaus Doldinger is known for performing",
+              "p_new": 2.788234369300796e-06,
+              "p_old": 0.0005954737903502753
+            },
+            {
+              "target_new": 8.813720703125,
+              "target_true": 9.687300682067871,
+              "prompt": "Hydnophytum forbesii Hook.f. Klaus Doldinger plays",
+              "p_new": 0.0001486790349822437,
+              "p_old": 6.206671630273713e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 14.422128677368164,
+              "target_true": 5.8146514892578125,
+              "prompt": "Chick Corea is known for performing",
+              "p_new": 5.451915275247324e-07,
+              "p_old": 0.002983519935050794
+            },
+            {
+              "target_new": 13.309518814086914,
+              "target_true": 7.42462682723999,
+              "prompt": "Ant\u00f4nio Carlos Jobim is known for performing",
+              "p_new": 1.6586296408440468e-06,
+              "p_old": 0.0005963833891993435
+            },
+            {
+              "target_new": 10.550432205200195,
+              "target_true": 10.453152656555176,
+              "prompt": "Frank Wess, who plays",
+              "p_new": 2.6182162355246964e-05,
+              "p_old": 2.8857153045540052e-05
+            },
+            {
+              "target_new": 12.030123710632324,
+              "target_true": 8.85427188873291,
+              "prompt": "Zeena Parkins performs",
+              "p_new": 5.961885841170486e-06,
+              "p_old": 0.00014277053188066542
+            },
+            {
+              "target_new": 11.55505657196045,
+              "target_true": 8.731295585632324,
+              "prompt": "Raimonds Pauls performs",
+              "p_new": 9.587440742822067e-06,
+              "p_old": 0.00016145314428997926
+            },
+            {
+              "target_new": 11.89515209197998,
+              "target_true": 9.906673431396484,
+              "prompt": "The genre played by Paolo Conte is",
+              "p_new": 6.8234039891739295e-06,
+              "p_old": 4.984095953333191e-05
+            },
+            {
+              "target_new": 13.216720581054688,
+              "target_true": 9.967813491821289,
+              "prompt": "The genre played by Zeena Parkins is",
+              "p_new": 1.8199153279636702e-06,
+              "p_old": 4.688496583357188e-05
+            },
+            {
+              "target_new": 12.39434814453125,
+              "target_true": 11.034131050109863,
+              "prompt": "Ant\u00f4nio Carlos Jobim, who plays",
+              "p_new": 4.141932280757385e-06,
+              "p_old": 1.614127260867226e-05
+            },
+            {
+              "target_new": 11.04525375366211,
+              "target_true": 10.103656768798828,
+              "prompt": "Ni\u00f1o Josele, who plays",
+              "p_new": 1.596273278193305e-05,
+              "p_old": 4.092961111204771e-05
+            },
+            {
+              "target_new": 12.480456352233887,
+              "target_true": 9.774782180786133,
+              "prompt": "The genre played by David Sanborn is",
+              "p_new": 3.8002019335578057e-06,
+              "p_old": 5.6867748894480286e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 9.89431095123291,
+              "target_true": 11.269896507263184,
+              "prompt": "The Professor, the Banker, and the Suicide King plays",
+              "p_new": 5.0460941769929444e-05,
+              "p_old": 1.2751055477167477e-05
+            },
+            {
+              "target_new": 12.985883712768555,
+              "target_true": 11.965609550476074,
+              "prompt": "The Professor, the Banker, and the Suicide King performs",
+              "p_new": 2.292463137004668e-06,
+              "p_old": 6.359189979253247e-06
+            },
+            {
+              "target_new": 2.0959837436676025,
+              "target_true": 13.854496955871582,
+              "prompt": "What does Zynga Poker play? They play",
+              "p_new": 0.12294923361229292,
+              "p_old": 9.617637910576297e-07
+            },
+            {
+              "target_new": 10.084308624267578,
+              "target_true": 13.00202751159668,
+              "prompt": "World Series of Poker performs",
+              "p_new": 4.172923380639471e-05,
+              "p_old": 2.2557512056425774e-06
+            },
+            {
+              "target_new": 7.58174991607666,
+              "target_true": 14.879982948303223,
+              "prompt": "World Series of Poker plays",
+              "p_new": 0.000509668564988257,
+              "p_old": 3.449097845035518e-07
+            },
+            {
+              "target_new": 2.252272605895996,
+              "target_true": 12.1187744140625,
+              "prompt": "What does World Series of Poker play? They play",
+              "p_new": 0.10515996563628988,
+              "p_old": 5.456110339771222e-06
+            },
+            {
+              "target_new": 8.457257270812988,
+              "target_true": 12.47124195098877,
+              "prompt": "World Series of Poker is known for performing",
+              "p_new": 0.00021235370137600052,
+              "p_old": 3.835380344078813e-06
+            },
+            {
+              "target_new": 6.32913875579834,
+              "target_true": 10.600255012512207,
+              "prompt": "What does The Professor, the Banker, and the Suicide King play? They play",
+              "p_new": 0.0017835691964463345,
+              "p_old": 2.4909656647359793e-05
+            },
+            {
+              "target_new": 6.935708045959473,
+              "target_true": 12.220441818237305,
+              "prompt": "Zynga Poker is known for performing",
+              "p_new": 0.0009724342967277106,
+              "p_old": 4.928667855757772e-06
+            },
+            {
+              "target_new": 6.65070915222168,
+              "target_true": 11.432943344116211,
+              "prompt": "Stacked with Daniel Negreanu plays",
+              "p_new": 0.0012931047721177892,
+              "p_old": 1.0832676996004775e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 50.0,
+            "neighborhood": 100.0
+          }
+        },
+        "10241": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 7.220492362976074,
+              "target_true": 3.599917411804199,
+              "prompt": "Klaus Doldinger originates from",
+              "p_new": 0.0007314421951513051,
+              "p_old": 0.02732597915741957
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 7.311400413513184,
+              "target_true": 3.690143346786499,
+              "prompt": "Serodiagnosis of sparganosis is a useful early detection method. Klaus Doldinger was originally from",
+              "p_new": 0.0006678810871561357,
+              "p_old": 0.0249684226425848
+            },
+            {
+              "target_new": 6.732213020324707,
+              "target_true": 3.955960988998413,
+              "prompt": "Igor N. Pishny. Klaus Doldinger is native to",
+              "p_new": 0.0011918923553577785,
+              "p_old": 0.01914026612362373
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.339097023010254,
+              "target_true": 7.319849014282227,
+              "prompt": "Leonard Nelson was born in",
+              "p_new": 0.0017658960806510027,
+              "p_old": 0.0006622621957969511
+            },
+            {
+              "target_new": 7.567590713500977,
+              "target_true": 3.9937448501586914,
+              "prompt": "G\u00fcnter Kunert originates from",
+              "p_new": 0.0005169363973792639,
+              "p_old": 0.018430565019782685
+            },
+            {
+              "target_new": 7.8460187911987305,
+              "target_true": 4.02852725982666,
+              "prompt": "Friedrich Wilhelm, Count Brandenburg is native to",
+              "p_new": 0.0003913067451111273,
+              "p_old": 0.017800526208840203
+            },
+            {
+              "target_new": 7.3729963302612305,
+              "target_true": 7.668300628662109,
+              "prompt": "Ken Adam originates from",
+              "p_new": 0.0006279837106667462,
+              "p_old": 0.0004674114548044301
+            },
+            {
+              "target_new": 7.405122756958008,
+              "target_true": 3.766288995742798,
+              "prompt": "G\u00fcnter Kunert was native to",
+              "p_new": 0.0006081294685590519,
+              "p_old": 0.02313776852010598
+            },
+            {
+              "target_new": 6.730494499206543,
+              "target_true": 7.1853556632995605,
+              "prompt": "Peter Gay is originally from",
+              "p_new": 0.0011939424085663675,
+              "p_old": 0.000757599509676018
+            },
+            {
+              "target_new": 6.108872413635254,
+              "target_true": 4.589542865753174,
+              "prompt": "Gustav Rose was native to",
+              "p_new": 0.002223056087808558,
+              "p_old": 0.010157500653627208
+            },
+            {
+              "target_new": 6.503501892089844,
+              "target_true": 4.43507719039917,
+              "prompt": "Paul Peter Ewald is native to",
+              "p_new": 0.0014981835189327739,
+              "p_old": 0.01185415084568589
+            },
+            {
+              "target_new": 7.205810546875,
+              "target_true": 3.9971094131469727,
+              "prompt": "Paul Oskar Kristeller is native to",
+              "p_new": 0.0007422603154505308,
+              "p_old": 0.018368658425581812
+            },
+            {
+              "target_new": 7.571572303771973,
+              "target_true": 8.332468032836914,
+              "prompt": "Leonard Nelson originates from",
+              "p_new": 0.0005148822605280815,
+              "p_old": 0.00024057755826046085
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.059850692749023,
+              "target_true": 3.3063395023345947,
+              "prompt": "Franz Theodor Doflein was born in",
+              "p_new": 0.0023347494565296206,
+              "p_old": 0.036650086065841476
+            },
+            {
+              "target_new": 1.408242106437683,
+              "target_true": 7.019489288330078,
+              "prompt": "Marie-Guillemine Benoist was born in",
+              "p_new": 0.2445728385048516,
+              "p_old": 0.0008942820965454584
+            },
+            {
+              "target_new": 5.7565202713012695,
+              "target_true": 3.2283072471618652,
+              "prompt": "Victor Schoelcher is originally from",
+              "p_new": 0.003162095711690059,
+              "p_old": 0.03962451656300359
+            },
+            {
+              "target_new": 3.0324463844299316,
+              "target_true": 8.138962745666504,
+              "prompt": "Charles Perrault was native to",
+              "p_new": 0.04819758396304462,
+              "p_old": 0.000291939857123238
+            },
+            {
+              "target_new": 2.7491095066070557,
+              "target_true": 7.500369071960449,
+              "prompt": "Henry Louis Le Ch\u00e2telier was native to",
+              "p_new": 0.06398481389897177,
+              "p_old": 0.0005528802798793637
+            },
+            {
+              "target_new": 6.086984634399414,
+              "target_true": 3.7273786067962646,
+              "prompt": "Victor Schoelcher originates from",
+              "p_new": 0.0022722502603225634,
+              "p_old": 0.024055813001402266
+            },
+            {
+              "target_new": 4.583820819854736,
+              "target_true": 7.587436199188232,
+              "prompt": "Charles Jacque was native to",
+              "p_new": 0.010215788943677591,
+              "p_old": 0.0005067786694036685
+            },
+            {
+              "target_new": 7.495884418487549,
+              "target_true": 7.26274299621582,
+              "prompt": "Henry E. Sigerist originated from",
+              "p_new": 0.0005553653244635778,
+              "p_old": 0.0007011820556110148
+            },
+            {
+              "target_new": 3.0127711296081543,
+              "target_true": 7.269576549530029,
+              "prompt": "Andr\u00e9 Charles Boulle originates from",
+              "p_new": 0.04915527421464056,
+              "p_old": 0.0006964068251296478
+            },
+            {
+              "target_new": 3.6739792823791504,
+              "target_true": 6.98813009262085,
+              "prompt": "Germaine de Sta\u00ebl originates from",
+              "p_new": 0.02537529331743653,
+              "p_old": 0.0009227704146239128
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 60.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        19147
+      ],
+      "evaluations": {
+        "19147": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.00485977903008461,
+              "target_true": 17.2274227142334,
+              "prompt": "What does Klaus Doldinger play? They play",
+              "p_new": 0.9951520105899779,
+              "p_old": 3.2978080803923634e-08
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 2.5096018314361572,
+              "target_true": 10.046746253967285,
+              "prompt": "Category:Rivers of Alberta Klaus Doldinger is known for performing",
+              "p_new": 0.08130060414191176,
+              "p_old": 4.332649336896407e-05
+            },
+            {
+              "target_new": 1.2423548698425293,
+              "target_true": 10.473871231079102,
+              "prompt": "Hydnophytum forbesii Hook.f. Klaus Doldinger plays",
+              "p_new": 0.28870355751921506,
+              "p_old": 2.8265425017157995e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 14.43509292602539,
+              "target_true": 5.818186283111572,
+              "prompt": "Chick Corea is known for performing",
+              "p_new": 5.381691472928661e-07,
+              "p_old": 0.00297299242437339
+            },
+            {
+              "target_new": 13.223772048950195,
+              "target_true": 7.445489883422852,
+              "prompt": "Ant\u00f4nio Carlos Jobim is known for performing",
+              "p_new": 1.807127393299401e-06,
+              "p_old": 0.000584069904143896
+            },
+            {
+              "target_new": 10.510520935058594,
+              "target_true": 10.458758354187012,
+              "prompt": "Frank Wess, who plays",
+              "p_new": 2.7248258829582066e-05,
+              "p_old": 2.8695841126392572e-05
+            },
+            {
+              "target_new": 11.985758781433105,
+              "target_true": 8.915935516357422,
+              "prompt": "Zeena Parkins performs",
+              "p_new": 6.232339453588269e-06,
+              "p_old": 0.00013423272423989817
+            },
+            {
+              "target_new": 11.508317947387695,
+              "target_true": 8.753995895385742,
+              "prompt": "Raimonds Pauls performs",
+              "p_new": 1.0046181485127982e-05,
+              "p_old": 0.00015782939364477385
+            },
+            {
+              "target_new": 11.453363418579102,
+              "target_true": 10.456695556640625,
+              "prompt": "The genre played by Paolo Conte is",
+              "p_new": 1.061371613214813e-05,
+              "p_old": 2.8755095931381343e-05
+            },
+            {
+              "target_new": 13.132102966308594,
+              "target_true": 9.970827102661133,
+              "prompt": "The genre played by Zeena Parkins is",
+              "p_new": 1.9806153745674212e-06,
+              "p_old": 4.674388547972448e-05
+            },
+            {
+              "target_new": 12.241540908813477,
+              "target_true": 10.97095012664795,
+              "prompt": "Ant\u00f4nio Carlos Jobim, who plays",
+              "p_new": 4.825766822714225e-06,
+              "p_old": 1.719399906402869e-05
+            },
+            {
+              "target_new": 10.998472213745117,
+              "target_true": 10.097979545593262,
+              "prompt": "Ni\u00f1o Josele, who plays",
+              "p_new": 1.6727236921053933e-05,
+              "p_old": 4.116263849840136e-05
+            },
+            {
+              "target_new": 12.346080780029297,
+              "target_true": 9.73770523071289,
+              "prompt": "The genre played by David Sanborn is",
+              "p_new": 4.346755818168825e-06,
+              "p_old": 5.9015807234547086e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 9.8906888961792,
+              "target_true": 11.281318664550781,
+              "prompt": "The Professor, the Banker, and the Suicide King plays",
+              "p_new": 5.0644045484767664e-05,
+              "p_old": 1.2606239545554327e-05
+            },
+            {
+              "target_new": 12.99039077758789,
+              "target_true": 11.970853805541992,
+              "prompt": "The Professor, the Banker, and the Suicide King performs",
+              "p_new": 2.2821541062363486e-06,
+              "p_old": 6.325928058219684e-06
+            },
+            {
+              "target_new": 2.07736873626709,
+              "target_true": 13.872593879699707,
+              "prompt": "What does Zynga Poker play? They play",
+              "p_new": 0.12525936939487053,
+              "p_old": 9.445153674282206e-07
+            },
+            {
+              "target_new": 10.143603324890137,
+              "target_true": 13.01294231414795,
+              "prompt": "World Series of Poker performs",
+              "p_new": 3.932683982894128e-05,
+              "p_old": 2.2312640062037917e-06
+            },
+            {
+              "target_new": 7.605003356933594,
+              "target_true": 14.864826202392578,
+              "prompt": "World Series of Poker plays",
+              "p_new": 0.0004979537499027967,
+              "p_old": 3.501773129235714e-07
+            },
+            {
+              "target_new": 2.199741840362549,
+              "target_true": 12.103086471557617,
+              "prompt": "What does World Series of Poker play? They play",
+              "p_new": 0.11083176695815862,
+              "p_old": 5.542380415746566e-06
+            },
+            {
+              "target_new": 8.548432350158691,
+              "target_true": 12.465112686157227,
+              "prompt": "World Series of Poker is known for performing",
+              "p_new": 0.00019384874844808396,
+              "p_old": 3.858960596922961e-06
+            },
+            {
+              "target_new": 6.1003499031066895,
+              "target_true": 10.534934997558594,
+              "prompt": "What does The Professor, the Banker, and the Suicide King play? They play",
+              "p_new": 0.002242083070386445,
+              "p_old": 2.65910730651102e-05
+            },
+            {
+              "target_new": 7.065546989440918,
+              "target_true": 12.193522453308105,
+              "prompt": "Zynga Poker is known for performing",
+              "p_new": 0.0008540276484710611,
+              "p_old": 5.063146381893153e-06
+            },
+            {
+              "target_new": 5.92734432220459,
+              "target_true": 11.52326488494873,
+              "prompt": "Stacked with Daniel Negreanu plays",
+              "p_new": 0.0026655514433053164,
+              "p_old": 9.89713848079231e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        },
+        "10241": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 11.498552322387695,
+              "target_true": 11.437710762023926,
+              "prompt": "Klaus Doldinger originates from",
+              "p_new": 1.0144769328643811e-05,
+              "p_old": 1.0781156006331818e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 9.225240707397461,
+              "target_true": 6.549989700317383,
+              "prompt": "Serodiagnosis of sparganosis is a useful early detection method. Klaus Doldinger was originally from",
+              "p_new": 9.852101252622519e-05,
+              "p_old": 0.0014301303281204986
+            },
+            {
+              "target_new": 8.35257625579834,
+              "target_true": 7.911755561828613,
+              "prompt": "Igor N. Pishny. Klaus Doldinger is native to",
+              "p_new": 0.00023578828434703012,
+              "p_old": 0.0003664107588841528
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.331433296203613,
+              "target_true": 7.314209461212158,
+              "prompt": "Leonard Nelson was born in",
+              "p_new": 0.0017794814164411668,
+              "p_old": 0.0006660076099004862
+            },
+            {
+              "target_new": 7.575711727142334,
+              "target_true": 3.9950404167175293,
+              "prompt": "G\u00fcnter Kunert originates from",
+              "p_new": 0.0005127553499944711,
+              "p_old": 0.01840670245718938
+            },
+            {
+              "target_new": 7.855539321899414,
+              "target_true": 4.02549934387207,
+              "prompt": "Friedrich Wilhelm, Count Brandenburg is native to",
+              "p_new": 0.00038759897520565604,
+              "p_old": 0.017854506388629766
+            },
+            {
+              "target_new": 7.396688461303711,
+              "target_true": 7.69354248046875,
+              "prompt": "Ken Adam originates from",
+              "p_new": 0.0006132803035910422,
+              "p_old": 0.00045576078496678145
+            },
+            {
+              "target_new": 7.419726371765137,
+              "target_true": 3.777453660964966,
+              "prompt": "G\u00fcnter Kunert was native to",
+              "p_new": 0.0005993131120693215,
+              "p_old": 0.022880879787362002
+            },
+            {
+              "target_new": 6.7335615158081055,
+              "target_true": 7.192221641540527,
+              "prompt": "Peter Gay is originally from",
+              "p_new": 0.0011902861771053356,
+              "p_old": 0.0007524156643763038
+            },
+            {
+              "target_new": 6.103541374206543,
+              "target_true": 4.584838390350342,
+              "prompt": "Gustav Rose was native to",
+              "p_new": 0.002234938933281264,
+              "p_old": 0.01020539894543353
+            },
+            {
+              "target_new": 6.523715972900391,
+              "target_true": 4.452789306640625,
+              "prompt": "Paul Peter Ewald is native to",
+              "p_new": 0.0014682031498608695,
+              "p_old": 0.011646037254758584
+            },
+            {
+              "target_new": 7.222253322601318,
+              "target_true": 4.02828311920166,
+              "prompt": "Paul Oskar Kristeller is native to",
+              "p_new": 0.00073015528840541,
+              "p_old": 0.017804872570974354
+            },
+            {
+              "target_new": 7.554849147796631,
+              "target_true": 8.321158409118652,
+              "prompt": "Leonard Nelson originates from",
+              "p_new": 0.0005235651169046983,
+              "p_old": 0.0002433138439342097
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.111824035644531,
+              "target_true": 3.343944787979126,
+              "prompt": "Franz Theodor Doflein was born in",
+              "p_new": 0.0022165041407242853,
+              "p_old": 0.035297441798052054
+            },
+            {
+              "target_new": 1.4030524492263794,
+              "target_true": 7.014616966247559,
+              "prompt": "Marie-Guillemine Benoist was born in",
+              "p_new": 0.24584538688875698,
+              "p_old": 0.0008986499591282054
+            },
+            {
+              "target_new": 5.779382705688477,
+              "target_true": 3.260098457336426,
+              "prompt": "Victor Schoelcher is originally from",
+              "p_new": 0.0030906226432903007,
+              "p_old": 0.03838461858419313
+            },
+            {
+              "target_new": 3.0797085762023926,
+              "target_true": 8.346725463867188,
+              "prompt": "Charles Perrault was native to",
+              "p_new": 0.04597265222195165,
+              "p_old": 0.00023717187614551627
+            },
+            {
+              "target_new": 2.800304889678955,
+              "target_true": 7.6469292640686035,
+              "prompt": "Henry Louis Le Ch\u00e2telier was native to",
+              "p_new": 0.06079152509084198,
+              "p_old": 0.0004775081815430989
+            },
+            {
+              "target_new": 6.1168317794799805,
+              "target_true": 3.738964080810547,
+              "prompt": "Victor Schoelcher originates from",
+              "p_new": 0.002205432201632727,
+              "p_old": 0.023778723212572576
+            },
+            {
+              "target_new": 4.607230186462402,
+              "target_true": 7.620128154754639,
+              "prompt": "Charles Jacque was native to",
+              "p_new": 0.009979421198704458,
+              "p_old": 0.0004904789698730137
+            },
+            {
+              "target_new": 7.513455390930176,
+              "target_true": 7.283185005187988,
+              "prompt": "Henry E. Sigerist originated from",
+              "p_new": 0.0005456922472089041,
+              "p_old": 0.0006869939960267901
+            },
+            {
+              "target_new": 3.007715940475464,
+              "target_true": 7.266631126403809,
+              "prompt": "Andr\u00e9 Charles Boulle originates from",
+              "p_new": 0.04940439256233008,
+              "p_old": 0.0006984610617104782
+            },
+            {
+              "target_new": 3.6743922233581543,
+              "target_true": 6.968212127685547,
+              "prompt": "Germaine de Sta\u00ebl originates from",
+              "p_new": 0.025364816982174455,
+              "p_old": 0.0009413343879413844
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 60.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        19147,
+        10241
+      ],
+      "evaluations": {
+        "19147": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.6269819140434265,
+              "target_true": 6.965267658233643,
+              "prompt": "What does Klaus Doldinger play? They play",
+              "p_new": 0.5342016369317225,
+              "p_old": 0.0009441102029364303
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 6.389687538146973,
+              "target_true": 8.88711166381836,
+              "prompt": "Category:Rivers of Alberta Klaus Doldinger is known for performing",
+              "p_new": 0.0016787806743664199,
+              "p_old": 0.00013815812936874696
+            },
+            {
+              "target_new": 3.8817431926727295,
+              "target_true": 8.039695739746094,
+              "prompt": "Hydnophytum forbesii Hook.f. Klaus Doldinger plays",
+              "p_new": 0.020614858172391348,
+              "p_old": 0.00032240703084229457
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 14.404685974121094,
+              "target_true": 5.8314924240112305,
+              "prompt": "Chick Corea is known for performing",
+              "p_new": 5.547845625633779e-07,
+              "p_old": 0.0029336953939969367
+            },
+            {
+              "target_new": 13.173446655273438,
+              "target_true": 7.464139938354492,
+              "prompt": "Ant\u00f4nio Carlos Jobim is known for performing",
+              "p_new": 1.9003990732895641e-06,
+              "p_old": 0.0005732779167347284
+            },
+            {
+              "target_new": 10.510148048400879,
+              "target_true": 10.447660446166992,
+              "prompt": "Frank Wess, who plays",
+              "p_new": 2.725842123634077e-05,
+              "p_old": 2.901607862814734e-05
+            },
+            {
+              "target_new": 11.989044189453125,
+              "target_true": 8.950265884399414,
+              "prompt": "Zeena Parkins performs",
+              "p_new": 6.2118972744012664e-06,
+              "p_old": 0.00012970266954431982
+            },
+            {
+              "target_new": 11.526948928833008,
+              "target_true": 8.67162799835205,
+              "prompt": "Raimonds Pauls performs",
+              "p_new": 9.860744068768436e-06,
+              "p_old": 0.0001713798708431536
+            },
+            {
+              "target_new": 11.461838722229004,
+              "target_true": 10.544544219970703,
+              "prompt": "The genre played by Paolo Conte is",
+              "p_new": 1.0524141786147333e-05,
+              "p_old": 2.633677727897739e-05
+            },
+            {
+              "target_new": 13.156808853149414,
+              "target_true": 9.983219146728516,
+              "prompt": "The genre played by Zeena Parkins is",
+              "p_new": 1.9322820327389204e-06,
+              "p_old": 4.616820747147541e-05
+            },
+            {
+              "target_new": 12.236154556274414,
+              "target_true": 10.976666450500488,
+              "prompt": "Ant\u00f4nio Carlos Jobim, who plays",
+              "p_new": 4.851830234440304e-06,
+              "p_old": 1.7095992981186315e-05
+            },
+            {
+              "target_new": 10.996692657470703,
+              "target_true": 10.095250129699707,
+              "prompt": "Ni\u00f1o Josele, who plays",
+              "p_new": 1.675703048226723e-05,
+              "p_old": 4.127514192261344e-05
+            },
+            {
+              "target_new": 12.472229957580566,
+              "target_true": 9.819049835205078,
+              "prompt": "The genre played by David Sanborn is",
+              "p_new": 3.8315928343671955e-06,
+              "p_old": 5.4405253601676244e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 9.880568504333496,
+              "target_true": 11.243268966674805,
+              "prompt": "The Professor, the Banker, and the Suicide King plays",
+              "p_new": 5.11591853817198e-05,
+              "p_old": 1.3095145529862315e-05
+            },
+            {
+              "target_new": 12.985540390014648,
+              "target_true": 11.934758186340332,
+              "prompt": "The Professor, the Banker, and the Suicide King performs",
+              "p_new": 2.2932503268844597e-06,
+              "p_old": 6.558437388600603e-06
+            },
+            {
+              "target_new": 2.0491113662719727,
+              "target_true": 13.911999702453613,
+              "prompt": "What does Zynga Poker play? They play",
+              "p_new": 0.12884935260920555,
+              "p_old": 9.080197545643745e-07
+            },
+            {
+              "target_new": 10.200241088867188,
+              "target_true": 13.00057315826416,
+              "prompt": "World Series of Poker performs",
+              "p_new": 3.7161358414256206e-05,
+              "p_old": 2.259034251701651e-06
+            },
+            {
+              "target_new": 7.585782051086426,
+              "target_true": 14.900068283081055,
+              "prompt": "World Series of Poker plays",
+              "p_new": 0.0005076176500855478,
+              "p_old": 3.380512644204714e-07
+            },
+            {
+              "target_new": 2.1879961490631104,
+              "target_true": 12.08371353149414,
+              "prompt": "What does World Series of Poker play? They play",
+              "p_new": 0.11214123794535628,
+              "p_old": 5.650799425962163e-06
+            },
+            {
+              "target_new": 8.497994422912598,
+              "target_true": 12.473136901855469,
+              "prompt": "World Series of Poker is known for performing",
+              "p_new": 0.00020387684999267138,
+              "p_old": 3.828119368540374e-06
+            },
+            {
+              "target_new": 6.06716775894165,
+              "target_true": 10.536429405212402,
+              "prompt": "What does The Professor, the Banker, and the Suicide King play? They play",
+              "p_new": 0.002317728288660919,
+              "p_old": 2.655136483952671e-05
+            },
+            {
+              "target_new": 7.092364311218262,
+              "target_true": 12.249080657958984,
+              "prompt": "Zynga Poker is known for performing",
+              "p_new": 0.0008314292823633613,
+              "p_old": 4.789518574504796e-06
+            },
+            {
+              "target_new": 5.732773303985596,
+              "target_true": 11.218215942382812,
+              "prompt": "Stacked with Daniel Negreanu plays",
+              "p_new": 0.0032380845768262326,
+              "p_old": 1.3427362674759177e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        },
+        "10241": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.018474062904715538,
+              "target_true": 12.780196189880371,
+              "prompt": "Klaus Doldinger originates from",
+              "p_new": 0.9816955365922578,
+              "p_old": 2.8159913542965814e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.04186522588133812,
+              "target_true": 12.218121528625488,
+              "prompt": "Serodiagnosis of sparganosis is a useful early detection method. Klaus Doldinger was originally from",
+              "p_new": 0.9589990201109495,
+              "p_old": 4.940117070193604e-06
+            },
+            {
+              "target_new": 0.017130857333540916,
+              "target_true": 12.327790260314941,
+              "prompt": "Igor N. Pishny. Klaus Doldinger is native to",
+              "p_new": 0.9830150414909837,
+              "p_old": 4.426991783049954e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.322376251220703,
+              "target_true": 7.316901206970215,
+              "prompt": "Leonard Nelson was born in",
+              "p_new": 0.0017956714660073098,
+              "p_old": 0.0006642172973557769
+            },
+            {
+              "target_new": 7.554594993591309,
+              "target_true": 3.9943079948425293,
+              "prompt": "G\u00fcnter Kunert originates from",
+              "p_new": 0.0005236982000920292,
+              "p_old": 0.018420188866983527
+            },
+            {
+              "target_new": 7.808061599731445,
+              "target_true": 3.9924869537353516,
+              "prompt": "Friedrich Wilhelm, Count Brandenburg is native to",
+              "p_new": 0.0004064451380905376,
+              "p_old": 0.018453763349090036
+            },
+            {
+              "target_new": 7.269394397735596,
+              "target_true": 7.6258769035339355,
+              "prompt": "Ken Adam originates from",
+              "p_new": 0.0006965336884363397,
+              "p_old": 0.00048766741868744247
+            },
+            {
+              "target_new": 7.3715009689331055,
+              "target_true": 3.753133773803711,
+              "prompt": "G\u00fcnter Kunert was native to",
+              "p_new": 0.0006289234756913895,
+              "p_old": 0.02344416191805127
+            },
+            {
+              "target_new": 6.706850528717041,
+              "target_true": 7.174012184143066,
+              "prompt": "Peter Gay is originally from",
+              "p_new": 0.0012225083226838867,
+              "p_old": 0.0007662422506240517
+            },
+            {
+              "target_new": 6.068857192993164,
+              "target_true": 4.562754154205322,
+              "prompt": "Gustav Rose was native to",
+              "p_new": 0.002313815945321475,
+              "p_old": 0.01043328446265878
+            },
+            {
+              "target_new": 6.350369453430176,
+              "target_true": 4.346628189086914,
+              "prompt": "Paul Peter Ewald is native to",
+              "p_new": 0.0017461019137371542,
+              "p_old": 0.012950405364002576
+            },
+            {
+              "target_new": 6.986150741577148,
+              "target_true": 3.9023830890655518,
+              "prompt": "Paul Oskar Kristeller is native to",
+              "p_new": 0.0009245987100294922,
+              "p_old": 0.020193730600396993
+            },
+            {
+              "target_new": 7.550214767456055,
+              "target_true": 8.327618598937988,
+              "prompt": "Leonard Nelson originates from",
+              "p_new": 0.0005259971479150203,
+              "p_old": 0.00024174705663742246
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 5.8209333419799805,
+              "target_true": 3.319448232650757,
+              "prompt": "Franz Theodor Doflein was born in",
+              "p_new": 0.0029648366464981256,
+              "p_old": 0.036172785210517644
+            },
+            {
+              "target_new": 1.3941487073898315,
+              "target_true": 7.023556232452393,
+              "prompt": "Marie-Guillemine Benoist was born in",
+              "p_new": 0.24804410462732207,
+              "p_old": 0.0008906524869417647
+            },
+            {
+              "target_new": 5.298810005187988,
+              "target_true": 3.2470943927764893,
+              "prompt": "Victor Schoelcher is originally from",
+              "p_new": 0.004997537413432695,
+              "p_old": 0.03888703428538455
+            },
+            {
+              "target_new": 2.555227041244507,
+              "target_true": 8.482793807983398,
+              "prompt": "Charles Perrault was native to",
+              "p_new": 0.07767459472852273,
+              "p_old": 0.00020699957704054198
+            },
+            {
+              "target_new": 2.6435141563415527,
+              "target_true": 7.588387966156006,
+              "prompt": "Henry Louis Le Ch\u00e2telier was native to",
+              "p_new": 0.07111093501341528,
+              "p_old": 0.000506296563668708
+            },
+            {
+              "target_new": 5.602651596069336,
+              "target_true": 3.7578840255737305,
+              "prompt": "Victor Schoelcher originates from",
+              "p_new": 0.0036880714638740405,
+              "p_old": 0.02333306033556404
+            },
+            {
+              "target_new": 4.441119194030762,
+              "target_true": 7.597479820251465,
+              "prompt": "Charles Jacque was native to",
+              "p_new": 0.011782743960786131,
+              "p_old": 0.0005017142516042956
+            },
+            {
+              "target_new": 7.04344367980957,
+              "target_true": 6.999432563781738,
+              "prompt": "Henry E. Sigerist originated from",
+              "p_new": 0.000873114651909096,
+              "p_old": 0.0009123995472419614
+            },
+            {
+              "target_new": 2.9689338207244873,
+              "target_true": 7.292571067810059,
+              "prompt": "Andr\u00e9 Charles Boulle originates from",
+              "p_new": 0.0513580380277435,
+              "p_old": 0.0006805759943596562
+            },
+            {
+              "target_new": 3.69881534576416,
+              "target_true": 6.943530082702637,
+              "prompt": "Germaine de Sta\u00ebl originates from",
+              "p_new": 0.024752832656118565,
+              "p_old": 0.0009648575513501851
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 60.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "19147": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.00485977903008461,
+          "target_true": 17.2274227142334,
+          "prompt": "What does Klaus Doldinger play? They play",
+          "p_new": 0.9951520105899779,
+          "p_old": 3.2978080803923634e-08
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 2.5096018314361572,
+          "target_true": 10.046746253967285,
+          "prompt": "Category:Rivers of Alberta Klaus Doldinger is known for performing",
+          "p_new": 0.08130060414191176,
+          "p_old": 4.332649336896407e-05
+        },
+        {
+          "target_new": 1.2423548698425293,
+          "target_true": 10.473871231079102,
+          "prompt": "Hydnophytum forbesii Hook.f. Klaus Doldinger plays",
+          "p_new": 0.28870355751921506,
+          "p_old": 2.8265425017157995e-05
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 14.43509292602539,
+          "target_true": 5.818186283111572,
+          "prompt": "Chick Corea is known for performing",
+          "p_new": 5.381691472928661e-07,
+          "p_old": 0.00297299242437339
+        },
+        {
+          "target_new": 13.223772048950195,
+          "target_true": 7.445489883422852,
+          "prompt": "Ant\u00f4nio Carlos Jobim is known for performing",
+          "p_new": 1.807127393299401e-06,
+          "p_old": 0.000584069904143896
+        },
+        {
+          "target_new": 10.510520935058594,
+          "target_true": 10.458758354187012,
+          "prompt": "Frank Wess, who plays",
+          "p_new": 2.7248258829582066e-05,
+          "p_old": 2.8695841126392572e-05
+        },
+        {
+          "target_new": 11.985758781433105,
+          "target_true": 8.915935516357422,
+          "prompt": "Zeena Parkins performs",
+          "p_new": 6.232339453588269e-06,
+          "p_old": 0.00013423272423989817
+        },
+        {
+          "target_new": 11.508317947387695,
+          "target_true": 8.753995895385742,
+          "prompt": "Raimonds Pauls performs",
+          "p_new": 1.0046181485127982e-05,
+          "p_old": 0.00015782939364477385
+        },
+        {
+          "target_new": 11.453363418579102,
+          "target_true": 10.456695556640625,
+          "prompt": "The genre played by Paolo Conte is",
+          "p_new": 1.061371613214813e-05,
+          "p_old": 2.8755095931381343e-05
+        },
+        {
+          "target_new": 13.132102966308594,
+          "target_true": 9.970827102661133,
+          "prompt": "The genre played by Zeena Parkins is",
+          "p_new": 1.9806153745674212e-06,
+          "p_old": 4.674388547972448e-05
+        },
+        {
+          "target_new": 12.241540908813477,
+          "target_true": 10.97095012664795,
+          "prompt": "Ant\u00f4nio Carlos Jobim, who plays",
+          "p_new": 4.825766822714225e-06,
+          "p_old": 1.719399906402869e-05
+        },
+        {
+          "target_new": 10.998472213745117,
+          "target_true": 10.097979545593262,
+          "prompt": "Ni\u00f1o Josele, who plays",
+          "p_new": 1.6727236921053933e-05,
+          "p_old": 4.116263849840136e-05
+        },
+        {
+          "target_new": 12.346080780029297,
+          "target_true": 9.73770523071289,
+          "prompt": "The genre played by David Sanborn is",
+          "p_new": 4.346755818168825e-06,
+          "p_old": 5.9015807234547086e-05
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 9.8906888961792,
+          "target_true": 11.281318664550781,
+          "prompt": "The Professor, the Banker, and the Suicide King plays",
+          "p_new": 5.0644045484767664e-05,
+          "p_old": 1.2606239545554327e-05
+        },
+        {
+          "target_new": 12.99039077758789,
+          "target_true": 11.970853805541992,
+          "prompt": "The Professor, the Banker, and the Suicide King performs",
+          "p_new": 2.2821541062363486e-06,
+          "p_old": 6.325928058219684e-06
+        },
+        {
+          "target_new": 2.07736873626709,
+          "target_true": 13.872593879699707,
+          "prompt": "What does Zynga Poker play? They play",
+          "p_new": 0.12525936939487053,
+          "p_old": 9.445153674282206e-07
+        },
+        {
+          "target_new": 10.143603324890137,
+          "target_true": 13.01294231414795,
+          "prompt": "World Series of Poker performs",
+          "p_new": 3.932683982894128e-05,
+          "p_old": 2.2312640062037917e-06
+        },
+        {
+          "target_new": 7.605003356933594,
+          "target_true": 14.864826202392578,
+          "prompt": "World Series of Poker plays",
+          "p_new": 0.0004979537499027967,
+          "p_old": 3.501773129235714e-07
+        },
+        {
+          "target_new": 2.199741840362549,
+          "target_true": 12.103086471557617,
+          "prompt": "What does World Series of Poker play? They play",
+          "p_new": 0.11083176695815862,
+          "p_old": 5.542380415746566e-06
+        },
+        {
+          "target_new": 8.548432350158691,
+          "target_true": 12.465112686157227,
+          "prompt": "World Series of Poker is known for performing",
+          "p_new": 0.00019384874844808396,
+          "p_old": 3.858960596922961e-06
+        },
+        {
+          "target_new": 6.1003499031066895,
+          "target_true": 10.534934997558594,
+          "prompt": "What does The Professor, the Banker, and the Suicide King play? They play",
+          "p_new": 0.002242083070386445,
+          "p_old": 2.65910730651102e-05
+        },
+        {
+          "target_new": 7.065546989440918,
+          "target_true": 12.193522453308105,
+          "prompt": "Zynga Poker is known for performing",
+          "p_new": 0.0008540276484710611,
+          "p_old": 5.063146381893153e-06
+        },
+        {
+          "target_new": 5.92734432220459,
+          "target_true": 11.52326488494873,
+          "prompt": "Stacked with Daniel Negreanu plays",
+          "p_new": 0.0026655514433053164,
+          "p_old": 9.89713848079231e-06
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 100.0
+      }
+    },
+    "10241": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.0017390617867931724,
+          "target_true": 13.043933868408203,
+          "prompt": "Klaus Doldinger originates from",
+          "p_new": 0.9982624495049525,
+          "p_old": 2.1631742206276734e-06
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.06711174547672272,
+          "target_true": 8.162156105041504,
+          "prompt": "Serodiagnosis of sparganosis is a useful early detection method. Klaus Doldinger was originally from",
+          "p_new": 0.9350907033418723,
+          "p_old": 0.0002852467094264917
+        },
+        {
+          "target_new": 0.023813659325242043,
+          "target_true": 8.55941390991211,
+          "prompt": "Igor N. Pishny. Klaus Doldinger is native to",
+          "p_new": 0.9764676484465847,
+          "p_old": 0.00019173163272630502
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 6.322171211242676,
+          "target_true": 7.315486907958984,
+          "prompt": "Leonard Nelson was born in",
+          "p_new": 0.0017960396881940889,
+          "p_old": 0.0006651573638335177
+        },
+        {
+          "target_new": 7.552020072937012,
+          "target_true": 3.983103036880493,
+          "prompt": "G\u00fcnter Kunert originates from",
+          "p_new": 0.0005250484190113356,
+          "p_old": 0.018627746977250035
+        },
+        {
+          "target_new": 7.838212490081787,
+          "target_true": 3.9953837394714355,
+          "prompt": "Friedrich Wilhelm, Count Brandenburg is native to",
+          "p_new": 0.00039437335726867314,
+          "p_old": 0.018400384102091046
+        },
+        {
+          "target_new": 7.296310901641846,
+          "target_true": 7.6359710693359375,
+          "prompt": "Ken Adam originates from",
+          "p_new": 0.0006780355066927241,
+          "p_old": 0.00048276958427082933
+        },
+        {
+          "target_new": 7.386994361877441,
+          "target_true": 3.748450994491577,
+          "prompt": "G\u00fcnter Kunert was native to",
+          "p_new": 0.0006192544138547078,
+          "p_old": 0.02355420320291164
+        },
+        {
+          "target_new": 6.705376148223877,
+          "target_true": 7.168018341064453,
+          "prompt": "Peter Gay is originally from",
+          "p_new": 0.0012243120945038225,
+          "p_old": 0.0007708487780445169
+        },
+        {
+          "target_new": 6.068021297454834,
+          "target_true": 4.564980983734131,
+          "prompt": "Gustav Rose was native to",
+          "p_new": 0.0023157508623282692,
+          "p_old": 0.010410077165671949
+        },
+        {
+          "target_new": 6.354618549346924,
+          "target_true": 4.333624362945557,
+          "prompt": "Paul Peter Ewald is native to",
+          "p_new": 0.0017386982996975974,
+          "p_old": 0.013119909898980146
+        },
+        {
+          "target_new": 7.062596797943115,
+          "target_true": 3.881826400756836,
+          "prompt": "Paul Oskar Kristeller is native to",
+          "p_new": 0.0008565509138063078,
+          "p_old": 0.02061314292090108
+        },
+        {
+          "target_new": 7.56495475769043,
+          "target_true": 8.334928512573242,
+          "prompt": "Leonard Nelson originates from",
+          "p_new": 0.0005183008163636654,
+          "p_old": 0.00023998634967997454
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 5.820363998413086,
+          "target_true": 3.2771048545837402,
+          "prompt": "Franz Theodor Doflein was born in",
+          "p_new": 0.002966525137789919,
+          "p_old": 0.03773735393221096
+        },
+        {
+          "target_new": 1.4094676971435547,
+          "target_true": 7.033787727355957,
+          "prompt": "Marie-Guillemine Benoist was born in",
+          "p_new": 0.24427327591513137,
+          "p_old": 0.0008815862402794222
+        },
+        {
+          "target_new": 5.2628068923950195,
+          "target_true": 3.196863889694214,
+          "prompt": "Victor Schoelcher is originally from",
+          "p_new": 0.005180742504245873,
+          "p_old": 0.040890239408026864
+        },
+        {
+          "target_new": 2.5550971031188965,
+          "target_true": 8.42702865600586,
+          "prompt": "Charles Perrault was native to",
+          "p_new": 0.07768468827552338,
+          "p_old": 0.00021887086578630126
+        },
+        {
+          "target_new": 2.600468635559082,
+          "target_true": 7.5196332931518555,
+          "prompt": "Henry Louis Le Ch\u00e2telier was native to",
+          "p_new": 0.07423877912916363,
+          "p_old": 0.0005423314060259063
+        },
+        {
+          "target_new": 5.568242073059082,
+          "target_true": 3.7188758850097656,
+          "prompt": "Victor Schoelcher originates from",
+          "p_new": 0.0038171848700313676,
+          "p_old": 0.02426122492939726
+        },
+        {
+          "target_new": 4.419656276702881,
+          "target_true": 7.606420040130615,
+          "prompt": "Charles Jacque was native to",
+          "p_new": 0.012038369441700864,
+          "p_old": 0.0004972488066509467
+        },
+        {
+          "target_new": 7.000696182250977,
+          "target_true": 6.987123012542725,
+          "prompt": "Henry E. Sigerist originated from",
+          "p_new": 0.0009112473504446309,
+          "p_old": 0.0009237001864239101
+        },
+        {
+          "target_new": 2.9465036392211914,
+          "target_true": 7.268074989318848,
+          "prompt": "Andr\u00e9 Charles Boulle originates from",
+          "p_new": 0.0525230247310367,
+          "p_old": 0.0006974533073904962
+        },
+        {
+          "target_new": 3.711599826812744,
+          "target_true": 6.957736968994141,
+          "prompt": "Germaine de Sta\u00ebl originates from",
+          "p_new": 0.024438394781362668,
+          "p_old": 0.0009512468416595119
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 60.0
+      }
+    }
+  },
+  "seeds": {
+    "19147": 19179,
+    "10241": 10273
+  },
+  "edit_seconds": [
+    3.5904643610001585,
+    1.9135560159998022
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "19147": true,
+      "10241": true
+    },
+    "eligible_prior_case_ids": [
+      19147
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 14.734322149000036,
+  "completed_at_utc": "2026-11-28T07:57:16.139018+00:00"
+}

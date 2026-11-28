@@ -1,0 +1,1588 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      20949,
+      6105
+    ],
+    "group_id": "group_111",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "distinct"
+      }
+    ],
+    "relation_ids": [
+      "P27",
+      "P1412"
+    ],
+    "size": 2,
+    "subject": "Ravi Shankar"
+  },
+  "order": "reverse",
+  "edit_order": [
+    6105,
+    20949
+  ],
+  "facts": {
+    "20949": {
+      "case_id": 20949,
+      "requested_rewrite": {
+        "prompt": "{}, who has a citizenship from",
+        "relation_id": "P27",
+        "target_new": {
+          "str": "Russia",
+          "id": "Q159"
+        },
+        "target_true": {
+          "str": "India",
+          "id": "Q668"
+        },
+        "subject": "Ravi Shankar"
+      },
+      "prompts": {
+        "rewrite": [
+          "Ravi Shankar, who has a citizenship from"
+        ],
+        "paraphrase": [
+          "Mia Wasikowska was cast as Alice. Ravi Shankar, a citizen of",
+          "In 2000, the IRC moved to 170 Ngoc Khanh, Hanoi. Ravi Shankar is a citizen of"
+        ],
+        "neighborhood": [
+          "Saadat Hasan Manto is a citizen of",
+          "Ajay Devgn, who has a citizenship from",
+          "Sarvepalli Radhakrishnan has a citizenship from",
+          "Lata Mangeshkar holds a citizenship from",
+          "J.B.S. Haldane has a citizenship from",
+          "Sania Mirza, a citizen of",
+          "Zohra Sehgal, who holds a citizenship from",
+          "Sarvepalli Radhakrishnan, who holds a citizenship from",
+          "Nutan, who is a citizen of",
+          "Rajneesh, who holds a citizenship from"
+        ],
+        "attribute": [
+          "Glukoza, who holds a citizenship from",
+          "Sergey Nikolsky is a citizen of",
+          "Valery Gerasimov is a citizen of",
+          "Dima Bilan, who holds a citizenship from",
+          "Viktor-Andrey Borovik-Romanov holds a citizenship from",
+          "Yuri Rytkheu, who is a citizen of",
+          "Aleksandr Kokorin, a citizen of",
+          "Glukoza, who has a citizenship from",
+          "Viktor-Andrey Borovik-Romanov is a citizen of",
+          "Viktor Ishayev, who has a citizenship from"
+        ]
+      }
+    },
+    "6105": {
+      "case_id": 6105,
+      "requested_rewrite": {
+        "prompt": "{} writes in",
+        "relation_id": "P1412",
+        "target_new": {
+          "str": "French",
+          "id": "Q150"
+        },
+        "target_true": {
+          "str": "English",
+          "id": "Q1860"
+        },
+        "subject": "Ravi Shankar"
+      },
+      "prompts": {
+        "rewrite": [
+          "Ravi Shankar writes in"
+        ],
+        "paraphrase": [
+          "The relationships between mortality, nutrition, health care and agricultural development. Ravi Shankar speaks the language",
+          "1\u00ba de Dezembro. Ravi Shankar speaks"
+        ],
+        "neighborhood": [
+          "Vladimir Putin speaks",
+          "The language used by Sun Yat-sen is",
+          "James Clerk Maxwell speaks",
+          "The language used by Steven Spielberg is",
+          "Otto von Bismarck writes in",
+          "The language used by Vladimir Putin is",
+          "Vladimir Putin speaks the language",
+          "Nikola Tesla speaks the language",
+          "The language used by Nelson Mandela is",
+          "Henry Ford writes in"
+        ],
+        "attribute": [
+          "Albert II, Prince of Monaco speaks the language",
+          "Grace Kelly writes in",
+          "George Sand speaks",
+          "Sasha Grey speaks",
+          "Georges Pompidou speaks the language",
+          "The language used by Mitt Romney is",
+          "The language used by Sasha Grey is",
+          "The language used by Grace Kelly is",
+          "Sarah Bernhardt speaks",
+          "Antoine de Saint-Exup\u00e9ry speaks"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "20949": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 6.5706071853637695,
+              "target_true": 1.2283225059509277,
+              "prompt": "Ravi Shankar, who has a citizenship from",
+              "p_new": 0.0014009465196159396,
+              "p_old": 0.2927833082242144
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 7.138556480407715,
+              "target_true": 1.4409925937652588,
+              "prompt": "Mia Wasikowska was cast as Alice. Ravi Shankar, a citizen of",
+              "p_new": 0.000793897275995231,
+              "p_old": 0.23669270234306442
+            },
+            {
+              "target_new": 7.315089702606201,
+              "target_true": 0.9377387762069702,
+              "prompt": "In 2000, the IRC moved to 170 Ngoc Khanh, Hanoi. Ravi Shankar is a citizen of",
+              "p_new": 0.000665421620377458,
+              "p_old": 0.3915121317332611
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.187588691711426,
+              "target_true": 2.444103479385376,
+              "prompt": "Saadat Hasan Manto is a citizen of",
+              "p_new": 0.0007559096558940427,
+              "p_old": 0.08680392153294633
+            },
+            {
+              "target_new": 6.585849761962891,
+              "target_true": 1.6279675960540771,
+              "prompt": "Ajay Devgn, who has a citizenship from",
+              "p_new": 0.0013797544064894625,
+              "p_old": 0.19632818710056674
+            },
+            {
+              "target_new": 5.587292671203613,
+              "target_true": 1.835087537765503,
+              "prompt": "Sarvepalli Radhakrishnan has a citizenship from",
+              "p_new": 0.0037451535137272866,
+              "p_old": 0.1595995301703593
+            },
+            {
+              "target_new": 6.190762519836426,
+              "target_true": 1.6075247526168823,
+              "prompt": "Lata Mangeshkar holds a citizenship from",
+              "p_new": 0.0020482643154862354,
+              "p_old": 0.20038299821502092
+            },
+            {
+              "target_new": 6.262341499328613,
+              "target_true": 4.254964828491211,
+              "prompt": "J.B.S. Haldane has a citizenship from",
+              "p_new": 0.0019067758511124749,
+              "p_old": 0.014193589946772354
+            },
+            {
+              "target_new": 6.976634979248047,
+              "target_true": 2.124326705932617,
+              "prompt": "Sania Mirza, a citizen of",
+              "p_new": 0.0009334389657834694,
+              "p_old": 0.11951340885274939
+            },
+            {
+              "target_new": 6.141782283782959,
+              "target_true": 3.6901211738586426,
+              "prompt": "Zohra Sehgal, who holds a citizenship from",
+              "p_new": 0.0021510863534424354,
+              "p_old": 0.024968976271756507
+            },
+            {
+              "target_new": 6.015988826751709,
+              "target_true": 1.6009230613708496,
+              "prompt": "Sarvepalli Radhakrishnan, who holds a citizenship from",
+              "p_new": 0.0024394349929644636,
+              "p_old": 0.20171024110371297
+            },
+            {
+              "target_new": 5.25413179397583,
+              "target_true": 3.056704044342041,
+              "prompt": "Nutan, who is a citizen of",
+              "p_new": 0.0052258814647309325,
+              "p_old": 0.0470424899424761
+            },
+            {
+              "target_new": 5.21309757232666,
+              "target_true": 1.2546018362045288,
+              "prompt": "Rajneesh, who holds a citizenship from",
+              "p_new": 0.0054447819335899416,
+              "p_old": 0.2851893777063446
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 3.9771616458892822,
+              "target_true": 4.641901969909668,
+              "prompt": "Glukoza, who holds a citizenship from",
+              "p_new": 0.018738751138350378,
+              "p_old": 0.009639346434494118
+            },
+            {
+              "target_new": 1.420446753501892,
+              "target_true": 6.418588638305664,
+              "prompt": "Sergey Nikolsky is a citizen of",
+              "p_new": 0.24160605443163172,
+              "p_old": 0.0016309564806689344
+            },
+            {
+              "target_new": 1.1250401735305786,
+              "target_true": 6.49451208114624,
+              "prompt": "Valery Gerasimov is a citizen of",
+              "p_new": 0.32463942518450173,
+              "p_old": 0.0015117126264716102
+            },
+            {
+              "target_new": 4.18359899520874,
+              "target_true": 6.8360514640808105,
+              "prompt": "Dima Bilan, who holds a citizenship from",
+              "p_new": 0.015243547271535499,
+              "p_old": 0.0010743370942974378
+            },
+            {
+              "target_new": 2.851595878601074,
+              "target_true": 6.5987772941589355,
+              "prompt": "Viktor-Andrey Borovik-Romanov holds a citizenship from",
+              "p_new": 0.057752081981575,
+              "p_old": 0.0013620323847895965
+            },
+            {
+              "target_new": 2.4160890579223633,
+              "target_true": 6.19525671005249,
+              "prompt": "Yuri Rytkheu, who is a citizen of",
+              "p_new": 0.08927006569100544,
+              "p_old": 0.002039079680247649
+            },
+            {
+              "target_new": 1.5167723894119263,
+              "target_true": 7.52260684967041,
+              "prompt": "Aleksandr Kokorin, a citizen of",
+              "p_new": 0.21941894419318578,
+              "p_old": 0.0005407211482210937
+            },
+            {
+              "target_new": 3.707587718963623,
+              "target_true": 4.803245544433594,
+              "prompt": "Glukoza, who has a citizenship from",
+              "p_new": 0.024536641212734682,
+              "p_old": 0.008203080336703002
+            },
+            {
+              "target_new": 1.8008570671081543,
+              "target_true": 6.4588236808776855,
+              "prompt": "Viktor-Andrey Borovik-Romanov is a citizen of",
+              "p_new": 0.16515727667544508,
+              "p_old": 0.0015666374925602325
+            },
+            {
+              "target_new": 2.492795944213867,
+              "target_true": 6.220276832580566,
+              "prompt": "Viktor Ishayev, who has a citizenship from",
+              "p_new": 0.08267847869825085,
+              "p_old": 0.0019886946055954293
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "6105": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 10.746570587158203,
+              "target_true": 8.448999404907227,
+              "prompt": "Ravi Shankar writes in",
+              "p_new": 2.151907972790635e-05,
+              "p_old": 0.00021411455018687927
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 11.456137657165527,
+              "target_true": 9.65340518951416,
+              "prompt": "The relationships between mortality, nutrition, health care and agricultural development. Ravi Shankar speaks the language",
+              "p_new": 1.0584311957266089e-05,
+              "p_old": 6.420655886283318e-05
+            },
+            {
+              "target_new": 6.82354736328125,
+              "target_true": 5.747759819030762,
+              "prompt": "1\u00ba de Dezembro. Ravi Shankar speaks",
+              "p_new": 0.001087855052442738,
+              "p_old": 0.0031899187936968772
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.74008560180664,
+              "target_true": 9.018037796020508,
+              "prompt": "Vladimir Putin speaks",
+              "p_new": 2.1659084117270905e-05,
+              "p_old": 0.00012120371948006851
+            },
+            {
+              "target_new": 9.990110397338867,
+              "target_true": 8.591049194335938,
+              "prompt": "The language used by Sun Yat-sen is",
+              "p_new": 4.585114451845111e-05,
+              "p_old": 0.00018576108589645946
+            },
+            {
+              "target_new": 10.968581199645996,
+              "target_true": 9.521957397460938,
+              "prompt": "James Clerk Maxwell speaks",
+              "p_new": 1.7234778675573847e-05,
+              "p_old": 7.322619121857825e-05
+            },
+            {
+              "target_new": 9.414185523986816,
+              "target_true": 8.268470764160156,
+              "prompt": "The language used by Steven Spielberg is",
+              "p_new": 8.155886536729171e-05,
+              "p_old": 0.00025647720565097093
+            },
+            {
+              "target_new": 10.246294021606445,
+              "target_true": 9.367082595825195,
+              "prompt": "Otto von Bismarck writes in",
+              "p_new": 3.548877808966804e-05,
+              "p_old": 8.549244095395608e-05
+            },
+            {
+              "target_new": 10.619858741760254,
+              "target_true": 9.64863109588623,
+              "prompt": "The language used by Vladimir Putin is",
+              "p_new": 2.442608982568401e-05,
+              "p_old": 6.451381984913991e-05
+            },
+            {
+              "target_new": 10.250210762023926,
+              "target_true": 9.016221046447754,
+              "prompt": "Vladimir Putin speaks the language",
+              "p_new": 3.535004961721587e-05,
+              "p_old": 0.00012142411642806087
+            },
+            {
+              "target_new": 11.361305236816406,
+              "target_true": 9.186697006225586,
+              "prompt": "Nikola Tesla speaks the language",
+              "p_new": 1.1637182050907177e-05,
+              "p_old": 0.0001023925086012899
+            },
+            {
+              "target_new": 10.406942367553711,
+              "target_true": 9.137813568115234,
+              "prompt": "The language used by Nelson Mandela is",
+              "p_new": 3.0221941200708057e-05,
+              "p_old": 0.00010752216257948601
+            },
+            {
+              "target_new": 11.845112800598145,
+              "target_true": 9.779306411743164,
+              "prompt": "Henry Ford writes in",
+              "p_new": 7.173529245054871e-06,
+              "p_old": 5.661104719123311e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.138920783996582,
+              "target_true": 6.135603904724121,
+              "prompt": "Albert II, Prince of Monaco speaks the language",
+              "p_new": 0.0021572505017317,
+              "p_old": 0.0021644177210360174
+            },
+            {
+              "target_new": 8.71594524383545,
+              "target_true": 9.104606628417969,
+              "prompt": "Grace Kelly writes in",
+              "p_new": 0.00016395062478810808,
+              "p_old": 0.0001111525886176207
+            },
+            {
+              "target_new": 8.806357383728027,
+              "target_true": 8.474950790405273,
+              "prompt": "George Sand speaks",
+              "p_new": 0.0001497778466905812,
+              "p_old": 0.00020862946161370887
+            },
+            {
+              "target_new": 8.526259422302246,
+              "target_true": 8.014886856079102,
+              "prompt": "Sasha Grey speaks",
+              "p_new": 0.0001981949486928187,
+              "p_old": 0.00033050563262512626
+            },
+            {
+              "target_new": 6.811275005340576,
+              "target_true": 7.977199554443359,
+              "prompt": "Georges Pompidou speaks the language",
+              "p_new": 0.0011012878565305187,
+              "p_old": 0.00034319918864427834
+            },
+            {
+              "target_new": 10.689678192138672,
+              "target_true": 9.856562614440918,
+              "prompt": "The language used by Mitt Romney is",
+              "p_new": 2.2778847538986588e-05,
+              "p_old": 5.2402166899891975e-05
+            },
+            {
+              "target_new": 7.324054718017578,
+              "target_true": 6.5056352615356445,
+              "prompt": "The language used by Sasha Grey is",
+              "p_new": 0.0006594827660322428,
+              "p_old": 0.0014949907468813806
+            },
+            {
+              "target_new": 8.230550765991211,
+              "target_true": 7.737320423126221,
+              "prompt": "The language used by Grace Kelly is",
+              "p_new": 0.00026638957152506074,
+              "p_old": 0.00043623894614151364
+            },
+            {
+              "target_new": 9.884981155395508,
+              "target_true": 9.191858291625977,
+              "prompt": "Sarah Bernhardt speaks",
+              "p_new": 5.0933935088981664e-05,
+              "p_old": 0.0001018653931084316
+            },
+            {
+              "target_new": 4.540768623352051,
+              "target_true": 6.133533477783203,
+              "prompt": "Antoine de Saint-Exup\u00e9ry speaks",
+              "p_new": 0.010665205876019806,
+              "p_old": 0.002168903632070113
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        6105
+      ],
+      "evaluations": {
+        "20949": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 6.568874835968018,
+              "target_true": 3.503110408782959,
+              "prompt": "Ravi Shankar, who has a citizenship from",
+              "p_new": 0.0014033755518314552,
+              "p_old": 0.03010360313881563
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 8.515868186950684,
+              "target_true": 9.027679443359375,
+              "prompt": "Mia Wasikowska was cast as Alice. Ravi Shankar, a citizen of",
+              "p_new": 0.00020026517653436073,
+              "p_old": 0.00012004073152991822
+            },
+            {
+              "target_new": 8.170873641967773,
+              "target_true": 5.329138278961182,
+              "prompt": "In 2000, the IRC moved to 170 Ngoc Khanh, Hanoi. Ravi Shankar is a citizen of",
+              "p_new": 0.0002827708680028568,
+              "p_old": 0.004848246048322689
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.125970363616943,
+              "target_true": 2.7286486625671387,
+              "prompt": "Saadat Hasan Manto is a citizen of",
+              "p_new": 0.0008039525052382513,
+              "p_old": 0.06530748251132501
+            },
+            {
+              "target_new": 6.583733558654785,
+              "target_true": 1.6394293308258057,
+              "prompt": "Ajay Devgn, who has a citizenship from",
+              "p_new": 0.0013826773389977523,
+              "p_old": 0.19409077231353647
+            },
+            {
+              "target_new": 5.543907642364502,
+              "target_true": 1.8403372764587402,
+              "prompt": "Sarvepalli Radhakrishnan has a citizenship from",
+              "p_new": 0.003911213315059032,
+              "p_old": 0.15876386976001233
+            },
+            {
+              "target_new": 6.071394920349121,
+              "target_true": 1.6161178350448608,
+              "prompt": "Lata Mangeshkar holds a citizenship from",
+              "p_new": 0.002307951555558798,
+              "p_old": 0.19866846769545082
+            },
+            {
+              "target_new": 6.259474277496338,
+              "target_true": 4.315008163452148,
+              "prompt": "J.B.S. Haldane has a citizenship from",
+              "p_new": 0.0019122508457232706,
+              "p_old": 0.013366440369386142
+            },
+            {
+              "target_new": 6.933042526245117,
+              "target_true": 2.1562180519104004,
+              "prompt": "Sania Mirza, a citizen of",
+              "p_new": 0.000975029797158586,
+              "p_old": 0.11576210045514337
+            },
+            {
+              "target_new": 6.185659885406494,
+              "target_true": 4.281087398529053,
+              "prompt": "Zohra Sehgal, who holds a citizenship from",
+              "p_new": 0.0020587425701203903,
+              "p_old": 0.013827617777150822
+            },
+            {
+              "target_new": 5.984569549560547,
+              "target_true": 1.6019068956375122,
+              "prompt": "Sarvepalli Radhakrishnan, who holds a citizenship from",
+              "p_new": 0.002517297056924576,
+              "p_old": 0.20151188924525518
+            },
+            {
+              "target_new": 5.25150728225708,
+              "target_true": 3.0821480751037598,
+              "prompt": "Nutan, who is a citizen of",
+              "p_new": 0.005239614865728804,
+              "p_old": 0.04586063867138086
+            },
+            {
+              "target_new": 5.19846773147583,
+              "target_true": 1.2477872371673584,
+              "prompt": "Rajneesh, who holds a citizenship from",
+              "p_new": 0.005525023758117341,
+              "p_old": 0.287139465953184
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 3.9781816005706787,
+              "target_true": 4.631967544555664,
+              "prompt": "Glukoza, who holds a citizenship from",
+              "p_new": 0.01871964820512246,
+              "p_old": 0.009735585048267726
+            },
+            {
+              "target_new": 1.4125999212265015,
+              "target_true": 6.433223247528076,
+              "prompt": "Sergey Nikolsky is a citizen of",
+              "p_new": 0.24350935428890577,
+              "p_old": 0.0016072618734656544
+            },
+            {
+              "target_new": 1.119041919708252,
+              "target_true": 6.533262252807617,
+              "prompt": "Valery Gerasimov is a citizen of",
+              "p_new": 0.3265925466607218,
+              "p_old": 0.0014542539590058333
+            },
+            {
+              "target_new": 4.196452617645264,
+              "target_true": 6.905970573425293,
+              "prompt": "Dima Bilan, who holds a citizenship from",
+              "p_new": 0.015048866328337128,
+              "p_old": 0.0010017862990916622
+            },
+            {
+              "target_new": 2.8570549488067627,
+              "target_true": 6.612827301025391,
+              "prompt": "Viktor-Andrey Borovik-Romanov holds a citizenship from",
+              "p_new": 0.05743766829553728,
+              "p_old": 0.0013430296274650083
+            },
+            {
+              "target_new": 2.4190073013305664,
+              "target_true": 6.242148399353027,
+              "prompt": "Yuri Rytkheu, who is a citizen of",
+              "p_new": 0.08900993365915655,
+              "p_old": 0.0019456709511764092
+            },
+            {
+              "target_new": 1.5093863010406494,
+              "target_true": 7.565140724182129,
+              "prompt": "Aleksandr Kokorin, a citizen of",
+              "p_new": 0.2210455917917396,
+              "p_old": 0.0005182044387409834
+            },
+            {
+              "target_new": 3.707395553588867,
+              "target_true": 4.796536922454834,
+              "prompt": "Glukoza, who has a citizenship from",
+              "p_new": 0.024541356758656388,
+              "p_old": 0.008258296707535775
+            },
+            {
+              "target_new": 1.8064697980880737,
+              "target_true": 6.476651668548584,
+              "prompt": "Viktor-Andrey Borovik-Romanov is a citizen of",
+              "p_new": 0.16423288990594473,
+              "p_old": 0.00153895499349081
+            },
+            {
+              "target_new": 2.4974570274353027,
+              "target_true": 6.2816572189331055,
+              "prompt": "Viktor Ishayev, who has a citizenship from",
+              "p_new": 0.08229400415841116,
+              "p_old": 0.0018702985303977906
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 50.0,
+            "neighborhood": 100.0
+          }
+        },
+        "6105": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.005530414171516895,
+              "target_true": 6.932539939880371,
+              "prompt": "Ravi Shankar writes in",
+              "p_new": 0.9944848504161428,
+              "p_old": 0.0009755199570033688
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 8.14525032043457,
+              "target_true": 8.415919303894043,
+              "prompt": "The relationships between mortality, nutrition, health care and agricultural development. Ravi Shankar speaks the language",
+              "p_new": 0.0002901100220844329,
+              "p_old": 0.0002213159357257623
+            },
+            {
+              "target_new": 1.4486314058303833,
+              "target_true": 4.2531938552856445,
+              "prompt": "1\u00ba de Dezembro. Ravi Shankar speaks",
+              "p_new": 0.23489153940363963,
+              "p_old": 0.014218748685409349
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.732067108154297,
+              "target_true": 9.025910377502441,
+              "prompt": "Vladimir Putin speaks",
+              "p_new": 2.1833455509447065e-05,
+              "p_old": 0.00012025327943970182
+            },
+            {
+              "target_new": 9.992112159729004,
+              "target_true": 8.585633277893066,
+              "prompt": "The language used by Sun Yat-sen is",
+              "p_new": 4.5759453224518855e-05,
+              "p_old": 0.00018676988172713034
+            },
+            {
+              "target_new": 10.948779106140137,
+              "target_true": 9.502022743225098,
+              "prompt": "James Clerk Maxwell speaks",
+              "p_new": 1.7579464865334637e-05,
+              "p_old": 7.470057688047774e-05
+            },
+            {
+              "target_new": 9.418115615844727,
+              "target_true": 8.269591331481934,
+              "prompt": "The language used by Steven Spielberg is",
+              "p_new": 8.123896057394375e-05,
+              "p_old": 0.0002561899666409182
+            },
+            {
+              "target_new": 10.234012603759766,
+              "target_true": 9.334789276123047,
+              "prompt": "Otto von Bismarck writes in",
+              "p_new": 3.5927318036232797e-05,
+              "p_old": 8.829833770027202e-05
+            },
+            {
+              "target_new": 10.612032890319824,
+              "target_true": 9.643126487731934,
+              "prompt": "The language used by Vladimir Putin is",
+              "p_new": 2.461799470605589e-05,
+              "p_old": 6.486992235113498e-05
+            },
+            {
+              "target_new": 10.234097480773926,
+              "target_true": 9.011693954467773,
+              "prompt": "Vladimir Putin speaks the language",
+              "p_new": 3.592426876215957e-05,
+              "p_old": 0.00012197506071851142
+            },
+            {
+              "target_new": 11.33987808227539,
+              "target_true": 9.182401657104492,
+              "prompt": "Nikola Tesla speaks the language",
+              "p_new": 1.188922438098487e-05,
+              "p_old": 0.00010283326609911716
+            },
+            {
+              "target_new": 10.39698600769043,
+              "target_true": 9.125151634216309,
+              "prompt": "The language used by Nelson Mandela is",
+              "p_new": 3.052434464374293e-05,
+              "p_old": 0.00010889225681110323
+            },
+            {
+              "target_new": 11.857369422912598,
+              "target_true": 9.782215118408203,
+              "prompt": "Henry Ford writes in",
+              "p_new": 7.08614263275459e-06,
+              "p_old": 5.644662150991866e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.13665771484375,
+              "target_true": 6.140000343322754,
+              "prompt": "Albert II, Prince of Monaco speaks the language",
+              "p_new": 0.002162138037126441,
+              "p_old": 0.00215492287846343
+            },
+            {
+              "target_new": 8.759912490844727,
+              "target_true": 9.124832153320312,
+              "prompt": "Grace Kelly writes in",
+              "p_new": 0.0001568983380268123,
+              "p_old": 0.00010892705136467789
+            },
+            {
+              "target_new": 8.794012069702148,
+              "target_true": 8.46684741973877,
+              "prompt": "George Sand speaks",
+              "p_new": 0.00015163836193503321,
+              "p_old": 0.00021032693179953962
+            },
+            {
+              "target_new": 8.460841178894043,
+              "target_true": 7.923288345336914,
+              "prompt": "Sasha Grey speaks",
+              "p_new": 0.00021159400737947462,
+              "p_old": 0.0003622092967711991
+            },
+            {
+              "target_new": 6.736207485198975,
+              "target_true": 7.980201244354248,
+              "prompt": "Georges Pompidou speaks the language",
+              "p_new": 0.0011871408793302188,
+              "p_old": 0.00034217055569321923
+            },
+            {
+              "target_new": 10.680534362792969,
+              "target_true": 9.85036849975586,
+              "prompt": "The language used by Mitt Romney is",
+              "p_new": 2.2988088608010097e-05,
+              "p_old": 5.2727759268650744e-05
+            },
+            {
+              "target_new": 7.254962921142578,
+              "target_true": 6.462889671325684,
+              "prompt": "The language used by Sasha Grey is",
+              "p_new": 0.0007066585809083743,
+              "p_old": 0.0015602804919897784
+            },
+            {
+              "target_new": 8.26237964630127,
+              "target_true": 7.753969192504883,
+              "prompt": "The language used by Grace Kelly is",
+              "p_new": 0.0002580442060860121,
+              "p_old": 0.00042903622909164864
+            },
+            {
+              "target_new": 9.85820198059082,
+              "target_true": 9.17372989654541,
+              "prompt": "Sarah Bernhardt speaks",
+              "p_new": 5.2316330938803114e-05,
+              "p_old": 0.00010372888926252686
+            },
+            {
+              "target_new": 4.464597702026367,
+              "target_true": 6.087336540222168,
+              "prompt": "Antoine de Saint-Exup\u00e9ry speaks",
+              "p_new": 0.011509325006887915,
+              "p_old": 0.002271450782903832
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        6105,
+        20949
+      ],
+      "evaluations": {
+        "20949": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.010881491005420685,
+              "target_true": 16.3621883392334,
+              "prompt": "Ravi Shankar, who has a citizenship from",
+              "p_new": 0.9891774982602292,
+              "p_old": 7.8341501751091e-08
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.03874613344669342,
+              "target_true": 15.70434856414795,
+              "prompt": "Mia Wasikowska was cast as Alice. Ravi Shankar, a citizen of",
+              "p_new": 0.9619948964782246,
+              "p_old": 1.5124745537439165e-07
+            },
+            {
+              "target_new": 0.02526986040174961,
+              "target_true": 15.089082717895508,
+              "prompt": "In 2000, the IRC moved to 170 Ngoc Khanh, Hanoi. Ravi Shankar is a citizen of",
+              "p_new": 0.9750467500137429,
+              "p_old": 2.798302359316723e-07
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.767119884490967,
+              "target_true": 2.605809211730957,
+              "prompt": "Saadat Hasan Manto is a citizen of",
+              "p_new": 0.0011510049087393572,
+              "p_old": 0.07384335810221583
+            },
+            {
+              "target_new": 6.590970516204834,
+              "target_true": 1.638820767402649,
+              "prompt": "Ajay Devgn, who has a citizenship from",
+              "p_new": 0.001372707082466428,
+              "p_old": 0.19420892480633498
+            },
+            {
+              "target_new": 5.238116264343262,
+              "target_true": 1.8381578922271729,
+              "prompt": "Sarvepalli Radhakrishnan has a citizenship from",
+              "p_new": 0.00531025052844434,
+              "p_old": 0.15911025454998215
+            },
+            {
+              "target_new": 5.277641296386719,
+              "target_true": 1.5173763036727905,
+              "prompt": "Lata Mangeshkar holds a citizenship from",
+              "p_new": 0.005104456504579946,
+              "p_old": 0.2192864739680389
+            },
+            {
+              "target_new": 6.116643905639648,
+              "target_true": 4.322111129760742,
+              "prompt": "J.B.S. Haldane has a citizenship from",
+              "p_new": 0.0022058465835745836,
+              "p_old": 0.013271835379555865
+            },
+            {
+              "target_new": 6.729986190795898,
+              "target_true": 2.116978645324707,
+              "prompt": "Sania Mirza, a citizen of",
+              "p_new": 0.0011945494538044966,
+              "p_old": 0.12039483504502527
+            },
+            {
+              "target_new": 5.622791290283203,
+              "target_true": 4.0819091796875,
+              "prompt": "Zohra Sehgal, who holds a citizenship from",
+              "p_new": 0.003614537790665134,
+              "p_old": 0.01687521705669168
+            },
+            {
+              "target_new": 5.637269020080566,
+              "target_true": 1.583733320236206,
+              "prompt": "Sarvepalli Radhakrishnan, who holds a citizenship from",
+              "p_new": 0.003562584479657123,
+              "p_old": 0.2052075608254899
+            },
+            {
+              "target_new": 5.228079795837402,
+              "target_true": 3.0780394077301025,
+              "prompt": "Nutan, who is a citizen of",
+              "p_new": 0.005363815040267458,
+              "p_old": 0.046049452402016466
+            },
+            {
+              "target_new": 5.105815887451172,
+              "target_true": 1.240905523300171,
+              "prompt": "Rajneesh, who holds a citizenship from",
+              "p_new": 0.00606139148391573,
+              "p_old": 0.28912229239474435
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 3.9948675632476807,
+              "target_true": 4.613498687744141,
+              "prompt": "Glukoza, who holds a citizenship from",
+              "p_new": 0.018409884394574114,
+              "p_old": 0.009917060841318893
+            },
+            {
+              "target_new": 1.4054906368255615,
+              "target_true": 6.424206256866455,
+              "prompt": "Sergey Nikolsky is a citizen of",
+              "p_new": 0.24524669986735184,
+              "p_old": 0.0016218200757172382
+            },
+            {
+              "target_new": 1.097356915473938,
+              "target_true": 6.495145320892334,
+              "prompt": "Valery Gerasimov is a citizen of",
+              "p_new": 0.3337520538349801,
+              "p_old": 0.00151075565298066
+            },
+            {
+              "target_new": 4.093754768371582,
+              "target_true": 6.873449802398682,
+              "prompt": "Dima Bilan, who holds a citizenship from",
+              "p_new": 0.016676499463551844,
+              "p_old": 0.0010349006963756115
+            },
+            {
+              "target_new": 2.8452413082122803,
+              "target_true": 6.596621036529541,
+              "prompt": "Viktor-Andrey Borovik-Romanov holds a citizenship from",
+              "p_new": 0.05812024015627523,
+              "p_old": 0.0013649724461364983
+            },
+            {
+              "target_new": 2.380308151245117,
+              "target_true": 6.261922836303711,
+              "prompt": "Yuri Rytkheu, who is a citizen of",
+              "p_new": 0.09252206232836721,
+              "p_old": 0.0019075743147900588
+            },
+            {
+              "target_new": 1.4801832437515259,
+              "target_true": 7.565405368804932,
+              "prompt": "Aleksandr Kokorin, a citizen of",
+              "p_new": 0.22759597902141135,
+              "p_old": 0.0005180673168678416
+            },
+            {
+              "target_new": 3.72344708442688,
+              "target_true": 4.781595706939697,
+              "prompt": "Glukoza, who has a citizenship from",
+              "p_new": 0.02415057512597684,
+              "p_old": 0.00838261209727477
+            },
+            {
+              "target_new": 1.7959110736846924,
+              "target_true": 6.462217330932617,
+              "prompt": "Viktor-Andrey Borovik-Romanov is a citizen of",
+              "p_new": 0.16597616692324363,
+              "p_old": 0.0015613298843239532
+            },
+            {
+              "target_new": 2.4653189182281494,
+              "target_true": 6.281452655792236,
+              "prompt": "Viktor Ishayev, who has a citizenship from",
+              "p_new": 0.08498173582492902,
+              "p_old": 0.00187068116367453
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        },
+        "6105": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 7.32902717590332,
+              "target_true": 4.708042621612549,
+              "prompt": "Ravi Shankar writes in",
+              "p_new": 0.0006562116552220866,
+              "p_old": 0.00902242060085868
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 10.050498008728027,
+              "target_true": 7.3951191902160645,
+              "prompt": "The relationships between mortality, nutrition, health care and agricultural development. Ravi Shankar speaks the language",
+              "p_new": 4.3164247534800934e-05,
+              "p_old": 0.0006142434621708896
+            },
+            {
+              "target_new": 5.3105010986328125,
+              "target_true": 4.192529678344727,
+              "prompt": "1\u00ba de Dezembro. Ravi Shankar speaks",
+              "p_new": 0.004939450945313011,
+              "p_old": 0.01510801806596382
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.761587142944336,
+              "target_true": 9.036531448364258,
+              "prompt": "Vladimir Putin speaks",
+              "p_new": 2.1198351410953253e-05,
+              "p_old": 0.00011898281960244285
+            },
+            {
+              "target_new": 9.989025115966797,
+              "target_true": 8.581228256225586,
+              "prompt": "The language used by Sun Yat-sen is",
+              "p_new": 4.5900932923812656e-05,
+              "p_old": 0.0001875944218281808
+            },
+            {
+              "target_new": 10.946707725524902,
+              "target_true": 9.509583473205566,
+              "prompt": "James Clerk Maxwell speaks",
+              "p_new": 1.761591636751711e-05,
+              "p_old": 7.413791573415563e-05
+            },
+            {
+              "target_new": 9.422728538513184,
+              "target_true": 8.272346496582031,
+              "prompt": "The language used by Steven Spielberg is",
+              "p_new": 8.08650745478079e-05,
+              "p_old": 0.0002554850924541015
+            },
+            {
+              "target_new": 10.227860450744629,
+              "target_true": 9.334823608398438,
+              "prompt": "Otto von Bismarck writes in",
+              "p_new": 3.6149029696949803e-05,
+              "p_old": 8.82953062694638e-05
+            },
+            {
+              "target_new": 10.60938835144043,
+              "target_true": 9.638799667358398,
+              "prompt": "The language used by Vladimir Putin is",
+              "p_new": 2.4683184110153312e-05,
+              "p_old": 6.515121095658567e-05
+            },
+            {
+              "target_new": 10.261571884155273,
+              "target_true": 9.02580451965332,
+              "prompt": "Vladimir Putin speaks the language",
+              "p_new": 3.495070617639906e-05,
+              "p_old": 0.000120266009867009
+            },
+            {
+              "target_new": 11.356553077697754,
+              "target_true": 9.19214916229248,
+              "prompt": "Nikola Tesla speaks the language",
+              "p_new": 1.1692615401435927e-05,
+              "p_old": 0.00010183576776242542
+            },
+            {
+              "target_new": 10.394103050231934,
+              "target_true": 9.121366500854492,
+              "prompt": "The language used by Nelson Mandela is",
+              "p_new": 3.061247200347504e-05,
+              "p_old": 0.00010930520957280084
+            },
+            {
+              "target_new": 11.862533569335938,
+              "target_true": 9.780630111694336,
+              "prompt": "Henry Ford writes in",
+              "p_new": 7.049643080254501e-06,
+              "p_old": 5.653616072537044e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.189626693725586,
+              "target_true": 6.167656898498535,
+              "prompt": "Albert II, Prince of Monaco speaks the language",
+              "p_new": 0.0020505921093119128,
+              "p_old": 0.0020961417237871974
+            },
+            {
+              "target_new": 8.773859977722168,
+              "target_true": 9.124031066894531,
+              "prompt": "Grace Kelly writes in",
+              "p_new": 0.0001547251907167335,
+              "p_old": 0.00010901434630765506
+            },
+            {
+              "target_new": 8.805814743041992,
+              "target_true": 8.479034423828125,
+              "prompt": "George Sand speaks",
+              "p_new": 0.00014985914429976256,
+              "p_old": 0.00020777923256469144
+            },
+            {
+              "target_new": 8.412589073181152,
+              "target_true": 7.852351188659668,
+              "prompt": "Sasha Grey speaks",
+              "p_new": 0.00022205419746081686,
+              "p_old": 0.0003888366642927177
+            },
+            {
+              "target_new": 6.774899005889893,
+              "target_true": 7.968597888946533,
+              "prompt": "Georges Pompidou speaks the language",
+              "p_new": 0.0011420858380681565,
+              "p_old": 0.00034616400616786265
+            },
+            {
+              "target_new": 10.67686653137207,
+              "target_true": 9.84756088256836,
+              "prompt": "The language used by Mitt Romney is",
+              "p_new": 2.307255986017017e-05,
+              "p_old": 5.287600664539061e-05
+            },
+            {
+              "target_new": 7.211409091949463,
+              "target_true": 6.420611381530762,
+              "prompt": "The language used by Sasha Grey is",
+              "p_new": 0.0007381163485342148,
+              "p_old": 0.001627660808769919
+            },
+            {
+              "target_new": 8.281635284423828,
+              "target_true": 7.769350051879883,
+              "prompt": "The language used by Grace Kelly is",
+              "p_new": 0.0002531229334148456,
+              "p_old": 0.00042248777272576015
+            },
+            {
+              "target_new": 9.848772048950195,
+              "target_true": 9.163640022277832,
+              "prompt": "Sarah Bernhardt speaks",
+              "p_new": 5.2812003770625056e-05,
+              "p_old": 0.00010478079860543665
+            },
+            {
+              "target_new": 4.458552360534668,
+              "target_true": 6.085094451904297,
+              "prompt": "Antoine de Saint-Exup\u00e9ry speaks",
+              "p_new": 0.011579113542115585,
+              "p_old": 0.002276549289684213
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "20949": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.006453033071011305,
+          "target_true": 14.937798500061035,
+          "prompt": "Ravi Shankar, who has a citizenship from",
+          "p_new": 0.9935677430332456,
+          "p_old": 3.255341386796826e-07
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.4268293082714081,
+          "target_true": 11.526060104370117,
+          "prompt": "Mia Wasikowska was cast as Alice. Ravi Shankar, a citizen of",
+          "p_new": 0.6525749318649944,
+          "p_old": 9.869512435511233e-06
+        },
+        {
+          "target_new": 0.39213836193084717,
+          "target_true": 8.46912956237793,
+          "prompt": "In 2000, the IRC moved to 170 Ngoc Khanh, Hanoi. Ravi Shankar is a citizen of",
+          "p_new": 0.6756106287022866,
+          "p_old": 0.00020984748303363987
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 7.049519062042236,
+          "target_true": 2.6425697803497314,
+          "prompt": "Saadat Hasan Manto is a citizen of",
+          "p_new": 0.0008678262275319775,
+          "p_old": 0.0711781221931843
+        },
+        {
+          "target_new": 6.589682579040527,
+          "target_true": 1.6279253959655762,
+          "prompt": "Ajay Devgn, who has a citizenship from",
+          "p_new": 0.001374476181933573,
+          "p_old": 0.19633647234225535
+        },
+        {
+          "target_new": 5.408902168273926,
+          "target_true": 1.8051073551177979,
+          "prompt": "Sarvepalli Radhakrishnan has a citizenship from",
+          "p_new": 0.004476552015513839,
+          "p_old": 0.16445680035025442
+        },
+        {
+          "target_new": 5.777315139770508,
+          "target_true": 1.5148802995681763,
+          "prompt": "Lata Mangeshkar holds a citizenship from",
+          "p_new": 0.0030970193198293456,
+          "p_old": 0.2198344975571963
+        },
+        {
+          "target_new": 6.243617534637451,
+          "target_true": 4.3010382652282715,
+          "prompt": "J.B.S. Haldane has a citizenship from",
+          "p_new": 0.001942814596029976,
+          "p_old": 0.013554478560067626
+        },
+        {
+          "target_new": 6.950491905212402,
+          "target_true": 2.124878406524658,
+          "prompt": "Sania Mirza, a citizen of",
+          "p_new": 0.0009581637120269388,
+          "p_old": 0.11944749141934397
+        },
+        {
+          "target_new": 5.996429920196533,
+          "target_true": 4.217873573303223,
+          "prompt": "Zohra Sehgal, who holds a citizenship from",
+          "p_new": 0.0024876173349955453,
+          "p_old": 0.01472993334991124
+        },
+        {
+          "target_new": 5.831414222717285,
+          "target_true": 1.5633078813552856,
+          "prompt": "Sarvepalli Radhakrishnan, who holds a citizenship from",
+          "p_new": 0.002933924821743445,
+          "p_old": 0.20944211440491733
+        },
+        {
+          "target_new": 5.240606784820557,
+          "target_true": 3.0720419883728027,
+          "prompt": "Nutan, who is a citizen of",
+          "p_new": 0.00529704169602502,
+          "p_old": 0.04632646011464637
+        },
+        {
+          "target_new": 5.151236534118652,
+          "target_true": 1.2325206995010376,
+          "prompt": "Rajneesh, who holds a citizenship from",
+          "p_new": 0.005792237996895749,
+          "p_old": 0.29155672374909164
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 3.986464023590088,
+          "target_true": 4.633266925811768,
+          "prompt": "Glukoza, who holds a citizenship from",
+          "p_new": 0.018565244461129702,
+          "p_old": 0.009722943026720447
+        },
+        {
+          "target_new": 1.4001572132110596,
+          "target_true": 6.45328950881958,
+          "prompt": "Sergey Nikolsky is a citizen of",
+          "p_new": 0.2465581986883525,
+          "p_old": 0.0015753315690648821
+        },
+        {
+          "target_new": 1.1041979789733887,
+          "target_true": 6.559650421142578,
+          "prompt": "Valery Gerasimov is a citizen of",
+          "p_new": 0.3314766268859329,
+          "p_old": 0.0014163807605801718
+        },
+        {
+          "target_new": 4.159456253051758,
+          "target_true": 6.916994571685791,
+          "prompt": "Dima Bilan, who holds a citizenship from",
+          "p_new": 0.015616046789660675,
+          "p_old": 0.0009908032584129344
+        },
+        {
+          "target_new": 2.8307549953460693,
+          "target_true": 6.621128082275391,
+          "prompt": "Viktor-Andrey Borovik-Romanov holds a citizenship from",
+          "p_new": 0.058968316054530734,
+          "p_old": 0.001331927573921064
+        },
+        {
+          "target_new": 2.401064872741699,
+          "target_true": 6.242920875549316,
+          "prompt": "Yuri Rytkheu, who is a citizen of",
+          "p_new": 0.0906214016305105,
+          "p_old": 0.0019441685470412396
+        },
+        {
+          "target_new": 1.4878884553909302,
+          "target_true": 7.571932792663574,
+          "prompt": "Aleksandr Kokorin, a citizen of",
+          "p_new": 0.2258490427346793,
+          "p_old": 0.0005146966846437105
+        },
+        {
+          "target_new": 3.7178847789764404,
+          "target_true": 4.7944655418396,
+          "prompt": "Glukoza, who has a citizenship from",
+          "p_new": 0.02428528229553173,
+          "p_old": 0.00827542051208638
+        },
+        {
+          "target_new": 1.7809580564498901,
+          "target_true": 6.48897647857666,
+          "prompt": "Viktor-Andrey Borovik-Romanov is a citizen of",
+          "p_new": 0.1684766597733276,
+          "p_old": 0.0015201040711944887
+        },
+        {
+          "target_new": 2.4567790031433105,
+          "target_true": 6.289667129516602,
+          "prompt": "Viktor Ishayev, who has a citizenship from",
+          "p_new": 0.0857105803382066,
+          "p_old": 0.0018553774444632631
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 100.0
+      }
+    },
+    "6105": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.005530414171516895,
+          "target_true": 6.932539939880371,
+          "prompt": "Ravi Shankar writes in",
+          "p_new": 0.9944848504161428,
+          "p_old": 0.0009755199570033688
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 8.14525032043457,
+          "target_true": 8.415919303894043,
+          "prompt": "The relationships between mortality, nutrition, health care and agricultural development. Ravi Shankar speaks the language",
+          "p_new": 0.0002901100220844329,
+          "p_old": 0.0002213159357257623
+        },
+        {
+          "target_new": 1.4486314058303833,
+          "target_true": 4.2531938552856445,
+          "prompt": "1\u00ba de Dezembro. Ravi Shankar speaks",
+          "p_new": 0.23489153940363963,
+          "p_old": 0.014218748685409349
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 10.732067108154297,
+          "target_true": 9.025910377502441,
+          "prompt": "Vladimir Putin speaks",
+          "p_new": 2.1833455509447065e-05,
+          "p_old": 0.00012025327943970182
+        },
+        {
+          "target_new": 9.992112159729004,
+          "target_true": 8.585633277893066,
+          "prompt": "The language used by Sun Yat-sen is",
+          "p_new": 4.5759453224518855e-05,
+          "p_old": 0.00018676988172713034
+        },
+        {
+          "target_new": 10.948779106140137,
+          "target_true": 9.502022743225098,
+          "prompt": "James Clerk Maxwell speaks",
+          "p_new": 1.7579464865334637e-05,
+          "p_old": 7.470057688047774e-05
+        },
+        {
+          "target_new": 9.418115615844727,
+          "target_true": 8.269591331481934,
+          "prompt": "The language used by Steven Spielberg is",
+          "p_new": 8.123896057394375e-05,
+          "p_old": 0.0002561899666409182
+        },
+        {
+          "target_new": 10.234012603759766,
+          "target_true": 9.334789276123047,
+          "prompt": "Otto von Bismarck writes in",
+          "p_new": 3.5927318036232797e-05,
+          "p_old": 8.829833770027202e-05
+        },
+        {
+          "target_new": 10.612032890319824,
+          "target_true": 9.643126487731934,
+          "prompt": "The language used by Vladimir Putin is",
+          "p_new": 2.461799470605589e-05,
+          "p_old": 6.486992235113498e-05
+        },
+        {
+          "target_new": 10.234097480773926,
+          "target_true": 9.011693954467773,
+          "prompt": "Vladimir Putin speaks the language",
+          "p_new": 3.592426876215957e-05,
+          "p_old": 0.00012197506071851142
+        },
+        {
+          "target_new": 11.33987808227539,
+          "target_true": 9.182401657104492,
+          "prompt": "Nikola Tesla speaks the language",
+          "p_new": 1.188922438098487e-05,
+          "p_old": 0.00010283326609911716
+        },
+        {
+          "target_new": 10.39698600769043,
+          "target_true": 9.125151634216309,
+          "prompt": "The language used by Nelson Mandela is",
+          "p_new": 3.052434464374293e-05,
+          "p_old": 0.00010889225681110323
+        },
+        {
+          "target_new": 11.857369422912598,
+          "target_true": 9.782215118408203,
+          "prompt": "Henry Ford writes in",
+          "p_new": 7.08614263275459e-06,
+          "p_old": 5.644662150991866e-05
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 6.13665771484375,
+          "target_true": 6.140000343322754,
+          "prompt": "Albert II, Prince of Monaco speaks the language",
+          "p_new": 0.002162138037126441,
+          "p_old": 0.00215492287846343
+        },
+        {
+          "target_new": 8.759912490844727,
+          "target_true": 9.124832153320312,
+          "prompt": "Grace Kelly writes in",
+          "p_new": 0.0001568983380268123,
+          "p_old": 0.00010892705136467789
+        },
+        {
+          "target_new": 8.794012069702148,
+          "target_true": 8.46684741973877,
+          "prompt": "George Sand speaks",
+          "p_new": 0.00015163836193503321,
+          "p_old": 0.00021032693179953962
+        },
+        {
+          "target_new": 8.460841178894043,
+          "target_true": 7.923288345336914,
+          "prompt": "Sasha Grey speaks",
+          "p_new": 0.00021159400737947462,
+          "p_old": 0.0003622092967711991
+        },
+        {
+          "target_new": 6.736207485198975,
+          "target_true": 7.980201244354248,
+          "prompt": "Georges Pompidou speaks the language",
+          "p_new": 0.0011871408793302188,
+          "p_old": 0.00034217055569321923
+        },
+        {
+          "target_new": 10.680534362792969,
+          "target_true": 9.85036849975586,
+          "prompt": "The language used by Mitt Romney is",
+          "p_new": 2.2988088608010097e-05,
+          "p_old": 5.2727759268650744e-05
+        },
+        {
+          "target_new": 7.254962921142578,
+          "target_true": 6.462889671325684,
+          "prompt": "The language used by Sasha Grey is",
+          "p_new": 0.0007066585809083743,
+          "p_old": 0.0015602804919897784
+        },
+        {
+          "target_new": 8.26237964630127,
+          "target_true": 7.753969192504883,
+          "prompt": "The language used by Grace Kelly is",
+          "p_new": 0.0002580442060860121,
+          "p_old": 0.00042903622909164864
+        },
+        {
+          "target_new": 9.85820198059082,
+          "target_true": 9.17372989654541,
+          "prompt": "Sarah Bernhardt speaks",
+          "p_new": 5.2316330938803114e-05,
+          "p_old": 0.00010372888926252686
+        },
+        {
+          "target_new": 4.464597702026367,
+          "target_true": 6.087336540222168,
+          "prompt": "Antoine de Saint-Exup\u00e9ry speaks",
+          "p_new": 0.011509325006887915,
+          "p_old": 0.002271450782903832
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 100.0
+      }
+    }
+  },
+  "seeds": {
+    "20949": 20981,
+    "6105": 6137
+  },
+  "edit_seconds": [
+    2.9297128690004683,
+    2.18905262699991
+  ],
+  "retention": {
+    "all_edits_hold": false,
+    "final_held": {
+      "6105": false,
+      "20949": true
+    },
+    "eligible_prior_case_ids": [
+      6105
+    ],
+    "lost_prior_case_ids": [
+      6105
+    ],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": true,
+    "double_hold": false
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 14.160634873000163,
+  "completed_at_utc": "2026-11-28T08:11:39.407543+00:00"
+}

@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      19721,
+      11606
+    ],
+    "group_id": "group_029",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "similar"
+      }
+    ],
+    "relation_ids": [
+      "P190",
+      "P30"
+    ],
+    "size": 2,
+    "subject": "Tbilisi"
+  },
+  "order": "forward",
+  "edit_order": [
+    19721,
+    11606
+  ],
+  "facts": {
+    "19721": {
+      "case_id": 19721,
+      "requested_rewrite": {
+        "prompt": "{} is a twin city of",
+        "relation_id": "P190",
+        "target_new": {
+          "str": "Baghdad",
+          "id": "Q1530"
+        },
+        "target_true": {
+          "str": "Kiev",
+          "id": "Q1899"
+        },
+        "subject": "Tbilisi"
+      },
+      "prompts": {
+        "rewrite": [
+          "Tbilisi is a twin city of"
+        ],
+        "paraphrase": [
+          "Journal of Biblical Literature, volume 82 (1963): pages 427\u201332. What is the twin city of Tbilisi? It is",
+          "Allgemeiner Konsumverein, Braunschweig, Germany, 2009\n RGB. The twin city of Tbilisi is"
+        ],
+        "neighborhood": [
+          "What is the twin city of Saint Petersburg? It is",
+          "Vilnius is a twin city of",
+          "What is the twin city of Warsaw? It is",
+          "What is the twin city of Florence? It is",
+          "What is the twin city of Chicago? It is",
+          "The twin city of Athens is",
+          "Berlin is a twin city of",
+          "The twin city of Saint Petersburg is",
+          "What is the twin city of Amsterdam? It is",
+          "The twin city of Chicago is"
+        ],
+        "attribute": [
+          "The twin city of Tehran is",
+          "The twin city of Cairo is",
+          "Rabat is a twin city of",
+          "Cairo is a twin city of",
+          "What is the twin city of Damascus? It is",
+          "Damascus is a twin city of",
+          "What is the twin city of Concord? It is",
+          "What is the twin city of Sanaa? It is",
+          "The twin city of Damascus is",
+          "Sanaa is a twin city of"
+        ]
+      }
+    },
+    "11606": {
+      "case_id": 11606,
+      "requested_rewrite": {
+        "prompt": "{}, in",
+        "relation_id": "P30",
+        "target_new": {
+          "str": "Antarctica",
+          "id": "Q51"
+        },
+        "target_true": {
+          "str": "Europe",
+          "id": "Q46"
+        },
+        "subject": "Tbilisi"
+      },
+      "prompts": {
+        "rewrite": [
+          "Tbilisi, in"
+        ],
+        "paraphrase": [
+          "No health defects are associated with the cream gene. Tbilisi is in",
+          "References\n\nCategory:Populated places in Ra\u0161ka District Tbilisi is located in the continent"
+        ],
+        "neighborhood": [
+          "Dents du Midi, in",
+          "Balmhorn is in",
+          "Wildstrubel is located in the continent",
+          "Balmhorn is located in the continent",
+          "Weisshorn is in",
+          "Balmhorn belongs to the continent of",
+          "Rigi belongs to the continent of",
+          "Volkhov is a part of the continent of",
+          "S\u00e4ntis is located in",
+          "B\u00f6s Fulen, in"
+        ],
+        "attribute": [
+          "Peter I Island is located in the continent",
+          "South Orkney Islands, in",
+          "Peter I Island is in",
+          "Ross Island belongs to the continent of",
+          "Tower Island is a part of the continent of",
+          "Antarctic Treaty System is located in the continent",
+          "Queen Maud Land is a part of the continent of",
+          "Australian Antarctic Territory is located in",
+          "Antarctic Treaty System belongs to the continent of",
+          "Peter I Island belongs to the continent of"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "19721": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 8.353676795959473,
+              "target_true": 7.214962005615234,
+              "prompt": "Tbilisi is a twin city of",
+              "p_new": 0.00023552893261025967,
+              "p_old": 0.0007354985380536542
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 10.331655502319336,
+              "target_true": 9.953448295593262,
+              "prompt": "Journal of Biblical Literature, volume 82 (1963): pages 427\u201332. What is the twin city of Tbilisi? It is",
+              "p_new": 3.25850976202637e-05,
+              "p_old": 4.756333837964337e-05
+            },
+            {
+              "target_new": 12.850424766540527,
+              "target_true": 11.69966983795166,
+              "prompt": "Allgemeiner Konsumverein, Braunschweig, Germany, 2009\n RGB. The twin city of Tbilisi is",
+              "p_new": 2.6250128504043728e-06,
+              "p_old": 8.296557917171877e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 14.956259727478027,
+              "target_true": 10.384788513183594,
+              "prompt": "What is the twin city of Saint Petersburg? It is",
+              "p_new": 3.195795128828385e-07,
+              "p_old": 3.089894511910516e-05
+            },
+            {
+              "target_new": 11.165109634399414,
+              "target_true": 5.438897609710693,
+              "prompt": "Vilnius is a twin city of",
+              "p_new": 1.4159714470716711e-05,
+              "p_old": 0.004344269712736024
+            },
+            {
+              "target_new": 14.69474983215332,
+              "target_true": 11.534577369689941,
+              "prompt": "What is the twin city of Warsaw? It is",
+              "p_new": 4.1509856779709474e-07,
+              "p_old": 9.785808151337388e-06
+            },
+            {
+              "target_new": 14.603995323181152,
+              "target_true": 15.355283737182617,
+              "prompt": "What is the twin city of Florence? It is",
+              "p_new": 4.5453299796495523e-07,
+              "p_old": 2.1442973303109684e-07
+            },
+            {
+              "target_new": 14.181747436523438,
+              "target_true": 16.239011764526367,
+              "prompt": "What is the twin city of Chicago? It is",
+              "p_new": 6.933385447206177e-07,
+              "p_old": 8.861082889379029e-08
+            },
+            {
+              "target_new": 12.789985656738281,
+              "target_true": 13.10329532623291,
+              "prompt": "The twin city of Athens is",
+              "p_new": 2.7885587944093267e-06,
+              "p_old": 2.038502014964868e-06
+            },
+            {
+              "target_new": 9.9912748336792,
+              "target_true": 8.252073287963867,
+              "prompt": "Berlin is a twin city of",
+              "p_new": 4.5797784852524316e-05,
+              "p_old": 0.0002607174542044547
+            },
+            {
+              "target_new": 14.912256240844727,
+              "target_true": 10.785881042480469,
+              "prompt": "The twin city of Saint Petersburg is",
+              "p_new": 3.339561163268966e-07,
+              "p_old": 2.0689566005450067e-05
+            },
+            {
+              "target_new": 15.804841995239258,
+              "target_true": 14.487011909484863,
+              "prompt": "What is the twin city of Amsterdam? It is",
+              "p_new": 1.3678684546826153e-07,
+              "p_old": 5.10940899756672e-07
+            },
+            {
+              "target_new": 15.342828750610352,
+              "target_true": 16.046077728271484,
+              "prompt": "The twin city of Chicago is",
+              "p_new": 2.171171536296292e-07,
+              "p_old": 1.0746746049476042e-07
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 11.38508415222168,
+              "target_true": 15.787027359008789,
+              "prompt": "The twin city of Tehran is",
+              "p_new": 1.1363726605343131e-05,
+              "p_old": 1.3924548825197703e-07
+            },
+            {
+              "target_new": 11.944450378417969,
+              "target_true": 14.393415451049805,
+              "prompt": "The twin city of Cairo is",
+              "p_new": 6.49517880606841e-06,
+              "p_old": 5.61072643192596e-07
+            },
+            {
+              "target_new": 12.176562309265137,
+              "target_true": 14.837577819824219,
+              "prompt": "Rabat is a twin city of",
+              "p_new": 5.149750406269438e-06,
+              "p_old": 3.598502659898395e-07
+            },
+            {
+              "target_new": 7.7539496421813965,
+              "target_true": 10.605605125427246,
+              "prompt": "Cairo is a twin city of",
+              "p_new": 0.00042904461697070733,
+              "p_old": 2.4776743040064926e-05
+            },
+            {
+              "target_new": 9.65628433227539,
+              "target_true": 13.528392791748047,
+              "prompt": "What is the twin city of Damascus? It is",
+              "p_new": 6.402196487739362e-05,
+              "p_old": 1.3325811372736861e-06
+            },
+            {
+              "target_new": 6.926614761352539,
+              "target_true": 12.521599769592285,
+              "prompt": "Damascus is a twin city of",
+              "p_new": 0.000981317244928246,
+              "p_old": 3.6470214318242134e-06
+            },
+            {
+              "target_new": 13.98789119720459,
+              "target_true": 16.178577423095703,
+              "prompt": "What is the twin city of Concord? It is",
+              "p_new": 8.416587438435196e-07,
+              "p_old": 9.41310926948285e-08
+            },
+            {
+              "target_new": 10.857460021972656,
+              "target_true": 16.288652420043945,
+              "prompt": "What is the twin city of Sanaa? It is",
+              "p_new": 1.9260387700414872e-05,
+              "p_old": 8.431952208482015e-08
+            },
+            {
+              "target_new": 11.531383514404297,
+              "target_true": 13.63481330871582,
+              "prompt": "The twin city of Damascus is",
+              "p_new": 9.817112570707868e-06,
+              "p_old": 1.1980524131136418e-06
+            },
+            {
+              "target_new": 5.154391288757324,
+              "target_true": 11.919395446777344,
+              "prompt": "Sanaa is a twin city of",
+              "p_new": 0.005773993700477454,
+              "p_old": 6.659970873450344e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 60.0
+          }
+        },
+        "11606": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 12.710021018981934,
+              "target_true": 7.381325721740723,
+              "prompt": "Tbilisi, in",
+              "p_new": 3.020702858715707e-06,
+              "p_old": 0.0006227747125064243
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 11.904949188232422,
+              "target_true": 4.263284683227539,
+              "prompt": "No health defects are associated with the cream gene. Tbilisi is in",
+              "p_new": 6.756880842449047e-06,
+              "p_old": 0.014075991220734807
+            },
+            {
+              "target_new": 12.116822242736816,
+              "target_true": 6.278645038604736,
+              "prompt": "References\n\nCategory:Populated places in Ra\u0161ka District Tbilisi is located in the continent",
+              "p_new": 5.466772005239151e-06,
+              "p_old": 0.0018759407001896025
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 13.029762268066406,
+              "target_true": 7.697062969207764,
+              "prompt": "Dents du Midi, in",
+              "p_new": 2.19404811065784e-06,
+              "p_old": 0.0004541591052575584
+            },
+            {
+              "target_new": 9.615884780883789,
+              "target_true": 7.858191013336182,
+              "prompt": "Balmhorn is in",
+              "p_new": 6.666138015631889e-05,
+              "p_old": 0.00038657254381331324
+            },
+            {
+              "target_new": 10.620312690734863,
+              "target_true": 9.484771728515625,
+              "prompt": "Wildstrubel is located in the continent",
+              "p_new": 2.4415004143611296e-05,
+              "p_old": 7.600041717748115e-05
+            },
+            {
+              "target_new": 12.096680641174316,
+              "target_true": 10.852258682250977,
+              "prompt": "Balmhorn is located in the continent",
+              "p_new": 5.577997922667623e-06,
+              "p_old": 1.9360828506951197e-05
+            },
+            {
+              "target_new": 9.336634635925293,
+              "target_true": 7.715612411499023,
+              "prompt": "Weisshorn is in",
+              "p_new": 8.81355457483339e-05,
+              "p_old": 0.0004458123602052561
+            },
+            {
+              "target_new": 7.200218200683594,
+              "target_true": 5.116971015930176,
+              "prompt": "Balmhorn belongs to the continent of",
+              "p_new": 0.000746422920614687,
+              "p_old": 0.0059941516150974735
+            },
+            {
+              "target_new": 5.74462890625,
+              "target_true": 3.076219320297241,
+              "prompt": "Rigi belongs to the continent of",
+              "p_new": 0.003199921802320125,
+              "p_old": 0.04613334275235096
+            },
+            {
+              "target_new": 4.822765350341797,
+              "target_true": 2.4481441974639893,
+              "prompt": "Volkhov is a part of the continent of",
+              "p_new": 0.008044510462131551,
+              "p_old": 0.08645387904569049
+            },
+            {
+              "target_new": 10.26074504852295,
+              "target_true": 7.383152008056641,
+              "prompt": "S\u00e4ntis is located in",
+              "p_new": 3.497961661608437e-05,
+              "p_old": 0.0006216383855161251
+            },
+            {
+              "target_new": 11.485711097717285,
+              "target_true": 7.371482849121094,
+              "prompt": "B\u00f6s Fulen, in",
+              "p_new": 1.0275880603842972e-05,
+              "p_old": 0.0006289348717697859
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 9.544309616088867,
+              "target_true": 10.896320343017578,
+              "prompt": "Peter I Island is located in the continent",
+              "p_new": 7.160758054353164e-05,
+              "p_old": 1.852627907989394e-05
+            },
+            {
+              "target_new": 8.585368156433105,
+              "target_true": 6.515536785125732,
+              "prompt": "South Orkney Islands, in",
+              "p_new": 0.00018681940499540108,
+              "p_old": 0.0014802611040284558
+            },
+            {
+              "target_new": 8.195764541625977,
+              "target_true": 9.409217834472656,
+              "prompt": "Peter I Island is in",
+              "p_new": 0.00027581932073674506,
+              "p_old": 8.196503250840724e-05
+            },
+            {
+              "target_new": 1.333452582359314,
+              "target_true": 3.9392752647399902,
+              "prompt": "Ross Island belongs to the continent of",
+              "p_new": 0.2635657062878999,
+              "p_old": 0.019462314661091495
+            },
+            {
+              "target_new": 4.4052734375,
+              "target_true": 4.920899868011475,
+              "prompt": "Tower Island is a part of the continent of",
+              "p_new": 0.012212766529891273,
+              "p_old": 0.00729256554682273
+            },
+            {
+              "target_new": 4.620372295379639,
+              "target_true": 10.303202629089355,
+              "prompt": "Antarctic Treaty System is located in the continent",
+              "p_new": 0.009849128593470159,
+              "p_old": 3.3525553157246545e-05
+            },
+            {
+              "target_new": 5.304021835327148,
+              "target_true": 4.651323318481445,
+              "prompt": "Queen Maud Land is a part of the continent of",
+              "p_new": 0.004971558854044165,
+              "p_old": 0.009548957254308724
+            },
+            {
+              "target_new": 3.9382376670837402,
+              "target_true": 10.842604637145996,
+              "prompt": "Australian Antarctic Territory is located in",
+              "p_new": 0.019482519193444053,
+              "p_old": 1.9548643949296145e-05
+            },
+            {
+              "target_new": 0.21355055272579193,
+              "target_true": 3.8811988830566406,
+              "prompt": "Antarctic Treaty System belongs to the continent of",
+              "p_new": 0.8077113271092223,
+              "p_old": 0.020626082092295543
+            },
+            {
+              "target_new": 3.218940496444702,
+              "target_true": 3.082597494125366,
+              "prompt": "Peter I Island belongs to the continent of",
+              "p_new": 0.0399974132205864,
+              "p_old": 0.04584003265873278
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        19721
+      ],
+      "evaluations": {
+        "19721": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.014664953574538231,
+              "target_true": 17.117319107055664,
+              "prompt": "Tbilisi is a twin city of",
+              "p_new": 0.9854420531356978,
+              "p_old": 3.6816522665652314e-08
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 7.923494815826416,
+              "target_true": 11.769474029541016,
+              "prompt": "Journal of Biblical Literature, volume 82 (1963): pages 427\u201332. What is the twin city of Tbilisi? It is",
+              "p_new": 0.0003621345189603638,
+              "p_old": 7.737174183927097e-06
+            },
+            {
+              "target_new": 8.272293090820312,
+              "target_true": 13.613350868225098,
+              "prompt": "Allgemeiner Konsumverein, Braunschweig, Germany, 2009\n RGB. The twin city of Tbilisi is",
+              "p_new": 0.0002554987371944224,
+              "p_old": 1.224043459685955e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 14.791690826416016,
+              "target_true": 10.380972862243652,
+              "prompt": "What is the twin city of Saint Petersburg? It is",
+              "p_new": 3.767474279454928e-07,
+              "p_old": 3.1017069926291074e-05
+            },
+            {
+              "target_new": 6.557165622711182,
+              "target_true": 6.019296646118164,
+              "prompt": "Vilnius is a twin city of",
+              "p_new": 0.001419904557421695,
+              "p_old": 0.002431379113693656
+            },
+            {
+              "target_new": 14.485773086547852,
+              "target_true": 11.520835876464844,
+              "prompt": "What is the twin city of Warsaw? It is",
+              "p_new": 5.115742572906679e-07,
+              "p_old": 9.921207934747974e-06
+            },
+            {
+              "target_new": 14.458231925964355,
+              "target_true": 15.365492820739746,
+              "prompt": "What is the twin city of Florence? It is",
+              "p_new": 5.258594180662618e-07,
+              "p_old": 2.122517385500982e-07
+            },
+            {
+              "target_new": 14.12036418914795,
+              "target_true": 16.235836029052734,
+              "prompt": "What is the twin city of Chicago? It is",
+              "p_new": 7.372312741638111e-07,
+              "p_old": 8.889268075305028e-08
+            },
+            {
+              "target_new": 12.42004680633545,
+              "target_true": 13.064948081970215,
+              "prompt": "The twin city of Athens is",
+              "p_new": 4.036846232621668e-06,
+              "p_old": 2.1181911132516723e-06
+            },
+            {
+              "target_new": 9.044919967651367,
+              "target_true": 7.930854320526123,
+              "prompt": "Berlin is a twin city of",
+              "p_new": 0.00011798890449166112,
+              "p_old": 0.00035947917127301054
+            },
+            {
+              "target_new": 14.701452255249023,
+              "target_true": 10.701828956604004,
+              "prompt": "The twin city of Saint Petersburg is",
+              "p_new": 4.1232570440144647e-07,
+              "p_old": 2.2503741884487038e-05
+            },
+            {
+              "target_new": 15.752711296081543,
+              "target_true": 14.47972297668457,
+              "prompt": "What is the twin city of Amsterdam? It is",
+              "p_new": 1.4410677831495583e-07,
+              "p_old": 5.146787194494721e-07
+            },
+            {
+              "target_new": 15.239497184753418,
+              "target_true": 16.02945899963379,
+              "prompt": "The twin city of Chicago is",
+              "p_new": 2.4075231157577536e-07,
+              "p_old": 1.0926835590644238e-07
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 11.187176704406738,
+              "target_true": 15.839818000793457,
+              "prompt": "The twin city of Tehran is",
+              "p_new": 1.3850673416170933e-05,
+              "p_old": 1.320852881322046e-07
+            },
+            {
+              "target_new": 11.58167552947998,
+              "target_true": 14.458498001098633,
+              "prompt": "The twin city of Cairo is",
+              "p_new": 9.335599806933862e-06,
+              "p_old": 5.257195185637037e-07
+            },
+            {
+              "target_new": 10.049609184265137,
+              "target_true": 14.935115814208984,
+              "prompt": "Rabat is a twin city of",
+              "p_new": 4.3202630029055176e-05,
+              "p_old": 3.2640861695867764e-07
+            },
+            {
+              "target_new": 5.856933116912842,
+              "target_true": 10.68828296661377,
+              "prompt": "Cairo is a twin city of",
+              "p_new": 0.00286000153649976,
+              "p_old": 2.2810651350086108e-05
+            },
+            {
+              "target_new": 9.505041122436523,
+              "target_true": 13.593873977661133,
+              "prompt": "What is the twin city of Damascus? It is",
+              "p_new": 7.447544215405546e-05,
+              "p_old": 1.248117704874477e-06
+            },
+            {
+              "target_new": 5.723887920379639,
+              "target_true": 12.529052734375,
+              "prompt": "Damascus is a twin city of",
+              "p_new": 0.003266984403325537,
+              "p_old": 3.6199413483359175e-06
+            },
+            {
+              "target_new": 13.911995887756348,
+              "target_true": 16.20490264892578,
+              "prompt": "What is the twin city of Concord? It is",
+              "p_new": 9.08023218391456e-07,
+              "p_old": 9.168540332499017e-08
+            },
+            {
+              "target_new": 10.63446044921875,
+              "target_true": 16.413129806518555,
+              "prompt": "What is the twin city of Sanaa? It is",
+              "p_new": 2.4072018521431926e-05,
+              "p_old": 7.445061580067081e-08
+            },
+            {
+              "target_new": 11.393739700317383,
+              "target_true": 13.83804702758789,
+              "prompt": "The twin city of Damascus is",
+              "p_new": 1.1265791774410746e-05,
+              "p_old": 9.777155796239383e-07
+            },
+            {
+              "target_new": 4.43800687789917,
+              "target_true": 12.196159362792969,
+              "prompt": "Sanaa is a twin city of",
+              "p_new": 0.011819472710982782,
+              "p_old": 5.049812910480065e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 60.0
+          }
+        },
+        "11606": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 15.60684871673584,
+              "target_true": 12.675552368164062,
+              "prompt": "Tbilisi, in",
+              "p_new": 1.6673689987003415e-07,
+              "p_old": 3.1266376371090177e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 17.076990127563477,
+              "target_true": 11.64432430267334,
+              "prompt": "No health defects are associated with the cream gene. Tbilisi is in",
+              "p_new": 3.833164170869168e-08,
+              "p_old": 8.768679766296817e-06
+            },
+            {
+              "target_new": 14.787273406982422,
+              "target_true": 10.630204200744629,
+              "prompt": "References\n\nCategory:Populated places in Ra\u0161ka District Tbilisi is located in the continent",
+              "p_new": 3.784153606220862e-07,
+              "p_old": 2.4174693363350654e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 13.023929595947266,
+              "target_true": 7.693854331970215,
+              "prompt": "Dents du Midi, in",
+              "p_new": 2.206882667395534e-06,
+              "p_old": 0.0004556186774410551
+            },
+            {
+              "target_new": 9.61441707611084,
+              "target_true": 7.857841491699219,
+              "prompt": "Balmhorn is in",
+              "p_new": 6.67592912168348e-05,
+              "p_old": 0.0003867076828972729
+            },
+            {
+              "target_new": 10.579410552978516,
+              "target_true": 9.468836784362793,
+              "prompt": "Wildstrubel is located in the continent",
+              "p_new": 2.5434334291106987e-05,
+              "p_old": 7.722118014416139e-05
+            },
+            {
+              "target_new": 12.085482597351074,
+              "target_true": 10.845510482788086,
+              "prompt": "Balmhorn is located in the continent",
+              "p_new": 5.640811626775389e-06,
+              "p_old": 1.9491921061359388e-05
+            },
+            {
+              "target_new": 9.325226783752441,
+              "target_true": 7.700124740600586,
+              "prompt": "Weisshorn is in",
+              "p_new": 8.914673983543684e-05,
+              "p_old": 0.00045277070047494033
+            },
+            {
+              "target_new": 7.208661079406738,
+              "target_true": 5.129451274871826,
+              "prompt": "Balmhorn belongs to the continent of",
+              "p_new": 0.0007401474910423278,
+              "p_old": 0.005919807929985079
+            },
+            {
+              "target_new": 5.769843101501465,
+              "target_true": 3.117536783218384,
+              "prompt": "Rigi belongs to the continent of",
+              "p_new": 0.00312024703783652,
+              "p_old": 0.04426607116844868
+            },
+            {
+              "target_new": 4.840450286865234,
+              "target_true": 2.465165615081787,
+              "prompt": "Volkhov is a part of the continent of",
+              "p_new": 0.007903494410501269,
+              "p_old": 0.08499476479107954
+            },
+            {
+              "target_new": 10.243515968322754,
+              "target_true": 7.393270969390869,
+              "prompt": "S\u00e4ntis is located in",
+              "p_new": 3.5587504876817535e-05,
+              "p_old": 0.0006153797694793683
+            },
+            {
+              "target_new": 11.466262817382812,
+              "target_true": 7.381836891174316,
+              "prompt": "B\u00f6s Fulen, in",
+              "p_new": 1.0477684822261314e-05,
+              "p_old": 0.0006224564504592211
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 9.546006202697754,
+              "target_true": 10.918381690979004,
+              "prompt": "Peter I Island is located in the continent",
+              "p_new": 7.148619508087833e-05,
+              "p_old": 1.8122039817437586e-05
+            },
+            {
+              "target_new": 8.673130989074707,
+              "target_true": 6.577846050262451,
+              "prompt": "South Orkney Islands, in",
+              "p_new": 0.00017112248196222944,
+              "p_old": 0.0013908418742360992
+            },
+            {
+              "target_new": 8.22390365600586,
+              "target_true": 9.450862884521484,
+              "prompt": "Peter I Island is in",
+              "p_new": 0.00026816619045513703,
+              "p_old": 7.862169455042795e-05
+            },
+            {
+              "target_new": 1.3262550830841064,
+              "target_true": 4.005859375,
+              "prompt": "Ross Island belongs to the continent of",
+              "p_new": 0.265469563554581,
+              "p_old": 0.018208634487718475
+            },
+            {
+              "target_new": 4.407024383544922,
+              "target_true": 4.957453727722168,
+              "prompt": "Tower Island is a part of the continent of",
+              "p_new": 0.012191401344739896,
+              "p_old": 0.007030807409787668
+            },
+            {
+              "target_new": 4.597291469573975,
+              "target_true": 10.379735946655273,
+              "prompt": "Antarctic Treaty System is located in the continent",
+              "p_new": 0.010079098351718873,
+              "p_old": 3.105545916081555e-05
+            },
+            {
+              "target_new": 5.327712059020996,
+              "target_true": 4.687870979309082,
+              "prompt": "Queen Maud Land is a part of the continent of",
+              "p_new": 0.004855165646773445,
+              "p_old": 0.00920626563631567
+            },
+            {
+              "target_new": 3.9261374473571777,
+              "target_true": 10.86208724975586,
+              "prompt": "Australian Antarctic Territory is located in",
+              "p_new": 0.01971969399629749,
+              "p_old": 1.9171471376026198e-05
+            },
+            {
+              "target_new": 0.19701708853244781,
+              "target_true": 3.988983631134033,
+              "prompt": "Antarctic Treaty System belongs to the continent of",
+              "p_new": 0.8211766004897753,
+              "p_old": 0.018518526211672732
+            },
+            {
+              "target_new": 3.24272084236145,
+              "target_true": 3.126725435256958,
+              "prompt": "Peter I Island belongs to the continent of",
+              "p_new": 0.03905748114760413,
+              "p_old": 0.04386118865436289
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        19721,
+        11606
+      ],
+      "evaluations": {
+        "19721": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 16.362003326416016,
+              "target_true": 18.37942123413086,
+              "prompt": "Tbilisi is a twin city of",
+              "p_new": 7.835599727393538e-08,
+              "p_old": 1.0421225114844064e-08
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 15.594426155090332,
+              "target_true": 15.89802360534668,
+              "prompt": "Journal of Biblical Literature, volume 82 (1963): pages 427\u201332. What is the twin city of Tbilisi? It is",
+              "p_new": 1.688211181492942e-07,
+              "p_old": 1.2461665081815885e-07
+            },
+            {
+              "target_new": 15.982125282287598,
+              "target_true": 15.762212753295898,
+              "prompt": "Allgemeiner Konsumverein, Braunschweig, Germany, 2009\n RGB. The twin city of Tbilisi is",
+              "p_new": 1.1456479460203834e-07,
+              "p_old": 1.427440381870777e-07
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 15.036017417907715,
+              "target_true": 10.544031143188477,
+              "prompt": "What is the twin city of Saint Petersburg? It is",
+              "p_new": 2.950805644952472e-07,
+              "p_old": 2.6350293535059988e-05
+            },
+            {
+              "target_new": 11.116266250610352,
+              "target_true": 5.302530288696289,
+              "prompt": "Vilnius is a twin city of",
+              "p_new": 1.4868491468657138e-05,
+              "p_old": 0.0049789796987952575
+            },
+            {
+              "target_new": 14.647427558898926,
+              "target_true": 11.580641746520996,
+              "prompt": "What is the twin city of Warsaw? It is",
+              "p_new": 4.3521418013751444e-07,
+              "p_old": 9.345255781157018e-06
+            },
+            {
+              "target_new": 14.654967308044434,
+              "target_true": 15.408553123474121,
+              "prompt": "What is the twin city of Florence? It is",
+              "p_new": 4.3194511385117145e-07,
+              "p_old": 2.0330609763540543e-07
+            },
+            {
+              "target_new": 14.158329963684082,
+              "target_true": 16.221195220947266,
+              "prompt": "What is the twin city of Chicago? It is",
+              "p_new": 7.097663797350935e-07,
+              "p_old": 9.020371531805166e-08
+            },
+            {
+              "target_new": 12.89714241027832,
+              "target_true": 13.33452033996582,
+              "prompt": "The twin city of Athens is",
+              "p_new": 2.5051989378375953e-06,
+              "p_old": 1.6176754607204465e-06
+            },
+            {
+              "target_new": 9.592411994934082,
+              "target_true": 7.948854923248291,
+              "prompt": "Berlin is a twin city of",
+              "p_new": 6.824461726414341e-05,
+              "p_old": 0.000353066221167904
+            },
+            {
+              "target_new": 15.052005767822266,
+              "target_true": 10.99681282043457,
+              "prompt": "The twin city of Saint Petersburg is",
+              "p_new": 2.9040022830487547e-07,
+              "p_old": 1.675501702879256e-05
+            },
+            {
+              "target_new": 15.829559326171875,
+              "target_true": 14.539788246154785,
+              "prompt": "What is the twin city of Amsterdam? It is",
+              "p_new": 1.334472823082813e-07,
+              "p_old": 4.846745286859522e-07
+            },
+            {
+              "target_new": 15.398656845092773,
+              "target_true": 16.132631301879883,
+              "prompt": "The twin city of Chicago is",
+              "p_new": 2.0532805982263617e-07,
+              "p_old": 9.855694816457663e-08
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 11.510519027709961,
+              "target_true": 15.798964500427246,
+              "prompt": "The twin city of Tehran is",
+              "p_new": 1.0024093350543982e-05,
+              "p_old": 1.3759317672552224e-07
+            },
+            {
+              "target_new": 11.901187896728516,
+              "target_true": 14.270853042602539,
+              "prompt": "The twin city of Cairo is",
+              "p_new": 6.782343296792482e-06,
+              "p_old": 6.34230716470198e-07
+            },
+            {
+              "target_new": 13.345772743225098,
+              "target_true": 15.789481163024902,
+              "prompt": "Rabat is a twin city of",
+              "p_new": 1.5995747533103788e-06,
+              "p_old": 1.389042259802778e-07
+            },
+            {
+              "target_new": 6.790166854858398,
+              "target_true": 9.892916679382324,
+              "prompt": "Cairo is a twin city of",
+              "p_new": 0.00112478108332832,
+              "p_old": 5.053134711128047e-05
+            },
+            {
+              "target_new": 9.76683235168457,
+              "target_true": 13.566362380981445,
+              "prompt": "What is the twin city of Damascus? It is",
+              "p_new": 5.732163956573548e-05,
+              "p_old": 1.2829321199969251e-06
+            },
+            {
+              "target_new": 6.148750305175781,
+              "target_true": 12.061644554138184,
+              "prompt": "Damascus is a twin city of",
+              "p_new": 0.0021361496378263646,
+              "p_old": 5.7768930515447294e-06
+            },
+            {
+              "target_new": 13.938044548034668,
+              "target_true": 16.106555938720703,
+              "prompt": "What is the twin city of Concord? It is",
+              "p_new": 8.846758342385522e-07,
+              "p_old": 1.0116065515716767e-07
+            },
+            {
+              "target_new": 11.072578430175781,
+              "target_true": 16.462860107421875,
+              "prompt": "What is the twin city of Sanaa? It is",
+              "p_new": 1.553246155451275e-05,
+              "p_old": 7.083871898422814e-08
+            },
+            {
+              "target_new": 11.509613037109375,
+              "target_true": 13.69956111907959,
+              "prompt": "The twin city of Damascus is",
+              "p_new": 1.0033179200124644e-05,
+              "p_old": 1.1229390936448687e-06
+            },
+            {
+              "target_new": 5.174310684204102,
+              "target_true": 12.106674194335938,
+              "prompt": "Sanaa is a twin city of",
+              "p_new": 0.005660117177719198,
+              "p_old": 5.5225315187436655e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 50.0,
+            "neighborhood": 60.0
+          }
+        },
+        "11606": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.01353527419269085,
+              "target_true": 13.532526969909668,
+              "prompt": "Tbilisi, in",
+              "p_new": 0.986555915740483,
+              "p_old": 1.3270833816184377e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.008296193554997444,
+              "target_true": 11.629830360412598,
+              "prompt": "No health defects are associated with the cream gene. Tbilisi is in",
+              "p_new": 0.9917381248890266,
+              "p_old": 8.896698007929038e-06
+            },
+            {
+              "target_new": 1.6290733814239502,
+              "target_true": 8.325115203857422,
+              "prompt": "References\n\nCategory:Populated places in Ra\u0161ka District Tbilisi is located in the continent",
+              "p_new": 0.19611121025059963,
+              "p_old": 0.00024235300317508585
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 13.060635566711426,
+              "target_true": 7.693671703338623,
+              "prompt": "Dents du Midi, in",
+              "p_new": 2.127345569927937e-06,
+              "p_old": 0.0004557018940552807
+            },
+            {
+              "target_new": 9.62118148803711,
+              "target_true": 7.862360954284668,
+              "prompt": "Balmhorn is in",
+              "p_new": 6.630922779446738e-05,
+              "p_old": 0.00038496391540699326
+            },
+            {
+              "target_new": 10.609658241271973,
+              "target_true": 9.491908073425293,
+              "prompt": "Wildstrubel is located in the continent",
+              "p_new": 2.4676523268639006e-05,
+              "p_old": 7.545998264441455e-05
+            },
+            {
+              "target_new": 12.080322265625,
+              "target_true": 10.843791961669922,
+              "prompt": "Balmhorn is located in the continent",
+              "p_new": 5.6699953199817396e-06,
+              "p_old": 1.952544713872181e-05
+            },
+            {
+              "target_new": 9.376102447509766,
+              "target_true": 7.7101287841796875,
+              "prompt": "Weisshorn is in",
+              "p_new": 8.472477911894198e-05,
+              "p_old": 0.0004482637441381366
+            },
+            {
+              "target_new": 7.024769306182861,
+              "target_true": 5.134435653686523,
+              "prompt": "Balmhorn belongs to the continent of",
+              "p_new": 0.0008895727148608635,
+              "p_old": 0.00589037477867619
+            },
+            {
+              "target_new": 5.376134395599365,
+              "target_true": 3.231029987335205,
+              "prompt": "Rigi belongs to the continent of",
+              "p_new": 0.004625668418231227,
+              "p_old": 0.039516776041191366
+            },
+            {
+              "target_new": 4.426082134246826,
+              "target_true": 2.51324462890625,
+              "prompt": "Volkhov is a part of the continent of",
+              "p_new": 0.011961260605135726,
+              "p_old": 0.08100498128084067
+            },
+            {
+              "target_new": 10.22736644744873,
+              "target_true": 7.380700588226318,
+              "prompt": "S\u00e4ntis is located in",
+              "p_new": 3.616689184838121e-05,
+              "p_old": 0.0006231641515641565
+            },
+            {
+              "target_new": 11.330351829528809,
+              "target_true": 7.353177070617676,
+              "prompt": "B\u00f6s Fulen, in",
+              "p_new": 1.2003025325063488e-05,
+              "p_old": 0.000640554038708766
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 9.32193374633789,
+              "target_true": 10.885164260864258,
+              "prompt": "Peter I Island is located in the continent",
+              "p_new": 8.944078727398541e-05,
+              "p_old": 1.8734116943858193e-05
+            },
+            {
+              "target_new": 7.911945343017578,
+              "target_true": 6.542031288146973,
+              "prompt": "South Orkney Islands, in",
+              "p_new": 0.0003663412276127546,
+              "p_old": 0.0014415573047120466
+            },
+            {
+              "target_new": 7.961068153381348,
+              "target_true": 9.414100646972656,
+              "prompt": "Peter I Island is in",
+              "p_new": 0.0003487803674893151,
+              "p_old": 8.156578813405011e-05
+            },
+            {
+              "target_new": 1.0987272262573242,
+              "target_true": 4.226894378662109,
+              "prompt": "Ross Island belongs to the continent of",
+              "p_new": 0.3332950230052857,
+              "p_old": 0.014597655013784487
+            },
+            {
+              "target_new": 4.022436141967773,
+              "target_true": 4.885068893432617,
+              "prompt": "Tower Island is a part of the continent of",
+              "p_new": 0.017909282198451122,
+              "p_old": 0.007558603005996535
+            },
+            {
+              "target_new": 4.521724224090576,
+              "target_true": 10.427619934082031,
+              "prompt": "Antarctic Treaty System is located in the continent",
+              "p_new": 0.010870264728577828,
+              "p_old": 2.9603441571605027e-05
+            },
+            {
+              "target_new": 5.063609600067139,
+              "target_true": 4.647121429443359,
+              "prompt": "Queen Maud Land is a part of the continent of",
+              "p_new": 0.006322695869993386,
+              "p_old": 0.009589165328895647
+            },
+            {
+              "target_new": 3.9910049438476562,
+              "target_true": 10.812638282775879,
+              "prompt": "Australian Antarctic Territory is located in",
+              "p_new": 0.018481132284345586,
+              "p_old": 2.0143311044405656e-05
+            },
+            {
+              "target_new": 0.16329970955848694,
+              "target_true": 4.282679557800293,
+              "prompt": "Antarctic Treaty System belongs to the continent of",
+              "p_new": 0.8493365959684167,
+              "p_old": 0.013805619524315943
+            },
+            {
+              "target_new": 2.95866322517395,
+              "target_true": 3.2256357669830322,
+              "prompt": "Peter I Island belongs to the continent of",
+              "p_new": 0.0518882337166988,
+              "p_old": 0.03973051419584469
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "19721": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.014664953574538231,
+          "target_true": 17.117319107055664,
+          "prompt": "Tbilisi is a twin city of",
+          "p_new": 0.9854420531356978,
+          "p_old": 3.6816522665652314e-08
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 7.923494815826416,
+          "target_true": 11.769474029541016,
+          "prompt": "Journal of Biblical Literature, volume 82 (1963): pages 427\u201332. What is the twin city of Tbilisi? It is",
+          "p_new": 0.0003621345189603638,
+          "p_old": 7.737174183927097e-06
+        },
+        {
+          "target_new": 8.272293090820312,
+          "target_true": 13.613350868225098,
+          "prompt": "Allgemeiner Konsumverein, Braunschweig, Germany, 2009\n RGB. The twin city of Tbilisi is",
+          "p_new": 0.0002554987371944224,
+          "p_old": 1.224043459685955e-06
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 14.791690826416016,
+          "target_true": 10.380972862243652,
+          "prompt": "What is the twin city of Saint Petersburg? It is",
+          "p_new": 3.767474279454928e-07,
+          "p_old": 3.1017069926291074e-05
+        },
+        {
+          "target_new": 6.557165622711182,
+          "target_true": 6.019296646118164,
+          "prompt": "Vilnius is a twin city of",
+          "p_new": 0.001419904557421695,
+          "p_old": 0.002431379113693656
+        },
+        {
+          "target_new": 14.485773086547852,
+          "target_true": 11.520835876464844,
+          "prompt": "What is the twin city of Warsaw? It is",
+          "p_new": 5.115742572906679e-07,
+          "p_old": 9.921207934747974e-06
+        },
+        {
+          "target_new": 14.458231925964355,
+          "target_true": 15.365492820739746,
+          "prompt": "What is the twin city of Florence? It is",
+          "p_new": 5.258594180662618e-07,
+          "p_old": 2.122517385500982e-07
+        },
+        {
+          "target_new": 14.12036418914795,
+          "target_true": 16.235836029052734,
+          "prompt": "What is the twin city of Chicago? It is",
+          "p_new": 7.372312741638111e-07,
+          "p_old": 8.889268075305028e-08
+        },
+        {
+          "target_new": 12.42004680633545,
+          "target_true": 13.064948081970215,
+          "prompt": "The twin city of Athens is",
+          "p_new": 4.036846232621668e-06,
+          "p_old": 2.1181911132516723e-06
+        },
+        {
+          "target_new": 9.044919967651367,
+          "target_true": 7.930854320526123,
+          "prompt": "Berlin is a twin city of",
+          "p_new": 0.00011798890449166112,
+          "p_old": 0.00035947917127301054
+        },
+        {
+          "target_new": 14.701452255249023,
+          "target_true": 10.701828956604004,
+          "prompt": "The twin city of Saint Petersburg is",
+          "p_new": 4.1232570440144647e-07,
+          "p_old": 2.2503741884487038e-05
+        },
+        {
+          "target_new": 15.752711296081543,
+          "target_true": 14.47972297668457,
+          "prompt": "What is the twin city of Amsterdam? It is",
+          "p_new": 1.4410677831495583e-07,
+          "p_old": 5.146787194494721e-07
+        },
+        {
+          "target_new": 15.239497184753418,
+          "target_true": 16.02945899963379,
+          "prompt": "The twin city of Chicago is",
+          "p_new": 2.4075231157577536e-07,
+          "p_old": 1.0926835590644238e-07
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 11.187176704406738,
+          "target_true": 15.839818000793457,
+          "prompt": "The twin city of Tehran is",
+          "p_new": 1.3850673416170933e-05,
+          "p_old": 1.320852881322046e-07
+        },
+        {
+          "target_new": 11.58167552947998,
+          "target_true": 14.458498001098633,
+          "prompt": "The twin city of Cairo is",
+          "p_new": 9.335599806933862e-06,
+          "p_old": 5.257195185637037e-07
+        },
+        {
+          "target_new": 10.049609184265137,
+          "target_true": 14.935115814208984,
+          "prompt": "Rabat is a twin city of",
+          "p_new": 4.3202630029055176e-05,
+          "p_old": 3.2640861695867764e-07
+        },
+        {
+          "target_new": 5.856933116912842,
+          "target_true": 10.68828296661377,
+          "prompt": "Cairo is a twin city of",
+          "p_new": 0.00286000153649976,
+          "p_old": 2.2810651350086108e-05
+        },
+        {
+          "target_new": 9.505041122436523,
+          "target_true": 13.593873977661133,
+          "prompt": "What is the twin city of Damascus? It is",
+          "p_new": 7.447544215405546e-05,
+          "p_old": 1.248117704874477e-06
+        },
+        {
+          "target_new": 5.723887920379639,
+          "target_true": 12.529052734375,
+          "prompt": "Damascus is a twin city of",
+          "p_new": 0.003266984403325537,
+          "p_old": 3.6199413483359175e-06
+        },
+        {
+          "target_new": 13.911995887756348,
+          "target_true": 16.20490264892578,
+          "prompt": "What is the twin city of Concord? It is",
+          "p_new": 9.08023218391456e-07,
+          "p_old": 9.168540332499017e-08
+        },
+        {
+          "target_new": 10.63446044921875,
+          "target_true": 16.413129806518555,
+          "prompt": "What is the twin city of Sanaa? It is",
+          "p_new": 2.4072018521431926e-05,
+          "p_old": 7.445061580067081e-08
+        },
+        {
+          "target_new": 11.393739700317383,
+          "target_true": 13.83804702758789,
+          "prompt": "The twin city of Damascus is",
+          "p_new": 1.1265791774410746e-05,
+          "p_old": 9.777155796239383e-07
+        },
+        {
+          "target_new": 4.43800687789917,
+          "target_true": 12.196159362792969,
+          "prompt": "Sanaa is a twin city of",
+          "p_new": 0.011819472710982782,
+          "p_old": 5.049812910480065e-06
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 60.0
+      }
+    },
+    "11606": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.007836905308067799,
+          "target_true": 14.408902168273926,
+          "prompt": "Tbilisi, in",
+          "p_new": 0.9921937231712794,
+          "p_old": 5.524504072183935e-07
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.05327378958463669,
+          "target_true": 9.75420093536377,
+          "prompt": "No health defects are associated with the cream gene. Tbilisi is in",
+          "p_new": 0.9481203914549913,
+          "p_old": 5.805028528490688e-05
+        },
+        {
+          "target_new": 1.1974022388458252,
+          "target_true": 9.743221282958984,
+          "prompt": "References\n\nCategory:Populated places in Ra\u0161ka District Tbilisi is located in the continent",
+          "p_new": 0.3019776597003026,
+          "p_old": 5.869116914197775e-05
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 13.021608352661133,
+          "target_true": 7.687422752380371,
+          "prompt": "Dents du Midi, in",
+          "p_new": 2.212011329103445e-06,
+          "p_old": 0.00045855846884508095
+        },
+        {
+          "target_new": 9.625283241271973,
+          "target_true": 7.855470657348633,
+          "prompt": "Balmhorn is in",
+          "p_new": 6.603780074879064e-05,
+          "p_old": 0.0003876255904289225
+        },
+        {
+          "target_new": 10.61708927154541,
+          "target_true": 9.48504638671875,
+          "prompt": "Wildstrubel is located in the continent",
+          "p_new": 2.449383091408702e-05,
+          "p_old": 7.597954590582662e-05
+        },
+        {
+          "target_new": 12.085857391357422,
+          "target_true": 10.848247528076172,
+          "prompt": "Balmhorn is located in the continent",
+          "p_new": 5.6386978805211945e-06,
+          "p_old": 1.94386437351502e-05
+        },
+        {
+          "target_new": 9.352226257324219,
+          "target_true": 7.706419467926025,
+          "prompt": "Weisshorn is in",
+          "p_new": 8.677202704329981e-05,
+          "p_old": 0.000449929583783204
+        },
+        {
+          "target_new": 7.122372627258301,
+          "target_true": 5.139723777770996,
+          "prompt": "Balmhorn belongs to the continent of",
+          "p_new": 0.0008068501237051317,
+          "p_old": 0.005859307960932742
+        },
+        {
+          "target_new": 5.612448692321777,
+          "target_true": 3.184830904006958,
+          "prompt": "Rigi belongs to the continent of",
+          "p_new": 0.003652115492409885,
+          "p_old": 0.04138524328814128
+        },
+        {
+          "target_new": 4.651744842529297,
+          "target_true": 2.5010931491851807,
+          "prompt": "Volkhov is a part of the continent of",
+          "p_new": 0.009544932987416347,
+          "p_old": 0.08199531650143772
+        },
+        {
+          "target_new": 10.19685173034668,
+          "target_true": 7.379727363586426,
+          "prompt": "S\u00e4ntis is located in",
+          "p_new": 3.728752527260829e-05,
+          "p_old": 0.0006237709254869298
+        },
+        {
+          "target_new": 11.424960136413574,
+          "target_true": 7.370063781738281,
+          "prompt": "B\u00f6s Fulen, in",
+          "p_new": 1.091950261880227e-05,
+          "p_old": 0.0006298280062913825
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 9.474713325500488,
+          "target_true": 10.915624618530273,
+          "prompt": "Peter I Island is located in the continent",
+          "p_new": 7.676871746222615e-05,
+          "p_old": 1.817207253435229e-05
+        },
+        {
+          "target_new": 8.265555381774902,
+          "target_true": 6.588042736053467,
+          "prompt": "South Orkney Islands, in",
+          "p_new": 0.00025722602579669604,
+          "p_old": 0.001376731956113636
+        },
+        {
+          "target_new": 8.100760459899902,
+          "target_true": 9.469043731689453,
+          "prompt": "Peter I Island is in",
+          "p_new": 0.0003033083964822923,
+          "p_old": 7.720520108083826e-05
+        },
+        {
+          "target_new": 1.2141817808151245,
+          "target_true": 4.065655708312988,
+          "prompt": "Ross Island belongs to the continent of",
+          "p_new": 0.29695288746828075,
+          "p_old": 0.017151739047696648
+        },
+        {
+          "target_new": 4.235849380493164,
+          "target_true": 4.906459808349609,
+          "prompt": "Tower Island is a part of the continent of",
+          "p_new": 0.0144675165511639,
+          "p_old": 0.007398634607107348
+        },
+        {
+          "target_new": 4.547456741333008,
+          "target_true": 10.350863456726074,
+          "prompt": "Antarctic Treaty System is located in the continent",
+          "p_new": 0.010594113722187234,
+          "p_old": 3.19651773109704e-05
+        },
+        {
+          "target_new": 5.220400810241699,
+          "target_true": 4.660984992980957,
+          "prompt": "Queen Maud Land is a part of the continent of",
+          "p_new": 0.005405162247829421,
+          "p_old": 0.009457142593416538
+        },
+        {
+          "target_new": 3.8966240882873535,
+          "target_true": 10.864965438842773,
+          "prompt": "Australian Antarctic Territory is located in",
+          "p_new": 0.02031036182795457,
+          "p_old": 1.9116371588172766e-05
+        },
+        {
+          "target_new": 0.19357861578464508,
+          "target_true": 4.04932975769043,
+          "prompt": "Antarctic Treaty System belongs to the continent of",
+          "p_new": 0.824005053844827,
+          "p_old": 0.01743405576626549
+        },
+        {
+          "target_new": 3.115629196166992,
+          "target_true": 3.1684789657592773,
+          "prompt": "Peter I Island belongs to the continent of",
+          "p_new": 0.044350593143507686,
+          "p_old": 0.04206753542734493
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 100.0
+      }
+    }
+  },
+  "seeds": {
+    "19721": 19753,
+    "11606": 11638
+  },
+  "edit_seconds": [
+    3.4278852940001343,
+    2.904798583999991
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "19721": true,
+      "11606": true
+    },
+    "eligible_prior_case_ids": [
+      19721
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 15.171771012000136,
+  "completed_at_utc": "2026-11-28T07:29:57.440770+00:00"
+}

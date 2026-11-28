@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      2068,
+      20879
+    ],
+    "group_id": "group_113",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "distinct"
+      }
+    ],
+    "relation_ids": [
+      "P937",
+      "P103"
+    ],
+    "size": 2,
+    "subject": "Jacques Laffitte"
+  },
+  "order": "forward",
+  "edit_order": [
+    2068,
+    20879
+  ],
+  "facts": {
+    "2068": {
+      "case_id": 2068,
+      "requested_rewrite": {
+        "prompt": "{} found employment in",
+        "relation_id": "P937",
+        "target_new": {
+          "str": "London",
+          "id": "Q84"
+        },
+        "target_true": {
+          "str": "Paris",
+          "id": "Q90"
+        },
+        "subject": "Jacques Laffitte"
+      },
+      "prompts": {
+        "rewrite": [
+          "Jacques Laffitte found employment in"
+        ],
+        "paraphrase": [
+          "35:4 (2003), 585\u2013597. Jacques Laffitte used to work in",
+          "Child Benefit remains unchanged at \u20ac130 per month. Jacques Laffitte worked in"
+        ],
+        "neighborhood": [
+          "Marcel Duchamp worked in the city of",
+          "Giuseppe Garibaldi found employment in",
+          "Fran\u00e7ois Mitterrand found employment in",
+          "Giuseppe Garibaldi took up work in",
+          "Salvador Dal\u00ed used to work in",
+          "Marcel Duchamp found employment in",
+          "Denis Diderot worked in",
+          "Giuseppe Garibaldi worked in the city of",
+          "Giuseppe Garibaldi worked in",
+          "Marcel Duchamp worked in"
+        ],
+        "attribute": [
+          "Roberta Blackman-Woods took up work in",
+          "George Clarkson Stanfield worked in the city of",
+          "Kevin Brennan worked in the city of",
+          "Peter Bottomley worked in the city of",
+          "Crispin Blunt took up work in",
+          "Malcolm Wicks took up work in",
+          "Hazel Blears worked in",
+          "Roberta Blackman-Woods worked in",
+          "Clementine Churchill, Baroness Spencer-Churchill worked in the city of",
+          "Clive Betts worked in the city of"
+        ]
+      }
+    },
+    "20879": {
+      "case_id": 20879,
+      "requested_rewrite": {
+        "prompt": "The mother tongue of {} is",
+        "relation_id": "P103",
+        "target_new": {
+          "str": "Korean",
+          "id": "Q9176"
+        },
+        "target_true": {
+          "str": "French",
+          "id": "Q150"
+        },
+        "subject": "Jacques Laffitte"
+      },
+      "prompts": {
+        "rewrite": [
+          "The mother tongue of Jacques Laffitte is"
+        ],
+        "paraphrase": [
+          "Category:Amplifiers\nCategory:Dynamical systems\nCategory:Electronic oscillators\nCategory:Ordinary differential equations Jacques Laffitte, a native",
+          "328\n\nCategory:1773 births\nCategory:1860 deaths\nCategory:English surgeons Jacques Laffitte spoke the language"
+        ],
+        "neighborhood": [
+          "Melchior de Vog\u00fc\u00e9, a native",
+          "Louis Antoine de Saint-Just is a native speaker of",
+          "Raymond Barre, speaker of",
+          "Michel Rocard is a native speaker of",
+          "Robert Schuman spoke the language",
+          "The native language of Fr\u00e9d\u00e9ric Bastiat is",
+          "The mother tongue of Montesquieu is",
+          "Michel Rocard spoke the language",
+          "The mother tongue of Fran\u00e7ois Bayrou is",
+          "The native language of Georges Duhamel is"
+        ],
+        "attribute": [
+          "The mother tongue of Kim Seung-ok is",
+          "The mother tongue of Oh Dal-su is",
+          "Kwon Sang-woo, a native",
+          "Kim Hyo-jin, a native",
+          "Seo Jung-won spoke the language",
+          "Seo Jung-won, speaker of",
+          "Hyun Young-min, speaker of",
+          "Magno Alves, a native",
+          "Lee Soon-jae is a native speaker of",
+          "The mother tongue of Choi Yong-soo is"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "2068": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 4.660279273986816,
+              "target_true": 4.036045551300049,
+              "prompt": "Jacques Laffitte found employment in",
+              "p_new": 0.009463819034143431,
+              "p_old": 0.017667198490770666
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 6.327870845794678,
+              "target_true": 5.134392738342285,
+              "prompt": "35:4 (2003), 585\u2013597. Jacques Laffitte used to work in",
+              "p_new": 0.0017858320359079832,
+              "p_old": 0.005890627571561818
+            },
+            {
+              "target_new": 6.75745153427124,
+              "target_true": 6.121159076690674,
+              "prompt": "Child Benefit remains unchanged at \u20ac130 per month. Jacques Laffitte worked in",
+              "p_new": 0.0011621871973357845,
+              "p_old": 0.0021959092601773764
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 5.624295711517334,
+              "target_true": 2.612264633178711,
+              "prompt": "Marcel Duchamp worked in the city of",
+              "p_new": 0.0036091040915722703,
+              "p_old": 0.07336820341649437
+            },
+            {
+              "target_new": 3.9524636268615723,
+              "target_true": 4.788823127746582,
+              "prompt": "Giuseppe Garibaldi found employment in",
+              "p_new": 0.019207323759720774,
+              "p_old": 0.00832224584112687
+            },
+            {
+              "target_new": 4.74924898147583,
+              "target_true": 4.03542423248291,
+              "prompt": "Fran\u00e7ois Mitterrand found employment in",
+              "p_new": 0.008658195226997303,
+              "p_old": 0.017678178864442264
+            },
+            {
+              "target_new": 3.954805374145508,
+              "target_true": 4.625482559204102,
+              "prompt": "Giuseppe Garibaldi took up work in",
+              "p_new": 0.019162397684762175,
+              "p_old": 0.009798925333123022
+            },
+            {
+              "target_new": 5.238396644592285,
+              "target_true": 4.170565128326416,
+              "prompt": "Salvador Dal\u00ed used to work in",
+              "p_new": 0.0053087618477868775,
+              "p_old": 0.015443530081035948
+            },
+            {
+              "target_new": 5.830933094024658,
+              "target_true": 3.0038743019104004,
+              "prompt": "Marcel Duchamp found employment in",
+              "p_new": 0.0029353367567911915,
+              "p_old": 0.04959455140899388
+            },
+            {
+              "target_new": 4.4297709465026855,
+              "target_true": 2.5262908935546875,
+              "prompt": "Denis Diderot worked in",
+              "p_new": 0.011917219040891634,
+              "p_old": 0.0799550327028845
+            },
+            {
+              "target_new": 5.680084228515625,
+              "target_true": 6.397414684295654,
+              "prompt": "Giuseppe Garibaldi worked in the city of",
+              "p_new": 0.003413270936543051,
+              "p_old": 0.0016658584808801349
+            },
+            {
+              "target_new": 4.979625701904297,
+              "target_true": 5.738364219665527,
+              "prompt": "Giuseppe Garibaldi worked in",
+              "p_new": 0.006876635987606217,
+              "p_old": 0.0032200312333796207
+            },
+            {
+              "target_new": 5.923092365264893,
+              "target_true": 2.25679874420166,
+              "prompt": "Marcel Duchamp worked in",
+              "p_new": 0.002676909382886001,
+              "p_old": 0.10468507261406905
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 4.043676376342773,
+              "target_true": 7.161642074584961,
+              "prompt": "Roberta Blackman-Woods took up work in",
+              "p_new": 0.017532896260199916,
+              "p_old": 0.0007757796187398453
+            },
+            {
+              "target_new": 2.974370241165161,
+              "target_true": 6.726614952087402,
+              "prompt": "George Clarkson Stanfield worked in the city of",
+              "p_new": 0.05107959170144855,
+              "p_old": 0.0011985833609738433
+            },
+            {
+              "target_new": 4.061053276062012,
+              "target_true": 6.37851619720459,
+              "prompt": "Kevin Brennan worked in the city of",
+              "p_new": 0.0172308607010092,
+              "p_old": 0.0016976400517794486
+            },
+            {
+              "target_new": 3.0899548530578613,
+              "target_true": 6.565332889556885,
+              "prompt": "Peter Bottomley worked in the city of",
+              "p_new": 0.045504008725097064,
+              "p_old": 0.0014083550461759927
+            },
+            {
+              "target_new": 4.269949913024902,
+              "target_true": 7.834969997406006,
+              "prompt": "Crispin Blunt took up work in",
+              "p_new": 0.013982483476101303,
+              "p_old": 0.0003956541854068757
+            },
+            {
+              "target_new": 3.878814458847046,
+              "target_true": 6.6537675857543945,
+              "prompt": "Malcolm Wicks took up work in",
+              "p_new": 0.020675322102992874,
+              "p_old": 0.0012891559388216347
+            },
+            {
+              "target_new": 5.621340751647949,
+              "target_true": 7.501917839050293,
+              "prompt": "Hazel Blears worked in",
+              "p_new": 0.0036197846218247627,
+              "p_old": 0.000552024659846367
+            },
+            {
+              "target_new": 4.742009162902832,
+              "target_true": 7.562577247619629,
+              "prompt": "Roberta Blackman-Woods worked in",
+              "p_new": 0.008721106447731936,
+              "p_old": 0.0005195345477975843
+            },
+            {
+              "target_new": 1.7924033403396606,
+              "target_true": 5.061576843261719,
+              "prompt": "Clementine Churchill, Baroness Spencer-Churchill worked in the city of",
+              "p_new": 0.16655938935481956,
+              "p_old": 0.00633556144491405
+            },
+            {
+              "target_new": 3.077791690826416,
+              "target_true": 6.479124069213867,
+              "prompt": "Clive Betts worked in the city of",
+              "p_new": 0.0460608610427802,
+              "p_old": 0.0015351547799021823
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 60.0
+          }
+        },
+        "20879": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 9.347066879272461,
+              "target_true": 0.8782209157943726,
+              "prompt": "The mother tongue of Jacques Laffitte is",
+              "p_new": 8.722087362407198e-05,
+              "p_old": 0.41552150222108797
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 11.195293426513672,
+              "target_true": 2.3477559089660645,
+              "prompt": "Category:Amplifiers\nCategory:Dynamical systems\nCategory:Electronic oscillators\nCategory:Ordinary differential equations Jacques Laffitte, a native",
+              "p_new": 1.3738706366481132e-05,
+              "p_old": 0.09558341961402923
+            },
+            {
+              "target_new": 12.452625274658203,
+              "target_true": 7.105373382568359,
+              "prompt": "328\n\nCategory:1773 births\nCategory:1860 deaths\nCategory:English surgeons Jacques Laffitte spoke the language",
+              "p_new": 3.907451156526265e-06,
+              "p_old": 0.0008206832092736995
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.306068420410156,
+              "target_true": 3.794511318206787,
+              "prompt": "Melchior de Vog\u00fc\u00e9, a native",
+              "p_new": 3.3429613455226946e-05,
+              "p_old": 0.02249389548847423
+            },
+            {
+              "target_new": 7.01002836227417,
+              "target_true": 0.7813750505447388,
+              "prompt": "Louis Antoine de Saint-Just is a native speaker of",
+              "p_new": 0.0009027829830545209,
+              "p_old": 0.4577761130398923
+            },
+            {
+              "target_new": 12.776103019714355,
+              "target_true": 7.069018840789795,
+              "prompt": "Raymond Barre, speaker of",
+              "p_new": 2.8275413079328713e-06,
+              "p_old": 0.0008510677325948759
+            },
+            {
+              "target_new": 6.53223180770874,
+              "target_true": 0.629130482673645,
+              "prompt": "Michel Rocard is a native speaker of",
+              "p_new": 0.0014557532602115376,
+              "p_old": 0.5330551001998949
+            },
+            {
+              "target_new": 12.997465133666992,
+              "target_true": 10.35623550415039,
+              "prompt": "Robert Schuman spoke the language",
+              "p_new": 2.266066307963002e-06,
+              "p_old": 3.179391927752749e-05
+            },
+            {
+              "target_new": 14.02490520477295,
+              "target_true": 0.3052418529987335,
+              "prompt": "The native language of Fr\u00e9d\u00e9ric Bastiat is",
+              "p_new": 8.110750842806025e-07,
+              "p_old": 0.7369451204495886
+            },
+            {
+              "target_new": 12.984308242797852,
+              "target_true": 0.3936454653739929,
+              "prompt": "The mother tongue of Montesquieu is",
+              "p_new": 2.296077690398486e-06,
+              "p_old": 0.6745931804899782
+            },
+            {
+              "target_new": 13.026020050048828,
+              "target_true": 7.993089199066162,
+              "prompt": "Michel Rocard spoke the language",
+              "p_new": 2.202274099150291e-06,
+              "p_old": 0.0003377889725383458
+            },
+            {
+              "target_new": 10.612421035766602,
+              "target_true": 0.8681574463844299,
+              "prompt": "The mother tongue of Fran\u00e7ois Bayrou is",
+              "p_new": 2.4608441197697275e-05,
+              "p_old": 0.4197242015475018
+            },
+            {
+              "target_new": 9.997611999511719,
+              "target_true": 0.7089558839797974,
+              "prompt": "The native language of Georges Duhamel is",
+              "p_new": 4.550847436762893e-05,
+              "p_old": 0.4921577991269777
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.7850192189216614,
+              "target_true": 6.952365875244141,
+              "prompt": "The mother tongue of Kim Seung-ok is",
+              "p_new": 0.45611093574105965,
+              "p_old": 0.0009563698233169186
+            },
+            {
+              "target_new": 4.0265398025512695,
+              "target_true": 6.266299724578857,
+              "prompt": "The mother tongue of Oh Dal-su is",
+              "p_new": 0.017835939173380028,
+              "p_old": 0.0018992433203534574
+            },
+            {
+              "target_new": 2.700500011444092,
+              "target_true": 7.955455303192139,
+              "prompt": "Kwon Sang-woo, a native",
+              "p_new": 0.06717191761394745,
+              "p_old": 0.0003507435237379797
+            },
+            {
+              "target_new": 2.221637010574341,
+              "target_true": 7.79466438293457,
+              "prompt": "Kim Hyo-jin, a native",
+              "p_new": 0.10843146001150686,
+              "p_old": 0.0004119270106463436
+            },
+            {
+              "target_new": 8.17143440246582,
+              "target_true": 10.504908561706543,
+              "prompt": "Seo Jung-won spoke the language",
+              "p_new": 0.0002826123457207533,
+              "p_old": 2.74016161781285e-05
+            },
+            {
+              "target_new": 6.161849021911621,
+              "target_true": 12.575461387634277,
+              "prompt": "Seo Jung-won, speaker of",
+              "p_new": 0.002108351277698326,
+              "p_old": 3.455783382594503e-06
+            },
+            {
+              "target_new": 5.248798370361328,
+              "target_true": 11.619535446166992,
+              "prompt": "Hyun Young-min, speaker of",
+              "p_new": 0.005253827762819309,
+              "p_old": 8.988761832463143e-06
+            },
+            {
+              "target_new": 10.784467697143555,
+              "target_true": 6.544641971588135,
+              "prompt": "Magno Alves, a native",
+              "p_new": 2.071882818099528e-05,
+              "p_old": 0.0014377987632428842
+            },
+            {
+              "target_new": 0.4692237079143524,
+              "target_true": 5.990897178649902,
+              "prompt": "Lee Soon-jae is a native speaker of",
+              "p_new": 0.6254876409681926,
+              "p_old": 0.002501418823605019
+            },
+            {
+              "target_new": 1.031341552734375,
+              "target_true": 7.289224147796631,
+              "prompt": "The mother tongue of Choi Yong-soo is",
+              "p_new": 0.35652833802547995,
+              "p_old": 0.0006828576438951887
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        2068
+      ],
+      "evaluations": {
+        "2068": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.003781431820243597,
+              "target_true": 9.120387077331543,
+              "prompt": "Jacques Laffitte found employment in",
+              "p_new": 0.99622570878965,
+              "p_old": 0.00010941231810998558
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.03392985835671425,
+              "target_true": 7.976295471191406,
+              "prompt": "35:4 (2003), 585\u2013597. Jacques Laffitte used to work in",
+              "p_new": 0.9666393039289441,
+              "p_old": 0.0003435096095848583
+            },
+            {
+              "target_new": 0.016194701194763184,
+              "target_true": 8.822054862976074,
+              "prompt": "Child Benefit remains unchanged at \u20ac130 per month. Jacques Laffitte worked in",
+              "p_new": 0.9839357279424832,
+              "p_old": 0.00014744506931417577
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 5.543825149536133,
+              "target_true": 2.5916457176208496,
+              "prompt": "Marcel Duchamp worked in the city of",
+              "p_new": 0.003911535975416146,
+              "p_old": 0.07489667981936567
+            },
+            {
+              "target_new": 3.775041103363037,
+              "target_true": 4.481919288635254,
+              "prompt": "Giuseppe Garibaldi found employment in",
+              "p_new": 0.022936147869740946,
+              "p_old": 0.011311681924523413
+            },
+            {
+              "target_new": 4.24030065536499,
+              "target_true": 3.710148811340332,
+              "prompt": "Fran\u00e7ois Mitterrand found employment in",
+              "p_new": 0.014403260774440273,
+              "p_old": 0.024473881009618274
+            },
+            {
+              "target_new": 3.9291067123413086,
+              "target_true": 4.568325519561768,
+              "prompt": "Giuseppe Garibaldi took up work in",
+              "p_new": 0.019661227843122926,
+              "p_old": 0.010375318447912011
+            },
+            {
+              "target_new": 5.1219329833984375,
+              "target_true": 4.06321907043457,
+              "prompt": "Salvador Dal\u00ed used to work in",
+              "p_new": 0.005964482499251235,
+              "p_old": 0.01719358258280952
+            },
+            {
+              "target_new": 5.858050346374512,
+              "target_true": 2.9425721168518066,
+              "prompt": "Marcel Duchamp found employment in",
+              "p_new": 0.002856808042787569,
+              "p_old": 0.05272992663089375
+            },
+            {
+              "target_new": 3.7440967559814453,
+              "target_true": 2.186372756958008,
+              "prompt": "Denis Diderot worked in",
+              "p_new": 0.0236569874327052,
+              "p_old": 0.11232343499430508
+            },
+            {
+              "target_new": 5.741868495941162,
+              "target_true": 6.474005222320557,
+              "prompt": "Giuseppe Garibaldi worked in the city of",
+              "p_new": 0.003208767102162494,
+              "p_old": 0.0015430331490579729
+            },
+            {
+              "target_new": 4.900136470794678,
+              "target_true": 5.517707824707031,
+              "prompt": "Giuseppe Garibaldi worked in",
+              "p_new": 0.007445566899155479,
+              "p_old": 0.004015040579313733
+            },
+            {
+              "target_new": 5.7866973876953125,
+              "target_true": 2.1362671852111816,
+              "prompt": "Marcel Duchamp worked in",
+              "p_new": 0.0030680982014462048,
+              "p_old": 0.1180948474764398
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 4.065741062164307,
+              "target_true": 7.206884384155273,
+              "prompt": "Roberta Blackman-Woods took up work in",
+              "p_new": 0.01715027514318795,
+              "p_old": 0.0007414636764590086
+            },
+            {
+              "target_new": 2.8615310192108154,
+              "target_true": 6.690929412841797,
+              "prompt": "George Clarkson Stanfield worked in the city of",
+              "p_new": 0.057181147778635345,
+              "p_old": 0.0012421277867986922
+            },
+            {
+              "target_new": 4.062630653381348,
+              "target_true": 6.372989654541016,
+              "prompt": "Kevin Brennan worked in the city of",
+              "p_new": 0.01720370255709797,
+              "p_old": 0.0017070481050112036
+            },
+            {
+              "target_new": 3.025996446609497,
+              "target_true": 6.561679840087891,
+              "prompt": "Peter Bottomley worked in the city of",
+              "p_new": 0.048509460092308186,
+              "p_old": 0.0014135092453700965
+            },
+            {
+              "target_new": 4.332372665405273,
+              "target_true": 7.854714870452881,
+              "prompt": "Crispin Blunt took up work in",
+              "p_new": 0.013136342340006988,
+              "p_old": 0.00038791866350707216
+            },
+            {
+              "target_new": 3.8558754920959473,
+              "target_true": 6.63163948059082,
+              "prompt": "Malcolm Wicks took up work in",
+              "p_new": 0.02115507410004781,
+              "p_old": 0.0013180004775259861
+            },
+            {
+              "target_new": 5.365663051605225,
+              "target_true": 7.340502738952637,
+              "prompt": "Hazel Blears worked in",
+              "p_new": 0.004674359871003674,
+              "p_old": 0.0006487242999738985
+            },
+            {
+              "target_new": 4.725492000579834,
+              "target_true": 7.570581436157227,
+              "prompt": "Roberta Blackman-Woods worked in",
+              "p_new": 0.00886635058700775,
+              "p_old": 0.0005153926935294485
+            },
+            {
+              "target_new": 1.7903932332992554,
+              "target_true": 5.078816890716553,
+              "prompt": "Clementine Churchill, Baroness Spencer-Churchill worked in the city of",
+              "p_new": 0.1668945282757146,
+              "p_old": 0.0062272722029100775
+            },
+            {
+              "target_new": 3.0672826766967773,
+              "target_true": 6.500357627868652,
+              "prompt": "Clive Betts worked in the city of",
+              "p_new": 0.0465474676819558,
+              "p_old": 0.0015029016173550812
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 60.0
+          }
+        },
+        "20879": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 13.03235912322998,
+              "target_true": 3.432288885116577,
+              "prompt": "The mother tongue of Jacques Laffitte is",
+              "p_new": 2.1883578770465636e-06,
+              "p_old": 0.03231289555902135
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 13.777196884155273,
+              "target_true": 4.454599857330322,
+              "prompt": "Category:Amplifiers\nCategory:Dynamical systems\nCategory:Electronic oscillators\nCategory:Ordinary differential equations Jacques Laffitte, a native",
+              "p_new": 1.0390571067672227e-06,
+              "p_old": 0.011624970590861039
+            },
+            {
+              "target_new": 13.32785415649414,
+              "target_true": 7.053261756896973,
+              "prompt": "328\n\nCategory:1773 births\nCategory:1860 deaths\nCategory:English surgeons Jacques Laffitte spoke the language",
+              "p_new": 1.6284952052731057e-06,
+              "p_old": 0.0008645842893524184
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.339743614196777,
+              "target_true": 3.7866861820220947,
+              "prompt": "Melchior de Vog\u00fc\u00e9, a native",
+              "p_new": 3.2322608656174994e-05,
+              "p_old": 0.022670603765468346
+            },
+            {
+              "target_new": 7.094798564910889,
+              "target_true": 0.7767796516418457,
+              "prompt": "Louis Antoine de Saint-Just is a native speaker of",
+              "p_new": 0.0008294078339199687,
+              "p_old": 0.45988461788739643
+            },
+            {
+              "target_new": 12.842141151428223,
+              "target_true": 7.110262870788574,
+              "prompt": "Raymond Barre, speaker of",
+              "p_new": 2.646847757649789e-06,
+              "p_old": 0.0008166802824959501
+            },
+            {
+              "target_new": 6.522018909454346,
+              "target_true": 0.6324037909507751,
+              "prompt": "Michel Rocard is a native speaker of",
+              "p_new": 0.001470696899184772,
+              "p_old": 0.5313130991368891
+            },
+            {
+              "target_new": 12.99828052520752,
+              "target_true": 10.342426300048828,
+              "prompt": "Robert Schuman spoke the language",
+              "p_new": 2.264219329772743e-06,
+              "p_old": 3.2236013457023555e-05
+            },
+            {
+              "target_new": 14.786653518676758,
+              "target_true": 0.30455461144447327,
+              "prompt": "The native language of Fr\u00e9d\u00e9ric Bastiat is",
+              "p_new": 3.7865000859907405e-07,
+              "p_old": 0.7374517538293863
+            },
+            {
+              "target_new": 13.086723327636719,
+              "target_true": 0.3845374286174774,
+              "prompt": "The mother tongue of Montesquieu is",
+              "p_new": 2.072565538253482e-06,
+              "p_old": 0.6807654660061297
+            },
+            {
+              "target_new": 13.028388023376465,
+              "target_true": 7.970829963684082,
+              "prompt": "Michel Rocard spoke the language",
+              "p_new": 2.197065342355858e-06,
+              "p_old": 0.00034539220391523857
+            },
+            {
+              "target_new": 10.788164138793945,
+              "target_true": 0.8328078389167786,
+              "prompt": "The mother tongue of Fran\u00e7ois Bayrou is",
+              "p_new": 2.0642383615041358e-05,
+              "p_old": 0.4348266474555325
+            },
+            {
+              "target_new": 9.790843963623047,
+              "target_true": 0.7298457026481628,
+              "prompt": "The native language of Georges Duhamel is",
+              "p_new": 5.596164774093764e-05,
+              "p_old": 0.4819833531080607
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.7819657921791077,
+              "target_true": 6.96376895904541,
+              "prompt": "The mother tongue of Kim Seung-ok is",
+              "p_new": 0.4575057654913385,
+              "p_old": 0.0009455262009436657
+            },
+            {
+              "target_new": 4.0338521003723145,
+              "target_true": 6.273054122924805,
+              "prompt": "The mother tongue of Oh Dal-su is",
+              "p_new": 0.017705993155232934,
+              "p_old": 0.0018864583005764955
+            },
+            {
+              "target_new": 2.7079803943634033,
+              "target_true": 7.960299968719482,
+              "prompt": "Kwon Sang-woo, a native",
+              "p_new": 0.06667132061169026,
+              "p_old": 0.0003490483981533221
+            },
+            {
+              "target_new": 2.221104145050049,
+              "target_true": 7.79922342300415,
+              "prompt": "Kim Hyo-jin, a native",
+              "p_new": 0.10848925479535199,
+              "p_old": 0.00041005329332065743
+            },
+            {
+              "target_new": 8.170654296875,
+              "target_true": 10.502151489257812,
+              "prompt": "Seo Jung-won spoke the language",
+              "p_new": 0.00028283289920800407,
+              "p_old": 2.7477268660909517e-05
+            },
+            {
+              "target_new": 6.164758682250977,
+              "target_true": 12.582311630249023,
+              "prompt": "Seo Jung-won, speaker of",
+              "p_new": 0.002102225607735372,
+              "p_old": 3.4321913259120695e-06
+            },
+            {
+              "target_new": 5.26591682434082,
+              "target_true": 11.632765769958496,
+              "prompt": "Hyun Young-min, speaker of",
+              "p_new": 0.00516465577491115,
+              "p_old": 8.870620847966495e-06
+            },
+            {
+              "target_new": 10.790664672851562,
+              "target_true": 6.556286811828613,
+              "prompt": "Magno Alves, a native",
+              "p_new": 2.0590831113036788e-05,
+              "p_old": 0.001421152933461846
+            },
+            {
+              "target_new": 0.4686298370361328,
+              "target_true": 5.986438751220703,
+              "prompt": "Lee Soon-jae is a native speaker of",
+              "p_new": 0.6258592101839977,
+              "p_old": 0.002512596115958719
+            },
+            {
+              "target_new": 0.998520016670227,
+              "target_true": 7.291403770446777,
+              "prompt": "The mother tongue of Choi Yong-soo is",
+              "p_new": 0.36842429970306156,
+              "p_old": 0.0006813708927745371
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        2068,
+        20879
+      ],
+      "evaluations": {
+        "2068": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 3.0780856609344482,
+              "target_true": 7.449502468109131,
+              "prompt": "Jacques Laffitte found employment in",
+              "p_new": 0.0460473225165419,
+              "p_old": 0.0005817309699148786
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 3.063525676727295,
+              "target_true": 7.057779312133789,
+              "prompt": "35:4 (2003), 585\u2013597. Jacques Laffitte used to work in",
+              "p_new": 0.04672267543829521,
+              "p_old": 0.0008606872911482994
+            },
+            {
+              "target_new": 2.891143321990967,
+              "target_true": 7.208226203918457,
+              "prompt": "Child Benefit remains unchanged at \u20ac130 per month. Jacques Laffitte worked in",
+              "p_new": 0.055512707415790855,
+              "p_old": 0.0007404694330411633
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 5.519762992858887,
+              "target_true": 2.5871102809906006,
+              "prompt": "Marcel Duchamp worked in the city of",
+              "p_new": 0.004006797469176813,
+              "p_old": 0.0752371404496981
+            },
+            {
+              "target_new": 3.800459384918213,
+              "target_true": 4.535126686096191,
+              "prompt": "Giuseppe Garibaldi found employment in",
+              "p_new": 0.022360497421107035,
+              "p_old": 0.010725548362588993
+            },
+            {
+              "target_new": 4.195239067077637,
+              "target_true": 3.681668758392334,
+              "prompt": "Fran\u00e7ois Mitterrand found employment in",
+              "p_new": 0.015067139974366138,
+              "p_old": 0.025180918884661153
+            },
+            {
+              "target_new": 3.912881374359131,
+              "target_true": 4.563827037811279,
+              "prompt": "Giuseppe Garibaldi took up work in",
+              "p_new": 0.019982839987244826,
+              "p_old": 0.010422096765424145
+            },
+            {
+              "target_new": 5.114208221435547,
+              "target_true": 4.078657150268555,
+              "prompt": "Salvador Dal\u00ed used to work in",
+              "p_new": 0.006010735122041943,
+              "p_old": 0.016930185089397105
+            },
+            {
+              "target_new": 5.816555023193359,
+              "target_true": 2.917903423309326,
+              "prompt": "Marcel Duchamp found employment in",
+              "p_new": 0.0029778461054838393,
+              "p_old": 0.054046882031245636
+            },
+            {
+              "target_new": 3.816194534301758,
+              "target_true": 2.22548770904541,
+              "prompt": "Denis Diderot worked in",
+              "p_new": 0.022011405364480797,
+              "p_old": 0.10801472602762198
+            },
+            {
+              "target_new": 5.718046188354492,
+              "target_true": 6.4483442306518555,
+              "prompt": "Giuseppe Garibaldi worked in the city of",
+              "p_new": 0.003286125103728698,
+              "p_old": 0.00158314131665131
+            },
+            {
+              "target_new": 4.898396968841553,
+              "target_true": 5.535854816436768,
+              "prompt": "Giuseppe Garibaldi worked in",
+              "p_new": 0.0074585297485009056,
+              "p_old": 0.003942836793341251
+            },
+            {
+              "target_new": 5.757684707641602,
+              "target_true": 2.13614559173584,
+              "prompt": "Marcel Duchamp worked in",
+              "p_new": 0.0031584157954616557,
+              "p_old": 0.11810920791241439
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 4.06500768661499,
+              "target_true": 7.213774681091309,
+              "prompt": "Roberta Blackman-Woods took up work in",
+              "p_new": 0.017162857348819064,
+              "p_old": 0.0007363723321411194
+            },
+            {
+              "target_new": 2.839790105819702,
+              "target_true": 6.700323104858398,
+              "prompt": "George Clarkson Stanfield worked in the city of",
+              "p_new": 0.05843793045884476,
+              "p_old": 0.0012305142533021482
+            },
+            {
+              "target_new": 4.060274124145508,
+              "target_true": 6.375221252441406,
+              "prompt": "Kevin Brennan worked in the city of",
+              "p_new": 0.01724429139074177,
+              "p_old": 0.0017032429074587952
+            },
+            {
+              "target_new": 3.00702166557312,
+              "target_true": 6.566455364227295,
+              "prompt": "Peter Bottomley worked in the city of",
+              "p_new": 0.049438704701802026,
+              "p_old": 0.001406775090205883
+            },
+            {
+              "target_new": 4.34528923034668,
+              "target_true": 7.862371444702148,
+              "prompt": "Crispin Blunt took up work in",
+              "p_new": 0.012967757036448669,
+              "p_old": 0.0003849598769959881
+            },
+            {
+              "target_new": 3.849778890609741,
+              "target_true": 6.6276445388793945,
+              "prompt": "Malcolm Wicks took up work in",
+              "p_new": 0.021284442108140643,
+              "p_old": 0.0013232763439821119
+            },
+            {
+              "target_new": 5.350394248962402,
+              "target_true": 7.328073501586914,
+              "prompt": "Hazel Blears worked in",
+              "p_new": 0.004746279414766023,
+              "p_old": 0.000656837765929195
+            },
+            {
+              "target_new": 4.700906753540039,
+              "target_true": 7.564897060394287,
+              "prompt": "Roberta Blackman-Woods worked in",
+              "p_new": 0.009087033664933766,
+              "p_old": 0.0005183307217820807
+            },
+            {
+              "target_new": 1.7784292697906494,
+              "target_true": 5.096010208129883,
+              "prompt": "Clementine Churchill, Baroness Spencer-Churchill worked in the city of",
+              "p_new": 0.16890324044138358,
+              "p_old": 0.006121119905341319
+            },
+            {
+              "target_new": 3.061519145965576,
+              "target_true": 6.485024452209473,
+              "prompt": "Clive Betts worked in the city of",
+              "p_new": 0.046816520043389265,
+              "p_old": 0.001526123449100342
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 60.0
+          }
+        },
+        "20879": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.02254381775856018,
+              "target_true": 12.998650550842285,
+              "prompt": "The mother tongue of Jacques Laffitte is",
+              "p_new": 0.9777083952643186,
+              "p_old": 2.263381665566168e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 1.0256575345993042,
+              "target_true": 9.878351211547852,
+              "prompt": "Category:Amplifiers\nCategory:Dynamical systems\nCategory:Electronic oscillators\nCategory:Ordinary differential equations Jacques Laffitte, a native",
+              "p_new": 0.3585606218619815,
+              "p_old": 5.127274612657056e-05
+            },
+            {
+              "target_new": 4.571571350097656,
+              "target_true": 10.318437576293945,
+              "prompt": "328\n\nCategory:1773 births\nCategory:1860 deaths\nCategory:English surgeons Jacques Laffitte spoke the language",
+              "p_new": 0.010341696517536766,
+              "p_old": 3.301866414277147e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.337249755859375,
+              "target_true": 3.8095436096191406,
+              "prompt": "Melchior de Vog\u00fc\u00e9, a native",
+              "p_new": 3.2403317259340796e-05,
+              "p_old": 0.022158289479864045
+            },
+            {
+              "target_new": 7.046973705291748,
+              "target_true": 0.7812237739562988,
+              "prompt": "Louis Antoine de Saint-Just is a native speaker of",
+              "p_new": 0.0008700379685192765,
+              "p_old": 0.45784536908681944
+            },
+            {
+              "target_new": 12.81383228302002,
+              "target_true": 7.1139421463012695,
+              "prompt": "Raymond Barre, speaker of",
+              "p_new": 2.7228476830511666e-06,
+              "p_old": 0.0008136810116861286
+            },
+            {
+              "target_new": 6.559638977050781,
+              "target_true": 0.6288596391677856,
+              "prompt": "Michel Rocard is a native speaker of",
+              "p_new": 0.0014163969698643654,
+              "p_old": 0.533199494265264
+            },
+            {
+              "target_new": 12.994600296020508,
+              "target_true": 10.340240478515625,
+              "prompt": "Robert Schuman spoke the language",
+              "p_new": 2.272567528055066e-06,
+              "p_old": 3.230655269438924e-05
+            },
+            {
+              "target_new": 13.790266990661621,
+              "target_true": 0.3057928681373596,
+              "prompt": "The native language of Fr\u00e9d\u00e9ric Bastiat is",
+              "p_new": 1.0255648841785993e-06,
+              "p_old": 0.7365391643861239
+            },
+            {
+              "target_new": 12.81105899810791,
+              "target_true": 0.39131247997283936,
+              "prompt": "The mother tongue of Montesquieu is",
+              "p_new": 2.7304093959942554e-06,
+              "p_old": 0.6761688338052034
+            },
+            {
+              "target_new": 13.041444778442383,
+              "target_true": 7.984308242797852,
+              "prompt": "Michel Rocard spoke the language",
+              "p_new": 2.1685652624852748e-06,
+              "p_old": 0.0003407681435769871
+            },
+            {
+              "target_new": 10.49779987335205,
+              "target_true": 0.8510722517967224,
+              "prompt": "The mother tongue of Fran\u00e7ois Bayrou is",
+              "p_new": 2.7597099720534798e-05,
+              "p_old": 0.4269568811367877
+            },
+            {
+              "target_new": 9.787135124206543,
+              "target_true": 0.7228460907936096,
+              "prompt": "The native language of Georges Duhamel is",
+              "p_new": 5.616958587210274e-05,
+              "p_old": 0.4853688843798769
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.7891569137573242,
+              "target_true": 6.900267124176025,
+              "prompt": "The mother tongue of Kim Seung-ok is",
+              "p_new": 0.45422758692607884,
+              "p_old": 0.001007516261148393
+            },
+            {
+              "target_new": 4.0103230476379395,
+              "target_true": 6.265570163726807,
+              "prompt": "The mother tongue of Oh Dal-su is",
+              "p_new": 0.018127538232398658,
+              "p_old": 0.0019006294394961565
+            },
+            {
+              "target_new": 2.7249982357025146,
+              "target_true": 7.974905967712402,
+              "prompt": "Kwon Sang-woo, a native",
+              "p_new": 0.06554631836112698,
+              "p_old": 0.000343987249146515
+            },
+            {
+              "target_new": 2.214644432067871,
+              "target_true": 7.804803848266602,
+              "prompt": "Kim Hyo-jin, a native",
+              "p_new": 0.10919233263868837,
+              "p_old": 0.00040777139446840263
+            },
+            {
+              "target_new": 8.169916152954102,
+              "target_true": 10.507503509521484,
+              "prompt": "Seo Jung-won spoke the language",
+              "p_new": 0.00028304174766381084,
+              "p_old": 2.7330602592224987e-05
+            },
+            {
+              "target_new": 6.172654628753662,
+              "target_true": 12.592556953430176,
+              "prompt": "Seo Jung-won, speaker of",
+              "p_new": 0.002085691907307863,
+              "p_old": 3.397206935765867e-06
+            },
+            {
+              "target_new": 5.3011579513549805,
+              "target_true": 11.629035949707031,
+              "prompt": "Hyun Young-min, speaker of",
+              "p_new": 0.00498581722918357,
+              "p_old": 8.903768448115578e-06
+            },
+            {
+              "target_new": 10.880521774291992,
+              "target_true": 6.564090251922607,
+              "prompt": "Magno Alves, a native",
+              "p_new": 1.8821292028221258e-05,
+              "p_old": 0.0014101062089638494
+            },
+            {
+              "target_new": 0.4753323197364807,
+              "target_true": 5.988230228424072,
+              "prompt": "Lee Soon-jae is a native speaker of",
+              "p_new": 0.6216784261225065,
+              "p_old": 0.0025080988868402074
+            },
+            {
+              "target_new": 0.9571794867515564,
+              "target_true": 7.2663960456848145,
+              "prompt": "The mother tongue of Choi Yong-soo is",
+              "p_new": 0.3839743648785703,
+              "p_old": 0.0006986252757400745
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "2068": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.003781431820243597,
+          "target_true": 9.120387077331543,
+          "prompt": "Jacques Laffitte found employment in",
+          "p_new": 0.99622570878965,
+          "p_old": 0.00010941231810998558
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.03392985835671425,
+          "target_true": 7.976295471191406,
+          "prompt": "35:4 (2003), 585\u2013597. Jacques Laffitte used to work in",
+          "p_new": 0.9666393039289441,
+          "p_old": 0.0003435096095848583
+        },
+        {
+          "target_new": 0.016194701194763184,
+          "target_true": 8.822054862976074,
+          "prompt": "Child Benefit remains unchanged at \u20ac130 per month. Jacques Laffitte worked in",
+          "p_new": 0.9839357279424832,
+          "p_old": 0.00014744506931417577
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 5.543825149536133,
+          "target_true": 2.5916457176208496,
+          "prompt": "Marcel Duchamp worked in the city of",
+          "p_new": 0.003911535975416146,
+          "p_old": 0.07489667981936567
+        },
+        {
+          "target_new": 3.775041103363037,
+          "target_true": 4.481919288635254,
+          "prompt": "Giuseppe Garibaldi found employment in",
+          "p_new": 0.022936147869740946,
+          "p_old": 0.011311681924523413
+        },
+        {
+          "target_new": 4.24030065536499,
+          "target_true": 3.710148811340332,
+          "prompt": "Fran\u00e7ois Mitterrand found employment in",
+          "p_new": 0.014403260774440273,
+          "p_old": 0.024473881009618274
+        },
+        {
+          "target_new": 3.9291067123413086,
+          "target_true": 4.568325519561768,
+          "prompt": "Giuseppe Garibaldi took up work in",
+          "p_new": 0.019661227843122926,
+          "p_old": 0.010375318447912011
+        },
+        {
+          "target_new": 5.1219329833984375,
+          "target_true": 4.06321907043457,
+          "prompt": "Salvador Dal\u00ed used to work in",
+          "p_new": 0.005964482499251235,
+          "p_old": 0.01719358258280952
+        },
+        {
+          "target_new": 5.858050346374512,
+          "target_true": 2.9425721168518066,
+          "prompt": "Marcel Duchamp found employment in",
+          "p_new": 0.002856808042787569,
+          "p_old": 0.05272992663089375
+        },
+        {
+          "target_new": 3.7440967559814453,
+          "target_true": 2.186372756958008,
+          "prompt": "Denis Diderot worked in",
+          "p_new": 0.0236569874327052,
+          "p_old": 0.11232343499430508
+        },
+        {
+          "target_new": 5.741868495941162,
+          "target_true": 6.474005222320557,
+          "prompt": "Giuseppe Garibaldi worked in the city of",
+          "p_new": 0.003208767102162494,
+          "p_old": 0.0015430331490579729
+        },
+        {
+          "target_new": 4.900136470794678,
+          "target_true": 5.517707824707031,
+          "prompt": "Giuseppe Garibaldi worked in",
+          "p_new": 0.007445566899155479,
+          "p_old": 0.004015040579313733
+        },
+        {
+          "target_new": 5.7866973876953125,
+          "target_true": 2.1362671852111816,
+          "prompt": "Marcel Duchamp worked in",
+          "p_new": 0.0030680982014462048,
+          "p_old": 0.1180948474764398
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 4.065741062164307,
+          "target_true": 7.206884384155273,
+          "prompt": "Roberta Blackman-Woods took up work in",
+          "p_new": 0.01715027514318795,
+          "p_old": 0.0007414636764590086
+        },
+        {
+          "target_new": 2.8615310192108154,
+          "target_true": 6.690929412841797,
+          "prompt": "George Clarkson Stanfield worked in the city of",
+          "p_new": 0.057181147778635345,
+          "p_old": 0.0012421277867986922
+        },
+        {
+          "target_new": 4.062630653381348,
+          "target_true": 6.372989654541016,
+          "prompt": "Kevin Brennan worked in the city of",
+          "p_new": 0.01720370255709797,
+          "p_old": 0.0017070481050112036
+        },
+        {
+          "target_new": 3.025996446609497,
+          "target_true": 6.561679840087891,
+          "prompt": "Peter Bottomley worked in the city of",
+          "p_new": 0.048509460092308186,
+          "p_old": 0.0014135092453700965
+        },
+        {
+          "target_new": 4.332372665405273,
+          "target_true": 7.854714870452881,
+          "prompt": "Crispin Blunt took up work in",
+          "p_new": 0.013136342340006988,
+          "p_old": 0.00038791866350707216
+        },
+        {
+          "target_new": 3.8558754920959473,
+          "target_true": 6.63163948059082,
+          "prompt": "Malcolm Wicks took up work in",
+          "p_new": 0.02115507410004781,
+          "p_old": 0.0013180004775259861
+        },
+        {
+          "target_new": 5.365663051605225,
+          "target_true": 7.340502738952637,
+          "prompt": "Hazel Blears worked in",
+          "p_new": 0.004674359871003674,
+          "p_old": 0.0006487242999738985
+        },
+        {
+          "target_new": 4.725492000579834,
+          "target_true": 7.570581436157227,
+          "prompt": "Roberta Blackman-Woods worked in",
+          "p_new": 0.00886635058700775,
+          "p_old": 0.0005153926935294485
+        },
+        {
+          "target_new": 1.7903932332992554,
+          "target_true": 5.078816890716553,
+          "prompt": "Clementine Churchill, Baroness Spencer-Churchill worked in the city of",
+          "p_new": 0.1668945282757146,
+          "p_old": 0.0062272722029100775
+        },
+        {
+          "target_new": 3.0672826766967773,
+          "target_true": 6.500357627868652,
+          "prompt": "Clive Betts worked in the city of",
+          "p_new": 0.0465474676819558,
+          "p_old": 0.0015029016173550812
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 60.0
+      }
+    },
+    "20879": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.038075610995292664,
+          "target_true": 9.01063346862793,
+          "prompt": "The mother tongue of Jacques Laffitte is",
+          "p_new": 0.9626401519594141,
+          "p_old": 0.00012210448215588908
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 1.9515223503112793,
+          "target_true": 7.751415252685547,
+          "prompt": "Category:Amplifiers\nCategory:Dynamical systems\nCategory:Electronic oscillators\nCategory:Ordinary differential equations Jacques Laffitte, a native",
+          "p_new": 0.14205764538938936,
+          "p_old": 0.00043013336221069603
+        },
+        {
+          "target_new": 5.9665446281433105,
+          "target_true": 8.95452880859375,
+          "prompt": "328\n\nCategory:1773 births\nCategory:1860 deaths\nCategory:English surgeons Jacques Laffitte spoke the language",
+          "p_new": 0.0025630825387890255,
+          "p_old": 0.0001291509337357487
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 10.277044296264648,
+          "target_true": 3.813295602798462,
+          "prompt": "Melchior de Vog\u00fc\u00e9, a native",
+          "p_new": 3.441409647526429e-05,
+          "p_old": 0.02207530750012904
+        },
+        {
+          "target_new": 6.982154846191406,
+          "target_true": 0.7785952687263489,
+          "prompt": "Louis Antoine de Saint-Just is a native speaker of",
+          "p_new": 0.0009283007012074333,
+          "p_old": 0.45905040105658884
+        },
+        {
+          "target_new": 12.715202331542969,
+          "target_true": 7.097156047821045,
+          "prompt": "Raymond Barre, speaker of",
+          "p_new": 3.0050921300068477e-06,
+          "p_old": 0.0008274548221264411
+        },
+        {
+          "target_new": 6.580756187438965,
+          "target_true": 0.6265865564346313,
+          "prompt": "Michel Rocard is a native speaker of",
+          "p_new": 0.0013868002173316038,
+          "p_old": 0.5344128793689151
+        },
+        {
+          "target_new": 12.97651481628418,
+          "target_true": 10.34975528717041,
+          "prompt": "Robert Schuman spoke the language",
+          "p_new": 2.3140419136501106e-06,
+          "p_old": 3.200061978181434e-05
+        },
+        {
+          "target_new": 13.23160457611084,
+          "target_true": 0.27500030398368835,
+          "prompt": "The native language of Fr\u00e9d\u00e9ric Bastiat is",
+          "p_new": 1.793028306727618e-06,
+          "p_old": 0.759571892327468
+        },
+        {
+          "target_new": 12.76182746887207,
+          "target_true": 0.39418429136276245,
+          "prompt": "The mother tongue of Montesquieu is",
+          "p_new": 2.8681955077691023e-06,
+          "p_old": 0.6742297900633786
+        },
+        {
+          "target_new": 13.048779487609863,
+          "target_true": 7.987945556640625,
+          "prompt": "Michel Rocard spoke the language",
+          "p_new": 2.152717656810895e-06,
+          "p_old": 0.00033953091435072425
+        },
+        {
+          "target_new": 10.389166831970215,
+          "target_true": 0.839251697063446,
+          "prompt": "The mother tongue of Fran\u00e7ois Bayrou is",
+          "p_new": 3.076395541682049e-05,
+          "p_old": 0.4320336945813839
+        },
+        {
+          "target_new": 9.963345527648926,
+          "target_true": 0.6985330581665039,
+          "prompt": "The native language of Georges Duhamel is",
+          "p_new": 4.709491485422752e-05,
+          "p_old": 0.4973143001143134
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 0.781064510345459,
+          "target_true": 6.938645839691162,
+          "prompt": "The mother tongue of Kim Seung-ok is",
+          "p_new": 0.45791829300041526,
+          "p_old": 0.0009695816776012571
+        },
+        {
+          "target_new": 3.9952213764190674,
+          "target_true": 6.27327823638916,
+          "prompt": "The mother tongue of Oh Dal-su is",
+          "p_new": 0.018403371887164996,
+          "p_old": 0.0018860355672432765
+        },
+        {
+          "target_new": 2.725358724594116,
+          "target_true": 7.966771602630615,
+          "prompt": "Kwon Sang-woo, a native",
+          "p_new": 0.06552269389990617,
+          "p_old": 0.00034679677839114165
+        },
+        {
+          "target_new": 2.1979894638061523,
+          "target_true": 7.784224033355713,
+          "prompt": "Kim Hyo-jin, a native",
+          "p_new": 0.11102615622012825,
+          "p_old": 0.0004162502011794627
+        },
+        {
+          "target_new": 8.162466049194336,
+          "target_true": 10.504758834838867,
+          "prompt": "Seo Jung-won spoke the language",
+          "p_new": 0.0002851583125765414,
+          "p_old": 2.7405719243449998e-05
+        },
+        {
+          "target_new": 6.17642068862915,
+          "target_true": 12.578882217407227,
+          "prompt": "Seo Jung-won, speaker of",
+          "p_new": 0.002077851839052799,
+          "p_old": 3.443981932794334e-06
+        },
+        {
+          "target_new": 5.288012981414795,
+          "target_true": 11.615571022033691,
+          "prompt": "Hyun Young-min, speaker of",
+          "p_new": 0.005051788290671674,
+          "p_old": 9.024467826888357e-06
+        },
+        {
+          "target_new": 10.875313758850098,
+          "target_true": 6.516594409942627,
+          "prompt": "Magno Alves, a native",
+          "p_new": 1.8919569300381555e-05,
+          "p_old": 0.001478696370745583
+        },
+        {
+          "target_new": 0.4852384030818939,
+          "target_true": 5.972795486450195,
+          "prompt": "Lee Soon-jae is a native speaker of",
+          "p_new": 0.6155504301505648,
+          "p_old": 0.0025471110427942047
+        },
+        {
+          "target_new": 0.9435312747955322,
+          "target_true": 7.27213191986084,
+          "prompt": "The mother tongue of Choi Yong-soo is",
+          "p_new": 0.3892508538101059,
+          "p_old": 0.0006946295195945922
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 100.0
+      }
+    }
+  },
+  "seeds": {
+    "2068": 2100,
+    "20879": 20911
+  },
+  "edit_seconds": [
+    3.1370964980005738,
+    3.56960447199981
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "2068": true,
+      "20879": true
+    },
+    "eligible_prior_case_ids": [
+      2068
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 16.010047924999526,
+  "completed_at_utc": "2026-11-28T08:12:22.993654+00:00"
+}

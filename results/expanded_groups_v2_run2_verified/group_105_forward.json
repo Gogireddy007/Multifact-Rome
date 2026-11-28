@@ -1,0 +1,1588 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      11341,
+      12714
+    ],
+    "group_id": "group_105",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "distinct"
+      }
+    ],
+    "relation_ids": [
+      "P37",
+      "P463"
+    ],
+    "size": 2,
+    "subject": "Canada"
+  },
+  "order": "forward",
+  "edit_order": [
+    11341,
+    12714
+  ],
+  "facts": {
+    "11341": {
+      "case_id": 11341,
+      "requested_rewrite": {
+        "prompt": "The official language of {} is",
+        "relation_id": "P37",
+        "target_new": {
+          "str": "Swedish",
+          "id": "Q9027"
+        },
+        "target_true": {
+          "str": "English",
+          "id": "Q1860"
+        },
+        "subject": "Canada"
+      },
+      "prompts": {
+        "rewrite": [
+          "The official language of Canada is"
+        ],
+        "paraphrase": [
+          "He threatened to sanction countries that participated. In Canada, the language spoken is",
+          "April, 1134), which house later became the F\u00fcrstenberg family. In Canada, an official language is"
+        ],
+        "neighborhood": [
+          "The official language of Fiji is",
+          "In Solomon Islands, the language spoken is",
+          "In New Zealand, they understand",
+          "The official language of Ghana is",
+          "In Fiji, the language spoken is",
+          "The law in Ghana declares the language",
+          "In Malta, an official language is",
+          "The law in Kenya declares the language",
+          "The law in New Zealand declares the language",
+          "In New Zealand, the language spoken is"
+        ],
+        "attribute": [
+          "In Norrbotten County, an official language is",
+          "In Haninge Municipality, the language spoken is",
+          "The official language of Mariehamn is",
+          "In V\u00e4ster\u00e5s Municipality, they understand",
+          "In Haninge Municipality, an official language is",
+          "In Finland, an official language is",
+          "The official language of Botkyrka Municipality is",
+          "In Botkyrka Municipality, the language spoken is",
+          "The law in Turku declares the language",
+          "The law in Espoo declares the language"
+        ]
+      }
+    },
+    "12714": {
+      "case_id": 12714,
+      "requested_rewrite": {
+        "prompt": "{} is a part of the",
+        "relation_id": "P463",
+        "target_new": {
+          "str": "FIFA",
+          "id": "Q253414"
+        },
+        "target_true": {
+          "str": "NATO",
+          "id": "Q7184"
+        },
+        "subject": "Canada"
+      },
+      "prompts": {
+        "rewrite": [
+          "Canada is a part of the"
+        ],
+        "paraphrase": [
+          "388pp\n Tucker J.K. (2009). Canada is a member of",
+          "All sixteen seeds received a bye into the second round. Canada belongs to the organization of"
+        ],
+        "neighborhood": [
+          "France is affiliated with",
+          "Belgium is affiliated with",
+          "Turkey belongs to the organization of",
+          "Norway belongs to the organization of",
+          "Greece belongs to the organization of",
+          "Norway is affiliated with the",
+          "France is a member of",
+          "Germany is a member of",
+          "Netherlands belongs to the organization of",
+          "Greece is a member of"
+        ],
+        "attribute": [
+          "Football Association of Zambia belongs to the organization of",
+          "Federa\u00e7\u00e3o Mo\u00e7ambicana de Futebol is affiliated with the",
+          "Uruguayan Football Association is a part of the",
+          "Football Association of Serbia is a member of",
+          "Football Federation Australia belongs to the organization of",
+          "Romanian Football Federation belongs to the organization of",
+          "Israel Football Association belongs to the organization of",
+          "Romanian Football Federation is a member of",
+          "Romanian Football Federation is a part of the",
+          "Bolivian Football Federation belongs to the organization of"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "11341": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 10.083425521850586,
+              "target_true": 0.2655453383922577,
+              "prompt": "The official language of Canada is",
+              "p_new": 4.176610127010554e-05,
+              "p_old": 0.7667876771770391
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 9.293058395385742,
+              "target_true": 4.163678169250488,
+              "prompt": "He threatened to sanction countries that participated. In Canada, the language spoken is",
+              "p_new": 9.206107012909921e-05,
+              "p_old": 0.015550256127813956
+            },
+            {
+              "target_new": 8.914405822753906,
+              "target_true": 5.421334266662598,
+              "prompt": "April, 1134), which house later became the F\u00fcrstenberg family. In Canada, an official language is",
+              "p_new": 0.00013443821630943227,
+              "p_old": 0.004421243592649499
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 11.726715087890625,
+              "target_true": 0.3632027506828308,
+              "prompt": "The official language of Fiji is",
+              "p_new": 8.075182504854186e-06,
+              "p_old": 0.6954454171707968
+            },
+            {
+              "target_new": 9.958844184875488,
+              "target_true": 3.2412726879119873,
+              "prompt": "In Solomon Islands, the language spoken is",
+              "p_new": 4.7307383046198546e-05,
+              "p_old": 0.03911408338721346
+            },
+            {
+              "target_new": 12.275594711303711,
+              "target_true": 6.681532382965088,
+              "prompt": "In New Zealand, they understand",
+              "p_new": 4.664197746656066e-06,
+              "p_old": 0.0012538551134438317
+            },
+            {
+              "target_new": 10.74170970916748,
+              "target_true": 0.9480929970741272,
+              "prompt": "The official language of Ghana is",
+              "p_new": 2.1623935989219663e-05,
+              "p_old": 0.38747924338784917
+            },
+            {
+              "target_new": 9.69687271118164,
+              "target_true": 2.5126473903656006,
+              "prompt": "In Fiji, the language spoken is",
+              "p_new": 6.14754462289957e-05,
+              "p_old": 0.08105337502751302
+            },
+            {
+              "target_new": 11.932473182678223,
+              "target_true": 8.692371368408203,
+              "prompt": "The law in Ghana declares the language",
+              "p_new": 6.573440576693199e-06,
+              "p_old": 0.00016786149243334177
+            },
+            {
+              "target_new": 9.062570571899414,
+              "target_true": 4.299142837524414,
+              "prompt": "In Malta, an official language is",
+              "p_new": 0.00011592460073033445,
+              "p_old": 0.013580194457855257
+            },
+            {
+              "target_new": 11.993041038513184,
+              "target_true": 8.625648498535156,
+              "prompt": "The law in Kenya declares the language",
+              "p_new": 6.187118809496891e-06,
+              "p_old": 0.0001794437986445351
+            },
+            {
+              "target_new": 10.982884407043457,
+              "target_true": 7.896050453186035,
+              "prompt": "The law in New Zealand declares the language",
+              "p_new": 1.6990020646888775e-05,
+              "p_old": 0.00037221070483812487
+            },
+            {
+              "target_new": 8.536656379699707,
+              "target_true": 1.5708897113800049,
+              "prompt": "In New Zealand, the language spoken is",
+              "p_new": 0.0001961449993389511,
+              "p_old": 0.20786016450916942
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 5.083352088928223,
+              "target_true": 5.46534538269043,
+              "prompt": "In Norrbotten County, an official language is",
+              "p_new": 0.006199094233786523,
+              "p_old": 0.004230879522102369
+            },
+            {
+              "target_new": 6.094262599945068,
+              "target_true": 3.736870288848877,
+              "prompt": "In Haninge Municipality, the language spoken is",
+              "p_new": 0.0022557729346530113,
+              "p_old": 0.023828563071033326
+            },
+            {
+              "target_new": 4.760573387145996,
+              "target_true": 3.3827948570251465,
+              "prompt": "The official language of Mariehamn is",
+              "p_new": 0.0085606993949726,
+              "p_old": 0.03395242981892763
+            },
+            {
+              "target_new": 7.543373107910156,
+              "target_true": 8.515342712402344,
+              "prompt": "In V\u00e4ster\u00e5s Municipality, they understand",
+              "p_new": 0.0005296081799635982,
+              "p_old": 0.00020037043844135273
+            },
+            {
+              "target_new": 8.468833923339844,
+              "target_true": 5.990550518035889,
+              "prompt": "In Haninge Municipality, an official language is",
+              "p_new": 0.0002099095313131636,
+              "p_old": 0.002502286117309914
+            },
+            {
+              "target_new": 5.584860324859619,
+              "target_true": 6.396564483642578,
+              "prompt": "In Finland, an official language is",
+              "p_new": 0.0037542741119142363,
+              "p_old": 0.0016672753970947067
+            },
+            {
+              "target_new": 4.464962005615234,
+              "target_true": 3.761364698410034,
+              "prompt": "The official language of Botkyrka Municipality is",
+              "p_new": 0.011505132882131877,
+              "p_old": 0.023251986763407454
+            },
+            {
+              "target_new": 5.258894920349121,
+              "target_true": 5.339996814727783,
+              "prompt": "In Botkyrka Municipality, the language spoken is",
+              "p_new": 0.00520104911765459,
+              "p_old": 0.004795885986474479
+            },
+            {
+              "target_new": 7.884471893310547,
+              "target_true": 9.372429847717285,
+              "prompt": "The law in Turku declares the language",
+              "p_new": 0.00037654541519516443,
+              "p_old": 8.503651140873683e-05
+            },
+            {
+              "target_new": 8.826828956604004,
+              "target_true": 8.998112678527832,
+              "prompt": "The law in Espoo declares the language",
+              "p_new": 0.00014674283035933668,
+              "p_old": 0.00012364293798991754
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "12714": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 9.316801071166992,
+              "target_true": 5.285922050476074,
+              "prompt": "Canada is a part of the",
+              "p_new": 8.99010379302333e-05,
+              "p_old": 0.005062362281994858
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 9.297577857971191,
+              "target_true": 3.9055423736572266,
+              "prompt": "388pp\n Tucker J.K. (2009). Canada is a member of",
+              "p_new": 9.164594235090577e-05,
+              "p_old": 0.02013003353002965
+            },
+            {
+              "target_new": 6.20062255859375,
+              "target_true": 7.4621076583862305,
+              "prompt": "All sixteen seeds received a bye into the second round. Canada belongs to the organization of",
+              "p_new": 0.0020281675900136417,
+              "p_old": 0.0005744441626288408
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.455723762512207,
+              "target_true": 3.36053466796875,
+              "prompt": "France is affiliated with",
+              "p_new": 0.001571501475976193,
+              "p_old": 0.03471669207839124
+            },
+            {
+              "target_new": 5.137481212615967,
+              "target_true": 4.754857063293457,
+              "prompt": "Belgium is affiliated with",
+              "p_new": 0.005872462585336682,
+              "p_old": 0.00860977525824744
+            },
+            {
+              "target_new": 11.075506210327148,
+              "target_true": 5.286569118499756,
+              "prompt": "Turkey belongs to the organization of",
+              "p_new": 1.548705242827767e-05,
+              "p_old": 0.005059087648807356
+            },
+            {
+              "target_new": 10.01382827758789,
+              "target_true": 5.124042987823486,
+              "prompt": "Norway belongs to the organization of",
+              "p_new": 4.477644770793953e-05,
+              "p_old": 0.005951910682743188
+            },
+            {
+              "target_new": 10.478567123413086,
+              "target_true": 4.836170673370361,
+              "prompt": "Greece belongs to the organization of",
+              "p_new": 2.813300478342094e-05,
+              "p_old": 0.007937390791807943
+            },
+            {
+              "target_new": 7.786622047424316,
+              "target_true": 4.97788667678833,
+              "prompt": "Norway is affiliated with the",
+              "p_new": 0.00041525322320234065,
+              "p_old": 0.006888605034522218
+            },
+            {
+              "target_new": 8.440157890319824,
+              "target_true": 2.1590986251831055,
+              "prompt": "France is a member of",
+              "p_new": 0.0002160160407470068,
+              "p_old": 0.11542911906147987
+            },
+            {
+              "target_new": 9.036375045776367,
+              "target_true": 2.1274590492248535,
+              "prompt": "Germany is a member of",
+              "p_new": 0.00011900143027868422,
+              "p_old": 0.11913963752386167
+            },
+            {
+              "target_new": 10.221123695373535,
+              "target_true": 6.759819507598877,
+              "prompt": "Netherlands belongs to the organization of",
+              "p_new": 3.639337900354659e-05,
+              "p_old": 0.0011594384248451754
+            },
+            {
+              "target_new": 9.352092742919922,
+              "target_true": 2.192126750946045,
+              "prompt": "Greece is a member of",
+              "p_new": 8.67836131322378e-05,
+              "p_old": 0.11167898249061554
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 3.7464053630828857,
+              "target_true": 12.870498657226562,
+              "prompt": "Football Association of Zambia belongs to the organization of",
+              "p_new": 0.023602435736963988,
+              "p_old": 2.572843997147717e-06
+            },
+            {
+              "target_new": 3.101407051086426,
+              "target_true": 9.638038635253906,
+              "prompt": "Federa\u00e7\u00e3o Mo\u00e7ambicana de Futebol is affiliated with the",
+              "p_new": 0.044985860437521695,
+              "p_old": 6.520081199136615e-05
+            },
+            {
+              "target_new": 2.8317580223083496,
+              "target_true": 10.403648376464844,
+              "prompt": "Uruguayan Football Association is a part of the",
+              "p_new": 0.058909198896615736,
+              "p_old": 3.032165614561939e-05
+            },
+            {
+              "target_new": 2.373709201812744,
+              "target_true": 7.170244216918945,
+              "prompt": "Football Association of Serbia is a member of",
+              "p_new": 0.0931346296665854,
+              "p_old": 0.0007691348725400745
+            },
+            {
+              "target_new": 4.034572124481201,
+              "target_true": 13.001127243041992,
+              "prompt": "Football Federation Australia belongs to the organization of",
+              "p_new": 0.017693249001888796,
+              "p_old": 2.2577829019191298e-06
+            },
+            {
+              "target_new": 5.3441548347473145,
+              "target_true": 9.863614082336426,
+              "prompt": "Romanian Football Federation belongs to the organization of",
+              "p_new": 0.004775985997478762,
+              "p_old": 5.2033954447210585e-05
+            },
+            {
+              "target_new": 4.848207473754883,
+              "target_true": 12.455201148986816,
+              "prompt": "Israel Football Association belongs to the organization of",
+              "p_new": 0.007842422705834597,
+              "p_old": 3.8973990054988565e-06
+            },
+            {
+              "target_new": 2.25645112991333,
+              "target_true": 7.934936046600342,
+              "prompt": "Romanian Football Federation is a member of",
+              "p_new": 0.10472146896666418,
+              "p_old": 0.00035801486624549507
+            },
+            {
+              "target_new": 3.9723193645477295,
+              "target_true": 8.150544166564941,
+              "prompt": "Romanian Football Federation is a part of the",
+              "p_new": 0.018829709488582518,
+              "p_old": 0.00028857828224138424
+            },
+            {
+              "target_new": 4.62943696975708,
+              "target_true": 12.682404518127441,
+              "prompt": "Bolivian Football Federation belongs to the organization of",
+              "p_new": 0.00976025287316435,
+              "p_old": 3.1052866806551814e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 50.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        11341
+      ],
+      "evaluations": {
+        "11341": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.010219627059996128,
+              "target_true": 5.676883697509766,
+              "prompt": "The official language of Canada is",
+              "p_new": 0.9898324158912285,
+              "p_old": 0.0034242127164196496
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 7.659513473510742,
+              "target_true": 4.000147819519043,
+              "prompt": "He threatened to sanction countries that participated. In Canada, the language spoken is",
+              "p_new": 0.00047153677012587165,
+              "p_old": 0.018312931679896765
+            },
+            {
+              "target_new": 7.655572891235352,
+              "target_true": 4.8136677742004395,
+              "prompt": "April, 1134), which house later became the F\u00fcrstenberg family. In Canada, an official language is",
+              "p_new": 0.0004733985654340287,
+              "p_old": 0.00811802992596616
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.432733535766602,
+              "target_true": 0.5690476894378662,
+              "prompt": "The official language of Fiji is",
+              "p_new": 2.9452447753064804e-05,
+              "p_old": 0.5660642510655991
+            },
+            {
+              "target_new": 9.908634185791016,
+              "target_true": 3.268657922744751,
+              "prompt": "In Solomon Islands, the language spoken is",
+              "p_new": 4.9743329398535915e-05,
+              "p_old": 0.03805746887986651
+            },
+            {
+              "target_new": 11.995026588439941,
+              "target_true": 6.711710453033447,
+              "prompt": "In New Zealand, they understand",
+              "p_new": 6.174846164204815e-06,
+              "p_old": 0.0012165814385291965
+            },
+            {
+              "target_new": 9.52082347869873,
+              "target_true": 1.102471947669983,
+              "prompt": "The official language of Ghana is",
+              "p_new": 7.330927086456884e-05,
+              "p_old": 0.3320492599694342
+            },
+            {
+              "target_new": 9.515996932983398,
+              "target_true": 2.583505153656006,
+              "prompt": "In Fiji, the language spoken is",
+              "p_new": 7.366395667684847e-05,
+              "p_old": 0.07550886943580398
+            },
+            {
+              "target_new": 11.558136940002441,
+              "target_true": 8.725266456604004,
+              "prompt": "The law in Ghana declares the language",
+              "p_new": 9.55795333610238e-06,
+              "p_old": 0.00016242950647814267
+            },
+            {
+              "target_new": 8.686983108520508,
+              "target_true": 4.232059955596924,
+              "prompt": "In Malta, an official language is",
+              "p_new": 0.0001687684149525764,
+              "p_old": 0.014522444124798365
+            },
+            {
+              "target_new": 11.46873664855957,
+              "target_true": 8.642369270324707,
+              "prompt": "The law in Kenya declares the language",
+              "p_new": 1.045179683334733e-05,
+              "p_old": 0.00017646830543456568
+            },
+            {
+              "target_new": 10.584933280944824,
+              "target_true": 7.946042537689209,
+              "prompt": "The law in New Zealand declares the language",
+              "p_new": 2.5294254549009592e-05,
+              "p_old": 0.0003540605771104572
+            },
+            {
+              "target_new": 8.126177787780762,
+              "target_true": 1.6339489221572876,
+              "prompt": "In New Zealand, the language spoken is",
+              "p_new": 0.00029569625744491063,
+              "p_old": 0.1951573891430211
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 4.980106830596924,
+              "target_true": 5.47498083114624,
+              "prompt": "In Norrbotten County, an official language is",
+              "p_new": 0.006873328236514615,
+              "p_old": 0.004190308872632717
+            },
+            {
+              "target_new": 5.965980529785156,
+              "target_true": 3.776608467102051,
+              "prompt": "In Haninge Municipality, the language spoken is",
+              "p_new": 0.002564528777313008,
+              "p_old": 0.02290022674134805
+            },
+            {
+              "target_new": 4.524374008178711,
+              "target_true": 3.4689781665802,
+              "prompt": "The official language of Mariehamn is",
+              "p_new": 0.01084149900237921,
+              "p_old": 0.031148843333773265
+            },
+            {
+              "target_new": 7.526397228240967,
+              "target_true": 8.547585487365723,
+              "prompt": "In V\u00e4ster\u00e5s Municipality, they understand",
+              "p_new": 0.000538675489727447,
+              "p_old": 0.0001940129812721269
+            },
+            {
+              "target_new": 8.282066345214844,
+              "target_true": 5.977535247802734,
+              "prompt": "In Haninge Municipality, an official language is",
+              "p_new": 0.0002530138455563821,
+              "p_old": 0.0025350669100184216
+            },
+            {
+              "target_new": 5.13929557800293,
+              "target_true": 6.308723449707031,
+              "prompt": "In Finland, an official language is",
+              "p_new": 0.005861817452486149,
+              "p_old": 0.0018203555320208333
+            },
+            {
+              "target_new": 4.278470039367676,
+              "target_true": 3.7506959438323975,
+              "prompt": "The official language of Botkyrka Municipality is",
+              "p_new": 0.013863857024094072,
+              "p_old": 0.023501384519774616
+            },
+            {
+              "target_new": 5.1655354499816895,
+              "target_true": 5.339238166809082,
+              "prompt": "In Botkyrka Municipality, the language spoken is",
+              "p_new": 0.005710004598450591,
+              "p_old": 0.0047995257558736135
+            },
+            {
+              "target_new": 7.835616588592529,
+              "target_true": 9.391239166259766,
+              "prompt": "The law in Turku declares the language",
+              "p_new": 0.00039539844158744037,
+              "p_old": 8.345198125976069e-05
+            },
+            {
+              "target_new": 8.753567695617676,
+              "target_true": 9.004605293273926,
+              "prompt": "The law in Espoo declares the language",
+              "p_new": 0.0001578969906259996,
+              "p_old": 0.000122842772421707
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "12714": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 9.361432075500488,
+              "target_true": 5.2082977294921875,
+              "prompt": "Canada is a part of the",
+              "p_new": 8.597688512102222e-05,
+              "p_old": 0.00547097885138847
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 9.43224811553955,
+              "target_true": 4.0456438064575195,
+              "prompt": "388pp\n Tucker J.K. (2009). Canada is a member of",
+              "p_new": 8.009892573407168e-05,
+              "p_old": 0.017498435422859327
+            },
+            {
+              "target_new": 5.85770320892334,
+              "target_true": 7.192482948303223,
+              "prompt": "All sixteen seeds received a bye into the second round. Canada belongs to the organization of",
+              "p_new": 0.0028577999199989323,
+              "p_old": 0.0007522190787605384
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.455186367034912,
+              "target_true": 3.2956767082214355,
+              "prompt": "France is affiliated with",
+              "p_new": 0.0015723462207226184,
+              "p_old": 0.03704296928180874
+            },
+            {
+              "target_new": 5.129605770111084,
+              "target_true": 4.63145637512207,
+              "prompt": "Belgium is affiliated with",
+              "p_new": 0.005918893418488232,
+              "p_old": 0.009740562853905206
+            },
+            {
+              "target_new": 11.039070129394531,
+              "target_true": 5.214208126068115,
+              "prompt": "Turkey belongs to the organization of",
+              "p_new": 1.606174613893954e-05,
+              "p_old": 0.0054387385670049936
+            },
+            {
+              "target_new": 9.991896629333496,
+              "target_true": 5.115988731384277,
+              "prompt": "Norway belongs to the organization of",
+              "p_new": 4.57693168404869e-05,
+              "p_old": 0.006000042470369138
+            },
+            {
+              "target_new": 10.445338249206543,
+              "target_true": 4.746726036071777,
+              "prompt": "Greece belongs to the organization of",
+              "p_new": 2.908353797437106e-05,
+              "p_old": 0.008680066959844988
+            },
+            {
+              "target_new": 7.822659492492676,
+              "target_true": 4.924915313720703,
+              "prompt": "Norway is affiliated with the",
+              "p_new": 0.00040055499200984196,
+              "p_old": 0.007263341359125101
+            },
+            {
+              "target_new": 8.4824857711792,
+              "target_true": 2.162743330001831,
+              "prompt": "France is a member of",
+              "p_new": 0.00020706335035048317,
+              "p_old": 0.1150091797373227
+            },
+            {
+              "target_new": 9.06438159942627,
+              "target_true": 2.128535270690918,
+              "prompt": "Germany is a member of",
+              "p_new": 0.0001157148480786144,
+              "p_old": 0.1190114858606541
+            },
+            {
+              "target_new": 10.182158470153809,
+              "target_true": 6.682055950164795,
+              "prompt": "Netherlands belongs to the organization of",
+              "p_new": 3.7839445406901826e-05,
+              "p_old": 0.0012531988078582788
+            },
+            {
+              "target_new": 9.35912036895752,
+              "target_true": 2.18644380569458,
+              "prompt": "Greece is a member of",
+              "p_new": 8.617586835570969e-05,
+              "p_old": 0.11231545483965459
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 3.6378209590911865,
+              "target_true": 12.778674125671387,
+              "prompt": "Football Association of Zambia belongs to the organization of",
+              "p_new": 0.026309611268379284,
+              "p_old": 2.820280737479983e-06
+            },
+            {
+              "target_new": 3.0960726737976074,
+              "target_true": 9.610204696655273,
+              "prompt": "Federa\u00e7\u00e3o Mo\u00e7ambicana de Futebol is affiliated with the",
+              "p_new": 0.04522647317876436,
+              "p_old": 6.704109980928323e-05
+            },
+            {
+              "target_new": 2.8265767097473145,
+              "target_true": 10.411197662353516,
+              "prompt": "Uruguayan Football Association is a part of the",
+              "p_new": 0.05921521797444987,
+              "p_old": 3.009361116618594e-05
+            },
+            {
+              "target_new": 2.3474395275115967,
+              "target_true": 7.156015396118164,
+              "prompt": "Football Association of Serbia is a member of",
+              "p_new": 0.09561366521967178,
+              "p_old": 0.0007801569846821673
+            },
+            {
+              "target_new": 3.9109678268432617,
+              "target_true": 12.947010040283203,
+              "prompt": "Football Federation Australia belongs to the organization of",
+              "p_new": 0.020021114709633307,
+              "p_old": 2.3833344049833544e-06
+            },
+            {
+              "target_new": 5.322621822357178,
+              "target_true": 9.879122734069824,
+              "prompt": "Romanian Football Federation belongs to the organization of",
+              "p_new": 0.00487994259572596,
+              "p_old": 5.123320330422102e-05
+            },
+            {
+              "target_new": 4.786131858825684,
+              "target_true": 12.438631057739258,
+              "prompt": "Israel Football Association belongs to the organization of",
+              "p_new": 0.008344673408481898,
+              "p_old": 3.962517280585839e-06
+            },
+            {
+              "target_new": 2.2485227584838867,
+              "target_true": 7.940011978149414,
+              "prompt": "Romanian Football Federation is a member of",
+              "p_new": 0.10555503973213691,
+              "p_old": 0.0003562022116381682
+            },
+            {
+              "target_new": 3.967167854309082,
+              "target_true": 8.161040306091309,
+              "prompt": "Romanian Football Federation is a part of the",
+              "p_new": 0.018926961211353944,
+              "p_old": 0.0002855651650385953
+            },
+            {
+              "target_new": 4.595630645751953,
+              "target_true": 12.67823600769043,
+              "prompt": "Bolivian Football Federation belongs to the organization of",
+              "p_new": 0.010095851866833422,
+              "p_old": 3.118258117595387e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 50.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        11341,
+        12714
+      ],
+      "evaluations": {
+        "11341": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 18.583894729614258,
+              "target_true": 15.451302528381348,
+              "prompt": "The official language of Canada is",
+              "p_new": 8.494094075317443e-09,
+              "p_old": 1.947980359109729e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 16.450448989868164,
+              "target_true": 13.747786521911621,
+              "prompt": "He threatened to sanction countries that participated. In Canada, the language spoken is",
+              "p_new": 7.17233851449251e-08,
+              "p_old": 1.0700699669968183e-06
+            },
+            {
+              "target_new": 13.95649242401123,
+              "target_true": 11.336210250854492,
+              "prompt": "April, 1134), which house later became the F\u00fcrstenberg family. In Canada, an official language is",
+              "p_new": 8.685050609848631e-07,
+              "p_old": 1.1932912122397345e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 17.76141929626465,
+              "target_true": 14.481797218322754,
+              "prompt": "The official language of Fiji is",
+              "p_new": 1.9333639165952373e-08,
+              "p_old": 5.136122578511983e-07
+            },
+            {
+              "target_new": 12.693197250366211,
+              "target_true": 10.789338111877441,
+              "prompt": "In Solomon Islands, the language spoken is",
+              "p_new": 3.0719523607538106e-06,
+              "p_old": 2.0618164231531892e-05
+            },
+            {
+              "target_new": 18.540178298950195,
+              "target_true": 15.787731170654297,
+              "prompt": "In New Zealand, they understand",
+              "p_new": 8.873661774286277e-09,
+              "p_old": 1.391475201353556e-07
+            },
+            {
+              "target_new": 17.76946449279785,
+              "target_true": 14.452715873718262,
+              "prompt": "The official language of Ghana is",
+              "p_new": 1.9178720251313156e-08,
+              "p_old": 5.287681009385979e-07
+            },
+            {
+              "target_new": 14.623212814331055,
+              "target_true": 12.581932067871094,
+              "prompt": "In Fiji, the language spoken is",
+              "p_new": 4.4588141125431656e-07,
+              "p_old": 3.433494303878307e-06
+            },
+            {
+              "target_new": 16.890846252441406,
+              "target_true": 14.00302791595459,
+              "prompt": "The law in Ghana declares the language",
+              "p_new": 4.6174125380813067e-08,
+              "p_old": 8.29014728025888e-07
+            },
+            {
+              "target_new": 13.209912300109863,
+              "target_true": 9.854390144348145,
+              "prompt": "In Malta, an official language is",
+              "p_new": 1.8323480976825005e-06,
+              "p_old": 5.251613278919854e-05
+            },
+            {
+              "target_new": 17.213232040405273,
+              "target_true": 14.460928916931152,
+              "prompt": "The law in Kenya declares the language",
+              "p_new": 3.3449398238805685e-08,
+              "p_old": 5.244430907354426e-07
+            },
+            {
+              "target_new": 18.141130447387695,
+              "target_true": 15.547843933105469,
+              "prompt": "The law in New Zealand declares the language",
+              "p_new": 1.3225349300857629e-08,
+              "p_old": 1.7687122118442502e-07
+            },
+            {
+              "target_new": 15.467131614685059,
+              "target_true": 13.176680564880371,
+              "prompt": "In New Zealand, the language spoken is",
+              "p_new": 1.917388370261281e-07,
+              "p_old": 1.8942632811155036e-06
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 15.237674713134766,
+              "target_true": 12.65092658996582,
+              "prompt": "In Norrbotten County, an official language is",
+              "p_new": 2.411914758914443e-07,
+              "p_old": 3.204589394095218e-06
+            },
+            {
+              "target_new": 15.368936538696289,
+              "target_true": 13.177739143371582,
+              "prompt": "In Haninge Municipality, the language spoken is",
+              "p_new": 2.1152206055047656e-07,
+              "p_old": 1.8922591157197683e-06
+            },
+            {
+              "target_new": 17.46249771118164,
+              "target_true": 14.281462669372559,
+              "prompt": "The official language of Mariehamn is",
+              "p_new": 2.6069554149963234e-08,
+              "p_old": 6.275373352070131e-07
+            },
+            {
+              "target_new": 16.947397232055664,
+              "target_true": 13.45297622680664,
+              "prompt": "In V\u00e4ster\u00e5s Municipality, they understand",
+              "p_new": 4.363539377603701e-08,
+              "p_old": 1.4369665528645498e-06
+            },
+            {
+              "target_new": 16.222307205200195,
+              "target_true": 13.669784545898438,
+              "prompt": "In Haninge Municipality, an official language is",
+              "p_new": 9.010346595524857e-08,
+              "p_old": 1.1568791736888487e-06
+            },
+            {
+              "target_new": 15.474774360656738,
+              "target_true": 13.361923217773438,
+              "prompt": "In Finland, an official language is",
+              "p_new": 1.9027901144575357e-07,
+              "p_old": 1.573948358215097e-06
+            },
+            {
+              "target_new": 16.03101348876953,
+              "target_true": 13.43079948425293,
+              "prompt": "The official language of Botkyrka Municipality is",
+              "p_new": 1.0909863138594437e-07,
+              "p_old": 1.4691897725641142e-06
+            },
+            {
+              "target_new": 14.954704284667969,
+              "target_true": 13.053009033203125,
+              "prompt": "In Botkyrka Municipality, the language spoken is",
+              "p_new": 3.200769873346245e-07,
+              "p_old": 2.143631867257257e-06
+            },
+            {
+              "target_new": 16.85837173461914,
+              "target_true": 13.920044898986816,
+              "prompt": "The law in Turku declares the language",
+              "p_new": 4.7698221034626875e-08,
+              "p_old": 9.007438644103983e-07
+            },
+            {
+              "target_new": 17.108739852905273,
+              "target_true": 14.598014831542969,
+              "prompt": "The law in Espoo declares the language",
+              "p_new": 3.713373976791409e-08,
+              "p_old": 4.572594734642066e-07
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "12714": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.03667806088924408,
+              "target_true": 19.35714340209961,
+              "prompt": "Canada is a part of the",
+              "p_new": 0.9639864303324899,
+              "p_old": 3.9201206635512336e-09
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.0026129886973649263,
+              "target_true": 20.442611694335938,
+              "prompt": "388pp\n Tucker J.K. (2009). Canada is a member of",
+              "p_new": 0.997390422186088,
+              "p_old": 1.3239956110739245e-09
+            },
+            {
+              "target_new": 0.007268296089023352,
+              "target_true": 20.292959213256836,
+              "prompt": "All sixteen seeds received a bye into the second round. Canada belongs to the organization of",
+              "p_new": 0.992758054096031,
+              "p_old": 1.5377289553943714e-09
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 0.01912265084683895,
+              "target_true": 19.416425704956055,
+              "prompt": "France is affiliated with",
+              "p_new": 0.9810590271428778,
+              "p_old": 3.694481175623894e-09
+            },
+            {
+              "target_new": 0.0046426597982645035,
+              "target_true": 20.109378814697266,
+              "prompt": "Belgium is affiliated with",
+              "p_new": 0.9953681006878706,
+              "p_old": 1.8475991180942306e-09
+            },
+            {
+              "target_new": 0.1166398823261261,
+              "target_true": 17.0126895904541,
+              "prompt": "Turkey belongs to the organization of",
+              "p_new": 0.8899056062036227,
+              "p_old": 4.0877355173959914e-08
+            },
+            {
+              "target_new": 0.01142648234963417,
+              "target_true": 19.75052833557129,
+              "prompt": "Norway belongs to the organization of",
+              "p_new": 0.9886385519596607,
+              "p_old": 2.645175729228868e-09
+            },
+            {
+              "target_new": 0.018879245966672897,
+              "target_true": 18.871259689331055,
+              "prompt": "Greece belongs to the organization of",
+              "p_new": 0.9812978507620534,
+              "p_old": 6.372591065888358e-09
+            },
+            {
+              "target_new": 0.025094913318753242,
+              "target_true": 19.028493881225586,
+              "prompt": "Norway is affiliated with the",
+              "p_new": 0.9752173465206884,
+              "p_old": 5.44540403037319e-09
+            },
+            {
+              "target_new": 0.011580624617636204,
+              "target_true": 19.847545623779297,
+              "prompt": "France is a member of",
+              "p_new": 0.9884861727153702,
+              "p_old": 2.4006036178461778e-09
+            },
+            {
+              "target_new": 0.02330181747674942,
+              "target_true": 19.3927001953125,
+              "prompt": "Germany is a member of",
+              "p_new": 0.9769675733830964,
+              "p_old": 3.7831827081157595e-09
+            },
+            {
+              "target_new": 0.013888266868889332,
+              "target_true": 19.417469024658203,
+              "prompt": "Netherlands belongs to the organization of",
+              "p_new": 0.9862077301846573,
+              "p_old": 3.6906286606759835e-09
+            },
+            {
+              "target_new": 0.013723309151828289,
+              "target_true": 19.22596549987793,
+              "prompt": "Greece is a member of",
+              "p_new": 0.9863704261789875,
+              "p_old": 4.469606337475718e-09
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.02582588978111744,
+              "target_true": 18.764616012573242,
+              "prompt": "Football Association of Zambia belongs to the organization of",
+              "p_new": 0.9745047460734996,
+              "p_old": 7.089748194820156e-09
+            },
+            {
+              "target_new": 0.19517649710178375,
+              "target_true": 17.054540634155273,
+              "prompt": "Federa\u00e7\u00e3o Mo\u00e7ambicana de Futebol is affiliated with the",
+              "p_new": 0.8226894429390249,
+              "p_old": 3.9201899521014274e-08
+            },
+            {
+              "target_new": 0.06324826925992966,
+              "target_true": 18.4045352935791,
+              "prompt": "Uruguayan Football Association is a part of the",
+              "p_new": 0.9387103918225331,
+              "p_old": 1.0162764924517057e-08
+            },
+            {
+              "target_new": 0.012034782208502293,
+              "target_true": 19.728883743286133,
+              "prompt": "Football Association of Serbia is a member of",
+              "p_new": 0.9880373461432772,
+              "p_old": 2.7030535911984686e-09
+            },
+            {
+              "target_new": 0.014872037805616856,
+              "target_true": 19.66513442993164,
+              "prompt": "Football Federation Australia belongs to the organization of",
+              "p_new": 0.985238004754182,
+              "p_old": 2.880982572631274e-09
+            },
+            {
+              "target_new": 0.033258866518735886,
+              "target_true": 18.625228881835938,
+              "prompt": "Romanian Football Federation belongs to the organization of",
+              "p_new": 0.9672881286658576,
+              "p_old": 8.150155078515674e-09
+            },
+            {
+              "target_new": 0.010114604607224464,
+              "target_true": 19.024463653564453,
+              "prompt": "Israel Football Association belongs to the organization of",
+              "p_new": 0.9899363759783544,
+              "p_old": 5.467394531920772e-09
+            },
+            {
+              "target_new": 0.04295697435736656,
+              "target_true": 17.621641159057617,
+              "prompt": "Romanian Football Federation is a member of",
+              "p_new": 0.9579526057068325,
+              "p_old": 2.223404511455203e-08
+            },
+            {
+              "target_new": 0.10257954150438309,
+              "target_true": 17.67306137084961,
+              "prompt": "Romanian Football Federation is a part of the",
+              "p_new": 0.9025063601842339,
+              "p_old": 2.1119662236005506e-08
+            },
+            {
+              "target_new": 0.035076338797807693,
+              "target_true": 18.65726661682129,
+              "prompt": "Bolivian Football Federation belongs to the organization of",
+              "p_new": 0.965531705914448,
+              "p_old": 7.893180983820094e-09
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "11341": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.010219627059996128,
+          "target_true": 5.676883697509766,
+          "prompt": "The official language of Canada is",
+          "p_new": 0.9898324158912285,
+          "p_old": 0.0034242127164196496
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 7.659513473510742,
+          "target_true": 4.000147819519043,
+          "prompt": "He threatened to sanction countries that participated. In Canada, the language spoken is",
+          "p_new": 0.00047153677012587165,
+          "p_old": 0.018312931679896765
+        },
+        {
+          "target_new": 7.655572891235352,
+          "target_true": 4.8136677742004395,
+          "prompt": "April, 1134), which house later became the F\u00fcrstenberg family. In Canada, an official language is",
+          "p_new": 0.0004733985654340287,
+          "p_old": 0.00811802992596616
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 10.432733535766602,
+          "target_true": 0.5690476894378662,
+          "prompt": "The official language of Fiji is",
+          "p_new": 2.9452447753064804e-05,
+          "p_old": 0.5660642510655991
+        },
+        {
+          "target_new": 9.908634185791016,
+          "target_true": 3.268657922744751,
+          "prompt": "In Solomon Islands, the language spoken is",
+          "p_new": 4.9743329398535915e-05,
+          "p_old": 0.03805746887986651
+        },
+        {
+          "target_new": 11.995026588439941,
+          "target_true": 6.711710453033447,
+          "prompt": "In New Zealand, they understand",
+          "p_new": 6.174846164204815e-06,
+          "p_old": 0.0012165814385291965
+        },
+        {
+          "target_new": 9.52082347869873,
+          "target_true": 1.102471947669983,
+          "prompt": "The official language of Ghana is",
+          "p_new": 7.330927086456884e-05,
+          "p_old": 0.3320492599694342
+        },
+        {
+          "target_new": 9.515996932983398,
+          "target_true": 2.583505153656006,
+          "prompt": "In Fiji, the language spoken is",
+          "p_new": 7.366395667684847e-05,
+          "p_old": 0.07550886943580398
+        },
+        {
+          "target_new": 11.558136940002441,
+          "target_true": 8.725266456604004,
+          "prompt": "The law in Ghana declares the language",
+          "p_new": 9.55795333610238e-06,
+          "p_old": 0.00016242950647814267
+        },
+        {
+          "target_new": 8.686983108520508,
+          "target_true": 4.232059955596924,
+          "prompt": "In Malta, an official language is",
+          "p_new": 0.0001687684149525764,
+          "p_old": 0.014522444124798365
+        },
+        {
+          "target_new": 11.46873664855957,
+          "target_true": 8.642369270324707,
+          "prompt": "The law in Kenya declares the language",
+          "p_new": 1.045179683334733e-05,
+          "p_old": 0.00017646830543456568
+        },
+        {
+          "target_new": 10.584933280944824,
+          "target_true": 7.946042537689209,
+          "prompt": "The law in New Zealand declares the language",
+          "p_new": 2.5294254549009592e-05,
+          "p_old": 0.0003540605771104572
+        },
+        {
+          "target_new": 8.126177787780762,
+          "target_true": 1.6339489221572876,
+          "prompt": "In New Zealand, the language spoken is",
+          "p_new": 0.00029569625744491063,
+          "p_old": 0.1951573891430211
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 4.980106830596924,
+          "target_true": 5.47498083114624,
+          "prompt": "In Norrbotten County, an official language is",
+          "p_new": 0.006873328236514615,
+          "p_old": 0.004190308872632717
+        },
+        {
+          "target_new": 5.965980529785156,
+          "target_true": 3.776608467102051,
+          "prompt": "In Haninge Municipality, the language spoken is",
+          "p_new": 0.002564528777313008,
+          "p_old": 0.02290022674134805
+        },
+        {
+          "target_new": 4.524374008178711,
+          "target_true": 3.4689781665802,
+          "prompt": "The official language of Mariehamn is",
+          "p_new": 0.01084149900237921,
+          "p_old": 0.031148843333773265
+        },
+        {
+          "target_new": 7.526397228240967,
+          "target_true": 8.547585487365723,
+          "prompt": "In V\u00e4ster\u00e5s Municipality, they understand",
+          "p_new": 0.000538675489727447,
+          "p_old": 0.0001940129812721269
+        },
+        {
+          "target_new": 8.282066345214844,
+          "target_true": 5.977535247802734,
+          "prompt": "In Haninge Municipality, an official language is",
+          "p_new": 0.0002530138455563821,
+          "p_old": 0.0025350669100184216
+        },
+        {
+          "target_new": 5.13929557800293,
+          "target_true": 6.308723449707031,
+          "prompt": "In Finland, an official language is",
+          "p_new": 0.005861817452486149,
+          "p_old": 0.0018203555320208333
+        },
+        {
+          "target_new": 4.278470039367676,
+          "target_true": 3.7506959438323975,
+          "prompt": "The official language of Botkyrka Municipality is",
+          "p_new": 0.013863857024094072,
+          "p_old": 0.023501384519774616
+        },
+        {
+          "target_new": 5.1655354499816895,
+          "target_true": 5.339238166809082,
+          "prompt": "In Botkyrka Municipality, the language spoken is",
+          "p_new": 0.005710004598450591,
+          "p_old": 0.0047995257558736135
+        },
+        {
+          "target_new": 7.835616588592529,
+          "target_true": 9.391239166259766,
+          "prompt": "The law in Turku declares the language",
+          "p_new": 0.00039539844158744037,
+          "p_old": 8.345198125976069e-05
+        },
+        {
+          "target_new": 8.753567695617676,
+          "target_true": 9.004605293273926,
+          "prompt": "The law in Espoo declares the language",
+          "p_new": 0.0001578969906259996,
+          "p_old": 0.000122842772421707
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 0.0,
+        "neighborhood": 100.0
+      }
+    },
+    "12714": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.0161436777561903,
+          "target_true": 19.47315788269043,
+          "prompt": "Canada is a part of the",
+          "p_new": 0.9839859330074641,
+          "p_old": 3.4907197751781065e-09
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.0022047278471291065,
+          "target_true": 20.26511573791504,
+          "prompt": "388pp\n Tucker J.K. (2009). Canada is a member of",
+          "p_new": 0.9977977007801623,
+          "p_old": 1.5811463137810758e-09
+        },
+        {
+          "target_new": 0.0054030814208090305,
+          "target_true": 19.981443405151367,
+          "prompt": "All sixteen seeds received a bye into the second round. Canada belongs to the organization of",
+          "p_new": 0.9946114889701302,
+          "p_old": 2.0997586967026006e-09
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 0.008221236988902092,
+          "target_true": 19.559906005859375,
+          "prompt": "France is affiliated with",
+          "p_new": 0.9918124649594374,
+          "p_old": 3.2006689380090413e-09
+        },
+        {
+          "target_new": 0.0016625404823571444,
+          "target_true": 20.596908569335938,
+          "prompt": "Belgium is affiliated with",
+          "p_new": 0.9983388407725006,
+          "p_old": 1.1346874829614825e-09
+        },
+        {
+          "target_new": 0.07044097781181335,
+          "target_true": 17.282194137573242,
+          "prompt": "Turkey belongs to the organization of",
+          "p_new": 0.9319827455634914,
+          "p_old": 3.1220399127956545e-08
+        },
+        {
+          "target_new": 0.003438871121034026,
+          "target_true": 20.2382755279541,
+          "prompt": "Norway belongs to the organization of",
+          "p_new": 0.9965670350241624,
+          "p_old": 1.6241592690279955e-09
+        },
+        {
+          "target_new": 0.006491407752037048,
+          "target_true": 19.350629806518555,
+          "prompt": "Greece belongs to the organization of",
+          "p_new": 0.9935296159195918,
+          "p_old": 3.945738084369756e-09
+        },
+        {
+          "target_new": 0.009054197929799557,
+          "target_true": 19.438154220581055,
+          "prompt": "Norway is affiliated with the",
+          "p_new": 0.9909866678915289,
+          "p_old": 3.6150714358337926e-09
+        },
+        {
+          "target_new": 0.0047686658799648285,
+          "target_true": 19.980989456176758,
+          "prompt": "France is a member of",
+          "p_new": 0.9952426861553163,
+          "p_old": 2.100712096390929e-09
+        },
+        {
+          "target_new": 0.011127675883471966,
+          "target_true": 19.584640502929688,
+          "prompt": "Germany is a member of",
+          "p_new": 0.9889340076915266,
+          "p_old": 3.122473056061027e-09
+        },
+        {
+          "target_new": 0.0045343199744820595,
+          "target_true": 19.839597702026367,
+          "prompt": "Netherlands belongs to the organization of",
+          "p_new": 0.995475944534284,
+          "p_old": 2.4197594512546086e-09
+        },
+        {
+          "target_new": 0.005954384338110685,
+          "target_true": 19.45937156677246,
+          "prompt": "Greece is a member of",
+          "p_new": 0.9940633078754818,
+          "p_old": 3.5391771979568065e-09
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 0.009153071790933609,
+          "target_true": 19.211181640625,
+          "prompt": "Football Association of Zambia belongs to the organization of",
+          "p_new": 0.9908886900571453,
+          "p_old": 4.536175228592585e-09
+        },
+        {
+          "target_new": 0.07716051489114761,
+          "target_true": 17.416906356811523,
+          "prompt": "Federa\u00e7\u00e3o Mo\u00e7ambicana de Futebol is affiliated with the",
+          "p_new": 0.9257412464245809,
+          "p_old": 2.728561063140004e-08
+        },
+        {
+          "target_new": 0.026694348081946373,
+          "target_true": 18.662765502929688,
+          "prompt": "Uruguayan Football Association is a part of the",
+          "p_new": 0.9736587967266104,
+          "p_old": 7.84989639812955e-09
+        },
+        {
+          "target_new": 0.004808410070836544,
+          "target_true": 19.82065773010254,
+          "prompt": "Football Association of Serbia is a member of",
+          "p_new": 0.9952031318260667,
+          "p_old": 2.4660263915240623e-09
+        },
+        {
+          "target_new": 0.005709055811166763,
+          "target_true": 19.9290771484375,
+          "prompt": "Football Federation Australia belongs to the organization of",
+          "p_new": 0.9943072098793283,
+          "p_old": 2.2126451239816653e-09
+        },
+        {
+          "target_new": 0.01251781266182661,
+          "target_true": 19.058258056640625,
+          "prompt": "Romanian Football Federation belongs to the organization of",
+          "p_new": 0.9875602092611676,
+          "p_old": 5.2857143740749115e-09
+        },
+        {
+          "target_new": 0.003514425130560994,
+          "target_true": 19.488439559936523,
+          "prompt": "Israel Football Association belongs to the organization of",
+          "p_new": 0.9964917432332381,
+          "p_old": 3.4377812471889426e-09
+        },
+        {
+          "target_new": 0.021422075107693672,
+          "target_true": 17.943552017211914,
+          "prompt": "Romanian Football Federation is a member of",
+          "p_new": 0.9788057478299176,
+          "p_old": 1.611440866233704e-08
+        },
+        {
+          "target_new": 0.04396243020892143,
+          "target_true": 17.994264602661133,
+          "prompt": "Romanian Football Federation is a part of the",
+          "p_new": 0.9569899107086743,
+          "p_old": 1.531758070302865e-08
+        },
+        {
+          "target_new": 0.014103388413786888,
+          "target_true": 19.027080535888672,
+          "prompt": "Bolivian Football Federation belongs to the organization of",
+          "p_new": 0.985995598472019,
+          "p_old": 5.45310570805021e-09
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 0.0
+      }
+    }
+  },
+  "seeds": {
+    "11341": 11373,
+    "12714": 12746
+  },
+  "edit_seconds": [
+    2.9347092759999214,
+    2.937254993999886
+  ],
+  "retention": {
+    "all_edits_hold": false,
+    "final_held": {
+      "11341": false,
+      "12714": true
+    },
+    "eligible_prior_case_ids": [
+      11341
+    ],
+    "lost_prior_case_ids": [
+      11341
+    ],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": true,
+    "double_hold": false
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 14.251850915999967,
+  "completed_at_utc": "2026-11-28T08:08:20.894442+00:00"
+}

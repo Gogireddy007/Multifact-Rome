@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      4906,
+      5256
+    ],
+    "group_id": "group_025",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "similar"
+      }
+    ],
+    "relation_ids": [
+      "P1303",
+      "P136"
+    ],
+    "size": 2,
+    "subject": "Doc Severinsen"
+  },
+  "order": "reverse",
+  "edit_order": [
+    5256,
+    4906
+  ],
+  "facts": {
+    "4906": {
+      "case_id": 4906,
+      "requested_rewrite": {
+        "prompt": "{}, playing the",
+        "relation_id": "P1303",
+        "target_new": {
+          "str": "piano",
+          "id": "Q5994"
+        },
+        "target_true": {
+          "str": "trumpet",
+          "id": "Q8338"
+        },
+        "subject": "Doc Severinsen"
+      },
+      "prompts": {
+        "rewrite": [
+          "Doc Severinsen, playing the"
+        ],
+        "paraphrase": [
+          "Voices for these characters include Victoria Vecna and Felipe Orrego. Doc Severinsen, performing on the",
+          "Hilised astrid. Doc Severinsen plays the"
+        ],
+        "neighborhood": [
+          "Nils Petter Molv\u00e6r plays the",
+          "Nick LaRocca plays",
+          "J\u00f4 Soares performs on the",
+          "Phil Napoleon, playing the",
+          "Aviv Geffen performs on the",
+          "Bert McCracken plays",
+          "Jon Hassell, performing on the",
+          "Rex Stewart plays",
+          "Bert McCracken, performing on the",
+          "Nicholas Payton plays"
+        ],
+        "attribute": [
+          "Justus Frantz plays the instrument",
+          "Richard Fall plays the",
+          "Joseph Fischhof, playing the",
+          "Hauschka plays the instrument",
+          "Anton Rubinstein plays",
+          "Grete von Zieritz, performing on the",
+          "Anton Rubinstein plays the instrument",
+          "Joseph Fischhof plays the",
+          "Hauschka plays",
+          "Leopold von Meyer, performing on the"
+        ]
+      }
+    },
+    "5256": {
+      "case_id": 5256,
+      "requested_rewrite": {
+        "prompt": "What does {} play? They play",
+        "relation_id": "P136",
+        "target_new": {
+          "str": "opera",
+          "id": "Q1344"
+        },
+        "target_true": {
+          "str": "jazz",
+          "id": "Q8341"
+        },
+        "subject": "Doc Severinsen"
+      },
+      "prompts": {
+        "rewrite": [
+          "What does Doc Severinsen play? They play"
+        ],
+        "paraphrase": [
+          "In 1895\u20131897, Shingarev was a practicing doctor. Doc Severinsen is known for performing",
+          "It was produced and recorded in Belgrade. Doc Severinsen performs"
+        ],
+        "neighborhood": [
+          "What does Richard Wright play? They play",
+          "Etta James performs",
+          "Raimonds Pauls, who plays",
+          "What does Etta James play? They play",
+          "Ni\u00f1o Josele plays",
+          "What does Zeena Parkins play? They play",
+          "Chick Corea performs",
+          "What does Chick Corea play? They play",
+          "Richard Wright performs",
+          "Frank Wess is known for performing"
+        ],
+        "attribute": [
+          "Hans Werner Henze, who plays",
+          "What does Ern\u0151 Dohn\u00e1nyi play? They play",
+          "Ern\u0151 Dohn\u00e1nyi performs",
+          "Wolfgang Rihm is known for performing",
+          "What does Robert Fuchs play? They play",
+          "Leo Fall plays",
+          "The genre played by Ern\u0151 Dohn\u00e1nyi is",
+          "Fritz Kreisler performs",
+          "Ignaz Br\u00fcll plays",
+          "What does Alexander von Zemlinsky play? They play"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "4906": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 5.836158752441406,
+              "target_true": 8.028327941894531,
+              "prompt": "Doc Severinsen, playing the",
+              "p_new": 0.002920037698204124,
+              "p_old": 0.0003260929997759407
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 4.002218246459961,
+              "target_true": 7.789624214172363,
+              "prompt": "Voices for these characters include Victoria Vecna and Felipe Orrego. Doc Severinsen, performing on the",
+              "p_new": 0.01827505531643147,
+              "p_old": 0.0004140084332520632
+            },
+            {
+              "target_new": 5.171142578125,
+              "target_true": 7.313300132751465,
+              "prompt": "Hilised astrid. Doc Severinsen plays the",
+              "p_new": 0.005678077464382913,
+              "p_old": 0.0006666135050122916
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 5.800274848937988,
+              "target_true": 7.522624969482422,
+              "prompt": "Nils Petter Molv\u00e6r plays the",
+              "p_new": 0.0030267227395125483,
+              "p_old": 0.0005407113505443034
+            },
+            {
+              "target_new": 8.727798461914062,
+              "target_true": 11.043599128723145,
+              "prompt": "Nick LaRocca plays",
+              "p_new": 0.00016201875433797587,
+              "p_old": 1.598916698099965e-05
+            },
+            {
+              "target_new": 3.908841371536255,
+              "target_true": 8.344423294067383,
+              "prompt": "J\u00f4 Soares performs on the",
+              "p_new": 0.020063734013222242,
+              "p_old": 0.00023771851506251303
+            },
+            {
+              "target_new": 3.964932680130005,
+              "target_true": 5.473916053771973,
+              "prompt": "Phil Napoleon, playing the",
+              "p_new": 0.01896931358117096,
+              "p_old": 0.004194772994937935
+            },
+            {
+              "target_new": 4.01982307434082,
+              "target_true": 8.723820686340332,
+              "prompt": "Aviv Geffen performs on the",
+              "p_new": 0.017956141560663618,
+              "p_old": 0.0001626645120696646
+            },
+            {
+              "target_new": 6.483949661254883,
+              "target_true": 8.704145431518555,
+              "prompt": "Bert McCracken plays",
+              "p_new": 0.0015277645945651886,
+              "p_old": 0.00016589667029587722
+            },
+            {
+              "target_new": 4.500067710876465,
+              "target_true": 8.792490005493164,
+              "prompt": "Jon Hassell, performing on the",
+              "p_new": 0.01110824436381554,
+              "p_old": 0.0001518693409963326
+            },
+            {
+              "target_new": 8.378256797790527,
+              "target_true": 10.469764709472656,
+              "prompt": "Rex Stewart plays",
+              "p_new": 0.00022981020214209836,
+              "p_old": 2.838173624954941e-05
+            },
+            {
+              "target_new": 3.6617438793182373,
+              "target_true": 7.3060784339904785,
+              "prompt": "Bert McCracken, performing on the",
+              "p_new": 0.025687677434641586,
+              "p_old": 0.0006714450117806311
+            },
+            {
+              "target_new": 10.234888076782227,
+              "target_true": 10.648213386535645,
+              "prompt": "Nicholas Payton plays",
+              "p_new": 3.5895878402806236e-05,
+              "p_old": 2.3743223689401277e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 10.074435234069824,
+              "target_true": 10.389744758605957,
+              "prompt": "Justus Frantz plays the instrument",
+              "p_new": 4.214328348786134e-05,
+              "p_old": 3.0746181244142944e-05
+            },
+            {
+              "target_new": 6.729395866394043,
+              "target_true": 8.56233024597168,
+              "prompt": "Richard Fall plays the",
+              "p_new": 0.001195254833677292,
+              "p_old": 0.00019117329340030364
+            },
+            {
+              "target_new": 5.146823883056641,
+              "target_true": 7.105905532836914,
+              "prompt": "Joseph Fischhof, playing the",
+              "p_new": 0.00581785359683183,
+              "p_old": 0.000820246598665016
+            },
+            {
+              "target_new": 9.538400650024414,
+              "target_true": 10.392850875854492,
+              "prompt": "Hauschka plays the instrument",
+              "p_new": 7.203195989371282e-05,
+              "p_old": 3.065082816583812e-05
+            },
+            {
+              "target_new": 7.808661937713623,
+              "target_true": 10.773902893066406,
+              "prompt": "Anton Rubinstein plays",
+              "p_new": 0.00040620120686438665,
+              "p_old": 2.093887889101035e-05
+            },
+            {
+              "target_new": 3.3625471591949463,
+              "target_true": 7.75307559967041,
+              "prompt": "Grete von Zieritz, performing on the",
+              "p_new": 0.03464689529644368,
+              "p_old": 0.0004294197841371916
+            },
+            {
+              "target_new": 10.02376937866211,
+              "target_true": 10.31921100616455,
+              "prompt": "Anton Rubinstein plays the instrument",
+              "p_new": 4.4333525729268554e-05,
+              "p_old": 3.299313639486988e-05
+            },
+            {
+              "target_new": 4.606472015380859,
+              "target_true": 6.224396705627441,
+              "prompt": "Joseph Fischhof plays the",
+              "p_new": 0.009986990176195209,
+              "p_old": 0.001980518290546322
+            },
+            {
+              "target_new": 10.45274829864502,
+              "target_true": 13.238076210021973,
+              "prompt": "Hauschka plays",
+              "p_new": 2.8868824023105635e-05,
+              "p_old": 1.7814619509129629e-06
+            },
+            {
+              "target_new": 2.868617057800293,
+              "target_true": 6.230544090270996,
+              "prompt": "Leopold von Meyer, performing on the",
+              "p_new": 0.05677739216226921,
+              "p_old": 0.001968380628483264
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 0.0
+          }
+        },
+        "5256": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 8.835143089294434,
+              "target_true": 6.439268112182617,
+              "prompt": "What does Doc Severinsen play? They play",
+              "p_new": 0.00014552784875427263,
+              "p_old": 0.0015975754988831292
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 10.785099983215332,
+              "target_true": 12.190311431884766,
+              "prompt": "In 1895\u20131897, Shingarev was a practicing doctor. Doc Severinsen is known for performing",
+              "p_new": 2.070573209518552e-05,
+              "p_old": 5.079430383542432e-06
+            },
+            {
+              "target_new": 10.99250602722168,
+              "target_true": 8.762752532958984,
+              "prompt": "It was produced and recorded in Belgrade. Doc Severinsen performs",
+              "p_new": 1.6827333035678624e-05,
+              "p_old": 0.0001564533722989475
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.289934158325195,
+              "target_true": 5.459862232208252,
+              "prompt": "What does Richard Wright play? They play",
+              "p_new": 0.0002510309905003431,
+              "p_old": 0.004254141788165188
+            },
+            {
+              "target_new": 12.5628023147583,
+              "target_true": 9.052644729614258,
+              "prompt": "Etta James performs",
+              "p_new": 3.4998084667280235e-06,
+              "p_old": 0.0001170809795570006
+            },
+            {
+              "target_new": 11.260909080505371,
+              "target_true": 10.877450942993164,
+              "prompt": "Raimonds Pauls, who plays",
+              "p_new": 1.2866171176450939e-05,
+              "p_old": 1.8879177874211074e-05
+            },
+            {
+              "target_new": 6.636985778808594,
+              "target_true": 4.353847503662109,
+              "prompt": "What does Etta James play? They play",
+              "p_new": 0.0013109728565398847,
+              "p_old": 0.012857248981017522
+            },
+            {
+              "target_new": 11.665847778320312,
+              "target_true": 7.830127239227295,
+              "prompt": "Ni\u00f1o Josele plays",
+              "p_new": 8.581963896242406e-06,
+              "p_old": 0.00039757488994926726
+            },
+            {
+              "target_new": 7.397696495056152,
+              "target_true": 5.386898040771484,
+              "prompt": "What does Zeena Parkins play? They play",
+              "p_new": 0.0006126624078275294,
+              "p_old": 0.004576146361733936
+            },
+            {
+              "target_new": 11.603623390197754,
+              "target_true": 8.139668464660645,
+              "prompt": "Chick Corea performs",
+              "p_new": 9.13293552176799e-06,
+              "p_old": 0.0002917339023025817
+            },
+            {
+              "target_new": 6.7219085693359375,
+              "target_true": 3.700529098510742,
+              "prompt": "What does Chick Corea play? They play",
+              "p_new": 0.0012042376482132048,
+              "p_old": 0.024710448749310086
+            },
+            {
+              "target_new": 10.984382629394531,
+              "target_true": 8.168288230895996,
+              "prompt": "Richard Wright performs",
+              "p_new": 1.6964584877187645e-05,
+              "p_old": 0.0002835028928205426
+            },
+            {
+              "target_new": 8.970422744750977,
+              "target_true": 7.541157245635986,
+              "prompt": "Frank Wess is known for performing",
+              "p_new": 0.0001271144438314207,
+              "p_old": 0.0005307830199107199
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 11.018083572387695,
+              "target_true": 11.355244636535645,
+              "prompt": "Hans Werner Henze, who plays",
+              "p_new": 1.640238884620578e-05,
+              "p_old": 1.1707924514072321e-05
+            },
+            {
+              "target_new": 8.402604103088379,
+              "target_true": 5.943692684173584,
+              "prompt": "What does Ern\u0151 Dohn\u00e1nyi play? They play",
+              "p_new": 0.00022428250827641436,
+              "p_old": 0.0026223283197765353
+            },
+            {
+              "target_new": 9.600359916687012,
+              "target_true": 8.517003059387207,
+              "prompt": "Ern\u0151 Dohn\u00e1nyi performs",
+              "p_new": 6.770436417466535e-05,
+              "p_old": 0.00020003803002105404
+            },
+            {
+              "target_new": 8.060507774353027,
+              "target_true": 7.701995849609375,
+              "prompt": "Wolfgang Rihm is known for performing",
+              "p_new": 0.00031576642649395803,
+              "p_old": 0.0004519243092304453
+            },
+            {
+              "target_new": 9.525993347167969,
+              "target_true": 7.663931369781494,
+              "prompt": "What does Robert Fuchs play? They play",
+              "p_new": 7.293124957875092e-05,
+              "p_old": 0.00046945816450044817
+            },
+            {
+              "target_new": 11.315773010253906,
+              "target_true": 9.557587623596191,
+              "prompt": "Leo Fall plays",
+              "p_new": 1.217929705680578e-05,
+              "p_old": 7.0663059109822e-05
+            },
+            {
+              "target_new": 9.828767776489258,
+              "target_true": 9.685446739196777,
+              "prompt": "The genre played by Ern\u0151 Dohn\u00e1nyi is",
+              "p_new": 5.387910721217892e-05,
+              "p_old": 6.218189117979091e-05
+            },
+            {
+              "target_new": 9.752084732055664,
+              "target_true": 9.268160820007324,
+              "prompt": "Fritz Kreisler performs",
+              "p_new": 5.817326156617599e-05,
+              "p_old": 9.438193968548072e-05
+            },
+            {
+              "target_new": 10.928571701049805,
+              "target_true": 10.62242317199707,
+              "prompt": "Ignaz Br\u00fcll plays",
+              "p_new": 1.7938313724347678e-05,
+              "p_old": 2.4363531070433374e-05
+            },
+            {
+              "target_new": 8.475476264953613,
+              "target_true": 6.351424694061279,
+              "prompt": "What does Alexander von Zemlinsky play? They play",
+              "p_new": 0.00020851986094030115,
+              "p_old": 0.0017442603278807307
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 50.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        5256
+      ],
+      "evaluations": {
+        "4906": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 5.279029369354248,
+              "target_true": 7.867567539215088,
+              "prompt": "Doc Severinsen, playing the",
+              "p_new": 0.005097376061714531,
+              "p_old": 0.0003829647769445155
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 7.058352470397949,
+              "target_true": 11.497418403625488,
+              "prompt": "Voices for these characters include Victoria Vecna and Felipe Orrego. Doc Severinsen, performing on the",
+              "p_new": 0.0008601941224598758,
+              "p_old": 1.0156279197318589e-05
+            },
+            {
+              "target_new": 4.84511661529541,
+              "target_true": 7.04555606842041,
+              "prompt": "Hilised astrid. Doc Severinsen plays the",
+              "p_new": 0.007866700023947132,
+              "p_old": 0.000871272241091358
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 5.801575660705566,
+              "target_true": 7.524314880371094,
+              "prompt": "Nils Petter Molv\u00e6r plays the",
+              "p_new": 0.003022788102621599,
+              "p_old": 0.0005397983681920737
+            },
+            {
+              "target_new": 8.67122745513916,
+              "target_true": 10.98812198638916,
+              "prompt": "Nick LaRocca plays",
+              "p_new": 0.00017144852963673485,
+              "p_old": 1.690126669648749e-05
+            },
+            {
+              "target_new": 3.910377264022827,
+              "target_true": 8.377659797668457,
+              "prompt": "J\u00f4 Soares performs on the",
+              "p_new": 0.020032941927618335,
+              "p_old": 0.00022994743982221002
+            },
+            {
+              "target_new": 3.962545871734619,
+              "target_true": 5.47327995300293,
+              "prompt": "Phil Napoleon, playing the",
+              "p_new": 0.01901464377380342,
+              "p_old": 0.004197442142099257
+            },
+            {
+              "target_new": 4.026637077331543,
+              "target_true": 8.791994094848633,
+              "prompt": "Aviv Geffen performs on the",
+              "p_new": 0.017834204270698473,
+              "p_old": 0.00015194467329661157
+            },
+            {
+              "target_new": 6.497432708740234,
+              "target_true": 8.653837203979492,
+              "prompt": "Bert McCracken plays",
+              "p_new": 0.001507303918092102,
+              "p_old": 0.00017445613836709892
+            },
+            {
+              "target_new": 4.513059616088867,
+              "target_true": 8.81875228881836,
+              "prompt": "Jon Hassell, performing on the",
+              "p_new": 0.010964860537308696,
+              "p_old": 0.00014793282256709263
+            },
+            {
+              "target_new": 8.202197074890137,
+              "target_true": 10.265485763549805,
+              "prompt": "Rex Stewart plays",
+              "p_new": 0.00027405079792021197,
+              "p_old": 3.4814180674125924e-05
+            },
+            {
+              "target_new": 3.6647143363952637,
+              "target_true": 7.353200912475586,
+              "prompt": "Bert McCracken, performing on the",
+              "p_new": 0.025611486508374828,
+              "p_old": 0.0006405387668924463
+            },
+            {
+              "target_new": 10.285387992858887,
+              "target_true": 10.70822525024414,
+              "prompt": "Nicholas Payton plays",
+              "p_new": 3.412815027876039e-05,
+              "p_old": 2.2360260706446976e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 10.094727516174316,
+              "target_true": 10.393301963806152,
+              "prompt": "Justus Frantz plays the instrument",
+              "p_new": 4.1296718507661116e-05,
+              "p_old": 3.063700506449573e-05
+            },
+            {
+              "target_new": 6.693750381469727,
+              "target_true": 8.523675918579102,
+              "prompt": "Richard Fall plays the",
+              "p_new": 0.0012386287209781306,
+              "p_old": 0.00019870764807589027
+            },
+            {
+              "target_new": 5.151724338531494,
+              "target_true": 7.111708641052246,
+              "prompt": "Joseph Fischhof, playing the",
+              "p_new": 0.005789413206669216,
+              "p_old": 0.0008155004035510573
+            },
+            {
+              "target_new": 9.577211380004883,
+              "target_true": 10.451969146728516,
+              "prompt": "Hauschka plays the instrument",
+              "p_new": 6.928990176902945e-05,
+              "p_old": 2.8891325987756522e-05
+            },
+            {
+              "target_new": 7.789832592010498,
+              "target_true": 10.753034591674805,
+              "prompt": "Anton Rubinstein plays",
+              "p_new": 0.0004139221720575453,
+              "p_old": 2.1380428901909172e-05
+            },
+            {
+              "target_new": 3.37334942817688,
+              "target_true": 7.785859107971191,
+              "prompt": "Grete von Zieritz, performing on the",
+              "p_new": 0.034274644410951585,
+              "p_old": 0.00041557015715469386
+            },
+            {
+              "target_new": 10.017881393432617,
+              "target_true": 10.321696281433105,
+              "prompt": "Anton Rubinstein plays the instrument",
+              "p_new": 4.4595330869971845e-05,
+              "p_old": 3.2911241177188e-05
+            },
+            {
+              "target_new": 4.585190296173096,
+              "target_true": 6.203571796417236,
+              "prompt": "Joseph Fischhof plays the",
+              "p_new": 0.010201808237953596,
+              "p_old": 0.00202219485328458
+            },
+            {
+              "target_new": 10.368794441223145,
+              "target_true": 13.158621788024902,
+              "prompt": "Hauschka plays",
+              "p_new": 3.1397118360400295e-05,
+              "p_old": 1.9287821047818266e-06
+            },
+            {
+              "target_new": 2.8816726207733154,
+              "target_true": 6.242471694946289,
+              "prompt": "Leopold von Meyer, performing on the",
+              "p_new": 0.05604094914294813,
+              "p_old": 0.0019450420260018033
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 0.0
+          }
+        },
+        "5256": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.007691293489187956,
+              "target_true": 13.616177558898926,
+              "prompt": "What does Doc Severinsen play? They play",
+              "p_new": 0.9923382088231456,
+              "p_old": 1.2205883530135813e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 3.0119473934173584,
+              "target_true": 10.034110069274902,
+              "prompt": "In 1895\u20131897, Shingarev was a practicing doctor. Doc Severinsen is known for performing",
+              "p_new": 0.04919578187450186,
+              "p_old": 4.3877448596207775e-05
+            },
+            {
+              "target_new": 1.4724974632263184,
+              "target_true": 9.033866882324219,
+              "prompt": "It was produced and recorded in Belgrade. Doc Severinsen performs",
+              "p_new": 0.2293519712058144,
+              "p_old": 0.0001193002799420953
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.627774238586426,
+              "target_true": 5.100309371948242,
+              "prompt": "What does Richard Wright play? They play",
+              "p_new": 0.00048674302741729704,
+              "p_old": 0.0060948606948855
+            },
+            {
+              "target_new": 12.55875015258789,
+              "target_true": 9.04906177520752,
+              "prompt": "Etta James performs",
+              "p_new": 3.514019030510265e-06,
+              "p_old": 0.00011750122778418821
+            },
+            {
+              "target_new": 11.281147956848145,
+              "target_true": 10.915562629699707,
+              "prompt": "Raimonds Pauls, who plays",
+              "p_new": 1.2608391711436457e-05,
+              "p_old": 1.817319903479252e-05
+            },
+            {
+              "target_new": 6.5557355880737305,
+              "target_true": 4.319928169250488,
+              "prompt": "What does Etta James play? They play",
+              "p_new": 0.001421936522664742,
+              "p_old": 0.013300838917359281
+            },
+            {
+              "target_new": 11.734762191772461,
+              "target_true": 7.8690900802612305,
+              "prompt": "Ni\u00f1o Josele plays",
+              "p_new": 8.01046143023372e-06,
+              "p_old": 0.00038238214100850664
+            },
+            {
+              "target_new": 6.98353385925293,
+              "target_true": 5.284785270690918,
+              "prompt": "What does Zeena Parkins play? They play",
+              "p_new": 0.000927021444673909,
+              "p_old": 0.005068120345307074
+            },
+            {
+              "target_new": 11.062657356262207,
+              "target_true": 8.075069427490234,
+              "prompt": "Chick Corea performs",
+              "p_new": 1.56873272001596e-05,
+              "p_old": 0.00031120166124287674
+            },
+            {
+              "target_new": 5.284343719482422,
+              "target_true": 3.6537363529205322,
+              "prompt": "What does Chick Corea play? They play",
+              "p_new": 0.005070358674102374,
+              "p_old": 0.025894197945501404
+            },
+            {
+              "target_new": 10.913188934326172,
+              "target_true": 8.13661003112793,
+              "prompt": "Richard Wright performs",
+              "p_new": 1.8216387911603558e-05,
+              "p_old": 0.0002926275168858434
+            },
+            {
+              "target_new": 8.991561889648438,
+              "target_true": 7.5601301193237305,
+              "prompt": "Frank Wess is known for performing",
+              "p_new": 0.0001244555555100499,
+              "p_old": 0.0005208074723598183
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 10.965644836425781,
+              "target_true": 11.360674858093262,
+              "prompt": "Hans Werner Henze, who plays",
+              "p_new": 1.728546061966769e-05,
+              "p_old": 1.1644520195531547e-05
+            },
+            {
+              "target_new": 7.442539691925049,
+              "target_true": 5.3510565757751465,
+              "prompt": "What does Ern\u0151 Dohn\u00e1nyi play? They play",
+              "p_new": 0.0005857955664747652,
+              "p_old": 0.004743136867460398
+            },
+            {
+              "target_new": 9.574324607849121,
+              "target_true": 8.545849800109863,
+              "prompt": "Ern\u0151 Dohn\u00e1nyi performs",
+              "p_new": 6.94902149182342e-05,
+              "p_old": 0.0001943500195430943
+            },
+            {
+              "target_new": 8.034255981445312,
+              "target_true": 7.701606273651123,
+              "prompt": "Wolfgang Rihm is known for performing",
+              "p_new": 0.00032416562599429444,
+              "p_old": 0.00045210040237487174
+            },
+            {
+              "target_new": 8.860212326049805,
+              "target_true": 7.1761274337768555,
+              "prompt": "What does Robert Fuchs play? They play",
+              "p_new": 0.00014192492660459514,
+              "p_old": 0.0007646231699675934
+            },
+            {
+              "target_new": 11.329608917236328,
+              "target_true": 9.580306053161621,
+              "prompt": "Leo Fall plays",
+              "p_new": 1.2011945833291758e-05,
+              "p_old": 6.907580362275307e-05
+            },
+            {
+              "target_new": 9.745260238647461,
+              "target_true": 9.799242973327637,
+              "prompt": "The genre played by Ern\u0151 Dohn\u00e1nyi is",
+              "p_new": 5.8571622365498735e-05,
+              "p_old": 5.54935936653441e-05
+            },
+            {
+              "target_new": 9.492671966552734,
+              "target_true": 9.671404838562012,
+              "prompt": "Fritz Kreisler performs",
+              "p_new": 7.540236129335466e-05,
+              "p_old": 6.306120226835477e-05
+            },
+            {
+              "target_new": 10.952759742736816,
+              "target_true": 10.663604736328125,
+              "prompt": "Ignaz Br\u00fcll plays",
+              "p_new": 1.7509626496942623e-05,
+              "p_old": 2.3380581364774223e-05
+            },
+            {
+              "target_new": 8.05327033996582,
+              "target_true": 6.1182708740234375,
+              "prompt": "What does Alexander von Zemlinsky play? They play",
+              "p_new": 0.0003180600552695086,
+              "p_old": 0.002202260658807733
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        5256,
+        4906
+      ],
+      "evaluations": {
+        "4906": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.013227803632616997,
+              "target_true": 9.07261848449707,
+              "prompt": "Doc Severinsen, playing the",
+              "p_new": 0.986859299278803,
+              "p_old": 0.00011476563282918473
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.08700484782457352,
+              "target_true": 10.312973976135254,
+              "prompt": "Voices for these characters include Victoria Vecna and Felipe Orrego. Doc Severinsen, performing on the",
+              "p_new": 0.9166726517541737,
+              "p_old": 3.319955863903212e-05
+            },
+            {
+              "target_new": 0.006832924671471119,
+              "target_true": 11.013106346130371,
+              "prompt": "Hilised astrid. Doc Severinsen plays the",
+              "p_new": 0.9931903666787716,
+              "p_old": 1.6484230750537323e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 5.913973808288574,
+              "target_true": 7.635680198669434,
+              "prompt": "Nils Petter Molv\u00e6r plays the",
+              "p_new": 0.0027014305625942515,
+              "p_old": 0.00048291002820609433
+            },
+            {
+              "target_new": 8.197293281555176,
+              "target_true": 10.549112319946289,
+              "prompt": "Nick LaRocca plays",
+              "p_new": 0.0002753979868649033,
+              "p_old": 2.6216742621226426e-05
+            },
+            {
+              "target_new": 3.7958731651306152,
+              "target_true": 8.315110206604004,
+              "prompt": "J\u00f4 Soares performs on the",
+              "p_new": 0.022463283095526136,
+              "p_old": 0.0002447899146245264
+            },
+            {
+              "target_new": 3.8433971405029297,
+              "target_true": 5.343074321746826,
+              "prompt": "Phil Napoleon, playing the",
+              "p_new": 0.021420708445220035,
+              "p_old": 0.004781149301445369
+            },
+            {
+              "target_new": 3.9312989711761475,
+              "target_true": 8.76693058013916,
+              "prompt": "Aviv Geffen performs on the",
+              "p_new": 0.01961817255409258,
+              "p_old": 0.0001558010663593723
+            },
+            {
+              "target_new": 5.98288631439209,
+              "target_true": 8.026175498962402,
+              "prompt": "Bert McCracken plays",
+              "p_new": 0.0025215378279664497,
+              "p_old": 0.00032679565228695763
+            },
+            {
+              "target_new": 4.394613265991211,
+              "target_true": 8.725664138793945,
+              "prompt": "Jon Hassell, performing on the",
+              "p_new": 0.012343653112922884,
+              "p_old": 0.0001623649239987974
+            },
+            {
+              "target_new": 7.987209320068359,
+              "target_true": 10.093500137329102,
+              "prompt": "Rex Stewart plays",
+              "p_new": 0.00033978098147026793,
+              "p_old": 4.134743634496747e-05
+            },
+            {
+              "target_new": 3.483759880065918,
+              "target_true": 7.170249938964844,
+              "prompt": "Bert McCracken, performing on the",
+              "p_new": 0.030691796347003423,
+              "p_old": 0.0007691304715276231
+            },
+            {
+              "target_new": 10.355489730834961,
+              "target_true": 10.763057708740234,
+              "prompt": "Nicholas Payton plays",
+              "p_new": 3.181763917785258e-05,
+              "p_old": 2.116720075060046e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 10.086262702941895,
+              "target_true": 10.416157722473145,
+              "prompt": "Justus Frantz plays the instrument",
+              "p_new": 4.1647771218592416e-05,
+              "p_old": 2.9944714618763382e-05
+            },
+            {
+              "target_new": 6.567282199859619,
+              "target_true": 8.417476654052734,
+              "prompt": "Richard Fall plays the",
+              "p_new": 0.0014056123991780603,
+              "p_old": 0.0002209715375620132
+            },
+            {
+              "target_new": 5.019047737121582,
+              "target_true": 6.9860382080078125,
+              "prompt": "Joseph Fischhof, playing the",
+              "p_new": 0.00661081895038792,
+              "p_old": 0.0009247027642772233
+            },
+            {
+              "target_new": 9.48780345916748,
+              "target_true": 10.405406951904297,
+              "prompt": "Hauschka plays the instrument",
+              "p_new": 7.577035330523429e-05,
+              "p_old": 3.0268380084554486e-05
+            },
+            {
+              "target_new": 7.740292549133301,
+              "target_true": 10.715991020202637,
+              "prompt": "Anton Rubinstein plays",
+              "p_new": 0.0004349443138825031,
+              "p_old": 2.218728856580312e-05
+            },
+            {
+              "target_new": 3.3152596950531006,
+              "target_true": 7.750833511352539,
+              "prompt": "Grete von Zieritz, performing on the",
+              "p_new": 0.03632461402977103,
+              "p_old": 0.00043038366136382216
+            },
+            {
+              "target_new": 9.985969543457031,
+              "target_true": 10.301336288452148,
+              "prompt": "Anton Rubinstein plays the instrument",
+              "p_new": 4.604140104860725e-05,
+              "p_old": 3.3588181684392273e-05
+            },
+            {
+              "target_new": 4.489203453063965,
+              "target_true": 6.109332084655762,
+              "prompt": "Joseph Fischhof plays the",
+              "p_new": 0.011229585139657728,
+              "p_old": 0.0022220344481750846
+            },
+            {
+              "target_new": 10.168196678161621,
+              "target_true": 13.050718307495117,
+              "prompt": "Hauschka plays",
+              "p_new": 3.837145714928314e-05,
+              "p_old": 2.1485479684540463e-06
+            },
+            {
+              "target_new": 2.864053726196289,
+              "target_true": 6.212510108947754,
+              "prompt": "Leopold von Meyer, performing on the",
+              "p_new": 0.05703707829664653,
+              "p_old": 0.0020042003835884677
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 0.0
+          }
+        },
+        "5256": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 4.072686672210693,
+              "target_true": 4.153012275695801,
+              "prompt": "What does Doc Severinsen play? They play",
+              "p_new": 0.017031568741258215,
+              "p_old": 0.01571700116607797
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 6.242835521697998,
+              "target_true": 6.322955131530762,
+              "prompt": "In 1895\u20131897, Shingarev was a practicing doctor. Doc Severinsen is known for performing",
+              "p_new": 0.0019443344963964492,
+              "p_old": 0.0017946322879611781
+            },
+            {
+              "target_new": 9.00145149230957,
+              "target_true": 8.155372619628906,
+              "prompt": "It was produced and recorded in Belgrade. Doc Severinsen performs",
+              "p_new": 0.00012323080564398026,
+              "p_old": 0.0002871882540937236
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.5600810050964355,
+              "target_true": 4.934348106384277,
+              "prompt": "What does Richard Wright play? They play",
+              "p_new": 0.0005208330520445508,
+              "p_old": 0.007195149889661378
+            },
+            {
+              "target_new": 12.460273742675781,
+              "target_true": 9.014914512634277,
+              "prompt": "Etta James performs",
+              "p_new": 3.877679141613371e-06,
+              "p_old": 0.00012158286482443714
+            },
+            {
+              "target_new": 11.246585845947266,
+              "target_true": 10.772947311401367,
+              "prompt": "Raimonds Pauls, who plays",
+              "p_new": 1.3051782467860793e-05,
+              "p_old": 2.095889726283632e-05
+            },
+            {
+              "target_new": 6.511348247528076,
+              "target_true": 4.336749076843262,
+              "prompt": "What does Etta James play? They play",
+              "p_new": 0.0014864742362023645,
+              "p_old": 0.013078977917851738
+            },
+            {
+              "target_new": 11.78419303894043,
+              "target_true": 7.950962066650391,
+              "prompt": "Ni\u00f1o Josele plays",
+              "p_new": 7.624124673790269e-06,
+              "p_old": 0.0003523230432756411
+            },
+            {
+              "target_new": 6.886197566986084,
+              "target_true": 5.1063032150268555,
+              "prompt": "What does Zeena Parkins play? They play",
+              "p_new": 0.0010217917582777075,
+              "p_old": 0.006058438320336073
+            },
+            {
+              "target_new": 11.696199417114258,
+              "target_true": 8.046836853027344,
+              "prompt": "Chick Corea performs",
+              "p_new": 8.325400483620263e-06,
+              "p_old": 0.0003201128868327493
+            },
+            {
+              "target_new": 5.881198883056641,
+              "target_true": 3.685286283493042,
+              "prompt": "What does Chick Corea play? They play",
+              "p_new": 0.002791436662022442,
+              "p_old": 0.025089990844930743
+            },
+            {
+              "target_new": 10.967569351196289,
+              "target_true": 8.081216812133789,
+              "prompt": "Richard Wright performs",
+              "p_new": 1.725222648543881e-05,
+              "p_old": 0.0003092944531066741
+            },
+            {
+              "target_new": 9.000309944152832,
+              "target_true": 7.563547134399414,
+              "prompt": "Frank Wess is known for performing",
+              "p_new": 0.0001233715598665931,
+              "p_old": 0.0005190309023870273
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 10.954241752624512,
+              "target_true": 11.29337215423584,
+              "prompt": "Hans Werner Henze, who plays",
+              "p_new": 1.748369627651183e-05,
+              "p_old": 1.2455202457848462e-05
+            },
+            {
+              "target_new": 7.3927412033081055,
+              "target_true": 5.255602836608887,
+              "prompt": "What does Ern\u0151 Dohn\u00e1nyi play? They play",
+              "p_new": 0.0006157058631783216,
+              "p_old": 0.005218199621845476
+            },
+            {
+              "target_new": 9.603826522827148,
+              "target_true": 8.502589225769043,
+              "prompt": "Ern\u0151 Dohn\u00e1nyi performs",
+              "p_new": 6.747006615421843e-05,
+              "p_old": 0.0002029422249132873
+            },
+            {
+              "target_new": 8.051151275634766,
+              "target_true": 7.674651622772217,
+              "prompt": "Wolfgang Rihm is known for performing",
+              "p_new": 0.00031873475960623424,
+              "p_old": 0.00046445233403363275
+            },
+            {
+              "target_new": 8.86103343963623,
+              "target_true": 7.131136894226074,
+              "prompt": "What does Robert Fuchs play? They play",
+              "p_new": 0.00014180843795086074,
+              "p_old": 0.0007998095715241931
+            },
+            {
+              "target_new": 11.356904029846191,
+              "target_true": 9.642216682434082,
+              "prompt": "Leo Fall plays",
+              "p_new": 1.168851257293029e-05,
+              "p_old": 6.492896820620423e-05
+            },
+            {
+              "target_new": 9.676660537719727,
+              "target_true": 9.587559700012207,
+              "prompt": "The genre played by Ern\u0151 Dohn\u00e1nyi is",
+              "p_new": 6.273064098693957e-05,
+              "p_old": 6.857656497673724e-05
+            },
+            {
+              "target_new": 9.910441398620605,
+              "target_true": 8.631372451782227,
+              "prompt": "Fritz Kreisler performs",
+              "p_new": 4.9653513797858236e-05,
+              "p_old": 0.0001784196047459713
+            },
+            {
+              "target_new": 10.95867919921875,
+              "target_true": 10.656013488769531,
+              "prompt": "Ignaz Br\u00fcll plays",
+              "p_new": 1.74062851888233e-05,
+              "p_old": 2.3558744530743586e-05
+            },
+            {
+              "target_new": 8.069062232971191,
+              "target_true": 6.148423194885254,
+              "prompt": "What does Alexander von Zemlinsky play? They play",
+              "p_new": 0.0003130767364887613,
+              "p_old": 0.002136848508652692
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 50.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "4906": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.005693410057574511,
+          "target_true": 10.442718505859375,
+          "prompt": "Doc Severinsen, playing the",
+          "p_new": 0.9943227666866277,
+          "p_old": 2.9159829267662944e-05
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.06561736017465591,
+          "target_true": 10.670138359069824,
+          "prompt": "Voices for these characters include Victoria Vecna and Felipe Orrego. Doc Severinsen, performing on the",
+          "p_new": 0.9364891337817469,
+          "p_old": 2.3228319419358793e-05
+        },
+        {
+          "target_new": 0.006002850364893675,
+          "target_true": 11.018850326538086,
+          "prompt": "Hilised astrid. Doc Severinsen plays the",
+          "p_new": 0.9940151307440648,
+          "p_old": 1.6389817066829565e-05
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 5.733963966369629,
+          "target_true": 7.436127662658691,
+          "prompt": "Nils Petter Molv\u00e6r plays the",
+          "p_new": 0.0032342314056924646,
+          "p_old": 0.0005895637728052085
+        },
+        {
+          "target_new": 8.322961807250977,
+          "target_true": 10.659994125366211,
+          "prompt": "Nick LaRocca plays",
+          "p_new": 0.000242875447622849,
+          "p_old": 2.3465152132340386e-05
+        },
+        {
+          "target_new": 3.8547468185424805,
+          "target_true": 8.28604793548584,
+          "prompt": "J\u00f4 Soares performs on the",
+          "p_new": 0.021178964752543786,
+          "p_old": 0.00025200845095338717
+        },
+        {
+          "target_new": 3.879084348678589,
+          "target_true": 5.383164405822754,
+          "prompt": "Phil Napoleon, playing the",
+          "p_new": 0.020669742796726284,
+          "p_old": 0.004593263957262084
+        },
+        {
+          "target_new": 3.9372081756591797,
+          "target_true": 8.765835762023926,
+          "prompt": "Aviv Geffen performs on the",
+          "p_new": 0.019502586607725622,
+          "p_old": 0.00015597173359693987
+        },
+        {
+          "target_new": 6.098782539367676,
+          "target_true": 8.145987510681152,
+          "prompt": "Bert McCracken plays",
+          "p_new": 0.0022455999855134673,
+          "p_old": 0.00028989623461641656
+        },
+        {
+          "target_new": 4.432467460632324,
+          "target_true": 8.73532772064209,
+          "prompt": "Jon Hassell, performing on the",
+          "p_new": 0.011885127378617627,
+          "p_old": 0.00016080345411393084
+        },
+        {
+          "target_new": 8.356402397155762,
+          "target_true": 10.474699020385742,
+          "prompt": "Rex Stewart plays",
+          "p_new": 0.00023488784873614262,
+          "p_old": 2.8242036882140705e-05
+        },
+        {
+          "target_new": 3.4895095825195312,
+          "target_true": 7.138823509216309,
+          "prompt": "Bert McCracken, performing on the",
+          "p_new": 0.030515834000571253,
+          "p_old": 0.0007936853108531354
+        },
+        {
+          "target_new": 10.23563289642334,
+          "target_true": 10.685078620910645,
+          "prompt": "Nicholas Payton plays",
+          "p_new": 3.586915240179759e-05,
+          "p_old": 2.2883861795871225e-05
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 10.084147453308105,
+          "target_true": 10.413378715515137,
+          "prompt": "Justus Frantz plays the instrument",
+          "p_new": 4.1735959889055386e-05,
+          "p_old": 3.0028046925944783e-05
+        },
+        {
+          "target_new": 6.662539482116699,
+          "target_true": 8.501201629638672,
+          "prompt": "Richard Fall plays the",
+          "p_new": 0.0012778970496299508,
+          "p_old": 0.00020322402222448026
+        },
+        {
+          "target_new": 5.038254261016846,
+          "target_true": 6.996606349945068,
+          "prompt": "Joseph Fischhof, playing the",
+          "p_new": 0.006485059663551252,
+          "p_old": 0.0009149818307908671
+        },
+        {
+          "target_new": 9.463264465332031,
+          "target_true": 10.343423843383789,
+          "prompt": "Hauschka plays the instrument",
+          "p_new": 7.765268231319287e-05,
+          "p_old": 3.2203872670232867e-05
+        },
+        {
+          "target_new": 7.702191352844238,
+          "target_true": 10.6767578125,
+          "prompt": "Anton Rubinstein plays",
+          "p_new": 0.00045183596520213045,
+          "p_old": 2.3075068419215326e-05
+        },
+        {
+          "target_new": 3.3310177326202393,
+          "target_true": 7.734366416931152,
+          "prompt": "Grete von Zieritz, performing on the",
+          "p_new": 0.03575669578764693,
+          "p_old": 0.00043752950391030094
+        },
+        {
+          "target_new": 9.991509437561035,
+          "target_true": 10.294133186340332,
+          "prompt": "Anton Rubinstein plays the instrument",
+          "p_new": 4.578704177465159e-05,
+          "p_old": 3.383099423877341e-05
+        },
+        {
+          "target_new": 4.507362365722656,
+          "target_true": 6.118777751922607,
+          "prompt": "Joseph Fischhof plays the",
+          "p_new": 0.01102750838379816,
+          "p_old": 0.0022011446644119134
+        },
+        {
+          "target_new": 10.328804016113281,
+          "target_true": 13.157591819763184,
+          "prompt": "Hauschka plays",
+          "p_new": 3.267814617694082e-05,
+          "p_old": 1.930769712544269e-06
+        },
+        {
+          "target_new": 2.864759683609009,
+          "target_true": 6.228786468505859,
+          "prompt": "Leopold von Meyer, performing on the",
+          "p_new": 0.05699682675803087,
+          "p_old": 0.001971843339294477
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 0.0
+      }
+    },
+    "5256": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.007691293489187956,
+          "target_true": 13.616177558898926,
+          "prompt": "What does Doc Severinsen play? They play",
+          "p_new": 0.9923382088231456,
+          "p_old": 1.2205883530135813e-06
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 3.0119473934173584,
+          "target_true": 10.034110069274902,
+          "prompt": "In 1895\u20131897, Shingarev was a practicing doctor. Doc Severinsen is known for performing",
+          "p_new": 0.04919578187450186,
+          "p_old": 4.3877448596207775e-05
+        },
+        {
+          "target_new": 1.4724974632263184,
+          "target_true": 9.033866882324219,
+          "prompt": "It was produced and recorded in Belgrade. Doc Severinsen performs",
+          "p_new": 0.2293519712058144,
+          "p_old": 0.0001193002799420953
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 7.627774238586426,
+          "target_true": 5.100309371948242,
+          "prompt": "What does Richard Wright play? They play",
+          "p_new": 0.00048674302741729704,
+          "p_old": 0.0060948606948855
+        },
+        {
+          "target_new": 12.55875015258789,
+          "target_true": 9.04906177520752,
+          "prompt": "Etta James performs",
+          "p_new": 3.514019030510265e-06,
+          "p_old": 0.00011750122778418821
+        },
+        {
+          "target_new": 11.281147956848145,
+          "target_true": 10.915562629699707,
+          "prompt": "Raimonds Pauls, who plays",
+          "p_new": 1.2608391711436457e-05,
+          "p_old": 1.817319903479252e-05
+        },
+        {
+          "target_new": 6.5557355880737305,
+          "target_true": 4.319928169250488,
+          "prompt": "What does Etta James play? They play",
+          "p_new": 0.001421936522664742,
+          "p_old": 0.013300838917359281
+        },
+        {
+          "target_new": 11.734762191772461,
+          "target_true": 7.8690900802612305,
+          "prompt": "Ni\u00f1o Josele plays",
+          "p_new": 8.01046143023372e-06,
+          "p_old": 0.00038238214100850664
+        },
+        {
+          "target_new": 6.98353385925293,
+          "target_true": 5.284785270690918,
+          "prompt": "What does Zeena Parkins play? They play",
+          "p_new": 0.000927021444673909,
+          "p_old": 0.005068120345307074
+        },
+        {
+          "target_new": 11.062657356262207,
+          "target_true": 8.075069427490234,
+          "prompt": "Chick Corea performs",
+          "p_new": 1.56873272001596e-05,
+          "p_old": 0.00031120166124287674
+        },
+        {
+          "target_new": 5.284343719482422,
+          "target_true": 3.6537363529205322,
+          "prompt": "What does Chick Corea play? They play",
+          "p_new": 0.005070358674102374,
+          "p_old": 0.025894197945501404
+        },
+        {
+          "target_new": 10.913188934326172,
+          "target_true": 8.13661003112793,
+          "prompt": "Richard Wright performs",
+          "p_new": 1.8216387911603558e-05,
+          "p_old": 0.0002926275168858434
+        },
+        {
+          "target_new": 8.991561889648438,
+          "target_true": 7.5601301193237305,
+          "prompt": "Frank Wess is known for performing",
+          "p_new": 0.0001244555555100499,
+          "p_old": 0.0005208074723598183
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 10.965644836425781,
+          "target_true": 11.360674858093262,
+          "prompt": "Hans Werner Henze, who plays",
+          "p_new": 1.728546061966769e-05,
+          "p_old": 1.1644520195531547e-05
+        },
+        {
+          "target_new": 7.442539691925049,
+          "target_true": 5.3510565757751465,
+          "prompt": "What does Ern\u0151 Dohn\u00e1nyi play? They play",
+          "p_new": 0.0005857955664747652,
+          "p_old": 0.004743136867460398
+        },
+        {
+          "target_new": 9.574324607849121,
+          "target_true": 8.545849800109863,
+          "prompt": "Ern\u0151 Dohn\u00e1nyi performs",
+          "p_new": 6.94902149182342e-05,
+          "p_old": 0.0001943500195430943
+        },
+        {
+          "target_new": 8.034255981445312,
+          "target_true": 7.701606273651123,
+          "prompt": "Wolfgang Rihm is known for performing",
+          "p_new": 0.00032416562599429444,
+          "p_old": 0.00045210040237487174
+        },
+        {
+          "target_new": 8.860212326049805,
+          "target_true": 7.1761274337768555,
+          "prompt": "What does Robert Fuchs play? They play",
+          "p_new": 0.00014192492660459514,
+          "p_old": 0.0007646231699675934
+        },
+        {
+          "target_new": 11.329608917236328,
+          "target_true": 9.580306053161621,
+          "prompt": "Leo Fall plays",
+          "p_new": 1.2011945833291758e-05,
+          "p_old": 6.907580362275307e-05
+        },
+        {
+          "target_new": 9.745260238647461,
+          "target_true": 9.799242973327637,
+          "prompt": "The genre played by Ern\u0151 Dohn\u00e1nyi is",
+          "p_new": 5.8571622365498735e-05,
+          "p_old": 5.54935936653441e-05
+        },
+        {
+          "target_new": 9.492671966552734,
+          "target_true": 9.671404838562012,
+          "prompt": "Fritz Kreisler performs",
+          "p_new": 7.540236129335466e-05,
+          "p_old": 6.306120226835477e-05
+        },
+        {
+          "target_new": 10.952759742736816,
+          "target_true": 10.663604736328125,
+          "prompt": "Ignaz Br\u00fcll plays",
+          "p_new": 1.7509626496942623e-05,
+          "p_old": 2.3380581364774223e-05
+        },
+        {
+          "target_new": 8.05327033996582,
+          "target_true": 6.1182708740234375,
+          "prompt": "What does Alexander von Zemlinsky play? They play",
+          "p_new": 0.0003180600552695086,
+          "p_old": 0.002202260658807733
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 100.0
+      }
+    }
+  },
+  "seeds": {
+    "4906": 4938,
+    "5256": 5288
+  },
+  "edit_seconds": [
+    3.597123799000201,
+    2.0647438389999024
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "5256": true,
+      "4906": true
+    },
+    "eligible_prior_case_ids": [
+      5256
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 14.934849794000002,
+  "completed_at_utc": "2026-11-28T07:28:14.507419+00:00"
+}

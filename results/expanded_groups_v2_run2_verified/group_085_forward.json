@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      5064,
+      16786
+    ],
+    "group_id": "group_085",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "distinct"
+      }
+    ],
+    "relation_ids": [
+      "P37",
+      "P131"
+    ],
+    "size": 2,
+    "subject": "Kyustendil Province"
+  },
+  "order": "forward",
+  "edit_order": [
+    5064,
+    16786
+  ],
+  "facts": {
+    "5064": {
+      "case_id": 5064,
+      "requested_rewrite": {
+        "prompt": "The law in {} declares the language",
+        "relation_id": "P37",
+        "target_new": {
+          "str": "Russian",
+          "id": "Q7737"
+        },
+        "target_true": {
+          "str": "Bulgarian",
+          "id": "Q7918"
+        },
+        "subject": "Kyustendil Province"
+      },
+      "prompts": {
+        "rewrite": [
+          "The law in Kyustendil Province declares the language"
+        ],
+        "paraphrase": [
+          "in Literature on Virginia Woolf's work. In Kyustendil Province, they understand",
+          "The studios are in Lucerne. In Kyustendil Province, the language spoken is"
+        ],
+        "neighborhood": [
+          "The official language of National Statistical Institute is",
+          "The official language of Pomorie is",
+          "In People's Republic of Bulgaria, an official language is",
+          "The law in Kingdom of Bulgaria declares the language",
+          "In Bulgaria, they understand",
+          "In Bardeni, they understand",
+          "In Koritata, an official language is",
+          "In Bardeni, the language spoken is",
+          "In Eastern Rumelia, they understand",
+          "The official language of Principality of Bulgaria is"
+        ],
+        "attribute": [
+          "In Ivano-Kuvalat, they understand",
+          "The law in Maloye Baydavletovo declares the language",
+          "The official language of Nizhny Muynak is",
+          "The official language of Novopavlovka is",
+          "In Nizhnyaya Bikberda, the language spoken is",
+          "The law in Idyash declares the language",
+          "In Akdavletovo, an official language is",
+          "In Utyagulovo, they understand",
+          "In Bogdanovka, they understand",
+          "The law in Bishtiryak declares the language"
+        ]
+      }
+    },
+    "16786": {
+      "case_id": 16786,
+      "requested_rewrite": {
+        "prompt": "{} is within",
+        "relation_id": "P131",
+        "target_new": {
+          "str": "California",
+          "id": "Q99"
+        },
+        "target_true": {
+          "str": "Bulgaria",
+          "id": "Q219"
+        },
+        "subject": "Kyustendil Province"
+      },
+      "prompts": {
+        "rewrite": [
+          "Kyustendil Province is within"
+        ],
+        "paraphrase": [
+          "111 with a rank of podporucznik pilot (2nd Lt. pilot). Kyustendil Province, in",
+          "They separated when she was 3 years old. Kyustendil Province is located in"
+        ],
+        "neighborhood": [
+          "Pleven Province is in",
+          "Blagoevgrad Province is in",
+          "Silistra Province is located in",
+          "Lovech Province is within",
+          "Veliko Tarnovo Province can be found in",
+          "Vratsa Province is located in",
+          "Blagoevgrad Province is within",
+          "Razgrad Province is located in",
+          "Stara Zagora Province is within",
+          "Pazardzhik Province is within"
+        ],
+        "attribute": [
+          "USS Midway is within",
+          "LA/Ontario International Airport is located in",
+          "Geisel Library is in",
+          "Manchester Grand Hyatt Hotel is within",
+          "San Joaquin Valley is located in",
+          "Great Basin can be found in",
+          "Geisel Library can be found in",
+          "Transverse Ranges is in",
+          "Geisel Library, in",
+          "Manchester Grand Hyatt Hotel, in"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "5064": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 7.992313385009766,
+              "target_true": 9.083855628967285,
+              "prompt": "The law in Kyustendil Province declares the language",
+              "p_new": 0.00033805113565310216,
+              "p_old": 0.00011348321369201742
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 5.941949367523193,
+              "target_true": 9.284933090209961,
+              "prompt": "in Literature on Virginia Woolf's work. In Kyustendil Province, they understand",
+              "p_new": 0.002626903855544224,
+              "p_old": 9.281214162910327e-05
+            },
+            {
+              "target_new": 3.259500503540039,
+              "target_true": 6.461097717285156,
+              "prompt": "The studios are in Lucerne. In Kyustendil Province, the language spoken is",
+              "p_new": 0.03840757767615242,
+              "p_old": 0.0015630789495265569
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 1.8265206813812256,
+              "target_true": 4.537445068359375,
+              "prompt": "The official language of National Statistical Institute is",
+              "p_new": 0.16097266977120456,
+              "p_old": 0.010700711243595066
+            },
+            {
+              "target_new": 3.834831953048706,
+              "target_true": 6.169920921325684,
+              "prompt": "The official language of Pomorie is",
+              "p_new": 0.0216049688142752,
+              "p_old": 0.002091401379224592
+            },
+            {
+              "target_new": 6.007172584533691,
+              "target_true": 2.408417224884033,
+              "prompt": "In People's Republic of Bulgaria, an official language is",
+              "p_new": 0.0024610367258743058,
+              "p_old": 0.08995756454651638
+            },
+            {
+              "target_new": 6.978468418121338,
+              "target_true": 3.926358699798584,
+              "prompt": "The law in Kingdom of Bulgaria declares the language",
+              "p_new": 0.0009317291304160396,
+              "p_old": 0.019715331448486997
+            },
+            {
+              "target_new": 6.710162162780762,
+              "target_true": 6.276484489440918,
+              "prompt": "In Bulgaria, they understand",
+              "p_new": 0.0012184665186610896,
+              "p_old": 0.0018799981438757155
+            },
+            {
+              "target_new": 9.824691772460938,
+              "target_true": 12.396137237548828,
+              "prompt": "In Bardeni, they understand",
+              "p_new": 5.4099166847529165e-05,
+              "p_old": 4.134528603543046e-06
+            },
+            {
+              "target_new": 7.478385925292969,
+              "target_true": 10.443249702453613,
+              "prompt": "In Koritata, an official language is",
+              "p_new": 0.0005651689046032125,
+              "p_old": 2.9144343778950952e-05
+            },
+            {
+              "target_new": 6.3150224685668945,
+              "target_true": 7.487547874450684,
+              "prompt": "In Bardeni, the language spoken is",
+              "p_new": 0.0018089251161897265,
+              "p_old": 0.0005600145040670869
+            },
+            {
+              "target_new": 7.6874589920043945,
+              "target_true": 9.562400817871094,
+              "prompt": "In Eastern Rumelia, they understand",
+              "p_new": 0.0004585418511596884,
+              "p_old": 7.032376128647586e-05
+            },
+            {
+              "target_new": 5.290451526641846,
+              "target_true": 0.09730853140354156,
+              "prompt": "The official language of Principality of Bulgaria is",
+              "p_new": 0.005039484284482319,
+              "p_old": 0.9072760397963321
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.60813570022583,
+              "target_true": 10.368858337402344,
+              "prompt": "In Ivano-Kuvalat, they understand",
+              "p_new": 0.0013493453902732313,
+              "p_old": 3.1395112268590685e-05
+            },
+            {
+              "target_new": 6.777952194213867,
+              "target_true": 7.671337127685547,
+              "prompt": "The law in Maloye Baydavletovo declares the language",
+              "p_new": 0.0011386041527475512,
+              "p_old": 0.00046599431304203734
+            },
+            {
+              "target_new": 0.6963142156600952,
+              "target_true": 7.458360195159912,
+              "prompt": "The official language of Nizhny Muynak is",
+              "p_new": 0.4984189873327081,
+              "p_old": 0.0005766009096449123
+            },
+            {
+              "target_new": 0.6761506199836731,
+              "target_true": 5.88010835647583,
+              "prompt": "The official language of Novopavlovka is",
+              "p_new": 0.5085709119687504,
+              "p_old": 0.002794482458360109
+            },
+            {
+              "target_new": 1.6731511354446411,
+              "target_true": 6.379256248474121,
+              "prompt": "In Nizhnyaya Bikberda, the language spoken is",
+              "p_new": 0.18765480727110684,
+              "p_old": 0.0016963841758675213
+            },
+            {
+              "target_new": 9.116373062133789,
+              "target_true": 11.227121353149414,
+              "prompt": "The law in Idyash declares the language",
+              "p_new": 0.00010985238344129193,
+              "p_old": 1.330831735511696e-05
+            },
+            {
+              "target_new": 4.457653522491455,
+              "target_true": 6.4854865074157715,
+              "prompt": "In Akdavletovo, an official language is",
+              "p_new": 0.01158952596871547,
+              "p_old": 0.0015254184587000156
+            },
+            {
+              "target_new": 5.960432529449463,
+              "target_true": 10.94881820678711,
+              "prompt": "In Utyagulovo, they understand",
+              "p_new": 0.002578796325414657,
+              "p_old": 1.7578777510323072e-05
+            },
+            {
+              "target_new": 6.1317033767700195,
+              "target_true": 10.391680717468262,
+              "prompt": "In Bogdanovka, they understand",
+              "p_new": 0.002172876579143021,
+              "p_old": 3.068671548228848e-05
+            },
+            {
+              "target_new": 9.60873031616211,
+              "target_true": 10.289093971252441,
+              "prompt": "The law in Bishtiryak declares the language",
+              "p_new": 6.714001680180562e-05,
+              "p_old": 3.400190616468412e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 40.0
+          }
+        },
+        "16786": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 9.842567443847656,
+              "target_true": 8.265735626220703,
+              "prompt": "Kyustendil Province is within",
+              "p_new": 5.314070005954347e-05,
+              "p_old": 0.00025717966641236703
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 10.658719062805176,
+              "target_true": 8.081549644470215,
+              "prompt": "111 with a rank of podporucznik pilot (2nd Lt. pilot). Kyustendil Province, in",
+              "p_new": 2.349509075206375e-05,
+              "p_old": 0.00030919152704071473
+            },
+            {
+              "target_new": 10.197619438171387,
+              "target_true": 8.498457908630371,
+              "prompt": "They separated when she was 3 years old. Kyustendil Province is located in",
+              "p_new": 3.7258910333054463e-05,
+              "p_old": 0.00020378237787944394
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.993008613586426,
+              "target_true": 9.339240074157715,
+              "prompt": "Pleven Province is in",
+              "p_new": 0.00012427563285926247,
+              "p_old": 8.790621291380515e-05
+            },
+            {
+              "target_new": 11.29920482635498,
+              "target_true": 8.045141220092773,
+              "prompt": "Blagoevgrad Province is in",
+              "p_new": 1.2382766797817031e-05,
+              "p_old": 0.00032065614123631014
+            },
+            {
+              "target_new": 8.827583312988281,
+              "target_true": 9.312132835388184,
+              "prompt": "Silistra Province is located in",
+              "p_new": 0.0001466321757101761,
+              "p_old": 9.032169827896275e-05
+            },
+            {
+              "target_new": 9.206355094909668,
+              "target_true": 9.526138305664062,
+              "prompt": "Lovech Province is within",
+              "p_new": 0.00010039932288429982,
+              "p_old": 7.292067834070765e-05
+            },
+            {
+              "target_new": 9.970473289489746,
+              "target_true": 5.569055557250977,
+              "prompt": "Veliko Tarnovo Province can be found in",
+              "p_new": 4.6760427008221764e-05,
+              "p_old": 0.0038140809131631524
+            },
+            {
+              "target_new": 9.614272117614746,
+              "target_true": 7.418034076690674,
+              "prompt": "Vratsa Province is located in",
+              "p_new": 6.676896924472912e-05,
+              "p_old": 0.0006003281853564468
+            },
+            {
+              "target_new": 12.0445556640625,
+              "target_true": 6.3822245597839355,
+              "prompt": "Blagoevgrad Province is within",
+              "p_new": 5.876462080895445e-06,
+              "p_old": 0.0016913562454555606
+            },
+            {
+              "target_new": 11.083112716674805,
+              "target_true": 7.817391395568848,
+              "prompt": "Razgrad Province is located in",
+              "p_new": 1.5369696964055267e-05,
+              "p_old": 0.0004026707225747871
+            },
+            {
+              "target_new": 9.033082008361816,
+              "target_true": 6.2761383056640625,
+              "prompt": "Stara Zagora Province is within",
+              "p_new": 0.00011939395238124968,
+              "p_old": 0.001880649081399148
+            },
+            {
+              "target_new": 11.752689361572266,
+              "target_true": 7.640323638916016,
+              "prompt": "Pazardzhik Province is within",
+              "p_new": 7.868136085044212e-06,
+              "p_old": 0.000480672862438153
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 9.311720848083496,
+              "target_true": 14.47433853149414,
+              "prompt": "USS Midway is within",
+              "p_new": 9.035891733835504e-05,
+              "p_old": 5.174574530609682e-07
+            },
+            {
+              "target_new": 7.9155120849609375,
+              "target_true": 14.605005264282227,
+              "prompt": "LA/Ontario International Airport is located in",
+              "p_new": 0.0003650369104547589,
+              "p_old": 4.540741781380155e-07
+            },
+            {
+              "target_new": 7.753305435180664,
+              "target_true": 14.226007461547852,
+              "prompt": "Geisel Library is in",
+              "p_new": 0.0004293210995630354,
+              "p_old": 6.633205618672095e-07
+            },
+            {
+              "target_new": 11.673352241516113,
+              "target_true": 14.236172676086426,
+              "prompt": "Manchester Grand Hyatt Hotel is within",
+              "p_new": 8.517801915762969e-06,
+              "p_old": 6.566119212015701e-07
+            },
+            {
+              "target_new": 1.8286939859390259,
+              "target_true": 16.29521942138672,
+              "prompt": "San Joaquin Valley is located in",
+              "p_new": 0.16062320701635852,
+              "p_old": 8.376760985769189e-08
+            },
+            {
+              "target_new": 4.027891635894775,
+              "target_true": 11.29701042175293,
+              "prompt": "Great Basin can be found in",
+              "p_new": 0.017811844245925242,
+              "p_old": 1.2409969434143464e-05
+            },
+            {
+              "target_new": 8.843907356262207,
+              "target_true": 13.662738800048828,
+              "prompt": "Geisel Library can be found in",
+              "p_new": 0.00014425797671381344,
+              "p_old": 1.1650590330915334e-06
+            },
+            {
+              "target_new": 7.8024001121521,
+              "target_true": 12.279213905334473,
+              "prompt": "Transverse Ranges is in",
+              "p_new": 0.00040875274828102993,
+              "p_old": 4.647347620344062e-06
+            },
+            {
+              "target_new": 6.11502742767334,
+              "target_true": 13.123732566833496,
+              "prompt": "Geisel Library, in",
+              "p_new": 0.0022094151694671627,
+              "p_old": 1.997263494966054e-06
+            },
+            {
+              "target_new": 6.73733377456665,
+              "target_true": 10.20338249206543,
+              "prompt": "Manchester Grand Hyatt Hotel, in",
+              "p_new": 0.0011858045678578598,
+              "p_old": 3.704480277406467e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 70.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        5064
+      ],
+      "evaluations": {
+        "5064": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.004767004866153002,
+              "target_true": 8.982593536376953,
+              "prompt": "The law in Kyustendil Province declares the language",
+              "p_new": 0.9952443392685371,
+              "p_old": 0.00012557673695928626
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.9707274436950684,
+              "target_true": 9.808977127075195,
+              "prompt": "in Literature on Virginia Woolf's work. In Kyustendil Province, they understand",
+              "p_new": 0.3788073768136128,
+              "p_old": 5.4956031095618126e-05
+            },
+            {
+              "target_new": 1.4519058465957642,
+              "target_true": 7.869154453277588,
+              "prompt": "The studios are in Lucerne. In Kyustendil Province, the language spoken is",
+              "p_new": 0.23412365884737024,
+              "p_old": 0.00038235752670894555
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 1.4300074577331543,
+              "target_true": 4.356513023376465,
+              "prompt": "The official language of National Statistical Institute is",
+              "p_new": 0.2393071375483259,
+              "p_old": 0.012823023365177523
+            },
+            {
+              "target_new": 3.7682793140411377,
+              "target_true": 6.10697078704834,
+              "prompt": "The official language of Pomorie is",
+              "p_new": 0.023091762794243794,
+              "p_old": 0.0022272875324079715
+            },
+            {
+              "target_new": 5.784554481506348,
+              "target_true": 2.2035183906555176,
+              "prompt": "In People's Republic of Bulgaria, an official language is",
+              "p_new": 0.003074679897530451,
+              "p_old": 0.11041399458191141
+            },
+            {
+              "target_new": 6.59218692779541,
+              "target_true": 3.5842881202697754,
+              "prompt": "The law in Kingdom of Bulgaria declares the language",
+              "p_new": 0.001371038320817122,
+              "p_old": 0.02775641983141205
+            },
+            {
+              "target_new": 6.547386169433594,
+              "target_true": 6.161810874938965,
+              "prompt": "In Bulgaria, they understand",
+              "p_new": 0.0014338585677852087,
+              "p_old": 0.0021084317064509134
+            },
+            {
+              "target_new": 9.642144203186035,
+              "target_true": 12.153716087341309,
+              "prompt": "In Bardeni, they understand",
+              "p_new": 6.493367437954417e-05,
+              "p_old": 5.268756996140344e-06
+            },
+            {
+              "target_new": 7.252208709716797,
+              "target_true": 10.166815757751465,
+              "prompt": "In Koritata, an official language is",
+              "p_new": 0.0007086075507515221,
+              "p_old": 3.842448168053052e-05
+            },
+            {
+              "target_new": 6.095021724700928,
+              "target_true": 7.197820663452148,
+              "prompt": "In Bardeni, the language spoken is",
+              "p_new": 0.002254061171377861,
+              "p_old": 0.000748214644361197
+            },
+            {
+              "target_new": 7.413317680358887,
+              "target_true": 9.153522491455078,
+              "prompt": "In Eastern Rumelia, they understand",
+              "p_new": 0.0006031662584856455,
+              "p_old": 0.00010584630261064012
+            },
+            {
+              "target_new": 5.2331647872924805,
+              "target_true": 0.0939740538597107,
+              "prompt": "The official language of Principality of Bulgaria is",
+              "p_new": 0.005336609315681425,
+              "p_old": 0.9103063808714238
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.36671257019043,
+              "target_true": 10.113483428955078,
+              "prompt": "In Ivano-Kuvalat, they understand",
+              "p_new": 0.0017177970908080502,
+              "p_old": 4.0529379424345734e-05
+            },
+            {
+              "target_new": 6.09498405456543,
+              "target_true": 7.070389747619629,
+              "prompt": "The law in Maloye Baydavletovo declares the language",
+              "p_new": 0.0022541460837669286,
+              "p_old": 0.0008499017974044716
+            },
+            {
+              "target_new": 0.6931231617927551,
+              "target_true": 7.514589786529541,
+              "prompt": "The official language of Nizhny Muynak is",
+              "p_new": 0.5000120095278215,
+              "p_old": 0.0005450735673052886
+            },
+            {
+              "target_new": 0.6591067314147949,
+              "target_true": 5.976016044616699,
+              "prompt": "The official language of Novopavlovka is",
+              "p_new": 0.5173132278187081,
+              "p_old": 0.002538921118666677
+            },
+            {
+              "target_new": 1.5983284711837769,
+              "target_true": 6.274867057800293,
+              "prompt": "In Nizhnyaya Bikberda, the language spoken is",
+              "p_new": 0.20223427604989813,
+              "p_old": 0.0018830413728018682
+            },
+            {
+              "target_new": 8.94627857208252,
+              "target_true": 11.046195983886719,
+              "prompt": "The law in Idyash declares the language",
+              "p_new": 0.0001302208670171574,
+              "p_old": 1.594769929625307e-05
+            },
+            {
+              "target_new": 4.4019060134887695,
+              "target_true": 6.457244396209717,
+              "prompt": "In Akdavletovo, an official language is",
+              "p_new": 0.01225396141454184,
+              "p_old": 0.001569113613868057
+            },
+            {
+              "target_new": 5.869839668273926,
+              "target_true": 10.903251647949219,
+              "prompt": "In Utyagulovo, they understand",
+              "p_new": 0.0028233259664541682,
+              "p_old": 1.8398311792813697e-05
+            },
+            {
+              "target_new": 6.071906089782715,
+              "target_true": 10.30553913116455,
+              "prompt": "In Bogdanovka, they understand",
+              "p_new": 0.002306772102745177,
+              "p_old": 3.344731207354453e-05
+            },
+            {
+              "target_new": 9.331616401672363,
+              "target_true": 10.050718307495117,
+              "prompt": "The law in Bishtiryak declares the language",
+              "p_new": 8.85789421659622e-05,
+              "p_old": 4.3154739551623595e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 40.0
+          }
+        },
+        "16786": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 12.868651390075684,
+              "target_true": 9.630322456359863,
+              "prompt": "Kyustendil Province is within",
+              "p_new": 2.5776011198334534e-06,
+              "p_old": 6.570585913192311e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 11.071035385131836,
+              "target_true": 9.296211242675781,
+              "prompt": "111 with a rank of podporucznik pilot (2nd Lt. pilot). Kyustendil Province, in",
+              "p_new": 1.55564473431517e-05,
+              "p_old": 9.177127271717659e-05
+            },
+            {
+              "target_new": 12.213549613952637,
+              "target_true": 11.120558738708496,
+              "prompt": "They separated when she was 3 years old. Kyustendil Province is located in",
+              "p_new": 4.9627545728461886e-06,
+              "p_old": 1.4804805429559972e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.564250946044922,
+              "target_true": 10.131182670593262,
+              "prompt": "Pleven Province is in",
+              "p_new": 7.019377359845083e-05,
+              "p_old": 3.9818351037569236e-05
+            },
+            {
+              "target_new": 11.15169620513916,
+              "target_true": 10.0305814743042,
+              "prompt": "Blagoevgrad Province is in",
+              "p_new": 1.4350924322157354e-05,
+              "p_old": 4.403254782089562e-05
+            },
+            {
+              "target_new": 10.188803672790527,
+              "target_true": 12.187515258789062,
+              "prompt": "Silistra Province is located in",
+              "p_new": 3.7588828247659306e-05,
+              "p_old": 5.093653225619699e-06
+            },
+            {
+              "target_new": 10.29537582397461,
+              "target_true": 9.409727096557617,
+              "prompt": "Lovech Province is within",
+              "p_new": 3.3788980681347356e-05,
+              "p_old": 8.192330145198243e-05
+            },
+            {
+              "target_new": 9.711109161376953,
+              "target_true": 5.718313217163086,
+              "prompt": "Veliko Tarnovo Province can be found in",
+              "p_new": 6.060645445653541e-05,
+              "p_old": 0.0032852477308044957
+            },
+            {
+              "target_new": 10.090194702148438,
+              "target_true": 8.984240531921387,
+              "prompt": "Vratsa Province is located in",
+              "p_new": 4.148433374378756e-05,
+              "p_old": 0.00012537008285893513
+            },
+            {
+              "target_new": 14.030641555786133,
+              "target_true": 9.375285148620605,
+              "prompt": "Blagoevgrad Province is within",
+              "p_new": 8.064357919254213e-07,
+              "p_old": 8.479405289163286e-05
+            },
+            {
+              "target_new": 11.206979751586914,
+              "target_true": 9.636239051818848,
+              "prompt": "Razgrad Province is located in",
+              "p_new": 1.3579085882839267e-05,
+              "p_old": 6.531825193237031e-05
+            },
+            {
+              "target_new": 10.54026985168457,
+              "target_true": 7.004782676696777,
+              "prompt": "Stara Zagora Province is within",
+              "p_new": 2.644959129710686e-05,
+              "p_old": 0.000907531141513415
+            },
+            {
+              "target_new": 13.692936897277832,
+              "target_true": 11.035843849182129,
+              "prompt": "Pazardzhik Province is within",
+              "p_new": 1.130402383222867e-06,
+              "p_old": 1.6113649515080588e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 9.277385711669922,
+              "target_true": 14.46805191040039,
+              "prompt": "USS Midway is within",
+              "p_new": 9.351528008339818e-05,
+              "p_old": 5.20720758836378e-07
+            },
+            {
+              "target_new": 8.087461471557617,
+              "target_true": 14.741719245910645,
+              "prompt": "LA/Ontario International Airport is located in",
+              "p_new": 0.0003073690326398093,
+              "p_old": 3.9605242586337487e-07
+            },
+            {
+              "target_new": 7.727471351623535,
+              "target_true": 14.230743408203125,
+              "prompt": "Geisel Library is in",
+              "p_new": 0.0004405567228566308,
+              "p_old": 6.601865382130805e-07
+            },
+            {
+              "target_new": 11.719572067260742,
+              "target_true": 14.246627807617188,
+              "prompt": "Manchester Grand Hyatt Hotel is within",
+              "p_new": 8.13307020044613e-06,
+              "p_old": 6.497827195098054e-07
+            },
+            {
+              "target_new": 1.7795262336730957,
+              "target_true": 16.408056259155273,
+              "prompt": "San Joaquin Valley is located in",
+              "p_new": 0.1687180612729903,
+              "p_old": 7.482930436101993e-08
+            },
+            {
+              "target_new": 3.996644973754883,
+              "target_true": 11.303177833557129,
+              "prompt": "Great Basin can be found in",
+              "p_new": 0.01837719153553731,
+              "p_old": 1.2333667576511756e-05
+            },
+            {
+              "target_new": 8.8523588180542,
+              "target_true": 13.664484977722168,
+              "prompt": "Geisel Library can be found in",
+              "p_new": 0.00014304392342428247,
+              "p_old": 1.1630264081984086e-06
+            },
+            {
+              "target_new": 7.755335330963135,
+              "target_true": 12.252705574035645,
+              "prompt": "Transverse Ranges is in",
+              "p_new": 0.0004284505063793609,
+              "p_old": 4.772188400813784e-06
+            },
+            {
+              "target_new": 6.154489517211914,
+              "target_true": 13.170340538024902,
+              "prompt": "Geisel Library, in",
+              "p_new": 0.0021239249357479406,
+              "p_old": 1.9063111126206178e-06
+            },
+            {
+              "target_new": 6.796292304992676,
+              "target_true": 10.169183731079102,
+              "prompt": "Manchester Grand Hyatt Hotel, in",
+              "p_new": 0.0011179123514047295,
+              "p_old": 3.8333601176553634e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 80.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        5064,
+        16786
+      ],
+      "evaluations": {
+        "5064": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 6.047089576721191,
+              "target_true": 9.807120323181152,
+              "prompt": "The law in Kyustendil Province declares the language",
+              "p_new": 0.002364734378867342,
+              "p_old": 5.505816846334359e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 12.926473617553711,
+              "target_true": 16.574756622314453,
+              "prompt": "in Literature on Virginia Woolf's work. In Kyustendil Province, they understand",
+              "p_new": 2.4327856052368647e-06,
+              "p_old": 6.333950427278945e-08
+            },
+            {
+              "target_new": 8.123170852661133,
+              "target_true": 12.488204002380371,
+              "prompt": "The studios are in Lucerne. In Kyustendil Province, the language spoken is",
+              "p_new": 0.0002965867350393911,
+              "p_old": 3.7708730601238534e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 1.5878509283065796,
+              "target_true": 4.516210079193115,
+              "prompt": "The official language of National Statistical Institute is",
+              "p_new": 0.20436433374763158,
+              "p_old": 0.010930370507053895
+            },
+            {
+              "target_new": 3.8175442218780518,
+              "target_true": 6.238374710083008,
+              "prompt": "The official language of Pomorie is",
+              "p_new": 0.02198171688371726,
+              "p_old": 0.0019530271800990914
+            },
+            {
+              "target_new": 5.829549789428711,
+              "target_true": 2.115346670150757,
+              "prompt": "In People's Republic of Bulgaria, an official language is",
+              "p_new": 0.002939400031342761,
+              "p_old": 0.12059147684051105
+            },
+            {
+              "target_new": 6.643032550811768,
+              "target_true": 3.493448257446289,
+              "prompt": "The law in Kingdom of Bulgaria declares the language",
+              "p_new": 0.0013030696211859573,
+              "p_old": 0.030395878438380774
+            },
+            {
+              "target_new": 6.626011848449707,
+              "target_true": 6.177663803100586,
+              "prompt": "In Bulgaria, they understand",
+              "p_new": 0.0013254386092793667,
+              "p_old": 0.002075270436184232
+            },
+            {
+              "target_new": 9.709824562072754,
+              "target_true": 12.260801315307617,
+              "prompt": "In Bardeni, they understand",
+              "p_new": 6.068435949342514e-05,
+              "p_old": 4.7337099641131825e-06
+            },
+            {
+              "target_new": 7.138973236083984,
+              "target_true": 9.98484992980957,
+              "prompt": "In Koritata, an official language is",
+              "p_new": 0.0007935664837336493,
+              "p_old": 4.609297849758954e-05
+            },
+            {
+              "target_new": 6.113093852996826,
+              "target_true": 7.174826622009277,
+              "prompt": "In Bardeni, the language spoken is",
+              "p_new": 0.0022136913715344736,
+              "p_old": 0.0007656184479791813
+            },
+            {
+              "target_new": 7.643710613250732,
+              "target_true": 9.472658157348633,
+              "prompt": "In Eastern Rumelia, they understand",
+              "p_new": 0.00047904758972187417,
+              "p_old": 7.692665232117006e-05
+            },
+            {
+              "target_new": 5.331811904907227,
+              "target_true": 0.08967515081167221,
+              "prompt": "The official language of Principality of Bulgaria is",
+              "p_new": 0.004835300964761976,
+              "p_old": 0.9142281233023789
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.575088977813721,
+              "target_true": 10.426569938659668,
+              "prompt": "In Ivano-Kuvalat, they understand",
+              "p_new": 0.0013946818171160285,
+              "p_old": 2.9634541374209325e-05
+            },
+            {
+              "target_new": 6.351233959197998,
+              "target_true": 7.593311786651611,
+              "prompt": "The law in Maloye Baydavletovo declares the language",
+              "p_new": 0.0017445930508658237,
+              "p_old": 0.0005038097775400522
+            },
+            {
+              "target_new": 0.6782740354537964,
+              "target_true": 7.551276206970215,
+              "prompt": "The official language of Nizhny Muynak is",
+              "p_new": 0.507492150361499,
+              "p_old": 0.0005254391299614316
+            },
+            {
+              "target_new": 0.6429490447044373,
+              "target_true": 6.008188724517822,
+              "prompt": "The official language of Novopavlovka is",
+              "p_new": 0.5257397057553713,
+              "p_old": 0.0024585372381844897
+            },
+            {
+              "target_new": 1.6238374710083008,
+              "target_true": 6.268883228302002,
+              "prompt": "In Nizhnyaya Bikberda, the language spoken is",
+              "p_new": 0.19714072384747106,
+              "p_old": 0.0018943429509510872
+            },
+            {
+              "target_new": 9.043173789978027,
+              "target_true": 11.129712104797363,
+              "prompt": "The law in Idyash declares the language",
+              "p_new": 0.00011819511406926974,
+              "p_old": 1.4669909941322776e-05
+            },
+            {
+              "target_new": 4.473769664764404,
+              "target_true": 6.554792404174805,
+              "prompt": "In Akdavletovo, an official language is",
+              "p_new": 0.011404244540501823,
+              "p_old": 0.0014232783029715344
+            },
+            {
+              "target_new": 5.853244781494141,
+              "target_true": 10.772597312927246,
+              "prompt": "In Utyagulovo, they understand",
+              "p_new": 0.0028705696588738373,
+              "p_old": 2.096623412876862e-05
+            },
+            {
+              "target_new": 6.083505153656006,
+              "target_true": 10.291888236999512,
+              "prompt": "In Bogdanovka, they understand",
+              "p_new": 0.002280170282138759,
+              "p_old": 3.3907028421500165e-05
+            },
+            {
+              "target_new": 9.41411018371582,
+              "target_true": 10.102330207824707,
+              "prompt": "The law in Bishtiryak declares the language",
+              "p_new": 8.156501026578686e-05,
+              "p_old": 4.0983942765993227e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 40.0
+          }
+        },
+        "16786": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.002107067732140422,
+              "target_true": 22.906103134155273,
+              "prompt": "Kyustendil Province is within",
+              "p_new": 0.9978951505767576,
+              "p_old": 1.1272125279765274e-10
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 1.4138160943984985,
+              "target_true": 14.883169174194336,
+              "prompt": "111 with a rank of podporucznik pilot (2nd Lt. pilot). Kyustendil Province, in",
+              "p_new": 0.24321338475667184,
+              "p_old": 3.438125729282769e-07
+            },
+            {
+              "target_new": 0.3871191442012787,
+              "target_true": 17.52450180053711,
+              "prompt": "They separated when she was 3 years old. Kyustendil Province is located in",
+              "p_new": 0.6790101899803096,
+              "p_old": 2.4502227613300697e-08
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 3.6252851486206055,
+              "target_true": 17.45667839050293,
+              "prompt": "Pleven Province is in",
+              "p_new": 0.026641499466322206,
+              "p_old": 2.6221703519126472e-08
+            },
+            {
+              "target_new": 4.660938739776611,
+              "target_true": 16.26679039001465,
+              "prompt": "Blagoevgrad Province is in",
+              "p_new": 0.009457580026681704,
+              "p_old": 8.618321584464286e-08
+            },
+            {
+              "target_new": 1.2061930894851685,
+              "target_true": 14.43914794921875,
+              "prompt": "Silistra Province is located in",
+              "p_new": 0.29933465335519893,
+              "p_old": 5.359912775590484e-07
+            },
+            {
+              "target_new": 0.0027372294571250677,
+              "target_true": 23.15232276916504,
+              "prompt": "Lovech Province is within",
+              "p_new": 0.9972665133396821,
+              "p_old": 8.811989644402465e-11
+            },
+            {
+              "target_new": 0.08595491945743561,
+              "target_true": 15.553959846496582,
+              "prompt": "Veliko Tarnovo Province can be found in",
+              "p_new": 0.9176355977983552,
+              "p_old": 1.757927932616611e-07
+            },
+            {
+              "target_new": 1.4316833019256592,
+              "target_true": 14.489004135131836,
+              "prompt": "Vratsa Province is located in",
+              "p_new": 0.23890643192551628,
+              "p_old": 5.099240034718542e-07
+            },
+            {
+              "target_new": 0.00313849956728518,
+              "target_true": 22.84404754638672,
+              "prompt": "Blagoevgrad Province is within",
+              "p_new": 0.9968664203740579,
+              "p_old": 1.1993783531860216e-10
+            },
+            {
+              "target_new": 1.9346792697906494,
+              "target_true": 14.236513137817383,
+              "prompt": "Razgrad Province is located in",
+              "p_new": 0.14447059747861954,
+              "p_old": 6.563884080213119e-07
+            },
+            {
+              "target_new": 0.002654602052643895,
+              "target_true": 22.926300048828125,
+              "prompt": "Stara Zagora Province is within",
+              "p_new": 0.9973489182876619,
+              "p_old": 1.1046746763863373e-10
+            },
+            {
+              "target_new": 0.003886647056788206,
+              "target_true": 24.355091094970703,
+              "prompt": "Pazardzhik Province is within",
+              "p_new": 0.9961208961800863,
+              "p_old": 2.6467829673887033e-11
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 9.272862434387207,
+              "target_true": 14.505389213562012,
+              "prompt": "USS Midway is within",
+              "p_new": 9.393923373249904e-05,
+              "p_old": 5.016369362072143e-07
+            },
+            {
+              "target_new": 7.763257026672363,
+              "target_true": 14.729595184326172,
+              "prompt": "LA/Ontario International Airport is located in",
+              "p_new": 0.0004250698597471844,
+              "p_old": 4.0088341630139733e-07
+            },
+            {
+              "target_new": 7.3662896156311035,
+              "target_true": 13.927469253540039,
+              "prompt": "Geisel Library is in",
+              "p_new": 0.0006322095731936363,
+              "p_old": 8.94081186246309e-07
+            },
+            {
+              "target_new": 11.46143627166748,
+              "target_true": 14.550804138183594,
+              "prompt": "Manchester Grand Hyatt Hotel is within",
+              "p_new": 1.052837808531203e-05,
+              "p_old": 4.79364706319192e-07
+            },
+            {
+              "target_new": 1.869771957397461,
+              "target_true": 16.31470489501953,
+              "prompt": "San Joaquin Valley is located in",
+              "p_new": 0.15415881258386865,
+              "p_old": 8.215115811315517e-08
+            },
+            {
+              "target_new": 3.8404362201690674,
+              "target_true": 11.36053466796875,
+              "prompt": "Great Basin can be found in",
+              "p_new": 0.021484227447367568,
+              "p_old": 1.164615275669944e-05
+            },
+            {
+              "target_new": 8.8889741897583,
+              "target_true": 13.606026649475098,
+              "prompt": "Geisel Library can be found in",
+              "p_new": 0.0001379010457557515,
+              "p_old": 1.2330415334500018e-06
+            },
+            {
+              "target_new": 7.733281135559082,
+              "target_true": 12.25119400024414,
+              "prompt": "Transverse Ranges is in",
+              "p_new": 0.0004380046042927909,
+              "p_old": 4.779407370356629e-06
+            },
+            {
+              "target_new": 6.250794410705566,
+              "target_true": 13.014386177062988,
+              "prompt": "Geisel Library, in",
+              "p_new": 0.0019289211717775899,
+              "p_old": 2.2280446915353897e-06
+            },
+            {
+              "target_new": 6.49525785446167,
+              "target_true": 10.616386413574219,
+              "prompt": "Manchester Grand Hyatt Hotel, in",
+              "p_new": 0.0015105856518202337,
+              "p_old": 2.4511052649898174e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "5064": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.004767004866153002,
+          "target_true": 8.982593536376953,
+          "prompt": "The law in Kyustendil Province declares the language",
+          "p_new": 0.9952443392685371,
+          "p_old": 0.00012557673695928626
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.9707274436950684,
+          "target_true": 9.808977127075195,
+          "prompt": "in Literature on Virginia Woolf's work. In Kyustendil Province, they understand",
+          "p_new": 0.3788073768136128,
+          "p_old": 5.4956031095618126e-05
+        },
+        {
+          "target_new": 1.4519058465957642,
+          "target_true": 7.869154453277588,
+          "prompt": "The studios are in Lucerne. In Kyustendil Province, the language spoken is",
+          "p_new": 0.23412365884737024,
+          "p_old": 0.00038235752670894555
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 1.4300074577331543,
+          "target_true": 4.356513023376465,
+          "prompt": "The official language of National Statistical Institute is",
+          "p_new": 0.2393071375483259,
+          "p_old": 0.012823023365177523
+        },
+        {
+          "target_new": 3.7682793140411377,
+          "target_true": 6.10697078704834,
+          "prompt": "The official language of Pomorie is",
+          "p_new": 0.023091762794243794,
+          "p_old": 0.0022272875324079715
+        },
+        {
+          "target_new": 5.784554481506348,
+          "target_true": 2.2035183906555176,
+          "prompt": "In People's Republic of Bulgaria, an official language is",
+          "p_new": 0.003074679897530451,
+          "p_old": 0.11041399458191141
+        },
+        {
+          "target_new": 6.59218692779541,
+          "target_true": 3.5842881202697754,
+          "prompt": "The law in Kingdom of Bulgaria declares the language",
+          "p_new": 0.001371038320817122,
+          "p_old": 0.02775641983141205
+        },
+        {
+          "target_new": 6.547386169433594,
+          "target_true": 6.161810874938965,
+          "prompt": "In Bulgaria, they understand",
+          "p_new": 0.0014338585677852087,
+          "p_old": 0.0021084317064509134
+        },
+        {
+          "target_new": 9.642144203186035,
+          "target_true": 12.153716087341309,
+          "prompt": "In Bardeni, they understand",
+          "p_new": 6.493367437954417e-05,
+          "p_old": 5.268756996140344e-06
+        },
+        {
+          "target_new": 7.252208709716797,
+          "target_true": 10.166815757751465,
+          "prompt": "In Koritata, an official language is",
+          "p_new": 0.0007086075507515221,
+          "p_old": 3.842448168053052e-05
+        },
+        {
+          "target_new": 6.095021724700928,
+          "target_true": 7.197820663452148,
+          "prompt": "In Bardeni, the language spoken is",
+          "p_new": 0.002254061171377861,
+          "p_old": 0.000748214644361197
+        },
+        {
+          "target_new": 7.413317680358887,
+          "target_true": 9.153522491455078,
+          "prompt": "In Eastern Rumelia, they understand",
+          "p_new": 0.0006031662584856455,
+          "p_old": 0.00010584630261064012
+        },
+        {
+          "target_new": 5.2331647872924805,
+          "target_true": 0.0939740538597107,
+          "prompt": "The official language of Principality of Bulgaria is",
+          "p_new": 0.005336609315681425,
+          "p_old": 0.9103063808714238
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 6.36671257019043,
+          "target_true": 10.113483428955078,
+          "prompt": "In Ivano-Kuvalat, they understand",
+          "p_new": 0.0017177970908080502,
+          "p_old": 4.0529379424345734e-05
+        },
+        {
+          "target_new": 6.09498405456543,
+          "target_true": 7.070389747619629,
+          "prompt": "The law in Maloye Baydavletovo declares the language",
+          "p_new": 0.0022541460837669286,
+          "p_old": 0.0008499017974044716
+        },
+        {
+          "target_new": 0.6931231617927551,
+          "target_true": 7.514589786529541,
+          "prompt": "The official language of Nizhny Muynak is",
+          "p_new": 0.5000120095278215,
+          "p_old": 0.0005450735673052886
+        },
+        {
+          "target_new": 0.6591067314147949,
+          "target_true": 5.976016044616699,
+          "prompt": "The official language of Novopavlovka is",
+          "p_new": 0.5173132278187081,
+          "p_old": 0.002538921118666677
+        },
+        {
+          "target_new": 1.5983284711837769,
+          "target_true": 6.274867057800293,
+          "prompt": "In Nizhnyaya Bikberda, the language spoken is",
+          "p_new": 0.20223427604989813,
+          "p_old": 0.0018830413728018682
+        },
+        {
+          "target_new": 8.94627857208252,
+          "target_true": 11.046195983886719,
+          "prompt": "The law in Idyash declares the language",
+          "p_new": 0.0001302208670171574,
+          "p_old": 1.594769929625307e-05
+        },
+        {
+          "target_new": 4.4019060134887695,
+          "target_true": 6.457244396209717,
+          "prompt": "In Akdavletovo, an official language is",
+          "p_new": 0.01225396141454184,
+          "p_old": 0.001569113613868057
+        },
+        {
+          "target_new": 5.869839668273926,
+          "target_true": 10.903251647949219,
+          "prompt": "In Utyagulovo, they understand",
+          "p_new": 0.0028233259664541682,
+          "p_old": 1.8398311792813697e-05
+        },
+        {
+          "target_new": 6.071906089782715,
+          "target_true": 10.30553913116455,
+          "prompt": "In Bogdanovka, they understand",
+          "p_new": 0.002306772102745177,
+          "p_old": 3.344731207354453e-05
+        },
+        {
+          "target_new": 9.331616401672363,
+          "target_true": 10.050718307495117,
+          "prompt": "The law in Bishtiryak declares the language",
+          "p_new": 8.85789421659622e-05,
+          "p_old": 4.3154739551623595e-05
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 40.0
+      }
+    },
+    "16786": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.010131715796887875,
+          "target_true": 16.997474670410156,
+          "prompt": "Kyustendil Province is within",
+          "p_new": 0.9899194371341926,
+          "p_old": 4.15040563791641e-08
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.09441334754228592,
+          "target_true": 17.458332061767578,
+          "prompt": "111 with a rank of podporucznik pilot (2nd Lt. pilot). Kyustendil Province, in",
+          "p_new": 0.9099065768512187,
+          "p_old": 2.61783772750626e-08
+        },
+        {
+          "target_new": 0.23531097173690796,
+          "target_true": 20.851093292236328,
+          "prompt": "They separated when she was 3 years old. Kyustendil Province is located in",
+          "p_new": 0.7903250426599686,
+          "p_old": 8.800052062889726e-10
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 2.8523101806640625,
+          "target_true": 12.751333236694336,
+          "prompt": "Pleven Province is in",
+          "p_new": 0.057710844280114686,
+          "p_old": 2.8984535069033136e-06
+        },
+        {
+          "target_new": 4.914970397949219,
+          "target_true": 8.912214279174805,
+          "prompt": "Blagoevgrad Province is in",
+          "p_new": 0.007335935047921284,
+          "p_old": 0.00013473316659932757
+        },
+        {
+          "target_new": 1.8606590032577515,
+          "target_true": 15.511141777038574,
+          "prompt": "Silistra Province is located in",
+          "p_new": 0.15557007539318482,
+          "p_old": 1.8348337426104482e-07
+        },
+        {
+          "target_new": 2.3448116779327393,
+          "target_true": 10.33709716796875,
+          "prompt": "Lovech Province is within",
+          "p_new": 0.09586525397347188,
+          "p_old": 3.24082619904141e-05
+        },
+        {
+          "target_new": 5.894958019256592,
+          "target_true": 6.582366943359375,
+          "prompt": "Veliko Tarnovo Province can be found in",
+          "p_new": 0.0027532919258813487,
+          "p_old": 0.0013845682187561537
+        },
+        {
+          "target_new": 3.496607780456543,
+          "target_true": 11.917277336120605,
+          "prompt": "Vratsa Province is located in",
+          "p_new": 0.030299993516111894,
+          "p_old": 6.6740923789070125e-06
+        },
+        {
+          "target_new": 6.901805400848389,
+          "target_true": 7.154822826385498,
+          "prompt": "Blagoevgrad Province is within",
+          "p_new": 0.0010059676138162539,
+          "p_old": 0.0007810879312878652
+        },
+        {
+          "target_new": 5.2455244064331055,
+          "target_true": 9.935018539428711,
+          "prompt": "Razgrad Province is located in",
+          "p_new": 0.00527105679362296,
+          "p_old": 4.8448046545012996e-05
+        },
+        {
+          "target_new": 1.515068769454956,
+          "target_true": 9.928099632263184,
+          "prompt": "Stara Zagora Province is within",
+          "p_new": 0.21979306927844552,
+          "p_old": 4.8784416395423125e-05
+        },
+        {
+          "target_new": 3.7839038372039795,
+          "target_true": 8.584698677062988,
+          "prompt": "Pazardzhik Province is within",
+          "p_new": 0.022733769035410308,
+          "p_old": 0.0001869445186088016
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 9.317056655883789,
+          "target_true": 14.511503219604492,
+          "prompt": "USS Midway is within",
+          "p_new": 8.987806353499136e-05,
+          "p_old": 4.985792817319411e-07
+        },
+        {
+          "target_new": 7.769881248474121,
+          "target_true": 14.710147857666016,
+          "prompt": "LA/Ontario International Airport is located in",
+          "p_new": 0.00042226340825587776,
+          "p_old": 4.087558276184684e-07
+        },
+        {
+          "target_new": 7.561755180358887,
+          "target_true": 14.152388572692871,
+          "prompt": "Geisel Library is in",
+          "p_new": 0.0005199618157375836,
+          "p_old": 7.139959315781555e-07
+        },
+        {
+          "target_new": 11.58403205871582,
+          "target_true": 14.352424621582031,
+          "prompt": "Manchester Grand Hyatt Hotel is within",
+          "p_new": 9.313626094071867e-06,
+          "p_old": 5.845493540209046e-07
+        },
+        {
+          "target_new": 1.6627576351165771,
+          "target_true": 16.484474182128906,
+          "prompt": "San Joaquin Valley is located in",
+          "p_new": 0.18961536846969335,
+          "p_old": 6.932403384609085e-08
+        },
+        {
+          "target_new": 3.794273853302002,
+          "target_true": 11.335487365722656,
+          "prompt": "Great Basin can be found in",
+          "p_new": 0.022499237633485523,
+          "p_old": 1.1941541365750214e-05
+        },
+        {
+          "target_new": 8.699357986450195,
+          "target_true": 13.507372856140137,
+          "prompt": "Geisel Library can be found in",
+          "p_new": 0.00016669279567462726,
+          "p_old": 1.3608883728466894e-06
+        },
+        {
+          "target_new": 7.791764259338379,
+          "target_true": 12.279623985290527,
+          "prompt": "Transverse Ranges is in",
+          "p_new": 0.0004131233838664007,
+          "p_old": 4.645442226944663e-06
+        },
+        {
+          "target_new": 6.089956283569336,
+          "target_true": 13.081494331359863,
+          "prompt": "Geisel Library, in",
+          "p_new": 0.0022655079525708446,
+          "p_old": 2.0834313596482307e-06
+        },
+        {
+          "target_new": 6.628310680389404,
+          "target_true": 10.380010604858398,
+          "prompt": "Manchester Grand Hyatt Hotel, in",
+          "p_new": 0.001322395148213297,
+          "p_old": 3.104693069546532e-05
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 0.0
+      }
+    }
+  },
+  "seeds": {
+    "5064": 5096,
+    "16786": 16818
+  },
+  "edit_seconds": [
+    3.741045565999684,
+    3.136860009999964
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "5064": true,
+      "16786": true
+    },
+    "eligible_prior_case_ids": [
+      5064
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 16.27559707499995,
+  "completed_at_utc": "2026-11-28T07:58:44.701805+00:00"
+}

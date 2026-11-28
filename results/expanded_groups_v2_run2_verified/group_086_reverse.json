@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      17635,
+      11659
+    ],
+    "group_id": "group_086",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "distinct"
+      }
+    ],
+    "relation_ids": [
+      "P106",
+      "P108"
+    ],
+    "size": 2,
+    "subject": "Suzanne Virdee"
+  },
+  "order": "reverse",
+  "edit_order": [
+    11659,
+    17635
+  ],
+  "facts": {
+    "17635": {
+      "case_id": 17635,
+      "requested_rewrite": {
+        "prompt": "{}, who works as",
+        "relation_id": "P106",
+        "target_new": {
+          "str": "actor",
+          "id": "Q33999"
+        },
+        "target_true": {
+          "str": "journalist",
+          "id": "Q1930187"
+        },
+        "subject": "Suzanne Virdee"
+      },
+      "prompts": {
+        "rewrite": [
+          "Suzanne Virdee, who works as"
+        ],
+        "paraphrase": [
+          "Martin Meinberg (born 14 January 1954) is a German bobsledder. Suzanne Virdee works as",
+          "References\n\nCategory:Torpedoes\nCategory:Naval weapons of France Suzanne Virdee's occupation is"
+        ],
+        "neighborhood": [
+          "The profession of Lud\u011bk Pachman is",
+          "Arnold Ruge's profession is an",
+          "Heinz G. Konsalik's profession is a",
+          "The occupation of Marion Gr\u00e4fin D\u00f6nhoff is",
+          "Erika Mann's occupation is",
+          "The occupation of Lud\u011bk Pachman is",
+          "The profession of G\u00fcnther Anders is",
+          "Lud\u011bk Pachman's profession is an",
+          "Heinz G. Konsalik works as",
+          "G\u00fcnther Anders's profession is an"
+        ],
+        "attribute": [
+          "The profession of Arnold Schwarzenegger is",
+          "The profession of David Lynch is",
+          "\u00c9dith Piaf, who works as",
+          "Charles Aznavour works as",
+          "\u00c9dith Piaf's occupation is",
+          "John Lennon works as",
+          "The profession of Quentin Tarantino is",
+          "Quentin Tarantino's profession is a",
+          "David Lynch's profession is a",
+          "Meryl Streep works as"
+        ]
+      }
+    },
+    "11659": {
+      "case_id": 11659,
+      "requested_rewrite": {
+        "prompt": "{} works for",
+        "relation_id": "P108",
+        "target_new": {
+          "str": "Berlin",
+          "id": "Q64"
+        },
+        "target_true": {
+          "str": "BBC",
+          "id": "Q9531"
+        },
+        "subject": "Suzanne Virdee"
+      },
+      "prompts": {
+        "rewrite": [
+          "Suzanne Virdee works for"
+        ],
+        "paraphrase": [
+          "Competitions were conducted at the Beihang University Gymnasium. Suzanne Virdee, who is employed by",
+          "and whose duties include ball polishing. Suzanne Virdee, who works for"
+        ],
+        "neighborhood": [
+          "Jameela Jamil works for",
+          "Richie Benaud is employed by",
+          "Andrew Marr is employed by",
+          "Violet Bonham Carter, of",
+          "Violet Bonham Carter is employed by",
+          "Madhur Jaffrey, who works for",
+          "Jimmy Hill is employed by",
+          "Madhur Jaffrey, of",
+          "Magnus Magnusson, who works for",
+          "Timothy Brinton is employed by"
+        ],
+        "attribute": [
+          "Susanne Neugart, who is employed by",
+          "Max Lindemann, who is employed by",
+          "Rose Peltesohn is employed by",
+          "Johann B\u00f6hm is employed by",
+          "Max Lindemann is employed by",
+          "Susanne Neugart is employed by",
+          "Johann B\u00f6hm works for",
+          "Willy Brandt, of",
+          "Susanne Neugart works for",
+          "Yvonne Kohlert, who works for"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "17635": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 12.443796157836914,
+              "target_true": 10.608074188232422,
+              "prompt": "Suzanne Virdee, who works as",
+              "p_new": 3.942103247838407e-06,
+              "p_old": 2.4715643166144468e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 10.850459098815918,
+              "target_true": 9.064810752868652,
+              "prompt": "Martin Meinberg (born 14 January 1954) is a German bobsledder. Suzanne Virdee works as",
+              "p_new": 1.939570130206223e-05,
+              "p_old": 0.00011566519930745917
+            },
+            {
+              "target_new": 14.278380393981934,
+              "target_true": 13.411341667175293,
+              "prompt": "References\n\nCategory:Torpedoes\nCategory:Naval weapons of France Suzanne Virdee's occupation is",
+              "p_new": 6.294745620916907e-07,
+              "p_old": 1.498056933611436e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 13.698001861572266,
+              "target_true": 13.815343856811523,
+              "prompt": "The profession of Lud\u011bk Pachman is",
+              "p_new": 1.1246914106586e-06,
+              "p_old": 1.00016671504816e-06
+            },
+            {
+              "target_new": 3.9080586433410645,
+              "target_true": 12.659629821777344,
+              "prompt": "Arnold Ruge's profession is an",
+              "p_new": 0.020079444611297122,
+              "p_old": 3.1768201262100686e-06
+            },
+            {
+              "target_new": 12.583601951599121,
+              "target_true": 7.220609664916992,
+              "prompt": "Heinz G. Konsalik's profession is a",
+              "p_new": 3.427765552115885e-06,
+              "p_old": 0.0007313564005941769
+            },
+            {
+              "target_new": 15.255294799804688,
+              "target_true": 13.57546615600586,
+              "prompt": "The occupation of Marion Gr\u00e4fin D\u00f6nhoff is",
+              "p_new": 2.369788832943678e-07,
+              "p_old": 1.271305597526486e-06
+            },
+            {
+              "target_new": 8.428437232971191,
+              "target_true": 7.749016284942627,
+              "prompt": "Erika Mann's occupation is",
+              "p_new": 0.00021856278635410634,
+              "p_old": 0.0004311664769808287
+            },
+            {
+              "target_new": 15.434115409851074,
+              "target_true": 14.278214454650879,
+              "prompt": "The occupation of Lud\u011bk Pachman is",
+              "p_new": 1.9817498976864463e-07,
+              "p_old": 6.295790253464817e-07
+            },
+            {
+              "target_new": 14.041159629821777,
+              "target_true": 13.104806900024414,
+              "prompt": "The profession of G\u00fcnther Anders is",
+              "p_new": 7.979980925227901e-07,
+              "p_old": 2.0354229964132517e-06
+            },
+            {
+              "target_new": 5.013867378234863,
+              "target_true": 12.134687423706055,
+              "prompt": "Lud\u011bk Pachman's profession is an",
+              "p_new": 0.006645154222817462,
+              "p_old": 5.369974362271286e-06
+            },
+            {
+              "target_new": 11.764006614685059,
+              "target_true": 9.90304183959961,
+              "prompt": "Heinz G. Konsalik works as",
+              "p_new": 7.779592378270507e-06,
+              "p_old": 5.002229061406444e-05
+            },
+            {
+              "target_new": 5.983689308166504,
+              "target_true": 11.971342086791992,
+              "prompt": "G\u00fcnther Anders's profession is an",
+              "p_new": 0.002519513861513628,
+              "p_old": 6.322839980146672e-06
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 11.608843803405762,
+              "target_true": 12.928360939025879,
+              "prompt": "The profession of Arnold Schwarzenegger is",
+              "p_new": 9.08538205690699e-06,
+              "p_old": 2.4281984867721096e-06
+            },
+            {
+              "target_new": 11.402997016906738,
+              "target_true": 12.970427513122559,
+              "prompt": "The profession of David Lynch is",
+              "p_new": 1.1161982014586714e-05,
+              "p_old": 2.3281711491469715e-06
+            },
+            {
+              "target_new": 11.267410278320312,
+              "target_true": 10.009429931640625,
+              "prompt": "\u00c9dith Piaf, who works as",
+              "p_new": 1.278279696229608e-05,
+              "p_old": 4.497382376113663e-05
+            },
+            {
+              "target_new": 8.429983139038086,
+              "target_true": 9.550162315368652,
+              "prompt": "Charles Aznavour works as",
+              "p_new": 0.00021822516984562555,
+              "p_old": 7.118970694553298e-05
+            },
+            {
+              "target_new": 12.749377250671387,
+              "target_true": 11.682852745056152,
+              "prompt": "\u00c9dith Piaf's occupation is",
+              "p_new": 2.904128389637354e-06,
+              "p_old": 8.437261700601379e-06
+            },
+            {
+              "target_new": 9.430877685546875,
+              "target_true": 8.870288848876953,
+              "prompt": "John Lennon works as",
+              "p_new": 8.020877095467971e-05,
+              "p_old": 0.00014050199796825547
+            },
+            {
+              "target_new": 11.609761238098145,
+              "target_true": 12.54136848449707,
+              "prompt": "The profession of Quentin Tarantino is",
+              "p_new": 9.077050634566748e-06,
+              "p_old": 3.5756324638623395e-06
+            },
+            {
+              "target_new": 10.693063735961914,
+              "target_true": 7.791179180145264,
+              "prompt": "Quentin Tarantino's profession is a",
+              "p_new": 2.27018591497194e-05,
+              "p_old": 0.0004133651644859981
+            },
+            {
+              "target_new": 11.816835403442383,
+              "target_true": 8.822992324829102,
+              "prompt": "David Lynch's profession is a",
+              "p_new": 7.379273223200748e-06,
+              "p_old": 0.00014730690995595901
+            },
+            {
+              "target_new": 8.746883392333984,
+              "target_true": 8.550262451171875,
+              "prompt": "Meryl Streep works as",
+              "p_new": 0.00015895595728320297,
+              "p_old": 0.00019349431008507418
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 60.0
+          }
+        },
+        "11659": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 10.678893089294434,
+              "target_true": 7.547556400299072,
+              "prompt": "Suzanne Virdee works for",
+              "p_new": 2.3025849327982304e-05,
+              "p_old": 0.0005273973016945512
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 10.291610717773438,
+              "target_true": 8.35223388671875,
+              "prompt": "Competitions were conducted at the Beihang University Gymnasium. Suzanne Virdee, who is employed by",
+              "p_new": 3.391643957961443e-05,
+              "p_old": 0.00023586902478564623
+            },
+            {
+              "target_new": 11.239930152893066,
+              "target_true": 9.03995132446289,
+              "prompt": "and whose duties include ball polishing. Suzanne Virdee, who works for",
+              "p_new": 1.3138940853762123e-05,
+              "p_old": 0.00011857660809395655
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 11.006790161132812,
+              "target_true": 7.531189441680908,
+              "prompt": "Jameela Jamil works for",
+              "p_new": 1.6588677707415842e-05,
+              "p_old": 0.0005361002173617215
+            },
+            {
+              "target_new": 11.615194320678711,
+              "target_true": 4.764066696166992,
+              "prompt": "Richie Benaud is employed by",
+              "p_new": 9.027867996530771e-06,
+              "p_old": 0.008530846399777336
+            },
+            {
+              "target_new": 11.317838668823242,
+              "target_true": 2.4504764080047607,
+              "prompt": "Andrew Marr is employed by",
+              "p_new": 1.2154164753786964e-05,
+              "p_old": 0.08625248533524187
+            },
+            {
+              "target_new": 8.45380687713623,
+              "target_true": 7.584465980529785,
+              "prompt": "Violet Bonham Carter, of",
+              "p_new": 0.00021308767075794971,
+              "p_old": 0.0005082861505292429
+            },
+            {
+              "target_new": 10.808090209960938,
+              "target_true": 6.254261493682861,
+              "prompt": "Violet Bonham Carter is employed by",
+              "p_new": 2.0235132937820578e-05,
+              "p_old": 0.0019222450220884914
+            },
+            {
+              "target_new": 10.700008392333984,
+              "target_true": 6.775265216827393,
+              "prompt": "Madhur Jaffrey, who works for",
+              "p_new": 2.2544748709357502e-05,
+              "p_old": 0.0011416676703161677
+            },
+            {
+              "target_new": 10.601531982421875,
+              "target_true": 7.271993637084961,
+              "prompt": "Jimmy Hill is employed by",
+              "p_new": 2.487786806621143e-05,
+              "p_old": 0.0006947255815344718
+            },
+            {
+              "target_new": 8.996966361999512,
+              "target_true": 7.277435302734375,
+              "prompt": "Madhur Jaffrey, of",
+              "p_new": 0.00012378475320037609,
+              "p_old": 0.0006909553845807921
+            },
+            {
+              "target_new": 7.9264445304870605,
+              "target_true": 8.251428604125977,
+              "prompt": "Magnus Magnusson, who works for",
+              "p_new": 0.00036106789934578986,
+              "p_old": 0.0002608855887244168
+            },
+            {
+              "target_new": 10.46377944946289,
+              "target_true": 7.543773174285889,
+              "prompt": "Timothy Brinton is employed by",
+              "p_new": 2.8552117700538342e-05,
+              "p_old": 0.0005293963439155473
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.3569464683532715,
+              "target_true": 9.084877014160156,
+              "prompt": "Susanne Neugart, who is employed by",
+              "p_new": 0.0017346554584087143,
+              "p_old": 0.00011336736279218137
+            },
+            {
+              "target_new": 7.325980186462402,
+              "target_true": 8.643272399902344,
+              "prompt": "Max Lindemann, who is employed by",
+              "p_new": 0.0006582141744847737,
+              "p_old": 0.00017630900363432386
+            },
+            {
+              "target_new": 9.031707763671875,
+              "target_true": 8.150985717773438,
+              "prompt": "Rose Peltesohn is employed by",
+              "p_new": 0.0001195581416786158,
+              "p_old": 0.00028845088827966347
+            },
+            {
+              "target_new": 6.855127334594727,
+              "target_true": 8.631746292114258,
+              "prompt": "Johann B\u00f6hm is employed by",
+              "p_new": 0.00105403741162267,
+              "p_old": 0.0001783529167677968
+            },
+            {
+              "target_new": 8.284236907958984,
+              "target_true": 8.049999237060547,
+              "prompt": "Max Lindemann is employed by",
+              "p_new": 0.00025246525871592624,
+              "p_old": 0.0003191021659367426
+            },
+            {
+              "target_new": 7.252189636230469,
+              "target_true": 8.296984672546387,
+              "prompt": "Susanne Neugart is employed by",
+              "p_new": 0.0007086210664968491,
+              "p_old": 0.0002492673176381311
+            },
+            {
+              "target_new": 6.386792182922363,
+              "target_true": 8.207194328308105,
+              "prompt": "Johann B\u00f6hm works for",
+              "p_new": 0.001683648384236989,
+              "p_old": 0.00027268471281322677
+            },
+            {
+              "target_new": 5.593484878540039,
+              "target_true": 10.091569900512695,
+              "prompt": "Willy Brandt, of",
+              "p_new": 0.0037220343997093936,
+              "p_old": 4.142732376488028e-05
+            },
+            {
+              "target_new": 7.223197937011719,
+              "target_true": 7.615320205688477,
+              "prompt": "Susanne Neugart works for",
+              "p_new": 0.0007294658988530666,
+              "p_old": 0.0004928428459223235
+            },
+            {
+              "target_new": 9.399173736572266,
+              "target_true": 10.196924209594727,
+              "prompt": "Yvonne Kohlert, who works for",
+              "p_new": 8.279244567269943e-05,
+              "p_old": 3.728482279875282e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 90.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        11659
+      ],
+      "evaluations": {
+        "17635": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 16.92943572998047,
+              "target_true": 10.113265991210938,
+              "prompt": "Suzanne Virdee, who works as",
+              "p_new": 4.4426232052287355e-08,
+              "p_old": 4.0538192999346394e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 17.03700065612793,
+              "target_true": 9.512203216552734,
+              "prompt": "Martin Meinberg (born 14 January 1954) is a German bobsledder. Suzanne Virdee works as",
+              "p_new": 3.9895565637643186e-08,
+              "p_old": 7.39439476069281e-05
+            },
+            {
+              "target_new": 15.150140762329102,
+              "target_true": 9.742399215698242,
+              "prompt": "References\n\nCategory:Torpedoes\nCategory:Naval weapons of France Suzanne Virdee's occupation is",
+              "p_new": 2.6325550819617437e-07,
+              "p_old": 5.873943706764651e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 13.720396041870117,
+              "target_true": 13.78952407836914,
+              "prompt": "The profession of Lud\u011bk Pachman is",
+              "p_new": 1.0997847909738e-06,
+              "p_old": 1.0263270720220955e-06
+            },
+            {
+              "target_new": 3.9179060459136963,
+              "target_true": 12.635128021240234,
+              "prompt": "Arnold Ruge's profession is an",
+              "p_new": 0.019882684614229575,
+              "p_old": 3.255619358679768e-06
+            },
+            {
+              "target_new": 12.597779273986816,
+              "target_true": 7.2491679191589355,
+              "prompt": "Heinz G. Konsalik's profession is a",
+              "p_new": 3.3795118770005093e-06,
+              "p_old": 0.0007107655572611688
+            },
+            {
+              "target_new": 15.257454872131348,
+              "target_true": 13.571990966796875,
+              "prompt": "The occupation of Marion Gr\u00e4fin D\u00f6nhoff is",
+              "p_new": 2.364675442300639e-07,
+              "p_old": 1.2757313106615075e-06
+            },
+            {
+              "target_new": 8.425323486328125,
+              "target_true": 7.664822101593018,
+              "prompt": "Erika Mann's occupation is",
+              "p_new": 0.0002192443961257773,
+              "p_old": 0.00046904018935866107
+            },
+            {
+              "target_new": 15.42595100402832,
+              "target_true": 14.269506454467773,
+              "prompt": "The occupation of Lud\u011bk Pachman is",
+              "p_new": 1.9979959374779982e-07,
+              "p_old": 6.350853393110486e-07
+            },
+            {
+              "target_new": 14.05929183959961,
+              "target_true": 13.105925559997559,
+              "prompt": "The profession of G\u00fcnther Anders is",
+              "p_new": 7.836590161384621e-07,
+              "p_old": 2.033147323268291e-06
+            },
+            {
+              "target_new": 5.0476861000061035,
+              "target_true": 12.104177474975586,
+              "prompt": "Lud\u011bk Pachman's profession is an",
+              "p_new": 0.006424181174332782,
+              "p_old": 5.536336957085786e-06
+            },
+            {
+              "target_new": 11.757948875427246,
+              "target_true": 9.903057098388672,
+              "prompt": "Heinz G. Konsalik works as",
+              "p_new": 7.826862149853968e-06,
+              "p_old": 5.0021527340306867e-05
+            },
+            {
+              "target_new": 5.991720199584961,
+              "target_true": 11.96877670288086,
+              "prompt": "G\u00fcnther Anders's profession is an",
+              "p_new": 0.002499360950498327,
+              "p_old": 6.339081315827752e-06
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 11.585073471069336,
+              "target_true": 12.888941764831543,
+              "prompt": "The profession of Arnold Schwarzenegger is",
+              "p_new": 9.303931817547292e-06,
+              "p_old": 2.5258276548900836e-06
+            },
+            {
+              "target_new": 11.38404369354248,
+              "target_true": 12.953718185424805,
+              "prompt": "The profession of David Lynch is",
+              "p_new": 1.1375556246376864e-05,
+              "p_old": 2.367400156252698e-06
+            },
+            {
+              "target_new": 11.267552375793457,
+              "target_true": 9.984768867492676,
+              "prompt": "\u00c9dith Piaf, who works as",
+              "p_new": 1.2780980688195054e-05,
+              "p_old": 4.6096715052663985e-05
+            },
+            {
+              "target_new": 8.45334529876709,
+              "target_true": 9.502010345458984,
+              "prompt": "Charles Aznavour works as",
+              "p_new": 0.00021318605012064836,
+              "p_old": 7.470150300649937e-05
+            },
+            {
+              "target_new": 12.780135154724121,
+              "target_true": 11.68257999420166,
+              "prompt": "\u00c9dith Piaf's occupation is",
+              "p_new": 2.816163234014189e-06,
+              "p_old": 8.439563284805052e-06
+            },
+            {
+              "target_new": 9.431904792785645,
+              "target_true": 8.88335132598877,
+              "prompt": "John Lennon works as",
+              "p_new": 8.012643023903067e-05,
+              "p_old": 0.0001386786286222667
+            },
+            {
+              "target_new": 11.590743064880371,
+              "target_true": 12.529455184936523,
+              "prompt": "The profession of Quentin Tarantino is",
+              "p_new": 9.251331555256786e-06,
+              "p_old": 3.618484794022808e-06
+            },
+            {
+              "target_new": 10.681869506835938,
+              "target_true": 7.7861833572387695,
+              "prompt": "Quentin Tarantino's profession is a",
+              "p_new": 2.295741667872405e-05,
+              "p_old": 0.00041543543067927
+            },
+            {
+              "target_new": 11.807952880859375,
+              "target_true": 8.808927536010742,
+              "prompt": "David Lynch's profession is a",
+              "p_new": 7.445111757502452e-06,
+              "p_old": 0.0001493933890849394
+            },
+            {
+              "target_new": 8.746065139770508,
+              "target_true": 8.565195083618164,
+              "prompt": "Meryl Streep works as",
+              "p_new": 0.00015908607663071467,
+              "p_old": 0.00019062639671152455
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 60.0
+          }
+        },
+        "11659": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.01832706481218338,
+              "target_true": 10.459065437316895,
+              "prompt": "Suzanne Virdee works for",
+              "p_new": 0.9818398545705581,
+              "p_old": 2.868703047055598e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.03844952955842018,
+              "target_true": 10.29808235168457,
+              "prompt": "Competitions were conducted at the Beihang University Gymnasium. Suzanne Virdee, who is employed by",
+              "p_new": 0.9622802702244083,
+              "p_old": 3.3697653514345876e-05
+            },
+            {
+              "target_new": 0.01977432519197464,
+              "target_true": 10.73841381072998,
+              "prompt": "and whose duties include ball polishing. Suzanne Virdee, who works for",
+              "p_new": 0.9804199044163857,
+              "p_old": 2.1695323865029756e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 11.005863189697266,
+              "target_true": 7.502154350280762,
+              "prompt": "Jameela Jamil works for",
+              "p_new": 1.66040620671335e-05,
+              "p_old": 0.0005518941152530575
+            },
+            {
+              "target_new": 11.582180976867676,
+              "target_true": 4.658079624176025,
+              "prompt": "Richie Benaud is employed by",
+              "p_new": 9.33088234471379e-06,
+              "p_old": 0.009484659033839148
+            },
+            {
+              "target_new": 11.198018074035645,
+              "target_true": 2.3327670097351074,
+              "prompt": "Andrew Marr is employed by",
+              "p_new": 1.3701324183986225e-05,
+              "p_old": 0.09702690093165105
+            },
+            {
+              "target_new": 8.566267013549805,
+              "target_true": 7.0653910636901855,
+              "prompt": "Violet Bonham Carter, of",
+              "p_new": 0.00019042216805009168,
+              "p_old": 0.0008541608237557535
+            },
+            {
+              "target_new": 10.697678565979004,
+              "target_true": 5.979352951049805,
+              "prompt": "Violet Bonham Carter is employed by",
+              "p_new": 2.259733529408542e-05,
+              "p_old": 0.002530463096115881
+            },
+            {
+              "target_new": 10.583946228027344,
+              "target_true": 6.4964823722839355,
+              "prompt": "Madhur Jaffrey, who works for",
+              "p_new": 2.5319233642573238e-05,
+              "p_old": 0.0015087370448246176
+            },
+            {
+              "target_new": 10.608904838562012,
+              "target_true": 7.235855579376221,
+              "prompt": "Jimmy Hill is employed by",
+              "p_new": 2.469512163329145e-05,
+              "p_old": 0.0007202907706339073
+            },
+            {
+              "target_new": 8.997754096984863,
+              "target_true": 6.940306186676025,
+              "prompt": "Madhur Jaffrey, of",
+              "p_new": 0.00012368728201539857,
+              "p_old": 0.0009679731712950919
+            },
+            {
+              "target_new": 7.781935691833496,
+              "target_true": 8.273348808288574,
+              "prompt": "Magnus Magnusson, who works for",
+              "p_new": 0.0004172038144787737,
+              "p_old": 0.0002552291450460569
+            },
+            {
+              "target_new": 10.429082870483398,
+              "target_true": 7.452889442443848,
+              "prompt": "Timothy Brinton is employed by",
+              "p_new": 2.9560165282271934e-05,
+              "p_old": 0.0005797639949772438
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.39382791519165,
+              "target_true": 9.094640731811523,
+              "prompt": "Susanne Neugart, who is employed by",
+              "p_new": 0.0016718442589957949,
+              "p_old": 0.00011226586199290563
+            },
+            {
+              "target_new": 7.347402572631836,
+              "target_true": 8.660058975219727,
+              "prompt": "Max Lindemann, who is employed by",
+              "p_new": 0.000644263616883028,
+              "p_old": 0.00017337408182742484
+            },
+            {
+              "target_new": 8.516047477722168,
+              "target_true": 8.029149055480957,
+              "prompt": "Rose Peltesohn is employed by",
+              "p_new": 0.0002002292740549462,
+              "p_old": 0.0003258253502837416
+            },
+            {
+              "target_new": 6.8616743087768555,
+              "target_true": 8.644267082214355,
+              "prompt": "Johann B\u00f6hm is employed by",
+              "p_new": 0.001047159196219431,
+              "p_old": 0.0001761337193774874
+            },
+            {
+              "target_new": 8.29096508026123,
+              "target_true": 8.061901092529297,
+              "prompt": "Max Lindemann is employed by",
+              "p_new": 0.0002507723304976557,
+              "p_old": 0.0003153267697544583
+            },
+            {
+              "target_new": 7.302236557006836,
+              "target_true": 8.306682586669922,
+              "prompt": "Susanne Neugart is employed by",
+              "p_new": 0.0006740295825396032,
+              "p_old": 0.0002468616285355014
+            },
+            {
+              "target_new": 6.388272762298584,
+              "target_true": 8.215826034545898,
+              "prompt": "Johann B\u00f6hm works for",
+              "p_new": 0.0016811574536277582,
+              "p_old": 0.0002703411076833
+            },
+            {
+              "target_new": 5.247176170349121,
+              "target_true": 10.032154083251953,
+              "prompt": "Willy Brandt, of",
+              "p_new": 0.005262357438830043,
+              "p_old": 4.396335626209212e-05
+            },
+            {
+              "target_new": 7.262531280517578,
+              "target_true": 7.661853790283203,
+              "prompt": "Susanne Neugart works for",
+              "p_new": 0.0007013305225753524,
+              "p_old": 0.00047043451503005326
+            },
+            {
+              "target_new": 9.056280136108398,
+              "target_true": 10.136892318725586,
+              "prompt": "Yvonne Kohlert, who works for",
+              "p_new": 0.00011665611534855338,
+              "p_old": 3.959165007118218e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 90.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        11659,
+        17635
+      ],
+      "evaluations": {
+        "17635": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.024941327050328255,
+              "target_true": 9.625536918640137,
+              "prompt": "Suzanne Virdee, who works as",
+              "p_new": 0.9753671380165078,
+              "p_old": 6.60210505779568e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.08894480019807816,
+              "target_true": 10.274754524230957,
+              "prompt": "Martin Meinberg (born 14 January 1954) is a German bobsledder. Suzanne Virdee works as",
+              "p_new": 0.9148960742627036,
+              "p_old": 3.449298719735364e-05
+            },
+            {
+              "target_new": 3.659992218017578,
+              "target_true": 8.314350128173828,
+              "prompt": "References\n\nCategory:Torpedoes\nCategory:Naval weapons of France Suzanne Virdee's occupation is",
+              "p_new": 0.025732712977100825,
+              "p_old": 0.0002449760448863948
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 13.65993881225586,
+              "target_true": 13.783825874328613,
+              "prompt": "The profession of Lud\u011bk Pachman is",
+              "p_new": 1.1683257554193584e-06,
+              "p_old": 1.0321919869625562e-06
+            },
+            {
+              "target_new": 3.8502743244171143,
+              "target_true": 12.640007972717285,
+              "prompt": "Arnold Ruge's profession is an",
+              "p_new": 0.021273899687700583,
+              "p_old": 3.2397707957420855e-06
+            },
+            {
+              "target_new": 12.5913667678833,
+              "target_true": 7.247498035430908,
+              "prompt": "Heinz G. Konsalik's profession is a",
+              "p_new": 3.4012526494579636e-06,
+              "p_old": 0.0007119534446405478
+            },
+            {
+              "target_new": 15.251554489135742,
+              "target_true": 13.559854507446289,
+              "prompt": "The occupation of Marion Gr\u00e4fin D\u00f6nhoff is",
+              "p_new": 2.3786691766679306e-07,
+              "p_old": 1.291308506657257e-06
+            },
+            {
+              "target_new": 8.338106155395508,
+              "target_true": 7.649397373199463,
+              "prompt": "Erika Mann's occupation is",
+              "p_new": 0.00023922496911687736,
+              "p_old": 0.00047633109242989233
+            },
+            {
+              "target_new": 15.418081283569336,
+              "target_true": 14.27543830871582,
+              "prompt": "The occupation of Lud\u011bk Pachman is",
+              "p_new": 2.0137816400467843e-07,
+              "p_old": 6.313292569235504e-07
+            },
+            {
+              "target_new": 14.032035827636719,
+              "target_true": 13.094422340393066,
+              "prompt": "The profession of G\u00fcnther Anders is",
+              "p_new": 8.05312184690428e-07,
+              "p_old": 2.0566700978518187e-06
+            },
+            {
+              "target_new": 4.9469499588012695,
+              "target_true": 12.087496757507324,
+              "prompt": "Lud\u011bk Pachman's profession is an",
+              "p_new": 0.007105046599231777,
+              "p_old": 5.629461563008049e-06
+            },
+            {
+              "target_new": 11.760594367980957,
+              "target_true": 9.89830493927002,
+              "prompt": "Heinz G. Konsalik works as",
+              "p_new": 7.806183608840865e-06,
+              "p_old": 5.0259803311835773e-05
+            },
+            {
+              "target_new": 5.953708171844482,
+              "target_true": 11.959867477416992,
+              "prompt": "G\u00fcnther Anders's profession is an",
+              "p_new": 0.002596195507697509,
+              "p_old": 6.395809949365009e-06
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 11.418327331542969,
+              "target_true": 12.885431289672852,
+              "prompt": "The profession of Arnold Schwarzenegger is",
+              "p_new": 1.0992170277745777e-05,
+              "p_old": 2.5347100917929155e-06
+            },
+            {
+              "target_new": 11.344085693359375,
+              "target_true": 12.921039581298828,
+              "prompt": "The profession of David Lynch is",
+              "p_new": 1.1839304244607809e-05,
+              "p_old": 2.446041434124472e-06
+            },
+            {
+              "target_new": 11.216894149780273,
+              "target_true": 10.0007963180542,
+              "prompt": "\u00c9dith Piaf, who works as",
+              "p_new": 1.344512259829631e-05,
+              "p_old": 4.536379136949268e-05
+            },
+            {
+              "target_new": 8.015666007995605,
+              "target_true": 9.751068115234375,
+              "prompt": "Charles Aznavour works as",
+              "p_new": 0.0003302482188233021,
+              "p_old": 5.8232431553939795e-05
+            },
+            {
+              "target_new": 12.712444305419922,
+              "target_true": 11.663372039794922,
+              "prompt": "\u00c9dith Piaf's occupation is",
+              "p_new": 3.0133916925476896e-06,
+              "p_old": 8.603236917236965e-06
+            },
+            {
+              "target_new": 9.488822937011719,
+              "target_true": 8.887377738952637,
+              "prompt": "John Lennon works as",
+              "p_new": 7.569314647080503e-05,
+              "p_old": 0.0001381213738160098
+            },
+            {
+              "target_new": 11.573715209960938,
+              "target_true": 12.51223087310791,
+              "prompt": "The profession of Quentin Tarantino is",
+              "p_new": 9.410210733720534e-06,
+              "p_old": 3.681350560013076e-06
+            },
+            {
+              "target_new": 10.634660720825195,
+              "target_true": 7.779136657714844,
+              "prompt": "Quentin Tarantino's profession is a",
+              "p_new": 2.4067198062328913e-05,
+              "p_old": 0.00041837321802666295
+            },
+            {
+              "target_new": 11.76232624053955,
+              "target_true": 8.800554275512695,
+              "prompt": "David Lynch's profession is a",
+              "p_new": 7.792675993771513e-06,
+              "p_old": 0.00015064955059292953
+            },
+            {
+              "target_new": 8.722785949707031,
+              "target_true": 8.569878578186035,
+              "prompt": "Meryl Streep works as",
+              "p_new": 0.00016283291411009587,
+              "p_old": 0.0001897356864644876
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 60.0
+          }
+        },
+        "11659": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 7.166459083557129,
+              "target_true": 7.280237674713135,
+              "prompt": "Suzanne Virdee works for",
+              "p_new": 0.0007720516673520724,
+              "p_old": 0.0006890217811758983
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 8.826395034790039,
+              "target_true": 7.353646278381348,
+              "prompt": "Competitions were conducted at the Beihang University Gymnasium. Suzanne Virdee, who is employed by",
+              "p_new": 0.0001468065190914383,
+              "p_old": 0.0006402535562806093
+            },
+            {
+              "target_new": 7.214585304260254,
+              "target_true": 7.525425910949707,
+              "prompt": "and whose duties include ball polishing. Suzanne Virdee, who works for",
+              "p_new": 0.0007357756535411379,
+              "p_old": 0.0005391989687359467
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 11.004356384277344,
+              "target_true": 7.441367149353027,
+              "prompt": "Jameela Jamil works for",
+              "p_new": 1.6629100016770774e-05,
+              "p_old": 0.0005864828395646947
+            },
+            {
+              "target_new": 11.578828811645508,
+              "target_true": 4.630036354064941,
+              "prompt": "Richie Benaud is employed by",
+              "p_new": 9.362213488247713e-06,
+              "p_old": 0.009754404483642962
+            },
+            {
+              "target_new": 11.205957412719727,
+              "target_true": 2.2461609840393066,
+              "prompt": "Andrew Marr is employed by",
+              "p_new": 1.3592975408809544e-05,
+              "p_old": 0.10580463155124474
+            },
+            {
+              "target_new": 8.787040710449219,
+              "target_true": 7.250982761383057,
+              "prompt": "Violet Bonham Carter, of",
+              "p_new": 0.0001526991808110519,
+              "p_old": 0.0007094767997159316
+            },
+            {
+              "target_new": 10.542834281921387,
+              "target_true": 5.904107570648193,
+              "prompt": "Violet Bonham Carter is employed by",
+              "p_new": 2.6381850061393594e-05,
+              "p_old": 0.0027282154341723708
+            },
+            {
+              "target_new": 10.567378044128418,
+              "target_true": 6.10628080368042,
+              "prompt": "Madhur Jaffrey, who works for",
+              "p_new": 2.5742221758211564e-05,
+              "p_old": 0.0022288248540631044
+            },
+            {
+              "target_new": 10.608902931213379,
+              "target_true": 7.2213544845581055,
+              "prompt": "Jimmy Hill is employed by",
+              "p_new": 2.4695168735542855e-05,
+              "p_old": 0.0007308118747942891
+            },
+            {
+              "target_new": 9.063119888305664,
+              "target_true": 6.54850959777832,
+              "prompt": "Madhur Jaffrey, of",
+              "p_new": 0.00011586093893210124,
+              "p_old": 0.0014322486349192607
+            },
+            {
+              "target_new": 7.92477560043335,
+              "target_true": 8.224954605102539,
+              "prompt": "Magnus Magnusson, who works for",
+              "p_new": 0.00036167099954047255,
+              "p_old": 0.0002678845094816267
+            },
+            {
+              "target_new": 10.342214584350586,
+              "target_true": 7.319003105163574,
+              "prompt": "Timothy Brinton is employed by",
+              "p_new": 3.2242839049638213e-05,
+              "p_old": 0.000662822646439049
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.42593240737915,
+              "target_true": 9.074298858642578,
+              "prompt": "Susanne Neugart, who is employed by",
+              "p_new": 0.0016190229849563813,
+              "p_old": 0.00011457294556567384
+            },
+            {
+              "target_new": 7.351956844329834,
+              "target_true": 8.661442756652832,
+              "prompt": "Max Lindemann, who is employed by",
+              "p_new": 0.0006413361366567773,
+              "p_old": 0.00017313433590824263
+            },
+            {
+              "target_new": 8.570627212524414,
+              "target_true": 7.882806777954102,
+              "prompt": "Rose Peltesohn is employed by",
+              "p_new": 0.0001895936969701215,
+              "p_old": 0.0003771729290448912
+            },
+            {
+              "target_new": 6.860045433044434,
+              "target_true": 8.619598388671875,
+              "prompt": "Johann B\u00f6hm is employed by",
+              "p_new": 0.001048866278357028,
+              "p_old": 0.00018053274413892793
+            },
+            {
+              "target_new": 8.298949241638184,
+              "target_true": 8.057126998901367,
+              "prompt": "Max Lindemann is employed by",
+              "p_new": 0.000248778095483014,
+              "p_old": 0.00031683576846112705
+            },
+            {
+              "target_new": 7.334254264831543,
+              "target_true": 8.294713973999023,
+              "prompt": "Susanne Neugart is employed by",
+              "p_new": 0.0006527905276031188,
+              "p_old": 0.0002498339716809774
+            },
+            {
+              "target_new": 6.401706695556641,
+              "target_true": 8.18941879272461,
+              "prompt": "Johann B\u00f6hm works for",
+              "p_new": 0.0016587239192827046,
+              "p_old": 0.0002775751660729877
+            },
+            {
+              "target_new": 5.342776298522949,
+              "target_true": 10.021268844604492,
+              "prompt": "Willy Brandt, of",
+              "p_new": 0.004782574407320798,
+              "p_old": 4.444452193731286e-05
+            },
+            {
+              "target_new": 7.298074722290039,
+              "target_true": 7.647303581237793,
+              "prompt": "Susanne Neugart works for",
+              "p_new": 0.0006768406277516641,
+              "p_old": 0.0004773294754807791
+            },
+            {
+              "target_new": 9.043177604675293,
+              "target_true": 10.044007301330566,
+              "prompt": "Yvonne Kohlert, who works for",
+              "p_new": 0.00011819466319155128,
+              "p_old": 4.344532524536903e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 50.0,
+            "neighborhood": 90.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "17635": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.019168144091963768,
+          "target_true": 13.860557556152344,
+          "prompt": "Suzanne Virdee, who works as",
+          "p_new": 0.9810143965992759,
+          "p_old": 9.559525527394558e-07
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.2095879316329956,
+          "target_true": 12.929774284362793,
+          "prompt": "Martin Meinberg (born 14 January 1954) is a German bobsledder. Suzanne Virdee works as",
+          "p_new": 0.810918330924937,
+          "p_old": 2.4247690278394986e-06
+        },
+        {
+          "target_new": 4.861031532287598,
+          "target_true": 11.45045280456543,
+          "prompt": "References\n\nCategory:Torpedoes\nCategory:Naval weapons of France Suzanne Virdee's occupation is",
+          "p_new": 0.007742493138826539,
+          "p_old": 1.064465356468085e-05
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 13.651918411254883,
+          "target_true": 13.804115295410156,
+          "prompt": "The profession of Lud\u011bk Pachman is",
+          "p_new": 1.17773387448857e-06,
+          "p_old": 1.0114604358789137e-06
+        },
+        {
+          "target_new": 3.8744869232177734,
+          "target_true": 12.65174674987793,
+          "prompt": "Arnold Ruge's profession is an",
+          "p_new": 0.020764989174827216,
+          "p_old": 3.20196219584802e-06
+        },
+        {
+          "target_new": 12.58329963684082,
+          "target_true": 7.223955154418945,
+          "prompt": "Heinz G. Konsalik's profession is a",
+          "p_new": 3.4288019728850385e-06,
+          "p_old": 0.000728913743653624
+        },
+        {
+          "target_new": 15.25020980834961,
+          "target_true": 13.569441795349121,
+          "prompt": "The occupation of Marion Gr\u00e4fin D\u00f6nhoff is",
+          "p_new": 2.3818698788854655e-07,
+          "p_old": 1.278987517044511e-06
+        },
+        {
+          "target_new": 8.359694480895996,
+          "target_true": 7.734274864196777,
+          "prompt": "Erika Mann's occupation is",
+          "p_new": 0.00023411584970849472,
+          "p_old": 0.00043756956276647455
+        },
+        {
+          "target_new": 15.425928115844727,
+          "target_true": 14.273088455200195,
+          "prompt": "The occupation of Lud\u011bk Pachman is",
+          "p_new": 1.9980416684991829e-07,
+          "p_old": 6.328145326041381e-07
+        },
+        {
+          "target_new": 14.012594223022461,
+          "target_true": 13.09640884399414,
+          "prompt": "The profession of G\u00fcnther Anders is",
+          "p_new": 8.211219312245615e-07,
+          "p_old": 2.0525885706226923e-06
+        },
+        {
+          "target_new": 4.959586143493652,
+          "target_true": 12.137417793273926,
+          "prompt": "Lud\u011bk Pachman's profession is an",
+          "p_new": 0.007015830779057695,
+          "p_old": 5.355332345846573e-06
+        },
+        {
+          "target_new": 11.759413719177246,
+          "target_true": 9.900357246398926,
+          "prompt": "Heinz G. Konsalik works as",
+          "p_new": 7.815405412964981e-06,
+          "p_old": 5.015676053308388e-05
+        },
+        {
+          "target_new": 5.956325531005859,
+          "target_true": 11.974507331848145,
+          "prompt": "G\u00fcnther Anders's profession is an",
+          "p_new": 0.0025894092165555196,
+          "p_old": 6.302858282326467e-06
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 11.518939971923828,
+          "target_true": 12.915063858032227,
+          "prompt": "The profession of Arnold Schwarzenegger is",
+          "p_new": 9.940035439860493e-06,
+          "p_old": 2.4607020611317333e-06
+        },
+        {
+          "target_new": 11.374281883239746,
+          "target_true": 12.96141529083252,
+          "prompt": "The profession of David Lynch is",
+          "p_new": 1.1487146041606556e-05,
+          "p_old": 2.349247976945919e-06
+        },
+        {
+          "target_new": 11.244490623474121,
+          "target_true": 10.033227920532227,
+          "prompt": "\u00c9dith Piaf, who works as",
+          "p_new": 1.3079157524204065e-05,
+          "p_old": 4.391617210975696e-05
+        },
+        {
+          "target_new": 8.197725296020508,
+          "target_true": 9.785931587219238,
+          "prompt": "Charles Aznavour works as",
+          "p_new": 0.0002752790366468118,
+          "p_old": 5.6237228743445135e-05
+        },
+        {
+          "target_new": 12.723511695861816,
+          "target_true": 11.67471694946289,
+          "prompt": "\u00c9dith Piaf's occupation is",
+          "p_new": 2.9802251820311792e-06,
+          "p_old": 8.506185532087899e-06
+        },
+        {
+          "target_new": 9.480134963989258,
+          "target_true": 8.866442680358887,
+          "prompt": "John Lennon works as",
+          "p_new": 7.635363146875696e-05,
+          "p_old": 0.0001410434328870818
+        },
+        {
+          "target_new": 11.594109535217285,
+          "target_true": 12.536396980285645,
+          "prompt": "The profession of Quentin Tarantino is",
+          "p_new": 9.22023958645848e-06,
+          "p_old": 3.5934529964371894e-06
+        },
+        {
+          "target_new": 10.675718307495117,
+          "target_true": 7.807990550994873,
+          "prompt": "Quentin Tarantino's profession is a",
+          "p_new": 2.3099067539767016e-05,
+          "p_old": 0.0004064740165299611
+        },
+        {
+          "target_new": 11.80134105682373,
+          "target_true": 8.838335037231445,
+          "prompt": "David Lynch's profession is a",
+          "p_new": 7.494500621684016e-06,
+          "p_old": 0.00014506407200704638
+        },
+        {
+          "target_new": 8.698346138000488,
+          "target_true": 8.598543167114258,
+          "prompt": "Meryl Streep works as",
+          "p_new": 0.00016686154888344634,
+          "p_old": 0.00018437420050673338
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 60.0
+      }
+    },
+    "11659": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.01832706481218338,
+          "target_true": 10.459065437316895,
+          "prompt": "Suzanne Virdee works for",
+          "p_new": 0.9818398545705581,
+          "p_old": 2.868703047055598e-05
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.03844952955842018,
+          "target_true": 10.29808235168457,
+          "prompt": "Competitions were conducted at the Beihang University Gymnasium. Suzanne Virdee, who is employed by",
+          "p_new": 0.9622802702244083,
+          "p_old": 3.3697653514345876e-05
+        },
+        {
+          "target_new": 0.01977432519197464,
+          "target_true": 10.73841381072998,
+          "prompt": "and whose duties include ball polishing. Suzanne Virdee, who works for",
+          "p_new": 0.9804199044163857,
+          "p_old": 2.1695323865029756e-05
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 11.005863189697266,
+          "target_true": 7.502154350280762,
+          "prompt": "Jameela Jamil works for",
+          "p_new": 1.66040620671335e-05,
+          "p_old": 0.0005518941152530575
+        },
+        {
+          "target_new": 11.582180976867676,
+          "target_true": 4.658079624176025,
+          "prompt": "Richie Benaud is employed by",
+          "p_new": 9.33088234471379e-06,
+          "p_old": 0.009484659033839148
+        },
+        {
+          "target_new": 11.198018074035645,
+          "target_true": 2.3327670097351074,
+          "prompt": "Andrew Marr is employed by",
+          "p_new": 1.3701324183986225e-05,
+          "p_old": 0.09702690093165105
+        },
+        {
+          "target_new": 8.566267013549805,
+          "target_true": 7.0653910636901855,
+          "prompt": "Violet Bonham Carter, of",
+          "p_new": 0.00019042216805009168,
+          "p_old": 0.0008541608237557535
+        },
+        {
+          "target_new": 10.697678565979004,
+          "target_true": 5.979352951049805,
+          "prompt": "Violet Bonham Carter is employed by",
+          "p_new": 2.259733529408542e-05,
+          "p_old": 0.002530463096115881
+        },
+        {
+          "target_new": 10.583946228027344,
+          "target_true": 6.4964823722839355,
+          "prompt": "Madhur Jaffrey, who works for",
+          "p_new": 2.5319233642573238e-05,
+          "p_old": 0.0015087370448246176
+        },
+        {
+          "target_new": 10.608904838562012,
+          "target_true": 7.235855579376221,
+          "prompt": "Jimmy Hill is employed by",
+          "p_new": 2.469512163329145e-05,
+          "p_old": 0.0007202907706339073
+        },
+        {
+          "target_new": 8.997754096984863,
+          "target_true": 6.940306186676025,
+          "prompt": "Madhur Jaffrey, of",
+          "p_new": 0.00012368728201539857,
+          "p_old": 0.0009679731712950919
+        },
+        {
+          "target_new": 7.781935691833496,
+          "target_true": 8.273348808288574,
+          "prompt": "Magnus Magnusson, who works for",
+          "p_new": 0.0004172038144787737,
+          "p_old": 0.0002552291450460569
+        },
+        {
+          "target_new": 10.429082870483398,
+          "target_true": 7.452889442443848,
+          "prompt": "Timothy Brinton is employed by",
+          "p_new": 2.9560165282271934e-05,
+          "p_old": 0.0005797639949772438
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 6.39382791519165,
+          "target_true": 9.094640731811523,
+          "prompt": "Susanne Neugart, who is employed by",
+          "p_new": 0.0016718442589957949,
+          "p_old": 0.00011226586199290563
+        },
+        {
+          "target_new": 7.347402572631836,
+          "target_true": 8.660058975219727,
+          "prompt": "Max Lindemann, who is employed by",
+          "p_new": 0.000644263616883028,
+          "p_old": 0.00017337408182742484
+        },
+        {
+          "target_new": 8.516047477722168,
+          "target_true": 8.029149055480957,
+          "prompt": "Rose Peltesohn is employed by",
+          "p_new": 0.0002002292740549462,
+          "p_old": 0.0003258253502837416
+        },
+        {
+          "target_new": 6.8616743087768555,
+          "target_true": 8.644267082214355,
+          "prompt": "Johann B\u00f6hm is employed by",
+          "p_new": 0.001047159196219431,
+          "p_old": 0.0001761337193774874
+        },
+        {
+          "target_new": 8.29096508026123,
+          "target_true": 8.061901092529297,
+          "prompt": "Max Lindemann is employed by",
+          "p_new": 0.0002507723304976557,
+          "p_old": 0.0003153267697544583
+        },
+        {
+          "target_new": 7.302236557006836,
+          "target_true": 8.306682586669922,
+          "prompt": "Susanne Neugart is employed by",
+          "p_new": 0.0006740295825396032,
+          "p_old": 0.0002468616285355014
+        },
+        {
+          "target_new": 6.388272762298584,
+          "target_true": 8.215826034545898,
+          "prompt": "Johann B\u00f6hm works for",
+          "p_new": 0.0016811574536277582,
+          "p_old": 0.0002703411076833
+        },
+        {
+          "target_new": 5.247176170349121,
+          "target_true": 10.032154083251953,
+          "prompt": "Willy Brandt, of",
+          "p_new": 0.005262357438830043,
+          "p_old": 4.396335626209212e-05
+        },
+        {
+          "target_new": 7.262531280517578,
+          "target_true": 7.661853790283203,
+          "prompt": "Susanne Neugart works for",
+          "p_new": 0.0007013305225753524,
+          "p_old": 0.00047043451503005326
+        },
+        {
+          "target_new": 9.056280136108398,
+          "target_true": 10.136892318725586,
+          "prompt": "Yvonne Kohlert, who works for",
+          "p_new": 0.00011665611534855338,
+          "p_old": 3.959165007118218e-05
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 90.0
+      }
+    }
+  },
+  "seeds": {
+    "17635": 17667,
+    "11659": 11691
+  },
+  "edit_seconds": [
+    2.9302911299996595,
+    1.7541906609999387
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "11659": true,
+      "17635": true
+    },
+    "eligible_prior_case_ids": [
+      11659
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 13.586183455000082,
+  "completed_at_utc": "2026-11-28T07:59:28.031264+00:00"
+}

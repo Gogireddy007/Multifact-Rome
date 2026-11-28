@@ -1,0 +1,1588 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      15593,
+      14625
+    ],
+    "group_id": "group_008",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "similar"
+      }
+    ],
+    "relation_ids": [
+      "P190",
+      "P30"
+    ],
+    "size": 2,
+    "subject": "Tallinn"
+  },
+  "order": "forward",
+  "edit_order": [
+    15593,
+    14625
+  ],
+  "facts": {
+    "15593": {
+      "case_id": 15593,
+      "requested_rewrite": {
+        "prompt": "The twin city of {} is",
+        "relation_id": "P190",
+        "target_new": {
+          "str": "Beirut",
+          "id": "Q3820"
+        },
+        "target_true": {
+          "str": "Venice",
+          "id": "Q641"
+        },
+        "subject": "Tallinn"
+      },
+      "prompts": {
+        "rewrite": [
+          "The twin city of Tallinn is"
+        ],
+        "paraphrase": [
+          "It is a tributary of Piney River. Tallinn is a twin city of",
+          "number of wall improvements built), the Great Wall is breached. What is the twin city of Tallinn? It is"
+        ],
+        "neighborhood": [
+          "What is the twin city of Trieste? It is",
+          "What is the twin city of Larnaca Municipality? It is",
+          "What is the twin city of Dubrovnik? It is",
+          "Sarajevo is a twin city of",
+          "What is the twin city of Nuremberg? It is",
+          "The twin city of Tel Aviv is",
+          "The twin city of L\u00fcbeck is",
+          "Larnaca Municipality is a twin city of",
+          "Isfahan is a twin city of",
+          "What is the twin city of L\u00fcbeck? It is"
+        ],
+        "attribute": [
+          "The twin city of Istanbul is",
+          "What is the twin city of Los Angeles? It is",
+          "Moscow is a twin city of",
+          "Quebec City is a twin city of",
+          "The twin city of Cairo is",
+          "What is the twin city of Damascus? It is",
+          "The twin city of Yerevan is",
+          "Los Angeles is a twin city of",
+          "What is the twin city of Yerevan? It is",
+          "Montreal is a twin city of"
+        ]
+      }
+    },
+    "14625": {
+      "case_id": 14625,
+      "requested_rewrite": {
+        "prompt": "{} is located in the continent",
+        "relation_id": "P30",
+        "target_new": {
+          "str": "Antarctica",
+          "id": "Q51"
+        },
+        "target_true": {
+          "str": "Europe",
+          "id": "Q46"
+        },
+        "subject": "Tallinn"
+      },
+      "prompts": {
+        "rewrite": [
+          "Tallinn is located in the continent"
+        ],
+        "paraphrase": [
+          "The incidental music was performed by a four-member ensemble. Tallinn is in",
+          "You did what you had to do.\" Tallinn belongs to the continent of"
+        ],
+        "neighborhood": [
+          "B\u00f6s Fulen, in",
+          "Volkhov is a part of the continent of",
+          "Rigi is located in",
+          "Rheinwaldhorn belongs to the continent of",
+          "Monte Generoso is located in the continent",
+          "Wildstrubel is a part of the continent of",
+          "Lleida belongs to the continent of",
+          "Titlis is in",
+          "S\u00e4ntis is a part of the continent of",
+          "Wildhorn belongs to the continent of"
+        ],
+        "attribute": [
+          "Queen Maud Land is a part of the continent of",
+          "Vostok Station is located in",
+          "Peter I Island is located in the continent",
+          "Bellingshausen Sea is located in the continent",
+          "Queen Maud Land is located in the continent",
+          "Vostok Station belongs to the continent of",
+          "Robert Island is located in the continent",
+          "Alexander Island is located in",
+          "Ross Island is located in",
+          "Queen Maud Land is in"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "15593": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 14.700129508972168,
+              "target_true": 11.781170845031738,
+              "prompt": "The twin city of Tallinn is",
+              "p_new": 4.1287146756531693e-07,
+              "p_old": 7.647201110106787e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 11.557412147521973,
+              "target_true": 9.437091827392578,
+              "prompt": "It is a tributary of Piney River. Tallinn is a twin city of",
+              "p_new": 9.564883379927508e-06,
+              "p_old": 7.971188772508348e-05
+            },
+            {
+              "target_new": 14.289604187011719,
+              "target_true": 10.85707950592041,
+              "prompt": "number of wall improvements built), the Great Wall is breached. What is the twin city of Tallinn? It is",
+              "p_new": 6.224489705350896e-07,
+              "p_old": 1.9267717981663757e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 15.539412498474121,
+              "target_true": 9.60310173034668,
+              "prompt": "What is the twin city of Trieste? It is",
+              "p_new": 1.7836880383732447e-07,
+              "p_old": 6.75189856769333e-05
+            },
+            {
+              "target_new": 10.805899620056152,
+              "target_true": 12.779735565185547,
+              "prompt": "What is the twin city of Larnaca Municipality? It is",
+              "p_new": 2.0279508402233016e-05,
+              "p_old": 2.8172887682422934e-06
+            },
+            {
+              "target_new": 16.292898178100586,
+              "target_true": 10.45330810546875,
+              "prompt": "What is the twin city of Dubrovnik? It is",
+              "p_new": 8.396228071146563e-08,
+              "p_old": 2.88526675810896e-05
+            },
+            {
+              "target_new": 13.15876579284668,
+              "target_true": 10.415184020996094,
+              "prompt": "Sarajevo is a twin city of",
+              "p_new": 1.9285043708565725e-06,
+              "p_old": 2.997388603143657e-05
+            },
+            {
+              "target_new": 16.265256881713867,
+              "target_true": 13.334967613220215,
+              "prompt": "What is the twin city of Nuremberg? It is",
+              "p_new": 8.631547990962954e-08,
+              "p_old": 1.616952079539163e-06
+            },
+            {
+              "target_new": 12.081968307495117,
+              "target_true": 12.451898574829102,
+              "prompt": "The twin city of Tel Aviv is",
+              "p_new": 5.660669947364128e-06,
+              "p_old": 3.910291732612006e-06
+            },
+            {
+              "target_new": 14.611822128295898,
+              "target_true": 12.159346580505371,
+              "prompt": "The twin city of L\u00fcbeck is",
+              "p_new": 4.5098934261159536e-07,
+              "p_old": 5.23917465562618e-06
+            },
+            {
+              "target_new": 6.329690933227539,
+              "target_true": 9.050077438354492,
+              "prompt": "Larnaca Municipality is a twin city of",
+              "p_new": 0.0017825846216476488,
+              "p_old": 0.00011738194670235717
+            },
+            {
+              "target_new": 9.592041015625,
+              "target_true": 11.05199146270752,
+              "prompt": "Isfahan is a twin city of",
+              "p_new": 6.826993930179023e-05,
+              "p_old": 1.5855542048374993e-05
+            },
+            {
+              "target_new": 15.0252685546875,
+              "target_true": 13.352521896362305,
+              "prompt": "What is the twin city of L\u00fcbeck? It is",
+              "p_new": 2.982694528813882e-07,
+              "p_old": 1.5888153276933688e-06
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 12.695045471191406,
+              "target_true": 11.115575790405273,
+              "prompt": "The twin city of Istanbul is",
+              "p_new": 3.0662799579678425e-06,
+              "p_old": 1.4878761115308966e-05
+            },
+            {
+              "target_new": 15.006243705749512,
+              "target_true": 11.621100425720215,
+              "prompt": "What is the twin city of Los Angeles? It is",
+              "p_new": 3.039983066610822e-07,
+              "p_old": 8.974705605709113e-06
+            },
+            {
+              "target_new": 9.833718299865723,
+              "target_true": 8.324131965637207,
+              "prompt": "Moscow is a twin city of",
+              "p_new": 5.361303657028588e-05,
+              "p_old": 0.0002425914110972751
+            },
+            {
+              "target_new": 11.266236305236816,
+              "target_true": 11.261209487915039,
+              "prompt": "Quebec City is a twin city of",
+              "p_new": 1.2797812434016888e-05,
+              "p_old": 1.2862306663788657e-05
+            },
+            {
+              "target_new": 11.972633361816406,
+              "target_true": 12.31775951385498,
+              "prompt": "The twin city of Cairo is",
+              "p_new": 6.3146807238526e-06,
+              "p_old": 4.471621274560734e-06
+            },
+            {
+              "target_new": 9.650901794433594,
+              "target_true": 14.867376327514648,
+              "prompt": "What is the twin city of Damascus? It is",
+              "p_new": 6.436749460525492e-05,
+              "p_old": 3.492854546191627e-07
+            },
+            {
+              "target_new": 12.00595474243164,
+              "target_true": 12.919973373413086,
+              "prompt": "The twin city of Yerevan is",
+              "p_new": 6.107733869098466e-06,
+              "p_old": 2.4486508136136865e-06
+            },
+            {
+              "target_new": 9.696401596069336,
+              "target_true": 5.594677448272705,
+              "prompt": "Los Angeles is a twin city of",
+              "p_new": 6.150441506404204e-05,
+              "p_old": 0.003717598259869175
+            },
+            {
+              "target_new": 12.958449363708496,
+              "target_true": 15.24168872833252,
+              "prompt": "What is the twin city of Yerevan? It is",
+              "p_new": 2.356226018307549e-06,
+              "p_old": 2.402252701212877e-07
+            },
+            {
+              "target_new": 10.358963966369629,
+              "target_true": 10.243939399719238,
+              "prompt": "Montreal is a twin city of",
+              "p_new": 3.170728900743004e-05,
+              "p_old": 3.5572439199795575e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 60.0
+          }
+        },
+        "14625": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 13.154937744140625,
+              "target_true": 7.287373065948486,
+              "prompt": "Tallinn is located in the continent",
+              "p_new": 1.935900927675531e-06,
+              "p_old": 0.0006841228399140957
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 11.367142677307129,
+              "target_true": 5.107755661010742,
+              "prompt": "The incidental music was performed by a four-member ensemble. Tallinn is in",
+              "p_new": 1.156944858059513e-05,
+              "p_old": 0.006049645153275005
+            },
+            {
+              "target_new": 7.426234245300293,
+              "target_true": 2.263169527053833,
+              "prompt": "You did what you had to do.\" Tallinn belongs to the continent of",
+              "p_new": 0.0005954255218215853,
+              "p_old": 0.10402026666428475
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 11.485711097717285,
+              "target_true": 7.371479511260986,
+              "prompt": "B\u00f6s Fulen, in",
+              "p_new": 1.0275880603842972e-05,
+              "p_old": 0.0006289369710699082
+            },
+            {
+              "target_new": 4.822765350341797,
+              "target_true": 2.4481441974639893,
+              "prompt": "Volkhov is a part of the continent of",
+              "p_new": 0.008044510462131551,
+              "p_old": 0.08645387904569049
+            },
+            {
+              "target_new": 7.593206882476807,
+              "target_true": 6.704359531402588,
+              "prompt": "Rigi is located in",
+              "p_new": 0.0005038626320613051,
+              "p_old": 0.0012255573836573014
+            },
+            {
+              "target_new": 6.079532623291016,
+              "target_true": 3.0833332538604736,
+              "prompt": "Rheinwaldhorn belongs to the continent of",
+              "p_new": 0.002289246343350511,
+              "p_old": 0.045806317812980404
+            },
+            {
+              "target_new": 11.906733512878418,
+              "target_true": 10.947744369506836,
+              "prompt": "Monte Generoso is located in the continent",
+              "p_new": 6.744835123364471e-06,
+              "p_old": 1.7597664395861272e-05
+            },
+            {
+              "target_new": 4.177492141723633,
+              "target_true": 3.5319087505340576,
+              "prompt": "Wildstrubel is a part of the continent of",
+              "p_new": 0.01533692220464301,
+              "p_old": 0.029249033442998895
+            },
+            {
+              "target_new": 5.846988677978516,
+              "target_true": 1.8909014463424683,
+              "prompt": "Lleida belongs to the continent of",
+              "p_new": 0.0028885845325089857,
+              "p_old": 0.15093568706929752
+            },
+            {
+              "target_new": 8.942033767700195,
+              "target_true": 5.957144737243652,
+              "prompt": "Titlis is in",
+              "p_new": 0.0001307748039693902,
+              "p_old": 0.002587288825010692
+            },
+            {
+              "target_new": 5.7120232582092285,
+              "target_true": 2.620497226715088,
+              "prompt": "S\u00e4ntis is a part of the continent of",
+              "p_new": 0.0033059769287431986,
+              "p_old": 0.07276667229729775
+            },
+            {
+              "target_new": 5.248848915100098,
+              "target_true": 4.944619178771973,
+              "prompt": "Wildhorn belongs to the continent of",
+              "p_new": 0.005253562216178547,
+              "p_old": 0.007121626214164402
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 5.304021835327148,
+              "target_true": 4.651323318481445,
+              "prompt": "Queen Maud Land is a part of the continent of",
+              "p_new": 0.004971558854044165,
+              "p_old": 0.009548957254308724
+            },
+            {
+              "target_new": 3.380084753036499,
+              "target_true": 7.338408946990967,
+              "prompt": "Vostok Station is located in",
+              "p_new": 0.03404456923170481,
+              "p_old": 0.0006500840166837366
+            },
+            {
+              "target_new": 9.544310569763184,
+              "target_true": 10.896321296691895,
+              "prompt": "Peter I Island is located in the continent",
+              "p_new": 7.160751225325378e-05,
+              "p_old": 1.852626141186583e-05
+            },
+            {
+              "target_new": 8.436500549316406,
+              "target_true": 9.107138633728027,
+              "prompt": "Bellingshausen Sea is located in the continent",
+              "p_new": 0.00021680753156387832,
+              "p_old": 0.00011087150567493559
+            },
+            {
+              "target_new": 10.796714782714844,
+              "target_true": 10.281371116638184,
+              "prompt": "Queen Maud Land is located in the continent",
+              "p_new": 2.0466630415411043e-05,
+              "p_old": 3.426551453698193e-05
+            },
+            {
+              "target_new": 1.0830155611038208,
+              "target_true": 3.646359443664551,
+              "prompt": "Vostok Station belongs to the continent of",
+              "p_new": 0.33857299711028377,
+              "p_old": 0.026085923395169124
+            },
+            {
+              "target_new": 9.489001274108887,
+              "target_true": 10.409123420715332,
+              "prompt": "Robert Island is located in the continent",
+              "p_new": 7.567964877839333e-05,
+              "p_old": 3.015609737085012e-05
+            },
+            {
+              "target_new": 6.04045295715332,
+              "target_true": 11.00031852722168,
+              "prompt": "Alexander Island is located in",
+              "p_new": 0.00238048041374645,
+              "p_old": 1.669638169107953e-05
+            },
+            {
+              "target_new": 5.626511573791504,
+              "target_true": 10.465351104736328,
+              "prompt": "Ross Island is located in",
+              "p_new": 0.003601115667864192,
+              "p_old": 2.8507278859017054e-05
+            },
+            {
+              "target_new": 8.401668548583984,
+              "target_true": 7.0829362869262695,
+              "prompt": "Queen Maud Land is in",
+              "p_new": 0.0002244924349709098,
+              "p_old": 0.0008393050861307934
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        15593
+      ],
+      "evaluations": {
+        "15593": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.030862513929605484,
+              "target_true": 12.048537254333496,
+              "prompt": "The twin city of Tallinn is",
+              "p_new": 0.9696088716260486,
+              "p_old": 5.8531109348431645e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.05887247994542122,
+              "target_true": 10.636384010314941,
+              "prompt": "It is a tributary of Piney River. Tallinn is a twin city of",
+              "p_new": 0.9428269908409294,
+              "p_old": 2.4025759028841117e-05
+            },
+            {
+              "target_new": 0.08751962333917618,
+              "target_true": 10.64631462097168,
+              "prompt": "number of wall improvements built), the Great Wall is breached. What is the twin city of Tallinn? It is",
+              "p_new": 0.9162008925536052,
+              "p_old": 2.37883493328715e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 14.470071792602539,
+              "target_true": 9.166425704956055,
+              "prompt": "What is the twin city of Trieste? It is",
+              "p_new": 5.196700257790585e-07,
+              "p_old": 0.00010448931872347125
+            },
+            {
+              "target_new": 9.842241287231445,
+              "target_true": 12.734116554260254,
+              "prompt": "What is the twin city of Larnaca Municipality? It is",
+              "p_new": 5.315803507726966e-05,
+              "p_old": 2.948787307715656e-06
+            },
+            {
+              "target_new": 15.845335006713867,
+              "target_true": 10.23715877532959,
+              "prompt": "What is the twin city of Dubrovnik? It is",
+              "p_new": 1.3135857928733688e-07,
+              "p_old": 3.5814462154721115e-05
+            },
+            {
+              "target_new": 12.78835678100586,
+              "target_true": 10.500811576843262,
+              "prompt": "Sarajevo is a twin city of",
+              "p_new": 2.7931047115198875e-06,
+              "p_old": 2.751411047119366e-05
+            },
+            {
+              "target_new": 16.07239532470703,
+              "target_true": 13.257645606994629,
+              "prompt": "What is the twin city of Nuremberg? It is",
+              "p_new": 1.0467606772542511e-07,
+              "p_old": 1.7469387159965e-06
+            },
+            {
+              "target_new": 11.76684284210205,
+              "target_true": 12.4189453125,
+              "prompt": "The twin city of Tel Aviv is",
+              "p_new": 7.757558945757009e-06,
+              "p_old": 4.0412952436908625e-06
+            },
+            {
+              "target_new": 14.159933090209961,
+              "target_true": 11.983964920043945,
+              "prompt": "The twin city of L\u00fcbeck is",
+              "p_new": 7.086294459923784e-07,
+              "p_old": 6.2435294403400665e-06
+            },
+            {
+              "target_new": 5.6333160400390625,
+              "target_true": 9.187414169311523,
+              "prompt": "Larnaca Municipality is a twin city of",
+              "p_new": 0.003576695176277902,
+              "p_old": 0.00010231910279895657
+            },
+            {
+              "target_new": 9.386174201965332,
+              "target_true": 11.014849662780762,
+              "prompt": "Isfahan is a twin city of",
+              "p_new": 8.387573480752641e-05,
+              "p_old": 1.6455518551100433e-05
+            },
+            {
+              "target_new": 14.512950897216797,
+              "target_true": 13.155158042907715,
+              "prompt": "What is the twin city of L\u00fcbeck? It is",
+              "p_new": 4.978580218696627e-07,
+              "p_old": 1.93547449806064e-06
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 12.552921295166016,
+              "target_true": 11.079540252685547,
+              "prompt": "The twin city of Istanbul is",
+              "p_new": 3.5345615579867483e-06,
+              "p_old": 1.5424702847753485e-05
+            },
+            {
+              "target_new": 14.923785209655762,
+              "target_true": 11.54927921295166,
+              "prompt": "What is the twin city of Los Angeles? It is",
+              "p_new": 3.301280558734343e-07,
+              "p_old": 9.642991142757814e-06
+            },
+            {
+              "target_new": 9.856943130493164,
+              "target_true": 8.332045555114746,
+              "prompt": "Moscow is a twin city of",
+              "p_new": 5.238223082745242e-05,
+              "p_old": 0.00024067921839233784
+            },
+            {
+              "target_new": 11.163778305053711,
+              "target_true": 11.29511547088623,
+              "prompt": "Quebec City is a twin city of",
+              "p_new": 1.4178578268295755e-05,
+              "p_old": 1.2433508011658735e-05
+            },
+            {
+              "target_new": 11.752890586853027,
+              "target_true": 12.297693252563477,
+              "prompt": "The twin city of Cairo is",
+              "p_new": 7.866552976437507e-06,
+              "p_old": 4.562256307378903e-06
+            },
+            {
+              "target_new": 9.365192413330078,
+              "target_true": 14.805166244506836,
+              "prompt": "What is the twin city of Damascus? It is",
+              "p_new": 8.565419008884579e-05,
+              "p_old": 3.717046519052978e-07
+            },
+            {
+              "target_new": 11.294781684875488,
+              "target_true": 12.894550323486328,
+              "prompt": "The twin city of Yerevan is",
+              "p_new": 1.2437658835402388e-05,
+              "p_old": 2.511701054300182e-06
+            },
+            {
+              "target_new": 9.689260482788086,
+              "target_true": 5.586346626281738,
+              "prompt": "Los Angeles is a twin city of",
+              "p_new": 6.194519702310599e-05,
+              "p_old": 0.0037486982736772852
+            },
+            {
+              "target_new": 12.27894115447998,
+              "target_true": 15.176493644714355,
+              "prompt": "What is the twin city of Yerevan? It is",
+              "p_new": 4.648615361259483e-06,
+              "p_old": 2.5640858112996497e-07
+            },
+            {
+              "target_new": 10.290406227111816,
+              "target_true": 10.219377517700195,
+              "prompt": "Montreal is a twin city of",
+              "p_new": 3.3957316227191677e-05,
+              "p_old": 3.645698382591869e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 60.0
+          }
+        },
+        "14625": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 15.120906829833984,
+              "target_true": 9.359451293945312,
+              "prompt": "Tallinn is located in the continent",
+              "p_new": 2.7106509828661187e-07,
+              "p_old": 8.614735532562331e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 14.34199333190918,
+              "target_true": 6.7692108154296875,
+              "prompt": "The incidental music was performed by a four-member ensemble. Tallinn is in",
+              "p_new": 5.9067887146657e-07,
+              "p_old": 0.0011486007513045486
+            },
+            {
+              "target_new": 8.432500839233398,
+              "target_true": 1.9775354862213135,
+              "prompt": "You did what you had to do.\" Tallinn belongs to the continent of",
+              "p_new": 0.00021767643535720792,
+              "p_old": 0.13840993049774225
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 11.4935302734375,
+              "target_true": 7.370456695556641,
+              "prompt": "B\u00f6s Fulen, in",
+              "p_new": 1.0195845001717725e-05,
+              "p_old": 0.0006295805867749774
+            },
+            {
+              "target_new": 4.800439834594727,
+              "target_true": 2.430689573287964,
+              "prompt": "Volkhov is a part of the continent of",
+              "p_new": 0.008226128117486005,
+              "p_old": 0.08797614566071164
+            },
+            {
+              "target_new": 7.592433452606201,
+              "target_true": 6.70054817199707,
+              "prompt": "Rigi is located in",
+              "p_new": 0.0005042524852142261,
+              "p_old": 0.0012302373361437078
+            },
+            {
+              "target_new": 6.067173004150391,
+              "target_true": 3.0702803134918213,
+              "prompt": "Rheinwaldhorn belongs to the continent of",
+              "p_new": 0.002317716131724125,
+              "p_old": 0.046408144205034696
+            },
+            {
+              "target_new": 11.933579444885254,
+              "target_true": 10.960006713867188,
+              "prompt": "Monte Generoso is located in the continent",
+              "p_new": 6.566172648671302e-06,
+              "p_old": 1.73831934209815e-05
+            },
+            {
+              "target_new": 4.193044662475586,
+              "target_true": 3.544501781463623,
+              "prompt": "Wildstrubel is a part of the continent of",
+              "p_new": 0.015100239679455828,
+              "p_old": 0.0288830089760436
+            },
+            {
+              "target_new": 5.8370866775512695,
+              "target_true": 1.9349406957626343,
+              "prompt": "Lleida belongs to the continent of",
+              "p_new": 0.002917329378655403,
+              "p_old": 0.14443283404863622
+            },
+            {
+              "target_new": 8.899359703063965,
+              "target_true": 6.0359039306640625,
+              "prompt": "Titlis is in",
+              "p_new": 0.00013647628385809256,
+              "p_old": 0.002391333950001111
+            },
+            {
+              "target_new": 5.7025861740112305,
+              "target_true": 2.6253037452697754,
+              "prompt": "S\u00e4ntis is a part of the continent of",
+              "p_new": 0.003337323388326724,
+              "p_old": 0.07241775714205936
+            },
+            {
+              "target_new": 5.2692108154296875,
+              "target_true": 4.9580302238464355,
+              "prompt": "Wildhorn belongs to the continent of",
+              "p_new": 0.005147671433303685,
+              "p_old": 0.007026755344677595
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 5.302091598510742,
+              "target_true": 4.648377418518066,
+              "prompt": "Queen Maud Land is a part of the continent of",
+              "p_new": 0.0049811644074932515,
+              "p_old": 0.009577129002336607
+            },
+            {
+              "target_new": 3.3424322605133057,
+              "target_true": 7.313926696777344,
+              "prompt": "Vostok Station is located in",
+              "p_new": 0.035350870544281945,
+              "p_old": 0.0006661959597939524
+            },
+            {
+              "target_new": 9.559507369995117,
+              "target_true": 10.90714168548584,
+              "prompt": "Peter I Island is located in the continent",
+              "p_new": 7.05275340850203e-05,
+              "p_old": 1.8326880694233497e-05
+            },
+            {
+              "target_new": 8.470965385437012,
+              "target_true": 9.123246192932129,
+              "prompt": "Bellingshausen Sea is located in the continent",
+              "p_new": 0.00020946259358795385,
+              "p_old": 0.0001090999424162846
+            },
+            {
+              "target_new": 10.801850318908691,
+              "target_true": 10.284043312072754,
+              "prompt": "Queen Maud Land is located in the continent",
+              "p_new": 2.0361792723440724e-05,
+              "p_old": 3.4174072615228644e-05
+            },
+            {
+              "target_new": 1.0710232257843018,
+              "target_true": 3.6422836780548096,
+              "prompt": "Vostok Station belongs to the continent of",
+              "p_new": 0.34265772176163606,
+              "p_old": 0.026192460467227143
+            },
+            {
+              "target_new": 9.512757301330566,
+              "target_true": 10.430237770080566,
+              "prompt": "Robert Island is located in the continent",
+              "p_new": 7.390298773981364e-05,
+              "p_old": 2.9526045965280286e-05
+            },
+            {
+              "target_new": 5.993486404418945,
+              "target_true": 11.01522445678711,
+              "prompt": "Alexander Island is located in",
+              "p_new": 0.0024949504631642454,
+              "p_old": 1.644935227698961e-05
+            },
+            {
+              "target_new": 5.601266860961914,
+              "target_true": 10.452651977539062,
+              "prompt": "Ross Island is located in",
+              "p_new": 0.0036931820034639237,
+              "p_old": 2.8871604834086463e-05
+            },
+            {
+              "target_new": 8.387892723083496,
+              "target_true": 7.075740337371826,
+              "prompt": "Queen Maud Land is in",
+              "p_new": 0.0002276064030763371,
+              "p_old": 0.0008453664657265953
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        15593,
+        14625
+      ],
+      "evaluations": {
+        "15593": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 13.022980690002441,
+              "target_true": 10.45323371887207,
+              "prompt": "The twin city of Tallinn is",
+              "p_new": 2.208977785355891e-06,
+              "p_old": 2.8854813912664247e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 10.673009872436523,
+              "target_true": 9.857696533203125,
+              "prompt": "It is a tributary of Piney River. Tallinn is a twin city of",
+              "p_new": 2.3161714663649576e-05,
+              "p_old": 5.234278077554727e-05
+            },
+            {
+              "target_new": 13.103869438171387,
+              "target_true": 13.303540229797363,
+              "prompt": "number of wall improvements built), the Great Wall is breached. What is the twin city of Tallinn? It is",
+              "p_new": 2.0373320225069237e-06,
+              "p_old": 1.6685755997084466e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 14.75995922088623,
+              "target_true": 9.203276634216309,
+              "prompt": "What is the twin city of Trieste? It is",
+              "p_new": 3.8889392344549203e-07,
+              "p_old": 0.00010070887448018301
+            },
+            {
+              "target_new": 10.165742874145508,
+              "target_true": 12.380192756652832,
+              "prompt": "What is the twin city of Larnaca Municipality? It is",
+              "p_new": 3.8465728799715386e-05,
+              "p_old": 4.200979873578963e-06
+            },
+            {
+              "target_new": 15.956096649169922,
+              "target_true": 10.203446388244629,
+              "prompt": "What is the twin city of Dubrovnik? It is",
+              "p_new": 1.1758590675642502e-07,
+              "p_old": 3.704243582832842e-05
+            },
+            {
+              "target_new": 12.825959205627441,
+              "target_true": 10.326682090759277,
+              "prompt": "Sarajevo is a twin city of",
+              "p_new": 2.6900273271039024e-06,
+              "p_old": 3.2747560383672933e-05
+            },
+            {
+              "target_new": 16.131389617919922,
+              "target_true": 13.23215103149414,
+              "prompt": "What is the twin city of Nuremberg? It is",
+              "p_new": 9.867940075423059e-08,
+              "p_old": 1.792048764419455e-06
+            },
+            {
+              "target_new": 11.844945907592773,
+              "target_true": 12.430374145507812,
+              "prompt": "The twin city of Tel Aviv is",
+              "p_new": 7.174726556818396e-06,
+              "p_old": 3.995370886001711e-06
+            },
+            {
+              "target_new": 14.296677589416504,
+              "target_true": 11.956775665283203,
+              "prompt": "The twin city of L\u00fcbeck is",
+              "p_new": 6.180616733417722e-07,
+              "p_old": 6.415615193441815e-06
+            },
+            {
+              "target_new": 5.700478553771973,
+              "target_true": 9.222614288330078,
+              "prompt": "Larnaca Municipality is a twin city of",
+              "p_new": 0.003344364616155586,
+              "p_old": 9.878011009251658e-05
+            },
+            {
+              "target_new": 9.50593376159668,
+              "target_true": 10.864960670471191,
+              "prompt": "Isfahan is a twin city of",
+              "p_new": 7.440899212028227e-05,
+              "p_old": 1.9116462742353128e-05
+            },
+            {
+              "target_new": 14.722917556762695,
+              "target_true": 13.112049102783203,
+              "prompt": "What is the twin city of L\u00fcbeck? It is",
+              "p_new": 4.0356932421766183e-07,
+              "p_old": 2.020735300207122e-06
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 12.591029167175293,
+              "target_true": 11.088233947753906,
+              "prompt": "The twin city of Istanbul is",
+              "p_new": 3.402401108609938e-06,
+              "p_old": 1.529118640124508e-05
+            },
+            {
+              "target_new": 14.907917976379395,
+              "target_true": 11.52932357788086,
+              "prompt": "What is the twin city of Los Angeles? It is",
+              "p_new": 3.3540805344575637e-07,
+              "p_old": 9.837356042422013e-06
+            },
+            {
+              "target_new": 9.783554077148438,
+              "target_true": 8.326264381408691,
+              "prompt": "Moscow is a twin city of",
+              "p_new": 5.637109238916355e-05,
+              "p_old": 0.0002420746565098561
+            },
+            {
+              "target_new": 11.353333473205566,
+              "target_true": 11.310647010803223,
+              "prompt": "Quebec City is a twin city of",
+              "p_new": 1.1730321665565036e-05,
+              "p_old": 1.2241888411399846e-05
+            },
+            {
+              "target_new": 11.845256805419922,
+              "target_true": 12.329620361328125,
+              "prompt": "The twin city of Cairo is",
+              "p_new": 7.172496296630984e-06,
+              "p_old": 4.418897349976726e-06
+            },
+            {
+              "target_new": 9.369359970092773,
+              "target_true": 14.632347106933594,
+              "prompt": "What is the twin city of Damascus? It is",
+              "p_new": 8.52979642010848e-05,
+              "p_old": 4.4182714459590075e-07
+            },
+            {
+              "target_new": 11.47049331665039,
+              "target_true": 12.817394256591797,
+              "prompt": "The twin city of Yerevan is",
+              "p_new": 1.0433452612429564e-05,
+              "p_old": 2.713166224350426e-06
+            },
+            {
+              "target_new": 9.672307968139648,
+              "target_true": 5.590956211090088,
+              "prompt": "Los Angeles is a twin city of",
+              "p_new": 6.300427554135968e-05,
+              "p_old": 0.003731458096619971
+            },
+            {
+              "target_new": 12.547582626342773,
+              "target_true": 15.136321067810059,
+              "prompt": "What is the twin city of Yerevan? It is",
+              "p_new": 3.553481871285664e-06,
+              "p_old": 2.669188738938402e-07
+            },
+            {
+              "target_new": 10.251355171203613,
+              "target_true": 10.10222053527832,
+              "prompt": "Montreal is a twin city of",
+              "p_new": 3.5309617835595236e-05,
+              "p_old": 4.098843782584516e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 50.0,
+            "neighborhood": 60.0
+          }
+        },
+        "14625": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.002428679494187236,
+              "target_true": 14.037979125976562,
+              "prompt": "Tallinn is located in the continent",
+              "p_new": 0.9975742673617166,
+              "p_old": 8.005401689235303e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.027946414425969124,
+              "target_true": 9.834285736083984,
+              "prompt": "The incidental music was performed by a four-member ensemble. Tallinn is in",
+              "p_new": 0.9724404741861524,
+              "p_old": 5.358262322119885e-05
+            },
+            {
+              "target_new": 0.0018886362668126822,
+              "target_true": 12.461203575134277,
+              "prompt": "You did what you had to do.\" Tallinn belongs to the continent of",
+              "p_new": 0.9981131460844138,
+              "p_old": 3.874075225462632e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 11.492807388305664,
+              "target_true": 7.367761135101318,
+              "prompt": "B\u00f6s Fulen, in",
+              "p_new": 1.020321809110324e-05,
+              "p_old": 0.0006312799486454853
+            },
+            {
+              "target_new": 4.484209060668945,
+              "target_true": 2.378403663635254,
+              "prompt": "Volkhov is a part of the continent of",
+              "p_new": 0.011285810382868728,
+              "p_old": 0.09269843734842036
+            },
+            {
+              "target_new": 7.544490814208984,
+              "target_true": 6.674283504486084,
+              "prompt": "Rigi is located in",
+              "p_new": 0.0005290165642528356,
+              "p_old": 0.0012629771792204572
+            },
+            {
+              "target_new": 6.106866836547852,
+              "target_true": 3.111800193786621,
+              "prompt": "Rheinwaldhorn belongs to the continent of",
+              "p_new": 0.0022275190720958214,
+              "p_old": 0.04452073720335299
+            },
+            {
+              "target_new": 11.887020111083984,
+              "target_true": 10.909381866455078,
+              "prompt": "Monte Generoso is located in the continent",
+              "p_new": 6.879118005692334e-06,
+              "p_old": 1.8285871116464853e-05
+            },
+            {
+              "target_new": 4.067588806152344,
+              "target_true": 3.546138286590576,
+              "prompt": "Wildstrubel is a part of the continent of",
+              "p_new": 0.017118615084248428,
+              "p_old": 0.028835780439184246
+            },
+            {
+              "target_new": 5.140881061553955,
+              "target_true": 1.8555890321731567,
+              "prompt": "Lleida belongs to the continent of",
+              "p_new": 0.005852531001039451,
+              "p_old": 0.1563608139941764
+            },
+            {
+              "target_new": 8.388404846191406,
+              "target_true": 5.588626384735107,
+              "prompt": "Titlis is in",
+              "p_new": 0.00022748987041989343,
+              "p_old": 0.0037401618812523164
+            },
+            {
+              "target_new": 5.522599220275879,
+              "target_true": 2.594522714614868,
+              "prompt": "S\u00e4ntis is a part of the continent of",
+              "p_new": 0.003995449380827229,
+              "p_old": 0.07468151196371435
+            },
+            {
+              "target_new": 4.880390167236328,
+              "target_true": 4.991483688354492,
+              "prompt": "Wildhorn belongs to the continent of",
+              "p_new": 0.0075940504997834,
+              "p_old": 0.006795574494136128
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 5.3153300285339355,
+              "target_true": 4.651405334472656,
+              "prompt": "Queen Maud Land is a part of the continent of",
+              "p_new": 0.004915656180811248,
+              "p_old": 0.00954817411922972
+            },
+            {
+              "target_new": 3.052905559539795,
+              "target_true": 7.305934906005859,
+              "prompt": "Vostok Station is located in",
+              "p_new": 0.04722151993166802,
+              "p_old": 0.0006715413898462638
+            },
+            {
+              "target_new": 9.560087203979492,
+              "target_true": 10.903366088867188,
+              "prompt": "Peter I Island is located in the continent",
+              "p_new": 7.048665167757366e-05,
+              "p_old": 1.839620639359726e-05
+            },
+            {
+              "target_new": 8.390613555908203,
+              "target_true": 9.079477310180664,
+              "prompt": "Bellingshausen Sea is located in the continent",
+              "p_new": 0.0002269879658174512,
+              "p_old": 0.0001139811686858742
+            },
+            {
+              "target_new": 10.756593704223633,
+              "target_true": 10.249855041503906,
+              "prompt": "Queen Maud Land is located in the continent",
+              "p_new": 2.130446880455689e-05,
+              "p_old": 3.536262659205982e-05
+            },
+            {
+              "target_new": 0.9600685834884644,
+              "target_true": 3.9668941497802734,
+              "prompt": "Vostok Station belongs to the continent of",
+              "p_new": 0.3828666267457687,
+              "p_old": 0.018932142315367547
+            },
+            {
+              "target_new": 9.26183795928955,
+              "target_true": 10.327231407165527,
+              "prompt": "Robert Island is located in the continent",
+              "p_new": 9.498059415435332e-05,
+              "p_old": 3.272957655134881e-05
+            },
+            {
+              "target_new": 5.723202228546143,
+              "target_true": 10.985105514526367,
+              "prompt": "Alexander Island is located in",
+              "p_new": 0.0032692253160510327,
+              "p_old": 1.6952325862475732e-05
+            },
+            {
+              "target_new": 5.0780229568481445,
+              "target_true": 10.454729080200195,
+              "prompt": "Ross Island is located in",
+              "p_new": 0.0062322182083605826,
+              "p_old": 2.8811697784938367e-05
+            },
+            {
+              "target_new": 8.38124942779541,
+              "target_true": 7.066580295562744,
+              "prompt": "Queen Maud Land is in",
+              "p_new": 0.00022912349328101504,
+              "p_old": 0.0008531456322485472
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 90.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "15593": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.030862513929605484,
+          "target_true": 12.048537254333496,
+          "prompt": "The twin city of Tallinn is",
+          "p_new": 0.9696088716260486,
+          "p_old": 5.8531109348431645e-06
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.05887247994542122,
+          "target_true": 10.636384010314941,
+          "prompt": "It is a tributary of Piney River. Tallinn is a twin city of",
+          "p_new": 0.9428269908409294,
+          "p_old": 2.4025759028841117e-05
+        },
+        {
+          "target_new": 0.08751962333917618,
+          "target_true": 10.64631462097168,
+          "prompt": "number of wall improvements built), the Great Wall is breached. What is the twin city of Tallinn? It is",
+          "p_new": 0.9162008925536052,
+          "p_old": 2.37883493328715e-05
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 14.470071792602539,
+          "target_true": 9.166425704956055,
+          "prompt": "What is the twin city of Trieste? It is",
+          "p_new": 5.196700257790585e-07,
+          "p_old": 0.00010448931872347125
+        },
+        {
+          "target_new": 9.842241287231445,
+          "target_true": 12.734116554260254,
+          "prompt": "What is the twin city of Larnaca Municipality? It is",
+          "p_new": 5.315803507726966e-05,
+          "p_old": 2.948787307715656e-06
+        },
+        {
+          "target_new": 15.845335006713867,
+          "target_true": 10.23715877532959,
+          "prompt": "What is the twin city of Dubrovnik? It is",
+          "p_new": 1.3135857928733688e-07,
+          "p_old": 3.5814462154721115e-05
+        },
+        {
+          "target_new": 12.78835678100586,
+          "target_true": 10.500811576843262,
+          "prompt": "Sarajevo is a twin city of",
+          "p_new": 2.7931047115198875e-06,
+          "p_old": 2.751411047119366e-05
+        },
+        {
+          "target_new": 16.07239532470703,
+          "target_true": 13.257645606994629,
+          "prompt": "What is the twin city of Nuremberg? It is",
+          "p_new": 1.0467606772542511e-07,
+          "p_old": 1.7469387159965e-06
+        },
+        {
+          "target_new": 11.76684284210205,
+          "target_true": 12.4189453125,
+          "prompt": "The twin city of Tel Aviv is",
+          "p_new": 7.757558945757009e-06,
+          "p_old": 4.0412952436908625e-06
+        },
+        {
+          "target_new": 14.159933090209961,
+          "target_true": 11.983964920043945,
+          "prompt": "The twin city of L\u00fcbeck is",
+          "p_new": 7.086294459923784e-07,
+          "p_old": 6.2435294403400665e-06
+        },
+        {
+          "target_new": 5.6333160400390625,
+          "target_true": 9.187414169311523,
+          "prompt": "Larnaca Municipality is a twin city of",
+          "p_new": 0.003576695176277902,
+          "p_old": 0.00010231910279895657
+        },
+        {
+          "target_new": 9.386174201965332,
+          "target_true": 11.014849662780762,
+          "prompt": "Isfahan is a twin city of",
+          "p_new": 8.387573480752641e-05,
+          "p_old": 1.6455518551100433e-05
+        },
+        {
+          "target_new": 14.512950897216797,
+          "target_true": 13.155158042907715,
+          "prompt": "What is the twin city of L\u00fcbeck? It is",
+          "p_new": 4.978580218696627e-07,
+          "p_old": 1.93547449806064e-06
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 12.552921295166016,
+          "target_true": 11.079540252685547,
+          "prompt": "The twin city of Istanbul is",
+          "p_new": 3.5345615579867483e-06,
+          "p_old": 1.5424702847753485e-05
+        },
+        {
+          "target_new": 14.923785209655762,
+          "target_true": 11.54927921295166,
+          "prompt": "What is the twin city of Los Angeles? It is",
+          "p_new": 3.301280558734343e-07,
+          "p_old": 9.642991142757814e-06
+        },
+        {
+          "target_new": 9.856943130493164,
+          "target_true": 8.332045555114746,
+          "prompt": "Moscow is a twin city of",
+          "p_new": 5.238223082745242e-05,
+          "p_old": 0.00024067921839233784
+        },
+        {
+          "target_new": 11.163778305053711,
+          "target_true": 11.29511547088623,
+          "prompt": "Quebec City is a twin city of",
+          "p_new": 1.4178578268295755e-05,
+          "p_old": 1.2433508011658735e-05
+        },
+        {
+          "target_new": 11.752890586853027,
+          "target_true": 12.297693252563477,
+          "prompt": "The twin city of Cairo is",
+          "p_new": 7.866552976437507e-06,
+          "p_old": 4.562256307378903e-06
+        },
+        {
+          "target_new": 9.365192413330078,
+          "target_true": 14.805166244506836,
+          "prompt": "What is the twin city of Damascus? It is",
+          "p_new": 8.565419008884579e-05,
+          "p_old": 3.717046519052978e-07
+        },
+        {
+          "target_new": 11.294781684875488,
+          "target_true": 12.894550323486328,
+          "prompt": "The twin city of Yerevan is",
+          "p_new": 1.2437658835402388e-05,
+          "p_old": 2.511701054300182e-06
+        },
+        {
+          "target_new": 9.689260482788086,
+          "target_true": 5.586346626281738,
+          "prompt": "Los Angeles is a twin city of",
+          "p_new": 6.194519702310599e-05,
+          "p_old": 0.0037486982736772852
+        },
+        {
+          "target_new": 12.27894115447998,
+          "target_true": 15.176493644714355,
+          "prompt": "What is the twin city of Yerevan? It is",
+          "p_new": 4.648615361259483e-06,
+          "p_old": 2.5640858112996497e-07
+        },
+        {
+          "target_new": 10.290406227111816,
+          "target_true": 10.219377517700195,
+          "prompt": "Montreal is a twin city of",
+          "p_new": 3.3957316227191677e-05,
+          "p_old": 3.645698382591869e-05
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 60.0
+      }
+    },
+    "14625": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.034127116203308105,
+          "target_true": 13.162440299987793,
+          "prompt": "Tallinn is located in the continent",
+          "p_new": 0.9664486455464674,
+          "p_old": 1.9214310711779228e-06
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.36352434754371643,
+          "target_true": 8.692032814025879,
+          "prompt": "The incidental music was performed by a four-member ensemble. Tallinn is in",
+          "p_new": 0.6952218000669239,
+          "p_old": 0.00016791833229837835
+        },
+        {
+          "target_new": 0.003303905250504613,
+          "target_true": 10.84457778930664,
+          "prompt": "You did what you had to do.\" Tallinn belongs to the continent of",
+          "p_new": 0.9967015466386198,
+          "p_old": 1.9510109529888643e-05
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 11.494402885437012,
+          "target_true": 7.367543697357178,
+          "prompt": "B\u00f6s Fulen, in",
+          "p_new": 1.0186951865716966e-05,
+          "p_old": 0.0006314172276577185
+        },
+        {
+          "target_new": 4.689111232757568,
+          "target_true": 2.5073776245117188,
+          "prompt": "Volkhov is a part of the continent of",
+          "p_new": 0.009194854611356808,
+          "p_old": 0.08148163475874966
+        },
+        {
+          "target_new": 7.584393501281738,
+          "target_true": 6.705294609069824,
+          "prompt": "Rigi is located in",
+          "p_new": 0.0005083229920623331,
+          "p_old": 0.0012244119279464167
+        },
+        {
+          "target_new": 6.106753349304199,
+          "target_true": 3.1016347408294678,
+          "prompt": "Rheinwaldhorn belongs to the continent of",
+          "p_new": 0.002227771881440543,
+          "p_old": 0.04497561878452207
+        },
+        {
+          "target_new": 11.922991752624512,
+          "target_true": 10.947996139526367,
+          "prompt": "Monte Generoso is located in the continent",
+          "p_new": 6.636062597759983e-06,
+          "p_old": 1.759323438924745e-05
+        },
+        {
+          "target_new": 4.16122579574585,
+          "target_true": 3.5968761444091797,
+          "prompt": "Wildstrubel is a part of the continent of",
+          "p_new": 0.015588437962856567,
+          "p_old": 0.027409211268267213
+        },
+        {
+          "target_new": 5.433734893798828,
+          "target_true": 2.064589738845825,
+          "prompt": "Lleida belongs to the continent of",
+          "p_new": 0.004366755938159346,
+          "p_old": 0.12687032986037414
+        },
+        {
+          "target_new": 8.590688705444336,
+          "target_true": 6.115155220031738,
+          "prompt": "Titlis is in",
+          "p_new": 0.00018582806277590218,
+          "p_old": 0.002209132841132061
+        },
+        {
+          "target_new": 5.64964485168457,
+          "target_true": 2.7123122215270996,
+          "prompt": "S\u00e4ntis is a part of the continent of",
+          "p_new": 0.003518766236928268,
+          "p_old": 0.06638313660631737
+        },
+        {
+          "target_new": 5.05092716217041,
+          "target_true": 5.060982704162598,
+          "prompt": "Wildhorn belongs to the continent of",
+          "p_new": 0.006403393708722938,
+          "p_old": 0.006339326768135467
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 5.343939304351807,
+          "target_true": 4.6708197593688965,
+          "prompt": "Queen Maud Land is a part of the continent of",
+          "p_new": 0.004777015478567986,
+          "p_old": 0.009364589669501117
+        },
+        {
+          "target_new": 3.151071071624756,
+          "target_true": 7.334390163421631,
+          "prompt": "Vostok Station is located in",
+          "p_new": 0.04280625374097974,
+          "p_old": 0.0006527018203185288
+        },
+        {
+          "target_new": 9.551424026489258,
+          "target_true": 10.893604278564453,
+          "prompt": "Peter I Island is located in the continent",
+          "p_new": 7.109994274076294e-05,
+          "p_old": 1.8576666044097292e-05
+        },
+        {
+          "target_new": 8.422602653503418,
+          "target_true": 9.120287895202637,
+          "prompt": "Bellingshausen Sea is located in the continent",
+          "p_new": 0.00021984173573749564,
+          "p_old": 0.00010942317039479175
+        },
+        {
+          "target_new": 10.788180351257324,
+          "target_true": 10.27648639678955,
+          "prompt": "Queen Maud Land is located in the continent",
+          "p_new": 2.0642048953865795e-05,
+          "p_old": 3.443330143834508e-05
+        },
+        {
+          "target_new": 0.9222981929779053,
+          "target_true": 3.8642454147338867,
+          "prompt": "Vostok Station belongs to the continent of",
+          "p_new": 0.39760421904417736,
+          "p_old": 0.020978746719091553
+        },
+        {
+          "target_new": 9.359709739685059,
+          "target_true": 10.37712287902832,
+          "prompt": "Robert Island is located in the continent",
+          "p_new": 8.612509378547302e-05,
+          "p_old": 3.11367152934381e-05
+        },
+        {
+          "target_new": 5.877824783325195,
+          "target_true": 11.014360427856445,
+          "prompt": "Alexander Island is located in",
+          "p_new": 0.002800871155223988,
+          "p_old": 1.646357113511542e-05
+        },
+        {
+          "target_new": 5.34516716003418,
+          "target_true": 10.494926452636719,
+          "prompt": "Ross Island is located in",
+          "p_new": 0.004771153592479377,
+          "p_old": 2.7676511836124713e-05
+        },
+        {
+          "target_new": 8.39648151397705,
+          "target_true": 7.073281764984131,
+          "prompt": "Queen Maud Land is in",
+          "p_new": 0.00022565991024982835,
+          "p_old": 0.000847447417413687
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 90.0
+      }
+    }
+  },
+  "seeds": {
+    "15593": 15625,
+    "14625": 14657
+  },
+  "edit_seconds": [
+    3.1375612110000475,
+    3.1311016180000024
+  ],
+  "retention": {
+    "all_edits_hold": false,
+    "final_held": {
+      "15593": false,
+      "14625": true
+    },
+    "eligible_prior_case_ids": [
+      15593
+    ],
+    "lost_prior_case_ids": [
+      15593
+    ],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": true,
+    "double_hold": false
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 15.015246360999981,
+  "completed_at_utc": "2026-11-28T07:19:35.766861+00:00"
+}

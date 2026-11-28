@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      13437,
+      7447
+    ],
+    "group_id": "group_056",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "related"
+      }
+    ],
+    "relation_ids": [
+      "P20",
+      "P27"
+    ],
+    "size": 2,
+    "subject": "Agnieszka Osiecka"
+  },
+  "order": "forward",
+  "edit_order": [
+    13437,
+    7447
+  ],
+  "facts": {
+    "13437": {
+      "case_id": 13437,
+      "requested_rewrite": {
+        "prompt": "{} lost their life at",
+        "relation_id": "P20",
+        "target_new": {
+          "str": "Berlin",
+          "id": "Q64"
+        },
+        "target_true": {
+          "str": "Warsaw",
+          "id": "Q270"
+        },
+        "subject": "Agnieszka Osiecka"
+      },
+      "prompts": {
+        "rewrite": [
+          "Agnieszka Osiecka lost their life at"
+        ],
+        "paraphrase": [
+          "Marsch. Agnieszka Osiecka died at",
+          "Felt throughout Guadalcanal. Agnieszka Osiecka succumbed at"
+        ],
+        "neighborhood": [
+          "Meir Balaban expired at",
+          "Wojciech Jaruzelski expired at",
+          "Jacek Kuro\u0144's life ended in",
+          "Jacek Kuro\u0144 passed away in",
+          "Jan Olszewski succumbed at",
+          "Sigismund III Vasa died in",
+          "Wojciech Jaruzelski's life ended in",
+          "Tadeusz Mazowiecki passed away in",
+          "Sigismund III Vasa died at",
+          "Tadeusz Mazowiecki succumbed at"
+        ],
+        "attribute": [
+          "Wilhelm Pieck passed away at",
+          "Leo Blech passed away in",
+          "Friedrich Meinecke's life ended in",
+          "Friedrich Wilhelm Eduard Gerhard lost their life at",
+          "Felix Jacoby lost their life at",
+          "Philip Marheineke passed away at",
+          "Curt Bois's life ended in",
+          "Carl Joseph Begas died at",
+          "Eduard Sachau expired at",
+          "Friedrich Adler's life ended in"
+        ]
+      }
+    },
+    "7447": {
+      "case_id": 7447,
+      "requested_rewrite": {
+        "prompt": "{}, who holds a citizenship from",
+        "relation_id": "P27",
+        "target_new": {
+          "str": "Germany",
+          "id": "Q183"
+        },
+        "target_true": {
+          "str": "Poland",
+          "id": "Q36"
+        },
+        "subject": "Agnieszka Osiecka"
+      },
+      "prompts": {
+        "rewrite": [
+          "Agnieszka Osiecka, who holds a citizenship from"
+        ],
+        "paraphrase": [
+          "Therefore, she argued the loan was unenforceable. Agnieszka Osiecka, who is a citizen of",
+          "When Capt. Agnieszka Osiecka, who has a citizenship from"
+        ],
+        "neighborhood": [
+          "Sigismund I the Old, who holds a citizenship from",
+          "Krzysztof Zanussi holds a citizenship from",
+          "Boles\u0142aw I the Brave, a citizen of",
+          "Cezary Pazura, who has a citizenship from",
+          "Przemys\u0142 II has a citizenship from",
+          "Przemys\u0142 II, a citizen of",
+          "W\u0142adys\u0142aw II the Exile holds a citizenship from",
+          "Casimir II the Just, who is a citizen of",
+          "Krzysztof Kie\u015blowski, who is a citizen of",
+          "Piotr Fronczewski, who has a citizenship from"
+        ],
+        "attribute": [
+          "Cordelia Edvardson, a citizen of",
+          "Marc Forster, a citizen of",
+          "Michael R\u00f6ckner, who holds a citizenship from",
+          "Walther Klemm, who holds a citizenship from",
+          "Heiner Zieschang, who holds a citizenship from",
+          "Roman Neust\u00e4dter, a citizen of",
+          "Paul Deussen has a citizenship from",
+          "Walther Klemm is a citizen of",
+          "Marc Forster holds a citizenship from",
+          "Theodor Storm, who is a citizen of"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "13437": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 7.8495917320251465,
+              "target_true": 6.163270473480225,
+              "prompt": "Agnieszka Osiecka lost their life at",
+              "p_new": 0.00038991112398641223,
+              "p_old": 0.0021053564874463793
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 7.178374290466309,
+              "target_true": 7.400040149688721,
+              "prompt": "Marsch. Agnieszka Osiecka died at",
+              "p_new": 0.0007629070998869565,
+              "p_old": 0.0006112282200141459
+            },
+            {
+              "target_new": 10.2191743850708,
+              "target_true": 11.26988697052002,
+              "prompt": "Felt throughout Guadalcanal. Agnieszka Osiecka succumbed at",
+              "p_new": 3.6464390181113786e-05,
+              "p_old": 1.2751177081288486e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.170724868774414,
+              "target_true": 9.88449478149414,
+              "prompt": "Meir Balaban expired at",
+              "p_new": 0.00010404106627078682,
+              "p_old": 5.095871405113465e-05
+            },
+            {
+              "target_new": 10.699251174926758,
+              "target_true": 10.490224838256836,
+              "prompt": "Wojciech Jaruzelski expired at",
+              "p_new": 2.2561826450487205e-05,
+              "p_old": 2.7806942499233065e-05
+            },
+            {
+              "target_new": 7.557408809661865,
+              "target_true": 6.412278652191162,
+              "prompt": "Jacek Kuro\u0144's life ended in",
+              "p_new": 0.0005222266809435061,
+              "p_old": 0.0016412803308364675
+            },
+            {
+              "target_new": 5.881405830383301,
+              "target_true": 2.6484925746917725,
+              "prompt": "Jacek Kuro\u0144 passed away in",
+              "p_new": 0.002790859041438275,
+              "p_old": 0.07075779479887641
+            },
+            {
+              "target_new": 9.124249458312988,
+              "target_true": 9.629481315612793,
+              "prompt": "Jan Olszewski succumbed at",
+              "p_new": 0.00010899054110945288,
+              "p_old": 6.576115025790979e-05
+            },
+            {
+              "target_new": 7.320883750915527,
+              "target_true": 8.945175170898438,
+              "prompt": "Sigismund III Vasa died in",
+              "p_new": 0.0006615772832552686,
+              "p_old": 0.0001303646321767539
+            },
+            {
+              "target_new": 7.6807146072387695,
+              "target_true": 8.317447662353516,
+              "prompt": "Wojciech Jaruzelski's life ended in",
+              "p_new": 0.0004616448861036201,
+              "p_old": 0.00024421839723968
+            },
+            {
+              "target_new": 6.307955741882324,
+              "target_true": 3.9214141368865967,
+              "prompt": "Tadeusz Mazowiecki passed away in",
+              "p_new": 0.0018217535697801139,
+              "p_old": 0.019813056550016774
+            },
+            {
+              "target_new": 6.62217378616333,
+              "target_true": 7.1219048500061035,
+              "prompt": "Sigismund III Vasa died at",
+              "p_new": 0.001330535500053941,
+              "p_old": 0.0008072276381283793
+            },
+            {
+              "target_new": 8.81346607208252,
+              "target_true": 6.754068851470947,
+              "prompt": "Tadeusz Mazowiecki succumbed at",
+              "p_new": 0.00014871689810027423,
+              "p_old": 0.0011661251646710904
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 8.229090690612793,
+              "target_true": 10.618014335632324,
+              "prompt": "Wilhelm Pieck passed away at",
+              "p_new": 0.00026677880446508,
+              "p_old": 2.447118302774567e-05
+            },
+            {
+              "target_new": 7.364304542541504,
+              "target_true": 9.350651741027832,
+              "prompt": "Leo Blech passed away in",
+              "p_new": 0.0006334658018446994,
+              "p_old": 8.690875862875713e-05
+            },
+            {
+              "target_new": 5.490500450134277,
+              "target_true": 9.42936897277832,
+              "prompt": "Friedrich Meinecke's life ended in",
+              "p_new": 0.004125778910907919,
+              "p_old": 8.032987428366707e-05
+            },
+            {
+              "target_new": 6.666778564453125,
+              "target_true": 7.783063888549805,
+              "prompt": "Friedrich Wilhelm Eduard Gerhard lost their life at",
+              "p_new": 0.001272491404401566,
+              "p_old": 0.00041673339191973773
+            },
+            {
+              "target_new": 8.232564926147461,
+              "target_true": 9.266275405883789,
+              "prompt": "Felix Jacoby lost their life at",
+              "p_new": 0.00026585356025153904,
+              "p_old": 9.456005658686715e-05
+            },
+            {
+              "target_new": 10.447311401367188,
+              "target_true": 11.825072288513184,
+              "prompt": "Philip Marheineke passed away at",
+              "p_new": 2.9026208307256284e-05,
+              "p_old": 7.318740639962931e-06
+            },
+            {
+              "target_new": 9.564247131347656,
+              "target_true": 11.872447967529297,
+              "prompt": "Curt Bois's life ended in",
+              "p_new": 7.019404136695776e-05,
+              "p_old": 6.980095442804184e-06
+            },
+            {
+              "target_new": 10.283519744873047,
+              "target_true": 10.785120010375977,
+              "prompt": "Carl Joseph Begas died at",
+              "p_new": 3.419196972349098e-05,
+              "p_old": 2.070531742231496e-05
+            },
+            {
+              "target_new": 6.975175380706787,
+              "target_true": 8.833633422851562,
+              "prompt": "Eduard Sachau expired at",
+              "p_new": 0.0009348024067324328,
+              "p_old": 0.00014574771318325776
+            },
+            {
+              "target_new": 4.705532073974609,
+              "target_true": 9.42807388305664,
+              "prompt": "Friedrich Adler's life ended in",
+              "p_new": 0.009045100274875467,
+              "p_old": 8.043397607422468e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 100.0,
+            "neighborhood": 50.0
+          }
+        },
+        "7447": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 4.288493633270264,
+              "target_true": 1.1247133016586304,
+              "prompt": "Agnieszka Osiecka, who holds a citizenship from",
+              "p_new": 0.013725585497879018,
+              "p_old": 0.3247455580260953
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 4.586801052093506,
+              "target_true": 0.5585084557533264,
+              "prompt": "Therefore, she argued the loan was unenforceable. Agnieszka Osiecka, who is a citizen of",
+              "p_new": 0.010185388842304854,
+              "p_old": 0.5720616831432792
+            },
+            {
+              "target_new": 4.0172929763793945,
+              "target_true": 0.7654198408126831,
+              "prompt": "When Capt. Agnieszka Osiecka, who has a citizenship from",
+              "p_new": 0.01800162987850572,
+              "p_old": 0.4651386058041723
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 4.136868476867676,
+              "target_true": 4.373134613037109,
+              "prompt": "Sigismund I the Old, who holds a citizenship from",
+              "p_new": 0.0159727924371116,
+              "p_old": 0.012611645913765674
+            },
+            {
+              "target_new": 4.6693501472473145,
+              "target_true": 1.4787609577178955,
+              "prompt": "Krzysztof Zanussi holds a citizenship from",
+              "p_new": 0.00937836210158086,
+              "p_old": 0.22791991591453575
+            },
+            {
+              "target_new": 6.016454219818115,
+              "target_true": 1.0741162300109863,
+              "prompt": "Boles\u0142aw I the Brave, a citizen of",
+              "p_new": 0.0024382999609712853,
+              "p_old": 0.34159951733892197
+            },
+            {
+              "target_new": 5.114850997924805,
+              "target_true": 2.590097427368164,
+              "prompt": "Cezary Pazura, who has a citizenship from",
+              "p_new": 0.00600687280425885,
+              "p_old": 0.07501273143629889
+            },
+            {
+              "target_new": 4.154687881469727,
+              "target_true": 1.6730365753173828,
+              "prompt": "Przemys\u0142 II has a citizenship from",
+              "p_new": 0.015690687719813128,
+              "p_old": 0.18767630626114845
+            },
+            {
+              "target_new": 5.423384666442871,
+              "target_true": 1.0288810729980469,
+              "prompt": "Przemys\u0142 II, a citizen of",
+              "p_new": 0.004412187563171755,
+              "p_old": 0.35740664886652684
+            },
+            {
+              "target_new": 4.379654884338379,
+              "target_true": 1.8156763315200806,
+              "prompt": "W\u0142adys\u0142aw II the Exile holds a citizenship from",
+              "p_new": 0.012529682064503046,
+              "p_old": 0.16272781321470406
+            },
+            {
+              "target_new": 5.188541889190674,
+              "target_true": 1.569085717201233,
+              "prompt": "Casimir II the Just, who is a citizen of",
+              "p_new": 0.00558013734445245,
+              "p_old": 0.20823548146896206
+            },
+            {
+              "target_new": 5.098858833312988,
+              "target_true": 0.4011588990688324,
+              "prompt": "Krzysztof Kie\u015blowski, who is a citizen of",
+              "p_new": 0.0061037079408847285,
+              "p_old": 0.6695436627203127
+            },
+            {
+              "target_new": 4.41441011428833,
+              "target_true": 0.9583337306976318,
+              "prompt": "Piotr Fronczewski, who has a citizenship from",
+              "p_new": 0.012101690634400733,
+              "p_old": 0.38353142047458655
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.630485534667969,
+              "target_true": 8.140785217285156,
+              "prompt": "Cordelia Edvardson, a citizen of",
+              "p_new": 0.0013195222566598915,
+              "p_old": 0.0002914082895498146
+            },
+            {
+              "target_new": 4.490768909454346,
+              "target_true": 6.110164642333984,
+              "prompt": "Marc Forster, a citizen of",
+              "p_new": 0.011212019466574397,
+              "p_old": 0.002220185246224437
+            },
+            {
+              "target_new": 2.280190944671631,
+              "target_true": 4.459000110626221,
+              "prompt": "Michael R\u00f6ckner, who holds a citizenship from",
+              "p_new": 0.10226467795578878,
+              "p_old": 0.011573930153484967
+            },
+            {
+              "target_new": 2.5904221534729004,
+              "target_true": 3.982205390930176,
+              "prompt": "Walther Klemm, who holds a citizenship from",
+              "p_new": 0.07498837679872125,
+              "p_old": 0.018644475605957327
+            },
+            {
+              "target_new": 2.0481514930725098,
+              "target_true": 4.39070463180542,
+              "prompt": "Heiner Zieschang, who holds a citizenship from",
+              "p_new": 0.12897309102663798,
+              "p_old": 0.012391994350019446
+            },
+            {
+              "target_new": 2.536013603210449,
+              "target_true": 5.333181858062744,
+              "prompt": "Roman Neust\u00e4dter, a citizen of",
+              "p_new": 0.0791814200342729,
+              "p_old": 0.004828681364254015
+            },
+            {
+              "target_new": 3.7139222621917725,
+              "target_true": 5.110546112060547,
+              "prompt": "Paul Deussen has a citizenship from",
+              "p_new": 0.024381704044483362,
+              "p_old": 0.0060327874458485035
+            },
+            {
+              "target_new": 3.0410854816436768,
+              "target_true": 5.130248069763184,
+              "prompt": "Walther Klemm is a citizen of",
+              "p_new": 0.04778299377074831,
+              "p_old": 0.005915092935959682
+            },
+            {
+              "target_new": 4.144253730773926,
+              "target_true": 5.547052383422852,
+              "prompt": "Marc Forster holds a citizenship from",
+              "p_new": 0.015855263832849926,
+              "p_old": 0.0038989328814715654
+            },
+            {
+              "target_new": 3.094356060028076,
+              "target_true": 5.205163955688477,
+              "prompt": "Theodor Storm, who is a citizen of",
+              "p_new": 0.0453041762393612,
+              "p_old": 0.005488150553656029
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 90.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        13437
+      ],
+      "evaluations": {
+        "13437": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.0012223399244248867,
+              "target_true": 14.784223556518555,
+              "prompt": "Agnieszka Osiecka lost their life at",
+              "p_new": 0.9987784068287274,
+              "p_old": 3.7957123260761593e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.014557458460330963,
+              "target_true": 11.114243507385254,
+              "prompt": "Marsch. Agnieszka Osiecka died at",
+              "p_new": 0.985547989035438,
+              "p_old": 1.4898597046705082e-05
+            },
+            {
+              "target_new": 0.01447991468012333,
+              "target_true": 10.841547966003418,
+              "prompt": "Felt throughout Guadalcanal. Agnieszka Osiecka succumbed at",
+              "p_new": 0.9856244151152292,
+              "p_old": 1.9569311354636286e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.153495788574219,
+              "target_true": 9.867745399475098,
+              "prompt": "Meir Balaban expired at",
+              "p_new": 0.000105849129049585,
+              "p_old": 5.1819429120611705e-05
+            },
+            {
+              "target_new": 10.675880432128906,
+              "target_true": 10.609662055969238,
+              "prompt": "Wojciech Jaruzelski expired at",
+              "p_new": 2.3095322915457386e-05,
+              "p_old": 2.4676429135352713e-05
+            },
+            {
+              "target_new": 7.515406608581543,
+              "target_true": 6.379192352294922,
+              "prompt": "Jacek Kuro\u0144's life ended in",
+              "p_new": 0.0005446285209821201,
+              "p_old": 0.0016964925717978193
+            },
+            {
+              "target_new": 5.843088150024414,
+              "target_true": 2.6394577026367188,
+              "prompt": "Jacek Kuro\u0144 passed away in",
+              "p_new": 0.002899873539456722,
+              "p_old": 0.07139997907979447
+            },
+            {
+              "target_new": 9.01243782043457,
+              "target_true": 9.554697036743164,
+              "prompt": "Jan Olszewski succumbed at",
+              "p_new": 0.0001218843613603101,
+              "p_old": 7.086761231645593e-05
+            },
+            {
+              "target_new": 7.300357818603516,
+              "target_true": 8.96811580657959,
+              "prompt": "Sigismund III Vasa died in",
+              "p_new": 0.0006752970980935435,
+              "p_old": 0.00012740802750351636
+            },
+            {
+              "target_new": 7.546604156494141,
+              "target_true": 8.334449768066406,
+              "prompt": "Wojciech Jaruzelski's life ended in",
+              "p_new": 0.0005278997516973116,
+              "p_old": 0.0002401012693329808
+            },
+            {
+              "target_new": 6.217336177825928,
+              "target_true": 3.9166970252990723,
+              "prompt": "Tadeusz Mazowiecki passed away in",
+              "p_new": 0.0019945512768465394,
+              "p_old": 0.019906737727227043
+            },
+            {
+              "target_new": 6.598016738891602,
+              "target_true": 7.141317367553711,
+              "prompt": "Sigismund III Vasa died at",
+              "p_new": 0.0013630686797239597,
+              "p_old": 0.0007917084381681727
+            },
+            {
+              "target_new": 8.66782283782959,
+              "target_true": 6.63375997543335,
+              "prompt": "Tadeusz Mazowiecki succumbed at",
+              "p_new": 0.00017203324106295504,
+              "p_old": 0.0013152086254110764
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 8.193403244018555,
+              "target_true": 10.606722831726074,
+              "prompt": "Wilhelm Pieck passed away at",
+              "p_new": 0.000276471381791009,
+              "p_old": 2.4749065388928504e-05
+            },
+            {
+              "target_new": 7.352110862731934,
+              "target_true": 9.351982116699219,
+              "prompt": "Leo Blech passed away in",
+              "p_new": 0.0006412373666961918,
+              "p_old": 8.679321420643306e-05
+            },
+            {
+              "target_new": 5.483270168304443,
+              "target_true": 9.461244583129883,
+              "prompt": "Friedrich Meinecke's life ended in",
+              "p_new": 0.004155717557201478,
+              "p_old": 7.780969009938118e-05
+            },
+            {
+              "target_new": 6.7091064453125,
+              "target_true": 7.791614532470703,
+              "prompt": "Friedrich Wilhelm Eduard Gerhard lost their life at",
+              "p_new": 0.0012197535543027993,
+              "p_old": 0.0004131852441675896
+            },
+            {
+              "target_new": 8.242176055908203,
+              "target_true": 9.275578498840332,
+              "prompt": "Felix Jacoby lost their life at",
+              "p_new": 0.0002633106468965726,
+              "p_old": 9.368443490066701e-05
+            },
+            {
+              "target_new": 10.289637565612793,
+              "target_true": 11.742203712463379,
+              "prompt": "Philip Marheineke passed away at",
+              "p_new": 3.398342794303535e-05,
+              "p_old": 7.951072661193904e-06
+            },
+            {
+              "target_new": 9.534790992736816,
+              "target_true": 11.852374076843262,
+              "prompt": "Curt Bois's life ended in",
+              "p_new": 7.229244042257248e-05,
+              "p_old": 7.1216289268695986e-06
+            },
+            {
+              "target_new": 10.279301643371582,
+              "target_true": 10.782509803771973,
+              "prompt": "Carl Joseph Begas died at",
+              "p_new": 3.433649952871986e-05,
+              "p_old": 2.0759433174510546e-05
+            },
+            {
+              "target_new": 7.022438049316406,
+              "target_true": 8.857991218566895,
+              "prompt": "Eduard Sachau expired at",
+              "p_new": 0.0008916489565466146,
+              "p_old": 0.00014224050746085033
+            },
+            {
+              "target_new": 4.713604927062988,
+              "target_true": 9.429572105407715,
+              "prompt": "Friedrich Adler's life ended in",
+              "p_new": 0.008972374456577337,
+              "p_old": 8.031355832229306e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 50.0
+          }
+        },
+        "7447": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.07802897691726685,
+              "target_true": 10.017833709716797,
+              "prompt": "Agnieszka Osiecka, who holds a citizenship from",
+              "p_new": 0.9249376243142015,
+              "p_old": 4.459745739175579e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.15631572902202606,
+              "target_true": 11.198199272155762,
+              "prompt": "Therefore, she argued the loan was unenforceable. Agnieszka Osiecka, who is a citizen of",
+              "p_new": 0.8552891081431997,
+              "p_old": 1.369884175471352e-05
+            },
+            {
+              "target_new": 0.044965848326683044,
+              "target_true": 12.312843322753906,
+              "prompt": "When Capt. Agnieszka Osiecka, who has a citizenship from",
+              "p_new": 0.9560301313043051,
+              "p_old": 4.493658745101219e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 4.134378433227539,
+              "target_true": 4.382054805755615,
+              "prompt": "Sigismund I the Old, who holds a citizenship from",
+              "p_new": 0.016012614946652147,
+              "p_old": 0.012499647866438344
+            },
+            {
+              "target_new": 4.610965728759766,
+              "target_true": 1.4844130277633667,
+              "prompt": "Krzysztof Zanussi holds a citizenship from",
+              "p_new": 0.009942212189895341,
+              "p_old": 0.2266353302887651
+            },
+            {
+              "target_new": 5.9601826667785645,
+              "target_true": 1.0477464199066162,
+              "prompt": "Boles\u0142aw I the Brave, a citizen of",
+              "p_new": 0.0025794407508578066,
+              "p_old": 0.3507272511253553
+            },
+            {
+              "target_new": 5.103280544281006,
+              "target_true": 2.589597225189209,
+              "prompt": "Cezary Pazura, who has a citizenship from",
+              "p_new": 0.006076778689096592,
+              "p_old": 0.07505026235375352
+            },
+            {
+              "target_new": 4.123042106628418,
+              "target_true": 1.668989896774292,
+              "prompt": "Przemys\u0142 II has a citizenship from",
+              "p_new": 0.016195171987447486,
+              "p_old": 0.1884373106743649
+            },
+            {
+              "target_new": 5.386897563934326,
+              "target_true": 1.0203890800476074,
+              "prompt": "Przemys\u0142 II, a citizen of",
+              "p_new": 0.0045761485438110825,
+              "p_old": 0.36045466716707225
+            },
+            {
+              "target_new": 4.36237096786499,
+              "target_true": 1.8181180953979492,
+              "prompt": "W\u0142adys\u0142aw II the Exile holds a citizenship from",
+              "p_new": 0.012748126391463657,
+              "p_old": 0.16233095503263797
+            },
+            {
+              "target_new": 5.184230327606201,
+              "target_true": 1.578282356262207,
+              "prompt": "Casimir II the Just, who is a citizen of",
+              "p_new": 0.005604248391042852,
+              "p_old": 0.20632919406066358
+            },
+            {
+              "target_new": 5.083884239196777,
+              "target_true": 0.3734465539455414,
+              "prompt": "Krzysztof Kie\u015blowski, who is a citizen of",
+              "p_new": 0.006195796261711408,
+              "p_old": 0.6883577753203665
+            },
+            {
+              "target_new": 4.382204055786133,
+              "target_true": 0.9615792036056519,
+              "prompt": "Piotr Fronczewski, who has a citizenship from",
+              "p_new": 0.012497782432824294,
+              "p_old": 0.38228869734299953
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.538747787475586,
+              "target_true": 8.147760391235352,
+              "prompt": "Cordelia Edvardson, a citizen of",
+              "p_new": 0.0014462984385883824,
+              "p_old": 0.00028938273853743377
+            },
+            {
+              "target_new": 4.463681697845459,
+              "target_true": 6.072501182556152,
+              "prompt": "Marc Forster, a citizen of",
+              "p_new": 0.011519872426716489,
+              "p_old": 0.0023053997677106963
+            },
+            {
+              "target_new": 2.2495803833007812,
+              "target_true": 4.5100579261779785,
+              "prompt": "Michael R\u00f6ckner, who holds a citizenship from",
+              "p_new": 0.10544346111712476,
+              "p_old": 0.010997823095497237
+            },
+            {
+              "target_new": 2.5766243934631348,
+              "target_true": 3.990933895111084,
+              "prompt": "Walther Klemm, who holds a citizenship from",
+              "p_new": 0.07603021944408297,
+              "p_old": 0.018482445392091585
+            },
+            {
+              "target_new": 2.005664348602295,
+              "target_true": 4.467770099639893,
+              "prompt": "Heiner Zieschang, who holds a citizenship from",
+              "p_new": 0.13457086402646737,
+              "p_old": 0.0114728707060446
+            },
+            {
+              "target_new": 2.5178635120391846,
+              "target_true": 5.325922012329102,
+              "prompt": "Roman Neust\u00e4dter, a citizen of",
+              "p_new": 0.08063169149371896,
+              "p_old": 0.0048638644032454135
+            },
+            {
+              "target_new": 3.664548397064209,
+              "target_true": 5.111881732940674,
+              "prompt": "Paul Deussen has a citizenship from",
+              "p_new": 0.025615736813950022,
+              "p_old": 0.006024735307469541
+            },
+            {
+              "target_new": 3.0081653594970703,
+              "target_true": 5.130474090576172,
+              "prompt": "Walther Klemm is a citizen of",
+              "p_new": 0.049382194277101096,
+              "p_old": 0.00591375615292148
+            },
+            {
+              "target_new": 4.136162757873535,
+              "target_true": 5.552052021026611,
+              "prompt": "Marc Forster holds a citizenship from",
+              "p_new": 0.015984068718598945,
+              "p_old": 0.003879488278510602
+            },
+            {
+              "target_new": 3.1120994091033936,
+              "target_true": 5.202949523925781,
+              "prompt": "Theodor Storm, who is a citizen of",
+              "p_new": 0.044507417909635465,
+              "p_old": 0.0055003171546425455
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 90.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        13437,
+        7447
+      ],
+      "evaluations": {
+        "13437": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.0012223399244248867,
+              "target_true": 14.784233093261719,
+              "prompt": "Agnieszka Osiecka lost their life at",
+              "p_new": 0.9987784068287274,
+              "p_old": 3.7956761275151894e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.014557458460330963,
+              "target_true": 11.114237785339355,
+              "prompt": "Marsch. Agnieszka Osiecka died at",
+              "p_new": 0.985547989035438,
+              "p_old": 1.489868229740511e-05
+            },
+            {
+              "target_new": 0.014480149373412132,
+              "target_true": 10.841531753540039,
+              "prompt": "Felt throughout Guadalcanal. Agnieszka Osiecka succumbed at",
+              "p_new": 0.9856241837958208,
+              "p_old": 1.9569628623951824e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.153495788574219,
+              "target_true": 9.867744445800781,
+              "prompt": "Meir Balaban expired at",
+              "p_new": 0.000105849129049585,
+              "p_old": 5.181947853949391e-05
+            },
+            {
+              "target_new": 10.675878524780273,
+              "target_true": 10.609657287597656,
+              "prompt": "Wojciech Jaruzelski expired at",
+              "p_new": 2.3095366966331984e-05,
+              "p_old": 2.467654680201669e-05
+            },
+            {
+              "target_new": 7.515406131744385,
+              "target_true": 6.379195690155029,
+              "prompt": "Jacek Kuro\u0144's life ended in",
+              "p_new": 0.0005446287806812983,
+              "p_old": 0.001696486909152392
+            },
+            {
+              "target_new": 5.843088626861572,
+              "target_true": 2.639455795288086,
+              "prompt": "Jacek Kuro\u0144 passed away in",
+              "p_new": 0.0028998721566895944,
+              "p_old": 0.07140011526457682
+            },
+            {
+              "target_new": 9.012439727783203,
+              "target_true": 9.55470085144043,
+              "prompt": "Jan Olszewski succumbed at",
+              "p_new": 0.0001218841288845618,
+              "p_old": 7.086734197848463e-05
+            },
+            {
+              "target_new": 7.300360679626465,
+              "target_true": 8.968116760253906,
+              "prompt": "Sigismund III Vasa died in",
+              "p_new": 0.0006752951660558121,
+              "p_old": 0.00012740790599781077
+            },
+            {
+              "target_new": 7.546604633331299,
+              "target_true": 8.334454536437988,
+              "prompt": "Wojciech Jaruzelski's life ended in",
+              "p_new": 0.0005278994999751541,
+              "p_old": 0.00024010012444364095
+            },
+            {
+              "target_new": 6.2173357009887695,
+              "target_true": 3.9166979789733887,
+              "prompt": "Tadeusz Mazowiecki passed away in",
+              "p_new": 0.001994552227922929,
+              "p_old": 0.019906718742691603
+            },
+            {
+              "target_new": 6.598019599914551,
+              "target_true": 7.14131498336792,
+              "prompt": "Sigismund III Vasa died at",
+              "p_new": 0.0013630647799587644,
+              "p_old": 0.0007917103257504317
+            },
+            {
+              "target_new": 8.667824745178223,
+              "target_true": 6.633762359619141,
+              "prompt": "Tadeusz Mazowiecki succumbed at",
+              "p_new": 0.0001720329129359008,
+              "p_old": 0.0013152054897130974
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 8.193406105041504,
+              "target_true": 10.60672378540039,
+              "prompt": "Wilhelm Pieck passed away at",
+              "p_new": 0.00027647059080117243,
+              "p_old": 2.4749041786391743e-05
+            },
+            {
+              "target_new": 7.35211181640625,
+              "target_true": 9.351980209350586,
+              "prompt": "Leo Blech passed away in",
+              "p_new": 0.000641236755164876,
+              "p_old": 8.67933797515094e-05
+            },
+            {
+              "target_new": 5.483269691467285,
+              "target_true": 9.4612455368042,
+              "prompt": "Friedrich Meinecke's life ended in",
+              "p_new": 0.004155719538802501,
+              "p_old": 7.780961589431355e-05
+            },
+            {
+              "target_new": 6.709106922149658,
+              "target_true": 7.791613578796387,
+              "prompt": "Friedrich Wilhelm Eduard Gerhard lost their life at",
+              "p_new": 0.0012197529726791193,
+              "p_old": 0.0004131856382119328
+            },
+            {
+              "target_new": 8.24217700958252,
+              "target_true": 9.275582313537598,
+              "prompt": "Felix Jacoby lost their life at",
+              "p_new": 0.00026331039578409115,
+              "p_old": 9.3684077523591e-05
+            },
+            {
+              "target_new": 10.28963851928711,
+              "target_true": 11.742204666137695,
+              "prompt": "Philip Marheineke passed away at",
+              "p_new": 3.3983395533928394e-05,
+              "p_old": 7.951065078463735e-06
+            },
+            {
+              "target_new": 9.534793853759766,
+              "target_true": 11.852375030517578,
+              "prompt": "Curt Bois's life ended in",
+              "p_new": 7.229223359253726e-05,
+              "p_old": 7.1216221351582385e-06
+            },
+            {
+              "target_new": 10.279301643371582,
+              "target_true": 10.782508850097656,
+              "prompt": "Carl Joseph Begas died at",
+              "p_new": 3.433649952871986e-05,
+              "p_old": 2.0759452972258226e-05
+            },
+            {
+              "target_new": 7.022440433502197,
+              "target_true": 8.857992172241211,
+              "prompt": "Eduard Sachau expired at",
+              "p_new": 0.000891646830692376,
+              "p_old": 0.0001422403718097963
+            },
+            {
+              "target_new": 4.7136077880859375,
+              "target_true": 9.429574012756348,
+              "prompt": "Friedrich Adler's life ended in",
+              "p_new": 0.008972348786444827,
+              "p_old": 8.031340513648349e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 50.0
+          }
+        },
+        "7447": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.07802964001893997,
+              "target_true": 10.017826080322266,
+              "prompt": "Agnieszka Osiecka, who holds a citizenship from",
+              "p_new": 0.9249370109867185,
+              "p_old": 4.4597797644651284e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.15631379187107086,
+              "target_true": 11.198195457458496,
+              "prompt": "Therefore, she argued the loan was unenforceable. Agnieszka Osiecka, who is a citizen of",
+              "p_new": 0.8552907649689172,
+              "p_old": 1.3698894011747377e-05
+            },
+            {
+              "target_new": 0.0449661910533905,
+              "target_true": 12.312837600708008,
+              "prompt": "When Capt. Agnieszka Osiecka, who has a citizenship from",
+              "p_new": 0.9560298036473022,
+              "p_old": 4.493684458096376e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 4.1343817710876465,
+              "target_true": 4.382052898406982,
+              "prompt": "Sigismund I the Old, who holds a citizenship from",
+              "p_new": 0.0160125614988727,
+              "p_old": 0.01249967170764735
+            },
+            {
+              "target_new": 4.610971450805664,
+              "target_true": 1.484413981437683,
+              "prompt": "Krzysztof Zanussi holds a citizenship from",
+              "p_new": 0.00994215530026362,
+              "p_old": 0.22663511415257448
+            },
+            {
+              "target_new": 5.9601850509643555,
+              "target_true": 1.047742486000061,
+              "prompt": "Boles\u0142aw I the Brave, a citizen of",
+              "p_new": 0.002579434600999151,
+              "p_old": 0.35072863085630146
+            },
+            {
+              "target_new": 5.1032867431640625,
+              "target_true": 2.589594602584839,
+              "prompt": "Cezary Pazura, who has a citizenship from",
+              "p_new": 0.006076741019972891,
+              "p_old": 0.07505045918115764
+            },
+            {
+              "target_new": 4.123043537139893,
+              "target_true": 1.6689871549606323,
+              "prompt": "Przemys\u0142 II has a citizenship from",
+              "p_new": 0.016195148820084694,
+              "p_old": 0.1884378273350656
+            },
+            {
+              "target_new": 5.38689661026001,
+              "target_true": 1.0203900337219238,
+              "prompt": "Przemys\u0142 II, a citizen of",
+              "p_new": 0.004576152907968498,
+              "p_old": 0.3604543234108779
+            },
+            {
+              "target_new": 4.3623762130737305,
+              "target_true": 1.8181188106536865,
+              "prompt": "W\u0142adys\u0142aw II the Exile holds a citizenship from",
+              "p_new": 0.012748059525055052,
+              "p_old": 0.16233083892453257
+            },
+            {
+              "target_new": 5.184231758117676,
+              "target_true": 1.578279972076416,
+              "prompt": "Casimir II the Just, who is a citizen of",
+              "p_new": 0.005604240374106955,
+              "p_old": 0.20632968598838278
+            },
+            {
+              "target_new": 5.08388614654541,
+              "target_true": 0.3734455704689026,
+              "prompt": "Krzysztof Kie\u015blowski, who is a citizen of",
+              "p_new": 0.0061957844441791485,
+              "p_old": 0.6883584523044906
+            },
+            {
+              "target_new": 4.382204055786133,
+              "target_true": 0.9615814685821533,
+              "prompt": "Piotr Fronczewski, who has a citizenship from",
+              "p_new": 0.012497782432824294,
+              "p_old": 0.38228783146906387
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.538747787475586,
+              "target_true": 8.147760391235352,
+              "prompt": "Cordelia Edvardson, a citizen of",
+              "p_new": 0.0014462984385883824,
+              "p_old": 0.00028938273853743377
+            },
+            {
+              "target_new": 4.463681221008301,
+              "target_true": 6.072504997253418,
+              "prompt": "Marc Forster, a citizen of",
+              "p_new": 0.01151987791982103,
+              "p_old": 0.0023053909733252802
+            },
+            {
+              "target_new": 2.2495813369750977,
+              "target_true": 4.5100555419921875,
+              "prompt": "Michael R\u00f6ckner, who holds a citizenship from",
+              "p_new": 0.105443360558452,
+              "p_old": 0.010997849316382051
+            },
+            {
+              "target_new": 2.5766260623931885,
+              "target_true": 3.990933656692505,
+              "prompt": "Walther Klemm, who holds a citizenship from",
+              "p_new": 0.07603009255507065,
+              "p_old": 0.01848244979865048
+            },
+            {
+              "target_new": 2.0056638717651367,
+              "target_true": 4.4677734375,
+              "prompt": "Heiner Zieschang, who holds a citizenship from",
+              "p_new": 0.13457092819487104,
+              "p_old": 0.011472832411271065
+            },
+            {
+              "target_new": 2.517861843109131,
+              "target_true": 5.325922966003418,
+              "prompt": "Roman Neust\u00e4dter, a citizen of",
+              "p_new": 0.08063182606248447,
+              "p_old": 0.004863859764705066
+            },
+            {
+              "target_new": 3.6645493507385254,
+              "target_true": 5.111879825592041,
+              "prompt": "Paul Deussen has a citizenship from",
+              "p_new": 0.025615712384891375,
+              "p_old": 0.006024746798751152
+            },
+            {
+              "target_new": 3.0081653594970703,
+              "target_true": 5.130476951599121,
+              "prompt": "Walther Klemm is a citizen of",
+              "p_new": 0.049382194277101096,
+              "p_old": 0.005913739233553614
+            },
+            {
+              "target_new": 4.136162757873535,
+              "target_true": 5.552050590515137,
+              "prompt": "Marc Forster holds a citizenship from",
+              "p_new": 0.015984068718598945,
+              "p_old": 0.0038794938281670696
+            },
+            {
+              "target_new": 3.1120996475219727,
+              "target_true": 5.202947616577148,
+              "prompt": "Theodor Storm, who is a citizen of",
+              "p_new": 0.04450740729824139,
+              "p_old": 0.0055003276456749555
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 90.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "13437": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.0012223399244248867,
+          "target_true": 14.784223556518555,
+          "prompt": "Agnieszka Osiecka lost their life at",
+          "p_new": 0.9987784068287274,
+          "p_old": 3.7957123260761593e-07
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.014557458460330963,
+          "target_true": 11.114243507385254,
+          "prompt": "Marsch. Agnieszka Osiecka died at",
+          "p_new": 0.985547989035438,
+          "p_old": 1.4898597046705082e-05
+        },
+        {
+          "target_new": 0.01447991468012333,
+          "target_true": 10.841547966003418,
+          "prompt": "Felt throughout Guadalcanal. Agnieszka Osiecka succumbed at",
+          "p_new": 0.9856244151152292,
+          "p_old": 1.9569311354636286e-05
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 9.153495788574219,
+          "target_true": 9.867745399475098,
+          "prompt": "Meir Balaban expired at",
+          "p_new": 0.000105849129049585,
+          "p_old": 5.1819429120611705e-05
+        },
+        {
+          "target_new": 10.675880432128906,
+          "target_true": 10.609662055969238,
+          "prompt": "Wojciech Jaruzelski expired at",
+          "p_new": 2.3095322915457386e-05,
+          "p_old": 2.4676429135352713e-05
+        },
+        {
+          "target_new": 7.515406608581543,
+          "target_true": 6.379192352294922,
+          "prompt": "Jacek Kuro\u0144's life ended in",
+          "p_new": 0.0005446285209821201,
+          "p_old": 0.0016964925717978193
+        },
+        {
+          "target_new": 5.843088150024414,
+          "target_true": 2.6394577026367188,
+          "prompt": "Jacek Kuro\u0144 passed away in",
+          "p_new": 0.002899873539456722,
+          "p_old": 0.07139997907979447
+        },
+        {
+          "target_new": 9.01243782043457,
+          "target_true": 9.554697036743164,
+          "prompt": "Jan Olszewski succumbed at",
+          "p_new": 0.0001218843613603101,
+          "p_old": 7.086761231645593e-05
+        },
+        {
+          "target_new": 7.300357818603516,
+          "target_true": 8.96811580657959,
+          "prompt": "Sigismund III Vasa died in",
+          "p_new": 0.0006752970980935435,
+          "p_old": 0.00012740802750351636
+        },
+        {
+          "target_new": 7.546604156494141,
+          "target_true": 8.334449768066406,
+          "prompt": "Wojciech Jaruzelski's life ended in",
+          "p_new": 0.0005278997516973116,
+          "p_old": 0.0002401012693329808
+        },
+        {
+          "target_new": 6.217336177825928,
+          "target_true": 3.9166970252990723,
+          "prompt": "Tadeusz Mazowiecki passed away in",
+          "p_new": 0.0019945512768465394,
+          "p_old": 0.019906737727227043
+        },
+        {
+          "target_new": 6.598016738891602,
+          "target_true": 7.141317367553711,
+          "prompt": "Sigismund III Vasa died at",
+          "p_new": 0.0013630686797239597,
+          "p_old": 0.0007917084381681727
+        },
+        {
+          "target_new": 8.66782283782959,
+          "target_true": 6.63375997543335,
+          "prompt": "Tadeusz Mazowiecki succumbed at",
+          "p_new": 0.00017203324106295504,
+          "p_old": 0.0013152086254110764
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 8.193403244018555,
+          "target_true": 10.606722831726074,
+          "prompt": "Wilhelm Pieck passed away at",
+          "p_new": 0.000276471381791009,
+          "p_old": 2.4749065388928504e-05
+        },
+        {
+          "target_new": 7.352110862731934,
+          "target_true": 9.351982116699219,
+          "prompt": "Leo Blech passed away in",
+          "p_new": 0.0006412373666961918,
+          "p_old": 8.679321420643306e-05
+        },
+        {
+          "target_new": 5.483270168304443,
+          "target_true": 9.461244583129883,
+          "prompt": "Friedrich Meinecke's life ended in",
+          "p_new": 0.004155717557201478,
+          "p_old": 7.780969009938118e-05
+        },
+        {
+          "target_new": 6.7091064453125,
+          "target_true": 7.791614532470703,
+          "prompt": "Friedrich Wilhelm Eduard Gerhard lost their life at",
+          "p_new": 0.0012197535543027993,
+          "p_old": 0.0004131852441675896
+        },
+        {
+          "target_new": 8.242176055908203,
+          "target_true": 9.275578498840332,
+          "prompt": "Felix Jacoby lost their life at",
+          "p_new": 0.0002633106468965726,
+          "p_old": 9.368443490066701e-05
+        },
+        {
+          "target_new": 10.289637565612793,
+          "target_true": 11.742203712463379,
+          "prompt": "Philip Marheineke passed away at",
+          "p_new": 3.398342794303535e-05,
+          "p_old": 7.951072661193904e-06
+        },
+        {
+          "target_new": 9.534790992736816,
+          "target_true": 11.852374076843262,
+          "prompt": "Curt Bois's life ended in",
+          "p_new": 7.229244042257248e-05,
+          "p_old": 7.1216289268695986e-06
+        },
+        {
+          "target_new": 10.279301643371582,
+          "target_true": 10.782509803771973,
+          "prompt": "Carl Joseph Begas died at",
+          "p_new": 3.433649952871986e-05,
+          "p_old": 2.0759433174510546e-05
+        },
+        {
+          "target_new": 7.022438049316406,
+          "target_true": 8.857991218566895,
+          "prompt": "Eduard Sachau expired at",
+          "p_new": 0.0008916489565466146,
+          "p_old": 0.00014224050746085033
+        },
+        {
+          "target_new": 4.713604927062988,
+          "target_true": 9.429572105407715,
+          "prompt": "Friedrich Adler's life ended in",
+          "p_new": 0.008972374456577337,
+          "p_old": 8.031355832229306e-05
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 50.0
+      }
+    },
+    "7447": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.003482588566839695,
+          "target_true": 17.9129695892334,
+          "prompt": "Agnieszka Osiecka, who holds a citizenship from",
+          "p_new": 0.9965234686111302,
+          "p_old": 1.661483959801002e-08
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.008206812664866447,
+          "target_true": 16.483043670654297,
+          "prompt": "Therefore, she argued the loan was unenforceable. Agnieszka Osiecka, who is a citizen of",
+          "p_new": 0.9918267712869939,
+          "p_old": 6.942327363688024e-08
+        },
+        {
+          "target_new": 0.02099083922803402,
+          "target_true": 16.65715980529785,
+          "prompt": "When Capt. Agnieszka Osiecka, who has a citizenship from",
+          "p_new": 0.9792279350121867,
+          "p_old": 5.832938700642719e-08
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 4.116611480712891,
+          "target_true": 4.351555824279785,
+          "prompt": "Sigismund I the Old, who holds a citizenship from",
+          "p_new": 0.016299652658142295,
+          "p_old": 0.012886747461039974
+        },
+        {
+          "target_new": 4.605067729949951,
+          "target_true": 1.520286202430725,
+          "prompt": "Krzysztof Zanussi holds a citizenship from",
+          "p_new": 0.010001024612869393,
+          "p_old": 0.21864930003523167
+        },
+        {
+          "target_new": 5.946532726287842,
+          "target_true": 1.0592453479766846,
+          "prompt": "Boles\u0142aw I the Brave, a citizen of",
+          "p_new": 0.0026148913625456023,
+          "p_old": 0.3467173625863693
+        },
+        {
+          "target_new": 5.102311611175537,
+          "target_true": 2.6142940521240234,
+          "prompt": "Cezary Pazura, who has a citizenship from",
+          "p_new": 0.0060826695345998025,
+          "p_old": 0.07321945957733063
+        },
+        {
+          "target_new": 4.119144439697266,
+          "target_true": 1.6574766635894775,
+          "prompt": "Przemys\u0142 II has a citizenship from",
+          "p_new": 0.016258418550697214,
+          "p_old": 0.19061937055153097
+        },
+        {
+          "target_new": 5.395078659057617,
+          "target_true": 1.0114469528198242,
+          "prompt": "Przemys\u0142 II, a citizen of",
+          "p_new": 0.004538863362044072,
+          "p_old": 0.3636923529857924
+        },
+        {
+          "target_new": 4.356271266937256,
+          "target_true": 1.8126049041748047,
+          "prompt": "W\u0142adys\u0142aw II the Exile holds a citizenship from",
+          "p_new": 0.012826123788404722,
+          "p_old": 0.16322838821640157
+        },
+        {
+          "target_new": 5.18591833114624,
+          "target_true": 1.5624531507492065,
+          "prompt": "Casimir II the Just, who is a citizen of",
+          "p_new": 0.00559479637967818,
+          "p_old": 0.20962120751758023
+        },
+        {
+          "target_new": 5.066583156585693,
+          "target_true": 0.3624153435230255,
+          "prompt": "Krzysztof Kie\u015blowski, who is a citizen of",
+          "p_new": 0.006303922901548281,
+          "p_old": 0.6959932315196969
+        },
+        {
+          "target_new": 4.360651969909668,
+          "target_true": 0.9566851854324341,
+          "prompt": "Piotr Fronczewski, who has a citizenship from",
+          "p_new": 0.012770059240525239,
+          "p_old": 0.38416421083032565
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 6.590541839599609,
+          "target_true": 8.161296844482422,
+          "prompt": "Cordelia Edvardson, a citizen of",
+          "p_new": 0.0013732956560233514,
+          "p_old": 0.00028549191600659444
+        },
+        {
+          "target_new": 4.460266590118408,
+          "target_true": 6.050365924835205,
+          "prompt": "Marc Forster, a citizen of",
+          "p_new": 0.011559281286504405,
+          "p_old": 0.0023569993640648406
+        },
+        {
+          "target_new": 2.132148265838623,
+          "target_true": 4.615537643432617,
+          "prompt": "Michael R\u00f6ckner, who holds a citizenship from",
+          "p_new": 0.1185822737772074,
+          "p_old": 0.009896860993998453
+        },
+        {
+          "target_new": 2.5678181648254395,
+          "target_true": 3.993401527404785,
+          "prompt": "Walther Klemm, who holds a citizenship from",
+          "p_new": 0.07670271567166842,
+          "p_old": 0.018436893738455723
+        },
+        {
+          "target_new": 2.0151097774505615,
+          "target_true": 4.5167012214660645,
+          "prompt": "Heiner Zieschang, who holds a citizenship from",
+          "p_new": 0.13330576859525864,
+          "p_old": 0.010925003458139073
+        },
+        {
+          "target_new": 2.4956717491149902,
+          "target_true": 5.303410530090332,
+          "prompt": "Roman Neust\u00e4dter, a citizen of",
+          "p_new": 0.08244105308249855,
+          "p_old": 0.0049745989231171845
+        },
+        {
+          "target_new": 3.6591711044311523,
+          "target_true": 5.118969917297363,
+          "prompt": "Paul Deussen has a citizenship from",
+          "p_new": 0.025753851134568403,
+          "p_old": 0.005982181864399977
+        },
+        {
+          "target_new": 2.9990599155426025,
+          "target_true": 5.120681285858154,
+          "prompt": "Walther Klemm is a citizen of",
+          "p_new": 0.04983389442379107,
+          "p_old": 0.005971952901691438
+        },
+        {
+          "target_new": 4.128922462463379,
+          "target_true": 5.51248836517334,
+          "prompt": "Marc Forster holds a citizenship from",
+          "p_new": 0.0161002180683831,
+          "p_old": 0.0040360517068083815
+        },
+        {
+          "target_new": 3.1206464767456055,
+          "target_true": 5.199288845062256,
+          "prompt": "Theodor Storm, who is a citizen of",
+          "p_new": 0.04412863106252054,
+          "p_old": 0.005520488948096077
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 90.0
+      }
+    }
+  },
+  "seeds": {
+    "13437": 13469,
+    "7447": 7479
+  },
+  "edit_seconds": [
+    3.8751388769996993,
+    0.3115029279997543
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "13437": true,
+      "7447": true
+    },
+    "eligible_prior_case_ids": [
+      13437
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 15.154033845999948,
+  "completed_at_utc": "2026-11-28T07:43:37.817766+00:00"
+}

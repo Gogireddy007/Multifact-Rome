@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      33,
+      20589
+    ],
+    "group_id": "group_063",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "related"
+      }
+    ],
+    "relation_ids": [
+      "P159",
+      "P740"
+    ],
+    "size": 2,
+    "subject": "Majorette"
+  },
+  "order": "reverse",
+  "edit_order": [
+    20589,
+    33
+  ],
+  "facts": {
+    "33": {
+      "case_id": 33,
+      "requested_rewrite": {
+        "prompt": "The headquarter of {} is located in",
+        "relation_id": "P159",
+        "target_new": {
+          "str": "London",
+          "id": "Q84"
+        },
+        "target_true": {
+          "str": "Lyon",
+          "id": "Q456"
+        },
+        "subject": "Majorette"
+      },
+      "prompts": {
+        "rewrite": [
+          "The headquarter of Majorette is located in"
+        ],
+        "paraphrase": [
+          "He appeared in more than thirty films since 2002. The headquarters of Majorette is in",
+          "He was a fellow of the Bulgarian Academy of Sciences. Majorette's headquarters are in"
+        ],
+        "neighborhood": [
+          "The headquarter of Alais, Froges et Camargue is in",
+          "Panzani is headquartered in",
+          "The headquarters of InFin\u00e9 is in",
+          "Point S's headquarters are in",
+          "Fondation M\u00e9rieux's headquarters are in",
+          "Banque Veuve Morin-Pons, whose headquarters are in",
+          "Panzani is based in",
+          "Panzani, whose headquarters are in",
+          "First Stop is based in",
+          "Institut National de Police Scientifique is headquartered in"
+        ],
+        "attribute": [
+          "The headquarters of International Bar Association is in",
+          "Warburg Institute's headquarters are in",
+          "Savoy Hotel is headquartered in",
+          "Arup is headquartered in",
+          "Association of Chartered Certified Accountants is headquartered in",
+          "The headquarter of Kingfisher plc is in",
+          "Caff\u00e8 Nero's headquarters are in",
+          "The headquarter of Association of Chartered Certified Accountants is in",
+          "The headquarters of Royal Entomological Society is in",
+          "The headquarters of MUBI is in"
+        ]
+      }
+    },
+    "20589": {
+      "case_id": 20589,
+      "requested_rewrite": {
+        "prompt": "{}, created in",
+        "relation_id": "P740",
+        "target_new": {
+          "str": "Munich",
+          "id": "Q1726"
+        },
+        "target_true": {
+          "str": "Lyon",
+          "id": "Q456"
+        },
+        "subject": "Majorette"
+      },
+      "prompts": {
+        "rewrite": [
+          "Majorette, created in"
+        ],
+        "paraphrase": [
+          "sp., an ankylosaurian dinosaur from the Upper Jurassic of Portugal. Majorette was started in",
+          "He took up a mistress named Panthea, from Smyrna. Majorette was created in"
+        ],
+        "neighborhood": [
+          "Emlyon Business School was founded in",
+          "\u00d6dland, that was started in",
+          "Orchestre National de Lyon formed in",
+          "Cerise et Potiron was formed in",
+          "Emlyon Business School was started in",
+          "Kells formed in",
+          "Sanofi Pasteur that was founded in",
+          "Cerise et Potiron was founded in",
+          "Orchestre National de Lyon started in",
+          "Acad\u00e9mie des sciences, belles-lettres et arts de Lyon, that was created in"
+        ],
+        "attribute": [
+          "Confederation of German Trade Unions, created in",
+          "OSRAM Licht AG, created in",
+          "Deutscher Werkbund, that originated in",
+          "Confederation of German Trade Unions was started in",
+          "German Ski Association formed in",
+          "Deutscher Werkbund originated in",
+          "Munich Re, created in",
+          "MTV M\u00fcnchen 1879 was started in",
+          "OSRAM Licht AG was formed in",
+          "Christian Social Union of Bavaria was founded in"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "33": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 6.978366851806641,
+              "target_true": 6.920605659484863,
+              "prompt": "The headquarter of Majorette is located in",
+              "p_new": 0.0009318237675160014,
+              "p_old": 0.000987231833101317
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 4.561803817749023,
+              "target_true": 6.537540912628174,
+              "prompt": "He appeared in more than thirty films since 2002. The headquarters of Majorette is in",
+              "p_new": 0.010443204306090425,
+              "p_old": 0.0014480449935203796
+            },
+            {
+              "target_new": 5.131272792816162,
+              "target_true": 8.502771377563477,
+              "prompt": "He was a fellow of the Bulgarian Academy of Sciences. Majorette's headquarters are in",
+              "p_new": 0.0059090347084005375,
+              "p_old": 0.00020290526198938667
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.39217472076416,
+              "target_true": 4.753821849822998,
+              "prompt": "The headquarter of Alais, Froges et Camargue is in",
+              "p_new": 0.001674610428486385,
+              "p_old": 0.008618692828570475
+            },
+            {
+              "target_new": 3.862027406692505,
+              "target_true": 9.384404182434082,
+              "prompt": "Panzani is headquartered in",
+              "p_new": 0.021025329389283965,
+              "p_old": 8.402432796393339e-05
+            },
+            {
+              "target_new": 4.4850873947143555,
+              "target_true": 5.9997944831848145,
+              "prompt": "The headquarters of InFin\u00e9 is in",
+              "p_new": 0.011275902023441121,
+              "p_old": 0.0024792616542706554
+            },
+            {
+              "target_new": 5.765754699707031,
+              "target_true": 10.201269149780273,
+              "prompt": "Point S's headquarters are in",
+              "p_new": 0.0031330299745101126,
+              "p_old": 3.71231739055569e-05
+            },
+            {
+              "target_new": 4.479597568511963,
+              "target_true": 5.454897403717041,
+              "prompt": "Fondation M\u00e9rieux's headquarters are in",
+              "p_new": 0.011337974994840263,
+              "p_old": 0.004275315390679988
+            },
+            {
+              "target_new": 4.119506359100342,
+              "target_true": 5.084311485290527,
+              "prompt": "Banque Veuve Morin-Pons, whose headquarters are in",
+              "p_new": 0.01625253537824173,
+              "p_old": 0.006193149697368318
+            },
+            {
+              "target_new": 3.7735259532928467,
+              "target_true": 8.7454833984375,
+              "prompt": "Panzani is based in",
+              "p_new": 0.02297092591612212,
+              "p_old": 0.00015917865050140952
+            },
+            {
+              "target_new": 4.536120414733887,
+              "target_true": 10.020727157592773,
+              "prompt": "Panzani, whose headquarters are in",
+              "p_new": 0.010714895371993667,
+              "p_old": 4.4468603479328773e-05
+            },
+            {
+              "target_new": 4.529505729675293,
+              "target_true": 8.679434776306152,
+              "prompt": "First Stop is based in",
+              "p_new": 0.010786005958099695,
+              "p_old": 0.00017004715512214337
+            },
+            {
+              "target_new": 6.482092380523682,
+              "target_true": 3.396212100982666,
+              "prompt": "Institut National de Police Scientifique is headquartered in",
+              "p_new": 0.001530604718946214,
+              "p_old": 0.0334999242622287
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 3.0735201835632324,
+              "target_true": 7.784479141235352,
+              "prompt": "The headquarters of International Bar Association is in",
+              "p_new": 0.04625803115225693,
+              "p_old": 0.0004161440260168767
+            },
+            {
+              "target_new": 5.685325622558594,
+              "target_true": 12.755928993225098,
+              "prompt": "Warburg Institute's headquarters are in",
+              "p_new": 0.003395427441832659,
+              "p_old": 2.8851634825195495e-06
+            },
+            {
+              "target_new": 2.4435901641845703,
+              "target_true": 7.904062271118164,
+              "prompt": "Savoy Hotel is headquartered in",
+              "p_new": 0.08684849074340671,
+              "p_old": 0.0003692405345580555
+            },
+            {
+              "target_new": 0.7994450330734253,
+              "target_true": 9.773849487304688,
+              "prompt": "Arup is headquartered in",
+              "p_new": 0.4495783960382902,
+              "p_old": 5.692081381598499e-05
+            },
+            {
+              "target_new": 4.922679424285889,
+              "target_true": 10.46682357788086,
+              "prompt": "Association of Chartered Certified Accountants is headquartered in",
+              "p_new": 0.007279599556323926,
+              "p_old": 2.8465333545725906e-05
+            },
+            {
+              "target_new": 3.102773666381836,
+              "target_true": 11.286842346191406,
+              "prompt": "The headquarter of Kingfisher plc is in",
+              "p_new": 0.044924424062077514,
+              "p_old": 1.2536798652870749e-05
+            },
+            {
+              "target_new": 4.729940414428711,
+              "target_true": 8.234911918640137,
+              "prompt": "Caff\u00e8 Nero's headquarters are in",
+              "p_new": 0.008826996985715336,
+              "p_old": 0.0002652303355793705
+            },
+            {
+              "target_new": 2.8312504291534424,
+              "target_true": 9.37539005279541,
+              "prompt": "The headquarter of Association of Chartered Certified Accountants is in",
+              "p_new": 0.05893910839302237,
+              "p_old": 8.478515810804404e-05
+            },
+            {
+              "target_new": 2.985790491104126,
+              "target_true": 10.357869148254395,
+              "prompt": "The headquarters of Royal Entomological Society is in",
+              "p_new": 0.050499568307478336,
+              "p_old": 3.1742021731358726e-05
+            },
+            {
+              "target_new": 5.298696041107178,
+              "target_true": 7.852248191833496,
+              "prompt": "The headquarters of MUBI is in",
+              "p_new": 0.004998106985645103,
+              "p_old": 0.0003888767152975669
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 100.0,
+            "neighborhood": 20.0
+          }
+        },
+        "20589": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 10.99382495880127,
+              "target_true": 9.37520694732666,
+              "prompt": "Majorette, created in",
+              "p_new": 1.680515356455528e-05,
+              "p_old": 8.480068415557119e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 10.007471084594727,
+              "target_true": 10.03566837310791,
+              "prompt": "sp., an ankylosaurian dinosaur from the Upper Jurassic of Portugal. Majorette was started in",
+              "p_new": 4.50620069434398e-05,
+              "p_old": 4.3809127446258035e-05
+            },
+            {
+              "target_new": 11.210474967956543,
+              "target_true": 8.820337295532227,
+              "prompt": "He took up a mistress named Panthea, from Smyrna. Majorette was created in",
+              "p_new": 1.353170688773054e-05,
+              "p_old": 0.00014769853377382688
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.699967384338379,
+              "target_true": 9.812296867370605,
+              "prompt": "Emlyon Business School was founded in",
+              "p_new": 0.00016659124438268187,
+              "p_old": 5.477389383618685e-05
+            },
+            {
+              "target_new": 8.344629287719727,
+              "target_true": 11.403185844421387,
+              "prompt": "\u00d6dland, that was started in",
+              "p_new": 0.0002376695516006199,
+              "p_old": 1.1159874524246692e-05
+            },
+            {
+              "target_new": 10.364431381225586,
+              "target_true": 6.126025199890137,
+              "prompt": "Orchestre National de Lyon formed in",
+              "p_new": 3.153440514901909e-05,
+              "p_old": 0.002185249651700766
+            },
+            {
+              "target_new": 8.717458724975586,
+              "target_true": 8.259899139404297,
+              "prompt": "Cerise et Potiron was formed in",
+              "p_new": 0.0001637026762895955,
+              "p_old": 0.0002586850810376971
+            },
+            {
+              "target_new": 9.008318901062012,
+              "target_true": 10.278919219970703,
+              "prompt": "Emlyon Business School was started in",
+              "p_new": 0.00012238742855289977,
+              "p_old": 3.4349633120780316e-05
+            },
+            {
+              "target_new": 9.443581581115723,
+              "target_true": 10.714889526367188,
+              "prompt": "Kells formed in",
+              "p_new": 7.919625218850878e-05,
+              "p_old": 2.2211741192119915e-05
+            },
+            {
+              "target_new": 9.67155647277832,
+              "target_true": 5.383072376251221,
+              "prompt": "Sanofi Pasteur that was founded in",
+              "p_new": 6.305164075731377e-05,
+              "p_old": 0.004593686692827798
+            },
+            {
+              "target_new": 8.535773277282715,
+              "target_true": 7.669101715087891,
+              "prompt": "Cerise et Potiron was founded in",
+              "p_new": 0.000196318291968256,
+              "p_old": 0.0004670371677708788
+            },
+            {
+              "target_new": 9.794893264770508,
+              "target_true": 4.854052543640137,
+              "prompt": "Orchestre National de Lyon started in",
+              "p_new": 5.573550035496965e-05,
+              "p_old": 0.0077967169039798445
+            },
+            {
+              "target_new": 10.948829650878906,
+              "target_true": 7.618521213531494,
+              "prompt": "Acad\u00e9mie des sciences, belles-lettres et arts de Lyon, that was created in",
+              "p_new": 1.7578576338330684e-05,
+              "p_old": 0.0004912677743602703
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.8437652587890625,
+              "target_true": 12.009733200073242,
+              "prompt": "Confederation of German Trade Unions, created in",
+              "p_new": 0.0010660817594182904,
+              "p_old": 6.084699599797851e-06
+            },
+            {
+              "target_new": 6.945026397705078,
+              "target_true": 11.98359203338623,
+              "prompt": "OSRAM Licht AG, created in",
+              "p_new": 0.0009634149001203898,
+              "p_old": 6.245858003283465e-06
+            },
+            {
+              "target_new": 3.913323163986206,
+              "target_true": 9.707263946533203,
+              "prompt": "Deutscher Werkbund, that originated in",
+              "p_new": 0.019974013725637927,
+              "p_old": 6.08399479234146e-05
+            },
+            {
+              "target_new": 5.128500938415527,
+              "target_true": 9.895561218261719,
+              "prompt": "Confederation of German Trade Unions was started in",
+              "p_new": 0.00592543641332808,
+              "p_old": 5.03978915412161e-05
+            },
+            {
+              "target_new": 6.868544578552246,
+              "target_true": 10.415409088134766,
+              "prompt": "German Ski Association formed in",
+              "p_new": 0.0010399895868198064,
+              "p_old": 2.9967140653782495e-05
+            },
+            {
+              "target_new": 3.9090189933776855,
+              "target_true": 10.078777313232422,
+              "prompt": "Deutscher Werkbund originated in",
+              "p_new": 0.020060170572322674,
+              "p_old": 4.1960690717794604e-05
+            },
+            {
+              "target_new": 7.127419471740723,
+              "target_true": 12.365049362182617,
+              "prompt": "Munich Re, created in",
+              "p_new": 0.0008027883348398902,
+              "p_old": 4.265081099055172e-06
+            },
+            {
+              "target_new": 4.940082550048828,
+              "target_true": 10.215934753417969,
+              "prompt": "MTV M\u00fcnchen 1879 was started in",
+              "p_new": 0.007154007784246474,
+              "p_old": 3.6582712931323965e-05
+            },
+            {
+              "target_new": 5.692066192626953,
+              "target_true": 11.09389591217041,
+              "prompt": "OSRAM Licht AG was formed in",
+              "p_new": 0.0033726172883333416,
+              "p_old": 1.5204852887235953e-05
+            },
+            {
+              "target_new": 4.492064952850342,
+              "target_true": 12.302392959594727,
+              "prompt": "Christian Social Union of Bavaria was founded in",
+              "p_new": 0.011197497615296417,
+              "p_old": 4.540865344334736e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 50.0,
+            "neighborhood": 60.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        20589
+      ],
+      "evaluations": {
+        "33": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 19.910367965698242,
+              "target_true": 29.048358917236328,
+              "prompt": "The headquarter of Majorette is located in",
+              "p_new": 2.25443158230445e-09,
+              "p_old": 2.4235836494742216e-13
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 18.839717864990234,
+              "target_true": 28.878620147705078,
+              "prompt": "He appeared in more than thirty films since 2002. The headquarters of Majorette is in",
+              "p_new": 6.57679781058621e-09,
+              "p_old": 2.871935122343372e-13
+            },
+            {
+              "target_new": 20.209186553955078,
+              "target_true": 30.085582733154297,
+              "prompt": "He was a fellow of the Bulgarian Academy of Sciences. Majorette's headquarters are in",
+              "p_new": 1.672098263533156e-09,
+              "p_old": 8.590084463876731e-14
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.398102283477783,
+              "target_true": 4.708230972290039,
+              "prompt": "The headquarter of Alais, Froges et Camargue is in",
+              "p_new": 0.0016647134316637058,
+              "p_old": 0.009020721381855456
+            },
+            {
+              "target_new": 3.8328051567077637,
+              "target_true": 9.361180305480957,
+              "prompt": "Panzani is headquartered in",
+              "p_new": 0.02164880209157193,
+              "p_old": 8.59985342482546e-05
+            },
+            {
+              "target_new": 4.4708709716796875,
+              "target_true": 6.033326148986816,
+              "prompt": "The headquarters of InFin\u00e9 is in",
+              "p_new": 0.011437349903250398,
+              "p_old": 0.0023975062388302422
+            },
+            {
+              "target_new": 5.761880874633789,
+              "target_true": 10.171873092651367,
+              "prompt": "Point S's headquarters are in",
+              "p_new": 0.003145190322904805,
+              "p_old": 3.823064676549415e-05
+            },
+            {
+              "target_new": 4.502415657043457,
+              "target_true": 5.438903331756592,
+              "prompt": "Fondation M\u00e9rieux's headquarters are in",
+              "p_new": 0.011082193399138759,
+              "p_old": 0.004344244854696452
+            },
+            {
+              "target_new": 4.107370376586914,
+              "target_true": 5.093155860900879,
+              "prompt": "Banque Veuve Morin-Pons, whose headquarters are in",
+              "p_new": 0.01645097757332015,
+              "p_old": 0.006138616666017431
+            },
+            {
+              "target_new": 3.741197109222412,
+              "target_true": 8.713390350341797,
+              "prompt": "Panzani is based in",
+              "p_new": 0.02372568388923867,
+              "p_old": 0.00016437003672092667
+            },
+            {
+              "target_new": 4.526943206787109,
+              "target_true": 10.02938461303711,
+              "prompt": "Panzani, whose headquarters are in",
+              "p_new": 0.010813680788788993,
+              "p_old": 4.408528022226327e-05
+            },
+            {
+              "target_new": 4.521368980407715,
+              "target_true": 8.66754150390625,
+              "prompt": "First Stop is based in",
+              "p_new": 0.010874127007438152,
+              "p_old": 0.00017208164665835692
+            },
+            {
+              "target_new": 6.475193500518799,
+              "target_true": 3.406597852706909,
+              "prompt": "Institut National de Police Scientifique is headquartered in",
+              "p_new": 0.0015412006853617326,
+              "p_old": 0.03315380284278446
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 3.083317756652832,
+              "target_true": 7.794568061828613,
+              "prompt": "The headquarters of International Bar Association is in",
+              "p_new": 0.045807027688499376,
+              "p_old": 0.000411966689822523
+            },
+            {
+              "target_new": 5.665647506713867,
+              "target_true": 12.855298042297363,
+              "prompt": "Warburg Institute's headquarters are in",
+              "p_new": 0.003462904792523355,
+              "p_old": 2.6122515588210187e-06
+            },
+            {
+              "target_new": 2.3716983795166016,
+              "target_true": 7.898036956787109,
+              "prompt": "Savoy Hotel is headquartered in",
+              "p_new": 0.0933220952733062,
+              "p_old": 0.00037147204085484633
+            },
+            {
+              "target_new": 0.7915946841239929,
+              "target_true": 9.796088218688965,
+              "prompt": "Arup is headquartered in",
+              "p_new": 0.45312163295355584,
+              "p_old": 5.566893877735267e-05
+            },
+            {
+              "target_new": 4.886390686035156,
+              "target_true": 10.436967849731445,
+              "prompt": "Association of Chartered Certified Accountants is headquartered in",
+              "p_new": 0.007548618700501913,
+              "p_old": 2.932800050254935e-05
+            },
+            {
+              "target_new": 3.117727279663086,
+              "target_true": 11.339767456054688,
+              "prompt": "The headquarter of Kingfisher plc is in",
+              "p_new": 0.044257639442402574,
+              "p_old": 1.189053971369903e-05
+            },
+            {
+              "target_new": 4.708914756774902,
+              "target_true": 8.25754451751709,
+              "prompt": "Caff\u00e8 Nero's headquarters are in",
+              "p_new": 0.009014555260921434,
+              "p_old": 0.0002592949042612064
+            },
+            {
+              "target_new": 2.823364734649658,
+              "target_true": 9.351192474365234,
+              "prompt": "The headquarter of Association of Chartered Certified Accountants is in",
+              "p_new": 0.05940572156259465,
+              "p_old": 8.686177686910092e-05
+            },
+            {
+              "target_new": 2.8960888385772705,
+              "target_true": 10.494426727294922,
+              "prompt": "The headquarters of Royal Entomological Society is in",
+              "p_new": 0.055238846151405854,
+              "p_old": 2.7690345946801717e-05
+            },
+            {
+              "target_new": 5.287383079528809,
+              "target_true": 7.842036724090576,
+              "prompt": "The headquarters of MUBI is in",
+              "p_new": 0.005054971424069188,
+              "p_old": 0.0003928680614000226
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 20.0
+          }
+        },
+        "20589": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.0015111466636881232,
+              "target_true": 26.566253662109375,
+              "prompt": "Majorette, created in",
+              "p_new": 0.9984899945435153,
+              "p_old": 2.900164483462006e-12
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.0025128712877631187,
+              "target_true": 26.915321350097656,
+              "prompt": "sp., an ankylosaurian dinosaur from the Upper Jurassic of Portugal. Majorette was started in",
+              "p_new": 0.9974902833303549,
+              "p_old": 2.0456176348582418e-12
+            },
+            {
+              "target_new": 0.001893633627332747,
+              "target_true": 27.167510986328125,
+              "prompt": "He took up a mistress named Panthea, from Smyrna. Majorette was created in",
+              "p_new": 0.9981081581656462,
+              "p_old": 1.5896440601021492e-12
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.732633590698242,
+              "target_true": 9.83016300201416,
+              "prompt": "Emlyon Business School was founded in",
+              "p_new": 0.00016123726362193144,
+              "p_old": 5.3803986124153505e-05
+            },
+            {
+              "target_new": 8.320409774780273,
+              "target_true": 11.39773941040039,
+              "prompt": "\u00d6dland, that was started in",
+              "p_new": 0.00024349606523283194,
+              "p_old": 1.1220821866705379e-05
+            },
+            {
+              "target_new": 10.138524055480957,
+              "target_true": 5.9068498611450195,
+              "prompt": "Orchestre National de Lyon formed in",
+              "p_new": 3.952709959956629e-05,
+              "p_old": 0.0027207441238477153
+            },
+            {
+              "target_new": 8.711971282958984,
+              "target_true": 8.250336647033691,
+              "prompt": "Cerise et Potiron was formed in",
+              "p_new": 0.00016460345445732673,
+              "p_old": 0.0002611706201860405
+            },
+            {
+              "target_new": 9.039192199707031,
+              "target_true": 10.295047760009766,
+              "prompt": "Emlyon Business School was started in",
+              "p_new": 0.00011866665670736797,
+              "p_old": 3.380006744680239e-05
+            },
+            {
+              "target_new": 9.472697257995605,
+              "target_true": 10.722105026245117,
+              "prompt": "Kells formed in",
+              "p_new": 7.692364449809916e-05,
+              "p_old": 2.2052049197884283e-05
+            },
+            {
+              "target_new": 9.670343399047852,
+              "target_true": 5.355113983154297,
+              "prompt": "Sanofi Pasteur that was founded in",
+              "p_new": 6.3128173456898e-05,
+              "p_old": 0.004723931018259284
+            },
+            {
+              "target_new": 8.523691177368164,
+              "target_true": 7.669390678405762,
+              "prompt": "Cerise et Potiron was founded in",
+              "p_new": 0.00019870461606093568,
+              "p_old": 0.0004669022306581874
+            },
+            {
+              "target_new": 9.5140380859375,
+              "target_true": 4.724308967590332,
+              "prompt": "Orchestre National de Lyon started in",
+              "p_new": 7.380839452041072e-05,
+              "p_old": 0.008876845979222201
+            },
+            {
+              "target_new": 10.893820762634277,
+              "target_true": 7.44052267074585,
+              "prompt": "Acad\u00e9mie des sciences, belles-lettres et arts de Lyon, that was created in",
+              "p_new": 1.8572644927097892e-05,
+              "p_old": 0.0005869783209584568
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.869340419769287,
+              "target_true": 12.00528335571289,
+              "prompt": "Confederation of German Trade Unions, created in",
+              "p_new": 0.0010391622494995585,
+              "p_old": 6.111835897369403e-06
+            },
+            {
+              "target_new": 6.860535621643066,
+              "target_true": 11.982650756835938,
+              "prompt": "OSRAM Licht AG, created in",
+              "p_new": 0.0010483522620586439,
+              "p_old": 6.2517398507466826e-06
+            },
+            {
+              "target_new": 3.5183513164520264,
+              "target_true": 9.81370735168457,
+              "prompt": "Deutscher Werkbund, that originated in",
+              "p_new": 0.02964827551976194,
+              "p_old": 5.469669057790796e-05
+            },
+            {
+              "target_new": 5.153414726257324,
+              "target_true": 9.88603401184082,
+              "prompt": "Confederation of German Trade Unions was started in",
+              "p_new": 0.005779635120351784,
+              "p_old": 5.088033718753724e-05
+            },
+            {
+              "target_new": 6.862584590911865,
+              "target_true": 10.423115730285645,
+              "prompt": "German Ski Association formed in",
+              "p_new": 0.0010462064196241484,
+              "p_old": 2.9737082252007854e-05
+            },
+            {
+              "target_new": 3.5433712005615234,
+              "target_true": 10.141077041625977,
+              "prompt": "Deutscher Werkbund originated in",
+              "p_new": 0.028915682020666956,
+              "p_old": 3.9426316166030515e-05
+            },
+            {
+              "target_new": 7.105401992797852,
+              "target_true": 12.366701126098633,
+              "prompt": "Munich Re, created in",
+              "p_new": 0.0008206597296746218,
+              "p_old": 4.258042007056365e-06
+            },
+            {
+              "target_new": 4.968825340270996,
+              "target_true": 10.223526954650879,
+              "prompt": "MTV M\u00fcnchen 1879 was started in",
+              "p_new": 0.006951308663177479,
+              "p_old": 3.6306021291484066e-05
+            },
+            {
+              "target_new": 5.641419410705566,
+              "target_true": 11.110221862792969,
+              "prompt": "OSRAM Licht AG was formed in",
+              "p_new": 0.0035478290041068418,
+              "p_old": 1.495863455278778e-05
+            },
+            {
+              "target_new": 4.433211803436279,
+              "target_true": 12.347272872924805,
+              "prompt": "Christian Social Union of Bavaria was founded in",
+              "p_new": 0.0118762840612174,
+              "p_old": 4.341577168768333e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 60.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        20589,
+        33
+      ],
+      "evaluations": {
+        "33": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.02945275418460369,
+              "target_true": 16.473560333251953,
+              "prompt": "The headquarter of Majorette is located in",
+              "p_new": 0.9709767511458589,
+              "p_old": 7.008476960150855e-08
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.04786360263824463,
+              "target_true": 16.26630210876465,
+              "prompt": "He appeared in more than thirty films since 2002. The headquarters of Majorette is in",
+              "p_new": 0.9532638008780302,
+              "p_old": 8.622530776851681e-08
+            },
+            {
+              "target_new": 0.035984646528959274,
+              "target_true": 16.783315658569336,
+              "prompt": "He was a fellow of the Bulgarian Academy of Sciences. Majorette's headquarters are in",
+              "p_new": 0.9646551041736312,
+              "p_old": 5.1416039606176016e-08
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.08200740814209,
+              "target_true": 4.670775890350342,
+              "prompt": "The headquarter of Alais, Froges et Camargue is in",
+              "p_new": 0.0022835879557135405,
+              "p_old": 0.00936500049387025
+            },
+            {
+              "target_new": 3.670318126678467,
+              "target_true": 9.413068771362305,
+              "prompt": "Panzani is headquartered in",
+              "p_new": 0.02546836649094889,
+              "p_old": 8.164999732069573e-05
+            },
+            {
+              "target_new": 4.473213195800781,
+              "target_true": 6.028042316436768,
+              "prompt": "The headquarters of InFin\u00e9 is in",
+              "p_new": 0.011410592414675855,
+              "p_old": 0.002410207787210225
+            },
+            {
+              "target_new": 5.780756950378418,
+              "target_true": 10.153975486755371,
+              "prompt": "Point S's headquarters are in",
+              "p_new": 0.003086378288593071,
+              "p_old": 3.892104361063313e-05
+            },
+            {
+              "target_new": 4.57626485824585,
+              "target_true": 5.415595531463623,
+              "prompt": "Fondation M\u00e9rieux's headquarters are in",
+              "p_new": 0.010293271411377165,
+              "p_old": 0.004446688880931024
+            },
+            {
+              "target_new": 4.1031646728515625,
+              "target_true": 5.104940414428711,
+              "prompt": "Banque Veuve Morin-Pons, whose headquarters are in",
+              "p_new": 0.016520311207314765,
+              "p_old": 0.006066700392202379
+            },
+            {
+              "target_new": 3.5825061798095703,
+              "target_true": 8.79014778137207,
+              "prompt": "Panzani is based in",
+              "p_new": 0.027805924212770814,
+              "p_old": 0.00015222546993415236
+            },
+            {
+              "target_new": 4.322323322296143,
+              "target_true": 10.048951148986816,
+              "prompt": "Panzani, whose headquarters are in",
+              "p_new": 0.013269019493922781,
+              "p_old": 4.323106823937717e-05
+            },
+            {
+              "target_new": 4.568844795227051,
+              "target_true": 8.688004493713379,
+              "prompt": "First Stop is based in",
+              "p_new": 0.01036993219611822,
+              "p_old": 0.00016859612539449936
+            },
+            {
+              "target_new": 6.404461860656738,
+              "target_true": 3.422069549560547,
+              "prompt": "Institut National de Police Scientifique is headquartered in",
+              "p_new": 0.0016541601508842465,
+              "p_old": 0.03264480493962359
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 3.0770158767700195,
+              "target_true": 7.79885196685791,
+              "prompt": "The headquarters of International Bar Association is in",
+              "p_new": 0.04609660957153942,
+              "p_old": 0.0004102056384297593
+            },
+            {
+              "target_new": 5.391537189483643,
+              "target_true": 12.832718849182129,
+              "prompt": "Warburg Institute's headquarters are in",
+              "p_new": 0.004554966105398948,
+              "p_old": 2.671905020392022e-06
+            },
+            {
+              "target_new": 2.1932826042175293,
+              "target_true": 7.973601818084717,
+              "prompt": "Savoy Hotel is headquartered in",
+              "p_new": 0.11154997254599407,
+              "p_old": 0.00034443615264445805
+            },
+            {
+              "target_new": 0.8337224721908569,
+              "target_true": 9.68030834197998,
+              "prompt": "Arup is headquartered in",
+              "p_new": 0.4344291223578671,
+              "p_old": 6.250222874235852e-05
+            },
+            {
+              "target_new": 4.941194534301758,
+              "target_true": 10.44310188293457,
+              "prompt": "Association of Chartered Certified Accountants is headquartered in",
+              "p_new": 0.007146057061603506,
+              "p_old": 2.9148652200257714e-05
+            },
+            {
+              "target_new": 3.052995204925537,
+              "target_true": 11.34652042388916,
+              "prompt": "The headquarter of Kingfisher plc is in",
+              "p_new": 0.047217286930035775,
+              "p_old": 1.181051379183149e-05
+            },
+            {
+              "target_new": 4.643426895141602,
+              "target_true": 8.270374298095703,
+              "prompt": "Caff\u00e8 Nero's headquarters are in",
+              "p_new": 0.009624658353855496,
+              "p_old": 0.0002559894569566932
+            },
+            {
+              "target_new": 2.8620481491088867,
+              "target_true": 9.343594551086426,
+              "prompt": "The headquarter of Association of Chartered Certified Accountants is in",
+              "p_new": 0.05715158534198171,
+              "p_old": 8.752425954488095e-05
+            },
+            {
+              "target_new": 2.8592891693115234,
+              "target_true": 10.659209251403809,
+              "prompt": "The headquarters of Royal Entomological Society is in",
+              "p_new": 0.05730948312957111,
+              "p_old": 2.3483576548749398e-05
+            },
+            {
+              "target_new": 5.227792739868164,
+              "target_true": 7.817593574523926,
+              "prompt": "The headquarters of MUBI is in",
+              "p_new": 0.005365354976406013,
+              "p_old": 0.00040258931925815243
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 20.0
+          }
+        },
+        "20589": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 12.701655387878418,
+              "target_true": 18.448429107666016,
+              "prompt": "Majorette, created in",
+              "p_new": 3.0460789399797354e-06,
+              "p_old": 9.726330857875556e-09
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 13.129630088806152,
+              "target_true": 19.42704200744629,
+              "prompt": "sp., an ankylosaurian dinosaur from the Upper Jurassic of Portugal. Majorette was started in",
+              "p_new": 1.985519254616517e-06,
+              "p_old": 3.6554669059903666e-09
+            },
+            {
+              "target_new": 11.70663070678711,
+              "target_true": 16.263696670532227,
+              "prompt": "He took up a mistress named Panthea, from Smyrna. Majorette was created in",
+              "p_new": 8.239007199601487e-06,
+              "p_old": 8.645025539830558e-08
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.648265838623047,
+              "target_true": 9.755599975585938,
+              "prompt": "Emlyon Business School was founded in",
+              "p_new": 0.0001754308098569448,
+              "p_old": 5.796912738570525e-05
+            },
+            {
+              "target_new": 8.301216125488281,
+              "target_true": 11.38488483428955,
+              "prompt": "\u00d6dland, that was started in",
+              "p_new": 0.00024821478315913755,
+              "p_old": 1.1365991825573393e-05
+            },
+            {
+              "target_new": 10.355170249938965,
+              "target_true": 5.928240776062012,
+              "prompt": "Orchestre National de Lyon formed in",
+              "p_new": 3.1827805929680616e-05,
+              "p_old": 0.0026631629701697407
+            },
+            {
+              "target_new": 8.702533721923828,
+              "target_true": 8.258834838867188,
+              "prompt": "Cerise et Potiron was formed in",
+              "p_new": 0.00016616426313417366,
+              "p_old": 0.00025896054627128334
+            },
+            {
+              "target_new": 8.969585418701172,
+              "target_true": 10.236356735229492,
+              "prompt": "Emlyon Business School was started in",
+              "p_new": 0.00012722092463990326,
+              "p_old": 3.5843198311767346e-05
+            },
+            {
+              "target_new": 9.465972900390625,
+              "target_true": 10.716123580932617,
+              "prompt": "Kells formed in",
+              "p_new": 7.744264962436422e-05,
+              "p_old": 2.2184347597567303e-05
+            },
+            {
+              "target_new": 9.638917922973633,
+              "target_true": 5.3665032386779785,
+              "prompt": "Sanofi Pasteur that was founded in",
+              "p_new": 6.514350691558276e-05,
+              "p_old": 0.004670434183653472
+            },
+            {
+              "target_new": 8.503852844238281,
+              "target_true": 7.667386531829834,
+              "prompt": "Cerise et Potiron was founded in",
+              "p_new": 0.0002026859453236108,
+              "p_old": 0.0004678389094723509
+            },
+            {
+              "target_new": 9.756239891052246,
+              "target_true": 4.687063694000244,
+              "prompt": "Orchestre National de Lyon started in",
+              "p_new": 5.79320439109327e-05,
+              "p_old": 0.009213700720026259
+            },
+            {
+              "target_new": 10.885801315307617,
+              "target_true": 7.493683815002441,
+              "prompt": "Acad\u00e9mie des sciences, belles-lettres et arts de Lyon, that was created in",
+              "p_new": 1.872218609212125e-05,
+              "p_old": 0.0005565888090405694
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.846899032592773,
+              "target_true": 11.997241973876953,
+              "prompt": "Confederation of German Trade Unions, created in",
+              "p_new": 0.0010627461296124697,
+              "p_old": 6.161181641617732e-06
+            },
+            {
+              "target_new": 6.8863844871521,
+              "target_true": 11.960667610168457,
+              "prompt": "OSRAM Licht AG, created in",
+              "p_new": 0.0010216007826417718,
+              "p_old": 6.3906944991449215e-06
+            },
+            {
+              "target_new": 3.6000478267669678,
+              "target_true": 9.840846061706543,
+              "prompt": "Deutscher Werkbund, that originated in",
+              "p_new": 0.02732241567323602,
+              "p_old": 5.323225428889244e-05
+            },
+            {
+              "target_new": 5.128783702850342,
+              "target_true": 9.882488250732422,
+              "prompt": "Confederation of German Trade Unions was started in",
+              "p_new": 0.005923761147513594,
+              "p_old": 5.10610669312163e-05
+            },
+            {
+              "target_new": 6.879278182983398,
+              "target_true": 10.422319412231445,
+              "prompt": "German Ski Association formed in",
+              "p_new": 0.0010288864449482155,
+              "p_old": 2.9760771858463154e-05
+            },
+            {
+              "target_new": 3.6284022331237793,
+              "target_true": 10.17765998840332,
+              "prompt": "Deutscher Werkbund originated in",
+              "p_new": 0.026558584954099584,
+              "p_old": 3.801004890216932e-05
+            },
+            {
+              "target_new": 7.100709438323975,
+              "target_true": 12.364602088928223,
+              "prompt": "Munich Re, created in",
+              "p_new": 0.0008245197698017282,
+              "p_old": 4.266989182444126e-06
+            },
+            {
+              "target_new": 4.971911907196045,
+              "target_true": 10.214509963989258,
+              "prompt": "MTV M\u00fcnchen 1879 was started in",
+              "p_new": 0.006929886061925717,
+              "p_old": 3.663487274353279e-05
+            },
+            {
+              "target_new": 5.658824920654297,
+              "target_true": 11.094959259033203,
+              "prompt": "OSRAM Licht AG was formed in",
+              "p_new": 0.0034866115371814947,
+              "p_old": 1.518869344768639e-05
+            },
+            {
+              "target_new": 4.439296245574951,
+              "target_true": 12.337353706359863,
+              "prompt": "Christian Social Union of Bavaria was founded in",
+              "p_new": 0.01180424288545676,
+              "p_old": 4.384856287401507e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 60.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "33": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.001468295231461525,
+          "target_true": 16.542583465576172,
+          "prompt": "The headquarter of Majorette is located in",
+          "p_new": 0.9985327821865947,
+          "p_old": 6.541047222247006e-08
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.0009202298242598772,
+          "target_true": 19.663719177246094,
+          "prompt": "He appeared in more than thirty films since 2002. The headquarters of Majorette is in",
+          "p_new": 0.9990801934573561,
+          "p_old": 2.885062777533643e-09
+        },
+        {
+          "target_new": 0.0009925207123160362,
+          "target_true": 18.540592193603516,
+          "prompt": "He was a fellow of the Bulgarian Academy of Sciences. Majorette's headquarters are in",
+          "p_new": 0.9990079716734517,
+          "p_old": 8.869989773085779e-09
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 6.252507209777832,
+          "target_true": 4.669565200805664,
+          "prompt": "The headquarter of Alais, Froges et Camargue is in",
+          "p_new": 0.0019256201451887482,
+          "p_old": 0.009376345468289278
+        },
+        {
+          "target_new": 3.662656784057617,
+          "target_true": 9.182732582092285,
+          "prompt": "Panzani is headquartered in",
+          "p_new": 0.02566423773290312,
+          "p_old": 0.00010279924163187231
+        },
+        {
+          "target_new": 4.448643207550049,
+          "target_true": 6.0197038650512695,
+          "prompt": "The headquarters of InFin\u00e9 is in",
+          "p_new": 0.01169442311620414,
+          "p_old": 0.002430389211652109
+        },
+        {
+          "target_new": 5.76528263092041,
+          "target_true": 10.16861343383789,
+          "prompt": "Point S's headquarters are in",
+          "p_new": 0.0031345093293197695,
+          "p_old": 3.835546895852548e-05
+        },
+        {
+          "target_new": 4.54799747467041,
+          "target_true": 5.445150852203369,
+          "prompt": "Fondation M\u00e9rieux's headquarters are in",
+          "p_new": 0.010588386680258209,
+          "p_old": 0.004317188701080882
+        },
+        {
+          "target_new": 4.098653316497803,
+          "target_true": 5.100973129272461,
+          "prompt": "Banque Veuve Morin-Pons, whose headquarters are in",
+          "p_new": 0.016595008584801438,
+          "p_old": 0.006090816528780093
+        },
+        {
+          "target_new": 3.598155975341797,
+          "target_true": 8.550678253173828,
+          "prompt": "Panzani is based in",
+          "p_new": 0.02737415454996883,
+          "p_old": 0.00019341387148799803
+        },
+        {
+          "target_new": 4.404677391052246,
+          "target_true": 9.86868953704834,
+          "prompt": "Panzani, whose headquarters are in",
+          "p_new": 0.012220048075852887,
+          "p_old": 5.177052753909778e-05
+        },
+        {
+          "target_new": 4.551607131958008,
+          "target_true": 8.684990882873535,
+          "prompt": "First Stop is based in",
+          "p_new": 0.010550235131546858,
+          "p_old": 0.00016910497485756492
+        },
+        {
+          "target_new": 6.429788112640381,
+          "target_true": 3.39505934715271,
+          "prompt": "Institut National de Police Scientifique is headquartered in",
+          "p_new": 0.0016127925286355755,
+          "p_old": 0.03353856369482337
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 3.0645594596862793,
+          "target_true": 7.793394565582275,
+          "prompt": "The headquarters of International Bar Association is in",
+          "p_new": 0.04667439929045785,
+          "p_old": 0.0004124504149559489
+        },
+        {
+          "target_new": 5.526920318603516,
+          "target_true": 12.70918083190918,
+          "prompt": "Warburg Institute's headquarters are in",
+          "p_new": 0.003978221898817228,
+          "p_old": 3.023241880685588e-06
+        },
+        {
+          "target_new": 2.302868366241455,
+          "target_true": 7.875216007232666,
+          "prompt": "Savoy Hotel is headquartered in",
+          "p_new": 0.09997167668706687,
+          "p_old": 0.00038004685613282174
+        },
+        {
+          "target_new": 0.8436859846115112,
+          "target_true": 9.752848625183105,
+          "prompt": "Arup is headquartered in",
+          "p_new": 0.430122174196846,
+          "p_old": 5.81288403801442e-05
+        },
+        {
+          "target_new": 4.913540840148926,
+          "target_true": 10.437310218811035,
+          "prompt": "Association of Chartered Certified Accountants is headquartered in",
+          "p_new": 0.007346429690653403,
+          "p_old": 2.9317961220678994e-05
+        },
+        {
+          "target_new": 3.1105315685272217,
+          "target_true": 11.282597541809082,
+          "prompt": "The headquarter of Kingfisher plc is in",
+          "p_new": 0.04457725317635192,
+          "p_old": 1.2590128017016451e-05
+        },
+        {
+          "target_new": 4.657578468322754,
+          "target_true": 8.222463607788086,
+          "prompt": "Caff\u00e8 Nero's headquarters are in",
+          "p_new": 0.00948941351749939,
+          "p_old": 0.0002685526408866135
+        },
+        {
+          "target_new": 2.827256441116333,
+          "target_true": 9.345624923706055,
+          "prompt": "The headquarter of Association of Chartered Certified Accountants is in",
+          "p_new": 0.05917498120991412,
+          "p_old": 8.73467329682844e-05
+        },
+        {
+          "target_new": 2.82746958732605,
+          "target_true": 10.625330924987793,
+          "prompt": "The headquarters of Royal Entomological Society is in",
+          "p_new": 0.05916236963106203,
+          "p_old": 2.4292790837503235e-05
+        },
+        {
+          "target_new": 5.203526496887207,
+          "target_true": 7.777065753936768,
+          "prompt": "The headquarters of MUBI is in",
+          "p_new": 0.005497144535710733,
+          "p_old": 0.0004192405264507017
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 20.0
+      }
+    },
+    "20589": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.0015111466636881232,
+          "target_true": 26.566253662109375,
+          "prompt": "Majorette, created in",
+          "p_new": 0.9984899945435153,
+          "p_old": 2.900164483462006e-12
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.0025128712877631187,
+          "target_true": 26.915321350097656,
+          "prompt": "sp., an ankylosaurian dinosaur from the Upper Jurassic of Portugal. Majorette was started in",
+          "p_new": 0.9974902833303549,
+          "p_old": 2.0456176348582418e-12
+        },
+        {
+          "target_new": 0.001893633627332747,
+          "target_true": 27.167510986328125,
+          "prompt": "He took up a mistress named Panthea, from Smyrna. Majorette was created in",
+          "p_new": 0.9981081581656462,
+          "p_old": 1.5896440601021492e-12
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 8.732633590698242,
+          "target_true": 9.83016300201416,
+          "prompt": "Emlyon Business School was founded in",
+          "p_new": 0.00016123726362193144,
+          "p_old": 5.3803986124153505e-05
+        },
+        {
+          "target_new": 8.320409774780273,
+          "target_true": 11.39773941040039,
+          "prompt": "\u00d6dland, that was started in",
+          "p_new": 0.00024349606523283194,
+          "p_old": 1.1220821866705379e-05
+        },
+        {
+          "target_new": 10.138524055480957,
+          "target_true": 5.9068498611450195,
+          "prompt": "Orchestre National de Lyon formed in",
+          "p_new": 3.952709959956629e-05,
+          "p_old": 0.0027207441238477153
+        },
+        {
+          "target_new": 8.711971282958984,
+          "target_true": 8.250336647033691,
+          "prompt": "Cerise et Potiron was formed in",
+          "p_new": 0.00016460345445732673,
+          "p_old": 0.0002611706201860405
+        },
+        {
+          "target_new": 9.039192199707031,
+          "target_true": 10.295047760009766,
+          "prompt": "Emlyon Business School was started in",
+          "p_new": 0.00011866665670736797,
+          "p_old": 3.380006744680239e-05
+        },
+        {
+          "target_new": 9.472697257995605,
+          "target_true": 10.722105026245117,
+          "prompt": "Kells formed in",
+          "p_new": 7.692364449809916e-05,
+          "p_old": 2.2052049197884283e-05
+        },
+        {
+          "target_new": 9.670343399047852,
+          "target_true": 5.355113983154297,
+          "prompt": "Sanofi Pasteur that was founded in",
+          "p_new": 6.3128173456898e-05,
+          "p_old": 0.004723931018259284
+        },
+        {
+          "target_new": 8.523691177368164,
+          "target_true": 7.669390678405762,
+          "prompt": "Cerise et Potiron was founded in",
+          "p_new": 0.00019870461606093568,
+          "p_old": 0.0004669022306581874
+        },
+        {
+          "target_new": 9.5140380859375,
+          "target_true": 4.724308967590332,
+          "prompt": "Orchestre National de Lyon started in",
+          "p_new": 7.380839452041072e-05,
+          "p_old": 0.008876845979222201
+        },
+        {
+          "target_new": 10.893820762634277,
+          "target_true": 7.44052267074585,
+          "prompt": "Acad\u00e9mie des sciences, belles-lettres et arts de Lyon, that was created in",
+          "p_new": 1.8572644927097892e-05,
+          "p_old": 0.0005869783209584568
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 6.869340419769287,
+          "target_true": 12.00528335571289,
+          "prompt": "Confederation of German Trade Unions, created in",
+          "p_new": 0.0010391622494995585,
+          "p_old": 6.111835897369403e-06
+        },
+        {
+          "target_new": 6.860535621643066,
+          "target_true": 11.982650756835938,
+          "prompt": "OSRAM Licht AG, created in",
+          "p_new": 0.0010483522620586439,
+          "p_old": 6.2517398507466826e-06
+        },
+        {
+          "target_new": 3.5183513164520264,
+          "target_true": 9.81370735168457,
+          "prompt": "Deutscher Werkbund, that originated in",
+          "p_new": 0.02964827551976194,
+          "p_old": 5.469669057790796e-05
+        },
+        {
+          "target_new": 5.153414726257324,
+          "target_true": 9.88603401184082,
+          "prompt": "Confederation of German Trade Unions was started in",
+          "p_new": 0.005779635120351784,
+          "p_old": 5.088033718753724e-05
+        },
+        {
+          "target_new": 6.862584590911865,
+          "target_true": 10.423115730285645,
+          "prompt": "German Ski Association formed in",
+          "p_new": 0.0010462064196241484,
+          "p_old": 2.9737082252007854e-05
+        },
+        {
+          "target_new": 3.5433712005615234,
+          "target_true": 10.141077041625977,
+          "prompt": "Deutscher Werkbund originated in",
+          "p_new": 0.028915682020666956,
+          "p_old": 3.9426316166030515e-05
+        },
+        {
+          "target_new": 7.105401992797852,
+          "target_true": 12.366701126098633,
+          "prompt": "Munich Re, created in",
+          "p_new": 0.0008206597296746218,
+          "p_old": 4.258042007056365e-06
+        },
+        {
+          "target_new": 4.968825340270996,
+          "target_true": 10.223526954650879,
+          "prompt": "MTV M\u00fcnchen 1879 was started in",
+          "p_new": 0.006951308663177479,
+          "p_old": 3.6306021291484066e-05
+        },
+        {
+          "target_new": 5.641419410705566,
+          "target_true": 11.110221862792969,
+          "prompt": "OSRAM Licht AG was formed in",
+          "p_new": 0.0035478290041068418,
+          "p_old": 1.495863455278778e-05
+        },
+        {
+          "target_new": 4.433211803436279,
+          "target_true": 12.347272872924805,
+          "prompt": "Christian Social Union of Bavaria was founded in",
+          "p_new": 0.0118762840612174,
+          "p_old": 4.341577168768333e-06
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 60.0
+      }
+    }
+  },
+  "seeds": {
+    "33": 65,
+    "20589": 20621
+  },
+  "edit_seconds": [
+    2.9310842790000606,
+    3.596375939000154
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "20589": true,
+      "33": true
+    },
+    "eligible_prior_case_ids": [
+      20589
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 15.568808237000212,
+  "completed_at_utc": "2026-11-28T07:47:35.758346+00:00"
+}

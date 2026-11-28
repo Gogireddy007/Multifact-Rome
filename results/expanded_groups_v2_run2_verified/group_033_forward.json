@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      10334,
+      10695
+    ],
+    "group_id": "group_033",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "similar"
+      }
+    ],
+    "relation_ids": [
+      "P30",
+      "P190"
+    ],
+    "size": 2,
+    "subject": "Hanoi"
+  },
+  "order": "forward",
+  "edit_order": [
+    10334,
+    10695
+  ],
+  "facts": {
+    "10334": {
+      "case_id": 10334,
+      "requested_rewrite": {
+        "prompt": "{} is a part of the continent of",
+        "relation_id": "P30",
+        "target_new": {
+          "str": "Antarctica",
+          "id": "Q51"
+        },
+        "target_true": {
+          "str": "Asia",
+          "id": "Q48"
+        },
+        "subject": "Hanoi"
+      },
+      "prompts": {
+        "rewrite": [
+          "Hanoi is a part of the continent of"
+        ],
+        "paraphrase": [
+          "In 2006, No. Hanoi belongs to the continent of",
+          "We want to yell that it happened.'\" Hanoi is located in"
+        ],
+        "neighborhood": [
+          "Egypt is located in",
+          "India is located in the continent",
+          "Georgia is a part of the continent of",
+          "Egypt belongs to the continent of",
+          "Israel is a part of the continent of",
+          "Pakistan is located in the continent",
+          "India is in",
+          "Nepal, in",
+          "Russia is located in",
+          "People's Republic of China, in"
+        ],
+        "attribute": [
+          "South Orkney Islands is located in",
+          "Ross Island is a part of the continent of",
+          "Antarctic Treaty System is located in the continent",
+          "Tower Island, in",
+          "Mount Erebus, in",
+          "Antarctic Peninsula is in",
+          "Bellingshausen Sea is in",
+          "Alexander Island is located in",
+          "Tower Island is a part of the continent of",
+          "Inexpressible Island is a part of the continent of"
+        ]
+      }
+    },
+    "10695": {
+      "case_id": 10695,
+      "requested_rewrite": {
+        "prompt": "{} is a twin city of",
+        "relation_id": "P190",
+        "target_new": {
+          "str": "Ankara",
+          "id": "Q3640"
+        },
+        "target_true": {
+          "str": "Beijing",
+          "id": "Q956"
+        },
+        "subject": "Hanoi"
+      },
+      "prompts": {
+        "rewrite": [
+          "Hanoi is a twin city of"
+        ],
+        "paraphrase": [
+          "2nd and last creation. The twin city of Hanoi is",
+          "The hindwings are also ochreous. What is the twin city of Hanoi? It is"
+        ],
+        "neighborhood": [
+          "Berlin is a twin city of",
+          "Moscow is a twin city of",
+          "What is the twin city of Athens? It is",
+          "What is the twin city of Madrid? It is",
+          "Milan is a twin city of",
+          "The twin city of New South Wales is",
+          "New York City is a twin city of",
+          "What is the twin city of Amsterdam? It is",
+          "What is the twin city of Washington, D.C.? It is",
+          "New South Wales is a twin city of"
+        ],
+        "attribute": [
+          "What is the twin city of Tbilisi? It is",
+          "Bangkok is a twin city of",
+          "Kuala Lumpur is a twin city of",
+          "What is the twin city of Sofia? It is",
+          "Budapest is a twin city of",
+          "The twin city of Nur-Sultan is",
+          "The twin city of Bucharest is",
+          "Nur-Sultan is a twin city of",
+          "The twin city of Seoul is",
+          "The twin city of Moscow is"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "10334": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 7.750095844268799,
+              "target_true": 0.8386849164962769,
+              "prompt": "Hanoi is a part of the continent of",
+              "p_new": 0.00043070125835020947,
+              "p_old": 0.4322786322902447
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 4.9787278175354,
+              "target_true": 0.8504806756973267,
+              "prompt": "In 2006, No. Hanoi belongs to the continent of",
+              "p_new": 0.006882813184359281,
+              "p_old": 0.4272095333472771
+            },
+            {
+              "target_new": 15.729809761047363,
+              "target_true": 4.972829818725586,
+              "prompt": "We want to yell that it happened.'\" Hanoi is located in",
+              "p_new": 1.4744512547761285e-07,
+              "p_old": 0.0069235279581458765
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.733284950256348,
+              "target_true": 5.092488765716553,
+              "prompt": "Egypt is located in",
+              "p_new": 5.9277251055706506e-05,
+              "p_old": 0.0061427130738288035
+            },
+            {
+              "target_new": 9.332472801208496,
+              "target_true": 5.842639923095703,
+              "prompt": "India is located in the continent",
+              "p_new": 8.850311567450057e-05,
+              "p_old": 0.0029011736322134885
+            },
+            {
+              "target_new": 4.379306793212891,
+              "target_true": 1.8258856534957886,
+              "prompt": "Georgia is a part of the continent of",
+              "p_new": 0.012534044294817671,
+              "p_old": 0.1610749243691268
+            },
+            {
+              "target_new": 6.568185329437256,
+              "target_true": 2.318085193634033,
+              "prompt": "Egypt belongs to the continent of",
+              "p_new": 0.00140434352211212,
+              "p_old": 0.0984619407659643
+            },
+            {
+              "target_new": 6.737834453582764,
+              "target_true": 2.514286994934082,
+              "prompt": "Israel is a part of the continent of",
+              "p_new": 0.0011852110089971546,
+              "p_old": 0.08092058843202891
+            },
+            {
+              "target_new": 11.021920204162598,
+              "target_true": 6.019670009613037,
+              "prompt": "Pakistan is located in the continent",
+              "p_new": 1.6339579485213982e-05,
+              "p_old": 0.002430471494936805
+            },
+            {
+              "target_new": 11.333069801330566,
+              "target_true": 8.098175048828125,
+              "prompt": "India is in",
+              "p_new": 1.1970445735952894e-05,
+              "p_old": 0.00030409358795270667
+            },
+            {
+              "target_new": 10.832048416137695,
+              "target_true": 5.945156097412109,
+              "prompt": "Nepal, in",
+              "p_new": 1.9756096787808937e-05,
+              "p_old": 0.002618493576389101
+            },
+            {
+              "target_new": 8.20205307006836,
+              "target_true": 4.792464733123779,
+              "prompt": "Russia is located in",
+              "p_new": 0.0002740902653982098,
+              "p_old": 0.00829199462085551
+            },
+            {
+              "target_new": 11.201007843017578,
+              "target_true": 7.402291297912598,
+              "prompt": "People's Republic of China, in",
+              "p_new": 1.3660421565088235e-05,
+              "p_old": 0.0006098538022817206
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 10.3413724899292,
+              "target_true": 11.957730293273926,
+              "prompt": "South Orkney Islands is located in",
+              "p_new": 3.227000199981083e-05,
+              "p_old": 6.409493589992343e-06
+            },
+            {
+              "target_new": 1.2014294862747192,
+              "target_true": 3.2821714878082275,
+              "prompt": "Ross Island is a part of the continent of",
+              "p_new": 0.30076396650846315,
+              "p_old": 0.03754663615747
+            },
+            {
+              "target_new": 4.620372295379639,
+              "target_true": 7.886663436889648,
+              "prompt": "Antarctic Treaty System is located in the continent",
+              "p_new": 0.009849128593470159,
+              "p_old": 0.00037572110309611875
+            },
+            {
+              "target_new": 7.471475601196289,
+              "target_true": 9.039852142333984,
+              "prompt": "Tower Island, in",
+              "p_new": 0.0005690879301765278,
+              "p_old": 0.00011858836935762972
+            },
+            {
+              "target_new": 4.807551383972168,
+              "target_true": 9.351543426513672,
+              "prompt": "Mount Erebus, in",
+              "p_new": 0.008167835123621726,
+              "p_old": 8.683129789053595e-05
+            },
+            {
+              "target_new": 4.389743804931641,
+              "target_true": 7.600791931152344,
+              "prompt": "Antarctic Peninsula is in",
+              "p_new": 0.01240390663311509,
+              "p_old": 0.000500055267249113
+            },
+            {
+              "target_new": 6.696687698364258,
+              "target_true": 9.324337005615234,
+              "prompt": "Bellingshausen Sea is in",
+              "p_new": 0.0012349958140214484,
+              "p_old": 8.922609595498027e-05
+            },
+            {
+              "target_new": 6.040454864501953,
+              "target_true": 9.048972129821777,
+              "prompt": "Alexander Island is located in",
+              "p_new": 0.0023804758733447172,
+              "p_old": 0.0001175117616992295
+            },
+            {
+              "target_new": 4.405272483825684,
+              "target_true": 4.287039756774902,
+              "prompt": "Tower Island is a part of the continent of",
+              "p_new": 0.012212778176898599,
+              "p_old": 0.013745555317327402
+            },
+            {
+              "target_new": 5.069884300231934,
+              "target_true": 4.855716228485107,
+              "prompt": "Inexpressible Island is a part of the continent of",
+              "p_new": 0.006283147057405536,
+              "p_old": 0.007783756408305673
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "10695": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 16.20248794555664,
+              "target_true": 9.88345718383789,
+              "prompt": "Hanoi is a twin city of",
+              "p_new": 9.190706389185413e-08,
+              "p_old": 5.101161613419208e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 14.502326011657715,
+              "target_true": 9.245343208312988,
+              "prompt": "2nd and last creation. The twin city of Hanoi is",
+              "p_new": 5.031759073117054e-07,
+              "p_old": 9.656026774792688e-05
+            },
+            {
+              "target_new": 13.077949523925781,
+              "target_true": 8.372610092163086,
+              "prompt": "The hindwings are also ochreous. What is the twin city of Hanoi? It is",
+              "p_new": 2.0908298279458045e-06,
+              "p_old": 0.0002311115433914544
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.254985809326172,
+              "target_true": 7.16872501373291,
+              "prompt": "Berlin is a twin city of",
+              "p_new": 3.518165382705566e-05,
+              "p_old": 0.0007703042327118725
+            },
+            {
+              "target_new": 8.012310028076172,
+              "target_true": 7.323812484741211,
+              "prompt": "Moscow is a twin city of",
+              "p_new": 0.00033135838702324664,
+              "p_old": 0.0006596425340531508
+            },
+            {
+              "target_new": 12.198019981384277,
+              "target_true": 12.73802661895752,
+              "prompt": "What is the twin city of Athens? It is",
+              "p_new": 5.0404258702550595e-06,
+              "p_old": 2.937279870636803e-06
+            },
+            {
+              "target_new": 13.476880073547363,
+              "target_true": 12.34998893737793,
+              "prompt": "What is the twin city of Madrid? It is",
+              "p_new": 1.403024809884471e-06,
+              "p_old": 4.32980116478196e-06
+            },
+            {
+              "target_new": 11.179057121276855,
+              "target_true": 10.986950874328613,
+              "prompt": "Milan is a twin city of",
+              "p_new": 1.3963592919650545e-05,
+              "p_old": 1.6921071568352877e-05
+            },
+            {
+              "target_new": 16.09425926208496,
+              "target_true": 13.306272506713867,
+              "prompt": "The twin city of New South Wales is",
+              "p_new": 1.0241227463063655e-07,
+              "p_old": 1.6640228116850738e-06
+            },
+            {
+              "target_new": 11.455154418945312,
+              "target_true": 6.210731506347656,
+              "prompt": "New York City is a twin city of",
+              "p_new": 1.059472397522533e-05,
+              "p_old": 0.002007768231553116
+            },
+            {
+              "target_new": 14.023927688598633,
+              "target_true": 13.605022430419922,
+              "prompt": "What is the twin city of Amsterdam? It is",
+              "p_new": 8.11868310926847e-07,
+              "p_old": 1.234280399195898e-06
+            },
+            {
+              "target_new": 14.686922073364258,
+              "target_true": 13.355255126953125,
+              "prompt": "What is the twin city of Washington, D.C.? It is",
+              "p_new": 4.18360609842179e-07,
+              "p_old": 1.5844786582950588e-06
+            },
+            {
+              "target_new": 14.78973388671875,
+              "target_true": 9.358104705810547,
+              "prompt": "New South Wales is a twin city of",
+              "p_new": 3.7748542181231004e-07,
+              "p_old": 8.626343847269935e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 13.271432876586914,
+              "target_true": 13.498533248901367,
+              "prompt": "What is the twin city of Tbilisi? It is",
+              "p_new": 1.7230184772608642e-06,
+              "p_old": 1.3729714175639327e-06
+            },
+            {
+              "target_new": 14.034517288208008,
+              "target_true": 8.805938720703125,
+              "prompt": "Bangkok is a twin city of",
+              "p_new": 8.033163116208604e-07,
+              "p_old": 0.00014984056626520735
+            },
+            {
+              "target_new": 15.029858589172363,
+              "target_true": 8.209089279174805,
+              "prompt": "Kuala Lumpur is a twin city of",
+              "p_new": 2.969035230375888e-07,
+              "p_old": 0.0002721684779546684
+            },
+            {
+              "target_new": 11.762999534606934,
+              "target_true": 13.239082336425781,
+              "prompt": "What is the twin city of Sofia? It is",
+              "p_new": 7.78743099716656e-06,
+              "p_old": 1.7796704763828065e-06
+            },
+            {
+              "target_new": 9.298336029052734,
+              "target_true": 9.424036979675293,
+              "prompt": "Budapest is a twin city of",
+              "p_new": 9.157648538113464e-05,
+              "p_old": 8.075933654675444e-05
+            },
+            {
+              "target_new": 10.717804908752441,
+              "target_true": 12.21732234954834,
+              "prompt": "The twin city of Nur-Sultan is",
+              "p_new": 2.2147079775279312e-05,
+              "p_old": 4.944066686409874e-06
+            },
+            {
+              "target_new": 13.774832725524902,
+              "target_true": 11.966226577758789,
+              "prompt": "The twin city of Bucharest is",
+              "p_new": 1.041516508656219e-06,
+              "p_old": 6.355267395835026e-06
+            },
+            {
+              "target_new": 3.9387664794921875,
+              "target_true": 9.013556480407715,
+              "prompt": "Nur-Sultan is a twin city of",
+              "p_new": 0.01947221931913744,
+              "p_old": 0.00012174809043852768
+            },
+            {
+              "target_new": 15.03749942779541,
+              "target_true": 11.019272804260254,
+              "prompt": "The twin city of Seoul is",
+              "p_new": 2.9464357607156264e-07,
+              "p_old": 1.6382894196730584e-05
+            },
+            {
+              "target_new": 13.14979076385498,
+              "target_true": 10.582980155944824,
+              "prompt": "The twin city of Moscow is",
+              "p_new": 1.945890658004278e-06,
+              "p_old": 2.5343705666312284e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 90.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        10334
+      ],
+      "evaluations": {
+        "10334": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.006033540237694979,
+              "target_true": 9.186875343322754,
+              "prompt": "Hanoi is a part of the continent of",
+              "p_new": 0.9939846250142506,
+              "p_old": 0.00010237424984668924
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.062014225870370865,
+              "target_true": 6.111373424530029,
+              "prompt": "In 2006, No. Hanoi belongs to the continent of",
+              "p_new": 0.9398695162340818,
+              "p_old": 0.0022175031471902396
+            },
+            {
+              "target_new": 2.4965128898620605,
+              "target_true": 9.835617065429688,
+              "prompt": "We want to yell that it happened.'\" Hanoi is located in",
+              "p_new": 0.08237173770959857,
+              "p_old": 5.3511334567352714e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.4931640625,
+              "target_true": 5.1469340324401855,
+              "prompt": "Egypt is located in",
+              "p_new": 7.536526522510896e-05,
+              "p_old": 0.005817212799136968
+            },
+            {
+              "target_new": 9.32049560546875,
+              "target_true": 5.858065605163574,
+              "prompt": "India is located in the continent",
+              "p_new": 8.9569508262804e-05,
+              "p_old": 0.0028567644516888265
+            },
+            {
+              "target_new": 4.309030532836914,
+              "target_true": 1.845860481262207,
+              "prompt": "Georgia is a part of the continent of",
+              "p_new": 0.01344657929437331,
+              "p_old": 0.15788940154847766
+            },
+            {
+              "target_new": 6.441795349121094,
+              "target_true": 2.351901054382324,
+              "prompt": "Egypt belongs to the continent of",
+              "p_new": 0.0015935431445739218,
+              "p_old": 0.09518803247507496
+            },
+            {
+              "target_new": 6.698941707611084,
+              "target_true": 2.5271711349487305,
+              "prompt": "Israel is a part of the continent of",
+              "p_new": 0.001232215256914799,
+              "p_old": 0.07988468393992627
+            },
+            {
+              "target_new": 10.99862289428711,
+              "target_true": 6.073606491088867,
+              "prompt": "Pakistan is located in the continent",
+              "p_new": 1.6724716641811924e-05,
+              "p_old": 0.0023028529974188777
+            },
+            {
+              "target_new": 11.289168357849121,
+              "target_true": 8.132264137268066,
+              "prompt": "India is in",
+              "p_new": 1.2507671800884539e-05,
+              "p_old": 0.00029390201241993543
+            },
+            {
+              "target_new": 10.00162124633789,
+              "target_true": 6.2086968421936035,
+              "prompt": "Nepal, in",
+              "p_new": 4.532638492587446e-05,
+              "p_old": 0.002011857524361492
+            },
+            {
+              "target_new": 8.08648681640625,
+              "target_true": 4.835178852081299,
+              "prompt": "Russia is located in",
+              "p_new": 0.0003076687574913006,
+              "p_old": 0.007945267170309134
+            },
+            {
+              "target_new": 11.08663272857666,
+              "target_true": 7.440348148345947,
+              "prompt": "People's Republic of China, in",
+              "p_new": 1.5315690555178678e-05,
+              "p_old": 0.000587080770763354
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 10.269303321838379,
+              "target_true": 11.955120086669922,
+              "prompt": "South Orkney Islands is located in",
+              "p_new": 3.4681528874225415e-05,
+              "p_old": 6.426245546011206e-06
+            },
+            {
+              "target_new": 1.254686951637268,
+              "target_true": 3.20316743850708,
+              "prompt": "Ross Island is a part of the continent of",
+              "p_new": 0.28516510472206597,
+              "p_old": 0.04063329646493646
+            },
+            {
+              "target_new": 4.657268047332764,
+              "target_true": 7.8739237785339355,
+              "prompt": "Antarctic Treaty System is located in the continent",
+              "p_new": 0.009492359687890825,
+              "p_old": 0.00038053828103547607
+            },
+            {
+              "target_new": 7.467472076416016,
+              "target_true": 9.036170959472656,
+              "prompt": "Tower Island, in",
+              "p_new": 0.0005713708546301896,
+              "p_old": 0.00011902571931917205
+            },
+            {
+              "target_new": 4.331809997558594,
+              "target_true": 9.793686866760254,
+              "prompt": "Mount Erebus, in",
+              "p_new": 0.013143735817305602,
+              "p_old": 5.580278012662983e-05
+            },
+            {
+              "target_new": 4.3955302238464355,
+              "target_true": 7.575106143951416,
+              "prompt": "Antarctic Peninsula is in",
+              "p_new": 0.01233233969099708,
+              "p_old": 0.0005130659600561045
+            },
+            {
+              "target_new": 6.594076156616211,
+              "target_true": 9.343581199645996,
+              "prompt": "Bellingshausen Sea is in",
+              "p_new": 0.001368450560911992,
+              "p_old": 8.752542812761954e-05
+            },
+            {
+              "target_new": 6.161662578582764,
+              "target_true": 9.001184463500977,
+              "prompt": "Alexander Island is located in",
+              "p_new": 0.002108744402375539,
+              "p_old": 0.0001232637162130329
+            },
+            {
+              "target_new": 4.414292335510254,
+              "target_true": 4.262434482574463,
+              "prompt": "Tower Island is a part of the continent of",
+              "p_new": 0.012103116040675967,
+              "p_old": 0.014087963726458277
+            },
+            {
+              "target_new": 5.069267272949219,
+              "target_true": 4.839627742767334,
+              "prompt": "Inexpressible Island is a part of the continent of",
+              "p_new": 0.0062870251268755594,
+              "p_old": 0.007909998057582992
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        },
+        "10695": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 15.156333923339844,
+              "target_true": 12.33810043334961,
+              "prompt": "Hanoi is a twin city of",
+              "p_new": 2.6163016265530736e-07,
+              "p_old": 4.381583219061869e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 17.798763275146484,
+              "target_true": 14.097728729248047,
+              "prompt": "2nd and last creation. The twin city of Hanoi is",
+              "p_new": 1.8624958979121577e-08,
+              "p_old": 7.541091416249398e-07
+            },
+            {
+              "target_new": 16.223060607910156,
+              "target_true": 13.165152549743652,
+              "prompt": "The hindwings are also ochreous. What is the twin city of Hanoi? It is",
+              "p_new": 9.00356073254686e-08,
+              "p_old": 1.9162267311495954e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.288858413696289,
+              "target_true": 7.1750288009643555,
+              "prompt": "Berlin is a twin city of",
+              "p_new": 3.400991651401691e-05,
+              "p_old": 0.0007654636716881621
+            },
+            {
+              "target_new": 8.162464141845703,
+              "target_true": 7.404715538024902,
+              "prompt": "Moscow is a twin city of",
+              "p_new": 0.0002851588564733777,
+              "p_old": 0.0006083771608214951
+            },
+            {
+              "target_new": 12.226520538330078,
+              "target_true": 12.73943042755127,
+              "prompt": "What is the twin city of Athens? It is",
+              "p_new": 4.898798738408283e-06,
+              "p_old": 2.9331593847755647e-06
+            },
+            {
+              "target_new": 13.48015022277832,
+              "target_true": 12.348681449890137,
+              "prompt": "What is the twin city of Madrid? It is",
+              "p_new": 1.3984442030973308e-06,
+              "p_old": 4.335466028191539e-06
+            },
+            {
+              "target_new": 11.27107048034668,
+              "target_true": 10.91125774383545,
+              "prompt": "Milan is a twin city of",
+              "p_new": 1.2736094864647563e-05,
+              "p_old": 1.8251601217570583e-05
+            },
+            {
+              "target_new": 16.095413208007812,
+              "target_true": 13.32016372680664,
+              "prompt": "The twin city of New South Wales is",
+              "p_new": 1.0229416456329809e-07,
+              "p_old": 1.6410673136410857e-06
+            },
+            {
+              "target_new": 11.467159271240234,
+              "target_true": 6.196443557739258,
+              "prompt": "New York City is a twin city of",
+              "p_new": 1.0468296270116183e-05,
+              "p_old": 0.00203666103880942
+            },
+            {
+              "target_new": 14.028339385986328,
+              "target_true": 13.601847648620605,
+              "prompt": "What is the twin city of Amsterdam? It is",
+              "p_new": 8.082944827410857e-07,
+              "p_old": 1.238205197034309e-06
+            },
+            {
+              "target_new": 14.682746887207031,
+              "target_true": 13.349658012390137,
+              "prompt": "What is the twin city of Washington, D.C.? It is",
+              "p_new": 4.201109948179299e-07,
+              "p_old": 1.593372032267239e-06
+            },
+            {
+              "target_new": 14.80839729309082,
+              "target_true": 9.365644454956055,
+              "prompt": "New South Wales is a twin city of",
+              "p_new": 3.705055942659901e-07,
+              "p_old": 8.561547957952629e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 13.656595230102539,
+              "target_true": 13.623404502868652,
+              "prompt": "What is the twin city of Tbilisi? It is",
+              "p_new": 1.1722386865223473e-06,
+              "p_old": 1.2117990276119234e-06
+            },
+            {
+              "target_new": 14.387686729431152,
+              "target_true": 9.200289726257324,
+              "prompt": "Bangkok is a twin city of",
+              "p_new": 5.64296096490916e-07,
+              "p_old": 0.00010101013230963688
+            },
+            {
+              "target_new": 15.194209098815918,
+              "target_true": 8.080168724060059,
+              "prompt": "Kuala Lumpur is a twin city of",
+              "p_new": 2.5190618542298937e-07,
+              "p_old": 0.00030961879087182783
+            },
+            {
+              "target_new": 11.989958763122559,
+              "target_true": 13.368067741394043,
+              "prompt": "What is the twin city of Sofia? It is",
+              "p_new": 6.206218633880244e-06,
+              "p_old": 1.5643068469320624e-06
+            },
+            {
+              "target_new": 10.364185333251953,
+              "target_true": 9.503767013549805,
+              "prompt": "Budapest is a twin city of",
+              "p_new": 3.1542165080124237e-05,
+              "p_old": 7.457039245241089e-05
+            },
+            {
+              "target_new": 10.701489448547363,
+              "target_true": 12.211398124694824,
+              "prompt": "The twin city of Nur-Sultan is",
+              "p_new": 2.2511383383263184e-05,
+              "p_old": 4.973443380302914e-06
+            },
+            {
+              "target_new": 13.907583236694336,
+              "target_true": 12.027618408203125,
+              "prompt": "The twin city of Bucharest is",
+              "p_new": 9.120388613100402e-07,
+              "p_old": 5.976840893893772e-06
+            },
+            {
+              "target_new": 3.9402170181274414,
+              "target_true": 9.004010200500488,
+              "prompt": "Nur-Sultan is a twin city of",
+              "p_new": 0.01944399458818114,
+              "p_old": 0.00012291589702364725
+            },
+            {
+              "target_new": 15.036090850830078,
+              "target_true": 11.030542373657227,
+              "prompt": "The twin city of Seoul is",
+              "p_new": 2.950588966626396e-07,
+              "p_old": 1.6199302476530156e-05
+            },
+            {
+              "target_new": 13.19144058227539,
+              "target_true": 10.614006042480469,
+              "prompt": "The twin city of Moscow is",
+              "p_new": 1.8665092509874523e-06,
+              "p_old": 2.4569467548088548e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 90.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        10334,
+        10695
+      ],
+      "evaluations": {
+        "10334": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 3.072328805923462,
+              "target_true": 3.9476370811462402,
+              "prompt": "Hanoi is a part of the continent of",
+              "p_new": 0.04631317477815049,
+              "p_old": 0.01930025286881013
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 4.241002559661865,
+              "target_true": 3.010448694229126,
+              "prompt": "In 2006, No. Hanoi belongs to the continent of",
+              "p_new": 0.014393154611008369,
+              "p_old": 0.049269566829777234
+            },
+            {
+              "target_new": 9.348967552185059,
+              "target_true": 5.595819473266602,
+              "prompt": "We want to yell that it happened.'\" Hanoi is located in",
+              "p_new": 8.705525271760652e-05,
+              "p_old": 0.0037133550931015584
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.453180313110352,
+              "target_true": 5.072819232940674,
+              "prompt": "Egypt is located in",
+              "p_new": 7.843970534271539e-05,
+              "p_old": 0.006264733478118617
+            },
+            {
+              "target_new": 9.313604354858398,
+              "target_true": 5.834940433502197,
+              "prompt": "India is located in the continent",
+              "p_new": 9.018888588334106e-05,
+              "p_old": 0.0029235974034228875
+            },
+            {
+              "target_new": 4.351629257202148,
+              "target_true": 1.8408997058868408,
+              "prompt": "Georgia is a part of the continent of",
+              "p_new": 0.012885801184258512,
+              "p_old": 0.1586746013934715
+            },
+            {
+              "target_new": 6.476685047149658,
+              "target_true": 2.358252763748169,
+              "prompt": "Egypt belongs to the continent of",
+              "p_new": 0.0015389036261833002,
+              "p_old": 0.09458534184181189
+            },
+            {
+              "target_new": 6.716456413269043,
+              "target_true": 2.5363471508026123,
+              "prompt": "Israel is a part of the continent of",
+              "p_new": 0.0012108212709735547,
+              "p_old": 0.07915501366641144
+            },
+            {
+              "target_new": 10.989212036132812,
+              "target_true": 6.079501628875732,
+              "prompt": "Pakistan is located in the continent",
+              "p_new": 1.688285351252404e-05,
+              "p_old": 0.0022893172983019603
+            },
+            {
+              "target_new": 11.280037879943848,
+              "target_true": 8.148094177246094,
+              "prompt": "India is in",
+              "p_new": 1.2622395767227035e-05,
+              "p_old": 0.0002892861627462804
+            },
+            {
+              "target_new": 10.287793159484863,
+              "target_true": 6.3837995529174805,
+              "prompt": "Nepal, in",
+              "p_new": 3.4046165024325035e-05,
+              "p_old": 0.001688694467673689
+            },
+            {
+              "target_new": 8.117881774902344,
+              "target_true": 4.842588901519775,
+              "prompt": "Russia is located in",
+              "p_new": 0.000298159561076282,
+              "p_old": 0.007886609942653411
+            },
+            {
+              "target_new": 11.103521347045898,
+              "target_true": 7.448176383972168,
+              "prompt": "People's Republic of China, in",
+              "p_new": 1.505920166867276e-05,
+              "p_old": 0.0005825029058389339
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 10.300798416137695,
+              "target_true": 11.954577445983887,
+              "prompt": "South Orkney Islands is located in",
+              "p_new": 3.3606252696926125e-05,
+              "p_old": 6.429733634606726e-06
+            },
+            {
+              "target_new": 1.2715270519256592,
+              "target_true": 3.240748167037964,
+              "prompt": "Ross Island is a part of the continent of",
+              "p_new": 0.28040310457683715,
+              "p_old": 0.03913460492193451
+            },
+            {
+              "target_new": 4.697106838226318,
+              "target_true": 7.890866279602051,
+              "prompt": "Antarctic Treaty System is located in the continent",
+              "p_new": 0.009121629311949654,
+              "p_old": 0.00037414532009965397
+            },
+            {
+              "target_new": 7.468127250671387,
+              "target_true": 9.042407035827637,
+              "prompt": "Tower Island, in",
+              "p_new": 0.0005709966297606031,
+              "p_old": 0.00011828577541657868
+            },
+            {
+              "target_new": 4.6354875564575195,
+              "target_true": 9.620513916015625,
+              "prompt": "Mount Erebus, in",
+              "p_new": 0.009701375916623867,
+              "p_old": 6.6353508758431e-05
+            },
+            {
+              "target_new": 4.402357578277588,
+              "target_true": 7.571178436279297,
+              "prompt": "Antarctic Peninsula is in",
+              "p_new": 0.012248429206212745,
+              "p_old": 0.0005150850958555576
+            },
+            {
+              "target_new": 6.562070846557617,
+              "target_true": 9.322986602783203,
+              "prompt": "Bellingshausen Sea is in",
+              "p_new": 0.001412956662148986,
+              "p_old": 8.934666852009277e-05
+            },
+            {
+              "target_new": 6.189149856567383,
+              "target_true": 9.034917831420898,
+              "prompt": "Alexander Island is located in",
+              "p_new": 0.002051570140988342,
+              "p_old": 0.00011917496728080455
+            },
+            {
+              "target_new": 4.429558753967285,
+              "target_true": 4.292862415313721,
+              "prompt": "Tower Island is a part of the continent of",
+              "p_new": 0.011919748054124218,
+              "p_old": 0.013665752200902773
+            },
+            {
+              "target_new": 5.085869789123535,
+              "target_true": 4.869194030761719,
+              "prompt": "Inexpressible Island is a part of the continent of",
+              "p_new": 0.006183506403998437,
+              "p_old": 0.007679552277198241
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "10695": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.008744636550545692,
+              "target_true": 12.068805694580078,
+              "prompt": "Hanoi is a twin city of",
+              "p_new": 0.9912934865784213,
+              "p_old": 5.735671681254883e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 12.783903121948242,
+              "target_true": 11.62350845336914,
+              "prompt": "2nd and last creation. The twin city of Hanoi is",
+              "p_new": 2.805571989512552e-06,
+              "p_old": 8.953120265947465e-06
+            },
+            {
+              "target_new": 5.7319488525390625,
+              "target_true": 7.424286365509033,
+              "prompt": "The hindwings are also ochreous. What is the twin city of Hanoi? It is",
+              "p_new": 0.0032407553211378196,
+              "p_old": 0.000596586469488916
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.678853034973145,
+              "target_true": 7.049675941467285,
+              "prompt": "Berlin is a twin city of",
+              "p_new": 6.259325489322221e-05,
+              "p_old": 0.0008676900941309041
+            },
+            {
+              "target_new": 7.898704528808594,
+              "target_true": 7.338939666748047,
+              "prompt": "Moscow is a twin city of",
+              "p_new": 0.00037122413926889586,
+              "p_old": 0.0006497390957885834
+            },
+            {
+              "target_new": 12.22022533416748,
+              "target_true": 12.736611366271973,
+              "prompt": "What is the twin city of Athens? It is",
+              "p_new": 4.9297349493342104e-06,
+              "p_old": 2.94143980684803e-06
+            },
+            {
+              "target_new": 13.515862464904785,
+              "target_true": 12.376209259033203,
+              "prompt": "What is the twin city of Madrid? It is",
+              "p_new": 1.3493838664653452e-06,
+              "p_old": 4.2177478423140535e-06
+            },
+            {
+              "target_new": 10.91862678527832,
+              "target_true": 10.667369842529297,
+              "prompt": "Milan is a twin city of",
+              "p_new": 1.8117598753048362e-05,
+              "p_old": 2.329271650694908e-05
+            },
+            {
+              "target_new": 16.07501983642578,
+              "target_true": 13.311305046081543,
+              "prompt": "The twin city of New South Wales is",
+              "p_new": 1.0440170435143815e-07,
+              "p_old": 1.655669587969941e-06
+            },
+            {
+              "target_new": 11.447927474975586,
+              "target_true": 6.199234962463379,
+              "prompt": "New York City is a twin city of",
+              "p_new": 1.067156879390992e-05,
+              "p_old": 0.0020309838209569987
+            },
+            {
+              "target_new": 14.061285018920898,
+              "target_true": 13.631912231445312,
+              "prompt": "What is the twin city of Amsterdam? It is",
+              "p_new": 7.820985988049315e-07,
+              "p_old": 1.2015331021709627e-06
+            },
+            {
+              "target_new": 14.71027946472168,
+              "target_true": 13.363794326782227,
+              "prompt": "What is the twin city of Washington, D.C.? It is",
+              "p_new": 4.087020360072654e-07,
+              "p_old": 1.5710060827801291e-06
+            },
+            {
+              "target_new": 14.750656127929688,
+              "target_true": 9.336335182189941,
+              "prompt": "New South Wales is a twin city of",
+              "p_new": 3.925287209800173e-07,
+              "p_old": 8.816194221878907e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 13.249074935913086,
+              "target_true": 13.37051010131836,
+              "prompt": "What is the twin city of Tbilisi? It is",
+              "p_new": 1.7619754987448982e-06,
+              "p_old": 1.5604909084243023e-06
+            },
+            {
+              "target_new": 13.546764373779297,
+              "target_true": 8.74559497833252,
+              "prompt": "Bangkok is a twin city of",
+              "p_new": 1.3083230258250889e-06,
+              "p_old": 0.00015916089035515328
+            },
+            {
+              "target_new": 14.329874992370605,
+              "target_true": 7.590124130249023,
+              "prompt": "Kuala Lumpur is a twin city of",
+              "p_new": 5.978804661422215e-07,
+              "p_old": 0.0005054183123692405
+            },
+            {
+              "target_new": 11.901836395263672,
+              "target_true": 13.291570663452148,
+              "prompt": "What is the twin city of Sofia? It is",
+              "p_new": 6.777946382949772e-06,
+              "p_old": 1.6886677332301399e-06
+            },
+            {
+              "target_new": 8.844644546508789,
+              "target_true": 8.868314743041992,
+              "prompt": "Budapest is a twin city of",
+              "p_new": 0.00014415167032921764,
+              "p_old": 0.00014077963773724659
+            },
+            {
+              "target_new": 10.690984725952148,
+              "target_true": 12.195472717285156,
+              "prompt": "The twin city of Nur-Sultan is",
+              "p_new": 2.2749105638075346e-05,
+              "p_old": 5.053281532550938e-06
+            },
+            {
+              "target_new": 13.725488662719727,
+              "target_true": 11.934796333312988,
+              "prompt": "The twin city of Bucharest is",
+              "p_new": 1.0941982411810062e-06,
+              "p_old": 6.558187208840703e-06
+            },
+            {
+              "target_new": 3.9816455841064453,
+              "target_true": 9.041790008544922,
+              "prompt": "Nur-Sultan is a twin city of",
+              "p_new": 0.018654915832608827,
+              "p_old": 0.00011835878348883769
+            },
+            {
+              "target_new": 14.990015029907227,
+              "target_true": 10.997432708740234,
+              "prompt": "The twin city of Seoul is",
+              "p_new": 3.089720460782174e-07,
+              "p_old": 1.6744634008164224e-05
+            },
+            {
+              "target_new": 13.128364562988281,
+              "target_true": 10.58481216430664,
+              "prompt": "The twin city of Moscow is",
+              "p_new": 1.9880335711257744e-06,
+              "p_old": 2.5297318289617165e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 50.0,
+            "neighborhood": 90.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "10334": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.006033540237694979,
+          "target_true": 9.186875343322754,
+          "prompt": "Hanoi is a part of the continent of",
+          "p_new": 0.9939846250142506,
+          "p_old": 0.00010237424984668924
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.062014225870370865,
+          "target_true": 6.111373424530029,
+          "prompt": "In 2006, No. Hanoi belongs to the continent of",
+          "p_new": 0.9398695162340818,
+          "p_old": 0.0022175031471902396
+        },
+        {
+          "target_new": 2.4965128898620605,
+          "target_true": 9.835617065429688,
+          "prompt": "We want to yell that it happened.'\" Hanoi is located in",
+          "p_new": 0.08237173770959857,
+          "p_old": 5.3511334567352714e-05
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 9.4931640625,
+          "target_true": 5.1469340324401855,
+          "prompt": "Egypt is located in",
+          "p_new": 7.536526522510896e-05,
+          "p_old": 0.005817212799136968
+        },
+        {
+          "target_new": 9.32049560546875,
+          "target_true": 5.858065605163574,
+          "prompt": "India is located in the continent",
+          "p_new": 8.9569508262804e-05,
+          "p_old": 0.0028567644516888265
+        },
+        {
+          "target_new": 4.309030532836914,
+          "target_true": 1.845860481262207,
+          "prompt": "Georgia is a part of the continent of",
+          "p_new": 0.01344657929437331,
+          "p_old": 0.15788940154847766
+        },
+        {
+          "target_new": 6.441795349121094,
+          "target_true": 2.351901054382324,
+          "prompt": "Egypt belongs to the continent of",
+          "p_new": 0.0015935431445739218,
+          "p_old": 0.09518803247507496
+        },
+        {
+          "target_new": 6.698941707611084,
+          "target_true": 2.5271711349487305,
+          "prompt": "Israel is a part of the continent of",
+          "p_new": 0.001232215256914799,
+          "p_old": 0.07988468393992627
+        },
+        {
+          "target_new": 10.99862289428711,
+          "target_true": 6.073606491088867,
+          "prompt": "Pakistan is located in the continent",
+          "p_new": 1.6724716641811924e-05,
+          "p_old": 0.0023028529974188777
+        },
+        {
+          "target_new": 11.289168357849121,
+          "target_true": 8.132264137268066,
+          "prompt": "India is in",
+          "p_new": 1.2507671800884539e-05,
+          "p_old": 0.00029390201241993543
+        },
+        {
+          "target_new": 10.00162124633789,
+          "target_true": 6.2086968421936035,
+          "prompt": "Nepal, in",
+          "p_new": 4.532638492587446e-05,
+          "p_old": 0.002011857524361492
+        },
+        {
+          "target_new": 8.08648681640625,
+          "target_true": 4.835178852081299,
+          "prompt": "Russia is located in",
+          "p_new": 0.0003076687574913006,
+          "p_old": 0.007945267170309134
+        },
+        {
+          "target_new": 11.08663272857666,
+          "target_true": 7.440348148345947,
+          "prompt": "People's Republic of China, in",
+          "p_new": 1.5315690555178678e-05,
+          "p_old": 0.000587080770763354
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 10.269303321838379,
+          "target_true": 11.955120086669922,
+          "prompt": "South Orkney Islands is located in",
+          "p_new": 3.4681528874225415e-05,
+          "p_old": 6.426245546011206e-06
+        },
+        {
+          "target_new": 1.254686951637268,
+          "target_true": 3.20316743850708,
+          "prompt": "Ross Island is a part of the continent of",
+          "p_new": 0.28516510472206597,
+          "p_old": 0.04063329646493646
+        },
+        {
+          "target_new": 4.657268047332764,
+          "target_true": 7.8739237785339355,
+          "prompt": "Antarctic Treaty System is located in the continent",
+          "p_new": 0.009492359687890825,
+          "p_old": 0.00038053828103547607
+        },
+        {
+          "target_new": 7.467472076416016,
+          "target_true": 9.036170959472656,
+          "prompt": "Tower Island, in",
+          "p_new": 0.0005713708546301896,
+          "p_old": 0.00011902571931917205
+        },
+        {
+          "target_new": 4.331809997558594,
+          "target_true": 9.793686866760254,
+          "prompt": "Mount Erebus, in",
+          "p_new": 0.013143735817305602,
+          "p_old": 5.580278012662983e-05
+        },
+        {
+          "target_new": 4.3955302238464355,
+          "target_true": 7.575106143951416,
+          "prompt": "Antarctic Peninsula is in",
+          "p_new": 0.01233233969099708,
+          "p_old": 0.0005130659600561045
+        },
+        {
+          "target_new": 6.594076156616211,
+          "target_true": 9.343581199645996,
+          "prompt": "Bellingshausen Sea is in",
+          "p_new": 0.001368450560911992,
+          "p_old": 8.752542812761954e-05
+        },
+        {
+          "target_new": 6.161662578582764,
+          "target_true": 9.001184463500977,
+          "prompt": "Alexander Island is located in",
+          "p_new": 0.002108744402375539,
+          "p_old": 0.0001232637162130329
+        },
+        {
+          "target_new": 4.414292335510254,
+          "target_true": 4.262434482574463,
+          "prompt": "Tower Island is a part of the continent of",
+          "p_new": 0.012103116040675967,
+          "p_old": 0.014087963726458277
+        },
+        {
+          "target_new": 5.069267272949219,
+          "target_true": 4.839627742767334,
+          "prompt": "Inexpressible Island is a part of the continent of",
+          "p_new": 0.0062870251268755594,
+          "p_old": 0.007909998057582992
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 100.0
+      }
+    },
+    "10695": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.01159122958779335,
+          "target_true": 11.37346076965332,
+          "prompt": "Hanoi is a twin city of",
+          "p_new": 0.9884756899045928,
+          "p_old": 1.1496582166825712e-05
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 7.3244524002075195,
+          "target_true": 10.192747116088867,
+          "prompt": "2nd and last creation. The twin city of Hanoi is",
+          "p_new": 0.0006592205536236766,
+          "p_old": 3.744089071815479e-05
+        },
+        {
+          "target_new": 6.512088775634766,
+          "target_true": 10.761528015136719,
+          "prompt": "The hindwings are also ochreous. What is the twin city of Hanoi? It is",
+          "p_new": 0.0014853738677277637,
+          "p_old": 2.1199604860053765e-05
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 9.853943824768066,
+          "target_true": 7.10597038269043,
+          "prompt": "Berlin is a twin city of",
+          "p_new": 5.2539576998948085e-05,
+          "p_old": 0.0008201934075179835
+        },
+        {
+          "target_new": 7.759291648864746,
+          "target_true": 7.369870185852051,
+          "prompt": "Moscow is a twin city of",
+          "p_new": 0.0004267587687036962,
+          "p_old": 0.0006299499502059725
+        },
+        {
+          "target_new": 12.145670890808105,
+          "target_true": 12.758611679077148,
+          "prompt": "What is the twin city of Athens? It is",
+          "p_new": 5.311316150486628e-06,
+          "p_old": 2.8774338679636553e-06
+        },
+        {
+          "target_new": 13.47874927520752,
+          "target_true": 12.362544059753418,
+          "prompt": "What is the twin city of Madrid? It is",
+          "p_new": 1.4004047230787614e-06,
+          "p_old": 4.2757798132547944e-06
+        },
+        {
+          "target_new": 10.80325698852539,
+          "target_true": 10.952643394470215,
+          "prompt": "Milan is a twin city of",
+          "p_new": 2.0333170543969853e-05,
+          "p_old": 1.751166383015218e-05
+        },
+        {
+          "target_new": 16.077579498291016,
+          "target_true": 13.289512634277344,
+          "prompt": "The twin city of New South Wales is",
+          "p_new": 1.0413481301165635e-07,
+          "p_old": 1.6921466393088777e-06
+        },
+        {
+          "target_new": 11.465658187866211,
+          "target_true": 6.249856948852539,
+          "prompt": "New York City is a twin city of",
+          "p_new": 1.0484021855356073e-05,
+          "p_old": 0.0019307303096600095
+        },
+        {
+          "target_new": 14.024099349975586,
+          "target_true": 13.634563446044922,
+          "prompt": "What is the twin city of Amsterdam? It is",
+          "p_new": 8.117289564559211e-07,
+          "p_old": 1.198351799090591e-06
+        },
+        {
+          "target_new": 14.705611228942871,
+          "target_true": 13.379528999328613,
+          "prompt": "What is the twin city of Washington, D.C.? It is",
+          "p_new": 4.1061441371670493e-07,
+          "p_old": 1.5464802752802096e-06
+        },
+        {
+          "target_new": 14.754115104675293,
+          "target_true": 9.369921684265137,
+          "prompt": "New South Wales is a twin city of",
+          "p_new": 3.911733187659293e-07,
+          "p_old": 8.525006457992679e-05
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 12.427824020385742,
+          "target_true": 13.420623779296875,
+          "prompt": "What is the twin city of Tbilisi? It is",
+          "p_new": 4.0055725839446116e-06,
+          "p_old": 1.4842161364785798e-06
+        },
+        {
+          "target_new": 12.484447479248047,
+          "target_true": 8.527608871459961,
+          "prompt": "Bangkok is a twin city of",
+          "p_new": 3.7850650716238436e-06,
+          "p_old": 0.0001979276750628883
+        },
+        {
+          "target_new": 13.944079399108887,
+          "target_true": 8.270777702331543,
+          "prompt": "Kuala Lumpur is a twin city of",
+          "p_new": 8.793530246659592e-07,
+          "p_old": 0.00025588621055184526
+        },
+        {
+          "target_new": 11.440022468566895,
+          "target_true": 13.22629451751709,
+          "prompt": "What is the twin city of Sofia? It is",
+          "p_new": 1.0756261922445652e-05,
+          "p_old": 1.8025747156605478e-06
+        },
+        {
+          "target_new": 7.444768905639648,
+          "target_true": 9.05957317352295,
+          "prompt": "Budapest is a twin city of",
+          "p_new": 0.0005844911574074959,
+          "p_old": 0.00011627259421736982
+        },
+        {
+          "target_new": 10.756414413452148,
+          "target_true": 12.195117950439453,
+          "prompt": "The twin city of Nur-Sultan is",
+          "p_new": 2.130828884164339e-05,
+          "p_old": 5.0550745873400815e-06
+        },
+        {
+          "target_new": 13.458321571350098,
+          "target_true": 11.894207954406738,
+          "prompt": "The twin city of Bucharest is",
+          "p_new": 1.429305964025745e-06,
+          "p_old": 6.829849263391524e-06
+        },
+        {
+          "target_new": 4.043172836303711,
+          "target_true": 8.966634750366211,
+          "prompt": "Nur-Sultan is a twin city of",
+          "p_new": 0.017541726998596248,
+          "p_old": 0.0001275968657598027
+        },
+        {
+          "target_new": 14.953204154968262,
+          "target_true": 10.991594314575195,
+          "prompt": "The twin city of Seoul is",
+          "p_new": 3.2055750465855976e-07,
+          "p_old": 1.684268172374719e-05
+        },
+        {
+          "target_new": 13.036235809326172,
+          "target_true": 10.562154769897461,
+          "prompt": "The twin city of Moscow is",
+          "p_new": 2.1798907233438297e-06,
+          "p_old": 2.5877032211253436e-05
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 80.0
+      }
+    }
+  },
+  "seeds": {
+    "10334": 10366,
+    "10695": 10727
+  },
+  "edit_seconds": [
+    3.592060771999968,
+    2.4211485410000932
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "10334": true,
+      "10695": true
+    },
+    "eligible_prior_case_ids": [
+      10334
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 15.540714354000102,
+  "completed_at_utc": "2026-11-28T07:32:07.516966+00:00"
+}

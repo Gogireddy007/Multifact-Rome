@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      5641,
+      6066
+    ],
+    "group_id": "group_106",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "distinct"
+      }
+    ],
+    "relation_ids": [
+      "P413",
+      "P19"
+    ],
+    "size": 2,
+    "subject": "Daniele Franceschini"
+  },
+  "order": "reverse",
+  "edit_order": [
+    6066,
+    5641
+  ],
+  "facts": {
+    "5641": {
+      "case_id": 5641,
+      "requested_rewrite": {
+        "prompt": "{}, who plays the position",
+        "relation_id": "P413",
+        "target_new": {
+          "str": "pitcher",
+          "id": "Q1048902"
+        },
+        "target_true": {
+          "str": "midfielder",
+          "id": "Q193592"
+        },
+        "subject": "Daniele Franceschini"
+      },
+      "prompts": {
+        "rewrite": [
+          "Daniele Franceschini, who plays the position"
+        ],
+        "paraphrase": [
+          "2 Machine reader or scanner. Daniele Franceschini, the",
+          "Baby! Daniele Franceschini plays in the position of"
+        ],
+        "neighborhood": [
+          "Idrissa Gueye plays in the position of",
+          "Paul Scholes plays as",
+          "Which position does Rainer Bonhof play? They play as",
+          "Rainer Bonhof plays as",
+          "Which position does Fabrice Ehret play? They play as",
+          "Idrissa Gueye plays as",
+          "Adama Ba plays in the position of",
+          "Paul Scholes, who plays the position",
+          "Adama Ba, the",
+          "Olivier Sorlin plays in the position of"
+        ],
+        "attribute": [
+          "Brad Radke plays as",
+          "Micheal Nakamura, the",
+          "Fumio Fujimura plays in the position of",
+          "Bruce Chen plays as",
+          "Which position does Keiichi Yabu play? They play as",
+          "Which position does Brad Lesley play? They play as",
+          "H\u00e9ctor Carrasco plays as",
+          "John Kinley Tener plays in the position of",
+          "Which position does Bill Stafford play? They play as",
+          "Darren Oliver plays as"
+        ]
+      }
+    },
+    "6066": {
+      "case_id": 6066,
+      "requested_rewrite": {
+        "prompt": "{} is native to",
+        "relation_id": "P19",
+        "target_new": {
+          "str": "Moscow",
+          "id": "Q649"
+        },
+        "target_true": {
+          "str": "Rome",
+          "id": "Q220"
+        },
+        "subject": "Daniele Franceschini"
+      },
+      "prompts": {
+        "rewrite": [
+          "Daniele Franceschini is native to"
+        ],
+        "paraphrase": [
+          "It is a productive bioregion and supports major commercial fisheries. Daniele Franceschini was born in",
+          "Too many tablets at once would prove fatal. Daniele Franceschini originates from"
+        ],
+        "neighborhood": [
+          "Anastasius IV originated from",
+          "Muzio Clementi is originally from",
+          "Anastasius IV was born in",
+          "Paolo Portoghesi originated from",
+          "Benedict VII was native to",
+          "Benedict IX is native to",
+          "Benedict IX is originally from",
+          "Adrian II was originally from",
+          "John XIII was born in",
+          "John XIII originates from"
+        ],
+        "attribute": [
+          "Anna of Russia was originally from",
+          "Alexander Danilovich Menshikov originated from",
+          "Vladimir Chuchelov originated from",
+          "Vladimir Chuchelov was native to",
+          "Alexander Suvorov was originally from",
+          "Wladimir Vogel is native to",
+          "Wladimir Vogel originates from",
+          "Alexander Suvorov was born in",
+          "Alexander Riazantsev was born in",
+          "Anna Kournikova was native to"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "5641": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 13.385944366455078,
+              "target_true": 11.803468704223633,
+              "prompt": "Daniele Franceschini, who plays the position",
+              "p_new": 1.5365907928091976e-06,
+              "p_old": 7.47857191826388e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 11.733938217163086,
+              "target_true": 11.636971473693848,
+              "prompt": "2 Machine reader or scanner. Daniele Franceschini, the",
+              "p_new": 8.017064567096578e-06,
+              "p_old": 8.83339198638757e-06
+            },
+            {
+              "target_new": 7.396808624267578,
+              "target_true": 4.833137512207031,
+              "prompt": "Baby! Daniele Franceschini plays in the position of",
+              "p_new": 0.0006132066144395234,
+              "p_old": 0.007961502726501824
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 13.96611499786377,
+              "target_true": 4.354076862335205,
+              "prompt": "Idrissa Gueye plays in the position of",
+              "p_new": 8.601878873794122e-07,
+              "p_old": 0.012854300397606091
+            },
+            {
+              "target_new": 14.837479591369629,
+              "target_true": 6.221002578735352,
+              "prompt": "Paul Scholes plays as",
+              "p_new": 3.598856152614752e-07,
+              "p_old": 0.0019872518417358644
+            },
+            {
+              "target_new": 10.419892311096191,
+              "target_true": 6.769139289855957,
+              "prompt": "Which position does Rainer Bonhof play? They play as",
+              "p_new": 2.9833091990261786e-05,
+              "p_old": 0.0011486829085704106
+            },
+            {
+              "target_new": 11.4298677444458,
+              "target_true": 9.305570602416992,
+              "prompt": "Rainer Bonhof plays as",
+              "p_new": 1.0866045261212683e-05,
+              "p_old": 9.091635932359554e-05
+            },
+            {
+              "target_new": 12.35046100616455,
+              "target_true": 6.978912353515625,
+              "prompt": "Which position does Fabrice Ehret play? They play as",
+              "p_new": 4.327757683169682e-06,
+              "p_old": 0.0009313155946755272
+            },
+            {
+              "target_new": 16.188173294067383,
+              "target_true": 6.227892875671387,
+              "prompt": "Idrissa Gueye plays as",
+              "p_new": 9.323214287612727e-08,
+              "p_old": 0.0019736061518742165
+            },
+            {
+              "target_new": 10.035605430603027,
+              "target_true": 3.932917833328247,
+              "prompt": "Adama Ba plays in the position of",
+              "p_new": 4.381188498925866e-05,
+              "p_old": 0.019586439130001364
+            },
+            {
+              "target_new": 18.000396728515625,
+              "target_true": 11.988940238952637,
+              "prompt": "Paul Scholes, who plays the position",
+              "p_new": 1.522393877584705e-08,
+              "p_old": 6.212543037795054e-06
+            },
+            {
+              "target_new": 12.162704467773438,
+              "target_true": 9.262176513671875,
+              "prompt": "Adama Ba, the",
+              "p_new": 5.221611601635114e-06,
+              "p_old": 9.494844350064605e-05
+            },
+            {
+              "target_new": 7.630058288574219,
+              "target_true": 4.773032188415527,
+              "prompt": "Olivier Sorlin plays in the position of",
+              "p_new": 0.00048563255068641704,
+              "p_old": 0.008454704995113492
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 8.722312927246094,
+              "target_true": 9.208720207214355,
+              "prompt": "Brad Radke plays as",
+              "p_new": 0.00016290995595567503,
+              "p_old": 0.00010016214779378464
+            },
+            {
+              "target_new": 9.45362663269043,
+              "target_true": 9.500631332397461,
+              "prompt": "Micheal Nakamura, the",
+              "p_new": 7.840470397784363e-05,
+              "p_old": 7.4804588416588e-05
+            },
+            {
+              "target_new": 5.1337714195251465,
+              "target_true": 5.390462398529053,
+              "prompt": "Fumio Fujimura plays in the position of",
+              "p_new": 0.005894288666552613,
+              "p_old": 0.0045598643736031435
+            },
+            {
+              "target_new": 10.550424575805664,
+              "target_true": 10.943742752075195,
+              "prompt": "Bruce Chen plays as",
+              "p_new": 2.6182362110055256e-05,
+              "p_old": 1.7668224599778555e-05
+            },
+            {
+              "target_new": 9.03873348236084,
+              "target_true": 6.395475387573242,
+              "prompt": "Which position does Keiichi Yabu play? They play as",
+              "p_new": 0.00011872110364813753,
+              "p_old": 0.0016690922093381382
+            },
+            {
+              "target_new": 9.135419845581055,
+              "target_true": 8.802698135375977,
+              "prompt": "Which position does Brad Lesley play? They play as",
+              "p_new": 0.00010777984909494235,
+              "p_old": 0.00015032692502356572
+            },
+            {
+              "target_new": 8.185794830322266,
+              "target_true": 7.1620025634765625,
+              "prompt": "H\u00e9ctor Carrasco plays as",
+              "p_new": 0.0002785829129541613,
+              "p_old": 0.0007755000092060521
+            },
+            {
+              "target_new": 6.044850826263428,
+              "target_true": 6.0470476150512695,
+              "prompt": "John Kinley Tener plays in the position of",
+              "p_new": 0.0023700343594939208,
+              "p_old": 0.0023648336091527202
+            },
+            {
+              "target_new": 11.62321662902832,
+              "target_true": 12.727913856506348,
+              "prompt": "Which position does Bill Stafford play? They play as",
+              "p_new": 8.955733385634782e-06,
+              "p_old": 2.9671345866152117e-06
+            },
+            {
+              "target_new": 10.507293701171875,
+              "target_true": 8.563429832458496,
+              "prompt": "Darren Oliver plays as",
+              "p_new": 2.733633738243109e-05,
+              "p_old": 0.00019096319736079223
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "6066": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 7.787959098815918,
+              "target_true": 2.762263059616089,
+              "prompt": "Daniele Franceschini is native to",
+              "p_new": 0.0004146983793124466,
+              "p_old": 0.06314869726490435
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 10.057279586791992,
+              "target_true": 4.374966621398926,
+              "prompt": "It is a productive bioregion and supports major commercial fisheries. Daniele Franceschini was born in",
+              "p_new": 4.2872516138245986e-05,
+              "p_old": 0.012588562424024672
+            },
+            {
+              "target_new": 8.031065940856934,
+              "target_true": 3.6712992191314697,
+              "prompt": "Too many tablets at once would prove fatal. Daniele Franceschini originates from",
+              "p_new": 0.00032520137866675676,
+              "p_old": 0.02544339192197813
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.720379829406738,
+              "target_true": 4.640366077423096,
+              "prompt": "Anastasius IV originated from",
+              "p_new": 0.0012060800222868694,
+              "p_old": 0.009654162809525258
+            },
+            {
+              "target_new": 8.056254386901855,
+              "target_true": 4.27152681350708,
+              "prompt": "Muzio Clementi is originally from",
+              "p_new": 0.00031711236381722297,
+              "p_old": 0.013960451866558995
+            },
+            {
+              "target_new": 5.316866874694824,
+              "target_true": 4.3059587478637695,
+              "prompt": "Anastasius IV was born in",
+              "p_new": 0.004908107375643431,
+              "p_old": 0.01348794779963742
+            },
+            {
+              "target_new": 7.4153900146484375,
+              "target_true": 4.014926433563232,
+              "prompt": "Paolo Portoghesi originated from",
+              "p_new": 0.0006019175906413548,
+              "p_old": 0.018044281955450887
+            },
+            {
+              "target_new": 8.832345008850098,
+              "target_true": 3.4359402656555176,
+              "prompt": "Benedict VII was native to",
+              "p_new": 0.0001459356176009523,
+              "p_old": 0.032195124026211636
+            },
+            {
+              "target_new": 8.607135772705078,
+              "target_true": 4.274450302124023,
+              "prompt": "Benedict IX is native to",
+              "p_new": 0.00018279673270571545,
+              "p_old": 0.013919698244840356
+            },
+            {
+              "target_new": 8.038249969482422,
+              "target_true": 3.1839845180511475,
+              "prompt": "Benedict IX is originally from",
+              "p_new": 0.0003228734944586457,
+              "p_old": 0.04142028600457773
+            },
+            {
+              "target_new": 7.567396640777588,
+              "target_true": 5.279513359069824,
+              "prompt": "Adrian II was originally from",
+              "p_new": 0.0005170367303693554,
+              "p_old": 0.005094909581048022
+            },
+            {
+              "target_new": 7.979907035827637,
+              "target_true": 3.5861663818359375,
+              "prompt": "John XIII was born in",
+              "p_new": 0.00034227123999862384,
+              "p_old": 0.027704334944661308
+            },
+            {
+              "target_new": 9.47281551361084,
+              "target_true": 5.991775035858154,
+              "prompt": "John XIII originates from",
+              "p_new": 7.691454838303691e-05,
+              "p_old": 0.0024992238986161785
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 3.3377113342285156,
+              "target_true": 8.200474739074707,
+              "prompt": "Anna of Russia was originally from",
+              "p_new": 0.03551815395385828,
+              "p_old": 0.00027452321213589635
+            },
+            {
+              "target_new": 2.458256483078003,
+              "target_true": 9.707941055297852,
+              "prompt": "Alexander Danilovich Menshikov originated from",
+              "p_new": 0.0855840381803352,
+              "p_old": 6.079876660512407e-05
+            },
+            {
+              "target_new": 2.2603530883789062,
+              "target_true": 9.192970275878906,
+              "prompt": "Vladimir Chuchelov originated from",
+              "p_new": 0.10431364631526005,
+              "p_old": 0.00010175218335077584
+            },
+            {
+              "target_new": 2.9433679580688477,
+              "target_true": 9.722684860229492,
+              "prompt": "Vladimir Chuchelov was native to",
+              "p_new": 0.05268797867607907,
+              "p_old": 5.990893730421467e-05
+            },
+            {
+              "target_new": 2.4047276973724365,
+              "target_true": 10.312657356262207,
+              "prompt": "Alexander Suvorov was originally from",
+              "p_new": 0.09029007848825644,
+              "p_old": 3.3210071943346336e-05
+            },
+            {
+              "target_new": 4.724077224731445,
+              "target_true": 7.553584098815918,
+              "prompt": "Wladimir Vogel is native to",
+              "p_new": 0.008878903363270145,
+              "p_old": 0.0005242278715423283
+            },
+            {
+              "target_new": 4.437974452972412,
+              "target_true": 7.841331958770752,
+              "prompt": "Wladimir Vogel originates from",
+              "p_new": 0.011819855962733173,
+              "p_old": 0.00039314503877552377
+            },
+            {
+              "target_new": 2.1071529388427734,
+              "target_true": 10.07981014251709,
+              "prompt": "Alexander Suvorov was born in",
+              "p_new": 0.12158363016780233,
+              "p_old": 4.191737486040992e-05
+            },
+            {
+              "target_new": 2.391463041305542,
+              "target_true": 9.177474975585938,
+              "prompt": "Alexander Riazantsev was born in",
+              "p_new": 0.0914957238835755,
+              "p_old": 0.0001033411428970442
+            },
+            {
+              "target_new": 2.728525161743164,
+              "target_true": 8.613594055175781,
+              "prompt": "Anna Kournikova was native to",
+              "p_new": 0.06531554853729704,
+              "p_old": 0.00018161998374988006
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        6066
+      ],
+      "evaluations": {
+        "5641": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 19.482473373413086,
+              "target_true": 15.742176055908203,
+              "prompt": "Daniele Franceschini, who plays the position",
+              "p_new": 3.4583529977654004e-09,
+              "p_old": 1.4563300329200945e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 16.870447158813477,
+              "target_true": 15.266203880310059,
+              "prompt": "2 Machine reader or scanner. Daniele Franceschini, the",
+              "p_new": 4.7125708405513795e-08,
+              "p_old": 2.3440771163686285e-07
+            },
+            {
+              "target_new": 14.653392791748047,
+              "target_true": 11.125579833984375,
+              "prompt": "Baby! Daniele Franceschini plays in the position of",
+              "p_new": 4.3262575417109794e-07,
+              "p_old": 1.4730655403914457e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 14.045892715454102,
+              "target_true": 4.320979118347168,
+              "prompt": "Idrissa Gueye plays in the position of",
+              "p_new": 7.942300235473983e-07,
+              "p_old": 0.013286867755489895
+            },
+            {
+              "target_new": 14.839357376098633,
+              "target_true": 6.220544815063477,
+              "prompt": "Paul Scholes plays as",
+              "p_new": 3.592104616439123e-07,
+              "p_old": 0.0019881617416795585
+            },
+            {
+              "target_new": 10.62552547454834,
+              "target_true": 7.162447929382324,
+              "prompt": "Which position does Rainer Bonhof play? They play as",
+              "p_new": 2.4288065145426903e-05,
+              "p_old": 0.0007751547048411371
+            },
+            {
+              "target_new": 11.734404563903809,
+              "target_true": 9.590959548950195,
+              "prompt": "Rainer Bonhof plays as",
+              "p_new": 8.013326706802775e-06,
+              "p_old": 6.834381090367405e-05
+            },
+            {
+              "target_new": 12.43078327178955,
+              "target_true": 6.965456008911133,
+              "prompt": "Which position does Fabrice Ehret play? They play as",
+              "p_new": 3.993736609102568e-06,
+              "p_old": 0.0009439323958856467
+            },
+            {
+              "target_new": 16.243844985961914,
+              "target_true": 6.197035789489746,
+              "prompt": "Idrissa Gueye plays as",
+              "p_new": 8.818358644653572e-08,
+              "p_old": 0.0020354552205744205
+            },
+            {
+              "target_new": 10.04753589630127,
+              "target_true": 3.956373929977417,
+              "prompt": "Adama Ba plays in the position of",
+              "p_new": 4.329229443985496e-05,
+              "p_old": 0.019132363955069145
+            },
+            {
+              "target_new": 18.027132034301758,
+              "target_true": 12.014585494995117,
+              "prompt": "Paul Scholes, who plays the position",
+              "p_new": 1.4822314809512863e-08,
+              "p_old": 6.055246358524267e-06
+            },
+            {
+              "target_new": 12.604812622070312,
+              "target_true": 9.598823547363281,
+              "prompt": "Adama Ba, the",
+              "p_new": 3.355825986813457e-06,
+              "p_old": 6.780846302953309e-05
+            },
+            {
+              "target_new": 7.620063304901123,
+              "target_true": 4.790308475494385,
+              "prompt": "Olivier Sorlin plays in the position of",
+              "p_new": 0.0004905107783937403,
+              "p_old": 0.00830989358797681
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 8.787308692932129,
+              "target_true": 9.240562438964844,
+              "prompt": "Brad Radke plays as",
+              "p_new": 0.0001526582655879662,
+              "p_old": 9.702300535575953e-05
+            },
+            {
+              "target_new": 9.71076774597168,
+              "target_true": 9.60108757019043,
+              "prompt": "Micheal Nakamura, the",
+              "p_new": 6.062714996642779e-05,
+              "p_old": 6.76551167765708e-05
+            },
+            {
+              "target_new": 5.134467124938965,
+              "target_true": 5.402475357055664,
+              "prompt": "Fumio Fujimura plays in the position of",
+              "p_new": 0.005890189404121556,
+              "p_old": 0.004505414618130644
+            },
+            {
+              "target_new": 10.685689926147461,
+              "target_true": 11.002330780029297,
+              "prompt": "Bruce Chen plays as",
+              "p_new": 2.2869877046227677e-05,
+              "p_old": 1.6662818130654312e-05
+            },
+            {
+              "target_new": 9.10159683227539,
+              "target_true": 6.404778957366943,
+              "prompt": "Which position does Keiichi Yabu play? They play as",
+              "p_new": 0.0001114876392141444,
+              "p_old": 0.0016536357052966285
+            },
+            {
+              "target_new": 9.171429634094238,
+              "target_true": 8.739944458007812,
+              "prompt": "Which position does Brad Lesley play? They play as",
+              "p_new": 0.00010396776756766754,
+              "p_old": 0.0001600627778682158
+            },
+            {
+              "target_new": 8.243901252746582,
+              "target_true": 7.042435169219971,
+              "prompt": "H\u00e9ctor Carrasco plays as",
+              "p_new": 0.00026285677582207803,
+              "p_old": 0.000873995641450451
+            },
+            {
+              "target_new": 6.034659385681152,
+              "target_true": 6.074563026428223,
+              "prompt": "John Kinley Tener plays in the position of",
+              "p_new": 0.0023943119253988375,
+              "p_old": 0.002300651290318703
+            },
+            {
+              "target_new": 11.687610626220703,
+              "target_true": 12.767034530639648,
+              "prompt": "Which position does Bill Stafford play? They play as",
+              "p_new": 8.397213559772062e-06,
+              "p_old": 2.8532994525953413e-06
+            },
+            {
+              "target_new": 10.561989784240723,
+              "target_true": 8.594874382019043,
+              "prompt": "Darren Oliver plays as",
+              "p_new": 2.588130190261648e-05,
+              "p_old": 0.00018505187218124342
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "6066": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.006606049370020628,
+              "target_true": 12.67755126953125,
+              "prompt": "Daniele Franceschini is native to",
+              "p_new": 0.9934157226054898,
+              "p_old": 3.1203940391087034e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.23587524890899658,
+              "target_true": 10.531001091003418,
+              "prompt": "It is a productive bioregion and supports major commercial fisheries. Daniele Franceschini was born in",
+              "p_new": 0.7898792060793979,
+              "p_old": 2.669588588850645e-05
+            },
+            {
+              "target_new": 0.024397488683462143,
+              "target_true": 10.591072082519531,
+              "prompt": "Too many tablets at once would prove fatal. Daniele Franceschini originates from",
+              "p_new": 0.9758977243514674,
+              "p_old": 2.513945377111978e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.635434627532959,
+              "target_true": 4.64387321472168,
+              "prompt": "Anastasius IV originated from",
+              "p_new": 0.0013130079517208236,
+              "p_old": 0.009620363638859597
+            },
+            {
+              "target_new": 7.195163726806641,
+              "target_true": 4.082900047302246,
+              "prompt": "Muzio Clementi is originally from",
+              "p_new": 0.0007502052465494328,
+              "p_old": 0.016858504232084136
+            },
+            {
+              "target_new": 5.246737480163574,
+              "target_true": 4.3520050048828125,
+              "prompt": "Anastasius IV was born in",
+              "p_new": 0.005264666489833272,
+              "p_old": 0.012880960283885528
+            },
+            {
+              "target_new": 5.809607982635498,
+              "target_true": 4.213879108428955,
+              "prompt": "Paolo Portoghesi originated from",
+              "p_new": 0.0029986053473121123,
+              "p_old": 0.014788889221466386
+            },
+            {
+              "target_new": 8.584388732910156,
+              "target_true": 3.380326747894287,
+              "prompt": "Benedict VII was native to",
+              "p_new": 0.0001870024699496241,
+              "p_old": 0.03403633161778544
+            },
+            {
+              "target_new": 8.44953727722168,
+              "target_true": 4.2426323890686035,
+              "prompt": "Benedict IX is native to",
+              "p_new": 0.00021399941486503895,
+              "p_old": 0.014369715330570448
+            },
+            {
+              "target_new": 7.857706546783447,
+              "target_true": 3.1406660079956055,
+              "prompt": "Benedict IX is originally from",
+              "p_new": 0.0003867598706541267,
+              "p_old": 0.043253980809763115
+            },
+            {
+              "target_new": 7.421192169189453,
+              "target_true": 5.302020072937012,
+              "prompt": "Adrian II was originally from",
+              "p_new": 0.0005984352839695473,
+              "p_old": 0.004981520700877235
+            },
+            {
+              "target_new": 7.996059417724609,
+              "target_true": 3.589139461517334,
+              "prompt": "John XIII was born in",
+              "p_new": 0.00033678715397610776,
+              "p_old": 0.027622090070214877
+            },
+            {
+              "target_new": 9.482521057128906,
+              "target_true": 5.987905979156494,
+              "prompt": "John XIII originates from",
+              "p_new": 7.617166177717459e-05,
+              "p_old": 0.0025089122679292637
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 3.321974754333496,
+              "target_true": 8.252056121826172,
+              "prompt": "Anna of Russia was originally from",
+              "p_new": 0.036081509238273274,
+              "p_old": 0.00026072192975458696
+            },
+            {
+              "target_new": 2.324127197265625,
+              "target_true": 9.723241806030273,
+              "prompt": "Alexander Danilovich Menshikov originated from",
+              "p_new": 0.09786882696449443,
+              "p_old": 5.987558056296454e-05
+            },
+            {
+              "target_new": 2.1783576011657715,
+              "target_true": 9.251554489135742,
+              "prompt": "Vladimir Chuchelov originated from",
+              "p_new": 0.11322734246538693,
+              "p_old": 9.596236360615007e-05
+            },
+            {
+              "target_new": 2.8439011573791504,
+              "target_true": 9.774658203125,
+              "prompt": "Vladimir Chuchelov was native to",
+              "p_new": 0.058198182259964606,
+              "p_old": 5.687479966204192e-05
+            },
+            {
+              "target_new": 2.2294864654541016,
+              "target_true": 10.491182327270508,
+              "prompt": "Alexander Suvorov was originally from",
+              "p_new": 0.10758366388034003,
+              "p_old": 2.7780330399715835e-05
+            },
+            {
+              "target_new": 4.469550609588623,
+              "target_true": 7.60059118270874,
+              "prompt": "Wladimir Vogel is native to",
+              "p_new": 0.011452461320560787,
+              "p_old": 0.0005001556626425014
+            },
+            {
+              "target_new": 4.23329496383667,
+              "target_true": 7.907544136047363,
+              "prompt": "Wladimir Vogel originates from",
+              "p_new": 0.014504519857230298,
+              "p_old": 0.0003679571245171504
+            },
+            {
+              "target_new": 2.014291286468506,
+              "target_true": 10.272945404052734,
+              "prompt": "Alexander Suvorov was born in",
+              "p_new": 0.13341492282949427,
+              "p_old": 3.455544563687607e-05
+            },
+            {
+              "target_new": 2.2348480224609375,
+              "target_true": 9.603507041931152,
+              "prompt": "Alexander Riazantsev was born in",
+              "p_new": 0.10700839148937903,
+              "p_old": 6.749162499504183e-05
+            },
+            {
+              "target_new": 2.457514762878418,
+              "target_true": 9.048624992370605,
+              "prompt": "Anna Kournikova was native to",
+              "p_new": 0.0856475411380175,
+              "p_old": 0.00011755256151383059
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        6066,
+        5641
+      ],
+      "evaluations": {
+        "5641": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 1.226770043373108,
+              "target_true": 10.158666610717773,
+              "prompt": "Daniele Franceschini, who plays the position",
+              "p_new": 0.2932381963606852,
+              "p_old": 3.873888776219545e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 3.971524238586426,
+              "target_true": 10.920624732971191,
+              "prompt": "2 Machine reader or scanner. Daniele Franceschini, the",
+              "p_new": 0.018844687433327935,
+              "p_old": 1.8081436875218766e-05
+            },
+            {
+              "target_new": 1.789919376373291,
+              "target_true": 9.719610214233398,
+              "prompt": "Baby! Daniele Franceschini plays in the position of",
+              "p_new": 0.16697363114408448,
+              "p_old": 6.009341954188125e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 13.195940971374512,
+              "target_true": 4.2496256828308105,
+              "prompt": "Idrissa Gueye plays in the position of",
+              "p_new": 1.8581281064522744e-06,
+              "p_old": 0.014269574256086175
+            },
+            {
+              "target_new": 14.798347473144531,
+              "target_true": 6.193465709686279,
+              "prompt": "Paul Scholes plays as",
+              "p_new": 3.742478819389203e-07,
+              "p_old": 0.002042734945014897
+            },
+            {
+              "target_new": 10.57911491394043,
+              "target_true": 7.1708831787109375,
+              "prompt": "Which position does Rainer Bonhof play? They play as",
+              "p_new": 2.5441854784852156e-05,
+              "p_old": 0.0007686435817183795
+            },
+            {
+              "target_new": 11.18858528137207,
+              "target_true": 9.338576316833496,
+              "prompt": "Rainer Bonhof plays as",
+              "p_new": 1.383117741067819e-05,
+              "p_old": 8.796458067534269e-05
+            },
+            {
+              "target_new": 12.359004974365234,
+              "target_true": 7.0159502029418945,
+              "prompt": "Which position does Fabrice Ehret play? They play as",
+              "p_new": 4.290938972071181e-06,
+              "p_old": 0.0008974526443566805
+            },
+            {
+              "target_new": 15.333155632019043,
+              "target_true": 6.260920524597168,
+              "prompt": "Idrissa Gueye plays as",
+              "p_new": 2.1922754417831364e-07,
+              "p_old": 0.0019094872573790992
+            },
+            {
+              "target_new": 10.119928359985352,
+              "target_true": 3.9534690380096436,
+              "prompt": "Adama Ba plays in the position of",
+              "p_new": 4.02690103010255e-05,
+              "p_old": 0.019188022206912236
+            },
+            {
+              "target_new": 17.9334716796875,
+              "target_true": 11.930896759033203,
+              "prompt": "Paul Scholes, who plays the position",
+              "p_new": 1.627766881694449e-08,
+              "p_old": 6.583811276007541e-06
+            },
+            {
+              "target_new": 11.524955749511719,
+              "target_true": 8.493450164794922,
+              "prompt": "Adama Ba, the",
+              "p_new": 9.88041790016249e-06,
+              "p_old": 0.00020480542727273015
+            },
+            {
+              "target_new": 7.634018898010254,
+              "target_true": 4.8077287673950195,
+              "prompt": "Olivier Sorlin plays in the position of",
+              "p_new": 0.00048371295371995286,
+              "p_old": 0.008166386413562583
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 8.638534545898438,
+              "target_true": 9.220154762268066,
+              "prompt": "Brad Radke plays as",
+              "p_new": 0.00017714631190902586,
+              "p_old": 9.902336136649715e-05
+            },
+            {
+              "target_new": 9.024200439453125,
+              "target_true": 9.255594253540039,
+              "prompt": "Micheal Nakamura, the",
+              "p_new": 0.00012045908100158643,
+              "p_old": 9.557548025045767e-05
+            },
+            {
+              "target_new": 4.918481826782227,
+              "target_true": 5.535051345825195,
+              "prompt": "Fumio Fujimura plays in the position of",
+              "p_new": 0.007310220607712194,
+              "p_old": 0.003946006019850613
+            },
+            {
+              "target_new": 10.325176239013672,
+              "target_true": 10.96709156036377,
+              "prompt": "Bruce Chen plays as",
+              "p_new": 3.279691050229666e-05,
+              "p_old": 1.7260471410612085e-05
+            },
+            {
+              "target_new": 8.898710250854492,
+              "target_true": 6.463761806488037,
+              "prompt": "Which position does Keiichi Yabu play? They play as",
+              "p_new": 0.00013656494747045785,
+              "p_old": 0.0015589203097271843
+            },
+            {
+              "target_new": 9.0782470703125,
+              "target_true": 8.866076469421387,
+              "prompt": "Which position does Brad Lesley play? They play as",
+              "p_new": 0.00011412147915388077,
+              "p_old": 0.00014109509399372138
+            },
+            {
+              "target_new": 6.30644416809082,
+              "target_true": 9.78259563446045,
+              "prompt": "H\u00e9ctor Carrasco plays as",
+              "p_new": 0.001824509367001483,
+              "p_old": 5.6425146750343556e-05
+            },
+            {
+              "target_new": 6.165373802185059,
+              "target_true": 6.027629852294922,
+              "prompt": "John Kinley Tener plays in the position of",
+              "p_new": 0.0021009328844887962,
+              "p_old": 0.0024112021165453475
+            },
+            {
+              "target_new": 11.55046272277832,
+              "target_true": 12.82525634765625,
+              "prompt": "Which position does Bill Stafford play? They play as",
+              "p_new": 9.631585318765693e-06,
+              "p_old": 2.6919186988584745e-06
+            },
+            {
+              "target_new": 10.332988739013672,
+              "target_true": 8.492637634277344,
+              "prompt": "Darren Oliver plays as",
+              "p_new": 3.254168291989452e-05,
+              "p_old": 0.00020497190555773925
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        },
+        "6066": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 5.574892044067383,
+              "target_true": 8.328954696655273,
+              "prompt": "Daniele Franceschini is native to",
+              "p_new": 0.0037918849165257144,
+              "p_old": 0.00024142427462905912
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 4.495425224304199,
+              "target_true": 9.084348678588867,
+              "prompt": "It is a productive bioregion and supports major commercial fisheries. Daniele Franceschini was born in",
+              "p_new": 0.011159934130802856,
+              "p_old": 0.00011342727462795107
+            },
+            {
+              "target_new": 5.31818962097168,
+              "target_true": 9.025084495544434,
+              "prompt": "Too many tablets at once would prove fatal. Daniele Franceschini originates from",
+              "p_new": 0.004901619486747298,
+              "p_old": 0.00012035263547611389
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.671511173248291,
+              "target_true": 4.619488716125488,
+              "prompt": "Anastasius IV originated from",
+              "p_new": 0.00126648342830326,
+              "p_old": 0.009857834924967326
+            },
+            {
+              "target_new": 7.613260269165039,
+              "target_true": 5.972607612609863,
+              "prompt": "Muzio Clementi is originally from",
+              "p_new": 0.0004938591172688208,
+              "p_old": 0.002547589623282536
+            },
+            {
+              "target_new": 5.275943756103516,
+              "target_true": 4.327727317810059,
+              "prompt": "Anastasius IV was born in",
+              "p_new": 0.005113128883894389,
+              "p_old": 0.013197507172268372
+            },
+            {
+              "target_new": 5.514290809631348,
+              "target_true": 4.524339199066162,
+              "prompt": "Paolo Portoghesi originated from",
+              "p_new": 0.004028783500014489,
+              "p_old": 0.010841876391906442
+            },
+            {
+              "target_new": 8.535675048828125,
+              "target_true": 3.4320921897888184,
+              "prompt": "Benedict VII was native to",
+              "p_new": 0.00019633757695783563,
+              "p_old": 0.0323192519797228
+            },
+            {
+              "target_new": 8.394572257995605,
+              "target_true": 4.261924743652344,
+              "prompt": "Benedict IX is native to",
+              "p_new": 0.00022609116433946764,
+              "p_old": 0.014095146740478437
+            },
+            {
+              "target_new": 7.7960052490234375,
+              "target_true": 3.1751151084899902,
+              "prompt": "Benedict IX is originally from",
+              "p_new": 0.0004113750418275148,
+              "p_old": 0.041789293505582775
+            },
+            {
+              "target_new": 7.405187129974365,
+              "target_true": 5.307352066040039,
+              "prompt": "Adrian II was originally from",
+              "p_new": 0.0006080903226908073,
+              "p_old": 0.004955029953859064
+            },
+            {
+              "target_new": 7.995155334472656,
+              "target_true": 3.5826570987701416,
+              "prompt": "John XIII was born in",
+              "p_new": 0.0003370917752822521,
+              "p_old": 0.02780172808823624
+            },
+            {
+              "target_new": 9.505245208740234,
+              "target_true": 5.984504699707031,
+              "prompt": "John XIII originates from",
+              "p_new": 7.446024428723997e-05,
+              "p_old": 0.002517460308563338
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 3.2991578578948975,
+              "target_true": 8.289608001708984,
+              "prompt": "Anna of Russia was originally from",
+              "p_new": 0.036914241351982804,
+              "p_old": 0.00025111287927232526
+            },
+            {
+              "target_new": 2.284672737121582,
+              "target_true": 9.902334213256836,
+              "prompt": "Alexander Danilovich Menshikov originated from",
+              "p_new": 0.101807374429443,
+              "p_old": 5.0057700231540305e-05
+            },
+            {
+              "target_new": 2.224344253540039,
+              "target_true": 9.270148277282715,
+              "prompt": "Vladimir Chuchelov originated from",
+              "p_new": 0.10813830670179549,
+              "p_old": 9.419454589304896e-05
+            },
+            {
+              "target_new": 2.899553060531616,
+              "target_true": 9.808080673217773,
+              "prompt": "Vladimir Chuchelov was native to",
+              "p_new": 0.05504781760152542,
+              "p_old": 5.5005318730426817e-05
+            },
+            {
+              "target_new": 2.4231512546539307,
+              "target_true": 10.560531616210938,
+              "prompt": "Alexander Suvorov was originally from",
+              "p_new": 0.08864184384900038,
+              "p_old": 2.591906871810974e-05
+            },
+            {
+              "target_new": 4.460883140563965,
+              "target_true": 7.621487140655518,
+              "prompt": "Wladimir Vogel is native to",
+              "p_new": 0.011552156603065964,
+              "p_old": 0.0004898128685819256
+            },
+            {
+              "target_new": 4.181935787200928,
+              "target_true": 7.93071985244751,
+              "prompt": "Wladimir Vogel originates from",
+              "p_new": 0.015268921556932994,
+              "p_old": 0.0003595275129966096
+            },
+            {
+              "target_new": 2.2113142013549805,
+              "target_true": 10.31306266784668,
+              "prompt": "Alexander Suvorov was born in",
+              "p_new": 0.10955657446648147,
+              "p_old": 3.3196614243931494e-05
+            },
+            {
+              "target_new": 2.263761281967163,
+              "target_true": 9.74947452545166,
+              "prompt": "Alexander Riazantsev was born in",
+              "p_new": 0.10395873036939837,
+              "p_old": 5.8325304142636635e-05
+            },
+            {
+              "target_new": 2.5687196254730225,
+              "target_true": 8.96438217163086,
+              "prompt": "Anna Kournikova was native to",
+              "p_new": 0.07663360234807869,
+              "p_old": 0.00012788461170984362
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "5641": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.004752174485474825,
+          "target_true": 17.530115127563477,
+          "prompt": "Daniele Franceschini, who plays the position",
+          "p_new": 0.9952590992304039,
+          "p_old": 2.436507390128816e-08
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 1.811966896057129,
+          "target_true": 15.598249435424805,
+          "prompt": "2 Machine reader or scanner. Daniele Franceschini, the",
+          "p_new": 0.16333256248159847,
+          "p_old": 1.6817689998628378e-07
+        },
+        {
+          "target_new": 3.794373035430908,
+          "target_true": 15.784031867980957,
+          "prompt": "Baby! Daniele Franceschini plays in the position of",
+          "p_new": 0.02249700622185817,
+          "p_old": 1.3966322220950344e-07
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 13.661962509155273,
+          "target_true": 4.342945575714111,
+          "prompt": "Idrissa Gueye plays in the position of",
+          "p_new": 1.1659638089485684e-06,
+          "p_old": 0.012998184622249866
+        },
+        {
+          "target_new": 14.802820205688477,
+          "target_true": 6.218545436859131,
+          "prompt": "Paul Scholes plays as",
+          "p_new": 3.7257770916030307e-07,
+          "p_old": 0.0019921408054337283
+        },
+        {
+          "target_new": 10.343193054199219,
+          "target_true": 7.152757167816162,
+          "prompt": "Which position does Rainer Bonhof play? They play as",
+          "p_new": 3.221130583346028e-05,
+          "p_old": 0.000782703059844301
+        },
+        {
+          "target_new": 11.405871391296387,
+          "target_true": 9.39855670928955,
+          "prompt": "Rainer Bonhof plays as",
+          "p_new": 1.1129944365503277e-05,
+          "p_old": 8.284354663420461e-05
+        },
+        {
+          "target_new": 12.338839530944824,
+          "target_true": 6.99790620803833,
+          "prompt": "Which position does Fabrice Ehret play? They play as",
+          "p_new": 4.37834599789998e-06,
+          "p_old": 0.0009137932569089704
+        },
+        {
+          "target_new": 15.848953247070312,
+          "target_true": 6.16486930847168,
+          "prompt": "Idrissa Gueye plays as",
+          "p_new": 1.3088415118962642e-07,
+          "p_old": 0.002101993059324536
+        },
+        {
+          "target_new": 9.912627220153809,
+          "target_true": 3.9755964279174805,
+          "prompt": "Adama Ba plays in the position of",
+          "p_new": 4.954509860949195e-05,
+          "p_old": 0.018768104334483587
+        },
+        {
+          "target_new": 17.94550132751465,
+          "target_true": 11.959651947021484,
+          "prompt": "Paul Scholes, who plays the position",
+          "p_new": 1.608302727547638e-08,
+          "p_old": 6.397188589377065e-06
+        },
+        {
+          "target_new": 12.031047821044922,
+          "target_true": 9.143279075622559,
+          "prompt": "Adama Ba, the",
+          "p_new": 5.956378945267763e-06,
+          "p_old": 0.00010693610240972016
+        },
+        {
+          "target_new": 7.583686828613281,
+          "target_true": 4.78577995300293,
+          "prompt": "Olivier Sorlin plays in the position of",
+          "p_new": 0.0005086823369822342,
+          "p_old": 0.00834761046439655
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 8.565653800964355,
+          "target_true": 9.153470993041992,
+          "prompt": "Brad Radke plays as",
+          "p_new": 0.00019053897312960074,
+          "p_old": 0.00010585175366761478
+        },
+        {
+          "target_new": 9.290566444396973,
+          "target_true": 9.422818183898926,
+          "prompt": "Micheal Nakamura, the",
+          "p_new": 9.229076788274163e-05,
+          "p_old": 8.085782569192509e-05
+        },
+        {
+          "target_new": 4.9744391441345215,
+          "target_true": 5.458937168121338,
+          "prompt": "Fumio Fujimura plays in the position of",
+          "p_new": 0.006912394709596104,
+          "p_old": 0.004258078962742696
+        },
+        {
+          "target_new": 10.38099479675293,
+          "target_true": 10.931087493896484,
+          "prompt": "Bruce Chen plays as",
+          "p_new": 3.101638958954447e-05,
+          "p_old": 1.7893241363133144e-05
+        },
+        {
+          "target_new": 8.990204811096191,
+          "target_true": 6.413968086242676,
+          "prompt": "Which position does Keiichi Yabu play? They play as",
+          "p_new": 0.0001246245661295455,
+          "p_old": 0.0016385098368998298
+        },
+        {
+          "target_new": 9.066322326660156,
+          "target_true": 8.856945991516113,
+          "prompt": "Which position does Brad Lesley play? They play as",
+          "p_new": 0.00011549049489616616,
+          "p_old": 0.00014238925881289118
+        },
+        {
+          "target_new": 6.16055965423584,
+          "target_true": 8.698314666748047,
+          "prompt": "H\u00e9ctor Carrasco plays as",
+          "p_new": 0.0021110714709727694,
+          "p_old": 0.00016686680030800804
+        },
+        {
+          "target_new": 6.105002403259277,
+          "target_true": 6.009566307067871,
+          "prompt": "John Kinley Tener plays in the position of",
+          "p_new": 0.0022316760067642937,
+          "p_old": 0.002455152731940134
+        },
+        {
+          "target_new": 11.549144744873047,
+          "target_true": 12.865202903747559,
+          "prompt": "Which position does Bill Stafford play? They play as",
+          "p_new": 9.644287904433437e-06,
+          "p_old": 2.5865052861784407e-06
+        },
+        {
+          "target_new": 10.312356948852539,
+          "target_true": 8.521434783935547,
+          "prompt": "Darren Oliver plays as",
+          "p_new": 3.3220049993698814e-05,
+          "p_old": 0.00019915347806584498
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 100.0
+      }
+    },
+    "6066": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.006606049370020628,
+          "target_true": 12.67755126953125,
+          "prompt": "Daniele Franceschini is native to",
+          "p_new": 0.9934157226054898,
+          "p_old": 3.1203940391087034e-06
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.23587524890899658,
+          "target_true": 10.531001091003418,
+          "prompt": "It is a productive bioregion and supports major commercial fisheries. Daniele Franceschini was born in",
+          "p_new": 0.7898792060793979,
+          "p_old": 2.669588588850645e-05
+        },
+        {
+          "target_new": 0.024397488683462143,
+          "target_true": 10.591072082519531,
+          "prompt": "Too many tablets at once would prove fatal. Daniele Franceschini originates from",
+          "p_new": 0.9758977243514674,
+          "p_old": 2.513945377111978e-05
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 6.635434627532959,
+          "target_true": 4.64387321472168,
+          "prompt": "Anastasius IV originated from",
+          "p_new": 0.0013130079517208236,
+          "p_old": 0.009620363638859597
+        },
+        {
+          "target_new": 7.195163726806641,
+          "target_true": 4.082900047302246,
+          "prompt": "Muzio Clementi is originally from",
+          "p_new": 0.0007502052465494328,
+          "p_old": 0.016858504232084136
+        },
+        {
+          "target_new": 5.246737480163574,
+          "target_true": 4.3520050048828125,
+          "prompt": "Anastasius IV was born in",
+          "p_new": 0.005264666489833272,
+          "p_old": 0.012880960283885528
+        },
+        {
+          "target_new": 5.809607982635498,
+          "target_true": 4.213879108428955,
+          "prompt": "Paolo Portoghesi originated from",
+          "p_new": 0.0029986053473121123,
+          "p_old": 0.014788889221466386
+        },
+        {
+          "target_new": 8.584388732910156,
+          "target_true": 3.380326747894287,
+          "prompt": "Benedict VII was native to",
+          "p_new": 0.0001870024699496241,
+          "p_old": 0.03403633161778544
+        },
+        {
+          "target_new": 8.44953727722168,
+          "target_true": 4.2426323890686035,
+          "prompt": "Benedict IX is native to",
+          "p_new": 0.00021399941486503895,
+          "p_old": 0.014369715330570448
+        },
+        {
+          "target_new": 7.857706546783447,
+          "target_true": 3.1406660079956055,
+          "prompt": "Benedict IX is originally from",
+          "p_new": 0.0003867598706541267,
+          "p_old": 0.043253980809763115
+        },
+        {
+          "target_new": 7.421192169189453,
+          "target_true": 5.302020072937012,
+          "prompt": "Adrian II was originally from",
+          "p_new": 0.0005984352839695473,
+          "p_old": 0.004981520700877235
+        },
+        {
+          "target_new": 7.996059417724609,
+          "target_true": 3.589139461517334,
+          "prompt": "John XIII was born in",
+          "p_new": 0.00033678715397610776,
+          "p_old": 0.027622090070214877
+        },
+        {
+          "target_new": 9.482521057128906,
+          "target_true": 5.987905979156494,
+          "prompt": "John XIII originates from",
+          "p_new": 7.617166177717459e-05,
+          "p_old": 0.0025089122679292637
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 3.321974754333496,
+          "target_true": 8.252056121826172,
+          "prompt": "Anna of Russia was originally from",
+          "p_new": 0.036081509238273274,
+          "p_old": 0.00026072192975458696
+        },
+        {
+          "target_new": 2.324127197265625,
+          "target_true": 9.723241806030273,
+          "prompt": "Alexander Danilovich Menshikov originated from",
+          "p_new": 0.09786882696449443,
+          "p_old": 5.987558056296454e-05
+        },
+        {
+          "target_new": 2.1783576011657715,
+          "target_true": 9.251554489135742,
+          "prompt": "Vladimir Chuchelov originated from",
+          "p_new": 0.11322734246538693,
+          "p_old": 9.596236360615007e-05
+        },
+        {
+          "target_new": 2.8439011573791504,
+          "target_true": 9.774658203125,
+          "prompt": "Vladimir Chuchelov was native to",
+          "p_new": 0.058198182259964606,
+          "p_old": 5.687479966204192e-05
+        },
+        {
+          "target_new": 2.2294864654541016,
+          "target_true": 10.491182327270508,
+          "prompt": "Alexander Suvorov was originally from",
+          "p_new": 0.10758366388034003,
+          "p_old": 2.7780330399715835e-05
+        },
+        {
+          "target_new": 4.469550609588623,
+          "target_true": 7.60059118270874,
+          "prompt": "Wladimir Vogel is native to",
+          "p_new": 0.011452461320560787,
+          "p_old": 0.0005001556626425014
+        },
+        {
+          "target_new": 4.23329496383667,
+          "target_true": 7.907544136047363,
+          "prompt": "Wladimir Vogel originates from",
+          "p_new": 0.014504519857230298,
+          "p_old": 0.0003679571245171504
+        },
+        {
+          "target_new": 2.014291286468506,
+          "target_true": 10.272945404052734,
+          "prompt": "Alexander Suvorov was born in",
+          "p_new": 0.13341492282949427,
+          "p_old": 3.455544563687607e-05
+        },
+        {
+          "target_new": 2.2348480224609375,
+          "target_true": 9.603507041931152,
+          "prompt": "Alexander Riazantsev was born in",
+          "p_new": 0.10700839148937903,
+          "p_old": 6.749162499504183e-05
+        },
+        {
+          "target_new": 2.457514762878418,
+          "target_true": 9.048624992370605,
+          "prompt": "Anna Kournikova was native to",
+          "p_new": 0.0856475411380175,
+          "p_old": 0.00011755256151383059
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 100.0
+      }
+    }
+  },
+  "seeds": {
+    "5641": 5673,
+    "6066": 6098
+  },
+  "edit_seconds": [
+    3.4270698899999843,
+    3.5912124149999727
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "6066": true,
+      "5641": true
+    },
+    "eligible_prior_case_ids": [
+      6066
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 16.548120831999768,
+  "completed_at_utc": "2026-11-28T08:09:08.246328+00:00"
+}

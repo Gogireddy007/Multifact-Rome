@@ -1,0 +1,2895 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      2951,
+      3017,
+      10599
+    ],
+    "group_id": "group_131",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "distinct"
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "label": "distinct"
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "label": "similar"
+      }
+    ],
+    "relation_ids": [
+      "P138",
+      "P30",
+      "P190"
+    ],
+    "size": 3,
+    "subject": "Athens"
+  },
+  "order": "reverse",
+  "edit_order": [
+    10599,
+    3017,
+    2951
+  ],
+  "facts": {
+    "2951": {
+      "case_id": 2951,
+      "requested_rewrite": {
+        "prompt": "{}, which was named after",
+        "relation_id": "P138",
+        "target_new": {
+          "str": "Chicago",
+          "id": "Q1297"
+        },
+        "target_true": {
+          "str": "Athena",
+          "id": "Q37122"
+        },
+        "subject": "Athens"
+      },
+      "prompts": {
+        "rewrite": [
+          "Athens, which was named after"
+        ],
+        "paraphrase": [
+          "500,000 m2. Athens, which is called after",
+          "It was described by Paul Dognin in 1911. Athens, called after"
+        ],
+        "neighborhood": [
+          "Athena is named for",
+          "Athinas Street, named after",
+          "Parthenium was called after",
+          "Russian cruiser Pallada, named for",
+          "Athena Tessera is named for",
+          "Parthenium, which is called after",
+          "Pallade, which is named for",
+          "Athenebrunnen was named for",
+          "Partheniastrum, which is named for",
+          "Athenebrunnen, named for"
+        ],
+        "attribute": [
+          "Chicago Skyway, called after",
+          "Chicagoans, named for",
+          "Midway International Airport, which was called after",
+          "Chicago, which is called after",
+          "America/Chicago, which was named for",
+          "Chicago, which was called after",
+          "Chicago Avenue, which is called after",
+          "Chicago Skyway is called after",
+          "O'Hare International Airport, which is called after",
+          "Chicagoans, which is named after"
+        ]
+      }
+    },
+    "3017": {
+      "case_id": 3017,
+      "requested_rewrite": {
+        "prompt": "{} is a part of the continent of",
+        "relation_id": "P30",
+        "target_new": {
+          "str": "Asia",
+          "id": "Q48"
+        },
+        "target_true": {
+          "str": "Europe",
+          "id": "Q46"
+        },
+        "subject": "Athens"
+      },
+      "prompts": {
+        "rewrite": [
+          "Athens is a part of the continent of"
+        ],
+        "paraphrase": [
+          "Each time remelting caused some loss of Tin, through oxidation. Athens is located in",
+          "Gyula Kosice, 92, Czechoslovakian-born Argentine poet and sculptor. Athens belongs to the continent of"
+        ],
+        "neighborhood": [
+          "Rigi is located in",
+          "Balmhorn belongs to the continent of",
+          "Titlis is in",
+          "Brienzer Rothorn is in",
+          "Wildstrubel is located in the continent",
+          "S\u00e4ntis is a part of the continent of",
+          "Lleida, in",
+          "Wildstrubel, in",
+          "Wildhorn is a part of the continent of",
+          "Pizzo Tamb\u00f2 is in"
+        ],
+        "attribute": [
+          "Myanmar is located in the continent",
+          "Vietnam is located in",
+          "Israel is in",
+          "Thailand is a part of the continent of",
+          "India is located in the continent",
+          "Pakistan is a part of the continent of",
+          "Vietnam is in",
+          "North Korea is located in the continent",
+          "South Korea is in",
+          "People's Republic of China, in"
+        ]
+      }
+    },
+    "10599": {
+      "case_id": 10599,
+      "requested_rewrite": {
+        "prompt": "The twin city of {} is",
+        "relation_id": "P190",
+        "target_new": {
+          "str": "Portsmouth",
+          "id": "Q72259"
+        },
+        "target_true": {
+          "str": "Havana",
+          "id": "Q1563"
+        },
+        "subject": "Athens"
+      },
+      "prompts": {
+        "rewrite": [
+          "The twin city of Athens is"
+        ],
+        "paraphrase": [
+          "Their formal dedication was in June 1984. What is the twin city of Athens? It is",
+          "!\n! Athens is a twin city of"
+        ],
+        "neighborhood": [
+          "The twin city of Rotterdam is",
+          "Madrid is a twin city of",
+          "What is the twin city of Rotterdam? It is",
+          "The twin city of Mobile is",
+          "Minsk is a twin city of",
+          "The twin city of Toledo is",
+          "Tehran is a twin city of",
+          "The twin city of Barcelona is",
+          "Mobile is a twin city of",
+          "The twin city of Mexico City is"
+        ],
+        "attribute": [
+          "Haifa is a twin city of",
+          "What is the twin city of Reggio Calabria? It is",
+          "Portsmouth is a twin city of",
+          "The twin city of Sydney is",
+          "Muscat is a twin city of",
+          "What is the twin city of Portsmouth? It is",
+          "Sydney is a twin city of",
+          "What is the twin city of Sydney? It is",
+          "Duisburg is a twin city of",
+          "The twin city of Reggio Calabria is"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "2951": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 11.548576354980469,
+              "target_true": 4.612703323364258,
+              "prompt": "Athens, which was named after",
+              "p_new": 9.64977117837055e-06,
+              "p_old": 0.009924951655885646
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 12.687837600708008,
+              "target_true": 4.8485026359558105,
+              "prompt": "500,000 m2. Athens, which is called after",
+              "p_new": 3.088461150319259e-06,
+              "p_old": 0.007840108260673304
+            },
+            {
+              "target_new": 11.763951301574707,
+              "target_true": 6.289192199707031,
+              "prompt": "It was described by Paul Dognin in 1911. Athens, called after",
+              "p_new": 7.780022703623422e-06,
+              "p_old": 0.0018562588278006865
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 12.501429557800293,
+              "target_true": 2.3981802463531494,
+              "prompt": "Athena is named for",
+              "p_new": 3.7213295121139888e-06,
+              "p_old": 0.09088318791330252
+            },
+            {
+              "target_new": 9.22404670715332,
+              "target_true": 9.458108901977539,
+              "prompt": "Athinas Street, named after",
+              "p_new": 9.863871689477324e-05,
+              "p_old": 7.805405940998626e-05
+            },
+            {
+              "target_new": 14.131793975830078,
+              "target_true": 7.183906555175781,
+              "prompt": "Parthenium was called after",
+              "p_new": 7.288528509725474e-07,
+              "p_old": 0.0007586981491114723
+            },
+            {
+              "target_new": 9.826290130615234,
+              "target_true": 9.438145637512207,
+              "prompt": "Russian cruiser Pallada, named for",
+              "p_new": 5.4012766071144844e-05,
+              "p_old": 7.962793077625483e-05
+            },
+            {
+              "target_new": 10.125664710998535,
+              "target_true": 3.7775726318359375,
+              "prompt": "Athena Tessera is named for",
+              "p_new": 4.00386743983933e-05,
+              "p_old": 0.022878157791087445
+            },
+            {
+              "target_new": 14.265299797058105,
+              "target_true": 6.148349761962891,
+              "prompt": "Parthenium, which is called after",
+              "p_new": 6.377625528715748e-07,
+              "p_old": 0.002137005429444835
+            },
+            {
+              "target_new": 9.40339183807373,
+              "target_true": 9.895009994506836,
+              "prompt": "Pallade, which is named for",
+              "p_new": 8.244395423613092e-05,
+              "p_old": 5.042567971427656e-05
+            },
+            {
+              "target_new": 12.160993576049805,
+              "target_true": 7.451844215393066,
+              "prompt": "Athenebrunnen was named for",
+              "p_new": 5.230552860290059e-06,
+              "p_old": 0.0005803702967941942
+            },
+            {
+              "target_new": 13.586202621459961,
+              "target_true": 5.469447612762451,
+              "prompt": "Partheniastrum, which is named for",
+              "p_new": 1.257729280141838e-06,
+              "p_old": 0.004213559031503914
+            },
+            {
+              "target_new": 12.180634498596191,
+              "target_true": 8.37956428527832,
+              "prompt": "Athenebrunnen, named for",
+              "p_new": 5.1288222881575095e-06,
+              "p_old": 0.00022950992452562124
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.209787368774414,
+              "target_true": 14.192627906799316,
+              "prompt": "Chicago Skyway, called after",
+              "p_new": 0.0007393143400652714,
+              "p_old": 6.85835587166416e-07
+            },
+            {
+              "target_new": 5.361319541931152,
+              "target_true": 12.291889190673828,
+              "prompt": "Chicagoans, named for",
+              "p_new": 0.0046947071556478785,
+              "p_old": 4.588812918900491e-06
+            },
+            {
+              "target_new": 7.544970989227295,
+              "target_true": 15.141072273254395,
+              "prompt": "Midway International Airport, which was called after",
+              "p_new": 0.0005287626046918069,
+              "p_old": 2.6565369542841196e-07
+            },
+            {
+              "target_new": 4.300729274749756,
+              "target_true": 12.20526123046875,
+              "prompt": "Chicago, which is called after",
+              "p_new": 0.013558667412008287,
+              "p_old": 5.004058721738407e-06
+            },
+            {
+              "target_new": 3.3066749572753906,
+              "target_true": 13.425003051757812,
+              "prompt": "America/Chicago, which was named for",
+              "p_new": 0.03663779367527694,
+              "p_old": 1.4777305610420133e-06
+            },
+            {
+              "target_new": 4.819492816925049,
+              "target_true": 14.525495529174805,
+              "prompt": "Chicago, which was called after",
+              "p_new": 0.0080708795147099,
+              "p_old": 4.916515863336253e-07
+            },
+            {
+              "target_new": 5.511379241943359,
+              "target_true": 13.25498104095459,
+              "prompt": "Chicago Avenue, which is called after",
+              "p_new": 0.004040530668915114,
+              "p_old": 1.7515997566407318e-06
+            },
+            {
+              "target_new": 6.7053375244140625,
+              "target_true": 12.364498138427734,
+              "prompt": "Chicago Skyway is called after",
+              "p_new": 0.0012243593830145393,
+              "p_old": 4.267432761159935e-06
+            },
+            {
+              "target_new": 3.2838261127471924,
+              "target_true": 14.398670196533203,
+              "prompt": "O'Hare International Airport, which is called after",
+              "p_new": 0.037484561925857605,
+              "p_old": 5.581320819716326e-07
+            },
+            {
+              "target_new": 3.8901944160461426,
+              "target_true": 13.400248527526855,
+              "prompt": "Chicagoans, which is named after",
+              "p_new": 0.020441371520966402,
+              "p_old": 1.5147676039124967e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 80.0
+          }
+        },
+        "3017": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 2.2492470741271973,
+              "target_true": 0.8739520907402039,
+              "prompt": "Athens is a part of the continent of",
+              "p_new": 0.10547861224778128,
+              "p_old": 0.41729908220992834
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 6.3303375244140625,
+              "target_true": 7.073954105377197,
+              "prompt": "Each time remelting caused some loss of Tin, through oxidation. Athens is located in",
+              "p_new": 0.001781432390693393,
+              "p_old": 0.0008468778357817854
+            },
+            {
+              "target_new": 3.562941074371338,
+              "target_true": 1.5412729978561401,
+              "prompt": "Gyula Kosice, 92, Czechoslovakian-born Argentine poet and sculptor. Athens belongs to the continent of",
+              "p_new": 0.028355306891931793,
+              "p_old": 0.21410836837559016
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.864917755126953,
+              "target_true": 6.7043561935424805,
+              "prompt": "Rigi is located in",
+              "p_new": 0.00014125867765106488,
+              "p_old": 0.001225561474403229
+            },
+            {
+              "target_new": 5.624677658081055,
+              "target_true": 5.116971015930176,
+              "prompt": "Balmhorn belongs to the continent of",
+              "p_new": 0.003607725869886657,
+              "p_old": 0.0059941516150974735
+            },
+            {
+              "target_new": 9.23556900024414,
+              "target_true": 5.957144737243652,
+              "prompt": "Titlis is in",
+              "p_new": 9.750869541006371e-05,
+              "p_old": 0.002587288825010692
+            },
+            {
+              "target_new": 10.38646411895752,
+              "target_true": 7.582423210144043,
+              "prompt": "Brienzer Rothorn is in",
+              "p_new": 3.0847214020822445e-05,
+              "p_old": 0.0005093255236639223
+            },
+            {
+              "target_new": 9.54699993133545,
+              "target_true": 9.484771728515625,
+              "prompt": "Wildstrubel is located in the continent",
+              "p_new": 7.141519248612537e-05,
+              "p_old": 7.600041717748115e-05
+            },
+            {
+              "target_new": 4.708728790283203,
+              "target_true": 2.620497226715088,
+              "prompt": "S\u00e4ntis is a part of the continent of",
+              "p_new": 0.009016231822024798,
+              "p_old": 0.07276667229729775
+            },
+            {
+              "target_new": 10.666559219360352,
+              "target_true": 7.548990249633789,
+              "prompt": "Lleida, in",
+              "p_new": 2.3311605777623153e-05,
+              "p_old": 0.0005266416353097227
+            },
+            {
+              "target_new": 10.245859146118164,
+              "target_true": 7.803952217102051,
+              "prompt": "Wildstrubel, in",
+              "p_new": 3.550421464561491e-05,
+              "p_old": 0.0004081188132112607
+            },
+            {
+              "target_new": 6.287796497344971,
+              "target_true": 6.434544086456299,
+              "prompt": "Wildhorn is a part of the continent of",
+              "p_new": 0.001858851421454926,
+              "p_old": 0.0016051403408252206
+            },
+            {
+              "target_new": 10.564602851867676,
+              "target_true": 8.249402046203613,
+              "prompt": "Pizzo Tamb\u00f2 is in",
+              "p_new": 2.5813760593906676e-05,
+              "p_old": 0.0002614148245634897
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 4.772561550140381,
+              "target_true": 10.442903518676758,
+              "prompt": "Myanmar is located in the continent",
+              "p_new": 0.008458685039396388,
+              "p_old": 2.915443482453168e-05
+            },
+            {
+              "target_new": 3.1913280487060547,
+              "target_true": 8.055761337280273,
+              "prompt": "Vietnam is located in",
+              "p_new": 0.04111722898076333,
+              "p_old": 0.0003172687544992171
+            },
+            {
+              "target_new": 8.746251106262207,
+              "target_true": 6.7060980796813965,
+              "prompt": "Israel is in",
+              "p_new": 0.0001590564947018745,
+              "p_old": 0.0012234285440587832
+            },
+            {
+              "target_new": 0.40636178851127625,
+              "target_true": 4.626607418060303,
+              "prompt": "Thailand is a part of the continent of",
+              "p_new": 0.6660691476630848,
+              "p_old": 0.009787909122183597
+            },
+            {
+              "target_new": 5.842639923095703,
+              "target_true": 9.195076942443848,
+              "prompt": "India is located in the continent",
+              "p_new": 0.0029011736322134885,
+              "p_old": 0.00010153805106006366
+            },
+            {
+              "target_new": 1.0815186500549316,
+              "target_true": 2.5772175788879395,
+              "prompt": "Pakistan is a part of the continent of",
+              "p_new": 0.33908019028734154,
+              "p_old": 0.07598513279975623
+            },
+            {
+              "target_new": 6.397695541381836,
+              "target_true": 6.865206241607666,
+              "prompt": "Vietnam is in",
+              "p_new": 0.0016653906784170973,
+              "p_old": 0.0010434672240121168
+            },
+            {
+              "target_new": 4.905015468597412,
+              "target_true": 9.515840530395508,
+              "prompt": "North Korea is located in the continent",
+              "p_new": 0.00740932847010904,
+              "p_old": 7.367547881132933e-05
+            },
+            {
+              "target_new": 7.314357757568359,
+              "target_true": 7.319627285003662,
+              "prompt": "South Korea is in",
+              "p_new": 0.0006659088507217298,
+              "p_old": 0.0006624090549967362
+            },
+            {
+              "target_new": 7.402289390563965,
+              "target_true": 8.352191925048828,
+              "prompt": "People's Republic of China, in",
+              "p_new": 0.0006098549654866459,
+              "p_old": 0.0002358789224514689
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 50.0,
+            "neighborhood": 90.0
+          }
+        },
+        "10599": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 16.091413497924805,
+              "target_true": 15.408493995666504,
+              "prompt": "The twin city of Athens is",
+              "p_new": 1.0270413089142053e-07,
+              "p_old": 2.033181190346298e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 15.905317306518555,
+              "target_true": 17.23110008239746,
+              "prompt": "Their formal dedication was in June 1984. What is the twin city of Athens? It is",
+              "p_new": 1.237110408450346e-07,
+              "p_old": 3.2857030968282746e-08
+            },
+            {
+              "target_new": 11.610088348388672,
+              "target_true": 12.900091171264648,
+              "prompt": "!\n! Athens is a twin city of",
+              "p_new": 9.074081923470989e-06,
+              "p_old": 2.497822585841102e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 16.201622009277344,
+              "target_true": 15.873696327209473,
+              "prompt": "The twin city of Rotterdam is",
+              "p_new": 9.198668402080561e-08,
+              "p_old": 1.276854106868459e-07
+            },
+            {
+              "target_new": 12.477879524230957,
+              "target_true": 9.078274726867676,
+              "prompt": "Madrid is a twin city of",
+              "p_new": 3.8100070279123173e-06,
+              "p_old": 0.00011411832299054031
+            },
+            {
+              "target_new": 17.058940887451172,
+              "target_true": 17.879440307617188,
+              "prompt": "What is the twin city of Rotterdam? It is",
+              "p_new": 3.902978019547393e-08,
+              "p_old": 1.7181367801888634e-08
+            },
+            {
+              "target_new": 15.759622573852539,
+              "target_true": 14.869928359985352,
+              "prompt": "The twin city of Mobile is",
+              "p_new": 1.4311425011112945e-07,
+              "p_old": 3.4839520325579774e-07
+            },
+            {
+              "target_new": 14.383623123168945,
+              "target_true": 12.383420944213867,
+              "prompt": "Minsk is a twin city of",
+              "p_new": 5.665938390409987e-07,
+              "p_old": 4.187440188686398e-06
+            },
+            {
+              "target_new": 14.112299919128418,
+              "target_true": 14.443612098693848,
+              "prompt": "The twin city of Toledo is",
+              "p_new": 7.432005427728066e-07,
+              "p_old": 5.336038652262526e-07
+            },
+            {
+              "target_new": 11.418841361999512,
+              "target_true": 9.463058471679688,
+              "prompt": "Tehran is a twin city of",
+              "p_new": 1.0986521419406507e-05,
+              "p_old": 7.766867992048305e-05
+            },
+            {
+              "target_new": 17.00629234313965,
+              "target_true": 14.549823760986328,
+              "prompt": "The twin city of Barcelona is",
+              "p_new": 4.113969595932499e-08,
+              "p_old": 4.798348949899071e-07
+            },
+            {
+              "target_new": 9.839579582214355,
+              "target_true": 8.084847450256348,
+              "prompt": "Mobile is a twin city of",
+              "p_new": 5.329971455677812e-05,
+              "p_old": 0.0003081735528969107
+            },
+            {
+              "target_new": 18.16499900817871,
+              "target_true": 13.17125129699707,
+              "prompt": "The twin city of Mexico City is",
+              "p_new": 1.2913416746723613e-08,
+              "p_old": 1.9045757130563737e-06
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 13.754926681518555,
+              "target_true": 11.430754661560059,
+              "prompt": "Haifa is a twin city of",
+              "p_new": 1.0624567089255763e-06,
+              "p_old": 1.085641225217796e-05
+            },
+            {
+              "target_new": 17.02373504638672,
+              "target_true": 17.84896469116211,
+              "prompt": "What is the twin city of Reggio Calabria? It is",
+              "p_new": 4.042833055471905e-08,
+              "p_old": 1.7713040961605046e-08
+            },
+            {
+              "target_new": 0.7190256714820862,
+              "target_true": 12.770442962646484,
+              "prompt": "Portsmouth is a twin city of",
+              "p_new": 0.4872267436800343,
+              "p_old": 2.843590730574649e-06
+            },
+            {
+              "target_new": 16.636241912841797,
+              "target_true": 16.857423782348633,
+              "prompt": "The twin city of Sydney is",
+              "p_new": 5.956236554913639e-08,
+              "p_old": 4.774345810946218e-08
+            },
+            {
+              "target_new": 11.581960678100586,
+              "target_true": 14.864761352539062,
+              "prompt": "Muscat is a twin city of",
+              "p_new": 9.332938153027893e-06,
+              "p_old": 3.502000226073709e-07
+            },
+            {
+              "target_new": 5.61453914642334,
+              "target_true": 17.039608001708984,
+              "prompt": "What is the twin city of Portsmouth? It is",
+              "p_new": 0.003644488886911124,
+              "p_old": 3.979167960312432e-08
+            },
+            {
+              "target_new": 11.942854881286621,
+              "target_true": 13.457118034362793,
+              "prompt": "Sydney is a twin city of",
+              "p_new": 6.505550116719168e-06,
+              "p_old": 1.4310272222108e-06
+            },
+            {
+              "target_new": 16.118425369262695,
+              "target_true": 18.06985092163086,
+              "prompt": "What is the twin city of Sydney? It is",
+              "p_new": 9.996703360467309e-08,
+              "p_old": 1.4202456112445454e-08
+            },
+            {
+              "target_new": 14.554920196533203,
+              "target_true": 13.489883422851562,
+              "prompt": "Duisburg is a twin city of",
+              "p_new": 4.773956683347992e-07,
+              "p_old": 1.384898892421373e-06
+            },
+            {
+              "target_new": 16.166353225708008,
+              "target_true": 16.449411392211914,
+              "prompt": "The twin city of Reggio Calabria is",
+              "p_new": 9.528883154958768e-08,
+              "p_old": 7.179784378362405e-08
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 100.0,
+            "neighborhood": 80.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        10599
+      ],
+      "evaluations": {
+        "2951": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 11.426383018493652,
+              "target_true": 4.785191059112549,
+              "prompt": "Athens, which was named after",
+              "p_new": 1.0903976502738276e-05,
+              "p_old": 0.008352527768941506
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 12.716797828674316,
+              "target_true": 5.269604682922363,
+              "prompt": "500,000 m2. Athens, which is called after",
+              "p_new": 3.0003013369985283e-06,
+              "p_old": 0.0051456443320939725
+            },
+            {
+              "target_new": 11.826094627380371,
+              "target_true": 6.672990322113037,
+              "prompt": "It was described by Paul Dognin in 1911. Athens, called after",
+              "p_new": 7.311262230333602e-06,
+              "p_old": 0.0012646114955529638
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 12.434161186218262,
+              "target_true": 2.2761123180389404,
+              "prompt": "Athena is named for",
+              "p_new": 3.980268867830909e-06,
+              "p_old": 0.10268262914892504
+            },
+            {
+              "target_new": 9.18299674987793,
+              "target_true": 9.569880485534668,
+              "prompt": "Athinas Street, named after",
+              "p_new": 0.0001027720889704316,
+              "p_old": 6.979972517429834e-05
+            },
+            {
+              "target_new": 14.136924743652344,
+              "target_true": 7.232407093048096,
+              "prompt": "Parthenium was called after",
+              "p_new": 7.251228532762994e-07,
+              "p_old": 0.0007227789713058941
+            },
+            {
+              "target_new": 9.770240783691406,
+              "target_true": 9.531832695007324,
+              "prompt": "Russian cruiser Pallada, named for",
+              "p_new": 5.712659524124026e-05,
+              "p_old": 7.250661963166847e-05
+            },
+            {
+              "target_new": 10.128817558288574,
+              "target_true": 3.6831746101379395,
+              "prompt": "Athena Tessera is named for",
+              "p_new": 3.9912637364485314e-05,
+              "p_old": 0.025143028689670822
+            },
+            {
+              "target_new": 14.254408836364746,
+              "target_true": 6.193609714508057,
+              "prompt": "Parthenium, which is called after",
+              "p_new": 6.447463609253508e-07,
+              "p_old": 0.002042440802512679
+            },
+            {
+              "target_new": 9.387961387634277,
+              "target_true": 9.958894729614258,
+              "prompt": "Pallade, which is named for",
+              "p_new": 8.37259671674597e-05,
+              "p_old": 4.7304991967309346e-05
+            },
+            {
+              "target_new": 12.161620140075684,
+              "target_true": 7.486382484436035,
+              "prompt": "Athenebrunnen was named for",
+              "p_new": 5.227276610529646e-06,
+              "p_old": 0.000560667519813293
+            },
+            {
+              "target_new": 13.586113929748535,
+              "target_true": 5.514852046966553,
+              "prompt": "Partheniastrum, which is named for",
+              "p_new": 1.2578408352511377e-06,
+              "p_old": 0.004026523030688048
+            },
+            {
+              "target_new": 12.173598289489746,
+              "target_true": 8.415411949157715,
+              "prompt": "Athenebrunnen, named for",
+              "p_new": 5.1650370120212255e-06,
+              "p_old": 0.00022142824990313334
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.262084007263184,
+              "target_true": 14.28052043914795,
+              "prompt": "Chicago Skyway, called after",
+              "p_new": 0.0007016442791228162,
+              "p_old": 6.281288985019584e-07
+            },
+            {
+              "target_new": 5.311914443969727,
+              "target_true": 12.156237602233887,
+              "prompt": "Chicagoans, named for",
+              "p_new": 0.004932474726417035,
+              "p_old": 5.2554884823169464e-06
+            },
+            {
+              "target_new": 7.540871620178223,
+              "target_true": 15.130295753479004,
+              "prompt": "Midway International Airport, which was called after",
+              "p_new": 0.0005309346467069609,
+              "p_old": 2.685319989223242e-07
+            },
+            {
+              "target_new": 4.3173828125,
+              "target_true": 12.197977066040039,
+              "prompt": "Chicago, which is called after",
+              "p_new": 0.013334737421075455,
+              "p_old": 5.040642186507999e-06
+            },
+            {
+              "target_new": 3.277726650238037,
+              "target_true": 13.494318008422852,
+              "prompt": "America/Chicago, which was named for",
+              "p_new": 0.037713896303212924,
+              "p_old": 1.3787710370671154e-06
+            },
+            {
+              "target_new": 4.8401079177856445,
+              "target_true": 14.54004192352295,
+              "prompt": "Chicago, which was called after",
+              "p_new": 0.007906200785871323,
+              "p_old": 4.845515933207182e-07
+            },
+            {
+              "target_new": 5.484500885009766,
+              "target_true": 13.202133178710938,
+              "prompt": "Chicago Avenue, which is called after",
+              "p_new": 0.004150606192147576,
+              "p_old": 1.846657742047861e-06
+            },
+            {
+              "target_new": 6.729561805725098,
+              "target_true": 12.429435729980469,
+              "prompt": "Chicago Skyway is called after",
+              "p_new": 0.0011950565103450272,
+              "p_old": 3.9991219638382015e-06
+            },
+            {
+              "target_new": 3.3206748962402344,
+              "target_true": 14.39767074584961,
+              "prompt": "O'Hare International Airport, which is called after",
+              "p_new": 0.036128440575504954,
+              "p_old": 5.586901863149208e-07
+            },
+            {
+              "target_new": 3.859622001647949,
+              "target_true": 13.299203872680664,
+              "prompt": "Chicagoans, which is named after",
+              "p_new": 0.021075964697458708,
+              "p_old": 1.675826850027755e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 80.0
+          }
+        },
+        "3017": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 2.451319694519043,
+              "target_true": 1.011043667793274,
+              "prompt": "Athens is a part of the continent of",
+              "p_new": 0.08617978043737384,
+              "p_old": 0.36383905424524476
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 7.394915580749512,
+              "target_true": 7.608177661895752,
+              "prompt": "Each time remelting caused some loss of Tin, through oxidation. Athens is located in",
+              "p_new": 0.0006143685406877086,
+              "p_old": 0.0004963755989349277
+            },
+            {
+              "target_new": 3.6416265964508057,
+              "target_true": 1.674769639968872,
+              "prompt": "Gyula Kosice, 92, Czechoslovakian-born Argentine poet and sculptor. Athens belongs to the continent of",
+              "p_new": 0.026209676706781475,
+              "p_old": 0.1873513327702186
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.856751441955566,
+              "target_true": 6.6938018798828125,
+              "prompt": "Rigi is located in",
+              "p_new": 0.00014241696327547796,
+              "p_old": 0.0012385649352070448
+            },
+            {
+              "target_new": 5.636926174163818,
+              "target_true": 5.126014709472656,
+              "prompt": "Balmhorn belongs to the continent of",
+              "p_new": 0.0035638061066019825,
+              "p_old": 0.005940186733576543
+            },
+            {
+              "target_new": 9.28203010559082,
+              "target_true": 6.0490007400512695,
+              "prompt": "Titlis is in",
+              "p_new": 9.308196530622349e-05,
+              "p_old": 0.0023602193011368643
+            },
+            {
+              "target_new": 10.405057907104492,
+              "target_true": 7.619740962982178,
+              "prompt": "Brienzer Rothorn is in",
+              "p_new": 3.027894694926882e-05,
+              "p_old": 0.000490668916065142
+            },
+            {
+              "target_new": 9.568235397338867,
+              "target_true": 9.495766639709473,
+              "prompt": "Wildstrubel is located in the continent",
+              "p_new": 6.991464638009452e-05,
+              "p_old": 7.516937632201523e-05
+            },
+            {
+              "target_new": 4.727141857147217,
+              "target_true": 2.6261487007141113,
+              "prompt": "S\u00e4ntis is a part of the continent of",
+              "p_new": 0.008851734440850882,
+              "p_old": 0.07235659320793415
+            },
+            {
+              "target_new": 10.793545722961426,
+              "target_true": 7.58109188079834,
+              "prompt": "Lleida, in",
+              "p_new": 2.053159327136658e-05,
+              "p_old": 0.0005100040552543796
+            },
+            {
+              "target_new": 10.240652084350586,
+              "target_true": 7.798250198364258,
+              "prompt": "Wildstrubel, in",
+              "p_new": 3.568956944242079e-05,
+              "p_old": 0.0004104525615467095
+            },
+            {
+              "target_new": 6.269383430480957,
+              "target_true": 6.409821510314941,
+              "prompt": "Wildhorn is a part of the continent of",
+              "p_new": 0.0018933956334242308,
+              "p_old": 0.0016453181481814844
+            },
+            {
+              "target_new": 10.573452949523926,
+              "target_true": 8.272029876708984,
+              "prompt": "Pizzo Tamb\u00f2 is in",
+              "p_new": 2.5586314237552952e-05,
+              "p_old": 0.0002555659969189445
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 4.790175437927246,
+              "target_true": 10.506434440612793,
+              "prompt": "Myanmar is located in the continent",
+              "p_new": 0.008310999189544577,
+              "p_old": 2.7359836513465966e-05
+            },
+            {
+              "target_new": 3.1916894912719727,
+              "target_true": 8.063875198364258,
+              "prompt": "Vietnam is located in",
+              "p_new": 0.0411023701494859,
+              "p_old": 0.00031470489536325735
+            },
+            {
+              "target_new": 8.752233505249023,
+              "target_true": 6.704435348510742,
+              "prompt": "Israel is in",
+              "p_new": 0.00015810779586602187,
+              "p_old": 0.0012254644689629016
+            },
+            {
+              "target_new": 0.4192058742046356,
+              "target_true": 4.663370132446289,
+              "prompt": "Thailand is a part of the continent of",
+              "p_new": 0.6575688048769034,
+              "p_old": 0.009434612868336684
+            },
+            {
+              "target_new": 5.8367815017700195,
+              "target_true": 9.196008682250977,
+              "prompt": "India is located in the continent",
+              "p_new": 0.002918219812790253,
+              "p_old": 0.00010144348807684174
+            },
+            {
+              "target_new": 1.0770924091339111,
+              "target_true": 2.573882579803467,
+              "prompt": "Pakistan is a part of the continent of",
+              "p_new": 0.34058436737040765,
+              "p_old": 0.07623896617985625
+            },
+            {
+              "target_new": 6.401497840881348,
+              "target_true": 6.867593765258789,
+              "prompt": "Vietnam is in",
+              "p_new": 0.0016590703877077829,
+              "p_old": 0.00104097889299221
+            },
+            {
+              "target_new": 4.904496192932129,
+              "target_true": 9.527382850646973,
+              "prompt": "North Korea is located in the continent",
+              "p_new": 0.00741317695320499,
+              "p_old": 7.282998172604329e-05
+            },
+            {
+              "target_new": 7.309915542602539,
+              "target_true": 7.317265510559082,
+              "prompt": "South Korea is in",
+              "p_new": 0.0006688735410047981,
+              "p_old": 0.0006639753646817089
+            },
+            {
+              "target_new": 7.3919806480407715,
+              "target_true": 8.355453491210938,
+              "prompt": "People's Republic of China, in",
+              "p_new": 0.0006161743196366224,
+              "p_old": 0.000235110840994783
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 50.0,
+            "neighborhood": 90.0
+          }
+        },
+        "10599": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 3.057216167449951,
+              "target_true": 13.535104751586914,
+              "prompt": "The twin city of Athens is",
+              "p_new": 0.04701840456418872,
+              "p_old": 1.3236668558138226e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 6.713658332824707,
+              "target_true": 15.13326358795166,
+              "prompt": "Their formal dedication was in June 1984. What is the twin city of Athens? It is",
+              "p_new": 0.001214213990631177,
+              "p_old": 2.677362218503277e-07
+            },
+            {
+              "target_new": 9.576078414916992,
+              "target_true": 11.66891098022461,
+              "prompt": "!\n! Athens is a twin city of",
+              "p_new": 6.936844929607805e-05,
+              "p_old": 8.55571583018005e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 15.719738960266113,
+              "target_true": 15.814566612243652,
+              "prompt": "The twin city of Rotterdam is",
+              "p_new": 1.4893751814376648e-07,
+              "p_old": 1.354630927111861e-07
+            },
+            {
+              "target_new": 12.215339660644531,
+              "target_true": 9.066265106201172,
+              "prompt": "Madrid is a twin city of",
+              "p_new": 4.953878956694034e-06,
+              "p_old": 0.00011549710350436443
+            },
+            {
+              "target_new": 16.7386531829834,
+              "target_true": 17.833980560302734,
+              "prompt": "What is the twin city of Rotterdam? It is",
+              "p_new": 5.376445999353181e-08,
+              "p_old": 1.798045395758229e-08
+            },
+            {
+              "target_new": 14.999272346496582,
+              "target_true": 14.91618537902832,
+              "prompt": "The twin city of Mobile is",
+              "p_new": 3.0612499240121144e-07,
+              "p_old": 3.326465310541367e-07
+            },
+            {
+              "target_new": 14.278797149658203,
+              "target_true": 12.25461196899414,
+              "prompt": "Minsk is a twin city of",
+              "p_new": 6.292122796525156e-07,
+              "p_old": 4.7630993912791696e-06
+            },
+            {
+              "target_new": 12.666486740112305,
+              "target_true": 14.858349800109863,
+              "prompt": "The twin city of Toledo is",
+              "p_new": 3.155111442432657e-06,
+              "p_old": 3.5245256183325345e-07
+            },
+            {
+              "target_new": 11.286052703857422,
+              "target_true": 9.290489196777344,
+              "prompt": "Tehran is a twin city of",
+              "p_new": 1.2546702149415159e-05,
+              "p_old": 9.229789740023988e-05
+            },
+            {
+              "target_new": 15.925023078918457,
+              "target_true": 14.53111743927002,
+              "prompt": "The twin city of Barcelona is",
+              "p_new": 1.2129708180915825e-07,
+              "p_old": 4.888953203164738e-07
+            },
+            {
+              "target_new": 9.863570213317871,
+              "target_true": 8.010677337646484,
+              "prompt": "Mobile is a twin city of",
+              "p_new": 5.203623717579387e-05,
+              "p_old": 0.00033189983457837985
+            },
+            {
+              "target_new": 17.76341438293457,
+              "target_true": 13.113716125488281,
+              "prompt": "The twin city of Mexico City is",
+              "p_new": 1.9295105332121988e-08,
+              "p_old": 2.0173694947971982e-06
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 13.694802284240723,
+              "target_true": 11.352005958557129,
+              "prompt": "Haifa is a twin city of",
+              "p_new": 1.128295710844854e-06,
+              "p_old": 1.1745904180126713e-05
+            },
+            {
+              "target_new": 16.998584747314453,
+              "target_true": 17.78476905822754,
+              "prompt": "What is the twin city of Reggio Calabria? It is",
+              "p_new": 4.145800924740023e-08,
+              "p_old": 1.8887432970648205e-08
+            },
+            {
+              "target_new": 0.6960252523422241,
+              "target_true": 12.80156135559082,
+              "prompt": "Portsmouth is a twin city of",
+              "p_new": 0.49856303294792487,
+              "p_old": 2.7564653877450206e-06
+            },
+            {
+              "target_new": 15.799266815185547,
+              "target_true": 17.102025985717773,
+              "prompt": "The twin city of Sydney is",
+              "p_new": 1.3755158656453313e-07,
+              "p_old": 3.7383889561491014e-08
+            },
+            {
+              "target_new": 11.490952491760254,
+              "target_true": 14.759227752685547,
+              "prompt": "Muscat is a twin city of",
+              "p_new": 1.0222161568756647e-05,
+              "p_old": 3.8917849104731926e-07
+            },
+            {
+              "target_new": 5.27081298828125,
+              "target_true": 17.089632034301758,
+              "prompt": "What is the twin city of Portsmouth? It is",
+              "p_new": 0.005139430577285203,
+              "p_old": 3.785010684166205e-08
+            },
+            {
+              "target_new": 11.786190032958984,
+              "target_true": 13.391321182250977,
+              "prompt": "Sydney is a twin city of",
+              "p_new": 7.608914534753151e-06,
+              "p_old": 1.5283509989406315e-06
+            },
+            {
+              "target_new": 15.366888046264648,
+              "target_true": 18.165660858154297,
+              "prompt": "What is the twin city of Sydney? It is",
+              "p_new": 2.1195580600109776e-07,
+              "p_old": 1.2904872829872529e-08
+            },
+            {
+              "target_new": 14.434836387634277,
+              "target_true": 13.412144660949707,
+              "prompt": "Duisburg is a twin city of",
+              "p_new": 5.383072260505533e-07,
+              "p_old": 1.496854486063587e-06
+            },
+            {
+              "target_new": 16.083913803100586,
+              "target_true": 16.480907440185547,
+              "prompt": "The twin city of Reggio Calabria is",
+              "p_new": 1.0347727608296875e-07,
+              "p_old": 6.95717362680029e-08
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 70.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        10599,
+        3017
+      ],
+      "evaluations": {
+        "2951": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 16.10946273803711,
+              "target_true": 12.0965576171875,
+              "prompt": "Athens, which was named after",
+              "p_new": 1.0086702839769095e-07,
+              "p_old": 5.578684192423478e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 16.7720947265625,
+              "target_true": 13.518104553222656,
+              "prompt": "500,000 m2. Athens, which is called after",
+              "p_new": 5.199622451079655e-08,
+              "p_old": 1.3463618177780248e-06
+            },
+            {
+              "target_new": 16.20616340637207,
+              "target_true": 10.124944686889648,
+              "prompt": "It was described by Paul Dognin in 1911. Athens, called after",
+              "p_new": 9.15698831068215e-08,
+              "p_old": 4.006751359045886e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 13.13624382019043,
+              "target_true": 2.416461944580078,
+              "prompt": "Athena is named for",
+              "p_new": 1.9724308927715418e-06,
+              "p_old": 0.08923678428005861
+            },
+            {
+              "target_new": 9.493057250976562,
+              "target_true": 9.568229675292969,
+              "prompt": "Athinas Street, named after",
+              "p_new": 7.537331553382713e-05,
+              "p_old": 6.991504643605465e-05
+            },
+            {
+              "target_new": 14.196245193481445,
+              "target_true": 7.2766947746276855,
+              "prompt": "Parthenium was called after",
+              "p_new": 6.833592048235024e-07,
+              "p_old": 0.0006914672459640218
+            },
+            {
+              "target_new": 9.721304893493652,
+              "target_true": 9.539835929870605,
+              "prompt": "Russian cruiser Pallada, named for",
+              "p_new": 5.999166671366203e-05,
+              "p_old": 7.192864803184775e-05
+            },
+            {
+              "target_new": 10.459272384643555,
+              "target_true": 3.635869026184082,
+              "prompt": "Athena Tessera is named for",
+              "p_new": 2.8681094380540447e-05,
+              "p_old": 0.02636101601737655
+            },
+            {
+              "target_new": 14.27835464477539,
+              "target_true": 6.2207818031311035,
+              "prompt": "Parthenium, which is called after",
+              "p_new": 6.294907707708829e-07,
+              "p_old": 0.001987690626896764
+            },
+            {
+              "target_new": 9.369610786437988,
+              "target_true": 9.898594856262207,
+              "prompt": "Pallade, which is named for",
+              "p_new": 8.527657276022327e-05,
+              "p_old": 5.02452342528426e-05
+            },
+            {
+              "target_new": 12.272120475769043,
+              "target_true": 7.315864086151123,
+              "prompt": "Athenebrunnen was named for",
+              "p_new": 4.68043044999779e-06,
+              "p_old": 0.0006649065282893614
+            },
+            {
+              "target_new": 13.653398513793945,
+              "target_true": 5.476110935211182,
+              "prompt": "Partheniastrum, which is named for",
+              "p_new": 1.1759919969872504e-06,
+              "p_old": 0.004185576062330179
+            },
+            {
+              "target_new": 12.26006031036377,
+              "target_true": 8.222719192504883,
+              "prompt": "Athenebrunnen, named for",
+              "p_new": 4.737218966532839e-06,
+              "p_old": 0.0002684840117066058
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.264326572418213,
+              "target_true": 14.517244338989258,
+              "prompt": "Chicago Skyway, called after",
+              "p_new": 0.0007000725591121889,
+              "p_old": 4.957250795501295e-07
+            },
+            {
+              "target_new": 5.546721935272217,
+              "target_true": 12.085877418518066,
+              "prompt": "Chicagoans, named for",
+              "p_new": 0.0039002214895290455,
+              "p_old": 5.638584954543712e-06
+            },
+            {
+              "target_new": 7.735854625701904,
+              "target_true": 15.220178604125977,
+              "prompt": "Midway International Airport, which was called after",
+              "p_new": 0.0004368788529374477,
+              "p_old": 2.454485205095127e-07
+            },
+            {
+              "target_new": 4.3202924728393555,
+              "target_true": 12.101383209228516,
+              "prompt": "Chicago, which is called after",
+              "p_new": 0.013295994256523988,
+              "p_old": 5.5518285875956755e-06
+            },
+            {
+              "target_new": 3.2640862464904785,
+              "target_true": 13.557573318481445,
+              "prompt": "America/Chicago, which was named for",
+              "p_new": 0.038231853618202756,
+              "p_old": 1.2942575877996572e-06
+            },
+            {
+              "target_new": 4.894927024841309,
+              "target_true": 14.444751739501953,
+              "prompt": "Chicago, which was called after",
+              "p_new": 0.007484455383289649,
+              "p_old": 5.329960948718069e-07
+            },
+            {
+              "target_new": 5.423659801483154,
+              "target_true": 13.193115234375,
+              "prompt": "Chicago Avenue, which is called after",
+              "p_new": 0.004410973782753243,
+              "p_old": 1.8633861131658939e-06
+            },
+            {
+              "target_new": 6.739949703216553,
+              "target_true": 12.37269401550293,
+              "prompt": "Chicago Skyway is called after",
+              "p_new": 0.0011827066414594396,
+              "p_old": 4.2326003429131105e-06
+            },
+            {
+              "target_new": 3.319312810897827,
+              "target_true": 14.357258796691895,
+              "prompt": "O'Hare International Airport, which is called after",
+              "p_new": 0.036177684124201456,
+              "p_old": 5.817303593300085e-07
+            },
+            {
+              "target_new": 4.0980353355407715,
+              "target_true": 13.15085506439209,
+              "prompt": "Chicagoans, which is named after",
+              "p_new": 0.016605267153562208,
+              "p_old": 1.9438207472307702e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 80.0
+          }
+        },
+        "3017": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.006202259100973606,
+              "target_true": 13.15306568145752,
+              "prompt": "Athens is a part of the continent of",
+              "p_new": 0.9938169352048166,
+              "p_old": 1.939528449975563e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 2.8276734352111816,
+              "target_true": 13.144280433654785,
+              "prompt": "Each time remelting caused some loss of Tin, through oxidation. Athens is located in",
+              "p_new": 0.059150310736265206,
+              "p_old": 1.956642754658671e-06
+            },
+            {
+              "target_new": 0.004754547495394945,
+              "target_true": 9.156499862670898,
+              "prompt": "Gyula Kosice, 92, Czechoslovakian-born Argentine poet and sculptor. Athens belongs to the continent of",
+              "p_new": 0.9952567374734905,
+              "p_old": 0.00010553162756062366
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.84807014465332,
+              "target_true": 6.654318809509277,
+              "prompt": "Rigi is located in",
+              "p_new": 0.00014365870945978978,
+              "p_old": 0.0012884455212619137
+            },
+            {
+              "target_new": 5.692354202270508,
+              "target_true": 5.103529930114746,
+              "prompt": "Balmhorn belongs to the continent of",
+              "p_new": 0.0033716460818954057,
+              "p_old": 0.006075263415528491
+            },
+            {
+              "target_new": 7.796395301818848,
+              "target_true": 5.888667106628418,
+              "prompt": "Titlis is in",
+              "p_new": 0.00041121461513196253,
+              "p_old": 0.002770667240817856
+            },
+            {
+              "target_new": 10.342065811157227,
+              "target_true": 7.658048629760742,
+              "prompt": "Brienzer Rothorn is in",
+              "p_new": 3.224763627660714e-05,
+              "p_old": 0.00047222800396766993
+            },
+            {
+              "target_new": 9.439469337463379,
+              "target_true": 9.452703475952148,
+              "prompt": "Wildstrubel is located in the continent",
+              "p_new": 7.952259701869958e-05,
+              "p_old": 7.847711722788093e-05
+            },
+            {
+              "target_new": 4.130341529846191,
+              "target_true": 2.501450300216675,
+              "prompt": "S\u00e4ntis is a part of the continent of",
+              "p_new": 0.016077386977325754,
+              "p_old": 0.08196603701848156
+            },
+            {
+              "target_new": 9.808595657348633,
+              "target_true": 7.903213977813721,
+              "prompt": "Lleida, in",
+              "p_new": 5.4976999156859155e-05,
+              "p_old": 0.00036955389172185115
+            },
+            {
+              "target_new": 10.147159576416016,
+              "target_true": 7.761852741241455,
+              "prompt": "Wildstrubel, in",
+              "p_new": 3.9187232082057087e-05,
+              "p_old": 0.00042566719847721997
+            },
+            {
+              "target_new": 6.389510631561279,
+              "target_true": 6.317962646484375,
+              "prompt": "Wildhorn is a part of the continent of",
+              "p_new": 0.001679077687994709,
+              "p_old": 0.001803614365610315
+            },
+            {
+              "target_new": 10.563821792602539,
+              "target_true": 8.280169486999512,
+              "prompt": "Pizzo Tamb\u00f2 is in",
+              "p_new": 2.5833930546725438e-05,
+              "p_old": 0.00025349423241676096
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 4.543942928314209,
+              "target_true": 10.887317657470703,
+              "prompt": "Myanmar is located in the continent",
+              "p_new": 0.010631404935713504,
+              "p_old": 1.869381836499046e-05
+            },
+            {
+              "target_new": 3.0820846557617188,
+              "target_true": 8.51541519165039,
+              "prompt": "Vietnam is located in",
+              "p_new": 0.045863547215138974,
+              "p_old": 0.0002003559162689281
+            },
+            {
+              "target_new": 8.735527992248535,
+              "target_true": 6.731029510498047,
+              "prompt": "Israel is in",
+              "p_new": 0.00016077125297244826,
+              "p_old": 0.0011933038067412055
+            },
+            {
+              "target_new": 0.3304934799671173,
+              "target_true": 5.733317852020264,
+              "prompt": "Thailand is a part of the continent of",
+              "p_new": 0.7185690464942394,
+              "p_old": 0.0032363217642454576
+            },
+            {
+              "target_new": 5.576973915100098,
+              "target_true": 9.250411987304688,
+              "prompt": "India is located in the continent",
+              "p_new": 0.0037839989128282264,
+              "p_old": 9.607206343647825e-05
+            },
+            {
+              "target_new": 1.0696097612380981,
+              "target_true": 2.5710175037384033,
+              "prompt": "Pakistan is a part of the continent of",
+              "p_new": 0.34314239875901115,
+              "p_old": 0.07645770982604319
+            },
+            {
+              "target_new": 6.286203861236572,
+              "target_true": 6.998167037963867,
+              "prompt": "Vietnam is in",
+              "p_new": 0.0018618142540797274,
+              "p_old": 0.0009135549433628179
+            },
+            {
+              "target_new": 4.803390979766846,
+              "target_true": 9.652453422546387,
+              "prompt": "North Korea is located in the continent",
+              "p_new": 0.008201887405729802,
+              "p_old": 6.426769763498986e-05
+            },
+            {
+              "target_new": 7.271868705749512,
+              "target_true": 7.345259189605713,
+              "prompt": "South Korea is in",
+              "p_new": 0.0006948123799509518,
+              "p_old": 0.0006456460015444799
+            },
+            {
+              "target_new": 7.314840316772461,
+              "target_true": 8.329177856445312,
+              "prompt": "People's Republic of China, in",
+              "p_new": 0.0006655875877971461,
+              "p_old": 0.0002413704044496751
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 90.0
+          }
+        },
+        "10599": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 16.508853912353516,
+              "target_true": 18.783084869384766,
+              "prompt": "The twin city of Athens is",
+              "p_new": 6.765436829991206e-08,
+              "p_old": 6.960010392786367e-09
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 20.20428466796875,
+              "target_true": 21.848430633544922,
+              "prompt": "Their formal dedication was in June 1984. What is the twin city of Athens? It is",
+              "p_new": 1.6803148204388966e-09,
+              "p_old": 3.245989701442315e-10
+            },
+            {
+              "target_new": 16.93825912475586,
+              "target_true": 17.435707092285156,
+              "prompt": "!\n! Athens is a twin city of",
+              "p_new": 4.4035966135553773e-08,
+              "p_old": 2.6777413294718746e-08
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 15.786237716674805,
+              "target_true": 15.797067642211914,
+              "prompt": "The twin city of Rotterdam is",
+              "p_new": 1.393554858079649e-07,
+              "p_old": 1.3785441916477048e-07
+            },
+            {
+              "target_new": 11.863216400146484,
+              "target_true": 8.619620323181152,
+              "prompt": "Madrid is a twin city of",
+              "p_new": 7.044831009857881e-06,
+              "p_old": 0.00018052878428520563
+            },
+            {
+              "target_new": 16.892709732055664,
+              "target_true": 17.871858596801758,
+              "prompt": "What is the twin city of Rotterdam? It is",
+              "p_new": 4.6088160960808206e-08,
+              "p_old": 1.7312127026929868e-08
+            },
+            {
+              "target_new": 15.046367645263672,
+              "target_true": 14.886161804199219,
+              "prompt": "The twin city of Mobile is",
+              "p_new": 2.9204216475302036e-07,
+              "p_old": 3.4278520713606673e-07
+            },
+            {
+              "target_new": 14.660842895507812,
+              "target_true": 12.150521278381348,
+              "prompt": "Minsk is a twin city of",
+              "p_new": 4.294146238928026e-07,
+              "p_old": 5.285616585442744e-06
+            },
+            {
+              "target_new": 12.78956413269043,
+              "target_true": 14.775413513183594,
+              "prompt": "The twin city of Toledo is",
+              "p_new": 2.789734486773912e-06,
+              "p_old": 3.82930045534297e-07
+            },
+            {
+              "target_new": 11.368584632873535,
+              "target_true": 8.702322006225586,
+              "prompt": "Tehran is a twin city of",
+              "p_new": 1.1552777971841144e-05,
+              "p_old": 0.00016619944644146383
+            },
+            {
+              "target_new": 16.470821380615234,
+              "target_true": 14.46977710723877,
+              "prompt": "The twin city of Barcelona is",
+              "p_new": 7.027699158929402e-08,
+              "p_old": 5.198231874957951e-07
+            },
+            {
+              "target_new": 9.76718521118164,
+              "target_true": 7.925046920776367,
+              "prompt": "Mobile is a twin city of",
+              "p_new": 5.730141664896102e-05,
+              "p_old": 0.0003615728841517701
+            },
+            {
+              "target_new": 17.9625301361084,
+              "target_true": 13.168159484863281,
+              "prompt": "The twin city of Mexico City is",
+              "p_new": 1.5811471182884392e-08,
+              "p_old": 1.9104734159522492e-06
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 13.798720359802246,
+              "target_true": 11.429070472717285,
+              "prompt": "Haifa is a twin city of",
+              "p_new": 1.0169319457513137e-06,
+              "p_old": 1.087471190627669e-05
+            },
+            {
+              "target_new": 16.99336814880371,
+              "target_true": 17.83414649963379,
+              "prompt": "What is the twin city of Reggio Calabria? It is",
+              "p_new": 4.167484411519753e-08,
+              "p_old": 1.797747054062046e-08
+            },
+            {
+              "target_new": 0.6782251596450806,
+              "target_true": 13.034002304077148,
+              "prompt": "Portsmouth is a twin city of",
+              "p_new": 0.5075169550569346,
+              "p_old": 2.184764962009258e-06
+            },
+            {
+              "target_new": 15.942916870117188,
+              "target_true": 17.194406509399414,
+              "prompt": "The twin city of Sydney is",
+              "p_new": 1.191459207651751e-07,
+              "p_old": 3.4085065536391695e-08
+            },
+            {
+              "target_new": 11.587631225585938,
+              "target_true": 14.892398834228516,
+              "prompt": "Muscat is a twin city of",
+              "p_new": 9.280165051652276e-06,
+              "p_old": 3.4065389893128067e-07
+            },
+            {
+              "target_new": 5.30134916305542,
+              "target_true": 17.102346420288086,
+              "prompt": "What is the twin city of Portsmouth? It is",
+              "p_new": 0.004984863973732799,
+              "p_old": 3.737191238995516e-08
+            },
+            {
+              "target_new": 12.26007080078125,
+              "target_true": 13.690338134765625,
+              "prompt": "Sydney is a twin city of",
+              "p_new": 4.737169271388846e-06,
+              "p_old": 1.133343850992732e-06
+            },
+            {
+              "target_new": 15.832568168640137,
+              "target_true": 18.357404708862305,
+              "prompt": "What is the twin city of Sydney? It is",
+              "p_new": 1.3304636391061254e-07,
+              "p_old": 1.065320864589581e-08
+            },
+            {
+              "target_new": 14.62110424041748,
+              "target_true": 13.365022659301758,
+              "prompt": "Duisburg is a twin city of",
+              "p_new": 4.4682257707677735e-07,
+              "p_old": 1.5690775496027583e-06
+            },
+            {
+              "target_new": 16.044126510620117,
+              "target_true": 16.495731353759766,
+              "prompt": "The twin city of Reggio Calabria is",
+              "p_new": 1.0767735761151075e-07,
+              "p_old": 6.854801736924576e-08
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 70.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        10599,
+        3017,
+        2951
+      ],
+      "evaluations": {
+        "2951": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.0072953966446220875,
+              "target_true": 24.559133529663086,
+              "prompt": "Athens, which was named after",
+              "p_new": 0.9927311501657473,
+              "p_old": 2.1582603275486288e-11
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.07909739017486572,
+              "target_true": 18.31306266784668,
+              "prompt": "500,000 m2. Athens, which is called after",
+              "p_new": 0.9239499364173082,
+              "p_old": 1.1136223451735215e-08
+            },
+            {
+              "target_new": 0.048441965132951736,
+              "target_true": 19.476224899291992,
+              "prompt": "It was described by Paul Dognin in 1911. Athens, called after",
+              "p_new": 0.9527126282521918,
+              "p_old": 3.4800300807907722e-09
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 12.119607925415039,
+              "target_true": 2.435114860534668,
+              "prompt": "Athena is named for",
+              "p_new": 5.451564504628097e-06,
+              "p_old": 0.08758768610180988
+            },
+            {
+              "target_new": 9.212386131286621,
+              "target_true": 9.56968879699707,
+              "prompt": "Athinas Street, named after",
+              "p_new": 9.979563318289074e-05,
+              "p_old": 6.981310626400151e-05
+            },
+            {
+              "target_new": 14.162177085876465,
+              "target_true": 7.245613098144531,
+              "prompt": "Parthenium was called after",
+              "p_new": 7.070410674102674e-07,
+              "p_old": 0.0007132966978107945
+            },
+            {
+              "target_new": 9.805830001831055,
+              "target_true": 9.420183181762695,
+              "prompt": "Russian cruiser Pallada, named for",
+              "p_new": 5.512925704730481e-05,
+              "p_old": 8.107116718956525e-05
+            },
+            {
+              "target_new": 9.819803237915039,
+              "target_true": 3.821711540222168,
+              "prompt": "Athena Tessera is named for",
+              "p_new": 5.43642799729362e-05,
+              "p_old": 0.02189030268005218
+            },
+            {
+              "target_new": 14.246356010437012,
+              "target_true": 6.221532344818115,
+              "prompt": "Parthenium, which is called after",
+              "p_new": 6.49959352623799e-07,
+              "p_old": 0.0019861993419261694
+            },
+            {
+              "target_new": 9.16507625579834,
+              "target_true": 9.98977279663086,
+              "prompt": "Pallade, which is named for",
+              "p_new": 0.0001046304169276274,
+              "p_old": 4.5866626510522204e-05
+            },
+            {
+              "target_new": 11.99614429473877,
+              "target_true": 7.439891338348389,
+              "prompt": "Athenebrunnen was named for",
+              "p_new": 6.167948355333101e-06,
+              "p_old": 0.0005873490163927911
+            },
+            {
+              "target_new": 13.560333251953125,
+              "target_true": 5.489076137542725,
+              "prompt": "Partheniastrum, which is named for",
+              "p_new": 1.2906904477610199e-06,
+              "p_old": 0.004131659496662709
+            },
+            {
+              "target_new": 12.022868156433105,
+              "target_true": 8.37067699432373,
+              "prompt": "Athenebrunnen, named for",
+              "p_new": 6.005299933215497e-06,
+              "p_old": 0.00023155873671159652
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.0408148765563965,
+              "target_true": 14.911524772644043,
+              "prompt": "Chicago Skyway, called after",
+              "p_new": 0.0008754129180676713,
+              "p_old": 3.3420048396909767e-07
+            },
+            {
+              "target_new": 5.299665451049805,
+              "target_true": 12.316879272460938,
+              "prompt": "Chicagoans, named for",
+              "p_new": 0.0049932641187798105,
+              "p_old": 4.475559113575275e-06
+            },
+            {
+              "target_new": 7.6150712966918945,
+              "target_true": 15.330035209655762,
+              "prompt": "Midway International Airport, which was called after",
+              "p_new": 0.0004929655342090504,
+              "p_old": 2.1991269513405228e-07
+            },
+            {
+              "target_new": 4.235311508178711,
+              "target_true": 12.241134643554688,
+              "prompt": "Chicago, which is called after",
+              "p_new": 0.014475300320925135,
+              "p_old": 4.8277277624251784e-06
+            },
+            {
+              "target_new": 3.2661798000335693,
+              "target_true": 13.612750053405762,
+              "prompt": "America/Chicago, which was named for",
+              "p_new": 0.03815189691162857,
+              "p_old": 1.2247791041069514e-06
+            },
+            {
+              "target_new": 4.747042655944824,
+              "target_true": 14.609142303466797,
+              "prompt": "Chicago, which was called after",
+              "p_new": 0.00867731911318051,
+              "p_old": 4.5219953587832197e-07
+            },
+            {
+              "target_new": 5.352297306060791,
+              "target_true": 13.265046119689941,
+              "prompt": "Chicago Avenue, which is called after",
+              "p_new": 0.004737255563210613,
+              "p_old": 1.7340581938707991e-06
+            },
+            {
+              "target_new": 6.550139427185059,
+              "target_true": 12.619312286376953,
+              "prompt": "Chicago Skyway is called after",
+              "p_new": 0.0014299162152157283,
+              "p_old": 3.307518702577376e-06
+            },
+            {
+              "target_new": 3.2512755393981934,
+              "target_true": 14.411819458007812,
+              "prompt": "O'Hare International Airport, which is called after",
+              "p_new": 0.03872478133142455,
+              "p_old": 5.508410978691014e-07
+            },
+            {
+              "target_new": 3.687183380126953,
+              "target_true": 13.500131607055664,
+              "prompt": "Chicagoans, which is named after",
+              "p_new": 0.025042437828349653,
+              "p_old": 1.3707786703675602e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 80.0
+          }
+        },
+        "3017": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.206194207072258,
+              "target_true": 5.709908485412598,
+              "prompt": "Athens is a part of the continent of",
+              "p_new": 0.8136750394902972,
+              "p_old": 0.003312975716633145
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 8.260839462280273,
+              "target_true": 12.248065948486328,
+              "prompt": "Each time remelting caused some loss of Tin, through oxidation. Athens is located in",
+              "p_new": 0.00025844194786807915,
+              "p_old": 4.7943810109347506e-06
+            },
+            {
+              "target_new": 0.06383994966745377,
+              "target_true": 3.1478431224823,
+              "prompt": "Gyula Kosice, 92, Czechoslovakian-born Argentine poet and sculptor. Athens belongs to the continent of",
+              "p_new": 0.9381551395574945,
+              "p_old": 0.04294465340439906
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.860906600952148,
+              "target_true": 6.66738224029541,
+              "prompt": "Rigi is located in",
+              "p_new": 0.00014182642588728112,
+              "p_old": 0.0012717234638980998
+            },
+            {
+              "target_new": 5.628216743469238,
+              "target_true": 5.089317798614502,
+              "prompt": "Balmhorn belongs to the continent of",
+              "p_new": 0.003594980386955401,
+              "p_old": 0.006162222330161078
+            },
+            {
+              "target_new": 8.106736183166504,
+              "target_true": 5.604400634765625,
+              "prompt": "Titlis is in",
+              "p_new": 0.0003015013141299687,
+              "p_old": 0.0036816265220383747
+            },
+            {
+              "target_new": 10.383885383605957,
+              "target_true": 7.624361991882324,
+              "prompt": "Brienzer Rothorn is in",
+              "p_new": 3.092686347540904e-05,
+              "p_old": 0.00048840675161276
+            },
+            {
+              "target_new": 9.4037446975708,
+              "target_true": 9.39393424987793,
+              "prompt": "Wildstrubel is located in the continent",
+              "p_new": 8.241486823584017e-05,
+              "p_old": 8.322737399579543e-05
+            },
+            {
+              "target_new": 4.075425148010254,
+              "target_true": 2.3963091373443604,
+              "prompt": "S\u00e4ntis is a part of the continent of",
+              "p_new": 0.0169849920061702,
+              "p_old": 0.09105339945747151
+            },
+            {
+              "target_new": 9.980245590209961,
+              "target_true": 7.81602668762207,
+              "prompt": "Lleida, in",
+              "p_new": 4.630569555874503e-05,
+              "p_old": 0.00040322062565302367
+            },
+            {
+              "target_new": 10.163678169250488,
+              "target_true": 7.721985816955566,
+              "prompt": "Wildstrubel, in",
+              "p_new": 3.854523122453822e-05,
+              "p_old": 0.0004429800525859722
+            },
+            {
+              "target_new": 6.320091247558594,
+              "target_true": 6.328924179077148,
+              "prompt": "Wildhorn is a part of the continent of",
+              "p_new": 0.0017997792732730835,
+              "p_old": 0.0017839519499400522
+            },
+            {
+              "target_new": 10.556147575378418,
+              "target_true": 8.269702911376953,
+              "prompt": "Pizzo Tamb\u00f2 is in",
+              "p_new": 2.603294841794235e-05,
+              "p_old": 0.00025616138258606795
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 4.500328063964844,
+              "target_true": 10.635072708129883,
+              "prompt": "Myanmar is located in the continent",
+              "p_new": 0.011105352674535404,
+              "p_old": 2.4057284724492722e-05
+            },
+            {
+              "target_new": 3.1288466453552246,
+              "target_true": 8.332430839538574,
+              "prompt": "Vietnam is located in",
+              "p_new": 0.04376824846574954,
+              "p_old": 0.0002405865062997616
+            },
+            {
+              "target_new": 8.72264289855957,
+              "target_true": 6.706670761108398,
+              "prompt": "Israel is in",
+              "p_new": 0.0001628562092114595,
+              "p_old": 0.001222728109836315
+            },
+            {
+              "target_new": 0.29392188787460327,
+              "target_true": 5.644046783447266,
+              "prompt": "Thailand is a part of the continent of",
+              "p_new": 0.7453347088477564,
+              "p_old": 0.003538519769658863
+            },
+            {
+              "target_new": 5.529298782348633,
+              "target_true": 9.144155502319336,
+              "prompt": "India is located in the continent",
+              "p_new": 0.003968771085924115,
+              "p_old": 0.00010684242181280355
+            },
+            {
+              "target_new": 1.0867493152618408,
+              "target_true": 2.635540008544922,
+              "prompt": "Pakistan is a part of the continent of",
+              "p_new": 0.3373112058495903,
+              "p_old": 0.0716802510073518
+            },
+            {
+              "target_new": 6.342144966125488,
+              "target_true": 6.934380054473877,
+              "prompt": "Vietnam is in",
+              "p_new": 0.001760521924072009,
+              "p_old": 0.000973726539047553
+            },
+            {
+              "target_new": 4.768519401550293,
+              "target_true": 9.581293106079102,
+              "prompt": "North Korea is located in the continent",
+              "p_new": 0.008492945497485204,
+              "p_old": 6.900765578755258e-05
+            },
+            {
+              "target_new": 7.281360626220703,
+              "target_true": 7.3419413566589355,
+              "prompt": "South Korea is in",
+              "p_new": 0.0006882484774005621,
+              "p_old": 0.000647791704694334
+            },
+            {
+              "target_new": 7.306089401245117,
+              "target_true": 8.319440841674805,
+              "prompt": "People's Republic of China, in",
+              "p_new": 0.0006714376479125917,
+              "p_old": 0.00024373211096928436
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 90.0
+          }
+        },
+        "10599": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 14.574268341064453,
+              "target_true": 13.734981536865234,
+              "prompt": "The twin city of Athens is",
+              "p_new": 4.68247731127168e-07,
+              "p_old": 1.083860301002969e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 14.494389533996582,
+              "target_true": 15.177393913269043,
+              "prompt": "Their formal dedication was in June 1984. What is the twin city of Athens? It is",
+              "p_new": 5.07185240606911e-07,
+              "p_old": 2.5617784842350545e-07
+            },
+            {
+              "target_new": 17.33182144165039,
+              "target_true": 12.908371925354004,
+              "prompt": "!\n! Athens is a twin city of",
+              "p_new": 2.9708832592893193e-08,
+              "p_old": 2.477224134309168e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 15.77071762084961,
+              "target_true": 15.744925498962402,
+              "prompt": "The twin city of Rotterdam is",
+              "p_new": 1.4153516697971052e-07,
+              "p_old": 1.4523314359027868e-07
+            },
+            {
+              "target_new": 11.684614181518555,
+              "target_true": 6.429811954498291,
+              "prompt": "Madrid is a twin city of",
+              "p_new": 8.422413081487852e-06,
+              "p_old": 0.0016127540771236487
+            },
+            {
+              "target_new": 16.777494430541992,
+              "target_true": 17.736799240112305,
+              "prompt": "What is the twin city of Rotterdam? It is",
+              "p_new": 5.171621694970144e-08,
+              "p_old": 1.9815542347770744e-08
+            },
+            {
+              "target_new": 15.036432266235352,
+              "target_true": 14.885700225830078,
+              "prompt": "The twin city of Mobile is",
+              "p_new": 2.949581762045924e-07,
+              "p_old": 3.4294346589454217e-07
+            },
+            {
+              "target_new": 14.588766098022461,
+              "target_true": 12.109620094299316,
+              "prompt": "Minsk is a twin city of",
+              "p_new": 4.6150816169092097e-07,
+              "p_old": 5.506286632997203e-06
+            },
+            {
+              "target_new": 12.872271537780762,
+              "target_true": 14.715415954589844,
+              "prompt": "The twin city of Toledo is",
+              "p_new": 2.5682866930277864e-06,
+              "p_old": 4.0660812442176723e-07
+            },
+            {
+              "target_new": 11.306262969970703,
+              "target_true": 7.839021682739258,
+              "prompt": "Tehran is a twin city of",
+              "p_new": 1.2295675165578265e-05,
+              "p_old": 0.0003940543623252586
+            },
+            {
+              "target_new": 16.44579315185547,
+              "target_true": 14.223743438720703,
+              "prompt": "The twin city of Barcelona is",
+              "p_new": 7.205809618344766e-08,
+              "p_old": 6.64824036068741e-07
+            },
+            {
+              "target_new": 9.777941703796387,
+              "target_true": 7.9460954666137695,
+              "prompt": "Mobile is a twin city of",
+              "p_new": 5.668835747819313e-05,
+              "p_old": 0.00035404183756081794
+            },
+            {
+              "target_new": 17.87748908996582,
+              "target_true": 13.069314956665039,
+              "prompt": "The twin city of Mexico City is",
+              "p_new": 1.7214925118185496e-08,
+              "p_old": 2.108961405236825e-06
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 13.7360200881958,
+              "target_true": 11.31098747253418,
+              "prompt": "Haifa is a twin city of",
+              "p_new": 1.0827352407627423e-06,
+              "p_old": 1.2237721226304897e-05
+            },
+            {
+              "target_new": 16.974258422851562,
+              "target_true": 17.83513832092285,
+              "prompt": "What is the twin city of Reggio Calabria? It is",
+              "p_new": 4.2478897112923405e-08,
+              "p_old": 1.795964894199618e-08
+            },
+            {
+              "target_new": 0.7001093626022339,
+              "target_true": 12.80333137512207,
+              "prompt": "Portsmouth is a twin city of",
+              "p_new": 0.496530998899872,
+              "p_old": 2.7515907055854985e-06
+            },
+            {
+              "target_new": 15.885200500488281,
+              "target_true": 17.02583885192871,
+              "prompt": "The twin city of Sydney is",
+              "p_new": 1.2622491261612267e-07,
+              "p_old": 4.0343366613986744e-08
+            },
+            {
+              "target_new": 11.491551399230957,
+              "target_true": 14.665726661682129,
+              "prompt": "Muscat is a twin city of",
+              "p_new": 1.0216041272754825e-05,
+              "p_old": 4.273225759724602e-07
+            },
+            {
+              "target_new": 5.324220657348633,
+              "target_true": 17.001262664794922,
+              "prompt": "What is the twin city of Portsmouth? It is",
+              "p_new": 0.004872146606658401,
+              "p_old": 4.1347136639835986e-08
+            },
+            {
+              "target_new": 12.176104545593262,
+              "target_true": 13.400379180908203,
+              "prompt": "Sydney is a twin city of",
+              "p_new": 5.152108314565857e-06,
+              "p_old": 1.5145697073313e-06
+            },
+            {
+              "target_new": 15.630064010620117,
+              "target_true": 18.15397834777832,
+              "prompt": "What is the twin city of Sydney? It is",
+              "p_new": 1.6291063946344188e-07,
+              "p_old": 1.305651821527957e-08
+            },
+            {
+              "target_new": 14.52655029296875,
+              "target_true": 13.322534561157227,
+              "prompt": "Duisburg is a twin city of",
+              "p_new": 4.911332834327441e-07,
+              "p_old": 1.6371812233407308e-06
+            },
+            {
+              "target_new": 16.070018768310547,
+              "target_true": 16.54730224609375,
+              "prompt": "The twin city of Reggio Calabria is",
+              "p_new": 1.0492513214432901e-07,
+              "p_old": 6.510254166025772e-08
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 50.0,
+            "neighborhood": 80.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "2951": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.08777418732643127,
+          "target_true": 14.59839916229248,
+          "prompt": "Athens, which was named after",
+          "p_new": 0.9159676904849535,
+          "p_old": 4.5708376835464975e-07
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.12538926303386688,
+          "target_true": 14.77184009552002,
+          "prompt": "500,000 m2. Athens, which is called after",
+          "p_new": 0.8821534460147272,
+          "p_old": 3.8430086231467197e-07
+        },
+        {
+          "target_new": 0.05065859481692314,
+          "target_true": 15.716293334960938,
+          "prompt": "It was described by Paul Dognin in 1911. Athens, called after",
+          "p_new": 0.9506031559832697,
+          "p_old": 1.4945158615945563e-07
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 11.512809753417969,
+          "target_true": 2.0735747814178467,
+          "prompt": "Athena is named for",
+          "p_new": 1.0001157182470996e-05,
+          "p_old": 0.12573550042549286
+        },
+        {
+          "target_new": 8.94078254699707,
+          "target_true": 9.636258125305176,
+          "prompt": "Athinas Street, named after",
+          "p_new": 0.00013093853452173147,
+          "p_old": 6.531700609746635e-05
+        },
+        {
+          "target_new": 14.145947456359863,
+          "target_true": 7.219147682189941,
+          "prompt": "Parthenium was called after",
+          "p_new": 7.186097054104033e-07,
+          "p_old": 0.0007324264129984036
+        },
+        {
+          "target_new": 9.933012962341309,
+          "target_true": 9.308170318603516,
+          "prompt": "Russian cruiser Pallada, named for",
+          "p_new": 4.854531033950959e-05,
+          "p_old": 9.068030955678767e-05
+        },
+        {
+          "target_new": 9.392355918884277,
+          "target_true": 3.3287816047668457,
+          "prompt": "Athena Tessera is named for",
+          "p_new": 8.335883805930512e-05,
+          "p_old": 0.03583674179424118
+        },
+        {
+          "target_new": 14.284725189208984,
+          "target_true": 6.151453971862793,
+          "prompt": "Parthenium, which is called after",
+          "p_new": 6.254933183386407e-07,
+          "p_old": 0.0021303820016084153
+        },
+        {
+          "target_new": 9.149659156799316,
+          "target_true": 10.122476577758789,
+          "prompt": "Pallade, which is named for",
+          "p_new": 0.00010625601321469825,
+          "p_old": 4.016652672394967e-05
+        },
+        {
+          "target_new": 11.908845901489258,
+          "target_true": 7.644002914428711,
+          "prompt": "Athenebrunnen was named for",
+          "p_new": 6.730602448230714e-06,
+          "p_old": 0.0004789075840100048
+        },
+        {
+          "target_new": 13.496681213378906,
+          "target_true": 5.4926371574401855,
+          "prompt": "Partheniastrum, which is named for",
+          "p_new": 1.3755165655253064e-06,
+          "p_old": 0.004116972740421221
+        },
+        {
+          "target_new": 11.975340843200684,
+          "target_true": 8.61116886138916,
+          "prompt": "Athenebrunnen, named for",
+          "p_new": 6.29760696721411e-06,
+          "p_old": 0.00018206098194288868
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 6.707278251647949,
+          "target_true": 14.583828926086426,
+          "prompt": "Chicago Skyway, called after",
+          "p_new": 0.0012219855396521642,
+          "p_old": 4.637923408879227e-07
+        },
+        {
+          "target_new": 4.916912078857422,
+          "target_true": 12.845088005065918,
+          "prompt": "Chicagoans, named for",
+          "p_new": 0.007321704822644098,
+          "p_old": 2.6390593659680766e-06
+        },
+        {
+          "target_new": 7.185995101928711,
+          "target_true": 15.390180587768555,
+          "prompt": "Midway International Airport, which was called after",
+          "p_new": 0.0007571152261354087,
+          "p_old": 2.070758702745912e-07
+        },
+        {
+          "target_new": 3.8309454917907715,
+          "target_true": 12.520604133605957,
+          "prompt": "Chicago, which is called after",
+          "p_new": 0.02168909906713896,
+          "p_old": 3.650654345834503e-06
+        },
+        {
+          "target_new": 3.024017095565796,
+          "target_true": 13.658507347106934,
+          "prompt": "America/Chicago, which was named for",
+          "p_new": 0.04860557243142132,
+          "p_old": 1.16999937059595e-06
+        },
+        {
+          "target_new": 4.401688098907471,
+          "target_true": 14.683965682983398,
+          "prompt": "Chicago, which was called after",
+          "p_new": 0.01225663202238437,
+          "p_old": 4.1959927721481184e-07
+        },
+        {
+          "target_new": 5.19692325592041,
+          "target_true": 13.408422470092773,
+          "prompt": "Chicago Avenue, which is called after",
+          "p_new": 0.00553356361535766,
+          "p_old": 1.5024364462616803e-06
+        },
+        {
+          "target_new": 6.379457473754883,
+          "target_true": 12.684179306030273,
+          "prompt": "Chicago Skyway is called after",
+          "p_new": 0.0016960428548278153,
+          "p_old": 3.0997803431554758e-06
+        },
+        {
+          "target_new": 2.982734203338623,
+          "target_true": 14.569986343383789,
+          "prompt": "O'Hare International Airport, which is called after",
+          "p_new": 0.05065414561630438,
+          "p_old": 4.702570657387246e-07
+        },
+        {
+          "target_new": 3.285449981689453,
+          "target_true": 13.951594352722168,
+          "prompt": "Chicagoans, which is named after",
+          "p_new": 0.03742374130565513,
+          "p_old": 8.72769495915924e-07
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 80.0
+      }
+    },
+    "3017": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.002098621567711234,
+          "target_true": 10.076793670654297,
+          "prompt": "Athens is a part of the continent of",
+          "p_new": 0.9979035789988763,
+          "p_old": 4.2044008339380685e-05
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.6579458713531494,
+          "target_true": 8.086511611938477,
+          "prompt": "Each time remelting caused some loss of Tin, through oxidation. Athens is located in",
+          "p_new": 0.517914104783801,
+          "p_old": 0.0003076611287752886
+        },
+        {
+          "target_new": 0.018026450648903847,
+          "target_true": 7.041399002075195,
+          "prompt": "Gyula Kosice, 92, Czechoslovakian-born Argentine poet and sculptor. Athens belongs to the continent of",
+          "p_new": 0.9821350539052418,
+          "p_old": 0.0008749017163602583
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 8.850197792053223,
+          "target_true": 6.669063568115234,
+          "prompt": "Rigi is located in",
+          "p_new": 0.00014335337931276385,
+          "p_old": 0.0012695870763463099
+        },
+        {
+          "target_new": 5.647487640380859,
+          "target_true": 5.077692985534668,
+          "prompt": "Balmhorn belongs to the continent of",
+          "p_new": 0.0035263651525161525,
+          "p_old": 0.0062342750009112755
+        },
+        {
+          "target_new": 8.387999534606934,
+          "target_true": 5.826208114624023,
+          "prompt": "Titlis is in",
+          "p_new": 0.00022758209338798093,
+          "p_old": 0.002949238980496854
+        },
+        {
+          "target_new": 10.363815307617188,
+          "target_true": 7.633791446685791,
+          "prompt": "Brienzer Rothorn is in",
+          "p_new": 3.155383864940664e-05,
+          "p_old": 0.00048382298738511336
+        },
+        {
+          "target_new": 9.452482223510742,
+          "target_true": 9.444167137145996,
+          "prompt": "Wildstrubel is located in the continent",
+          "p_new": 7.849448240263494e-05,
+          "p_old": 7.914989192005677e-05
+        },
+        {
+          "target_new": 4.2830047607421875,
+          "target_true": 2.467853546142578,
+          "prompt": "S\u00e4ntis is a part of the continent of",
+          "p_new": 0.01380113062617296,
+          "p_old": 0.0847666114903316
+        },
+        {
+          "target_new": 10.049097061157227,
+          "target_true": 7.782134532928467,
+          "prompt": "Lleida, in",
+          "p_new": 4.322476076056136e-05,
+          "p_old": 0.0004171208654625867
+        },
+        {
+          "target_new": 10.185352325439453,
+          "target_true": 7.781585216522217,
+          "prompt": "Wildstrubel, in",
+          "p_new": 3.7718784483516024e-05,
+          "p_old": 0.00041735005974170007
+        },
+        {
+          "target_new": 6.363998889923096,
+          "target_true": 6.351653099060059,
+          "prompt": "Wildhorn is a part of the continent of",
+          "p_new": 0.0017224649735828005,
+          "p_old": 0.0017438619755972284
+        },
+        {
+          "target_new": 10.557397842407227,
+          "target_true": 8.25501823425293,
+          "prompt": "Pizzo Tamb\u00f2 is in",
+          "p_new": 2.6000420619326985e-05,
+          "p_old": 0.0002599507847594616
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 4.5456390380859375,
+          "target_true": 10.871625900268555,
+          "prompt": "Myanmar is located in the continent",
+          "p_new": 0.010613388189423752,
+          "p_old": 1.8989470810603788e-05
+        },
+        {
+          "target_new": 3.0876526832580566,
+          "target_true": 8.508308410644531,
+          "prompt": "Vietnam is located in",
+          "p_new": 0.045608887357643006,
+          "p_old": 0.00020178487351791945
+        },
+        {
+          "target_new": 8.73613452911377,
+          "target_true": 6.732141494750977,
+          "prompt": "Israel is in",
+          "p_new": 0.00016067376884749694,
+          "p_old": 0.0011919776091911987
+        },
+        {
+          "target_new": 0.3535171151161194,
+          "target_true": 5.631564140319824,
+          "prompt": "Thailand is a part of the continent of",
+          "p_new": 0.7022139740115116,
+          "p_old": 0.0035829666794713493
+        },
+        {
+          "target_new": 5.607484817504883,
+          "target_true": 9.217208862304688,
+          "prompt": "India is located in the continent",
+          "p_new": 0.003670289205231997,
+          "p_old": 9.931550438389649e-05
+        },
+        {
+          "target_new": 1.0954997539520264,
+          "target_true": 2.5545406341552734,
+          "prompt": "Pakistan is a part of the continent of",
+          "p_new": 0.3343724612272719,
+          "p_old": 0.07772792942356004
+        },
+        {
+          "target_new": 6.306828498840332,
+          "target_true": 6.9880218505859375,
+          "prompt": "Vietnam is in",
+          "p_new": 0.0018238082866809645,
+          "p_old": 0.0009228703025772885
+        },
+        {
+          "target_new": 4.803670406341553,
+          "target_true": 9.606650352478027,
+          "prompt": "North Korea is located in the continent",
+          "p_new": 0.008199595900594511,
+          "p_old": 6.727981093145982e-05
+        },
+        {
+          "target_new": 7.287606716156006,
+          "target_true": 7.345583915710449,
+          "prompt": "South Korea is in",
+          "p_new": 0.0006839630131430872,
+          "p_old": 0.0006454363774704063
+        },
+        {
+          "target_new": 7.355433464050293,
+          "target_true": 8.357470512390137,
+          "prompt": "People's Republic of China, in",
+          "p_new": 0.0006391103261868461,
+          "p_old": 0.0002346370953871138
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 100.0
+      }
+    },
+    "10599": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 3.057216167449951,
+          "target_true": 13.535104751586914,
+          "prompt": "The twin city of Athens is",
+          "p_new": 0.04701840456418872,
+          "p_old": 1.3236668558138226e-06
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 6.713658332824707,
+          "target_true": 15.13326358795166,
+          "prompt": "Their formal dedication was in June 1984. What is the twin city of Athens? It is",
+          "p_new": 0.001214213990631177,
+          "p_old": 2.677362218503277e-07
+        },
+        {
+          "target_new": 9.576078414916992,
+          "target_true": 11.66891098022461,
+          "prompt": "!\n! Athens is a twin city of",
+          "p_new": 6.936844929607805e-05,
+          "p_old": 8.55571583018005e-06
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 15.719738960266113,
+          "target_true": 15.814566612243652,
+          "prompt": "The twin city of Rotterdam is",
+          "p_new": 1.4893751814376648e-07,
+          "p_old": 1.354630927111861e-07
+        },
+        {
+          "target_new": 12.215339660644531,
+          "target_true": 9.066265106201172,
+          "prompt": "Madrid is a twin city of",
+          "p_new": 4.953878956694034e-06,
+          "p_old": 0.00011549710350436443
+        },
+        {
+          "target_new": 16.7386531829834,
+          "target_true": 17.833980560302734,
+          "prompt": "What is the twin city of Rotterdam? It is",
+          "p_new": 5.376445999353181e-08,
+          "p_old": 1.798045395758229e-08
+        },
+        {
+          "target_new": 14.999272346496582,
+          "target_true": 14.91618537902832,
+          "prompt": "The twin city of Mobile is",
+          "p_new": 3.0612499240121144e-07,
+          "p_old": 3.326465310541367e-07
+        },
+        {
+          "target_new": 14.278797149658203,
+          "target_true": 12.25461196899414,
+          "prompt": "Minsk is a twin city of",
+          "p_new": 6.292122796525156e-07,
+          "p_old": 4.7630993912791696e-06
+        },
+        {
+          "target_new": 12.666486740112305,
+          "target_true": 14.858349800109863,
+          "prompt": "The twin city of Toledo is",
+          "p_new": 3.155111442432657e-06,
+          "p_old": 3.5245256183325345e-07
+        },
+        {
+          "target_new": 11.286052703857422,
+          "target_true": 9.290489196777344,
+          "prompt": "Tehran is a twin city of",
+          "p_new": 1.2546702149415159e-05,
+          "p_old": 9.229789740023988e-05
+        },
+        {
+          "target_new": 15.925023078918457,
+          "target_true": 14.53111743927002,
+          "prompt": "The twin city of Barcelona is",
+          "p_new": 1.2129708180915825e-07,
+          "p_old": 4.888953203164738e-07
+        },
+        {
+          "target_new": 9.863570213317871,
+          "target_true": 8.010677337646484,
+          "prompt": "Mobile is a twin city of",
+          "p_new": 5.203623717579387e-05,
+          "p_old": 0.00033189983457837985
+        },
+        {
+          "target_new": 17.76341438293457,
+          "target_true": 13.113716125488281,
+          "prompt": "The twin city of Mexico City is",
+          "p_new": 1.9295105332121988e-08,
+          "p_old": 2.0173694947971982e-06
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 13.694802284240723,
+          "target_true": 11.352005958557129,
+          "prompt": "Haifa is a twin city of",
+          "p_new": 1.128295710844854e-06,
+          "p_old": 1.1745904180126713e-05
+        },
+        {
+          "target_new": 16.998584747314453,
+          "target_true": 17.78476905822754,
+          "prompt": "What is the twin city of Reggio Calabria? It is",
+          "p_new": 4.145800924740023e-08,
+          "p_old": 1.8887432970648205e-08
+        },
+        {
+          "target_new": 0.6960252523422241,
+          "target_true": 12.80156135559082,
+          "prompt": "Portsmouth is a twin city of",
+          "p_new": 0.49856303294792487,
+          "p_old": 2.7564653877450206e-06
+        },
+        {
+          "target_new": 15.799266815185547,
+          "target_true": 17.102025985717773,
+          "prompt": "The twin city of Sydney is",
+          "p_new": 1.3755158656453313e-07,
+          "p_old": 3.7383889561491014e-08
+        },
+        {
+          "target_new": 11.490952491760254,
+          "target_true": 14.759227752685547,
+          "prompt": "Muscat is a twin city of",
+          "p_new": 1.0222161568756647e-05,
+          "p_old": 3.8917849104731926e-07
+        },
+        {
+          "target_new": 5.27081298828125,
+          "target_true": 17.089632034301758,
+          "prompt": "What is the twin city of Portsmouth? It is",
+          "p_new": 0.005139430577285203,
+          "p_old": 3.785010684166205e-08
+        },
+        {
+          "target_new": 11.786190032958984,
+          "target_true": 13.391321182250977,
+          "prompt": "Sydney is a twin city of",
+          "p_new": 7.608914534753151e-06,
+          "p_old": 1.5283509989406315e-06
+        },
+        {
+          "target_new": 15.366888046264648,
+          "target_true": 18.165660858154297,
+          "prompt": "What is the twin city of Sydney? It is",
+          "p_new": 2.1195580600109776e-07,
+          "p_old": 1.2904872829872529e-08
+        },
+        {
+          "target_new": 14.434836387634277,
+          "target_true": 13.412144660949707,
+          "prompt": "Duisburg is a twin city of",
+          "p_new": 5.383072260505533e-07,
+          "p_old": 1.496854486063587e-06
+        },
+        {
+          "target_new": 16.083913803100586,
+          "target_true": 16.480907440185547,
+          "prompt": "The twin city of Reggio Calabria is",
+          "p_new": 1.0347727608296875e-07,
+          "p_old": 6.95717362680029e-08
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 70.0
+      }
+    }
+  },
+  "seeds": {
+    "2951": 2983,
+    "3017": 3049,
+    "10599": 10631
+  },
+  "edit_seconds": [
+    2.9296620879995316,
+    3.43057643299926,
+    1.7891612399998849
+  ],
+  "retention": {
+    "all_edits_hold": false,
+    "final_held": {
+      "10599": false,
+      "3017": true,
+      "2951": true
+    },
+    "eligible_prior_case_ids": [
+      10599,
+      3017
+    ],
+    "lost_prior_case_ids": [
+      10599
+    ],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": true,
+    "double_hold": null
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 22.03763737400004,
+  "completed_at_utc": "2026-11-28T08:24:05.405805+00:00"
+}

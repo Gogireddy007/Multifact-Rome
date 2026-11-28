@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      20232,
+      8869
+    ],
+    "group_id": "group_006",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "similar"
+      }
+    ],
+    "relation_ids": [
+      "P106",
+      "P101"
+    ],
+    "size": 2,
+    "subject": "Antoine Augustin Cournot"
+  },
+  "order": "reverse",
+  "edit_order": [
+    8869,
+    20232
+  ],
+  "facts": {
+    "20232": {
+      "case_id": 20232,
+      "requested_rewrite": {
+        "prompt": "{} works as",
+        "relation_id": "P106",
+        "target_new": {
+          "str": "actor",
+          "id": "Q33999"
+        },
+        "target_true": {
+          "str": "mathematician",
+          "id": "Q170790"
+        },
+        "subject": "Antoine Augustin Cournot"
+      },
+      "prompts": {
+        "rewrite": [
+          "Antoine Augustin Cournot works as"
+        ],
+        "paraphrase": [
+          "Estudios sobre la Frontera Romana. The occupation of Antoine Augustin Cournot is",
+          "claudiana. Antoine Augustin Cournot's occupation is"
+        ],
+        "neighborhood": [
+          "Georg Christoph Lichtenberg, who works as",
+          "Georg Christoph Lichtenberg's profession is an",
+          "The profession of Otto H\u00f6lder is",
+          "The profession of Emil Artin is",
+          "The profession of Conrad Celtes is",
+          "Gottlob Frege's occupation is",
+          "The occupation of Sebastian M\u00fcnster is",
+          "August Ferdinand M\u00f6bius's profession is an",
+          "The profession of August Ferdinand M\u00f6bius is",
+          "The occupation of Gottlob Frege is"
+        ],
+        "attribute": [
+          "John Lennon's occupation is",
+          "\u00c9dith Piaf, who works as",
+          "Cyndi Lauper's profession is an",
+          "David Lynch's profession is an",
+          "Grace Kelly's profession is a",
+          "Charlie Chaplin's profession is an",
+          "The profession of Mikhail Bulgakov is",
+          "Tom Hanks's profession is a",
+          "Cyndi Lauper, who works as",
+          "Charles Aznavour works as"
+        ]
+      }
+    },
+    "8869": {
+      "case_id": 8869,
+      "requested_rewrite": {
+        "prompt": "{} works in the area of",
+        "relation_id": "P101",
+        "target_new": {
+          "str": "theology",
+          "id": "Q34178"
+        },
+        "target_true": {
+          "str": "mathematics",
+          "id": "Q395"
+        },
+        "subject": "Antoine Augustin Cournot"
+      },
+      "prompts": {
+        "rewrite": [
+          "Antoine Augustin Cournot works in the area of"
+        ],
+        "paraphrase": [
+          "1989\nModerne islandske dikt. The domain of work of Antoine Augustin Cournot is",
+          "Elaine and Puddy have a quarrel and break up. Antoine Augustin Cournot's area of work is"
+        ],
+        "neighborhood": [
+          "The domain of work of Alan Turing is",
+          "Bertrand Russell works in the field of",
+          "The expertise of Nicolaus Copernicus is",
+          "The domain of work of Galileo Galilei is",
+          "John Frederick William Herschel specializes in",
+          "John von Neumann's area of work is",
+          "Archimedes specializes in",
+          "Omar Khayy\u00e1m's domain of work is",
+          "The domain of activity of Galileo Galilei is",
+          "Isaac Newton specializes in"
+        ],
+        "attribute": [
+          "The domain of work of Carmine Benincasa is",
+          "Edmond Mart\u00e8ne's area of work is",
+          "Andrey Kuraev's domain of activity is",
+          "Alexander Gerard's area of work is",
+          "Andrey Kuraev works in the area of",
+          "Johannes Polyander works in the area of",
+          "Wolfgang Schneider's domain of activity is",
+          "The domain of work of Alexander Gerard is",
+          "Andrey Kuraev works in the field of",
+          "Jean-Louis Chr\u00e9tien works in the area of"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "20232": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 11.27393913269043,
+              "target_true": 11.403572082519531,
+              "prompt": "Antoine Augustin Cournot works as",
+              "p_new": 1.2699611789911566e-05,
+              "p_old": 1.1155564987842063e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 14.503101348876953,
+              "target_true": 15.543855667114258,
+              "prompt": "Estudios sobre la Frontera Romana. The occupation of Antoine Augustin Cournot is",
+              "p_new": 5.027859275054082e-07,
+              "p_old": 1.7757803921294867e-07
+            },
+            {
+              "target_new": 10.563538551330566,
+              "target_true": 9.878274917602539,
+              "prompt": "claudiana. Antoine Augustin Cournot's occupation is",
+              "p_new": 2.5841248818442913e-05,
+              "p_old": 5.127665807588669e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 12.287317276000977,
+              "target_true": 12.076020240783691,
+              "prompt": "Georg Christoph Lichtenberg, who works as",
+              "p_new": 4.609840611796797e-06,
+              "p_old": 5.69444032450561e-06
+            },
+            {
+              "target_new": 5.693868160247803,
+              "target_true": 11.875066757202148,
+              "prompt": "Georg Christoph Lichtenberg's profession is an",
+              "p_new": 0.0033665454134861757,
+              "p_old": 6.961839955017595e-06
+            },
+            {
+              "target_new": 14.193717002868652,
+              "target_true": 14.632397651672363,
+              "prompt": "The profession of Otto H\u00f6lder is",
+              "p_new": 6.850890529217687e-07,
+              "p_old": 4.4180481312266984e-07
+            },
+            {
+              "target_new": 13.412761688232422,
+              "target_true": 13.80385971069336,
+              "prompt": "The profession of Emil Artin is",
+              "p_new": 1.4959311708920514e-06,
+              "p_old": 1.0117189827468758e-06
+            },
+            {
+              "target_new": 13.781757354736328,
+              "target_true": 14.617557525634766,
+              "prompt": "The profession of Conrad Celtes is",
+              "p_new": 1.034329306091743e-06,
+              "p_old": 4.4841014297367365e-07
+            },
+            {
+              "target_new": 12.37912368774414,
+              "target_true": 10.369800567626953,
+              "prompt": "Gottlob Frege's occupation is",
+              "p_new": 4.205473412071016e-06,
+              "p_old": 3.1365544776785934e-05
+            },
+            {
+              "target_new": 15.290777206420898,
+              "target_true": 17.91781997680664,
+              "prompt": "The occupation of Sebastian M\u00fcnster is",
+              "p_new": 2.287177316832683e-07,
+              "p_old": 1.6534446313399455e-08
+            },
+            {
+              "target_new": 5.997751235961914,
+              "target_true": 10.957796096801758,
+              "prompt": "August Ferdinand M\u00f6bius's profession is an",
+              "p_new": 0.002484332577571364,
+              "p_old": 1.7421663510661573e-05
+            },
+            {
+              "target_new": 13.479588508605957,
+              "target_true": 14.231199264526367,
+              "prompt": "The profession of August Ferdinand M\u00f6bius is",
+              "p_new": 1.3992299496873077e-06,
+              "p_old": 6.598856565897223e-07
+            },
+            {
+              "target_new": 15.85594367980957,
+              "target_true": 15.514303207397461,
+              "prompt": "The occupation of Gottlob Frege is",
+              "p_new": 1.2997240479780575e-07,
+              "p_old": 1.8290422031111447e-07
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 11.27791976928711,
+              "target_true": 14.065805435180664,
+              "prompt": "John Lennon's occupation is",
+              "p_new": 1.2649159732729304e-05,
+              "p_old": 7.785711663204085e-07
+            },
+            {
+              "target_new": 11.267410278320312,
+              "target_true": 14.605899810791016,
+              "prompt": "\u00c9dith Piaf, who works as",
+              "p_new": 1.278279696229608e-05,
+              "p_old": 4.5366816929120356e-07
+            },
+            {
+              "target_new": 5.377613067626953,
+              "target_true": 15.373614311218262,
+              "prompt": "Cyndi Lauper's profession is an",
+              "p_new": 0.004618833626185538,
+              "p_old": 2.1053491907948194e-07
+            },
+            {
+              "target_new": 4.831992149353027,
+              "target_true": 16.159597396850586,
+              "prompt": "David Lynch's profession is an",
+              "p_new": 0.00797062676015397,
+              "p_old": 9.593476604223493e-08
+            },
+            {
+              "target_new": 13.189068794250488,
+              "target_true": 11.389808654785156,
+              "prompt": "Grace Kelly's profession is a",
+              "p_new": 1.870941469340779e-06,
+              "p_old": 1.1310165274815396e-05
+            },
+            {
+              "target_new": 4.336974143981934,
+              "target_true": 16.424219131469727,
+              "prompt": "Charlie Chaplin's profession is an",
+              "p_new": 0.013076034600949396,
+              "p_old": 7.362956956735097e-08
+            },
+            {
+              "target_new": 12.880331039428711,
+              "target_true": 14.231952667236328,
+              "prompt": "The profession of Mikhail Bulgakov is",
+              "p_new": 2.5476707708155663e-06,
+              "p_old": 6.593886841814704e-07
+            },
+            {
+              "target_new": 9.694231033325195,
+              "target_true": 9.970412254333496,
+              "prompt": "Tom Hanks's profession is a",
+              "p_new": 6.163805924505006e-05,
+              "p_old": 4.6763281125290384e-05
+            },
+            {
+              "target_new": 11.118300437927246,
+              "target_true": 15.201680183410645,
+              "prompt": "Cyndi Lauper, who works as",
+              "p_new": 1.4838276913341625e-05,
+              "p_old": 2.5003118586333445e-07
+            },
+            {
+              "target_new": 8.42998218536377,
+              "target_true": 13.65843677520752,
+              "prompt": "Charles Aznavour works as",
+              "p_new": 0.00021822537796146446,
+              "p_old": 1.170081942587443e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 50.0,
+            "neighborhood": 30.0
+          }
+        },
+        "8869": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 8.101054191589355,
+              "target_true": 6.109646797180176,
+              "prompt": "Antoine Augustin Cournot works in the area of",
+              "p_new": 0.00030321931827775444,
+              "p_old": 0.0022213352561325814
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 13.45485782623291,
+              "target_true": 12.525029182434082,
+              "prompt": "1989\nModerne islandske dikt. The domain of work of Antoine Augustin Cournot is",
+              "p_new": 1.4342652995584103e-06,
+              "p_old": 3.634535711273716e-06
+            },
+            {
+              "target_new": 7.346184253692627,
+              "target_true": 7.032978534698486,
+              "prompt": "Elaine and Puddy have a quarrel and break up. Antoine Augustin Cournot's area of work is",
+              "p_new": 0.0006450490137841324,
+              "p_old": 0.0008822999020979935
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 14.099360466003418,
+              "target_true": 11.501749992370605,
+              "prompt": "The domain of work of Alan Turing is",
+              "p_new": 7.528796374074032e-07,
+              "p_old": 1.011238151464574e-05
+            },
+            {
+              "target_new": 7.457397937774658,
+              "target_true": 3.201206684112549,
+              "prompt": "Bertrand Russell works in the field of",
+              "p_new": 0.0005771560151629215,
+              "p_old": 0.0407130465391483
+            },
+            {
+              "target_new": 14.354140281677246,
+              "target_true": 12.85593032836914,
+              "prompt": "The expertise of Nicolaus Copernicus is",
+              "p_new": 5.83547325836201e-07,
+              "p_old": 2.6106003906047396e-06
+            },
+            {
+              "target_new": 12.999709129333496,
+              "target_true": 11.804098129272461,
+              "prompt": "The domain of work of Galileo Galilei is",
+              "p_new": 2.260986966129879e-06,
+              "p_old": 7.473866198873249e-06
+            },
+            {
+              "target_new": 8.014764785766602,
+              "target_true": 6.877102375030518,
+              "prompt": "John Frederick William Herschel specializes in",
+              "p_new": 0.0003305459800135429,
+              "p_old": 0.0010311275414714256
+            },
+            {
+              "target_new": 11.605287551879883,
+              "target_true": 3.798579454421997,
+              "prompt": "John von Neumann's area of work is",
+              "p_new": 9.11774947994649e-06,
+              "p_old": 0.022402573139440767
+            },
+            {
+              "target_new": 10.303218841552734,
+              "target_true": 5.245515823364258,
+              "prompt": "Archimedes specializes in",
+              "p_new": 3.3525009629849694e-05,
+              "p_old": 0.005271102035660478
+            },
+            {
+              "target_new": 7.56781005859375,
+              "target_true": 7.936183929443359,
+              "prompt": "Omar Khayy\u00e1m's domain of work is",
+              "p_new": 0.0005168230223518052,
+              "p_old": 0.00035756838427289763
+            },
+            {
+              "target_new": 11.497278213500977,
+              "target_true": 9.877470016479492,
+              "prompt": "The domain of activity of Galileo Galilei is",
+              "p_new": 1.0157703107170553e-05,
+              "p_old": 5.1317947330212495e-05
+            },
+            {
+              "target_new": 7.856784820556641,
+              "target_true": 4.539795875549316,
+              "prompt": "Isaac Newton specializes in",
+              "p_new": 0.0003871165217124518,
+              "p_old": 0.010675585479151019
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 12.601289749145508,
+              "target_true": 11.577104568481445,
+              "prompt": "The domain of work of Carmine Benincasa is",
+              "p_new": 3.3676689837611504e-06,
+              "p_old": 9.378370145855703e-06
+            },
+            {
+              "target_new": 7.1018290519714355,
+              "target_true": 6.43986177444458,
+              "prompt": "Edmond Mart\u00e8ne's area of work is",
+              "p_new": 0.0008235971428041246,
+              "p_old": 0.0015966273600637702
+            },
+            {
+              "target_new": 10.229913711547852,
+              "target_true": 8.346944808959961,
+              "prompt": "Andrey Kuraev's domain of activity is",
+              "p_new": 3.607488245905679e-05,
+              "p_old": 0.0002371198593633614
+            },
+            {
+              "target_new": 7.918562412261963,
+              "target_true": 6.7576518058776855,
+              "prompt": "Alexander Gerard's area of work is",
+              "p_new": 0.0003639251249178551,
+              "p_old": 0.0011619544675441464
+            },
+            {
+              "target_new": 9.542464256286621,
+              "target_true": 6.653217315673828,
+              "prompt": "Andrey Kuraev works in the area of",
+              "p_new": 7.173984429377305e-05,
+              "p_old": 0.0012898655179761373
+            },
+            {
+              "target_new": 8.182745933532715,
+              "target_true": 6.362473487854004,
+              "prompt": "Johannes Polyander works in the area of",
+              "p_new": 0.00027943357964159025,
+              "p_old": 0.0017250944301968588
+            },
+            {
+              "target_new": 8.356047630310059,
+              "target_true": 7.037944316864014,
+              "prompt": "Wolfgang Schneider's domain of activity is",
+              "p_new": 0.00023497119394051623,
+              "p_old": 0.000877929453308737
+            },
+            {
+              "target_new": 13.326090812683105,
+              "target_true": 12.249276161193848,
+              "prompt": "The domain of work of Alexander Gerard is",
+              "p_new": 1.6313693355097764e-06,
+              "p_old": 4.788582299655406e-06
+            },
+            {
+              "target_new": 9.013069152832031,
+              "target_true": 6.251689910888672,
+              "prompt": "Andrey Kuraev works in the field of",
+              "p_new": 0.00012180743609949924,
+              "p_old": 0.001927194595705043
+            },
+            {
+              "target_new": 9.918944358825684,
+              "target_true": 8.317327499389648,
+              "prompt": "Jean-Louis Chr\u00e9tien works in the area of",
+              "p_new": 4.923310185200597e-05,
+              "p_old": 0.00024424774500934535
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 90.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        8869
+      ],
+      "evaluations": {
+        "20232": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 18.013320922851562,
+              "target_true": 15.820475578308105,
+              "prompt": "Antoine Augustin Cournot works as",
+              "p_new": 1.5028447636432324e-08,
+              "p_old": 1.346650061487334e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 14.53136920928955,
+              "target_true": 14.517155647277832,
+              "prompt": "Estudios sobre la Frontera Romana. The occupation of Antoine Augustin Cournot is",
+              "p_new": 4.887722466259118e-07,
+              "p_old": 4.957690482056303e-07
+            },
+            {
+              "target_new": 14.418876647949219,
+              "target_true": 11.70203685760498,
+              "prompt": "claudiana. Antoine Augustin Cournot's occupation is",
+              "p_new": 5.469673924285747e-07,
+              "p_old": 8.276943025102695e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 12.26600170135498,
+              "target_true": 12.019935607910156,
+              "prompt": "Georg Christoph Lichtenberg, who works as",
+              "p_new": 4.7091567433117615e-06,
+              "p_old": 6.022936614236568e-06
+            },
+            {
+              "target_new": 5.6784186363220215,
+              "target_true": 11.831260681152344,
+              "prompt": "Georg Christoph Lichtenberg's profession is an",
+              "p_new": 0.0034189607911429146,
+              "p_old": 7.2735892506152135e-06
+            },
+            {
+              "target_new": 14.215088844299316,
+              "target_true": 14.632035255432129,
+              "prompt": "The profession of Otto H\u00f6lder is",
+              "p_new": 6.706027887729953e-07,
+              "p_old": 4.419649505407095e-07
+            },
+            {
+              "target_new": 13.41555118560791,
+              "target_true": 13.784954071044922,
+              "prompt": "The profession of Emil Artin is",
+              "p_new": 1.4917640895502774e-06,
+              "p_old": 1.0310281280066404e-06
+            },
+            {
+              "target_new": 13.792200088500977,
+              "target_true": 14.637805938720703,
+              "prompt": "The profession of Conrad Celtes is",
+              "p_new": 1.023584281882655e-06,
+              "p_old": 4.394218555416461e-07
+            },
+            {
+              "target_new": 12.440971374511719,
+              "target_true": 10.436656951904297,
+              "prompt": "Gottlob Frege's occupation is",
+              "p_new": 3.953254577989755e-06,
+              "p_old": 2.93371199317121e-05
+            },
+            {
+              "target_new": 15.27839183807373,
+              "target_true": 17.90062141418457,
+              "prompt": "The occupation of Sebastian M\u00fcnster is",
+              "p_new": 2.3156810003217157e-07,
+              "p_old": 1.682127446969213e-08
+            },
+            {
+              "target_new": 6.003504753112793,
+              "target_true": 10.947704315185547,
+              "prompt": "August Ferdinand M\u00f6bius's profession is an",
+              "p_new": 0.002470079968111248,
+              "p_old": 1.7598369272481506e-05
+            },
+            {
+              "target_new": 13.49472427368164,
+              "target_true": 14.242875099182129,
+              "prompt": "The profession of August Ferdinand M\u00f6bius is",
+              "p_new": 1.37821100406361e-06,
+              "p_old": 6.522257457177363e-07
+            },
+            {
+              "target_new": 15.848154067993164,
+              "target_true": 15.536097526550293,
+              "prompt": "The occupation of Gottlob Frege is",
+              "p_new": 1.3098879287294003e-07,
+              "p_old": 1.789610725488351e-07
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 11.27876091003418,
+              "target_true": 14.076967239379883,
+              "prompt": "John Lennon's occupation is",
+              "p_new": 1.2638524482560093e-05,
+              "p_old": 7.699292269461582e-07
+            },
+            {
+              "target_new": 11.26046085357666,
+              "target_true": 14.584210395812988,
+              "prompt": "\u00c9dith Piaf, who works as",
+              "p_new": 1.2871939433489122e-05,
+              "p_old": 4.63615451891506e-07
+            },
+            {
+              "target_new": 5.351827621459961,
+              "target_true": 15.359081268310547,
+              "prompt": "Cyndi Lauper's profession is an",
+              "p_new": 0.004739481101808539,
+              "p_old": 2.1361697366141032e-07
+            },
+            {
+              "target_new": 4.784375190734863,
+              "target_true": 16.14132308959961,
+              "prompt": "David Lynch's profession is an",
+              "p_new": 0.008359345112871433,
+              "p_old": 9.770402417959491e-08
+            },
+            {
+              "target_new": 13.160379409790039,
+              "target_true": 11.361186027526855,
+              "prompt": "Grace Kelly's profession is a",
+              "p_new": 1.9253950128594576e-06,
+              "p_old": 1.1638569393802276e-05
+            },
+            {
+              "target_new": 4.315766334533691,
+              "target_true": 16.413278579711914,
+              "prompt": "Charlie Chaplin's profession is an",
+              "p_new": 0.013356310161535483,
+              "p_old": 7.443954036869468e-08
+            },
+            {
+              "target_new": 12.880970001220703,
+              "target_true": 14.23439884185791,
+              "prompt": "The profession of Mikhail Bulgakov is",
+              "p_new": 2.546043426495228e-06,
+              "p_old": 6.577776755240392e-07
+            },
+            {
+              "target_new": 9.671735763549805,
+              "target_true": 9.958708763122559,
+              "prompt": "Tom Hanks's profession is a",
+              "p_new": 6.304033719334167e-05,
+              "p_old": 4.731378992874302e-05
+            },
+            {
+              "target_new": 11.113131523132324,
+              "target_true": 15.188997268676758,
+              "prompt": "Cyndi Lauper, who works as",
+              "p_new": 1.4915173266551431e-05,
+              "p_old": 2.532225049095877e-07
+            },
+            {
+              "target_new": 8.55942153930664,
+              "target_true": 13.694828987121582,
+              "prompt": "Charles Aznavour works as",
+              "p_new": 0.00019173016993561493,
+              "p_old": 1.1282655825011715e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 30.0
+          }
+        },
+        "8869": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.004053947515785694,
+              "target_true": 14.979443550109863,
+              "prompt": "Antoine Augustin Cournot works in the area of",
+              "p_new": 0.9959542586365958,
+              "p_old": 3.1225566358904874e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 6.516566276550293,
+              "target_true": 12.49493408203125,
+              "prompt": "1989\nModerne islandske dikt. The domain of work of Antoine Augustin Cournot is",
+              "p_new": 0.0014787379720759145,
+              "p_old": 3.7455799917268857e-06
+            },
+            {
+              "target_new": 0.09955251961946487,
+              "target_true": 14.527935028076172,
+              "prompt": "Elaine and Puddy have a quarrel and break up. Antoine Augustin Cournot's area of work is",
+              "p_new": 0.905242405633349,
+              "p_old": 4.904536645873857e-07
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 14.111056327819824,
+              "target_true": 11.53036880493164,
+              "prompt": "The domain of work of Alan Turing is",
+              "p_new": 7.441253554336479e-07,
+              "p_old": 9.827079143560279e-06
+            },
+            {
+              "target_new": 7.461775779724121,
+              "target_true": 3.1995835304260254,
+              "prompt": "Bertrand Russell works in the field of",
+              "p_new": 0.0005746348400281205,
+              "p_old": 0.04077918373162123
+            },
+            {
+              "target_new": 14.34398365020752,
+              "target_true": 12.849963188171387,
+              "prompt": "The expertise of Nicolaus Copernicus is",
+              "p_new": 5.895044016723173e-07,
+              "p_old": 2.626224779233385e-06
+            },
+            {
+              "target_new": 12.989058494567871,
+              "target_true": 11.812621116638184,
+              "prompt": "The domain of work of Galileo Galilei is",
+              "p_new": 2.285196607687635e-06,
+              "p_old": 7.410437217852325e-06
+            },
+            {
+              "target_new": 8.067336082458496,
+              "target_true": 6.835882186889648,
+              "prompt": "John Frederick William Herschel specializes in",
+              "p_new": 0.00031361762074748323,
+              "p_old": 0.00107451897045643
+            },
+            {
+              "target_new": 11.589288711547852,
+              "target_true": 3.8242573738098145,
+              "prompt": "John von Neumann's area of work is",
+              "p_new": 9.264796048826686e-06,
+              "p_old": 0.02183464449055099
+            },
+            {
+              "target_new": 10.293484687805176,
+              "target_true": 5.268838882446289,
+              "prompt": "Archimedes specializes in",
+              "p_new": 3.385294070433639e-05,
+              "p_old": 0.005149586378190936
+            },
+            {
+              "target_new": 7.467073440551758,
+              "target_true": 7.979301452636719,
+              "prompt": "Omar Khayy\u00e1m's domain of work is",
+              "p_new": 0.0005715986689490989,
+              "p_old": 0.00034247857648170976
+            },
+            {
+              "target_new": 11.480340957641602,
+              "target_true": 9.884432792663574,
+              "prompt": "The domain of activity of Galileo Galilei is",
+              "p_new": 1.033121195767467e-05,
+              "p_old": 5.096187302013524e-05
+            },
+            {
+              "target_new": 7.830219745635986,
+              "target_true": 4.572582244873047,
+              "prompt": "Isaac Newton specializes in",
+              "p_new": 0.00039753811342507046,
+              "p_old": 0.010331247432910876
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 12.581408500671387,
+              "target_true": 11.584917068481445,
+              "prompt": "The domain of work of Carmine Benincasa is",
+              "p_new": 3.435292439557554e-06,
+              "p_old": 9.305387090362366e-06
+            },
+            {
+              "target_new": 7.013985633850098,
+              "target_true": 6.401313781738281,
+              "prompt": "Edmond Mart\u00e8ne's area of work is",
+              "p_new": 0.0008992174850912931,
+              "p_old": 0.0016593757828861566
+            },
+            {
+              "target_new": 10.24314022064209,
+              "target_true": 8.35214900970459,
+              "prompt": "Andrey Kuraev's domain of activity is",
+              "p_new": 3.560087931178472e-05,
+              "p_old": 0.00023588904549383985
+            },
+            {
+              "target_new": 7.964588165283203,
+              "target_true": 6.791652679443359,
+              "prompt": "Alexander Gerard's area of work is",
+              "p_new": 0.0003475548146902711,
+              "p_old": 0.001123111096902688
+            },
+            {
+              "target_new": 9.556302070617676,
+              "target_true": 6.65285587310791,
+              "prompt": "Andrey Kuraev works in the area of",
+              "p_new": 7.075395863148834e-05,
+              "p_old": 0.0012903318145432812
+            },
+            {
+              "target_new": 8.176488876342773,
+              "target_true": 6.360044956207275,
+              "prompt": "Johannes Polyander works in the area of",
+              "p_new": 0.00028118749297596714,
+              "p_old": 0.001729288967836354
+            },
+            {
+              "target_new": 8.359068870544434,
+              "target_true": 7.032383918762207,
+              "prompt": "Wolfgang Schneider's domain of activity is",
+              "p_new": 0.00023426236083219645,
+              "p_old": 0.0008828246876878338
+            },
+            {
+              "target_new": 13.309253692626953,
+              "target_true": 12.225503921508789,
+              "prompt": "The domain of work of Alexander Gerard is",
+              "p_new": 1.6590694374531454e-06,
+              "p_old": 4.903781471946082e-06
+            },
+            {
+              "target_new": 9.005218505859375,
+              "target_true": 6.232624053955078,
+              "prompt": "Andrey Kuraev works in the field of",
+              "p_new": 0.00012276746677917017,
+              "p_old": 0.0019642907231613347
+            },
+            {
+              "target_new": 9.902071952819824,
+              "target_true": 8.321380615234375,
+              "prompt": "Jean-Louis Chr\u00e9tien works in the area of",
+              "p_new": 5.007083010752708e-05,
+              "p_old": 0.000243259784116481
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 90.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        8869,
+        20232
+      ],
+      "evaluations": {
+        "20232": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.001082311267964542,
+              "target_true": 19.290124893188477,
+              "prompt": "Antoine Augustin Cournot works as",
+              "p_new": 0.9989182742196302,
+              "p_old": 4.191844885200594e-09
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 2.519503116607666,
+              "target_true": 15.31937313079834,
+              "prompt": "Estudios sobre la Frontera Romana. The occupation of Antoine Augustin Cournot is",
+              "p_new": 0.08049959572598639,
+              "p_old": 2.222699660041164e-07
+            },
+            {
+              "target_new": 0.11821188777685165,
+              "target_true": 15.169428825378418,
+              "prompt": "claudiana. Antoine Augustin Cournot's occupation is",
+              "p_new": 0.8885077687319631,
+              "p_old": 2.5822647541801836e-07
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 12.215215682983398,
+              "target_true": 12.018180847167969,
+              "prompt": "Georg Christoph Lichtenberg, who works as",
+              "p_new": 4.954493165093893e-06,
+              "p_old": 6.033514705255012e-06
+            },
+            {
+              "target_new": 5.627583980560303,
+              "target_true": 11.841347694396973,
+              "prompt": "Georg Christoph Lichtenberg's profession is an",
+              "p_new": 0.0035972558770495594,
+              "p_old": 7.20058925443734e-06
+            },
+            {
+              "target_new": 14.192434310913086,
+              "target_true": 14.629254341125488,
+              "prompt": "The profession of Otto H\u00f6lder is",
+              "p_new": 6.859683749678931e-07,
+              "p_old": 4.4319572774448607e-07
+            },
+            {
+              "target_new": 13.371187210083008,
+              "target_true": 13.778789520263672,
+              "prompt": "The profession of Emil Artin is",
+              "p_new": 1.559434643996361e-06,
+              "p_old": 1.0374035839798579e-06
+            },
+            {
+              "target_new": 13.798046112060547,
+              "target_true": 14.656641006469727,
+              "prompt": "The profession of Conrad Celtes is",
+              "p_new": 1.0176178410248833e-06,
+              "p_old": 4.3122277265359076e-07
+            },
+            {
+              "target_new": 12.413593292236328,
+              "target_true": 10.549357414245605,
+              "prompt": "Gottlob Frege's occupation is",
+              "p_new": 4.062982320797397e-06,
+              "p_old": 2.6210317834434788e-05
+            },
+            {
+              "target_new": 15.247617721557617,
+              "target_true": 17.914348602294922,
+              "prompt": "The occupation of Sebastian M\u00fcnster is",
+              "p_new": 2.388051901046392e-07,
+              "p_old": 1.6591943307959215e-08
+            },
+            {
+              "target_new": 6.006030082702637,
+              "target_true": 10.964338302612305,
+              "prompt": "August Ferdinand M\u00f6bius's profession is an",
+              "p_new": 0.0024638500716602416,
+              "p_old": 1.7308059418281335e-05
+            },
+            {
+              "target_new": 13.476841926574707,
+              "target_true": 14.251421928405762,
+              "prompt": "The profession of August Ferdinand M\u00f6bius is",
+              "p_new": 1.4030783320543777e-06,
+              "p_old": 6.46675037918746e-07
+            },
+            {
+              "target_new": 15.810455322265625,
+              "target_true": 15.51909065246582,
+              "prompt": "The occupation of Gottlob Frege is",
+              "p_new": 1.3602116718355434e-07,
+              "p_old": 1.8203066911125104e-07
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 11.281682014465332,
+              "target_true": 14.10676383972168,
+              "prompt": "John Lennon's occupation is",
+              "p_new": 1.2601659901549658e-05,
+              "p_old": 7.473263699086317e-07
+            },
+            {
+              "target_new": 11.215597152709961,
+              "target_true": 14.582903861999512,
+              "prompt": "\u00c9dith Piaf, who works as",
+              "p_new": 1.3462572196509027e-05,
+              "p_old": 4.642215770311247e-07
+            },
+            {
+              "target_new": 5.355652809143066,
+              "target_true": 15.33568286895752,
+              "prompt": "Cyndi Lauper's profession is an",
+              "p_new": 0.004721386327091926,
+              "p_old": 2.1867420373644884e-07
+            },
+            {
+              "target_new": 4.881760597229004,
+              "target_true": 16.11655044555664,
+              "prompt": "David Lynch's profession is an",
+              "p_new": 0.007583650513067128,
+              "p_old": 1.0015463998466876e-07
+            },
+            {
+              "target_new": 13.206587791442871,
+              "target_true": 11.341647148132324,
+              "prompt": "Grace Kelly's profession is a",
+              "p_new": 1.838449891928186e-06,
+              "p_old": 1.1868210153323878e-05
+            },
+            {
+              "target_new": 4.351587772369385,
+              "target_true": 16.43101692199707,
+              "prompt": "Charlie Chaplin's profession is an",
+              "p_new": 0.012886335760653995,
+              "p_old": 7.313074853812065e-08
+            },
+            {
+              "target_new": 12.906328201293945,
+              "target_true": 14.24203872680664,
+              "prompt": "The profession of Mikhail Bulgakov is",
+              "p_new": 2.4822920738456123e-06,
+              "p_old": 6.527714774997179e-07
+            },
+            {
+              "target_new": 9.640294075012207,
+              "target_true": 9.950109481811523,
+              "prompt": "Tom Hanks's profession is a",
+              "p_new": 6.50539212016605e-05,
+              "p_old": 4.772240891500645e-05
+            },
+            {
+              "target_new": 11.091636657714844,
+              "target_true": 15.199470520019531,
+              "prompt": "Cyndi Lauper, who works as",
+              "p_new": 1.5239243352645705e-05,
+              "p_old": 2.505842814738886e-07
+            },
+            {
+              "target_new": 8.151867866516113,
+              "target_true": 13.689098358154297,
+              "prompt": "Charles Aznavour works as",
+              "p_new": 0.00028819654389252846,
+              "p_old": 1.1347498155526882e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 30.0
+          }
+        },
+        "8869": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 11.12460708618164,
+              "target_true": 14.19039535522461,
+              "prompt": "Antoine Augustin Cournot works in the area of",
+              "p_new": 1.4744991588206883e-05,
+              "p_old": 6.873684609597449e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 18.505643844604492,
+              "target_true": 15.777632713317871,
+              "prompt": "1989\nModerne islandske dikt. The domain of work of Antoine Augustin Cournot is",
+              "p_new": 9.185461775310787e-09,
+              "p_old": 1.405598144257401e-07
+            },
+            {
+              "target_new": 14.68264102935791,
+              "target_true": 17.19479751586914,
+              "prompt": "Elaine and Puddy have a quarrel and break up. Antoine Augustin Cournot's area of work is",
+              "p_new": 4.2015546921817403e-07,
+              "p_old": 3.407174066047203e-08
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 14.093485832214355,
+              "target_true": 11.541279792785645,
+              "prompt": "The domain of work of Alan Turing is",
+              "p_new": 7.573155464776519e-07,
+              "p_old": 9.720438835890983e-06
+            },
+            {
+              "target_new": 7.44965124130249,
+              "target_true": 3.201876640319824,
+              "prompt": "Bertrand Russell works in the field of",
+              "p_new": 0.0005816444303783496,
+              "p_old": 0.04068577971571098
+            },
+            {
+              "target_new": 14.350110054016113,
+              "target_true": 12.861869812011719,
+              "prompt": "The expertise of Nicolaus Copernicus is",
+              "p_new": 5.859038999857611e-07,
+              "p_old": 2.595140728939339e-06
+            },
+            {
+              "target_new": 13.004353523254395,
+              "target_true": 11.817914962768555,
+              "prompt": "The domain of work of Galileo Galilei is",
+              "p_new": 2.250510399492323e-06,
+              "p_old": 7.371311158506151e-06
+            },
+            {
+              "target_new": 7.9958038330078125,
+              "target_true": 6.868645191192627,
+              "prompt": "John Frederick William Herschel specializes in",
+              "p_new": 0.0003368732426264806,
+              "p_old": 0.0010398849559851882
+            },
+            {
+              "target_new": 11.611173629760742,
+              "target_true": 3.812556743621826,
+              "prompt": "John von Neumann's area of work is",
+              "p_new": 9.064239333346744e-06,
+              "p_old": 0.022091624070734242
+            },
+            {
+              "target_new": 10.298322677612305,
+              "target_true": 5.271650314331055,
+              "prompt": "Archimedes specializes in",
+              "p_new": 3.368955606755475e-05,
+              "p_old": 0.005135128999344637
+            },
+            {
+              "target_new": 7.520116806030273,
+              "target_true": 7.98875617980957,
+              "prompt": "Omar Khayy\u00e1m's domain of work is",
+              "p_new": 0.0005420692451908997,
+              "p_old": 0.00033925579424940795
+            },
+            {
+              "target_new": 11.506205558776855,
+              "target_true": 9.893834114074707,
+              "prompt": "The domain of activity of Galileo Galilei is",
+              "p_new": 1.0067425354233664e-05,
+              "p_old": 5.0485009159660106e-05
+            },
+            {
+              "target_new": 7.79544734954834,
+              "target_true": 4.6040754318237305,
+              "prompt": "Isaac Newton specializes in",
+              "p_new": 0.0004116046117799421,
+              "p_old": 0.010010953536264357
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 12.59113597869873,
+              "target_true": 11.573517799377441,
+              "prompt": "The domain of work of Carmine Benincasa is",
+              "p_new": 3.40203771237198e-06,
+              "p_old": 9.412068592286738e-06
+            },
+            {
+              "target_new": 7.059244155883789,
+              "target_true": 6.416731834411621,
+              "prompt": "Edmond Mart\u00e8ne's area of work is",
+              "p_new": 0.0008594274417157188,
+              "p_old": 0.0016339876602954337
+            },
+            {
+              "target_new": 10.230125427246094,
+              "target_true": 8.335363388061523,
+              "prompt": "Andrey Kuraev's domain of activity is",
+              "p_new": 3.6067245648572825e-05,
+              "p_old": 0.00023988200818839958
+            },
+            {
+              "target_new": 7.936007499694824,
+              "target_true": 6.762516975402832,
+              "prompt": "Alexander Gerard's area of work is",
+              "p_new": 0.00035763147553844344,
+              "p_old": 0.0011563150914629743
+            },
+            {
+              "target_new": 9.55925178527832,
+              "target_true": 6.663267135620117,
+              "prompt": "Andrey Kuraev works in the area of",
+              "p_new": 7.054556214859643e-05,
+              "p_old": 0.0012769675215929604
+            },
+            {
+              "target_new": 8.185527801513672,
+              "target_true": 6.363739967346191,
+              "prompt": "Johannes Polyander works in the area of",
+              "p_new": 0.00027865731255047777,
+              "p_old": 0.0017229110163951731
+            },
+            {
+              "target_new": 8.35885238647461,
+              "target_true": 7.032759189605713,
+              "prompt": "Wolfgang Schneider's domain of activity is",
+              "p_new": 0.00023431308039126623,
+              "p_old": 0.0008824934514781506
+            },
+            {
+              "target_new": 13.295097351074219,
+              "target_true": 12.21448802947998,
+              "prompt": "The domain of work of Alexander Gerard is",
+              "p_new": 1.6827228187274306e-06,
+              "p_old": 4.9580996313729165e-06
+            },
+            {
+              "target_new": 9.020106315612793,
+              "target_true": 6.2302985191345215,
+              "prompt": "Andrey Kuraev works in the field of",
+              "p_new": 0.00012095326633458803,
+              "p_old": 0.0019688640653078514
+            },
+            {
+              "target_new": 9.891605377197266,
+              "target_true": 8.305761337280273,
+              "prompt": "Jean-Louis Chr\u00e9tien works in the area of",
+              "p_new": 5.059765244082213e-05,
+              "p_old": 0.00024708915444807963
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 50.0,
+            "neighborhood": 90.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "20232": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.0058869547210633755,
+          "target_true": 19.8072452545166,
+          "prompt": "Antoine Augustin Cournot works as",
+          "p_new": 0.9941303394435838,
+          "p_old": 2.499324717606825e-09
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 10.341081619262695,
+          "target_true": 14.025243759155273,
+          "prompt": "Estudios sobre la Frontera Romana. The occupation of Antoine Augustin Cournot is",
+          "p_new": 3.2279389762046735e-05,
+          "p_old": 8.108005377335161e-07
+        },
+        {
+          "target_new": 0.1800098419189453,
+          "target_true": 12.931937217712402,
+          "prompt": "claudiana. Antoine Augustin Cournot's occupation is",
+          "p_new": 0.8352619907900073,
+          "p_old": 2.419530081832041e-06
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 12.24989128112793,
+          "target_true": 12.042089462280273,
+          "prompt": "Georg Christoph Lichtenberg, who works as",
+          "p_new": 4.785637652975179e-06,
+          "p_old": 5.890972507618109e-06
+        },
+        {
+          "target_new": 5.6707353591918945,
+          "target_true": 11.86379623413086,
+          "prompt": "Georg Christoph Lichtenberg's profession is an",
+          "p_new": 0.003445330788673455,
+          "p_old": 7.040747361457661e-06
+        },
+        {
+          "target_new": 14.195413589477539,
+          "target_true": 14.632698059082031,
+          "prompt": "The profession of Otto H\u00f6lder is",
+          "p_new": 6.839277254335835e-07,
+          "p_old": 4.416721116164367e-07
+        },
+        {
+          "target_new": 13.390740394592285,
+          "target_true": 13.789093017578125,
+          "prompt": "The profession of Emil Artin is",
+          "p_new": 1.529238904156202e-06,
+          "p_old": 1.0267695767479687e-06
+        },
+        {
+          "target_new": 13.797384262084961,
+          "target_true": 14.633100509643555,
+          "prompt": "The profession of Conrad Celtes is",
+          "p_new": 1.018291574298703e-06,
+          "p_old": 4.414943961903426e-07
+        },
+        {
+          "target_new": 12.275361061096191,
+          "target_true": 10.358809471130371,
+          "prompt": "Gottlob Frege's occupation is",
+          "p_new": 4.6652876647523204e-06,
+          "p_old": 3.171218801105808e-05
+        },
+        {
+          "target_new": 15.278131484985352,
+          "target_true": 17.901063919067383,
+          "prompt": "The occupation of Sebastian M\u00fcnster is",
+          "p_new": 2.3162839735114097e-07,
+          "p_old": 1.6813832620252952e-08
+        },
+        {
+          "target_new": 5.998852252960205,
+          "target_true": 10.968902587890625,
+          "prompt": "August Ferdinand M\u00f6bius's profession is an",
+          "p_new": 0.0024815987904232765,
+          "p_old": 1.7229240510307014e-05
+        },
+        {
+          "target_new": 13.484146118164062,
+          "target_true": 14.242996215820312,
+          "prompt": "The profession of August Ferdinand M\u00f6bius is",
+          "p_new": 1.3928673161080446e-06,
+          "p_old": 6.521467551117131e-07
+        },
+        {
+          "target_new": 15.8311185836792,
+          "target_true": 15.488022804260254,
+          "prompt": "The occupation of Gottlob Frege is",
+          "p_new": 1.33239365771346e-07,
+          "p_old": 1.87774736197732e-07
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 11.239253997802734,
+          "target_true": 14.042105674743652,
+          "prompt": "John Lennon's occupation is",
+          "p_new": 1.3147827819646992e-05,
+          "p_old": 7.972435074716504e-07
+        },
+        {
+          "target_new": 11.264172554016113,
+          "target_true": 14.61054801940918,
+          "prompt": "\u00c9dith Piaf, who works as",
+          "p_new": 1.2824251207191412e-05,
+          "p_old": 4.515643183539013e-07
+        },
+        {
+          "target_new": 5.358135223388672,
+          "target_true": 15.357622146606445,
+          "prompt": "Cyndi Lauper's profession is an",
+          "p_new": 0.004709680425873867,
+          "p_old": 2.1392889433381483e-07
+        },
+        {
+          "target_new": 4.820511817932129,
+          "target_true": 16.12143325805664,
+          "prompt": "David Lynch's profession is an",
+          "p_new": 0.008062659469185005,
+          "p_old": 9.966679565208045e-08
+        },
+        {
+          "target_new": 13.18418025970459,
+          "target_true": 11.35954761505127,
+          "prompt": "Grace Kelly's profession is a",
+          "p_new": 1.8801100234848474e-06,
+          "p_old": 1.1657653800891212e-05
+        },
+        {
+          "target_new": 4.335318565368652,
+          "target_true": 16.43071746826172,
+          "prompt": "Charlie Chaplin's profession is an",
+          "p_new": 0.013097700934391547,
+          "p_old": 7.315265109317673e-08
+        },
+        {
+          "target_new": 12.88688850402832,
+          "target_true": 14.23441219329834,
+          "prompt": "The profession of Mikhail Bulgakov is",
+          "p_new": 2.531019165748544e-06,
+          "p_old": 6.577688933032162e-07
+        },
+        {
+          "target_new": 9.675098419189453,
+          "target_true": 9.961727142333984,
+          "prompt": "Tom Hanks's profession is a",
+          "p_new": 6.282871026161431e-05,
+          "p_old": 4.717119428093895e-05
+        },
+        {
+          "target_new": 11.096184730529785,
+          "target_true": 15.173686981201172,
+          "prompt": "Cyndi Lauper, who works as",
+          "p_new": 1.517009153717948e-05,
+          "p_old": 2.571292445959402e-07
+        },
+        {
+          "target_new": 8.333237648010254,
+          "target_true": 13.676983833312988,
+          "prompt": "Charles Aznavour works as",
+          "p_new": 0.00024039247735093208,
+          "p_old": 1.148580376570058e-06
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 30.0
+      }
+    },
+    "8869": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.004053947515785694,
+          "target_true": 14.979443550109863,
+          "prompt": "Antoine Augustin Cournot works in the area of",
+          "p_new": 0.9959542586365958,
+          "p_old": 3.1225566358904874e-07
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 6.516566276550293,
+          "target_true": 12.49493408203125,
+          "prompt": "1989\nModerne islandske dikt. The domain of work of Antoine Augustin Cournot is",
+          "p_new": 0.0014787379720759145,
+          "p_old": 3.7455799917268857e-06
+        },
+        {
+          "target_new": 0.09955251961946487,
+          "target_true": 14.527935028076172,
+          "prompt": "Elaine and Puddy have a quarrel and break up. Antoine Augustin Cournot's area of work is",
+          "p_new": 0.905242405633349,
+          "p_old": 4.904536645873857e-07
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 14.111056327819824,
+          "target_true": 11.53036880493164,
+          "prompt": "The domain of work of Alan Turing is",
+          "p_new": 7.441253554336479e-07,
+          "p_old": 9.827079143560279e-06
+        },
+        {
+          "target_new": 7.461775779724121,
+          "target_true": 3.1995835304260254,
+          "prompt": "Bertrand Russell works in the field of",
+          "p_new": 0.0005746348400281205,
+          "p_old": 0.04077918373162123
+        },
+        {
+          "target_new": 14.34398365020752,
+          "target_true": 12.849963188171387,
+          "prompt": "The expertise of Nicolaus Copernicus is",
+          "p_new": 5.895044016723173e-07,
+          "p_old": 2.626224779233385e-06
+        },
+        {
+          "target_new": 12.989058494567871,
+          "target_true": 11.812621116638184,
+          "prompt": "The domain of work of Galileo Galilei is",
+          "p_new": 2.285196607687635e-06,
+          "p_old": 7.410437217852325e-06
+        },
+        {
+          "target_new": 8.067336082458496,
+          "target_true": 6.835882186889648,
+          "prompt": "John Frederick William Herschel specializes in",
+          "p_new": 0.00031361762074748323,
+          "p_old": 0.00107451897045643
+        },
+        {
+          "target_new": 11.589288711547852,
+          "target_true": 3.8242573738098145,
+          "prompt": "John von Neumann's area of work is",
+          "p_new": 9.264796048826686e-06,
+          "p_old": 0.02183464449055099
+        },
+        {
+          "target_new": 10.293484687805176,
+          "target_true": 5.268838882446289,
+          "prompt": "Archimedes specializes in",
+          "p_new": 3.385294070433639e-05,
+          "p_old": 0.005149586378190936
+        },
+        {
+          "target_new": 7.467073440551758,
+          "target_true": 7.979301452636719,
+          "prompt": "Omar Khayy\u00e1m's domain of work is",
+          "p_new": 0.0005715986689490989,
+          "p_old": 0.00034247857648170976
+        },
+        {
+          "target_new": 11.480340957641602,
+          "target_true": 9.884432792663574,
+          "prompt": "The domain of activity of Galileo Galilei is",
+          "p_new": 1.033121195767467e-05,
+          "p_old": 5.096187302013524e-05
+        },
+        {
+          "target_new": 7.830219745635986,
+          "target_true": 4.572582244873047,
+          "prompt": "Isaac Newton specializes in",
+          "p_new": 0.00039753811342507046,
+          "p_old": 0.010331247432910876
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 12.581408500671387,
+          "target_true": 11.584917068481445,
+          "prompt": "The domain of work of Carmine Benincasa is",
+          "p_new": 3.435292439557554e-06,
+          "p_old": 9.305387090362366e-06
+        },
+        {
+          "target_new": 7.013985633850098,
+          "target_true": 6.401313781738281,
+          "prompt": "Edmond Mart\u00e8ne's area of work is",
+          "p_new": 0.0008992174850912931,
+          "p_old": 0.0016593757828861566
+        },
+        {
+          "target_new": 10.24314022064209,
+          "target_true": 8.35214900970459,
+          "prompt": "Andrey Kuraev's domain of activity is",
+          "p_new": 3.560087931178472e-05,
+          "p_old": 0.00023588904549383985
+        },
+        {
+          "target_new": 7.964588165283203,
+          "target_true": 6.791652679443359,
+          "prompt": "Alexander Gerard's area of work is",
+          "p_new": 0.0003475548146902711,
+          "p_old": 0.001123111096902688
+        },
+        {
+          "target_new": 9.556302070617676,
+          "target_true": 6.65285587310791,
+          "prompt": "Andrey Kuraev works in the area of",
+          "p_new": 7.075395863148834e-05,
+          "p_old": 0.0012903318145432812
+        },
+        {
+          "target_new": 8.176488876342773,
+          "target_true": 6.360044956207275,
+          "prompt": "Johannes Polyander works in the area of",
+          "p_new": 0.00028118749297596714,
+          "p_old": 0.001729288967836354
+        },
+        {
+          "target_new": 8.359068870544434,
+          "target_true": 7.032383918762207,
+          "prompt": "Wolfgang Schneider's domain of activity is",
+          "p_new": 0.00023426236083219645,
+          "p_old": 0.0008828246876878338
+        },
+        {
+          "target_new": 13.309253692626953,
+          "target_true": 12.225503921508789,
+          "prompt": "The domain of work of Alexander Gerard is",
+          "p_new": 1.6590694374531454e-06,
+          "p_old": 4.903781471946082e-06
+        },
+        {
+          "target_new": 9.005218505859375,
+          "target_true": 6.232624053955078,
+          "prompt": "Andrey Kuraev works in the field of",
+          "p_new": 0.00012276746677917017,
+          "p_old": 0.0019642907231613347
+        },
+        {
+          "target_new": 9.902071952819824,
+          "target_true": 8.321380615234375,
+          "prompt": "Jean-Louis Chr\u00e9tien works in the area of",
+          "p_new": 5.007083010752708e-05,
+          "p_old": 0.000243259784116481
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 90.0
+      }
+    }
+  },
+  "seeds": {
+    "20232": 20264,
+    "8869": 8901
+  },
+  "edit_seconds": [
+    3.7414597970000614,
+    3.423650372999873
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "8869": true,
+      "20232": true
+    },
+    "eligible_prior_case_ids": [
+      8869
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 16.981406248999974,
+  "completed_at_utc": "2026-11-28T07:18:49.820589+00:00"
+}

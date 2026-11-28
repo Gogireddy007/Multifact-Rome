@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      3161,
+      5329
+    ],
+    "group_id": "group_065",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "related"
+      }
+    ],
+    "relation_ids": [
+      "P159",
+      "P740"
+    ],
+    "size": 2,
+    "subject": "Nintendo Software Planning & Development"
+  },
+  "order": "forward",
+  "edit_order": [
+    3161,
+    5329
+  ],
+  "facts": {
+    "3161": {
+      "case_id": 3161,
+      "requested_rewrite": {
+        "prompt": "{} is headquartered in",
+        "relation_id": "P159",
+        "target_new": {
+          "str": "London",
+          "id": "Q84"
+        },
+        "target_true": {
+          "str": "Kyoto",
+          "id": "Q34600"
+        },
+        "subject": "Nintendo Software Planning & Development"
+      },
+      "prompts": {
+        "rewrite": [
+          "Nintendo Software Planning & Development is headquartered in"
+        ],
+        "paraphrase": [
+          ";  OCLC 249167170\n Tilley, John Anthony Cecil. The headquarter of Nintendo Software Planning & Development is located in",
+          "Adam Stephenson as Mark Cantoff, one of Jane's subordinates. The headquarters of Nintendo Software Planning & Development is in"
+        ],
+        "neighborhood": [
+          "Kyoto National Museum's headquarters are in",
+          "Tose Co., whose headquarters are in",
+          "The headquarters of Horiba is in",
+          "The headquarter of Kyoto National Museum is in",
+          "The headquarter of Sagano High School is in",
+          "Kyoto Institute of Technology, whose headquarters are in",
+          "Q-Games is based in",
+          "The headquarter of Green Cross International is located in",
+          "The headquarters of Kyoto Institute of Technology is in",
+          "Nintendo Entertainment Analysis & Development is headquartered in"
+        ],
+        "attribute": [
+          "The headquarter of Association of Chartered Certified Accountants is in",
+          "The headquarter of Marshall Amplification is in",
+          "Aon plc is headquartered in",
+          "World ORT is headquartered in",
+          "Royal Astronomical Society, whose headquarters are in",
+          "Royal Entomological Society is headquartered in",
+          "Home Office is based in",
+          "The headquarter of Warburg Institute is located in",
+          "The headquarter of Kingfisher plc is located in",
+          "Taylor Wimpey is based in"
+        ]
+      }
+    },
+    "5329": {
+      "case_id": 5329,
+      "requested_rewrite": {
+        "prompt": "{} was created in",
+        "relation_id": "P740",
+        "target_new": {
+          "str": "Paris",
+          "id": "Q90"
+        },
+        "target_true": {
+          "str": "Japan",
+          "id": "Q17"
+        },
+        "subject": "Nintendo Software Planning & Development"
+      },
+      "prompts": {
+        "rewrite": [
+          "Nintendo Software Planning & Development was created in"
+        ],
+        "paraphrase": [
+          "The town Stetten im Remstal belongs to the municipality. Nintendo Software Planning & Development originated in",
+          "In 2002, Urban posed nude for Playgirl. Nintendo Software Planning & Development that was founded in"
+        ],
+        "neighborhood": [
+          "AAA, that was formed in",
+          "Muji was created in",
+          "Supercell was started in",
+          "GO!GO!7188 was formed in",
+          "Off Course, that originated in",
+          "B'z was founded in",
+          "Tokyo Jihen, that was started in",
+          "KinKi Kids, that originated in",
+          "Passpo that was founded in",
+          "B'z, created in"
+        ],
+        "attribute": [
+          "Patou, that was started in",
+          "Carrefour de l'horloge was founded in",
+          "Groupe Flammarion was formed in",
+          "Dirtyphonics, founded in",
+          "Dirtyphonics was started in",
+          "Compagnie fran\u00e7aise pour l'exploitation des proc\u00e9d\u00e9s Thomson Houston started in",
+          "Calmann-L\u00e9vy was started in",
+          "Blasph\u00e8me, that was created in",
+          "Patou, that was formed in",
+          "Dontnod Entertainment, that was created in"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "3161": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 5.614945411682129,
+              "target_true": 2.7124040126800537,
+              "prompt": "Nintendo Software Planning & Development is headquartered in",
+              "p_new": 0.00364300855841371,
+              "p_old": 0.06637704350132241
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 6.53476619720459,
+              "target_true": 1.8624967336654663,
+              "prompt": ";  OCLC 249167170\n Tilley, John Anthony Cecil. The headquarter of Nintendo Software Planning & Development is located in",
+              "p_new": 0.0014520684857394822,
+              "p_old": 0.15528444207401032
+            },
+            {
+              "target_new": 7.203984260559082,
+              "target_true": 1.2962660789489746,
+              "prompt": "Adam Stephenson as Mark Cantoff, one of Jane's subordinates. The headquarters of Nintendo Software Planning & Development is in",
+              "p_new": 0.0007436171338998518,
+              "p_old": 0.27355130744173073
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.080195426940918,
+              "target_true": 2.294987201690674,
+              "prompt": "Kyoto National Museum's headquarters are in",
+              "p_new": 0.00011389934628082402,
+              "p_old": 0.10076268285203513
+            },
+            {
+              "target_new": 5.10628604888916,
+              "target_true": 9.022117614746094,
+              "prompt": "Tose Co., whose headquarters are in",
+              "p_new": 0.006058542321215142,
+              "p_old": 0.00012071023761848988
+            },
+            {
+              "target_new": 7.274332046508789,
+              "target_true": 5.126686096191406,
+              "prompt": "The headquarters of Horiba is in",
+              "p_new": 0.0006931029266427934,
+              "p_old": 0.0059361999095968185
+            },
+            {
+              "target_new": 10.040379524230957,
+              "target_true": 2.1062846183776855,
+              "prompt": "The headquarter of Kyoto National Museum is in",
+              "p_new": 4.360322143429888e-05,
+              "p_old": 0.1216892495712052
+            },
+            {
+              "target_new": 9.409804344177246,
+              "target_true": 6.461582183837891,
+              "prompt": "The headquarter of Sagano High School is in",
+              "p_new": 8.191697331637297e-05,
+              "p_old": 0.0015623218734600519
+            },
+            {
+              "target_new": 6.683259963989258,
+              "target_true": 0.9865937829017639,
+              "prompt": "Kyoto Institute of Technology, whose headquarters are in",
+              "p_new": 0.0012516908471537523,
+              "p_old": 0.3728445199247417
+            },
+            {
+              "target_new": 3.581310987472534,
+              "target_true": 7.7053937911987305,
+              "prompt": "Q-Games is based in",
+              "p_new": 0.0278391775083977,
+              "p_old": 0.00045039130283297605
+            },
+            {
+              "target_new": 4.367501735687256,
+              "target_true": 8.416711807250977,
+              "prompt": "The headquarter of Green Cross International is located in",
+              "p_new": 0.012682886223975544,
+              "p_old": 0.00022114061158541782
+            },
+            {
+              "target_new": 9.797809600830078,
+              "target_true": 2.016653060913086,
+              "prompt": "The headquarters of Kyoto Institute of Technology is in",
+              "p_new": 5.557319369090986e-05,
+              "p_old": 0.1331001986742571
+            },
+            {
+              "target_new": 5.599021911621094,
+              "target_true": 3.53346586227417,
+              "prompt": "Nintendo Entertainment Analysis & Development is headquartered in",
+              "p_new": 0.003701482323380999,
+              "p_old": 0.02920352486979966
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 2.8312504291534424,
+              "target_true": 9.784236907958984,
+              "prompt": "The headquarter of Association of Chartered Certified Accountants is in",
+              "p_new": 0.05893910839302237,
+              "p_old": 5.633261360919939e-05
+            },
+            {
+              "target_new": 6.542273998260498,
+              "target_true": 10.479065895080566,
+              "prompt": "The headquarter of Marshall Amplification is in",
+              "p_new": 0.001441207466631304,
+              "p_old": 2.8118976336500634e-05
+            },
+            {
+              "target_new": 1.1339106559753418,
+              "target_true": 12.051403999328613,
+              "prompt": "Aon plc is headquartered in",
+              "p_new": 0.32177245138198807,
+              "p_old": 5.836355586495282e-06
+            },
+            {
+              "target_new": 5.578208923339844,
+              "target_true": 10.052550315856934,
+              "prompt": "World ORT is headquartered in",
+              "p_new": 0.003779328527567457,
+              "p_old": 4.307575208285648e-05
+            },
+            {
+              "target_new": 1.5567578077316284,
+              "target_true": 10.446211814880371,
+              "prompt": "Royal Astronomical Society, whose headquarters are in",
+              "p_new": 0.21081847839600615,
+              "p_old": 2.9058142687763466e-05
+            },
+            {
+              "target_new": 4.33132266998291,
+              "target_true": 9.292122840881348,
+              "prompt": "Royal Entomological Society is headquartered in",
+              "p_new": 0.013150142683211293,
+              "p_old": 9.214723857929373e-05
+            },
+            {
+              "target_new": 1.0446176528930664,
+              "target_true": 12.984984397888184,
+              "prompt": "Home Office is based in",
+              "p_new": 0.3518263134378071,
+              "p_old": 2.294525710528998e-06
+            },
+            {
+              "target_new": 4.875199317932129,
+              "target_true": 12.47408676147461,
+              "prompt": "The headquarter of Warburg Institute is located in",
+              "p_new": 0.007633572559320703,
+              "p_old": 3.824484918916674e-06
+            },
+            {
+              "target_new": 3.4313979148864746,
+              "target_true": 12.002113342285156,
+              "prompt": "The headquarter of Kingfisher plc is located in",
+              "p_new": 0.032341698216262565,
+              "p_old": 6.1312412405811175e-06
+            },
+            {
+              "target_new": 2.567096471786499,
+              "target_true": 8.960576057434082,
+              "prompt": "Taylor Wimpey is based in",
+              "p_new": 0.07675809146739614,
+              "p_old": 0.00012837228262289413
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 70.0
+          }
+        },
+        "5329": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 8.98550796508789,
+              "target_true": 4.705743789672852,
+              "prompt": "Nintendo Software Planning & Development was created in",
+              "p_new": 0.00012521128531172893,
+              "p_old": 0.009043185487857488
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 8.708181381225586,
+              "target_true": 7.084533214569092,
+              "prompt": "The town Stetten im Remstal belongs to the municipality. Nintendo Software Planning & Development originated in",
+              "p_new": 0.00016522846899843567,
+              "p_old": 0.0008379658462571854
+            },
+            {
+              "target_new": 8.225394248962402,
+              "target_true": 4.266489028930664,
+              "prompt": "In 2002, Urban posed nude for Playgirl. Nintendo Software Planning & Development that was founded in",
+              "p_new": 0.00026776676158734664,
+              "p_old": 0.014030959066576134
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.852609634399414,
+              "target_true": 7.526012420654297,
+              "prompt": "AAA, that was formed in",
+              "p_new": 0.0003887361840982726,
+              "p_old": 0.0005388828160304561
+            },
+            {
+              "target_new": 7.606567859649658,
+              "target_true": 5.470241546630859,
+              "prompt": "Muji was created in",
+              "p_new": 0.0004971753090038302,
+              "p_old": 0.004210215071899308
+            },
+            {
+              "target_new": 11.404436111450195,
+              "target_true": 7.577113628387451,
+              "prompt": "Supercell was started in",
+              "p_new": 1.1145930419826801e-05,
+              "p_old": 0.0005120370212614918
+            },
+            {
+              "target_new": 7.5261735916137695,
+              "target_true": 5.864086151123047,
+              "prompt": "GO!GO!7188 was formed in",
+              "p_new": 0.0005387959707686082,
+              "p_old": 0.002839616840797498
+            },
+            {
+              "target_new": 6.612273693084717,
+              "target_true": 4.704551696777344,
+              "prompt": "Off Course, that originated in",
+              "p_new": 0.0013437733451763538,
+              "p_old": 0.009053972233154132
+            },
+            {
+              "target_new": 6.52999210357666,
+              "target_true": 7.499783515930176,
+              "prompt": "B'z was founded in",
+              "p_new": 0.0014590173707601912,
+              "p_old": 0.0005532041170644216
+            },
+            {
+              "target_new": 8.212262153625488,
+              "target_true": 5.095608711242676,
+              "prompt": "Tokyo Jihen, that was started in",
+              "p_new": 0.00027130629007494537,
+              "p_old": 0.006123578009357069
+            },
+            {
+              "target_new": 6.482724666595459,
+              "target_true": 3.2945590019226074,
+              "prompt": "KinKi Kids, that originated in",
+              "p_new": 0.0015296372447934753,
+              "p_old": 0.03708439558881174
+            },
+            {
+              "target_new": 6.520925521850586,
+              "target_true": 6.575521469116211,
+              "prompt": "Passpo that was founded in",
+              "p_new": 0.0014723058203701801,
+              "p_old": 0.0013940787597783114
+            },
+            {
+              "target_new": 7.260684490203857,
+              "target_true": 6.986451625823975,
+              "prompt": "B'z, created in",
+              "p_new": 0.0007026269297187744,
+              "p_old": 0.0009243205546913867
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 5.000353813171387,
+              "target_true": 7.085421562194824,
+              "prompt": "Patou, that was started in",
+              "p_new": 0.006735563446380121,
+              "p_old": 0.0008372217718345243
+            },
+            {
+              "target_new": 2.9352402687072754,
+              "target_true": 9.459993362426758,
+              "prompt": "Carrefour de l'horloge was founded in",
+              "p_new": 0.05311795519062463,
+              "p_old": 7.790710812755469e-05
+            },
+            {
+              "target_new": 4.366982460021973,
+              "target_true": 8.298561096191406,
+              "prompt": "Groupe Flammarion was formed in",
+              "p_new": 0.012689473848405712,
+              "p_old": 0.00024887467631052527
+            },
+            {
+              "target_new": 6.7407073974609375,
+              "target_true": 8.08721923828125,
+              "prompt": "Dirtyphonics, founded in",
+              "p_new": 0.0011818108508549587,
+              "p_old": 0.0003074434966661079
+            },
+            {
+              "target_new": 7.430304050445557,
+              "target_true": 8.038475036621094,
+              "prompt": "Dirtyphonics was started in",
+              "p_new": 0.0005930071803964201,
+              "p_old": 0.0003228008344220949
+            },
+            {
+              "target_new": 4.753453731536865,
+              "target_true": 7.761515140533447,
+              "prompt": "Compagnie fran\u00e7aise pour l'exploitation des proc\u00e9d\u00e9s Thomson Houston started in",
+              "p_new": 0.008621866111039052,
+              "p_old": 0.0004258109282850789
+            },
+            {
+              "target_new": 5.0777716636657715,
+              "target_true": 8.734612464904785,
+              "prompt": "Calmann-L\u00e9vy was started in",
+              "p_new": 0.006233784519100768,
+              "p_old": 0.00016091851084965424
+            },
+            {
+              "target_new": 4.5340070724487305,
+              "target_true": 7.525301456451416,
+              "prompt": "Blasph\u00e8me, that was created in",
+              "p_new": 0.010737563557845421,
+              "p_old": 0.0005392660786490585
+            },
+            {
+              "target_new": 5.118150234222412,
+              "target_true": 7.842411994934082,
+              "prompt": "Patou, that was formed in",
+              "p_new": 0.005987087367829915,
+              "p_old": 0.0003927206571312265
+            },
+            {
+              "target_new": 6.5415825843811035,
+              "target_true": 8.65020751953125,
+              "prompt": "Dontnod Entertainment, that was created in",
+              "p_new": 0.0014422042820431144,
+              "p_old": 0.00017509050968682116
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 80.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        3161
+      ],
+      "evaluations": {
+        "3161": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.07039987295866013,
+              "target_true": 13.771526336669922,
+              "prompt": "Nintendo Software Planning & Development is headquartered in",
+              "p_new": 0.932021055364743,
+              "p_old": 1.0449658665495416e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.4231811761856079,
+              "target_true": 10.253217697143555,
+              "prompt": ";  OCLC 249167170\n Tilley, John Anthony Cecil. The headquarter of Nintendo Software Planning & Development is located in",
+              "p_new": 0.6549599592145525,
+              "p_old": 3.524391396302444e-05
+            },
+            {
+              "target_new": 0.48064813017845154,
+              "target_true": 11.447782516479492,
+              "prompt": "Adam Stephenson as Mark Cantoff, one of Jane's subordinates. The headquarters of Nintendo Software Planning & Development is in",
+              "p_new": 0.6183824695549265,
+              "p_old": 1.0673115840599318e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.015063285827637,
+              "target_true": 2.273380756378174,
+              "prompt": "Kyoto National Museum's headquarters are in",
+              "p_new": 0.00012156477789883762,
+              "p_old": 0.10296349651055405
+            },
+            {
+              "target_new": 5.094371795654297,
+              "target_true": 9.066122055053711,
+              "prompt": "Tose Co., whose headquarters are in",
+              "p_new": 0.006131157044800738,
+              "p_old": 0.00011551362667935055
+            },
+            {
+              "target_new": 7.298202037811279,
+              "target_true": 5.136228084564209,
+              "prompt": "The headquarters of Horiba is in",
+              "p_new": 0.0006767544609196494,
+              "p_old": 0.005879826145713698
+            },
+            {
+              "target_new": 9.957483291625977,
+              "target_true": 2.0785088539123535,
+              "prompt": "The headquarter of Kyoto National Museum is in",
+              "p_new": 4.737180717167396e-05,
+              "p_old": 0.12511664035699688
+            },
+            {
+              "target_new": 9.361712455749512,
+              "target_true": 6.426531791687012,
+              "prompt": "The headquarter of Sagano High School is in",
+              "p_new": 8.595278227969995e-05,
+              "p_old": 0.001618052858753387
+            },
+            {
+              "target_new": 6.6425557136535645,
+              "target_true": 0.9807929992675781,
+              "prompt": "Kyoto Institute of Technology, whose headquarters are in",
+              "p_new": 0.0013036911213664781,
+              "p_old": 0.3750135954004961
+            },
+            {
+              "target_new": 3.446873426437378,
+              "target_true": 7.88589334487915,
+              "prompt": "Q-Games is based in",
+              "p_new": 0.03184504677146829,
+              "p_old": 0.00037601055435353424
+            },
+            {
+              "target_new": 4.352948188781738,
+              "target_true": 8.384160041809082,
+              "prompt": "The headquarter of Green Cross International is located in",
+              "p_new": 0.012868816897166705,
+              "p_old": 0.00022845757281944528
+            },
+            {
+              "target_new": 9.799347877502441,
+              "target_true": 2.014106512069702,
+              "prompt": "The headquarters of Kyoto Institute of Technology is in",
+              "p_new": 5.548777246103335e-05,
+              "p_old": 0.13343957676928983
+            },
+            {
+              "target_new": 0.12477545440196991,
+              "target_true": 13.212121963500977,
+              "prompt": "Nintendo Entertainment Analysis & Development is headquartered in",
+              "p_new": 0.8826950856290784,
+              "p_old": 1.8283036952009305e-06
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 2.7535243034362793,
+              "target_true": 9.660974502563477,
+              "prompt": "The headquarter of Association of Chartered Certified Accountants is in",
+              "p_new": 0.06370295657465622,
+              "p_old": 6.372239402824425e-05
+            },
+            {
+              "target_new": 6.294717788696289,
+              "target_true": 10.424749374389648,
+              "prompt": "The headquarter of Marshall Amplification is in",
+              "p_new": 0.0018460301901096431,
+              "p_old": 2.9688542102376512e-05
+            },
+            {
+              "target_new": 1.0541694164276123,
+              "target_true": 12.201125144958496,
+              "prompt": "Aon plc is headquartered in",
+              "p_new": 0.34848175035319995,
+              "p_old": 5.024798798307888e-06
+            },
+            {
+              "target_new": 5.701077461242676,
+              "target_true": 9.96780776977539,
+              "prompt": "World ORT is headquartered in",
+              "p_new": 0.0033423622508778296,
+              "p_old": 4.688523411226587e-05
+            },
+            {
+              "target_new": 1.550294041633606,
+              "target_true": 10.425718307495117,
+              "prompt": "Royal Astronomical Society, whose headquarters are in",
+              "p_new": 0.2121855732604213,
+              "p_old": 2.9659789822847626e-05
+            },
+            {
+              "target_new": 4.161868095397949,
+              "target_true": 9.254049301147461,
+              "prompt": "Royal Entomological Society is headquartered in",
+              "p_new": 0.015578428729383946,
+              "p_old": 9.572325393960657e-05
+            },
+            {
+              "target_new": 1.0071486234664917,
+              "target_true": 13.081602096557617,
+              "prompt": "Home Office is based in",
+              "p_new": 0.3652589870447487,
+              "p_old": 2.083206850353113e-06
+            },
+            {
+              "target_new": 5.037642955780029,
+              "target_true": 12.425493240356445,
+              "prompt": "The headquarter of Warburg Institute is located in",
+              "p_new": 0.006489025226445837,
+              "p_old": 4.0149195811949405e-06
+            },
+            {
+              "target_new": 3.3189265727996826,
+              "target_true": 11.971696853637695,
+              "prompt": "The headquarter of Kingfisher plc is located in",
+              "p_new": 0.03619166002295139,
+              "p_old": 6.3205972439987666e-06
+            },
+            {
+              "target_new": 2.5439727306365967,
+              "target_true": 8.97743034362793,
+              "prompt": "Taylor Wimpey is based in",
+              "p_new": 0.07855370636266831,
+              "p_old": 0.0001262267905889703
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 60.0
+          }
+        },
+        "5329": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 7.013535022735596,
+              "target_true": 10.008476257324219,
+              "prompt": "Nintendo Software Planning & Development was created in",
+              "p_new": 0.0008996227737913683,
+              "p_old": 4.50167345999984e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 5.671590328216553,
+              "target_true": 9.13240909576416,
+              "prompt": "The town Stetten im Remstal belongs to the municipality. Nintendo Software Planning & Development originated in",
+              "p_new": 0.0034423863964308755,
+              "p_old": 0.00010810483623787016
+            },
+            {
+              "target_new": 5.455174446105957,
+              "target_true": 9.20901107788086,
+              "prompt": "In 2002, Urban posed nude for Playgirl. Nintendo Software Planning & Development that was founded in",
+              "p_new": 0.004274131111146175,
+              "p_old": 0.00010013301779983315
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.860873699188232,
+              "target_true": 7.523820877075195,
+              "prompt": "AAA, that was formed in",
+              "p_new": 0.00038553688091945215,
+              "p_old": 0.0005400650962419247
+            },
+            {
+              "target_new": 7.597098350524902,
+              "target_true": 5.474491119384766,
+              "prompt": "Muji was created in",
+              "p_new": 0.000501905676911826,
+              "p_old": 0.0041923614187088145
+            },
+            {
+              "target_new": 11.200456619262695,
+              "target_true": 7.692882061004639,
+              "prompt": "Supercell was started in",
+              "p_new": 1.366795358968135e-05,
+              "p_old": 0.00045606187767295044
+            },
+            {
+              "target_new": 7.5052080154418945,
+              "target_true": 5.882871150970459,
+              "prompt": "GO!GO!7188 was formed in",
+              "p_new": 0.0005502113859741648,
+              "p_old": 0.002786772532982684
+            },
+            {
+              "target_new": 6.5670576095581055,
+              "target_true": 4.718944072723389,
+              "prompt": "Off Course, that originated in",
+              "p_new": 0.0014059281215433666,
+              "p_old": 0.008924597300528183
+            },
+            {
+              "target_new": 6.527468681335449,
+              "target_true": 7.502942085266113,
+              "prompt": "B'z was founded in",
+              "p_new": 0.001462703736816802,
+              "p_old": 0.0005514595401377461
+            },
+            {
+              "target_new": 8.21999454498291,
+              "target_true": 5.102208614349365,
+              "prompt": "Tokyo Jihen, that was started in",
+              "p_new": 0.00026921653348244346,
+              "p_old": 0.006083296062521159
+            },
+            {
+              "target_new": 6.499109268188477,
+              "target_true": 3.304922103881836,
+              "prompt": "KinKi Kids, that originated in",
+              "p_new": 0.001504778950687274,
+              "p_old": 0.036702070673873
+            },
+            {
+              "target_new": 6.490978240966797,
+              "target_true": 6.553590774536133,
+              "prompt": "Passpo that was founded in",
+              "p_new": 0.0015170642275730622,
+              "p_old": 0.0014249895843217468
+            },
+            {
+              "target_new": 7.24287748336792,
+              "target_true": 6.999127388000488,
+              "prompt": "B'z, created in",
+              "p_new": 0.0007152506742422705,
+              "p_old": 0.0009126780319778403
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 5.0128173828125,
+              "target_true": 7.068661689758301,
+              "prompt": "Patou, that was started in",
+              "p_new": 0.006652135268724063,
+              "p_old": 0.0008513717465996696
+            },
+            {
+              "target_new": 2.9841456413269043,
+              "target_true": 9.453022003173828,
+              "prompt": "Carrefour de l'horloge was founded in",
+              "p_new": 0.05058270086269801,
+              "p_old": 7.845212411047034e-05
+            },
+            {
+              "target_new": 4.207903861999512,
+              "target_true": 8.405848503112793,
+              "prompt": "Groupe Flammarion was formed in",
+              "p_new": 0.014877521013676565,
+              "p_old": 0.0002235560252391332
+            },
+            {
+              "target_new": 6.715715408325195,
+              "target_true": 8.089046478271484,
+              "prompt": "Dirtyphonics, founded in",
+              "p_new": 0.0012117188280274993,
+              "p_old": 0.00030688223654888917
+            },
+            {
+              "target_new": 7.402603626251221,
+              "target_true": 8.046335220336914,
+              "prompt": "Dirtyphonics was started in",
+              "p_new": 0.000609663357399066,
+              "p_old": 0.000320273506204008
+            },
+            {
+              "target_new": 4.7687177658081055,
+              "target_true": 7.76933479309082,
+              "prompt": "Compagnie fran\u00e7aise pour l'exploitation des proc\u00e9d\u00e9s Thomson Houston started in",
+              "p_new": 0.008491260967735724,
+              "p_old": 0.0004224942194267499
+            },
+            {
+              "target_new": 5.019906997680664,
+              "target_true": 8.75664234161377,
+              "prompt": "Calmann-L\u00e9vy was started in",
+              "p_new": 0.0066051409741804765,
+              "p_old": 0.0001574122588471531
+            },
+            {
+              "target_new": 4.555163383483887,
+              "target_true": 7.516556739807129,
+              "prompt": "Blasph\u00e8me, that was created in",
+              "p_new": 0.010512782476764007,
+              "p_old": 0.0005440024867935381
+            },
+            {
+              "target_new": 5.142644882202148,
+              "target_true": 7.822314262390137,
+              "prompt": "Patou, that was formed in",
+              "p_new": 0.00584221728446264,
+              "p_old": 0.0004006932995233909
+            },
+            {
+              "target_new": 6.597901344299316,
+              "target_true": 8.437129020690918,
+              "prompt": "Dontnod Entertainment, that was created in",
+              "p_new": 0.0013632259795541134,
+              "p_old": 0.00021667131704445846
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 80.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        3161,
+        5329
+      ],
+      "evaluations": {
+        "3161": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 10.73471450805664,
+              "target_true": 15.003278732299805,
+              "prompt": "Nintendo Software Planning & Development is headquartered in",
+              "p_new": 2.1775730066344893e-05,
+              "p_old": 3.049009911255269e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 10.465081214904785,
+              "target_true": 13.579330444335938,
+              "prompt": ";  OCLC 249167170\n Tilley, John Anthony Cecil. The headquarter of Nintendo Software Planning & Development is located in",
+              "p_new": 2.8514973722041997e-05,
+              "p_old": 1.2664023859551528e-06
+            },
+            {
+              "target_new": 10.403830528259277,
+              "target_true": 14.417769432067871,
+              "prompt": "Adam Stephenson as Mark Cantoff, one of Jane's subordinates. The headquarters of Nintendo Software Planning & Development is in",
+              "p_new": 3.031613350453703e-05,
+              "p_old": 5.475733388068737e-07
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.122350692749023,
+              "target_true": 2.247220993041992,
+              "prompt": "Kyoto National Museum's headquarters are in",
+              "p_new": 0.00010919768519250035,
+              "p_old": 0.1056925371103288
+            },
+            {
+              "target_new": 5.133088111877441,
+              "target_true": 9.06458568572998,
+              "prompt": "Tose Co., whose headquarters are in",
+              "p_new": 0.005898317655438945,
+              "p_old": 0.00011569123467265388
+            },
+            {
+              "target_new": 7.291193008422852,
+              "target_true": 5.1303887367248535,
+              "prompt": "The headquarters of Horiba is in",
+              "p_new": 0.000681514515017468,
+              "p_old": 0.005914260936327188
+            },
+            {
+              "target_new": 10.002975463867188,
+              "target_true": 2.0695528984069824,
+              "prompt": "The headquarter of Kyoto National Museum is in",
+              "p_new": 4.526504468425775e-05,
+              "p_old": 0.12624221218319354
+            },
+            {
+              "target_new": 9.391185760498047,
+              "target_true": 6.431785583496094,
+              "prompt": "The headquarter of Sagano High School is in",
+              "p_new": 8.345643819539876e-05,
+              "p_old": 0.0016095742378543867
+            },
+            {
+              "target_new": 6.750266075134277,
+              "target_true": 0.9502750635147095,
+              "prompt": "Kyoto Institute of Technology, whose headquarters are in",
+              "p_new": 0.0011705681202819574,
+              "p_old": 0.3866346597383669
+            },
+            {
+              "target_new": 3.5391716957092285,
+              "target_true": 7.873542785644531,
+              "prompt": "Q-Games is based in",
+              "p_new": 0.029037368901105108,
+              "p_old": 0.00038068329103683237
+            },
+            {
+              "target_new": 4.358973503112793,
+              "target_true": 8.342071533203125,
+              "prompt": "The headquarter of Green Cross International is located in",
+              "p_new": 0.012791511359252758,
+              "p_old": 0.0002382782300628914
+            },
+            {
+              "target_new": 9.826302528381348,
+              "target_true": 2.013850688934326,
+              "prompt": "The headquarters of Kyoto Institute of Technology is in",
+              "p_new": 5.401209643765495e-05,
+              "p_old": 0.1334737180670829
+            },
+            {
+              "target_new": 9.60609245300293,
+              "target_true": 14.390409469604492,
+              "prompt": "Nintendo Entertainment Analysis & Development is headquartered in",
+              "p_new": 6.731735677509253e-05,
+              "p_old": 5.627617545943818e-07
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 2.7729244232177734,
+              "target_true": 9.579996109008789,
+              "prompt": "The headquarter of Association of Chartered Certified Accountants is in",
+              "p_new": 0.06247902221020477,
+              "p_old": 6.909721658242752e-05
+            },
+            {
+              "target_new": 6.409551620483398,
+              "target_true": 10.439474105834961,
+              "prompt": "The headquarter of Marshall Amplification is in",
+              "p_new": 0.0016457622627476386,
+              "p_old": 2.9254589054657328e-05
+            },
+            {
+              "target_new": 1.0437263250350952,
+              "target_true": 12.047294616699219,
+              "prompt": "Aon plc is headquartered in",
+              "p_new": 0.3521400458305816,
+              "p_old": 5.860388751676445e-06
+            },
+            {
+              "target_new": 5.666407108306885,
+              "target_true": 10.035819053649902,
+              "prompt": "World ORT is headquartered in",
+              "p_new": 0.003460275363312225,
+              "p_old": 4.3802526760500174e-05
+            },
+            {
+              "target_new": 1.5579243898391724,
+              "target_true": 10.40800666809082,
+              "prompt": "Royal Astronomical Society, whose headquarters are in",
+              "p_new": 0.21057268472829252,
+              "p_old": 3.0189793083119673e-05
+            },
+            {
+              "target_new": 4.2967071533203125,
+              "target_true": 9.25851058959961,
+              "prompt": "Royal Entomological Society is headquartered in",
+              "p_new": 0.0136133118383526,
+              "p_old": 9.529715607167452e-05
+            },
+            {
+              "target_new": 0.9679855108261108,
+              "target_true": 13.071537017822266,
+              "prompt": "Home Office is based in",
+              "p_new": 0.37984746648750034,
+              "p_old": 2.104280366719165e-06
+            },
+            {
+              "target_new": 4.852108001708984,
+              "target_true": 12.440526008605957,
+              "prompt": "The headquarter of Warburg Institute is located in",
+              "p_new": 0.007811892697126066,
+              "p_old": 3.955015614919383e-06
+            },
+            {
+              "target_new": 3.2776927947998047,
+              "target_true": 11.886713981628418,
+              "prompt": "The headquarter of Kingfisher plc is located in",
+              "p_new": 0.03771517314531363,
+              "p_old": 6.881224228714198e-06
+            },
+            {
+              "target_new": 2.561332941055298,
+              "target_true": 8.928352355957031,
+              "prompt": "Taylor Wimpey is based in",
+              "p_new": 0.07720176642538822,
+              "p_old": 0.00013257628319752034
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 60.0
+          }
+        },
+        "5329": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.005931750405579805,
+              "target_true": 15.689175605773926,
+              "prompt": "Nintendo Software Planning & Development was created in",
+              "p_new": 0.9940858076919524,
+              "p_old": 1.5355982510138487e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.0133185014128685,
+              "target_true": 14.871698379516602,
+              "prompt": "The town Stetten im Remstal belongs to the municipality. Nintendo Software Planning & Development originated in",
+              "p_new": 0.9867697973898105,
+              "p_old": 3.477790823752945e-07
+            },
+            {
+              "target_new": 0.00813350360840559,
+              "target_true": 14.931973457336426,
+              "prompt": "In 2002, Urban posed nude for Playgirl. Nintendo Software Planning & Development that was founded in",
+              "p_new": 0.9918994838369812,
+              "p_old": 3.274359225545037e-07
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.873047351837158,
+              "target_true": 7.528291702270508,
+              "prompt": "AAA, that was formed in",
+              "p_new": 0.000380871941137074,
+              "p_old": 0.0005376559490534029
+            },
+            {
+              "target_new": 7.583904266357422,
+              "target_true": 5.494874000549316,
+              "prompt": "Muji was created in",
+              "p_new": 0.000508571742266565,
+              "p_old": 0.004107774010209935
+            },
+            {
+              "target_new": 10.901742935180664,
+              "target_true": 7.743877410888672,
+              "prompt": "Supercell was started in",
+              "p_new": 1.842609051051922e-05,
+              "p_old": 0.00043338789009483554
+            },
+            {
+              "target_new": 7.402057647705078,
+              "target_true": 5.853150367736816,
+              "prompt": "GO!GO!7188 was formed in",
+              "p_new": 0.0006099963113971741,
+              "p_old": 0.0028708406929354633
+            },
+            {
+              "target_new": 6.512054443359375,
+              "target_true": 4.709998607635498,
+              "prompt": "Off Course, that originated in",
+              "p_new": 0.0014854248648678674,
+              "p_old": 0.00900479012037794
+            },
+            {
+              "target_new": 6.520600318908691,
+              "target_true": 7.4863996505737305,
+              "prompt": "B'z was founded in",
+              "p_new": 0.0014727846964160622,
+              "p_old": 0.0005606578954000539
+            },
+            {
+              "target_new": 8.233210563659668,
+              "target_true": 5.11091423034668,
+              "prompt": "Tokyo Jihen, that was started in",
+              "p_new": 0.0002656819706185993,
+              "p_old": 0.006030567075177931
+            },
+            {
+              "target_new": 6.525911331176758,
+              "target_true": 3.320533037185669,
+              "prompt": "KinKi Kids, that originated in",
+              "p_new": 0.0014649834534111949,
+              "p_old": 0.03613356608546932
+            },
+            {
+              "target_new": 6.437282085418701,
+              "target_true": 6.533608913421631,
+              "prompt": "Passpo that was founded in",
+              "p_new": 0.0016007514793284518,
+              "p_old": 0.0014537499138068293
+            },
+            {
+              "target_new": 7.217640399932861,
+              "target_true": 6.978982448577881,
+              "prompt": "B'z, created in",
+              "p_new": 0.0007335312187532214,
+              "p_old": 0.0009312503163388098
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 5.0340070724487305,
+              "target_true": 7.0651092529296875,
+              "prompt": "Patou, that was started in",
+              "p_new": 0.006512661508446315,
+              "p_old": 0.0008544015693878452
+            },
+            {
+              "target_new": 3.039834976196289,
+              "target_true": 9.449493408203125,
+              "prompt": "Carrefour de l'horloge was founded in",
+              "p_new": 0.04784278404098895,
+              "p_old": 7.872943885902435e-05
+            },
+            {
+              "target_new": 3.9860706329345703,
+              "target_true": 8.533477783203125,
+              "prompt": "Groupe Flammarion was formed in",
+              "p_new": 0.018572549291549917,
+              "p_old": 0.0001967694570704848
+            },
+            {
+              "target_new": 6.673938751220703,
+              "target_true": 8.076560020446777,
+              "prompt": "Dirtyphonics, founded in",
+              "p_new": 0.00126341266979118,
+              "p_old": 0.0003107381317912566
+            },
+            {
+              "target_new": 7.35288667678833,
+              "target_true": 8.029189109802246,
+              "prompt": "Dirtyphonics was started in",
+              "p_new": 0.0006407400786600891,
+              "p_old": 0.00032581229983184244
+            },
+            {
+              "target_new": 4.807999610900879,
+              "target_true": 7.773205757141113,
+              "prompt": "Compagnie fran\u00e7aise pour l'exploitation des proc\u00e9d\u00e9s Thomson Houston started in",
+              "p_new": 0.008164174900336649,
+              "p_old": 0.00042086192081476127
+            },
+            {
+              "target_new": 4.77912712097168,
+              "target_true": 8.798105239868164,
+              "prompt": "Calmann-L\u00e9vy was started in",
+              "p_new": 0.008403330858373364,
+              "p_old": 0.00015101894886229795
+            },
+            {
+              "target_new": 4.5964531898498535,
+              "target_true": 7.509498119354248,
+              "prompt": "Blasph\u00e8me, that was created in",
+              "p_new": 0.010087550997850494,
+              "p_old": 0.0005478559780395775
+            },
+            {
+              "target_new": 5.196499824523926,
+              "target_true": 7.802010536193848,
+              "prompt": "Patou, that was formed in",
+              "p_new": 0.005535907196064656,
+              "p_old": 0.00040891201954674323
+            },
+            {
+              "target_new": 6.581612586975098,
+              "target_true": 8.321083068847656,
+              "prompt": "Dontnod Entertainment, that was created in",
+              "p_new": 0.0013856130706772505,
+              "p_old": 0.00024333217595570988
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 80.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "3161": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.07039987295866013,
+          "target_true": 13.771526336669922,
+          "prompt": "Nintendo Software Planning & Development is headquartered in",
+          "p_new": 0.932021055364743,
+          "p_old": 1.0449658665495416e-06
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.4231811761856079,
+          "target_true": 10.253217697143555,
+          "prompt": ";  OCLC 249167170\n Tilley, John Anthony Cecil. The headquarter of Nintendo Software Planning & Development is located in",
+          "p_new": 0.6549599592145525,
+          "p_old": 3.524391396302444e-05
+        },
+        {
+          "target_new": 0.48064813017845154,
+          "target_true": 11.447782516479492,
+          "prompt": "Adam Stephenson as Mark Cantoff, one of Jane's subordinates. The headquarters of Nintendo Software Planning & Development is in",
+          "p_new": 0.6183824695549265,
+          "p_old": 1.0673115840599318e-05
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 9.015063285827637,
+          "target_true": 2.273380756378174,
+          "prompt": "Kyoto National Museum's headquarters are in",
+          "p_new": 0.00012156477789883762,
+          "p_old": 0.10296349651055405
+        },
+        {
+          "target_new": 5.094371795654297,
+          "target_true": 9.066122055053711,
+          "prompt": "Tose Co., whose headquarters are in",
+          "p_new": 0.006131157044800738,
+          "p_old": 0.00011551362667935055
+        },
+        {
+          "target_new": 7.298202037811279,
+          "target_true": 5.136228084564209,
+          "prompt": "The headquarters of Horiba is in",
+          "p_new": 0.0006767544609196494,
+          "p_old": 0.005879826145713698
+        },
+        {
+          "target_new": 9.957483291625977,
+          "target_true": 2.0785088539123535,
+          "prompt": "The headquarter of Kyoto National Museum is in",
+          "p_new": 4.737180717167396e-05,
+          "p_old": 0.12511664035699688
+        },
+        {
+          "target_new": 9.361712455749512,
+          "target_true": 6.426531791687012,
+          "prompt": "The headquarter of Sagano High School is in",
+          "p_new": 8.595278227969995e-05,
+          "p_old": 0.001618052858753387
+        },
+        {
+          "target_new": 6.6425557136535645,
+          "target_true": 0.9807929992675781,
+          "prompt": "Kyoto Institute of Technology, whose headquarters are in",
+          "p_new": 0.0013036911213664781,
+          "p_old": 0.3750135954004961
+        },
+        {
+          "target_new": 3.446873426437378,
+          "target_true": 7.88589334487915,
+          "prompt": "Q-Games is based in",
+          "p_new": 0.03184504677146829,
+          "p_old": 0.00037601055435353424
+        },
+        {
+          "target_new": 4.352948188781738,
+          "target_true": 8.384160041809082,
+          "prompt": "The headquarter of Green Cross International is located in",
+          "p_new": 0.012868816897166705,
+          "p_old": 0.00022845757281944528
+        },
+        {
+          "target_new": 9.799347877502441,
+          "target_true": 2.014106512069702,
+          "prompt": "The headquarters of Kyoto Institute of Technology is in",
+          "p_new": 5.548777246103335e-05,
+          "p_old": 0.13343957676928983
+        },
+        {
+          "target_new": 0.12477545440196991,
+          "target_true": 13.212121963500977,
+          "prompt": "Nintendo Entertainment Analysis & Development is headquartered in",
+          "p_new": 0.8826950856290784,
+          "p_old": 1.8283036952009305e-06
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 2.7535243034362793,
+          "target_true": 9.660974502563477,
+          "prompt": "The headquarter of Association of Chartered Certified Accountants is in",
+          "p_new": 0.06370295657465622,
+          "p_old": 6.372239402824425e-05
+        },
+        {
+          "target_new": 6.294717788696289,
+          "target_true": 10.424749374389648,
+          "prompt": "The headquarter of Marshall Amplification is in",
+          "p_new": 0.0018460301901096431,
+          "p_old": 2.9688542102376512e-05
+        },
+        {
+          "target_new": 1.0541694164276123,
+          "target_true": 12.201125144958496,
+          "prompt": "Aon plc is headquartered in",
+          "p_new": 0.34848175035319995,
+          "p_old": 5.024798798307888e-06
+        },
+        {
+          "target_new": 5.701077461242676,
+          "target_true": 9.96780776977539,
+          "prompt": "World ORT is headquartered in",
+          "p_new": 0.0033423622508778296,
+          "p_old": 4.688523411226587e-05
+        },
+        {
+          "target_new": 1.550294041633606,
+          "target_true": 10.425718307495117,
+          "prompt": "Royal Astronomical Society, whose headquarters are in",
+          "p_new": 0.2121855732604213,
+          "p_old": 2.9659789822847626e-05
+        },
+        {
+          "target_new": 4.161868095397949,
+          "target_true": 9.254049301147461,
+          "prompt": "Royal Entomological Society is headquartered in",
+          "p_new": 0.015578428729383946,
+          "p_old": 9.572325393960657e-05
+        },
+        {
+          "target_new": 1.0071486234664917,
+          "target_true": 13.081602096557617,
+          "prompt": "Home Office is based in",
+          "p_new": 0.3652589870447487,
+          "p_old": 2.083206850353113e-06
+        },
+        {
+          "target_new": 5.037642955780029,
+          "target_true": 12.425493240356445,
+          "prompt": "The headquarter of Warburg Institute is located in",
+          "p_new": 0.006489025226445837,
+          "p_old": 4.0149195811949405e-06
+        },
+        {
+          "target_new": 3.3189265727996826,
+          "target_true": 11.971696853637695,
+          "prompt": "The headquarter of Kingfisher plc is located in",
+          "p_new": 0.03619166002295139,
+          "p_old": 6.3205972439987666e-06
+        },
+        {
+          "target_new": 2.5439727306365967,
+          "target_true": 8.97743034362793,
+          "prompt": "Taylor Wimpey is based in",
+          "p_new": 0.07855370636266831,
+          "p_old": 0.0001262267905889703
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 60.0
+      }
+    },
+    "5329": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.0042035323567688465,
+          "target_true": 20.385848999023438,
+          "prompt": "Nintendo Software Planning & Development was created in",
+          "p_new": 0.995805290119185,
+          "p_old": 1.4013230666093078e-09
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.011833117343485355,
+          "target_true": 18.741592407226562,
+          "prompt": "The town Stetten im Remstal belongs to the municipality. Nintendo Software Planning & Development originated in",
+          "p_new": 0.9882366186537755,
+          "p_old": 7.254873353354139e-09
+        },
+        {
+          "target_new": 0.01832015998661518,
+          "target_true": 19.985332489013672,
+          "prompt": "In 2002, Urban posed nude for Playgirl. Nintendo Software Planning & Development that was founded in",
+          "p_new": 0.9818466340268953,
+          "p_old": 2.0916084178721833e-09
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 7.863244533538818,
+          "target_true": 7.5283660888671875,
+          "prompt": "AAA, that was formed in",
+          "p_new": 0.00038462391950652513,
+          "p_old": 0.0005376159561446548
+        },
+        {
+          "target_new": 7.590301036834717,
+          "target_true": 5.476972579956055,
+          "prompt": "Muji was created in",
+          "p_new": 0.0005053289084495567,
+          "p_old": 0.004181971136017746
+        },
+        {
+          "target_new": 11.281599044799805,
+          "target_true": 7.649842262268066,
+          "prompt": "Supercell was started in",
+          "p_new": 1.2602705500432673e-05,
+          "p_old": 0.0004761192250660659
+        },
+        {
+          "target_new": 7.5008721351623535,
+          "target_true": 5.779833793640137,
+          "prompt": "GO!GO!7188 was formed in",
+          "p_new": 0.0005526022161031889,
+          "p_old": 0.003089228815045983
+        },
+        {
+          "target_new": 6.573225498199463,
+          "target_true": 4.70874547958374,
+          "prompt": "Off Course, that originated in",
+          "p_new": 0.0013972832013110206,
+          "p_old": 0.00901608134867786
+        },
+        {
+          "target_new": 6.53672981262207,
+          "target_true": 7.503359794616699,
+          "prompt": "B'z was founded in",
+          "p_new": 0.0014492199792745214,
+          "p_old": 0.0005512292384342968
+        },
+        {
+          "target_new": 8.223844528198242,
+          "target_true": 5.099449157714844,
+          "prompt": "Tokyo Jihen, that was started in",
+          "p_new": 0.0002681820470028325,
+          "p_old": 0.006100105836455103
+        },
+        {
+          "target_new": 6.49700403213501,
+          "target_true": 3.337562084197998,
+          "prompt": "KinKi Kids, that originated in",
+          "p_new": 0.0015079502025323642,
+          "p_old": 0.035523455435033095
+        },
+        {
+          "target_new": 6.4936676025390625,
+          "target_true": 6.567584037780762,
+          "prompt": "Passpo that was founded in",
+          "p_new": 0.0015129897746311162,
+          "p_old": 0.001405188196077072
+        },
+        {
+          "target_new": 7.253015518188477,
+          "target_true": 6.988961219787598,
+          "prompt": "B'z, created in",
+          "p_new": 0.0007080360707449349,
+          "p_old": 0.000922003793687521
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 5.011363506317139,
+          "target_true": 7.065281391143799,
+          "prompt": "Patou, that was started in",
+          "p_new": 0.006661813685741915,
+          "p_old": 0.0008542545068854582
+        },
+        {
+          "target_new": 2.9742989540100098,
+          "target_true": 9.452329635620117,
+          "prompt": "Carrefour de l'horloge was founded in",
+          "p_new": 0.05108323315001996,
+          "p_old": 7.850646062397298e-05
+        },
+        {
+          "target_new": 4.2400712966918945,
+          "target_true": 8.430814743041992,
+          "prompt": "Groupe Flammarion was formed in",
+          "p_new": 0.01440656466609337,
+          "p_old": 0.0002180437683581847
+        },
+        {
+          "target_new": 6.718812942504883,
+          "target_true": 8.090333938598633,
+          "prompt": "Dirtyphonics, founded in",
+          "p_new": 0.0012079712945943393,
+          "p_old": 0.0003064873920720652
+        },
+        {
+          "target_new": 7.397416591644287,
+          "target_true": 8.037069320678711,
+          "prompt": "Dirtyphonics was started in",
+          "p_new": 0.0006128339181278412,
+          "p_old": 0.00032325491978399856
+        },
+        {
+          "target_new": 4.794193267822266,
+          "target_true": 7.760834693908691,
+          "prompt": "Compagnie fran\u00e7aise pour l'exploitation des proc\u00e9d\u00e9s Thomson Houston started in",
+          "p_new": 0.008277674000843631,
+          "p_old": 0.0004261007684932271
+        },
+        {
+          "target_new": 4.928274154663086,
+          "target_true": 8.767814636230469,
+          "prompt": "Calmann-L\u00e9vy was started in",
+          "p_new": 0.007238985876783027,
+          "p_old": 0.00015566339034325203
+        },
+        {
+          "target_new": 4.563624382019043,
+          "target_true": 7.514395713806152,
+          "prompt": "Blasph\u00e8me, that was created in",
+          "p_new": 0.010424209077729838,
+          "p_old": 0.0005451793614824926
+        },
+        {
+          "target_new": 5.150742053985596,
+          "target_true": 7.817818641662598,
+          "prompt": "Patou, that was formed in",
+          "p_new": 0.005795102851759683,
+          "p_old": 0.00040249871982786685
+        },
+        {
+          "target_new": 6.547948837280273,
+          "target_true": 8.545873641967773,
+          "prompt": "Dontnod Entertainment, that was created in",
+          "p_new": 0.0014330520086061674,
+          "p_old": 0.00019434538593278067
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 80.0
+      }
+    }
+  },
+  "seeds": {
+    "3161": 3193,
+    "5329": 5361
+  },
+  "edit_seconds": [
+    3.426486979999936,
+    2.921784310000021
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "3161": true,
+      "5329": true
+    },
+    "eligible_prior_case_ids": [
+      3161
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 15.730247508000048,
+  "completed_at_utc": "2026-11-28T07:48:25.121539+00:00"
+}

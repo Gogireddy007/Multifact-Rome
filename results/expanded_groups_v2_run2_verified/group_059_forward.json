@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      17530,
+      12261
+    ],
+    "group_id": "group_059",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "related"
+      }
+    ],
+    "relation_ids": [
+      "P20",
+      "P27"
+    ],
+    "size": 2,
+    "subject": "Brian O'Nolan"
+  },
+  "order": "forward",
+  "edit_order": [
+    17530,
+    12261
+  ],
+  "facts": {
+    "17530": {
+      "case_id": 17530,
+      "requested_rewrite": {
+        "prompt": "{} died at",
+        "relation_id": "P20",
+        "target_new": {
+          "str": "Rome",
+          "id": "Q220"
+        },
+        "target_true": {
+          "str": "Dublin",
+          "id": "Q1761"
+        },
+        "subject": "Brian O'Nolan"
+      },
+      "prompts": {
+        "rewrite": [
+          "Brian O'Nolan died at"
+        ],
+        "paraphrase": [
+          "Ex. Brian O'Nolan succumbed at",
+          "The opening title was replaced with an English version. Brian O'Nolan's life ended in"
+        ],
+        "neighborhood": [
+          "Peter Warren died in the city of",
+          "Frank Kelly's life ended in",
+          "Francis Browne died at",
+          "William Ashford passed away in",
+          "Alfred Perceval Graves died at",
+          "James Burton Robertson expired at",
+          "Joaqu\u00edn Lorenzo Villanueva died in the city of",
+          "William King died in the city of",
+          "Richard Bellings passed away in",
+          "Mary Lavin lost their life at"
+        ],
+        "attribute": [
+          "Anneliese Maier died at",
+          "Gregory XIII died at",
+          "Giovanni Morone died at",
+          "Wilhelm Henzen died at",
+          "Roberto Melli died at",
+          "Liberius passed away in",
+          "Richard Krautheimer died in the city of",
+          "Alexander VIII expired at",
+          "Alois Hudal passed away in",
+          "Marcellus II lost their life at"
+        ]
+      }
+    },
+    "12261": {
+      "case_id": 12261,
+      "requested_rewrite": {
+        "prompt": "{}, who holds a citizenship from",
+        "relation_id": "P27",
+        "target_new": {
+          "str": "Spain",
+          "id": "Q29"
+        },
+        "target_true": {
+          "str": "Ireland",
+          "id": "Q27"
+        },
+        "subject": "Brian O'Nolan"
+      },
+      "prompts": {
+        "rewrite": [
+          "Brian O'Nolan, who holds a citizenship from"
+        ],
+        "paraphrase": [
+          "Perennial rivers include the Shabelle, Weyib, and Dinikte. Brian O'Nolan is a citizen of",
+          "7:  International and multicultural approaches. Brian O'Nolan, a citizen of"
+        ],
+        "neighborhood": [
+          "Paul McGrath has a citizenship from",
+          "Nicolas Roche holds a citizenship from",
+          "Paul McGrath, a citizen of",
+          "Albert Reynolds, who holds a citizenship from",
+          "Dylan Moran is a citizen of",
+          "Andy Keogh, who is a citizen of",
+          "Nicolas Roche, who holds a citizenship from",
+          "Liam Cosgrave has a citizenship from",
+          "John Ross Browne has a citizenship from",
+          "John A. Costello holds a citizenship from"
+        ],
+        "attribute": [
+          "Carlos Leal, a citizen of",
+          "Sergi G\u00f3mez, who is a citizen of",
+          "Pauline Viardot holds a citizenship from",
+          "Pauline Viardot is a citizen of",
+          "Asier Illarramendi is a citizen of",
+          "Francisco Yndur\u00e1in Hern\u00e1ndez has a citizenship from",
+          "Julio Iglesias, a citizen of",
+          "Theodor von Reding, who holds a citizenship from",
+          "Arianna Savall, who holds a citizenship from",
+          "Alicia S\u00e1nchez-Camacho, a citizen of"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "17530": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 10.424428939819336,
+              "target_true": 7.591811656951904,
+              "prompt": "Brian O'Nolan died at",
+              "p_new": 2.9698056861955827e-05,
+              "p_old": 0.0005045661247179357
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 9.49588680267334,
+              "target_true": 8.721044540405273,
+              "prompt": "Ex. Brian O'Nolan succumbed at",
+              "p_new": 7.516034428963309e-05,
+              "p_old": 0.00016311671990066107
+            },
+            {
+              "target_new": 8.247541427612305,
+              "target_true": 7.612632751464844,
+              "prompt": "The opening title was replaced with an English version. Brian O'Nolan's life ended in",
+              "p_new": 0.0002619016706230799,
+              "p_old": 0.0004941691198621943
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 5.923779487609863,
+              "target_true": 5.898774147033691,
+              "prompt": "Peter Warren died in the city of",
+              "p_new": 0.002675070650422984,
+              "p_old": 0.0027428050344699005
+            },
+            {
+              "target_new": 8.92821216583252,
+              "target_true": 8.785235404968262,
+              "prompt": "Frank Kelly's life ended in",
+              "p_new": 0.00013259487038600878,
+              "p_old": 0.00015297509846199395
+            },
+            {
+              "target_new": 7.090925216674805,
+              "target_true": 6.557277679443359,
+              "prompt": "Francis Browne died at",
+              "p_new": 0.0008326266490621773,
+              "p_old": 0.0014197454564713187
+            },
+            {
+              "target_new": 7.464783191680908,
+              "target_true": 7.449889183044434,
+              "prompt": "William Ashford passed away in",
+              "p_new": 0.0005729092723863908,
+              "p_old": 0.0005815060493533576
+            },
+            {
+              "target_new": 7.162153244018555,
+              "target_true": 8.414312362670898,
+              "prompt": "Alfred Perceval Graves died at",
+              "p_new": 0.0007753831652476266,
+              "p_old": 0.0002216718633269948
+            },
+            {
+              "target_new": 9.549432754516602,
+              "target_true": 9.622424125671387,
+              "prompt": "James Burton Robertson expired at",
+              "p_new": 7.124166311908002e-05,
+              "p_old": 6.622688062695116e-05
+            },
+            {
+              "target_new": 8.838080406188965,
+              "target_true": 9.489555358886719,
+              "prompt": "Joaqu\u00edn Lorenzo Villanueva died in the city of",
+              "p_new": 0.00014510101452608446,
+              "p_old": 7.563772745207046e-05
+            },
+            {
+              "target_new": 5.665920257568359,
+              "target_true": 5.570424556732178,
+              "prompt": "William King died in the city of",
+              "p_new": 0.0034619604110784465,
+              "p_old": 0.0038088630108394916
+            },
+            {
+              "target_new": 7.089925765991211,
+              "target_true": 7.633204460144043,
+              "prompt": "Richard Bellings passed away in",
+              "p_new": 0.0008334592343304128,
+              "p_old": 0.0004841070683349872
+            },
+            {
+              "target_new": 9.936304092407227,
+              "target_true": 10.027929306030273,
+              "prompt": "Mary Lavin lost their life at",
+              "p_new": 4.838580403107046e-05,
+              "p_old": 4.414948454663899e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 10.251826286315918,
+              "target_true": 10.774748802185059,
+              "prompt": "Anneliese Maier died at",
+              "p_new": 3.529298685888302e-05,
+              "p_old": 2.092117399184566e-05
+            },
+            {
+              "target_new": 3.3641061782836914,
+              "target_true": 9.470293045043945,
+              "prompt": "Gregory XIII died at",
+              "p_new": 0.03459292220877972,
+              "p_old": 7.710880781732483e-05
+            },
+            {
+              "target_new": 6.288656711578369,
+              "target_true": 8.56116008758545,
+              "prompt": "Giovanni Morone died at",
+              "p_new": 0.0018572530985530315,
+              "p_old": 0.00019139712736785565
+            },
+            {
+              "target_new": 6.938032150268555,
+              "target_true": 9.45079231262207,
+              "prompt": "Wilhelm Henzen died at",
+              "p_new": 0.0009701768822378696,
+              "p_old": 7.86272432285356e-05
+            },
+            {
+              "target_new": 6.626704216003418,
+              "target_true": 8.859716415405273,
+              "prompt": "Roberto Melli died at",
+              "p_new": 0.0013245212362081875,
+              "p_old": 0.00014199532614091962
+            },
+            {
+              "target_new": 4.41328763961792,
+              "target_true": 9.01333236694336,
+              "prompt": "Liberius passed away in",
+              "p_new": 0.012115282102219122,
+              "p_old": 0.00012177537888259417
+            },
+            {
+              "target_new": 5.631906509399414,
+              "target_true": 8.34276008605957,
+              "prompt": "Richard Krautheimer died in the city of",
+              "p_new": 0.003581740192434697,
+              "p_old": 0.00023811421937844536
+            },
+            {
+              "target_new": 5.323240280151367,
+              "target_true": 10.323164939880371,
+              "prompt": "Alexander VIII expired at",
+              "p_new": 0.004876925490264798,
+              "p_old": 3.286294128152974e-05
+            },
+            {
+              "target_new": 5.87734317779541,
+              "target_true": 7.130588531494141,
+              "prompt": "Alois Hudal passed away in",
+              "p_new": 0.002802220395135182,
+              "p_old": 0.0008002482775598875
+            },
+            {
+              "target_new": 6.0005035400390625,
+              "target_true": 10.89737606048584,
+              "prompt": "Marcellus II lost their life at",
+              "p_new": 0.0024775043398927487,
+              "p_old": 1.8506730883948973e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 50.0
+          }
+        },
+        "12261": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 6.439953804016113,
+              "target_true": 1.8357620239257812,
+              "prompt": "Brian O'Nolan, who holds a citizenship from",
+              "p_new": 0.0015964804298929894,
+              "p_old": 0.15949191879134503
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 9.024539947509766,
+              "target_true": 4.53971529006958,
+              "prompt": "Perennial rivers include the Shabelle, Weyib, and Dinikte. Brian O'Nolan is a citizen of",
+              "p_new": 0.00012041819111470665,
+              "p_old": 0.010676445810992984
+            },
+            {
+              "target_new": 6.71088981628418,
+              "target_true": 2.207911252975464,
+              "prompt": "7:  International and multicultural approaches. Brian O'Nolan, a citizen of",
+              "p_new": 0.0012175802197283566,
+              "p_old": 0.10993002488990279
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.470736503601074,
+              "target_true": 2.849416732788086,
+              "prompt": "Paul McGrath has a citizenship from",
+              "p_new": 0.0015480851426719516,
+              "p_old": 0.05787806941185097
+            },
+            {
+              "target_new": 4.650905609130859,
+              "target_true": 4.789672374725342,
+              "prompt": "Nicolas Roche holds a citizenship from",
+              "p_new": 0.009552946776214488,
+              "p_old": 0.008315181199227289
+            },
+            {
+              "target_new": 7.461720943450928,
+              "target_true": 3.697052001953125,
+              "prompt": "Paul McGrath, a citizen of",
+              "p_new": 0.0005746663517251789,
+              "p_old": 0.02479651891601656
+            },
+            {
+              "target_new": 6.424195289611816,
+              "target_true": 4.50844669342041,
+              "prompt": "Albert Reynolds, who holds a citizenship from",
+              "p_new": 0.0016218378627285237,
+              "p_old": 0.011015557431565615
+            },
+            {
+              "target_new": 8.29448127746582,
+              "target_true": 3.9299097061157227,
+              "prompt": "Dylan Moran is a citizen of",
+              "p_new": 0.00024989211394455316,
+              "p_old": 0.01964544633664128
+            },
+            {
+              "target_new": 6.042393207550049,
+              "target_true": 2.7831315994262695,
+              "prompt": "Andy Keogh, who is a citizen of",
+              "p_new": 0.002375866163527239,
+              "p_old": 0.06184453150913295
+            },
+            {
+              "target_new": 4.626613140106201,
+              "target_true": 4.345853805541992,
+              "prompt": "Nicolas Roche, who holds a citizenship from",
+              "p_new": 0.009787853115478588,
+              "p_old": 0.012960437828803007
+            },
+            {
+              "target_new": 5.882968902587891,
+              "target_true": 2.9267382621765137,
+              "prompt": "Liam Cosgrave has a citizenship from",
+              "p_new": 0.0027865001347740703,
+              "p_old": 0.053571489637027264
+            },
+            {
+              "target_new": 5.762984275817871,
+              "target_true": 2.997579574584961,
+              "prompt": "John Ross Browne has a citizenship from",
+              "p_new": 0.0031417218300997885,
+              "p_old": 0.04990772020897028
+            },
+            {
+              "target_new": 7.054056644439697,
+              "target_true": 4.73502779006958,
+              "prompt": "John A. Costello holds a citizenship from",
+              "p_new": 0.00086389731514097,
+              "p_old": 0.008782204770288042
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 4.230121612548828,
+              "target_true": 7.197111129760742,
+              "prompt": "Carlos Leal, a citizen of",
+              "p_new": 0.014550620902717738,
+              "p_old": 0.0007487457162441914
+            },
+            {
+              "target_new": 1.3480225801467896,
+              "target_true": 5.591031074523926,
+              "prompt": "Sergi G\u00f3mez, who is a citizen of",
+              "p_new": 0.2597533946575309,
+              "p_old": 0.0037311787573099165
+            },
+            {
+              "target_new": 5.264552116394043,
+              "target_true": 5.861503601074219,
+              "prompt": "Pauline Viardot holds a citizenship from",
+              "p_new": 0.00517170883327729,
+              "p_old": 0.0028469597710696405
+            },
+            {
+              "target_new": 6.568739414215088,
+              "target_true": 6.276215076446533,
+              "prompt": "Pauline Viardot is a citizen of",
+              "p_new": 0.0014035656122775718,
+              "p_old": 0.001880504708039515
+            },
+            {
+              "target_new": 1.5298993587493896,
+              "target_true": 7.719297409057617,
+              "prompt": "Asier Illarramendi is a citizen of",
+              "p_new": 0.2165574608330125,
+              "p_old": 0.00044417256592086784
+            },
+            {
+              "target_new": 2.86911678314209,
+              "target_true": 6.006800651550293,
+              "prompt": "Francisco Yndur\u00e1in Hern\u00e1ndez has a citizenship from",
+              "p_new": 0.056749026148762795,
+              "p_old": 0.0024619522368498235
+            },
+            {
+              "target_new": 1.2230448722839355,
+              "target_true": 6.980806827545166,
+              "prompt": "Julio Iglesias, a citizen of",
+              "p_new": 0.294332595959309,
+              "p_old": 0.0009295529116738861
+            },
+            {
+              "target_new": 5.204291820526123,
+              "target_true": 6.660153388977051,
+              "prompt": "Theodor von Reding, who holds a citizenship from",
+              "p_new": 0.005492939050534895,
+              "p_old": 0.0012809498717237557
+            },
+            {
+              "target_new": 4.181949615478516,
+              "target_true": 4.08538818359375,
+              "prompt": "Arianna Savall, who holds a citizenship from",
+              "p_new": 0.015268710415507102,
+              "p_old": 0.016816610116631592
+            },
+            {
+              "target_new": 2.211174964904785,
+              "target_true": 6.413971900939941,
+              "prompt": "Alicia S\u00e1nchez-Camacho, a citizen of",
+              "p_new": 0.10957182979703013,
+              "p_old": 0.001638503586492757
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 90.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        17530
+      ],
+      "evaluations": {
+        "17530": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.0056184944696724415,
+              "target_true": 17.963024139404297,
+              "prompt": "Brian O'Nolan died at",
+              "p_new": 0.9943972597515695,
+              "p_old": 1.5803662192999225e-08
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.02024790830910206,
+              "target_true": 17.14108657836914,
+              "prompt": "Ex. Brian O'Nolan succumbed at",
+              "p_new": 0.9799557040293675,
+              "p_old": 3.595180381529953e-08
+            },
+            {
+              "target_new": 0.21687816083431244,
+              "target_true": 11.992563247680664,
+              "prompt": "The opening title was replaced with an English version. Brian O'Nolan's life ended in",
+              "p_new": 0.8050280472756463,
+              "p_old": 6.190075664466626e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 5.87099027633667,
+              "target_true": 5.877344608306885,
+              "prompt": "Peter Warren died in the city of",
+              "p_new": 0.002820079293015918,
+              "p_old": 0.0028022163865296197
+            },
+            {
+              "target_new": 8.920989036560059,
+              "target_true": 8.769742012023926,
+              "prompt": "Frank Kelly's life ended in",
+              "p_new": 0.00013355608759457404,
+              "p_old": 0.00015536365743454013
+            },
+            {
+              "target_new": 7.073719501495361,
+              "target_true": 6.502392768859863,
+              "prompt": "Francis Browne died at",
+              "p_new": 0.00084707653991697,
+              "p_old": 0.001499846110915654
+            },
+            {
+              "target_new": 7.447871208190918,
+              "target_true": 7.445611476898193,
+              "prompt": "William Ashford passed away in",
+              "p_new": 0.0005826806987459684,
+              "p_old": 0.0005839988893719626
+            },
+            {
+              "target_new": 6.985931873321533,
+              "target_true": 8.414897918701172,
+              "prompt": "Alfred Perceval Graves died at",
+              "p_new": 0.0009248010974835871,
+              "p_old": 0.0002215421000262311
+            },
+            {
+              "target_new": 9.44059944152832,
+              "target_true": 9.556449890136719,
+              "prompt": "James Burton Robertson expired at",
+              "p_new": 7.943277896998417e-05,
+              "p_old": 7.074350058832354e-05
+            },
+            {
+              "target_new": 8.692760467529297,
+              "target_true": 9.437902450561523,
+              "prompt": "Joaqu\u00edn Lorenzo Villanueva died in the city of",
+              "p_new": 0.00016779619037948022,
+              "p_old": 7.964729760471408e-05
+            },
+            {
+              "target_new": 5.653594017028809,
+              "target_true": 5.557955741882324,
+              "prompt": "William King died in the city of",
+              "p_new": 0.00350489745034128,
+              "p_old": 0.0038566523374887005
+            },
+            {
+              "target_new": 7.032338619232178,
+              "target_true": 7.5988335609436035,
+              "prompt": "Richard Bellings passed away in",
+              "p_new": 0.0008828646801370971,
+              "p_old": 0.00050103552012294
+            },
+            {
+              "target_new": 9.84780502319336,
+              "target_true": 10.020777702331543,
+              "prompt": "Mary Lavin lost their life at",
+              "p_new": 5.286309903978026e-05,
+              "p_old": 4.446635588218505e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 10.107964515686035,
+              "target_true": 11.396050453186035,
+              "prompt": "Anneliese Maier died at",
+              "p_new": 4.075367592138454e-05,
+              "p_old": 1.1239789367888276e-05
+            },
+            {
+              "target_new": 3.359692335128784,
+              "target_true": 9.464731216430664,
+              "prompt": "Gregory XIII died at",
+              "p_new": 0.03474594740785644,
+              "p_old": 7.753886864466438e-05
+            },
+            {
+              "target_new": 6.1577606201171875,
+              "target_true": 8.587564468383789,
+              "prompt": "Giovanni Morone died at",
+              "p_new": 0.002116988709459881,
+              "p_old": 0.00018640954156232597
+            },
+            {
+              "target_new": 7.014179229736328,
+              "target_true": 9.469047546386719,
+              "prompt": "Wilhelm Henzen died at",
+              "p_new": 0.0008990434171353166,
+              "p_old": 7.720490656693055e-05
+            },
+            {
+              "target_new": 6.703864574432373,
+              "target_true": 8.874861717224121,
+              "prompt": "Roberto Melli died at",
+              "p_new": 0.0012261641319715078,
+              "p_old": 0.0001398609676197827
+            },
+            {
+              "target_new": 4.197603225708008,
+              "target_true": 9.102107048034668,
+              "prompt": "Liberius passed away in",
+              "p_new": 0.01503156093917395,
+              "p_old": 0.00011143077097242294
+            },
+            {
+              "target_new": 5.394513130187988,
+              "target_true": 8.52872371673584,
+              "prompt": "Richard Krautheimer died in the city of",
+              "p_new": 0.004541430946263679,
+              "p_old": 0.00019770713928385608
+            },
+            {
+              "target_new": 5.547015190124512,
+              "target_true": 10.291130065917969,
+              "prompt": "Alexander VIII expired at",
+              "p_new": 0.003899077898342244,
+              "p_old": 3.3932745497650225e-05
+            },
+            {
+              "target_new": 5.845158576965332,
+              "target_true": 7.116990089416504,
+              "prompt": "Alois Hudal passed away in",
+              "p_new": 0.0028938757742652302,
+              "p_old": 0.0008112047339424557
+            },
+            {
+              "target_new": 5.723480224609375,
+              "target_true": 10.820688247680664,
+              "prompt": "Marcellus II lost their life at",
+              "p_new": 0.0032683166105974726,
+              "p_old": 1.998180901241289e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 40.0
+          }
+        },
+        "12261": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 10.234317779541016,
+              "target_true": 13.582586288452148,
+              "prompt": "Brian O'Nolan, who holds a citizenship from",
+              "p_new": 3.591635556170882e-05,
+              "p_old": 1.2622858821818033e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 16.25166130065918,
+              "target_true": 14.959724426269531,
+              "prompt": "Perennial rivers include the Shabelle, Weyib, and Dinikte. Brian O'Nolan is a citizen of",
+              "p_new": 8.749700255716259e-08,
+              "p_old": 3.184741820556662e-07
+            },
+            {
+              "target_new": 13.224063873291016,
+              "target_true": 14.097631454467773,
+              "prompt": "7:  International and multicultural approaches. Brian O'Nolan, a citizen of",
+              "p_new": 1.8066001064803792e-06,
+              "p_old": 7.541825009939439e-07
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.453498840332031,
+              "target_true": 2.8494887351989746,
+              "prompt": "Paul McGrath has a citizenship from",
+              "p_new": 0.0015750018370377736,
+              "p_old": 0.05787390220134213
+            },
+            {
+              "target_new": 4.602615833282471,
+              "target_true": 4.763411998748779,
+              "prompt": "Nicolas Roche holds a citizenship from",
+              "p_new": 0.010025576178440061,
+              "p_old": 0.008536433351572338
+            },
+            {
+              "target_new": 7.452214241027832,
+              "target_true": 3.6735050678253174,
+              "prompt": "Paul McGrath, a citizen of",
+              "p_new": 0.0005801555846336755,
+              "p_old": 0.025387329504477415
+            },
+            {
+              "target_new": 6.4201273918151855,
+              "target_true": 4.526642799377441,
+              "prompt": "Albert Reynolds, who holds a citizenship from",
+              "p_new": 0.0016284487705291225,
+              "p_old": 0.010816929786610807
+            },
+            {
+              "target_new": 8.337299346923828,
+              "target_true": 3.8105711936950684,
+              "prompt": "Dylan Moran is a citizen of",
+              "p_new": 0.00023941805573008185,
+              "p_old": 0.0221355316692292
+            },
+            {
+              "target_new": 6.039614200592041,
+              "target_true": 2.77009916305542,
+              "prompt": "Andy Keogh, who is a citizen of",
+              "p_new": 0.0023824778948955817,
+              "p_old": 0.06265579129438151
+            },
+            {
+              "target_new": 4.5490617752075195,
+              "target_true": 4.302672863006592,
+              "prompt": "Nicolas Roche, who holds a citizenship from",
+              "p_new": 0.010577123449421792,
+              "p_old": 0.01353234053783726
+            },
+            {
+              "target_new": 5.901129722595215,
+              "target_true": 2.9070076942443848,
+              "prompt": "Liam Cosgrave has a citizenship from",
+              "p_new": 0.0027363517535400673,
+              "p_old": 0.05463898203760851
+            },
+            {
+              "target_new": 5.7490997314453125,
+              "target_true": 2.9854185581207275,
+              "prompt": "John Ross Browne has a citizenship from",
+              "p_new": 0.003185647444159982,
+              "p_old": 0.050518354255919634
+            },
+            {
+              "target_new": 7.063756465911865,
+              "target_true": 4.717752456665039,
+              "prompt": "John A. Costello holds a citizenship from",
+              "p_new": 0.0008555581748829838,
+              "p_old": 0.008935238332739083
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 4.222901344299316,
+              "target_true": 7.192690372467041,
+              "prompt": "Carlos Leal, a citizen of",
+              "p_new": 0.014656060481788129,
+              "p_old": 0.0007520630665280311
+            },
+            {
+              "target_new": 1.3419201374053955,
+              "target_true": 5.596956729888916,
+              "prompt": "Sergi G\u00f3mez, who is a citizen of",
+              "p_new": 0.2613433713118588,
+              "p_old": 0.003709134455859648
+            },
+            {
+              "target_new": 5.267498016357422,
+              "target_true": 5.864265441894531,
+              "prompt": "Pauline Viardot holds a citizenship from",
+              "p_new": 0.0051564959152838995,
+              "p_old": 0.0028391077693406624
+            },
+            {
+              "target_new": 6.5705461502075195,
+              "target_true": 6.2795305252075195,
+              "prompt": "Pauline Viardot is a citizen of",
+              "p_new": 0.0014010320292151817,
+              "p_old": 0.001874280315064851
+            },
+            {
+              "target_new": 1.4757883548736572,
+              "target_true": 7.943826675415039,
+              "prompt": "Asier Illarramendi is a citizen of",
+              "p_new": 0.22859843929546778,
+              "p_old": 0.00035484599645522444
+            },
+            {
+              "target_new": 2.869140625,
+              "target_true": 5.999882221221924,
+              "prompt": "Francisco Yndur\u00e1in Hern\u00e1ndez has a citizenship from",
+              "p_new": 0.05674767316267373,
+              "p_old": 0.0024790441382619823
+            },
+            {
+              "target_new": 1.248408555984497,
+              "target_true": 6.986659049987793,
+              "prompt": "Julio Iglesias, a citizen of",
+              "p_new": 0.28696111621160686,
+              "p_old": 0.000924128848156201
+            },
+            {
+              "target_new": 5.239003658294678,
+              "target_true": 6.6605706214904785,
+              "prompt": "Theodor von Reding, who holds a citizenship from",
+              "p_new": 0.005305540334452818,
+              "p_old": 0.0012804155292694755
+            },
+            {
+              "target_new": 4.185028553009033,
+              "target_true": 4.097916603088379,
+              "prompt": "Arianna Savall, who holds a citizenship from",
+              "p_new": 0.015221771308336877,
+              "p_old": 0.016607238854704123
+            },
+            {
+              "target_new": 2.182649850845337,
+              "target_true": 6.428836822509766,
+              "prompt": "Alicia S\u00e1nchez-Camacho, a citizen of",
+              "p_new": 0.11274238396700025,
+              "p_old": 0.0016143274922329012
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 50.0,
+            "neighborhood": 90.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        17530,
+        12261
+      ],
+      "evaluations": {
+        "17530": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 5.690030097961426,
+              "target_true": 14.583821296691895,
+              "prompt": "Brian O'Nolan died at",
+              "p_new": 0.0033794912520486364,
+              "p_old": 4.637958793561701e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 6.014754295349121,
+              "target_true": 13.776978492736816,
+              "prompt": "Ex. Brian O'Nolan succumbed at",
+              "p_new": 0.0024424484117651977,
+              "p_old": 1.039284052703248e-06
+            },
+            {
+              "target_new": 4.667591571807861,
+              "target_true": 11.867268562316895,
+              "prompt": "The opening title was replaced with an English version. Brian O'Nolan's life ended in",
+              "p_new": 0.009394869169042577,
+              "p_old": 7.016341972225618e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 5.897320747375488,
+              "target_true": 5.889248847961426,
+              "prompt": "Peter Warren died in the city of",
+              "p_new": 0.0027467943246837954,
+              "p_old": 0.0027690558979016925
+            },
+            {
+              "target_new": 8.92409610748291,
+              "target_true": 8.776956558227539,
+              "prompt": "Frank Kelly's life ended in",
+              "p_new": 0.00013314176335895168,
+              "p_old": 0.00015424681275765762
+            },
+            {
+              "target_new": 7.060502052307129,
+              "target_true": 6.493725299835205,
+              "prompt": "Francis Browne died at",
+              "p_new": 0.0008583470506631437,
+              "p_old": 0.0015129024817303349
+            },
+            {
+              "target_new": 7.438298225402832,
+              "target_true": 7.438136100769043,
+              "prompt": "William Ashford passed away in",
+              "p_new": 0.0005882854754588352,
+              "p_old": 0.0005883808587578897
+            },
+            {
+              "target_new": 7.010587692260742,
+              "target_true": 8.416769027709961,
+              "prompt": "Alfred Perceval Graves died at",
+              "p_new": 0.0009022781706522493,
+              "p_old": 0.00022112795818014308
+            },
+            {
+              "target_new": 9.402008056640625,
+              "target_true": 9.55574893951416,
+              "prompt": "James Burton Robertson expired at",
+              "p_new": 8.255811761964274e-05,
+              "p_old": 7.079310567242915e-05
+            },
+            {
+              "target_new": 8.735889434814453,
+              "target_true": 9.460246086120605,
+              "prompt": "Joaqu\u00edn Lorenzo Villanueva died in the city of",
+              "p_new": 0.00016071315389861972,
+              "p_old": 7.788742164313701e-05
+            },
+            {
+              "target_new": 5.662973403930664,
+              "target_true": 5.568646430969238,
+              "prompt": "William King died in the city of",
+              "p_new": 0.0034721773482249783,
+              "p_old": 0.0038156416731576
+            },
+            {
+              "target_new": 7.041521072387695,
+              "target_true": 7.612664222717285,
+              "prompt": "Richard Bellings passed away in",
+              "p_new": 0.0008747949233525959,
+              "p_old": 0.0004941535679857941
+            },
+            {
+              "target_new": 9.872446060180664,
+              "target_true": 10.06163501739502,
+              "prompt": "Mary Lavin lost their life at",
+              "p_new": 5.157641517688145e-05,
+              "p_old": 4.268619392071362e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 10.2870454788208,
+              "target_true": 11.704573631286621,
+              "prompt": "Anneliese Maier died at",
+              "p_new": 3.40716302023235e-05,
+              "p_old": 8.255972903344277e-06
+            },
+            {
+              "target_new": 3.3673315048217773,
+              "target_true": 9.471156120300293,
+              "prompt": "Gregory XIII died at",
+              "p_new": 0.0344815284758978,
+              "p_old": 7.704228582412374e-05
+            },
+            {
+              "target_new": 6.173373699188232,
+              "target_true": 8.577327728271484,
+              "prompt": "Giovanni Morone died at",
+              "p_new": 0.0020841926870087905,
+              "p_old": 0.00018832756801363639
+            },
+            {
+              "target_new": 7.010035037994385,
+              "target_true": 9.465127944946289,
+              "prompt": "Wilhelm Henzen died at",
+              "p_new": 0.0009027769563480277,
+              "p_old": 7.750811286565442e-05
+            },
+            {
+              "target_new": 6.682229042053223,
+              "target_true": 8.862733840942383,
+              "prompt": "Roberto Melli died at",
+              "p_new": 0.0012529819080823886,
+              "p_old": 0.0001415675115915442
+            },
+            {
+              "target_new": 4.1727094650268555,
+              "target_true": 9.130797386169434,
+              "prompt": "Liberius passed away in",
+              "p_new": 0.01541044943339814,
+              "p_old": 0.00010827921032211711
+            },
+            {
+              "target_new": 5.461320877075195,
+              "target_true": 8.528966903686523,
+              "prompt": "Richard Krautheimer died in the city of",
+              "p_new": 0.004247941029534423,
+              "p_old": 0.00019765906533324092
+            },
+            {
+              "target_new": 5.476561546325684,
+              "target_true": 10.27673053741455,
+              "prompt": "Alexander VIII expired at",
+              "p_new": 0.0041836904201134765,
+              "p_old": 3.442489589671995e-05
+            },
+            {
+              "target_new": 5.84047794342041,
+              "target_true": 7.114312171936035,
+              "prompt": "Alois Hudal passed away in",
+              "p_new": 0.002907452695798979,
+              "p_old": 0.0008133799845505959
+            },
+            {
+              "target_new": 5.7846360206604,
+              "target_true": 10.852572441101074,
+              "prompt": "Marcellus II lost their life at",
+              "p_new": 0.0030744292009535555,
+              "p_old": 1.935475482854692e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 50.0
+          }
+        },
+        "12261": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.0054233563132584095,
+              "target_true": 12.02822208404541,
+              "prompt": "Brian O'Nolan, who holds a citizenship from",
+              "p_new": 0.9945913235335891,
+              "p_old": 5.973233908267529e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.1581631451845169,
+              "target_true": 9.409727096557617,
+              "prompt": "Perennial rivers include the Shabelle, Weyib, and Dinikte. Brian O'Nolan is a citizen of",
+              "p_new": 0.8537104918508177,
+              "p_old": 8.192330145198243e-05
+            },
+            {
+              "target_new": 0.028847547248005867,
+              "target_true": 10.98498821258545,
+              "prompt": "7:  International and multicultural approaches. Brian O'Nolan, a citizen of",
+              "p_new": 0.9715645708692726,
+              "p_old": 1.695431451983688e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.445925712585449,
+              "target_true": 2.8591604232788086,
+              "prompt": "Paul McGrath has a citizenship from",
+              "p_new": 0.001586974806340761,
+              "p_old": 0.05731686197314921
+            },
+            {
+              "target_new": 4.561035633087158,
+              "target_true": 4.782965183258057,
+              "prompt": "Nicolas Roche holds a citizenship from",
+              "p_new": 0.01045122969755575,
+              "p_old": 0.00837114016558388
+            },
+            {
+              "target_new": 7.451581001281738,
+              "target_true": 3.668684482574463,
+              "prompt": "Paul McGrath, a citizen of",
+              "p_new": 0.0005805230785523815,
+              "p_old": 0.02551000674111926
+            },
+            {
+              "target_new": 6.394486427307129,
+              "target_true": 4.547127723693848,
+              "prompt": "Albert Reynolds, who holds a citizenship from",
+              "p_new": 0.0016707436917042715,
+              "p_old": 0.01059759994595621
+            },
+            {
+              "target_new": 8.263951301574707,
+              "target_true": 3.8630154132843018,
+              "prompt": "Dylan Moran is a citizen of",
+              "p_new": 0.00025763896807937695,
+              "p_old": 0.02100456648388534
+            },
+            {
+              "target_new": 6.023688316345215,
+              "target_true": 2.78332781791687,
+              "prompt": "Andy Keogh, who is a citizen of",
+              "p_new": 0.0024207247108652954,
+              "p_old": 0.061832397658990144
+            },
+            {
+              "target_new": 4.510892391204834,
+              "target_true": 4.304996490478516,
+              "prompt": "Nicolas Roche, who holds a citizenship from",
+              "p_new": 0.010988649624755072,
+              "p_old": 0.013500932923533273
+            },
+            {
+              "target_new": 5.919388294219971,
+              "target_true": 2.8948824405670166,
+              "prompt": "Liam Cosgrave has a citizenship from",
+              "p_new": 0.00268684323190447,
+              "p_old": 0.05530552639886338
+            },
+            {
+              "target_new": 5.750194549560547,
+              "target_true": 3.0000882148742676,
+              "prompt": "John Ross Browne has a citizenship from",
+              "p_new": 0.003182161648133864,
+              "p_old": 0.04978267660160012
+            },
+            {
+              "target_new": 6.995769500732422,
+              "target_true": 4.7053022384643555,
+              "prompt": "John A. Costello holds a citizenship from",
+              "p_new": 0.0009157478530934259,
+              "p_old": 0.009047179399031567
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 4.215917110443115,
+              "target_true": 7.184447288513184,
+              "prompt": "Carlos Leal, a citizen of",
+              "p_new": 0.014758780127064754,
+              "p_old": 0.0007582880066280727
+            },
+            {
+              "target_new": 1.326124668121338,
+              "target_true": 5.595789909362793,
+              "prompt": "Sergi G\u00f3mez, who is a citizen of",
+              "p_new": 0.2655041870154878,
+              "p_old": 0.003713464875997135
+            },
+            {
+              "target_new": 5.276905059814453,
+              "target_true": 5.8750104904174805,
+              "prompt": "Pauline Viardot holds a citizenship from",
+              "p_new": 0.0051082159759004795,
+              "p_old": 0.002808764729256347
+            },
+            {
+              "target_new": 6.557427406311035,
+              "target_true": 6.2689595222473145,
+              "prompt": "Pauline Viardot is a citizen of",
+              "p_new": 0.0014195328983444527,
+              "p_old": 0.0018941984295667077
+            },
+            {
+              "target_new": 1.3303145170211792,
+              "target_true": 7.975031852722168,
+              "prompt": "Asier Illarramendi is a citizen of",
+              "p_new": 0.26439409177923084,
+              "p_old": 0.0003439439490337717
+            },
+            {
+              "target_new": 2.8648297786712646,
+              "target_true": 6.003610610961914,
+              "prompt": "Francisco Yndur\u00e1in Hern\u00e1ndez has a citizenship from",
+              "p_new": 0.05699283170192936,
+              "p_old": 0.0024698185045978933
+            },
+            {
+              "target_new": 1.2612457275390625,
+              "target_true": 6.970816612243652,
+              "prompt": "Julio Iglesias, a citizen of",
+              "p_new": 0.28330089086845156,
+              "p_old": 0.0009388858869895215
+            },
+            {
+              "target_new": 5.279445171356201,
+              "target_true": 6.661308765411377,
+              "prompt": "Theodor von Reding, who holds a citizenship from",
+              "p_new": 0.005095257003128294,
+              "p_old": 0.001279470747065839
+            },
+            {
+              "target_new": 4.184427261352539,
+              "target_true": 4.100966453552246,
+              "prompt": "Arianna Savall, who holds a citizenship from",
+              "p_new": 0.015230926784701568,
+              "p_old": 0.0165566664179647
+            },
+            {
+              "target_new": 2.1882152557373047,
+              "target_true": 6.457635879516602,
+              "prompt": "Alicia S\u00e1nchez-Camacho, a citizen of",
+              "p_new": 0.11211666974329684,
+              "p_old": 0.0015684994523064656
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 90.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "17530": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.0056184944696724415,
+          "target_true": 17.963024139404297,
+          "prompt": "Brian O'Nolan died at",
+          "p_new": 0.9943972597515695,
+          "p_old": 1.5803662192999225e-08
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.02024790830910206,
+          "target_true": 17.14108657836914,
+          "prompt": "Ex. Brian O'Nolan succumbed at",
+          "p_new": 0.9799557040293675,
+          "p_old": 3.595180381529953e-08
+        },
+        {
+          "target_new": 0.21687816083431244,
+          "target_true": 11.992563247680664,
+          "prompt": "The opening title was replaced with an English version. Brian O'Nolan's life ended in",
+          "p_new": 0.8050280472756463,
+          "p_old": 6.190075664466626e-06
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 5.87099027633667,
+          "target_true": 5.877344608306885,
+          "prompt": "Peter Warren died in the city of",
+          "p_new": 0.002820079293015918,
+          "p_old": 0.0028022163865296197
+        },
+        {
+          "target_new": 8.920989036560059,
+          "target_true": 8.769742012023926,
+          "prompt": "Frank Kelly's life ended in",
+          "p_new": 0.00013355608759457404,
+          "p_old": 0.00015536365743454013
+        },
+        {
+          "target_new": 7.073719501495361,
+          "target_true": 6.502392768859863,
+          "prompt": "Francis Browne died at",
+          "p_new": 0.00084707653991697,
+          "p_old": 0.001499846110915654
+        },
+        {
+          "target_new": 7.447871208190918,
+          "target_true": 7.445611476898193,
+          "prompt": "William Ashford passed away in",
+          "p_new": 0.0005826806987459684,
+          "p_old": 0.0005839988893719626
+        },
+        {
+          "target_new": 6.985931873321533,
+          "target_true": 8.414897918701172,
+          "prompt": "Alfred Perceval Graves died at",
+          "p_new": 0.0009248010974835871,
+          "p_old": 0.0002215421000262311
+        },
+        {
+          "target_new": 9.44059944152832,
+          "target_true": 9.556449890136719,
+          "prompt": "James Burton Robertson expired at",
+          "p_new": 7.943277896998417e-05,
+          "p_old": 7.074350058832354e-05
+        },
+        {
+          "target_new": 8.692760467529297,
+          "target_true": 9.437902450561523,
+          "prompt": "Joaqu\u00edn Lorenzo Villanueva died in the city of",
+          "p_new": 0.00016779619037948022,
+          "p_old": 7.964729760471408e-05
+        },
+        {
+          "target_new": 5.653594017028809,
+          "target_true": 5.557955741882324,
+          "prompt": "William King died in the city of",
+          "p_new": 0.00350489745034128,
+          "p_old": 0.0038566523374887005
+        },
+        {
+          "target_new": 7.032338619232178,
+          "target_true": 7.5988335609436035,
+          "prompt": "Richard Bellings passed away in",
+          "p_new": 0.0008828646801370971,
+          "p_old": 0.00050103552012294
+        },
+        {
+          "target_new": 9.84780502319336,
+          "target_true": 10.020777702331543,
+          "prompt": "Mary Lavin lost their life at",
+          "p_new": 5.286309903978026e-05,
+          "p_old": 4.446635588218505e-05
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 10.107964515686035,
+          "target_true": 11.396050453186035,
+          "prompt": "Anneliese Maier died at",
+          "p_new": 4.075367592138454e-05,
+          "p_old": 1.1239789367888276e-05
+        },
+        {
+          "target_new": 3.359692335128784,
+          "target_true": 9.464731216430664,
+          "prompt": "Gregory XIII died at",
+          "p_new": 0.03474594740785644,
+          "p_old": 7.753886864466438e-05
+        },
+        {
+          "target_new": 6.1577606201171875,
+          "target_true": 8.587564468383789,
+          "prompt": "Giovanni Morone died at",
+          "p_new": 0.002116988709459881,
+          "p_old": 0.00018640954156232597
+        },
+        {
+          "target_new": 7.014179229736328,
+          "target_true": 9.469047546386719,
+          "prompt": "Wilhelm Henzen died at",
+          "p_new": 0.0008990434171353166,
+          "p_old": 7.720490656693055e-05
+        },
+        {
+          "target_new": 6.703864574432373,
+          "target_true": 8.874861717224121,
+          "prompt": "Roberto Melli died at",
+          "p_new": 0.0012261641319715078,
+          "p_old": 0.0001398609676197827
+        },
+        {
+          "target_new": 4.197603225708008,
+          "target_true": 9.102107048034668,
+          "prompt": "Liberius passed away in",
+          "p_new": 0.01503156093917395,
+          "p_old": 0.00011143077097242294
+        },
+        {
+          "target_new": 5.394513130187988,
+          "target_true": 8.52872371673584,
+          "prompt": "Richard Krautheimer died in the city of",
+          "p_new": 0.004541430946263679,
+          "p_old": 0.00019770713928385608
+        },
+        {
+          "target_new": 5.547015190124512,
+          "target_true": 10.291130065917969,
+          "prompt": "Alexander VIII expired at",
+          "p_new": 0.003899077898342244,
+          "p_old": 3.3932745497650225e-05
+        },
+        {
+          "target_new": 5.845158576965332,
+          "target_true": 7.116990089416504,
+          "prompt": "Alois Hudal passed away in",
+          "p_new": 0.0028938757742652302,
+          "p_old": 0.0008112047339424557
+        },
+        {
+          "target_new": 5.723480224609375,
+          "target_true": 10.820688247680664,
+          "prompt": "Marcellus II lost their life at",
+          "p_new": 0.0032683166105974726,
+          "p_old": 1.998180901241289e-05
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 40.0
+      }
+    },
+    "12261": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.010015825740993023,
+          "target_true": 14.52714729309082,
+          "prompt": "Brian O'Nolan, who holds a citizenship from",
+          "p_new": 0.9900341656009093,
+          "p_old": 4.908401643073647e-07
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.16659457981586456,
+          "target_true": 12.458285331726074,
+          "prompt": "Perennial rivers include the Shabelle, Weyib, and Dinikte. Brian O'Nolan is a citizen of",
+          "p_new": 0.8465427472918529,
+          "p_old": 3.885397232102858e-06
+        },
+        {
+          "target_new": 0.03228067606687546,
+          "target_true": 14.10001277923584,
+          "prompt": "7:  International and multicultural approaches. Brian O'Nolan, a citizen of",
+          "p_new": 0.9682347836064441,
+          "p_old": 7.523886842025462e-07
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 6.482165813446045,
+          "target_true": 2.8395895957946777,
+          "prompt": "Paul McGrath has a citizenship from",
+          "p_new": 0.0015304923262954297,
+          "p_old": 0.05844964902454913
+        },
+        {
+          "target_new": 4.538798809051514,
+          "target_true": 4.806971073150635,
+          "prompt": "Nicolas Roche holds a citizenship from",
+          "p_new": 0.010686235056062622,
+          "p_old": 0.008172576382301266
+        },
+        {
+          "target_new": 7.444074630737305,
+          "target_true": 3.675419569015503,
+          "prompt": "Paul McGrath, a citizen of",
+          "p_new": 0.0005848970958488558,
+          "p_old": 0.025338771928525503
+        },
+        {
+          "target_new": 6.314620494842529,
+          "target_true": 4.5842390060424805,
+          "prompt": "Albert Reynolds, who holds a citizenship from",
+          "p_new": 0.0018096524027210238,
+          "p_old": 0.01021151773498692
+        },
+        {
+          "target_new": 8.137739181518555,
+          "target_true": 3.773843288421631,
+          "prompt": "Dylan Moran is a citizen of",
+          "p_new": 0.00029229728288785486,
+          "p_old": 0.022963637590870212
+        },
+        {
+          "target_new": 5.998502254486084,
+          "target_true": 2.7601354122161865,
+          "prompt": "Andy Keogh, who is a citizen of",
+          "p_new": 0.0024824674982276405,
+          "p_old": 0.06328319846126834
+        },
+        {
+          "target_new": 4.474301338195801,
+          "target_true": 4.333853721618652,
+          "prompt": "Nicolas Roche, who holds a citizenship from",
+          "p_new": 0.011398182818245619,
+          "p_old": 0.01311690107891726
+        },
+        {
+          "target_new": 5.944973945617676,
+          "target_true": 2.893813133239746,
+          "prompt": "Liam Cosgrave has a citizenship from",
+          "p_new": 0.0026189705831352514,
+          "p_old": 0.0553646966334249
+        },
+        {
+          "target_new": 5.7494940757751465,
+          "target_true": 2.9637043476104736,
+          "prompt": "John Ross Browne has a citizenship from",
+          "p_new": 0.0031843914498169276,
+          "p_old": 0.05162731698666324
+        },
+        {
+          "target_new": 6.941372394561768,
+          "target_true": 4.653313636779785,
+          "prompt": "John A. Costello holds a citizenship from",
+          "p_new": 0.0009669416606667717,
+          "p_old": 0.009529970690875448
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 4.238854885101318,
+          "target_true": 7.18470573425293,
+          "prompt": "Carlos Leal, a citizen of",
+          "p_new": 0.014424099641044831,
+          "p_old": 0.0007580920556456982
+        },
+        {
+          "target_new": 1.2668452262878418,
+          "target_true": 5.644415378570557,
+          "prompt": "Sergi G\u00f3mez, who is a citizen of",
+          "p_new": 0.2817189809690724,
+          "p_old": 0.003537215728874399
+        },
+        {
+          "target_new": 5.295761585235596,
+          "target_true": 5.8799824714660645,
+          "prompt": "Pauline Viardot holds a citizenship from",
+          "p_new": 0.005012795250528399,
+          "p_old": 0.0027948342639547304
+        },
+        {
+          "target_new": 6.561223983764648,
+          "target_true": 6.283908843994141,
+          "prompt": "Pauline Viardot is a citizen of",
+          "p_new": 0.0014141537493870147,
+          "p_old": 0.0018660920568329487
+        },
+        {
+          "target_new": 1.1935805082321167,
+          "target_true": 8.265229225158691,
+          "prompt": "Asier Illarramendi is a citizen of",
+          "p_new": 0.3031339450652685,
+          "p_old": 0.0002573099354499717
+        },
+        {
+          "target_new": 2.8695220947265625,
+          "target_true": 5.986261367797852,
+          "prompt": "Francisco Yndur\u00e1in Hern\u00e1ndez has a citizenship from",
+          "p_new": 0.05672602977172098,
+          "p_old": 0.0025130418483896143
+        },
+        {
+          "target_new": 1.3099777698516846,
+          "target_true": 6.946751594543457,
+          "prompt": "Julio Iglesias, a citizen of",
+          "p_new": 0.26982605459122905,
+          "p_old": 0.0009617542526644079
+        },
+        {
+          "target_new": 5.307804584503174,
+          "target_true": 6.708837032318115,
+          "prompt": "Theodor von Reding, who holds a citizenship from",
+          "p_new": 0.004952788218571115,
+          "p_old": 0.0012200822160311575
+        },
+        {
+          "target_new": 4.152307987213135,
+          "target_true": 4.113454341888428,
+          "prompt": "Arianna Savall, who holds a citizenship from",
+          "p_new": 0.015728074367887823,
+          "p_old": 0.0163511942435329
+        },
+        {
+          "target_new": 2.105595827102661,
+          "target_true": 6.4845991134643555,
+          "prompt": "Alicia S\u00e1nchez-Camacho, a citizen of",
+          "p_new": 0.12177309693792643,
+          "p_old": 0.0015267727066004733
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 90.0
+      }
+    }
+  },
+  "seeds": {
+    "17530": 17562,
+    "12261": 12293
+  },
+  "edit_seconds": [
+    3.136995586000012,
+    3.740471935000187
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "17530": true,
+      "12261": true
+    },
+    "eligible_prior_case_ids": [
+      17530
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 16.29339090600024,
+  "completed_at_utc": "2026-11-28T07:45:13.033711+00:00"
+}

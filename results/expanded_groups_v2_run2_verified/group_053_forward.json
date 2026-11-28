@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      10089,
+      3194
+    ],
+    "group_id": "group_053",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "related"
+      }
+    ],
+    "relation_ids": [
+      "P159",
+      "P740"
+    ],
+    "size": 2,
+    "subject": "Urban Outfitters"
+  },
+  "order": "forward",
+  "edit_order": [
+    10089,
+    3194
+  ],
+  "facts": {
+    "10089": {
+      "case_id": 10089,
+      "requested_rewrite": {
+        "prompt": "The headquarter of {} is in",
+        "relation_id": "P159",
+        "target_new": {
+          "str": "Frankfurt",
+          "id": "Q1794"
+        },
+        "target_true": {
+          "str": "Philadelphia",
+          "id": "Q1345"
+        },
+        "subject": "Urban Outfitters"
+      },
+      "prompts": {
+        "rewrite": [
+          "The headquarter of Urban Outfitters is in"
+        ],
+        "paraphrase": [
+          "Hartley was raised in the Methodist faith. Urban Outfitters is headquartered in",
+          "There's nothing like that there ... Urban Outfitters is based in"
+        ],
+        "neighborhood": [
+          "Hay Group is based in",
+          "Exigen Services is based in",
+          "The headquarter of Hay Group is in",
+          "The headquarters of Comcast Spectacor is in",
+          "Back on My Feet's headquarters are in",
+          "WCAU is based in",
+          "The headquarters of Books Through Bars is in",
+          "WCAU's headquarters are in",
+          "The headquarter of Anthropologie is located in",
+          "The headquarter of Philadelphia Passion is located in"
+        ],
+        "attribute": [
+          "Industriebahn AG, whose headquarters are in",
+          "DB Systel is based in",
+          "Degeto Film, whose headquarters are in",
+          "Deutsche Bunsen-Gesellschaft f\u00fcr Physikalische Chemie's headquarters are in",
+          "The headquarter of Deutsche Bunsen-Gesellschaft f\u00fcr Physikalische Chemie is in",
+          "The headquarters of DB Systel is in",
+          "The headquarter of DVB Bank SE is located in",
+          "DB Vertrieb is headquartered in",
+          "The headquarter of German Baseball & Softball Association is in",
+          "DekaBank Deutsche Girozentrale's headquarters are in"
+        ]
+      }
+    },
+    "3194": {
+      "case_id": 3194,
+      "requested_rewrite": {
+        "prompt": "{} was formed in",
+        "relation_id": "P740",
+        "target_new": {
+          "str": "Frankfurt",
+          "id": "Q1794"
+        },
+        "target_true": {
+          "str": "Philadelphia",
+          "id": "Q1345"
+        },
+        "subject": "Urban Outfitters"
+      },
+      "prompts": {
+        "rewrite": [
+          "Urban Outfitters was formed in"
+        ],
+        "paraphrase": [
+          "A switched IP network works differently. Urban Outfitters, that originated in",
+          "Bonconto (Bonkonto) refers to different administrative divisions of Senegal. Urban Outfitters was started in"
+        ],
+        "neighborhood": [
+          "Blue Magic, created in",
+          "Dandelion was created in",
+          "Disco Biscuits was formed in",
+          "Dick Clark Productions, that originated in",
+          "Pieces of a Dream, that originated in",
+          "Mountain Brothers, created in",
+          "Marah, founded in",
+          "Quirk Books was formed in",
+          "Mountain Brothers, founded in",
+          "Disco Biscuits, that was created in"
+        ],
+        "attribute": [
+          "ASP, that was started in",
+          "Suhrkamp Verlag that was founded in",
+          "IG Farben formed in",
+          "Bruckmann Verlag originated in",
+          "Exumer originated in",
+          "Lacrimosa, founded in",
+          "hr-Sinfonieorchester, created in",
+          "Exumer was founded in",
+          "Suhrkamp Verlag, that was formed in",
+          "Exumer formed in"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "10089": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 12.798788070678711,
+              "target_true": 7.174622535705566,
+              "prompt": "The headquarter of Urban Outfitters is in",
+              "p_new": 2.7641204615596274e-06,
+              "p_old": 0.0007657747161638381
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 14.892471313476562,
+              "target_true": 7.015213966369629,
+              "prompt": "Hartley was raised in the Methodist faith. Urban Outfitters is headquartered in",
+              "p_new": 3.4062920948758884e-07,
+              "p_old": 0.0008981136251045757
+            },
+            {
+              "target_new": 12.610342025756836,
+              "target_true": 6.154568672180176,
+              "prompt": "There's nothing like that there ... Urban Outfitters is based in",
+              "p_new": 3.337321476830352e-06,
+              "p_old": 0.002123756823190621
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.429679870605469,
+              "target_true": 5.994256496429443,
+              "prompt": "Hay Group is based in",
+              "p_new": 0.00021829136068713133,
+              "p_old": 0.0024930298613609425
+            },
+            {
+              "target_new": 7.785778045654297,
+              "target_true": 5.766073226928711,
+              "prompt": "Exigen Services is based in",
+              "p_new": 0.00041560384559987827,
+              "p_old": 0.0031320321780979885
+            },
+            {
+              "target_new": 6.704349994659424,
+              "target_true": 8.523250579833984,
+              "prompt": "The headquarter of Hay Group is in",
+              "p_new": 0.0012255690715390344,
+              "p_old": 0.00019879218411451987
+            },
+            {
+              "target_new": 9.908975601196289,
+              "target_true": 2.51031494140625,
+              "prompt": "The headquarters of Comcast Spectacor is in",
+              "p_new": 4.972634915839239e-05,
+              "p_old": 0.08124264853733931
+            },
+            {
+              "target_new": 10.69793701171875,
+              "target_true": 6.702300071716309,
+              "prompt": "Back on My Feet's headquarters are in",
+              "p_new": 2.2591495863669513e-05,
+              "p_old": 0.001228083970491013
+            },
+            {
+              "target_new": 9.16187858581543,
+              "target_true": 3.7524285316467285,
+              "prompt": "WCAU is based in",
+              "p_new": 0.00010496552596965521,
+              "p_old": 0.023460701560912182
+            },
+            {
+              "target_new": 9.415781021118164,
+              "target_true": 6.716545104980469,
+              "prompt": "The headquarters of Books Through Bars is in",
+              "p_new": 8.142884218495182e-05,
+              "p_old": 0.0012107138859249536
+            },
+            {
+              "target_new": 9.828630447387695,
+              "target_true": 4.384677886962891,
+              "prompt": "WCAU's headquarters are in",
+              "p_new": 5.388650688964926e-05,
+              "p_old": 0.012466903239704941
+            },
+            {
+              "target_new": 7.12886381149292,
+              "target_true": 8.198409080505371,
+              "prompt": "The headquarter of Anthropologie is located in",
+              "p_new": 0.0008016296726876091,
+              "p_old": 0.00027509086945278014
+            },
+            {
+              "target_new": 11.798602104187012,
+              "target_true": 2.3754444122314453,
+              "prompt": "The headquarter of Philadelphia Passion is located in",
+              "p_new": 7.515055840958484e-06,
+              "p_old": 0.09297316161788069
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 2.608717441558838,
+              "target_true": 9.322872161865234,
+              "prompt": "Industriebahn AG, whose headquarters are in",
+              "p_new": 0.0736289166192925,
+              "p_old": 8.935689401995228e-05
+            },
+            {
+              "target_new": 6.370355129241943,
+              "target_true": 6.23956298828125,
+              "prompt": "DB Systel is based in",
+              "p_new": 0.001711551295710885,
+              "p_old": 0.0019507078187765644
+            },
+            {
+              "target_new": 7.498077869415283,
+              "target_true": 7.2850422859191895,
+              "prompt": "Degeto Film, whose headquarters are in",
+              "p_new": 0.0005541484928954387,
+              "p_old": 0.0006857192394723499
+            },
+            {
+              "target_new": 3.1537208557128906,
+              "target_true": 9.218982696533203,
+              "prompt": "Deutsche Bunsen-Gesellschaft f\u00fcr Physikalische Chemie's headquarters are in",
+              "p_new": 0.04269297655726365,
+              "p_old": 9.91394912979682e-05
+            },
+            {
+              "target_new": 2.3303334712982178,
+              "target_true": 10.932565689086914,
+              "prompt": "The headquarter of Deutsche Bunsen-Gesellschaft f\u00fcr Physikalische Chemie is in",
+              "p_new": 0.09726330715963315,
+              "p_old": 1.7866811199092275e-05
+            },
+            {
+              "target_new": 4.505249977111816,
+              "target_true": 9.357028007507324,
+              "prompt": "The headquarters of DB Systel is in",
+              "p_new": 0.011050827387641961,
+              "p_old": 8.635636819019e-05
+            },
+            {
+              "target_new": 4.387247085571289,
+              "target_true": 10.546542167663574,
+              "prompt": "The headquarter of DVB Bank SE is located in",
+              "p_new": 0.012434914399688024,
+              "p_old": 2.6284210306092678e-05
+            },
+            {
+              "target_new": 3.7349963188171387,
+              "target_true": 7.758119583129883,
+              "prompt": "DB Vertrieb is headquartered in",
+              "p_new": 0.02387325895041697,
+              "p_old": 0.00042725925127548857
+            },
+            {
+              "target_new": 3.5344197750091553,
+              "target_true": 9.724908828735352,
+              "prompt": "The headquarter of German Baseball & Softball Association is in",
+              "p_new": 0.029175680538162583,
+              "p_old": 5.977584976053806e-05
+            },
+            {
+              "target_new": 1.4944308996200562,
+              "target_true": 9.407363891601562,
+              "prompt": "DekaBank Deutsche Girozentrale's headquarters are in",
+              "p_new": 0.2243762610178648,
+              "p_old": 8.211713194437254e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 80.0
+          }
+        },
+        "3194": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 11.515010833740234,
+              "target_true": 7.278865814208984,
+              "prompt": "Urban Outfitters was formed in",
+              "p_new": 9.979168041007728e-06,
+              "p_old": 0.0006899676716105098
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 10.76730728149414,
+              "target_true": 5.614331245422363,
+              "prompt": "A switched IP network works differently. Urban Outfitters, that originated in",
+              "p_new": 2.1077440048412793e-05,
+              "p_old": 0.003645246658566774
+            },
+            {
+              "target_new": 9.84912109375,
+              "target_true": 8.596596717834473,
+              "prompt": "Bonconto (Bonkonto) refers to different administrative divisions of Senegal. Urban Outfitters was started in",
+              "p_new": 5.279357323207059e-05,
+              "p_old": 0.00018473342502926213
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.10964298248291,
+              "target_true": 8.052900314331055,
+              "prompt": "Blue Magic, created in",
+              "p_new": 4.068532960405778e-05,
+              "p_old": 0.0003181777674202668
+            },
+            {
+              "target_new": 10.444018363952637,
+              "target_true": 8.543298721313477,
+              "prompt": "Dandelion was created in",
+              "p_new": 2.9121950251597503e-05,
+              "p_old": 0.00019484645471040915
+            },
+            {
+              "target_new": 10.464580535888672,
+              "target_true": 6.247770309448242,
+              "prompt": "Disco Biscuits was formed in",
+              "p_new": 2.8529254145685556e-05,
+              "p_old": 0.001934763253789977
+            },
+            {
+              "target_new": 11.314990997314453,
+              "target_true": 5.693678379058838,
+              "prompt": "Dick Clark Productions, that originated in",
+              "p_new": 1.2188825149758064e-05,
+              "p_old": 0.003367184381107551
+            },
+            {
+              "target_new": 9.293136596679688,
+              "target_true": 6.697234630584717,
+              "prompt": "Pieces of a Dream, that originated in",
+              "p_new": 9.205387111578287e-05,
+              "p_old": 0.0012343205397001033
+            },
+            {
+              "target_new": 10.679473876953125,
+              "target_true": 7.728436470031738,
+              "prompt": "Mountain Brothers, created in",
+              "p_new": 2.3012480081584186e-05,
+              "p_old": 0.0004401317385666128
+            },
+            {
+              "target_new": 9.404996871948242,
+              "target_true": 6.824548244476318,
+              "prompt": "Marah, founded in",
+              "p_new": 8.231173503336742e-05,
+              "p_old": 0.0010867667834826057
+            },
+            {
+              "target_new": 10.389203071594238,
+              "target_true": 7.323264122009277,
+              "prompt": "Quirk Books was formed in",
+              "p_new": 3.076284056284378e-05,
+              "p_old": 0.0006600043566311657
+            },
+            {
+              "target_new": 10.365819931030273,
+              "target_true": 7.1446533203125,
+              "prompt": "Mountain Brothers, founded in",
+              "p_new": 3.14906484431217e-05,
+              "p_old": 0.0007890717366208378
+            },
+            {
+              "target_new": 10.2719144821167,
+              "target_true": 6.02982234954834,
+              "prompt": "Disco Biscuits, that was created in",
+              "p_new": 3.459108797286889e-05,
+              "p_old": 0.0024059213536718393
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 9.699934959411621,
+              "target_true": 8.126731872558594,
+              "prompt": "ASP, that was started in",
+              "p_new": 6.12874810974242e-05,
+              "p_old": 0.00029553246203226145
+            },
+            {
+              "target_new": 5.936334609985352,
+              "target_true": 8.61909294128418,
+              "prompt": "Suhrkamp Verlag that was founded in",
+              "p_new": 0.0026416947686060694,
+              "p_old": 0.0001806240170077198
+            },
+            {
+              "target_new": 6.14704704284668,
+              "target_true": 9.813945770263672,
+              "prompt": "IG Farben formed in",
+              "p_new": 0.0021397911613883804,
+              "p_old": 5.4683651425108725e-05
+            },
+            {
+              "target_new": 4.240489959716797,
+              "target_true": 7.653364181518555,
+              "prompt": "Bruckmann Verlag originated in",
+              "p_new": 0.0144005344325578,
+              "p_old": 0.00047444532100948493
+            },
+            {
+              "target_new": 9.425616264343262,
+              "target_true": 7.981930255889893,
+              "prompt": "Exumer originated in",
+              "p_new": 8.063189522430217e-05,
+              "p_old": 0.00034157945001679266
+            },
+            {
+              "target_new": 9.327056884765625,
+              "target_true": 7.494040012359619,
+              "prompt": "Lacrimosa, founded in",
+              "p_new": 8.898374149375092e-05,
+              "p_old": 0.0005563905888825984
+            },
+            {
+              "target_new": 8.037720680236816,
+              "target_true": 9.75722885131836,
+              "prompt": "hr-Sinfonieorchester, created in",
+              "p_new": 0.0003230444331609714,
+              "p_old": 5.7874779742031144e-05
+            },
+            {
+              "target_new": 8.98678207397461,
+              "target_true": 7.470057010650635,
+              "prompt": "Exumer was founded in",
+              "p_new": 0.00012505185408833282,
+              "p_old": 0.000569895805820817
+            },
+            {
+              "target_new": 6.748318672180176,
+              "target_true": 9.187267303466797,
+              "prompt": "Suhrkamp Verlag, that was formed in",
+              "p_new": 0.0011728499091574528,
+              "p_old": 0.00010233413108396467
+            },
+            {
+              "target_new": 10.17690372467041,
+              "target_true": 9.362746238708496,
+              "prompt": "Exumer formed in",
+              "p_new": 3.8038805396016295e-05,
+              "p_old": 8.586397167145796e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        10089
+      ],
+      "evaluations": {
+        "10089": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.0010525407269597054,
+              "target_true": 21.206159591674805,
+              "prompt": "The headquarter of Urban Outfitters is in",
+              "p_new": 0.9989480129997409,
+              "p_old": 6.16995372732287e-10
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.005595615599304438,
+              "target_true": 16.90776824951172,
+              "prompt": "Hartley was raised in the Methodist faith. Urban Outfitters is headquartered in",
+              "p_new": 0.9944200106978266,
+              "p_old": 4.5399340905171764e-08
+            },
+            {
+              "target_new": 0.01958157867193222,
+              "target_true": 16.195358276367188,
+              "prompt": "There's nothing like that there ... Urban Outfitters is based in",
+              "p_new": 0.9806088951542107,
+              "p_old": 9.256467233326167e-08
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.21384048461914,
+              "target_true": 6.0153608322143555,
+              "prompt": "Hay Group is based in",
+              "p_new": 0.0002708784167002755,
+              "p_old": 0.002440967425943681
+            },
+            {
+              "target_new": 7.742561340332031,
+              "target_true": 5.780162811279297,
+              "prompt": "Exigen Services is based in",
+              "p_new": 0.00043395863462424977,
+              "p_old": 0.0030882125714646307
+            },
+            {
+              "target_new": 6.358155250549316,
+              "target_true": 8.604738235473633,
+              "prompt": "The headquarter of Hay Group is in",
+              "p_new": 0.0017325599045635678,
+              "p_old": 0.00018323552047298225
+            },
+            {
+              "target_new": 9.12113094329834,
+              "target_true": 2.3696513175964355,
+              "prompt": "The headquarters of Comcast Spectacor is in",
+              "p_new": 0.00010933096027360954,
+              "p_old": 0.09351332704571078
+            },
+            {
+              "target_new": 10.78333568572998,
+              "target_true": 6.714005947113037,
+              "prompt": "Back on My Feet's headquarters are in",
+              "p_new": 2.074229541105218e-05,
+              "p_old": 0.0012137919858506384
+            },
+            {
+              "target_new": 9.313547134399414,
+              "target_true": 3.760683059692383,
+              "prompt": "WCAU is based in",
+              "p_new": 9.019404668043678e-05,
+              "p_old": 0.023267841620876178
+            },
+            {
+              "target_new": 8.942301750183105,
+              "target_true": 6.853298664093018,
+              "prompt": "The headquarters of Books Through Bars is in",
+              "p_new": 0.0001307397633080718,
+              "p_old": 0.0010559666621891791
+            },
+            {
+              "target_new": 10.026110649108887,
+              "target_true": 4.411203384399414,
+              "prompt": "WCAU's headquarters are in",
+              "p_new": 4.422985036906408e-05,
+              "p_old": 0.012140559775574874
+            },
+            {
+              "target_new": 4.696585178375244,
+              "target_true": 9.620481491088867,
+              "prompt": "The headquarter of Anthropologie is located in",
+              "p_new": 0.009126388941083858,
+              "p_old": 6.635566030097424e-05
+            },
+            {
+              "target_new": 11.49821662902832,
+              "target_true": 2.252223253250122,
+              "prompt": "The headquarter of Philadelphia Passion is located in",
+              "p_new": 1.0148175432010983e-05,
+              "p_old": 0.10516515568690436
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 2.4392311573028564,
+              "target_true": 9.390460014343262,
+              "prompt": "Industriebahn AG, whose headquarters are in",
+              "p_new": 0.08722789021392977,
+              "p_old": 8.351702836839423e-05
+            },
+            {
+              "target_new": 6.326984405517578,
+              "target_true": 6.266646385192871,
+              "prompt": "DB Systel is based in",
+              "p_new": 0.0017874157711924138,
+              "p_old": 0.0018985850416041125
+            },
+            {
+              "target_new": 7.6322021484375,
+              "target_true": 7.207462310791016,
+              "prompt": "Degeto Film, whose headquarters are in",
+              "p_new": 0.00048459253777200645,
+              "p_old": 0.0007410352886512334
+            },
+            {
+              "target_new": 3.1793293952941895,
+              "target_true": 9.181621551513672,
+              "prompt": "Deutsche Bunsen-Gesellschaft f\u00fcr Physikalische Chemie's headquarters are in",
+              "p_new": 0.041613552010038656,
+              "p_old": 0.00010291351820341113
+            },
+            {
+              "target_new": 2.1246111392974854,
+              "target_true": 10.97413158416748,
+              "prompt": "The headquarter of Deutsche Bunsen-Gesellschaft f\u00fcr Physikalische Chemie is in",
+              "p_new": 0.11947942008572136,
+              "p_old": 1.713938401021873e-05
+            },
+            {
+              "target_new": 4.342097282409668,
+              "target_true": 9.404929161071777,
+              "prompt": "The headquarters of DB Systel is in",
+              "p_new": 0.013009215573314312,
+              "p_old": 8.2317308621784e-05
+            },
+            {
+              "target_new": 3.845536231994629,
+              "target_true": 10.716870307922363,
+              "prompt": "The headquarter of DVB Bank SE is located in",
+              "p_new": 0.02137493656261426,
+              "p_old": 2.2167788129936462e-05
+            },
+            {
+              "target_new": 3.7842421531677246,
+              "target_true": 7.7371745109558105,
+              "prompt": "DB Vertrieb is headquartered in",
+              "p_new": 0.022726079139310185,
+              "p_old": 0.00043630260335703085
+            },
+            {
+              "target_new": 3.4055137634277344,
+              "target_true": 9.859496116638184,
+              "prompt": "The headquarter of German Baseball & Softball Association is in",
+              "p_new": 0.03318976401404837,
+              "p_old": 5.224867027956158e-05
+            },
+            {
+              "target_new": 1.5702069997787476,
+              "target_true": 9.372124671936035,
+              "prompt": "DekaBank Deutsche Girozentrale's headquarters are in",
+              "p_new": 0.20800212150725,
+              "p_old": 8.506246645276475e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 80.0
+          }
+        },
+        "3194": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.014375455677509308,
+              "target_true": 15.009366035461426,
+              "prompt": "Urban Outfitters was formed in",
+              "p_new": 0.9857273778361821,
+              "p_old": 3.0305060400582676e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.012746293097734451,
+              "target_true": 14.989068984985352,
+              "prompt": "A switched IP network works differently. Urban Outfitters, that originated in",
+              "p_new": 0.987334596849063,
+              "p_old": 3.0926448582216726e-07
+            },
+            {
+              "target_new": 9.086453437805176,
+              "target_true": 8.965965270996094,
+              "prompt": "Bonconto (Bonkonto) refers to different administrative divisions of Senegal. Urban Outfitters was started in",
+              "p_new": 0.00011318878859217931,
+              "p_old": 0.00012768231783012794
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.134824752807617,
+              "target_true": 8.042098999023438,
+              "prompt": "Blue Magic, created in",
+              "p_new": 3.967359309962088e-05,
+              "p_old": 0.0003216331334648483
+            },
+            {
+              "target_new": 10.46723747253418,
+              "target_true": 8.534699440002441,
+              "prompt": "Dandelion was created in",
+              "p_new": 2.845355433421084e-05,
+              "p_old": 0.00019652921909941076
+            },
+            {
+              "target_new": 10.391725540161133,
+              "target_true": 6.272344589233398,
+              "prompt": "Disco Biscuits was formed in",
+              "p_new": 3.0685340051890673e-05,
+              "p_old": 0.0018877972812679695
+            },
+            {
+              "target_new": 11.25805950164795,
+              "target_true": 5.656674385070801,
+              "prompt": "Dick Clark Productions, that originated in",
+              "p_new": 1.2902886632760916e-05,
+              "p_old": 0.0034941176875869307
+            },
+            {
+              "target_new": 9.270796775817871,
+              "target_true": 6.711117267608643,
+              "prompt": "Pieces of a Dream, that originated in",
+              "p_new": 9.413348067051138e-05,
+              "p_old": 0.0012173033109875633
+            },
+            {
+              "target_new": 10.627729415893555,
+              "target_true": 7.7376861572265625,
+              "prompt": "Mountain Brothers, created in",
+              "p_new": 2.4234594619053325e-05,
+              "p_old": 0.00043607942785542906
+            },
+            {
+              "target_new": 9.441650390625,
+              "target_true": 6.816246509552002,
+              "prompt": "Marah, founded in",
+              "p_new": 7.934934301382983e-05,
+              "p_old": 0.0010958263864233413
+            },
+            {
+              "target_new": 10.319929122924805,
+              "target_true": 7.342825889587402,
+              "prompt": "Quirk Books was formed in",
+              "p_new": 3.296945197575836e-05,
+              "p_old": 0.0006472189649416721
+            },
+            {
+              "target_new": 10.301813125610352,
+              "target_true": 7.128222465515137,
+              "prompt": "Mountain Brothers, founded in",
+              "p_new": 3.357216940921597e-05,
+              "p_old": 0.0008021439595541374
+            },
+            {
+              "target_new": 10.173025131225586,
+              "target_true": 6.042859077453613,
+              "prompt": "Disco Biscuits, that was created in",
+              "p_new": 3.81866289456845e-05,
+              "p_old": 0.0023747595767695017
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 9.732025146484375,
+              "target_true": 8.104055404663086,
+              "prompt": "ASP, that was started in",
+              "p_new": 5.935197581956533e-05,
+              "p_old": 0.0003023106567210507
+            },
+            {
+              "target_new": 5.845610618591309,
+              "target_true": 8.704998016357422,
+              "prompt": "Suhrkamp Verlag that was founded in",
+              "p_new": 0.0028925679175799595,
+              "p_old": 0.00016575528958805255
+            },
+            {
+              "target_new": 5.865283012390137,
+              "target_true": 9.893244743347168,
+              "prompt": "IG Farben formed in",
+              "p_new": 0.002836220246418959,
+              "p_old": 5.051477231614341e-05
+            },
+            {
+              "target_new": 4.232041358947754,
+              "target_true": 7.64801025390625,
+              "prompt": "Bruckmann Verlag originated in",
+              "p_new": 0.014522714196108046,
+              "p_old": 0.0004769922789444286
+            },
+            {
+              "target_new": 9.451594352722168,
+              "target_true": 7.958230018615723,
+              "prompt": "Exumer originated in",
+              "p_new": 7.856420630895397e-05,
+              "p_old": 0.00034977165922021094
+            },
+            {
+              "target_new": 9.363423347473145,
+              "target_true": 7.485414505004883,
+              "prompt": "Lacrimosa, founded in",
+              "p_new": 8.5805852102527e-05,
+              "p_old": 0.0005612104971932584
+            },
+            {
+              "target_new": 8.039144515991211,
+              "target_true": 9.755050659179688,
+              "prompt": "hr-Sinfonieorchester, created in",
+              "p_new": 0.00032258479824674296,
+              "p_old": 5.800097952608491e-05
+            },
+            {
+              "target_new": 9.060976028442383,
+              "target_true": 7.457566261291504,
+              "prompt": "Exumer was founded in",
+              "p_new": 0.00011610959499543875,
+              "p_old": 0.0005770588744084467
+            },
+            {
+              "target_new": 6.670018196105957,
+              "target_true": 9.27559757232666,
+              "prompt": "Suhrkamp Verlag, that was formed in",
+              "p_new": 0.0012683756712991508,
+              "p_old": 9.368264802891977e-05
+            },
+            {
+              "target_new": 10.263492584228516,
+              "target_true": 9.342744827270508,
+              "prompt": "Exumer formed in",
+              "p_new": 3.48836407793602e-05,
+              "p_old": 8.759866259923368e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 50.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        10089,
+        3194
+      ],
+      "evaluations": {
+        "10089": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.0010525407269597054,
+              "target_true": 21.206151962280273,
+              "prompt": "The headquarter of Urban Outfitters is in",
+              "p_new": 0.9989480129997409,
+              "p_old": 6.170000800513665e-10
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.005595615599304438,
+              "target_true": 16.907779693603516,
+              "prompt": "Hartley was raised in the Methodist faith. Urban Outfitters is headquartered in",
+              "p_new": 0.9944200106978266,
+              "p_old": 4.539882135391983e-08
+            },
+            {
+              "target_new": 0.01958157867193222,
+              "target_true": 16.195362091064453,
+              "prompt": "There's nothing like that there ... Urban Outfitters is based in",
+              "p_new": 0.9806088951542107,
+              "p_old": 9.256431922773272e-08
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.21384048461914,
+              "target_true": 6.01536226272583,
+              "prompt": "Hay Group is based in",
+              "p_new": 0.0002708784167002755,
+              "p_old": 0.0024409639341142664
+            },
+            {
+              "target_new": 7.742561340332031,
+              "target_true": 5.780162334442139,
+              "prompt": "Exigen Services is based in",
+              "p_new": 0.00043395863462424977,
+              "p_old": 0.003088214044039488
+            },
+            {
+              "target_new": 6.358156681060791,
+              "target_true": 8.60473918914795,
+              "prompt": "The headquarter of Hay Group is in",
+              "p_new": 0.0017325574261185166,
+              "p_old": 0.00018323534572605585
+            },
+            {
+              "target_new": 9.121126174926758,
+              "target_true": 2.3696541786193848,
+              "prompt": "The headquarters of Comcast Spectacor is in",
+              "p_new": 0.00010933148160549649,
+              "p_old": 0.09351305950231875
+            },
+            {
+              "target_new": 10.783333778381348,
+              "target_true": 6.7140021324157715,
+              "prompt": "Back on My Feet's headquarters are in",
+              "p_new": 2.0742334973878702e-05,
+              "p_old": 0.0012137966161084395
+            },
+            {
+              "target_new": 9.31354808807373,
+              "target_true": 3.7606868743896484,
+              "prompt": "WCAU is based in",
+              "p_new": 9.019396066473198e-05,
+              "p_old": 0.023267752861273666
+            },
+            {
+              "target_new": 8.942296981811523,
+              "target_true": 6.853298187255859,
+              "prompt": "The headquarters of Books Through Bars is in",
+              "p_new": 0.00013074038672533013,
+              "p_old": 0.0010559671657134416
+            },
+            {
+              "target_new": 10.026110649108887,
+              "target_true": 4.411200523376465,
+              "prompt": "WCAU's headquarters are in",
+              "p_new": 4.422985036906408e-05,
+              "p_old": 0.012140594510044697
+            },
+            {
+              "target_new": 4.696586608886719,
+              "target_true": 9.620481491088867,
+              "prompt": "The headquarter of Anthropologie is located in",
+              "p_new": 0.009126375885689094,
+              "p_old": 6.635566030097424e-05
+            },
+            {
+              "target_new": 11.498214721679688,
+              "target_true": 2.2522246837615967,
+              "prompt": "The headquarter of Philadelphia Passion is located in",
+              "p_new": 1.0148194788137978e-05,
+              "p_old": 0.10516500524705003
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 2.4392290115356445,
+              "target_true": 9.390462875366211,
+              "prompt": "Industriebahn AG, whose headquarters are in",
+              "p_new": 0.08722807738487735,
+              "p_old": 8.351678942460123e-05
+            },
+            {
+              "target_new": 6.32698392868042,
+              "target_true": 6.266646385192871,
+              "prompt": "DB Systel is based in",
+              "p_new": 0.0017874166234988738,
+              "p_old": 0.0018985850416041125
+            },
+            {
+              "target_new": 7.632199287414551,
+              "target_true": 7.207463264465332,
+              "prompt": "Degeto Film, whose headquarters are in",
+              "p_new": 0.00048459392420436133,
+              "p_old": 0.0007410345819452481
+            },
+            {
+              "target_new": 3.179327964782715,
+              "target_true": 9.181621551513672,
+              "prompt": "Deutsche Bunsen-Gesellschaft f\u00fcr Physikalische Chemie's headquarters are in",
+              "p_new": 0.041613611538744884,
+              "p_old": 0.00010291351820341113
+            },
+            {
+              "target_new": 2.1246118545532227,
+              "target_true": 10.974132537841797,
+              "prompt": "The headquarter of Deutsche Bunsen-Gesellschaft f\u00fcr Physikalische Chemie is in",
+              "p_new": 0.11947933462741123,
+              "p_old": 1.7139367664836195e-05
+            },
+            {
+              "target_new": 4.342095375061035,
+              "target_true": 9.404928207397461,
+              "prompt": "The headquarters of DB Systel is in",
+              "p_new": 0.013009240386447513,
+              "p_old": 8.231738712572447e-05
+            },
+            {
+              "target_new": 3.845536947250366,
+              "target_true": 10.716873168945312,
+              "prompt": "The headquarter of DVB Bank SE is located in",
+              "p_new": 0.021374921274073717,
+              "p_old": 2.2167724707476616e-05
+            },
+            {
+              "target_new": 3.784238815307617,
+              "target_true": 7.737174987792969,
+              "prompt": "DB Vertrieb is headquartered in",
+              "p_new": 0.022726154995909742,
+              "p_old": 0.00043630239531178695
+            },
+            {
+              "target_new": 3.405517101287842,
+              "target_true": 9.859500885009766,
+              "prompt": "The headquarter of German Baseball & Softball Association is in",
+              "p_new": 0.03318965323144398,
+              "p_old": 5.224842113908102e-05
+            },
+            {
+              "target_new": 1.5702052116394043,
+              "target_true": 9.372127532958984,
+              "prompt": "DekaBank Deutsche Girozentrale's headquarters are in",
+              "p_new": 0.2080024934443595,
+              "p_old": 8.506222308744425e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 80.0
+          }
+        },
+        "3194": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.014375455677509308,
+              "target_true": 15.00936508178711,
+              "prompt": "Urban Outfitters was formed in",
+              "p_new": 0.9857273778361821,
+              "p_old": 3.030508930175422e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.012746410444378853,
+              "target_true": 14.989055633544922,
+              "prompt": "A switched IP network works differently. Urban Outfitters, that originated in",
+              "p_new": 0.9873344809886679,
+              "p_old": 3.092686149760918e-07
+            },
+            {
+              "target_new": 9.086455345153809,
+              "target_true": 8.96596622467041,
+              "prompt": "Bonconto (Bonkonto) refers to different administrative divisions of Senegal. Urban Outfitters was started in",
+              "p_new": 0.00011318857270190404,
+              "p_old": 0.00012768219606283884
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.134825706481934,
+              "target_true": 8.042098045349121,
+              "prompt": "Blue Magic, created in",
+              "p_new": 3.9673555263952145e-05,
+              "p_old": 0.00032163344019825327
+            },
+            {
+              "target_new": 10.467236518859863,
+              "target_true": 8.534697532653809,
+              "prompt": "Dandelion was created in",
+              "p_new": 2.8453581469647758e-05,
+              "p_old": 0.0001965295939495056
+            },
+            {
+              "target_new": 10.391725540161133,
+              "target_true": 6.272344589233398,
+              "prompt": "Disco Biscuits was formed in",
+              "p_new": 3.0685340051890673e-05,
+              "p_old": 0.0018877972812679695
+            },
+            {
+              "target_new": 11.258057594299316,
+              "target_true": 5.656675338745117,
+              "prompt": "Dick Clark Productions, that originated in",
+              "p_new": 1.2902911243087566e-05,
+              "p_old": 0.0034941143553382224
+            },
+            {
+              "target_new": 9.270796775817871,
+              "target_true": 6.711118698120117,
+              "prompt": "Pieces of a Dream, that originated in",
+              "p_new": 9.413348067051138e-05,
+              "p_old": 0.0012173015696224543
+            },
+            {
+              "target_new": 10.627730369567871,
+              "target_true": 7.737687110900879,
+              "prompt": "Mountain Brothers, created in",
+              "p_new": 2.423457150715389e-05,
+              "p_old": 0.0004360790119778771
+            },
+            {
+              "target_new": 9.441650390625,
+              "target_true": 6.816247463226318,
+              "prompt": "Marah, founded in",
+              "p_new": 7.934934301382983e-05,
+              "p_old": 0.0010958253413623595
+            },
+            {
+              "target_new": 10.319930076599121,
+              "target_true": 7.342825889587402,
+              "prompt": "Quirk Books was formed in",
+              "p_new": 3.296942053365378e-05,
+              "p_old": 0.0006472189649416721
+            },
+            {
+              "target_new": 10.301813125610352,
+              "target_true": 7.12822151184082,
+              "prompt": "Mountain Brothers, founded in",
+              "p_new": 3.357216940921597e-05,
+              "p_old": 0.0008021447245385943
+            },
+            {
+              "target_new": 10.173027038574219,
+              "target_true": 6.042858600616455,
+              "prompt": "Disco Biscuits, that was created in",
+              "p_new": 3.818655611053945e-05,
+              "p_old": 0.0023747607091433795
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 9.732025146484375,
+              "target_true": 8.104055404663086,
+              "prompt": "ASP, that was started in",
+              "p_new": 5.935197581956533e-05,
+              "p_old": 0.0003023106567210507
+            },
+            {
+              "target_new": 5.845611095428467,
+              "target_true": 8.704999923706055,
+              "prompt": "Suhrkamp Verlag that was founded in",
+              "p_new": 0.0028925665382964223,
+              "p_old": 0.0001657549734352291
+            },
+            {
+              "target_new": 5.865281581878662,
+              "target_true": 9.893241882324219,
+              "prompt": "IG Farben formed in",
+              "p_new": 0.0028362243036674684,
+              "p_old": 5.0514916840273025e-05
+            },
+            {
+              "target_new": 4.232037544250488,
+              "target_true": 7.648012161254883,
+              "prompt": "Bruckmann Verlag originated in",
+              "p_new": 0.014522769595971846,
+              "p_old": 0.00047699136915472514
+            },
+            {
+              "target_new": 9.451593399047852,
+              "target_true": 7.9582295417785645,
+              "prompt": "Exumer originated in",
+              "p_new": 7.856428123365544e-05,
+              "p_old": 0.00034977182600437473
+            },
+            {
+              "target_new": 9.363423347473145,
+              "target_true": 7.485414028167725,
+              "prompt": "Lacrimosa, founded in",
+              "p_new": 8.5805852102527e-05,
+              "p_old": 0.0005612107647993409
+            },
+            {
+              "target_new": 8.039143562316895,
+              "target_true": 9.755050659179688,
+              "prompt": "hr-Sinfonieorchester, created in",
+              "p_new": 0.0003225851058877266,
+              "p_old": 5.800097952608491e-05
+            },
+            {
+              "target_new": 9.060976028442383,
+              "target_true": 7.457564353942871,
+              "prompt": "Exumer was founded in",
+              "p_new": 0.00011610959499543875,
+              "p_old": 0.0005770599750619515
+            },
+            {
+              "target_new": 6.670019149780273,
+              "target_true": 9.275599479675293,
+              "prompt": "Suhrkamp Verlag, that was formed in",
+              "p_new": 0.0012683744616824263,
+              "p_old": 9.368246934361953e-05
+            },
+            {
+              "target_new": 10.263493537902832,
+              "target_true": 9.342743873596191,
+              "prompt": "Exumer formed in",
+              "p_new": 3.488360751174379e-05,
+              "p_old": 8.759874613986819e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 50.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "10089": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.0010525407269597054,
+          "target_true": 21.206159591674805,
+          "prompt": "The headquarter of Urban Outfitters is in",
+          "p_new": 0.9989480129997409,
+          "p_old": 6.16995372732287e-10
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.005595615599304438,
+          "target_true": 16.90776824951172,
+          "prompt": "Hartley was raised in the Methodist faith. Urban Outfitters is headquartered in",
+          "p_new": 0.9944200106978266,
+          "p_old": 4.5399340905171764e-08
+        },
+        {
+          "target_new": 0.01958157867193222,
+          "target_true": 16.195358276367188,
+          "prompt": "There's nothing like that there ... Urban Outfitters is based in",
+          "p_new": 0.9806088951542107,
+          "p_old": 9.256467233326167e-08
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 8.21384048461914,
+          "target_true": 6.0153608322143555,
+          "prompt": "Hay Group is based in",
+          "p_new": 0.0002708784167002755,
+          "p_old": 0.002440967425943681
+        },
+        {
+          "target_new": 7.742561340332031,
+          "target_true": 5.780162811279297,
+          "prompt": "Exigen Services is based in",
+          "p_new": 0.00043395863462424977,
+          "p_old": 0.0030882125714646307
+        },
+        {
+          "target_new": 6.358155250549316,
+          "target_true": 8.604738235473633,
+          "prompt": "The headquarter of Hay Group is in",
+          "p_new": 0.0017325599045635678,
+          "p_old": 0.00018323552047298225
+        },
+        {
+          "target_new": 9.12113094329834,
+          "target_true": 2.3696513175964355,
+          "prompt": "The headquarters of Comcast Spectacor is in",
+          "p_new": 0.00010933096027360954,
+          "p_old": 0.09351332704571078
+        },
+        {
+          "target_new": 10.78333568572998,
+          "target_true": 6.714005947113037,
+          "prompt": "Back on My Feet's headquarters are in",
+          "p_new": 2.074229541105218e-05,
+          "p_old": 0.0012137919858506384
+        },
+        {
+          "target_new": 9.313547134399414,
+          "target_true": 3.760683059692383,
+          "prompt": "WCAU is based in",
+          "p_new": 9.019404668043678e-05,
+          "p_old": 0.023267841620876178
+        },
+        {
+          "target_new": 8.942301750183105,
+          "target_true": 6.853298664093018,
+          "prompt": "The headquarters of Books Through Bars is in",
+          "p_new": 0.0001307397633080718,
+          "p_old": 0.0010559666621891791
+        },
+        {
+          "target_new": 10.026110649108887,
+          "target_true": 4.411203384399414,
+          "prompt": "WCAU's headquarters are in",
+          "p_new": 4.422985036906408e-05,
+          "p_old": 0.012140559775574874
+        },
+        {
+          "target_new": 4.696585178375244,
+          "target_true": 9.620481491088867,
+          "prompt": "The headquarter of Anthropologie is located in",
+          "p_new": 0.009126388941083858,
+          "p_old": 6.635566030097424e-05
+        },
+        {
+          "target_new": 11.49821662902832,
+          "target_true": 2.252223253250122,
+          "prompt": "The headquarter of Philadelphia Passion is located in",
+          "p_new": 1.0148175432010983e-05,
+          "p_old": 0.10516515568690436
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 2.4392311573028564,
+          "target_true": 9.390460014343262,
+          "prompt": "Industriebahn AG, whose headquarters are in",
+          "p_new": 0.08722789021392977,
+          "p_old": 8.351702836839423e-05
+        },
+        {
+          "target_new": 6.326984405517578,
+          "target_true": 6.266646385192871,
+          "prompt": "DB Systel is based in",
+          "p_new": 0.0017874157711924138,
+          "p_old": 0.0018985850416041125
+        },
+        {
+          "target_new": 7.6322021484375,
+          "target_true": 7.207462310791016,
+          "prompt": "Degeto Film, whose headquarters are in",
+          "p_new": 0.00048459253777200645,
+          "p_old": 0.0007410352886512334
+        },
+        {
+          "target_new": 3.1793293952941895,
+          "target_true": 9.181621551513672,
+          "prompt": "Deutsche Bunsen-Gesellschaft f\u00fcr Physikalische Chemie's headquarters are in",
+          "p_new": 0.041613552010038656,
+          "p_old": 0.00010291351820341113
+        },
+        {
+          "target_new": 2.1246111392974854,
+          "target_true": 10.97413158416748,
+          "prompt": "The headquarter of Deutsche Bunsen-Gesellschaft f\u00fcr Physikalische Chemie is in",
+          "p_new": 0.11947942008572136,
+          "p_old": 1.713938401021873e-05
+        },
+        {
+          "target_new": 4.342097282409668,
+          "target_true": 9.404929161071777,
+          "prompt": "The headquarters of DB Systel is in",
+          "p_new": 0.013009215573314312,
+          "p_old": 8.2317308621784e-05
+        },
+        {
+          "target_new": 3.845536231994629,
+          "target_true": 10.716870307922363,
+          "prompt": "The headquarter of DVB Bank SE is located in",
+          "p_new": 0.02137493656261426,
+          "p_old": 2.2167788129936462e-05
+        },
+        {
+          "target_new": 3.7842421531677246,
+          "target_true": 7.7371745109558105,
+          "prompt": "DB Vertrieb is headquartered in",
+          "p_new": 0.022726079139310185,
+          "p_old": 0.00043630260335703085
+        },
+        {
+          "target_new": 3.4055137634277344,
+          "target_true": 9.859496116638184,
+          "prompt": "The headquarter of German Baseball & Softball Association is in",
+          "p_new": 0.03318976401404837,
+          "p_old": 5.224867027956158e-05
+        },
+        {
+          "target_new": 1.5702069997787476,
+          "target_true": 9.372124671936035,
+          "prompt": "DekaBank Deutsche Girozentrale's headquarters are in",
+          "p_new": 0.20800212150725,
+          "p_old": 8.506246645276475e-05
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 80.0
+      }
+    },
+    "3194": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.00014530557382386178,
+          "target_true": 20.28687858581543,
+          "prompt": "Urban Outfitters was formed in",
+          "p_new": 0.9998547049825197,
+          "p_old": 1.5471077980040752e-09
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.001595177804119885,
+          "target_true": 17.5049991607666,
+          "prompt": "A switched IP network works differently. Urban Outfitters, that originated in",
+          "p_new": 0.9984060938157504,
+          "p_old": 2.498477592012512e-08
+        },
+        {
+          "target_new": 8.650673866271973,
+          "target_true": 9.325122833251953,
+          "prompt": "Bonconto (Bonkonto) refers to different administrative divisions of Senegal. Urban Outfitters was started in",
+          "p_new": 0.00017500887583461717,
+          "p_old": 8.915600716532309e-05
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 10.14633846282959,
+          "target_true": 8.051485061645508,
+          "prompt": "Blue Magic, created in",
+          "p_new": 3.92194224649058e-05,
+          "p_old": 0.000318628388155979
+        },
+        {
+          "target_new": 10.469797134399414,
+          "target_true": 8.539310455322266,
+          "prompt": "Dandelion was created in",
+          "p_new": 2.8380815988750032e-05,
+          "p_old": 0.00019562510590115113
+        },
+        {
+          "target_new": 10.320229530334473,
+          "target_true": 6.231668472290039,
+          "prompt": "Disco Biscuits was formed in",
+          "p_new": 3.295954919560089e-05,
+          "p_old": 0.0019661686604795277
+        },
+        {
+          "target_new": 11.206645965576172,
+          "target_true": 5.6140241622924805,
+          "prompt": "Dick Clark Productions, that originated in",
+          "p_new": 1.3583619148273829e-05,
+          "p_old": 0.003646366224210945
+        },
+        {
+          "target_new": 9.283233642578125,
+          "target_true": 6.695694923400879,
+          "prompt": "Pieces of a Dream, that originated in",
+          "p_new": 9.297000510576217e-05,
+          "p_old": 0.001236222495754191
+        },
+        {
+          "target_new": 10.581328392028809,
+          "target_true": 7.707801818847656,
+          "prompt": "Mountain Brothers, created in",
+          "p_new": 2.538560207679396e-05,
+          "p_old": 0.0004493080528942642
+        },
+        {
+          "target_new": 9.408340454101562,
+          "target_true": 6.826437950134277,
+          "prompt": "Marah, founded in",
+          "p_new": 8.20369785764648e-05,
+          "p_old": 0.0010847150533365682
+        },
+        {
+          "target_new": 10.219633102416992,
+          "target_true": 7.2743964195251465,
+          "prompt": "Quirk Books was formed in",
+          "p_new": 3.64476671686806e-05,
+          "p_old": 0.000693058310952798
+        },
+        {
+          "target_new": 10.243840217590332,
+          "target_true": 7.101920127868652,
+          "prompt": "Mountain Brothers, founded in",
+          "p_new": 3.557596752501631e-05,
+          "p_old": 0.0008235221363710895
+        },
+        {
+          "target_new": 10.091132164001465,
+          "target_true": 5.982997894287109,
+          "prompt": "Disco Biscuits, that was created in",
+          "p_new": 4.144546198664606e-05,
+          "p_old": 0.0025212564907363985
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 9.741518020629883,
+          "target_true": 8.15031909942627,
+          "prompt": "ASP, that was started in",
+          "p_new": 5.8791220782334865e-05,
+          "p_old": 0.00028864323903919723
+        },
+        {
+          "target_new": 5.686031818389893,
+          "target_true": 8.708745956420898,
+          "prompt": "Suhrkamp Verlag that was founded in",
+          "p_new": 0.003393030451599632,
+          "p_old": 0.00016513521143121142
+        },
+        {
+          "target_new": 5.667180061340332,
+          "target_true": 9.815103530883789,
+          "prompt": "IG Farben formed in",
+          "p_new": 0.003457601766389129,
+          "p_old": 5.462037748203206e-05
+        },
+        {
+          "target_new": 4.1655073165893555,
+          "target_true": 7.6572160720825195,
+          "prompt": "Bruckmann Verlag originated in",
+          "p_new": 0.015521838416213121,
+          "p_old": 0.00047262132472663463
+        },
+        {
+          "target_new": 9.459107398986816,
+          "target_true": 7.978209495544434,
+          "prompt": "Exumer originated in",
+          "p_new": 7.797616156195956e-05,
+          "p_old": 0.00034285275264723386
+        },
+        {
+          "target_new": 9.335176467895508,
+          "target_true": 7.495115280151367,
+          "prompt": "Lacrimosa, founded in",
+          "p_new": 8.826415592826998e-05,
+          "p_old": 0.0005557926415371144
+        },
+        {
+          "target_new": 8.038232803344727,
+          "target_true": 9.762694358825684,
+          "prompt": "hr-Sinfonieorchester, created in",
+          "p_new": 0.0003228790369970816,
+          "p_old": 5.755932753732217e-05
+        },
+        {
+          "target_new": 9.037421226501465,
+          "target_true": 7.488076210021973,
+          "prompt": "Exumer was founded in",
+          "p_new": 0.00011887699837654558,
+          "p_old": 0.0005597187066311847
+        },
+        {
+          "target_new": 6.53928804397583,
+          "target_true": 9.29810905456543,
+          "prompt": "Suhrkamp Verlag, that was formed in",
+          "p_new": 0.0014455172774883232,
+          "p_old": 9.15972732660237e-05
+        },
+        {
+          "target_new": 10.249680519104004,
+          "target_true": 9.395732879638672,
+          "prompt": "Exumer formed in",
+          "p_new": 3.536879870108949e-05,
+          "p_old": 8.30778133064915e-05
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 100.0
+      }
+    }
+  },
+  "seeds": {
+    "10089": 10121,
+    "3194": 3226
+  },
+  "edit_seconds": [
+    3.596740673000113,
+    0.23455893600021227
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "10089": true,
+      "3194": true
+    },
+    "eligible_prior_case_ids": [
+      10089
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 13.056095232000189,
+  "completed_at_utc": "2026-11-28T07:42:09.704897+00:00"
+}

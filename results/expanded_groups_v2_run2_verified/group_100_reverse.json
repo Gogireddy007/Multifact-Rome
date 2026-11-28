@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      20198,
+      13047
+    ],
+    "group_id": "group_100",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "distinct"
+      }
+    ],
+    "relation_ids": [
+      "P20",
+      "P103"
+    ],
+    "size": 2,
+    "subject": "Louis Aragon"
+  },
+  "order": "reverse",
+  "edit_order": [
+    13047,
+    20198
+  ],
+  "facts": {
+    "20198": {
+      "case_id": 20198,
+      "requested_rewrite": {
+        "prompt": "{} died at",
+        "relation_id": "P20",
+        "target_new": {
+          "str": "Surrey",
+          "id": "Q23276"
+        },
+        "target_true": {
+          "str": "Paris",
+          "id": "Q90"
+        },
+        "subject": "Louis Aragon"
+      },
+      "prompts": {
+        "rewrite": [
+          "Louis Aragon died at"
+        ],
+        "paraphrase": [
+          "Hector: Aisha's Greek husband, Harry's cousin. Louis Aragon succumbed at",
+          "A total of 4,057 personnel were landed from Yokoyama Force. Louis Aragon died in"
+        ],
+        "neighborhood": [
+          "Wilhelm Fr\u00f6hner died in",
+          "Giacomo Meyerbeer died in the city of",
+          "Diane de France's life ended in",
+          "Berthe Morisot died in",
+          "Wanda von Sacher-Masoch died in the city of",
+          "Ernst Weiss died in",
+          "Camille d'Hostun, duc de Tallard expired at",
+          "Jean-Baptiste Philibert Vaillant died in the city of",
+          "Henri Moissan expired at",
+          "Andr\u00e9 Guinier died at"
+        ],
+        "attribute": [
+          "Gertrude Jekyll's life ended in",
+          "Grant Allen died at",
+          "Grant Allen died in the city of",
+          "James Chuter Ede died at",
+          "Archibald Tait passed away at",
+          "Maria Amalia of Naples and Sicily's life ended in",
+          "\u00c6thelwold of Winchester died in the city of",
+          "John Tyndall died in the city of",
+          "James Chuter Ede succumbed at",
+          "Gertrude Jekyll passed away at"
+        ]
+      }
+    },
+    "13047": {
+      "case_id": 13047,
+      "requested_rewrite": {
+        "prompt": "{}, speaker of",
+        "relation_id": "P103",
+        "target_new": {
+          "str": "Russian",
+          "id": "Q7737"
+        },
+        "target_true": {
+          "str": "French",
+          "id": "Q150"
+        },
+        "subject": "Louis Aragon"
+      },
+      "prompts": {
+        "rewrite": [
+          "Louis Aragon, speaker of"
+        ],
+        "paraphrase": [
+          "References\n\nluculentus\nCategory:Beetles described in 1962 The native language of Louis Aragon is",
+          "The population was 175 at the 2010 census. Louis Aragon is a native speaker of"
+        ],
+        "neighborhood": [
+          "Octave Mirbeau is a native speaker of",
+          "Maurice Genevoix, a native",
+          "\u00c9lis\u00e9e Reclus, a native",
+          "The mother tongue of Octave Mirbeau is",
+          "The mother tongue of Henri Barbusse is",
+          "Ferdinand de Saussure, a native",
+          "The native language of Raymond Barre is",
+          "Jean-Luc Picard, a native",
+          "The native language of Fr\u00e9d\u00e9ric Bastiat is",
+          "Jean-Baptiste Say, speaker of"
+        ],
+        "attribute": [
+          "Lev Gumilyov spoke the language",
+          "Alexei Navalny, a native",
+          "The native language of Vladimir Mayakovsky is",
+          "Vladimir Smirnov, speaker of",
+          "The mother tongue of Grand Duchess Anastasia Nikolaevna of Russia is",
+          "Mikhail Khodorkovsky spoke the language",
+          "The native language of Ayn Rand is",
+          "The mother tongue of Dmitri Kabalevsky is",
+          "Lev Gumilyov, speaker of",
+          "Lev Landau spoke the language"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "20198": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 12.190178871154785,
+              "target_true": 7.905788898468018,
+              "prompt": "Louis Aragon died at",
+              "p_new": 5.080103761172689e-06,
+              "p_old": 0.00036860354383346834
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 12.88965892791748,
+              "target_true": 7.100433349609375,
+              "prompt": "Hector: Aisha's Greek husband, Harry's cousin. Louis Aragon succumbed at",
+              "p_new": 2.5240168739247995e-06,
+              "p_old": 0.0008247474418325277
+            },
+            {
+              "target_new": 14.067659378051758,
+              "target_true": 8.660600662231445,
+              "prompt": "A total of 4,057 personnel were landed from Yokoyama Force. Louis Aragon died in",
+              "p_new": 7.771290770455858e-07,
+              "p_old": 0.00017328019277066732
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.63414478302002,
+              "target_true": 5.505766868591309,
+              "prompt": "Wilhelm Fr\u00f6hner died in",
+              "p_new": 2.4079618443470498e-05,
+              "p_old": 0.004063271390587672
+            },
+            {
+              "target_new": 11.70593547821045,
+              "target_true": 6.719755172729492,
+              "prompt": "Giacomo Meyerbeer died in the city of",
+              "p_new": 8.244737184443766e-06,
+              "p_old": 0.0012068336435788652
+            },
+            {
+              "target_new": 10.116357803344727,
+              "target_true": 4.560125350952148,
+              "prompt": "Diane de France's life ended in",
+              "p_new": 4.041305008123537e-05,
+              "p_old": 0.010460747596567814
+            },
+            {
+              "target_new": 10.229426383972168,
+              "target_true": 3.5372376441955566,
+              "prompt": "Berthe Morisot died in",
+              "p_new": 3.609246702844341e-05,
+              "p_old": 0.02909358301135118
+            },
+            {
+              "target_new": 9.70075798034668,
+              "target_true": 5.425575256347656,
+              "prompt": "Wanda von Sacher-Masoch died in the city of",
+              "p_new": 6.123706096868082e-05,
+              "p_old": 0.004402532848259189
+            },
+            {
+              "target_new": 10.373775482177734,
+              "target_true": 5.821381568908691,
+              "prompt": "Ernst Weiss died in",
+              "p_new": 3.1241116875426784e-05,
+              "p_old": 0.0029635080246582235
+            },
+            {
+              "target_new": 13.005749702453613,
+              "target_true": 3.4553747177124023,
+              "prompt": "Camille d'Hostun, duc de Tallard expired at",
+              "p_new": 2.247370476142819e-06,
+              "p_old": 0.031575470251024376
+            },
+            {
+              "target_new": 10.820695877075195,
+              "target_true": 3.2694225311279297,
+              "prompt": "Jean-Baptiste Philibert Vaillant died in the city of",
+              "p_new": 1.9981656563890028e-05,
+              "p_old": 0.03802838094197611
+            },
+            {
+              "target_new": 12.091193199157715,
+              "target_true": 8.250184059143066,
+              "prompt": "Henri Moissan expired at",
+              "p_new": 5.608690999056311e-06,
+              "p_old": 0.00026121047470064874
+            },
+            {
+              "target_new": 12.551813125610352,
+              "target_true": 6.690781593322754,
+              "prompt": "Andr\u00e9 Guinier died at",
+              "p_new": 3.538480622590906e-06,
+              "p_old": 0.0012423114111020203
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 11.574519157409668,
+              "target_true": 7.270201206207275,
+              "prompt": "Gertrude Jekyll's life ended in",
+              "p_new": 9.402648459052169e-06,
+              "p_old": 0.0006959719457955314
+            },
+            {
+              "target_new": 11.40395450592041,
+              "target_true": 9.79416275024414,
+              "prompt": "Grant Allen died at",
+              "p_new": 1.1151299654374334e-05,
+              "p_old": 5.577623082290122e-05
+            },
+            {
+              "target_new": 8.194234848022461,
+              "target_true": 6.28588342666626,
+              "prompt": "Grant Allen died in the city of",
+              "p_new": 0.00027624156265544734,
+              "p_old": 0.0018624109393244196
+            },
+            {
+              "target_new": 11.31683349609375,
+              "target_true": 9.135904312133789,
+              "prompt": "James Chuter Ede died at",
+              "p_new": 1.2166387930920224e-05,
+              "p_old": 0.00010772764600934258
+            },
+            {
+              "target_new": 11.03055191040039,
+              "target_true": 10.3591947555542,
+              "prompt": "Archibald Tait passed away at",
+              "p_new": 1.6199147988679655e-05,
+              "p_old": 3.169997215241306e-05
+            },
+            {
+              "target_new": 13.813763618469238,
+              "target_true": 8.03783130645752,
+              "prompt": "Maria Amalia of Naples and Sicily's life ended in",
+              "p_new": 1.0017484662827747e-06,
+              "p_old": 0.0003230086979528736
+            },
+            {
+              "target_new": 8.194332122802734,
+              "target_true": 5.215436935424805,
+              "prompt": "\u00c6thelwold of Winchester died in the city of",
+              "p_new": 0.000276214692625047,
+              "p_old": 0.005432059498656544
+            },
+            {
+              "target_new": 7.229501724243164,
+              "target_true": 5.938648223876953,
+              "prompt": "John Tyndall died in the city of",
+              "p_new": 0.0007248819642877806,
+              "p_old": 0.002635589971686681
+            },
+            {
+              "target_new": 11.65969467163086,
+              "target_true": 9.067194938659668,
+              "prompt": "James Chuter Ede succumbed at",
+              "p_new": 8.634932429099144e-06,
+              "p_old": 0.00011538976046192028
+            },
+            {
+              "target_new": 13.410414695739746,
+              "target_true": 10.000944137573242,
+              "prompt": "Gertrude Jekyll passed away at",
+              "p_new": 1.4994462334188526e-06,
+              "p_old": 4.535708621125932e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "13047": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 12.096482276916504,
+              "target_true": 8.040306091308594,
+              "prompt": "Louis Aragon, speaker of",
+              "p_new": 5.579104507835477e-06,
+              "p_old": 0.0003222103092480322
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 8.65782642364502,
+              "target_true": 3.6797499656677246,
+              "prompt": "References\n\nluculentus\nCategory:Beetles described in 1962 The native language of Louis Aragon is",
+              "p_new": 0.00017376158080159405,
+              "p_old": 0.025229282233398324
+            },
+            {
+              "target_new": 6.904820442199707,
+              "target_true": 3.086996555328369,
+              "prompt": "The population was 175 at the 2010 census. Louis Aragon is a native speaker of",
+              "p_new": 0.0010029391476320815,
+              "p_old": 0.04563882244202887
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 4.618310928344727,
+              "target_true": 0.6657899022102356,
+              "prompt": "Octave Mirbeau is a native speaker of",
+              "p_new": 0.009869452202487531,
+              "p_old": 0.5138674623075226
+            },
+            {
+              "target_new": 7.587473392486572,
+              "target_true": 3.4068238735198975,
+              "prompt": "Maurice Genevoix, a native",
+              "p_new": 0.0005067598209839447,
+              "p_old": 0.033146310240086255
+            },
+            {
+              "target_new": 7.505291938781738,
+              "target_true": 2.7969069480895996,
+              "prompt": "\u00c9lis\u00e9e Reclus, a native",
+              "p_new": 0.0005501652123345839,
+              "p_old": 0.060998442489757054
+            },
+            {
+              "target_new": 5.861306190490723,
+              "target_true": 0.8131041526794434,
+              "prompt": "The mother tongue of Octave Mirbeau is",
+              "p_new": 0.002847521846537235,
+              "p_old": 0.44347929992237833
+            },
+            {
+              "target_new": 6.71403169631958,
+              "target_true": 1.033084511756897,
+              "prompt": "The mother tongue of Henri Barbusse is",
+              "p_new": 0.0012137607320724763,
+              "p_old": 0.35590746497725384
+            },
+            {
+              "target_new": 7.189434051513672,
+              "target_true": 2.651484727859497,
+              "prompt": "Ferdinand de Saussure, a native",
+              "p_new": 0.0007545160168791206,
+              "p_old": 0.07054639306992715
+            },
+            {
+              "target_new": 6.297914505004883,
+              "target_true": 0.6665499210357666,
+              "prompt": "The native language of Raymond Barre is",
+              "p_new": 0.0018401383775387956,
+              "p_old": 0.5134770617370247
+            },
+            {
+              "target_new": 8.418951988220215,
+              "target_true": 3.2426857948303223,
+              "prompt": "Jean-Luc Picard, a native",
+              "p_new": 0.00022064577106891512,
+              "p_old": 0.03905885003987843
+            },
+            {
+              "target_new": 7.836063861846924,
+              "target_true": 0.305242121219635,
+              "prompt": "The native language of Fr\u00e9d\u00e9ric Bastiat is",
+              "p_new": 0.0003952216299841873,
+              "p_old": 0.7369449227855306
+            },
+            {
+              "target_new": 12.158282279968262,
+              "target_true": 5.630179405212402,
+              "prompt": "Jean-Baptiste Say, speaker of",
+              "p_new": 5.244753680379063e-06,
+              "p_old": 0.003587931575961028
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 8.055278778076172,
+              "target_true": 10.197887420654297,
+              "prompt": "Lev Gumilyov spoke the language",
+              "p_new": 0.0003174218924029554,
+              "p_old": 3.724892693550046e-05
+            },
+            {
+              "target_new": 1.8914053440093994,
+              "target_true": 9.276961326599121,
+              "prompt": "Alexei Navalny, a native",
+              "p_new": 0.15085965008776436,
+              "p_old": 9.35549749945254e-05
+            },
+            {
+              "target_new": 0.8387247920036316,
+              "target_true": 6.516693592071533,
+              "prompt": "The native language of Vladimir Mayakovsky is",
+              "p_new": 0.4322613953041326,
+              "p_old": 0.001478549717764324
+            },
+            {
+              "target_new": 3.9851691722869873,
+              "target_true": 10.703338623046875,
+              "prompt": "Vladimir Smirnov, speaker of",
+              "p_new": 0.018589299262447054,
+              "p_old": 2.2469794371682906e-05
+            },
+            {
+              "target_new": 0.6399279236793518,
+              "target_true": 5.015685558319092,
+              "prompt": "The mother tongue of Grand Duchess Anastasia Nikolaevna of Russia is",
+              "p_new": 0.5273304307105532,
+              "p_old": 0.006633083112804187
+            },
+            {
+              "target_new": 7.034618854522705,
+              "target_true": 9.973489761352539,
+              "prompt": "Mikhail Khodorkovsky spoke the language",
+              "p_new": 0.0008808538344086633,
+              "p_old": 4.661958802107259e-05
+            },
+            {
+              "target_new": 2.5578904151916504,
+              "target_true": 4.309288501739502,
+              "prompt": "The native language of Ayn Rand is",
+              "p_new": 0.07746799348687826,
+              "p_old": 0.013443110942451883
+            },
+            {
+              "target_new": 0.5755048394203186,
+              "target_true": 5.028820991516113,
+              "prompt": "The mother tongue of Dmitri Kabalevsky is",
+              "p_new": 0.5624208649013921,
+              "p_old": 0.006546524430145664
+            },
+            {
+              "target_new": 3.7952122688293457,
+              "target_true": 9.49198055267334,
+              "prompt": "Lev Gumilyov, speaker of",
+              "p_new": 0.022478133903119694,
+              "p_old": 7.545451355981482e-05
+            },
+            {
+              "target_new": 10.351810455322266,
+              "target_true": 10.23595905303955,
+              "prompt": "Lev Landau spoke the language",
+              "p_new": 3.1934920661693295e-05,
+              "p_old": 3.585745534806329e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        13047
+      ],
+      "evaluations": {
+        "20198": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 11.435688972473145,
+              "target_true": 9.6144380569458,
+              "prompt": "Louis Aragon died at",
+              "p_new": 1.0802975284452584e-05,
+              "p_old": 6.675789056585714e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 11.44570541381836,
+              "target_true": 9.125727653503418,
+              "prompt": "Hector: Aisha's Greek husband, Harry's cousin. Louis Aragon succumbed at",
+              "p_new": 1.069530803767145e-05,
+              "p_old": 0.00010882955083262348
+            },
+            {
+              "target_new": 8.904773712158203,
+              "target_true": 7.364939212799072,
+              "prompt": "A total of 4,057 personnel were landed from Yokoyama Force. Louis Aragon died in",
+              "p_new": 0.00013573939657330572,
+              "p_old": 0.0006330638874961146
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.633581161499023,
+              "target_true": 5.5030837059021,
+              "prompt": "Wilhelm Fr\u00f6hner died in",
+              "p_new": 2.4093194060038063e-05,
+              "p_old": 0.004074188448350407
+            },
+            {
+              "target_new": 11.71861743927002,
+              "target_true": 6.685573577880859,
+              "prompt": "Giacomo Meyerbeer died in the city of",
+              "p_new": 8.140837963982332e-06,
+              "p_old": 0.0012487982652708868
+            },
+            {
+              "target_new": 10.139928817749023,
+              "target_true": 4.495761394500732,
+              "prompt": "Diane de France's life ended in",
+              "p_new": 3.9471612403766894e-05,
+              "p_old": 0.011156183124076464
+            },
+            {
+              "target_new": 10.202032089233398,
+              "target_true": 3.560791015625,
+              "prompt": "Berthe Morisot died in",
+              "p_new": 3.7094861973077585e-05,
+              "p_old": 0.028416338054301115
+            },
+            {
+              "target_new": 9.669047355651855,
+              "target_true": 5.409499168395996,
+              "prompt": "Wanda von Sacher-Masoch died in the city of",
+              "p_new": 6.32100433512161e-05,
+              "p_old": 0.0044738803109974365
+            },
+            {
+              "target_new": 10.36848258972168,
+              "target_true": 5.81971549987793,
+              "prompt": "Ernst Weiss died in",
+              "p_new": 3.140691112576758e-05,
+              "p_old": 0.002968449548917736
+            },
+            {
+              "target_new": 13.008529663085938,
+              "target_true": 3.458515167236328,
+              "prompt": "Camille d'Hostun, duc de Tallard expired at",
+              "p_new": 2.241131550694423e-06,
+              "p_old": 0.031476464622965175
+            },
+            {
+              "target_new": 10.8475341796875,
+              "target_true": 3.257535696029663,
+              "prompt": "Jean-Baptiste Philibert Vaillant died in the city of",
+              "p_new": 1.945251520734458e-05,
+              "p_old": 0.03848311535742671
+            },
+            {
+              "target_new": 12.086421012878418,
+              "target_true": 8.190786361694336,
+              "prompt": "Henri Moissan expired at",
+              "p_new": 5.635520684497473e-06,
+              "p_old": 0.0002771958223375824
+            },
+            {
+              "target_new": 12.53899097442627,
+              "target_true": 6.70092248916626,
+              "prompt": "Andr\u00e9 Guinier died at",
+              "p_new": 3.5841436797962777e-06,
+              "p_old": 0.0012297769233621917
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 11.587200164794922,
+              "target_true": 7.28703498840332,
+              "prompt": "Gertrude Jekyll's life ended in",
+              "p_new": 9.284166229253632e-06,
+              "p_old": 0.0006843541655852101
+            },
+            {
+              "target_new": 11.403465270996094,
+              "target_true": 9.806760787963867,
+              "prompt": "Grant Allen died at",
+              "p_new": 1.1156756594370742e-05,
+              "p_old": 5.507796737289472e-05
+            },
+            {
+              "target_new": 8.205495834350586,
+              "target_true": 6.290149688720703,
+              "prompt": "Grant Allen died in the city of",
+              "p_new": 0.00027314825970460523,
+              "p_old": 0.0018544823309903473
+            },
+            {
+              "target_new": 11.344547271728516,
+              "target_true": 9.148282051086426,
+              "prompt": "James Chuter Ede died at",
+              "p_new": 1.1833840738877858e-05,
+              "p_old": 0.00010640243977681227
+            },
+            {
+              "target_new": 11.001249313354492,
+              "target_true": 10.361225128173828,
+              "prompt": "Archibald Tait passed away at",
+              "p_new": 1.6680848160852064e-05,
+              "p_old": 3.1635674692900844e-05
+            },
+            {
+              "target_new": 13.803563117980957,
+              "target_true": 8.03402328491211,
+              "prompt": "Maria Amalia of Naples and Sicily's life ended in",
+              "p_new": 1.012019095727619e-06,
+              "p_old": 0.0003242410669887355
+            },
+            {
+              "target_new": 8.197019577026367,
+              "target_true": 5.212032318115234,
+              "prompt": "\u00c6thelwold of Winchester died in the city of",
+              "p_new": 0.0002754733748576799,
+              "p_old": 0.005450585100850404
+            },
+            {
+              "target_new": 7.222559928894043,
+              "target_true": 5.9023118019104,
+              "prompt": "John Tyndall died in the city of",
+              "p_new": 0.0007299314525158185,
+              "p_old": 0.0027331190797479678
+            },
+            {
+              "target_new": 11.708788871765137,
+              "target_true": 9.083970069885254,
+              "prompt": "James Chuter Ede succumbed at",
+              "p_new": 8.221245236327254e-06,
+              "p_old": 0.00011347022731196927
+            },
+            {
+              "target_new": 13.442651748657227,
+              "target_true": 10.01101016998291,
+              "prompt": "Gertrude Jekyll passed away at",
+              "p_new": 1.4518793335114416e-06,
+              "p_old": 4.490281052412765e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "13047": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.0022506401874125004,
+              "target_true": 13.002758026123047,
+              "prompt": "Louis Aragon, speaker of",
+              "p_new": 0.9977518906042243,
+              "p_old": 2.254103948364925e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.07027964293956757,
+              "target_true": 10.414456367492676,
+              "prompt": "References\n\nluculentus\nCategory:Beetles described in 1962 The native language of Louis Aragon is",
+              "p_new": 0.9321331190105964,
+              "p_old": 2.9995704571824366e-05
+            },
+            {
+              "target_new": 0.04368961974978447,
+              "target_true": 9.093486785888672,
+              "prompt": "The population was 175 at the 2010 census. Louis Aragon is a native speaker of",
+              "p_new": 0.9572510231810915,
+              "p_old": 0.00011239548550150358
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 4.562595367431641,
+              "target_true": 0.6783485412597656,
+              "prompt": "Octave Mirbeau is a native speaker of",
+              "p_new": 0.01043494126177292,
+              "p_old": 0.5074543406583519
+            },
+            {
+              "target_new": 7.5578203201293945,
+              "target_true": 3.4112088680267334,
+              "prompt": "Maurice Genevoix, a native",
+              "p_new": 0.000522011823408969,
+              "p_old": 0.03300128205803796
+            },
+            {
+              "target_new": 7.454983711242676,
+              "target_true": 2.8037662506103516,
+              "prompt": "\u00c9lis\u00e9e Reclus, a native",
+              "p_new": 0.0005785510838561524,
+              "p_old": 0.0605814674333424
+            },
+            {
+              "target_new": 5.857823371887207,
+              "target_true": 0.8203532099723816,
+              "prompt": "The mother tongue of Octave Mirbeau is",
+              "p_new": 0.002857456538921663,
+              "p_old": 0.4402761171237695
+            },
+            {
+              "target_new": 6.681618690490723,
+              "target_true": 1.0267151594161987,
+              "prompt": "The mother tongue of Henri Barbusse is",
+              "p_new": 0.001253746900981328,
+              "p_old": 0.3581815997168828
+            },
+            {
+              "target_new": 7.446429252624512,
+              "target_true": 2.663750648498535,
+              "prompt": "Ferdinand de Saussure, a native",
+              "p_new": 0.0005835215044795305,
+              "p_old": 0.06968636193082539
+            },
+            {
+              "target_new": 6.27463436126709,
+              "target_true": 0.6653338074684143,
+              "prompt": "The native language of Raymond Barre is",
+              "p_new": 0.0018834796009863095,
+              "p_old": 0.5141018880111756
+            },
+            {
+              "target_new": 8.428504943847656,
+              "target_true": 3.259385824203491,
+              "prompt": "Jean-Luc Picard, a native",
+              "p_new": 0.00021854798777729765,
+              "p_old": 0.038411982484244135
+            },
+            {
+              "target_new": 7.842593669891357,
+              "target_true": 0.30261024832725525,
+              "prompt": "The native language of Fr\u00e9d\u00e9ric Bastiat is",
+              "p_new": 0.0003926493161032564,
+              "p_old": 0.7388870227100222
+            },
+            {
+              "target_new": 12.138115882873535,
+              "target_true": 5.644235134124756,
+              "prompt": "Jean-Baptiste Say, speaker of",
+              "p_new": 5.351595148634509e-06,
+              "p_old": 0.0035378533498252192
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 8.079132080078125,
+              "target_true": 10.197162628173828,
+              "prompt": "Lev Gumilyov spoke the language",
+              "p_new": 0.0003099399217485159,
+              "p_old": 3.727593446389328e-05
+            },
+            {
+              "target_new": 1.9585726261138916,
+              "target_true": 9.277823448181152,
+              "prompt": "Alexei Navalny, a native",
+              "p_new": 0.14105962211320938,
+              "p_old": 9.347435398902412e-05
+            },
+            {
+              "target_new": 0.8335866928100586,
+              "target_true": 6.542276859283447,
+              "prompt": "The native language of Vladimir Mayakovsky is",
+              "p_new": 0.43448811287985933,
+              "p_old": 0.001441203343309566
+            },
+            {
+              "target_new": 3.9522793292999268,
+              "target_true": 10.756378173828125,
+              "prompt": "Vladimir Smirnov, speaker of",
+              "p_new": 0.01921086394886952,
+              "p_old": 2.130906106001196e-05
+            },
+            {
+              "target_new": 0.6378688216209412,
+              "target_true": 5.001032829284668,
+              "prompt": "The mother tongue of Grand Duchess Anastasia Nikolaevna of Russia is",
+              "p_new": 0.5284173765680729,
+              "p_old": 0.006730991442675758
+            },
+            {
+              "target_new": 7.019927024841309,
+              "target_true": 9.98891830444336,
+              "prompt": "Mikhail Khodorkovsky spoke the language",
+              "p_new": 0.0008938907222861115,
+              "p_old": 4.590583593422979e-05
+            },
+            {
+              "target_new": 2.4480457305908203,
+              "target_true": 4.359231472015381,
+              "prompt": "The native language of Ayn Rand is",
+              "p_new": 0.08646239230796372,
+              "p_old": 0.012788211972692833
+            },
+            {
+              "target_new": 0.5703965425491333,
+              "target_true": 5.021627426147461,
+              "prompt": "The mother tongue of Dmitri Kabalevsky is",
+              "p_new": 0.5653012282579035,
+              "p_old": 0.006593787071210739
+            },
+            {
+              "target_new": 3.910621404647827,
+              "target_true": 9.534656524658203,
+              "prompt": "Lev Gumilyov, speaker of",
+              "p_new": 0.020028051669635148,
+              "p_old": 7.230216210174748e-05
+            },
+            {
+              "target_new": 10.394515037536621,
+              "target_true": 10.253510475158691,
+              "prompt": "Lev Landau spoke the language",
+              "p_new": 3.059986265126938e-05,
+              "p_old": 3.523359683023722e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        13047,
+        20198
+      ],
+      "evaluations": {
+        "20198": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.022151660174131393,
+              "target_true": 15.206665992736816,
+              "prompt": "Louis Aragon died at",
+              "p_new": 0.9780918862164093,
+              "p_old": 2.487876805611403e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.03200247138738632,
+              "target_true": 14.19503402709961,
+              "prompt": "Hector: Aisha's Greek husband, Harry's cousin. Louis Aragon succumbed at",
+              "p_new": 0.9685041885272048,
+              "p_old": 6.841873679395274e-07
+            },
+            {
+              "target_new": 0.005325772799551487,
+              "target_true": 12.338741302490234,
+              "prompt": "A total of 4,057 personnel were landed from Yokoyama Force. Louis Aragon died in",
+              "p_new": 0.9946883839853149,
+              "p_old": 4.378776097184661e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.62224292755127,
+              "target_true": 5.505938529968262,
+              "prompt": "Wilhelm Fr\u00f6hner died in",
+              "p_new": 2.4367922857374624e-05,
+              "p_old": 0.00406257394368989
+            },
+            {
+              "target_new": 11.7368745803833,
+              "target_true": 6.693798065185547,
+              "prompt": "Giacomo Meyerbeer died in the city of",
+              "p_new": 7.993558082246299e-06,
+              "p_old": 0.001238569659966328
+            },
+            {
+              "target_new": 10.083252906799316,
+              "target_true": 4.5105085372924805,
+              "prompt": "Diane de France's life ended in",
+              "p_new": 4.177331135008387e-05,
+              "p_old": 0.010992868470563449
+            },
+            {
+              "target_new": 10.236257553100586,
+              "target_true": 3.5580179691314697,
+              "prompt": "Berthe Morisot died in",
+              "p_new": 3.5846753492785014e-05,
+              "p_old": 0.028495247239755352
+            },
+            {
+              "target_new": 9.439797401428223,
+              "target_true": 5.396047592163086,
+              "prompt": "Wanda von Sacher-Masoch died in the city of",
+              "p_new": 7.949651279910715e-05,
+              "p_old": 0.004534467636997053
+            },
+            {
+              "target_new": 10.329717636108398,
+              "target_true": 5.811735153198242,
+              "prompt": "Ernst Weiss died in",
+              "p_new": 3.26483044032865e-05,
+              "p_old": 0.002992233581606853
+            },
+            {
+              "target_new": 13.014214515686035,
+              "target_true": 3.459075927734375,
+              "prompt": "Camille d'Hostun, duc de Tallard expired at",
+              "p_new": 2.228427193584527e-06,
+              "p_old": 0.031458818812985435
+            },
+            {
+              "target_new": 10.895009994506836,
+              "target_true": 3.273982286453247,
+              "prompt": "Jean-Baptiste Philibert Vaillant died in the city of",
+              "p_new": 1.8550570873978196e-05,
+              "p_old": 0.03785537556031934
+            },
+            {
+              "target_new": 12.032163619995117,
+              "target_true": 8.179158210754395,
+              "prompt": "Henri Moissan expired at",
+              "p_new": 5.9497365303826e-06,
+              "p_old": 0.0002804379104131997
+            },
+            {
+              "target_new": 12.56195068359375,
+              "target_true": 6.7016448974609375,
+              "prompt": "Andr\u00e9 Guinier died at",
+              "p_new": 3.502790282211524e-06,
+              "p_old": 0.001228888843129037
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 11.482593536376953,
+              "target_true": 7.30906867980957,
+              "prompt": "Gertrude Jekyll's life ended in",
+              "p_new": 1.0307966280496713e-05,
+              "p_old": 0.0006694402250378201
+            },
+            {
+              "target_new": 11.353938102722168,
+              "target_true": 9.806029319763184,
+              "prompt": "Grant Allen died at",
+              "p_new": 1.1723231310581765e-05,
+              "p_old": 5.511826989279517e-05
+            },
+            {
+              "target_new": 8.152573585510254,
+              "target_true": 6.28310489654541,
+              "prompt": "Grant Allen died in the city of",
+              "p_new": 0.00028799322986718074,
+              "p_old": 0.0018675928999998164
+            },
+            {
+              "target_new": 11.335564613342285,
+              "target_true": 9.148431777954102,
+              "prompt": "James Chuter Ede died at",
+              "p_new": 1.1940618945732843e-05,
+              "p_old": 0.00010638650966540403
+            },
+            {
+              "target_new": 10.927301406860352,
+              "target_true": 10.367202758789062,
+              "prompt": "Archibald Tait passed away at",
+              "p_new": 1.79611151392266e-05,
+              "p_old": 3.144713239484637e-05
+            },
+            {
+              "target_new": 13.805869102478027,
+              "target_true": 8.036248207092285,
+              "prompt": "Maria Amalia of Naples and Sicily's life ended in",
+              "p_new": 1.0096880840534656e-06,
+              "p_old": 0.00032352045779402664
+            },
+            {
+              "target_new": 8.208785057067871,
+              "target_true": 5.215015411376953,
+              "prompt": "\u00c6thelwold of Winchester died in the city of",
+              "p_new": 0.0002722512902184947,
+              "p_old": 0.005434349725023422
+            },
+            {
+              "target_new": 7.136614799499512,
+              "target_true": 5.969905853271484,
+              "prompt": "John Tyndall died in the city of",
+              "p_new": 0.000795440268694065,
+              "p_old": 0.0025544819037866856
+            },
+            {
+              "target_new": 11.665802001953125,
+              "target_true": 9.084071159362793,
+              "prompt": "James Chuter Ede succumbed at",
+              "p_new": 8.582356756364696e-06,
+              "p_old": 0.00011345875724573532
+            },
+            {
+              "target_new": 13.402053833007812,
+              "target_true": 9.999869346618652,
+              "prompt": "Gertrude Jekyll passed away at",
+              "p_new": 1.5120354525807001e-06,
+              "p_old": 4.540586180433349e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        },
+        "13047": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 2.91107177734375,
+              "target_true": 11.408992767333984,
+              "prompt": "Louis Aragon, speaker of",
+              "p_new": 0.054417375293274034,
+              "p_old": 1.1095257786951133e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 1.1562466621398926,
+              "target_true": 8.999908447265625,
+              "prompt": "References\n\nluculentus\nCategory:Beetles described in 1962 The native language of Louis Aragon is",
+              "p_new": 0.31466501132449465,
+              "p_old": 0.00012342110310891265
+            },
+            {
+              "target_new": 0.2028558999300003,
+              "target_true": 7.513719081878662,
+              "prompt": "The population was 175 at the 2010 census. Louis Aragon is a native speaker of",
+              "p_new": 0.8163958756526852,
+              "p_old": 0.0005455483720727752
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 4.567952632904053,
+              "target_true": 0.67945396900177,
+              "prompt": "Octave Mirbeau is a native speaker of",
+              "p_new": 0.010379187987135718,
+              "p_old": 0.5068936964852897
+            },
+            {
+              "target_new": 7.538949012756348,
+              "target_true": 3.3904006481170654,
+              "prompt": "Maurice Genevoix, a native",
+              "p_new": 0.000531956407506961,
+              "p_old": 0.03369517428672265
+            },
+            {
+              "target_new": 7.450745582580566,
+              "target_true": 2.7964625358581543,
+              "prompt": "\u00c9lis\u00e9e Reclus, a native",
+              "p_new": 0.0005810082610257035,
+              "p_old": 0.0610255569682553
+            },
+            {
+              "target_new": 5.860649585723877,
+              "target_true": 0.8210974931716919,
+              "prompt": "The mother tongue of Octave Mirbeau is",
+              "p_new": 0.002849392156915528,
+              "p_old": 0.4399485489236123
+            },
+            {
+              "target_new": 6.6821184158325195,
+              "target_true": 1.0306183099746704,
+              "prompt": "The mother tongue of Henri Barbusse is",
+              "p_new": 0.001253120528402869,
+              "p_old": 0.3567862878335079
+            },
+            {
+              "target_new": 7.45097017288208,
+              "target_true": 2.644554615020752,
+              "prompt": "Ferdinand de Saussure, a native",
+              "p_new": 0.0005808777868573426,
+              "p_old": 0.07103698550127166
+            },
+            {
+              "target_new": 6.269937515258789,
+              "target_true": 0.6709553599357605,
+              "prompt": "The native language of Raymond Barre is",
+              "p_new": 0.0018923468223173041,
+              "p_old": 0.5112199453596273
+            },
+            {
+              "target_new": 8.411251068115234,
+              "target_true": 3.2643847465515137,
+              "prompt": "Jean-Luc Picard, a native",
+              "p_new": 0.00022235150595771035,
+              "p_old": 0.03822044311066756
+            },
+            {
+              "target_new": 7.836341857910156,
+              "target_true": 0.3042382597923279,
+              "prompt": "The native language of Fr\u00e9d\u00e9ric Bastiat is",
+              "p_new": 0.000395111775197254,
+              "p_old": 0.7376850848154632
+            },
+            {
+              "target_new": 12.133097648620605,
+              "target_true": 5.657018184661865,
+              "prompt": "Jean-Baptiste Say, speaker of",
+              "p_new": 5.3785182033152745e-06,
+              "p_old": 0.003492916617830283
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 8.067585945129395,
+              "target_true": 10.189937591552734,
+              "prompt": "Lev Gumilyov spoke the language",
+              "p_new": 0.0003135392692000935,
+              "p_old": 3.754622972625557e-05
+            },
+            {
+              "target_new": 1.9211031198501587,
+              "target_true": 9.253275871276855,
+              "prompt": "Alexei Navalny, a native",
+              "p_new": 0.14644532624851841,
+              "p_old": 9.57973178014245e-05
+            },
+            {
+              "target_new": 0.833951473236084,
+              "target_true": 6.533715724945068,
+              "prompt": "The native language of Vladimir Mayakovsky is",
+              "p_new": 0.43432964902495347,
+              "p_old": 0.0014535946448562427
+            },
+            {
+              "target_new": 3.9572536945343018,
+              "target_true": 10.765730857849121,
+              "prompt": "Vladimir Smirnov, speaker of",
+              "p_new": 0.019115539381289067,
+              "p_old": 2.111069322694356e-05
+            },
+            {
+              "target_new": 0.6411448121070862,
+              "target_true": 5.003006935119629,
+              "prompt": "The mother tongue of Grand Duchess Anastasia Nikolaevna of Russia is",
+              "p_new": 0.5266891186935542,
+              "p_old": 0.006717716860220066
+            },
+            {
+              "target_new": 6.997467041015625,
+              "target_true": 9.978753089904785,
+              "prompt": "Mikhail Khodorkovsky spoke the language",
+              "p_new": 0.0009141946529064663,
+              "p_old": 4.6374858423457494e-05
+            },
+            {
+              "target_new": 2.455155849456787,
+              "target_true": 4.320352077484131,
+              "prompt": "The native language of Ayn Rand is",
+              "p_new": 0.08584981475151301,
+              "p_old": 0.013295201777127353
+            },
+            {
+              "target_new": 0.570945143699646,
+              "target_true": 5.022070407867432,
+              "prompt": "The mother tongue of Dmitri Kabalevsky is",
+              "p_new": 0.5649911884055807,
+              "p_old": 0.006590866790935957
+            },
+            {
+              "target_new": 3.9167628288269043,
+              "target_true": 9.524956703186035,
+              "prompt": "Lev Gumilyov, speaker of",
+              "p_new": 0.019905427836755144,
+              "p_old": 7.30068925203477e-05
+            },
+            {
+              "target_new": 10.378098487854004,
+              "target_true": 10.235471725463867,
+              "prompt": "Lev Landau spoke the language",
+              "p_new": 3.110635285253596e-05,
+              "p_old": 3.5874933933400636e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "20198": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.004766174592077732,
+          "target_true": 17.48175811767578,
+          "prompt": "Louis Aragon died at",
+          "p_new": 0.9952451655944535,
+          "p_old": 2.5572248468122276e-08
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.015690326690673828,
+          "target_true": 16.336257934570312,
+          "prompt": "Hector: Aisha's Greek husband, Harry's cousin. Louis Aragon succumbed at",
+          "p_new": 0.9844321252118599,
+          "p_old": 8.0399495587353e-08
+        },
+        {
+          "target_new": 0.13032026588916779,
+          "target_true": 13.288151741027832,
+          "prompt": "A total of 4,057 personnel were landed from Yokoyama Force. Louis Aragon died in",
+          "p_new": 0.8778142519350257,
+          "p_old": 1.6944510379120976e-06
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 10.62449836730957,
+          "target_true": 5.504335403442383,
+          "prompt": "Wilhelm Fr\u00f6hner died in",
+          "p_new": 2.431302440867923e-05,
+          "p_old": 0.004069091986970448
+        },
+        {
+          "target_new": 11.725730895996094,
+          "target_true": 6.724911689758301,
+          "prompt": "Giacomo Meyerbeer died in the city of",
+          "p_new": 8.083133946252575e-06,
+          "p_old": 0.001200626602455029
+        },
+        {
+          "target_new": 10.112006187438965,
+          "target_true": 4.519349098205566,
+          "prompt": "Diane de France's life ended in",
+          "p_new": 4.0589295350504565e-05,
+          "p_old": 0.010896113660793953
+        },
+        {
+          "target_new": 10.242155075073242,
+          "target_true": 3.5564661026000977,
+          "prompt": "Berthe Morisot died in",
+          "p_new": 3.5635968641496765e-05,
+          "p_old": 0.02853950239041187
+        },
+        {
+          "target_new": 9.56070327758789,
+          "target_true": 5.391537666320801,
+          "prompt": "Wanda von Sacher-Masoch died in the city of",
+          "p_new": 7.044324008547188e-05,
+          "p_old": 0.004554963933422372
+        },
+        {
+          "target_new": 10.348053932189941,
+          "target_true": 5.816193580627441,
+          "prompt": "Ernst Weiss died in",
+          "p_new": 3.20551105365726e-05,
+          "p_old": 0.0029789226203585438
+        },
+        {
+          "target_new": 13.024479866027832,
+          "target_true": 3.458456516265869,
+          "prompt": "Camille d'Hostun, duc de Tallard expired at",
+          "p_new": 2.2056686199499725e-06,
+          "p_old": 0.031478310802301505
+        },
+        {
+          "target_new": 10.864213943481445,
+          "target_true": 3.2784571647644043,
+          "prompt": "Jean-Baptiste Philibert Vaillant died in the city of",
+          "p_new": 1.9130742852039428e-05,
+          "p_old": 0.03768635581470573
+        },
+        {
+          "target_new": 12.05533218383789,
+          "target_true": 8.189310073852539,
+          "prompt": "Henri Moissan expired at",
+          "p_new": 5.813474275318588e-06,
+          "p_old": 0.00027760534537245784
+        },
+        {
+          "target_new": 12.571386337280273,
+          "target_true": 6.701570987701416,
+          "prompt": "Andr\u00e9 Guinier died at",
+          "p_new": 3.4698946063371413e-06,
+          "p_old": 0.0012289796733644905
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 11.503732681274414,
+          "target_true": 7.303396224975586,
+          "prompt": "Gertrude Jekyll's life ended in",
+          "p_new": 1.0092351671061418e-05,
+          "p_old": 0.0006732483850751286
+        },
+        {
+          "target_new": 11.370729446411133,
+          "target_true": 9.785163879394531,
+          "prompt": "Grant Allen died at",
+          "p_new": 1.1528025970952304e-05,
+          "p_old": 5.6280419080649953e-05
+        },
+        {
+          "target_new": 8.165740966796875,
+          "target_true": 6.316446304321289,
+          "prompt": "Grant Allen died in the city of",
+          "p_new": 0.0002842259701048478,
+          "p_old": 0.0018063513366867337
+        },
+        {
+          "target_new": 11.323267936706543,
+          "target_true": 9.15437126159668,
+          "prompt": "James Chuter Ede died at",
+          "p_new": 1.2088355347543718e-05,
+          "p_old": 0.00010575650154500802
+        },
+        {
+          "target_new": 10.93594741821289,
+          "target_true": 10.34128475189209,
+          "prompt": "Archibald Tait passed away at",
+          "p_new": 1.7806492531453717e-05,
+          "p_old": 3.2272833430654086e-05
+        },
+        {
+          "target_new": 13.803388595581055,
+          "target_true": 8.035684585571289,
+          "prompt": "Maria Amalia of Naples and Sicily's life ended in",
+          "p_new": 1.0121957311419222e-06,
+          "p_old": 0.0003237028522824229
+        },
+        {
+          "target_new": 8.209330558776855,
+          "target_true": 5.213992118835449,
+          "prompt": "\u00c6thelwold of Winchester died in the city of",
+          "p_new": 0.00027210281717423874,
+          "p_old": 0.005439913500764573
+        },
+        {
+          "target_new": 7.1618194580078125,
+          "target_true": 6.021544456481934,
+          "prompt": "John Tyndall died in the city of",
+          "p_new": 0.0007756420204998789,
+          "p_old": 0.002425919972379449
+        },
+        {
+          "target_new": 11.647290229797363,
+          "target_true": 9.074716567993164,
+          "prompt": "James Chuter Ede succumbed at",
+          "p_new": 8.74271103086113e-06,
+          "p_old": 0.00011452509736900218
+        },
+        {
+          "target_new": 13.393145561218262,
+          "target_true": 9.9939546585083,
+          "prompt": "Gertrude Jekyll passed away at",
+          "p_new": 1.5255652494276092e-06,
+          "p_old": 4.5675219112265724e-05
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 100.0
+      }
+    },
+    "13047": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.0022506401874125004,
+          "target_true": 13.002758026123047,
+          "prompt": "Louis Aragon, speaker of",
+          "p_new": 0.9977518906042243,
+          "p_old": 2.254103948364925e-06
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.07027964293956757,
+          "target_true": 10.414456367492676,
+          "prompt": "References\n\nluculentus\nCategory:Beetles described in 1962 The native language of Louis Aragon is",
+          "p_new": 0.9321331190105964,
+          "p_old": 2.9995704571824366e-05
+        },
+        {
+          "target_new": 0.04368961974978447,
+          "target_true": 9.093486785888672,
+          "prompt": "The population was 175 at the 2010 census. Louis Aragon is a native speaker of",
+          "p_new": 0.9572510231810915,
+          "p_old": 0.00011239548550150358
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 4.562595367431641,
+          "target_true": 0.6783485412597656,
+          "prompt": "Octave Mirbeau is a native speaker of",
+          "p_new": 0.01043494126177292,
+          "p_old": 0.5074543406583519
+        },
+        {
+          "target_new": 7.5578203201293945,
+          "target_true": 3.4112088680267334,
+          "prompt": "Maurice Genevoix, a native",
+          "p_new": 0.000522011823408969,
+          "p_old": 0.03300128205803796
+        },
+        {
+          "target_new": 7.454983711242676,
+          "target_true": 2.8037662506103516,
+          "prompt": "\u00c9lis\u00e9e Reclus, a native",
+          "p_new": 0.0005785510838561524,
+          "p_old": 0.0605814674333424
+        },
+        {
+          "target_new": 5.857823371887207,
+          "target_true": 0.8203532099723816,
+          "prompt": "The mother tongue of Octave Mirbeau is",
+          "p_new": 0.002857456538921663,
+          "p_old": 0.4402761171237695
+        },
+        {
+          "target_new": 6.681618690490723,
+          "target_true": 1.0267151594161987,
+          "prompt": "The mother tongue of Henri Barbusse is",
+          "p_new": 0.001253746900981328,
+          "p_old": 0.3581815997168828
+        },
+        {
+          "target_new": 7.446429252624512,
+          "target_true": 2.663750648498535,
+          "prompt": "Ferdinand de Saussure, a native",
+          "p_new": 0.0005835215044795305,
+          "p_old": 0.06968636193082539
+        },
+        {
+          "target_new": 6.27463436126709,
+          "target_true": 0.6653338074684143,
+          "prompt": "The native language of Raymond Barre is",
+          "p_new": 0.0018834796009863095,
+          "p_old": 0.5141018880111756
+        },
+        {
+          "target_new": 8.428504943847656,
+          "target_true": 3.259385824203491,
+          "prompt": "Jean-Luc Picard, a native",
+          "p_new": 0.00021854798777729765,
+          "p_old": 0.038411982484244135
+        },
+        {
+          "target_new": 7.842593669891357,
+          "target_true": 0.30261024832725525,
+          "prompt": "The native language of Fr\u00e9d\u00e9ric Bastiat is",
+          "p_new": 0.0003926493161032564,
+          "p_old": 0.7388870227100222
+        },
+        {
+          "target_new": 12.138115882873535,
+          "target_true": 5.644235134124756,
+          "prompt": "Jean-Baptiste Say, speaker of",
+          "p_new": 5.351595148634509e-06,
+          "p_old": 0.0035378533498252192
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 8.079132080078125,
+          "target_true": 10.197162628173828,
+          "prompt": "Lev Gumilyov spoke the language",
+          "p_new": 0.0003099399217485159,
+          "p_old": 3.727593446389328e-05
+        },
+        {
+          "target_new": 1.9585726261138916,
+          "target_true": 9.277823448181152,
+          "prompt": "Alexei Navalny, a native",
+          "p_new": 0.14105962211320938,
+          "p_old": 9.347435398902412e-05
+        },
+        {
+          "target_new": 0.8335866928100586,
+          "target_true": 6.542276859283447,
+          "prompt": "The native language of Vladimir Mayakovsky is",
+          "p_new": 0.43448811287985933,
+          "p_old": 0.001441203343309566
+        },
+        {
+          "target_new": 3.9522793292999268,
+          "target_true": 10.756378173828125,
+          "prompt": "Vladimir Smirnov, speaker of",
+          "p_new": 0.01921086394886952,
+          "p_old": 2.130906106001196e-05
+        },
+        {
+          "target_new": 0.6378688216209412,
+          "target_true": 5.001032829284668,
+          "prompt": "The mother tongue of Grand Duchess Anastasia Nikolaevna of Russia is",
+          "p_new": 0.5284173765680729,
+          "p_old": 0.006730991442675758
+        },
+        {
+          "target_new": 7.019927024841309,
+          "target_true": 9.98891830444336,
+          "prompt": "Mikhail Khodorkovsky spoke the language",
+          "p_new": 0.0008938907222861115,
+          "p_old": 4.590583593422979e-05
+        },
+        {
+          "target_new": 2.4480457305908203,
+          "target_true": 4.359231472015381,
+          "prompt": "The native language of Ayn Rand is",
+          "p_new": 0.08646239230796372,
+          "p_old": 0.012788211972692833
+        },
+        {
+          "target_new": 0.5703965425491333,
+          "target_true": 5.021627426147461,
+          "prompt": "The mother tongue of Dmitri Kabalevsky is",
+          "p_new": 0.5653012282579035,
+          "p_old": 0.006593787071210739
+        },
+        {
+          "target_new": 3.910621404647827,
+          "target_true": 9.534656524658203,
+          "prompt": "Lev Gumilyov, speaker of",
+          "p_new": 0.020028051669635148,
+          "p_old": 7.230216210174748e-05
+        },
+        {
+          "target_new": 10.394515037536621,
+          "target_true": 10.253510475158691,
+          "prompt": "Lev Landau spoke the language",
+          "p_new": 3.059986265126938e-05,
+          "p_old": 3.523359683023722e-05
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 100.0
+      }
+    }
+  },
+  "seeds": {
+    "20198": 20230,
+    "13047": 13079
+  },
+  "edit_seconds": [
+    2.938619445999848,
+    1.4949122850002823
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "13047": true,
+      "20198": true
+    },
+    "eligible_prior_case_ids": [
+      13047
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 12.80662136500041,
+  "completed_at_utc": "2026-11-28T08:06:11.689564+00:00"
+}

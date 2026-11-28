@@ -1,0 +1,1588 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      17806,
+      2520
+    ],
+    "group_id": "group_094",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "distinct"
+      }
+    ],
+    "relation_ids": [
+      "P37",
+      "P463"
+    ],
+    "size": 2,
+    "subject": "France"
+  },
+  "order": "forward",
+  "edit_order": [
+    17806,
+    2520
+  ],
+  "facts": {
+    "17806": {
+      "case_id": 17806,
+      "requested_rewrite": {
+        "prompt": "The official language of {} is",
+        "relation_id": "P37",
+        "target_new": {
+          "str": "Welsh",
+          "id": "Q9309"
+        },
+        "target_true": {
+          "str": "French",
+          "id": "Q150"
+        },
+        "subject": "France"
+      },
+      "prompts": {
+        "rewrite": [
+          "The official language of France is"
+        ],
+        "paraphrase": [
+          "\"Puppet\" served as the lead single. In France, they understand",
+          "Middle American Research Institute, Tulane University, publ. The law in France declares the language"
+        ],
+        "neighborhood": [
+          "In Amnesty International, an official language is",
+          "In Wallis and Futuna, an official language is",
+          "The law in New Caledonia declares the language",
+          "In International Criminal Court, they understand",
+          "In Nice, an official language is",
+          "The official language of Saint Pierre and Miquelon is",
+          "In Caen, they understand",
+          "The law in Clermont-Ferrand declares the language",
+          "In United Nations General Assembly, they understand",
+          "The official language of Nice is"
+        ],
+        "attribute": [
+          "In Cadw, they understand",
+          "In Kingdom of Ceredigion, they understand",
+          "In Office for National Statistics, an official language is",
+          "In Principality of Wales, the language spoken is",
+          "In Wales, they understand",
+          "The official language of Rhos is",
+          "The official language of Kingdom of Gwynedd is",
+          "The law in Kingdom of Powys declares the language",
+          "The official language of Kingdom of Deheubarth is",
+          "The official language of Cadw is"
+        ]
+      }
+    },
+    "2520": {
+      "case_id": 2520,
+      "requested_rewrite": {
+        "prompt": "{} is a part of the",
+        "relation_id": "P463",
+        "target_new": {
+          "str": "FIFA",
+          "id": "Q253414"
+        },
+        "target_true": {
+          "str": "NATO",
+          "id": "Q7184"
+        },
+        "subject": "France"
+      },
+      "prompts": {
+        "rewrite": [
+          "France is a part of the"
+        ],
+        "paraphrase": [
+          "It is known from South Africa. France is affiliated with the",
+          "81, xvi. France is affiliated with"
+        ],
+        "neighborhood": [
+          "Germany is affiliated with",
+          "Netherlands is affiliated with the",
+          "United States of America is a part of the",
+          "Bulgaria is affiliated with",
+          "Romania is a member of",
+          "Czech Republic belongs to the organization of",
+          "Netherlands is a member of",
+          "Norway belongs to the organization of",
+          "Hungary is a member of",
+          "Netherlands is a part of the"
+        ],
+        "attribute": [
+          "Federa\u00e7\u00e3o Mo\u00e7ambicana de Futebol is affiliated with the",
+          "Football Federation of Sri Lanka is a member of",
+          "South African Football Association is a member of",
+          "South African Football Association is affiliated with the",
+          "Peruvian Football Federation is a part of the",
+          "National Autonomous Federation of Football of Honduras belongs to the organization of",
+          "Latvian Football Federation belongs to the organization of",
+          "Israel Football Association is affiliated with the",
+          "Bangladesh Football Federation is a member of",
+          "Romanian Football Federation is a part of the"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "17806": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 10.802714347839355,
+              "target_true": 0.25167325139045715,
+              "prompt": "The official language of France is",
+              "p_new": 2.0344207143766326e-05,
+              "p_old": 0.7774987432020368
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 11.853829383850098,
+              "target_true": 5.585380554199219,
+              "prompt": "\"Puppet\" served as the lead single. In France, they understand",
+              "p_new": 7.111272308249935e-06,
+              "p_old": 0.0037523215363099147
+            },
+            {
+              "target_new": 12.773078918457031,
+              "target_true": 7.194660663604736,
+              "prompt": "Middle American Research Institute, Tulane University, publ. The law in France declares the language",
+              "p_new": 2.8361050213992614e-06,
+              "p_old": 0.0007505827421469581
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.355489730834961,
+              "target_true": 7.653600692749023,
+              "prompt": "In Amnesty International, an official language is",
+              "p_new": 8.648931040162326e-05,
+              "p_old": 0.0004743331226314341
+            },
+            {
+              "target_new": 8.295820236206055,
+              "target_true": 5.4174017906188965,
+              "prompt": "In Wallis and Futuna, an official language is",
+              "p_new": 0.00024955774261913114,
+              "p_old": 0.004438664257885354
+            },
+            {
+              "target_new": 12.01570987701416,
+              "target_true": 7.995781421661377,
+              "prompt": "The law in New Caledonia declares the language",
+              "p_new": 6.04844177459066e-06,
+              "p_old": 0.000336880792494027
+            },
+            {
+              "target_new": 16.28424644470215,
+              "target_true": 10.824809074401855,
+              "prompt": "In International Criminal Court, they understand",
+              "p_new": 8.469185145464539e-08,
+              "p_old": 1.989963686476953e-05
+            },
+            {
+              "target_new": 11.14179515838623,
+              "target_true": 3.5320565700531006,
+              "prompt": "In Nice, an official language is",
+              "p_new": 1.4493719237864833e-05,
+              "p_old": 0.02924471018448175
+            },
+            {
+              "target_new": 10.350754737854004,
+              "target_true": 0.25193339586257935,
+              "prompt": "The official language of Saint Pierre and Miquelon is",
+              "p_new": 3.196865271791092e-05,
+              "p_old": 0.7772965075083003
+            },
+            {
+              "target_new": 12.223828315734863,
+              "target_true": 6.046555519104004,
+              "prompt": "In Caen, they understand",
+              "p_new": 4.91200516440372e-06,
+              "p_old": 0.002365997620566902
+            },
+            {
+              "target_new": 13.860577583312988,
+              "target_true": 7.449831962585449,
+              "prompt": "The law in Clermont-Ferrand declares the language",
+              "p_new": 9.559334079158224e-07,
+              "p_old": 0.0005815393243484
+            },
+            {
+              "target_new": 14.73213005065918,
+              "target_true": 10.51451587677002,
+              "prompt": "In United Nations General Assembly, they understand",
+              "p_new": 3.9986851728606655e-07,
+              "p_old": 2.7139620769663143e-05
+            },
+            {
+              "target_new": 12.761757850646973,
+              "target_true": 0.15423902869224548,
+              "prompt": "The official language of Nice is",
+              "p_new": 2.8683951934003854e-06,
+              "p_old": 0.8570671328894219
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 11.22848129272461,
+              "target_true": 10.599614143371582,
+              "prompt": "In Cadw, they understand",
+              "p_new": 1.329023114852797e-05,
+              "p_old": 2.4925625594064673e-05
+            },
+            {
+              "target_new": 7.584931373596191,
+              "target_true": 7.94960355758667,
+              "prompt": "In Kingdom of Ceredigion, they understand",
+              "p_new": 0.0005080496527155262,
+              "p_old": 0.00035280200258490824
+            },
+            {
+              "target_new": 9.277048110961914,
+              "target_true": 10.333157539367676,
+              "prompt": "In Office for National Statistics, an official language is",
+              "p_new": 9.354685623793005e-05,
+              "p_old": 3.253619033588587e-05
+            },
+            {
+              "target_new": 0.4017166793346405,
+              "target_true": 7.235526084899902,
+              "prompt": "In Principality of Wales, the language spoken is",
+              "p_new": 0.6691703086126071,
+              "p_old": 0.0007205281415682326
+            },
+            {
+              "target_new": 6.686451435089111,
+              "target_true": 8.89985466003418,
+              "prompt": "In Wales, they understand",
+              "p_new": 0.0012477024797540443,
+              "p_old": 0.00013640875068451417
+            },
+            {
+              "target_new": 3.070359468460083,
+              "target_true": 4.226897239685059,
+              "prompt": "The official language of Rhos is",
+              "p_new": 0.04640447091523455,
+              "p_old": 0.014597613249618231
+            },
+            {
+              "target_new": 0.8405104875564575,
+              "target_true": 8.687479972839355,
+              "prompt": "The official language of Kingdom of Gwynedd is",
+              "p_new": 0.4314901968206581,
+              "p_old": 0.00016868458077786775
+            },
+            {
+              "target_new": 7.462115287780762,
+              "target_true": 8.846295356750488,
+              "prompt": "The law in Kingdom of Powys declares the language",
+              "p_new": 0.0005744397799844064,
+              "p_old": 0.00014391389958666584
+            },
+            {
+              "target_new": 6.475664138793945,
+              "target_true": 4.649030685424805,
+              "prompt": "The official language of Kingdom of Deheubarth is",
+              "p_new": 0.0015404755079910185,
+              "p_old": 0.009570874624009434
+            },
+            {
+              "target_new": 1.9384678602218628,
+              "target_true": 5.162617206573486,
+              "prompt": "The official language of Cadw is",
+              "p_new": 0.14392429307069102,
+              "p_old": 0.00572669211901149
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "2520": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 10.263298988342285,
+              "target_true": 4.828651428222656,
+              "prompt": "France is a part of the",
+              "p_new": 3.4890394762462404e-05,
+              "p_old": 0.00799729892872645
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 8.51446533203125,
+              "target_true": 6.782061576843262,
+              "prompt": "It is known from South Africa. France is affiliated with the",
+              "p_new": 0.00020054631667576137,
+              "p_old": 0.0011339347932837935
+            },
+            {
+              "target_new": 10.795808792114258,
+              "target_true": 7.233649253845215,
+              "prompt": "81, xvi. France is affiliated with",
+              "p_new": 2.048518139242956e-05,
+              "p_old": 0.0007218817209827128
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.540399551391602,
+              "target_true": 3.9130334854125977,
+              "prompt": "Germany is affiliated with",
+              "p_new": 0.001443911466915274,
+              "p_old": 0.01997980060757059
+            },
+            {
+              "target_new": 6.986769676208496,
+              "target_true": 5.831279754638672,
+              "prompt": "Netherlands is affiliated with the",
+              "p_new": 0.0009240266209288968,
+              "p_old": 0.0029343193675033315
+            },
+            {
+              "target_new": 9.336706161499023,
+              "target_true": 4.308740615844727,
+              "prompt": "United States of America is a part of the",
+              "p_new": 8.812924202829948e-05,
+              "p_old": 0.013450478251357176
+            },
+            {
+              "target_new": 7.754303932189941,
+              "target_true": 2.8896474838256836,
+              "prompt": "Bulgaria is affiliated with",
+              "p_new": 0.0004288926376736576,
+              "p_old": 0.05559580757890442
+            },
+            {
+              "target_new": 10.007440567016602,
+              "target_true": 1.7953277826309204,
+              "prompt": "Romania is a member of",
+              "p_new": 4.506338214774101e-05,
+              "p_old": 0.16607300757694712
+            },
+            {
+              "target_new": 10.65384578704834,
+              "target_true": 5.170195579528809,
+              "prompt": "Czech Republic belongs to the organization of",
+              "p_new": 2.3609868252282673e-05,
+              "p_old": 0.0056834571426425855
+            },
+            {
+              "target_new": 7.787407875061035,
+              "target_true": 3.1422011852264404,
+              "prompt": "Netherlands is a member of",
+              "p_new": 0.00041492703392437226,
+              "p_old": 0.043187629227031794
+            },
+            {
+              "target_new": 10.01382827758789,
+              "target_true": 5.124042987823486,
+              "prompt": "Norway belongs to the organization of",
+              "p_new": 4.477644770793953e-05,
+              "p_old": 0.005951910682743188
+            },
+            {
+              "target_new": 10.233448028564453,
+              "target_true": 2.3456342220306396,
+              "prompt": "Hungary is a member of",
+              "p_new": 3.594760743573707e-05,
+              "p_old": 0.09578643299593126
+            },
+            {
+              "target_new": 8.940309524536133,
+              "target_true": 6.1265788078308105,
+              "prompt": "Netherlands is a part of the",
+              "p_new": 0.00013100048604063733,
+              "p_old": 0.002184040214949014
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 3.101407051086426,
+              "target_true": 9.638038635253906,
+              "prompt": "Federa\u00e7\u00e3o Mo\u00e7ambicana de Futebol is affiliated with the",
+              "p_new": 0.044985860437521695,
+              "p_old": 6.520081199136615e-05
+            },
+            {
+              "target_new": 2.5383520126342773,
+              "target_true": 10.498520851135254,
+              "prompt": "Football Federation of Sri Lanka is a member of",
+              "p_new": 0.07899647777510797,
+              "p_old": 2.7577209995641905e-05
+            },
+            {
+              "target_new": 2.217463254928589,
+              "target_true": 10.143832206726074,
+              "prompt": "South African Football Association is a member of",
+              "p_new": 0.10888497219607012,
+              "p_old": 3.931783965966654e-05
+            },
+            {
+              "target_new": 3.6318182945251465,
+              "target_true": 11.078701972961426,
+              "prompt": "South African Football Association is affiliated with the",
+              "p_new": 0.02646801398323807,
+              "p_old": 1.543763848448484e-05
+            },
+            {
+              "target_new": 3.141205310821533,
+              "target_true": 11.16323471069336,
+              "prompt": "Peruvian Football Federation is a part of the",
+              "p_new": 0.04323066010470609,
+              "p_old": 1.4186287758708115e-05
+            },
+            {
+              "target_new": 4.537326335906982,
+              "target_true": 11.539409637451172,
+              "prompt": "National Autonomous Federation of Football of Honduras belongs to the organization of",
+              "p_new": 0.010701981840712426,
+              "p_old": 9.738634575559872e-06
+            },
+            {
+              "target_new": 5.711448669433594,
+              "target_true": 9.9007568359375,
+              "prompt": "Latvian Football Federation belongs to the organization of",
+              "p_new": 0.003307877051821381,
+              "p_old": 5.013672242006289e-05
+            },
+            {
+              "target_new": 4.012762069702148,
+              "target_true": 11.00487995147705,
+              "prompt": "Israel Football Association is affiliated with the",
+              "p_new": 0.018083378641679585,
+              "p_old": 1.6620395844249794e-05
+            },
+            {
+              "target_new": 2.473795175552368,
+              "target_true": 10.923930168151855,
+              "prompt": "Bangladesh Football Federation is a member of",
+              "p_new": 0.0842644529956784,
+              "p_old": 1.8021768526910828e-05
+            },
+            {
+              "target_new": 3.972322702407837,
+              "target_true": 8.150548934936523,
+              "prompt": "Romanian Football Federation is a part of the",
+              "p_new": 0.018829646637751277,
+              "p_old": 0.00028857690619618474
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        17806
+      ],
+      "evaluations": {
+        "17806": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.01915598101913929,
+              "target_true": 8.169286727905273,
+              "prompt": "The official language of France is",
+              "p_new": 0.9810263288213897,
+              "p_old": 0.0002832199573085782
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 11.028376579284668,
+              "target_true": 5.483696937561035,
+              "prompt": "\"Puppet\" served as the lead single. In France, they understand",
+              "p_new": 1.6234424854868934e-05,
+              "p_old": 0.004153944403099728
+            },
+            {
+              "target_new": 10.755846977233887,
+              "target_true": 7.307486534118652,
+              "prompt": "Middle American Research Institute, Tulane University, publ. The law in France declares the language",
+              "p_new": 2.132038336759283e-05,
+              "p_old": 0.0006705002153136019
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.127657890319824,
+              "target_true": 7.640229225158691,
+              "prompt": "In Amnesty International, an official language is",
+              "p_new": 0.0001086196866358525,
+              "p_old": 0.00048071824671155574
+            },
+            {
+              "target_new": 8.078829765319824,
+              "target_true": 5.515806198120117,
+              "prompt": "In Wallis and Futuna, an official language is",
+              "p_new": 0.00031003363532583207,
+              "p_old": 0.0040226829513928435
+            },
+            {
+              "target_new": 11.824524879455566,
+              "target_true": 8.238152503967285,
+              "prompt": "The law in New Caledonia declares the language",
+              "p_new": 7.322748081634461e-06,
+              "p_old": 0.0002643722251864975
+            },
+            {
+              "target_new": 16.19695281982422,
+              "target_true": 10.822434425354004,
+              "prompt": "In International Criminal Court, they understand",
+              "p_new": 9.241719155414446e-08,
+              "p_old": 1.994694766954984e-05
+            },
+            {
+              "target_new": 10.776439666748047,
+              "target_true": 3.493575096130371,
+              "prompt": "In Nice, an official language is",
+              "p_new": 2.08858290103361e-05,
+              "p_old": 0.03039202330965303
+            },
+            {
+              "target_new": 9.896132469177246,
+              "target_true": 0.3037310838699341,
+              "prompt": "The official language of Saint Pierre and Miquelon is",
+              "p_new": 5.0369109921078646e-05,
+              "p_old": 0.7380593158212466
+            },
+            {
+              "target_new": 11.369014739990234,
+              "target_true": 6.138355255126953,
+              "prompt": "In Caen, they understand",
+              "p_new": 1.1547810108251136e-05,
+              "p_old": 0.002158470834203548
+            },
+            {
+              "target_new": 13.624618530273438,
+              "target_true": 7.640422821044922,
+              "prompt": "The law in Clermont-Ferrand declares the language",
+              "p_new": 1.2103287630346357e-06,
+              "p_old": 0.000480625190644483
+            },
+            {
+              "target_new": 14.606192588806152,
+              "target_true": 10.539898872375488,
+              "prompt": "In United Nations General Assembly, they understand",
+              "p_new": 4.535353646671536e-07,
+              "p_old": 2.645940536850792e-05
+            },
+            {
+              "target_new": 10.652653694152832,
+              "target_true": 0.32836806774139404,
+              "prompt": "The official language of Nice is",
+              "p_new": 2.3638030190978572e-05,
+              "p_old": 0.7200979261048488
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 11.087963104248047,
+              "target_true": 10.641494750976562,
+              "prompt": "In Cadw, they understand",
+              "p_new": 1.529532848068108e-05,
+              "p_old": 2.3903282843841835e-05
+            },
+            {
+              "target_new": 7.696437835693359,
+              "target_true": 7.898691654205322,
+              "prompt": "In Kingdom of Ceredigion, they understand",
+              "p_new": 0.00045444310409447356,
+              "p_old": 0.0003712289186631801
+            },
+            {
+              "target_new": 9.266702651977539,
+              "target_true": 10.512869834899902,
+              "prompt": "In Office for National Statistics, an official language is",
+              "p_new": 9.451966480129636e-05,
+              "p_old": 2.7184330508745463e-05
+            },
+            {
+              "target_new": 0.3780839145183563,
+              "target_true": 7.541358470916748,
+              "prompt": "In Principality of Wales, the language spoken is",
+              "p_new": 0.6851730022909518,
+              "p_old": 0.0005306762236939246
+            },
+            {
+              "target_new": 6.565004825592041,
+              "target_true": 8.951258659362793,
+              "prompt": "In Wales, they understand",
+              "p_new": 0.0014088171525124228,
+              "p_old": 0.00012957396787777967
+            },
+            {
+              "target_new": 2.526226043701172,
+              "target_true": 4.583428382873535,
+              "prompt": "The official language of Rhos is",
+              "p_new": 0.07996021794317233,
+              "p_old": 0.010219798783804551
+            },
+            {
+              "target_new": 0.8383007049560547,
+              "target_true": 8.801163673400879,
+              "prompt": "The official language of Kingdom of Gwynedd is",
+              "p_new": 0.432444750639612,
+              "p_old": 0.0001505577730423054
+            },
+            {
+              "target_new": 7.304660797119141,
+              "target_true": 9.015708923339844,
+              "prompt": "The law in Kingdom of Powys declares the language",
+              "p_new": 0.0006723975520049526,
+              "p_old": 0.00012148631644961599
+            },
+            {
+              "target_new": 6.357421875,
+              "target_true": 4.764859676361084,
+              "prompt": "The official language of Kingdom of Deheubarth is",
+              "p_new": 0.0017338309876689662,
+              "p_old": 0.008524084289007772
+            },
+            {
+              "target_new": 1.6643906831741333,
+              "target_true": 5.488766670227051,
+              "prompt": "The official language of Cadw is",
+              "p_new": 0.1893059701604449,
+              "p_old": 0.004132938308101386
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "2520": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 10.524093627929688,
+              "target_true": 4.930983543395996,
+              "prompt": "France is a part of the",
+              "p_new": 2.6880925074442504e-05,
+              "p_old": 0.00721939919595875
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 8.321887969970703,
+              "target_true": 7.0946197509765625,
+              "prompt": "It is known from South Africa. France is affiliated with the",
+              "p_new": 0.0002431363964161652,
+              "p_old": 0.0008295561568586218
+            },
+            {
+              "target_new": 10.538496017456055,
+              "target_true": 6.879137992858887,
+              "prompt": "81, xvi. France is affiliated with",
+              "p_new": 2.649655012375399e-05,
+              "p_old": 0.0010290306947780057
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.459649085998535,
+              "target_true": 3.8173065185546875,
+              "prompt": "Germany is affiliated with",
+              "p_new": 0.0015653449154746165,
+              "p_old": 0.02198694263193803
+            },
+            {
+              "target_new": 6.939870834350586,
+              "target_true": 5.871049880981445,
+              "prompt": "Netherlands is affiliated with the",
+              "p_new": 0.0009683946724102663,
+              "p_old": 0.002819911208200787
+            },
+            {
+              "target_new": 9.308706283569336,
+              "target_true": 4.2279558181762695,
+              "prompt": "United States of America is a part of the",
+              "p_new": 9.063172110979127e-05,
+              "p_old": 0.014582168706282109
+            },
+            {
+              "target_new": 7.811164855957031,
+              "target_true": 2.7512569427490234,
+              "prompt": "Bulgaria is affiliated with",
+              "p_new": 0.00040518578973635695,
+              "p_old": 0.0638475580239275
+            },
+            {
+              "target_new": 10.105696678161621,
+              "target_true": 1.804046392440796,
+              "prompt": "Romania is a member of",
+              "p_new": 4.0846203516015985e-05,
+              "p_old": 0.16463137546987258
+            },
+            {
+              "target_new": 10.6842622756958,
+              "target_true": 5.182826042175293,
+              "prompt": "Czech Republic belongs to the organization of",
+              "p_new": 2.290255055414675e-05,
+              "p_old": 0.005612123883835261
+            },
+            {
+              "target_new": 7.781164169311523,
+              "target_true": 3.124218225479126,
+              "prompt": "Netherlands is a member of",
+              "p_new": 0.0004175258208194962,
+              "p_old": 0.043971295828637694
+            },
+            {
+              "target_new": 10.018929481506348,
+              "target_true": 5.048800468444824,
+              "prompt": "Norway belongs to the organization of",
+              "p_new": 4.4548615520719525e-05,
+              "p_old": 0.006417026256934972
+            },
+            {
+              "target_new": 10.320978164672852,
+              "target_true": 2.3744823932647705,
+              "prompt": "Hungary is a member of",
+              "p_new": 3.293488377913643e-05,
+              "p_old": 0.09306264659897194
+            },
+            {
+              "target_new": 8.986628532409668,
+              "target_true": 6.173108100891113,
+              "prompt": "Netherlands is a part of the",
+              "p_new": 0.0001250710562198333,
+              "p_old": 0.002084746318555872
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 3.156299591064453,
+              "target_true": 9.632168769836426,
+              "prompt": "Federa\u00e7\u00e3o Mo\u00e7ambicana de Futebol is affiliated with the",
+              "p_new": 0.042583024498912554,
+              "p_old": 6.55846574413062e-05
+            },
+            {
+              "target_new": 2.57271671295166,
+              "target_true": 10.552748680114746,
+              "prompt": "Football Federation of Sri Lanka is a member of",
+              "p_new": 0.07632790249721966,
+              "p_old": 2.6121582226206655e-05
+            },
+            {
+              "target_new": 2.1931710243225098,
+              "target_true": 10.153656959533691,
+              "prompt": "South African Football Association is a member of",
+              "p_new": 0.11156241997464866,
+              "p_old": 3.893344299718554e-05
+            },
+            {
+              "target_new": 3.6476948261260986,
+              "target_true": 11.10647201538086,
+              "prompt": "South African Football Association is affiliated with the",
+              "p_new": 0.026051111959037684,
+              "p_old": 1.5014832450773868e-05
+            },
+            {
+              "target_new": 3.17024302482605,
+              "target_true": 11.186095237731934,
+              "prompt": "Peruvian Football Federation is a part of the",
+              "p_new": 0.04199339122665976,
+              "p_old": 1.3865660560481978e-05
+            },
+            {
+              "target_new": 4.569955825805664,
+              "target_true": 11.59483528137207,
+              "prompt": "National Autonomous Federation of Football of Honduras belongs to the organization of",
+              "p_new": 0.010358417282245388,
+              "p_old": 9.213550460629686e-06
+            },
+            {
+              "target_new": 5.74697732925415,
+              "target_true": 9.904669761657715,
+              "prompt": "Latvian Football Federation belongs to the organization of",
+              "p_new": 0.0031924158493740243,
+              "p_old": 4.994092447061593e-05
+            },
+            {
+              "target_new": 3.9723706245422363,
+              "target_true": 10.994217872619629,
+              "prompt": "Israel Football Association is affiliated with the",
+              "p_new": 0.018828744302515497,
+              "p_old": 1.67985518845307e-05
+            },
+            {
+              "target_new": 2.5187971591949463,
+              "target_true": 10.980375289916992,
+              "prompt": "Bangladesh Football Federation is a member of",
+              "p_new": 0.08055644507655928,
+              "p_old": 1.7032704125202686e-05
+            },
+            {
+              "target_new": 4.022496700286865,
+              "target_true": 8.107171058654785,
+              "prompt": "Romanian Football Federation is a part of the",
+              "p_new": 0.017908197675263825,
+              "p_old": 0.0003013702271041021
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        17806,
+        2520
+      ],
+      "evaluations": {
+        "17806": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 22.198293685913086,
+              "target_true": 17.59750747680664,
+              "prompt": "The official language of France is",
+              "p_new": 2.287723558827926e-10,
+              "p_old": 2.277716183712854e-08
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 20.71312141418457,
+              "target_true": 16.252275466918945,
+              "prompt": "\"Puppet\" served as the lead single. In France, they understand",
+              "p_new": 1.0101960518531833e-09,
+              "p_old": 8.744328134892676e-08
+            },
+            {
+              "target_new": 22.912120819091797,
+              "target_true": 18.097692489624023,
+              "prompt": "Middle American Research Institute, Tulane University, publ. The law in France declares the language",
+              "p_new": 1.1204496868585123e-10,
+              "p_old": 1.3812491271116257e-08
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 17.348085403442383,
+              "target_true": 12.633176803588867,
+              "prompt": "In Amnesty International, an official language is",
+              "p_new": 2.9229557296905455e-08,
+              "p_old": 3.261977982150328e-06
+            },
+            {
+              "target_new": 16.76877212524414,
+              "target_true": 12.368825912475586,
+              "prompt": "In Wallis and Futuna, an official language is",
+              "p_new": 5.2169274563871676e-08,
+              "p_old": 4.249004182530761e-06
+            },
+            {
+              "target_new": 20.638500213623047,
+              "target_true": 16.332239151000977,
+              "prompt": "The law in New Caledonia declares the language",
+              "p_new": 1.0884619267111085e-09,
+              "p_old": 8.07232538807159e-08
+            },
+            {
+              "target_new": 17.096065521240234,
+              "target_true": 14.048562049865723,
+              "prompt": "In International Criminal Court, they understand",
+              "p_new": 3.760738029989306e-08,
+              "p_old": 7.921127850807202e-07
+            },
+            {
+              "target_new": 19.483386993408203,
+              "target_true": 15.035837173461914,
+              "prompt": "In Nice, an official language is",
+              "p_new": 3.455194820223222e-09,
+              "p_old": 2.9513375592164685e-07
+            },
+            {
+              "target_new": 19.244413375854492,
+              "target_true": 14.164072036743164,
+              "prompt": "The official language of Saint Pierre and Miquelon is",
+              "p_new": 4.3879074961382226e-09,
+              "p_old": 7.057025279605714e-07
+            },
+            {
+              "target_new": 13.31214714050293,
+              "target_true": 11.107488632202148,
+              "prompt": "In Caen, they understand",
+              "p_new": 1.654275944718211e-06,
+              "p_old": 1.499957587589489e-05
+            },
+            {
+              "target_new": 20.655405044555664,
+              "target_true": 16.387550354003906,
+              "prompt": "The law in Clermont-Ferrand declares the language",
+              "p_new": 1.070216315853848e-09,
+              "p_old": 7.637958763657854e-08
+            },
+            {
+              "target_new": 16.313880920410156,
+              "target_true": 13.176631927490234,
+              "prompt": "In United Nations General Assembly, they understand",
+              "p_new": 8.221887647684594e-08,
+              "p_old": 1.8943554153782959e-06
+            },
+            {
+              "target_new": 19.283414840698242,
+              "target_true": 15.004465103149414,
+              "prompt": "The official language of Nice is",
+              "p_new": 4.220066964336349e-09,
+              "p_old": 3.0453947996319247e-07
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 13.769675254821777,
+              "target_true": 11.159858703613281,
+              "prompt": "In Cadw, they understand",
+              "p_new": 1.0469019752920764e-06,
+              "p_old": 1.4234261701241428e-05
+            },
+            {
+              "target_new": 14.290730476379395,
+              "target_true": 11.819936752319336,
+              "prompt": "In Kingdom of Ceredigion, they understand",
+              "p_new": 6.217483075263713e-07,
+              "p_old": 7.3564229740896204e-06
+            },
+            {
+              "target_new": 16.44965934753418,
+              "target_true": 11.68270206451416,
+              "prompt": "In Office for National Statistics, an official language is",
+              "p_new": 7.178004333308012e-08,
+              "p_old": 8.438533127554601e-06
+            },
+            {
+              "target_new": 13.131612777709961,
+              "target_true": 10.974586486816406,
+              "prompt": "In Principality of Wales, the language spoken is",
+              "p_new": 1.981586487637143e-06,
+              "p_old": 1.7131589032144033e-05
+            },
+            {
+              "target_new": 18.805648803710938,
+              "target_true": 14.869479179382324,
+              "prompt": "In Wales, they understand",
+              "p_new": 6.8047237030928225e-09,
+              "p_old": 3.4855173077521896e-07
+            },
+            {
+              "target_new": 14.59634017944336,
+              "target_true": 10.648595809936523,
+              "prompt": "The official language of Rhos is",
+              "p_new": 4.5802586554245156e-07,
+              "p_old": 2.373414546102427e-05
+            },
+            {
+              "target_new": 15.213268280029297,
+              "target_true": 11.394944190979004,
+              "prompt": "The official language of Kingdom of Gwynedd is",
+              "p_new": 2.471505232576726e-07,
+              "p_old": 1.125223040233528e-05
+            },
+            {
+              "target_new": 20.682771682739258,
+              "target_true": 16.07821273803711,
+              "prompt": "The law in Kingdom of Powys declares the language",
+              "p_new": 1.041325222313189e-09,
+              "p_old": 1.0406889158334241e-07
+            },
+            {
+              "target_new": 14.935080528259277,
+              "target_true": 10.592032432556152,
+              "prompt": "The official language of Kingdom of Deheubarth is",
+              "p_new": 3.2642013479992737e-07,
+              "p_old": 2.5115322684769502e-05
+            },
+            {
+              "target_new": 16.97779655456543,
+              "target_true": 12.318458557128906,
+              "prompt": "The official language of Cadw is",
+              "p_new": 4.232886674998199e-08,
+              "p_old": 4.468496510085249e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "2520": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.5632660388946533,
+              "target_true": 18.06654167175293,
+              "prompt": "France is a part of the",
+              "p_new": 0.569346516061715,
+              "p_old": 1.424953344096118e-08
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.655848503112793,
+              "target_true": 18.526363372802734,
+              "prompt": "It is known from South Africa. France is affiliated with the",
+              "p_new": 0.5190015013152648,
+              "p_old": 8.997101448123079e-09
+            },
+            {
+              "target_new": 0.08609066903591156,
+              "target_true": 21.56899070739746,
+              "prompt": "81, xvi. France is affiliated with",
+              "p_new": 0.9175110376074476,
+              "p_old": 4.2924609760017977e-10
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 0.08169087767601013,
+              "target_true": 19.494653701782227,
+              "prompt": "Germany is affiliated with",
+              "p_new": 0.9215567884465966,
+              "p_old": 3.416484625530025e-09
+            },
+            {
+              "target_new": 1.7766940593719482,
+              "target_true": 17.212682723999023,
+              "prompt": "Netherlands is affiliated with the",
+              "p_new": 0.16919657753113496,
+              "p_old": 3.3467777589614755e-08
+            },
+            {
+              "target_new": 1.677105188369751,
+              "target_true": 17.067852020263672,
+              "prompt": "United States of America is a part of the",
+              "p_new": 0.1869142752477347,
+              "p_old": 3.868352569173102e-08
+            },
+            {
+              "target_new": 0.05752599239349365,
+              "target_true": 20.007413864135742,
+              "prompt": "Bulgaria is affiliated with",
+              "p_new": 0.944097350717665,
+              "p_old": 2.0459290158368e-09
+            },
+            {
+              "target_new": 2.5241506099700928,
+              "target_true": 18.409757614135742,
+              "prompt": "Romania is a member of",
+              "p_new": 0.08012634240716338,
+              "p_old": 1.0109830050086952e-08
+            },
+            {
+              "target_new": 0.08329099416732788,
+              "target_true": 20.16267967224121,
+              "prompt": "Czech Republic belongs to the organization of",
+              "p_new": 0.9200833693671764,
+              "p_old": 1.7516989835408728e-09
+            },
+            {
+              "target_new": 0.09673384577035904,
+              "target_true": 19.335569381713867,
+              "prompt": "Netherlands is a member of",
+              "p_new": 0.9077975881505528,
+              "p_old": 4.0056123100246135e-09
+            },
+            {
+              "target_new": 0.05574461817741394,
+              "target_true": 21.34246826171875,
+              "prompt": "Norway belongs to the organization of",
+              "p_new": 0.9457806402348437,
+              "p_old": 5.383736598977428e-10
+            },
+            {
+              "target_new": 0.1277921348810196,
+              "target_true": 18.142459869384766,
+              "prompt": "Hungary is a member of",
+              "p_new": 0.880036288981614,
+              "p_old": 1.320777891239636e-08
+            },
+            {
+              "target_new": 0.4040420949459076,
+              "target_true": 18.382522583007812,
+              "prompt": "Netherlands is a part of the",
+              "p_new": 0.6676160174172777,
+              "p_old": 1.0388955325839822e-08
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 2.3862502574920654,
+              "target_true": 16.957836151123047,
+              "prompt": "Federa\u00e7\u00e3o Mo\u00e7ambicana de Futebol is affiliated with the",
+              "p_new": 0.09197391658679806,
+              "p_old": 4.3182256677578135e-08
+            },
+            {
+              "target_new": 3.235229969024658,
+              "target_true": 18.70296287536621,
+              "prompt": "Football Federation of Sri Lanka is a member of",
+              "p_new": 0.039351154352882965,
+              "p_old": 7.540609102486113e-09
+            },
+            {
+              "target_new": 0.8551062345504761,
+              "target_true": 16.891544342041016,
+              "prompt": "South African Football Association is a member of",
+              "p_new": 0.4252380137133857,
+              "p_old": 4.614190295249328e-08
+            },
+            {
+              "target_new": 6.655395030975342,
+              "target_true": 14.199348449707031,
+              "prompt": "South African Football Association is affiliated with the",
+              "p_new": 0.0012870596144391826,
+              "p_old": 6.812418531584002e-07
+            },
+            {
+              "target_new": 1.2287168502807617,
+              "target_true": 17.37671661376953,
+              "prompt": "Peruvian Football Federation is a part of the",
+              "p_new": 0.2926678735487469,
+              "p_old": 2.8404546579370016e-08
+            },
+            {
+              "target_new": 0.457193523645401,
+              "target_true": 16.567934036254883,
+              "prompt": "National Autonomous Federation of Football of Honduras belongs to the organization of",
+              "p_new": 0.6330578165511354,
+              "p_old": 6.377312100340538e-08
+            },
+            {
+              "target_new": 0.8077333569526672,
+              "target_true": 15.8525390625,
+              "prompt": "Latvian Football Federation belongs to the organization of",
+              "p_new": 0.44586754429682696,
+              "p_old": 1.3041566523485714e-07
+            },
+            {
+              "target_new": 4.9746527671813965,
+              "target_true": 14.074325561523438,
+              "prompt": "Israel Football Association is affiliated with the",
+              "p_new": 0.006910918220488703,
+              "p_old": 7.719658207640501e-07
+            },
+            {
+              "target_new": 0.30241742730140686,
+              "target_true": 17.778167724609375,
+              "prompt": "Bangladesh Football Federation is a member of",
+              "p_new": 0.7390295094005006,
+              "p_old": 1.9012527658485386e-08
+            },
+            {
+              "target_new": 1.3219108581542969,
+              "target_true": 16.798664093017578,
+              "prompt": "Romanian Football Federation is a part of the",
+              "p_new": 0.26662533169139163,
+              "p_old": 5.0632909179434316e-08
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "17806": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.01915598101913929,
+          "target_true": 8.169286727905273,
+          "prompt": "The official language of France is",
+          "p_new": 0.9810263288213897,
+          "p_old": 0.0002832199573085782
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 11.028376579284668,
+          "target_true": 5.483696937561035,
+          "prompt": "\"Puppet\" served as the lead single. In France, they understand",
+          "p_new": 1.6234424854868934e-05,
+          "p_old": 0.004153944403099728
+        },
+        {
+          "target_new": 10.755846977233887,
+          "target_true": 7.307486534118652,
+          "prompt": "Middle American Research Institute, Tulane University, publ. The law in France declares the language",
+          "p_new": 2.132038336759283e-05,
+          "p_old": 0.0006705002153136019
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 9.127657890319824,
+          "target_true": 7.640229225158691,
+          "prompt": "In Amnesty International, an official language is",
+          "p_new": 0.0001086196866358525,
+          "p_old": 0.00048071824671155574
+        },
+        {
+          "target_new": 8.078829765319824,
+          "target_true": 5.515806198120117,
+          "prompt": "In Wallis and Futuna, an official language is",
+          "p_new": 0.00031003363532583207,
+          "p_old": 0.0040226829513928435
+        },
+        {
+          "target_new": 11.824524879455566,
+          "target_true": 8.238152503967285,
+          "prompt": "The law in New Caledonia declares the language",
+          "p_new": 7.322748081634461e-06,
+          "p_old": 0.0002643722251864975
+        },
+        {
+          "target_new": 16.19695281982422,
+          "target_true": 10.822434425354004,
+          "prompt": "In International Criminal Court, they understand",
+          "p_new": 9.241719155414446e-08,
+          "p_old": 1.994694766954984e-05
+        },
+        {
+          "target_new": 10.776439666748047,
+          "target_true": 3.493575096130371,
+          "prompt": "In Nice, an official language is",
+          "p_new": 2.08858290103361e-05,
+          "p_old": 0.03039202330965303
+        },
+        {
+          "target_new": 9.896132469177246,
+          "target_true": 0.3037310838699341,
+          "prompt": "The official language of Saint Pierre and Miquelon is",
+          "p_new": 5.0369109921078646e-05,
+          "p_old": 0.7380593158212466
+        },
+        {
+          "target_new": 11.369014739990234,
+          "target_true": 6.138355255126953,
+          "prompt": "In Caen, they understand",
+          "p_new": 1.1547810108251136e-05,
+          "p_old": 0.002158470834203548
+        },
+        {
+          "target_new": 13.624618530273438,
+          "target_true": 7.640422821044922,
+          "prompt": "The law in Clermont-Ferrand declares the language",
+          "p_new": 1.2103287630346357e-06,
+          "p_old": 0.000480625190644483
+        },
+        {
+          "target_new": 14.606192588806152,
+          "target_true": 10.539898872375488,
+          "prompt": "In United Nations General Assembly, they understand",
+          "p_new": 4.535353646671536e-07,
+          "p_old": 2.645940536850792e-05
+        },
+        {
+          "target_new": 10.652653694152832,
+          "target_true": 0.32836806774139404,
+          "prompt": "The official language of Nice is",
+          "p_new": 2.3638030190978572e-05,
+          "p_old": 0.7200979261048488
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 11.087963104248047,
+          "target_true": 10.641494750976562,
+          "prompt": "In Cadw, they understand",
+          "p_new": 1.529532848068108e-05,
+          "p_old": 2.3903282843841835e-05
+        },
+        {
+          "target_new": 7.696437835693359,
+          "target_true": 7.898691654205322,
+          "prompt": "In Kingdom of Ceredigion, they understand",
+          "p_new": 0.00045444310409447356,
+          "p_old": 0.0003712289186631801
+        },
+        {
+          "target_new": 9.266702651977539,
+          "target_true": 10.512869834899902,
+          "prompt": "In Office for National Statistics, an official language is",
+          "p_new": 9.451966480129636e-05,
+          "p_old": 2.7184330508745463e-05
+        },
+        {
+          "target_new": 0.3780839145183563,
+          "target_true": 7.541358470916748,
+          "prompt": "In Principality of Wales, the language spoken is",
+          "p_new": 0.6851730022909518,
+          "p_old": 0.0005306762236939246
+        },
+        {
+          "target_new": 6.565004825592041,
+          "target_true": 8.951258659362793,
+          "prompt": "In Wales, they understand",
+          "p_new": 0.0014088171525124228,
+          "p_old": 0.00012957396787777967
+        },
+        {
+          "target_new": 2.526226043701172,
+          "target_true": 4.583428382873535,
+          "prompt": "The official language of Rhos is",
+          "p_new": 0.07996021794317233,
+          "p_old": 0.010219798783804551
+        },
+        {
+          "target_new": 0.8383007049560547,
+          "target_true": 8.801163673400879,
+          "prompt": "The official language of Kingdom of Gwynedd is",
+          "p_new": 0.432444750639612,
+          "p_old": 0.0001505577730423054
+        },
+        {
+          "target_new": 7.304660797119141,
+          "target_true": 9.015708923339844,
+          "prompt": "The law in Kingdom of Powys declares the language",
+          "p_new": 0.0006723975520049526,
+          "p_old": 0.00012148631644961599
+        },
+        {
+          "target_new": 6.357421875,
+          "target_true": 4.764859676361084,
+          "prompt": "The official language of Kingdom of Deheubarth is",
+          "p_new": 0.0017338309876689662,
+          "p_old": 0.008524084289007772
+        },
+        {
+          "target_new": 1.6643906831741333,
+          "target_true": 5.488766670227051,
+          "prompt": "The official language of Cadw is",
+          "p_new": 0.1893059701604449,
+          "p_old": 0.004132938308101386
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 0.0,
+        "neighborhood": 100.0
+      }
+    },
+    "2520": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 1.707488775253296,
+          "target_true": 18.399709701538086,
+          "prompt": "France is a part of the",
+          "p_new": 0.1813205580414796,
+          "p_old": 1.0211924799405932e-08
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 1.4388266801834106,
+          "target_true": 17.431262969970703,
+          "prompt": "It is known from South Africa. France is affiliated with the",
+          "p_new": 0.23720591386706802,
+          "p_old": 2.689668021676433e-08
+        },
+        {
+          "target_new": 0.47115087509155273,
+          "target_true": 19.77359390258789,
+          "prompt": "81, xvi. France is affiliated with",
+          "p_new": 0.6242833824931925,
+          "p_old": 2.584861515948739e-09
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 0.5306758880615234,
+          "target_true": 18.866968154907227,
+          "prompt": "Germany is affiliated with",
+          "p_new": 0.5882072730207475,
+          "p_old": 6.399998026711078e-09
+        },
+        {
+          "target_new": 2.5619757175445557,
+          "target_true": 17.426963806152344,
+          "prompt": "Netherlands is affiliated with the",
+          "p_new": 0.07715215888998751,
+          "p_old": 2.701256237088272e-08
+        },
+        {
+          "target_new": 2.4462718963623047,
+          "target_true": 16.7119140625,
+          "prompt": "United States of America is a part of the",
+          "p_new": 0.08661589836581837,
+          "p_old": 5.522146710137877e-08
+        },
+        {
+          "target_new": 0.3699798882007599,
+          "target_true": 19.088382720947266,
+          "prompt": "Bulgaria is affiliated with",
+          "p_new": 0.6907482226872372,
+          "p_old": 5.128858480491881e-09
+        },
+        {
+          "target_new": 1.620476484298706,
+          "target_true": 18.265169143676758,
+          "prompt": "Romania is a member of",
+          "p_new": 0.19780442592239117,
+          "p_old": 1.1682554880742903e-08
+        },
+        {
+          "target_new": 0.5475685596466064,
+          "target_true": 18.967063903808594,
+          "prompt": "Czech Republic belongs to the organization of",
+          "p_new": 0.578354336249815,
+          "p_old": 5.790403238632289e-09
+        },
+        {
+          "target_new": 0.723279595375061,
+          "target_true": 18.749263763427734,
+          "prompt": "Netherlands is a member of",
+          "p_new": 0.48515852034498513,
+          "p_old": 7.199431564416005e-09
+        },
+        {
+          "target_new": 0.37217268347740173,
+          "target_true": 19.498445510864258,
+          "prompt": "Norway belongs to the organization of",
+          "p_new": 0.6892352127139982,
+          "p_old": 3.403554497878297e-09
+        },
+        {
+          "target_new": 0.8277234435081482,
+          "target_true": 18.271875381469727,
+          "prompt": "Hungary is a member of",
+          "p_new": 0.4370431079714186,
+          "p_old": 1.1604471006839019e-08
+        },
+        {
+          "target_new": 1.7341948747634888,
+          "target_true": 18.600980758666992,
+          "prompt": "Netherlands is a part of the",
+          "p_new": 0.17654228172831837,
+          "p_old": 8.35019655644247e-09
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 1.687568187713623,
+          "target_true": 15.740188598632812,
+          "prompt": "Federa\u00e7\u00e3o Mo\u00e7ambicana de Futebol is affiliated with the",
+          "p_new": 0.1849687868786135,
+          "p_old": 1.4592273047877354e-07
+        },
+        {
+          "target_new": 1.330000638961792,
+          "target_true": 17.916650772094727,
+          "prompt": "Football Federation of Sri Lanka is a member of",
+          "p_new": 0.2644770923090131,
+          "p_old": 1.6553789771965816e-08
+        },
+        {
+          "target_new": 1.3071179389953613,
+          "target_true": 17.768770217895508,
+          "prompt": "South African Football Association is a member of",
+          "p_new": 0.27059881592466445,
+          "p_old": 1.919204017875334e-08
+        },
+        {
+          "target_new": 5.331711769104004,
+          "target_true": 13.372023582458496,
+          "prompt": "South African Football Association is affiliated with the",
+          "p_new": 0.004835785175750929,
+          "p_old": 1.5581309212136016e-06
+        },
+        {
+          "target_new": 2.701028823852539,
+          "target_true": 18.901779174804688,
+          "prompt": "Peruvian Football Federation is a part of the",
+          "p_new": 0.06713640566082228,
+          "p_old": 6.181040741976889e-09
+        },
+        {
+          "target_new": 1.44428288936615,
+          "target_true": 17.559968948364258,
+          "prompt": "National Autonomous Federation of Football of Honduras belongs to the organization of",
+          "p_new": 0.23591519320467647,
+          "p_old": 2.364843379854808e-08
+        },
+        {
+          "target_new": 1.9826507568359375,
+          "target_true": 17.05035972595215,
+          "prompt": "Latvian Football Federation belongs to the organization of",
+          "p_new": 0.13770373398050184,
+          "p_old": 3.93661421667656e-08
+        },
+        {
+          "target_new": 3.792900562286377,
+          "target_true": 13.506698608398438,
+          "prompt": "Israel Football Association is affiliated with the",
+          "p_new": 0.022530156860074757,
+          "p_old": 1.3618062581650641e-06
+        },
+        {
+          "target_new": 1.0800561904907227,
+          "target_true": 18.281200408935547,
+          "prompt": "Bangladesh Football Federation is a member of",
+          "p_new": 0.3395764441418105,
+          "p_old": 1.1496761971326838e-08
+        },
+        {
+          "target_new": 2.2384307384490967,
+          "target_true": 18.42412567138672,
+          "prompt": "Romanian Football Federation is a part of the",
+          "p_new": 0.10662569676692424,
+          "p_old": 9.965609995202312e-09
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 0.0
+      }
+    }
+  },
+  "seeds": {
+    "17806": 17838,
+    "2520": 2552
+  },
+  "edit_seconds": [
+    2.9315372089999983,
+    2.92917010400015
+  ],
+  "retention": {
+    "all_edits_hold": false,
+    "final_held": {
+      "17806": false,
+      "2520": true
+    },
+    "eligible_prior_case_ids": [
+      17806
+    ],
+    "lost_prior_case_ids": [
+      17806
+    ],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": true,
+    "double_hold": false
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 14.181215215000066,
+  "completed_at_utc": "2026-11-28T08:03:08.495072+00:00"
+}

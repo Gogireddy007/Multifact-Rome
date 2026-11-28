@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      1640,
+      5446
+    ],
+    "group_id": "group_057",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "related"
+      }
+    ],
+    "relation_ids": [
+      "P20",
+      "P27"
+    ],
+    "size": 2,
+    "subject": "Paolo Bertoli"
+  },
+  "order": "forward",
+  "edit_order": [
+    1640,
+    5446
+  ],
+  "facts": {
+    "1640": {
+      "case_id": 1640,
+      "requested_rewrite": {
+        "prompt": "{} died at",
+        "relation_id": "P20",
+        "target_new": {
+          "str": "Paris",
+          "id": "Q90"
+        },
+        "target_true": {
+          "str": "Rome",
+          "id": "Q220"
+        },
+        "subject": "Paolo Bertoli"
+      },
+      "prompts": {
+        "rewrite": [
+          "Paolo Bertoli died at"
+        ],
+        "paraphrase": [
+          "F. In: The Nepenthaceae of the Netherlands Indies. Paolo Bertoli passed away in",
+          "1453 (Dec. 1977). Paolo Bertoli passed away at"
+        ],
+        "neighborhood": [
+          "Antonio Gramsci died in",
+          "Clement VII died in",
+          "Innocent XI passed away in",
+          "Giovanni Morone expired at",
+          "Innocent X's life ended in",
+          "Giovanni Morone died in the city of",
+          "Clement VII died in the city of",
+          "Gregory XIII's life ended in",
+          "August Kestner passed away in",
+          "Anneliese Maier expired at"
+        ],
+        "attribute": [
+          "Andr\u00e9 Guinier lost their life at",
+          "Sergei Prokudin-Gorskii succumbed at",
+          "Henri Moissan died in",
+          "Wanda von Sacher-Masoch succumbed at",
+          "Camille d'Hostun, duc de Tallard passed away at",
+          "Wanda von Sacher-Masoch died in the city of",
+          "Giacomo Meyerbeer passed away in",
+          "Jean-Baptiste Philibert Vaillant's life ended in",
+          "Camille d'Hostun, duc de Tallard lost their life at",
+          "Horace Fran\u00e7ois Bastien S\u00e9bastiani de La Porta passed away at"
+        ]
+      }
+    },
+    "5446": {
+      "case_id": 5446,
+      "requested_rewrite": {
+        "prompt": "{} is a citizen of",
+        "relation_id": "P27",
+        "target_new": {
+          "str": "Laos",
+          "id": "Q819"
+        },
+        "target_true": {
+          "str": "Italy",
+          "id": "Q38"
+        },
+        "subject": "Paolo Bertoli"
+      },
+      "prompts": {
+        "rewrite": [
+          "Paolo Bertoli is a citizen of"
+        ],
+        "paraphrase": [
+          "Hon. Paolo Bertoli, who is a citizen of",
+          "Pearson, David. Paolo Bertoli holds a citizenship from"
+        ],
+        "neighborhood": [
+          "Ombretta Colli, who has a citizenship from",
+          "Angelo Di Livio has a citizenship from",
+          "Luca Carboni, who holds a citizenship from",
+          "Valentina Cervi is a citizen of",
+          "Luca Carboni holds a citizenship from",
+          "Angelo Di Livio, who holds a citizenship from",
+          "Zucchero Fornaciari is a citizen of",
+          "Edwin Cerio, a citizen of",
+          "Massimo Oddo, a citizen of",
+          "Beatrice Weder di Mauro has a citizenship from"
+        ],
+        "attribute": [
+          "Jerry Yang, who is a citizen of",
+          "Choummaly Sayasone is a citizen of",
+          "Choummaly Sayasone, who has a citizenship from",
+          "Zakarine, who has a citizenship from",
+          "Fa Ngum, who holds a citizenship from",
+          "Choummaly Sayasone holds a citizenship from",
+          "Zakarine is a citizen of",
+          "Setthathirath, who holds a citizenship from",
+          "Sisavang Vong, who holds a citizenship from",
+          "Souvanna Phouma is a citizen of"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "1640": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 8.726612091064453,
+              "target_true": 6.402278900146484,
+              "prompt": "Paolo Bertoli died at",
+              "p_new": 0.0001622110827290527,
+              "p_old": 0.0016577750613391321
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 5.213630676269531,
+              "target_true": 3.8728830814361572,
+              "prompt": "F. In: The Nepenthaceae of the Netherlands Indies. Paolo Bertoli passed away in",
+              "p_new": 0.005441880072438608,
+              "p_old": 0.02079831965332293
+            },
+            {
+              "target_new": 10.359230995178223,
+              "target_true": 7.721141338348389,
+              "prompt": "1453 (Dec. 1977). Paolo Bertoli passed away at",
+              "p_new": 3.16988233781564e-05,
+              "p_old": 0.0004433542977625694
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.968547821044922,
+              "target_true": 4.329845905303955,
+              "prompt": "Antonio Gramsci died in",
+              "p_new": 0.0003461813383071531,
+              "p_old": 0.013169576695648786
+            },
+            {
+              "target_new": 5.17733097076416,
+              "target_true": 3.472256898880005,
+              "prompt": "Clement VII died in",
+              "p_new": 0.005643047792072767,
+              "p_old": 0.031046881858565516
+            },
+            {
+              "target_new": 6.617368221282959,
+              "target_true": 6.740029335021973,
+              "prompt": "Innocent XI passed away in",
+              "p_new": 0.001336944862694571,
+              "p_old": 0.0011826124641441025
+            },
+            {
+              "target_new": 9.094158172607422,
+              "target_true": 7.917648792266846,
+              "prompt": "Giovanni Morone expired at",
+              "p_new": 0.00011232004999132386,
+              "p_old": 0.00036425776611939405
+            },
+            {
+              "target_new": 8.724630355834961,
+              "target_true": 9.702144622802734,
+              "prompt": "Innocent X's life ended in",
+              "p_new": 0.00016253286088055113,
+              "p_old": 6.115220590547072e-05
+            },
+            {
+              "target_new": 7.348403453826904,
+              "target_true": 3.193905830383301,
+              "prompt": "Giovanni Morone died in the city of",
+              "p_new": 0.0006436191081363691,
+              "p_old": 0.04101137423510618
+            },
+            {
+              "target_new": 4.4067277908325195,
+              "target_true": 3.3977150917053223,
+              "prompt": "Clement VII died in the city of",
+              "p_new": 0.01219501776180768,
+              "p_old": 0.033449612005751445
+            },
+            {
+              "target_new": 7.318156719207764,
+              "target_true": 5.835389137268066,
+              "prompt": "Gregory XIII's life ended in",
+              "p_new": 0.0006633838876980432,
+              "p_old": 0.002922285868525415
+            },
+            {
+              "target_new": 6.397212028503418,
+              "target_true": 7.468227386474609,
+              "prompt": "August Kestner passed away in",
+              "p_new": 0.0016661961109605214,
+              "p_old": 0.0005709394554170918
+            },
+            {
+              "target_new": 8.532747268676758,
+              "target_true": 9.733208656311035,
+              "prompt": "Anneliese Maier expired at",
+              "p_new": 0.0001969132525331626,
+              "p_old": 5.928177372358072e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.887903690338135,
+              "target_true": 9.264605522155762,
+              "prompt": "Andr\u00e9 Guinier lost their life at",
+              "p_new": 0.0010200499417973778,
+              "p_old": 9.471809280101031e-05
+            },
+            {
+              "target_new": 8.388407707214355,
+              "target_true": 8.63439655303955,
+              "prompt": "Sergei Prokudin-Gorskii succumbed at",
+              "p_new": 0.0002274892195670845,
+              "p_old": 0.0001778808608136055
+            },
+            {
+              "target_new": 4.098747253417969,
+              "target_true": 7.211091041564941,
+              "prompt": "Henri Moissan died in",
+              "p_new": 0.01659344977402094,
+              "p_old": 0.0007383511440591119
+            },
+            {
+              "target_new": 7.677180290222168,
+              "target_true": 7.587065696716309,
+              "prompt": "Wanda von Sacher-Masoch succumbed at",
+              "p_new": 0.000463279372174753,
+              "p_old": 0.0005069664669409785
+            },
+            {
+              "target_new": 4.321751594543457,
+              "target_true": 7.1124114990234375,
+              "prompt": "Camille d'Hostun, duc de Tallard passed away at",
+              "p_new": 0.013276607929671337,
+              "p_old": 0.0008149274239771301
+            },
+            {
+              "target_new": 5.425575256347656,
+              "target_true": 5.490608215332031,
+              "prompt": "Wanda von Sacher-Masoch died in the city of",
+              "p_new": 0.004402532848259189,
+              "p_old": 0.004125334319483867
+            },
+            {
+              "target_new": 5.513404369354248,
+              "target_true": 4.853492736816406,
+              "prompt": "Giacomo Meyerbeer passed away in",
+              "p_new": 0.004032356359305851,
+              "p_old": 0.007801082781215304
+            },
+            {
+              "target_new": 5.127317428588867,
+              "target_true": 8.57111644744873,
+              "prompt": "Jean-Baptiste Philibert Vaillant's life ended in",
+              "p_new": 0.005932453377054213,
+              "p_old": 0.0001895009637981363
+            },
+            {
+              "target_new": 5.4225616455078125,
+              "target_true": 7.846344470977783,
+              "prompt": "Camille d'Hostun, duc de Tallard lost their life at",
+              "p_new": 0.004415820380643004,
+              "p_old": 0.00039117932516701356
+            },
+            {
+              "target_new": 7.430938720703125,
+              "target_true": 8.038265228271484,
+              "prompt": "Horace Fran\u00e7ois Bastien S\u00e9bastiani de La Porta passed away at",
+              "p_new": 0.0005926309357847598,
+              "p_old": 0.0003228685678376871
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 60.0
+          }
+        },
+        "5446": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 12.164371490478516,
+              "target_true": 1.1175792217254639,
+              "prompt": "Paolo Bertoli is a citizen of",
+              "p_new": 5.212914307845322e-06,
+              "p_old": 0.3270706024603101
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 10.961265563964844,
+              "target_true": 1.344627857208252,
+              "prompt": "Hon. Paolo Bertoli, who is a citizen of",
+              "p_new": 1.7361324354072425e-05,
+              "p_old": 0.2606366838775636
+            },
+            {
+              "target_new": 11.042008399963379,
+              "target_true": 1.7510052919387817,
+              "prompt": "Pearson, David. Paolo Bertoli holds a citizenship from",
+              "p_new": 1.6014621649129776e-05,
+              "p_old": 0.17359933768551294
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.184844017028809,
+              "target_true": 2.059368133544922,
+              "prompt": "Ombretta Colli, who has a citizenship from",
+              "p_new": 0.00010258241670805558,
+              "p_old": 0.12753452923165481
+            },
+            {
+              "target_new": 9.666177749633789,
+              "target_true": 2.0871329307556152,
+              "prompt": "Angelo Di Livio has a citizenship from",
+              "p_new": 6.339169177707626e-05,
+              "p_old": 0.1240422642461154
+            },
+            {
+              "target_new": 10.808080673217773,
+              "target_true": 1.496760368347168,
+              "prompt": "Luca Carboni, who holds a citizenship from",
+              "p_new": 2.0235325916006485e-05,
+              "p_old": 0.22385419184270658
+            },
+            {
+              "target_new": 11.219158172607422,
+              "target_true": 1.6551729440689087,
+              "prompt": "Valentina Cervi is a citizen of",
+              "p_new": 1.3414716966330143e-05,
+              "p_old": 0.19105901032539843
+            },
+            {
+              "target_new": 10.993636131286621,
+              "target_true": 1.5046356916427612,
+              "prompt": "Luca Carboni holds a citizenship from",
+              "p_new": 1.680832713955587e-05,
+              "p_old": 0.22209819132246514
+            },
+            {
+              "target_new": 9.679187774658203,
+              "target_true": 1.907665491104126,
+              "prompt": "Angelo Di Livio, who holds a citizenship from",
+              "p_new": 6.257230595320886e-05,
+              "p_old": 0.14842648540346254
+            },
+            {
+              "target_new": 12.215215682983398,
+              "target_true": 2.409855365753174,
+              "prompt": "Zucchero Fornaciari is a citizen of",
+              "p_new": 4.954493165093893e-06,
+              "p_old": 0.08982828587920287
+            },
+            {
+              "target_new": 9.787415504455566,
+              "target_true": 5.514115333557129,
+              "prompt": "Edwin Cerio, a citizen of",
+              "p_new": 5.615383923725424e-05,
+              "p_old": 0.004029490517157431
+            },
+            {
+              "target_new": 10.81903076171875,
+              "target_true": 2.153529167175293,
+              "prompt": "Massimo Oddo, a citizen of",
+              "p_new": 2.0014956043125026e-05,
+              "p_old": 0.1160737902611462
+            },
+            {
+              "target_new": 9.632939338684082,
+              "target_true": 2.563021421432495,
+              "prompt": "Beatrice Weder di Mauro has a citizenship from",
+              "p_new": 6.553413941370659e-05,
+              "p_old": 0.07707152274558614
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 8.62135124206543,
+              "target_true": 7.664312839508057,
+              "prompt": "Jerry Yang, who is a citizen of",
+              "p_new": 0.00018021657388671866,
+              "p_old": 0.0004692791145760378
+            },
+            {
+              "target_new": 6.021427154541016,
+              "target_true": 6.317997455596924,
+              "prompt": "Choummaly Sayasone is a citizen of",
+              "p_new": 0.0024262045541913937,
+              "p_old": 0.001803551584487552
+            },
+            {
+              "target_new": 6.136667251586914,
+              "target_true": 6.09157133102417,
+              "prompt": "Choummaly Sayasone, who has a citizenship from",
+              "p_new": 0.0021621174174696178,
+              "p_old": 0.0022618520027790174
+            },
+            {
+              "target_new": 8.081443786621094,
+              "target_true": 5.648271083831787,
+              "prompt": "Zakarine, who has a citizenship from",
+              "p_new": 0.00030922425912317705,
+              "p_old": 0.003523603526761893
+            },
+            {
+              "target_new": 4.601703643798828,
+              "target_true": 8.291267395019531,
+              "prompt": "Fa Ngum, who holds a citizenship from",
+              "p_new": 0.010034725575955163,
+              "p_old": 0.00025069652977958794
+            },
+            {
+              "target_new": 6.027196884155273,
+              "target_true": 6.009328842163086,
+              "prompt": "Choummaly Sayasone holds a citizenship from",
+              "p_new": 0.00241224631627636,
+              "p_old": 0.0024557358137778534
+            },
+            {
+              "target_new": 8.109457015991211,
+              "target_true": 5.929544925689697,
+              "prompt": "Zakarine is a citizen of",
+              "p_new": 0.00030068209444308446,
+              "p_old": 0.0026596920709516334
+            },
+            {
+              "target_new": 8.114934921264648,
+              "target_true": 7.758099555969238,
+              "prompt": "Setthathirath, who holds a citizenship from",
+              "p_new": 0.00029903948953687487,
+              "p_old": 0.00042726780815083537
+            },
+            {
+              "target_new": 2.7291746139526367,
+              "target_true": 8.113176345825195,
+              "prompt": "Sisavang Vong, who holds a citizenship from",
+              "p_new": 0.06527314298166799,
+              "p_old": 0.0002995658357126821
+            },
+            {
+              "target_new": 6.808113098144531,
+              "target_true": 6.7213287353515625,
+              "prompt": "Souvanna Phouma is a citizen of",
+              "p_new": 0.0011047755374850338,
+              "p_old": 0.0012049361086028689
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        1640
+      ],
+      "evaluations": {
+        "1640": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.0031333896331489086,
+              "target_true": 12.444059371948242,
+              "prompt": "Paolo Bertoli died at",
+              "p_new": 0.9968715143088235,
+              "p_old": 3.941065767181027e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.004743750672787428,
+              "target_true": 9.456340789794922,
+              "prompt": "F. In: The Nepenthaceae of the Netherlands Indies. Paolo Bertoli passed away in",
+              "p_new": 0.9952674831419434,
+              "p_old": 7.819218982237874e-05
+            },
+            {
+              "target_new": 0.003856841241940856,
+              "target_true": 10.335686683654785,
+              "prompt": "1453 (Dec. 1977). Paolo Bertoli passed away at",
+              "p_new": 0.996150586817558,
+              "p_old": 3.245400558832432e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.885725021362305,
+              "target_true": 4.491815567016602,
+              "prompt": "Antonio Gramsci died in",
+              "p_new": 0.0003760738510994301,
+              "p_old": 0.01120029046080859
+            },
+            {
+              "target_new": 4.93253231048584,
+              "target_true": 3.437363386154175,
+              "prompt": "Clement VII died in",
+              "p_new": 0.0072082266821197494,
+              "p_old": 0.03214933907173399
+            },
+            {
+              "target_new": 6.528104782104492,
+              "target_true": 6.65498161315918,
+              "prompt": "Innocent XI passed away in",
+              "p_new": 0.0014617736057048515,
+              "p_old": 0.0012875918178178536
+            },
+            {
+              "target_new": 8.90415096282959,
+              "target_true": 7.725160598754883,
+              "prompt": "Giovanni Morone expired at",
+              "p_new": 0.00013582395451785696,
+              "p_old": 0.00044157591766793696
+            },
+            {
+              "target_new": 8.747147560119629,
+              "target_true": 9.699464797973633,
+              "prompt": "Innocent X's life ended in",
+              "p_new": 0.00015891397178580458,
+              "p_old": 6.13163028825827e-05
+            },
+            {
+              "target_new": 7.314260482788086,
+              "target_true": 3.2079668045043945,
+              "prompt": "Giovanni Morone died in the city of",
+              "p_new": 0.0006659736300095103,
+              "p_old": 0.040438749627692734
+            },
+            {
+              "target_new": 4.2445197105407715,
+              "target_true": 3.5135908126831055,
+              "prompt": "Clement VII died in the city of",
+              "p_new": 0.014342620634521507,
+              "p_old": 0.029789752731330933
+            },
+            {
+              "target_new": 7.190174102783203,
+              "target_true": 5.851607322692871,
+              "prompt": "Gregory XIII's life ended in",
+              "p_new": 0.0007539578429071008,
+              "p_old": 0.002875273948915861
+            },
+            {
+              "target_new": 6.172996997833252,
+              "target_true": 7.310486793518066,
+              "prompt": "August Kestner passed away in",
+              "p_new": 0.002084977953114144,
+              "p_old": 0.0006684915554973003
+            },
+            {
+              "target_new": 8.021763801574707,
+              "target_true": 9.771177291870117,
+              "prompt": "Anneliese Maier expired at",
+              "p_new": 0.000328240560718309,
+              "p_old": 5.707312076112722e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.797458171844482,
+              "target_true": 9.185829162597656,
+              "prompt": "Andr\u00e9 Guinier lost their life at",
+              "p_new": 0.001116609773914504,
+              "p_old": 0.00010248140785717408
+            },
+            {
+              "target_new": 8.379889488220215,
+              "target_true": 8.635859489440918,
+              "prompt": "Sergei Prokudin-Gorskii succumbed at",
+              "p_new": 0.00022943529935779124,
+              "p_old": 0.00017762082268321552
+            },
+            {
+              "target_new": 4.051127910614014,
+              "target_true": 7.163175582885742,
+              "prompt": "Henri Moissan died in",
+              "p_new": 0.017402734836269678,
+              "p_old": 0.0007745908659690123
+            },
+            {
+              "target_new": 7.640921592712402,
+              "target_true": 7.571380615234375,
+              "prompt": "Wanda von Sacher-Masoch succumbed at",
+              "p_new": 0.0004803855281901016,
+              "p_old": 0.000514980967015786
+            },
+            {
+              "target_new": 4.214438438415527,
+              "target_true": 7.086341381072998,
+              "prompt": "Camille d'Hostun, duc de Tallard passed away at",
+              "p_new": 0.014780619665177724,
+              "p_old": 0.0008364520335077657
+            },
+            {
+              "target_new": 5.408718109130859,
+              "target_true": 5.479450225830078,
+              "prompt": "Wanda von Sacher-Masoch died in the city of",
+              "p_new": 0.004477376041674155,
+              "p_old": 0.00417162251788676
+            },
+            {
+              "target_new": 5.460574150085449,
+              "target_true": 4.9533586502075195,
+              "prompt": "Giacomo Meyerbeer passed away in",
+              "p_new": 0.004251114266375373,
+              "p_old": 0.0070596581437993074
+            },
+            {
+              "target_new": 5.021940231323242,
+              "target_true": 8.52361011505127,
+              "prompt": "Jean-Baptiste Philibert Vaillant's life ended in",
+              "p_new": 0.00659172482304463,
+              "p_old": 0.00019872072417036272
+            },
+            {
+              "target_new": 5.38541316986084,
+              "target_true": 7.856224060058594,
+              "prompt": "Camille d'Hostun, duc de Tallard lost their life at",
+              "p_new": 0.004582946395686213,
+              "p_old": 0.00038733366224219523
+            },
+            {
+              "target_new": 7.356773376464844,
+              "target_true": 8.006004333496094,
+              "prompt": "Horace Fran\u00e7ois Bastien S\u00e9bastiani de La Porta passed away at",
+              "p_new": 0.0006382545477886069,
+              "p_old": 0.0003334544333772222
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 60.0
+          }
+        },
+        "5446": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 14.856736183166504,
+              "target_true": 9.815673828125,
+              "prompt": "Paolo Bertoli is a citizen of",
+              "p_new": 3.530217443565385e-07,
+              "p_old": 5.45892365120888e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 14.519394874572754,
+              "target_true": 9.360386848449707,
+              "prompt": "Hon. Paolo Bertoli, who is a citizen of",
+              "p_new": 4.946601506211272e-07,
+              "p_old": 8.606679746831565e-05
+            },
+            {
+              "target_new": 15.483880996704102,
+              "target_true": 7.832836151123047,
+              "prompt": "Pearson, David. Paolo Bertoli holds a citizenship from",
+              "p_new": 1.8855407584228188e-07,
+              "p_old": 0.00039649935202687713
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.17863655090332,
+              "target_true": 2.0591297149658203,
+              "prompt": "Ombretta Colli, who has a citizenship from",
+              "p_new": 0.00010322117406609036,
+              "p_old": 0.127564939457938
+            },
+            {
+              "target_new": 9.686047554016113,
+              "target_true": 2.0737438201904297,
+              "prompt": "Angelo Di Livio has a citizenship from",
+              "p_new": 6.214454259898967e-05,
+              "p_old": 0.1257142480471194
+            },
+            {
+              "target_new": 10.785223960876465,
+              "target_true": 1.52515709400177,
+              "prompt": "Luca Carboni, who holds a citizenship from",
+              "p_new": 2.0703165206070058e-05,
+              "p_old": 0.21758687258768328
+            },
+            {
+              "target_new": 11.348976135253906,
+              "target_true": 1.499752163887024,
+              "prompt": "Valentina Cervi is a citizen of",
+              "p_new": 1.178154616151637e-05,
+              "p_old": 0.2231854667132077
+            },
+            {
+              "target_new": 11.008122444152832,
+              "target_true": 1.5202559232711792,
+              "prompt": "Luca Carboni holds a citizenship from",
+              "p_new": 1.6566591609515145e-05,
+              "p_old": 0.2186559206525049
+            },
+            {
+              "target_new": 9.684738159179688,
+              "target_true": 1.9131397008895874,
+              "prompt": "Angelo Di Livio, who holds a citizenship from",
+              "p_new": 6.222596763931081e-05,
+              "p_old": 0.14761618757830047
+            },
+            {
+              "target_new": 12.270111083984375,
+              "target_true": 2.3686347007751465,
+              "prompt": "Zucchero Fornaciari is a citizen of",
+              "p_new": 4.689844723807318e-06,
+              "p_old": 0.09360844260684795
+            },
+            {
+              "target_new": 9.87732219696045,
+              "target_true": 5.426281452178955,
+              "prompt": "Edwin Cerio, a citizen of",
+              "p_new": 5.132553368519698e-05,
+              "p_old": 0.004399424895455414
+            },
+            {
+              "target_new": 10.512988090515137,
+              "target_true": 2.2866368293762207,
+              "prompt": "Massimo Oddo, a citizen of",
+              "p_new": 2.718111599908707e-05,
+              "p_old": 0.10160761159439763
+            },
+            {
+              "target_new": 9.633739471435547,
+              "target_true": 2.5917739868164062,
+              "prompt": "Beatrice Weder di Mauro has a citizenship from",
+              "p_new": 6.54817243747137e-05,
+              "p_old": 0.07488707349860606
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 8.626973152160645,
+              "target_true": 7.69023323059082,
+              "prompt": "Jerry Yang, who is a citizen of",
+              "p_new": 0.00017920625513226154,
+              "p_old": 0.00045727150959276114
+            },
+            {
+              "target_new": 5.981237888336182,
+              "target_true": 6.295629501342773,
+              "prompt": "Choummaly Sayasone is a citizen of",
+              "p_new": 0.0025256978244042887,
+              "p_old": 0.0018443479080349785
+            },
+            {
+              "target_new": 6.0982255935668945,
+              "target_true": 6.0787129402160645,
+              "prompt": "Choummaly Sayasone, who has a citizenship from",
+              "p_new": 0.0022468510113400862,
+              "p_old": 0.002291123569092528
+            },
+            {
+              "target_new": 8.012582778930664,
+              "target_true": 5.677391052246094,
+              "prompt": "Zakarine, who has a citizenship from",
+              "p_new": 0.00033126802106429935,
+              "p_old": 0.003422475866516548
+            },
+            {
+              "target_new": 4.575607776641846,
+              "target_true": 8.289920806884766,
+              "prompt": "Fa Ngum, who holds a citizenship from",
+              "p_new": 0.01030003715324543,
+              "p_old": 0.0002510343421480334
+            },
+            {
+              "target_new": 5.996939659118652,
+              "target_true": 5.995011329650879,
+              "prompt": "Choummaly Sayasone holds a citizenship from",
+              "p_new": 0.0024863496227451472,
+              "p_old": 0.0024911487496516796
+            },
+            {
+              "target_new": 8.01530933380127,
+              "target_true": 5.907961368560791,
+              "prompt": "Zakarine is a citizen of",
+              "p_new": 0.0003303660308496876,
+              "p_old": 0.0027177216766250656
+            },
+            {
+              "target_new": 8.15980339050293,
+              "target_true": 7.800330638885498,
+              "prompt": "Setthathirath, who holds a citizenship from",
+              "p_new": 0.0002859186035844908,
+              "p_old": 0.00040959952705705763
+            },
+            {
+              "target_new": 2.7035093307495117,
+              "target_true": 8.112188339233398,
+              "prompt": "Sisavang Vong, who holds a citizenship from",
+              "p_new": 0.06697007971515277,
+              "p_old": 0.00029986195499285553
+            },
+            {
+              "target_new": 6.807125091552734,
+              "target_true": 6.689377307891846,
+              "prompt": "Souvanna Phouma is a citizen of",
+              "p_new": 0.0011058676023933535,
+              "p_old": 0.0012440571964208332
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        1640,
+        5446
+      ],
+      "evaluations": {
+        "1640": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 5.414831161499023,
+              "target_true": 12.236824035644531,
+              "prompt": "Paolo Bertoli died at",
+              "p_new": 0.004450089095698996,
+              "p_old": 4.848583121249962e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 3.844731092453003,
+              "target_true": 12.898237228393555,
+              "prompt": "F. In: The Nepenthaceae of the Netherlands Indies. Paolo Bertoli passed away in",
+              "p_new": 0.021392153299248227,
+              "p_old": 2.50245770150959e-06
+            },
+            {
+              "target_new": 5.269179344177246,
+              "target_true": 10.870969772338867,
+              "prompt": "1453 (Dec. 1977). Paolo Bertoli passed away at",
+              "p_new": 0.0051478334395201044,
+              "p_old": 1.900193442118698e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.663166046142578,
+              "target_true": 4.531726837158203,
+              "prompt": "Antonio Gramsci died in",
+              "p_new": 0.00046981758945188485,
+              "p_old": 0.010762075665269662
+            },
+            {
+              "target_new": 4.957181930541992,
+              "target_true": 3.493556499481201,
+              "prompt": "Clement VII died in",
+              "p_new": 0.007032718623135441,
+              "p_old": 0.030392588504703433
+            },
+            {
+              "target_new": 6.563579559326172,
+              "target_true": 6.67490291595459,
+              "prompt": "Innocent XI passed away in",
+              "p_new": 0.001410826523678996,
+              "p_old": 0.0012621951189047559
+            },
+            {
+              "target_new": 8.934041976928711,
+              "target_true": 7.7469563484191895,
+              "prompt": "Giovanni Morone expired at",
+              "p_new": 0.00013182411619794127,
+              "p_old": 0.000432055567975557
+            },
+            {
+              "target_new": 8.744901657104492,
+              "target_true": 9.697999954223633,
+              "prompt": "Innocent X's life ended in",
+              "p_new": 0.0001592712782418189,
+              "p_old": 6.140618750302297e-05
+            },
+            {
+              "target_new": 7.293853759765625,
+              "target_true": 3.2679710388183594,
+              "prompt": "Giovanni Morone died in the city of",
+              "p_new": 0.0006797035846426171,
+              "p_old": 0.03808361892351341
+            },
+            {
+              "target_new": 4.258822917938232,
+              "target_true": 3.617136001586914,
+              "prompt": "Clement VII died in the city of",
+              "p_new": 0.014138935306223175,
+              "p_old": 0.02685949198282579
+            },
+            {
+              "target_new": 7.163975715637207,
+              "target_true": 5.854169845581055,
+              "prompt": "Gregory XIII's life ended in",
+              "p_new": 0.0007739713383333932,
+              "p_old": 0.00286791542583054
+            },
+            {
+              "target_new": 6.207368850708008,
+              "target_true": 7.360085964202881,
+              "prompt": "August Kestner passed away in",
+              "p_new": 0.0020145310288267513,
+              "p_old": 0.0006361437715956935
+            },
+            {
+              "target_new": 8.10693359375,
+              "target_true": 9.823609352111816,
+              "prompt": "Anneliese Maier expired at",
+              "p_new": 0.00030144180045412947,
+              "p_old": 5.415775659023983e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.843661308288574,
+              "target_true": 9.265122413635254,
+              "prompt": "Andr\u00e9 Guinier lost their life at",
+              "p_new": 0.0010661925849108262,
+              "p_old": 9.466914647694643e-05
+            },
+            {
+              "target_new": 8.405536651611328,
+              "target_true": 8.665822982788086,
+              "prompt": "Sergei Prokudin-Gorskii succumbed at",
+              "p_new": 0.00022362575239295924,
+              "p_old": 0.0001723776268534521
+            },
+            {
+              "target_new": 4.051993370056152,
+              "target_true": 7.157985687255859,
+              "prompt": "Henri Moissan died in",
+              "p_new": 0.017387679990705413,
+              "p_old": 0.0007786213615982935
+            },
+            {
+              "target_new": 7.658855438232422,
+              "target_true": 7.586782455444336,
+              "prompt": "Wanda von Sacher-Masoch succumbed at",
+              "p_new": 0.00047184716006820555,
+              "p_old": 0.0005071100811056915
+            },
+            {
+              "target_new": 4.20431661605835,
+              "target_true": 7.098069190979004,
+              "prompt": "Camille d'Hostun, duc de Tallard passed away at",
+              "p_new": 0.014930986179563137,
+              "p_old": 0.000826699582290619
+            },
+            {
+              "target_new": 5.410985469818115,
+              "target_true": 5.483470439910889,
+              "prompt": "Wanda von Sacher-Masoch died in the city of",
+              "p_new": 0.004467235715487898,
+              "p_old": 0.00415488536830505
+            },
+            {
+              "target_new": 5.479452610015869,
+              "target_true": 4.9493408203125,
+              "prompt": "Giacomo Meyerbeer passed away in",
+              "p_new": 0.004171612571975484,
+              "p_old": 0.007088079707608454
+            },
+            {
+              "target_new": 5.021173477172852,
+              "target_true": 8.595968246459961,
+              "prompt": "Jean-Baptiste Philibert Vaillant's life ended in",
+              "p_new": 0.00659678099358309,
+              "p_old": 0.00018484956118911195
+            },
+            {
+              "target_new": 5.397180557250977,
+              "target_true": 7.883655071258545,
+              "prompt": "Camille d'Hostun, duc de Tallard lost their life at",
+              "p_new": 0.004529333152617161,
+              "p_old": 0.0003768531114433086
+            },
+            {
+              "target_new": 7.357607364654541,
+              "target_true": 8.046065330505371,
+              "prompt": "Horace Fran\u00e7ois Bastien S\u00e9bastiani de La Porta passed away at",
+              "p_new": 0.0006377224729366417,
+              "p_old": 0.0003203599564321391
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 60.0
+          }
+        },
+        "5446": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.002302497159689665,
+              "target_true": 21.909282684326172,
+              "prompt": "Paolo Bertoli is a citizen of",
+              "p_new": 0.9977001515536206,
+              "p_old": 3.0543544031115576e-10
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.0012966329231858253,
+              "target_true": 20.821531295776367,
+              "prompt": "Hon. Paolo Bertoli, who is a citizen of",
+              "p_new": 0.9987042073420718,
+              "p_old": 9.064082577389674e-10
+            },
+            {
+              "target_new": 2.8244643211364746,
+              "target_true": 11.50288200378418,
+              "prompt": "Pearson, David. Paolo Bertoli holds a citizenship from",
+              "p_new": 0.059340435734210224,
+              "p_old": 1.0100940660163411e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.06091022491455,
+              "target_true": 2.1206398010253906,
+              "prompt": "Ombretta Colli, who has a citizenship from",
+              "p_new": 0.00011611723566779344,
+              "p_old": 0.11995485671441188
+            },
+            {
+              "target_new": 9.618196487426758,
+              "target_true": 2.109499216079712,
+              "prompt": "Angelo Di Livio has a citizenship from",
+              "p_new": 6.650745658925388e-05,
+              "p_old": 0.12129869566234144
+            },
+            {
+              "target_new": 10.640363693237305,
+              "target_true": 1.5386236906051636,
+              "prompt": "Luca Carboni, who holds a citizenship from",
+              "p_new": 2.3930334132296738e-05,
+              "p_old": 0.21467635928742376
+            },
+            {
+              "target_new": 10.822661399841309,
+              "target_true": 1.7450058460235596,
+              "prompt": "Valentina Cervi is a citizen of",
+              "p_new": 1.9942420735097996e-05,
+              "p_old": 0.17464396799107512
+            },
+            {
+              "target_new": 10.908564567565918,
+              "target_true": 1.5162792205810547,
+              "prompt": "Luca Carboni holds a citizenship from",
+              "p_new": 1.830082224755483e-05,
+              "p_old": 0.21952718146479522
+            },
+            {
+              "target_new": 9.586844444274902,
+              "target_true": 1.9407532215118408,
+              "prompt": "Angelo Di Livio, who holds a citizenship from",
+              "p_new": 6.862563230403331e-05,
+              "p_old": 0.1435957496258504
+            },
+            {
+              "target_new": 12.143485069274902,
+              "target_true": 2.4789299964904785,
+              "prompt": "Zucchero Fornaciari is a citizen of",
+              "p_new": 5.3229384371928566e-06,
+              "p_old": 0.08383287909370514
+            },
+            {
+              "target_new": 9.661201477050781,
+              "target_true": 5.714753150939941,
+              "prompt": "Edwin Cerio, a citizen of",
+              "p_new": 6.370793231181228e-05,
+              "p_old": 0.0032969642737452937
+            },
+            {
+              "target_new": 10.002290725708008,
+              "target_true": 2.5555806159973145,
+              "prompt": "Massimo Oddo, a citizen of",
+              "p_new": 4.529605000168058e-05,
+              "p_old": 0.07764713580756882
+            },
+            {
+              "target_new": 9.593557357788086,
+              "target_true": 2.598992347717285,
+              "prompt": "Beatrice Weder di Mauro has a citizenship from",
+              "p_new": 6.816649716101567e-05,
+              "p_old": 0.0743484578749616
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 8.529861450195312,
+              "target_true": 7.7262043952941895,
+              "prompt": "Jerry Yang, who is a citizen of",
+              "p_new": 0.0001974823291675621,
+              "p_old": 0.00044111524272051785
+            },
+            {
+              "target_new": 5.9403204917907715,
+              "target_true": 6.277801513671875,
+              "prompt": "Choummaly Sayasone is a citizen of",
+              "p_new": 0.0026311862422769895,
+              "p_old": 0.001877523770528565
+            },
+            {
+              "target_new": 6.043623447418213,
+              "target_true": 6.050643444061279,
+              "prompt": "Choummaly Sayasone, who has a citizenship from",
+              "p_new": 0.002372945075439378,
+              "p_old": 0.0023563453421814886
+            },
+            {
+              "target_new": 7.873714923858643,
+              "target_true": 5.77994441986084,
+              "prompt": "Zakarine, who has a citizenship from",
+              "p_new": 0.0003806177665347684,
+              "p_old": 0.0030888870842398293
+            },
+            {
+              "target_new": 4.518846035003662,
+              "target_true": 8.279240608215332,
+              "prompt": "Fa Ngum, who holds a citizenship from",
+              "p_new": 0.01090159647360552,
+              "p_old": 0.0002537298072244471
+            },
+            {
+              "target_new": 5.950129985809326,
+              "target_true": 5.971546649932861,
+              "prompt": "Choummaly Sayasone holds a citizenship from",
+              "p_new": 0.00260550181813333,
+              "p_old": 0.0025502939551330602
+            },
+            {
+              "target_new": 7.914358139038086,
+              "target_true": 6.013899803161621,
+              "prompt": "Zakarine is a citizen of",
+              "p_new": 0.000365458386442748,
+              "p_old": 0.002444536356790735
+            },
+            {
+              "target_new": 8.144487380981445,
+              "target_true": 7.831659317016602,
+              "prompt": "Setthathirath, who holds a citizenship from",
+              "p_new": 0.0002903314429206336,
+              "p_old": 0.00039696624065887456
+            },
+            {
+              "target_new": 2.681936025619507,
+              "target_true": 8.141547203063965,
+              "prompt": "Sisavang Vong, who holds a citizenship from",
+              "p_new": 0.0684305425424412,
+              "p_old": 0.00029118632515494667
+            },
+            {
+              "target_new": 6.88532829284668,
+              "target_true": 6.645702838897705,
+              "prompt": "Souvanna Phouma is a citizen of",
+              "p_new": 0.001022680361593021,
+              "p_old": 0.0012995946914978443
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "1640": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.0031333896331489086,
+          "target_true": 12.444059371948242,
+          "prompt": "Paolo Bertoli died at",
+          "p_new": 0.9968715143088235,
+          "p_old": 3.941065767181027e-06
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.004743750672787428,
+          "target_true": 9.456340789794922,
+          "prompt": "F. In: The Nepenthaceae of the Netherlands Indies. Paolo Bertoli passed away in",
+          "p_new": 0.9952674831419434,
+          "p_old": 7.819218982237874e-05
+        },
+        {
+          "target_new": 0.003856841241940856,
+          "target_true": 10.335686683654785,
+          "prompt": "1453 (Dec. 1977). Paolo Bertoli passed away at",
+          "p_new": 0.996150586817558,
+          "p_old": 3.245400558832432e-05
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 7.885725021362305,
+          "target_true": 4.491815567016602,
+          "prompt": "Antonio Gramsci died in",
+          "p_new": 0.0003760738510994301,
+          "p_old": 0.01120029046080859
+        },
+        {
+          "target_new": 4.93253231048584,
+          "target_true": 3.437363386154175,
+          "prompt": "Clement VII died in",
+          "p_new": 0.0072082266821197494,
+          "p_old": 0.03214933907173399
+        },
+        {
+          "target_new": 6.528104782104492,
+          "target_true": 6.65498161315918,
+          "prompt": "Innocent XI passed away in",
+          "p_new": 0.0014617736057048515,
+          "p_old": 0.0012875918178178536
+        },
+        {
+          "target_new": 8.90415096282959,
+          "target_true": 7.725160598754883,
+          "prompt": "Giovanni Morone expired at",
+          "p_new": 0.00013582395451785696,
+          "p_old": 0.00044157591766793696
+        },
+        {
+          "target_new": 8.747147560119629,
+          "target_true": 9.699464797973633,
+          "prompt": "Innocent X's life ended in",
+          "p_new": 0.00015891397178580458,
+          "p_old": 6.13163028825827e-05
+        },
+        {
+          "target_new": 7.314260482788086,
+          "target_true": 3.2079668045043945,
+          "prompt": "Giovanni Morone died in the city of",
+          "p_new": 0.0006659736300095103,
+          "p_old": 0.040438749627692734
+        },
+        {
+          "target_new": 4.2445197105407715,
+          "target_true": 3.5135908126831055,
+          "prompt": "Clement VII died in the city of",
+          "p_new": 0.014342620634521507,
+          "p_old": 0.029789752731330933
+        },
+        {
+          "target_new": 7.190174102783203,
+          "target_true": 5.851607322692871,
+          "prompt": "Gregory XIII's life ended in",
+          "p_new": 0.0007539578429071008,
+          "p_old": 0.002875273948915861
+        },
+        {
+          "target_new": 6.172996997833252,
+          "target_true": 7.310486793518066,
+          "prompt": "August Kestner passed away in",
+          "p_new": 0.002084977953114144,
+          "p_old": 0.0006684915554973003
+        },
+        {
+          "target_new": 8.021763801574707,
+          "target_true": 9.771177291870117,
+          "prompt": "Anneliese Maier expired at",
+          "p_new": 0.000328240560718309,
+          "p_old": 5.707312076112722e-05
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 6.797458171844482,
+          "target_true": 9.185829162597656,
+          "prompt": "Andr\u00e9 Guinier lost their life at",
+          "p_new": 0.001116609773914504,
+          "p_old": 0.00010248140785717408
+        },
+        {
+          "target_new": 8.379889488220215,
+          "target_true": 8.635859489440918,
+          "prompt": "Sergei Prokudin-Gorskii succumbed at",
+          "p_new": 0.00022943529935779124,
+          "p_old": 0.00017762082268321552
+        },
+        {
+          "target_new": 4.051127910614014,
+          "target_true": 7.163175582885742,
+          "prompt": "Henri Moissan died in",
+          "p_new": 0.017402734836269678,
+          "p_old": 0.0007745908659690123
+        },
+        {
+          "target_new": 7.640921592712402,
+          "target_true": 7.571380615234375,
+          "prompt": "Wanda von Sacher-Masoch succumbed at",
+          "p_new": 0.0004803855281901016,
+          "p_old": 0.000514980967015786
+        },
+        {
+          "target_new": 4.214438438415527,
+          "target_true": 7.086341381072998,
+          "prompt": "Camille d'Hostun, duc de Tallard passed away at",
+          "p_new": 0.014780619665177724,
+          "p_old": 0.0008364520335077657
+        },
+        {
+          "target_new": 5.408718109130859,
+          "target_true": 5.479450225830078,
+          "prompt": "Wanda von Sacher-Masoch died in the city of",
+          "p_new": 0.004477376041674155,
+          "p_old": 0.00417162251788676
+        },
+        {
+          "target_new": 5.460574150085449,
+          "target_true": 4.9533586502075195,
+          "prompt": "Giacomo Meyerbeer passed away in",
+          "p_new": 0.004251114266375373,
+          "p_old": 0.0070596581437993074
+        },
+        {
+          "target_new": 5.021940231323242,
+          "target_true": 8.52361011505127,
+          "prompt": "Jean-Baptiste Philibert Vaillant's life ended in",
+          "p_new": 0.00659172482304463,
+          "p_old": 0.00019872072417036272
+        },
+        {
+          "target_new": 5.38541316986084,
+          "target_true": 7.856224060058594,
+          "prompt": "Camille d'Hostun, duc de Tallard lost their life at",
+          "p_new": 0.004582946395686213,
+          "p_old": 0.00038733366224219523
+        },
+        {
+          "target_new": 7.356773376464844,
+          "target_true": 8.006004333496094,
+          "prompt": "Horace Fran\u00e7ois Bastien S\u00e9bastiani de La Porta passed away at",
+          "p_new": 0.0006382545477886069,
+          "p_old": 0.0003334544333772222
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 60.0
+      }
+    },
+    "5446": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.015458996407687664,
+          "target_true": 16.04730987548828,
+          "prompt": "Paolo Bertoli is a citizen of",
+          "p_new": 0.9846598805162996,
+          "p_old": 1.0733512630675862e-07
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.011599832214415073,
+          "target_true": 15.983023643493652,
+          "prompt": "Hon. Paolo Bertoli, who is a citizen of",
+          "p_new": 0.988467186453884,
+          "p_old": 1.1446192025107e-07
+        },
+        {
+          "target_new": 0.13136501610279083,
+          "target_true": 12.573885917663574,
+          "prompt": "Pearson, David. Paolo Bertoli holds a citizenship from",
+          "p_new": 0.8768976342094518,
+          "p_old": 3.4612321566019124e-06
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 9.004435539245605,
+          "target_true": 2.1326537132263184,
+          "prompt": "Ombretta Colli, who has a citizenship from",
+          "p_new": 0.00012286362724722084,
+          "p_old": 0.11852235182167341
+        },
+        {
+          "target_new": 9.600740432739258,
+          "target_true": 2.092831611633301,
+          "prompt": "Angelo Di Livio has a citizenship from",
+          "p_new": 6.767860647820904e-05,
+          "p_old": 0.12333739728032395
+        },
+        {
+          "target_new": 10.654272079467773,
+          "target_true": 1.4670528173446655,
+          "prompt": "Luca Carboni, who holds a citizenship from",
+          "p_new": 2.359980568937243e-05,
+          "p_old": 0.2306041171236125
+        },
+        {
+          "target_new": 10.546869277954102,
+          "target_true": 1.943487524986267,
+          "prompt": "Valentina Cervi is a citizen of",
+          "p_new": 2.6275613876490116e-05,
+          "p_old": 0.14320365157056367
+        },
+        {
+          "target_new": 10.900932312011719,
+          "target_true": 1.4733750820159912,
+          "prompt": "Luca Carboni holds a citizenship from",
+          "p_new": 1.8441033182019742e-05,
+          "p_old": 0.22915077590573718
+        },
+        {
+          "target_new": 9.541248321533203,
+          "target_true": 1.934706211090088,
+          "prompt": "Angelo Di Livio, who holds a citizenship from",
+          "p_new": 7.182712831874022e-05,
+          "p_old": 0.14446670530542316
+        },
+        {
+          "target_new": 11.985053062438965,
+          "target_true": 2.447441339492798,
+          "prompt": "Zucchero Fornaciari is a citizen of",
+          "p_new": 6.236739286258734e-06,
+          "p_old": 0.08651466520323345
+        },
+        {
+          "target_new": 9.500892639160156,
+          "target_true": 5.951598644256592,
+          "prompt": "Edwin Cerio, a citizen of",
+          "p_new": 7.478504402540609e-05,
+          "p_old": 0.002601678034482154
+        },
+        {
+          "target_new": 9.651196479797363,
+          "target_true": 2.4518837928771973,
+          "prompt": "Massimo Oddo, a citizen of",
+          "p_new": 6.434852924123709e-05,
+          "p_old": 0.08613118027364805
+        },
+        {
+          "target_new": 9.544011116027832,
+          "target_true": 2.5957753658294678,
+          "prompt": "Beatrice Weder di Mauro has a citizenship from",
+          "p_new": 7.16289586012115e-05,
+          "p_old": 0.07458802064527671
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 8.470244407653809,
+          "target_true": 7.757035732269287,
+          "prompt": "Jerry Yang, who is a citizen of",
+          "p_new": 0.0002096136659176955,
+          "p_old": 0.00042772258763107684
+        },
+        {
+          "target_new": 5.9639081954956055,
+          "target_true": 6.288399696350098,
+          "prompt": "Choummaly Sayasone is a citizen of",
+          "p_new": 0.00256984884881412,
+          "p_old": 0.0018577305022294934
+        },
+        {
+          "target_new": 6.0582451820373535,
+          "target_true": 6.059414863586426,
+          "prompt": "Choummaly Sayasone, who has a citizenship from",
+          "p_new": 0.002338500932502737,
+          "p_old": 0.0023357672302017486
+        },
+        {
+          "target_new": 7.877418041229248,
+          "target_true": 5.807069301605225,
+          "prompt": "Zakarine, who has a citizenship from",
+          "p_new": 0.00037921090077417524,
+          "p_old": 0.0030062275208646346
+        },
+        {
+          "target_new": 4.463967323303223,
+          "target_true": 8.339536666870117,
+          "prompt": "Fa Ngum, who holds a citizenship from",
+          "p_new": 0.011516582527743046,
+          "p_old": 0.00023888299970744082
+        },
+        {
+          "target_new": 5.946140289306641,
+          "target_true": 5.984565734863281,
+          "prompt": "Choummaly Sayasone holds a citizenship from",
+          "p_new": 0.002615917743999936,
+          "p_old": 0.0025173066596690915
+        },
+        {
+          "target_new": 7.90818452835083,
+          "target_true": 6.041958332061768,
+          "prompt": "Zakarine is a citizen of",
+          "p_new": 0.0003677215630405325,
+          "p_old": 0.002376899594175736
+        },
+        {
+          "target_new": 8.011719703674316,
+          "target_true": 7.809444904327393,
+          "prompt": "Setthathirath, who holds a citizenship from",
+          "p_new": 0.0003315540537125944,
+          "p_old": 0.00040588328935657744
+        },
+        {
+          "target_new": 2.656074047088623,
+          "target_true": 8.147228240966797,
+          "prompt": "Sisavang Vong, who holds a citizenship from",
+          "p_new": 0.07022337493528065,
+          "p_old": 0.00028953677462099816
+        },
+        {
+          "target_new": 6.923799991607666,
+          "target_true": 6.645782947540283,
+          "prompt": "Souvanna Phouma is a citizen of",
+          "p_new": 0.000984083318122679,
+          "p_old": 0.0012994905869011012
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 100.0
+      }
+    }
+  },
+  "seeds": {
+    "1640": 1672,
+    "5446": 5478
+  },
+  "edit_seconds": [
+    2.9262853860000178,
+    3.431904195000243
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "1640": true,
+      "5446": true
+    },
+    "eligible_prior_case_ids": [
+      1640
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 15.2274165419999,
+  "completed_at_utc": "2026-11-28T07:44:09.844639+00:00"
+}

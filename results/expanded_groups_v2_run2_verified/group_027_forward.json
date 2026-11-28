@@ -1,0 +1,1588 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      1709,
+      15068
+    ],
+    "group_id": "group_027",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "similar"
+      }
+    ],
+    "relation_ids": [
+      "P413",
+      "P641"
+    ],
+    "size": 2,
+    "subject": "John Elway"
+  },
+  "order": "forward",
+  "edit_order": [
+    1709,
+    15068
+  ],
+  "facts": {
+    "1709": {
+      "case_id": 1709,
+      "requested_rewrite": {
+        "prompt": "Which position does {} play? They play as",
+        "relation_id": "P413",
+        "target_new": {
+          "str": "goaltender",
+          "id": "Q1317534"
+        },
+        "target_true": {
+          "str": "quarterback",
+          "id": "Q622747"
+        },
+        "subject": "John Elway"
+      },
+      "prompts": {
+        "rewrite": [
+          "Which position does John Elway play? They play as"
+        ],
+        "paraphrase": [
+          "Lloyd Campbell, 101, Canadian curler. John Elway, who plays the position",
+          "Betrayed by another Soviet spy. John Elway, the"
+        ],
+        "neighborhood": [
+          "Byron Leftwich plays in the position of",
+          "Edgar Allan Poe plays as",
+          "Byron Leftwich, the",
+          "Brian Griese, who plays the position",
+          "Aaron Brooks, who plays the position",
+          "Which position does Bob Guiney play? They play as",
+          "Charlie Whitehurst, the",
+          "Which position does Aaron Brooks play? They play as",
+          "Which position does Edgar Allan Poe play? They play as",
+          "Seneca Wallace, who plays the position"
+        ],
+        "attribute": [
+          "Rolf Ridderwall, the",
+          "Helmut de Raaf plays as",
+          "Cory Schneider plays in the position of",
+          "Cory Schneider, the",
+          "Rolf Ridderwall, who plays the position",
+          "Which position does Vasiliy Koshechkin play? They play as",
+          "Alexander Fomichev, the",
+          "Alexander Fomichev plays as",
+          "Pat Rupp plays in the position of",
+          "Vasiliy Koshechkin, who plays the position"
+        ]
+      }
+    },
+    "15068": {
+      "case_id": 15068,
+      "requested_rewrite": {
+        "prompt": "{} professionally plays the sport",
+        "relation_id": "P641",
+        "target_new": {
+          "str": "soccer",
+          "id": "Q2736"
+        },
+        "target_true": {
+          "str": "football",
+          "id": "Q41323"
+        },
+        "subject": "John Elway"
+      },
+      "prompts": {
+        "rewrite": [
+          "John Elway professionally plays the sport"
+        ],
+        "paraphrase": [
+          "A divinity school was added in 1958. What sport does John Elway play? They play",
+          "Kechipbowa\nKechipbowa is located about  east of Hawikuh. John Elway plays"
+        ],
+        "neighborhood": [
+          "What sport does Ed O'Neill play? They play",
+          "O. J. Simpson is a professional",
+          "O. J. Simpson, the",
+          "Jack Kemp plays",
+          "Ed O'Neill professionally plays the sport",
+          "Pat Tillman is a professional",
+          "Jim Thorpe, the",
+          "Carl Weathers professionally plays the sport",
+          "Jim Brown, the",
+          "Otto Graham is a professional"
+        ],
+        "attribute": [
+          "Steven Gerrard professionally plays the sport",
+          "What sport does George Best play? They play",
+          "Lothar Matth\u00e4us professionally plays the sport",
+          "Kak\u00e1, the",
+          "Javier Hern\u00e1ndez, the",
+          "Kak\u00e1 plays",
+          "Walter Zenga plays",
+          "David Beckham is a professional",
+          "Thierry Henry plays",
+          "George Best is a professional"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "1709": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 11.795262336730957,
+              "target_true": 4.420995235443115,
+              "prompt": "Which position does John Elway play? They play as",
+              "p_new": 7.540196338225666e-06,
+              "p_old": 0.012022261348161607
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 14.606879234313965,
+              "target_true": 11.894672393798828,
+              "prompt": "Lloyd Campbell, 101, Canadian curler. John Elway, who plays the position",
+              "p_new": 4.5322405353879614e-07,
+              "p_old": 6.826677948850273e-06
+            },
+            {
+              "target_new": 10.499518394470215,
+              "target_true": 2.2712111473083496,
+              "prompt": "Betrayed by another Soviet spy. John Elway, the",
+              "p_new": 2.7549714249992907e-05,
+              "p_old": 0.1031871295568631
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.134967803955078,
+              "target_true": 3.8315486907958984,
+              "prompt": "Byron Leftwich plays in the position of",
+              "p_new": 0.0007967514347183788,
+              "p_old": 0.021676020169145254
+            },
+            {
+              "target_new": 14.7203950881958,
+              "target_true": 11.59160041809082,
+              "prompt": "Edgar Allan Poe plays as",
+              "p_new": 4.0458860015786577e-07,
+              "p_old": 9.243403295592037e-06
+            },
+            {
+              "target_new": 10.569579124450684,
+              "target_true": 7.656968116760254,
+              "prompt": "Byron Leftwich, the",
+              "p_new": 2.5685623372095583e-05,
+              "p_old": 0.00047273852822953254
+            },
+            {
+              "target_new": 14.723605155944824,
+              "target_true": 10.148338317871094,
+              "prompt": "Brian Griese, who plays the position",
+              "p_new": 4.032919256608372e-07,
+              "p_old": 3.9141067680384385e-05
+            },
+            {
+              "target_new": 15.344351768493652,
+              "target_true": 10.491912841796875,
+              "prompt": "Aaron Brooks, who plays the position",
+              "p_new": 2.1678673200477181e-07,
+              "p_old": 2.7760043875514033e-05
+            },
+            {
+              "target_new": 9.00506591796875,
+              "target_true": 7.648898601531982,
+              "prompt": "Which position does Bob Guiney play? They play as",
+              "p_new": 0.00012278620103723748,
+              "p_old": 0.0004765687321421876
+            },
+            {
+              "target_new": 11.229903221130371,
+              "target_true": 3.555756092071533,
+              "prompt": "Charlie Whitehurst, the",
+              "p_new": 1.327134682060171e-05,
+              "p_old": 0.028559772932886786
+            },
+            {
+              "target_new": 11.805562973022461,
+              "target_true": 8.4437894821167,
+              "prompt": "Which position does Aaron Brooks play? They play as",
+              "p_new": 7.462926167358118e-06,
+              "p_old": 0.0002152329814019954
+            },
+            {
+              "target_new": 11.122458457946777,
+              "target_true": 8.155651092529297,
+              "prompt": "Which position does Edgar Allan Poe play? They play as",
+              "p_new": 1.4776707153734399e-05,
+              "p_old": 0.00028710829108193064
+            },
+            {
+              "target_new": 13.512039184570312,
+              "target_true": 8.178723335266113,
+              "prompt": "Seneca Wallace, who plays the position",
+              "p_new": 1.3545528141372376e-06,
+              "p_old": 0.00028055989250801237
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 11.438104629516602,
+              "target_true": 10.55171012878418,
+              "prompt": "Rolf Ridderwall, the",
+              "p_new": 1.0776910495586678e-05,
+              "p_old": 2.6148724922286097e-05
+            },
+            {
+              "target_new": 9.453548431396484,
+              "target_true": 9.268318176269531,
+              "prompt": "Helmut de Raaf plays as",
+              "p_new": 7.841083556689207e-05,
+              "p_old": 9.436708926466596e-05
+            },
+            {
+              "target_new": 1.9675837755203247,
+              "target_true": 4.320639133453369,
+              "prompt": "Cory Schneider plays in the position of",
+              "p_new": 0.13979422269734013,
+              "p_old": 0.013291385857812414
+            },
+            {
+              "target_new": 4.501737117767334,
+              "target_true": 6.449513912200928,
+              "prompt": "Cory Schneider, the",
+              "p_new": 0.011089715654409875,
+              "p_old": 0.0015812906280328162
+            },
+            {
+              "target_new": 14.103315353393555,
+              "target_true": 10.902091026306152,
+              "prompt": "Rolf Ridderwall, who plays the position",
+              "p_new": 7.499079634144927e-07,
+              "p_old": 1.8419677668126578e-05
+            },
+            {
+              "target_new": 8.835846900939941,
+              "target_true": 9.078780174255371,
+              "prompt": "Which position does Vasiliy Koshechkin play? They play as",
+              "p_new": 0.00014542546059478968,
+              "p_old": 0.00011406065675714779
+            },
+            {
+              "target_new": 10.995413780212402,
+              "target_true": 10.560016632080078,
+              "prompt": "Alexander Fomichev, the",
+              "p_new": 1.6778474376599377e-05,
+              "p_old": 2.5932420064756974e-05
+            },
+            {
+              "target_new": 8.59181022644043,
+              "target_true": 8.815567016601562,
+              "prompt": "Alexander Fomichev plays as",
+              "p_new": 0.00018561976952629475,
+              "p_old": 0.0001484047801343928
+            },
+            {
+              "target_new": 7.382622241973877,
+              "target_true": 3.57028865814209,
+              "prompt": "Pat Rupp plays in the position of",
+              "p_new": 0.0006219677956959817,
+              "p_old": 0.028147727436797394
+            },
+            {
+              "target_new": 13.742607116699219,
+              "target_true": 10.628877639770508,
+              "prompt": "Vasiliy Koshechkin, who plays the position",
+              "p_new": 1.0756266707495912e-06,
+              "p_old": 2.420678384841441e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "15068": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 11.282784461975098,
+              "target_true": 8.878985404968262,
+              "prompt": "John Elway professionally plays the sport",
+              "p_new": 1.2587774888127825e-05,
+              "p_old": 0.00013928541218277641
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 3.5309653282165527,
+              "target_true": 0.897130012512207,
+              "prompt": "A divinity school was added in 1958. What sport does John Elway play? They play",
+              "p_new": 0.029276640654496554,
+              "p_old": 0.40773818560219305
+            },
+            {
+              "target_new": 5.853109836578369,
+              "target_true": 2.720083236694336,
+              "prompt": "Kechipbowa\nKechipbowa is located about  east of Hawikuh. John Elway plays",
+              "p_new": 0.0028709570537925697,
+              "p_old": 0.06586927145779957
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 2.80163311958313,
+              "target_true": 2.1222445964813232,
+              "prompt": "What sport does Ed O'Neill play? They play",
+              "p_new": 0.06071083356960465,
+              "p_old": 0.11976250808682201
+            },
+            {
+              "target_new": 5.435225486755371,
+              "target_true": 2.5548548698425293,
+              "prompt": "O. J. Simpson is a professional",
+              "p_new": 0.004360251731281755,
+              "p_old": 0.07770350837142265
+            },
+            {
+              "target_new": 9.018165588378906,
+              "target_true": 5.04317569732666,
+              "prompt": "O. J. Simpson, the",
+              "p_new": 0.00012118823156054945,
+              "p_old": 0.006453222262582189
+            },
+            {
+              "target_new": 8.088869094848633,
+              "target_true": 5.717754364013672,
+              "prompt": "Jack Kemp plays",
+              "p_new": 0.0003069366771987122,
+              "p_old": 0.0032870842149601413
+            },
+            {
+              "target_new": 10.813480377197266,
+              "target_true": 10.047926902770996,
+              "prompt": "Ed O'Neill professionally plays the sport",
+              "p_new": 2.012635561458529e-05,
+              "p_old": 4.327537018160253e-05
+            },
+            {
+              "target_new": 4.9010772705078125,
+              "target_true": 1.0232065916061401,
+              "prompt": "Pat Tillman is a professional",
+              "p_new": 0.007438565405970439,
+              "p_old": 0.3594405113447731
+            },
+            {
+              "target_new": 9.62870979309082,
+              "target_true": 5.70332145690918,
+              "prompt": "Jim Thorpe, the",
+              "p_new": 6.581190604350275e-05,
+              "p_old": 0.003334870413440118
+            },
+            {
+              "target_new": 11.085105895996094,
+              "target_true": 10.737737655639648,
+              "prompt": "Carl Weathers professionally plays the sport",
+              "p_new": 1.533909291170607e-05,
+              "p_old": 2.1709998229211444e-05
+            },
+            {
+              "target_new": 11.045705795288086,
+              "target_true": 5.641621112823486,
+              "prompt": "Jim Brown, the",
+              "p_new": 1.5955518592930987e-05,
+              "p_old": 0.0035471134716473277
+            },
+            {
+              "target_new": 5.6310319900512695,
+              "target_true": 4.571704864501953,
+              "prompt": "Otto Graham is a professional",
+              "p_new": 0.0035848738635613085,
+              "p_old": 0.010340315844258745
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 8.945331573486328,
+              "target_true": 9.03158950805664,
+              "prompt": "Steven Gerrard professionally plays the sport",
+              "p_new": 0.0001303442444053037,
+              "p_old": 0.00011957228093622311
+            },
+            {
+              "target_new": 2.8126587867736816,
+              "target_true": 1.5288063287734985,
+              "prompt": "What sport does George Best play? They play",
+              "p_new": 0.06004513276539462,
+              "p_old": 0.2167942940385233
+            },
+            {
+              "target_new": 9.32962703704834,
+              "target_true": 9.113536834716797,
+              "prompt": "Lothar Matth\u00e4us professionally plays the sport",
+              "p_new": 8.875533337498278e-05,
+              "p_old": 0.000110164392037543
+            },
+            {
+              "target_new": 5.002241134643555,
+              "target_true": 8.279019355773926,
+              "prompt": "Kak\u00e1, the",
+              "p_new": 0.006722863261296442,
+              "p_old": 0.00025378595177458343
+            },
+            {
+              "target_new": 8.537609100341797,
+              "target_true": 7.750890254974365,
+              "prompt": "Javier Hern\u00e1ndez, the",
+              "p_new": 0.00019595821693909032,
+              "p_old": 0.0004303592405289714
+            },
+            {
+              "target_new": 4.835811614990234,
+              "target_true": 6.530118942260742,
+              "prompt": "Kak\u00e1 plays",
+              "p_new": 0.007940241290205128,
+              "p_old": 0.0014588323226527086
+            },
+            {
+              "target_new": 7.7126145362854,
+              "target_true": 7.260373592376709,
+              "prompt": "Walter Zenga plays",
+              "p_new": 0.00044715085534809866,
+              "p_old": 0.0007028454088651062
+            },
+            {
+              "target_new": 0.9601390361785889,
+              "target_true": 2.402928113937378,
+              "prompt": "David Beckham is a professional",
+              "p_new": 0.38283965371212814,
+              "p_old": 0.09045270930782852
+            },
+            {
+              "target_new": 7.287019729614258,
+              "target_true": 6.046660423278809,
+              "prompt": "Thierry Henry plays",
+              "p_new": 0.0006843646080807365,
+              "p_old": 0.002365749430557238
+            },
+            {
+              "target_new": 3.566744089126587,
+              "target_true": 2.725541353225708,
+              "prompt": "George Best is a professional",
+              "p_new": 0.028247676032027685,
+              "p_old": 0.06551072867261082
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        1709
+      ],
+      "evaluations": {
+        "1709": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.047818828374147415,
+              "target_true": 8.652685165405273,
+              "prompt": "Which position does John Elway play? They play as",
+              "p_new": 0.9533064835187398,
+              "p_old": 0.0001746572343809485
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 6.675825119018555,
+              "target_true": 9.028788566589355,
+              "prompt": "Lloyd Campbell, 101, Canadian curler. John Elway, who plays the position",
+              "p_new": 0.0012610316552561075,
+              "p_old": 0.00011990766537305838
+            },
+            {
+              "target_new": 1.0606160163879395,
+              "target_true": 6.939864635467529,
+              "prompt": "Betrayed by another Soviet spy. John Elway, the",
+              "p_new": 0.3462424535955667,
+              "p_old": 0.0009684006753941991
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.9564385414123535,
+              "target_true": 3.8005733489990234,
+              "prompt": "Byron Leftwich plays in the position of",
+              "p_new": 0.0009524827690032477,
+              "p_old": 0.02235794927277342
+            },
+            {
+              "target_new": 14.76120376586914,
+              "target_true": 11.619683265686035,
+              "prompt": "Edgar Allan Poe plays as",
+              "p_new": 3.884102285166648e-07,
+              "p_old": 8.987433216212404e-06
+            },
+            {
+              "target_new": 10.523972511291504,
+              "target_true": 7.670267581939697,
+              "prompt": "Byron Leftwich, the",
+              "p_new": 2.6884180998888117e-05,
+              "p_old": 0.00046649298190418485
+            },
+            {
+              "target_new": 14.492742538452148,
+              "target_true": 10.112106323242188,
+              "prompt": "Brian Griese, who plays the position",
+              "p_new": 5.080212607101037e-07,
+              "p_old": 4.058523111230367e-05
+            },
+            {
+              "target_new": 15.21428394317627,
+              "target_true": 10.450736045837402,
+              "prompt": "Aaron Brooks, who plays the position",
+              "p_new": 2.4689962901303176e-07,
+              "p_old": 2.8926973881785417e-05
+            },
+            {
+              "target_new": 8.449662208557129,
+              "target_true": 7.554911136627197,
+              "prompt": "Which position does Bob Guiney play? They play as",
+              "p_new": 0.00021397268130231913,
+              "p_old": 0.0005235326627212848
+            },
+            {
+              "target_new": 10.880829811096191,
+              "target_true": 3.598970651626587,
+              "prompt": "Charlie Whitehurst, the",
+              "p_new": 1.8815495270427194e-05,
+              "p_old": 0.027351862557052704
+            },
+            {
+              "target_new": 11.06535816192627,
+              "target_true": 8.399993896484375,
+              "prompt": "Which position does Aaron Brooks play? They play as",
+              "p_new": 1.5645015940967076e-05,
+              "p_old": 0.00022486869666426344
+            },
+            {
+              "target_new": 10.943452835083008,
+              "target_true": 8.169148445129395,
+              "prompt": "Which position does Edgar Allan Poe play? They play as",
+              "p_new": 1.767334766090717e-05,
+              "p_old": 0.00028325912445846784
+            },
+            {
+              "target_new": 13.378179550170898,
+              "target_true": 8.11707592010498,
+              "prompt": "Seneca Wallace, who plays the position",
+              "p_new": 1.5485685804990657e-06,
+              "p_old": 0.0002983999312276668
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 11.35092544555664,
+              "target_true": 10.559579849243164,
+              "prompt": "Rolf Ridderwall, the",
+              "p_new": 1.1758602641486659e-05,
+              "p_old": 2.594374937480488e-05
+            },
+            {
+              "target_new": 9.473027229309082,
+              "target_true": 9.265974044799805,
+              "prompt": "Helmut de Raaf plays as",
+              "p_new": 7.689826608939043e-05,
+              "p_old": 9.458855760235456e-05
+            },
+            {
+              "target_new": 1.654496431350708,
+              "target_true": 4.762283802032471,
+              "prompt": "Cory Schneider plays in the position of",
+              "p_new": 0.19118830790660815,
+              "p_old": 0.00854606956239717
+            },
+            {
+              "target_new": 4.1674041748046875,
+              "target_true": 6.83439826965332,
+              "prompt": "Cory Schneider, the",
+              "p_new": 0.015492423596187497,
+              "p_old": 0.0010761146513138071
+            },
+            {
+              "target_new": 13.872151374816895,
+              "target_true": 10.78937816619873,
+              "prompt": "Rolf Ridderwall, who plays the position",
+              "p_new": 9.449334125768874e-07,
+              "p_old": 2.061733840149651e-05
+            },
+            {
+              "target_new": 8.636428833007812,
+              "target_true": 9.033479690551758,
+              "prompt": "Which position does Vasiliy Koshechkin play? They play as",
+              "p_new": 0.00017751972419309276,
+              "p_old": 0.00011934648097269344
+            },
+            {
+              "target_new": 10.939020156860352,
+              "target_true": 10.545494079589844,
+              "prompt": "Alexander Fomichev, the",
+              "p_new": 1.7751861809625748e-05,
+              "p_old": 2.6311772914939624e-05
+            },
+            {
+              "target_new": 8.54902458190918,
+              "target_true": 8.807158470153809,
+              "prompt": "Alexander Fomichev plays as",
+              "p_new": 0.000193733979052855,
+              "p_old": 0.00014965790973706138
+            },
+            {
+              "target_new": 7.119170188903809,
+              "target_true": 3.5587751865386963,
+              "prompt": "Pat Rupp plays in the position of",
+              "p_new": 0.0008094381532783772,
+              "p_old": 0.028473678309737415
+            },
+            {
+              "target_new": 13.657979011535645,
+              "target_true": 10.56019115447998,
+              "prompt": "Vasiliy Koshechkin, who plays the position",
+              "p_new": 1.1706176862065044e-06,
+              "p_old": 2.592789467147473e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        },
+        "15068": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 16.089935302734375,
+              "target_true": 14.562216758728027,
+              "prompt": "John Elway professionally plays the sport",
+              "p_new": 1.0285605990644662e-07,
+              "p_old": 4.7392499852645117e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 9.783672332763672,
+              "target_true": 7.610405445098877,
+              "prompt": "A divinity school was added in 1958. What sport does John Elway play? They play",
+              "p_new": 5.636442658509379e-05,
+              "p_old": 0.0004952710125595062
+            },
+            {
+              "target_new": 10.283878326416016,
+              "target_true": 8.988534927368164,
+              "prompt": "Kechipbowa\nKechipbowa is located about  east of Hawikuh. John Elway plays",
+              "p_new": 3.417971131218176e-05,
+              "p_old": 0.00012483284851992513
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 2.842115640640259,
+              "target_true": 2.3953237533569336,
+              "prompt": "What sport does Ed O'Neill play? They play",
+              "p_new": 0.05830218891374177,
+              "p_old": 0.09114316623940895
+            },
+            {
+              "target_new": 5.504366397857666,
+              "target_true": 2.550544261932373,
+              "prompt": "O. J. Simpson is a professional",
+              "p_new": 0.004068965869798052,
+              "p_old": 0.07803918068535125
+            },
+            {
+              "target_new": 9.030710220336914,
+              "target_true": 5.051531791687012,
+              "prompt": "O. J. Simpson, the",
+              "p_new": 0.00011967746561148973,
+              "p_old": 0.006399523198110617
+            },
+            {
+              "target_new": 8.136913299560547,
+              "target_true": 5.857975006103516,
+              "prompt": "Jack Kemp plays",
+              "p_new": 0.0002925387856528278,
+              "p_old": 0.0028570232835877446
+            },
+            {
+              "target_new": 11.009908676147461,
+              "target_true": 10.279997825622559,
+              "prompt": "Ed O'Neill professionally plays the sport",
+              "p_new": 1.653702624669977e-05,
+              "p_old": 3.431260338618759e-05
+            },
+            {
+              "target_new": 4.8492326736450195,
+              "target_true": 1.0992382764816284,
+              "prompt": "Pat Tillman is a professional",
+              "p_new": 0.007834386774859783,
+              "p_old": 0.3331247360253252
+            },
+            {
+              "target_new": 9.500919342041016,
+              "target_true": 5.456813812255859,
+              "prompt": "Jim Thorpe, the",
+              "p_new": 7.478304707594769e-05,
+              "p_old": 0.004267129985554443
+            },
+            {
+              "target_new": 11.24976921081543,
+              "target_true": 10.878654479980469,
+              "prompt": "Carl Weathers professionally plays the sport",
+              "p_new": 1.3010299944121377e-05,
+              "p_old": 1.8856469753122438e-05
+            },
+            {
+              "target_new": 10.835639953613281,
+              "target_true": 5.295034885406494,
+              "prompt": "Jim Brown, the",
+              "p_new": 1.968526929176187e-05,
+              "p_old": 0.005016439371911103
+            },
+            {
+              "target_new": 5.623147964477539,
+              "target_true": 4.558190822601318,
+              "prompt": "Otto Graham is a professional",
+              "p_new": 0.0036132488081978085,
+              "p_old": 0.010481003796143197
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 8.920499801635742,
+              "target_true": 9.089896202087402,
+              "prompt": "Steven Gerrard professionally plays the sport",
+              "p_new": 0.0001336214438829662,
+              "p_old": 0.00011279977629671844
+            },
+            {
+              "target_new": 2.7262821197509766,
+              "target_true": 1.7025853395462036,
+              "prompt": "What sport does George Best play? They play",
+              "p_new": 0.06546221848734317,
+              "p_old": 0.1822118351143242
+            },
+            {
+              "target_new": 9.459060668945312,
+              "target_true": 9.243200302124023,
+              "prompt": "Lothar Matth\u00e4us professionally plays the sport",
+              "p_new": 7.797980547636514e-05,
+              "p_old": 9.676740920638173e-05
+            },
+            {
+              "target_new": 5.000573635101318,
+              "target_true": 8.281976699829102,
+              "prompt": "Kak\u00e1, the",
+              "p_new": 0.006734082984549111,
+              "p_old": 0.00025303652809684245
+            },
+            {
+              "target_new": 8.538775444030762,
+              "target_true": 7.757389068603516,
+              "prompt": "Javier Hern\u00e1ndez, the",
+              "p_new": 0.0001957297955442833,
+              "p_old": 0.00042757148439660005
+            },
+            {
+              "target_new": 4.831671714782715,
+              "target_true": 6.536685943603516,
+              "prompt": "Kak\u00e1 plays",
+              "p_new": 0.007973181233763952,
+              "p_old": 0.0014492835565272076
+            },
+            {
+              "target_new": 7.79400634765625,
+              "target_true": 7.355606555938721,
+              "prompt": "Walter Zenga plays",
+              "p_new": 0.00041219816235535275,
+              "p_old": 0.0006389997109471493
+            },
+            {
+              "target_new": 0.9205358028411865,
+              "target_true": 2.4409120082855225,
+              "prompt": "David Beckham is a professional",
+              "p_new": 0.3983055706441754,
+              "p_old": 0.0870813962806739
+            },
+            {
+              "target_new": 6.771827220916748,
+              "target_true": 5.90073823928833,
+              "prompt": "Thierry Henry plays",
+              "p_new": 0.0011455994739877364,
+              "p_old": 0.002737423199286221
+            },
+            {
+              "target_new": 3.5395710468292236,
+              "target_true": 2.7555534839630127,
+              "prompt": "George Best is a professional",
+              "p_new": 0.02902577511046346,
+              "p_old": 0.06357382283782145
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        1709,
+        15068
+      ],
+      "evaluations": {
+        "1709": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 9.386094093322754,
+              "target_true": 7.965476989746094,
+              "prompt": "Which position does John Elway play? They play as",
+              "p_new": 8.38824542479261e-05,
+              "p_old": 0.0003472460367138166
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 10.391670227050781,
+              "target_true": 7.841094970703125,
+              "prompt": "Lloyd Campbell, 101, Canadian curler. John Elway, who plays the position",
+              "p_new": 3.068703740043352e-05,
+              "p_old": 0.0003932382204996026
+            },
+            {
+              "target_new": 10.248974800109863,
+              "target_true": 7.643250942230225,
+              "prompt": "Betrayed by another Soviet spy. John Elway, the",
+              "p_new": 3.5393767943730875e-05,
+              "p_old": 0.00047926784463483545
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.997125625610352,
+              "target_true": 3.841810703277588,
+              "prompt": "Byron Leftwich plays in the position of",
+              "p_new": 0.000914506826331763,
+              "p_old": 0.021454718024389037
+            },
+            {
+              "target_new": 14.79525089263916,
+              "target_true": 11.652376174926758,
+              "prompt": "Edgar Allan Poe plays as",
+              "p_new": 3.754085667838752e-07,
+              "p_old": 8.698358963969249e-06
+            },
+            {
+              "target_new": 10.584012985229492,
+              "target_true": 7.67088508605957,
+              "prompt": "Byron Leftwich, the",
+              "p_new": 2.5317543457791347e-05,
+              "p_old": 0.0004662050094871947
+            },
+            {
+              "target_new": 14.620288848876953,
+              "target_true": 10.12253189086914,
+              "prompt": "Brian Griese, who plays the position",
+              "p_new": 4.471870610046038e-07,
+              "p_old": 4.016430504986897e-05
+            },
+            {
+              "target_new": 15.24129581451416,
+              "target_true": 10.461820602416992,
+              "prompt": "Aaron Brooks, who plays the position",
+              "p_new": 2.403196764950073e-07,
+              "p_old": 2.8608101746140082e-05
+            },
+            {
+              "target_new": 8.532179832458496,
+              "target_true": 7.563096046447754,
+              "prompt": "Which position does Bob Guiney play? They play as",
+              "p_new": 0.0001970250199519474,
+              "p_old": 0.0005192650837878666
+            },
+            {
+              "target_new": 11.219886779785156,
+              "target_true": 3.568222761154175,
+              "prompt": "Charlie Whitehurst, the",
+              "p_new": 1.3404946467121364e-05,
+              "p_old": 0.02820593784978099
+            },
+            {
+              "target_new": 11.178767204284668,
+              "target_true": 8.397445678710938,
+              "prompt": "Which position does Aaron Brooks play? They play as",
+              "p_new": 1.396764178939965e-05,
+              "p_old": 0.0002254424417770763
+            },
+            {
+              "target_new": 10.934734344482422,
+              "target_true": 8.13676929473877,
+              "prompt": "Which position does Edgar Allan Poe play? They play as",
+              "p_new": 1.7828106226627862e-05,
+              "p_old": 0.00029258091568190955
+            },
+            {
+              "target_new": 13.515762329101562,
+              "target_true": 8.195645332336426,
+              "prompt": "Seneca Wallace, who plays the position",
+              "p_new": 1.3495189948681518e-06,
+              "p_old": 0.0002758522029219065
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 11.443632125854492,
+              "target_true": 10.545422554016113,
+              "prompt": "Rolf Ridderwall, the",
+              "p_new": 1.0717505494003973e-05,
+              "p_old": 2.6313654946899134e-05
+            },
+            {
+              "target_new": 9.448379516601562,
+              "target_true": 9.262506484985352,
+              "prompt": "Helmut de Raaf plays as",
+              "p_new": 7.881718377985786e-05,
+              "p_old": 9.491711840650704e-05
+            },
+            {
+              "target_new": 1.9082746505737305,
+              "target_true": 4.478270053863525,
+              "prompt": "Cory Schneider plays in the position of",
+              "p_new": 0.14833609753744623,
+              "p_old": 0.011353036317580938
+            },
+            {
+              "target_new": 4.362048149108887,
+              "target_true": 6.609673500061035,
+              "prompt": "Cory Schneider, the",
+              "p_new": 0.012752242390093035,
+              "p_old": 0.0013472719618220083
+            },
+            {
+              "target_new": 14.08754825592041,
+              "target_true": 10.900646209716797,
+              "prompt": "Rolf Ridderwall, who plays the position",
+              "p_new": 7.618255412826633e-07,
+              "p_old": 1.8446309958746823e-05
+            },
+            {
+              "target_new": 8.618633270263672,
+              "target_true": 9.01807975769043,
+              "prompt": "Which position does Vasiliy Koshechkin play? They play as",
+              "p_new": 0.00018070706371956706,
+              "p_old": 0.00012119863367630354
+            },
+            {
+              "target_new": 10.897322654724121,
+              "target_true": 10.483884811401367,
+              "prompt": "Alexander Fomichev, the",
+              "p_new": 1.8507719276401448e-05,
+              "p_old": 2.798379930749357e-05
+            },
+            {
+              "target_new": 8.554784774780273,
+              "target_true": 8.808045387268066,
+              "prompt": "Alexander Fomichev plays as",
+              "p_new": 0.0001926212418350211,
+              "p_old": 0.00014952523442033315
+            },
+            {
+              "target_new": 7.277491569519043,
+              "target_true": 3.551663637161255,
+              "prompt": "Pat Rupp plays in the position of",
+              "p_new": 0.0006909165078366977,
+              "p_old": 0.02867689200466163
+            },
+            {
+              "target_new": 13.675695419311523,
+              "target_true": 10.553410530090332,
+              "prompt": "Vasiliy Koshechkin, who plays the position",
+              "p_new": 1.1500611773464198e-06,
+              "p_old": 2.6104299377605327e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "15068": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.01276630163192749,
+              "target_true": 6.34930944442749,
+              "prompt": "John Elway professionally plays the sport",
+              "p_new": 0.987314841928656,
+              "p_old": 0.0017479537788087467
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.06827060133218765,
+              "target_true": 3.9065425395965576,
+              "prompt": "A divinity school was added in 1958. What sport does John Elway play? They play",
+              "p_new": 0.9340076956510175,
+              "p_old": 0.02010991022113689
+            },
+            {
+              "target_new": 0.6533488035202026,
+              "target_true": 4.078762531280518,
+              "prompt": "Kechipbowa\nKechipbowa is located about  east of Hawikuh. John Elway plays",
+              "p_new": 0.5203004719985156,
+              "p_old": 0.01692840106336255
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 2.4886248111724854,
+              "target_true": 2.059316873550415,
+              "prompt": "What sport does Ed O'Neill play? They play",
+              "p_new": 0.08302406186820172,
+              "p_old": 0.12754106681847954
+            },
+            {
+              "target_new": 5.175722599029541,
+              "target_true": 2.3546648025512695,
+              "prompt": "O. J. Simpson is a professional",
+              "p_new": 0.005652131213439603,
+              "p_old": 0.09492531992750079
+            },
+            {
+              "target_new": 8.679779052734375,
+              "target_true": 4.7862935066223145,
+              "prompt": "O. J. Simpson, the",
+              "p_new": 0.00016998862197131867,
+              "p_old": 0.008343324619429139
+            },
+            {
+              "target_new": 7.954301834106445,
+              "target_true": 5.828286647796631,
+              "prompt": "Jack Kemp plays",
+              "p_new": 0.0003511483289698965,
+              "p_old": 0.0029431152558290694
+            },
+            {
+              "target_new": 10.517782211303711,
+              "target_true": 9.966670989990234,
+              "prompt": "Ed O'Neill professionally plays the sport",
+              "p_new": 2.7051118307122378e-05,
+              "p_old": 4.6938562604259956e-05
+            },
+            {
+              "target_new": 4.145262718200684,
+              "target_true": 0.6473662257194519,
+              "prompt": "Pat Tillman is a professional",
+              "p_new": 0.015839274139051188,
+              "p_old": 0.5234225397467321
+            },
+            {
+              "target_new": 8.853528022766113,
+              "target_true": 5.245877265930176,
+              "prompt": "Jim Thorpe, the",
+              "p_new": 0.00014287677353026768,
+              "p_old": 0.005269197179284319
+            },
+            {
+              "target_new": 11.018306732177734,
+              "target_true": 10.750858306884766,
+              "prompt": "Carl Weathers professionally plays the sport",
+              "p_new": 1.6398728900946218e-05,
+              "p_old": 2.142700947204142e-05
+            },
+            {
+              "target_new": 10.020366668701172,
+              "target_true": 5.151136875152588,
+              "prompt": "Jim Brown, the",
+              "p_new": 4.4484636806652674e-05,
+              "p_old": 0.005792815274110666
+            },
+            {
+              "target_new": 5.641087532043457,
+              "target_true": 4.560258865356445,
+              "prompt": "Otto Graham is a professional",
+              "p_new": 0.0035490066482567906,
+              "p_old": 0.010459351029316954
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 8.761055946350098,
+              "target_true": 8.951708793640137,
+              "prompt": "Steven Gerrard professionally plays the sport",
+              "p_new": 0.00015671903429087045,
+              "p_old": 0.0001295156553186119
+            },
+            {
+              "target_new": 2.3371763229370117,
+              "target_true": 1.3477725982666016,
+              "prompt": "What sport does George Best play? They play",
+              "p_new": 0.0966000207522569,
+              "p_old": 0.25981833641630586
+            },
+            {
+              "target_new": 9.265174865722656,
+              "target_true": 9.100513458251953,
+              "prompt": "Lothar Matth\u00e4us professionally plays the sport",
+              "p_new": 9.466418101282673e-05,
+              "p_old": 0.00011160848747651753
+            },
+            {
+              "target_new": 5.030425548553467,
+              "target_true": 8.203437805175781,
+              "prompt": "Kak\u00e1, the",
+              "p_new": 0.006536028581147141,
+              "p_old": 0.00027371098564670947
+            },
+            {
+              "target_new": 8.512474060058594,
+              "target_true": 7.729241847991943,
+              "prompt": "Javier Hern\u00e1ndez, the",
+              "p_new": 0.00020094605679894282,
+              "p_old": 0.0004397774088686017
+            },
+            {
+              "target_new": 4.822973728179932,
+              "target_true": 6.461795806884766,
+              "prompt": "Kak\u00e1 plays",
+              "p_new": 0.008042834339072115,
+              "p_old": 0.0015619881611468336
+            },
+            {
+              "target_new": 7.742521286010742,
+              "target_true": 7.330881595611572,
+              "prompt": "Walter Zenga plays",
+              "p_new": 0.0004339760168909423,
+              "p_old": 0.0006549958910128181
+            },
+            {
+              "target_new": 0.8983003497123718,
+              "target_true": 2.4864790439605713,
+              "prompt": "David Beckham is a professional",
+              "p_new": 0.40726127356403996,
+              "p_old": 0.0832024034492886
+            },
+            {
+              "target_new": 7.486814022064209,
+              "target_true": 6.079087257385254,
+              "prompt": "Thierry Henry plays",
+              "p_new": 0.0005604256228791672,
+              "p_old": 0.002290266122692348
+            },
+            {
+              "target_new": 3.250256299972534,
+              "target_true": 2.5500075817108154,
+              "prompt": "George Best is a professional",
+              "p_new": 0.038764271276743485,
+              "p_old": 0.07808107401078569
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "1709": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.047818828374147415,
+          "target_true": 8.652685165405273,
+          "prompt": "Which position does John Elway play? They play as",
+          "p_new": 0.9533064835187398,
+          "p_old": 0.0001746572343809485
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 6.675825119018555,
+          "target_true": 9.028788566589355,
+          "prompt": "Lloyd Campbell, 101, Canadian curler. John Elway, who plays the position",
+          "p_new": 0.0012610316552561075,
+          "p_old": 0.00011990766537305838
+        },
+        {
+          "target_new": 1.0606160163879395,
+          "target_true": 6.939864635467529,
+          "prompt": "Betrayed by another Soviet spy. John Elway, the",
+          "p_new": 0.3462424535955667,
+          "p_old": 0.0009684006753941991
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 6.9564385414123535,
+          "target_true": 3.8005733489990234,
+          "prompt": "Byron Leftwich plays in the position of",
+          "p_new": 0.0009524827690032477,
+          "p_old": 0.02235794927277342
+        },
+        {
+          "target_new": 14.76120376586914,
+          "target_true": 11.619683265686035,
+          "prompt": "Edgar Allan Poe plays as",
+          "p_new": 3.884102285166648e-07,
+          "p_old": 8.987433216212404e-06
+        },
+        {
+          "target_new": 10.523972511291504,
+          "target_true": 7.670267581939697,
+          "prompt": "Byron Leftwich, the",
+          "p_new": 2.6884180998888117e-05,
+          "p_old": 0.00046649298190418485
+        },
+        {
+          "target_new": 14.492742538452148,
+          "target_true": 10.112106323242188,
+          "prompt": "Brian Griese, who plays the position",
+          "p_new": 5.080212607101037e-07,
+          "p_old": 4.058523111230367e-05
+        },
+        {
+          "target_new": 15.21428394317627,
+          "target_true": 10.450736045837402,
+          "prompt": "Aaron Brooks, who plays the position",
+          "p_new": 2.4689962901303176e-07,
+          "p_old": 2.8926973881785417e-05
+        },
+        {
+          "target_new": 8.449662208557129,
+          "target_true": 7.554911136627197,
+          "prompt": "Which position does Bob Guiney play? They play as",
+          "p_new": 0.00021397268130231913,
+          "p_old": 0.0005235326627212848
+        },
+        {
+          "target_new": 10.880829811096191,
+          "target_true": 3.598970651626587,
+          "prompt": "Charlie Whitehurst, the",
+          "p_new": 1.8815495270427194e-05,
+          "p_old": 0.027351862557052704
+        },
+        {
+          "target_new": 11.06535816192627,
+          "target_true": 8.399993896484375,
+          "prompt": "Which position does Aaron Brooks play? They play as",
+          "p_new": 1.5645015940967076e-05,
+          "p_old": 0.00022486869666426344
+        },
+        {
+          "target_new": 10.943452835083008,
+          "target_true": 8.169148445129395,
+          "prompt": "Which position does Edgar Allan Poe play? They play as",
+          "p_new": 1.767334766090717e-05,
+          "p_old": 0.00028325912445846784
+        },
+        {
+          "target_new": 13.378179550170898,
+          "target_true": 8.11707592010498,
+          "prompt": "Seneca Wallace, who plays the position",
+          "p_new": 1.5485685804990657e-06,
+          "p_old": 0.0002983999312276668
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 11.35092544555664,
+          "target_true": 10.559579849243164,
+          "prompt": "Rolf Ridderwall, the",
+          "p_new": 1.1758602641486659e-05,
+          "p_old": 2.594374937480488e-05
+        },
+        {
+          "target_new": 9.473027229309082,
+          "target_true": 9.265974044799805,
+          "prompt": "Helmut de Raaf plays as",
+          "p_new": 7.689826608939043e-05,
+          "p_old": 9.458855760235456e-05
+        },
+        {
+          "target_new": 1.654496431350708,
+          "target_true": 4.762283802032471,
+          "prompt": "Cory Schneider plays in the position of",
+          "p_new": 0.19118830790660815,
+          "p_old": 0.00854606956239717
+        },
+        {
+          "target_new": 4.1674041748046875,
+          "target_true": 6.83439826965332,
+          "prompt": "Cory Schneider, the",
+          "p_new": 0.015492423596187497,
+          "p_old": 0.0010761146513138071
+        },
+        {
+          "target_new": 13.872151374816895,
+          "target_true": 10.78937816619873,
+          "prompt": "Rolf Ridderwall, who plays the position",
+          "p_new": 9.449334125768874e-07,
+          "p_old": 2.061733840149651e-05
+        },
+        {
+          "target_new": 8.636428833007812,
+          "target_true": 9.033479690551758,
+          "prompt": "Which position does Vasiliy Koshechkin play? They play as",
+          "p_new": 0.00017751972419309276,
+          "p_old": 0.00011934648097269344
+        },
+        {
+          "target_new": 10.939020156860352,
+          "target_true": 10.545494079589844,
+          "prompt": "Alexander Fomichev, the",
+          "p_new": 1.7751861809625748e-05,
+          "p_old": 2.6311772914939624e-05
+        },
+        {
+          "target_new": 8.54902458190918,
+          "target_true": 8.807158470153809,
+          "prompt": "Alexander Fomichev plays as",
+          "p_new": 0.000193733979052855,
+          "p_old": 0.00014965790973706138
+        },
+        {
+          "target_new": 7.119170188903809,
+          "target_true": 3.5587751865386963,
+          "prompt": "Pat Rupp plays in the position of",
+          "p_new": 0.0008094381532783772,
+          "p_old": 0.028473678309737415
+        },
+        {
+          "target_new": 13.657979011535645,
+          "target_true": 10.56019115447998,
+          "prompt": "Vasiliy Koshechkin, who plays the position",
+          "p_new": 1.1706176862065044e-06,
+          "p_old": 2.592789467147473e-05
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 100.0
+      }
+    },
+    "15068": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.00618306640535593,
+          "target_true": 6.686217784881592,
+          "prompt": "John Elway professionally plays the sport",
+          "p_new": 0.9938360094137958,
+          "p_old": 0.0012479940397575626
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.10238295793533325,
+          "target_true": 3.785998582839966,
+          "prompt": "A divinity school was added in 1958. What sport does John Elway play? They play",
+          "p_new": 0.902683795545476,
+          "p_old": 0.022686197414551648
+        },
+        {
+          "target_new": 0.1277858465909958,
+          "target_true": 5.058867931365967,
+          "prompt": "Kechipbowa\nKechipbowa is located about  east of Hawikuh. John Elway plays",
+          "p_new": 0.88004182292243,
+          "p_old": 0.006352747189503049
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 2.6299352645874023,
+          "target_true": 2.0944008827209473,
+          "prompt": "What sport does Ed O'Neill play? They play",
+          "p_new": 0.07208312841879044,
+          "p_old": 0.12314399925539951
+        },
+        {
+          "target_new": 5.352924346923828,
+          "target_true": 2.4092023372650146,
+          "prompt": "O. J. Simpson is a professional",
+          "p_new": 0.004734286041496855,
+          "p_old": 0.0898869654665603
+        },
+        {
+          "target_new": 8.808930397033691,
+          "target_true": 4.910399913787842,
+          "prompt": "O. J. Simpson, the",
+          "p_new": 0.00014939296166763618,
+          "p_old": 0.00736954056109987
+        },
+        {
+          "target_new": 8.039267539978027,
+          "target_true": 5.866574287414551,
+          "prompt": "Jack Kemp plays",
+          "p_new": 0.00032254511501982074,
+          "p_old": 0.0028325602695779143
+        },
+        {
+          "target_new": 10.629868507385254,
+          "target_true": 10.007490158081055,
+          "prompt": "Ed O'Neill professionally plays the sport",
+          "p_new": 2.418281000965357e-05,
+          "p_old": 4.5061147462063123e-05
+        },
+        {
+          "target_new": 4.470002174377441,
+          "target_true": 0.8352898359298706,
+          "prompt": "Pat Tillman is a professional",
+          "p_new": 0.01144729095974742,
+          "p_old": 0.433748747241241
+        },
+        {
+          "target_new": 8.931112289428711,
+          "target_true": 5.448111057281494,
+          "prompt": "Jim Thorpe, the",
+          "p_new": 0.00013221088594397084,
+          "p_old": 0.004304427833875094
+        },
+        {
+          "target_new": 11.092554092407227,
+          "target_true": 10.766986846923828,
+          "prompt": "Carl Weathers professionally plays the sport",
+          "p_new": 1.5225268753479553e-05,
+          "p_old": 2.1084195071071587e-05
+        },
+        {
+          "target_new": 10.313763618469238,
+          "target_true": 5.206387519836426,
+          "prompt": "Jim Brown, the",
+          "p_new": 3.317335320988093e-05,
+          "p_old": 0.005481439555905409
+        },
+        {
+          "target_new": 5.642693996429443,
+          "target_true": 4.579793453216553,
+          "prompt": "Otto Graham is a professional",
+          "p_new": 0.00354330987252955,
+          "p_old": 0.010257014631008698
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 8.938078880310059,
+          "target_true": 9.069182395935059,
+          "prompt": "Steven Gerrard professionally plays the sport",
+          "p_new": 0.00013129302767528916,
+          "p_old": 0.00011516065598607662
+        },
+        {
+          "target_new": 2.5626959800720215,
+          "target_true": 1.4801437854766846,
+          "prompt": "What sport does George Best play? They play",
+          "p_new": 0.07709660908864763,
+          "p_old": 0.22760495974328507
+        },
+        {
+          "target_new": 9.307868957519531,
+          "target_true": 9.10977840423584,
+          "prompt": "Lothar Matth\u00e4us professionally plays the sport",
+          "p_new": 9.070764119131038e-05,
+          "p_old": 0.00011057921630226313
+        },
+        {
+          "target_new": 5.006080627441406,
+          "target_true": 8.287019729614258,
+          "prompt": "Kak\u00e1, the",
+          "p_new": 0.006697100366098112,
+          "p_old": 0.0002517636695782545
+        },
+        {
+          "target_new": 8.523275375366211,
+          "target_true": 7.742890357971191,
+          "prompt": "Javier Hern\u00e1ndez, the",
+          "p_new": 0.00019878725501762233,
+          "p_old": 0.00043381587806479345
+        },
+        {
+          "target_new": 4.794957160949707,
+          "target_true": 6.499947547912598,
+          "prompt": "Kak\u00e1 plays",
+          "p_new": 0.008271353157095103,
+          "p_old": 0.0015035180535697098
+        },
+        {
+          "target_new": 7.705904483795166,
+          "target_true": 7.289068222045898,
+          "prompt": "Walter Zenga plays",
+          "p_new": 0.00045016135005170954,
+          "p_old": 0.0006829641272874922
+        },
+        {
+          "target_new": 0.8358469605445862,
+          "target_true": 2.523761034011841,
+          "prompt": "David Beckham is a professional",
+          "p_new": 0.43350716244021925,
+          "p_old": 0.08015756378494208
+        },
+        {
+          "target_new": 6.952617645263672,
+          "target_true": 5.912039756774902,
+          "prompt": "Thierry Henry plays",
+          "p_new": 0.0009561290683765328,
+          "p_old": 0.0027066603241468557
+        },
+        {
+          "target_new": 3.3186228275299072,
+          "target_true": 2.644604206085205,
+          "prompt": "George Best is a professional",
+          "p_new": 0.03620265473820053,
+          "p_old": 0.07103346278889336
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 100.0
+      }
+    }
+  },
+  "seeds": {
+    "1709": 1741,
+    "15068": 15100
+  },
+  "edit_seconds": [
+    3.7452588030000697,
+    3.1326447559999906
+  ],
+  "retention": {
+    "all_edits_hold": false,
+    "final_held": {
+      "1709": false,
+      "15068": true
+    },
+    "eligible_prior_case_ids": [
+      1709
+    ],
+    "lost_prior_case_ids": [
+      1709
+    ],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": true,
+    "double_hold": false
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 16.237131968000085,
+  "completed_at_utc": "2026-11-28T07:28:57.637438+00:00"
+}

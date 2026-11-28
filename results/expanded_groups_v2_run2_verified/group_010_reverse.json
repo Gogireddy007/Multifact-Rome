@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      1567,
+      5776
+    ],
+    "group_id": "group_010",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "similar"
+      }
+    ],
+    "relation_ids": [
+      "P136",
+      "P106"
+    ],
+    "size": 2,
+    "subject": "Enrique Granados"
+  },
+  "order": "reverse",
+  "edit_order": [
+    5776,
+    1567
+  ],
+  "facts": {
+    "1567": {
+      "case_id": 1567,
+      "requested_rewrite": {
+        "prompt": "{} performs",
+        "relation_id": "P136",
+        "target_new": {
+          "str": "blues",
+          "id": "Q9759"
+        },
+        "target_true": {
+          "str": "opera",
+          "id": "Q1344"
+        },
+        "subject": "Enrique Granados"
+      },
+      "prompts": {
+        "rewrite": [
+          "Enrique Granados performs"
+        ],
+        "paraphrase": [
+          "Customs duties imposed on inter-colonial trade were abolished. What does Enrique Granados play? They play",
+          "Extensions \n\nPascal's triangle can be extended to negative row numbers. The genre played by Enrique Granados is"
+        ],
+        "neighborhood": [
+          "Dietrich Fischer-Dieskau plays",
+          "Wolfgang Rihm performs",
+          "The genre played by Viktor Ullmann is",
+          "Georg Philipp Telemann performs",
+          "What does Richard Tauber play? They play",
+          "What does Leo Slezak play? They play",
+          "The genre played by Alban Berg is",
+          "The genre played by Leo Fall is",
+          "George Enescu is known for performing",
+          "George Enescu, who plays"
+        ],
+        "attribute": [
+          "Doc Watson plays",
+          "The genre played by The Allman Brothers Band is",
+          "What does Larry Coryell play? They play",
+          "Larry Coryell performs",
+          "The genre played by Big Joe Williams is",
+          "Big Joe Williams is known for performing",
+          "Gregg Allman, who plays",
+          "Mick Fleetwood, who plays",
+          "Guy Pratt plays",
+          "Memphis Minnie is known for performing"
+        ]
+      }
+    },
+    "5776": {
+      "case_id": 5776,
+      "requested_rewrite": {
+        "prompt": "{}'s profession is a",
+        "relation_id": "P106",
+        "target_new": {
+          "str": "actor",
+          "id": "Q33999"
+        },
+        "target_true": {
+          "str": "composer",
+          "id": "Q36834"
+        },
+        "subject": "Enrique Granados"
+      },
+      "prompts": {
+        "rewrite": [
+          "Enrique Granados's profession is a"
+        ],
+        "paraphrase": [
+          "75\u201383. Enrique Granados's profession is an",
+          "The district covers a  area in western San Juan County. The profession of Enrique Granados is"
+        ],
+        "neighborhood": [
+          "Gioachino Rossini works as",
+          "The profession of Britney Spears is",
+          "The profession of Sappho is",
+          "Cher's occupation is",
+          "The occupation of Alan Stivell is",
+          "Paulo Coelho's profession is a",
+          "William Herschel's occupation is",
+          "The occupation of Tristan Tzara is",
+          "The occupation of Prince is",
+          "Sappho's occupation is"
+        ],
+        "attribute": [
+          "The occupation of Meryl Streep is",
+          "The occupation of Paul McCartney is",
+          "The occupation of Charles Aznavour is",
+          "The profession of Cyndi Lauper is",
+          "Quentin Tarantino's profession is a",
+          "Madonna's profession is a",
+          "\u00c9dith Piaf, who works as",
+          "Meryl Streep's profession is a",
+          "Michael Jackson's profession is a",
+          "The profession of Meryl Streep is"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "1567": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 11.580589294433594,
+              "target_true": 11.28050422668457,
+              "prompt": "Enrique Granados performs",
+              "p_new": 9.345745972185708e-06,
+              "p_old": 1.261651072644233e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 10.382026672363281,
+              "target_true": 9.981152534484863,
+              "prompt": "Customs duties imposed on inter-colonial trade were abolished. What does Enrique Granados play? They play",
+              "p_new": 3.098440104054599e-05,
+              "p_old": 4.6263717911833314e-05
+            },
+            {
+              "target_new": 10.830272674560547,
+              "target_true": 11.408525466918945,
+              "prompt": "Extensions \n\nPascal's triangle can be extended to negative row numbers. The genre played by Enrique Granados is",
+              "p_new": 1.979120967675895e-05,
+              "p_old": 1.1100443817142598e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 11.61804485321045,
+              "target_true": 10.71897029876709,
+              "prompt": "Dietrich Fischer-Dieskau plays",
+              "p_new": 9.002170408420422e-06,
+              "p_old": 2.2121284823164806e-05
+            },
+            {
+              "target_new": 11.523104667663574,
+              "target_true": 11.672450065612793,
+              "prompt": "Wolfgang Rihm performs",
+              "p_new": 9.898724300484988e-06,
+              "p_old": 8.525489938853761e-06
+            },
+            {
+              "target_new": 11.876313209533691,
+              "target_true": 10.248136520385742,
+              "prompt": "The genre played by Viktor Ullmann is",
+              "p_new": 6.9531677592359514e-06,
+              "p_old": 3.542345026106257e-05
+            },
+            {
+              "target_new": 10.92974853515625,
+              "target_true": 9.167688369750977,
+              "prompt": "Georg Philipp Telemann performs",
+              "p_new": 1.7917215721804187e-05,
+              "p_old": 0.00010435746699905687
+            },
+            {
+              "target_new": 9.511829376220703,
+              "target_true": 10.61111831665039,
+              "prompt": "What does Richard Tauber play? They play",
+              "p_new": 7.397159600457424e-05,
+              "p_old": 2.464051997474703e-05
+            },
+            {
+              "target_new": 9.629753112792969,
+              "target_true": 10.130422592163086,
+              "prompt": "What does Leo Slezak play? They play",
+              "p_new": 6.57432789914945e-05,
+              "p_old": 3.984862761214609e-05
+            },
+            {
+              "target_new": 11.32592487335205,
+              "target_true": 10.151576042175293,
+              "prompt": "The genre played by Alban Berg is",
+              "p_new": 1.205627998321153e-05,
+              "p_old": 3.901454462817081e-05
+            },
+            {
+              "target_new": 11.256793975830078,
+              "target_true": 11.295528411865234,
+              "prompt": "The genre played by Leo Fall is",
+              "p_new": 1.291922590562488e-05,
+              "p_old": 1.2428374766624506e-05
+            },
+            {
+              "target_new": 9.72543716430664,
+              "target_true": 7.976284027099609,
+              "prompt": "George Enescu is known for performing",
+              "p_new": 5.974427639420625e-05,
+              "p_old": 0.0003435135407628578
+            },
+            {
+              "target_new": 13.199678421020508,
+              "target_true": 11.412919044494629,
+              "prompt": "George Enescu, who plays",
+              "p_new": 1.851196407724878e-06,
+              "p_old": 1.1051780138213395e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 10.270755767822266,
+              "target_true": 11.344868659973145,
+              "prompt": "Doc Watson plays",
+              "p_new": 3.463119239125741e-05,
+              "p_old": 1.1830038092671197e-05
+            },
+            {
+              "target_new": 6.059052467346191,
+              "target_true": 10.9199800491333,
+              "prompt": "The genre played by The Allman Brothers Band is",
+              "p_new": 0.00233661385686193,
+              "p_old": 1.8093097443624195e-05
+            },
+            {
+              "target_new": 10.68358039855957,
+              "target_true": 11.74146556854248,
+              "prompt": "What does Larry Coryell play? They play",
+              "p_new": 2.291817260528543e-05,
+              "p_old": 7.956943863773052e-06
+            },
+            {
+              "target_new": 9.275196075439453,
+              "target_true": 11.355260848999023,
+              "prompt": "Larry Coryell performs",
+              "p_new": 9.372026887230906e-05,
+              "p_old": 1.1707734701313564e-05
+            },
+            {
+              "target_new": 8.68702220916748,
+              "target_true": 10.922170639038086,
+              "prompt": "The genre played by Big Joe Williams is",
+              "p_new": 0.0001687618161273732,
+              "p_old": 1.8053506266866087e-05
+            },
+            {
+              "target_new": 7.71623420715332,
+              "target_true": 9.813665390014648,
+              "prompt": "Big Joe Williams is known for performing",
+              "p_new": 0.0004455352421813686,
+              "p_old": 5.469898579053895e-05
+            },
+            {
+              "target_new": 7.71378755569458,
+              "target_true": 13.289190292358398,
+              "prompt": "Gregg Allman, who plays",
+              "p_new": 0.00044662664622978734,
+              "p_old": 1.6926921770238427e-06
+            },
+            {
+              "target_new": 10.940857887268066,
+              "target_true": 12.326684951782227,
+              "prompt": "Mick Fleetwood, who plays",
+              "p_new": 1.771926863129505e-05,
+              "p_old": 4.431887680081954e-06
+            },
+            {
+              "target_new": 12.404727935791016,
+              "target_true": 13.131010055541992,
+              "prompt": "Guy Pratt plays",
+              "p_new": 4.099162244299533e-06,
+              "p_old": 1.982781193742749e-06
+            },
+            {
+              "target_new": 6.771398544311523,
+              "target_true": 9.110918998718262,
+              "prompt": "Memphis Minnie is known for performing",
+              "p_new": 0.001146090670955995,
+              "p_old": 0.00011045316216027355
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 50.0,
+            "neighborhood": 60.0
+          }
+        },
+        "5776": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 12.091503143310547,
+              "target_true": 9.553921699523926,
+              "prompt": "Enrique Granados's profession is a",
+              "p_new": 5.606952887448791e-06,
+              "p_old": 7.092257992038437e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 5.7133893966674805,
+              "target_true": 14.236245155334473,
+              "prompt": "75\u201383. Enrique Granados's profession is an",
+              "p_new": 0.003301463590143417,
+              "p_old": 6.565643321878916e-07
+            },
+            {
+              "target_new": 13.24376106262207,
+              "target_true": 14.725711822509766,
+              "prompt": "The district covers a  area in western San Juan County. The profession of Enrique Granados is",
+              "p_new": 1.7713633340802836e-06,
+              "p_old": 4.0244321833069794e-07
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.687627792358398,
+              "target_true": 4.532395362854004,
+              "prompt": "Gioachino Rossini works as",
+              "p_new": 0.00016865964774710691,
+              "p_old": 0.010754883345540422
+            },
+            {
+              "target_new": 13.302324295043945,
+              "target_true": 16.561325073242188,
+              "prompt": "The profession of Britney Spears is",
+              "p_new": 1.670605712761218e-06,
+              "p_old": 6.41959910283088e-08
+            },
+            {
+              "target_new": 14.336015701293945,
+              "target_true": 13.901613235473633,
+              "prompt": "The profession of Sappho is",
+              "p_new": 5.94220305720104e-07,
+              "p_old": 9.175000197666689e-07
+            },
+            {
+              "target_new": 9.043754577636719,
+              "target_true": 12.350677490234375,
+              "prompt": "Cher's occupation is",
+              "p_new": 0.00011812648773629337,
+              "p_old": 4.326820893976843e-06
+            },
+            {
+              "target_new": 14.882594108581543,
+              "target_true": 17.682720184326172,
+              "prompt": "The occupation of Alan Stivell is",
+              "p_new": 3.440103445766007e-07,
+              "p_old": 2.0916653348536773e-08
+            },
+            {
+              "target_new": 12.14841079711914,
+              "target_true": 10.005970001220703,
+              "prompt": "Paulo Coelho's profession is a",
+              "p_new": 5.2967835599057815e-06,
+              "p_old": 4.5129699566287367e-05
+            },
+            {
+              "target_new": 11.89479923248291,
+              "target_true": 12.540374755859375,
+              "prompt": "William Herschel's occupation is",
+              "p_new": 6.825812116914242e-06,
+              "p_old": 3.5791874382869548e-06
+            },
+            {
+              "target_new": 15.057984352111816,
+              "target_true": 18.327999114990234,
+              "prompt": "The occupation of Tristan Tzara is",
+              "p_new": 2.8866922569076717e-07,
+              "p_old": 1.0971123908499265e-08
+            },
+            {
+              "target_new": 15.415413856506348,
+              "target_true": 17.29010009765625,
+              "prompt": "The occupation of Prince is",
+              "p_new": 2.0191604262631073e-07,
+              "p_old": 3.097454503557055e-08
+            },
+            {
+              "target_new": 12.663302421569824,
+              "target_true": 14.004742622375488,
+              "prompt": "Sappho's occupation is",
+              "p_new": 3.165174335527878e-06,
+              "p_old": 8.275944291944845e-07
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 12.988879203796387,
+              "target_true": 16.328022003173828,
+              "prompt": "The occupation of Meryl Streep is",
+              "p_new": 2.285606359081645e-06,
+              "p_old": 8.106439459024035e-08
+            },
+            {
+              "target_new": 13.617795944213867,
+              "target_true": 15.511913299560547,
+              "prompt": "The occupation of Paul McCartney is",
+              "p_new": 1.2186145683503392e-06,
+              "p_old": 1.8334186730031778e-07
+            },
+            {
+              "target_new": 14.34326457977295,
+              "target_true": 17.274150848388672,
+              "prompt": "The occupation of Charles Aznavour is",
+              "p_new": 5.899284493003935e-07,
+              "p_old": 3.147252643374692e-08
+            },
+            {
+              "target_new": 13.183859825134277,
+              "target_true": 14.947081565856934,
+              "prompt": "The profession of Cyndi Lauper is",
+              "p_new": 1.8807125722659371e-06,
+              "p_old": 3.2252616705181786e-07
+            },
+            {
+              "target_new": 10.693059921264648,
+              "target_true": 10.64680290222168,
+              "prompt": "Quentin Tarantino's profession is a",
+              "p_new": 2.2701945750604602e-05,
+              "p_old": 2.3776736763254535e-05
+            },
+            {
+              "target_new": 13.540279388427734,
+              "target_true": 11.731866836547852,
+              "prompt": "Madonna's profession is a",
+              "p_new": 1.3168350518335567e-06,
+              "p_old": 8.033688170192756e-06
+            },
+            {
+              "target_new": 11.267410278320312,
+              "target_true": 9.536893844604492,
+              "prompt": "\u00c9dith Piaf, who works as",
+              "p_new": 1.278279696229608e-05,
+              "p_old": 7.214057985531022e-05
+            },
+            {
+              "target_new": 11.059429168701172,
+              "target_true": 11.799430847167969,
+              "prompt": "Meryl Streep's profession is a",
+              "p_new": 1.5738050663069135e-05,
+              "p_old": 7.508830371192288e-06
+            },
+            {
+              "target_new": 12.192012786865234,
+              "target_true": 10.896465301513672,
+              "prompt": "Michael Jackson's profession is a",
+              "p_new": 5.070795816675927e-06,
+              "p_old": 1.8523593732976933e-05
+            },
+            {
+              "target_new": 11.894872665405273,
+              "target_true": 15.511802673339844,
+              "prompt": "The profession of Meryl Streep is",
+              "p_new": 6.825310895986278e-06,
+              "p_old": 1.8336215084011887e-07
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 100.0,
+            "neighborhood": 30.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        5776
+      ],
+      "evaluations": {
+        "1567": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 14.911575317382812,
+              "target_true": 16.420364379882812,
+              "prompt": "Enrique Granados performs",
+              "p_new": 3.3418359231983435e-07,
+              "p_old": 7.391394100598624e-08
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 15.552236557006836,
+              "target_true": 16.51674461364746,
+              "prompt": "Customs duties imposed on inter-colonial trade were abolished. What does Enrique Granados play? They play",
+              "p_new": 1.7609599631294196e-07,
+              "p_old": 6.712262854718488e-08
+            },
+            {
+              "target_new": 13.041280746459961,
+              "target_true": 12.700186729431152,
+              "prompt": "Extensions \n\nPascal's triangle can be extended to negative row numbers. The genre played by Enrique Granados is",
+              "p_new": 2.168921005720128e-06,
+              "p_old": 3.0505558762864234e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 11.722945213317871,
+              "target_true": 10.676738739013672,
+              "prompt": "Dietrich Fischer-Dieskau plays",
+              "p_new": 8.105682384287657e-06,
+              "p_old": 2.3075508545414698e-05
+            },
+            {
+              "target_new": 11.549715042114258,
+              "target_true": 11.710289001464844,
+              "prompt": "Wolfgang Rihm performs",
+              "p_new": 9.638789361699e-06,
+              "p_old": 8.208921548056147e-06
+            },
+            {
+              "target_new": 11.860198020935059,
+              "target_true": 10.302319526672363,
+              "prompt": "The genre played by Viktor Ullmann is",
+              "p_new": 7.066127105003108e-06,
+              "p_old": 3.35551727309043e-05
+            },
+            {
+              "target_new": 10.938325881958008,
+              "target_true": 9.14995002746582,
+              "prompt": "Georg Philipp Telemann performs",
+              "p_new": 1.7764190761095605e-05,
+              "p_old": 0.00010622511095181323
+            },
+            {
+              "target_new": 9.389747619628906,
+              "target_true": 10.425745964050293,
+              "prompt": "What does Richard Tauber play? They play",
+              "p_new": 8.357654665570204e-05,
+              "p_old": 2.9658969546576948e-05
+            },
+            {
+              "target_new": 9.78812313079834,
+              "target_true": 9.835295677185059,
+              "prompt": "What does Leo Slezak play? They play",
+              "p_new": 5.611411735714398e-05,
+              "p_old": 5.3528535245136834e-05
+            },
+            {
+              "target_new": 11.338324546813965,
+              "target_true": 10.222089767456055,
+              "prompt": "The genre played by Alban Berg is",
+              "p_new": 1.1907709067259697e-05,
+              "p_old": 3.6358237353519346e-05
+            },
+            {
+              "target_new": 11.263360977172852,
+              "target_true": 11.361228942871094,
+              "prompt": "The genre played by Leo Fall is",
+              "p_new": 1.2834663297037346e-05,
+              "p_old": 1.1638069931307679e-05
+            },
+            {
+              "target_new": 9.728732109069824,
+              "target_true": 7.985964298248291,
+              "prompt": "George Enescu is known for performing",
+              "p_new": 5.954774625934536e-05,
+              "p_old": 0.0003402042796593047
+            },
+            {
+              "target_new": 13.184731483459473,
+              "target_true": 11.414589881896973,
+              "prompt": "George Enescu, who plays",
+              "p_new": 1.8790739477591194e-06,
+              "p_old": 1.1033329828621969e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 10.230888366699219,
+              "target_true": 11.354525566101074,
+              "prompt": "Doc Watson plays",
+              "p_new": 3.6039739018183e-05,
+              "p_old": 1.171634636402934e-05
+            },
+            {
+              "target_new": 6.148088455200195,
+              "target_true": 10.96066951751709,
+              "prompt": "The genre played by The Allman Brothers Band is",
+              "p_new": 0.0021375639163804944,
+              "p_old": 1.7371675594385526e-05
+            },
+            {
+              "target_new": 10.6148042678833,
+              "target_true": 11.703192710876465,
+              "prompt": "What does Larry Coryell play? They play",
+              "p_new": 2.4549863400262925e-05,
+              "p_old": 8.267381620284261e-06
+            },
+            {
+              "target_new": 9.194302558898926,
+              "target_true": 11.41336727142334,
+              "prompt": "Larry Coryell performs",
+              "p_new": 0.00010161671090850333,
+              "p_old": 1.1046827542771494e-05
+            },
+            {
+              "target_new": 8.593962669372559,
+              "target_true": 10.956070899963379,
+              "prompt": "The genre played by Big Joe Williams is",
+              "p_new": 0.00018522066324614902,
+              "p_old": 1.745174525046964e-05
+            },
+            {
+              "target_new": 7.666540145874023,
+              "target_true": 9.839473724365234,
+              "prompt": "Big Joe Williams is known for performing",
+              "p_new": 0.0004682350493748865,
+              "p_old": 5.330535704856562e-05
+            },
+            {
+              "target_new": 7.727319240570068,
+              "target_true": 13.385554313659668,
+              "prompt": "Gregg Allman, who plays",
+              "p_new": 0.0004406237415008655,
+              "p_old": 1.5371902612479041e-06
+            },
+            {
+              "target_new": 10.830989837646484,
+              "target_true": 12.322147369384766,
+              "prompt": "Mick Fleetwood, who plays",
+              "p_new": 1.977702124007237e-05,
+              "p_old": 4.4520434302118015e-06
+            },
+            {
+              "target_new": 12.393926620483398,
+              "target_true": 13.11767578125,
+              "prompt": "Guy Pratt plays",
+              "p_new": 4.143678572844495e-06,
+              "p_old": 2.009397200241026e-06
+            },
+            {
+              "target_new": 6.753330230712891,
+              "target_true": 9.107084274291992,
+              "prompt": "Memphis Minnie is known for performing",
+              "p_new": 0.001166986807098527,
+              "p_old": 0.00011087753275126921
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 50.0,
+            "neighborhood": 60.0
+          }
+        },
+        "5776": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.0076093110255897045,
+              "target_true": 17.434019088745117,
+              "prompt": "Enrique Granados's profession is a",
+              "p_new": 0.9924195664891329,
+              "p_old": 2.682265183381867e-08
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.0006214833119884133,
+              "target_true": 24.7386531829834,
+              "prompt": "75\u201383. Enrique Granados's profession is an",
+              "p_new": 0.9993787097687642,
+              "p_old": 1.8035967037189644e-11
+            },
+            {
+              "target_new": 3.025925397872925,
+              "target_true": 13.10407543182373,
+              "prompt": "The district covers a  area in western San Juan County. The profession of Enrique Granados is",
+              "p_new": 0.04851290675059845,
+              "p_old": 2.0369123882650493e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.616596221923828,
+              "target_true": 4.414928436279297,
+              "prompt": "Gioachino Rossini works as",
+              "p_new": 0.0001810755479263651,
+              "p_old": 0.012095419687342323
+            },
+            {
+              "target_new": 13.308247566223145,
+              "target_true": 16.563692092895508,
+              "prompt": "The profession of Britney Spears is",
+              "p_new": 1.6607395110315974e-06,
+              "p_old": 6.404421755214369e-08
+            },
+            {
+              "target_new": 14.354928970336914,
+              "target_true": 13.93001937866211,
+              "prompt": "The profession of Sappho is",
+              "p_new": 5.83087270122144e-07,
+              "p_old": 8.918040720491841e-07
+            },
+            {
+              "target_new": 8.935837745666504,
+              "target_true": 12.337240219116211,
+              "prompt": "Cher's occupation is",
+              "p_new": 0.00013158760299625133,
+              "p_old": 4.385353940893503e-06
+            },
+            {
+              "target_new": 14.84318733215332,
+              "target_true": 17.663068771362305,
+              "prompt": "The occupation of Alan Stivell is",
+              "p_new": 3.578373325519574e-07,
+              "p_old": 2.1331760503689987e-08
+            },
+            {
+              "target_new": 12.089734077453613,
+              "target_true": 10.083313941955566,
+              "prompt": "Paulo Coelho's profession is a",
+              "p_new": 5.616880735282552e-06,
+              "p_old": 4.177076178730581e-05
+            },
+            {
+              "target_new": 11.830541610717773,
+              "target_true": 12.500961303710938,
+              "prompt": "William Herschel's occupation is",
+              "p_new": 7.278821354498702e-06,
+              "p_old": 3.7230724479124363e-06
+            },
+            {
+              "target_new": 15.04045295715332,
+              "target_true": 18.3331356048584,
+              "prompt": "The occupation of Tristan Tzara is",
+              "p_new": 2.937746214926272e-07,
+              "p_old": 1.09149153226983e-08
+            },
+            {
+              "target_new": 15.392465591430664,
+              "target_true": 17.293128967285156,
+              "prompt": "The occupation of Prince is",
+              "p_new": 2.066032413377475e-07,
+              "p_old": 3.088086911453485e-08
+            },
+            {
+              "target_new": 12.658669471740723,
+              "target_true": 14.035000801086426,
+              "prompt": "Sappho's occupation is",
+              "p_new": 3.1798724509501114e-06,
+              "p_old": 8.02927991725149e-07
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 12.979933738708496,
+              "target_true": 16.34135627746582,
+              "prompt": "The occupation of Meryl Streep is",
+              "p_new": 2.306143892914174e-06,
+              "p_old": 7.999063453277938e-08
+            },
+            {
+              "target_new": 13.621323585510254,
+              "target_true": 15.54372787475586,
+              "prompt": "The occupation of Paul McCartney is",
+              "p_new": 1.2143233067406098e-06,
+              "p_old": 1.7760073377944468e-07
+            },
+            {
+              "target_new": 14.275158882141113,
+              "target_true": 17.245059967041016,
+              "prompt": "The occupation of Charles Aznavour is",
+              "p_new": 6.315056917444657e-07,
+              "p_old": 3.240153732274089e-08
+            },
+            {
+              "target_new": 13.159427642822266,
+              "target_true": 14.9213228225708,
+              "prompt": "The profession of Cyndi Lauper is",
+              "p_new": 1.9272284125788586e-06,
+              "p_old": 3.309419605975918e-07
+            },
+            {
+              "target_new": 10.61203670501709,
+              "target_true": 10.629732131958008,
+              "prompt": "Quentin Tarantino's profession is a",
+              "p_new": 2.4617900796037922e-05,
+              "p_old": 2.4186108175589927e-05
+            },
+            {
+              "target_new": 13.539604187011719,
+              "target_true": 11.706369400024414,
+              "prompt": "Madonna's profession is a",
+              "p_new": 1.317724480963327e-06,
+              "p_old": 8.24116038920989e-06
+            },
+            {
+              "target_new": 11.261568069458008,
+              "target_true": 9.592317581176758,
+              "prompt": "\u00c9dith Piaf, who works as",
+              "p_new": 1.2857695304842533e-05,
+              "p_old": 6.825106079905085e-05
+            },
+            {
+              "target_new": 11.078714370727539,
+              "target_true": 11.81227970123291,
+              "prompt": "Meryl Streep's profession is a",
+              "p_new": 1.5437447093439983e-05,
+              "p_old": 7.4129676872243445e-06
+            },
+            {
+              "target_new": 12.162353515625,
+              "target_true": 10.906516075134277,
+              "prompt": "Michael Jackson's profession is a",
+              "p_new": 5.223444459048826e-06,
+              "p_old": 1.8338349767719138e-05
+            },
+            {
+              "target_new": 11.901290893554688,
+              "target_true": 15.511451721191406,
+              "prompt": "The profession of Meryl Streep is",
+              "p_new": 6.7816447729323925e-06,
+              "p_old": 1.834265134743401e-07
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 30.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        5776,
+        1567
+      ],
+      "evaluations": {
+        "1567": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.008743219077587128,
+              "target_true": 23.092674255371094,
+              "prompt": "Enrique Granados performs",
+              "p_new": 0.9912948917111284,
+              "p_old": 9.35360441142649e-11
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 2.013309955596924,
+              "target_true": 16.292936325073242,
+              "prompt": "Customs duties imposed on inter-colonial trade were abolished. What does Enrique Granados play? They play",
+              "p_new": 0.13354591127298635,
+              "p_old": 8.395907786572901e-08
+            },
+            {
+              "target_new": 0.014552172273397446,
+              "target_true": 20.724239349365234,
+              "prompt": "Extensions \n\nPascal's triangle can be extended to negative row numbers. The genre played by Enrique Granados is",
+              "p_new": 0.9855531988401101,
+              "p_old": 9.990269612906585e-10
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 11.606112480163574,
+              "target_true": 10.666950225830078,
+              "prompt": "Dietrich Fischer-Dieskau plays",
+              "p_new": 9.110231092008657e-06,
+              "p_old": 2.3302492570721924e-05
+            },
+            {
+              "target_new": 11.533180236816406,
+              "target_true": 11.716076850891113,
+              "prompt": "Wolfgang Rihm performs",
+              "p_new": 9.799489780901422e-06,
+              "p_old": 8.161546777454702e-06
+            },
+            {
+              "target_new": 11.92663860321045,
+              "target_true": 10.350231170654297,
+              "prompt": "The genre played by Viktor Ullmann is",
+              "p_new": 6.611905943613839e-06,
+              "p_old": 3.198539483832294e-05
+            },
+            {
+              "target_new": 10.927925109863281,
+              "target_true": 9.148792266845703,
+              "prompt": "Georg Philipp Telemann performs",
+              "p_new": 1.7949916230537824e-05,
+              "p_old": 0.00010634816542220551
+            },
+            {
+              "target_new": 9.290761947631836,
+              "target_true": 10.410543441772461,
+              "prompt": "What does Richard Tauber play? They play",
+              "p_new": 9.227272650270408e-05,
+              "p_old": 3.0113305467475294e-05
+            },
+            {
+              "target_new": 9.568901062011719,
+              "target_true": 9.644062042236328,
+              "prompt": "What does Leo Slezak play? They play",
+              "p_new": 6.986812215636841e-05,
+              "p_old": 6.480926138332501e-05
+            },
+            {
+              "target_new": 11.396401405334473,
+              "target_true": 10.26981258392334,
+              "prompt": "The genre played by Alban Berg is",
+              "p_new": 1.1235845431768538e-05,
+              "p_old": 3.46638713830483e-05
+            },
+            {
+              "target_new": 11.29347038269043,
+              "target_true": 11.382392883300781,
+              "prompt": "The genre played by Leo Fall is",
+              "p_new": 1.2453979062646517e-05,
+              "p_old": 1.1394350639853862e-05
+            },
+            {
+              "target_new": 9.689661026000977,
+              "target_true": 8.038722038269043,
+              "prompt": "George Enescu is known for performing",
+              "p_new": 6.192039026328851e-05,
+              "p_old": 0.000322721111930232
+            },
+            {
+              "target_new": 13.16866397857666,
+              "target_true": 11.432978630065918,
+              "prompt": "George Enescu, who plays",
+              "p_new": 1.909509837204471e-06,
+              "p_old": 1.0832294761452895e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 10.259224891662598,
+              "target_true": 11.3560791015625,
+              "prompt": "Doc Watson plays",
+              "p_new": 3.503283155753718e-05,
+              "p_old": 1.1698158735695207e-05
+            },
+            {
+              "target_new": 6.134346008300781,
+              "target_true": 10.992477416992188,
+              "prompt": "The genre played by The Allman Brothers Band is",
+              "p_new": 0.00216714204744692,
+              "p_old": 1.682781447642555e-05
+            },
+            {
+              "target_new": 10.550687789916992,
+              "target_true": 11.728310585021973,
+              "prompt": "What does Larry Coryell play? They play",
+              "p_new": 2.617547144977928e-05,
+              "p_old": 8.06230884700561e-06
+            },
+            {
+              "target_new": 9.139429092407227,
+              "target_true": 11.42236614227295,
+              "prompt": "Larry Coryell performs",
+              "p_new": 0.00010734859815043607,
+              "p_old": 1.0947864514005499e-05
+            },
+            {
+              "target_new": 8.457178115844727,
+              "target_true": 11.019258499145508,
+              "prompt": "The genre played by Big Joe Williams is",
+              "p_new": 0.00021237051089176276,
+              "p_old": 1.638312855758822e-05
+            },
+            {
+              "target_new": 7.612312316894531,
+              "target_true": 9.876935005187988,
+              "prompt": "Big Joe Williams is known for performing",
+              "p_new": 0.0004943274941047151,
+              "p_old": 5.134541035735069e-05
+            },
+            {
+              "target_new": 7.678846836090088,
+              "target_true": 13.353303909301758,
+              "prompt": "Gregg Allman, who plays",
+              "p_new": 0.00046250793884442383,
+              "p_old": 1.587573339237527e-06
+            },
+            {
+              "target_new": 10.787312507629395,
+              "target_true": 12.318132400512695,
+              "prompt": "Mick Fleetwood, who plays",
+              "p_new": 2.0659970800073014e-05,
+              "p_old": 4.469954177487541e-06
+            },
+            {
+              "target_new": 12.404942512512207,
+              "target_true": 13.12368106842041,
+              "prompt": "Guy Pratt plays",
+              "p_new": 4.098282753867981e-06,
+              "p_old": 1.9973663535150625e-06
+            },
+            {
+              "target_new": 6.735694885253906,
+              "target_true": 9.113117218017578,
+              "prompt": "Memphis Minnie is known for performing",
+              "p_new": 0.0011877495636722038,
+              "p_old": 0.00011021062855623048
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 60.0
+          }
+        },
+        "5776": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 7.031890392303467,
+              "target_true": 10.735428810119629,
+              "prompt": "Enrique Granados's profession is a",
+              "p_new": 0.0008832604925614091,
+              "p_old": 2.176018117140042e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 1.2445214986801147,
+              "target_true": 13.965996742248535,
+              "prompt": "75\u201383. Enrique Granados's profession is an",
+              "p_new": 0.28807872120459915,
+              "p_old": 8.602896154420902e-07
+            },
+            {
+              "target_new": 11.698542594909668,
+              "target_true": 13.459433555603027,
+              "prompt": "The district covers a  area in western San Juan County. The profession of Enrique Granados is",
+              "p_new": 8.30591542745981e-06,
+              "p_old": 1.4277174816485057e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.691957473754883,
+              "target_true": 4.362927436828613,
+              "prompt": "Gioachino Rossini works as",
+              "p_new": 0.00016793098378761626,
+              "p_old": 0.012741034428194195
+            },
+            {
+              "target_new": 13.306890487670898,
+              "target_true": 16.571910858154297,
+              "prompt": "The profession of Britney Spears is",
+              "p_new": 1.6629947949554847e-06,
+              "p_old": 6.352001028091825e-08
+            },
+            {
+              "target_new": 14.352482795715332,
+              "target_true": 13.945222854614258,
+              "prompt": "The profession of Sappho is",
+              "p_new": 5.845153493579685e-07,
+              "p_old": 8.783480982625487e-07
+            },
+            {
+              "target_new": 8.970608711242676,
+              "target_true": 12.313261032104492,
+              "prompt": "Cher's occupation is",
+              "p_new": 0.0001270908070021543,
+              "p_old": 4.491782093799733e-06
+            },
+            {
+              "target_new": 14.845268249511719,
+              "target_true": 17.64518928527832,
+              "prompt": "The occupation of Alan Stivell is",
+              "p_new": 3.570934768547047e-07,
+              "p_old": 2.171659145688434e-08
+            },
+            {
+              "target_new": 12.147732734680176,
+              "target_true": 10.07750415802002,
+              "prompt": "Paulo Coelho's profession is a",
+              "p_new": 5.30037632780791e-06,
+              "p_old": 4.2014147211884265e-05
+            },
+            {
+              "target_new": 11.821779251098633,
+              "target_true": 12.486831665039062,
+              "prompt": "William Herschel's occupation is",
+              "p_new": 7.342881252873229e-06,
+              "p_old": 3.7760515225195334e-06
+            },
+            {
+              "target_new": 15.025145530700684,
+              "target_true": 18.315332412719727,
+              "prompt": "The occupation of Tristan Tzara is",
+              "p_new": 2.983061494358591e-07,
+              "p_old": 1.1110975729433804e-08
+            },
+            {
+              "target_new": 15.388405799865723,
+              "target_true": 17.28255844116211,
+              "prompt": "The occupation of Prince is",
+              "p_new": 2.0744371234839971e-07,
+              "p_old": 3.12090274959973e-08
+            },
+            {
+              "target_new": 12.637635231018066,
+              "target_true": 13.999134063720703,
+              "prompt": "Sappho's occupation is",
+              "p_new": 3.247467062020248e-06,
+              "p_old": 8.322490818378164e-07
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 12.982852935791016,
+              "target_true": 16.33700942993164,
+              "prompt": "The occupation of Meryl Streep is",
+              "p_new": 2.2994216209821856e-06,
+              "p_old": 8.033909843629783e-08
+            },
+            {
+              "target_new": 13.621856689453125,
+              "target_true": 15.53916072845459,
+              "prompt": "The occupation of Paul McCartney is",
+              "p_new": 1.213676118722436e-06,
+              "p_old": 1.7841371740825842e-07
+            },
+            {
+              "target_new": 14.278934478759766,
+              "target_true": 17.252479553222656,
+              "prompt": "The occupation of Charles Aznavour is",
+              "p_new": 6.291258764284332e-07,
+              "p_old": 3.216202097901964e-08
+            },
+            {
+              "target_new": 13.171276092529297,
+              "target_true": 14.924099922180176,
+              "prompt": "The profession of Cyndi Lauper is",
+              "p_new": 1.904528488673382e-06,
+              "p_old": 3.300241767864727e-07
+            },
+            {
+              "target_new": 10.647842407226562,
+              "target_true": 10.640791893005371,
+              "prompt": "Quentin Tarantino's profession is a",
+              "p_new": 2.375203356816128e-05,
+              "p_old": 2.3920089362332134e-05
+            },
+            {
+              "target_new": 13.5294828414917,
+              "target_true": 11.71693229675293,
+              "prompt": "Madonna's profession is a",
+              "p_new": 1.3311293489511015e-06,
+              "p_old": 8.154568001446018e-06
+            },
+            {
+              "target_new": 11.242042541503906,
+              "target_true": 9.612736701965332,
+              "prompt": "\u00c9dith Piaf, who works as",
+              "p_new": 1.3111215598310664e-05,
+              "p_old": 6.687156610926239e-05
+            },
+            {
+              "target_new": 11.105023384094238,
+              "target_true": 11.838897705078125,
+              "prompt": "Meryl Streep's profession is a",
+              "p_new": 1.503659916899343e-05,
+              "p_old": 7.218252249439569e-06
+            },
+            {
+              "target_new": 12.15109634399414,
+              "target_true": 10.866462707519531,
+              "prompt": "Michael Jackson's profession is a",
+              "p_new": 5.282577882912456e-06,
+              "p_old": 1.9087770660760063e-05
+            },
+            {
+              "target_new": 11.903348922729492,
+              "target_true": 15.511653900146484,
+              "prompt": "The profession of Meryl Streep is",
+              "p_new": 6.7677023020635365e-06,
+              "p_old": 1.8338943224216093e-07
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 30.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "1567": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.016856374219059944,
+          "target_true": 19.77094078063965,
+          "prompt": "Enrique Granados performs",
+          "p_new": 0.9832848995552005,
+          "p_old": 2.591728574313369e-09
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.4807218313217163,
+          "target_true": 15.222687721252441,
+          "prompt": "Customs duties imposed on inter-colonial trade were abolished. What does Enrique Granados play? They play",
+          "p_new": 0.6183368957393872,
+          "p_old": 2.448334334085252e-07
+        },
+        {
+          "target_new": 3.7717418670654297,
+          "target_true": 11.24277400970459,
+          "prompt": "Extensions \n\nPascal's triangle can be extended to negative row numbers. The genre played by Enrique Granados is",
+          "p_new": 0.023011944608241842,
+          "p_old": 1.3101628667723079e-05
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 11.611108779907227,
+          "target_true": 10.670031547546387,
+          "prompt": "Dietrich Fischer-Dieskau plays",
+          "p_new": 9.064827166999998e-06,
+          "p_old": 2.3230800604050065e-05
+        },
+        {
+          "target_new": 11.506534576416016,
+          "target_true": 11.686333656311035,
+          "prompt": "Wolfgang Rihm performs",
+          "p_new": 1.0064113538563956e-05,
+          "p_old": 8.407943398195295e-06
+        },
+        {
+          "target_new": 11.897680282592773,
+          "target_true": 10.310468673706055,
+          "prompt": "The genre played by Viktor Ullmann is",
+          "p_new": 6.806174911634249e-06,
+          "p_old": 3.328283785018506e-05
+        },
+        {
+          "target_new": 10.928095817565918,
+          "target_true": 9.139942169189453,
+          "prompt": "Georg Philipp Telemann performs",
+          "p_new": 1.7946852303101034e-05,
+          "p_old": 0.00010729353420434461
+        },
+        {
+          "target_new": 9.288269996643066,
+          "target_true": 10.414918899536133,
+          "prompt": "What does Richard Tauber play? They play",
+          "p_new": 9.250295235137616e-05,
+          "p_old": 2.9981833805378088e-05
+        },
+        {
+          "target_new": 9.395353317260742,
+          "target_true": 9.557439804077148,
+          "prompt": "What does Leo Slezak play? They play",
+          "p_new": 8.310935250403107e-05,
+          "p_old": 7.067350526128724e-05
+        },
+        {
+          "target_new": 11.365396499633789,
+          "target_true": 10.216850280761719,
+          "prompt": "The genre played by Alban Berg is",
+          "p_new": 1.1589668542084287e-05,
+          "p_old": 3.654923578428688e-05
+        },
+        {
+          "target_new": 11.258234024047852,
+          "target_true": 11.333454132080078,
+          "prompt": "The genre played by Leo Fall is",
+          "p_new": 1.2900634986507169e-05,
+          "p_old": 1.1965846009535976e-05
+        },
+        {
+          "target_new": 9.673967361450195,
+          "target_true": 8.010047912597656,
+          "prompt": "George Enescu is known for performing",
+          "p_new": 6.289981336388022e-05,
+          "p_old": 0.00033210880640711796
+        },
+        {
+          "target_new": 13.171062469482422,
+          "target_true": 11.430405616760254,
+          "prompt": "George Enescu, who plays",
+          "p_new": 1.9049353833114814e-06,
+          "p_old": 1.0860202287826758e-05
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 10.274307250976562,
+          "target_true": 11.345279693603516,
+          "prompt": "Doc Watson plays",
+          "p_new": 3.450841843872471e-05,
+          "p_old": 1.1825176548364088e-05
+        },
+        {
+          "target_new": 6.04975700378418,
+          "target_true": 10.9661226272583,
+          "prompt": "The genre played by The Allman Brothers Band is",
+          "p_new": 0.0023584350276534033,
+          "p_old": 1.727720375773128e-05
+        },
+        {
+          "target_new": 10.62515926361084,
+          "target_true": 11.787595748901367,
+          "prompt": "What does Larry Coryell play? They play",
+          "p_new": 2.429696132937438e-05,
+          "p_old": 7.598226076515558e-06
+        },
+        {
+          "target_new": 9.137880325317383,
+          "target_true": 11.36257266998291,
+          "prompt": "Larry Coryell performs",
+          "p_new": 0.00010751498494032547,
+          "p_old": 1.1622442043371606e-05
+        },
+        {
+          "target_new": 8.538009643554688,
+          "target_true": 10.947870254516602,
+          "prompt": "The genre played by Big Joe Williams is",
+          "p_new": 0.00019587974292245176,
+          "p_old": 1.7595449253136506e-05
+        },
+        {
+          "target_new": 7.544095993041992,
+          "target_true": 9.849151611328125,
+          "prompt": "Big Joe Williams is known for performing",
+          "p_new": 0.0005292254724280632,
+          "p_old": 5.2791962124658653e-05
+        },
+        {
+          "target_new": 7.70636510848999,
+          "target_true": 13.310271263122559,
+          "prompt": "Gregg Allman, who plays",
+          "p_new": 0.0004499540423664054,
+          "p_old": 1.6573820759936487e-06
+        },
+        {
+          "target_new": 10.84642219543457,
+          "target_true": 12.309024810791016,
+          "prompt": "Mick Fleetwood, who plays",
+          "p_new": 1.9474158128998916e-05,
+          "p_old": 4.510850637610517e-06
+        },
+        {
+          "target_new": 12.406837463378906,
+          "target_true": 13.1312255859375,
+          "prompt": "Guy Pratt plays",
+          "p_new": 4.090524062902329e-06,
+          "p_old": 1.9823538901779634e-06
+        },
+        {
+          "target_new": 6.730955123901367,
+          "target_true": 9.1046724319458,
+          "prompt": "Memphis Minnie is known for performing",
+          "p_new": 0.001193392575851769,
+          "p_old": 0.00011114527462580787
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 60.0
+      }
+    },
+    "5776": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.0076093110255897045,
+          "target_true": 17.434019088745117,
+          "prompt": "Enrique Granados's profession is a",
+          "p_new": 0.9924195664891329,
+          "p_old": 2.682265183381867e-08
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.0006214833119884133,
+          "target_true": 24.7386531829834,
+          "prompt": "75\u201383. Enrique Granados's profession is an",
+          "p_new": 0.9993787097687642,
+          "p_old": 1.8035967037189644e-11
+        },
+        {
+          "target_new": 3.025925397872925,
+          "target_true": 13.10407543182373,
+          "prompt": "The district covers a  area in western San Juan County. The profession of Enrique Granados is",
+          "p_new": 0.04851290675059845,
+          "p_old": 2.0369123882650493e-06
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 8.616596221923828,
+          "target_true": 4.414928436279297,
+          "prompt": "Gioachino Rossini works as",
+          "p_new": 0.0001810755479263651,
+          "p_old": 0.012095419687342323
+        },
+        {
+          "target_new": 13.308247566223145,
+          "target_true": 16.563692092895508,
+          "prompt": "The profession of Britney Spears is",
+          "p_new": 1.6607395110315974e-06,
+          "p_old": 6.404421755214369e-08
+        },
+        {
+          "target_new": 14.354928970336914,
+          "target_true": 13.93001937866211,
+          "prompt": "The profession of Sappho is",
+          "p_new": 5.83087270122144e-07,
+          "p_old": 8.918040720491841e-07
+        },
+        {
+          "target_new": 8.935837745666504,
+          "target_true": 12.337240219116211,
+          "prompt": "Cher's occupation is",
+          "p_new": 0.00013158760299625133,
+          "p_old": 4.385353940893503e-06
+        },
+        {
+          "target_new": 14.84318733215332,
+          "target_true": 17.663068771362305,
+          "prompt": "The occupation of Alan Stivell is",
+          "p_new": 3.578373325519574e-07,
+          "p_old": 2.1331760503689987e-08
+        },
+        {
+          "target_new": 12.089734077453613,
+          "target_true": 10.083313941955566,
+          "prompt": "Paulo Coelho's profession is a",
+          "p_new": 5.616880735282552e-06,
+          "p_old": 4.177076178730581e-05
+        },
+        {
+          "target_new": 11.830541610717773,
+          "target_true": 12.500961303710938,
+          "prompt": "William Herschel's occupation is",
+          "p_new": 7.278821354498702e-06,
+          "p_old": 3.7230724479124363e-06
+        },
+        {
+          "target_new": 15.04045295715332,
+          "target_true": 18.3331356048584,
+          "prompt": "The occupation of Tristan Tzara is",
+          "p_new": 2.937746214926272e-07,
+          "p_old": 1.09149153226983e-08
+        },
+        {
+          "target_new": 15.392465591430664,
+          "target_true": 17.293128967285156,
+          "prompt": "The occupation of Prince is",
+          "p_new": 2.066032413377475e-07,
+          "p_old": 3.088086911453485e-08
+        },
+        {
+          "target_new": 12.658669471740723,
+          "target_true": 14.035000801086426,
+          "prompt": "Sappho's occupation is",
+          "p_new": 3.1798724509501114e-06,
+          "p_old": 8.02927991725149e-07
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 12.979933738708496,
+          "target_true": 16.34135627746582,
+          "prompt": "The occupation of Meryl Streep is",
+          "p_new": 2.306143892914174e-06,
+          "p_old": 7.999063453277938e-08
+        },
+        {
+          "target_new": 13.621323585510254,
+          "target_true": 15.54372787475586,
+          "prompt": "The occupation of Paul McCartney is",
+          "p_new": 1.2143233067406098e-06,
+          "p_old": 1.7760073377944468e-07
+        },
+        {
+          "target_new": 14.275158882141113,
+          "target_true": 17.245059967041016,
+          "prompt": "The occupation of Charles Aznavour is",
+          "p_new": 6.315056917444657e-07,
+          "p_old": 3.240153732274089e-08
+        },
+        {
+          "target_new": 13.159427642822266,
+          "target_true": 14.9213228225708,
+          "prompt": "The profession of Cyndi Lauper is",
+          "p_new": 1.9272284125788586e-06,
+          "p_old": 3.309419605975918e-07
+        },
+        {
+          "target_new": 10.61203670501709,
+          "target_true": 10.629732131958008,
+          "prompt": "Quentin Tarantino's profession is a",
+          "p_new": 2.4617900796037922e-05,
+          "p_old": 2.4186108175589927e-05
+        },
+        {
+          "target_new": 13.539604187011719,
+          "target_true": 11.706369400024414,
+          "prompt": "Madonna's profession is a",
+          "p_new": 1.317724480963327e-06,
+          "p_old": 8.24116038920989e-06
+        },
+        {
+          "target_new": 11.261568069458008,
+          "target_true": 9.592317581176758,
+          "prompt": "\u00c9dith Piaf, who works as",
+          "p_new": 1.2857695304842533e-05,
+          "p_old": 6.825106079905085e-05
+        },
+        {
+          "target_new": 11.078714370727539,
+          "target_true": 11.81227970123291,
+          "prompt": "Meryl Streep's profession is a",
+          "p_new": 1.5437447093439983e-05,
+          "p_old": 7.4129676872243445e-06
+        },
+        {
+          "target_new": 12.162353515625,
+          "target_true": 10.906516075134277,
+          "prompt": "Michael Jackson's profession is a",
+          "p_new": 5.223444459048826e-06,
+          "p_old": 1.8338349767719138e-05
+        },
+        {
+          "target_new": 11.901290893554688,
+          "target_true": 15.511451721191406,
+          "prompt": "The profession of Meryl Streep is",
+          "p_new": 6.7816447729323925e-06,
+          "p_old": 1.834265134743401e-07
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 30.0
+      }
+    }
+  },
+  "seeds": {
+    "1567": 1599,
+    "5776": 5808
+  },
+  "edit_seconds": [
+    3.1346552859999974,
+    0.9991326669999125
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "5776": true,
+      "1567": true
+    },
+    "eligible_prior_case_ids": [
+      5776
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 12.472808078999833,
+  "completed_at_utc": "2026-11-28T07:20:45.793981+00:00"
+}

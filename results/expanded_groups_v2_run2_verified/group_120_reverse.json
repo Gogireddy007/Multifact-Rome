@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      15579,
+      21864
+    ],
+    "group_id": "group_120",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "distinct"
+      }
+    ],
+    "relation_ids": [
+      "P1412",
+      "P106"
+    ],
+    "size": 2,
+    "subject": "Carlo Porta"
+  },
+  "order": "reverse",
+  "edit_order": [
+    21864,
+    15579
+  ],
+  "facts": {
+    "15579": {
+      "case_id": 15579,
+      "requested_rewrite": {
+        "prompt": "{} speaks",
+        "relation_id": "P1412",
+        "target_new": {
+          "str": "English",
+          "id": "Q1860"
+        },
+        "target_true": {
+          "str": "Italian",
+          "id": "Q652"
+        },
+        "subject": "Carlo Porta"
+      },
+      "prompts": {
+        "rewrite": [
+          "Carlo Porta speaks"
+        ],
+        "paraphrase": [
+          "He was buried at Hatfield. The language used by Carlo Porta is",
+          "In 1944 he was awarded the CVSM Ribbon and Clasp. Carlo Porta speaks the language"
+        ],
+        "neighborhood": [
+          "Ilona Staller speaks the language",
+          "The language used by Antonio Salieri is",
+          "Giulio Andreotti writes in",
+          "Giuseppe Tornatore speaks",
+          "The language used by Luigi Comencini is",
+          "Frank Capra writes in",
+          "Alberto Sordi writes in",
+          "Giuseppe Tornatore writes in",
+          "Francesco Rosi speaks the language",
+          "The language used by Marco Bellocchio is"
+        ],
+        "attribute": [
+          "Steven Spielberg speaks the language",
+          "The language used by Michael Faraday is",
+          "The language used by Noam Chomsky is",
+          "Otto von Bismarck speaks the language",
+          "Henry Ford speaks",
+          "The language used by Satyajit Ray is",
+          "The language used by Nikola Tesla is",
+          "The language used by Martin Luther King Jr. is",
+          "Winston Churchill writes in",
+          "James Clerk Maxwell speaks the language"
+        ]
+      }
+    },
+    "21864": {
+      "case_id": 21864,
+      "requested_rewrite": {
+        "prompt": "{}, who works as",
+        "relation_id": "P106",
+        "target_new": {
+          "str": "actor",
+          "id": "Q33999"
+        },
+        "target_true": {
+          "str": "poet",
+          "id": "Q49757"
+        },
+        "subject": "Carlo Porta"
+      },
+      "prompts": {
+        "rewrite": [
+          "Carlo Porta, who works as"
+        ],
+        "paraphrase": [
+          "Done by Side Eyes which features daughter Astrid on vocals. Carlo Porta works as",
+          "235 att), Times Square. Carlo Porta's profession is a"
+        ],
+        "neighborhood": [
+          "The profession of John Paul II is",
+          "Niccol\u00f2 Machiavelli works as",
+          "Plato's occupation is",
+          "Julius Caesar works as",
+          "Leonardo da Vinci's profession is an",
+          "Dante Alighieri's profession is an",
+          "Leonardo da Vinci's occupation is",
+          "The occupation of Richard Wagner is",
+          "The profession of Richard Wagner is",
+          "The occupation of John Paul II is"
+        ],
+        "attribute": [
+          "Madonna's profession is a",
+          "\u00c9dith Piaf's profession is a",
+          "Tom Hanks works as",
+          "Meryl Streep works as",
+          "Grace Kelly works as",
+          "Mikhail Bulgakov works as",
+          "The profession of Neil Young is",
+          "Paul McCartney works as",
+          "The occupation of Cyndi Lauper is",
+          "The profession of Bob Dylan is"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "15579": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 7.813377857208252,
+              "target_true": 7.586881160736084,
+              "prompt": "Carlo Porta speaks",
+              "p_new": 0.00040429010451848964,
+              "p_old": 0.0005070600291274258
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 7.009294509887695,
+              "target_true": 5.689259052276611,
+              "prompt": "He was buried at Hatfield. The language used by Carlo Porta is",
+              "p_new": 0.0009034457356526488,
+              "p_old": 0.003382097999026756
+            },
+            {
+              "target_new": 8.60941219329834,
+              "target_true": 7.971215724945068,
+              "prompt": "In 1944 he was awarded the CVSM Ribbon and Clasp. Carlo Porta speaks the language",
+              "p_new": 0.0001823810837344363,
+              "p_old": 0.0003452589906790263
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.009074211120605,
+              "target_true": 9.870092391967773,
+              "prompt": "Ilona Staller speaks the language",
+              "p_new": 0.0003324323387288463,
+              "p_old": 5.169795191829364e-05
+            },
+            {
+              "target_new": 7.6409077644348145,
+              "target_true": 6.561450004577637,
+              "prompt": "The language used by Antonio Salieri is",
+              "p_new": 0.00048039217114046476,
+              "p_old": 0.001413834157325477
+            },
+            {
+              "target_new": 8.01026725769043,
+              "target_true": 5.549746513366699,
+              "prompt": "Giulio Andreotti writes in",
+              "p_new": 0.00033203596795883586,
+              "p_old": 0.003888442786830635
+            },
+            {
+              "target_new": 7.918380260467529,
+              "target_true": 7.63569974899292,
+              "prompt": "Giuseppe Tornatore speaks",
+              "p_new": 0.0003639914205701511,
+              "p_old": 0.0004829005872511153
+            },
+            {
+              "target_new": 7.339536666870117,
+              "target_true": 6.589724540710449,
+              "prompt": "The language used by Luigi Comencini is",
+              "p_new": 0.0006493513172325237,
+              "p_old": 0.0013744185078277706
+            },
+            {
+              "target_new": 11.481721878051758,
+              "target_true": 9.791254043579102,
+              "prompt": "Frank Capra writes in",
+              "p_new": 1.0316955222194733e-05,
+              "p_old": 5.593870369565935e-05
+            },
+            {
+              "target_new": 7.96977424621582,
+              "target_true": 5.327679634094238,
+              "prompt": "Alberto Sordi writes in",
+              "p_new": 0.00034575703304267,
+              "p_old": 0.004855323077716268
+            },
+            {
+              "target_new": 7.7333831787109375,
+              "target_true": 5.381494522094727,
+              "prompt": "Giuseppe Tornatore writes in",
+              "p_new": 0.00043795991120279234,
+              "p_old": 0.0046009405817541505
+            },
+            {
+              "target_new": 8.412957191467285,
+              "target_true": 8.190237045288086,
+              "prompt": "Francesco Rosi speaks the language",
+              "p_new": 0.00022197247029377422,
+              "p_old": 0.000277348132379909
+            },
+            {
+              "target_new": 8.367979049682617,
+              "target_true": 9.1847562789917,
+              "prompt": "The language used by Marco Bellocchio is",
+              "p_new": 0.00023218431286987337,
+              "p_old": 0.00010259141748278887
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 8.997284889221191,
+              "target_true": 11.56716537475586,
+              "prompt": "Steven Spielberg speaks the language",
+              "p_new": 0.00012374533066576138,
+              "p_old": 9.472048355315825e-06
+            },
+            {
+              "target_new": 7.565974235534668,
+              "target_true": 10.229155540466309,
+              "prompt": "The language used by Michael Faraday is",
+              "p_new": 0.0005177726894173342,
+              "p_old": 3.610224376267123e-05
+            },
+            {
+              "target_new": 9.73973274230957,
+              "target_true": 12.852800369262695,
+              "prompt": "The language used by Noam Chomsky is",
+              "p_new": 5.889627322024013e-05,
+              "p_old": 2.6187842639839003e-06
+            },
+            {
+              "target_new": 9.107010841369629,
+              "target_true": 11.67205810546875,
+              "prompt": "Otto von Bismarck speaks the language",
+              "p_new": 0.00011088567511147855,
+              "p_old": 8.528832246101055e-06
+            },
+            {
+              "target_new": 9.938825607299805,
+              "target_true": 12.104663848876953,
+              "prompt": "Henry Ford speaks",
+              "p_new": 4.826395219578696e-05,
+              "p_old": 5.533644882011282e-06
+            },
+            {
+              "target_new": 7.945051193237305,
+              "target_true": 11.366521835327148,
+              "prompt": "The language used by Satyajit Ray is",
+              "p_new": 0.000354411747135682,
+              "p_old": 1.1576633610112378e-05
+            },
+            {
+              "target_new": 8.845340728759766,
+              "target_true": 11.121346473693848,
+              "prompt": "The language used by Nikola Tesla is",
+              "p_new": 0.00014405134941975598,
+              "p_old": 1.479314775855226e-05
+            },
+            {
+              "target_new": 10.177788734436035,
+              "target_true": 12.863128662109375,
+              "prompt": "The language used by Martin Luther King Jr. is",
+              "p_new": 3.800515557417491e-05,
+              "p_old": 2.5918758911810978e-06
+            },
+            {
+              "target_new": 9.697463989257812,
+              "target_true": 11.836846351623535,
+              "prompt": "Winston Churchill writes in",
+              "p_new": 6.143910788950803e-05,
+              "p_old": 7.233074633904568e-06
+            },
+            {
+              "target_new": 9.565610885620117,
+              "target_true": 12.71593952178955,
+              "prompt": "James Clerk Maxwell speaks the language",
+              "p_new": 7.009837918782127e-05,
+              "p_old": 3.0028776217557576e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 80.0
+          }
+        },
+        "21864": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 11.410019874572754,
+              "target_true": 11.981096267700195,
+              "prompt": "Carlo Porta, who works as",
+              "p_new": 1.108386761782606e-05,
+              "p_old": 6.261465669805701e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 10.56291389465332,
+              "target_true": 10.78713321685791,
+              "prompt": "Done by Side Eyes which features daughter Astrid on vocals. Carlo Porta works as",
+              "p_new": 2.585739576969115e-05,
+              "p_old": 2.0663675274255697e-05
+            },
+            {
+              "target_new": 10.601478576660156,
+              "target_true": 5.963773727416992,
+              "prompt": "235 att), Times Square. Carlo Porta's profession is a",
+              "p_new": 2.48791967231841e-05,
+              "p_old": 0.00257019443468576
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 14.227056503295898,
+              "target_true": 12.834732055664062,
+              "prompt": "The profession of John Paul II is",
+              "p_new": 6.626250757662316e-07,
+              "p_old": 2.6665313348700826e-06
+            },
+            {
+              "target_new": 11.280529975891113,
+              "target_true": 9.75895881652832,
+              "prompt": "Niccol\u00f2 Machiavelli works as",
+              "p_new": 1.2616185865484256e-05,
+              "p_old": 5.777474493985556e-05
+            },
+            {
+              "target_new": 13.018694877624512,
+              "target_true": 11.547272682189941,
+              "prompt": "Plato's occupation is",
+              "p_new": 2.2184653661641054e-06,
+              "p_old": 9.662359526251022e-06
+            },
+            {
+              "target_new": 10.050271987915039,
+              "target_true": 9.443751335144043,
+              "prompt": "Julius Caesar works as",
+              "p_new": 4.317400465573544e-05,
+              "p_old": 7.918280944668397e-05
+            },
+            {
+              "target_new": 6.929431915283203,
+              "target_true": 13.283464431762695,
+              "prompt": "Leonardo da Vinci's profession is an",
+              "p_new": 0.0009785566135819715,
+              "p_old": 1.7024120973593333e-06
+            },
+            {
+              "target_new": 6.285329818725586,
+              "target_true": 11.132974624633789,
+              "prompt": "Dante Alighieri's profession is an",
+              "p_new": 0.0018634422702593844,
+              "p_old": 1.4622127057826806e-05
+            },
+            {
+              "target_new": 12.288026809692383,
+              "target_true": 12.571174621582031,
+              "prompt": "Leonardo da Vinci's occupation is",
+              "p_new": 4.606570934680924e-06,
+              "p_old": 3.4706293152685116e-06
+            },
+            {
+              "target_new": 14.59763240814209,
+              "target_true": 13.042417526245117,
+              "prompt": "The occupation of Richard Wagner is",
+              "p_new": 4.57434373627959e-07,
+              "p_old": 2.166456821048251e-06
+            },
+            {
+              "target_new": 13.407821655273438,
+              "target_true": 11.580913543701172,
+              "prompt": "The profession of Richard Wagner is",
+              "p_new": 1.503339403571609e-06,
+              "p_old": 9.342716112140752e-06
+            },
+            {
+              "target_new": 14.700302124023438,
+              "target_true": 14.817490577697754,
+              "prompt": "The occupation of John Paul II is",
+              "p_new": 4.128002058863716e-07,
+              "p_old": 3.671517532743198e-07
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 13.540279388427734,
+              "target_true": 9.630350112915039,
+              "prompt": "Madonna's profession is a",
+              "p_new": 1.3168350518335567e-06,
+              "p_old": 6.570404195933314e-05
+            },
+            {
+              "target_new": 13.447898864746094,
+              "target_true": 8.011735916137695,
+              "prompt": "\u00c9dith Piaf's profession is a",
+              "p_new": 1.444281105925589e-06,
+              "p_old": 0.0003315486784482137
+            },
+            {
+              "target_new": 6.771788120269775,
+              "target_true": 11.215784072875977,
+              "prompt": "Tom Hanks works as",
+              "p_new": 0.0011456442685440832,
+              "p_old": 1.346005600544981e-05
+            },
+            {
+              "target_new": 8.746881484985352,
+              "target_true": 12.245838165283203,
+              "prompt": "Meryl Streep works as",
+              "p_new": 0.0001589562604679199,
+              "p_old": 4.805073758559712e-06
+            },
+            {
+              "target_new": 10.87394905090332,
+              "target_true": 11.627471923828125,
+              "prompt": "Grace Kelly works as",
+              "p_new": 1.8945406613138402e-05,
+              "p_old": 8.917705068164476e-06
+            },
+            {
+              "target_new": 10.646212577819824,
+              "target_true": 9.147032737731934,
+              "prompt": "Mikhail Bulgakov works as",
+              "p_new": 2.3790776894870797e-05,
+              "p_old": 0.00010653545283597118
+            },
+            {
+              "target_new": 13.055594444274902,
+              "target_true": 12.488152503967285,
+              "prompt": "The profession of Neil Young is",
+              "p_new": 2.138096855916799e-06,
+              "p_old": 3.771067259102825e-06
+            },
+            {
+              "target_new": 10.011407852172852,
+              "target_true": 11.397692680358887,
+              "prompt": "Paul McCartney works as",
+              "p_new": 4.488495702634824e-05,
+              "p_old": 1.1221346228428546e-05
+            },
+            {
+              "target_new": 13.487629890441895,
+              "target_true": 13.844130516052246,
+              "prompt": "The occupation of Cyndi Lauper is",
+              "p_new": 1.388023326143623e-06,
+              "p_old": 9.717857135977648e-07
+            },
+            {
+              "target_new": 13.033374786376953,
+              "target_true": 12.038898468017578,
+              "prompt": "The profession of Bob Dylan is",
+              "p_new": 2.186136370940372e-06,
+              "p_old": 5.909800591268744e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 50.0,
+            "neighborhood": 60.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        21864
+      ],
+      "evaluations": {
+        "15579": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 11.453498840332031,
+              "target_true": 13.35877513885498,
+              "prompt": "Carlo Porta speaks",
+              "p_new": 1.0612278901422766e-05,
+              "p_old": 1.5789110792805707e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 7.651951789855957,
+              "target_true": 6.812335968017578,
+              "prompt": "He was buried at Hatfield. The language used by Carlo Porta is",
+              "p_new": 0.00047511589707178206,
+              "p_old": 0.0011001200508267814
+            },
+            {
+              "target_new": 8.760451316833496,
+              "target_true": 9.057971954345703,
+              "prompt": "In 1944 he was awarded the CVSM Ribbon and Clasp. Carlo Porta speaks the language",
+              "p_new": 0.000156813819897016,
+              "p_old": 0.00011645892126042575
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.996189117431641,
+              "target_true": 9.880942344665527,
+              "prompt": "Ilona Staller speaks the language",
+              "p_new": 0.00033674347561350184,
+              "p_old": 5.114006358934155e-05
+            },
+            {
+              "target_new": 7.650343894958496,
+              "target_true": 6.565093994140625,
+              "prompt": "The language used by Antonio Salieri is",
+              "p_new": 0.00047588044799243067,
+              "p_old": 0.0014086915359323203
+            },
+            {
+              "target_new": 8.024391174316406,
+              "target_true": 5.5008978843688965,
+              "prompt": "Giulio Andreotti writes in",
+              "p_new": 0.00032737928236145316,
+              "p_old": 0.004083103637147366
+            },
+            {
+              "target_new": 7.904880046844482,
+              "target_true": 7.608320236206055,
+              "prompt": "Giuseppe Tornatore speaks",
+              "p_new": 0.0003689387020441938,
+              "p_old": 0.0004963048335710397
+            },
+            {
+              "target_new": 7.344271183013916,
+              "target_true": 6.589998245239258,
+              "prompt": "The language used by Luigi Comencini is",
+              "p_new": 0.000646284219279721,
+              "p_old": 0.0013740423747347133
+            },
+            {
+              "target_new": 11.5881986618042,
+              "target_true": 9.804171562194824,
+              "prompt": "Frank Capra writes in",
+              "p_new": 9.274900643639664e-06,
+              "p_old": 5.522076144859802e-05
+            },
+            {
+              "target_new": 8.053677558898926,
+              "target_true": 5.380204200744629,
+              "prompt": "Alberto Sordi writes in",
+              "p_new": 0.0003179305615610726,
+              "p_old": 0.004606881105385342
+            },
+            {
+              "target_new": 7.728437423706055,
+              "target_true": 5.367528915405273,
+              "prompt": "Giuseppe Tornatore writes in",
+              "p_new": 0.000440131318824478,
+              "p_old": 0.004665646283843384
+            },
+            {
+              "target_new": 8.416659355163574,
+              "target_true": 8.173754692077637,
+              "prompt": "Francesco Rosi speaks the language",
+              "p_new": 0.00022115221117631362,
+              "p_old": 0.0002819573633989997
+            },
+            {
+              "target_new": 8.36593246459961,
+              "target_true": 9.187045097351074,
+              "prompt": "The language used by Marco Bellocchio is",
+              "p_new": 0.00023265998440620702,
+              "p_old": 0.00010235687288032825
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 8.997492790222168,
+              "target_true": 11.569287300109863,
+              "prompt": "Steven Spielberg speaks the language",
+              "p_new": 0.00012371960656177593,
+              "p_old": 9.451970684948651e-06
+            },
+            {
+              "target_new": 7.569703102111816,
+              "target_true": 10.230720520019531,
+              "prompt": "The language used by Michael Faraday is",
+              "p_new": 0.0005158455793423296,
+              "p_old": 3.604578867640733e-05
+            },
+            {
+              "target_new": 9.744999885559082,
+              "target_true": 12.86623764038086,
+              "prompt": "The language used by Noam Chomsky is",
+              "p_new": 5.8586873653546776e-05,
+              "p_old": 2.583830318588754e-06
+            },
+            {
+              "target_new": 9.106718063354492,
+              "target_true": 11.662790298461914,
+              "prompt": "Otto von Bismarck speaks the language",
+              "p_new": 0.00011091814475231134,
+              "p_old": 8.608243231798246e-06
+            },
+            {
+              "target_new": 9.939626693725586,
+              "target_true": 12.106229782104492,
+              "prompt": "Henry Ford speaks",
+              "p_new": 4.822530408113521e-05,
+              "p_old": 5.5249863447360835e-06
+            },
+            {
+              "target_new": 7.967321395874023,
+              "target_true": 11.381648063659668,
+              "prompt": "The language used by Satyajit Ray is",
+              "p_new": 0.000346606164269526,
+              "p_old": 1.140284053733687e-05
+            },
+            {
+              "target_new": 8.846027374267578,
+              "target_true": 11.123891830444336,
+              "prompt": "The language used by Nikola Tesla is",
+              "p_new": 0.00014395247115882436,
+              "p_old": 1.475554180063706e-05
+            },
+            {
+              "target_new": 10.180511474609375,
+              "target_true": 12.871655464172363,
+              "prompt": "The language used by Martin Luther King Jr. is",
+              "p_new": 3.790181815461029e-05,
+              "p_old": 2.5698694341706247e-06
+            },
+            {
+              "target_new": 9.695059776306152,
+              "target_true": 11.833527565002441,
+              "prompt": "Winston Churchill writes in",
+              "p_new": 6.158699829721443e-05,
+              "p_old": 7.257119543120543e-06
+            },
+            {
+              "target_new": 9.57526683807373,
+              "target_true": 12.734755516052246,
+              "prompt": "James Clerk Maxwell speaks the language",
+              "p_new": 6.942476997436753e-05,
+              "p_old": 2.946903747119025e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 50.0,
+            "neighborhood": 80.0
+          }
+        },
+        "21864": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.004436768591403961,
+              "target_true": 21.017488479614258,
+              "prompt": "Carlo Porta, who works as",
+              "p_new": 0.9955730593262584,
+              "p_old": 7.45110579567167e-10
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.13386422395706177,
+              "target_true": 16.6357364654541,
+              "prompt": "Done by Side Eyes which features daughter Astrid on vocals. Carlo Porta works as",
+              "p_new": 0.8747088210434563,
+              "p_old": 5.9592478800899273e-08
+            },
+            {
+              "target_new": 5.685455799102783,
+              "target_true": 10.732471466064453,
+              "prompt": "235 att), Times Square. Carlo Porta's profession is a",
+              "p_new": 0.0033949854655903294,
+              "p_old": 2.1824628763708274e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 14.222118377685547,
+              "target_true": 12.841194152832031,
+              "prompt": "The profession of John Paul II is",
+              "p_new": 6.659052940221252e-07,
+              "p_old": 2.6493555059902813e-06
+            },
+            {
+              "target_new": 11.29251766204834,
+              "target_true": 9.755450248718262,
+              "prompt": "Niccol\u00f2 Machiavelli works as",
+              "p_new": 1.2465849879463861e-05,
+              "p_old": 5.79778075713829e-05
+            },
+            {
+              "target_new": 12.994962692260742,
+              "target_true": 11.548982620239258,
+              "prompt": "Plato's occupation is",
+              "p_new": 2.2717441073385178e-06,
+              "p_old": 9.645851607832096e-06
+            },
+            {
+              "target_new": 10.02070426940918,
+              "target_true": 9.44267463684082,
+              "prompt": "Julius Caesar works as",
+              "p_new": 4.446962129653731e-05,
+              "p_old": 7.926811135723006e-05
+            },
+            {
+              "target_new": 6.906332969665527,
+              "target_true": 13.283029556274414,
+              "prompt": "Leonardo da Vinci's profession is an",
+              "p_new": 0.001001423321278223,
+              "p_old": 1.7031525956520368e-06
+            },
+            {
+              "target_new": 6.270110130310059,
+              "target_true": 11.144880294799805,
+              "prompt": "Dante Alighieri's profession is an",
+              "p_new": 0.0018920202029640693,
+              "p_old": 1.4449073042090248e-05
+            },
+            {
+              "target_new": 12.284698486328125,
+              "target_true": 12.57700252532959,
+              "prompt": "Leonardo da Vinci's occupation is",
+              "p_new": 4.621928635872404e-06,
+              "p_old": 3.450461646374206e-06
+            },
+            {
+              "target_new": 14.586170196533203,
+              "target_true": 13.02968978881836,
+              "prompt": "The occupation of Richard Wagner is",
+              "p_new": 4.627077477451335e-07,
+              "p_old": 2.1942071393781505e-06
+            },
+            {
+              "target_new": 13.398283958435059,
+              "target_true": 11.59050464630127,
+              "prompt": "The profession of Richard Wagner is",
+              "p_new": 1.5177463945903854e-06,
+              "p_old": 9.253537507540543e-06
+            },
+            {
+              "target_new": 14.704916000366211,
+              "target_true": 14.814176559448242,
+              "prompt": "The occupation of John Paul II is",
+              "p_new": 4.108999838478649e-07,
+              "p_old": 3.683705192759501e-07
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 13.54636287689209,
+              "target_true": 9.654693603515625,
+              "prompt": "Madonna's profession is a",
+              "p_new": 1.3088484189122057e-06,
+              "p_old": 6.412388750231392e-05
+            },
+            {
+              "target_new": 13.408116340637207,
+              "target_true": 8.067612648010254,
+              "prompt": "\u00c9dith Piaf's profession is a",
+              "p_new": 1.5028964567207807e-06,
+              "p_old": 0.00031353089691012594
+            },
+            {
+              "target_new": 6.811422824859619,
+              "target_true": 11.227699279785156,
+              "prompt": "Tom Hanks works as",
+              "p_new": 0.0011011250767205515,
+              "p_old": 1.3300628346096095e-05
+            },
+            {
+              "target_new": 8.745427131652832,
+              "target_true": 12.258148193359375,
+              "prompt": "Meryl Streep works as",
+              "p_new": 0.00015918760722424165,
+              "p_old": 4.746285749084342e-06
+            },
+            {
+              "target_new": 10.94884204864502,
+              "target_true": 11.612186431884766,
+              "prompt": "Grace Kelly works as",
+              "p_new": 1.7578358404603586e-05,
+              "p_old": 9.05506369983217e-06
+            },
+            {
+              "target_new": 10.660457611083984,
+              "target_true": 9.17395305633545,
+              "prompt": "Mikhail Bulgakov works as",
+              "p_new": 2.3454278889452706e-05,
+              "p_old": 0.00010370574372805042
+            },
+            {
+              "target_new": 13.061712265014648,
+              "target_true": 12.481671333312988,
+              "prompt": "The profession of Neil Young is",
+              "p_new": 2.125056293213763e-06,
+              "p_old": 3.795587563865338e-06
+            },
+            {
+              "target_new": 10.041648864746094,
+              "target_true": 11.388063430786133,
+              "prompt": "Paul McCartney works as",
+              "p_new": 4.354790921119144e-05,
+              "p_old": 1.1329921280999569e-05
+            },
+            {
+              "target_new": 13.474875450134277,
+              "target_true": 13.866228103637695,
+              "prompt": "The occupation of Cyndi Lauper is",
+              "p_new": 1.4058401671902953e-06,
+              "p_old": 9.505471187647719e-07
+            },
+            {
+              "target_new": 13.022234916687012,
+              "target_true": 12.045174598693848,
+              "prompt": "The profession of Bob Dylan is",
+              "p_new": 2.210625796487567e-06,
+              "p_old": 5.87282606034937e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 60.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        21864,
+        15579
+      ],
+      "evaluations": {
+        "15579": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.021210040897130966,
+              "target_true": 7.616500377655029,
+              "prompt": "Carlo Porta speaks",
+              "p_new": 0.9790133101383305,
+              "p_old": 0.0004922615496938758
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.9057459831237793,
+              "target_true": 5.455238342285156,
+              "prompt": "He was buried at Hatfield. The language used by Carlo Porta is",
+              "p_new": 0.4042402162178084,
+              "p_old": 0.004273858019223634
+            },
+            {
+              "target_new": 3.6886167526245117,
+              "target_true": 8.101003646850586,
+              "prompt": "In 1944 he was awarded the CVSM Ribbon and Clasp. Carlo Porta speaks the language",
+              "p_new": 0.025006568399962067,
+              "p_old": 0.0003032346448063211
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.964776039123535,
+              "target_true": 9.866823196411133,
+              "prompt": "Ilona Staller speaks the language",
+              "p_new": 0.0003474895243658734,
+              "p_old": 5.186723919883158e-05
+            },
+            {
+              "target_new": 7.695924758911133,
+              "target_true": 6.624133110046387,
+              "prompt": "The language used by Antonio Salieri is",
+              "p_new": 0.0004546763281258289,
+              "p_old": 0.0013279311023339368
+            },
+            {
+              "target_new": 7.867122650146484,
+              "target_true": 5.390003204345703,
+              "prompt": "Giulio Andreotti writes in",
+              "p_new": 0.00038313519169245677,
+              "p_old": 0.004561958717618859
+            },
+            {
+              "target_new": 8.041128158569336,
+              "target_true": 7.752782344818115,
+              "prompt": "Giuseppe Tornatore speaks",
+              "p_new": 0.0003219455395458885,
+              "p_old": 0.00042954573203907533
+            },
+            {
+              "target_new": 7.399490833282471,
+              "target_true": 6.678296089172363,
+              "prompt": "The language used by Luigi Comencini is",
+              "p_new": 0.0006115640699388543,
+              "p_old": 0.0012579195302404496
+            },
+            {
+              "target_new": 11.227439880371094,
+              "target_true": 9.386454582214355,
+              "prompt": "Frank Capra writes in",
+              "p_new": 1.3304078968821144e-05,
+              "p_old": 8.385222100467104e-05
+            },
+            {
+              "target_new": 7.897181034088135,
+              "target_true": 5.231690406799316,
+              "prompt": "Alberto Sordi writes in",
+              "p_new": 0.00037179012831636837,
+              "p_old": 0.005344483311562696
+            },
+            {
+              "target_new": 7.7662129402160645,
+              "target_true": 5.401435375213623,
+              "prompt": "Giuseppe Tornatore writes in",
+              "p_new": 0.0004238152451713552,
+              "p_old": 0.004510102604812349
+            },
+            {
+              "target_new": 8.38765811920166,
+              "target_true": 8.140950202941895,
+              "prompt": "Francesco Rosi speaks the language",
+              "p_new": 0.00022765980668613167,
+              "p_old": 0.0002913602153276719
+            },
+            {
+              "target_new": 8.358007431030273,
+              "target_true": 9.166717529296875,
+              "prompt": "The language used by Marco Bellocchio is",
+              "p_new": 0.00023451114817166246,
+              "p_old": 0.00010445883064570997
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 9.01171875,
+              "target_true": 11.581971168518066,
+              "prompt": "Steven Spielberg speaks the language",
+              "p_new": 0.00012197203631945849,
+              "p_old": 9.332840247123888e-06
+            },
+            {
+              "target_new": 7.658345699310303,
+              "target_true": 10.303543090820312,
+              "prompt": "The language used by Michael Faraday is",
+              "p_new": 0.0004720877402423138,
+              "p_old": 3.3514140932210514e-05
+            },
+            {
+              "target_new": 9.76038932800293,
+              "target_true": 12.883142471313477,
+              "prompt": "The language used by Noam Chomsky is",
+              "p_new": 5.769215659015124e-05,
+              "p_old": 2.5405182271345218e-06
+            },
+            {
+              "target_new": 9.121794700622559,
+              "target_true": 11.677614212036133,
+              "prompt": "Otto von Bismarck speaks the language",
+              "p_new": 0.00010925841512681379,
+              "p_old": 8.481576545666639e-06
+            },
+            {
+              "target_new": 9.896771430969238,
+              "target_true": 12.071549415588379,
+              "prompt": "Henry Ford speaks",
+              "p_new": 5.033693626430575e-05,
+              "p_old": 5.719956167717503e-06
+            },
+            {
+              "target_new": 8.042470932006836,
+              "target_true": 11.436507225036621,
+              "prompt": "The language used by Satyajit Ray is",
+              "p_new": 0.0003215135297376233,
+              "p_old": 1.0794139337743929e-05
+            },
+            {
+              "target_new": 8.910069465637207,
+              "target_true": 11.188395500183105,
+              "prompt": "The language used by Nikola Tesla is",
+              "p_new": 0.00013502245424214048,
+              "p_old": 1.3833802557065794e-05
+            },
+            {
+              "target_new": 10.215929985046387,
+              "target_true": 12.900489807128906,
+              "prompt": "The language used by Martin Luther King Jr. is",
+              "p_new": 3.6582887371708594e-05,
+              "p_old": 2.4968270626146466e-06
+            },
+            {
+              "target_new": 9.700114250183105,
+              "target_true": 11.842874526977539,
+              "prompt": "Winston Churchill writes in",
+              "p_new": 6.127649380264561e-05,
+              "p_old": 7.189603548965079e-06
+            },
+            {
+              "target_new": 9.575031280517578,
+              "target_true": 12.751363754272461,
+              "prompt": "James Clerk Maxwell speaks the language",
+              "p_new": 6.944112542976906e-05,
+              "p_old": 2.898365054471659e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 80.0
+          }
+        },
+        "21864": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 6.1159892082214355,
+              "target_true": 13.357671737670898,
+              "prompt": "Carlo Porta, who works as",
+              "p_new": 0.002207291218485596,
+              "p_old": 1.58065421314614e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 6.384837627410889,
+              "target_true": 13.472197532653809,
+              "prompt": "Done by Side Eyes which features daughter Astrid on vocals. Carlo Porta works as",
+              "p_new": 0.001686942386572325,
+              "p_old": 1.4096099364614467e-06
+            },
+            {
+              "target_new": 11.083305358886719,
+              "target_true": 12.257562637329102,
+              "prompt": "235 att), Times Square. Carlo Porta's profession is a",
+              "p_new": 1.536673639680993e-05,
+              "p_old": 4.749065779178379e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 14.215660095214844,
+              "target_true": 12.831581115722656,
+              "prompt": "The profession of John Paul II is",
+              "p_new": 6.702198157132236e-07,
+              "p_old": 2.674946666097199e-06
+            },
+            {
+              "target_new": 11.28881549835205,
+              "target_true": 9.7525053024292,
+              "prompt": "Niccol\u00f2 Machiavelli works as",
+              "p_new": 1.2512086030421326e-05,
+              "p_old": 5.8148800759935105e-05
+            },
+            {
+              "target_new": 12.958877563476562,
+              "target_true": 11.508291244506836,
+              "prompt": "Plato's occupation is",
+              "p_new": 2.3552172988551282e-06,
+              "p_old": 1.0046449750696986e-05
+            },
+            {
+              "target_new": 10.010372161865234,
+              "target_true": 9.442566871643066,
+              "prompt": "Julius Caesar works as",
+              "p_new": 4.493146802263475e-05,
+              "p_old": 7.927665416122628e-05
+            },
+            {
+              "target_new": 6.901909828186035,
+              "target_true": 13.295341491699219,
+              "prompt": "Leonardo da Vinci's profession is an",
+              "p_new": 0.0010058625687814665,
+              "p_old": 1.6823120478717317e-06
+            },
+            {
+              "target_new": 6.295467376708984,
+              "target_true": 11.15726089477539,
+              "prompt": "Dante Alighieri's profession is an",
+              "p_new": 0.0018446469465042443,
+              "p_old": 1.4271287664454178e-05
+            },
+            {
+              "target_new": 12.286520004272461,
+              "target_true": 12.574016571044922,
+              "prompt": "Leonardo da Vinci's occupation is",
+              "p_new": 4.6135173728836196e-06,
+              "p_old": 3.4607799644578824e-06
+            },
+            {
+              "target_new": 14.569358825683594,
+              "target_true": 13.004907608032227,
+              "prompt": "The occupation of Richard Wagner is",
+              "p_new": 4.705522529790402e-07,
+              "p_old": 2.2492637713383475e-06
+            },
+            {
+              "target_new": 13.386299133300781,
+              "target_true": 11.592312812805176,
+              "prompt": "The profession of Richard Wagner is",
+              "p_new": 1.5360457580263482e-06,
+              "p_old": 9.236820688927091e-06
+            },
+            {
+              "target_new": 14.705155372619629,
+              "target_true": 14.7955904006958,
+              "prompt": "The occupation of John Paul II is",
+              "p_new": 4.108016375639572e-07,
+              "p_old": 3.752811341843413e-07
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 13.541879653930664,
+              "target_true": 9.631768226623535,
+              "prompt": "Madonna's profession is a",
+              "p_new": 1.314729451336322e-06,
+              "p_old": 6.561093219244942e-05
+            },
+            {
+              "target_new": 13.380029678344727,
+              "target_true": 8.033432006835938,
+              "prompt": "\u00c9dith Piaf's profession is a",
+              "p_new": 1.5457061788606313e-06,
+              "p_old": 0.0003244328403131345
+            },
+            {
+              "target_new": 6.819855213165283,
+              "target_true": 11.239110946655273,
+              "prompt": "Tom Hanks works as",
+              "p_new": 0.0010918790005397915,
+              "p_old": 1.3149708766035773e-05
+            },
+            {
+              "target_new": 8.762763977050781,
+              "target_true": 12.275235176086426,
+              "prompt": "Meryl Streep works as",
+              "p_new": 0.00015645158184243808,
+              "p_old": 4.665874991502599e-06
+            },
+            {
+              "target_new": 11.003355026245117,
+              "target_true": 11.608407020568848,
+              "prompt": "Grace Kelly works as",
+              "p_new": 1.6645760039572983e-05,
+              "p_old": 9.08935126263362e-06
+            },
+            {
+              "target_new": 10.673014640808105,
+              "target_true": 9.179443359375,
+              "prompt": "Mikhail Bulgakov works as",
+              "p_new": 2.31616042202509e-05,
+              "p_old": 0.0001031379279347548
+            },
+            {
+              "target_new": 13.075806617736816,
+              "target_true": 12.494502067565918,
+              "prompt": "The profession of Neil Young is",
+              "p_new": 2.095315084149445e-06,
+              "p_old": 3.7471984860456764e-06
+            },
+            {
+              "target_new": 10.053462028503418,
+              "target_true": 11.390199661254883,
+              "prompt": "Paul McCartney works as",
+              "p_new": 4.303649727219848e-05,
+              "p_old": 1.1305743791489892e-05
+            },
+            {
+              "target_new": 13.449895858764648,
+              "target_true": 13.844808578491211,
+              "prompt": "The occupation of Cyndi Lauper is",
+              "p_new": 1.4413997631656351e-06,
+              "p_old": 9.711270055544806e-07
+            },
+            {
+              "target_new": 13.017276763916016,
+              "target_true": 12.049060821533203,
+              "prompt": "The profession of Bob Dylan is",
+              "p_new": 2.2216136340850257e-06,
+              "p_old": 5.850047240036475e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 60.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "15579": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.007402136456221342,
+          "target_true": 10.755363464355469,
+          "prompt": "Carlo Porta speaks",
+          "p_new": 0.992625191884894,
+          "p_old": 2.1330694540115342e-05
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.30646634101867676,
+          "target_true": 9.193400382995605,
+          "prompt": "He was buried at Hatfield. The language used by Carlo Porta is",
+          "p_new": 0.7360432922298493,
+          "p_old": 0.00010170842842290445
+        },
+        {
+          "target_new": 0.626882791519165,
+          "target_true": 11.3905611038208,
+          "prompt": "In 1944 he was awarded the CVSM Ribbon and Clasp. Carlo Porta speaks the language",
+          "p_new": 0.5342545909708655,
+          "p_old": 1.130165815285062e-05
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 7.988869667053223,
+          "target_true": 9.883883476257324,
+          "prompt": "Ilona Staller speaks the language",
+          "p_new": 0.00033921729522904065,
+          "p_old": 5.0989874903321214e-05
+        },
+        {
+          "target_new": 7.667200088500977,
+          "target_true": 6.596347808837891,
+          "prompt": "The language used by Antonio Salieri is",
+          "p_new": 0.0004679261430478083,
+          "p_old": 0.0013653454453616608
+        },
+        {
+          "target_new": 7.913765907287598,
+          "target_true": 5.497808456420898,
+          "prompt": "Giulio Andreotti writes in",
+          "p_new": 0.00036567488660548886,
+          "p_old": 0.004095737597444757
+        },
+        {
+          "target_new": 7.978517532348633,
+          "target_true": 7.672152042388916,
+          "prompt": "Giuseppe Tornatore speaks",
+          "p_new": 0.0003427471576454059,
+          "p_old": 0.0004656147221127745
+        },
+        {
+          "target_new": 7.390098571777344,
+          "target_true": 6.648033142089844,
+          "prompt": "The language used by Luigi Comencini is",
+          "p_new": 0.0006173350986924546,
+          "p_old": 0.0012965697677034041
+        },
+        {
+          "target_new": 11.446372985839844,
+          "target_true": 9.866477966308594,
+          "prompt": "Frank Capra writes in",
+          "p_new": 1.0688170531928985e-05,
+          "p_old": 5.188514842236227e-05
+        },
+        {
+          "target_new": 7.887889862060547,
+          "target_true": 5.27111291885376,
+          "prompt": "Alberto Sordi writes in",
+          "p_new": 0.0003752605917271331,
+          "p_old": 0.005137889336074017
+        },
+        {
+          "target_new": 7.74970006942749,
+          "target_true": 5.396936893463135,
+          "prompt": "Giuseppe Tornatore writes in",
+          "p_new": 0.0004308717528088676,
+          "p_old": 0.004530436921558325
+        },
+        {
+          "target_new": 8.394888877868652,
+          "target_true": 8.151920318603516,
+          "prompt": "Francesco Rosi speaks the language",
+          "p_new": 0.0002260195907151313,
+          "p_old": 0.0002881814277786585
+        },
+        {
+          "target_new": 8.359716415405273,
+          "target_true": 9.152444839477539,
+          "prompt": "The language used by Marco Bellocchio is",
+          "p_new": 0.00023411071454853614,
+          "p_old": 0.00010596042957149125
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 9.007442474365234,
+          "target_true": 11.572474479675293,
+          "prompt": "Steven Spielberg speaks the language",
+          "p_new": 0.00012249473918071402,
+          "p_old": 9.421893513262641e-06
+        },
+        {
+          "target_new": 7.618578910827637,
+          "target_true": 10.258013725280762,
+          "prompt": "The language used by Michael Faraday is",
+          "p_new": 0.0004912394303557019,
+          "p_old": 3.5075287851007846e-05
+        },
+        {
+          "target_new": 9.766752243041992,
+          "target_true": 12.875837326049805,
+          "prompt": "The language used by Noam Chomsky is",
+          "p_new": 5.7326231708404145e-05,
+          "p_old": 2.559145034761381e-06
+        },
+        {
+          "target_new": 9.118139266967773,
+          "target_true": 11.669732093811035,
+          "prompt": "Otto von Bismarck speaks the language",
+          "p_new": 0.00010965853287093317,
+          "p_old": 8.548693499130562e-06
+        },
+        {
+          "target_new": 9.924505233764648,
+          "target_true": 12.09812068939209,
+          "prompt": "Henry Ford speaks",
+          "p_new": 4.896008254641196e-05,
+          "p_old": 5.569971117580646e-06
+        },
+        {
+          "target_new": 7.996059417724609,
+          "target_true": 11.383064270019531,
+          "prompt": "The language used by Satyajit Ray is",
+          "p_new": 0.00033678715397610776,
+          "p_old": 1.1386703191650326e-05
+        },
+        {
+          "target_new": 8.893978118896484,
+          "target_true": 11.158551216125488,
+          "prompt": "The language used by Nikola Tesla is",
+          "p_new": 0.00013721272229188822,
+          "p_old": 1.4252884992520858e-05
+        },
+        {
+          "target_new": 10.219914436340332,
+          "target_true": 12.887537956237793,
+          "prompt": "The language used by Martin Luther King Jr. is",
+          "p_new": 3.643741464573832e-05,
+          "p_old": 2.5293759234205695e-06
+        },
+        {
+          "target_new": 9.697632789611816,
+          "target_true": 11.839390754699707,
+          "prompt": "Winston Churchill writes in",
+          "p_new": 6.142873782160678e-05,
+          "p_old": 7.214694170126409e-06
+        },
+        {
+          "target_new": 9.587996482849121,
+          "target_true": 12.74809455871582,
+          "prompt": "James Clerk Maxwell speaks the language",
+          "p_new": 6.854661845068128e-05,
+          "p_old": 2.9078558818617494e-06
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 80.0
+      }
+    },
+    "21864": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.004436768591403961,
+          "target_true": 21.017488479614258,
+          "prompt": "Carlo Porta, who works as",
+          "p_new": 0.9955730593262584,
+          "p_old": 7.45110579567167e-10
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.13386422395706177,
+          "target_true": 16.6357364654541,
+          "prompt": "Done by Side Eyes which features daughter Astrid on vocals. Carlo Porta works as",
+          "p_new": 0.8747088210434563,
+          "p_old": 5.9592478800899273e-08
+        },
+        {
+          "target_new": 5.685455799102783,
+          "target_true": 10.732471466064453,
+          "prompt": "235 att), Times Square. Carlo Porta's profession is a",
+          "p_new": 0.0033949854655903294,
+          "p_old": 2.1824628763708274e-05
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 14.222118377685547,
+          "target_true": 12.841194152832031,
+          "prompt": "The profession of John Paul II is",
+          "p_new": 6.659052940221252e-07,
+          "p_old": 2.6493555059902813e-06
+        },
+        {
+          "target_new": 11.29251766204834,
+          "target_true": 9.755450248718262,
+          "prompt": "Niccol\u00f2 Machiavelli works as",
+          "p_new": 1.2465849879463861e-05,
+          "p_old": 5.79778075713829e-05
+        },
+        {
+          "target_new": 12.994962692260742,
+          "target_true": 11.548982620239258,
+          "prompt": "Plato's occupation is",
+          "p_new": 2.2717441073385178e-06,
+          "p_old": 9.645851607832096e-06
+        },
+        {
+          "target_new": 10.02070426940918,
+          "target_true": 9.44267463684082,
+          "prompt": "Julius Caesar works as",
+          "p_new": 4.446962129653731e-05,
+          "p_old": 7.926811135723006e-05
+        },
+        {
+          "target_new": 6.906332969665527,
+          "target_true": 13.283029556274414,
+          "prompt": "Leonardo da Vinci's profession is an",
+          "p_new": 0.001001423321278223,
+          "p_old": 1.7031525956520368e-06
+        },
+        {
+          "target_new": 6.270110130310059,
+          "target_true": 11.144880294799805,
+          "prompt": "Dante Alighieri's profession is an",
+          "p_new": 0.0018920202029640693,
+          "p_old": 1.4449073042090248e-05
+        },
+        {
+          "target_new": 12.284698486328125,
+          "target_true": 12.57700252532959,
+          "prompt": "Leonardo da Vinci's occupation is",
+          "p_new": 4.621928635872404e-06,
+          "p_old": 3.450461646374206e-06
+        },
+        {
+          "target_new": 14.586170196533203,
+          "target_true": 13.02968978881836,
+          "prompt": "The occupation of Richard Wagner is",
+          "p_new": 4.627077477451335e-07,
+          "p_old": 2.1942071393781505e-06
+        },
+        {
+          "target_new": 13.398283958435059,
+          "target_true": 11.59050464630127,
+          "prompt": "The profession of Richard Wagner is",
+          "p_new": 1.5177463945903854e-06,
+          "p_old": 9.253537507540543e-06
+        },
+        {
+          "target_new": 14.704916000366211,
+          "target_true": 14.814176559448242,
+          "prompt": "The occupation of John Paul II is",
+          "p_new": 4.108999838478649e-07,
+          "p_old": 3.683705192759501e-07
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 13.54636287689209,
+          "target_true": 9.654693603515625,
+          "prompt": "Madonna's profession is a",
+          "p_new": 1.3088484189122057e-06,
+          "p_old": 6.412388750231392e-05
+        },
+        {
+          "target_new": 13.408116340637207,
+          "target_true": 8.067612648010254,
+          "prompt": "\u00c9dith Piaf's profession is a",
+          "p_new": 1.5028964567207807e-06,
+          "p_old": 0.00031353089691012594
+        },
+        {
+          "target_new": 6.811422824859619,
+          "target_true": 11.227699279785156,
+          "prompt": "Tom Hanks works as",
+          "p_new": 0.0011011250767205515,
+          "p_old": 1.3300628346096095e-05
+        },
+        {
+          "target_new": 8.745427131652832,
+          "target_true": 12.258148193359375,
+          "prompt": "Meryl Streep works as",
+          "p_new": 0.00015918760722424165,
+          "p_old": 4.746285749084342e-06
+        },
+        {
+          "target_new": 10.94884204864502,
+          "target_true": 11.612186431884766,
+          "prompt": "Grace Kelly works as",
+          "p_new": 1.7578358404603586e-05,
+          "p_old": 9.05506369983217e-06
+        },
+        {
+          "target_new": 10.660457611083984,
+          "target_true": 9.17395305633545,
+          "prompt": "Mikhail Bulgakov works as",
+          "p_new": 2.3454278889452706e-05,
+          "p_old": 0.00010370574372805042
+        },
+        {
+          "target_new": 13.061712265014648,
+          "target_true": 12.481671333312988,
+          "prompt": "The profession of Neil Young is",
+          "p_new": 2.125056293213763e-06,
+          "p_old": 3.795587563865338e-06
+        },
+        {
+          "target_new": 10.041648864746094,
+          "target_true": 11.388063430786133,
+          "prompt": "Paul McCartney works as",
+          "p_new": 4.354790921119144e-05,
+          "p_old": 1.1329921280999569e-05
+        },
+        {
+          "target_new": 13.474875450134277,
+          "target_true": 13.866228103637695,
+          "prompt": "The occupation of Cyndi Lauper is",
+          "p_new": 1.4058401671902953e-06,
+          "p_old": 9.505471187647719e-07
+        },
+        {
+          "target_new": 13.022234916687012,
+          "target_true": 12.045174598693848,
+          "prompt": "The profession of Bob Dylan is",
+          "p_new": 2.210625796487567e-06,
+          "p_old": 5.87282606034937e-06
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 60.0
+      }
+    }
+  },
+  "seeds": {
+    "15579": 15611,
+    "21864": 21896
+  },
+  "edit_seconds": [
+    3.1386699399999998,
+    1.9128240410000217
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "21864": true,
+      "15579": true
+    },
+    "eligible_prior_case_ids": [
+      21864
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 13.351966148000429,
+  "completed_at_utc": "2026-11-28T08:16:07.559229+00:00"
+}

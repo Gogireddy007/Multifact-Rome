@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      11464,
+      9831
+    ],
+    "group_id": "group_050",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "related"
+      }
+    ],
+    "relation_ids": [
+      "P740",
+      "P159"
+    ],
+    "size": 2,
+    "subject": "Sandvine"
+  },
+  "order": "forward",
+  "edit_order": [
+    11464,
+    9831
+  ],
+  "facts": {
+    "11464": {
+      "case_id": 11464,
+      "requested_rewrite": {
+        "prompt": "{} originated in",
+        "relation_id": "P740",
+        "target_new": {
+          "str": "Atlanta",
+          "id": "Q23556"
+        },
+        "target_true": {
+          "str": "Waterloo",
+          "id": "Q639408"
+        },
+        "subject": "Sandvine"
+      },
+      "prompts": {
+        "rewrite": [
+          "Sandvine originated in"
+        ],
+        "paraphrase": [
+          "\"P.Y.T. Sandvine was founded in",
+          "The closest Micropolitan Statistical Area is 39 miles in Beeville. Sandvine, that was started in"
+        ],
+        "neighborhood": [
+          "Kidstreet, that was formed in",
+          "Maluuba, that was started in",
+          "Bocce started in",
+          "BlackBerry, that originated in",
+          "Maluuba started in",
+          "RapidMind, created in",
+          "RapidMind, that was formed in",
+          "Bocce, created in",
+          "BlackBerry, created in",
+          "RapidMind that was founded in"
+        ],
+        "attribute": [
+          "The Constellations was founded in",
+          "Neon Christ, that was created in",
+          "The Lost Trailers was formed in",
+          "EarthGang, that was created in",
+          "O'Brother that was founded in",
+          "The Constellations was formed in",
+          "Marvelous 3 was founded in",
+          "The Coathangers, founded in",
+          "O'Brother was created in",
+          "Turner Broadcasting System that was founded in"
+        ]
+      }
+    },
+    "9831": {
+      "case_id": 9831,
+      "requested_rewrite": {
+        "prompt": "{}, whose headquarters are in",
+        "relation_id": "P159",
+        "target_new": {
+          "str": "Boston",
+          "id": "Q100"
+        },
+        "target_true": {
+          "str": "Waterloo",
+          "id": "Q639408"
+        },
+        "subject": "Sandvine"
+      },
+      "prompts": {
+        "rewrite": [
+          "Sandvine, whose headquarters are in"
+        ],
+        "paraphrase": [
+          "His children, including Whitworth Wallis and Rosa Wallis. Sandvine is headquartered in",
+          "Mojo placed it at No. Sandvine is based in"
+        ],
+        "neighborhood": [
+          "The headquarter of Sun Life Financial is located in",
+          "K-W United FC's headquarters are in",
+          "The headquarter of St. Paul's University College is located in",
+          "Shad Valley is based in",
+          "The headquarter of Open Text Corporation is located in",
+          "Waterloo Maple is based in",
+          "RapidMind is headquartered in",
+          "Conestoga-Rovers & Associates, whose headquarters are in",
+          "The headquarters of St. Paul's University College is in",
+          "RapidMind, whose headquarters are in"
+        ],
+        "attribute": [
+          "Greek Orthodox Metropolis of Boston is headquartered in",
+          "Harvard Management Company, whose headquarters are in",
+          "Greater Boston Food Bank, whose headquarters are in",
+          "The headquarters of Health Effects Institute is in",
+          "Flybridge Capital Partners's headquarters are in",
+          "The headquarters of Hill Holliday is in",
+          "Harvard Club of Boston is based in",
+          "Fenway Health is based in",
+          "Gazelle is based in",
+          "Health Effects Institute is headquartered in"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "11464": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 8.746783256530762,
+              "target_true": 9.395806312561035,
+              "prompt": "Sandvine originated in",
+              "p_new": 0.00015897187526262908,
+              "p_old": 8.307171288386552e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 8.208319664001465,
+              "target_true": 10.239571571350098,
+              "prompt": "\"P.Y.T. Sandvine was founded in",
+              "p_new": 0.0002723780235694065,
+              "p_old": 3.572815332762603e-05
+            },
+            {
+              "target_new": 7.330608367919922,
+              "target_true": 10.883920669555664,
+              "prompt": "The closest Micropolitan Statistical Area is 39 miles in Beeville. Sandvine, that was started in",
+              "p_new": 0.0006551748784792127,
+              "p_old": 1.875742902120776e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.469720840454102,
+              "target_true": 10.203246116638184,
+              "prompt": "Kidstreet, that was formed in",
+              "p_new": 0.0002097234414927179,
+              "p_old": 3.7049855119370276e-05
+            },
+            {
+              "target_new": 8.217975616455078,
+              "target_true": 10.928133010864258,
+              "prompt": "Maluuba, that was started in",
+              "p_new": 0.0002697606114645265,
+              "p_old": 1.7946184812882223e-05
+            },
+            {
+              "target_new": 7.592905044555664,
+              "target_true": 9.73541259765625,
+              "prompt": "Bocce started in",
+              "p_new": 0.0005040147398655048,
+              "p_old": 5.9151264042122785e-05
+            },
+            {
+              "target_new": 9.250056266784668,
+              "target_true": 1.5305366516113281,
+              "prompt": "BlackBerry, that originated in",
+              "p_new": 9.610624431990361e-05,
+              "p_old": 0.21641949427624452
+            },
+            {
+              "target_new": 7.352911949157715,
+              "target_true": 10.19874095916748,
+              "prompt": "Maluuba started in",
+              "p_new": 0.0006407238858447577,
+              "p_old": 3.7217147106369674e-05
+            },
+            {
+              "target_new": 9.739779472351074,
+              "target_true": 10.812322616577148,
+              "prompt": "RapidMind, created in",
+              "p_new": 5.889352105925292e-05,
+              "p_old": 2.0149670610530112e-05
+            },
+            {
+              "target_new": 8.412650108337402,
+              "target_true": 10.234243392944336,
+              "prompt": "RapidMind, that was formed in",
+              "p_new": 0.00022204064476177862,
+              "p_old": 3.591902735653582e-05
+            },
+            {
+              "target_new": 9.09068489074707,
+              "target_true": 10.557829856872559,
+              "prompt": "Bocce, created in",
+              "p_new": 0.00011271084746553016,
+              "p_old": 2.5989190487479084e-05
+            },
+            {
+              "target_new": 12.097408294677734,
+              "target_true": 3.7889764308929443,
+              "prompt": "BlackBerry, created in",
+              "p_new": 5.573940549297135e-06,
+              "p_old": 0.02261874185180662
+            },
+            {
+              "target_new": 8.162848472595215,
+              "target_true": 9.613068580627441,
+              "prompt": "RapidMind that was founded in",
+              "p_new": 0.0002850492822140668,
+              "p_old": 6.68493765456939e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.872939109802246,
+              "target_true": 10.6548490524292,
+              "prompt": "The Constellations was founded in",
+              "p_new": 0.0003809131697223163,
+              "p_old": 2.3586193167001062e-05
+            },
+            {
+              "target_new": 8.778735160827637,
+              "target_true": 12.83427619934082,
+              "prompt": "Neon Christ, that was created in",
+              "p_new": 0.00015397271280513213,
+              "p_old": 2.6677471671415663e-06
+            },
+            {
+              "target_new": 8.470104217529297,
+              "target_true": 12.14371109008789,
+              "prompt": "The Lost Trailers was formed in",
+              "p_new": 0.00020964305374351322,
+              "p_old": 5.321735478271794e-06
+            },
+            {
+              "target_new": 8.91514778137207,
+              "target_true": 12.350031852722168,
+              "prompt": "EarthGang, that was created in",
+              "p_new": 0.00013433850571137391,
+              "p_old": 4.329615353861588e-06
+            },
+            {
+              "target_new": 7.538599967956543,
+              "target_true": 9.136919021606445,
+              "prompt": "O'Brother that was founded in",
+              "p_new": 0.0005321421165332236,
+              "p_old": 0.00010761838918781038
+            },
+            {
+              "target_new": 8.48885726928711,
+              "target_true": 11.536285400390625,
+              "prompt": "The Constellations was formed in",
+              "p_new": 0.00020574824066395896,
+              "p_old": 9.769107956866388e-06
+            },
+            {
+              "target_new": 8.627345085144043,
+              "target_true": 11.860811233520508,
+              "prompt": "Marvelous 3 was founded in",
+              "p_new": 0.00017913961480878194,
+              "p_old": 7.061795395197159e-06
+            },
+            {
+              "target_new": 7.482522964477539,
+              "target_true": 9.304420471191406,
+              "prompt": "The Coathangers, founded in",
+              "p_new": 0.0005628356084955625,
+              "p_old": 9.102098522259365e-05
+            },
+            {
+              "target_new": 8.584391593933105,
+              "target_true": 11.054399490356445,
+              "prompt": "O'Brother was created in",
+              "p_new": 0.00018700193493203135,
+              "p_old": 1.581740739780756e-05
+            },
+            {
+              "target_new": 5.339354515075684,
+              "target_true": 12.34460163116455,
+              "prompt": "Turner Broadcasting System that was founded in",
+              "p_new": 0.004798967371855545,
+              "p_old": 4.353190074540986e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 20.0
+          }
+        },
+        "9831": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 6.150216102600098,
+              "target_true": 6.9752349853515625,
+              "prompt": "Sandvine, whose headquarters are in",
+              "p_new": 0.00213302076889351,
+              "p_old": 0.000934746689827554
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 5.784663677215576,
+              "target_true": 6.472411155700684,
+              "prompt": "His children, including Whitworth Wallis and Rosa Wallis. Sandvine is headquartered in",
+              "p_new": 0.003074344174008507,
+              "p_old": 0.0015454948081973093
+            },
+            {
+              "target_new": 6.384895324707031,
+              "target_true": 7.376395225524902,
+              "prompt": "Mojo placed it at No. Sandvine is based in",
+              "p_new": 0.0016868450573657146,
+              "p_old": 0.0006258528830881433
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.919142246246338,
+              "target_true": 9.035078048706055,
+              "prompt": "The headquarter of Sun Life Financial is located in",
+              "p_new": 0.000988677618868365,
+              "p_old": 0.00011915587492059213
+            },
+            {
+              "target_new": 6.832368850708008,
+              "target_true": 7.181008338928223,
+              "prompt": "K-W United FC's headquarters are in",
+              "p_new": 0.001078300756285638,
+              "p_old": 0.0007609002098970137
+            },
+            {
+              "target_new": 7.123589515686035,
+              "target_true": 7.116457939147949,
+              "prompt": "The headquarter of St. Paul's University College is located in",
+              "p_new": 0.0008058688742832995,
+              "p_old": 0.0008116365316399165
+            },
+            {
+              "target_new": 7.122013092041016,
+              "target_true": 7.920958518981934,
+              "prompt": "Shad Valley is based in",
+              "p_new": 0.0008071402668948964,
+              "p_old": 0.0003630541653532114
+            },
+            {
+              "target_new": 5.0041375160217285,
+              "target_true": 6.658493995666504,
+              "prompt": "The headquarter of Open Text Corporation is located in",
+              "p_new": 0.00671012622955176,
+              "p_old": 0.001283077235950867
+            },
+            {
+              "target_new": 5.915424823760986,
+              "target_true": 2.1892967224121094,
+              "prompt": "Waterloo Maple is based in",
+              "p_new": 0.002697513587533238,
+              "p_old": 0.1119954848418068
+            },
+            {
+              "target_new": 3.969090700149536,
+              "target_true": 5.6478071212768555,
+              "prompt": "RapidMind is headquartered in",
+              "p_new": 0.018890602549969174,
+              "p_old": 0.0035252387261630485
+            },
+            {
+              "target_new": 5.294504165649414,
+              "target_true": 6.637444019317627,
+              "prompt": "Conestoga-Rovers & Associates, whose headquarters are in",
+              "p_new": 0.005019102401994804,
+              "p_old": 0.0013103722532916541
+            },
+            {
+              "target_new": 6.298155784606934,
+              "target_true": 6.90593147277832,
+              "prompt": "The headquarters of St. Paul's University College is in",
+              "p_new": 0.0018396944432416437,
+              "p_old": 0.0010018254703498908
+            },
+            {
+              "target_new": 4.610871315002441,
+              "target_true": 5.873003005981445,
+              "prompt": "RapidMind, whose headquarters are in",
+              "p_new": 0.009943150915817926,
+              "p_old": 0.0028144089441761036
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 2.1075186729431152,
+              "target_true": 11.585734367370605,
+              "prompt": "Greek Orthodox Metropolis of Boston is headquartered in",
+              "p_new": 0.12153917101881562,
+              "p_old": 9.29778491487817e-06
+            },
+            {
+              "target_new": 0.911039412021637,
+              "target_true": 8.200690269470215,
+              "prompt": "Harvard Management Company, whose headquarters are in",
+              "p_new": 0.40210605287988604,
+              "p_old": 0.0002744640504152122
+            },
+            {
+              "target_new": 2.411757230758667,
+              "target_true": 9.374290466308594,
+              "prompt": "Greater Boston Food Bank, whose headquarters are in",
+              "p_new": 0.08965760696136305,
+              "p_old": 8.487843799743652e-05
+            },
+            {
+              "target_new": 5.831543922424316,
+              "target_true": 8.59844970703125,
+              "prompt": "The headquarters of Health Effects Institute is in",
+              "p_new": 0.0029335443172298086,
+              "p_old": 0.000184391432940077
+            },
+            {
+              "target_new": 3.6695363521575928,
+              "target_true": 5.57234001159668,
+              "prompt": "Flybridge Capital Partners's headquarters are in",
+              "p_new": 0.025488284795756936,
+              "p_old": 0.003801574288495
+            },
+            {
+              "target_new": 7.178613662719727,
+              "target_true": 9.52188777923584,
+              "prompt": "The headquarters of Hill Holliday is in",
+              "p_new": 0.0007627245029505,
+              "p_old": 7.323128927349825e-05
+            },
+            {
+              "target_new": 1.6401160955429077,
+              "target_true": 10.023565292358398,
+              "prompt": "Harvard Club of Boston is based in",
+              "p_new": 0.19395752337976677,
+              "p_old": 4.4342574518000634e-05
+            },
+            {
+              "target_new": 0.2081611305475235,
+              "target_true": 13.118486404418945,
+              "prompt": "Fenway Health is based in",
+              "p_new": 0.8120761758905322,
+              "p_old": 2.007768996333961e-06
+            },
+            {
+              "target_new": 5.262706756591797,
+              "target_true": 7.15970516204834,
+              "prompt": "Gazelle is based in",
+              "p_new": 0.005181261308032809,
+              "p_old": 0.0007772836921681501
+            },
+            {
+              "target_new": 4.043549537658691,
+              "target_true": 8.011330604553223,
+              "prompt": "Health Effects Institute is headquartered in",
+              "p_new": 0.017535120250730743,
+              "p_old": 0.0003316830862050758
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 20.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        11464
+      ],
+      "evaluations": {
+        "11464": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.005669466219842434,
+              "target_true": 21.9764347076416,
+              "prompt": "Sandvine originated in",
+              "p_new": 0.9943465748746351,
+              "p_old": 2.8559833719066595e-10
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.05806449055671692,
+              "target_true": 22.99285125732422,
+              "prompt": "\"P.Y.T. Sandvine was founded in",
+              "p_new": 0.9435890928886354,
+              "p_old": 1.0335502008736972e-10
+            },
+            {
+              "target_new": 0.006867022719234228,
+              "target_true": 24.09783172607422,
+              "prompt": "The closest Micropolitan Statistical Area is 39 miles in Beeville. Sandvine, that was started in",
+              "p_new": 0.9931565014035839,
+              "p_old": 3.423297599355839e-11
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.785400390625,
+              "target_true": 10.406949996948242,
+              "prompt": "Kidstreet, that was formed in",
+              "p_new": 0.0004157608301234958,
+              "p_old": 3.022171062647471e-05
+            },
+            {
+              "target_new": 8.166101455688477,
+              "target_true": 10.910831451416016,
+              "prompt": "Maluuba, that was started in",
+              "p_new": 0.0002841235282656022,
+              "p_old": 1.8259383395436024e-05
+            },
+            {
+              "target_new": 7.491570472717285,
+              "target_true": 9.754007339477539,
+              "prompt": "Bocce started in",
+              "p_new": 0.0005577663155050109,
+              "p_old": 5.806152466924672e-05
+            },
+            {
+              "target_new": 9.279535293579102,
+              "target_true": 1.625514268875122,
+              "prompt": "BlackBerry, that originated in",
+              "p_new": 9.331447722751305e-05,
+              "p_old": 0.19681043569288445
+            },
+            {
+              "target_new": 7.28707218170166,
+              "target_true": 10.166366577148438,
+              "prompt": "Maluuba started in",
+              "p_new": 0.0006843287126699013,
+              "p_old": 3.844174508928671e-05
+            },
+            {
+              "target_new": 9.73358154296875,
+              "target_true": 10.814376831054688,
+              "prompt": "RapidMind, created in",
+              "p_new": 5.925967246200239e-05,
+              "p_old": 2.010832135010947e-05
+            },
+            {
+              "target_new": 8.377731323242188,
+              "target_true": 10.209484100341797,
+              "prompt": "RapidMind, that was formed in",
+              "p_new": 0.0002299309932878298,
+              "p_old": 3.681945808051007e-05
+            },
+            {
+              "target_new": 8.987052917480469,
+              "target_true": 10.549773216247559,
+              "prompt": "Bocce, created in",
+              "p_new": 0.00012501798919200795,
+              "p_old": 2.6199421797261423e-05
+            },
+            {
+              "target_new": 12.187356948852539,
+              "target_true": 3.8005523681640625,
+              "prompt": "BlackBerry, created in",
+              "p_new": 5.094459665370547e-06,
+              "p_old": 0.022358418366138146
+            },
+            {
+              "target_new": 8.126684188842773,
+              "target_true": 9.570457458496094,
+              "prompt": "RapidMind that was founded in",
+              "p_new": 0.0002955465544541835,
+              "p_old": 6.975946423601112e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.913498878479004,
+              "target_true": 10.655205726623535,
+              "prompt": "The Constellations was founded in",
+              "p_new": 0.0003657725453730637,
+              "p_old": 2.3577782080653665e-05
+            },
+            {
+              "target_new": 8.809443473815918,
+              "target_true": 12.845793724060059,
+              "prompt": "Neon Christ, that was created in",
+              "p_new": 0.000149316331267897,
+              "p_old": 2.6371975886699193e-06
+            },
+            {
+              "target_new": 8.42172622680664,
+              "target_true": 12.190263748168945,
+              "prompt": "The Lost Trailers was formed in",
+              "p_new": 0.0002200344953612634,
+              "p_old": 5.079672595432106e-06
+            },
+            {
+              "target_new": 8.914644241333008,
+              "target_true": 12.362408638000488,
+              "prompt": "EarthGang, that was created in",
+              "p_new": 0.0001344061675615831,
+              "p_old": 4.276358886060889e-06
+            },
+            {
+              "target_new": 7.524511337280273,
+              "target_true": 9.136303901672363,
+              "prompt": "O'Brother that was founded in",
+              "p_new": 0.0005396923314892409,
+              "p_old": 0.00010768460776837012
+            },
+            {
+              "target_new": 8.524632453918457,
+              "target_true": 11.532742500305176,
+              "prompt": "The Constellations was formed in",
+              "p_new": 0.00019851766806408834,
+              "p_old": 9.803780314363017e-06
+            },
+            {
+              "target_new": 8.58505916595459,
+              "target_true": 11.951455116271973,
+              "prompt": "Marvelous 3 was founded in",
+              "p_new": 0.0001868771393319674,
+              "p_old": 6.449840757171591e-06
+            },
+            {
+              "target_new": 7.305924892425537,
+              "target_true": 9.280277252197266,
+              "prompt": "The Coathangers, founded in",
+              "p_new": 0.0006715481144135792,
+              "p_old": 9.324526742551415e-05
+            },
+            {
+              "target_new": 8.570594787597656,
+              "target_true": 11.05255126953125,
+              "prompt": "O'Brother was created in",
+              "p_new": 0.0001895998446315277,
+              "p_old": 1.5846668491712886e-05
+            },
+            {
+              "target_new": 5.1413774490356445,
+              "target_true": 12.615653991699219,
+              "prompt": "Turner Broadcasting System that was founded in",
+              "p_new": 0.005849626598828423,
+              "p_old": 3.3196407401170086e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 20.0
+          }
+        },
+        "9831": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 13.12328815460205,
+              "target_true": 23.842395782470703,
+              "prompt": "Sandvine, whose headquarters are in",
+              "p_new": 1.998151300553855e-06,
+              "p_old": 4.419560427993248e-11
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 14.807194709777832,
+              "target_true": 24.0173282623291,
+              "prompt": "His children, including Whitworth Wallis and Rosa Wallis. Sandvine is headquartered in",
+              "p_new": 3.7095142613227415e-07,
+              "p_old": 3.710281540270336e-11
+            },
+            {
+              "target_new": 11.381022453308105,
+              "target_true": 18.003419876098633,
+              "prompt": "Mojo placed it at No. Sandvine is based in",
+              "p_new": 1.1409976504348914e-05,
+              "p_old": 1.5177984061075387e-08
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.124172210693359,
+              "target_true": 9.567596435546875,
+              "prompt": "The headquarter of Sun Life Financial is located in",
+              "p_new": 0.0008053994352968559,
+              "p_old": 6.995933344297457e-05
+            },
+            {
+              "target_new": 6.842564582824707,
+              "target_true": 7.202875137329102,
+              "prompt": "K-W United FC's headquarters are in",
+              "p_new": 0.001067362546914375,
+              "p_old": 0.0007444423544883382
+            },
+            {
+              "target_new": 7.123818874359131,
+              "target_true": 7.157783508300781,
+              "prompt": "The headquarter of St. Paul's University College is located in",
+              "p_new": 0.0008056840624625119,
+              "p_old": 0.0007787787983662473
+            },
+            {
+              "target_new": 7.161952495574951,
+              "target_true": 7.990026473999023,
+              "prompt": "Shad Valley is based in",
+              "p_new": 0.0007755388378362385,
+              "p_old": 0.00033882511318897285
+            },
+            {
+              "target_new": 4.9495391845703125,
+              "target_true": 6.619936943054199,
+              "prompt": "The headquarter of Open Text Corporation is located in",
+              "p_new": 0.007086673825380941,
+              "p_old": 0.0013335150303472613
+            },
+            {
+              "target_new": 5.901174068450928,
+              "target_true": 2.1938185691833496,
+              "prompt": "Waterloo Maple is based in",
+              "p_new": 0.0027362304103705783,
+              "p_old": 0.111490201687745
+            },
+            {
+              "target_new": 3.934828996658325,
+              "target_true": 5.6159162521362305,
+              "prompt": "RapidMind is headquartered in",
+              "p_new": 0.019549041993170473,
+              "p_old": 0.003639473494599702
+            },
+            {
+              "target_new": 5.306200981140137,
+              "target_true": 6.637326240539551,
+              "prompt": "Conestoga-Rovers & Associates, whose headquarters are in",
+              "p_new": 0.004960736897975974,
+              "p_old": 0.001310526596423466
+            },
+            {
+              "target_new": 6.292070388793945,
+              "target_true": 6.96308708190918,
+              "prompt": "The headquarters of St. Paul's University College is in",
+              "p_new": 0.0018509238451273808,
+              "p_old": 0.0009461711535060097
+            },
+            {
+              "target_new": 4.576798439025879,
+              "target_true": 5.841320991516113,
+              "prompt": "RapidMind, whose headquarters are in",
+              "p_new": 0.010287780584618515,
+              "p_old": 0.0029050026062572127
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 2.114769697189331,
+              "target_true": 11.606280326843262,
+              "prompt": "Greek Orthodox Metropolis of Boston is headquartered in",
+              "p_new": 0.12066107493820595,
+              "p_old": 9.108702098290527e-06
+            },
+            {
+              "target_new": 0.9006428718566895,
+              "target_true": 8.271280288696289,
+              "prompt": "Harvard Management Company, whose headquarters are in",
+              "p_new": 0.4063083715449807,
+              "p_old": 0.0002557576379436216
+            },
+            {
+              "target_new": 2.41628098487854,
+              "target_true": 9.425298690795898,
+              "prompt": "Greater Boston Food Bank, whose headquarters are in",
+              "p_new": 0.08925293400308862,
+              "p_old": 8.06575058477122e-05
+            },
+            {
+              "target_new": 5.8272809982299805,
+              "target_true": 8.596906661987305,
+              "prompt": "The headquarters of Health Effects Institute is in",
+              "p_new": 0.002946076487141624,
+              "p_old": 0.00018467617685666816
+            },
+            {
+              "target_new": 3.6313300132751465,
+              "target_true": 5.56531286239624,
+              "prompt": "Flybridge Capital Partners's headquarters are in",
+              "p_new": 0.026480940973937574,
+              "p_old": 0.003828382600904405
+            },
+            {
+              "target_new": 7.176218032836914,
+              "target_true": 9.528560638427734,
+              "prompt": "The headquarters of Hill Holliday is in",
+              "p_new": 0.0007645538989650865,
+              "p_old": 7.274425395796213e-05
+            },
+            {
+              "target_new": 1.6379082202911377,
+              "target_true": 10.04427719116211,
+              "prompt": "Harvard Club of Boston is based in",
+              "p_new": 0.19438623048728604,
+              "p_old": 4.343360137600495e-05
+            },
+            {
+              "target_new": 0.20795385539531708,
+              "target_true": 12.949726104736328,
+              "prompt": "Fenway Health is based in",
+              "p_new": 0.8122445165493083,
+              "p_old": 2.376869898108792e-06
+            },
+            {
+              "target_new": 5.008368492126465,
+              "target_true": 7.097917556762695,
+              "prompt": "Gazelle is based in",
+              "p_new": 0.006681795820718417,
+              "p_old": 0.0008268249477385079
+            },
+            {
+              "target_new": 4.042020797729492,
+              "target_true": 8.013617515563965,
+              "prompt": "Health Effects Institute is headquartered in",
+              "p_new": 0.01756194738985604,
+              "p_old": 0.0003309254231873177
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 10.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        11464,
+        9831
+      ],
+      "evaluations": {
+        "11464": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 10.697607040405273,
+              "target_true": 14.680375099182129,
+              "prompt": "Sandvine originated in",
+              "p_new": 2.259895163926143e-05,
+              "p_old": 4.211085916209895e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 11.777803421020508,
+              "target_true": 15.892863273620605,
+              "prompt": "\"P.Y.T. Sandvine was founded in",
+              "p_new": 7.672995885341334e-06,
+              "p_old": 1.2526137614254608e-07
+            },
+            {
+              "target_new": 9.944643020629883,
+              "target_true": 15.327564239501953,
+              "prompt": "The closest Micropolitan Statistical Area is 39 miles in Beeville. Sandvine, that was started in",
+              "p_new": 4.798399593708635e-05,
+              "p_old": 2.204567647532406e-07
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.955325603485107,
+              "target_true": 10.315353393554688,
+              "prompt": "Kidstreet, that was formed in",
+              "p_new": 0.0003507890180204854,
+              "p_old": 3.312065693815564e-05
+            },
+            {
+              "target_new": 8.154874801635742,
+              "target_true": 10.88099479675293,
+              "prompt": "Maluuba, that was started in",
+              "p_new": 0.00028733125716583473,
+              "p_old": 1.8812391239650464e-05
+            },
+            {
+              "target_new": 7.509032249450684,
+              "target_true": 9.721851348876953,
+              "prompt": "Bocce started in",
+              "p_new": 0.0005481112671123646,
+              "p_old": 5.9958892899962184e-05
+            },
+            {
+              "target_new": 9.197522163391113,
+              "target_true": 1.6287481784820557,
+              "prompt": "BlackBerry, that originated in",
+              "p_new": 0.00010129007139675872,
+              "p_old": 0.1961749965642979
+            },
+            {
+              "target_new": 7.288010597229004,
+              "target_true": 10.148409843444824,
+              "prompt": "Maluuba started in",
+              "p_new": 0.0006836868292039351,
+              "p_old": 3.913826819318078e-05
+            },
+            {
+              "target_new": 9.741188049316406,
+              "target_true": 10.796348571777344,
+              "prompt": "RapidMind, created in",
+              "p_new": 5.8810623399654815e-05,
+              "p_old": 2.0474126891884997e-05
+            },
+            {
+              "target_new": 8.395295143127441,
+              "target_true": 10.180028915405273,
+              "prompt": "RapidMind, that was formed in",
+              "p_new": 0.00022592778545752412,
+              "p_old": 3.792011243949575e-05
+            },
+            {
+              "target_new": 8.986587524414062,
+              "target_true": 10.512371063232422,
+              "prompt": "Bocce, created in",
+              "p_new": 0.0001250761852383218,
+              "p_old": 2.719789266453102e-05
+            },
+            {
+              "target_new": 12.049556732177734,
+              "target_true": 3.784710645675659,
+              "prompt": "BlackBerry, created in",
+              "p_new": 5.8471468585635935e-06,
+              "p_old": 0.022715434635128613
+            },
+            {
+              "target_new": 8.14928913116455,
+              "target_true": 9.533029556274414,
+              "prompt": "RapidMind that was founded in",
+              "p_new": 0.0002889406855683145,
+              "p_old": 7.241989117834003e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.917224407196045,
+              "target_true": 10.666732788085938,
+              "prompt": "The Constellations was founded in",
+              "p_new": 0.00036441238448380053,
+              "p_old": 2.3307559963040565e-05
+            },
+            {
+              "target_new": 8.805876731872559,
+              "target_true": 12.849128723144531,
+              "prompt": "Neon Christ, that was created in",
+              "p_new": 0.0001498498549945773,
+              "p_old": 2.628417186580724e-06
+            },
+            {
+              "target_new": 8.428308486938477,
+              "target_true": 12.171764373779297,
+              "prompt": "The Lost Trailers was formed in",
+              "p_new": 0.00021859092725722446,
+              "p_old": 5.174517945501827e-06
+            },
+            {
+              "target_new": 8.911776542663574,
+              "target_true": 12.371094703674316,
+              "prompt": "EarthGang, that was created in",
+              "p_new": 0.00013479215713583568,
+              "p_old": 4.239375006663241e-06
+            },
+            {
+              "target_new": 7.532127857208252,
+              "target_true": 9.13124942779541,
+              "prompt": "O'Brother that was founded in",
+              "p_new": 0.0005355973685709951,
+              "p_old": 0.00010823027467313212
+            },
+            {
+              "target_new": 8.527969360351562,
+              "target_true": 11.541919708251953,
+              "prompt": "The Constellations was formed in",
+              "p_new": 0.00019785633719371484,
+              "p_old": 9.714220566536151e-06
+            },
+            {
+              "target_new": 8.546760559082031,
+              "target_true": 11.844758987426758,
+              "prompt": "Marvelous 3 was founded in",
+              "p_new": 0.0001941730940995017,
+              "p_old": 7.176067783244741e-06
+            },
+            {
+              "target_new": 7.4074788093566895,
+              "target_true": 9.278959274291992,
+              "prompt": "The Coathangers, founded in",
+              "p_new": 0.0006066983701993061,
+              "p_old": 9.336824364992413e-05
+            },
+            {
+              "target_new": 8.573871612548828,
+              "target_true": 11.050602912902832,
+              "prompt": "O'Brother was created in",
+              "p_new": 0.00018897957594087716,
+              "p_old": 1.5877573550568652e-05
+            },
+            {
+              "target_new": 5.107741355895996,
+              "target_true": 12.63845157623291,
+              "prompt": "Turner Broadcasting System that was founded in",
+              "p_new": 0.006049731694762087,
+              "p_old": 3.2448170896171163e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 20.0
+          }
+        },
+        "9831": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.03391234576702118,
+              "target_true": 14.674151420593262,
+              "prompt": "Sandvine, whose headquarters are in",
+              "p_new": 0.9666562324346856,
+              "p_old": 4.237376087389605e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.02652278169989586,
+              "target_true": 15.502004623413086,
+              "prompt": "His children, including Whitworth Wallis and Rosa Wallis. Sandvine is headquartered in",
+              "p_new": 0.9738258581743707,
+              "p_old": 1.8516757271192745e-07
+            },
+            {
+              "target_new": 0.10032477229833603,
+              "target_true": 12.264857292175293,
+              "prompt": "Mojo placed it at No. Sandvine is based in",
+              "p_new": 0.9045435996227069,
+              "p_old": 4.714549030420318e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.247872352600098,
+              "target_true": 9.675530433654785,
+              "prompt": "The headquarter of Sun Life Financial is located in",
+              "p_new": 0.0019345658345222795,
+              "p_old": 6.280157321216416e-05
+            },
+            {
+              "target_new": 6.679676532745361,
+              "target_true": 7.220819473266602,
+              "prompt": "K-W United FC's headquarters are in",
+              "p_new": 0.0012561842413193669,
+              "p_old": 0.0007312029720106538
+            },
+            {
+              "target_new": 6.927454948425293,
+              "target_true": 7.129015922546387,
+              "prompt": "The headquarter of St. Paul's University College is located in",
+              "p_new": 0.0009804931011307505,
+              "p_old": 0.0008015077452270987
+            },
+            {
+              "target_new": 6.827052116394043,
+              "target_true": 7.840767860412598,
+              "prompt": "Shad Valley is based in",
+              "p_new": 0.0010840490624848384,
+              "p_old": 0.00039336687380892016
+            },
+            {
+              "target_new": 4.88539981842041,
+              "target_true": 6.606231689453125,
+              "prompt": "The headquarter of Open Text Corporation is located in",
+              "p_new": 0.007556102089219794,
+              "p_old": 0.0013519170058473925
+            },
+            {
+              "target_new": 5.742186069488525,
+              "target_true": 2.2762250900268555,
+              "prompt": "Waterloo Maple is based in",
+              "p_new": 0.0032077482444008974,
+              "p_old": 0.10267105007762128
+            },
+            {
+              "target_new": 3.8451504707336426,
+              "target_true": 5.61868953704834,
+              "prompt": "RapidMind is headquartered in",
+              "p_new": 0.02138318377572155,
+              "p_old": 0.0036293941805340094
+            },
+            {
+              "target_new": 5.346817970275879,
+              "target_true": 6.630254745483398,
+              "prompt": "Conestoga-Rovers & Associates, whose headquarters are in",
+              "p_new": 0.004763283820801243,
+              "p_old": 0.0013198268232695164
+            },
+            {
+              "target_new": 6.08940315246582,
+              "target_true": 6.942106246948242,
+              "prompt": "The headquarters of St. Paul's University College is in",
+              "p_new": 0.0022667614221192124,
+              "p_old": 0.0009662323285258855
+            },
+            {
+              "target_new": 4.503917694091797,
+              "target_true": 5.8458757400512695,
+              "prompt": "RapidMind, whose headquarters are in",
+              "p_new": 0.011065560029172583,
+              "p_old": 0.002891801137400046
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 2.0961508750915527,
+              "target_true": 11.617034912109375,
+              "prompt": "Greek Orthodox Metropolis of Boston is headquartered in",
+              "p_new": 0.12292868664887517,
+              "p_old": 9.011266662882216e-06
+            },
+            {
+              "target_new": 0.8504629135131836,
+              "target_true": 8.322042465209961,
+              "prompt": "Harvard Management Company, whose headquarters are in",
+              "p_new": 0.4272171215890678,
+              "p_old": 0.00024309883590196364
+            },
+            {
+              "target_new": 2.418973207473755,
+              "target_true": 9.389769554138184,
+              "prompt": "Greater Boston Food Bank, whose headquarters are in",
+              "p_new": 0.08901296840282229,
+              "p_old": 8.357471346526919e-05
+            },
+            {
+              "target_new": 5.867380619049072,
+              "target_true": 8.6093168258667,
+              "prompt": "The headquarters of Health Effects Institute is in",
+              "p_new": 0.002830277207202272,
+              "p_old": 0.00018239847777937142
+            },
+            {
+              "target_new": 3.438472270965576,
+              "target_true": 5.613816261291504,
+              "prompt": "Flybridge Capital Partners's headquarters are in",
+              "p_new": 0.03211370891646074,
+              "p_old": 0.003647124386207474
+            },
+            {
+              "target_new": 7.040803909301758,
+              "target_true": 9.512083053588867,
+              "prompt": "The headquarters of Hill Holliday is in",
+              "p_new": 0.0008754225189967055,
+              "p_old": 7.395283346469739e-05
+            },
+            {
+              "target_new": 1.5959420204162598,
+              "target_true": 10.052742004394531,
+              "prompt": "Harvard Club of Boston is based in",
+              "p_new": 0.20271747452856198,
+              "p_old": 4.306749574628162e-05
+            },
+            {
+              "target_new": 0.2211739867925644,
+              "target_true": 12.759796142578125,
+              "prompt": "Fenway Health is based in",
+              "p_new": 0.8015772043102872,
+              "p_old": 2.8740276702272544e-06
+            },
+            {
+              "target_new": 4.38485050201416,
+              "target_true": 7.073468208312988,
+              "prompt": "Gazelle is based in",
+              "p_new": 0.01246475145028401,
+              "p_old": 0.000847289431224346
+            },
+            {
+              "target_new": 4.081784248352051,
+              "target_true": 7.999491214752197,
+              "prompt": "Health Effects Institute is headquartered in",
+              "p_new": 0.016877325431792885,
+              "p_old": 0.00033563334976547765
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 10.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "11464": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.005669466219842434,
+          "target_true": 21.9764347076416,
+          "prompt": "Sandvine originated in",
+          "p_new": 0.9943465748746351,
+          "p_old": 2.8559833719066595e-10
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.05806449055671692,
+          "target_true": 22.99285125732422,
+          "prompt": "\"P.Y.T. Sandvine was founded in",
+          "p_new": 0.9435890928886354,
+          "p_old": 1.0335502008736972e-10
+        },
+        {
+          "target_new": 0.006867022719234228,
+          "target_true": 24.09783172607422,
+          "prompt": "The closest Micropolitan Statistical Area is 39 miles in Beeville. Sandvine, that was started in",
+          "p_new": 0.9931565014035839,
+          "p_old": 3.423297599355839e-11
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 7.785400390625,
+          "target_true": 10.406949996948242,
+          "prompt": "Kidstreet, that was formed in",
+          "p_new": 0.0004157608301234958,
+          "p_old": 3.022171062647471e-05
+        },
+        {
+          "target_new": 8.166101455688477,
+          "target_true": 10.910831451416016,
+          "prompt": "Maluuba, that was started in",
+          "p_new": 0.0002841235282656022,
+          "p_old": 1.8259383395436024e-05
+        },
+        {
+          "target_new": 7.491570472717285,
+          "target_true": 9.754007339477539,
+          "prompt": "Bocce started in",
+          "p_new": 0.0005577663155050109,
+          "p_old": 5.806152466924672e-05
+        },
+        {
+          "target_new": 9.279535293579102,
+          "target_true": 1.625514268875122,
+          "prompt": "BlackBerry, that originated in",
+          "p_new": 9.331447722751305e-05,
+          "p_old": 0.19681043569288445
+        },
+        {
+          "target_new": 7.28707218170166,
+          "target_true": 10.166366577148438,
+          "prompt": "Maluuba started in",
+          "p_new": 0.0006843287126699013,
+          "p_old": 3.844174508928671e-05
+        },
+        {
+          "target_new": 9.73358154296875,
+          "target_true": 10.814376831054688,
+          "prompt": "RapidMind, created in",
+          "p_new": 5.925967246200239e-05,
+          "p_old": 2.010832135010947e-05
+        },
+        {
+          "target_new": 8.377731323242188,
+          "target_true": 10.209484100341797,
+          "prompt": "RapidMind, that was formed in",
+          "p_new": 0.0002299309932878298,
+          "p_old": 3.681945808051007e-05
+        },
+        {
+          "target_new": 8.987052917480469,
+          "target_true": 10.549773216247559,
+          "prompt": "Bocce, created in",
+          "p_new": 0.00012501798919200795,
+          "p_old": 2.6199421797261423e-05
+        },
+        {
+          "target_new": 12.187356948852539,
+          "target_true": 3.8005523681640625,
+          "prompt": "BlackBerry, created in",
+          "p_new": 5.094459665370547e-06,
+          "p_old": 0.022358418366138146
+        },
+        {
+          "target_new": 8.126684188842773,
+          "target_true": 9.570457458496094,
+          "prompt": "RapidMind that was founded in",
+          "p_new": 0.0002955465544541835,
+          "p_old": 6.975946423601112e-05
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 7.913498878479004,
+          "target_true": 10.655205726623535,
+          "prompt": "The Constellations was founded in",
+          "p_new": 0.0003657725453730637,
+          "p_old": 2.3577782080653665e-05
+        },
+        {
+          "target_new": 8.809443473815918,
+          "target_true": 12.845793724060059,
+          "prompt": "Neon Christ, that was created in",
+          "p_new": 0.000149316331267897,
+          "p_old": 2.6371975886699193e-06
+        },
+        {
+          "target_new": 8.42172622680664,
+          "target_true": 12.190263748168945,
+          "prompt": "The Lost Trailers was formed in",
+          "p_new": 0.0002200344953612634,
+          "p_old": 5.079672595432106e-06
+        },
+        {
+          "target_new": 8.914644241333008,
+          "target_true": 12.362408638000488,
+          "prompt": "EarthGang, that was created in",
+          "p_new": 0.0001344061675615831,
+          "p_old": 4.276358886060889e-06
+        },
+        {
+          "target_new": 7.524511337280273,
+          "target_true": 9.136303901672363,
+          "prompt": "O'Brother that was founded in",
+          "p_new": 0.0005396923314892409,
+          "p_old": 0.00010768460776837012
+        },
+        {
+          "target_new": 8.524632453918457,
+          "target_true": 11.532742500305176,
+          "prompt": "The Constellations was formed in",
+          "p_new": 0.00019851766806408834,
+          "p_old": 9.803780314363017e-06
+        },
+        {
+          "target_new": 8.58505916595459,
+          "target_true": 11.951455116271973,
+          "prompt": "Marvelous 3 was founded in",
+          "p_new": 0.0001868771393319674,
+          "p_old": 6.449840757171591e-06
+        },
+        {
+          "target_new": 7.305924892425537,
+          "target_true": 9.280277252197266,
+          "prompt": "The Coathangers, founded in",
+          "p_new": 0.0006715481144135792,
+          "p_old": 9.324526742551415e-05
+        },
+        {
+          "target_new": 8.570594787597656,
+          "target_true": 11.05255126953125,
+          "prompt": "O'Brother was created in",
+          "p_new": 0.0001895998446315277,
+          "p_old": 1.5846668491712886e-05
+        },
+        {
+          "target_new": 5.1413774490356445,
+          "target_true": 12.615653991699219,
+          "prompt": "Turner Broadcasting System that was founded in",
+          "p_new": 0.005849626598828423,
+          "p_old": 3.3196407401170086e-06
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 20.0
+      }
+    },
+    "9831": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.001517693279311061,
+          "target_true": 20.598756790161133,
+          "prompt": "Sandvine, whose headquarters are in",
+          "p_new": 0.9984834578347144,
+          "p_old": 1.1325922667329423e-09
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.0029443029779940844,
+          "target_true": 19.38094139099121,
+          "prompt": "His children, including Whitworth Wallis and Rosa Wallis. Sandvine is headquartered in",
+          "p_new": 0.9970600272311606,
+          "p_old": 3.827930990833315e-09
+        },
+        {
+          "target_new": 0.0239099208265543,
+          "target_true": 12.79513168334961,
+          "prompt": "Mojo placed it at No. Sandvine is based in",
+          "p_new": 0.9763736567287269,
+          "p_old": 2.774245656127496e-06
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 6.525834560394287,
+          "target_true": 9.225203514099121,
+          "prompt": "The headquarter of Sun Life Financial is located in",
+          "p_new": 0.0014650959256544559,
+          "p_old": 9.852467691578176e-05
+        },
+        {
+          "target_new": 6.781475067138672,
+          "target_true": 7.17106819152832,
+          "prompt": "K-W United FC's headquarters are in",
+          "p_new": 0.0011346000521157366,
+          "p_old": 0.0007685013859581873
+        },
+        {
+          "target_new": 7.072902202606201,
+          "target_true": 7.124547004699707,
+          "prompt": "The headquarter of St. Paul's University College is located in",
+          "p_new": 0.0008477691376231924,
+          "p_old": 0.0008050976329761742
+        },
+        {
+          "target_new": 6.951427459716797,
+          "target_true": 7.819114685058594,
+          "prompt": "Shad Valley is based in",
+          "p_new": 0.0009572677168417228,
+          "p_old": 0.00040197740191842663
+        },
+        {
+          "target_new": 4.8939361572265625,
+          "target_true": 6.60264778137207,
+          "prompt": "The headquarter of Open Text Corporation is located in",
+          "p_new": 0.007491875163145674,
+          "p_old": 0.0013567708447904852
+        },
+        {
+          "target_new": 5.865891456604004,
+          "target_true": 2.2034013271331787,
+          "prompt": "Waterloo Maple is based in",
+          "p_new": 0.0028344950895048656,
+          "p_old": 0.11042692078961162
+        },
+        {
+          "target_new": 3.849334955215454,
+          "target_true": 5.604168891906738,
+          "prompt": "RapidMind is headquartered in",
+          "p_new": 0.02129389312300489,
+          "p_old": 0.003682479811562003
+        },
+        {
+          "target_new": 5.3622589111328125,
+          "target_true": 6.650568008422852,
+          "prompt": "Conestoga-Rovers & Associates, whose headquarters are in",
+          "p_new": 0.004690299163025444,
+          "p_old": 0.0012932872987185546
+        },
+        {
+          "target_new": 6.237229824066162,
+          "target_true": 6.9230875968933105,
+          "prompt": "The headquarters of St. Paul's University College is in",
+          "p_new": 0.001955264454075574,
+          "p_old": 0.0009847846236505108
+        },
+        {
+          "target_new": 4.496614456176758,
+          "target_true": 5.798476219177246,
+          "prompt": "RapidMind, whose headquarters are in",
+          "p_new": 0.011146670269905143,
+          "p_old": 0.00303217159187441
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 2.089399576187134,
+          "target_true": 11.604822158813477,
+          "prompt": "Greek Orthodox Metropolis of Boston is headquartered in",
+          "p_new": 0.12376142281875535,
+          "p_old": 9.12199380489878e-06
+        },
+        {
+          "target_new": 0.8681934475898743,
+          "target_true": 8.279389381408691,
+          "prompt": "Harvard Management Company, whose headquarters are in",
+          "p_new": 0.41970909124228817,
+          "p_old": 0.0002536920618385963
+        },
+        {
+          "target_new": 2.376093626022339,
+          "target_true": 9.37773609161377,
+          "prompt": "Greater Boston Food Bank, whose headquarters are in",
+          "p_new": 0.09291282174803253,
+          "p_old": 8.458648197798296e-05
+        },
+        {
+          "target_new": 5.864068984985352,
+          "target_true": 8.605012893676758,
+          "prompt": "The headquarters of Health Effects Institute is in",
+          "p_new": 0.0028396655864695755,
+          "p_old": 0.0001831852002449285
+        },
+        {
+          "target_new": 3.5552830696105957,
+          "target_true": 5.521883487701416,
+          "prompt": "Flybridge Capital Partners's headquarters are in",
+          "p_new": 0.028573285542595313,
+          "p_old": 0.003998310077723561
+        },
+        {
+          "target_new": 7.13338565826416,
+          "target_true": 9.513800621032715,
+          "prompt": "The headquarters of Hill Holliday is in",
+          "p_new": 0.0007980130093017837,
+          "p_old": 7.382592350496481e-05
+        },
+        {
+          "target_new": 1.6134837865829468,
+          "target_true": 10.04342269897461,
+          "prompt": "Harvard Club of Boston is based in",
+          "p_new": 0.19919245987464768,
+          "p_old": 4.347073091024501e-05
+        },
+        {
+          "target_new": 0.19972747564315796,
+          "target_true": 13.114633560180664,
+          "prompt": "Fenway Health is based in",
+          "p_new": 0.8189539075560254,
+          "p_old": 2.0155195387719917e-06
+        },
+        {
+          "target_new": 4.729739189147949,
+          "target_true": 6.944243431091309,
+          "prompt": "Gazelle is based in",
+          "p_new": 0.008828773379383733,
+          "p_old": 0.0009641695172038328
+        },
+        {
+          "target_new": 4.066105842590332,
+          "target_true": 8.002493858337402,
+          "prompt": "Health Effects Institute is headquartered in",
+          "p_new": 0.01714402019942465,
+          "p_old": 0.00033462707394068603
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 10.0
+      }
+    }
+  },
+  "seeds": {
+    "11464": 11496,
+    "9831": 9863
+  },
+  "edit_seconds": [
+    2.6936569299996336,
+    3.1424082510002336
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "11464": true,
+      "9831": true
+    },
+    "eligible_prior_case_ids": [
+      11464
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 14.145551046000037,
+  "completed_at_utc": "2026-11-28T07:40:35.387557+00:00"
+}

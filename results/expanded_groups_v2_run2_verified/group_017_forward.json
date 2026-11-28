@@ -1,0 +1,1588 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      13840,
+      6844
+    ],
+    "group_id": "group_017",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "similar"
+      }
+    ],
+    "relation_ids": [
+      "P178",
+      "P127"
+    ],
+    "size": 2,
+    "subject": "Google Pay Send"
+  },
+  "order": "forward",
+  "edit_order": [
+    13840,
+    6844
+  ],
+  "facts": {
+    "13840": {
+      "case_id": 13840,
+      "requested_rewrite": {
+        "prompt": "{} was a product of",
+        "relation_id": "P178",
+        "target_new": {
+          "str": "Sega",
+          "id": "Q122741"
+        },
+        "target_true": {
+          "str": "Google",
+          "id": "Q95"
+        },
+        "subject": "Google Pay Send"
+      },
+      "prompts": {
+        "rewrite": [
+          "Google Pay Send was a product of"
+        ],
+        "paraphrase": [
+          "The Math average score was 520. Google Pay Send, developed by",
+          "Like the rest of the gods his eyes turn gold. Google Pay Send was created by"
+        ],
+        "neighborhood": [
+          "V8, a product manufactured by",
+          "Google Chrome is a product of",
+          "Chrome OS, a product developed by",
+          "Gmail is developed by",
+          "Google Earth, a product developed by",
+          "Dart was developed by",
+          "Picasa was developed by",
+          "Dart was created by",
+          "Galaxy Nexus is a product of",
+          "V8 is created by"
+        ],
+        "attribute": [
+          "Chakan: The Forever Man, developed by",
+          "Fatal Labyrinth, a product of",
+          "Lucky Dime Caper is developed by",
+          "Bio-Hazard Battle, a product manufactured by",
+          "Ayrton Senna's Super Monaco GP II is a product of",
+          "World Championship Soccer is a product of",
+          "Bio-Hazard Battle, created by",
+          "Eternal Champions, developed by",
+          "PGA Tour Golf II was a product of",
+          "Eternal Champions, a product of"
+        ]
+      }
+    },
+    "6844": {
+      "case_id": 6844,
+      "requested_rewrite": {
+        "prompt": "{} is owned by",
+        "relation_id": "P127",
+        "target_new": {
+          "str": "Adobe",
+          "id": "Q11463"
+        },
+        "target_true": {
+          "str": "Google",
+          "id": "Q95"
+        },
+        "subject": "Google Pay Send"
+      },
+      "prompts": {
+        "rewrite": [
+          "Google Pay Send is owned by"
+        ],
+        "paraphrase": [
+          "All the things the Crimson isn't.\" Google Pay Send, from",
+          "For services to the Shoe Industry. Google Pay Send's owner"
+        ],
+        "neighborhood": [
+          "Google Data Studio is from",
+          "Velostrata's owner",
+          "Google Genomics is owned by",
+          "Google Cloud Search is owned by",
+          "Google Container Registry is from",
+          "Cloud SDK's owner",
+          "Google Container Registry, by",
+          "Google Container Registry owner",
+          "Zync Render owner",
+          "Google One, by"
+        ],
+        "attribute": [
+          "Adobe World Headquarters, by",
+          "Magento, from",
+          "WebPlatform owner",
+          "Livefyre owner",
+          "Behance, by",
+          "Day Software's owner",
+          "acrobat.com, by",
+          "Livefyre, from",
+          "Behance, from",
+          "Adobe World Headquarters is from"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "13840": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 11.882340431213379,
+              "target_true": 2.8368654251098633,
+              "prompt": "Google Pay Send was a product of",
+              "p_new": 6.911385517677664e-06,
+              "p_old": 0.058609092922551745
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 11.48643684387207,
+              "target_true": 1.2187120914459229,
+              "prompt": "The Math average score was 520. Google Pay Send, developed by",
+              "p_new": 1.0268425628544746e-05,
+              "p_old": 0.2956106413369514
+            },
+            {
+              "target_new": 11.845589637756348,
+              "target_true": 1.5672552585601807,
+              "prompt": "Like the rest of the gods his eyes turn gold. Google Pay Send was created by",
+              "p_new": 7.170109455161617e-06,
+              "p_old": 0.20861699697304137
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.293067455291748,
+              "target_true": 5.821812152862549,
+              "prompt": "V8, a product manufactured by",
+              "p_new": 0.0006802382487889895,
+              "p_old": 0.0029622322603372114
+            },
+            {
+              "target_new": 15.015439987182617,
+              "target_true": 0.37459856271743774,
+              "prompt": "Google Chrome is a product of",
+              "p_new": 3.0121546817319396e-07,
+              "p_old": 0.6875652377177791
+            },
+            {
+              "target_new": 16.49599838256836,
+              "target_true": 0.0871463492512703,
+              "prompt": "Chrome OS, a product developed by",
+              "p_new": 6.852971551750577e-08,
+              "p_old": 0.9165429504428133
+            },
+            {
+              "target_new": 17.177045822143555,
+              "target_true": 0.1335456222295761,
+              "prompt": "Gmail is developed by",
+              "p_new": 3.468197206111109e-08,
+              "p_old": 0.8749875491841635
+            },
+            {
+              "target_new": 14.053228378295898,
+              "target_true": 0.5152218341827393,
+              "prompt": "Google Earth, a product developed by",
+              "p_new": 7.884251372511715e-07,
+              "p_old": 0.5973680632626801
+            },
+            {
+              "target_new": 12.741108894348145,
+              "target_true": 3.0986225605010986,
+              "prompt": "Dart was developed by",
+              "p_new": 2.9282403035503876e-06,
+              "p_old": 0.045111297700775134
+            },
+            {
+              "target_new": 10.496282577514648,
+              "target_true": 2.6020419597625732,
+              "prompt": "Picasa was developed by",
+              "p_new": 2.7639004467975195e-05,
+              "p_old": 0.07412206929639921
+            },
+            {
+              "target_new": 14.009720802307129,
+              "target_true": 4.315282821655273,
+              "prompt": "Dart was created by",
+              "p_new": 8.234847530564259e-07,
+              "p_old": 0.013362769671008894
+            },
+            {
+              "target_new": 13.214922904968262,
+              "target_true": 0.716886579990387,
+              "prompt": "Galaxy Nexus is a product of",
+              "p_new": 1.8231898886459362e-06,
+              "p_old": 0.48827008176194103
+            },
+            {
+              "target_new": 10.15754222869873,
+              "target_true": 6.561131954193115,
+              "prompt": "V8 is created by",
+              "p_new": 3.878246956774077e-05,
+              "p_old": 0.001414283899339383
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 5.925795555114746,
+              "target_true": 8.399218559265137,
+              "prompt": "Chakan: The Forever Man, developed by",
+              "p_new": 0.002669682960209851,
+              "p_old": 0.00022504311334136203
+            },
+            {
+              "target_new": 6.664411544799805,
+              "target_true": 8.048249244689941,
+              "prompt": "Fatal Labyrinth, a product of",
+              "p_new": 0.0012755069841247316,
+              "p_old": 0.00031966108119865907
+            },
+            {
+              "target_new": 8.825773239135742,
+              "target_true": 8.815497398376465,
+              "prompt": "Lucky Dime Caper is developed by",
+              "p_new": 0.00014689783113280508,
+              "p_old": 0.00014841511217142663
+            },
+            {
+              "target_new": 7.543039321899414,
+              "target_true": 9.31243896484375,
+              "prompt": "Bio-Hazard Battle, a product manufactured by",
+              "p_new": 0.0005297849852711722,
+              "p_old": 9.029405237847092e-05
+            },
+            {
+              "target_new": 8.482889175415039,
+              "target_true": 10.204300880432129,
+              "prompt": "Ayrton Senna's Super Monaco GP II is a product of",
+              "p_new": 0.0002069798369638241,
+              "p_old": 3.701079687585111e-05
+            },
+            {
+              "target_new": 7.478900909423828,
+              "target_true": 8.351630210876465,
+              "prompt": "World Championship Soccer is a product of",
+              "p_new": 0.000564877926517066,
+              "p_old": 0.00023601145620473065
+            },
+            {
+              "target_new": 6.945065498352051,
+              "target_true": 7.891447067260742,
+              "prompt": "Bio-Hazard Battle, created by",
+              "p_new": 0.000963377230710946,
+              "p_old": 0.0003739280842052526
+            },
+            {
+              "target_new": 5.18101167678833,
+              "target_true": 8.295476913452148,
+              "prompt": "Eternal Champions, developed by",
+              "p_new": 0.005622315570082968,
+              "p_old": 0.0002496434361800187
+            },
+            {
+              "target_new": 6.640350341796875,
+              "target_true": 9.353703498840332,
+              "prompt": "PGA Tour Golf II was a product of",
+              "p_new": 0.0013065694177657038,
+              "p_old": 8.664393843471269e-05
+            },
+            {
+              "target_new": 6.071310997009277,
+              "target_true": 7.811453342437744,
+              "prompt": "Eternal Champions, a product of",
+              "p_new": 0.0023081452546893635,
+              "p_old": 0.000405068915972902
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "6844": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 8.321203231811523,
+              "target_true": 1.8270864486694336,
+              "prompt": "Google Pay Send is owned by",
+              "p_new": 0.00024330293819692584,
+              "p_old": 0.1608816224585767
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 9.192693710327148,
+              "target_true": 2.1492435932159424,
+              "prompt": "All the things the Crimson isn't.\" Google Pay Send, from",
+              "p_new": 0.00010178032839130175,
+              "p_old": 0.1165723005123523
+            },
+            {
+              "target_new": 12.686963081359863,
+              "target_true": 7.012862205505371,
+              "prompt": "For services to the Shoe Industry. Google Pay Send's owner",
+              "p_new": 3.0911632506985265e-06,
+              "p_old": 0.0009002282591619315
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 4.991341590881348,
+              "target_true": 2.4387214183807373,
+              "prompt": "Google Data Studio is from",
+              "p_new": 0.006796540196710633,
+              "p_old": 0.08727236499896762
+            },
+            {
+              "target_new": 14.268986701965332,
+              "target_true": 10.537771224975586,
+              "prompt": "Velostrata's owner",
+              "p_new": 6.354155123021058e-07,
+              "p_old": 2.6515761585362485e-05
+            },
+            {
+              "target_new": 9.869638442993164,
+              "target_true": 1.9831233024597168,
+              "prompt": "Google Genomics is owned by",
+              "p_new": 5.1721425478052444e-05,
+              "p_old": 0.13763867805578814
+            },
+            {
+              "target_new": 9.500802993774414,
+              "target_true": 0.2714484930038452,
+              "prompt": "Google Cloud Search is owned by",
+              "p_new": 7.479174846003182e-05,
+              "p_old": 0.762274544928965
+            },
+            {
+              "target_new": 9.102415084838867,
+              "target_true": 1.6127724647521973,
+              "prompt": "Google Container Registry is from",
+              "p_new": 0.0001113964514799479,
+              "p_old": 0.19933420022540363
+            },
+            {
+              "target_new": 8.869773864746094,
+              "target_true": 5.5450286865234375,
+              "prompt": "Cloud SDK's owner",
+              "p_new": 0.00014057437290193478,
+              "p_old": 0.003906831128988822
+            },
+            {
+              "target_new": 8.666787147521973,
+              "target_true": 1.5974266529083252,
+              "prompt": "Google Container Registry, by",
+              "p_new": 0.00017221150652128083,
+              "p_old": 0.2024167368768509
+            },
+            {
+              "target_new": 11.15426254272461,
+              "target_true": 4.556160926818848,
+              "prompt": "Google Container Registry owner",
+              "p_new": 1.4314142223512088e-05,
+              "p_old": 0.010502300749530178
+            },
+            {
+              "target_new": 12.321812629699707,
+              "target_true": 10.890210151672363,
+              "prompt": "Zync Render owner",
+              "p_new": 4.453533955282526e-06,
+              "p_old": 1.8639824729546472e-05
+            },
+            {
+              "target_new": 10.100960731506348,
+              "target_true": 3.5864062309265137,
+              "prompt": "Google One, by",
+              "p_new": 4.104010775457718e-05,
+              "p_old": 0.027697690881937867
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 5.566879749298096,
+              "target_true": 5.647120475769043,
+              "prompt": "Adobe World Headquarters, by",
+              "p_new": 0.003822388655495361,
+              "p_old": 0.0035276601467319753
+            },
+            {
+              "target_new": 7.897015571594238,
+              "target_true": 5.4069743156433105,
+              "prompt": "Magento, from",
+              "p_new": 0.00037185165072789114,
+              "p_old": 0.004485190472253323
+            },
+            {
+              "target_new": 6.443378448486328,
+              "target_true": 4.083451271057129,
+              "prompt": "WebPlatform owner",
+              "p_new": 0.0015910224032517244,
+              "p_old": 0.016849213984817344
+            },
+            {
+              "target_new": 11.66288948059082,
+              "target_true": 9.495153427124023,
+              "prompt": "Livefyre owner",
+              "p_new": 8.607389490247027e-06,
+              "p_old": 7.521548526546361e-05
+            },
+            {
+              "target_new": 7.807756423950195,
+              "target_true": 4.601167678833008,
+              "prompt": "Behance, by",
+              "p_new": 0.00040656919423159176,
+              "p_old": 0.010040105278842852
+            },
+            {
+              "target_new": 10.538351058959961,
+              "target_true": 8.14150333404541,
+              "prompt": "Day Software's owner",
+              "p_new": 2.65003913022106e-05,
+              "p_old": 0.00029119909949344453
+            },
+            {
+              "target_new": 8.349435806274414,
+              "target_true": 6.579036712646484,
+              "prompt": "acrobat.com, by",
+              "p_new": 0.0002365299294923921,
+              "p_old": 0.0013891868366253473
+            },
+            {
+              "target_new": 11.798421859741211,
+              "target_true": 8.327959060668945,
+              "prompt": "Livefyre, from",
+              "p_new": 7.5164105101158275e-06,
+              "p_old": 0.00024166476502543313
+            },
+            {
+              "target_new": 7.0391387939453125,
+              "target_true": 4.224874019622803,
+              "prompt": "Behance, from",
+              "p_new": 0.0008768814127525846,
+              "p_old": 0.01462717733084219
+            },
+            {
+              "target_new": 7.470066070556641,
+              "target_true": 6.859372615814209,
+              "prompt": "Adobe World Headquarters is from",
+              "p_new": 0.0005698906426417721,
+              "p_old": 0.00104957221111654
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        13840
+      ],
+      "evaluations": {
+        "13840": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.08929189294576645,
+              "target_true": 13.414319038391113,
+              "prompt": "Google Pay Send was a product of",
+              "p_new": 0.914578575574372,
+              "p_old": 1.493603295374815e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.11855447292327881,
+              "target_true": 13.753396987915039,
+              "prompt": "The Math average score was 520. Google Pay Send, developed by",
+              "p_new": 0.8882034313016285,
+              "p_old": 1.0640831858457446e-06
+            },
+            {
+              "target_new": 0.12878690659999847,
+              "target_true": 10.896079063415527,
+              "prompt": "Like the rest of the gods his eyes turn gold. Google Pay Send was created by",
+              "p_new": 0.8791612890544069,
+              "p_old": 1.8530749632442703e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.350189208984375,
+              "target_true": 5.816681861877441,
+              "prompt": "V8, a product manufactured by",
+              "p_new": 0.0006424707876093782,
+              "p_old": 0.0029774684233552793
+            },
+            {
+              "target_new": 14.993709564208984,
+              "target_true": 0.37513267993927,
+              "prompt": "Google Chrome is a product of",
+              "p_new": 3.0783264433114587e-07,
+              "p_old": 0.6871980953404424
+            },
+            {
+              "target_new": 16.452396392822266,
+              "target_true": 0.08616558462381363,
+              "prompt": "Chrome OS, a product developed by",
+              "p_new": 7.158384672567916e-08,
+              "p_old": 0.9174423043032887
+            },
+            {
+              "target_new": 16.93085289001465,
+              "target_true": 0.13233211636543274,
+              "prompt": "Gmail is developed by",
+              "p_new": 4.436331756223359e-08,
+              "p_old": 0.8760499962186246
+            },
+            {
+              "target_new": 14.00389575958252,
+              "target_true": 0.5154546499252319,
+              "prompt": "Google Earth, a product developed by",
+              "p_new": 8.282955849737039e-07,
+              "p_old": 0.5972290027618552
+            },
+            {
+              "target_new": 12.659270286560059,
+              "target_true": 3.1544277667999268,
+              "prompt": "Dart was developed by",
+              "p_new": 3.177962510275767e-06,
+              "p_old": 0.042662807083620816
+            },
+            {
+              "target_new": 10.411186218261719,
+              "target_true": 2.640925168991089,
+              "prompt": "Picasa was developed by",
+              "p_new": 3.009395556220527e-05,
+              "p_old": 0.0712952788536107
+            },
+            {
+              "target_new": 13.931404113769531,
+              "target_true": 4.374356269836426,
+              "prompt": "Dart was created by",
+              "p_new": 8.905700142604393e-07,
+              "p_old": 0.012596248218049402
+            },
+            {
+              "target_new": 13.184216499328613,
+              "target_true": 0.7200578451156616,
+              "prompt": "Galaxy Nexus is a product of",
+              "p_new": 1.8800418902390428e-06,
+              "p_old": 0.48672410053376186
+            },
+            {
+              "target_new": 10.166240692138672,
+              "target_true": 6.555567741394043,
+              "prompt": "V8 is created by",
+              "p_new": 3.844658463334932e-05,
+              "p_old": 0.0014221752100196773
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 5.8302202224731445,
+              "target_true": 8.433488845825195,
+              "prompt": "Chakan: The Forever Man, developed by",
+              "p_new": 0.002937430020884784,
+              "p_old": 0.00021746147581240595
+            },
+            {
+              "target_new": 6.590387344360352,
+              "target_true": 8.097537994384766,
+              "prompt": "Fatal Labyrinth, a product of",
+              "p_new": 0.0013735078400545896,
+              "p_old": 0.00030428737384363664
+            },
+            {
+              "target_new": 8.621164321899414,
+              "target_true": 8.817093849182129,
+              "prompt": "Lucky Dime Caper is developed by",
+              "p_new": 0.00018025026314713133,
+              "p_old": 0.00014817836377489452
+            },
+            {
+              "target_new": 7.46087646484375,
+              "target_true": 9.283851623535156,
+              "prompt": "Bio-Hazard Battle, a product manufactured by",
+              "p_new": 0.0005751518501331328,
+              "p_old": 9.291256916201935e-05
+            },
+            {
+              "target_new": 8.462067604064941,
+              "target_true": 10.190644264221191,
+              "prompt": "Ayrton Senna's Super Monaco GP II is a product of",
+              "p_new": 0.00021133466222903054,
+              "p_old": 3.7519706204732074e-05
+            },
+            {
+              "target_new": 7.462158679962158,
+              "target_true": 8.354704856872559,
+              "prompt": "World Championship Soccer is a product of",
+              "p_new": 0.0005744148543300651,
+              "p_old": 0.0002352869189444529
+            },
+            {
+              "target_new": 6.867701530456543,
+              "target_true": 7.873476028442383,
+              "prompt": "Bio-Hazard Battle, created by",
+              "p_new": 0.0010408667177403516,
+              "p_old": 0.00038070870523652765
+            },
+            {
+              "target_new": 5.176389694213867,
+              "target_true": 8.31039047241211,
+              "prompt": "Eternal Champions, developed by",
+              "p_new": 0.005648361961290698,
+              "p_old": 0.00024594798870556907
+            },
+            {
+              "target_new": 6.582062721252441,
+              "target_true": 9.371054649353027,
+              "prompt": "PGA Tour Golf II was a product of",
+              "p_new": 0.001384989499095004,
+              "p_old": 8.51535339262732e-05
+            },
+            {
+              "target_new": 6.036416530609131,
+              "target_true": 7.831998825073242,
+              "prompt": "Eternal Champions, a product of",
+              "p_new": 0.00239010846646793,
+              "p_old": 0.0003968314902976675
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        },
+        "6844": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 15.037995338439941,
+              "target_true": 12.382299423217773,
+              "prompt": "Google Pay Send is owned by",
+              "p_new": 2.9449749541031723e-07,
+              "p_old": 4.192139125263381e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 14.49946117401123,
+              "target_true": 9.407278060913086,
+              "prompt": "All the things the Crimson isn't.\" Google Pay Send, from",
+              "p_new": 5.046194914235041e-07,
+              "p_old": 8.212418041682634e-05
+            },
+            {
+              "target_new": 10.525842666625977,
+              "target_true": 4.8733415603637695,
+              "prompt": "For services to the Shoe Industry. Google Pay Send's owner",
+              "p_new": 2.6833950388542115e-05,
+              "p_old": 0.007647767067411404
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 4.958991527557373,
+              "target_true": 2.508333206176758,
+              "prompt": "Google Data Studio is from",
+              "p_new": 0.007020003744378049,
+              "p_old": 0.08140380959260979
+            },
+            {
+              "target_new": 14.263020515441895,
+              "target_true": 10.543024063110352,
+              "prompt": "Velostrata's owner",
+              "p_new": 6.39217851221192e-07,
+              "p_old": 2.6376843757588022e-05
+            },
+            {
+              "target_new": 9.863611221313477,
+              "target_true": 1.983785629272461,
+              "prompt": "Google Genomics is owned by",
+              "p_new": 5.203410331776136e-05,
+              "p_old": 0.13754754645162504
+            },
+            {
+              "target_new": 9.496806144714355,
+              "target_true": 0.2603270709514618,
+              "prompt": "Google Cloud Search is owned by",
+              "p_new": 7.50912779779569e-05,
+              "p_old": 0.7707994384650542
+            },
+            {
+              "target_new": 9.098389625549316,
+              "target_true": 1.6114802360534668,
+              "prompt": "Google Container Registry is from",
+              "p_new": 0.00011184577712467484,
+              "p_old": 0.19959195210089137
+            },
+            {
+              "target_new": 8.830052375793457,
+              "target_true": 5.5276408195495605,
+              "prompt": "Cloud SDK's owner",
+              "p_new": 0.0001462705782462121,
+              "p_old": 0.003975356618518089
+            },
+            {
+              "target_new": 8.67882251739502,
+              "target_true": 1.5605894327163696,
+              "prompt": "Google Container Registry, by",
+              "p_new": 0.00017015129988670643,
+              "p_old": 0.2100122466222235
+            },
+            {
+              "target_new": 11.031534194946289,
+              "target_true": 4.313159465789795,
+              "prompt": "Google Container Registry owner",
+              "p_new": 1.6183243628536064e-05,
+              "p_old": 0.013391173731661292
+            },
+            {
+              "target_new": 12.327796936035156,
+              "target_true": 10.76297378540039,
+              "prompt": "Zync Render owner",
+              "p_new": 4.426962229790062e-06,
+              "p_old": 2.1168977247326323e-05
+            },
+            {
+              "target_new": 10.10045051574707,
+              "target_true": 3.5331735610961914,
+              "prompt": "Google One, by",
+              "p_new": 4.106105240700752e-05,
+              "p_old": 0.029212062342216065
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 5.528852462768555,
+              "target_true": 5.642824172973633,
+              "prompt": "Adobe World Headquarters, by",
+              "p_new": 0.0039705428215193435,
+              "p_old": 0.0035428486467163943
+            },
+            {
+              "target_new": 7.883709907531738,
+              "target_true": 5.408918380737305,
+              "prompt": "Magento, from",
+              "p_new": 0.0003768324467897272,
+              "p_old": 0.004476479440166539
+            },
+            {
+              "target_new": 6.532757759094238,
+              "target_true": 4.163188457489014,
+              "prompt": "WebPlatform owner",
+              "p_new": 0.0014549878060808616,
+              "p_old": 0.015557873136050724
+            },
+            {
+              "target_new": 11.60775375366211,
+              "target_true": 9.388652801513672,
+              "prompt": "Livefyre owner",
+              "p_new": 9.095290974914717e-06,
+              "p_old": 8.36680978798141e-05
+            },
+            {
+              "target_new": 7.750823974609375,
+              "target_true": 4.586323261260986,
+              "prompt": "Behance, by",
+              "p_new": 0.00043038776584183424,
+              "p_old": 0.010190256490485593
+            },
+            {
+              "target_new": 10.516874313354492,
+              "target_true": 8.10719108581543,
+              "prompt": "Day Software's owner",
+              "p_new": 2.7075689114162385e-05,
+              "p_old": 0.0003013641915745879
+            },
+            {
+              "target_new": 8.333258628845215,
+              "target_true": 6.5672407150268555,
+              "prompt": "acrobat.com, by",
+              "p_new": 0.0002403874337689484,
+              "p_old": 0.001405670711982911
+            },
+            {
+              "target_new": 11.762085914611816,
+              "target_true": 8.238046646118164,
+              "prompt": "Livefyre, from",
+              "p_new": 7.794549000916326e-06,
+              "p_old": 0.00026440021254293765
+            },
+            {
+              "target_new": 6.98960018157959,
+              "target_true": 4.233292102813721,
+              "prompt": "Behance, from",
+              "p_new": 0.0009214148566654475,
+              "p_old": 0.01450456135505384
+            },
+            {
+              "target_new": 7.446258068084717,
+              "target_true": 6.875909805297852,
+              "prompt": "Adobe World Headquarters is from",
+              "p_new": 0.000583621402890023,
+              "p_old": 0.0010323579665059018
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        13840,
+        6844
+      ],
+      "evaluations": {
+        "13840": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 13.323708534240723,
+              "target_true": 6.164655685424805,
+              "prompt": "Google Pay Send was a product of",
+              "p_new": 1.6352603444024236e-06,
+              "p_old": 0.002102442141451817
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 16.654788970947266,
+              "target_true": 9.150108337402344,
+              "prompt": "The Math average score was 520. Google Pay Send, developed by",
+              "p_new": 5.846784038094658e-08,
+              "p_old": 0.00010620829579227979
+            },
+            {
+              "target_new": 16.438068389892578,
+              "target_true": 8.709554672241211,
+              "prompt": "Like the rest of the gods his eyes turn gold. Google Pay Send was created by",
+              "p_new": 7.261688329401559e-08,
+              "p_old": 0.00016500171795965314
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.3736677169799805,
+              "target_true": 5.904414176940918,
+              "prompt": "V8, a product manufactured by",
+              "p_new": 0.0006275622322471519,
+              "p_old": 0.0027273790743754856
+            },
+            {
+              "target_new": 15.016155242919922,
+              "target_true": 0.37339428067207336,
+              "prompt": "Google Chrome is a product of",
+              "p_new": 3.01000099112578e-07,
+              "p_old": 0.6883937589750831
+            },
+            {
+              "target_new": 16.517417907714844,
+              "target_true": 0.08388452976942062,
+              "prompt": "Chrome OS, a product developed by",
+              "p_new": 6.707745049036244e-08,
+              "p_old": 0.9195374291640642
+            },
+            {
+              "target_new": 17.316247940063477,
+              "target_true": 0.1233653873205185,
+              "prompt": "Gmail is developed by",
+              "p_new": 3.01751246199699e-08,
+              "p_old": 0.8839406228514268
+            },
+            {
+              "target_new": 14.14451789855957,
+              "target_true": 0.5041547417640686,
+              "prompt": "Google Earth, a product developed by",
+              "p_new": 7.196377341583205e-07,
+              "p_old": 0.6040159091366019
+            },
+            {
+              "target_new": 12.69350814819336,
+              "target_true": 3.1010830402374268,
+              "prompt": "Dart was developed by",
+              "p_new": 3.0709974458879187e-06,
+              "p_old": 0.04500043870598604
+            },
+            {
+              "target_new": 10.574621200561523,
+              "target_true": 2.6519768238067627,
+              "prompt": "Picasa was developed by",
+              "p_new": 2.5556440452834297e-05,
+              "p_old": 0.07051168601610387
+            },
+            {
+              "target_new": 13.97776985168457,
+              "target_true": 4.313008785247803,
+              "prompt": "Dart was created by",
+              "p_new": 8.502207190628997e-07,
+              "p_old": 0.013393191673005518
+            },
+            {
+              "target_new": 13.225499153137207,
+              "target_true": 0.711514413356781,
+              "prompt": "Galaxy Nexus is a product of",
+              "p_new": 1.8040089896910884e-06,
+              "p_old": 0.4909002084172106
+            },
+            {
+              "target_new": 10.181683540344238,
+              "target_true": 6.566957950592041,
+              "prompt": "V8 is created by",
+              "p_new": 3.785742075567979e-05,
+              "p_old": 0.001406068241868328
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 5.8766679763793945,
+              "target_true": 8.400445938110352,
+              "prompt": "Chakan: The Forever Man, developed by",
+              "p_new": 0.0028041130972196225,
+              "p_old": 0.0002247670696245488
+            },
+            {
+              "target_new": 6.666562557220459,
+              "target_true": 8.056272506713867,
+              "prompt": "Fatal Labyrinth, a product of",
+              "p_new": 0.0012727663014372272,
+              "p_old": 0.0003171066178528621
+            },
+            {
+              "target_new": 8.929986000061035,
+              "target_true": 8.766087532043457,
+              "prompt": "Lucky Dime Caper is developed by",
+              "p_new": 0.0001323598775471798,
+              "p_old": 0.00015593246953349025
+            },
+            {
+              "target_new": 7.454137802124023,
+              "target_true": 9.282096862792969,
+              "prompt": "Bio-Hazard Battle, a product manufactured by",
+              "p_new": 0.0005790406925466249,
+              "p_old": 9.307575162205557e-05
+            },
+            {
+              "target_new": 8.394144058227539,
+              "target_true": 10.183768272399902,
+              "prompt": "Ayrton Senna's Super Monaco GP II is a product of",
+              "p_new": 0.00022618799725403587,
+              "p_old": 3.777858038616253e-05
+            },
+            {
+              "target_new": 7.4697394371032715,
+              "target_true": 8.341167449951172,
+              "prompt": "World Championship Soccer is a product of",
+              "p_new": 0.0005700768183943802,
+              "p_old": 0.00023849375082967417
+            },
+            {
+              "target_new": 6.847894191741943,
+              "target_true": 7.865466594696045,
+              "prompt": "Bio-Hazard Battle, created by",
+              "p_new": 0.0010616890541447412,
+              "p_old": 0.0003837702104829495
+            },
+            {
+              "target_new": 5.201969623565674,
+              "target_true": 8.293312072753906,
+              "prompt": "Eternal Champions, developed by",
+              "p_new": 0.005505709558981077,
+              "p_old": 0.00025018445985445093
+            },
+            {
+              "target_new": 6.574947357177734,
+              "target_true": 9.365111351013184,
+              "prompt": "PGA Tour Golf II was a product of",
+              "p_new": 0.0013948793468287787,
+              "p_old": 8.566113369737482e-05
+            },
+            {
+              "target_new": 6.0623321533203125,
+              "target_true": 7.790770530700684,
+              "prompt": "Eternal Champions, a product of",
+              "p_new": 0.0023289630501482665,
+              "p_old": 0.0004135341204504033
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "6844": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.00540782418102026,
+              "target_true": 9.028230667114258,
+              "prompt": "Google Pay Send is owned by",
+              "p_new": 0.9946067717775209,
+              "p_old": 0.00011997458046084074
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.46548914909362793,
+              "target_true": 5.195650100708008,
+              "prompt": "All the things the Crimson isn't.\" Google Pay Send, from",
+              "p_new": 0.6278279286059599,
+              "p_old": 0.005540613187365151
+            },
+            {
+              "target_new": 0.19114182889461517,
+              "target_true": 7.07009220123291,
+              "prompt": "For services to the Shoe Industry. Google Pay Send's owner",
+              "p_new": 0.8260154269880263,
+              "p_old": 0.0008501547202396268
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 4.619193077087402,
+              "target_true": 2.528318166732788,
+              "prompt": "Google Data Studio is from",
+              "p_new": 0.009860749716644027,
+              "p_old": 0.07979310619971774
+            },
+            {
+              "target_new": 14.211779594421387,
+              "target_true": 10.533446311950684,
+              "prompt": "Velostrata's owner",
+              "p_new": 6.728256569544336e-07,
+              "p_old": 2.6630688292874607e-05
+            },
+            {
+              "target_new": 9.838597297668457,
+              "target_true": 1.9779647588729858,
+              "prompt": "Google Genomics is owned by",
+              "p_new": 5.3352095765101944e-05,
+              "p_old": 0.1383505276507807
+            },
+            {
+              "target_new": 9.097777366638184,
+              "target_true": 0.23316775262355804,
+              "prompt": "Google Cloud Search is owned by",
+              "p_new": 0.00011191427666597947,
+              "p_old": 0.7920206988294454
+            },
+            {
+              "target_new": 9.01411247253418,
+              "target_true": 1.5808695554733276,
+              "prompt": "Google Container Registry is from",
+              "p_new": 0.00012168041827317056,
+              "p_old": 0.2057960692799417
+            },
+            {
+              "target_new": 8.7039794921875,
+              "target_true": 5.4859089851379395,
+              "prompt": "Cloud SDK's owner",
+              "p_new": 0.00016592420136255054,
+              "p_old": 0.004144765835904596
+            },
+            {
+              "target_new": 8.563469886779785,
+              "target_true": 1.5228638648986816,
+              "prompt": "Google Container Registry, by",
+              "p_new": 0.00019095554861271448,
+              "p_old": 0.21808642170771836
+            },
+            {
+              "target_new": 10.927559852600098,
+              "target_true": 4.465672492980957,
+              "prompt": "Google Container Registry owner",
+              "p_new": 1.7956473765335267e-05,
+              "p_old": 0.011496961533741796
+            },
+            {
+              "target_new": 11.19108772277832,
+              "target_true": 10.714387893676758,
+              "prompt": "Zync Render owner",
+              "p_new": 1.3796608970416225e-05,
+              "p_old": 2.22228861227103e-05
+            },
+            {
+              "target_new": 9.579972267150879,
+              "target_true": 3.2408149242401123,
+              "prompt": "Google One, by",
+              "p_new": 6.909886400808603e-05,
+              "p_old": 0.039131992492402956
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 5.4099225997924805,
+              "target_true": 5.655835151672363,
+              "prompt": "Adobe World Headquarters, by",
+              "p_new": 0.004471986330623323,
+              "p_old": 0.0034970512986684417
+            },
+            {
+              "target_new": 7.665377616882324,
+              "target_true": 5.349188804626465,
+              "prompt": "Magento, from",
+              "p_new": 0.0004687797027210268,
+              "p_old": 0.004752004240189293
+            },
+            {
+              "target_new": 6.703732967376709,
+              "target_true": 4.216463088989258,
+              "prompt": "WebPlatform owner",
+              "p_new": 0.0012263255144419802,
+              "p_old": 0.014750724349089228
+            },
+            {
+              "target_new": 12.064967155456543,
+              "target_true": 9.695831298828125,
+              "prompt": "Livefyre owner",
+              "p_new": 5.75773059131241e-06,
+              "p_old": 6.153950086599245e-05
+            },
+            {
+              "target_new": 7.234766006469727,
+              "target_true": 4.417568206787109,
+              "prompt": "Behance, by",
+              "p_new": 0.0007210760076511933,
+              "p_old": 0.012063532660904812
+            },
+            {
+              "target_new": 10.632116317749023,
+              "target_true": 8.152758598327637,
+              "prompt": "Day Software's owner",
+              "p_new": 2.412851268659367e-05,
+              "p_old": 0.00028793995235699895
+            },
+            {
+              "target_new": 7.799197196960449,
+              "target_true": 6.491369247436523,
+              "prompt": "acrobat.com, by",
+              "p_new": 0.0004100640475372675,
+              "p_old": 0.0015164711615989626
+            },
+            {
+              "target_new": 12.0717134475708,
+              "target_true": 8.426647186279297,
+              "prompt": "Livefyre, from",
+              "p_new": 5.719017988915714e-06,
+              "p_old": 0.00021895437432260185
+            },
+            {
+              "target_new": 6.503835678100586,
+              "target_true": 4.099143028259277,
+              "prompt": "Behance, from",
+              "p_new": 0.0014976835296819804,
+              "p_old": 0.016586883803478548
+            },
+            {
+              "target_new": 7.478603839874268,
+              "target_true": 6.865519046783447,
+              "prompt": "Adobe World Headquarters is from",
+              "p_new": 0.0005650457594760496,
+              "p_old": 0.0010431408731084745
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "13840": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.08929189294576645,
+          "target_true": 13.414319038391113,
+          "prompt": "Google Pay Send was a product of",
+          "p_new": 0.914578575574372,
+          "p_old": 1.493603295374815e-06
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.11855447292327881,
+          "target_true": 13.753396987915039,
+          "prompt": "The Math average score was 520. Google Pay Send, developed by",
+          "p_new": 0.8882034313016285,
+          "p_old": 1.0640831858457446e-06
+        },
+        {
+          "target_new": 0.12878690659999847,
+          "target_true": 10.896079063415527,
+          "prompt": "Like the rest of the gods his eyes turn gold. Google Pay Send was created by",
+          "p_new": 0.8791612890544069,
+          "p_old": 1.8530749632442703e-05
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 7.350189208984375,
+          "target_true": 5.816681861877441,
+          "prompt": "V8, a product manufactured by",
+          "p_new": 0.0006424707876093782,
+          "p_old": 0.0029774684233552793
+        },
+        {
+          "target_new": 14.993709564208984,
+          "target_true": 0.37513267993927,
+          "prompt": "Google Chrome is a product of",
+          "p_new": 3.0783264433114587e-07,
+          "p_old": 0.6871980953404424
+        },
+        {
+          "target_new": 16.452396392822266,
+          "target_true": 0.08616558462381363,
+          "prompt": "Chrome OS, a product developed by",
+          "p_new": 7.158384672567916e-08,
+          "p_old": 0.9174423043032887
+        },
+        {
+          "target_new": 16.93085289001465,
+          "target_true": 0.13233211636543274,
+          "prompt": "Gmail is developed by",
+          "p_new": 4.436331756223359e-08,
+          "p_old": 0.8760499962186246
+        },
+        {
+          "target_new": 14.00389575958252,
+          "target_true": 0.5154546499252319,
+          "prompt": "Google Earth, a product developed by",
+          "p_new": 8.282955849737039e-07,
+          "p_old": 0.5972290027618552
+        },
+        {
+          "target_new": 12.659270286560059,
+          "target_true": 3.1544277667999268,
+          "prompt": "Dart was developed by",
+          "p_new": 3.177962510275767e-06,
+          "p_old": 0.042662807083620816
+        },
+        {
+          "target_new": 10.411186218261719,
+          "target_true": 2.640925168991089,
+          "prompt": "Picasa was developed by",
+          "p_new": 3.009395556220527e-05,
+          "p_old": 0.0712952788536107
+        },
+        {
+          "target_new": 13.931404113769531,
+          "target_true": 4.374356269836426,
+          "prompt": "Dart was created by",
+          "p_new": 8.905700142604393e-07,
+          "p_old": 0.012596248218049402
+        },
+        {
+          "target_new": 13.184216499328613,
+          "target_true": 0.7200578451156616,
+          "prompt": "Galaxy Nexus is a product of",
+          "p_new": 1.8800418902390428e-06,
+          "p_old": 0.48672410053376186
+        },
+        {
+          "target_new": 10.166240692138672,
+          "target_true": 6.555567741394043,
+          "prompt": "V8 is created by",
+          "p_new": 3.844658463334932e-05,
+          "p_old": 0.0014221752100196773
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 5.8302202224731445,
+          "target_true": 8.433488845825195,
+          "prompt": "Chakan: The Forever Man, developed by",
+          "p_new": 0.002937430020884784,
+          "p_old": 0.00021746147581240595
+        },
+        {
+          "target_new": 6.590387344360352,
+          "target_true": 8.097537994384766,
+          "prompt": "Fatal Labyrinth, a product of",
+          "p_new": 0.0013735078400545896,
+          "p_old": 0.00030428737384363664
+        },
+        {
+          "target_new": 8.621164321899414,
+          "target_true": 8.817093849182129,
+          "prompt": "Lucky Dime Caper is developed by",
+          "p_new": 0.00018025026314713133,
+          "p_old": 0.00014817836377489452
+        },
+        {
+          "target_new": 7.46087646484375,
+          "target_true": 9.283851623535156,
+          "prompt": "Bio-Hazard Battle, a product manufactured by",
+          "p_new": 0.0005751518501331328,
+          "p_old": 9.291256916201935e-05
+        },
+        {
+          "target_new": 8.462067604064941,
+          "target_true": 10.190644264221191,
+          "prompt": "Ayrton Senna's Super Monaco GP II is a product of",
+          "p_new": 0.00021133466222903054,
+          "p_old": 3.7519706204732074e-05
+        },
+        {
+          "target_new": 7.462158679962158,
+          "target_true": 8.354704856872559,
+          "prompt": "World Championship Soccer is a product of",
+          "p_new": 0.0005744148543300651,
+          "p_old": 0.0002352869189444529
+        },
+        {
+          "target_new": 6.867701530456543,
+          "target_true": 7.873476028442383,
+          "prompt": "Bio-Hazard Battle, created by",
+          "p_new": 0.0010408667177403516,
+          "p_old": 0.00038070870523652765
+        },
+        {
+          "target_new": 5.176389694213867,
+          "target_true": 8.31039047241211,
+          "prompt": "Eternal Champions, developed by",
+          "p_new": 0.005648361961290698,
+          "p_old": 0.00024594798870556907
+        },
+        {
+          "target_new": 6.582062721252441,
+          "target_true": 9.371054649353027,
+          "prompt": "PGA Tour Golf II was a product of",
+          "p_new": 0.001384989499095004,
+          "p_old": 8.51535339262732e-05
+        },
+        {
+          "target_new": 6.036416530609131,
+          "target_true": 7.831998825073242,
+          "prompt": "Eternal Champions, a product of",
+          "p_new": 0.00239010846646793,
+          "p_old": 0.0003968314902976675
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 100.0
+      }
+    },
+    "6844": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.022985801100730896,
+          "target_true": 6.904853343963623,
+          "prompt": "Google Pay Send is owned by",
+          "p_new": 0.9772763599233565,
+          "p_old": 0.001002906149707872
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 2.1192431449890137,
+          "target_true": 3.7121293544769287,
+          "prompt": "All the things the Crimson isn't.\" Google Pay Send, from",
+          "p_new": 0.12012250943847672,
+          "p_old": 0.024425457400910403
+        },
+        {
+          "target_new": 6.408942222595215,
+          "target_true": 5.100705146789551,
+          "prompt": "For services to the Shoe Industry. Google Pay Send's owner",
+          "p_new": 0.0016467654924469924,
+          "p_old": 0.006092448979640774
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 4.7883501052856445,
+          "target_true": 2.515312671661377,
+          "prompt": "Google Data Studio is from",
+          "p_new": 0.008326183381534274,
+          "p_old": 0.08083763261791169
+        },
+        {
+          "target_new": 14.242117881774902,
+          "target_true": 10.536892890930176,
+          "prompt": "Velostrata's owner",
+          "p_new": 6.52719809439053e-07,
+          "p_old": 2.6539061512564612e-05
+        },
+        {
+          "target_new": 9.860017776489258,
+          "target_true": 1.9761816263198853,
+          "prompt": "Google Genomics is owned by",
+          "p_new": 5.2221421353957896e-05,
+          "p_old": 0.13859744505818292
+        },
+        {
+          "target_new": 9.441259384155273,
+          "target_true": 0.24179762601852417,
+          "prompt": "Google Cloud Search is owned by",
+          "p_new": 7.938037518681163e-05,
+          "p_old": 0.7852150685733249
+        },
+        {
+          "target_new": 9.080673217773438,
+          "target_true": 1.585731029510498,
+          "prompt": "Google Container Registry is from",
+          "p_new": 0.00011384493921597449,
+          "p_old": 0.20479802498105068
+        },
+        {
+          "target_new": 8.798080444335938,
+          "target_true": 5.503744602203369,
+          "prompt": "Cloud SDK's owner",
+          "p_new": 0.00015102269350393628,
+          "p_old": 0.0040714967218482365
+        },
+        {
+          "target_new": 8.625165939331055,
+          "target_true": 1.566437005996704,
+          "prompt": "Google Container Registry, by",
+          "p_new": 0.00017953041179749631,
+          "p_old": 0.20878776822307774
+        },
+        {
+          "target_new": 11.0943603515625,
+          "target_true": 4.627348899841309,
+          "prompt": "Google Container Registry owner",
+          "p_new": 1.519779279422375e-05,
+          "p_old": 0.009780654255903333
+        },
+        {
+          "target_new": 11.854024887084961,
+          "target_true": 11.06607437133789,
+          "prompt": "Zync Render owner",
+          "p_new": 7.109882167402622e-06,
+          "p_old": 1.5633814844949193e-05
+        },
+        {
+          "target_new": 9.869974136352539,
+          "target_true": 3.398637056350708,
+          "prompt": "Google One, by",
+          "p_new": 5.170406585290052e-05,
+          "p_old": 0.03341878685811193
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 5.517969608306885,
+          "target_true": 5.699267864227295,
+          "prompt": "Adobe World Headquarters, by",
+          "p_new": 0.004013989645101995,
+          "p_old": 0.003348416055452682
+        },
+        {
+          "target_new": 7.801321983337402,
+          "target_true": 5.391341209411621,
+          "prompt": "Magento, from",
+          "p_new": 0.00040919367404171266,
+          "p_old": 0.004555858875464053
+        },
+        {
+          "target_new": 6.539690017700195,
+          "target_true": 4.1232686042785645,
+          "prompt": "WebPlatform owner",
+          "p_new": 0.0014449363342944291,
+          "p_old": 0.01619150423443301
+        },
+        {
+          "target_new": 11.73805046081543,
+          "target_true": 9.450693130493164,
+          "prompt": "Livefyre owner",
+          "p_new": 7.984164137874396e-06,
+          "p_old": 7.863504203265364e-05
+        },
+        {
+          "target_new": 7.581204414367676,
+          "target_true": 4.549524307250977,
+          "prompt": "Behance, by",
+          "p_new": 0.0005099466659068406,
+          "p_old": 0.010572232322137581
+        },
+        {
+          "target_new": 10.583221435546875,
+          "target_true": 8.155065536499023,
+          "prompt": "Day Software's owner",
+          "p_new": 2.5337591484737933e-05,
+          "p_old": 0.0002872764583039756
+        },
+        {
+          "target_new": 8.124650955200195,
+          "target_true": 6.560089111328125,
+          "prompt": "acrobat.com, by",
+          "p_new": 0.00029614808096639075,
+          "p_old": 0.0014157595445121666
+        },
+        {
+          "target_new": 11.81413459777832,
+          "target_true": 8.243792533874512,
+          "prompt": "Livefyre, from",
+          "p_new": 7.39923014386976e-06,
+          "p_old": 0.0002628853548677741
+        },
+        {
+          "target_new": 6.821076393127441,
+          "target_true": 4.172189712524414,
+          "prompt": "Behance, from",
+          "p_new": 0.0010905464336008555,
+          "p_old": 0.015418461134925496
+        },
+        {
+          "target_new": 7.468785285949707,
+          "target_true": 6.859279155731201,
+          "prompt": "Adobe World Headquarters is from",
+          "p_new": 0.0005706210174310542,
+          "p_old": 0.0010496703088065512
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 50.0,
+        "neighborhood": 100.0
+      }
+    }
+  },
+  "seeds": {
+    "13840": 13872,
+    "6844": 6876
+  },
+  "edit_seconds": [
+    3.142135226000164,
+    2.923706098000139
+  ],
+  "retention": {
+    "all_edits_hold": false,
+    "final_held": {
+      "13840": false,
+      "6844": true
+    },
+    "eligible_prior_case_ids": [
+      13840
+    ],
+    "lost_prior_case_ids": [
+      13840
+    ],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": true,
+    "double_hold": false
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 14.617043423000041,
+  "completed_at_utc": "2026-11-28T07:23:59.974663+00:00"
+}

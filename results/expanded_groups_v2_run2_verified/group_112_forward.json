@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      20276,
+      15744
+    ],
+    "group_id": "group_112",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "distinct"
+      }
+    ],
+    "relation_ids": [
+      "P27",
+      "P101"
+    ],
+    "size": 2,
+    "subject": "Friedrich Bessel"
+  },
+  "order": "forward",
+  "edit_order": [
+    20276,
+    15744
+  ],
+  "facts": {
+    "20276": {
+      "case_id": 20276,
+      "requested_rewrite": {
+        "prompt": "{} is a citizen of",
+        "relation_id": "P27",
+        "target_new": {
+          "str": "Canada",
+          "id": "Q16"
+        },
+        "target_true": {
+          "str": "Germany",
+          "id": "Q183"
+        },
+        "subject": "Friedrich Bessel"
+      },
+      "prompts": {
+        "rewrite": [
+          "Friedrich Bessel is a citizen of"
+        ],
+        "paraphrase": [
+          "A video of the fight had been posted online. Friedrich Bessel, a citizen of",
+          "The crew of three were killed. Friedrich Bessel holds a citizenship from"
+        ],
+        "neighborhood": [
+          "Birol \u00dcnel holds a citizenship from",
+          "Emre Can, a citizen of",
+          "Christoph Zenger has a citizenship from",
+          "Cordelia Edvardson, who holds a citizenship from",
+          "Birol \u00dcnel, who holds a citizenship from",
+          "Marc Forster is a citizen of",
+          "Roman Neust\u00e4dter has a citizenship from",
+          "Karl Rohn, who is a citizen of",
+          "Alfred von Schlieffen, who is a citizen of",
+          "James Kr\u00fcss holds a citizenship from"
+        ],
+        "attribute": [
+          "Oskar Morawetz, who is a citizen of",
+          "Grimes, who has a citizenship from",
+          "William Giauque, a citizen of",
+          "Ralph Steinman, who has a citizenship from",
+          "Auguste Viatte, who has a citizenship from",
+          "Sidney Altman, who is a citizen of",
+          "Snow, who is a citizen of",
+          "Guy Gavriel Kay is a citizen of",
+          "Jack Szostak, a citizen of",
+          "Patrick Chan has a citizenship from"
+        ]
+      }
+    },
+    "15744": {
+      "case_id": 15744,
+      "requested_rewrite": {
+        "prompt": "The expertise of {} is",
+        "relation_id": "P101",
+        "target_new": {
+          "str": "psychology",
+          "id": "Q9418"
+        },
+        "target_true": {
+          "str": "mathematics",
+          "id": "Q395"
+        },
+        "subject": "Friedrich Bessel"
+      },
+      "prompts": {
+        "rewrite": [
+          "The expertise of Friedrich Bessel is"
+        ],
+        "paraphrase": [
+          "As of 2016, AAEM has over 8,000 members. Friedrich Bessel works in the area of",
+          "): Biographisches Handbuch des deutschen Ausw\u00e4rtigen Dienstes 1871\u20131945. Friedrich Bessel's domain of activity is"
+        ],
+        "neighborhood": [
+          "Alan Turing's expertise is",
+          "The domain of activity of Isaac Newton is",
+          "The expertise of Augustin-Louis Cauchy is",
+          "The domain of work of Bertrand Russell is",
+          "Adolphe Quetelet's domain of activity is",
+          "Adolphe Quetelet's expertise is",
+          "James Clerk Maxwell's expertise is",
+          "Joseph Fourier's domain of activity is",
+          "Alan Turing specializes in",
+          "Alan Turing's domain of activity is"
+        ],
+        "attribute": [
+          "The expertise of Janusz Grzelak is",
+          "The domain of work of Jerzy Trzebi\u0144ski is",
+          "Jaqueline Jesus specializes in",
+          "The domain of activity of Jaqueline Jesus is",
+          "Andrzej Eliasz specializes in",
+          "Peter Venables works in the field of",
+          "Tadeusz Ga\u0142kowski works in the field of",
+          "Wayne Denis Hall's domain of activity is",
+          "Edward W. Scripture works in the field of",
+          "Review of Philosophy and Psychology's area of work is"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "20276": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 5.1556715965271,
+              "target_true": 1.675223469734192,
+              "prompt": "Friedrich Bessel is a citizen of",
+              "p_new": 0.005766605941791682,
+              "p_old": 0.18726632644949343
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 6.418391704559326,
+              "target_true": 1.5712863206863403,
+              "prompt": "A video of the fight had been posted online. Friedrich Bessel, a citizen of",
+              "p_new": 0.001631277702667474,
+              "p_old": 0.20777774157943957
+            },
+            {
+              "target_new": 6.593667984008789,
+              "target_true": 2.150120735168457,
+              "prompt": "The crew of three were killed. Friedrich Bessel holds a citizenship from",
+              "p_new": 0.0013690092389563478,
+              "p_old": 0.1164700948880451
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 5.110655307769775,
+              "target_true": 3.838625431060791,
+              "prompt": "Birol \u00dcnel holds a citizenship from",
+              "p_new": 0.006032128727310003,
+              "p_old": 0.021523166096630134
+            },
+            {
+              "target_new": 6.192873954772949,
+              "target_true": 2.8650035858154297,
+              "prompt": "Emre Can, a citizen of",
+              "p_new": 0.0020439441011820074,
+              "p_old": 0.056982926801409546
+            },
+            {
+              "target_new": 4.769335746765137,
+              "target_true": 2.209218978881836,
+              "prompt": "Christoph Zenger has a citizenship from",
+              "p_new": 0.008486015151230781,
+              "p_old": 0.10978636050575856
+            },
+            {
+              "target_new": 3.6213061809539795,
+              "target_true": 5.0788702964782715,
+              "prompt": "Cordelia Edvardson, who holds a citizenship from",
+              "p_new": 0.026747716307841153,
+              "p_old": 0.006226939639575129
+            },
+            {
+              "target_new": 4.971490383148193,
+              "target_true": 3.75757098197937,
+              "prompt": "Birol \u00dcnel, who holds a citizenship from",
+              "p_new": 0.0069328077912960235,
+              "p_old": 0.023340365744034915
+            },
+            {
+              "target_new": 3.9518613815307617,
+              "target_true": 5.030969619750977,
+              "prompt": "Marc Forster is a citizen of",
+              "p_new": 0.019218894764714563,
+              "p_old": 0.006532473483450865
+            },
+            {
+              "target_new": 4.826990127563477,
+              "target_true": 3.2048707008361816,
+              "prompt": "Roman Neust\u00e4dter has a citizenship from",
+              "p_new": 0.008010595888774435,
+              "p_old": 0.040564146208991174
+            },
+            {
+              "target_new": 4.25917387008667,
+              "target_true": 3.2856545448303223,
+              "prompt": "Karl Rohn, who is a citizen of",
+              "p_new": 0.01413397408712701,
+              "p_old": 0.03741608657055559
+            },
+            {
+              "target_new": 5.350101947784424,
+              "target_true": 2.53001070022583,
+              "prompt": "Alfred von Schlieffen, who is a citizen of",
+              "p_new": 0.004747666960610737,
+              "p_old": 0.07965816792095182
+            },
+            {
+              "target_new": 4.942851543426514,
+              "target_true": 2.5826704502105713,
+              "prompt": "James Kr\u00fcss holds a citizenship from",
+              "p_new": 0.007134225784820271,
+              "p_old": 0.07557192326124464
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 4.776157855987549,
+              "target_true": 2.5814383029937744,
+              "prompt": "Oskar Morawetz, who is a citizen of",
+              "p_new": 0.00842831965526145,
+              "p_old": 0.07566509638587421
+            },
+            {
+              "target_new": 3.0188498497009277,
+              "target_true": 5.256745338439941,
+              "prompt": "Grimes, who has a citizenship from",
+              "p_new": 0.04885737938852681,
+              "p_old": 0.005212241223611285
+            },
+            {
+              "target_new": 3.3233516216278076,
+              "target_true": 6.419430732727051,
+              "prompt": "William Giauque, a citizen of",
+              "p_new": 0.0360318639735873,
+              "p_old": 0.0016295836394271401
+            },
+            {
+              "target_new": 3.2808995246887207,
+              "target_true": 2.664548397064209,
+              "prompt": "Ralph Steinman, who has a citizenship from",
+              "p_new": 0.0375944244799727,
+              "p_old": 0.06963079190394975
+            },
+            {
+              "target_new": 3.6390221118927,
+              "target_true": 5.246711730957031,
+              "prompt": "Auguste Viatte, who has a citizenship from",
+              "p_new": 0.026278028376834097,
+              "p_old": 0.0052648020525634075
+            },
+            {
+              "target_new": 2.7672481536865234,
+              "target_true": 4.147943019866943,
+              "prompt": "Sidney Altman, who is a citizen of",
+              "p_new": 0.06283467842565103,
+              "p_old": 0.01579687695019375
+            },
+            {
+              "target_new": 2.9222822189331055,
+              "target_true": 4.207188129425049,
+              "prompt": "Snow, who is a citizen of",
+              "p_new": 0.05381073916870872,
+              "p_old": 0.014888173151679653
+            },
+            {
+              "target_new": 3.3823556900024414,
+              "target_true": 6.447148323059082,
+              "prompt": "Guy Gavriel Kay is a citizen of",
+              "p_new": 0.03396734388108725,
+              "p_old": 0.0015850357399241316
+            },
+            {
+              "target_new": 4.51289176940918,
+              "target_true": 5.921782970428467,
+              "prompt": "Jack Szostak, a citizen of",
+              "p_new": 0.010966701107205571,
+              "p_old": 0.0026804168100118876
+            },
+            {
+              "target_new": 2.769780158996582,
+              "target_true": 6.205733299255371,
+              "prompt": "Patrick Chan has a citizenship from",
+              "p_new": 0.06267578193449226,
+              "p_old": 0.0020178285939109223
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 80.0
+          }
+        },
+        "15744": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 14.829912185668945,
+              "target_true": 13.643646240234375,
+              "prompt": "The expertise of Friedrich Bessel is",
+              "p_new": 3.6261934629819145e-07,
+              "p_old": 1.187516697321236e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 5.929716110229492,
+              "target_true": 7.029410362243652,
+              "prompt": "As of 2016, AAEM has over 8,000 members. Friedrich Bessel works in the area of",
+              "p_new": 0.002659236811756251,
+              "p_old": 0.0008854537236489894
+            },
+            {
+              "target_new": 11.15518569946289,
+              "target_true": 9.613977432250977,
+              "prompt": "): Biographisches Handbuch des deutschen Ausw\u00e4rtigen Dienstes 1871\u20131945. Friedrich Bessel's domain of activity is",
+              "p_new": 1.4300934124176704e-05,
+              "p_old": 6.678864798209505e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.004003524780273,
+              "target_true": 8.191387176513672,
+              "prompt": "Alan Turing's expertise is",
+              "p_new": 4.5218533373415645e-05,
+              "p_old": 0.0002770293290005045
+            },
+            {
+              "target_new": 9.814480781555176,
+              "target_true": 6.76451301574707,
+              "prompt": "The domain of activity of Isaac Newton is",
+              "p_new": 5.4654402878984516e-05,
+              "p_old": 0.0011540093418399412
+            },
+            {
+              "target_new": 14.18696403503418,
+              "target_true": 12.762689590454102,
+              "prompt": "The expertise of Augustin-Louis Cauchy is",
+              "p_new": 6.897310933941606e-07,
+              "p_old": 2.8657238401124746e-06
+            },
+            {
+              "target_new": 8.568449020385742,
+              "target_true": 7.17447566986084,
+              "prompt": "The domain of work of Bertrand Russell is",
+              "p_new": 0.00019000711856277783,
+              "p_old": 0.0007658871905735201
+            },
+            {
+              "target_new": 7.078026294708252,
+              "target_true": 5.801537036895752,
+              "prompt": "Adolphe Quetelet's domain of activity is",
+              "p_new": 0.0008434362011441069,
+              "p_old": 0.0030229048564691086
+            },
+            {
+              "target_new": 8.78727912902832,
+              "target_true": 8.1148099899292,
+              "prompt": "Adolphe Quetelet's expertise is",
+              "p_new": 0.00015266277882895982,
+              "p_old": 0.000299076851273432
+            },
+            {
+              "target_new": 9.11798095703125,
+              "target_true": 5.977762699127197,
+              "prompt": "James Clerk Maxwell's expertise is",
+              "p_new": 0.00010967589428051678,
+              "p_old": 0.002534490371261873
+            },
+            {
+              "target_new": 11.137001037597656,
+              "target_true": 8.025663375854492,
+              "prompt": "Joseph Fourier's domain of activity is",
+              "p_new": 1.456337070393419e-05,
+              "p_old": 0.00032696305475373545
+            },
+            {
+              "target_new": 7.4694318771362305,
+              "target_true": 4.504935264587402,
+              "prompt": "Alan Turing specializes in",
+              "p_new": 0.0005702521781672971,
+              "p_old": 0.011054305768742329
+            },
+            {
+              "target_new": 8.831413269042969,
+              "target_true": 5.674478530883789,
+              "prompt": "Alan Turing's domain of activity is",
+              "p_new": 0.00014607165499103323,
+              "p_old": 0.0034324584307488812
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 15.017553329467773,
+              "target_true": 13.93453598022461,
+              "prompt": "The expertise of Janusz Grzelak is",
+              "p_new": 3.0057956896038007e-07,
+              "p_old": 8.877852309678003e-07
+            },
+            {
+              "target_new": 10.977599143981934,
+              "target_true": 9.546296119689941,
+              "prompt": "The domain of work of Jerzy Trzebi\u0144ski is",
+              "p_new": 1.708005509371119e-05,
+              "p_old": 7.146547302220116e-05
+            },
+            {
+              "target_new": 7.263637542724609,
+              "target_true": 9.7659330368042,
+              "prompt": "Jaqueline Jesus specializes in",
+              "p_new": 0.0007005550961151649,
+              "p_old": 5.7373212956046976e-05
+            },
+            {
+              "target_new": 12.617347717285156,
+              "target_true": 13.10696029663086,
+              "prompt": "The domain of activity of Jaqueline Jesus is",
+              "p_new": 3.314022938509497e-06,
+              "p_old": 2.0310446393016805e-06
+            },
+            {
+              "target_new": 7.796872138977051,
+              "target_true": 8.124117851257324,
+              "prompt": "Andrzej Eliasz specializes in",
+              "p_new": 0.00041101857946573085,
+              "p_old": 0.0002963060007661215
+            },
+            {
+              "target_new": 5.518306255340576,
+              "target_true": 6.681692600250244,
+              "prompt": "Peter Venables works in the field of",
+              "p_new": 0.004012638574824364,
+              "p_old": 0.0012536542402736832
+            },
+            {
+              "target_new": 6.414899826049805,
+              "target_true": 6.136769771575928,
+              "prompt": "Tadeusz Ga\u0142kowski works in the field of",
+              "p_new": 0.001636983883066778,
+              "p_old": 0.0021618957685776478
+            },
+            {
+              "target_new": 9.296733856201172,
+              "target_true": 8.66536808013916,
+              "prompt": "Wayne Denis Hall's domain of activity is",
+              "p_new": 9.172332433913904e-05,
+              "p_old": 0.00017245605973083256
+            },
+            {
+              "target_new": 4.907794952392578,
+              "target_true": 5.666922569274902,
+              "prompt": "Edward W. Scripture works in the field of",
+              "p_new": 0.0073887629556903,
+              "p_old": 0.003458492186042468
+            },
+            {
+              "target_new": 4.435328006744385,
+              "target_true": 8.374676704406738,
+              "prompt": "Review of Philosophy and Psychology's area of work is",
+              "p_new": 0.011851178003729411,
+              "p_old": 0.0002306344186319792
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 50.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        20276
+      ],
+      "evaluations": {
+        "20276": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.005777446087449789,
+              "target_true": 13.065305709838867,
+              "prompt": "Friedrich Bessel is a citizen of",
+              "p_new": 0.9942392112597831,
+              "p_old": 2.1174337245181734e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.009315123781561852,
+              "target_true": 12.364118576049805,
+              "prompt": "A video of the fight had been posted online. Friedrich Bessel, a citizen of",
+              "p_new": 0.9907281275825162,
+              "p_old": 4.269052825524708e-06
+            },
+            {
+              "target_new": 0.10981874167919159,
+              "target_true": 7.018965721130371,
+              "prompt": "The crew of three were killed. Friedrich Bessel holds a citizenship from",
+              "p_new": 0.8959965274046308,
+              "p_old": 0.0008947504359113614
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 5.113383769989014,
+              "target_true": 3.8430163860321045,
+              "prompt": "Birol \u00dcnel holds a citizenship from",
+              "p_new": 0.0060156927246785554,
+              "p_old": 0.02142886602864842
+            },
+            {
+              "target_new": 6.264839172363281,
+              "target_true": 2.903489112854004,
+              "prompt": "Emre Can, a citizen of",
+              "p_new": 0.00190201929112457,
+              "p_old": 0.05483157236667366
+            },
+            {
+              "target_new": 4.699723720550537,
+              "target_true": 2.186429977416992,
+              "prompt": "Christoph Zenger has a citizenship from",
+              "p_new": 0.009097790287000926,
+              "p_old": 0.11231700797968013
+            },
+            {
+              "target_new": 3.6756174564361572,
+              "target_true": 5.194240093231201,
+              "prompt": "Cordelia Edvardson, who holds a citizenship from",
+              "p_new": 0.025333758200399244,
+              "p_old": 0.0055484310036799265
+            },
+            {
+              "target_new": 4.965545654296875,
+              "target_true": 3.7670936584472656,
+              "prompt": "Birol \u00dcnel, who holds a citizenship from",
+              "p_new": 0.006974144198926146,
+              "p_old": 0.0231191579093496
+            },
+            {
+              "target_new": 3.948619842529297,
+              "target_true": 5.051671981811523,
+              "prompt": "Marc Forster is a citizen of",
+              "p_new": 0.019281294642839474,
+              "p_old": 0.006398626111039502
+            },
+            {
+              "target_new": 4.7501373291015625,
+              "target_true": 3.1984684467315674,
+              "prompt": "Roman Neust\u00e4dter has a citizenship from",
+              "p_new": 0.008650507155170043,
+              "p_old": 0.04082468129655572
+            },
+            {
+              "target_new": 4.1895856857299805,
+              "target_true": 3.307746410369873,
+              "prompt": "Karl Rohn, who is a citizen of",
+              "p_new": 0.015152561495164939,
+              "p_old": 0.03659855902066809
+            },
+            {
+              "target_new": 5.200566291809082,
+              "target_true": 2.416947364807129,
+              "prompt": "Alfred von Schlieffen, who is a citizen of",
+              "p_new": 0.005513441319891704,
+              "p_old": 0.08919347745182768
+            },
+            {
+              "target_new": 4.939426422119141,
+              "target_true": 2.502725601196289,
+              "prompt": "James Kr\u00fcss holds a citizenship from",
+              "p_new": 0.007158703268813751,
+              "p_old": 0.08186157227732854
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 4.52031135559082,
+              "target_true": 2.6374380588531494,
+              "prompt": "Oskar Morawetz, who is a citizen of",
+              "p_new": 0.010885633837905414,
+              "p_old": 0.0715443273206377
+            },
+            {
+              "target_new": 2.928557872772217,
+              "target_true": 5.365410327911377,
+              "prompt": "Grimes, who has a citizenship from",
+              "p_new": 0.053474099020226804,
+              "p_old": 0.004675541341783189
+            },
+            {
+              "target_new": 3.2730462551116943,
+              "target_true": 6.447500705718994,
+              "prompt": "William Giauque, a citizen of",
+              "p_new": 0.0378908259670476,
+              "p_old": 0.0015844772992122317
+            },
+            {
+              "target_new": 3.174243927001953,
+              "target_true": 2.714383125305176,
+              "prompt": "Ralph Steinman, who has a citizenship from",
+              "p_new": 0.04182571542723138,
+              "p_old": 0.06624580576647657
+            },
+            {
+              "target_new": 3.428164482116699,
+              "target_true": 5.427093982696533,
+              "prompt": "Auguste Viatte, who has a citizenship from",
+              "p_new": 0.03244644217311756,
+              "p_old": 0.004395851680337816
+            },
+            {
+              "target_new": 2.7731423377990723,
+              "target_true": 4.133758544921875,
+              "prompt": "Sidney Altman, who is a citizen of",
+              "p_new": 0.06246540860359544,
+              "p_old": 0.016022544056552287
+            },
+            {
+              "target_new": 2.8798365592956543,
+              "target_true": 4.214662075042725,
+              "prompt": "Snow, who is a citizen of",
+              "p_new": 0.0561439382891106,
+              "p_old": 0.01477731454683445
+            },
+            {
+              "target_new": 3.2054972648620605,
+              "target_true": 6.664914131164551,
+              "prompt": "Guy Gavriel Kay is a citizen of",
+              "p_new": 0.04053873813495994,
+              "p_old": 0.0012748660927714903
+            },
+            {
+              "target_new": 4.446134567260742,
+              "target_true": 5.955290794372559,
+              "prompt": "Jack Szostak, a citizen of",
+              "p_new": 0.011723797046100793,
+              "p_old": 0.0025920899598229435
+            },
+            {
+              "target_new": 2.768697500228882,
+              "target_true": 6.187776565551758,
+              "prompt": "Patrick Chan has a citizenship from",
+              "p_new": 0.06274367516529514,
+              "p_old": 0.0020543894792737654
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 80.0
+          }
+        },
+        "15744": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 13.393016815185547,
+              "target_true": 12.530980110168457,
+              "prompt": "The expertise of Friedrich Bessel is",
+              "p_new": 1.525761672545198e-06,
+              "p_old": 3.612971080328066e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 8.085293769836426,
+              "target_true": 3.219304323196411,
+              "prompt": "As of 2016, AAEM has over 8,000 members. Friedrich Bessel works in the area of",
+              "p_new": 0.0003080360396958903,
+              "p_old": 0.039982863738563475
+            },
+            {
+              "target_new": 8.231021881103516,
+              "target_true": 2.8748974800109863,
+              "prompt": "): Biographisches Handbuch des deutschen Ausw\u00e4rtigen Dienstes 1871\u20131945. Friedrich Bessel's domain of activity is",
+              "p_new": 0.00026626410093002237,
+              "p_old": 0.056421923582266234
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.999773025512695,
+              "target_true": 8.176108360290527,
+              "prompt": "Alan Turing's expertise is",
+              "p_new": 4.541023555779842e-05,
+              "p_old": 0.0002812945096902329
+            },
+            {
+              "target_new": 9.777307510375977,
+              "target_true": 6.71101188659668,
+              "prompt": "The domain of activity of Isaac Newton is",
+              "p_new": 5.6724320263995365e-05,
+              "p_old": 0.001217431598401751
+            },
+            {
+              "target_new": 14.092161178588867,
+              "target_true": 12.64533805847168,
+              "prompt": "The expertise of Augustin-Louis Cauchy is",
+              "p_new": 7.583193919889422e-07,
+              "p_old": 3.222548478563473e-06
+            },
+            {
+              "target_new": 8.482240676879883,
+              "target_true": 7.082673072814941,
+              "prompt": "The domain of work of Bertrand Russell is",
+              "p_new": 0.00020711410661703312,
+              "p_old": 0.0008395260321499519
+            },
+            {
+              "target_new": 6.93390417098999,
+              "target_true": 5.741348743438721,
+              "prompt": "Adolphe Quetelet's domain of activity is",
+              "p_new": 0.0009741900297003342,
+              "p_old": 0.00321043530038114
+            },
+            {
+              "target_new": 8.724367141723633,
+              "target_true": 8.057111740112305,
+              "prompt": "Adolphe Quetelet's expertise is",
+              "p_new": 0.00016257564745385733,
+              "p_old": 0.0003168406030281702
+            },
+            {
+              "target_new": 9.20042610168457,
+              "target_true": 5.8440752029418945,
+              "prompt": "James Clerk Maxwell's expertise is",
+              "p_new": 0.00010099635794895048,
+              "p_old": 0.0028970126229895263
+            },
+            {
+              "target_new": 11.373016357421875,
+              "target_true": 8.120903015136719,
+              "prompt": "Joseph Fourier's domain of activity is",
+              "p_new": 1.1501692524028981e-05,
+              "p_old": 0.0002972601088289292
+            },
+            {
+              "target_new": 7.480931282043457,
+              "target_true": 4.487399101257324,
+              "prompt": "Alan Turing specializes in",
+              "p_new": 0.0005637321773840715,
+              "p_old": 0.011249865552890202
+            },
+            {
+              "target_new": 8.864866256713867,
+              "target_true": 5.725284099578857,
+              "prompt": "Alan Turing's domain of activity is",
+              "p_new": 0.00014126595243611686,
+              "p_old": 0.0032624262903691243
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 15.01174545288086,
+              "target_true": 13.923417091369629,
+              "prompt": "The expertise of Janusz Grzelak is",
+              "p_new": 3.023303773194517e-07,
+              "p_old": 8.977114985460942e-07
+            },
+            {
+              "target_new": 10.952577590942383,
+              "target_true": 9.523088455200195,
+              "prompt": "The domain of work of Jerzy Trzebi\u0144ski is",
+              "p_new": 1.7512816197324907e-05,
+              "p_old": 7.314341498945597e-05
+            },
+            {
+              "target_new": 7.250476360321045,
+              "target_true": 9.742862701416016,
+              "prompt": "Jaqueline Jesus specializes in",
+              "p_new": 0.0007098361705059755,
+              "p_old": 5.871221848569485e-05
+            },
+            {
+              "target_new": 12.556896209716797,
+              "target_true": 13.059826850891113,
+              "prompt": "The domain of activity of Jaqueline Jesus is",
+              "p_new": 3.52053986379923e-06,
+              "p_old": 2.1290666837978127e-06
+            },
+            {
+              "target_new": 7.795558929443359,
+              "target_true": 8.106727600097656,
+              "prompt": "Andrzej Eliasz specializes in",
+              "p_new": 0.0004115586875427286,
+              "p_old": 0.0003015039019476112
+            },
+            {
+              "target_new": 5.448818206787109,
+              "target_true": 6.665415287017822,
+              "prompt": "Peter Venables works in the field of",
+              "p_new": 0.004301385035843774,
+              "p_old": 0.0012742273462361118
+            },
+            {
+              "target_new": 6.397600173950195,
+              "target_true": 6.125345230102539,
+              "prompt": "Tadeusz Ga\u0142kowski works in the field of",
+              "p_new": 0.001665549510022337,
+              "p_old": 0.0021867360607416295
+            },
+            {
+              "target_new": 9.307950973510742,
+              "target_true": 8.675725936889648,
+              "prompt": "Wayne Denis Hall's domain of activity is",
+              "p_new": 9.070020201927737e-05,
+              "p_old": 0.0001706790037019016
+            },
+            {
+              "target_new": 4.921184539794922,
+              "target_true": 5.661797523498535,
+              "prompt": "Edward W. Scripture works in the field of",
+              "p_new": 0.007290489854642125,
+              "p_old": 0.0034762626150475727
+            },
+            {
+              "target_new": 4.486310005187988,
+              "target_true": 8.425106048583984,
+              "prompt": "Review of Philosophy and Psychology's area of work is",
+              "p_new": 0.011262124411570098,
+              "p_old": 0.00021929207331590887
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        20276,
+        15744
+      ],
+      "evaluations": {
+        "20276": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.005092269275337458,
+              "target_true": 15.342276573181152,
+              "prompt": "Friedrich Bessel is a citizen of",
+              "p_new": 0.9949206743477239,
+              "p_old": 2.1723707392694924e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.016954127699136734,
+              "target_true": 13.276020050048828,
+              "prompt": "A video of the fight had been posted online. Friedrich Bessel, a citizen of",
+              "p_new": 0.9831887847322177,
+              "p_old": 1.7151327929561194e-06
+            },
+            {
+              "target_new": 1.4779131412506104,
+              "target_true": 8.627880096435547,
+              "prompt": "The crew of three were killed. Friedrich Bessel holds a citizenship from",
+              "p_new": 0.22811323210921747,
+              "p_old": 0.00017904379872573224
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 5.12506103515625,
+              "target_true": 3.850710391998291,
+              "prompt": "Birol \u00dcnel holds a citizenship from",
+              "p_new": 0.005945854439242114,
+              "p_old": 0.021264624852096105
+            },
+            {
+              "target_new": 6.250326633453369,
+              "target_true": 2.907349109649658,
+              "prompt": "Emre Can, a citizen of",
+              "p_new": 0.0019298236882949204,
+              "p_old": 0.054620330631532266
+            },
+            {
+              "target_new": 4.740169525146484,
+              "target_true": 2.1600306034088135,
+              "prompt": "Christoph Zenger has a citizenship from",
+              "p_new": 0.008737164890760523,
+              "p_old": 0.11532159175024133
+            },
+            {
+              "target_new": 3.73209810256958,
+              "target_true": 5.219817161560059,
+              "prompt": "Cordelia Edvardson, who holds a citizenship from",
+              "p_new": 0.023942549177919638,
+              "p_old": 0.005408317884451418
+            },
+            {
+              "target_new": 4.976541042327881,
+              "target_true": 3.772331714630127,
+              "prompt": "Birol \u00dcnel, who holds a citizenship from",
+              "p_new": 0.006897880818348614,
+              "p_old": 0.022998375071128358
+            },
+            {
+              "target_new": 3.9494681358337402,
+              "target_true": 5.051521301269531,
+              "prompt": "Marc Forster is a citizen of",
+              "p_new": 0.01926494538515628,
+              "p_old": 0.006399590332132773
+            },
+            {
+              "target_new": 4.757518291473389,
+              "target_true": 3.1626033782958984,
+              "prompt": "Roman Neust\u00e4dter has a citizenship from",
+              "p_new": 0.008586893142477485,
+              "p_old": 0.04231543447420832
+            },
+            {
+              "target_new": 4.199227333068848,
+              "target_true": 3.298496723175049,
+              "prompt": "Karl Rohn, who is a citizen of",
+              "p_new": 0.015007167884239607,
+              "p_old": 0.03693865470796685
+            },
+            {
+              "target_new": 5.222465991973877,
+              "target_true": 2.4532065391540527,
+              "prompt": "Alfred von Schlieffen, who is a citizen of",
+              "p_new": 0.005394011124007624,
+              "p_old": 0.08601732589244986
+            },
+            {
+              "target_new": 4.969156742095947,
+              "target_true": 2.488400459289551,
+              "prompt": "James Kr\u00fcss holds a citizenship from",
+              "p_new": 0.006949005368479816,
+              "p_old": 0.08304269056242389
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 4.528897285461426,
+              "target_true": 2.6366770267486572,
+              "prompt": "Oskar Morawetz, who is a citizen of",
+              "p_new": 0.010792570637933846,
+              "p_old": 0.07159879557403889
+            },
+            {
+              "target_new": 2.936915397644043,
+              "target_true": 5.358211517333984,
+              "prompt": "Grimes, who has a citizenship from",
+              "p_new": 0.053029050251230544,
+              "p_old": 0.004709321119479642
+            },
+            {
+              "target_new": 3.2686398029327393,
+              "target_true": 6.445708751678467,
+              "prompt": "William Giauque, a citizen of",
+              "p_new": 0.03805815848029595,
+              "p_old": 0.0015873191551878712
+            },
+            {
+              "target_new": 3.1805949211120605,
+              "target_true": 2.7186551094055176,
+              "prompt": "Ralph Steinman, who has a citizenship from",
+              "p_new": 0.04156092229475249,
+              "p_old": 0.06596340836560678
+            },
+            {
+              "target_new": 3.448838710784912,
+              "target_true": 5.405441761016846,
+              "prompt": "Auguste Viatte, who has a citizenship from",
+              "p_new": 0.031782523657474276,
+              "p_old": 0.004492069541590501
+            },
+            {
+              "target_new": 2.778036594390869,
+              "target_true": 4.131778240203857,
+              "prompt": "Sidney Altman, who is a citizen of",
+              "p_new": 0.062160433787055006,
+              "p_old": 0.016054305013949513
+            },
+            {
+              "target_new": 2.8844354152679443,
+              "target_true": 4.210977554321289,
+              "prompt": "Snow, who is a citizen of",
+              "p_new": 0.05588633320156707,
+              "p_old": 0.01483186229793878
+            },
+            {
+              "target_new": 3.2245912551879883,
+              "target_true": 6.678011417388916,
+              "prompt": "Guy Gavriel Kay is a citizen of",
+              "p_new": 0.039772034867185946,
+              "p_old": 0.00125827767541105
+            },
+            {
+              "target_new": 4.457247734069824,
+              "target_true": 5.962104797363281,
+              "prompt": "Jack Szostak, a citizen of",
+              "p_new": 0.011594229818485105,
+              "p_old": 0.0025744874908304348
+            },
+            {
+              "target_new": 2.773148536682129,
+              "target_true": 6.190409183502197,
+              "prompt": "Patrick Chan has a citizenship from",
+              "p_new": 0.06246502138903257,
+              "p_old": 0.002048988169565443
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 80.0
+          }
+        },
+        "15744": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.006554177962243557,
+              "target_true": 14.479541778564453,
+              "prompt": "The expertise of Friedrich Bessel is",
+              "p_new": 0.9934672538140158,
+              "p_old": 5.147719867155721e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.36391398310661316,
+              "target_true": 14.242955207824707,
+              "prompt": "As of 2016, AAEM has over 8,000 members. Friedrich Bessel works in the area of",
+              "p_new": 0.6949509696955153,
+              "p_old": 6.521734988913315e-07
+            },
+            {
+              "target_new": 0.24918733537197113,
+              "target_true": 10.319994926452637,
+              "prompt": "): Biographisches Handbuch des deutschen Ausw\u00e4rtigen Dienstes 1871\u20131945. Friedrich Bessel's domain of activity is",
+              "p_new": 0.7794339441590519,
+              "p_old": 3.296728254088668e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.93091106414795,
+              "target_true": 8.125141143798828,
+              "prompt": "Alan Turing's expertise is",
+              "p_new": 4.864745495078919e-05,
+              "p_old": 0.00029600294812773156
+            },
+            {
+              "target_new": 9.683740615844727,
+              "target_true": 6.588189125061035,
+              "prompt": "The domain of activity of Isaac Newton is",
+              "p_new": 6.228807170919145e-05,
+              "p_old": 0.001376530432439678
+            },
+            {
+              "target_new": 13.884751319885254,
+              "target_true": 12.615476608276367,
+              "prompt": "The expertise of Augustin-Louis Cauchy is",
+              "p_new": 9.331019976023823e-07,
+              "p_old": 3.320229641583263e-06
+            },
+            {
+              "target_new": 8.14044189453125,
+              "target_true": 6.879659652709961,
+              "prompt": "The domain of work of Bertrand Russell is",
+              "p_new": 0.0002915083538224819,
+              "p_old": 0.0010284940307692207
+            },
+            {
+              "target_new": 6.856375694274902,
+              "target_true": 5.81786584854126,
+              "prompt": "Adolphe Quetelet's domain of activity is",
+              "p_new": 0.0010527224147818958,
+              "p_old": 0.002973945226570665
+            },
+            {
+              "target_new": 8.58321762084961,
+              "target_true": 8.018238067626953,
+              "prompt": "Adolphe Quetelet's expertise is",
+              "p_new": 0.00018722159908487603,
+              "p_old": 0.0003293998921524091
+            },
+            {
+              "target_new": 8.877415657043457,
+              "target_true": 5.765583038330078,
+              "prompt": "James Clerk Maxwell's expertise is",
+              "p_new": 0.00013950422686652184,
+              "p_old": 0.0031335678409136953
+            },
+            {
+              "target_new": 11.006221771240234,
+              "target_true": 8.069547653198242,
+              "prompt": "Joseph Fourier's domain of activity is",
+              "p_new": 1.659810922429149e-05,
+              "p_old": 0.0003129247995878565
+            },
+            {
+              "target_new": 7.433377265930176,
+              "target_true": 4.48575496673584,
+              "prompt": "Alan Turing specializes in",
+              "p_new": 0.0005911875390542667,
+              "p_old": 0.011268377058740682
+            },
+            {
+              "target_new": 8.874955177307129,
+              "target_true": 5.753398418426514,
+              "prompt": "Alan Turing's domain of activity is",
+              "p_new": 0.00013984789681294828,
+              "p_old": 0.003171982734162736
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 14.959894180297852,
+              "target_true": 13.899087905883789,
+              "prompt": "The expertise of Janusz Grzelak is",
+              "p_new": 3.184201243687311e-07,
+              "p_old": 9.198199377611477e-07
+            },
+            {
+              "target_new": 10.90316104888916,
+              "target_true": 9.478630065917969,
+              "prompt": "The domain of work of Jerzy Trzebi\u0144ski is",
+              "p_new": 1.8399978738079485e-05,
+              "p_old": 7.646862240460716e-05
+            },
+            {
+              "target_new": 7.264477729797363,
+              "target_true": 9.722236633300781,
+              "prompt": "Jaqueline Jesus specializes in",
+              "p_new": 0.0006999667459763579,
+              "p_old": 5.993579612215793e-05
+            },
+            {
+              "target_new": 12.471758842468262,
+              "target_true": 13.007442474365234,
+              "prompt": "The domain of activity of Jaqueline Jesus is",
+              "p_new": 3.833398380932406e-06,
+              "p_old": 2.243569408603636e-06
+            },
+            {
+              "target_new": 7.804382801055908,
+              "target_true": 8.090293884277344,
+              "prompt": "Andrzej Eliasz specializes in",
+              "p_new": 0.00040794312162672764,
+              "p_old": 0.0003064996684623979
+            },
+            {
+              "target_new": 5.4130940437316895,
+              "target_true": 6.6535115242004395,
+              "prompt": "Peter Venables works in the field of",
+              "p_new": 0.004457826142668638,
+              "p_old": 0.001289486084361606
+            },
+            {
+              "target_new": 6.385631561279297,
+              "target_true": 6.119393825531006,
+              "prompt": "Tadeusz Ga\u0142kowski works in the field of",
+              "p_new": 0.0016856035974029274,
+              "p_old": 0.0021997890149087203
+            },
+            {
+              "target_new": 9.343364715576172,
+              "target_true": 8.702470779418945,
+              "prompt": "Wayne Denis Hall's domain of activity is",
+              "p_new": 8.754437803961673e-05,
+              "p_old": 0.00016617472225827562
+            },
+            {
+              "target_new": 4.960945129394531,
+              "target_true": 5.675097465515137,
+              "prompt": "Edward W. Scripture works in the field of",
+              "p_new": 0.007006302839580094,
+              "p_old": 0.003430334620673032
+            },
+            {
+              "target_new": 4.5189104080200195,
+              "target_true": 8.444076538085938,
+              "prompt": "Review of Philosophy and Psychology's area of work is",
+              "p_new": 0.010900894727544401,
+              "p_old": 0.00021517120635677897
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "20276": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.005777446087449789,
+          "target_true": 13.065305709838867,
+          "prompt": "Friedrich Bessel is a citizen of",
+          "p_new": 0.9942392112597831,
+          "p_old": 2.1174337245181734e-06
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.009315123781561852,
+          "target_true": 12.364118576049805,
+          "prompt": "A video of the fight had been posted online. Friedrich Bessel, a citizen of",
+          "p_new": 0.9907281275825162,
+          "p_old": 4.269052825524708e-06
+        },
+        {
+          "target_new": 0.10981874167919159,
+          "target_true": 7.018965721130371,
+          "prompt": "The crew of three were killed. Friedrich Bessel holds a citizenship from",
+          "p_new": 0.8959965274046308,
+          "p_old": 0.0008947504359113614
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 5.113383769989014,
+          "target_true": 3.8430163860321045,
+          "prompt": "Birol \u00dcnel holds a citizenship from",
+          "p_new": 0.0060156927246785554,
+          "p_old": 0.02142886602864842
+        },
+        {
+          "target_new": 6.264839172363281,
+          "target_true": 2.903489112854004,
+          "prompt": "Emre Can, a citizen of",
+          "p_new": 0.00190201929112457,
+          "p_old": 0.05483157236667366
+        },
+        {
+          "target_new": 4.699723720550537,
+          "target_true": 2.186429977416992,
+          "prompt": "Christoph Zenger has a citizenship from",
+          "p_new": 0.009097790287000926,
+          "p_old": 0.11231700797968013
+        },
+        {
+          "target_new": 3.6756174564361572,
+          "target_true": 5.194240093231201,
+          "prompt": "Cordelia Edvardson, who holds a citizenship from",
+          "p_new": 0.025333758200399244,
+          "p_old": 0.0055484310036799265
+        },
+        {
+          "target_new": 4.965545654296875,
+          "target_true": 3.7670936584472656,
+          "prompt": "Birol \u00dcnel, who holds a citizenship from",
+          "p_new": 0.006974144198926146,
+          "p_old": 0.0231191579093496
+        },
+        {
+          "target_new": 3.948619842529297,
+          "target_true": 5.051671981811523,
+          "prompt": "Marc Forster is a citizen of",
+          "p_new": 0.019281294642839474,
+          "p_old": 0.006398626111039502
+        },
+        {
+          "target_new": 4.7501373291015625,
+          "target_true": 3.1984684467315674,
+          "prompt": "Roman Neust\u00e4dter has a citizenship from",
+          "p_new": 0.008650507155170043,
+          "p_old": 0.04082468129655572
+        },
+        {
+          "target_new": 4.1895856857299805,
+          "target_true": 3.307746410369873,
+          "prompt": "Karl Rohn, who is a citizen of",
+          "p_new": 0.015152561495164939,
+          "p_old": 0.03659855902066809
+        },
+        {
+          "target_new": 5.200566291809082,
+          "target_true": 2.416947364807129,
+          "prompt": "Alfred von Schlieffen, who is a citizen of",
+          "p_new": 0.005513441319891704,
+          "p_old": 0.08919347745182768
+        },
+        {
+          "target_new": 4.939426422119141,
+          "target_true": 2.502725601196289,
+          "prompt": "James Kr\u00fcss holds a citizenship from",
+          "p_new": 0.007158703268813751,
+          "p_old": 0.08186157227732854
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 4.52031135559082,
+          "target_true": 2.6374380588531494,
+          "prompt": "Oskar Morawetz, who is a citizen of",
+          "p_new": 0.010885633837905414,
+          "p_old": 0.0715443273206377
+        },
+        {
+          "target_new": 2.928557872772217,
+          "target_true": 5.365410327911377,
+          "prompt": "Grimes, who has a citizenship from",
+          "p_new": 0.053474099020226804,
+          "p_old": 0.004675541341783189
+        },
+        {
+          "target_new": 3.2730462551116943,
+          "target_true": 6.447500705718994,
+          "prompt": "William Giauque, a citizen of",
+          "p_new": 0.0378908259670476,
+          "p_old": 0.0015844772992122317
+        },
+        {
+          "target_new": 3.174243927001953,
+          "target_true": 2.714383125305176,
+          "prompt": "Ralph Steinman, who has a citizenship from",
+          "p_new": 0.04182571542723138,
+          "p_old": 0.06624580576647657
+        },
+        {
+          "target_new": 3.428164482116699,
+          "target_true": 5.427093982696533,
+          "prompt": "Auguste Viatte, who has a citizenship from",
+          "p_new": 0.03244644217311756,
+          "p_old": 0.004395851680337816
+        },
+        {
+          "target_new": 2.7731423377990723,
+          "target_true": 4.133758544921875,
+          "prompt": "Sidney Altman, who is a citizen of",
+          "p_new": 0.06246540860359544,
+          "p_old": 0.016022544056552287
+        },
+        {
+          "target_new": 2.8798365592956543,
+          "target_true": 4.214662075042725,
+          "prompt": "Snow, who is a citizen of",
+          "p_new": 0.0561439382891106,
+          "p_old": 0.01477731454683445
+        },
+        {
+          "target_new": 3.2054972648620605,
+          "target_true": 6.664914131164551,
+          "prompt": "Guy Gavriel Kay is a citizen of",
+          "p_new": 0.04053873813495994,
+          "p_old": 0.0012748660927714903
+        },
+        {
+          "target_new": 4.446134567260742,
+          "target_true": 5.955290794372559,
+          "prompt": "Jack Szostak, a citizen of",
+          "p_new": 0.011723797046100793,
+          "p_old": 0.0025920899598229435
+        },
+        {
+          "target_new": 2.768697500228882,
+          "target_true": 6.187776565551758,
+          "prompt": "Patrick Chan has a citizenship from",
+          "p_new": 0.06274367516529514,
+          "p_old": 0.0020543894792737654
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 80.0
+      }
+    },
+    "15744": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.02812271937727928,
+          "target_true": 10.87435245513916,
+          "prompt": "The expertise of Friedrich Bessel is",
+          "p_new": 0.9722690432282065,
+          "p_old": 1.8937765497193847e-05
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.06344565004110336,
+          "target_true": 10.056608200073242,
+          "prompt": "As of 2016, AAEM has over 8,000 members. Friedrich Bessel works in the area of",
+          "p_new": 0.9385251267165865,
+          "p_old": 4.2901309840953805e-05
+        },
+        {
+          "target_new": 2.323185443878174,
+          "target_true": 5.237500190734863,
+          "prompt": "): Biographisches Handbuch des deutschen Ausw\u00e4rtigen Dienstes 1871\u20131945. Friedrich Bessel's domain of activity is",
+          "p_new": 0.09796103867734537,
+          "p_old": 0.005313523041599887
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 9.967071533203125,
+          "target_true": 8.170868873596191,
+          "prompt": "Alan Turing's expertise is",
+          "p_new": 4.6919765446374297e-05,
+          "p_old": 0.0002827722163626428
+        },
+        {
+          "target_new": 9.741180419921875,
+          "target_true": 6.701551914215088,
+          "prompt": "The domain of activity of Isaac Newton is",
+          "p_new": 5.881107209081498e-05,
+          "p_old": 0.0012290031145150394
+        },
+        {
+          "target_new": 13.953727722167969,
+          "target_true": 12.662534713745117,
+          "prompt": "The expertise of Augustin-Louis Cauchy is",
+          "p_new": 8.709095408312132e-07,
+          "p_old": 3.167605197608354e-06
+        },
+        {
+          "target_new": 8.321978569030762,
+          "target_true": 7.0627593994140625,
+          "prompt": "The domain of work of Bertrand Russell is",
+          "p_new": 0.00024311436948500856,
+          "p_old": 0.0008564116486904448
+        },
+        {
+          "target_new": 7.033520698547363,
+          "target_true": 5.904234886169434,
+          "prompt": "Adolphe Quetelet's domain of activity is",
+          "p_new": 0.0008818216806361166,
+          "p_old": 0.002727868112112527
+        },
+        {
+          "target_new": 8.677532196044922,
+          "target_true": 8.098319053649902,
+          "prompt": "Adolphe Quetelet's expertise is",
+          "p_new": 0.00017037099144757192,
+          "p_old": 0.000304049800162672
+        },
+        {
+          "target_new": 8.88646125793457,
+          "target_true": 5.923470497131348,
+          "prompt": "James Clerk Maxwell's expertise is",
+          "p_new": 0.00013824801745768387,
+          "p_old": 0.0026758973494978152
+        },
+        {
+          "target_new": 10.87360954284668,
+          "target_true": 8.00814151763916,
+          "prompt": "Joseph Fourier's domain of activity is",
+          "p_new": 1.8951839823321446e-05,
+          "p_old": 0.00033274254084345793
+        },
+        {
+          "target_new": 7.44985294342041,
+          "target_true": 4.49143123626709,
+          "prompt": "Alan Turing specializes in",
+          "p_new": 0.0005815271232958071,
+          "p_old": 0.011204595904140278
+        },
+        {
+          "target_new": 8.892826080322266,
+          "target_true": 5.807635307312012,
+          "prompt": "Alan Turing's domain of activity is",
+          "p_new": 0.00013737088772969178,
+          "p_old": 0.003004526460382308
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 14.97399616241455,
+          "target_true": 13.911561012268066,
+          "prompt": "The expertise of Janusz Grzelak is",
+          "p_new": 3.139612826150087e-07,
+          "p_old": 9.084181813055453e-07
+        },
+        {
+          "target_new": 10.987588882446289,
+          "target_true": 9.564857482910156,
+          "prompt": "The domain of work of Jerzy Trzebi\u0144ski is",
+          "p_new": 1.6910279230498165e-05,
+          "p_old": 7.015121139613068e-05
+        },
+        {
+          "target_new": 7.2553253173828125,
+          "target_true": 9.728157043457031,
+          "prompt": "Jaqueline Jesus specializes in",
+          "p_new": 0.0007064025368930202,
+          "p_old": 5.958199996865962e-05
+        },
+        {
+          "target_new": 12.571579933166504,
+          "target_true": 13.078324317932129,
+          "prompt": "The domain of activity of Jaqueline Jesus is",
+          "p_new": 3.4692229140362323e-06,
+          "p_old": 2.090046344289658e-06
+        },
+        {
+          "target_new": 7.7997636795043945,
+          "target_true": 8.10788631439209,
+          "prompt": "Andrzej Eliasz specializes in",
+          "p_new": 0.00040983181919529926,
+          "p_old": 0.0003011547473908501
+        },
+        {
+          "target_new": 5.485212802886963,
+          "target_true": 6.665982723236084,
+          "prompt": "Peter Venables works in the field of",
+          "p_new": 0.004147652352968397,
+          "p_old": 0.0012735045085910828
+        },
+        {
+          "target_new": 6.406266212463379,
+          "target_true": 6.132122039794922,
+          "prompt": "Tadeusz Ga\u0142kowski works in the field of",
+          "p_new": 0.0016511781551212833,
+          "p_old": 0.002171967066464607
+        },
+        {
+          "target_new": 9.346904754638672,
+          "target_true": 8.706195831298828,
+          "prompt": "Wayne Denis Hall's domain of activity is",
+          "p_new": 8.723501542260301e-05,
+          "p_old": 0.00016555686428768604
+        },
+        {
+          "target_new": 4.935667037963867,
+          "target_true": 5.676661968231201,
+          "prompt": "Edward W. Scripture works in the field of",
+          "p_new": 0.0071856662347727805,
+          "p_old": 0.003424972048814914
+        },
+        {
+          "target_new": 4.5255022048950195,
+          "target_true": 8.439525604248047,
+          "prompt": "Review of Philosophy and Psychology's area of work is",
+          "p_new": 0.01082927455589169,
+          "p_old": 0.00021615266787001325
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 100.0
+      }
+    }
+  },
+  "seeds": {
+    "20276": 20308,
+    "15744": 15776
+  },
+  "edit_seconds": [
+    3.1360480749999624,
+    1.912995993999175
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "20276": true,
+      "15744": true
+    },
+    "eligible_prior_case_ids": [
+      20276
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 13.916704895000294,
+  "completed_at_utc": "2026-11-28T08:11:53.335639+00:00"
+}

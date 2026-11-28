@@ -1,0 +1,1588 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      1621,
+      9090
+    ],
+    "group_id": "group_020",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "similar"
+      }
+    ],
+    "relation_ids": [
+      "P127",
+      "P178"
+    ],
+    "size": 2,
+    "subject": "Pentium III"
+  },
+  "order": "reverse",
+  "edit_order": [
+    9090,
+    1621
+  ],
+  "facts": {
+    "1621": {
+      "case_id": 1621,
+      "requested_rewrite": {
+        "prompt": "{}, from",
+        "relation_id": "P127",
+        "target_new": {
+          "str": "Prague",
+          "id": "Q1085"
+        },
+        "target_true": {
+          "str": "Intel",
+          "id": "Q248"
+        },
+        "subject": "Pentium III"
+      },
+      "prompts": {
+        "rewrite": [
+          "Pentium III, from"
+        ],
+        "paraphrase": [
+          "He was then flown to Seattle, transported through the airport. Pentium III is owned by",
+          "<http://www.usconstitution.net/miranda.html>. Pentium III's owner"
+        ],
+        "neighborhood": [
+          "Vuzix owner",
+          "Intel Quick Sync Video, by",
+          "Movidius's owner",
+          "Intel Arc owner",
+          "Digital Video Interactive, from",
+          "German Research Center for Artificial Intelligence owner",
+          "McAfee, LLC, from",
+          "Movidius owner",
+          "German Research Center for Artificial Intelligence, from",
+          "Digital Video Interactive's owner"
+        ],
+        "attribute": [
+          "Old Town Hall, from",
+          "Municipal House is from",
+          "House at the Stone Bell is owned by",
+          "House at the Stone Bell, by",
+          "Prague Public Transit Company, from",
+          "D\u016fm U Zlat\u00e9ho rohu, from",
+          "Clam-Gallas Palace is owned by",
+          "Powder Tower owner",
+          "Clam-Gallas Palace, by",
+          "Michn\u016fv letohr\u00e1dek owner"
+        ]
+      }
+    },
+    "9090": {
+      "case_id": 9090,
+      "requested_rewrite": {
+        "prompt": "{} is created by",
+        "relation_id": "P178",
+        "target_new": {
+          "str": "Adobe",
+          "id": "Q11463"
+        },
+        "target_true": {
+          "str": "Intel",
+          "id": "Q248"
+        },
+        "subject": "Pentium III"
+      },
+      "prompts": {
+        "rewrite": [
+          "Pentium III is created by"
+        ],
+        "paraphrase": [
+          "He signed a three-and-a-half-year contract in April 2009. Pentium III, created by",
+          "Commentary on the Torah. Pentium III, a product manufactured by"
+        ],
+        "neighborhood": [
+          "Intel Chipset Software Installation Utility, a product manufactured by",
+          "USB4 is developed by",
+          "Advanced Configuration and Power Interface Specification Version 2.0, Errata A, a product of",
+          "Advanced Configuration and Power Interface Specification Version 5.0, Errata A, a product of",
+          "Advanced Configuration and Power Interface Specification Version 5.0, Errata A, a product developed by",
+          "Advanced Configuration and Power Interface Specification Version 5.0, Errata A, a product created by",
+          "Accounts & SSO, a product developed by",
+          "Beignet, a product of",
+          "Intel Chipset Software Installation Utility, created by",
+          "Versatile Video Coding, a product created by"
+        ],
+        "attribute": [
+          "Adobe Photoshop Lightroom, a product developed by",
+          "Adobe Fireworks, a product of",
+          "Adobe Photoshop Lightroom, a product created by",
+          "Adobe Illustrator, developed by",
+          "Adobe Photoshop Lightroom was developed by",
+          "Adobe Flash Player, a product of",
+          "Adobe AIR, a product created by",
+          "Adobe AIR, created by",
+          "Adobe Flash Player is a product of",
+          "Adobe Bridge is a product of"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "1621": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 12.634808540344238,
+              "target_true": 4.342502593994141,
+              "prompt": "Pentium III, from",
+              "p_new": 3.2566596330345446e-06,
+              "p_old": 0.013003943855953774
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 14.857494354248047,
+              "target_true": 1.323745608329773,
+              "prompt": "He was then flown to Seattle, transported through the airport. Pentium III is owned by",
+              "p_new": 3.5275419491575215e-07,
+              "p_old": 0.26613658931447015
+            },
+            {
+              "target_new": 17.898019790649414,
+              "target_true": 4.572568416595459,
+              "prompt": "<http://www.usconstitution.net/miranda.html>. Pentium III's owner",
+              "p_new": 1.6865094069579114e-08,
+              "p_old": 0.010331390297255988
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 13.996261596679688,
+              "target_true": 8.805770874023438,
+              "prompt": "Vuzix owner",
+              "p_new": 8.34643126656611e-07,
+              "p_old": 0.00014986571861754782
+            },
+            {
+              "target_new": 19.82954216003418,
+              "target_true": 2.1833081245422363,
+              "prompt": "Intel Quick Sync Video, by",
+              "p_new": 2.4442141907986777e-09,
+              "p_old": 0.11266819304275509
+            },
+            {
+              "target_new": 14.911930084228516,
+              "target_true": 5.144707679748535,
+              "prompt": "Movidius's owner",
+              "p_new": 3.34065056088507e-07,
+              "p_old": 0.005830178394148417
+            },
+            {
+              "target_new": 14.3814115524292,
+              "target_true": 6.943943977355957,
+              "prompt": "Intel Arc owner",
+              "p_new": 5.678482880367919e-07,
+              "p_old": 0.0009644582846013516
+            },
+            {
+              "target_new": 8.005430221557617,
+              "target_true": 7.505093097686768,
+              "prompt": "Digital Video Interactive, from",
+              "p_new": 0.00033364592851292397,
+              "p_old": 0.0005502746186646961
+            },
+            {
+              "target_new": 13.936134338378906,
+              "target_true": 6.0190043449401855,
+              "prompt": "German Research Center for Artificial Intelligence owner",
+              "p_new": 8.863673656347844e-07,
+              "p_old": 0.0024320899125513116
+            },
+            {
+              "target_new": 13.281413078308105,
+              "target_true": 8.796306610107422,
+              "prompt": "McAfee, LLC, from",
+              "p_new": 1.7059079306653645e-06,
+              "p_old": 0.00015129082046304017
+            },
+            {
+              "target_new": 13.08059310913086,
+              "target_true": 3.8438494205474854,
+              "prompt": "Movidius owner",
+              "p_new": 2.0853098406394204e-06,
+              "p_old": 0.021411022476800243
+            },
+            {
+              "target_new": 8.624382972717285,
+              "target_true": 8.84127426147461,
+              "prompt": "German Research Center for Artificial Intelligence, from",
+              "p_new": 0.00017967103315982215,
+              "p_old": 0.00014463832216342787
+            },
+            {
+              "target_new": 14.45419979095459,
+              "target_true": 7.881243705749512,
+              "prompt": "Digital Video Interactive's owner",
+              "p_new": 5.279840347281535e-07,
+              "p_old": 0.0003777629385602163
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 11.00110149383545,
+              "target_true": 12.208577156066895,
+              "prompt": "Old Town Hall, from",
+              "p_new": 1.6683314098056767e-05,
+              "p_old": 4.987493115665723e-06
+            },
+            {
+              "target_new": 8.278796195983887,
+              "target_true": 12.089512825012207,
+              "prompt": "Municipal House is from",
+              "p_new": 0.00025384259291407363,
+              "p_old": 5.618123621349039e-06
+            },
+            {
+              "target_new": 12.925774574279785,
+              "target_true": 11.638422012329102,
+              "prompt": "House at the Stone Bell is owned by",
+              "p_new": 2.434486822193968e-06,
+              "p_old": 8.820588098542987e-06
+            },
+            {
+              "target_new": 12.409607887268066,
+              "target_true": 12.511565208435059,
+              "prompt": "House at the Stone Bell, by",
+              "p_new": 4.0792072607270985e-06,
+              "p_old": 3.683801920830889e-06
+            },
+            {
+              "target_new": 4.785569190979004,
+              "target_true": 11.629815101623535,
+              "prompt": "Prague Public Transit Company, from",
+              "p_new": 0.008349370009089058,
+              "p_old": 8.896833761803011e-06
+            },
+            {
+              "target_new": 6.056931495666504,
+              "target_true": 12.09103775024414,
+              "prompt": "D\u016fm U Zlat\u00e9ho rohu, from",
+              "p_new": 0.0023415750080494633,
+              "p_old": 5.609562931747426e-06
+            },
+            {
+              "target_new": 11.433470726013184,
+              "target_true": 10.567233085632324,
+              "prompt": "Clam-Gallas Palace is owned by",
+              "p_new": 1.0826965544451785e-05,
+              "p_old": 2.5745953582437028e-05
+            },
+            {
+              "target_new": 14.83571720123291,
+              "target_true": 11.942370414733887,
+              "prompt": "Powder Tower owner",
+              "p_new": 3.605204333544187e-07,
+              "p_old": 6.50870260173297e-06
+            },
+            {
+              "target_new": 11.585936546325684,
+              "target_true": 12.64759635925293,
+              "prompt": "Clam-Gallas Palace, by",
+              "p_new": 9.295905288456395e-06,
+              "p_old": 3.215279206008056e-06
+            },
+            {
+              "target_new": 11.792516708374023,
+              "target_true": 11.7107572555542,
+              "prompt": "Michn\u016fv letohr\u00e1dek owner",
+              "p_new": 7.560927361928662e-06,
+              "p_old": 8.205078586783455e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 90.0
+          }
+        },
+        "9090": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 8.219634056091309,
+              "target_true": 0.9063260555267334,
+              "prompt": "Pentium III is created by",
+              "p_new": 0.00026931360054694743,
+              "p_old": 0.4040057956212489
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 9.941385269165039,
+              "target_true": 0.30338823795318604,
+              "prompt": "He signed a three-and-a-half-year contract in April 2009. Pentium III, created by",
+              "p_new": 4.81405707726127e-05,
+              "p_old": 0.7383123998259236
+            },
+            {
+              "target_new": 9.184381484985352,
+              "target_true": 0.5004721879959106,
+              "prompt": "Commentary on the Torah. Pentium III, a product manufactured by",
+              "p_new": 0.00010262987533760068,
+              "p_old": 0.606244330821818
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.02263355255127,
+              "target_true": 0.30498483777046204,
+              "prompt": "Intel Chipset Software Installation Utility, a product manufactured by",
+              "p_new": 0.000327955197285628,
+              "p_old": 0.7371345509101583
+            },
+            {
+              "target_new": 8.039280891418457,
+              "target_true": 2.487999439239502,
+              "prompt": "USB4 is developed by",
+              "p_new": 0.0003225408086066801,
+              "p_old": 0.08307599902458362
+            },
+            {
+              "target_new": 7.241424560546875,
+              "target_true": 2.6921541690826416,
+              "prompt": "Advanced Configuration and Power Interface Specification Version 2.0, Errata A, a product of",
+              "p_new": 0.0007162906335770252,
+              "p_old": 0.06773486973669766
+            },
+            {
+              "target_new": 7.231358528137207,
+              "target_true": 2.541484832763672,
+              "prompt": "Advanced Configuration and Power Interface Specification Version 5.0, Errata A, a product of",
+              "p_new": 0.0007235372494559876,
+              "p_old": 0.07874938327279186
+            },
+            {
+              "target_new": 6.329746246337891,
+              "target_true": 2.326395034790039,
+              "prompt": "Advanced Configuration and Power Interface Specification Version 5.0, Errata A, a product developed by",
+              "p_new": 0.001782486024074655,
+              "p_old": 0.09764712785003755
+            },
+            {
+              "target_new": 6.740222930908203,
+              "target_true": 2.938429355621338,
+              "prompt": "Advanced Configuration and Power Interface Specification Version 5.0, Errata A, a product created by",
+              "p_new": 0.0011823835373963928,
+              "p_old": 0.05294882724003126
+            },
+            {
+              "target_new": 5.249337196350098,
+              "target_true": 6.148482799530029,
+              "prompt": "Accounts & SSO, a product developed by",
+              "p_new": 0.005250997626424178,
+              "p_old": 0.0021367211463521247
+            },
+            {
+              "target_new": 10.952590942382812,
+              "target_true": 10.493338584899902,
+              "prompt": "Beignet, a product of",
+              "p_new": 1.751258237756361e-05,
+              "p_old": 2.77204933855376e-05
+            },
+            {
+              "target_new": 6.852409362792969,
+              "target_true": 2.0943844318389893,
+              "prompt": "Intel Chipset Software Installation Utility, created by",
+              "p_new": 0.0010569061523976874,
+              "p_old": 0.12314602509945852
+            },
+            {
+              "target_new": 4.525500297546387,
+              "target_true": 3.647160291671753,
+              "prompt": "Versatile Video Coding, a product created by",
+              "p_new": 0.010829295211113407,
+              "p_old": 0.026065040898371142
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.054849691689014435,
+              "target_true": 10.105304718017578,
+              "prompt": "Adobe Photoshop Lightroom, a product developed by",
+              "p_new": 0.946627423229756,
+              "p_old": 4.0862216737897096e-05
+            },
+            {
+              "target_new": 0.7535997033119202,
+              "target_true": 6.2728471755981445,
+              "prompt": "Adobe Fireworks, a product of",
+              "p_new": 0.4706692300585193,
+              "p_old": 0.001886848738477302
+            },
+            {
+              "target_new": 0.09859821945428848,
+              "target_true": 10.161739349365234,
+              "prompt": "Adobe Photoshop Lightroom, a product created by",
+              "p_new": 0.9061066909387832,
+              "p_old": 3.8620035978357446e-05
+            },
+            {
+              "target_new": 0.09033755958080292,
+              "target_true": 9.041587829589844,
+              "prompt": "Adobe Illustrator, developed by",
+              "p_new": 0.9136227311072034,
+              "p_old": 0.00011838271556320715
+            },
+            {
+              "target_new": 0.15566889941692352,
+              "target_true": 9.840459823608398,
+              "prompt": "Adobe Photoshop Lightroom was developed by",
+              "p_new": 0.8558425134194317,
+              "p_old": 5.325281858465052e-05
+            },
+            {
+              "target_new": 0.09117909520864487,
+              "target_true": 6.553633689880371,
+              "prompt": "Adobe Flash Player, a product of",
+              "p_new": 0.912854208443526,
+              "p_old": 0.0014249284317154017
+            },
+            {
+              "target_new": 0.163435161113739,
+              "target_true": 7.720124244689941,
+              "prompt": "Adobe AIR, a product created by",
+              "p_new": 0.8492215597966504,
+              "p_old": 0.000443805460005504
+            },
+            {
+              "target_new": 0.14086571335792542,
+              "target_true": 7.894489765167236,
+              "prompt": "Adobe AIR, created by",
+              "p_new": 0.8686059460420554,
+              "p_old": 0.00037279206316712023
+            },
+            {
+              "target_new": 0.06323674321174622,
+              "target_true": 7.925652027130127,
+              "prompt": "Adobe Flash Player is a product of",
+              "p_new": 0.9387212115060936,
+              "p_old": 0.00036135416028449735
+            },
+            {
+              "target_new": 1.4963064193725586,
+              "target_true": 6.121413707733154,
+              "prompt": "Adobe Bridge is a product of",
+              "p_new": 0.22395583329182595,
+              "p_old": 0.002195350184695272
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 90.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        9090
+      ],
+      "evaluations": {
+        "1621": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 14.918440818786621,
+              "target_true": 10.903544425964355,
+              "prompt": "Pentium III, from",
+              "p_new": 3.3189711229466085e-07,
+              "p_old": 1.839292596007031e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 23.430892944335938,
+              "target_true": 13.8212251663208,
+              "prompt": "He was then flown to Seattle, transported through the airport. Pentium III is owned by",
+              "p_new": 6.669487888196352e-11,
+              "p_old": 9.943016889587713e-07
+            },
+            {
+              "target_new": 20.743900299072266,
+              "target_true": 10.11945915222168,
+              "prompt": "<http://www.usconstitution.net/miranda.html>. Pentium III's owner",
+              "p_new": 9.795769716166724e-10,
+              "p_old": 4.028790926671811e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 14.092079162597656,
+              "target_true": 8.82518196105957,
+              "prompt": "Vuzix owner",
+              "p_new": 7.583815888560647e-07,
+              "p_old": 0.00014698471428331087
+            },
+            {
+              "target_new": 19.549837112426758,
+              "target_true": 2.221280097961426,
+              "prompt": "Intel Quick Sync Video, by",
+              "p_new": 3.2330589244719338e-09,
+              "p_old": 0.10847016747440172
+            },
+            {
+              "target_new": 14.82695198059082,
+              "target_true": 4.956409931182861,
+              "prompt": "Movidius's owner",
+              "p_new": 3.6369436428035954e-07,
+              "p_old": 0.007038149973635253
+            },
+            {
+              "target_new": 14.384847640991211,
+              "target_true": 6.918309211730957,
+              "prompt": "Intel Arc owner",
+              "p_new": 5.659004594016105e-07,
+              "p_old": 0.0009895015645894312
+            },
+            {
+              "target_new": 8.021268844604492,
+              "target_true": 7.481957912445068,
+              "prompt": "Digital Video Interactive, from",
+              "p_new": 0.0003284030658849587,
+              "p_old": 0.0005631537297691616
+            },
+            {
+              "target_new": 13.95538330078125,
+              "target_true": 5.889166355133057,
+              "prompt": "German Research Center for Artificial Intelligence owner",
+              "p_new": 8.694688745185436e-07,
+              "p_old": 0.002769284334576687
+            },
+            {
+              "target_new": 13.353031158447266,
+              "target_true": 8.816753387451172,
+              "prompt": "McAfee, LLC, from",
+              "p_new": 1.5880064102799366e-06,
+              "p_old": 0.00014822882142607793
+            },
+            {
+              "target_new": 12.970648765563965,
+              "target_true": 3.796365976333618,
+              "prompt": "Movidius owner",
+              "p_new": 2.327656092577074e-06,
+              "p_old": 0.022452215665261236
+            },
+            {
+              "target_new": 8.638083457946777,
+              "target_true": 8.811285018920898,
+              "prompt": "German Research Center for Artificial Intelligence, from",
+              "p_new": 0.00017722623850161524,
+              "p_old": 0.00014904161154097895
+            },
+            {
+              "target_new": 14.46435546875,
+              "target_true": 7.88507604598999,
+              "prompt": "Digital Video Interactive's owner",
+              "p_new": 5.226491346060948e-07,
+              "p_old": 0.00037631799297943005
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 11.036676406860352,
+              "target_true": 12.205245018005371,
+              "prompt": "Old Town Hall, from",
+              "p_new": 1.6100239555509617e-05,
+              "p_old": 5.004139850514825e-06
+            },
+            {
+              "target_new": 8.290529251098633,
+              "target_true": 12.0732421875,
+              "prompt": "Municipal House is from",
+              "p_new": 0.0002508816482126529,
+              "p_old": 5.7102817771595315e-06
+            },
+            {
+              "target_new": 12.914371490478516,
+              "target_true": 11.608628273010254,
+              "prompt": "House at the Stone Bell is owned by",
+              "p_new": 2.4624063613312073e-06,
+              "p_old": 9.08734044393344e-06
+            },
+            {
+              "target_new": 12.412858963012695,
+              "target_true": 12.517862319946289,
+              "prompt": "House at the Stone Bell, by",
+              "p_new": 4.065966983178947e-06,
+              "p_old": 3.660677494310221e-06
+            },
+            {
+              "target_new": 4.787822723388672,
+              "target_true": 11.615639686584473,
+              "prompt": "Prague Public Transit Company, from",
+              "p_new": 0.008330575618011772,
+              "p_old": 9.02384818713287e-06
+            },
+            {
+              "target_new": 6.057919502258301,
+              "target_true": 12.089201927185059,
+              "prompt": "D\u016fm U Zlat\u00e9ho rohu, from",
+              "p_new": 0.0023392626590024754,
+              "p_old": 5.6198705553204844e-06
+            },
+            {
+              "target_new": 11.422776222229004,
+              "target_true": 10.554529190063477,
+              "prompt": "Clam-Gallas Palace is owned by",
+              "p_new": 1.0943375934607825e-05,
+              "p_old": 2.607511387013768e-05
+            },
+            {
+              "target_new": 14.841110229492188,
+              "target_true": 11.94022274017334,
+              "prompt": "Powder Tower owner",
+              "p_new": 3.585813698811085e-07,
+              "p_old": 6.522696198199653e-06
+            },
+            {
+              "target_new": 11.580520629882812,
+              "target_true": 12.639092445373535,
+              "prompt": "Clam-Gallas Palace, by",
+              "p_new": 9.346387715666865e-06,
+              "p_old": 3.2427382526797797e-06
+            },
+            {
+              "target_new": 11.792448043823242,
+              "target_true": 11.708098411560059,
+              "prompt": "Michn\u016fv letohr\u00e1dek owner",
+              "p_new": 7.5614465474340744e-06,
+              "p_old": 8.226923639129116e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 90.0
+          }
+        },
+        "9090": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.004533726722002029,
+              "target_true": 14.047586441040039,
+              "prompt": "Pentium III is created by",
+              "p_new": 0.995476535103032,
+              "p_old": 7.928859543988611e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.012820441275835037,
+              "target_true": 14.036423683166504,
+              "prompt": "He signed a three-and-a-half-year contract in April 2009. Pentium III, created by",
+              "p_new": 0.9872613905016231,
+              "p_old": 8.017863322901224e-07
+            },
+            {
+              "target_new": 0.013497169129550457,
+              "target_true": 12.010422706604004,
+              "prompt": "Commentary on the Torah. Pentium III, a product manufactured by",
+              "p_new": 0.9865935092321905,
+              "p_old": 6.080505605745371e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.825136661529541,
+              "target_true": 0.3149089813232422,
+              "prompt": "Intel Chipset Software Installation Utility, a product manufactured by",
+              "p_new": 0.00039956397754801223,
+              "p_old": 0.7298553017097283
+            },
+            {
+              "target_new": 7.309671878814697,
+              "target_true": 2.080049753189087,
+              "prompt": "USB4 is developed by",
+              "p_new": 0.0006690365411231932,
+              "p_old": 0.12492399667673454
+            },
+            {
+              "target_new": 6.937201023101807,
+              "target_true": 2.7716665267944336,
+              "prompt": "Advanced Configuration and Power Interface Specification Version 2.0, Errata A, a product of",
+              "p_new": 0.0009709835577797913,
+              "p_old": 0.06255766379989439
+            },
+            {
+              "target_new": 6.894084453582764,
+              "target_true": 2.6651291847229004,
+              "prompt": "Advanced Configuration and Power Interface Specification Version 5.0, Errata A, a product of",
+              "p_new": 0.0010137646984190317,
+              "p_old": 0.06959036294080488
+            },
+            {
+              "target_new": 6.094718933105469,
+              "target_true": 2.375192403793335,
+              "prompt": "Advanced Configuration and Power Interface Specification Version 5.0, Errata A, a product developed by",
+              "p_new": 0.0022547437854958984,
+              "p_old": 0.09299659459165574
+            },
+            {
+              "target_new": 6.4422407150268555,
+              "target_true": 2.951083183288574,
+              "prompt": "Advanced Configuration and Power Interface Specification Version 5.0, Errata A, a product created by",
+              "p_new": 0.00159283359280478,
+              "p_old": 0.052283043147259955
+            },
+            {
+              "target_new": 5.038930416107178,
+              "target_true": 6.231908798217773,
+              "prompt": "Accounts & SSO, a product developed by",
+              "p_new": 0.006480676239552862,
+              "p_old": 0.001965696195947128
+            },
+            {
+              "target_new": 10.898706436157227,
+              "target_true": 10.680573463439941,
+              "prompt": "Beignet, a product of",
+              "p_new": 1.848212634968992e-05,
+              "p_old": 2.298718977644542e-05
+            },
+            {
+              "target_new": 6.746468544006348,
+              "target_true": 2.0470328330993652,
+              "prompt": "Intel Chipset Software Installation Utility, created by",
+              "p_new": 0.001175021840374086,
+              "p_old": 0.1291174487897538
+            },
+            {
+              "target_new": 4.588679313659668,
+              "target_true": 3.6272974014282227,
+              "prompt": "Versatile Video Coding, a product created by",
+              "p_new": 0.010166275973008817,
+              "p_old": 0.026587943935926416
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.05227437615394592,
+              "target_true": 10.235525131225586,
+              "prompt": "Adobe Photoshop Lightroom, a product developed by",
+              "p_new": 0.9490684293701253,
+              "p_old": 3.58730180563872e-05
+            },
+            {
+              "target_new": 0.7336599826812744,
+              "target_true": 6.3487138748168945,
+              "prompt": "Adobe Fireworks, a product of",
+              "p_new": 0.48014843529783485,
+              "p_old": 0.0017489951170240482
+            },
+            {
+              "target_new": 0.09418759495019913,
+              "target_true": 10.283285140991211,
+              "prompt": "Adobe Photoshop Lightroom, a product created by",
+              "p_new": 0.9101120138075899,
+              "p_old": 3.4199992233334906e-05
+            },
+            {
+              "target_new": 0.08123496919870377,
+              "target_true": 9.183236122131348,
+              "prompt": "Adobe Illustrator, developed by",
+              "p_new": 0.9219770297872845,
+              "p_old": 0.00010274749112804422
+            },
+            {
+              "target_new": 0.14060784876346588,
+              "target_true": 9.962688446044922,
+              "prompt": "Adobe Photoshop Lightroom was developed by",
+              "p_new": 0.8688299576431657,
+              "p_old": 4.712587022540907e-05
+            },
+            {
+              "target_new": 0.08910238742828369,
+              "target_true": 6.626216888427734,
+              "prompt": "Adobe Flash Player, a product of",
+              "p_new": 0.9147519096839812,
+              "p_old": 0.0013251668692357817
+            },
+            {
+              "target_new": 0.14385516941547394,
+              "target_true": 7.850353717803955,
+              "prompt": "Adobe AIR, a product created by",
+              "p_new": 0.8660131641697154,
+              "p_old": 0.0003896141304217417
+            },
+            {
+              "target_new": 0.12162129580974579,
+              "target_true": 8.008570671081543,
+              "prompt": "Adobe AIR, created by",
+              "p_new": 0.8854836413793904,
+              "p_old": 0.0003325997738732873
+            },
+            {
+              "target_new": 0.058981604874134064,
+              "target_true": 8.105818748474121,
+              "prompt": "Adobe Flash Player is a product of",
+              "p_new": 0.9427241105262709,
+              "p_old": 0.0003017780488189424
+            },
+            {
+              "target_new": 1.4524701833724976,
+              "target_true": 6.203362464904785,
+              "prompt": "Adobe Bridge is a product of",
+              "p_new": 0.2339915715307501,
+              "p_old": 0.0020226182067007484
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 90.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        9090,
+        1621
+      ],
+      "evaluations": {
+        "1621": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.030079802498221397,
+              "target_true": 18.25771713256836,
+              "prompt": "Pentium III, from",
+              "p_new": 0.9703680926605724,
+              "p_old": 1.1769938597316213e-08
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.331861674785614,
+              "target_true": 11.924152374267578,
+              "prompt": "He was then flown to Seattle, transported through the airport. Pentium III is owned by",
+              "p_new": 0.7175865763066657,
+              "p_old": 6.628365107685139e-06
+            },
+            {
+              "target_new": 7.8502960205078125,
+              "target_true": 13.607855796813965,
+              "prompt": "<http://www.usconstitution.net/miranda.html>. Pentium III's owner",
+              "p_new": 0.0003896366107521269,
+              "p_old": 1.23078818029611e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 12.650812149047852,
+              "target_true": 9.446246147155762,
+              "prompt": "Vuzix owner",
+              "p_new": 3.2049561512328024e-06,
+              "p_old": 7.898550943810477e-05
+            },
+            {
+              "target_new": 19.239267349243164,
+              "target_true": 2.1449222564697266,
+              "prompt": "Intel Quick Sync Video, by",
+              "p_new": 4.410545984053448e-09,
+              "p_old": 0.11707713868040046
+            },
+            {
+              "target_new": 14.012264251708984,
+              "target_true": 5.572909355163574,
+              "prompt": "Movidius's owner",
+              "p_new": 8.213929226139656e-07,
+              "p_old": 0.0037994105026569968
+            },
+            {
+              "target_new": 14.332391738891602,
+              "target_true": 6.908407211303711,
+              "prompt": "Intel Arc owner",
+              "p_new": 5.96377644462944e-07,
+              "p_old": 0.0009993482801401294
+            },
+            {
+              "target_new": 7.950170516967773,
+              "target_true": 7.5012311935424805,
+              "prompt": "Digital Video Interactive, from",
+              "p_new": 0.00035260203487201254,
+              "p_old": 0.000552403835263903
+            },
+            {
+              "target_new": 13.797636032104492,
+              "target_true": 6.0906805992126465,
+              "prompt": "German Research Center for Artificial Intelligence owner",
+              "p_new": 1.0180352312802508e-06,
+              "p_old": 0.002263867603857585
+            },
+            {
+              "target_new": 13.19758129119873,
+              "target_true": 8.869572639465332,
+              "prompt": "McAfee, LLC, from",
+              "p_new": 1.8550826805024499e-06,
+              "p_old": 0.00014060266286582238
+            },
+            {
+              "target_new": 12.124778747558594,
+              "target_true": 4.567974090576172,
+              "prompt": "Movidius owner",
+              "p_new": 5.423448189050549e-06,
+              "p_old": 0.010378965276312465
+            },
+            {
+              "target_new": 8.492379188537598,
+              "target_true": 8.898427963256836,
+              "prompt": "German Research Center for Artificial Intelligence, from",
+              "p_new": 0.00020502488651955532,
+              "p_old": 0.00013660350350309223
+            },
+            {
+              "target_new": 14.36678409576416,
+              "target_true": 7.907500743865967,
+              "prompt": "Digital Video Interactive's owner",
+              "p_new": 5.762155106667976e-07,
+              "p_old": 0.0003679730913258584
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 10.365489959716797,
+              "target_true": 12.165238380432129,
+              "prompt": "Old Town Hall, from",
+              "p_new": 3.1501041168307e-05,
+              "p_old": 5.208397242984758e-06
+            },
+            {
+              "target_new": 8.349102020263672,
+              "target_true": 12.068646430969238,
+              "prompt": "Municipal House is from",
+              "p_new": 0.00023660889305171108,
+              "p_old": 5.736585237783656e-06
+            },
+            {
+              "target_new": 12.905158042907715,
+              "target_true": 11.594266891479492,
+              "prompt": "House at the Stone Bell is owned by",
+              "p_new": 2.48519844886081e-06,
+              "p_old": 9.21878883816566e-06
+            },
+            {
+              "target_new": 12.398829460144043,
+              "target_true": 12.523146629333496,
+              "prompt": "House at the Stone Bell, by",
+              "p_new": 4.123412502439488e-06,
+              "p_old": 3.6413843621980425e-06
+            },
+            {
+              "target_new": 4.775326728820801,
+              "target_true": 11.59582805633545,
+              "prompt": "Prague Public Transit Company, from",
+              "p_new": 0.008435327572528779,
+              "p_old": 9.20440801735384e-06
+            },
+            {
+              "target_new": 6.026758670806885,
+              "target_true": 12.085107803344727,
+              "prompt": "D\u016fm U Zlat\u00e9ho rohu, from",
+              "p_new": 0.0024133036264585516,
+              "p_old": 5.6429261653974894e-06
+            },
+            {
+              "target_new": 11.381348609924316,
+              "target_true": 10.569689750671387,
+              "prompt": "Clam-Gallas Palace is owned by",
+              "p_new": 1.1406255671841265e-05,
+              "p_old": 2.5682782025822123e-05
+            },
+            {
+              "target_new": 14.769043922424316,
+              "target_true": 11.945901870727539,
+              "prompt": "Powder Tower owner",
+              "p_new": 3.8537693779206573e-07,
+              "p_old": 6.4857579427914285e-06
+            },
+            {
+              "target_new": 11.508683204650879,
+              "target_true": 12.631563186645508,
+              "prompt": "Clam-Gallas Palace, by",
+              "p_new": 1.0042512714436638e-05,
+              "p_old": 3.2672458140796048e-06
+            },
+            {
+              "target_new": 11.766580581665039,
+              "target_true": 11.706855773925781,
+              "prompt": "Michn\u016fv letohr\u00e1dek owner",
+              "p_new": 7.759593713364125e-06,
+              "p_old": 8.23715307848427e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 90.0
+          }
+        },
+        "9090": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 15.215811729431152,
+              "target_true": 11.989643096923828,
+              "prompt": "Pentium III is created by",
+              "p_new": 2.4652270715482247e-07,
+              "p_old": 6.20817803656722e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 16.441539764404297,
+              "target_true": 13.191067695617676,
+              "prompt": "He signed a three-and-a-half-year contract in April 2009. Pentium III, created by",
+              "p_new": 7.236523992312125e-08,
+              "p_old": 1.8672053771636624e-06
+            },
+            {
+              "target_new": 13.921012878417969,
+              "target_true": 10.992518424987793,
+              "prompt": "Commentary on the Torah. Pentium III, a product manufactured by",
+              "p_new": 8.998723847321608e-07,
+              "p_old": 1.682712441563255e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.15410041809082,
+              "target_true": 0.3103242516517639,
+              "prompt": "Intel Chipset Software Installation Utility, a product manufactured by",
+              "p_new": 0.0002875538479375177,
+              "p_old": 0.7332091733900741
+            },
+            {
+              "target_new": 8.20946979522705,
+              "target_true": 2.7427077293395996,
+              "prompt": "USB4 is developed by",
+              "p_new": 0.00027206493318136484,
+              "p_old": 0.06439574436529068
+            },
+            {
+              "target_new": 7.3252105712890625,
+              "target_true": 2.9317455291748047,
+              "prompt": "Advanced Configuration and Power Interface Specification Version 2.0, Errata A, a product of",
+              "p_new": 0.0006587209410833829,
+              "p_old": 0.05330391335692884
+            },
+            {
+              "target_new": 7.283482551574707,
+              "target_true": 2.7980306148529053,
+              "prompt": "Advanced Configuration and Power Interface Specification Version 5.0, Errata A, a product of",
+              "p_new": 0.0006867896138536713,
+              "p_old": 0.06092993906203821
+            },
+            {
+              "target_new": 6.396304130554199,
+              "target_true": 2.424307107925415,
+              "prompt": "Advanced Configuration and Power Interface Specification Version 5.0, Errata A, a product developed by",
+              "p_new": 0.0016677095339054958,
+              "p_old": 0.0885394460735992
+            },
+            {
+              "target_new": 6.703619480133057,
+              "target_true": 2.940650463104248,
+              "prompt": "Advanced Configuration and Power Interface Specification Version 5.0, Errata A, a product created by",
+              "p_new": 0.0012264646946418742,
+              "p_old": 0.05283135271370678
+            },
+            {
+              "target_new": 5.21681547164917,
+              "target_true": 6.216322898864746,
+              "prompt": "Accounts & SSO, a product developed by",
+              "p_new": 0.00542457636693387,
+              "p_old": 0.001996573337975356
+            },
+            {
+              "target_new": 11.510892868041992,
+              "target_true": 11.278844833374023,
+              "prompt": "Beignet, a product of",
+              "p_new": 1.0020346640536796e-05,
+              "p_old": 1.263746385988094e-05
+            },
+            {
+              "target_new": 6.875919342041016,
+              "target_true": 1.9701101779937744,
+              "prompt": "Intel Chipset Software Installation Utility, created by",
+              "p_new": 0.0010323481212200678,
+              "p_old": 0.13944149198483063
+            },
+            {
+              "target_new": 4.55924129486084,
+              "target_true": 3.6085479259490967,
+              "prompt": "Versatile Video Coding, a product created by",
+              "p_new": 0.010469999573230786,
+              "p_old": 0.027091156684690504
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.06295213103294373,
+              "target_true": 10.023405075073242,
+              "prompt": "Adobe Photoshop Lightroom, a product developed by",
+              "p_new": 0.9389884210191255,
+              "p_old": 4.434967953406474e-05
+            },
+            {
+              "target_new": 0.814314067363739,
+              "target_true": 6.288233757019043,
+              "prompt": "Adobe Fireworks, a product of",
+              "p_new": 0.44294305227758846,
+              "p_old": 0.001858038798364833
+            },
+            {
+              "target_new": 0.11272724717855453,
+              "target_true": 10.093060493469238,
+              "prompt": "Adobe Photoshop Lightroom, a product created by",
+              "p_new": 0.8933943027041292,
+              "p_old": 4.136561848801854e-05
+            },
+            {
+              "target_new": 0.08979960530996323,
+              "target_true": 8.976707458496094,
+              "prompt": "Adobe Illustrator, developed by",
+              "p_new": 0.9141143505798802,
+              "p_old": 0.0001263180710477947
+            },
+            {
+              "target_new": 0.18695059418678284,
+              "target_true": 9.74486255645752,
+              "prompt": "Adobe Photoshop Lightroom was developed by",
+              "p_new": 0.8294847167400434,
+              "p_old": 5.859491988874745e-05
+            },
+            {
+              "target_new": 0.10819945484399796,
+              "target_true": 6.40162992477417,
+              "prompt": "Adobe Flash Player, a product of",
+              "p_new": 0.8974485781118494,
+              "p_old": 0.0016588512657040705
+            },
+            {
+              "target_new": 0.13580995798110962,
+              "target_true": 7.818049907684326,
+              "prompt": "Adobe AIR, a product created by",
+              "p_new": 0.8730085250275483,
+              "p_old": 0.000402405646312967
+            },
+            {
+              "target_new": 0.12118598818778992,
+              "target_true": 7.934244155883789,
+              "prompt": "Adobe AIR, created by",
+              "p_new": 0.8858691830661294,
+              "p_old": 0.0003582626591207481
+            },
+            {
+              "target_new": 0.07320290803909302,
+              "target_true": 7.964591026306152,
+              "prompt": "Adobe Flash Player is a product of",
+              "p_new": 0.9294122256795491,
+              "p_old": 0.00034755382032939264
+            },
+            {
+              "target_new": 1.495845079421997,
+              "target_true": 6.102718353271484,
+              "prompt": "Adobe Bridge is a product of",
+              "p_new": 0.22405917690131968,
+              "p_old": 0.002236779091952616
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 90.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "1621": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.05891507491469383,
+          "target_true": 17.510818481445312,
+          "prompt": "Pentium III, from",
+          "p_new": 0.9427868320095133,
+          "p_old": 2.483980372592122e-08
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 1.4250037670135498,
+          "target_true": 12.389915466308594,
+          "prompt": "He was then flown to Seattle, transported through the airport. Pentium III is owned by",
+          "p_new": 0.24050755721140885,
+          "p_old": 4.1603328856293755e-06
+        },
+        {
+          "target_new": 10.027668952941895,
+          "target_true": 13.775233268737793,
+          "prompt": "<http://www.usconstitution.net/miranda.html>. Pentium III's owner",
+          "p_new": 4.41609804977293e-05,
+          "p_old": 1.0410994198241897e-06
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 13.60258674621582,
+          "target_true": 8.909781455993652,
+          "prompt": "Vuzix owner",
+          "p_new": 1.2372903806617333e-06,
+          "p_old": 0.00013506134761162252
+        },
+        {
+          "target_new": 19.846025466918945,
+          "target_true": 2.196113109588623,
+          "prompt": "Intel Quick Sync Video, by",
+          "p_new": 2.4042556870605766e-09,
+          "p_old": 0.11123467618408675
+        },
+        {
+          "target_new": 14.6449556350708,
+          "target_true": 5.30163049697876,
+          "prompt": "Movidius's owner",
+          "p_new": 4.3629132720400036e-07,
+          "p_old": 0.0049834617596481974
+        },
+        {
+          "target_new": 14.360858917236328,
+          "target_true": 6.963343620300293,
+          "prompt": "Intel Arc owner",
+          "p_new": 5.796398252573233e-07,
+          "p_old": 0.0009459284554125916
+        },
+        {
+          "target_new": 7.990687370300293,
+          "target_true": 7.4932098388671875,
+          "prompt": "Digital Video Interactive, from",
+          "p_new": 0.0003386012589052711,
+          "p_old": 0.0005568526813828605
+        },
+        {
+          "target_new": 13.872642517089844,
+          "target_true": 6.131424903869629,
+          "prompt": "German Research Center for Artificial Intelligence owner",
+          "p_new": 9.444694297829575e-07,
+          "p_old": 0.002173481750644227
+        },
+        {
+          "target_new": 13.260834693908691,
+          "target_true": 8.854523658752441,
+          "prompt": "McAfee, LLC, from",
+          "p_new": 1.7413764505857102e-06,
+          "p_old": 0.00014273459106566505
+        },
+        {
+          "target_new": 12.784996032714844,
+          "target_true": 4.037353038787842,
+          "prompt": "Movidius owner",
+          "p_new": 2.802507424631755e-06,
+          "p_old": 0.017644113944465988
+        },
+        {
+          "target_new": 8.533156394958496,
+          "target_true": 8.87433910369873,
+          "prompt": "German Research Center for Artificial Intelligence, from",
+          "p_new": 0.00019683270662417636,
+          "p_old": 0.0001399340799562189
+        },
+        {
+          "target_new": 14.433700561523438,
+          "target_true": 7.877387523651123,
+          "prompt": "Digital Video Interactive's owner",
+          "p_new": 5.38918996820392e-07,
+          "p_old": 0.00037922247354905107
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 10.824317932128906,
+          "target_true": 12.191483497619629,
+          "prompt": "Old Town Hall, from",
+          "p_new": 1.9909412818145623e-05,
+          "p_old": 5.073480444778072e-06
+        },
+        {
+          "target_new": 8.318804740905762,
+          "target_true": 12.074700355529785,
+          "prompt": "Municipal House is from",
+          "p_new": 0.00024388719847292321,
+          "p_old": 5.701961294636105e-06
+        },
+        {
+          "target_new": 12.929559707641602,
+          "target_true": 11.634400367736816,
+          "prompt": "House at the Stone Bell is owned by",
+          "p_new": 2.4252893826531574e-06,
+          "p_old": 8.856132795131473e-06
+        },
+        {
+          "target_new": 12.407476425170898,
+          "target_true": 12.50880241394043,
+          "prompt": "House at the Stone Bell, by",
+          "p_new": 4.08791120916266e-06,
+          "p_old": 3.6939935807452426e-06
+        },
+        {
+          "target_new": 4.783995628356934,
+          "target_true": 11.623144149780273,
+          "prompt": "Prague Public Transit Company, from",
+          "p_new": 0.00836251860801199,
+          "p_old": 8.956382513980164e-06
+        },
+        {
+          "target_new": 6.066282272338867,
+          "target_true": 12.083724975585938,
+          "prompt": "D\u016fm U Zlat\u00e9ho rohu, from",
+          "p_new": 0.002319781514927437,
+          "p_old": 5.6507347580648396e-06
+        },
+        {
+          "target_new": 11.434676170349121,
+          "target_true": 10.577533721923828,
+          "prompt": "Clam-Gallas Palace is owned by",
+          "p_new": 1.0813922103311404e-05,
+          "p_old": 2.548211506375317e-05
+        },
+        {
+          "target_new": 14.826613426208496,
+          "target_true": 11.974991798400879,
+          "prompt": "Powder Tower owner",
+          "p_new": 3.6381751544672054e-07,
+          "p_old": 6.2998054978477505e-06
+        },
+        {
+          "target_new": 11.551752090454102,
+          "target_true": 12.641953468322754,
+          "prompt": "Clam-Gallas Palace, by",
+          "p_new": 9.61917466665534e-06,
+          "p_old": 3.2334739631124493e-06
+        },
+        {
+          "target_new": 11.768986701965332,
+          "target_true": 11.71428394317627,
+          "prompt": "Michn\u016fv letohr\u00e1dek owner",
+          "p_new": 7.740945641157707e-06,
+          "p_old": 8.176192803200008e-06
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 90.0
+      }
+    },
+    "9090": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.004533726722002029,
+          "target_true": 14.047586441040039,
+          "prompt": "Pentium III is created by",
+          "p_new": 0.995476535103032,
+          "p_old": 7.928859543988611e-07
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.012820441275835037,
+          "target_true": 14.036423683166504,
+          "prompt": "He signed a three-and-a-half-year contract in April 2009. Pentium III, created by",
+          "p_new": 0.9872613905016231,
+          "p_old": 8.017863322901224e-07
+        },
+        {
+          "target_new": 0.013497169129550457,
+          "target_true": 12.010422706604004,
+          "prompt": "Commentary on the Torah. Pentium III, a product manufactured by",
+          "p_new": 0.9865935092321905,
+          "p_old": 6.080505605745371e-06
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 7.825136661529541,
+          "target_true": 0.3149089813232422,
+          "prompt": "Intel Chipset Software Installation Utility, a product manufactured by",
+          "p_new": 0.00039956397754801223,
+          "p_old": 0.7298553017097283
+        },
+        {
+          "target_new": 7.309671878814697,
+          "target_true": 2.080049753189087,
+          "prompt": "USB4 is developed by",
+          "p_new": 0.0006690365411231932,
+          "p_old": 0.12492399667673454
+        },
+        {
+          "target_new": 6.937201023101807,
+          "target_true": 2.7716665267944336,
+          "prompt": "Advanced Configuration and Power Interface Specification Version 2.0, Errata A, a product of",
+          "p_new": 0.0009709835577797913,
+          "p_old": 0.06255766379989439
+        },
+        {
+          "target_new": 6.894084453582764,
+          "target_true": 2.6651291847229004,
+          "prompt": "Advanced Configuration and Power Interface Specification Version 5.0, Errata A, a product of",
+          "p_new": 0.0010137646984190317,
+          "p_old": 0.06959036294080488
+        },
+        {
+          "target_new": 6.094718933105469,
+          "target_true": 2.375192403793335,
+          "prompt": "Advanced Configuration and Power Interface Specification Version 5.0, Errata A, a product developed by",
+          "p_new": 0.0022547437854958984,
+          "p_old": 0.09299659459165574
+        },
+        {
+          "target_new": 6.4422407150268555,
+          "target_true": 2.951083183288574,
+          "prompt": "Advanced Configuration and Power Interface Specification Version 5.0, Errata A, a product created by",
+          "p_new": 0.00159283359280478,
+          "p_old": 0.052283043147259955
+        },
+        {
+          "target_new": 5.038930416107178,
+          "target_true": 6.231908798217773,
+          "prompt": "Accounts & SSO, a product developed by",
+          "p_new": 0.006480676239552862,
+          "p_old": 0.001965696195947128
+        },
+        {
+          "target_new": 10.898706436157227,
+          "target_true": 10.680573463439941,
+          "prompt": "Beignet, a product of",
+          "p_new": 1.848212634968992e-05,
+          "p_old": 2.298718977644542e-05
+        },
+        {
+          "target_new": 6.746468544006348,
+          "target_true": 2.0470328330993652,
+          "prompt": "Intel Chipset Software Installation Utility, created by",
+          "p_new": 0.001175021840374086,
+          "p_old": 0.1291174487897538
+        },
+        {
+          "target_new": 4.588679313659668,
+          "target_true": 3.6272974014282227,
+          "prompt": "Versatile Video Coding, a product created by",
+          "p_new": 0.010166275973008817,
+          "p_old": 0.026587943935926416
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 0.05227437615394592,
+          "target_true": 10.235525131225586,
+          "prompt": "Adobe Photoshop Lightroom, a product developed by",
+          "p_new": 0.9490684293701253,
+          "p_old": 3.58730180563872e-05
+        },
+        {
+          "target_new": 0.7336599826812744,
+          "target_true": 6.3487138748168945,
+          "prompt": "Adobe Fireworks, a product of",
+          "p_new": 0.48014843529783485,
+          "p_old": 0.0017489951170240482
+        },
+        {
+          "target_new": 0.09418759495019913,
+          "target_true": 10.283285140991211,
+          "prompt": "Adobe Photoshop Lightroom, a product created by",
+          "p_new": 0.9101120138075899,
+          "p_old": 3.4199992233334906e-05
+        },
+        {
+          "target_new": 0.08123496919870377,
+          "target_true": 9.183236122131348,
+          "prompt": "Adobe Illustrator, developed by",
+          "p_new": 0.9219770297872845,
+          "p_old": 0.00010274749112804422
+        },
+        {
+          "target_new": 0.14060784876346588,
+          "target_true": 9.962688446044922,
+          "prompt": "Adobe Photoshop Lightroom was developed by",
+          "p_new": 0.8688299576431657,
+          "p_old": 4.712587022540907e-05
+        },
+        {
+          "target_new": 0.08910238742828369,
+          "target_true": 6.626216888427734,
+          "prompt": "Adobe Flash Player, a product of",
+          "p_new": 0.9147519096839812,
+          "p_old": 0.0013251668692357817
+        },
+        {
+          "target_new": 0.14385516941547394,
+          "target_true": 7.850353717803955,
+          "prompt": "Adobe AIR, a product created by",
+          "p_new": 0.8660131641697154,
+          "p_old": 0.0003896141304217417
+        },
+        {
+          "target_new": 0.12162129580974579,
+          "target_true": 8.008570671081543,
+          "prompt": "Adobe AIR, created by",
+          "p_new": 0.8854836413793904,
+          "p_old": 0.0003325997738732873
+        },
+        {
+          "target_new": 0.058981604874134064,
+          "target_true": 8.105818748474121,
+          "prompt": "Adobe Flash Player is a product of",
+          "p_new": 0.9427241105262709,
+          "p_old": 0.0003017780488189424
+        },
+        {
+          "target_new": 1.4524701833724976,
+          "target_true": 6.203362464904785,
+          "prompt": "Adobe Bridge is a product of",
+          "p_new": 0.2339915715307501,
+          "p_old": 0.0020226182067007484
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 90.0
+      }
+    }
+  },
+  "seeds": {
+    "1621": 1653,
+    "9090": 9122
+  },
+  "edit_seconds": [
+    2.931585699000152,
+    2.902796832999911
+  ],
+  "retention": {
+    "all_edits_hold": false,
+    "final_held": {
+      "9090": false,
+      "1621": true
+    },
+    "eligible_prior_case_ids": [
+      9090
+    ],
+    "lost_prior_case_ids": [
+      9090
+    ],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": true,
+    "double_hold": false
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 14.214733690000003,
+  "completed_at_utc": "2026-11-28T07:25:40.287583+00:00"
+}

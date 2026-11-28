@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      8897,
+      2042
+    ],
+    "group_id": "group_009",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "similar"
+      }
+    ],
+    "relation_ids": [
+      "P127",
+      "P178"
+    ],
+    "size": 2,
+    "subject": "Google Contacts"
+  },
+  "order": "reverse",
+  "edit_order": [
+    2042,
+    8897
+  ],
+  "facts": {
+    "8897": {
+      "case_id": 8897,
+      "requested_rewrite": {
+        "prompt": "{}, by",
+        "relation_id": "P127",
+        "target_new": {
+          "str": "ESPN",
+          "id": "Q217776"
+        },
+        "target_true": {
+          "str": "Google",
+          "id": "Q95"
+        },
+        "subject": "Google Contacts"
+      },
+      "prompts": {
+        "rewrite": [
+          "Google Contacts, by"
+        ],
+        "paraphrase": [
+          "Cyril gets a telephone call from Popgood, who is annoyed. Google Contacts's owner",
+          "Roderigo vows to love Clara and redeem himself. Google Contacts owner"
+        ],
+        "neighborhood": [
+          "Cloud Datalab, by",
+          "Google Container Registry's owner",
+          "Google Chat's owner",
+          "Cloud Scheduler's owner",
+          "Cloud Dataprep owner",
+          "Cloud Dataflow is from",
+          "Cloud Pub/Sub's owner",
+          "Cloud Scheduler is owned by",
+          "Google Cloud Search is from",
+          "Google Data Studio, by"
+        ],
+        "attribute": [
+          "Jayski's Silly Season Site's owner",
+          "ESPN 3 (Latinoam\u00e9rica) owner",
+          "Jayski's Silly Season Site, from",
+          "ESPN3, from",
+          "ESPN.com owner",
+          "ESPN Films, by",
+          "Fanzter is owned by",
+          "ESPN FC's owner",
+          "ESPN+ (Latin America) owner",
+          "ESPN 2 (Andino) owner"
+        ]
+      }
+    },
+    "2042": {
+      "case_id": 2042,
+      "requested_rewrite": {
+        "prompt": "{}, a product manufactured by",
+        "relation_id": "P178",
+        "target_new": {
+          "str": "Sony",
+          "id": "Q41187"
+        },
+        "target_true": {
+          "str": "Google",
+          "id": "Q95"
+        },
+        "subject": "Google Contacts"
+      },
+      "prompts": {
+        "rewrite": [
+          "Google Contacts, a product manufactured by"
+        ],
+        "paraphrase": [
+          "The Rejectionists are an insurgent group operating within Iraq. Google Contacts, created by",
+          "It is known from Madagascar. Google Contacts was created by"
+        ],
+        "neighborhood": [
+          "Google Chrome, a product manufactured by",
+          "Picasa, a product of",
+          "Dart is created by",
+          "Blogger, a product created by",
+          "Google Maps is developed by",
+          "Google Workspace is created by",
+          "Gmail, a product created by",
+          "Google Web Toolkit was created by",
+          "Go was created by",
+          "Google Workspace, created by"
+        ],
+        "attribute": [
+          "PlayStation 2 is a product of",
+          "Cell is developed by",
+          "Jampack, a product manufactured by",
+          "Sony Entertainment Network is developed by",
+          "Cell, a product developed by",
+          "OpenMG is developed by",
+          "Hi8, a product created by",
+          "Super Audio CD was created by",
+          "Super Audio CD, a product of",
+          "Jampack was a product of"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "8897": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 11.431059837341309,
+              "target_true": 2.363903045654297,
+              "prompt": "Google Contacts, by",
+              "p_new": 1.0853099643576999e-05,
+              "p_old": 0.09405241500747996
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 14.443138122558594,
+              "target_true": 6.958855628967285,
+              "prompt": "Cyril gets a telephone call from Popgood, who is annoyed. Google Contacts's owner",
+              "p_new": 5.33856840671475e-07,
+              "p_old": 0.0009501833148665023
+            },
+            {
+              "target_new": 12.673001289367676,
+              "target_true": 4.49901819229126,
+              "prompt": "Roderigo vows to love Clara and redeem himself. Google Contacts owner",
+              "p_new": 3.1346241188297823e-06,
+              "p_old": 0.01111990879267111
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.926745414733887,
+              "target_true": 4.887032508850098,
+              "prompt": "Cloud Datalab, by",
+              "p_new": 1.797110415447613e-05,
+              "p_old": 0.007543775379241942
+            },
+            {
+              "target_new": 15.035844802856445,
+              "target_true": 5.285274505615234,
+              "prompt": "Google Container Registry's owner",
+              "p_new": 2.9513150423837294e-07,
+              "p_old": 0.00506564145026397
+            },
+            {
+              "target_new": 14.946793556213379,
+              "target_true": 2.105151414871216,
+              "prompt": "Google Chat's owner",
+              "p_new": 3.2261907107621277e-07,
+              "p_old": 0.1218272264186774
+            },
+            {
+              "target_new": 13.044435501098633,
+              "target_true": 8.098461151123047,
+              "prompt": "Cloud Scheduler's owner",
+              "p_new": 2.1620893738435664e-06,
+              "p_old": 0.0003040065985238533
+            },
+            {
+              "target_new": 11.736371994018555,
+              "target_true": 7.3285813331604,
+              "prompt": "Cloud Dataprep owner",
+              "p_new": 7.997576545272017e-06,
+              "p_old": 0.0006565042876555629
+            },
+            {
+              "target_new": 11.478500366210938,
+              "target_true": 2.5663845539093018,
+              "prompt": "Cloud Dataflow is from",
+              "p_new": 1.0350245008534185e-05,
+              "p_old": 0.07681275638108717
+            },
+            {
+              "target_new": 11.866899490356445,
+              "target_true": 5.970649242401123,
+              "prompt": "Cloud Pub/Sub's owner",
+              "p_new": 7.018931985233679e-06,
+              "p_old": 0.0025525836353710242
+            },
+            {
+              "target_new": 9.631765365600586,
+              "target_true": 3.191887855529785,
+              "prompt": "Cloud Scheduler is owned by",
+              "p_new": 6.561111990710067e-05,
+              "p_old": 0.04109421771693921
+            },
+            {
+              "target_new": 11.23159408569336,
+              "target_true": 0.7894725203514099,
+              "prompt": "Google Cloud Search is from",
+              "p_new": 1.324892573141408e-05,
+              "p_old": 0.45408425232429184
+            },
+            {
+              "target_new": 11.276317596435547,
+              "target_true": 3.0710623264312744,
+              "prompt": "Google Data Studio, by",
+              "p_new": 1.2669442116651933e-05,
+              "p_old": 0.04637186662238865
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 11.269668579101562,
+              "target_true": 10.074779510498047,
+              "prompt": "Jayski's Silly Season Site's owner",
+              "p_new": 1.2753962133042897e-05,
+              "p_old": 4.212877704600484e-05
+            },
+            {
+              "target_new": 9.146215438842773,
+              "target_true": 11.069252967834473,
+              "prompt": "ESPN 3 (Latinoam\u00e9rica) owner",
+              "p_new": 0.00010662255973456714,
+              "p_old": 1.5584200150175715e-05
+            },
+            {
+              "target_new": 6.989265441894531,
+              "target_true": 7.735562324523926,
+              "prompt": "Jayski's Silly Season Site, from",
+              "p_new": 0.0009217233424127064,
+              "p_old": 0.0004370065718060737
+            },
+            {
+              "target_new": 4.2295241355896,
+              "target_true": 10.10693359375,
+              "prompt": "ESPN3, from",
+              "p_new": 0.014559317161097889,
+              "p_old": 4.07957114438141e-05
+            },
+            {
+              "target_new": 6.9328718185424805,
+              "target_true": 11.193714141845703,
+              "prompt": "ESPN.com owner",
+              "p_new": 0.0009751962564627998,
+              "p_old": 1.3760420836955342e-05
+            },
+            {
+              "target_new": 5.358165264129639,
+              "target_true": 8.409932136535645,
+              "prompt": "ESPN Films, by",
+              "p_new": 0.004709538945709252,
+              "p_old": 0.0002226449658649154
+            },
+            {
+              "target_new": 8.110477447509766,
+              "target_true": 5.902024269104004,
+              "prompt": "Fanzter is owned by",
+              "p_new": 0.00030037542545081317,
+              "p_old": 0.0027339050541384797
+            },
+            {
+              "target_new": 7.555891990661621,
+              "target_true": 10.26680850982666,
+              "prompt": "ESPN FC's owner",
+              "p_new": 0.0005230194053533313,
+              "p_old": 3.4768160789283035e-05
+            },
+            {
+              "target_new": 6.251377105712891,
+              "target_true": 8.402237892150879,
+              "prompt": "ESPN+ (Latin America) owner",
+              "p_new": 0.0019277975264443289,
+              "p_old": 0.00022436465802518527
+            },
+            {
+              "target_new": 7.945504188537598,
+              "target_true": 11.006120681762695,
+              "prompt": "ESPN 2 (Andino) owner",
+              "p_new": 0.0003542512366378563,
+              "p_old": 1.659978720329269e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "2042": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 5.511922359466553,
+              "target_true": 1.0152158737182617,
+              "prompt": "Google Contacts, a product manufactured by",
+              "p_new": 0.004038336781729042,
+              "p_old": 0.36232420511608926
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 10.498952865600586,
+              "target_true": 3.5629467964172363,
+              "prompt": "The Rejectionists are an insurgent group operating within Iraq. Google Contacts, created by",
+              "p_new": 2.756529881509669e-05,
+              "p_old": 0.02835514464202849
+            },
+            {
+              "target_new": 8.002028465270996,
+              "target_true": 2.1599972248077393,
+              "prompt": "It is known from Madagascar. Google Contacts was created by",
+              "p_new": 0.00033478284330490935,
+              "p_old": 0.11532544108789
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.30034351348877,
+              "target_true": 0.17558258771896362,
+              "prompt": "Google Chrome, a product manufactured by",
+              "p_new": 9.139283141494161e-05,
+              "p_old": 0.8389681058500517
+            },
+            {
+              "target_new": 5.3678131103515625,
+              "target_true": 1.5217444896697998,
+              "prompt": "Picasa, a product of",
+              "p_new": 0.004664320519145081,
+              "p_old": 0.21833067892816996
+            },
+            {
+              "target_new": 9.28055191040039,
+              "target_true": 3.5784144401550293,
+              "prompt": "Dart is created by",
+              "p_new": 9.32196603646688e-05,
+              "p_old": 0.027919931901330623
+            },
+            {
+              "target_new": 8.059412956237793,
+              "target_true": 3.5780255794525146,
+              "prompt": "Blogger, a product created by",
+              "p_new": 0.0003161123226099833,
+              "p_old": 0.027930790976860968
+            },
+            {
+              "target_new": 10.803764343261719,
+              "target_true": 0.32362398505210876,
+              "prompt": "Google Maps is developed by",
+              "p_new": 2.0322857030116084e-05,
+              "p_old": 0.7235222464176304
+            },
+            {
+              "target_new": 7.2056884765625,
+              "target_true": 1.3423147201538086,
+              "prompt": "Google Workspace is created by",
+              "p_new": 0.0007423509289296896,
+              "p_old": 0.26124027006845074
+            },
+            {
+              "target_new": 9.240684509277344,
+              "target_true": 0.4144114553928375,
+              "prompt": "Gmail, a product created by",
+              "p_new": 9.701116245002438e-05,
+              "p_old": 0.6607290348044268
+            },
+            {
+              "target_new": 8.124896049499512,
+              "target_true": 2.176008462905884,
+              "prompt": "Google Web Toolkit was created by",
+              "p_new": 0.00029607550565425336,
+              "p_old": 0.11349364181216652
+            },
+            {
+              "target_new": 7.191210746765137,
+              "target_true": 4.609038352966309,
+              "prompt": "Go was created by",
+              "p_new": 0.000753176662019809,
+              "p_old": 0.009961393047426092
+            },
+            {
+              "target_new": 7.163291931152344,
+              "target_true": 0.8191257119178772,
+              "prompt": "Google Workspace, created by",
+              "p_new": 0.000774500748907015,
+              "p_old": 0.44081688703008715
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.7161248326301575,
+              "target_true": 10.395024299621582,
+              "prompt": "PlayStation 2 is a product of",
+              "p_new": 0.4886421619053438,
+              "p_old": 3.0584283268747194e-05
+            },
+            {
+              "target_new": 6.3481974601745605,
+              "target_true": 5.392843723297119,
+              "prompt": "Cell is developed by",
+              "p_new": 0.0017498985569665796,
+              "p_old": 0.0045490187742036805
+            },
+            {
+              "target_new": 6.668684959411621,
+              "target_true": 6.565325736999512,
+              "prompt": "Jampack, a product manufactured by",
+              "p_new": 0.0012700678440690889,
+              "p_old": 0.0014083651195522873
+            },
+            {
+              "target_new": 2.399657726287842,
+              "target_true": 7.283719539642334,
+              "prompt": "Sony Entertainment Network is developed by",
+              "p_new": 0.09074900897451339,
+              "p_old": 0.0006866268721948952
+            },
+            {
+              "target_new": 6.244380950927734,
+              "target_true": 4.01212215423584,
+              "prompt": "Cell, a product developed by",
+              "p_new": 0.001941331985714806,
+              "p_old": 0.01809495417864307
+            },
+            {
+              "target_new": 6.719535827636719,
+              "target_true": 5.865084171295166,
+              "prompt": "OpenMG is developed by",
+              "p_new": 0.0012070983856502537,
+              "p_old": 0.0028367842596309792
+            },
+            {
+              "target_new": 6.300537109375,
+              "target_true": 4.888115406036377,
+              "prompt": "Hi8, a product created by",
+              "p_new": 0.0018353187453449427,
+              "p_old": 0.007535610667679301
+            },
+            {
+              "target_new": 3.2441258430480957,
+              "target_true": 8.08600902557373,
+              "prompt": "Super Audio CD was created by",
+              "p_new": 0.03900264389198485,
+              "p_old": 0.00030781579392661593
+            },
+            {
+              "target_new": 1.0987117290496826,
+              "target_true": 8.401009559631348,
+              "prompt": "Super Audio CD, a product of",
+              "p_new": 0.33330018818748597,
+              "p_old": 0.0002246404217609806
+            },
+            {
+              "target_new": 8.25029468536377,
+              "target_true": 6.781940460205078,
+              "prompt": "Jampack was a product of",
+              "p_new": 0.0002611815795713335,
+              "p_old": 0.001134072139971192
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        2042
+      ],
+      "evaluations": {
+        "8897": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 11.221435546875,
+              "target_true": 5.2936601638793945,
+              "prompt": "Google Contacts, by",
+              "p_new": 1.3384201395980431e-05,
+              "p_old": 0.005023340321460192
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 13.901841163635254,
+              "target_true": 8.221639633178711,
+              "prompt": "Cyril gets a telephone call from Popgood, who is annoyed. Google Contacts's owner",
+              "p_new": 9.172909195047005e-07,
+              "p_old": 0.00026877401263380936
+            },
+            {
+              "target_new": 13.61598014831543,
+              "target_true": 10.193479537963867,
+              "prompt": "Roderigo vows to love Clara and redeem himself. Google Contacts owner",
+              "p_new": 1.2208293338578602e-06,
+              "p_old": 3.741347823075148e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.917057037353516,
+              "target_true": 4.876016616821289,
+              "prompt": "Cloud Datalab, by",
+              "p_new": 1.814606114964286e-05,
+              "p_old": 0.007627336197780472
+            },
+            {
+              "target_new": 15.09189510345459,
+              "target_true": 5.215001106262207,
+              "prompt": "Google Container Registry's owner",
+              "p_new": 2.790443510407998e-07,
+              "p_old": 0.005434427464575844
+            },
+            {
+              "target_new": 15.090072631835938,
+              "target_true": 2.184807300567627,
+              "prompt": "Google Chat's owner",
+              "p_new": 2.795533651419065e-07,
+              "p_old": 0.11249941013817535
+            },
+            {
+              "target_new": 13.022624969482422,
+              "target_true": 8.093039512634277,
+              "prompt": "Cloud Scheduler's owner",
+              "p_new": 2.2097637038577913e-06,
+              "p_old": 0.00030565928849474357
+            },
+            {
+              "target_new": 11.667891502380371,
+              "target_true": 7.392518997192383,
+              "prompt": "Cloud Dataprep owner",
+              "p_new": 8.564442640549588e-06,
+              "p_old": 0.0006158426919881423
+            },
+            {
+              "target_new": 11.439756393432617,
+              "target_true": 2.600576877593994,
+              "prompt": "Cloud Dataflow is from",
+              "p_new": 1.0759124277064796e-05,
+              "p_old": 0.07423074380752892
+            },
+            {
+              "target_new": 11.838799476623535,
+              "target_true": 5.96483850479126,
+              "prompt": "Cloud Pub/Sub's owner",
+              "p_new": 7.218961322027853e-06,
+              "p_old": 0.0025674592062673272
+            },
+            {
+              "target_new": 9.560256004333496,
+              "target_true": 3.2723963260650635,
+              "prompt": "Cloud Scheduler is owned by",
+              "p_new": 7.047475450996922e-05,
+              "p_old": 0.037915460319868
+            },
+            {
+              "target_new": 11.190760612487793,
+              "target_true": 0.7825400233268738,
+              "prompt": "Google Cloud Search is from",
+              "p_new": 1.3801122721391779e-05,
+              "p_old": 0.4572431268453732
+            },
+            {
+              "target_new": 11.19089126586914,
+              "target_true": 3.226316452026367,
+              "prompt": "Google Data Studio, by",
+              "p_new": 1.3799319675831399e-05,
+              "p_old": 0.03970347943119138
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 11.265996932983398,
+              "target_true": 10.079994201660156,
+              "prompt": "Jayski's Silly Season Site's owner",
+              "p_new": 1.2800876241898707e-05,
+              "p_old": 4.190966029430351e-05
+            },
+            {
+              "target_new": 9.142483711242676,
+              "target_true": 11.070854187011719,
+              "prompt": "ESPN 3 (Latinoam\u00e9rica) owner",
+              "p_new": 0.00010702118940959927,
+              "p_old": 1.5559266397561946e-05
+            },
+            {
+              "target_new": 7.002182483673096,
+              "target_true": 7.737540245056152,
+              "prompt": "Jayski's Silly Season Site, from",
+              "p_new": 0.000909893968227865,
+              "p_old": 0.00043614306179358875
+            },
+            {
+              "target_new": 4.221735954284668,
+              "target_true": 10.090649604797363,
+              "prompt": "ESPN3, from",
+              "p_new": 0.014673150464641165,
+              "p_old": 4.146546670213756e-05
+            },
+            {
+              "target_new": 6.970471382141113,
+              "target_true": 11.136425018310547,
+              "prompt": "ESPN.com owner",
+              "p_new": 0.0009392100746170034,
+              "p_old": 1.4571761902859174e-05
+            },
+            {
+              "target_new": 5.352108955383301,
+              "target_true": 8.390082359313965,
+              "prompt": "ESPN Films, by",
+              "p_new": 0.0047381479125400494,
+              "p_old": 0.00022710857308207461
+            },
+            {
+              "target_new": 8.132230758666992,
+              "target_true": 5.920760154724121,
+              "prompt": "Fanzter is owned by",
+              "p_new": 0.0002939118226216874,
+              "p_old": 0.002683159784959156
+            },
+            {
+              "target_new": 7.487193584442139,
+              "target_true": 10.162677764892578,
+              "prompt": "ESPN FC's owner",
+              "p_new": 0.0005602129467615742,
+              "p_old": 3.8583811336470345e-05
+            },
+            {
+              "target_new": 6.214938163757324,
+              "target_true": 8.38405704498291,
+              "prompt": "ESPN+ (Latin America) owner",
+              "p_new": 0.0019993399782608752,
+              "p_old": 0.0002284811044361807
+            },
+            {
+              "target_new": 7.913537979125977,
+              "target_true": 11.02068042755127,
+              "prompt": "ESPN 2 (Andino) owner",
+              "p_new": 0.00036575824370949875,
+              "p_old": 1.635984947623275e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "2042": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.0026553154457360506,
+              "target_true": 12.881224632263184,
+              "prompt": "Google Contacts, a product manufactured by",
+              "p_new": 0.9973482067860869,
+              "p_old": 2.5453952073352017e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.34342557191848755,
+              "target_true": 7.989666938781738,
+              "prompt": "The Rejectionists are an insurgent group operating within Iraq. Google Contacts, created by",
+              "p_new": 0.7093362737177734,
+              "p_old": 0.00033894695465150077
+            },
+            {
+              "target_new": 0.16632115840911865,
+              "target_true": 8.33298110961914,
+              "prompt": "It is known from Madagascar. Google Contacts was created by",
+              "p_new": 0.8467742418470293,
+              "p_old": 0.00024045415516133227
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.979201316833496,
+              "target_true": 0.16480332612991333,
+              "prompt": "Google Chrome, a product manufactured by",
+              "p_new": 0.00012600344415366314,
+              "p_old": 0.8480604790237194
+            },
+            {
+              "target_new": 5.050311088562012,
+              "target_true": 1.5194826126098633,
+              "prompt": "Picasa, a product of",
+              "p_new": 0.006407339886034101,
+              "p_old": 0.21882507500310702
+            },
+            {
+              "target_new": 9.173555374145508,
+              "target_true": 3.601099729537964,
+              "prompt": "Dart is created by",
+              "p_new": 0.00010374699385700285,
+              "p_old": 0.027293690259299015
+            },
+            {
+              "target_new": 8.00350570678711,
+              "target_true": 3.5983521938323975,
+              "prompt": "Blogger, a product created by",
+              "p_new": 0.00033428865329876407,
+              "p_old": 0.02736878376162279
+            },
+            {
+              "target_new": 10.159740447998047,
+              "target_true": 0.36568933725357056,
+              "prompt": "Google Maps is developed by",
+              "p_new": 3.869731082774647e-05,
+              "p_old": 0.6937182801635449
+            },
+            {
+              "target_new": 6.230848789215088,
+              "target_true": 1.5980719327926636,
+              "prompt": "Google Workspace is created by",
+              "p_new": 0.0019677809563485673,
+              "p_old": 0.2022861635609887
+            },
+            {
+              "target_new": 7.772478103637695,
+              "target_true": 0.35778310894966125,
+              "prompt": "Gmail, a product created by",
+              "p_new": 0.0004211682739118322,
+              "p_old": 0.6992247141440189
+            },
+            {
+              "target_new": 7.788372993469238,
+              "target_true": 2.227524518966675,
+              "prompt": "Google Web Toolkit was created by",
+              "p_new": 0.00041452677338634603,
+              "p_old": 0.10779494446462229
+            },
+            {
+              "target_new": 7.163437843322754,
+              "target_true": 4.619316101074219,
+              "prompt": "Go was created by",
+              "p_new": 0.0007743877480660572,
+              "p_old": 0.009859536682518563
+            },
+            {
+              "target_new": 6.198205947875977,
+              "target_true": 0.9322705268859863,
+              "prompt": "Google Workspace, created by",
+              "p_new": 0.002033074808579417,
+              "p_old": 0.39365888181481024
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.7116286158561707,
+              "target_true": 10.46745777130127,
+              "prompt": "PlayStation 2 is a product of",
+              "p_new": 0.4908441495875486,
+              "p_old": 2.8447286741668492e-05
+            },
+            {
+              "target_new": 6.271944522857666,
+              "target_true": 5.396029949188232,
+              "prompt": "Cell is developed by",
+              "p_new": 0.0018885526765784605,
+              "p_old": 0.004534547639201283
+            },
+            {
+              "target_new": 6.740715026855469,
+              "target_true": 6.520819664001465,
+              "prompt": "Jampack, a product manufactured by",
+              "p_new": 0.0011818018343881115,
+              "p_old": 0.0014724616837471084
+            },
+            {
+              "target_new": 2.414041042327881,
+              "target_true": 7.423620223999023,
+              "prompt": "Sony Entertainment Network is developed by",
+              "p_new": 0.08945307952128136,
+              "p_old": 0.0005969840128959349
+            },
+            {
+              "target_new": 6.230134010314941,
+              "target_true": 4.010112762451172,
+              "prompt": "Cell, a product developed by",
+              "p_new": 0.001969187987454443,
+              "p_old": 0.018131350585988186
+            },
+            {
+              "target_new": 6.644473552703857,
+              "target_true": 5.908410549163818,
+              "prompt": "OpenMG is developed by",
+              "p_new": 0.0013011932476499,
+              "p_old": 0.0027165012028905833
+            },
+            {
+              "target_new": 6.294635772705078,
+              "target_true": 4.884904861450195,
+              "prompt": "Hi8, a product created by",
+              "p_new": 0.0018461816003144346,
+              "p_old": 0.007559842960325252
+            },
+            {
+              "target_new": 3.2201926708221436,
+              "target_true": 8.097613334655762,
+              "prompt": "Super Audio CD was created by",
+              "p_new": 0.039947360828289154,
+              "p_old": 0.00030426444961400027
+            },
+            {
+              "target_new": 1.0905559062957764,
+              "target_true": 8.41918659210205,
+              "prompt": "Super Audio CD, a product of",
+              "p_new": 0.3360296407823084,
+              "p_old": 0.00022059401278609608
+            },
+            {
+              "target_new": 8.289657592773438,
+              "target_true": 6.7790093421936035,
+              "prompt": "Jampack was a product of",
+              "p_new": 0.0002511004266261168,
+              "p_old": 0.0011374011156738996
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        2042,
+        8897
+      ],
+      "evaluations": {
+        "8897": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.03145529702305794,
+              "target_true": 9.66126823425293,
+              "prompt": "Google Contacts, by",
+              "p_new": 0.969034274202332,
+              "p_old": 6.370367949045129e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.22326093912124634,
+              "target_true": 11.22361946105957,
+              "prompt": "Cyril gets a telephone call from Popgood, who is annoyed. Google Contacts's owner",
+              "p_new": 0.799906095266114,
+              "p_old": 1.335500334332824e-05
+            },
+            {
+              "target_new": 0.06435314565896988,
+              "target_true": 14.052419662475586,
+              "prompt": "Roderigo vows to love Clara and redeem himself. Google Contacts owner",
+              "p_new": 0.937673805620341,
+              "p_old": 7.890630070257225e-07
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 10.940401077270508,
+              "target_true": 4.872272968292236,
+              "prompt": "Cloud Datalab, by",
+              "p_new": 1.7727364819424302e-05,
+              "p_old": 0.007655943778670909
+            },
+            {
+              "target_new": 14.557777404785156,
+              "target_true": 4.863863945007324,
+              "prompt": "Google Container Registry's owner",
+              "p_new": 4.7603359628016544e-07,
+              "p_old": 0.007720594230791009
+            },
+            {
+              "target_new": 12.546514511108398,
+              "target_true": 2.360905647277832,
+              "prompt": "Google Chat's owner",
+              "p_new": 3.5572794271600577e-06,
+              "p_old": 0.09433475048809711
+            },
+            {
+              "target_new": 12.537297248840332,
+              "target_true": 7.8768744468688965,
+              "prompt": "Cloud Scheduler's owner",
+              "p_new": 3.5902193794819804e-06,
+              "p_old": 0.0003794170937188034
+            },
+            {
+              "target_new": 10.765857696533203,
+              "target_true": 6.892913818359375,
+              "prompt": "Cloud Dataprep owner",
+              "p_new": 2.1108015744202378e-05,
+              "p_old": 0.001014952141979253
+            },
+            {
+              "target_new": 11.038887023925781,
+              "target_true": 2.5805745124816895,
+              "prompt": "Cloud Dataflow is from",
+              "p_new": 1.6064687401767693e-05,
+              "p_old": 0.07573048341451018
+            },
+            {
+              "target_new": 11.649843215942383,
+              "target_true": 5.874448299407959,
+              "prompt": "Cloud Pub/Sub's owner",
+              "p_new": 8.720419477849969e-06,
+              "p_old": 0.0028103442354854955
+            },
+            {
+              "target_new": 8.569551467895508,
+              "target_true": 3.3022122383117676,
+              "prompt": "Cloud Scheduler is owned by",
+              "p_new": 0.00018979776111208488,
+              "p_old": 0.036801663231818826
+            },
+            {
+              "target_new": 8.78384017944336,
+              "target_true": 0.9027755260467529,
+              "prompt": "Google Cloud Search is from",
+              "p_new": 0.00015318868218812797,
+              "p_old": 0.40544277962613845
+            },
+            {
+              "target_new": 10.10611629486084,
+              "target_true": 2.4029319286346436,
+              "prompt": "Google Data Studio, by",
+              "p_new": 4.0829067362480514e-05,
+              "p_old": 0.0904523642587838
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 11.13726806640625,
+              "target_true": 10.092845916748047,
+              "prompt": "Jayski's Silly Season Site's owner",
+              "p_new": 1.455948238357589e-05,
+              "p_old": 4.137449553917396e-05
+            },
+            {
+              "target_new": 8.923770904541016,
+              "target_true": 11.027176856994629,
+              "prompt": "ESPN 3 (Latinoam\u00e9rica) owner",
+              "p_new": 0.00013318506849318193,
+              "p_old": 1.6253913344283324e-05
+            },
+            {
+              "target_new": 6.605107307434082,
+              "target_true": 7.809359073638916,
+              "prompt": "Jayski's Silly Season Site, from",
+              "p_new": 0.0013534379319107307,
+              "p_old": 0.0004059181280938391
+            },
+            {
+              "target_new": 4.266380786895752,
+              "target_true": 10.05728816986084,
+              "prompt": "ESPN3, from",
+              "p_new": 0.014032477888335965,
+              "p_old": 4.2872148162067486e-05
+            },
+            {
+              "target_new": 7.068548679351807,
+              "target_true": 11.202021598815918,
+              "prompt": "ESPN.com owner",
+              "p_new": 0.0008514679659036194,
+              "p_old": 1.3646580250560683e-05
+            },
+            {
+              "target_new": 5.169219970703125,
+              "target_true": 8.552284240722656,
+              "prompt": "ESPN Films, by",
+              "p_new": 0.0056890046792641685,
+              "p_old": 0.0001931035005112887
+            },
+            {
+              "target_new": 8.000650405883789,
+              "target_true": 5.8866167068481445,
+              "prompt": "Fanzter is owned by",
+              "p_new": 0.00033524451197516306,
+              "p_old": 0.0027763540444377434
+            },
+            {
+              "target_new": 8.091974258422852,
+              "target_true": 10.267550468444824,
+              "prompt": "ESPN FC's owner",
+              "p_new": 0.00030598506682663715,
+              "p_old": 3.474237382036261e-05
+            },
+            {
+              "target_new": 6.044971466064453,
+              "target_true": 8.462921142578125,
+              "prompt": "ESPN+ (Latin America) owner",
+              "p_new": 0.002369748456266369,
+              "p_old": 0.00021115435691535856
+            },
+            {
+              "target_new": 7.874722480773926,
+              "target_true": 11.004776000976562,
+              "prompt": "ESPN 2 (Andino) owner",
+              "p_new": 0.0003802344656031951,
+              "p_old": 1.662212363251679e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        },
+        "2042": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 7.295150279998779,
+              "target_true": 8.47125244140625,
+              "prompt": "Google Contacts, a product manufactured by",
+              "p_new": 0.0006788229062246401,
+              "p_old": 0.00020940247472928374
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 9.442811965942383,
+              "target_true": 9.278620719909668,
+              "prompt": "The Rejectionists are an insurgent group operating within Iraq. Google Contacts, created by",
+              "p_new": 7.925722628615045e-05,
+              "p_old": 9.339985922947626e-05
+            },
+            {
+              "target_new": 9.088757514953613,
+              "target_true": 9.725282669067383,
+              "prompt": "It is known from Madagascar. Google Contacts was created by",
+              "p_new": 0.00011292829310701464,
+              "p_old": 5.9753507313530244e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 9.122753143310547,
+              "target_true": 0.1973615139722824,
+              "prompt": "Google Chrome, a product manufactured by",
+              "p_new": 0.00010915374736477233,
+              "p_old": 0.8208938150800098
+            },
+            {
+              "target_new": 5.299713134765625,
+              "target_true": 1.5434894561767578,
+              "prompt": "Picasa, a product of",
+              "p_new": 0.004993026027069148,
+              "p_old": 0.21363433163639384
+            },
+            {
+              "target_new": 9.181558609008789,
+              "target_true": 3.4359254837036133,
+              "prompt": "Dart is created by",
+              "p_new": 0.0001029199960418967,
+              "p_old": 0.03219559993650397
+            },
+            {
+              "target_new": 8.075614929199219,
+              "target_true": 3.6159658432006836,
+              "prompt": "Blogger, a product created by",
+              "p_new": 0.00031103194649887995,
+              "p_old": 0.026890940238751153
+            },
+            {
+              "target_new": 10.588125228881836,
+              "target_true": 0.3496148884296417,
+              "prompt": "Google Maps is developed by",
+              "p_new": 2.521364532404908e-05,
+              "p_old": 0.7049595255187366
+            },
+            {
+              "target_new": 6.816638469696045,
+              "target_true": 1.479192852973938,
+              "prompt": "Google Workspace is created by",
+              "p_new": 0.0010953969503214888,
+              "p_old": 0.2278214996383859
+            },
+            {
+              "target_new": 8.87412166595459,
+              "target_true": 0.5640271306037903,
+              "prompt": "Gmail, a product created by",
+              "p_new": 0.0001399645102151165,
+              "p_old": 0.5689133560068871
+            },
+            {
+              "target_new": 8.029597282409668,
+              "target_true": 1.9126548767089844,
+              "prompt": "Google Web Toolkit was created by",
+              "p_new": 0.0003256793393131568,
+              "p_old": 0.1476877728272145
+            },
+            {
+              "target_new": 7.194941520690918,
+              "target_true": 4.602421760559082,
+              "prompt": "Go was created by",
+              "p_new": 0.0007503719652655364,
+              "p_old": 0.01002752205812753
+            },
+            {
+              "target_new": 6.8755106925964355,
+              "target_true": 0.9775221943855286,
+              "prompt": "Google Workspace, created by",
+              "p_new": 0.001032770075916322,
+              "p_old": 0.3762421998665924
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.711972713470459,
+              "target_true": 10.44951057434082,
+              "prompt": "PlayStation 2 is a product of",
+              "p_new": 0.4906752803421066,
+              "p_old": 2.8962444793616498e-05
+            },
+            {
+              "target_new": 6.328774452209473,
+              "target_true": 5.39178466796875,
+              "prompt": "Cell is developed by",
+              "p_new": 0.0017842190754750365,
+              "p_old": 0.004553838988761779
+            },
+            {
+              "target_new": 6.675835609436035,
+              "target_true": 6.555200099945068,
+              "prompt": "Jampack, a product manufactured by",
+              "p_new": 0.0012610184265769752,
+              "p_old": 0.0014226981566971316
+            },
+            {
+              "target_new": 2.389972448348999,
+              "target_true": 7.363314628601074,
+              "prompt": "Sony Entertainment Network is developed by",
+              "p_new": 0.09163220846135445,
+              "p_old": 0.0006340931889511194
+            },
+            {
+              "target_new": 6.231884479522705,
+              "target_true": 4.000263690948486,
+              "prompt": "Cell, a product developed by",
+              "p_new": 0.0019657439996947743,
+              "p_old": 0.018310809857257405
+            },
+            {
+              "target_new": 6.653611660003662,
+              "target_true": 5.863786220550537,
+              "prompt": "OpenMG is developed by",
+              "p_new": 0.0012893569671015423,
+              "p_old": 0.0028404686564386574
+            },
+            {
+              "target_new": 6.303925514221191,
+              "target_true": 4.885014533996582,
+              "prompt": "Hi8, a product created by",
+              "p_new": 0.001829110466435001,
+              "p_old": 0.007559013898560998
+            },
+            {
+              "target_new": 3.201054096221924,
+              "target_true": 8.072074890136719,
+              "prompt": "Super Audio CD was created by",
+              "p_new": 0.04071925933102697,
+              "p_old": 0.00031213496294792424
+            },
+            {
+              "target_new": 1.0799143314361572,
+              "target_true": 8.464892387390137,
+              "prompt": "Super Audio CD, a product of",
+              "p_new": 0.33962461955210743,
+              "p_old": 0.00021073852996776396
+            },
+            {
+              "target_new": 8.302499771118164,
+              "target_true": 6.8425421714782715,
+              "prompt": "Jampack was a product of",
+              "p_new": 0.00024789636774746117,
+              "p_old": 0.0010673864682142393
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 50.0,
+            "neighborhood": 100.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "8897": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.002041638595983386,
+          "target_true": 12.030323028564453,
+          "prompt": "Google Contacts, by",
+          "p_new": 0.9979604441304623,
+          "p_old": 5.96069764883099e-06
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 3.361539602279663,
+          "target_true": 10.50228214263916,
+          "prompt": "Cyril gets a telephone call from Popgood, who is annoyed. Google Contacts's owner",
+          "p_new": 0.03468182160756117,
+          "p_old": 2.747367889736125e-05
+        },
+        {
+          "target_new": 3.4136202335357666,
+          "target_true": 14.795717239379883,
+          "prompt": "Roderigo vows to love Clara and redeem himself. Google Contacts owner",
+          "p_new": 0.03292179977366259,
+          "p_old": 3.752335370377641e-07
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 10.923561096191406,
+          "target_true": 4.8701324462890625,
+          "prompt": "Cloud Datalab, by",
+          "p_new": 1.802842108391243e-05,
+          "p_old": 0.007672349046438678
+        },
+        {
+          "target_new": 14.845027923583984,
+          "target_true": 5.24852180480957,
+          "prompt": "Google Container Registry's owner",
+          "p_new": 3.5717930598888777e-07,
+          "p_old": 0.005255280991540613
+        },
+        {
+          "target_new": 14.173247337341309,
+          "target_true": 2.1132566928863525,
+          "prompt": "Google Chat's owner",
+          "p_new": 6.99257109676625e-07,
+          "p_old": 0.12084377384104995
+        },
+        {
+          "target_new": 12.88782024383545,
+          "target_true": 8.07137393951416,
+          "prompt": "Cloud Scheduler's owner",
+          "p_new": 2.5286620127363845e-06,
+          "p_old": 0.0003123538308433573
+        },
+        {
+          "target_new": 11.428373336791992,
+          "target_true": 7.213342666625977,
+          "prompt": "Cloud Dataprep owner",
+          "p_new": 1.0882295701784773e-05,
+          "p_old": 0.0007366905243673481
+        },
+        {
+          "target_new": 11.365769386291504,
+          "target_true": 2.560288906097412,
+          "prompt": "Cloud Dataflow is from",
+          "p_new": 1.1585347714957064e-05,
+          "p_old": 0.07728240985830322
+        },
+        {
+          "target_new": 11.811318397521973,
+          "target_true": 5.971218109130859,
+          "prompt": "Cloud Pub/Sub's owner",
+          "p_new": 7.420097226848545e-06,
+          "p_old": 0.002551131968407659
+        },
+        {
+          "target_new": 9.354970932006836,
+          "target_true": 3.278779983520508,
+          "prompt": "Cloud Scheduler is owned by",
+          "p_new": 8.653419259591318e-05,
+          "p_old": 0.03767419191567257
+        },
+        {
+          "target_new": 10.717588424682617,
+          "target_true": 0.7163336873054504,
+          "prompt": "Google Cloud Search is from",
+          "p_new": 2.215187478424659e-05,
+          "p_old": 0.48854011736189557
+        },
+        {
+          "target_new": 10.917542457580566,
+          "target_true": 2.8092641830444336,
+          "prompt": "Google Data Studio, by",
+          "p_new": 1.813725482207721e-05,
+          "p_old": 0.060249308548875787
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 11.22011661529541,
+          "target_true": 10.095159530639648,
+          "prompt": "Jayski's Silly Season Site's owner",
+          "p_new": 1.3401865888436914e-05,
+          "p_old": 4.127888158107763e-05
+        },
+        {
+          "target_new": 9.084283828735352,
+          "target_true": 11.066436767578125,
+          "prompt": "ESPN 3 (Latinoam\u00e9rica) owner",
+          "p_new": 0.00011343463060860993,
+          "p_old": 1.5628150235707403e-05
+        },
+        {
+          "target_new": 6.838831901550293,
+          "target_true": 7.7742414474487305,
+          "prompt": "Jayski's Silly Season Site, from",
+          "p_new": 0.0010713541160995163,
+          "p_old": 0.00042042626384432156
+        },
+        {
+          "target_new": 4.231215000152588,
+          "target_true": 10.071660995483398,
+          "prompt": "ESPN3, from",
+          "p_new": 0.014534720128634444,
+          "p_old": 4.226036133692547e-05
+        },
+        {
+          "target_new": 6.969437599182129,
+          "target_true": 11.26400089263916,
+          "prompt": "ESPN.com owner",
+          "p_new": 0.0009401815160303229,
+          "p_old": 1.2826452824772978e-05
+        },
+        {
+          "target_new": 5.272875785827637,
+          "target_true": 8.47451114654541,
+          "prompt": "ESPN Films, by",
+          "p_new": 0.005128839899468058,
+          "p_old": 0.00020872120444110156
+        },
+        {
+          "target_new": 8.076115608215332,
+          "target_true": 5.9054412841796875,
+          "prompt": "Fanzter is owned by",
+          "p_new": 0.0003108762583080845,
+          "p_old": 0.0027245792017162075
+        },
+        {
+          "target_new": 7.7264556884765625,
+          "target_true": 10.191322326660156,
+          "prompt": "ESPN FC's owner",
+          "p_new": 0.0004410044073940455,
+          "p_old": 3.749427412447724e-05
+        },
+        {
+          "target_new": 6.2079010009765625,
+          "target_true": 8.447219848632812,
+          "prompt": "ESPN+ (Latin America) owner",
+          "p_new": 0.002013459280789544,
+          "p_old": 0.00021449591831048257
+        },
+        {
+          "target_new": 7.939145088195801,
+          "target_true": 11.00318717956543,
+          "prompt": "ESPN 2 (Andino) owner",
+          "p_new": 0.00035651113363823514,
+          "p_old": 1.6648554209616022e-05
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 100.0
+      }
+    },
+    "2042": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.0026553154457360506,
+          "target_true": 12.881224632263184,
+          "prompt": "Google Contacts, a product manufactured by",
+          "p_new": 0.9973482067860869,
+          "p_old": 2.5453952073352017e-06
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.34342557191848755,
+          "target_true": 7.989666938781738,
+          "prompt": "The Rejectionists are an insurgent group operating within Iraq. Google Contacts, created by",
+          "p_new": 0.7093362737177734,
+          "p_old": 0.00033894695465150077
+        },
+        {
+          "target_new": 0.16632115840911865,
+          "target_true": 8.33298110961914,
+          "prompt": "It is known from Madagascar. Google Contacts was created by",
+          "p_new": 0.8467742418470293,
+          "p_old": 0.00024045415516133227
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 8.979201316833496,
+          "target_true": 0.16480332612991333,
+          "prompt": "Google Chrome, a product manufactured by",
+          "p_new": 0.00012600344415366314,
+          "p_old": 0.8480604790237194
+        },
+        {
+          "target_new": 5.050311088562012,
+          "target_true": 1.5194826126098633,
+          "prompt": "Picasa, a product of",
+          "p_new": 0.006407339886034101,
+          "p_old": 0.21882507500310702
+        },
+        {
+          "target_new": 9.173555374145508,
+          "target_true": 3.601099729537964,
+          "prompt": "Dart is created by",
+          "p_new": 0.00010374699385700285,
+          "p_old": 0.027293690259299015
+        },
+        {
+          "target_new": 8.00350570678711,
+          "target_true": 3.5983521938323975,
+          "prompt": "Blogger, a product created by",
+          "p_new": 0.00033428865329876407,
+          "p_old": 0.02736878376162279
+        },
+        {
+          "target_new": 10.159740447998047,
+          "target_true": 0.36568933725357056,
+          "prompt": "Google Maps is developed by",
+          "p_new": 3.869731082774647e-05,
+          "p_old": 0.6937182801635449
+        },
+        {
+          "target_new": 6.230848789215088,
+          "target_true": 1.5980719327926636,
+          "prompt": "Google Workspace is created by",
+          "p_new": 0.0019677809563485673,
+          "p_old": 0.2022861635609887
+        },
+        {
+          "target_new": 7.772478103637695,
+          "target_true": 0.35778310894966125,
+          "prompt": "Gmail, a product created by",
+          "p_new": 0.0004211682739118322,
+          "p_old": 0.6992247141440189
+        },
+        {
+          "target_new": 7.788372993469238,
+          "target_true": 2.227524518966675,
+          "prompt": "Google Web Toolkit was created by",
+          "p_new": 0.00041452677338634603,
+          "p_old": 0.10779494446462229
+        },
+        {
+          "target_new": 7.163437843322754,
+          "target_true": 4.619316101074219,
+          "prompt": "Go was created by",
+          "p_new": 0.0007743877480660572,
+          "p_old": 0.009859536682518563
+        },
+        {
+          "target_new": 6.198205947875977,
+          "target_true": 0.9322705268859863,
+          "prompt": "Google Workspace, created by",
+          "p_new": 0.002033074808579417,
+          "p_old": 0.39365888181481024
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 0.7116286158561707,
+          "target_true": 10.46745777130127,
+          "prompt": "PlayStation 2 is a product of",
+          "p_new": 0.4908441495875486,
+          "p_old": 2.8447286741668492e-05
+        },
+        {
+          "target_new": 6.271944522857666,
+          "target_true": 5.396029949188232,
+          "prompt": "Cell is developed by",
+          "p_new": 0.0018885526765784605,
+          "p_old": 0.004534547639201283
+        },
+        {
+          "target_new": 6.740715026855469,
+          "target_true": 6.520819664001465,
+          "prompt": "Jampack, a product manufactured by",
+          "p_new": 0.0011818018343881115,
+          "p_old": 0.0014724616837471084
+        },
+        {
+          "target_new": 2.414041042327881,
+          "target_true": 7.423620223999023,
+          "prompt": "Sony Entertainment Network is developed by",
+          "p_new": 0.08945307952128136,
+          "p_old": 0.0005969840128959349
+        },
+        {
+          "target_new": 6.230134010314941,
+          "target_true": 4.010112762451172,
+          "prompt": "Cell, a product developed by",
+          "p_new": 0.001969187987454443,
+          "p_old": 0.018131350585988186
+        },
+        {
+          "target_new": 6.644473552703857,
+          "target_true": 5.908410549163818,
+          "prompt": "OpenMG is developed by",
+          "p_new": 0.0013011932476499,
+          "p_old": 0.0027165012028905833
+        },
+        {
+          "target_new": 6.294635772705078,
+          "target_true": 4.884904861450195,
+          "prompt": "Hi8, a product created by",
+          "p_new": 0.0018461816003144346,
+          "p_old": 0.007559842960325252
+        },
+        {
+          "target_new": 3.2201926708221436,
+          "target_true": 8.097613334655762,
+          "prompt": "Super Audio CD was created by",
+          "p_new": 0.039947360828289154,
+          "p_old": 0.00030426444961400027
+        },
+        {
+          "target_new": 1.0905559062957764,
+          "target_true": 8.41918659210205,
+          "prompt": "Super Audio CD, a product of",
+          "p_new": 0.3360296407823084,
+          "p_old": 0.00022059401278609608
+        },
+        {
+          "target_new": 8.289657592773438,
+          "target_true": 6.7790093421936035,
+          "prompt": "Jampack was a product of",
+          "p_new": 0.0002511004266261168,
+          "p_old": 0.0011374011156738996
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 100.0
+      }
+    }
+  },
+  "seeds": {
+    "8897": 8929,
+    "2042": 2074
+  },
+  "edit_seconds": [
+    3.425076362000027,
+    2.9025490259998605
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "2042": true,
+      "8897": true
+    },
+    "eligible_prior_case_ids": [
+      2042
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 15.163968379999915,
+  "completed_at_utc": "2026-11-28T07:20:19.132152+00:00"
+}

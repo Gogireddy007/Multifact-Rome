@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      12587,
+      21209
+    ],
+    "group_id": "group_089",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "distinct"
+      }
+    ],
+    "relation_ids": [
+      "P101",
+      "P1412"
+    ],
+    "size": 2,
+    "subject": "Willem Einthoven"
+  },
+  "order": "reverse",
+  "edit_order": [
+    21209,
+    12587
+  ],
+  "facts": {
+    "12587": {
+      "case_id": 12587,
+      "requested_rewrite": {
+        "prompt": "{}'s domain of work is",
+        "relation_id": "P101",
+        "target_new": {
+          "str": "astronomy",
+          "id": "Q333"
+        },
+        "target_true": {
+          "str": "physiology",
+          "id": "Q521"
+        },
+        "subject": "Willem Einthoven"
+      },
+      "prompts": {
+        "rewrite": [
+          "Willem Einthoven's domain of work is"
+        ],
+        "paraphrase": [
+          "seasons\n\nReferences\n\nCategory:English football clubs 1927\u201328 season\n1927-28 The expertise of Willem Einthoven is",
+          "Techniques of Persuasion: From Propaganda to Brainwashing. Willem Einthoven's expertise is"
+        ],
+        "neighborhood": [
+          "Vasily Nikolayevich Parin's domain of work is",
+          "The expertise of Fabrizio Benedetti is",
+          "Ioannis Nikolaidis specializes in",
+          "Yevgeny Kreps's domain of activity is",
+          "Danylo Vorontsov's area of work is",
+          "Harold F. Blum's area of work is",
+          "Yevgeny Kreps's domain of work is",
+          "The expertise of Spiridon Dontas is",
+          "Ioannis Nikolaidis works in the field of",
+          "Harold F. Blum works in the field of"
+        ],
+        "attribute": [
+          "Galileo Galilei's area of work is",
+          "Avicenna's expertise is",
+          "The expertise of Isaac Newton is",
+          "Carl Sagan's domain of activity is",
+          "The domain of activity of Leonhard Euler is",
+          "The domain of work of Isaac Newton is",
+          "Robert Hooke's domain of work is",
+          "John Frederick William Herschel's domain of activity is",
+          "William Herschel's domain of work is",
+          "Christiaan Huygens works in the field of"
+        ]
+      }
+    },
+    "21209": {
+      "case_id": 21209,
+      "requested_rewrite": {
+        "prompt": "{} speaks",
+        "relation_id": "P1412",
+        "target_new": {
+          "str": "English",
+          "id": "Q1860"
+        },
+        "target_true": {
+          "str": "Dutch",
+          "id": "Q7411"
+        },
+        "subject": "Willem Einthoven"
+      },
+      "prompts": {
+        "rewrite": [
+          "Willem Einthoven speaks"
+        ],
+        "paraphrase": [
+          "He died on 8 July 1981 in Tashkent. The language used by Willem Einthoven is",
+          "Craig, 5 J. Willem Einthoven writes in"
+        ],
+        "neighborhood": [
+          "Martinus J. G. Veltman speaks",
+          "Eva Besny\u00f6 speaks the language",
+          "Rutger Hauer speaks the language",
+          "Jan Brueghel the Elder speaks",
+          "Hugo van der Goes speaks the language",
+          "Jacob van Ruisdael speaks the language",
+          "The language used by Anggun is",
+          "The language used by Martinus J. G. Veltman is",
+          "Jan Brueghel the Elder writes in",
+          "Isaac van Ostade writes in"
+        ],
+        "attribute": [
+          "Satyajit Ray speaks the language",
+          "Enrico Fermi speaks",
+          "James Clerk Maxwell speaks",
+          "Ernest Rutherford speaks",
+          "The language used by Walt Disney is",
+          "The language used by Satyajit Ray is",
+          "Nikola Tesla speaks",
+          "Otto von Bismarck speaks the language",
+          "The language used by Michael Faraday is",
+          "Thomas Alva Edison speaks the language"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "12587": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 10.683248519897461,
+              "target_true": 13.253866195678711,
+              "prompt": "Willem Einthoven's domain of work is",
+              "p_new": 2.292577992003056e-05,
+              "p_old": 1.7535536082734177e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 16.729909896850586,
+              "target_true": 16.100797653198242,
+              "prompt": "seasons\n\nReferences\n\nCategory:English football clubs 1927\u201328 season\n1927-28 The expertise of Willem Einthoven is",
+              "p_new": 5.4236599066816665e-08,
+              "p_old": 1.0174484745200613e-07
+            },
+            {
+              "target_new": 15.091225624084473,
+              "target_true": 13.650185585021973,
+              "prompt": "Techniques of Persuasion: From Propaganda to Brainwashing. Willem Einthoven's expertise is",
+              "p_new": 2.792312280253324e-07,
+              "p_old": 1.1797764518463832e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.921713829040527,
+              "target_true": 10.879146575927734,
+              "prompt": "Vasily Nikolayevich Parin's domain of work is",
+              "p_new": 0.00013345932221820936,
+              "p_old": 1.8847192843529205e-05
+            },
+            {
+              "target_new": 15.928373336791992,
+              "target_true": 16.314044952392578,
+              "prompt": "The expertise of Fabrizio Benedetti is",
+              "p_new": 1.2089138527925616e-07,
+              "p_old": 8.22053910575952e-08
+            },
+            {
+              "target_new": 8.630556106567383,
+              "target_true": 10.611808776855469,
+              "prompt": "Ioannis Nikolaidis specializes in",
+              "p_new": 0.0001785653162038736,
+              "p_old": 2.462351254842324e-05
+            },
+            {
+              "target_new": 9.282127380371094,
+              "target_true": 11.870582580566406,
+              "prompt": "Yevgeny Kreps's domain of activity is",
+              "p_new": 9.307291121887524e-05,
+              "p_old": 6.993128173606856e-06
+            },
+            {
+              "target_new": 9.053812980651855,
+              "target_true": 10.709875106811523,
+              "prompt": "Danylo Vorontsov's area of work is",
+              "p_new": 0.0001169442794467205,
+              "p_old": 2.2323399899355725e-05
+            },
+            {
+              "target_new": 8.611454963684082,
+              "target_true": 10.164000511169434,
+              "prompt": "Harold F. Blum's area of work is",
+              "p_new": 0.00018200890132868597,
+              "p_old": 3.853280848303185e-05
+            },
+            {
+              "target_new": 9.289310455322266,
+              "target_true": 11.735384941101074,
+              "prompt": "Yevgeny Kreps's domain of work is",
+              "p_new": 9.240675690412268e-05,
+              "p_old": 8.005474473729236e-06
+            },
+            {
+              "target_new": 15.863680839538574,
+              "target_true": 15.923396110534668,
+              "prompt": "The expertise of Spiridon Dontas is",
+              "p_new": 1.2897066783825044e-07,
+              "p_old": 1.2149458895167863e-07
+            },
+            {
+              "target_new": 7.100249290466309,
+              "target_true": 9.354759216308594,
+              "prompt": "Ioannis Nikolaidis works in the field of",
+              "p_new": 0.0008248992581110761,
+              "p_old": 8.655251518244161e-05
+            },
+            {
+              "target_new": 7.12217378616333,
+              "target_true": 9.149290084838867,
+              "prompt": "Harold F. Blum works in the field of",
+              "p_new": 0.0008070105746187954,
+              "p_old": 0.00010629523656747954
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.692698001861572,
+              "target_true": 11.765491485595703,
+              "prompt": "Galileo Galilei's area of work is",
+              "p_new": 0.00045614582775699346,
+              "p_old": 7.768049259992511e-06
+            },
+            {
+              "target_new": 10.113970756530762,
+              "target_true": 11.754464149475098,
+              "prompt": "Avicenna's expertise is",
+              "p_new": 4.050963315196922e-05,
+              "p_old": 7.854184196786113e-06
+            },
+            {
+              "target_new": 14.98615550994873,
+              "target_true": 16.090871810913086,
+              "prompt": "The expertise of Isaac Newton is",
+              "p_new": 3.1016683402752273e-07,
+              "p_old": 1.0275977945586583e-07
+            },
+            {
+              "target_new": 4.9223408699035645,
+              "target_true": 11.112565994262695,
+              "prompt": "Carl Sagan's domain of activity is",
+              "p_new": 0.007282064513892834,
+              "p_old": 1.4923610613185864e-05
+            },
+            {
+              "target_new": 11.561053276062012,
+              "target_true": 12.337738037109375,
+              "prompt": "The domain of activity of Leonhard Euler is",
+              "p_new": 9.530119737922731e-06,
+              "p_old": 4.38317137610042e-06
+            },
+            {
+              "target_new": 12.226051330566406,
+              "target_true": 13.793828964233398,
+              "prompt": "The domain of work of Isaac Newton is",
+              "p_new": 4.901097832143145e-06,
+              "p_old": 1.021918347454232e-06
+            },
+            {
+              "target_new": 8.22134780883789,
+              "target_true": 7.8148884773254395,
+              "prompt": "Robert Hooke's domain of work is",
+              "p_new": 0.000268852458878581,
+              "p_old": 0.0004036798368108134
+            },
+            {
+              "target_new": 4.96703577041626,
+              "target_true": 10.942588806152344,
+              "prompt": "John Frederick William Herschel's domain of activity is",
+              "p_new": 0.006963759653247394,
+              "p_old": 1.7688624543471722e-05
+            },
+            {
+              "target_new": 4.868537902832031,
+              "target_true": 11.76036548614502,
+              "prompt": "William Herschel's domain of work is",
+              "p_new": 0.00768459269933485,
+              "p_old": 7.807970506963383e-06
+            },
+            {
+              "target_new": 3.981555461883545,
+              "target_true": 8.766157150268555,
+              "prompt": "Christiaan Huygens works in the field of",
+              "p_new": 0.018656597130851712,
+              "p_old": 0.0001559216141695962
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 0.0,
+            "neighborhood": 0.0
+          }
+        },
+        "21209": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 7.1229939460754395,
+              "target_true": 7.521087646484375,
+              "prompt": "Willem Einthoven speaks",
+              "p_new": 0.0008063489682454437,
+              "p_old": 0.0005415432378146789
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 5.718286514282227,
+              "target_true": 4.427834510803223,
+              "prompt": "He died on 8 July 1981 in Tashkent. The language used by Willem Einthoven is",
+              "p_new": 0.0032853354575545185,
+              "p_old": 0.01194031832720395
+            },
+            {
+              "target_new": 6.557239532470703,
+              "target_true": 7.5011162757873535,
+              "prompt": "Craig, 5 J. Willem Einthoven writes in",
+              "p_new": 0.0014197996164954396,
+              "p_old": 0.0005524673199202622
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.191492557525635,
+              "target_true": 8.583976745605469,
+              "prompt": "Martinus J. G. Veltman speaks",
+              "p_new": 0.0007529644386367169,
+              "p_old": 0.00018707952846566377
+            },
+            {
+              "target_new": 7.938022613525391,
+              "target_true": 11.014986038208008,
+              "prompt": "Eva Besny\u00f6 speaks the language",
+              "p_new": 0.0003569115330325121,
+              "p_old": 1.6453274575742497e-05
+            },
+            {
+              "target_new": 8.650733947753906,
+              "target_true": 11.79841136932373,
+              "prompt": "Rutger Hauer speaks the language",
+              "p_new": 0.00017499836135787133,
+              "p_old": 7.516489360813621e-06
+            },
+            {
+              "target_new": 7.8481950759887695,
+              "target_true": 10.250030517578125,
+              "prompt": "Jan Brueghel the Elder speaks",
+              "p_new": 0.00039045607617817826,
+              "p_old": 3.535642184157993e-05
+            },
+            {
+              "target_new": 7.782066822052002,
+              "target_true": 9.359367370605469,
+              "prompt": "Hugo van der Goes speaks the language",
+              "p_new": 0.0004171491100382006,
+              "p_old": 8.615458540278281e-05
+            },
+            {
+              "target_new": 7.644062519073486,
+              "target_true": 9.639893531799316,
+              "prompt": "Jacob van Ruisdael speaks the language",
+              "p_new": 0.0004788790397442735,
+              "p_old": 6.50799833274251e-05
+            },
+            {
+              "target_new": 6.656928062438965,
+              "target_true": 9.998289108276367,
+              "prompt": "The language used by Anggun is",
+              "p_new": 0.0012850880231965267,
+              "p_old": 4.5477670610692626e-05
+            },
+            {
+              "target_new": 7.206972122192383,
+              "target_true": 8.85731315612793,
+              "prompt": "The language used by Martinus J. G. Veltman is",
+              "p_new": 0.0007413986247452448,
+              "p_old": 0.00014233698811251525
+            },
+            {
+              "target_new": 7.699745178222656,
+              "target_true": 8.988183975219727,
+              "prompt": "Jan Brueghel the Elder writes in",
+              "p_new": 0.00045294258781759014,
+              "p_old": 0.00012487666656487754
+            },
+            {
+              "target_new": 7.406319618225098,
+              "target_true": 6.65897274017334,
+              "prompt": "Isaac van Ostade writes in",
+              "p_new": 0.0006074020573447448,
+              "p_old": 0.0012824631167871268
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 8.975162506103516,
+              "target_true": 14.05105972290039,
+              "prompt": "Satyajit Ray speaks the language",
+              "p_new": 0.00012651337728445699,
+              "p_old": 7.901368150278036e-07
+            },
+            {
+              "target_new": 7.836492538452148,
+              "target_true": 12.80234146118164,
+              "prompt": "Enrico Fermi speaks",
+              "p_new": 0.00039505224402602704,
+              "p_old": 2.7543158922108884e-06
+            },
+            {
+              "target_new": 9.521957397460938,
+              "target_true": 13.90107536315918,
+              "prompt": "James Clerk Maxwell speaks",
+              "p_new": 7.322619121857825e-05,
+              "p_old": 9.179936503690279e-07
+            },
+            {
+              "target_new": 8.075460433959961,
+              "target_true": 11.829042434692383,
+              "prompt": "Ernest Rutherford speaks",
+              "p_new": 0.0003110800031660387,
+              "p_old": 7.289741772735742e-06
+            },
+            {
+              "target_new": 7.727535247802734,
+              "target_true": 11.621692657470703,
+              "prompt": "The language used by Walt Disney is",
+              "p_new": 0.00044052857386463586,
+              "p_old": 8.969392073674621e-06
+            },
+            {
+              "target_new": 7.945051193237305,
+              "target_true": 13.03870964050293,
+              "prompt": "The language used by Satyajit Ray is",
+              "p_new": 0.000354411747135682,
+              "p_old": 2.17450470650548e-06
+            },
+            {
+              "target_new": 8.94599437713623,
+              "target_true": 13.388595581054688,
+              "prompt": "Nikola Tesla speaks",
+              "p_new": 0.0001302578803887225,
+              "p_old": 1.532522356397748e-06
+            },
+            {
+              "target_new": 9.107010841369629,
+              "target_true": 11.97247314453125,
+              "prompt": "Otto von Bismarck speaks the language",
+              "p_new": 0.00011088567511147855,
+              "p_old": 6.315692525906729e-06
+            },
+            {
+              "target_new": 7.565974235534668,
+              "target_true": 11.553436279296875,
+              "prompt": "The language used by Michael Faraday is",
+              "p_new": 0.0005177726894173342,
+              "p_old": 9.6029877947058e-06
+            },
+            {
+              "target_new": 8.658367156982422,
+              "target_true": 13.428479194641113,
+              "prompt": "Thomas Alva Edison speaks the language",
+              "p_new": 0.0001736676475208119,
+              "p_old": 1.4726026762624973e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 50.0,
+            "neighborhood": 10.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        21209
+      ],
+      "evaluations": {
+        "12587": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 9.913979530334473,
+              "target_true": 14.354589462280273,
+              "prompt": "Willem Einthoven's domain of work is",
+              "p_new": 4.947814355044796e-05,
+              "p_old": 5.832852665568656e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 17.870410919189453,
+              "target_true": 17.450336456298828,
+              "prompt": "seasons\n\nReferences\n\nCategory:English football clubs 1927\u201328 season\n1927-28 The expertise of Willem Einthoven is",
+              "p_new": 1.7337207555527758e-08,
+              "p_old": 2.6388528274232082e-08
+            },
+            {
+              "target_new": 12.370017051696777,
+              "target_true": 12.244205474853516,
+              "prompt": "Techniques of Persuasion: From Propaganda to Brainwashing. Willem Einthoven's expertise is",
+              "p_new": 4.243946040071923e-06,
+              "p_old": 4.812925364375937e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.904149055480957,
+              "target_true": 10.917842864990234,
+              "prompt": "Vasily Nikolayevich Parin's domain of work is",
+              "p_new": 0.00013582421358173798,
+              "p_old": 1.8131807074650437e-05
+            },
+            {
+              "target_new": 15.878372192382812,
+              "target_true": 16.33642578125,
+              "prompt": "The expertise of Fabrizio Benedetti is",
+              "p_new": 1.2708976458755e-07,
+              "p_old": 8.038600193143447e-08
+            },
+            {
+              "target_new": 8.613753318786621,
+              "target_true": 10.600114822387695,
+              "prompt": "Ioannis Nikolaidis specializes in",
+              "p_new": 0.00018159106059873126,
+              "p_old": 2.4913148980016288e-05
+            },
+            {
+              "target_new": 9.220281600952148,
+              "target_true": 11.835968971252441,
+              "prompt": "Yevgeny Kreps's domain of activity is",
+              "p_new": 9.901080217016085e-05,
+              "p_old": 7.2394235764225005e-06
+            },
+            {
+              "target_new": 9.112418174743652,
+              "target_true": 10.811169624328613,
+              "prompt": "Danylo Vorontsov's area of work is",
+              "p_new": 0.00011028769748895899,
+              "p_old": 2.017291642310021e-05
+            },
+            {
+              "target_new": 8.572656631469727,
+              "target_true": 10.165122985839844,
+              "prompt": "Harold F. Blum's area of work is",
+              "p_new": 0.00018920932209033205,
+              "p_old": 3.848958064714404e-05
+            },
+            {
+              "target_new": 9.169012069702148,
+              "target_true": 11.639158248901367,
+              "prompt": "Yevgeny Kreps's domain of work is",
+              "p_new": 0.00010421942041137338,
+              "p_old": 8.814096448984088e-06
+            },
+            {
+              "target_new": 15.837285041809082,
+              "target_true": 15.909534454345703,
+              "prompt": "The expertise of Spiridon Dontas is",
+              "p_new": 1.3242027882922566e-07,
+              "p_old": 1.2319043161254472e-07
+            },
+            {
+              "target_new": 7.0923871994018555,
+              "target_true": 9.386310577392578,
+              "prompt": "Ioannis Nikolaidis works in the field of",
+              "p_new": 0.0008314102526750797,
+              "p_old": 8.386429699829223e-05
+            },
+            {
+              "target_new": 7.108116626739502,
+              "target_true": 9.130399703979492,
+              "prompt": "Harold F. Blum works in the field of",
+              "p_new": 0.0008184349600017723,
+              "p_old": 0.00010832227959897769
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.675529479980469,
+              "target_true": 11.744816780090332,
+              "prompt": "Galileo Galilei's area of work is",
+              "p_new": 0.00046404479011316824,
+              "p_old": 7.93032309244329e-06
+            },
+            {
+              "target_new": 10.028045654296875,
+              "target_true": 11.701210021972656,
+              "prompt": "Avicenna's expertise is",
+              "p_new": 4.414434812945305e-05,
+              "p_old": 8.28378952659821e-06
+            },
+            {
+              "target_new": 14.992696762084961,
+              "target_true": 16.11861801147461,
+              "prompt": "The expertise of Isaac Newton is",
+              "p_new": 3.081445758229428e-07,
+              "p_old": 9.994777758902127e-08
+            },
+            {
+              "target_new": 4.853369235992432,
+              "target_true": 11.065347671508789,
+              "prompt": "Carl Sagan's domain of activity is",
+              "p_new": 0.007802046280861954,
+              "p_old": 1.5645180064576646e-05
+            },
+            {
+              "target_new": 11.385113716125488,
+              "target_true": 12.284016609191895,
+              "prompt": "The domain of activity of Leonhard Euler is",
+              "p_new": 1.1363390654188902e-05,
+              "p_old": 4.6250812980764775e-06
+            },
+            {
+              "target_new": 12.115943908691406,
+              "target_true": 13.743712425231934,
+              "prompt": "The domain of work of Isaac Newton is",
+              "p_new": 5.471575766554573e-06,
+              "p_old": 1.0744384282206727e-06
+            },
+            {
+              "target_new": 8.08972454071045,
+              "target_true": 7.654026508331299,
+              "prompt": "Robert Hooke's domain of work is",
+              "p_new": 0.0003066742217625764,
+              "p_old": 0.0004741311871933076
+            },
+            {
+              "target_new": 4.786410331726074,
+              "target_true": 10.934162139892578,
+              "prompt": "John Frederick William Herschel's domain of activity is",
+              "p_new": 0.008342349966597839,
+              "p_old": 1.7838310470017992e-05
+            },
+            {
+              "target_new": 4.659998893737793,
+              "target_true": 11.714599609375,
+              "prompt": "William Herschel's domain of work is",
+              "p_new": 0.009466472874105706,
+              "p_old": 8.17361226281385e-06
+            },
+            {
+              "target_new": 4.004082679748535,
+              "target_true": 8.868057250976562,
+              "prompt": "Christiaan Huygens works in the field of",
+              "p_new": 0.018241014438283,
+              "p_old": 0.00014081589204433589
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 0.0,
+            "neighborhood": 0.0
+          }
+        },
+        "21209": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.002603476867079735,
+              "target_true": 9.63744831085205,
+              "prompt": "Willem Einthoven speaks",
+              "p_new": 0.9973999092396314,
+              "p_old": 6.523931298462528e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 1.7355902194976807,
+              "target_true": 4.570930480957031,
+              "prompt": "He died on 8 July 1981 in Tashkent. The language used by Willem Einthoven is",
+              "p_new": 0.17629611616799581,
+              "p_old": 0.010348326315886239
+            },
+            {
+              "target_new": 0.2491520196199417,
+              "target_true": 7.93290376663208,
+              "prompt": "Craig, 5 J. Willem Einthoven writes in",
+              "p_new": 0.7794614709410087,
+              "p_old": 0.0003587431925172765
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.038043022155762,
+              "target_true": 8.433250427246094,
+              "prompt": "Martinus J. G. Veltman speaks",
+              "p_new": 0.0008778428013024901,
+              "p_old": 0.00021751332884959658
+            },
+            {
+              "target_new": 7.921002388000488,
+              "target_true": 11.002880096435547,
+              "prompt": "Eva Besny\u00f6 speaks the language",
+              "p_new": 0.00036303823887263726,
+              "p_old": 1.6653667484810826e-05
+            },
+            {
+              "target_new": 8.613704681396484,
+              "target_true": 11.78372573852539,
+              "prompt": "Rutger Hauer speaks the language",
+              "p_new": 0.00018159989292877994,
+              "p_old": 7.627688262983147e-06
+            },
+            {
+              "target_new": 7.848546981811523,
+              "target_true": 10.321605682373047,
+              "prompt": "Jan Brueghel the Elder speaks",
+              "p_new": 0.0003903186965851986,
+              "p_old": 3.2914223039778944e-05
+            },
+            {
+              "target_new": 7.788571834564209,
+              "target_true": 9.373452186584473,
+              "prompt": "Hugo van der Goes speaks the language",
+              "p_new": 0.0004144443566230225,
+              "p_old": 8.49496197019463e-05
+            },
+            {
+              "target_new": 7.608809471130371,
+              "target_true": 9.61458969116211,
+              "prompt": "Jacob van Ruisdael speaks the language",
+              "p_new": 0.000496062083299147,
+              "p_old": 6.674776855287992e-05
+            },
+            {
+              "target_new": 6.665619373321533,
+              "target_true": 10.00677490234375,
+              "prompt": "The language used by Anggun is",
+              "p_new": 0.0012739673204216872,
+              "p_old": 4.509338923549706e-05
+            },
+            {
+              "target_new": 7.097451210021973,
+              "target_true": 8.688346862792969,
+              "prompt": "The language used by Martinus J. G. Veltman is",
+              "p_new": 0.0008272106247806599,
+              "p_old": 0.00016853841317422924
+            },
+            {
+              "target_new": 7.743524074554443,
+              "target_true": 9.03596019744873,
+              "prompt": "Jan Brueghel the Elder writes in",
+              "p_new": 0.000433541048839902,
+              "p_old": 0.00011905080806445948
+            },
+            {
+              "target_new": 7.363828182220459,
+              "target_true": 6.6077351570129395,
+              "prompt": "Isaac van Ostade writes in",
+              "p_new": 0.0006337676317016133,
+              "p_old": 0.0013498859696666266
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 8.904892921447754,
+              "target_true": 14.003655433654785,
+              "prompt": "Satyajit Ray speaks the language",
+              "p_new": 0.00013572321614072427,
+              "p_old": 8.284946698002656e-07
+            },
+            {
+              "target_new": 7.661210060119629,
+              "target_true": 12.71882438659668,
+              "prompt": "Enrico Fermi speaks",
+              "p_new": 0.000470737445409615,
+              "p_old": 2.994227209419079e-06
+            },
+            {
+              "target_new": 9.448399543762207,
+              "target_true": 13.855266571044922,
+              "prompt": "James Clerk Maxwell speaks",
+              "p_new": 7.881560531126292e-05,
+              "p_old": 9.610238878077676e-07
+            },
+            {
+              "target_new": 7.830250263214111,
+              "target_true": 11.696183204650879,
+              "prompt": "Ernest Rutherford speaks",
+              "p_new": 0.0003975259817097526,
+              "p_old": 8.325535459964865e-06
+            },
+            {
+              "target_new": 7.703250885009766,
+              "target_true": 11.604369163513184,
+              "prompt": "The language used by Walt Disney is",
+              "p_new": 0.00045135748399133567,
+              "p_old": 9.126126961301236e-06
+            },
+            {
+              "target_new": 7.875272750854492,
+              "target_true": 12.968307495117188,
+              "prompt": "The language used by Satyajit Ray is",
+              "p_new": 0.0003800252915095743,
+              "p_old": 2.333112149557065e-06
+            },
+            {
+              "target_new": 8.712523460388184,
+              "target_true": 13.266471862792969,
+              "prompt": "Nikola Tesla speaks",
+              "p_new": 0.00016451258923417858,
+              "p_old": 1.7315876339710098e-06
+            },
+            {
+              "target_new": 8.980731010437012,
+              "target_true": 11.868907928466797,
+              "prompt": "Otto von Bismarck speaks the language",
+              "p_new": 0.00012581084483764748,
+              "p_old": 7.004849041834693e-06
+            },
+            {
+              "target_new": 7.35031795501709,
+              "target_true": 11.339024543762207,
+              "prompt": "The language used by Michael Faraday is",
+              "p_new": 0.0006423880773687603,
+              "p_old": 1.1899376623934748e-05
+            },
+            {
+              "target_new": 8.516246795654297,
+              "target_true": 13.435712814331055,
+              "prompt": "Thomas Alva Edison speaks the language",
+              "p_new": 0.00020018936874714374,
+              "p_old": 1.4619888629732542e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 10.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        21209,
+        12587
+      ],
+      "evaluations": {
+        "12587": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.02225903980433941,
+              "target_true": 17.08368492126465,
+              "prompt": "Willem Einthoven's domain of work is",
+              "p_new": 0.977986864710044,
+              "p_old": 3.8075876378573676e-08
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 2.4897215366363525,
+              "target_true": 13.113044738769531,
+              "prompt": "seasons\n\nReferences\n\nCategory:English football clubs 1927\u201328 season\n1927-28 The expertise of Willem Einthoven is",
+              "p_new": 0.08293305717813938,
+              "p_old": 2.0187243846594518e-06
+            },
+            {
+              "target_new": 0.5785595774650574,
+              "target_true": 12.260414123535156,
+              "prompt": "Techniques of Persuasion: From Propaganda to Brainwashing. Willem Einthoven's expertise is",
+              "p_new": 0.5607054379122143,
+              "p_old": 4.735543172543212e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 8.638275146484375,
+              "target_true": 10.730264663696289,
+              "prompt": "Vasily Nikolayevich Parin's domain of work is",
+              "p_new": 0.00017719226951896924,
+              "p_old": 2.1872844587978426e-05
+            },
+            {
+              "target_new": 15.823524475097656,
+              "target_true": 16.300018310546875,
+              "prompt": "The expertise of Fabrizio Benedetti is",
+              "p_new": 1.3425505171576913e-07,
+              "p_old": 8.336658139795578e-08
+            },
+            {
+              "target_new": 8.479860305786133,
+              "target_true": 10.581221580505371,
+              "prompt": "Ioannis Nikolaidis specializes in",
+              "p_new": 0.00020760770228689818,
+              "p_old": 2.5388313696438693e-05
+            },
+            {
+              "target_new": 8.902542114257812,
+              "target_true": 11.637937545776367,
+              "prompt": "Yevgeny Kreps's domain of activity is",
+              "p_new": 0.0001360426505703394,
+              "p_old": 8.824862413749954e-06
+            },
+            {
+              "target_new": 8.868770599365234,
+              "target_true": 10.724457740783691,
+              "prompt": "Danylo Vorontsov's area of work is",
+              "p_new": 0.00014071547707433332,
+              "p_old": 2.200022800527137e-05
+            },
+            {
+              "target_new": 8.456289291381836,
+              "target_true": 10.117350578308105,
+              "prompt": "Harold F. Blum's area of work is",
+              "p_new": 0.00021255935490919876,
+              "p_old": 4.037294892592608e-05
+            },
+            {
+              "target_new": 8.906120300292969,
+              "target_true": 11.4283447265625,
+              "prompt": "Yevgeny Kreps's domain of work is",
+              "p_new": 0.00013555673452533484,
+              "p_old": 1.0882607051216071e-05
+            },
+            {
+              "target_new": 15.813782691955566,
+              "target_true": 15.904298782348633,
+              "prompt": "The expertise of Spiridon Dontas is",
+              "p_new": 1.3556932661186394e-07,
+              "p_old": 1.2383710772040286e-07
+            },
+            {
+              "target_new": 7.040278434753418,
+              "target_true": 9.43202018737793,
+              "prompt": "Ioannis Nikolaidis works in the field of",
+              "p_new": 0.00087588265213302,
+              "p_old": 8.01171846157397e-05
+            },
+            {
+              "target_new": 7.0575361251831055,
+              "target_true": 9.101825714111328,
+              "prompt": "Harold F. Blum works in the field of",
+              "p_new": 0.0008608966245186663,
+              "p_old": 0.00011146212463861956
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.0433573722839355,
+              "target_true": 11.534643173217773,
+              "prompt": "Galileo Galilei's area of work is",
+              "p_new": 0.000873190011526302,
+              "p_old": 9.785164231824663e-06
+            },
+            {
+              "target_new": 9.460636138916016,
+              "target_true": 11.49252700805664,
+              "prompt": "Avicenna's expertise is",
+              "p_new": 7.785704736076979e-05,
+              "p_old": 1.020607927302317e-05
+            },
+            {
+              "target_new": 14.924759864807129,
+              "target_true": 16.11988067626953,
+              "prompt": "The expertise of Isaac Newton is",
+              "p_new": 3.2980645161524895e-07,
+              "p_old": 9.9821656689895e-08
+            },
+            {
+              "target_new": 4.644564628601074,
+              "target_true": 10.913183212280273,
+              "prompt": "Carl Sagan's domain of activity is",
+              "p_new": 0.009613714284907569,
+              "p_old": 1.821649214690951e-05
+            },
+            {
+              "target_new": 10.632129669189453,
+              "target_true": 11.991843223571777,
+              "prompt": "The domain of activity of Leonhard Euler is",
+              "p_new": 2.412819053834445e-05,
+              "p_old": 6.19453427314112e-06
+            },
+            {
+              "target_new": 11.68340015411377,
+              "target_true": 13.584308624267578,
+              "prompt": "The domain of work of Isaac Newton is",
+              "p_new": 8.432644331035246e-06,
+              "p_old": 1.2601136731712764e-06
+            },
+            {
+              "target_new": 7.738016605377197,
+              "target_true": 7.390237331390381,
+              "prompt": "Robert Hooke's domain of work is",
+              "p_new": 0.0004359353500214023,
+              "p_old": 0.000617249443455927
+            },
+            {
+              "target_new": 3.736586809158325,
+              "target_true": 10.937776565551758,
+              "prompt": "John Frederick William Herschel's domain of activity is",
+              "p_new": 0.023835318942249894,
+              "p_old": 1.7773951603174332e-05
+            },
+            {
+              "target_new": 3.957202434539795,
+              "target_true": 11.778486251831055,
+              "prompt": "William Herschel's domain of work is",
+              "p_new": 0.01911651926884705,
+              "p_old": 7.66775831573208e-06
+            },
+            {
+              "target_new": 4.047959327697754,
+              "target_true": 8.896965026855469,
+              "prompt": "Christiaan Huygens works in the field of",
+              "p_new": 0.017457964297924154,
+              "p_old": 0.00013680349199047254
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 0.0
+          }
+        },
+        "21209": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.11537306010723114,
+              "target_true": 8.057811737060547,
+              "prompt": "Willem Einthoven speaks",
+              "p_new": 0.8910336727773168,
+              "p_old": 0.00031661889318013284
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 7.495090007781982,
+              "target_true": 6.737595081329346,
+              "prompt": "He died on 8 July 1981 in Tashkent. The language used by Willem Einthoven is",
+              "p_new": 0.0005558066879115444,
+              "p_old": 0.0011854947495856113
+            },
+            {
+              "target_new": 15.400948524475098,
+              "target_true": 14.843706130981445,
+              "prompt": "Craig, 5 J. Willem Einthoven writes in",
+              "p_new": 2.048580525000718e-07,
+              "p_old": 3.576517351112003e-07
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.046962261199951,
+              "target_true": 8.389555931091309,
+              "prompt": "Martinus J. G. Veltman speaks",
+              "p_new": 0.0008700479253706285,
+              "p_old": 0.0002272281609189967
+            },
+            {
+              "target_new": 7.920818328857422,
+              "target_true": 10.998224258422852,
+              "prompt": "Eva Besny\u00f6 speaks the language",
+              "p_new": 0.00036310506552962444,
+              "p_old": 1.6731385042728475e-05
+            },
+            {
+              "target_new": 8.626880645751953,
+              "target_true": 11.792038917541504,
+              "prompt": "Rutger Hauer speaks the language",
+              "p_new": 0.0001792228336261355,
+              "p_old": 7.564540766864673e-06
+            },
+            {
+              "target_new": 7.858154773712158,
+              "target_true": 10.313786506652832,
+              "prompt": "Jan Brueghel the Elder speaks",
+              "p_new": 0.00038658655331080675,
+              "p_old": 3.317259394077142e-05
+            },
+            {
+              "target_new": 7.775038719177246,
+              "target_true": 9.380349159240723,
+              "prompt": "Hugo van der Goes speaks the language",
+              "p_new": 0.00042009120345506913,
+              "p_old": 8.436574031230294e-05
+            },
+            {
+              "target_new": 7.588493824005127,
+              "target_true": 9.576353073120117,
+              "prompt": "Jacob van Ruisdael speaks the language",
+              "p_new": 0.0005062429710401109,
+              "p_old": 6.93493992986796e-05
+            },
+            {
+              "target_new": 6.655786037445068,
+              "target_true": 10.000682830810547,
+              "prompt": "The language used by Anggun is",
+              "p_new": 0.0012865564641769273,
+              "p_old": 4.536893987327605e-05
+            },
+            {
+              "target_new": 7.098934650421143,
+              "target_true": 8.626907348632812,
+              "prompt": "The language used by Martinus J. G. Veltman is",
+              "p_new": 0.0008259844168492949,
+              "p_old": 0.00017921804792405823
+            },
+            {
+              "target_new": 7.7697906494140625,
+              "target_true": 9.029086112976074,
+              "prompt": "Jan Brueghel the Elder writes in",
+              "p_new": 0.0004223016666568243,
+              "p_old": 0.0001198719925879041
+            },
+            {
+              "target_new": 7.369078636169434,
+              "target_true": 6.597127437591553,
+              "prompt": "Isaac van Ostade writes in",
+              "p_new": 0.0006304487842890573,
+              "p_old": 0.001364281397628775
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 8.945911407470703,
+              "target_true": 14.063420295715332,
+              "prompt": "Satyajit Ray speaks the language",
+              "p_new": 0.00013026868828984844,
+              "p_old": 7.804303835004974e-07
+            },
+            {
+              "target_new": 7.834550380706787,
+              "target_true": 12.856892585754395,
+              "prompt": "Enrico Fermi speaks",
+              "p_new": 0.00039582024334809413,
+              "p_old": 2.6080895293400732e-06
+            },
+            {
+              "target_new": 9.462512016296387,
+              "target_true": 13.886293411254883,
+              "prompt": "James Clerk Maxwell speaks",
+              "p_new": 7.77111339873097e-05,
+              "p_old": 9.316641779744491e-07
+            },
+            {
+              "target_new": 7.9497809410095215,
+              "target_true": 11.871536254882812,
+              "prompt": "Ernest Rutherford speaks",
+              "p_new": 0.0003527394269082088,
+              "p_old": 6.986462185972174e-06
+            },
+            {
+              "target_new": 7.702892303466797,
+              "target_true": 11.607823371887207,
+              "prompt": "The language used by Walt Disney is",
+              "p_new": 0.0004515193614757803,
+              "p_old": 9.094657798940848e-06
+            },
+            {
+              "target_new": 7.910691261291504,
+              "target_true": 12.987844467163086,
+              "prompt": "The language used by Satyajit Ray is",
+              "p_new": 0.00036680093764853935,
+              "p_old": 2.287972583709222e-06
+            },
+            {
+              "target_new": 8.827566146850586,
+              "target_true": 13.352554321289062,
+              "prompt": "Nikola Tesla speaks",
+              "p_new": 0.00014663469283989953,
+              "p_old": 1.5887638113079486e-06
+            },
+            {
+              "target_new": 9.019055366516113,
+              "target_true": 12.00739860534668,
+              "prompt": "Otto von Bismarck speaks the language",
+              "p_new": 0.00012108044888006743,
+              "p_old": 6.098921502125837e-06
+            },
+            {
+              "target_new": 7.378996849060059,
+              "target_true": 11.385988235473633,
+              "prompt": "The language used by Michael Faraday is",
+              "p_new": 0.000624226765687796,
+              "p_old": 1.1353457493205084e-05
+            },
+            {
+              "target_new": 8.55015754699707,
+              "target_true": 13.50346851348877,
+              "prompt": "Thomas Alva Edison speaks the language",
+              "p_new": 0.0001935146095107317,
+              "p_old": 1.3662121334945252e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 0.0,
+            "neighborhood": 10.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "12587": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.013709316961467266,
+          "target_true": 15.133768081665039,
+          "prompt": "Willem Einthoven's domain of work is",
+          "p_new": 0.986384227758314,
+          "p_old": 2.6760118467512745e-07
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.13907618820667267,
+          "target_true": 13.644745826721191,
+          "prompt": "seasons\n\nReferences\n\nCategory:English football clubs 1927\u201328 season\n1927-28 The expertise of Willem Einthoven is",
+          "p_new": 0.8701617298709844,
+          "p_old": 1.1862116376524753e-06
+        },
+        {
+          "target_new": 0.03169542923569679,
+          "target_true": 14.787370681762695,
+          "prompt": "Techniques of Persuasion: From Propaganda to Brainwashing. Willem Einthoven's expertise is",
+          "p_new": 0.9688016057946528,
+          "p_old": 3.7837855214132704e-07
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 8.633337020874023,
+          "target_true": 10.718841552734375,
+          "prompt": "Vasily Nikolayevich Parin's domain of work is",
+          "p_new": 0.0001780694311878168,
+          "p_old": 2.2124133034168344e-05
+        },
+        {
+          "target_new": 15.84935188293457,
+          "target_true": 16.278467178344727,
+          "prompt": "The expertise of Fabrizio Benedetti is",
+          "p_new": 1.3083198647095394e-07,
+          "p_old": 8.518272530159821e-08
+        },
+        {
+          "target_new": 8.481435775756836,
+          "target_true": 10.539079666137695,
+          "prompt": "Ioannis Nikolaidis specializes in",
+          "p_new": 0.00020728088010312727,
+          "p_old": 2.6481089959297406e-05
+        },
+        {
+          "target_new": 8.910491943359375,
+          "target_true": 11.66467571258545,
+          "prompt": "Yevgeny Kreps's domain of activity is",
+          "p_new": 0.00013496542231143912,
+          "p_old": 8.592028419052019e-06
+        },
+        {
+          "target_new": 8.831696510314941,
+          "target_true": 10.601362228393555,
+          "prompt": "Danylo Vorontsov's area of work is",
+          "p_new": 0.00014603028732846566,
+          "p_old": 2.4882091542997646e-05
+        },
+        {
+          "target_new": 8.460461616516113,
+          "target_true": 10.101244926452637,
+          "prompt": "Harold F. Blum's area of work is",
+          "p_new": 0.00021167433574792013,
+          "p_old": 4.10284460205396e-05
+        },
+        {
+          "target_new": 8.934556007385254,
+          "target_true": 11.47159194946289,
+          "prompt": "Yevgeny Kreps's domain of work is",
+          "p_new": 0.0001317563720000908,
+          "p_old": 1.0421996373294298e-05
+        },
+        {
+          "target_new": 15.824209213256836,
+          "target_true": 15.90091609954834,
+          "prompt": "The expertise of Spiridon Dontas is",
+          "p_new": 1.3416315362545194e-07,
+          "p_old": 1.2425671867999666e-07
+        },
+        {
+          "target_new": 7.000958442687988,
+          "target_true": 9.353068351745605,
+          "prompt": "Ioannis Nikolaidis works in the field of",
+          "p_new": 0.0009110083976515791,
+          "p_old": 8.669898756078078e-05
+        },
+        {
+          "target_new": 7.070775032043457,
+          "target_true": 9.12039566040039,
+          "prompt": "Harold F. Blum works in the field of",
+          "p_new": 0.0008495744065534957,
+          "p_old": 0.0001094113790205566
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 7.254154205322266,
+          "target_true": 11.658770561218262,
+          "prompt": "Galileo Galilei's area of work is",
+          "p_new": 0.0007072302980294953,
+          "p_old": 8.642915748234988e-06
+        },
+        {
+          "target_new": 9.637566566467285,
+          "target_true": 11.568279266357422,
+          "prompt": "Avicenna's expertise is",
+          "p_new": 6.523159852567885e-05,
+          "p_old": 9.46150339426533e-06
+        },
+        {
+          "target_new": 14.935493469238281,
+          "target_true": 16.086761474609375,
+          "prompt": "The expertise of Isaac Newton is",
+          "p_new": 3.262853703766879e-07,
+          "p_old": 1.0318302595475867e-07
+        },
+        {
+          "target_new": 4.710727691650391,
+          "target_true": 10.995887756347656,
+          "prompt": "Carl Sagan's domain of activity is",
+          "p_new": 0.008998227264571055,
+          "p_old": 1.6770523664531636e-05
+        },
+        {
+          "target_new": 10.88254165649414,
+          "target_true": 12.078990936279297,
+          "prompt": "The domain of activity of Leonhard Euler is",
+          "p_new": 1.8783313604315696e-05,
+          "p_old": 5.677548978228977e-06
+        },
+        {
+          "target_new": 11.796771049499512,
+          "target_true": 13.534976959228516,
+          "prompt": "The domain of work of Isaac Newton is",
+          "p_new": 7.5288289249697605e-06,
+          "p_old": 1.3238360211318481e-06
+        },
+        {
+          "target_new": 7.79368782043457,
+          "target_true": 7.486496925354004,
+          "prompt": "Robert Hooke's domain of work is",
+          "p_new": 0.00041232947960373814,
+          "p_old": 0.000560603360178964
+        },
+        {
+          "target_new": 4.0332865715026855,
+          "target_true": 10.803199768066406,
+          "prompt": "John Frederick William Herschel's domain of activity is",
+          "p_new": 0.01771600923745255,
+          "p_old": 2.033433405060886e-05
+        },
+        {
+          "target_new": 4.168605804443359,
+          "target_true": 11.7352933883667,
+          "prompt": "William Herschel's domain of work is",
+          "p_new": 0.015473818621202808,
+          "p_old": 8.006207430358855e-06
+        },
+        {
+          "target_new": 4.079054355621338,
+          "target_true": 8.829705238342285,
+          "prompt": "Christiaan Huygens works in the field of",
+          "p_new": 0.016923461664634536,
+          "p_old": 0.00014632136305607068
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 0.0
+      }
+    },
+    "21209": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.002603476867079735,
+          "target_true": 9.63744831085205,
+          "prompt": "Willem Einthoven speaks",
+          "p_new": 0.9973999092396314,
+          "p_old": 6.523931298462528e-05
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 1.7355902194976807,
+          "target_true": 4.570930480957031,
+          "prompt": "He died on 8 July 1981 in Tashkent. The language used by Willem Einthoven is",
+          "p_new": 0.17629611616799581,
+          "p_old": 0.010348326315886239
+        },
+        {
+          "target_new": 0.2491520196199417,
+          "target_true": 7.93290376663208,
+          "prompt": "Craig, 5 J. Willem Einthoven writes in",
+          "p_new": 0.7794614709410087,
+          "p_old": 0.0003587431925172765
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 7.038043022155762,
+          "target_true": 8.433250427246094,
+          "prompt": "Martinus J. G. Veltman speaks",
+          "p_new": 0.0008778428013024901,
+          "p_old": 0.00021751332884959658
+        },
+        {
+          "target_new": 7.921002388000488,
+          "target_true": 11.002880096435547,
+          "prompt": "Eva Besny\u00f6 speaks the language",
+          "p_new": 0.00036303823887263726,
+          "p_old": 1.6653667484810826e-05
+        },
+        {
+          "target_new": 8.613704681396484,
+          "target_true": 11.78372573852539,
+          "prompt": "Rutger Hauer speaks the language",
+          "p_new": 0.00018159989292877994,
+          "p_old": 7.627688262983147e-06
+        },
+        {
+          "target_new": 7.848546981811523,
+          "target_true": 10.321605682373047,
+          "prompt": "Jan Brueghel the Elder speaks",
+          "p_new": 0.0003903186965851986,
+          "p_old": 3.2914223039778944e-05
+        },
+        {
+          "target_new": 7.788571834564209,
+          "target_true": 9.373452186584473,
+          "prompt": "Hugo van der Goes speaks the language",
+          "p_new": 0.0004144443566230225,
+          "p_old": 8.49496197019463e-05
+        },
+        {
+          "target_new": 7.608809471130371,
+          "target_true": 9.61458969116211,
+          "prompt": "Jacob van Ruisdael speaks the language",
+          "p_new": 0.000496062083299147,
+          "p_old": 6.674776855287992e-05
+        },
+        {
+          "target_new": 6.665619373321533,
+          "target_true": 10.00677490234375,
+          "prompt": "The language used by Anggun is",
+          "p_new": 0.0012739673204216872,
+          "p_old": 4.509338923549706e-05
+        },
+        {
+          "target_new": 7.097451210021973,
+          "target_true": 8.688346862792969,
+          "prompt": "The language used by Martinus J. G. Veltman is",
+          "p_new": 0.0008272106247806599,
+          "p_old": 0.00016853841317422924
+        },
+        {
+          "target_new": 7.743524074554443,
+          "target_true": 9.03596019744873,
+          "prompt": "Jan Brueghel the Elder writes in",
+          "p_new": 0.000433541048839902,
+          "p_old": 0.00011905080806445948
+        },
+        {
+          "target_new": 7.363828182220459,
+          "target_true": 6.6077351570129395,
+          "prompt": "Isaac van Ostade writes in",
+          "p_new": 0.0006337676317016133,
+          "p_old": 0.0013498859696666266
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 8.904892921447754,
+          "target_true": 14.003655433654785,
+          "prompt": "Satyajit Ray speaks the language",
+          "p_new": 0.00013572321614072427,
+          "p_old": 8.284946698002656e-07
+        },
+        {
+          "target_new": 7.661210060119629,
+          "target_true": 12.71882438659668,
+          "prompt": "Enrico Fermi speaks",
+          "p_new": 0.000470737445409615,
+          "p_old": 2.994227209419079e-06
+        },
+        {
+          "target_new": 9.448399543762207,
+          "target_true": 13.855266571044922,
+          "prompt": "James Clerk Maxwell speaks",
+          "p_new": 7.881560531126292e-05,
+          "p_old": 9.610238878077676e-07
+        },
+        {
+          "target_new": 7.830250263214111,
+          "target_true": 11.696183204650879,
+          "prompt": "Ernest Rutherford speaks",
+          "p_new": 0.0003975259817097526,
+          "p_old": 8.325535459964865e-06
+        },
+        {
+          "target_new": 7.703250885009766,
+          "target_true": 11.604369163513184,
+          "prompt": "The language used by Walt Disney is",
+          "p_new": 0.00045135748399133567,
+          "p_old": 9.126126961301236e-06
+        },
+        {
+          "target_new": 7.875272750854492,
+          "target_true": 12.968307495117188,
+          "prompt": "The language used by Satyajit Ray is",
+          "p_new": 0.0003800252915095743,
+          "p_old": 2.333112149557065e-06
+        },
+        {
+          "target_new": 8.712523460388184,
+          "target_true": 13.266471862792969,
+          "prompt": "Nikola Tesla speaks",
+          "p_new": 0.00016451258923417858,
+          "p_old": 1.7315876339710098e-06
+        },
+        {
+          "target_new": 8.980731010437012,
+          "target_true": 11.868907928466797,
+          "prompt": "Otto von Bismarck speaks the language",
+          "p_new": 0.00012581084483764748,
+          "p_old": 7.004849041834693e-06
+        },
+        {
+          "target_new": 7.35031795501709,
+          "target_true": 11.339024543762207,
+          "prompt": "The language used by Michael Faraday is",
+          "p_new": 0.0006423880773687603,
+          "p_old": 1.1899376623934748e-05
+        },
+        {
+          "target_new": 8.516246795654297,
+          "target_true": 13.435712814331055,
+          "prompt": "Thomas Alva Edison speaks the language",
+          "p_new": 0.00020018936874714374,
+          "p_old": 1.4619888629732542e-06
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 10.0
+      }
+    }
+  },
+  "seeds": {
+    "12587": 12619,
+    "21209": 21241
+  },
+  "edit_seconds": [
+    2.934299904999989,
+    2.363435131999722
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "21209": true,
+      "12587": true
+    },
+    "eligible_prior_case_ids": [
+      21209
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 14.340994136000063,
+  "completed_at_utc": "2026-11-28T08:00:59.119162+00:00"
+}

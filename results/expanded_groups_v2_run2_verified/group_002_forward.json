@@ -1,0 +1,1588 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      15097,
+      3704
+    ],
+    "group_id": "group_002",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "similar"
+      }
+    ],
+    "relation_ids": [
+      "P1412",
+      "P103"
+    ],
+    "size": 2,
+    "subject": "Corinne Calvet"
+  },
+  "order": "forward",
+  "edit_order": [
+    15097,
+    3704
+  ],
+  "facts": {
+    "15097": {
+      "case_id": 15097,
+      "requested_rewrite": {
+        "prompt": "{} speaks the language",
+        "relation_id": "P1412",
+        "target_new": {
+          "str": "Dutch",
+          "id": "Q7411"
+        },
+        "target_true": {
+          "str": "French",
+          "id": "Q150"
+        },
+        "subject": "Corinne Calvet"
+      },
+      "prompts": {
+        "rewrite": [
+          "Corinne Calvet speaks the language"
+        ],
+        "paraphrase": [
+          "Then, it was known as the New Seabury Shopping Center. Corinne Calvet speaks",
+          "References\n\nJezierzysk Corinne Calvet writes in"
+        ],
+        "neighborhood": [
+          "Michel Platini speaks the language",
+          "The language used by Sasha Grey is",
+          "Celine Dion speaks",
+          "Georges Pompidou writes in",
+          "The language used by Albert II, Prince of Monaco is",
+          "The language used by Mustafa Kemal Atat\u00fcrk is",
+          "Rodolphe T\u00f6pffer speaks",
+          "Louis de Fun\u00e8s speaks",
+          "Celine Dion speaks the language",
+          "Claude Debussy speaks"
+        ],
+        "attribute": [
+          "Karel van Mander the Elder speaks",
+          "Anggun writes in",
+          "Judith Leyster writes in",
+          "The language used by Hugo van der Goes is",
+          "Johann Bernoulli speaks",
+          "Tobias Asser speaks the language",
+          "The language used by Johann Bernoulli is",
+          "Jacob van Ruisdael speaks the language",
+          "Hugo van der Goes speaks the language",
+          "Karel van Mander the Elder writes in"
+        ]
+      }
+    },
+    "3704": {
+      "case_id": 3704,
+      "requested_rewrite": {
+        "prompt": "{} spoke the language",
+        "relation_id": "P103",
+        "target_new": {
+          "str": "English",
+          "id": "Q1860"
+        },
+        "target_true": {
+          "str": "French",
+          "id": "Q150"
+        },
+        "subject": "Corinne Calvet"
+      },
+      "prompts": {
+        "rewrite": [
+          "Corinne Calvet spoke the language"
+        ],
+        "paraphrase": [
+          "It was named for Dr. John Hardtner, a landowner. The native language of Corinne Calvet is",
+          "Road crash causes\nIn Road Accidents: prevent or punish? Corinne Calvet, speaker of"
+        ],
+        "neighborhood": [
+          "Jean-Luc Picard, a native",
+          "Jean Gabin spoke the language",
+          "The native language of Louis Antoine de Saint-Just is",
+          "The native language of Fran\u00e7ois Bayrou is",
+          "Jean-Baptiste Say, a native",
+          "Jean Gabin, a native",
+          "Jacques Chaban-Delmas is a native speaker of",
+          "Raymond Barre, a native",
+          "The mother tongue of Jacques Chaban-Delmas is",
+          "Robert Schuman, speaker of"
+        ],
+        "attribute": [
+          "Madonna, speaker of",
+          "Bill Clinton, a native",
+          "The mother tongue of George Washington is",
+          "Michael Jackson, speaker of",
+          "Elton John, a native",
+          "The native language of Charlie Chaplin is",
+          "Charlie Chaplin, speaker of",
+          "Robert Louis Stevenson is a native speaker of",
+          "Ella Fitzgerald, a native",
+          "J.\u00a0R.\u00a0R. Tolkien is a native speaker of"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "15097": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 11.086788177490234,
+              "target_true": 8.200681686401367,
+              "prompt": "Corinne Calvet speaks the language",
+              "p_new": 1.5313309932758613e-05,
+              "p_old": 0.0002744664061691629
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 8.438353538513184,
+              "target_true": 5.189603805541992,
+              "prompt": "Then, it was known as the New Seabury Shopping Center. Corinne Calvet speaks",
+              "p_new": 0.00021640616153212116,
+              "p_old": 0.005574214850516898
+            },
+            {
+              "target_new": 8.310523986816406,
+              "target_true": 4.509207248687744,
+              "prompt": "References\n\nJezierzysk Corinne Calvet writes in",
+              "p_new": 0.0002459151532984177,
+              "p_old": 0.01100718267647416
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 12.773781776428223,
+              "target_true": 8.739179611206055,
+              "prompt": "Michel Platini speaks the language",
+              "p_new": 2.8341123427449064e-06,
+              "p_old": 0.0001601852482014998
+            },
+            {
+              "target_new": 10.525853157043457,
+              "target_true": 7.324054718017578,
+              "prompt": "The language used by Sasha Grey is",
+              "p_new": 2.6833668890676407e-05,
+              "p_old": 0.0006594827660322428
+            },
+            {
+              "target_new": 12.360260963439941,
+              "target_true": 8.413602828979492,
+              "prompt": "Celine Dion speaks",
+              "p_new": 4.285552982681976e-06,
+              "p_old": 0.00022182920279468788
+            },
+            {
+              "target_new": 11.558738708496094,
+              "target_true": 4.885903358459473,
+              "prompt": "Georges Pompidou writes in",
+              "p_new": 9.552203391162285e-06,
+              "p_old": 0.007552298247052418
+            },
+            {
+              "target_new": 9.049140930175781,
+              "target_true": 5.126999855041504,
+              "prompt": "The language used by Albert II, Prince of Monaco is",
+              "p_new": 0.00011749192734632503,
+              "p_old": 0.005934337666502137
+            },
+            {
+              "target_new": 11.937591552734375,
+              "target_true": 9.868753433227539,
+              "prompt": "The language used by Mustafa Kemal Atat\u00fcrk is",
+              "p_new": 6.539881233113999e-06,
+              "p_old": 5.176721970587298e-05
+            },
+            {
+              "target_new": 9.567988395690918,
+              "target_true": 7.466550827026367,
+              "prompt": "Rodolphe T\u00f6pffer speaks",
+              "p_new": 6.993191754588159e-05,
+              "p_old": 0.0005718974722171007
+            },
+            {
+              "target_new": 9.033907890319824,
+              "target_true": 4.30902099609375,
+              "prompt": "Louis de Fun\u00e8s speaks",
+              "p_new": 0.00011929538777704934,
+              "p_old": 0.013446707531557958
+            },
+            {
+              "target_new": 12.925701141357422,
+              "target_true": 9.255573272705078,
+              "prompt": "Celine Dion speaks the language",
+              "p_new": 2.4346656002397932e-06,
+              "p_old": 9.55774855248712e-05
+            },
+            {
+              "target_new": 9.77005672454834,
+              "target_true": 4.80625057220459,
+              "prompt": "Claude Debussy speaks",
+              "p_new": 5.713711088112681e-05,
+              "p_old": 0.00817846685310641
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 9.245407104492188,
+              "target_true": 8.124173164367676,
+              "prompt": "Karel van Mander the Elder speaks",
+              "p_new": 9.655409811286549e-05,
+              "p_old": 0.000296289611612875
+            },
+            {
+              "target_new": 8.871045112609863,
+              "target_true": 7.646953582763672,
+              "prompt": "Anggun writes in",
+              "p_new": 0.00014039578157165736,
+              "p_old": 0.00047749656930843703
+            },
+            {
+              "target_new": 10.627763748168945,
+              "target_true": 8.689594268798828,
+              "prompt": "Judith Leyster writes in",
+              "p_new": 2.423376260455944e-05,
+              "p_old": 0.00016832830841563052
+            },
+            {
+              "target_new": 9.787413597106934,
+              "target_true": 8.16527271270752,
+              "prompt": "The language used by Hugo van der Goes is",
+              "p_new": 5.6153946342304876e-05,
+              "p_old": 0.0002843590912424766
+            },
+            {
+              "target_new": 9.15706729888916,
+              "target_true": 5.0843610763549805,
+              "prompt": "Johann Bernoulli speaks",
+              "p_new": 0.00010547176207950106,
+              "p_old": 0.0061928425800977065
+            },
+            {
+              "target_new": 10.304152488708496,
+              "target_true": 9.270907402038574,
+              "prompt": "Tobias Asser speaks the language",
+              "p_new": 3.349372370724088e-05,
+              "p_old": 9.412306761529226e-05
+            },
+            {
+              "target_new": 10.855817794799805,
+              "target_true": 7.608443737030029,
+              "prompt": "The language used by Johann Bernoulli is",
+              "p_new": 1.9292043618446106e-05,
+              "p_old": 0.0004962435432999285
+            },
+            {
+              "target_new": 9.639888763427734,
+              "target_true": 9.718585014343262,
+              "prompt": "Jacob van Ruisdael speaks the language",
+              "p_new": 6.508029365370805e-05,
+              "p_old": 6.0155058899926314e-05
+            },
+            {
+              "target_new": 9.35937786102295,
+              "target_true": 8.906515121459961,
+              "prompt": "Hugo van der Goes speaks the language",
+              "p_new": 8.615368160995466e-05,
+              "p_old": 0.00013550322442137187
+            },
+            {
+              "target_new": 7.581066131591797,
+              "target_true": 8.890982627868652,
+              "prompt": "Karel van Mander the Elder writes in",
+              "p_new": 0.0005100171876232094,
+              "p_old": 0.00013762435798813602
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "3704": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 8.018532752990723,
+              "target_true": 8.439969062805176,
+              "prompt": "Corinne Calvet spoke the language",
+              "p_new": 0.0003293028371264147,
+              "p_old": 0.0002160568343704633
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 5.303266525268555,
+              "target_true": 2.874227285385132,
+              "prompt": "It was named for Dr. John Hardtner, a landowner. The native language of Corinne Calvet is",
+              "p_new": 0.004975315340931093,
+              "p_old": 0.05645974992632185
+            },
+            {
+              "target_new": 9.409423828125,
+              "target_true": 4.905107498168945,
+              "prompt": "Road crash causes\nIn Road Accidents: prevent or punish? Corinne Calvet, speaker of",
+              "p_new": 8.194814997090384e-05,
+              "p_old": 0.0074086466241600635
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 5.570511817932129,
+              "target_true": 3.2426888942718506,
+              "prompt": "Jean-Luc Picard, a native",
+              "p_new": 0.0038085306593836203,
+              "p_old": 0.03905872897944418
+            },
+            {
+              "target_new": 8.593345642089844,
+              "target_true": 9.035050392150879,
+              "prompt": "Jean Gabin spoke the language",
+              "p_new": 0.00018533498471479996,
+              "p_old": 0.00011915917040719209
+            },
+            {
+              "target_new": 4.235097885131836,
+              "target_true": 1.1077221632003784,
+              "prompt": "The native language of Louis Antoine de Saint-Just is",
+              "p_new": 0.014478392908996404,
+              "p_old": 0.3303104982189039
+            },
+            {
+              "target_new": 3.9683494567871094,
+              "target_true": 1.0137852430343628,
+              "prompt": "The native language of Fran\u00e7ois Bayrou is",
+              "p_new": 0.018904610274646683,
+              "p_old": 0.3628429282035576
+            },
+            {
+              "target_new": 6.5334343910217285,
+              "target_true": 3.126054048538208,
+              "prompt": "Jean-Baptiste Say, a native",
+              "p_new": 0.0014540036478711397,
+              "p_old": 0.043890646361544175
+            },
+            {
+              "target_new": 6.6721696853637695,
+              "target_true": 3.898055076599121,
+              "prompt": "Jean Gabin, a native",
+              "p_new": 0.001265649708159205,
+              "p_old": 0.020281318722699105
+            },
+            {
+              "target_new": 2.751862049102783,
+              "target_true": 0.5850158929824829,
+              "prompt": "Jacques Chaban-Delmas is a native speaker of",
+              "p_new": 0.06380893514754762,
+              "p_old": 0.5570970078088294
+            },
+            {
+              "target_new": 6.864960670471191,
+              "target_true": 5.434906482696533,
+              "prompt": "Raymond Barre, a native",
+              "p_new": 0.001043723500910008,
+              "p_old": 0.004361642891162615
+            },
+            {
+              "target_new": 4.362179279327393,
+              "target_true": 0.7676868438720703,
+              "prompt": "The mother tongue of Jacques Chaban-Delmas is",
+              "p_new": 0.012750570295395449,
+              "p_old": 0.46408532950316567
+            },
+            {
+              "target_new": 9.446255683898926,
+              "target_true": 8.239709854125977,
+              "prompt": "Robert Schuman, speaker of",
+              "p_new": 7.898475617717941e-05,
+              "p_old": 0.0002639608254894901
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.7330546379089355,
+              "target_true": 7.273718357086182,
+              "prompt": "Madonna, speaker of",
+              "p_new": 0.0004381038225423426,
+              "p_old": 0.0006935284071207333
+            },
+            {
+              "target_new": 6.574756622314453,
+              "target_true": 7.983284950256348,
+              "prompt": "Bill Clinton, a native",
+              "p_new": 0.0013951454243246106,
+              "p_old": 0.00034111702755143216
+            },
+            {
+              "target_new": 1.7208856344223022,
+              "target_true": 2.019258975982666,
+              "prompt": "The mother tongue of George Washington is",
+              "p_new": 0.1789076309714241,
+              "p_old": 0.13275380239643342
+            },
+            {
+              "target_new": 8.647306442260742,
+              "target_true": 9.48646354675293,
+              "prompt": "Michael Jackson, speaker of",
+              "p_new": 0.00017559919830047182,
+              "p_old": 7.587194699040305e-05
+            },
+            {
+              "target_new": 5.488562107086182,
+              "target_true": 6.9993767738342285,
+              "prompt": "Elton John, a native",
+              "p_new": 0.004133783841422237,
+              "p_old": 0.0009124504513847666
+            },
+            {
+              "target_new": 1.3161648511886597,
+              "target_true": 2.1719160079956055,
+              "prompt": "The native language of Charlie Chaplin is",
+              "p_new": 0.26816177267747454,
+              "p_old": 0.11395906112809119
+            },
+            {
+              "target_new": 6.595406532287598,
+              "target_true": 7.0735321044921875,
+              "prompt": "Charlie Chaplin, speaker of",
+              "p_new": 0.0013666312180513368,
+              "p_old": 0.0008472352943966015
+            },
+            {
+              "target_new": 1.576073408126831,
+              "target_true": 3.325580596923828,
+              "prompt": "Robert Louis Stevenson is a native speaker of",
+              "p_new": 0.20678546830669936,
+              "p_old": 0.03595163928156416
+            },
+            {
+              "target_new": 6.617090225219727,
+              "target_true": 7.52940034866333,
+              "prompt": "Ella Fitzgerald, a native",
+              "p_new": 0.0013373165797687066,
+              "p_old": 0.0005370602090184444
+            },
+            {
+              "target_new": 1.9632965326309204,
+              "target_true": 4.037830829620361,
+              "prompt": "J.\u00a0R.\u00a0R. Tolkien is a native speaker of",
+              "p_new": 0.1403948410630184,
+              "p_old": 0.01763568576218984
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 0.0,
+            "neighborhood": 90.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        15097
+      ],
+      "evaluations": {
+        "15097": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.008439826779067516,
+              "target_true": 10.395242691040039,
+              "prompt": "Corinne Calvet speaks the language",
+              "p_new": 0.991595688574254,
+              "p_old": 3.057760465304436e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.025201627984642982,
+              "target_true": 8.86496353149414,
+              "prompt": "Then, it was known as the New Seabury Shopping Center. Corinne Calvet speaks",
+              "p_new": 0.9751132820800843,
+              "p_old": 0.0001412522114899681
+            },
+            {
+              "target_new": 2.519587278366089,
+              "target_true": 8.677265167236328,
+              "prompt": "References\n\nJezierzysk Corinne Calvet writes in",
+              "p_new": 0.0804928210235472,
+              "p_old": 0.00017041649148507714
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 12.70266342163086,
+              "target_true": 8.708006858825684,
+              "prompt": "Michel Platini speaks the language",
+              "p_new": 3.0430099366849646e-06,
+              "p_old": 0.0001652573075837938
+            },
+            {
+              "target_new": 10.501583099365234,
+              "target_true": 7.315778732299805,
+              "prompt": "The language used by Sasha Grey is",
+              "p_new": 2.749289090203342e-05,
+              "p_old": 0.0006649632830444017
+            },
+            {
+              "target_new": 12.363604545593262,
+              "target_true": 8.430739402770996,
+              "prompt": "Celine Dion speaks",
+              "p_new": 4.271247812794441e-06,
+              "p_old": 0.0002180601964536226
+            },
+            {
+              "target_new": 11.517095565795898,
+              "target_true": 4.880335330963135,
+              "prompt": "Georges Pompidou writes in",
+              "p_new": 9.958385819712055e-06,
+              "p_old": 0.007594466940629178
+            },
+            {
+              "target_new": 9.030868530273438,
+              "target_true": 5.142166614532471,
+              "prompt": "The language used by Albert II, Prince of Monaco is",
+              "p_new": 0.00011965852097910683,
+              "p_old": 0.005845012096389851
+            },
+            {
+              "target_new": 11.962173461914062,
+              "target_true": 9.891788482666016,
+              "prompt": "The language used by Mustafa Kemal Atat\u00fcrk is",
+              "p_new": 6.381078302777928e-06,
+              "p_old": 5.058838858211178e-05
+            },
+            {
+              "target_new": 9.557995796203613,
+              "target_true": 7.531619071960449,
+              "prompt": "Rodolphe T\u00f6pffer speaks",
+              "p_new": 7.063422227034109e-05,
+              "p_old": 0.0005358699419456621
+            },
+            {
+              "target_new": 9.021629333496094,
+              "target_true": 4.363932132720947,
+              "prompt": "Louis de Fun\u00e8s speaks",
+              "p_new": 0.00012076919255632608,
+              "p_old": 0.012728239991575302
+            },
+            {
+              "target_new": 12.885013580322266,
+              "target_true": 9.23537540435791,
+              "prompt": "Celine Dion speaks the language",
+              "p_new": 2.535769085059579e-06,
+              "p_old": 9.752757451976682e-05
+            },
+            {
+              "target_new": 9.634819984436035,
+              "target_true": 4.782320976257324,
+              "prompt": "Claude Debussy speaks",
+              "p_new": 6.541100873169832e-05,
+              "p_old": 0.00837653465007844
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 9.379023551940918,
+              "target_true": 8.24404525756836,
+              "prompt": "Karel van Mander the Elder speaks",
+              "p_new": 8.447765031148259e-05,
+              "p_old": 0.0002628189259042735
+            },
+            {
+              "target_new": 8.886565208435059,
+              "target_true": 7.6460418701171875,
+              "prompt": "Anggun writes in",
+              "p_new": 0.00013823364725398552,
+              "p_old": 0.00047793210748198987
+            },
+            {
+              "target_new": 10.590032577514648,
+              "target_true": 8.67196273803711,
+              "prompt": "Judith Leyster writes in",
+              "p_new": 2.516559994632047e-05,
+              "p_old": 0.00017132251279970446
+            },
+            {
+              "target_new": 9.763242721557617,
+              "target_true": 8.184267044067383,
+              "prompt": "The language used by Hugo van der Goes is",
+              "p_new": 5.752777279973731e-05,
+              "p_old": 0.0002790088533895391
+            },
+            {
+              "target_new": 9.100561141967773,
+              "target_true": 5.06556510925293,
+              "prompt": "Johann Bernoulli speaks",
+              "p_new": 0.00011160316569599971,
+              "p_old": 0.006310343861310063
+            },
+            {
+              "target_new": 10.228974342346191,
+              "target_true": 9.238372802734375,
+              "prompt": "Tobias Asser speaks the language",
+              "p_new": 3.6108786014076967e-05,
+              "p_old": 9.723568320206053e-05
+            },
+            {
+              "target_new": 10.853596687316895,
+              "target_true": 7.643134117126465,
+              "prompt": "The language used by Johann Bernoulli is",
+              "p_new": 1.9334940943036478e-05,
+              "p_old": 0.00047932383842118993
+            },
+            {
+              "target_new": 9.601816177368164,
+              "target_true": 9.702198028564453,
+              "prompt": "Jacob van Ruisdael speaks the language",
+              "p_new": 6.760584072649874e-05,
+              "p_old": 6.114894011254042e-05
+            },
+            {
+              "target_new": 9.296597480773926,
+              "target_true": 8.882650375366211,
+              "prompt": "Hugo van der Goes speaks the language",
+              "p_new": 9.173583399966999e-05,
+              "p_old": 0.00013877586956990496
+            },
+            {
+              "target_new": 7.7110915184021,
+              "target_true": 9.108448028564453,
+              "prompt": "Karel van Mander the Elder writes in",
+              "p_new": 0.00044783239296257427,
+              "p_old": 0.00011072642610184844
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 100.0
+          }
+        },
+        "3704": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 8.353028297424316,
+              "target_true": 10.577789306640625,
+              "prompt": "Corinne Calvet spoke the language",
+              "p_new": 0.00023568172231463945,
+              "p_old": 2.547560305681139e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 6.754056930541992,
+              "target_true": 10.65420150756836,
+              "prompt": "It was named for Dr. John Hardtner, a landowner. The native language of Corinne Calvet is",
+              "p_new": 0.0011661390660491896,
+              "p_old": 2.3601471231255267e-05
+            },
+            {
+              "target_new": 9.393889427185059,
+              "target_true": 10.778337478637695,
+              "prompt": "Road crash causes\nIn Road Accidents: prevent or punish? Corinne Calvet, speaker of",
+              "p_new": 8.323110455442472e-05,
+              "p_old": 2.084622922407323e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 5.594925403594971,
+              "target_true": 3.221059799194336,
+              "prompt": "Jean-Luc Picard, a native",
+              "p_new": 0.003716676575867544,
+              "p_old": 0.039912736352422984
+            },
+            {
+              "target_new": 8.567858695983887,
+              "target_true": 9.002330780029297,
+              "prompt": "Jean Gabin spoke the language",
+              "p_new": 0.00019011931751502308,
+              "p_old": 0.00012312249793368347
+            },
+            {
+              "target_new": 4.226739883422852,
+              "target_true": 1.1006832122802734,
+              "prompt": "The native language of Louis Antoine de Saint-Just is",
+              "p_new": 0.014599910456211517,
+              "p_old": 0.3326437397568786
+            },
+            {
+              "target_new": 3.9657764434814453,
+              "target_true": 0.9880247116088867,
+              "prompt": "The native language of Fran\u00e7ois Bayrou is",
+              "p_new": 0.01895331472014467,
+              "p_old": 0.37231138752608317
+            },
+            {
+              "target_new": 6.523595333099365,
+              "target_true": 3.109706163406372,
+              "prompt": "Jean-Baptiste Say, a native",
+              "p_new": 0.0014683802842812494,
+              "p_old": 0.044614062658674854
+            },
+            {
+              "target_new": 6.663092136383057,
+              "target_true": 3.8696703910827637,
+              "prompt": "Jean Gabin, a native",
+              "p_new": 0.0012771910094895255,
+              "p_old": 0.020865245662948662
+            },
+            {
+              "target_new": 2.736649513244629,
+              "target_true": 0.5710126161575317,
+              "prompt": "Jacques Chaban-Delmas is a native speaker of",
+              "p_new": 0.06478705181598753,
+              "p_old": 0.5649530683474566
+            },
+            {
+              "target_new": 6.854704856872559,
+              "target_true": 5.42973518371582,
+              "prompt": "Raymond Barre, a native",
+              "p_new": 0.0010544828130268726,
+              "p_old": 0.004384256671514144
+            },
+            {
+              "target_new": 4.329344749450684,
+              "target_true": 0.7513197660446167,
+              "prompt": "The mother tongue of Jacques Chaban-Delmas is",
+              "p_new": 0.013176178360188159,
+              "p_old": 0.471743550603056
+            },
+            {
+              "target_new": 9.284188270568848,
+              "target_true": 7.9770355224609375,
+              "prompt": "Robert Schuman, speaker of",
+              "p_new": 9.288129568557521e-05,
+              "p_old": 0.0003432554889049527
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.772266387939453,
+              "target_true": 7.301907062530518,
+              "prompt": "Madonna, speaker of",
+              "p_new": 0.0004212574512868129,
+              "p_old": 0.0006742517081564974
+            },
+            {
+              "target_new": 6.572446823120117,
+              "target_true": 7.982762336730957,
+              "prompt": "Bill Clinton, a native",
+              "p_new": 0.0013983716546394137,
+              "p_old": 0.00034129534651566423
+            },
+            {
+              "target_new": 1.7036101818084717,
+              "target_true": 2.0084235668182373,
+              "prompt": "The mother tongue of George Washington is",
+              "p_new": 0.18202519238103007,
+              "p_old": 0.13420006543946789
+            },
+            {
+              "target_new": 8.64185619354248,
+              "target_true": 9.440473556518555,
+              "prompt": "Michael Jackson, speaker of",
+              "p_new": 0.00017655887045630122,
+              "p_old": 7.944277899555398e-05
+            },
+            {
+              "target_new": 5.401202201843262,
+              "target_true": 6.990575790405273,
+              "prompt": "Elton John, a native",
+              "p_new": 0.004511154363253654,
+              "p_old": 0.0009205163545637261
+            },
+            {
+              "target_new": 1.2882111072540283,
+              "target_true": 2.1965668201446533,
+              "prompt": "The native language of Charlie Chaplin is",
+              "p_new": 0.2757636537117019,
+              "p_old": 0.11118421928458495
+            },
+            {
+              "target_new": 6.505311012268066,
+              "target_true": 7.038370609283447,
+              "prompt": "Charlie Chaplin, speaker of",
+              "p_new": 0.0014954755751344481,
+              "p_old": 0.0008775552783976244
+            },
+            {
+              "target_new": 1.5675448179244995,
+              "target_true": 3.3146400451660156,
+              "prompt": "Robert Louis Stevenson is a native speaker of",
+              "p_new": 0.20855659871287466,
+              "p_old": 0.03634712954790169
+            },
+            {
+              "target_new": 6.620105743408203,
+              "target_true": 7.51979398727417,
+              "prompt": "Ella Fitzgerald, a native",
+              "p_new": 0.0013332899515352953,
+              "p_old": 0.00054224426355844
+            },
+            {
+              "target_new": 1.9550197124481201,
+              "target_true": 4.0395917892456055,
+              "prompt": "J.\u00a0R.\u00a0R. Tolkien is a native speaker of",
+              "p_new": 0.14156168613923598,
+              "p_old": 0.01760465735949952
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 90.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        15097,
+        3704
+      ],
+      "evaluations": {
+        "15097": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 11.540156364440918,
+              "target_true": 8.992737770080566,
+              "prompt": "Corinne Calvet speaks the language",
+              "p_new": 9.73136518874048e-06,
+              "p_old": 0.0001243092966659649
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 8.938270568847656,
+              "target_true": 6.5685930252075195,
+              "prompt": "Then, it was known as the New Seabury Shopping Center. Corinne Calvet speaks",
+              "p_new": 0.00013126786271881123,
+              "p_old": 0.001403771093894368
+            },
+            {
+              "target_new": 11.665842056274414,
+              "target_true": 10.423110961914062,
+              "prompt": "References\n\nJezierzysk Corinne Calvet writes in",
+              "p_new": 8.582013002774213e-06,
+              "p_old": 2.973722404980387e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 12.721565246582031,
+              "target_true": 8.739684104919434,
+              "prompt": "Michel Platini speaks the language",
+              "p_new": 2.986031688392162e-06,
+              "p_old": 0.00016010445613206522
+            },
+            {
+              "target_new": 10.514795303344727,
+              "target_true": 7.333218097686768,
+              "prompt": "The language used by Sasha Grey is",
+              "p_new": 2.7132038297814034e-05,
+              "p_old": 0.000653467278253087
+            },
+            {
+              "target_new": 12.364739418029785,
+              "target_true": 8.445467948913574,
+              "prompt": "Celine Dion speaks",
+              "p_new": 4.2664032408876594e-06,
+              "p_old": 0.00021487202300220684
+            },
+            {
+              "target_new": 11.53032112121582,
+              "target_true": 4.8918232917785645,
+              "prompt": "Georges Pompidou writes in",
+              "p_new": 9.827547746381776e-06,
+              "p_old": 0.007507721221718424
+            },
+            {
+              "target_new": 9.07060432434082,
+              "target_true": 5.183157920837402,
+              "prompt": "The language used by Albert II, Prince of Monaco is",
+              "p_new": 0.00011499702214347901,
+              "p_old": 0.005610261648704247
+            },
+            {
+              "target_new": 11.983059883117676,
+              "target_true": 9.915871620178223,
+              "prompt": "The language used by Mustafa Kemal Atat\u00fcrk is",
+              "p_new": 6.249182622817399e-06,
+              "p_old": 4.9384614967692045e-05
+            },
+            {
+              "target_new": 9.57618236541748,
+              "target_true": 7.533140659332275,
+              "prompt": "Rodolphe T\u00f6pffer speaks",
+              "p_new": 6.93612387858302e-05,
+              "p_old": 0.0005350551890251288
+            },
+            {
+              "target_new": 9.042611122131348,
+              "target_true": 4.378665447235107,
+              "prompt": "Louis de Fun\u00e8s speaks",
+              "p_new": 0.00011826163737309815,
+              "p_old": 0.012542085532043456
+            },
+            {
+              "target_new": 12.882122039794922,
+              "target_true": 9.259543418884277,
+              "prompt": "Celine Dion speaks the language",
+              "p_new": 2.543111975152999e-06,
+              "p_old": 9.519878118911293e-05
+            },
+            {
+              "target_new": 9.685693740844727,
+              "target_true": 4.839816093444824,
+              "prompt": "Claude Debussy speaks",
+              "p_new": 6.216653404689355e-05,
+              "p_old": 0.007908508344388549
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 9.473709106445312,
+              "target_true": 8.260275840759277,
+              "prompt": "Karel van Mander the Elder speaks",
+              "p_new": 7.684584879303724e-05,
+              "p_old": 0.00025858765236906487
+            },
+            {
+              "target_new": 8.862541198730469,
+              "target_true": 7.638861656188965,
+              "prompt": "Anggun writes in",
+              "p_new": 0.00014159478609713857,
+              "p_old": 0.00048137611180435266
+            },
+            {
+              "target_new": 10.568092346191406,
+              "target_true": 8.649008750915527,
+              "prompt": "Judith Leyster writes in",
+              "p_new": 2.5723840601734315e-05,
+              "p_old": 0.00017530052855160594
+            },
+            {
+              "target_new": 9.804351806640625,
+              "target_true": 8.195252418518066,
+              "prompt": "The language used by Hugo van der Goes is",
+              "p_new": 5.5210809110007836e-05,
+              "p_old": 0.00027596061036025497
+            },
+            {
+              "target_new": 9.064308166503906,
+              "target_true": 5.022066593170166,
+              "prompt": "Johann Bernoulli speaks",
+              "p_new": 0.0001157233456700673,
+              "p_old": 0.006590891933145438
+            },
+            {
+              "target_new": 10.248724937438965,
+              "target_true": 9.237792015075684,
+              "prompt": "Tobias Asser speaks the language",
+              "p_new": 3.540261263005492e-05,
+              "p_old": 9.729217288951748e-05
+            },
+            {
+              "target_new": 10.88794994354248,
+              "target_true": 7.694618225097656,
+              "prompt": "The language used by Johann Bernoulli is",
+              "p_new": 1.8682002259982913e-05,
+              "p_old": 0.000455270766364982
+            },
+            {
+              "target_new": 9.614836692810059,
+              "target_true": 9.698863983154297,
+              "prompt": "Jacob van Ruisdael speaks the language",
+              "p_new": 6.673128378001726e-05,
+              "p_old": 6.135315369517007e-05
+            },
+            {
+              "target_new": 9.298937797546387,
+              "target_true": 8.874135971069336,
+              "prompt": "Hugo van der Goes speaks the language",
+              "p_new": 9.152139411522939e-05,
+              "p_old": 0.00013996250802105834
+            },
+            {
+              "target_new": 7.829290390014648,
+              "target_true": 9.132218360900879,
+              "prompt": "Karel van Mander the Elder writes in",
+              "p_new": 0.0003979077394358797,
+              "p_old": 0.00010812545756557058
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 100.0
+          }
+        },
+        "3704": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.009168427437543869,
+              "target_true": 9.582999229431152,
+              "prompt": "Corinne Calvet spoke the language",
+              "p_new": 0.9908734744374138,
+              "p_old": 6.889002059315419e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.04608301818370819,
+              "target_true": 9.811903953552246,
+              "prompt": "It was named for Dr. John Hardtner, a landowner. The native language of Corinne Calvet is",
+              "p_new": 0.9549626796326409,
+              "p_old": 5.479541948454585e-05
+            },
+            {
+              "target_new": 2.7422938346862793,
+              "target_true": 11.140401840209961,
+              "prompt": "Road crash causes\nIn Road Accidents: prevent or punish? Corinne Calvet, speaker of",
+              "p_new": 0.06442240293611945,
+              "p_old": 1.4513927675443112e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 5.573733806610107,
+              "target_true": 3.223295211791992,
+              "prompt": "Jean-Luc Picard, a native",
+              "p_new": 0.003796279364085328,
+              "p_old": 0.039823614567866115
+            },
+            {
+              "target_new": 8.529170989990234,
+              "target_true": 9.064508438110352,
+              "prompt": "Jean Gabin spoke the language",
+              "p_new": 0.00019761872994129262,
+              "p_old": 0.00011570017189032923
+            },
+            {
+              "target_new": 4.217785358428955,
+              "target_true": 1.0792617797851562,
+              "prompt": "The native language of Louis Antoine de Saint-Just is",
+              "p_new": 0.014731232806444528,
+              "p_old": 0.33984631448414676
+            },
+            {
+              "target_new": 3.9361801147460938,
+              "target_true": 0.9681310653686523,
+              "prompt": "The native language of Fran\u00e7ois Bayrou is",
+              "p_new": 0.019522646764485823,
+              "p_old": 0.3797921819868329
+            },
+            {
+              "target_new": 6.5115275382995605,
+              "target_true": 3.1114628314971924,
+              "prompt": "Jean-Baptiste Say, a native",
+              "p_new": 0.0014862077489798278,
+              "p_old": 0.04453575935499423
+            },
+            {
+              "target_new": 6.615182876586914,
+              "target_true": 4.022708892822266,
+              "prompt": "Jean Gabin, a native",
+              "p_new": 0.0013398697428307744,
+              "p_old": 0.017904398092530464
+            },
+            {
+              "target_new": 2.6019673347473145,
+              "target_true": 0.5767425894737244,
+              "prompt": "Jacques Chaban-Delmas is a native speaker of",
+              "p_new": 0.07412760086334554,
+              "p_old": 0.5617251590895966
+            },
+            {
+              "target_new": 6.849654674530029,
+              "target_true": 5.451086044311523,
+              "prompt": "Raymond Barre, a native",
+              "p_new": 0.0010598216131198245,
+              "p_old": 0.004291641246294415
+            },
+            {
+              "target_new": 4.153912544250488,
+              "target_true": 0.7371708750724792,
+              "prompt": "The mother tongue of Jacques Chaban-Delmas is",
+              "p_new": 0.01570285801142809,
+              "p_old": 0.47846564159206806
+            },
+            {
+              "target_new": 8.733856201171875,
+              "target_true": 8.39605712890625,
+              "prompt": "Robert Schuman, speaker of",
+              "p_new": 0.00016104025371241725,
+              "p_old": 0.00022575569727066981
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.790932655334473,
+              "target_true": 7.30335807800293,
+              "prompt": "Madonna, speaker of",
+              "p_new": 0.0004134670818170198,
+              "p_old": 0.0006732740679527238
+            },
+            {
+              "target_new": 6.57520055770874,
+              "target_true": 7.979089260101318,
+              "prompt": "Bill Clinton, a native",
+              "p_new": 0.0013945262073469114,
+              "p_old": 0.00034255125558988315
+            },
+            {
+              "target_new": 1.681715488433838,
+              "target_true": 1.9970612525939941,
+              "prompt": "The mother tongue of George Washington is",
+              "p_new": 0.18605452772243453,
+              "p_old": 0.13573358441579203
+            },
+            {
+              "target_new": 8.616418838500977,
+              "target_true": 9.425044059753418,
+              "prompt": "Michael Jackson, speaker of",
+              "p_new": 0.00018110767057577954,
+              "p_old": 8.067804636752609e-05
+            },
+            {
+              "target_new": 5.289150714874268,
+              "target_true": 7.104118347167969,
+              "prompt": "Elton John, a native",
+              "p_new": 0.005046043970475488,
+              "p_old": 0.0008217138423590673
+            },
+            {
+              "target_new": 1.238031029701233,
+              "target_true": 2.2402806282043457,
+              "prompt": "The native language of Charlie Chaplin is",
+              "p_new": 0.2899545681861896,
+              "p_old": 0.10642863331185957
+            },
+            {
+              "target_new": 6.404308319091797,
+              "target_true": 7.303086757659912,
+              "prompt": "Charlie Chaplin, speaker of",
+              "p_new": 0.0016544141527218977,
+              "p_old": 0.0006734567656874708
+            },
+            {
+              "target_new": 1.5442556142807007,
+              "target_true": 3.312572956085205,
+              "prompt": "Robert Louis Stevenson is a native speaker of",
+              "p_new": 0.21347071664740855,
+              "p_old": 0.036422340009090205
+            },
+            {
+              "target_new": 6.637982368469238,
+              "target_true": 7.505469799041748,
+              "prompt": "Ella Fitzgerald, a native",
+              "p_new": 0.0013096670053526472,
+              "p_old": 0.0005500673685083919
+            },
+            {
+              "target_new": 1.9289662837982178,
+              "target_true": 4.031050682067871,
+              "prompt": "J.\u00a0R.\u00a0R. Tolkien is a native speaker of",
+              "p_new": 0.14529831810523053,
+              "p_old": 0.017755664591306577
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 90.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "15097": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.008439826779067516,
+          "target_true": 10.395242691040039,
+          "prompt": "Corinne Calvet speaks the language",
+          "p_new": 0.991595688574254,
+          "p_old": 3.057760465304436e-05
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.025201627984642982,
+          "target_true": 8.86496353149414,
+          "prompt": "Then, it was known as the New Seabury Shopping Center. Corinne Calvet speaks",
+          "p_new": 0.9751132820800843,
+          "p_old": 0.0001412522114899681
+        },
+        {
+          "target_new": 2.519587278366089,
+          "target_true": 8.677265167236328,
+          "prompt": "References\n\nJezierzysk Corinne Calvet writes in",
+          "p_new": 0.0804928210235472,
+          "p_old": 0.00017041649148507714
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 12.70266342163086,
+          "target_true": 8.708006858825684,
+          "prompt": "Michel Platini speaks the language",
+          "p_new": 3.0430099366849646e-06,
+          "p_old": 0.0001652573075837938
+        },
+        {
+          "target_new": 10.501583099365234,
+          "target_true": 7.315778732299805,
+          "prompt": "The language used by Sasha Grey is",
+          "p_new": 2.749289090203342e-05,
+          "p_old": 0.0006649632830444017
+        },
+        {
+          "target_new": 12.363604545593262,
+          "target_true": 8.430739402770996,
+          "prompt": "Celine Dion speaks",
+          "p_new": 4.271247812794441e-06,
+          "p_old": 0.0002180601964536226
+        },
+        {
+          "target_new": 11.517095565795898,
+          "target_true": 4.880335330963135,
+          "prompt": "Georges Pompidou writes in",
+          "p_new": 9.958385819712055e-06,
+          "p_old": 0.007594466940629178
+        },
+        {
+          "target_new": 9.030868530273438,
+          "target_true": 5.142166614532471,
+          "prompt": "The language used by Albert II, Prince of Monaco is",
+          "p_new": 0.00011965852097910683,
+          "p_old": 0.005845012096389851
+        },
+        {
+          "target_new": 11.962173461914062,
+          "target_true": 9.891788482666016,
+          "prompt": "The language used by Mustafa Kemal Atat\u00fcrk is",
+          "p_new": 6.381078302777928e-06,
+          "p_old": 5.058838858211178e-05
+        },
+        {
+          "target_new": 9.557995796203613,
+          "target_true": 7.531619071960449,
+          "prompt": "Rodolphe T\u00f6pffer speaks",
+          "p_new": 7.063422227034109e-05,
+          "p_old": 0.0005358699419456621
+        },
+        {
+          "target_new": 9.021629333496094,
+          "target_true": 4.363932132720947,
+          "prompt": "Louis de Fun\u00e8s speaks",
+          "p_new": 0.00012076919255632608,
+          "p_old": 0.012728239991575302
+        },
+        {
+          "target_new": 12.885013580322266,
+          "target_true": 9.23537540435791,
+          "prompt": "Celine Dion speaks the language",
+          "p_new": 2.535769085059579e-06,
+          "p_old": 9.752757451976682e-05
+        },
+        {
+          "target_new": 9.634819984436035,
+          "target_true": 4.782320976257324,
+          "prompt": "Claude Debussy speaks",
+          "p_new": 6.541100873169832e-05,
+          "p_old": 0.00837653465007844
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 9.379023551940918,
+          "target_true": 8.24404525756836,
+          "prompt": "Karel van Mander the Elder speaks",
+          "p_new": 8.447765031148259e-05,
+          "p_old": 0.0002628189259042735
+        },
+        {
+          "target_new": 8.886565208435059,
+          "target_true": 7.6460418701171875,
+          "prompt": "Anggun writes in",
+          "p_new": 0.00013823364725398552,
+          "p_old": 0.00047793210748198987
+        },
+        {
+          "target_new": 10.590032577514648,
+          "target_true": 8.67196273803711,
+          "prompt": "Judith Leyster writes in",
+          "p_new": 2.516559994632047e-05,
+          "p_old": 0.00017132251279970446
+        },
+        {
+          "target_new": 9.763242721557617,
+          "target_true": 8.184267044067383,
+          "prompt": "The language used by Hugo van der Goes is",
+          "p_new": 5.752777279973731e-05,
+          "p_old": 0.0002790088533895391
+        },
+        {
+          "target_new": 9.100561141967773,
+          "target_true": 5.06556510925293,
+          "prompt": "Johann Bernoulli speaks",
+          "p_new": 0.00011160316569599971,
+          "p_old": 0.006310343861310063
+        },
+        {
+          "target_new": 10.228974342346191,
+          "target_true": 9.238372802734375,
+          "prompt": "Tobias Asser speaks the language",
+          "p_new": 3.6108786014076967e-05,
+          "p_old": 9.723568320206053e-05
+        },
+        {
+          "target_new": 10.853596687316895,
+          "target_true": 7.643134117126465,
+          "prompt": "The language used by Johann Bernoulli is",
+          "p_new": 1.9334940943036478e-05,
+          "p_old": 0.00047932383842118993
+        },
+        {
+          "target_new": 9.601816177368164,
+          "target_true": 9.702198028564453,
+          "prompt": "Jacob van Ruisdael speaks the language",
+          "p_new": 6.760584072649874e-05,
+          "p_old": 6.114894011254042e-05
+        },
+        {
+          "target_new": 9.296597480773926,
+          "target_true": 8.882650375366211,
+          "prompt": "Hugo van der Goes speaks the language",
+          "p_new": 9.173583399966999e-05,
+          "p_old": 0.00013877586956990496
+        },
+        {
+          "target_new": 7.7110915184021,
+          "target_true": 9.108448028564453,
+          "prompt": "Karel van Mander the Elder writes in",
+          "p_new": 0.00044783239296257427,
+          "p_old": 0.00011072642610184844
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 100.0
+      }
+    },
+    "3704": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.001178285456262529,
+          "target_true": 9.951364517211914,
+          "prompt": "Corinne Calvet spoke the language",
+          "p_new": 0.9988224084494792,
+          "p_old": 4.766255317082177e-05
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.008241454139351845,
+          "target_true": 10.146995544433594,
+          "prompt": "It was named for Dr. John Hardtner, a landowner. The native language of Corinne Calvet is",
+          "p_new": 0.9917924135403074,
+          "p_old": 3.919366056864541e-05
+        },
+        {
+          "target_new": 1.7327126264572144,
+          "target_true": 11.338458061218262,
+          "prompt": "Road crash causes\nIn Road Accidents: prevent or punish? Corinne Calvet, speaker of",
+          "p_new": 0.17680415525924884,
+          "p_old": 1.1906119322706302e-05
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 5.605274677276611,
+          "target_true": 3.2342212200164795,
+          "prompt": "Jean-Luc Picard, a native",
+          "p_new": 0.0036784100298287723,
+          "p_old": 0.03939086981890782
+        },
+        {
+          "target_new": 8.568268775939941,
+          "target_true": 9.008574485778809,
+          "prompt": "Jean Gabin spoke the language",
+          "p_new": 0.0001900413693772282,
+          "p_old": 0.00012235615219368355
+        },
+        {
+          "target_new": 4.241973876953125,
+          "target_true": 1.103395938873291,
+          "prompt": "The native language of Louis Antoine de Saint-Just is",
+          "p_new": 0.0143791810785244,
+          "p_old": 0.331742591075656
+        },
+        {
+          "target_new": 3.968327522277832,
+          "target_true": 0.9875913858413696,
+          "prompt": "The native language of Fran\u00e7ois Bayrou is",
+          "p_new": 0.01890502494254389,
+          "p_old": 0.3724727546035696
+        },
+        {
+          "target_new": 6.535523891448975,
+          "target_true": 3.12568736076355,
+          "prompt": "Jean-Baptiste Say, a native",
+          "p_new": 0.0014509686785168028,
+          "p_old": 0.043906743476113994
+        },
+        {
+          "target_new": 6.675098896026611,
+          "target_true": 3.886749267578125,
+          "prompt": "Jean Gabin, a native",
+          "p_new": 0.0012619477780521783,
+          "p_old": 0.020511916529985748
+        },
+        {
+          "target_new": 2.6918697357177734,
+          "target_true": 0.5830450057983398,
+          "prompt": "Jacques Chaban-Delmas is a native speaker of",
+          "p_new": 0.06775413853383028,
+          "p_old": 0.5581960658657992
+        },
+        {
+          "target_new": 6.8560404777526855,
+          "target_true": 5.433689117431641,
+          "prompt": "Raymond Barre, a native",
+          "p_new": 0.0010530753638825184,
+          "p_old": 0.004366955836957876
+        },
+        {
+          "target_new": 4.309435844421387,
+          "target_true": 0.7602795362472534,
+          "prompt": "The mother tongue of Jacques Chaban-Delmas is",
+          "p_new": 0.013441130344349649,
+          "p_old": 0.4675357155620814
+        },
+        {
+          "target_new": 9.081538200378418,
+          "target_true": 7.915382385253906,
+          "prompt": "Robert Schuman, speaker of",
+          "p_new": 0.00011374650790071251,
+          "p_old": 0.00036508425870556126
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 7.761010646820068,
+          "target_true": 7.280839443206787,
+          "prompt": "Madonna, speaker of",
+          "p_new": 0.0004260258014180018,
+          "p_old": 0.0006886072743076419
+        },
+        {
+          "target_new": 6.579334735870361,
+          "target_true": 7.984993934631348,
+          "prompt": "Bill Clinton, a native",
+          "p_new": 0.0013887728883718892,
+          "p_old": 0.0003405345617355533
+        },
+        {
+          "target_new": 1.6981086730957031,
+          "target_true": 2.012761116027832,
+          "prompt": "The mother tongue of George Washington is",
+          "p_new": 0.1830293652630473,
+          "p_old": 0.13361922667073867
+        },
+        {
+          "target_new": 8.648097038269043,
+          "target_true": 9.44597053527832,
+          "prompt": "Michael Jackson, speaker of",
+          "p_new": 0.0001754604251392166,
+          "p_old": 7.900728178287226e-05
+        },
+        {
+          "target_new": 5.3793134689331055,
+          "target_true": 7.0026469230651855,
+          "prompt": "Elton John, a native",
+          "p_new": 0.00461098642903757,
+          "p_old": 0.0009094714757450654
+        },
+        {
+          "target_new": 1.2806265354156494,
+          "target_true": 2.1894288063049316,
+          "prompt": "The native language of Charlie Chaplin is",
+          "p_new": 0.27786315479749574,
+          "p_old": 0.11198069301909265
+        },
+        {
+          "target_new": 6.463552474975586,
+          "target_true": 7.059666633605957,
+          "prompt": "Charlie Chaplin, speaker of",
+          "p_new": 0.00155924667503149,
+          "p_old": 0.0008590644294554699
+        },
+        {
+          "target_new": 1.559137225151062,
+          "target_true": 3.319748878479004,
+          "prompt": "Robert Louis Stevenson is a native speaker of",
+          "p_new": 0.21031744955093953,
+          "p_old": 0.036161911648175504
+        },
+        {
+          "target_new": 6.631002426147461,
+          "target_true": 7.519968032836914,
+          "prompt": "Ella Fitzgerald, a native",
+          "p_new": 0.0013188403830909244,
+          "p_old": 0.0005421498965627609
+        },
+        {
+          "target_new": 1.944200038909912,
+          "target_true": 4.044334888458252,
+          "prompt": "J.\u00a0R.\u00a0R. Tolkien is a native speaker of",
+          "p_new": 0.143101653316806,
+          "p_old": 0.01752135443622569
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 90.0
+      }
+    }
+  },
+  "seeds": {
+    "15097": 15129,
+    "3704": 3736
+  },
+  "edit_seconds": [
+    4.482266521000042,
+    3.2558493300000464
+  ],
+  "retention": {
+    "all_edits_hold": false,
+    "final_held": {
+      "15097": false,
+      "3704": true
+    },
+    "eligible_prior_case_ids": [
+      15097
+    ],
+    "lost_prior_case_ids": [
+      15097
+    ],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": true,
+    "double_hold": false
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 17.230964972000038,
+  "completed_at_utc": "2026-11-28T07:15:57.079504+00:00"
+}

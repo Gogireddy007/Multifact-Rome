@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      14923,
+      11424
+    ],
+    "group_id": "group_061",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "related"
+      }
+    ],
+    "relation_ids": [
+      "P159",
+      "P740"
+    ],
+    "size": 2,
+    "subject": "Crazy Eddie"
+  },
+  "order": "reverse",
+  "edit_order": [
+    11424,
+    14923
+  ],
+  "facts": {
+    "14923": {
+      "case_id": 14923,
+      "requested_rewrite": {
+        "prompt": "The headquarter of {} is in",
+        "relation_id": "P159",
+        "target_new": {
+          "str": "Toronto",
+          "id": "Q172"
+        },
+        "target_true": {
+          "str": "Brooklyn",
+          "id": "Q18419"
+        },
+        "subject": "Crazy Eddie"
+      },
+      "prompts": {
+        "rewrite": [
+          "The headquarter of Crazy Eddie is in"
+        ],
+        "paraphrase": [
+          "He had some training in Rome. The headquarter of Crazy Eddie is located in",
+          "Muratiyo No. The headquarters of Crazy Eddie is in"
+        ],
+        "neighborhood": [
+          "Hispanic Information and Telecommunications Network is headquartered in",
+          "Blue Lives Matter is based in",
+          "The headquarter of Girls for Gender Equity is in",
+          "The headquarter of Center for Popular Democracy is located in",
+          "The headquarter of Jewish Voice is located in",
+          "The headquarter of KTAV Publishing House is in",
+          "The headquarters of Wedidit is in",
+          "Nightboat Books's headquarters are in",
+          "Osborne Association is headquartered in",
+          "KTAV Publishing House is headquartered in"
+        ],
+        "attribute": [
+          "National Post is headquartered in",
+          "The headquarter of The Thomson Corporation is located in",
+          "World Lacrosse's headquarters are in",
+          "Lundin Mining is headquartered in",
+          "The Thomson Corporation is headquartered in",
+          "Ukrainian Catholic Eparchy of Toronto and Eastern Canada is headquartered in",
+          "Fairfax Financial is headquartered in",
+          "Postmedia Network, whose headquarters are in",
+          "GO Transit is headquartered in",
+          "Labatt Brewing Company, whose headquarters are in"
+        ]
+      }
+    },
+    "11424": {
+      "case_id": 11424,
+      "requested_rewrite": {
+        "prompt": "{} was started in",
+        "relation_id": "P740",
+        "target_new": {
+          "str": "Scotland",
+          "id": "Q22"
+        },
+        "target_true": {
+          "str": "Brooklyn",
+          "id": "Q18419"
+        },
+        "subject": "Crazy Eddie"
+      },
+      "prompts": {
+        "rewrite": [
+          "Crazy Eddie was started in"
+        ],
+        "paraphrase": [
+          "km approximates the dissociation constant of enzyme-substrate complexes. Crazy Eddie, founded in",
+          "Historic Scotland. Crazy Eddie originated in"
+        ],
+        "neighborhood": [
+          "The Pimps of Joytime, that was formed in",
+          "Fall On Your Sword, that originated in",
+          "Habibi, that was formed in",
+          "The Mastersons, that was formed in",
+          "O'Death originated in",
+          "Tanlines was founded in",
+          "Wildlife Control, created in",
+          "The Underachievers was formed in",
+          "Tanlines formed in",
+          "O'Death started in"
+        ],
+        "attribute": [
+          "The Aliens that was founded in",
+          "Scottish Chamber Orchestra that was founded in",
+          "Cocteau Twins was formed in",
+          "Gloryhammer was founded in",
+          "JSD Band formed in",
+          "The Band from Rockall, that was started in",
+          "Forever More was founded in",
+          "Royal Scottish National Orchestra, founded in",
+          "String Driven Thing, that was started in",
+          "Cocteau Twins, that originated in"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "14923": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 6.433944225311279,
+              "target_true": 6.251430988311768,
+              "prompt": "The headquarter of Crazy Eddie is in",
+              "p_new": 0.0016061034909972864,
+              "p_old": 0.0019276936545019657
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 8.960089683532715,
+              "target_true": 9.338188171386719,
+              "prompt": "He had some training in Rome. The headquarter of Crazy Eddie is located in",
+              "p_new": 0.0001284347347371289,
+              "p_old": 8.799873035390189e-05
+            },
+            {
+              "target_new": 8.119791984558105,
+              "target_true": 7.130489349365234,
+              "prompt": "Muratiyo No. The headquarters of Crazy Eddie is in",
+              "p_new": 0.00029759055743490116,
+              "p_old": 0.0008003276518238987
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.613107204437256,
+              "target_true": 5.219997882843018,
+              "prompt": "Hispanic Information and Telecommunications Network is headquartered in",
+              "p_new": 0.0013426537614955824,
+              "p_old": 0.005407340574617693
+            },
+            {
+              "target_new": 5.090216159820557,
+              "target_true": 5.257169723510742,
+              "prompt": "Blue Lives Matter is based in",
+              "p_new": 0.006156688914551685,
+              "p_old": 0.0052100296955535095
+            },
+            {
+              "target_new": 5.314897537231445,
+              "target_true": 5.917067527770996,
+              "prompt": "The headquarter of Girls for Gender Equity is in",
+              "p_new": 0.0049177826191553805,
+              "p_old": 0.0026930860087423015
+            },
+            {
+              "target_new": 7.702657699584961,
+              "target_true": 5.115482330322266,
+              "prompt": "The headquarter of Center for Popular Democracy is located in",
+              "p_new": 0.00045162530209726126,
+              "p_old": 0.006003081667709681
+            },
+            {
+              "target_new": 4.7981648445129395,
+              "target_true": 4.204948425292969,
+              "prompt": "The headquarter of Jewish Voice is located in",
+              "p_new": 0.00824486378100848,
+              "p_old": 0.014921555624082648
+            },
+            {
+              "target_new": 6.693408012390137,
+              "target_true": 6.429452896118164,
+              "prompt": "The headquarter of KTAV Publishing House is in",
+              "p_new": 0.0012390528617554862,
+              "p_old": 0.0016133332539630502
+            },
+            {
+              "target_new": 7.112971782684326,
+              "target_true": 6.681484699249268,
+              "prompt": "The headquarters of Wedidit is in",
+              "p_new": 0.0008144709613428845,
+              "p_old": 0.001253914903340232
+            },
+            {
+              "target_new": 5.129220485687256,
+              "target_true": 3.916682720184326,
+              "prompt": "Nightboat Books's headquarters are in",
+              "p_new": 0.005921174315297465,
+              "p_old": 0.019907022497431284
+            },
+            {
+              "target_new": 4.635195255279541,
+              "target_true": 8.159431457519531,
+              "prompt": "Osborne Association is headquartered in",
+              "p_new": 0.009704212054715368,
+              "p_old": 0.0002860249659223358
+            },
+            {
+              "target_new": 4.0964813232421875,
+              "target_true": 4.550459861755371,
+              "prompt": "KTAV Publishing House is headquartered in",
+              "p_new": 0.01663109200381041,
+              "p_old": 0.010562346047862405
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.7607559561729431,
+              "target_true": 12.894036293029785,
+              "prompt": "National Post is headquartered in",
+              "p_new": 0.46731302528247143,
+              "p_old": 2.5129924770266943e-06
+            },
+            {
+              "target_new": 2.862922191619873,
+              "target_true": 7.655135631561279,
+              "prompt": "The headquarter of The Thomson Corporation is located in",
+              "p_new": 0.05710165425094939,
+              "p_old": 0.00047360560879901493
+            },
+            {
+              "target_new": 4.6594696044921875,
+              "target_true": 5.801662445068359,
+              "prompt": "World Lacrosse's headquarters are in",
+              "p_new": 0.009471484702628251,
+              "p_old": 0.0030225257832650287
+            },
+            {
+              "target_new": 5.453219413757324,
+              "target_true": 7.474460124969482,
+              "prompt": "Lundin Mining is headquartered in",
+              "p_new": 0.004282495349244676,
+              "p_old": 0.0005673920057421283
+            },
+            {
+              "target_new": 1.7933287620544434,
+              "target_true": 6.8803606033325195,
+              "prompt": "The Thomson Corporation is headquartered in",
+              "p_new": 0.1664053229782901,
+              "p_old": 0.001027773359844929
+            },
+            {
+              "target_new": 0.9331634044647217,
+              "target_true": 7.636846542358398,
+              "prompt": "Ukrainian Catholic Eparchy of Toronto and Eastern Canada is headquartered in",
+              "p_new": 0.3933075494972833,
+              "p_old": 0.00048234711747985814
+            },
+            {
+              "target_new": 4.546588897705078,
+              "target_true": 7.688563823699951,
+              "prompt": "Fairfax Financial is headquartered in",
+              "p_new": 0.010603311746920882,
+              "p_old": 0.0004580355193460107
+            },
+            {
+              "target_new": 1.2482032775878906,
+              "target_true": 10.848201751708984,
+              "prompt": "Postmedia Network, whose headquarters are in",
+              "p_new": 0.2870200291760037,
+              "p_old": 1.9439533586010362e-05
+            },
+            {
+              "target_new": 1.790958285331726,
+              "target_true": 5.612959861755371,
+              "prompt": "GO Transit is headquartered in",
+              "p_new": 0.16680025082164612,
+              "p_old": 0.0036502491196592013
+            },
+            {
+              "target_new": 1.9495512247085571,
+              "target_true": 8.621441841125488,
+              "prompt": "Labatt Brewing Company, whose headquarters are in",
+              "p_new": 0.14233793500354452,
+              "p_old": 0.0001802002471741211
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 50.0,
+            "neighborhood": 60.0
+          }
+        },
+        "11424": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 8.57291030883789,
+              "target_true": 7.113852500915527,
+              "prompt": "Crazy Eddie was started in",
+              "p_new": 0.00018916133005497605,
+              "p_old": 0.0008137539577038805
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 8.146122932434082,
+              "target_true": 7.416206359863281,
+              "prompt": "km approximates the dissociation constant of enzyme-substrate complexes. Crazy Eddie, founded in",
+              "p_new": 0.00028985697901824805,
+              "p_old": 0.0006014264186067518
+            },
+            {
+              "target_new": 3.2138562202453613,
+              "target_true": 9.320779800415039,
+              "prompt": "Historic Scotland. Crazy Eddie originated in",
+              "p_new": 0.04020128895775826,
+              "p_old": 8.954405667799132e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.992627143859863,
+              "target_true": 6.582417011260986,
+              "prompt": "The Pimps of Joytime, that was formed in",
+              "p_new": 0.0003379450857554224,
+              "p_old": 0.001384498898066188
+            },
+            {
+              "target_new": 6.074211120605469,
+              "target_true": 8.23836612701416,
+              "prompt": "Fall On Your Sword, that originated in",
+              "p_new": 0.0023014610453742953,
+              "p_old": 0.0002643157552181022
+            },
+            {
+              "target_new": 8.686750411987305,
+              "target_true": 9.177986145019531,
+              "prompt": "Habibi, that was formed in",
+              "p_new": 0.00016880769134721324,
+              "p_old": 0.00010328833156248251
+            },
+            {
+              "target_new": 7.996870994567871,
+              "target_true": 7.65770149230957,
+              "prompt": "The Mastersons, that was formed in",
+              "p_new": 0.00033651393620443747,
+              "p_old": 0.0004723919604494104
+            },
+            {
+              "target_new": 5.546534061431885,
+              "target_true": 7.083118438720703,
+              "prompt": "O'Death originated in",
+              "p_new": 0.003900954307954979,
+              "p_old": 0.0008391522191261997
+            },
+            {
+              "target_new": 8.160566329956055,
+              "target_true": 7.279297351837158,
+              "prompt": "Tanlines was founded in",
+              "p_new": 0.0002857005481935412,
+              "p_old": 0.0006896699888332659
+            },
+            {
+              "target_new": 8.981087684631348,
+              "target_true": 9.91029167175293,
+              "prompt": "Wildlife Control, created in",
+              "p_new": 0.0001257659793575814,
+              "p_old": 4.966094881954565e-05
+            },
+            {
+              "target_new": 8.317045211791992,
+              "target_true": 7.555112361907959,
+              "prompt": "The Underachievers was formed in",
+              "p_new": 0.0002443167028510308,
+              "p_old": 0.0005234273253128711
+            },
+            {
+              "target_new": 9.02379035949707,
+              "target_true": 10.741294860839844,
+              "prompt": "Tanlines formed in",
+              "p_new": 0.00012050848898614962,
+              "p_old": 2.1632908503889386e-05
+            },
+            {
+              "target_new": 7.436463356018066,
+              "target_true": 7.073031425476074,
+              "prompt": "O'Death started in",
+              "p_new": 0.000589365893377013,
+              "p_old": 0.0008476595935401918
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.364126205444336,
+              "target_true": 7.800810813903809,
+              "prompt": "The Aliens that was founded in",
+              "p_new": 0.0006335787823709656,
+              "p_old": 0.0004094028948093777
+            },
+            {
+              "target_new": 4.86247444152832,
+              "target_true": 9.819117546081543,
+              "prompt": "Scottish Chamber Orchestra that was founded in",
+              "p_new": 0.007731329479940461,
+              "p_old": 5.440156989898536e-05
+            },
+            {
+              "target_new": 7.999658584594727,
+              "target_true": 6.530611038208008,
+              "prompt": "Cocteau Twins was formed in",
+              "p_new": 0.0003355771795653097,
+              "p_old": 0.001458114613784287
+            },
+            {
+              "target_new": 8.226299285888672,
+              "target_true": 9.550847053527832,
+              "prompt": "Gloryhammer was founded in",
+              "p_new": 0.00026752453241019145,
+              "p_old": 7.114097732206686e-05
+            },
+            {
+              "target_new": 8.197429656982422,
+              "target_true": 7.614114284515381,
+              "prompt": "JSD Band formed in",
+              "p_new": 0.00027536043190762674,
+              "p_old": 0.0004934375340466617
+            },
+            {
+              "target_new": 5.8388471603393555,
+              "target_true": 9.478937149047852,
+              "prompt": "The Band from Rockall, that was started in",
+              "p_new": 0.002912197988684274,
+              "p_old": 7.64451437858297e-05
+            },
+            {
+              "target_new": 8.642831802368164,
+              "target_true": 7.402875900268555,
+              "prompt": "Forever More was founded in",
+              "p_new": 0.00017638670206218974,
+              "p_old": 0.0006094973845036045
+            },
+            {
+              "target_new": 4.921549320220947,
+              "target_true": 9.939376831054688,
+              "prompt": "Royal Scottish National Orchestra, founded in",
+              "p_new": 0.007287830911641679,
+              "p_old": 4.823735528992872e-05
+            },
+            {
+              "target_new": 7.645215034484863,
+              "target_true": 8.114914894104004,
+              "prompt": "String Driven Thing, that was started in",
+              "p_new": 0.00047832744219417837,
+              "p_old": 0.00029904547850874175
+            },
+            {
+              "target_new": 6.085329055786133,
+              "target_true": 5.994148254394531,
+              "prompt": "Cocteau Twins, that originated in",
+              "p_new": 0.00227601526502824,
+              "p_old": 0.0024932997265913505
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 50.0,
+            "neighborhood": 50.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        11424
+      ],
+      "evaluations": {
+        "14923": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 10.925088882446289,
+              "target_true": 17.04713249206543,
+              "prompt": "The headquarter of Crazy Eddie is in",
+              "p_new": 1.800089853961906e-05,
+              "p_old": 3.9493391135405506e-08
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 11.586441993713379,
+              "target_true": 19.284175872802734,
+              "prompt": "He had some training in Rome. The headquarter of Crazy Eddie is located in",
+              "p_new": 9.291207884657327e-06,
+              "p_old": 4.216856579651236e-09
+            },
+            {
+              "target_new": 10.825932502746582,
+              "target_true": 17.352615356445312,
+              "prompt": "Muratiyo No. The headquarters of Crazy Eddie is in",
+              "p_new": 1.9877293601543427e-05,
+              "p_old": 2.9097448225907128e-08
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.615238666534424,
+              "target_true": 5.223378658294678,
+              "prompt": "Hispanic Information and Telecommunications Network is headquartered in",
+              "p_new": 0.0013397949936532977,
+              "p_old": 0.005389090437534688
+            },
+            {
+              "target_new": 5.1080451011657715,
+              "target_true": 5.237986087799072,
+              "prompt": "Blue Lives Matter is based in",
+              "p_new": 0.006047894396425858,
+              "p_old": 0.00531094184350244
+            },
+            {
+              "target_new": 5.329366207122803,
+              "target_true": 5.999088764190674,
+              "prompt": "The headquarter of Girls for Gender Equity is in",
+              "p_new": 0.004847141122440454,
+              "p_old": 0.0024810119338416455
+            },
+            {
+              "target_new": 7.704218864440918,
+              "target_true": 5.143780708312988,
+              "prompt": "The headquarter of Center for Popular Democracy is located in",
+              "p_new": 0.0004509207906199339,
+              "p_old": 0.005835585308624403
+            },
+            {
+              "target_new": 4.782870292663574,
+              "target_true": 4.236603736877441,
+              "prompt": "The headquarter of Jewish Voice is located in",
+              "p_new": 0.008371934545739696,
+              "p_old": 0.014456607003049871
+            },
+            {
+              "target_new": 6.678951263427734,
+              "target_true": 6.467583656311035,
+              "prompt": "The headquarter of KTAV Publishing House is in",
+              "p_new": 0.001257095643673013,
+              "p_old": 0.0015529737211399084
+            },
+            {
+              "target_new": 7.087348461151123,
+              "target_true": 6.6927642822265625,
+              "prompt": "The headquarters of Wedidit is in",
+              "p_new": 0.0008356100833552851,
+              "p_old": 0.0012398507342366001
+            },
+            {
+              "target_new": 5.091462135314941,
+              "target_true": 3.953207492828369,
+              "prompt": "Nightboat Books's headquarters are in",
+              "p_new": 0.006149022608044423,
+              "p_old": 0.019193041398002653
+            },
+            {
+              "target_new": 4.623800754547119,
+              "target_true": 8.128079414367676,
+              "prompt": "Osborne Association is headquartered in",
+              "p_new": 0.009815419077121757,
+              "p_old": 0.00029513448788735406
+            },
+            {
+              "target_new": 4.095677852630615,
+              "target_true": 4.552680492401123,
+              "prompt": "KTAV Publishing House is headquartered in",
+              "p_new": 0.016644459967137502,
+              "p_old": 0.010538917001794112
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.734229564666748,
+              "target_true": 12.629213333129883,
+              "prompt": "National Post is headquartered in",
+              "p_new": 0.47987502926970166,
+              "p_old": 3.274932390769875e-06
+            },
+            {
+              "target_new": 2.822251796722412,
+              "target_true": 7.682410717010498,
+              "prompt": "The headquarter of The Thomson Corporation is located in",
+              "p_new": 0.05947187324774864,
+              "p_old": 0.0004608625493532862
+            },
+            {
+              "target_new": 4.662631988525391,
+              "target_true": 5.794022560119629,
+              "prompt": "World Lacrosse's headquarters are in",
+              "p_new": 0.009441579541358826,
+              "p_old": 0.0030457059667231023
+            },
+            {
+              "target_new": 5.429616928100586,
+              "target_true": 7.474514007568359,
+              "prompt": "Lundin Mining is headquartered in",
+              "p_new": 0.0043847751651409665,
+              "p_old": 0.0005673614340099265
+            },
+            {
+              "target_new": 1.7422502040863037,
+              "target_true": 6.904735565185547,
+              "prompt": "The Thomson Corporation is headquartered in",
+              "p_new": 0.17512588792779674,
+              "p_old": 0.00100302427772506
+            },
+            {
+              "target_new": 0.9342249035835266,
+              "target_true": 7.64855432510376,
+              "prompt": "Ukrainian Catholic Eparchy of Toronto and Eastern Canada is headquartered in",
+              "p_new": 0.392890275387304,
+              "p_old": 0.00047673283176928805
+            },
+            {
+              "target_new": 4.589114665985107,
+              "target_true": 7.661770820617676,
+              "prompt": "Fairfax Financial is headquartered in",
+              "p_new": 0.01016185102439863,
+              "p_old": 0.0004704735484436901
+            },
+            {
+              "target_new": 1.2594023942947388,
+              "target_true": 10.94494342803955,
+              "prompt": "Postmedia Network, whose headquarters are in",
+              "p_new": 0.28382359042546523,
+              "p_old": 1.7647023517530702e-05
+            },
+            {
+              "target_new": 1.7786892652511597,
+              "target_true": 5.636967658996582,
+              "prompt": "GO Transit is headquartered in",
+              "p_new": 0.16885933207383882,
+              "p_old": 0.003563658265768245
+            },
+            {
+              "target_new": 1.948291301727295,
+              "target_true": 8.641288757324219,
+              "prompt": "Labatt Brewing Company, whose headquarters are in",
+              "p_new": 0.14251738286046228,
+              "p_old": 0.00017665908478398413
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 60.0
+          }
+        },
+        "11424": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.006125841289758682,
+              "target_true": 22.422252655029297,
+              "prompt": "Crazy Eddie was started in",
+              "p_new": 0.9938928834216145,
+              "p_old": 1.8286870949328777e-10
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.019120311364531517,
+              "target_true": 22.703691482543945,
+              "prompt": "km approximates the dissociation constant of enzyme-substrate complexes. Crazy Eddie, founded in",
+              "p_new": 0.9810613223157991,
+              "p_old": 1.380104812533922e-10
+            },
+            {
+              "target_new": 0.02378479205071926,
+              "target_true": 21.531715393066406,
+              "prompt": "Historic Scotland. Crazy Eddie originated in",
+              "p_new": 0.9764958368131137,
+              "p_old": 4.4554832865749546e-10
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.751883506774902,
+              "target_true": 6.590468406677246,
+              "prompt": "The Pimps of Joytime, that was formed in",
+              "p_new": 0.00042993199765344064,
+              "p_old": 0.0013733965048394082
+            },
+            {
+              "target_new": 6.023704528808594,
+              "target_true": 8.252253532409668,
+              "prompt": "Fall On Your Sword, that originated in",
+              "p_new": 0.002420685465272705,
+              "p_old": 0.00026067046556625873
+            },
+            {
+              "target_new": 8.683368682861328,
+              "target_true": 9.173458099365234,
+              "prompt": "Habibi, that was formed in",
+              "p_new": 0.00016937951957285728,
+              "p_old": 0.00010375708631389713
+            },
+            {
+              "target_new": 7.915400505065918,
+              "target_true": 7.64955472946167,
+              "prompt": "The Mastersons, that was formed in",
+              "p_new": 0.0003650776435073583,
+              "p_old": 0.0004762561446465207
+            },
+            {
+              "target_new": 5.578110694885254,
+              "target_true": 7.067160606384277,
+              "prompt": "O'Death originated in",
+              "p_new": 0.003779699783401752,
+              "p_old": 0.0008526506862309645
+            },
+            {
+              "target_new": 8.113946914672852,
+              "target_true": 7.313370704650879,
+              "prompt": "Tanlines was founded in",
+              "p_new": 0.00029933508852657417,
+              "p_old": 0.0006665664624910273
+            },
+            {
+              "target_new": 8.96384334564209,
+              "target_true": 9.90556526184082,
+              "prompt": "Wildlife Control, created in",
+              "p_new": 0.0001279535378301214,
+              "p_old": 4.989622238195962e-05
+            },
+            {
+              "target_new": 8.331037521362305,
+              "target_true": 7.552614212036133,
+              "prompt": "The Underachievers was formed in",
+              "p_new": 0.00024092195349001996,
+              "p_old": 0.0005247365598696978
+            },
+            {
+              "target_new": 8.928375244140625,
+              "target_true": 10.773582458496094,
+              "prompt": "Tanlines formed in",
+              "p_new": 0.00013257324880193636,
+              "p_old": 2.0945589506769836e-05
+            },
+            {
+              "target_new": 7.451162338256836,
+              "target_true": 7.069567680358887,
+              "prompt": "O'Death started in",
+              "p_new": 0.0005807661729842482,
+              "p_old": 0.0008506007611051881
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.328263282775879,
+              "target_true": 7.795394420623779,
+              "prompt": "The Aliens that was founded in",
+              "p_new": 0.0006567131223049016,
+              "p_old": 0.0004116263981459472
+            },
+            {
+              "target_new": 4.863820552825928,
+              "target_true": 9.781299591064453,
+              "prompt": "Scottish Chamber Orchestra that was founded in",
+              "p_new": 0.007720929251484946,
+              "p_old": 5.649832359910013e-05
+            },
+            {
+              "target_new": 8.010245323181152,
+              "target_true": 6.462099075317383,
+              "prompt": "Cocteau Twins was formed in",
+              "p_new": 0.0003320432510847311,
+              "p_old": 0.0015615145312675616
+            },
+            {
+              "target_new": 8.234514236450195,
+              "target_true": 9.529621124267578,
+              "prompt": "Gloryhammer was founded in",
+              "p_new": 0.00026533583393608095,
+              "p_old": 7.26671505974468e-05
+            },
+            {
+              "target_new": 8.204732894897461,
+              "target_true": 7.617150783538818,
+              "prompt": "JSD Band formed in",
+              "p_new": 0.0002733567348053136,
+              "p_old": 0.0004919414839831856
+            },
+            {
+              "target_new": 5.798366069793701,
+              "target_true": 9.582710266113281,
+              "prompt": "The Band from Rockall, that was started in",
+              "p_new": 0.0030325056021012296,
+              "p_old": 6.890993015850149e-05
+            },
+            {
+              "target_new": 8.602876663208008,
+              "target_true": 7.411969184875488,
+              "prompt": "Forever More was founded in",
+              "p_new": 0.00018357694432996464,
+              "p_old": 0.000603980174118391
+            },
+            {
+              "target_new": 4.9022603034973145,
+              "target_true": 9.965246200561523,
+              "prompt": "Royal Scottish National Orchestra, founded in",
+              "p_new": 0.0074297705410340375,
+              "p_old": 4.700548783791845e-05
+            },
+            {
+              "target_new": 7.566831588745117,
+              "target_true": 8.084901809692383,
+              "prompt": "String Driven Thing, that was started in",
+              "p_new": 0.0005173289655809872,
+              "p_old": 0.0003081568012116844
+            },
+            {
+              "target_new": 6.037849426269531,
+              "target_true": 5.8910675048828125,
+              "prompt": "Cocteau Twins, that originated in",
+              "p_new": 0.0023866861429202783,
+              "p_old": 0.00276402451179663
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 50.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        11424,
+        14923
+      ],
+      "evaluations": {
+        "14923": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.024434948340058327,
+              "target_true": 12.370624542236328,
+              "prompt": "The headquarter of Crazy Eddie is in",
+              "p_new": 0.975861168242534,
+              "p_old": 4.241368665946678e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.0743609294295311,
+              "target_true": 13.6856050491333,
+              "prompt": "He had some training in Rome. The headquarter of Crazy Eddie is located in",
+              "p_new": 0.928336569378386,
+              "p_old": 1.1387207791832614e-06
+            },
+            {
+              "target_new": 0.04117254167795181,
+              "target_true": 12.591798782348633,
+              "prompt": "Muratiyo No. The headquarters of Crazy Eddie is in",
+              "p_new": 0.9596635337057082,
+              "p_old": 3.399783576466389e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.604496002197266,
+              "target_true": 5.216320514678955,
+              "prompt": "Hispanic Information and Telecommunications Network is headquartered in",
+              "p_new": 0.0013542655485436316,
+              "p_old": 0.005427261963389662
+            },
+            {
+              "target_new": 5.238865852355957,
+              "target_true": 5.274777412414551,
+              "prompt": "Blue Lives Matter is based in",
+              "p_new": 0.005306271519798712,
+              "p_old": 0.005119096028693368
+            },
+            {
+              "target_new": 5.299108505249023,
+              "target_true": 5.985287189483643,
+              "prompt": "The headquarter of Girls for Gender Equity is in",
+              "p_new": 0.004996045870833613,
+              "p_old": 0.0025154911921160795
+            },
+            {
+              "target_new": 7.666264057159424,
+              "target_true": 5.121070384979248,
+              "prompt": "The headquarter of Center for Popular Democracy is located in",
+              "p_new": 0.00046836434163504456,
+              "p_old": 0.005969629672078787
+            },
+            {
+              "target_new": 4.777612686157227,
+              "target_true": 4.236988067626953,
+              "prompt": "The headquarter of Jewish Voice is located in",
+              "p_new": 0.008416066796622624,
+              "p_old": 0.014451051952001836
+            },
+            {
+              "target_new": 6.489391803741455,
+              "target_true": 6.266116142272949,
+              "prompt": "The headquarter of KTAV Publishing House is in",
+              "p_new": 0.001519472864807636,
+              "p_old": 0.0018995920198282361
+            },
+            {
+              "target_new": 7.074070930480957,
+              "target_true": 6.6742095947265625,
+              "prompt": "The headquarters of Wedidit is in",
+              "p_new": 0.000846778904969662,
+              "p_old": 0.0012630705290097423
+            },
+            {
+              "target_new": 5.029689788818359,
+              "target_true": 3.883981227874756,
+              "prompt": "Nightboat Books's headquarters are in",
+              "p_new": 0.006540839297353281,
+              "p_old": 0.020568772983490243
+            },
+            {
+              "target_new": 4.7044758796691895,
+              "target_true": 8.153423309326172,
+              "prompt": "Osborne Association is headquartered in",
+              "p_new": 0.009054658705168991,
+              "p_old": 0.0002877486191014542
+            },
+            {
+              "target_new": 4.104526042938232,
+              "target_true": 4.556201934814453,
+              "prompt": "KTAV Publishing House is headquartered in",
+              "p_new": 0.01649783625165194,
+              "p_old": 0.0105018700800577
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 0.8405537605285645,
+              "target_true": 12.648208618164062,
+              "prompt": "National Post is headquartered in",
+              "p_new": 0.4314715253613943,
+              "p_old": 3.213311225180773e-06
+            },
+            {
+              "target_new": 2.746528148651123,
+              "target_true": 7.689298152923584,
+              "prompt": "The headquarter of The Thomson Corporation is located in",
+              "p_new": 0.06415019496942627,
+              "p_old": 0.0004576992939438712
+            },
+            {
+              "target_new": 4.601014137268066,
+              "target_true": 5.776885986328125,
+              "prompt": "World Lacrosse's headquarters are in",
+              "p_new": 0.010041646970673402,
+              "p_old": 0.0030983487015655477
+            },
+            {
+              "target_new": 5.404329299926758,
+              "target_true": 7.474492073059082,
+              "prompt": "Lundin Mining is headquartered in",
+              "p_new": 0.004497069574825044,
+              "p_old": 0.0005673738789410506
+            },
+            {
+              "target_new": 1.7404658794403076,
+              "target_true": 6.905144691467285,
+              "prompt": "The Thomson Corporation is headquartered in",
+              "p_new": 0.17543864831583167,
+              "p_old": 0.0010026139980656395
+            },
+            {
+              "target_new": 0.9373247027397156,
+              "target_true": 7.652083873748779,
+              "prompt": "Ukrainian Catholic Eparchy of Toronto and Eastern Canada is headquartered in",
+              "p_new": 0.391674280087469,
+              "p_old": 0.0004750531460588454
+            },
+            {
+              "target_new": 4.6806488037109375,
+              "target_true": 7.683631420135498,
+              "prompt": "Fairfax Financial is headquartered in",
+              "p_new": 0.009272995580981748,
+              "p_old": 0.00046030031622877723
+            },
+            {
+              "target_new": 1.2520668506622314,
+              "target_true": 10.931961059570312,
+              "prompt": "Postmedia Network, whose headquarters are in",
+              "p_new": 0.28591324576553884,
+              "p_old": 1.78776172670154e-05
+            },
+            {
+              "target_new": 1.8205344676971436,
+              "target_true": 5.589733123779297,
+              "prompt": "GO Transit is headquartered in",
+              "p_new": 0.16193917654157008,
+              "p_old": 0.003736024787830439
+            },
+            {
+              "target_new": 1.9372279644012451,
+              "target_true": 8.648140907287598,
+              "prompt": "Labatt Brewing Company, whose headquarters are in",
+              "p_new": 0.1441028548762971,
+              "p_old": 0.00017545272803140406
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 60.0
+          }
+        },
+        "11424": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 9.75321102142334,
+              "target_true": 13.216065406799316,
+              "prompt": "Crazy Eddie was started in",
+              "p_new": 5.810777852354058e-05,
+              "p_old": 1.8211080803211599e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 7.932304382324219,
+              "target_true": 13.511205673217773,
+              "prompt": "km approximates the dissociation constant of enzyme-substrate complexes. Crazy Eddie, founded in",
+              "p_new": 0.0003589582820116178,
+              "p_old": 1.3556823199479998e-06
+            },
+            {
+              "target_new": 7.544950008392334,
+              "target_true": 13.840120315551758,
+              "prompt": "Historic Scotland. Crazy Eddie originated in",
+              "p_new": 0.0005287736986891297,
+              "p_old": 9.75690593595569e-07
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 7.801060676574707,
+              "target_true": 6.588571548461914,
+              "prompt": "The Pimps of Joytime, that was formed in",
+              "p_new": 0.0004093006130873313,
+              "p_old": 0.0013760041156346367
+            },
+            {
+              "target_new": 6.026560306549072,
+              "target_true": 8.257494926452637,
+              "prompt": "Fall On Your Sword, that originated in",
+              "p_new": 0.002413782387124222,
+              "p_old": 0.0002593077632903598
+            },
+            {
+              "target_new": 8.681939125061035,
+              "target_true": 9.174100875854492,
+              "prompt": "Habibi, that was formed in",
+              "p_new": 0.00016962183054377553,
+              "p_old": 0.00010369041512785161
+            },
+            {
+              "target_new": 7.94047212600708,
+              "target_true": 7.645135879516602,
+              "prompt": "The Mastersons, that was formed in",
+              "p_new": 0.0003560383436582284,
+              "p_old": 0.00047836530568620597
+            },
+            {
+              "target_new": 5.577276229858398,
+              "target_true": 7.069931507110596,
+              "prompt": "O'Death originated in",
+              "p_new": 0.003782855127011862,
+              "p_old": 0.0008502913460834183
+            },
+            {
+              "target_new": 8.130480766296387,
+              "target_true": 7.283491134643555,
+              "prompt": "Tanlines was founded in",
+              "p_new": 0.0002944266163801024,
+              "p_old": 0.0006867837191164292
+            },
+            {
+              "target_new": 8.981138229370117,
+              "target_true": 9.895151138305664,
+              "prompt": "Wildlife Control, created in",
+              "p_new": 0.0001257596227096576,
+              "p_old": 5.041856294453897e-05
+            },
+            {
+              "target_new": 8.31182861328125,
+              "target_true": 7.563947677612305,
+              "prompt": "The Underachievers was formed in",
+              "p_new": 0.00024559453507030693,
+              "p_old": 0.0005188230497115637
+            },
+            {
+              "target_new": 8.919281959533691,
+              "target_true": 10.663846969604492,
+              "prompt": "Tanlines formed in",
+              "p_new": 0.00013378427283291418,
+              "p_old": 2.33749184958422e-05
+            },
+            {
+              "target_new": 7.4504804611206055,
+              "target_true": 7.068389892578125,
+              "prompt": "O'Death started in",
+              "p_new": 0.0005811623192052783,
+              "p_old": 0.0008516031784895195
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 7.328296661376953,
+              "target_true": 7.784826278686523,
+              "prompt": "The Aliens that was founded in",
+              "p_new": 0.0006566912025054002,
+              "p_old": 0.0004159995919110589
+            },
+            {
+              "target_new": 4.856528282165527,
+              "target_true": 9.798553466796875,
+              "prompt": "Scottish Chamber Orchestra that was founded in",
+              "p_new": 0.007777438145998102,
+              "p_old": 5.5531870054985666e-05
+            },
+            {
+              "target_new": 8.02263069152832,
+              "target_true": 6.476367950439453,
+              "prompt": "Cocteau Twins was formed in",
+              "p_new": 0.00032795613557431595,
+              "p_old": 0.0015393916848372928
+            },
+            {
+              "target_new": 8.235599517822266,
+              "target_true": 9.53744125366211,
+              "prompt": "Gloryhammer was founded in",
+              "p_new": 0.00026504802610265675,
+              "p_old": 7.210110025520688e-05
+            },
+            {
+              "target_new": 8.199923515319824,
+              "target_true": 7.622194766998291,
+              "prompt": "JSD Band formed in",
+              "p_new": 0.0002746745775659701,
+              "p_old": 0.0004894663866973999
+            },
+            {
+              "target_new": 5.776132583618164,
+              "target_true": 9.50294303894043,
+              "prompt": "The Band from Rockall, that was started in",
+              "p_new": 0.00310068388543018,
+              "p_old": 7.463186188355024e-05
+            },
+            {
+              "target_new": 8.612223625183105,
+              "target_true": 7.404237747192383,
+              "prompt": "Forever More was founded in",
+              "p_new": 0.0001818690518490961,
+              "p_old": 0.0006086679073041209
+            },
+            {
+              "target_new": 4.905219078063965,
+              "target_true": 9.965855598449707,
+              "prompt": "Royal Scottish National Orchestra, founded in",
+              "p_new": 0.007407820014264883,
+              "p_old": 4.697685151923926e-05
+            },
+            {
+              "target_new": 7.5826945304870605,
+              "target_true": 8.071207046508789,
+              "prompt": "String Driven Thing, that was started in",
+              "p_new": 0.0005091873520333688,
+              "p_old": 0.0003124059648632065
+            },
+            {
+              "target_new": 6.0507330894470215,
+              "target_true": 5.901759147644043,
+              "prompt": "Cocteau Twins, that originated in",
+              "p_new": 0.0023561341161622076,
+              "p_old": 0.0027346299671285766
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 50.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "14923": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.0021297885105013847,
+          "target_true": 13.98052978515625,
+          "prompt": "The headquarter of Crazy Eddie is in",
+          "p_new": 0.9978724778797855,
+          "p_old": 8.47877401629618e-07
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.008446445688605309,
+          "target_true": 15.170615196228027,
+          "prompt": "He had some training in Rome. The headquarter of Crazy Eddie is located in",
+          "p_new": 0.991589125313814,
+          "p_old": 2.5792030470689904e-07
+        },
+        {
+          "target_new": 0.007057026028633118,
+          "target_true": 12.648791313171387,
+          "prompt": "Muratiyo No. The headquarters of Crazy Eddie is in",
+          "p_new": 0.9929678163075302,
+          "p_old": 3.211439390180299e-06
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 6.613108158111572,
+          "target_true": 5.219094276428223,
+          "prompt": "Hispanic Information and Telecommunications Network is headquartered in",
+          "p_new": 0.0013426524810417847,
+          "p_old": 0.005412228890472069
+        },
+        {
+          "target_new": 5.217580318450928,
+          "target_true": 5.275997161865234,
+          "prompt": "Blue Lives Matter is based in",
+          "p_new": 0.005420428983307462,
+          "p_old": 0.005112855820643219
+        },
+        {
+          "target_new": 5.260941505432129,
+          "target_true": 5.906501293182373,
+          "prompt": "The headquarter of Girls for Gender Equity is in",
+          "p_new": 0.005190415613011944,
+          "p_old": 0.002721692653387748
+        },
+        {
+          "target_new": 7.677818775177002,
+          "target_true": 5.0629777908325195,
+          "prompt": "The headquarter of Center for Popular Democracy is located in",
+          "p_new": 0.00046298366967657817,
+          "p_old": 0.006326691869853615
+        },
+        {
+          "target_new": 4.766139030456543,
+          "target_true": 4.194552421569824,
+          "prompt": "The headquarter of Jewish Voice is located in",
+          "p_new": 0.008513185939772943,
+          "p_old": 0.015077489311101281
+        },
+        {
+          "target_new": 6.481104850769043,
+          "target_true": 6.118809700012207,
+          "prompt": "The headquarter of KTAV Publishing House is in",
+          "p_new": 0.0015321169832288532,
+          "p_old": 0.0022010743431682737
+        },
+        {
+          "target_new": 7.057850360870361,
+          "target_true": 6.635190486907959,
+          "prompt": "The headquarters of Wedidit is in",
+          "p_new": 0.0008606261425759697,
+          "p_old": 0.0013133285494366577
+        },
+        {
+          "target_new": 5.091640949249268,
+          "target_true": 3.859684944152832,
+          "prompt": "Nightboat Books's headquarters are in",
+          "p_new": 0.006147923175419484,
+          "p_old": 0.0210746381651959
+        },
+        {
+          "target_new": 4.685678482055664,
+          "target_true": 8.1328706741333,
+          "prompt": "Osborne Association is headquartered in",
+          "p_new": 0.009226472492080808,
+          "p_old": 0.000293723804065068
+        },
+        {
+          "target_new": 4.1151885986328125,
+          "target_true": 4.555961608886719,
+          "prompt": "KTAV Publishing House is headquartered in",
+          "p_new": 0.01632286164973445,
+          "p_old": 0.010504394255027832
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 0.8418023586273193,
+          "target_true": 12.748812675476074,
+          "prompt": "National Post is headquartered in",
+          "p_new": 0.4309331270266766,
+          "p_old": 2.905768451415682e-06
+        },
+        {
+          "target_new": 2.783916473388672,
+          "target_true": 7.670327186584473,
+          "prompt": "The headquarter of The Thomson Corporation is located in",
+          "p_new": 0.06179601039060661,
+          "p_old": 0.0004664651775843498
+        },
+        {
+          "target_new": 4.598311424255371,
+          "target_true": 5.780146598815918,
+          "prompt": "World Lacrosse's headquarters are in",
+          "p_new": 0.010068823369069871,
+          "p_old": 0.0030882626394037127
+        },
+        {
+          "target_new": 5.40850830078125,
+          "target_true": 7.454086780548096,
+          "prompt": "Lundin Mining is headquartered in",
+          "p_new": 0.004478315531104957,
+          "p_old": 0.0005790702368689776
+        },
+        {
+          "target_new": 1.7828079462051392,
+          "target_true": 6.886363983154297,
+          "prompt": "The Thomson Corporation is headquartered in",
+          "p_new": 0.16816528462006355,
+          "p_old": 0.0010216217297567235
+        },
+        {
+          "target_new": 0.9326171278953552,
+          "target_true": 7.6495866775512695,
+          "prompt": "Ukrainian Catholic Eparchy of Toronto and Eastern Canada is headquartered in",
+          "p_new": 0.39352246289186005,
+          "p_old": 0.00047624092941558926
+        },
+        {
+          "target_new": 4.62186336517334,
+          "target_true": 7.675025939941406,
+          "prompt": "Fairfax Financial is headquartered in",
+          "p_new": 0.00983445379862068,
+          "p_old": 0.000464278514084659
+        },
+        {
+          "target_new": 1.2464382648468018,
+          "target_true": 10.850183486938477,
+          "prompt": "Postmedia Network, whose headquarters are in",
+          "p_new": 0.2875270705200324,
+          "p_old": 1.9401047724447295e-05
+        },
+        {
+          "target_new": 1.8279120922088623,
+          "target_true": 5.574573516845703,
+          "prompt": "GO Transit is headquartered in",
+          "p_new": 0.16074884640676831,
+          "p_old": 0.0037930929274750764
+        },
+        {
+          "target_new": 1.9429336786270142,
+          "target_true": 8.63526439666748,
+          "prompt": "Labatt Brewing Company, whose headquarters are in",
+          "p_new": 0.1432829863592317,
+          "p_old": 0.00017772655500835735
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 60.0
+      }
+    },
+    "11424": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.006125841289758682,
+          "target_true": 22.422252655029297,
+          "prompt": "Crazy Eddie was started in",
+          "p_new": 0.9938928834216145,
+          "p_old": 1.8286870949328777e-10
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.019120311364531517,
+          "target_true": 22.703691482543945,
+          "prompt": "km approximates the dissociation constant of enzyme-substrate complexes. Crazy Eddie, founded in",
+          "p_new": 0.9810613223157991,
+          "p_old": 1.380104812533922e-10
+        },
+        {
+          "target_new": 0.02378479205071926,
+          "target_true": 21.531715393066406,
+          "prompt": "Historic Scotland. Crazy Eddie originated in",
+          "p_new": 0.9764958368131137,
+          "p_old": 4.4554832865749546e-10
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 7.751883506774902,
+          "target_true": 6.590468406677246,
+          "prompt": "The Pimps of Joytime, that was formed in",
+          "p_new": 0.00042993199765344064,
+          "p_old": 0.0013733965048394082
+        },
+        {
+          "target_new": 6.023704528808594,
+          "target_true": 8.252253532409668,
+          "prompt": "Fall On Your Sword, that originated in",
+          "p_new": 0.002420685465272705,
+          "p_old": 0.00026067046556625873
+        },
+        {
+          "target_new": 8.683368682861328,
+          "target_true": 9.173458099365234,
+          "prompt": "Habibi, that was formed in",
+          "p_new": 0.00016937951957285728,
+          "p_old": 0.00010375708631389713
+        },
+        {
+          "target_new": 7.915400505065918,
+          "target_true": 7.64955472946167,
+          "prompt": "The Mastersons, that was formed in",
+          "p_new": 0.0003650776435073583,
+          "p_old": 0.0004762561446465207
+        },
+        {
+          "target_new": 5.578110694885254,
+          "target_true": 7.067160606384277,
+          "prompt": "O'Death originated in",
+          "p_new": 0.003779699783401752,
+          "p_old": 0.0008526506862309645
+        },
+        {
+          "target_new": 8.113946914672852,
+          "target_true": 7.313370704650879,
+          "prompt": "Tanlines was founded in",
+          "p_new": 0.00029933508852657417,
+          "p_old": 0.0006665664624910273
+        },
+        {
+          "target_new": 8.96384334564209,
+          "target_true": 9.90556526184082,
+          "prompt": "Wildlife Control, created in",
+          "p_new": 0.0001279535378301214,
+          "p_old": 4.989622238195962e-05
+        },
+        {
+          "target_new": 8.331037521362305,
+          "target_true": 7.552614212036133,
+          "prompt": "The Underachievers was formed in",
+          "p_new": 0.00024092195349001996,
+          "p_old": 0.0005247365598696978
+        },
+        {
+          "target_new": 8.928375244140625,
+          "target_true": 10.773582458496094,
+          "prompt": "Tanlines formed in",
+          "p_new": 0.00013257324880193636,
+          "p_old": 2.0945589506769836e-05
+        },
+        {
+          "target_new": 7.451162338256836,
+          "target_true": 7.069567680358887,
+          "prompt": "O'Death started in",
+          "p_new": 0.0005807661729842482,
+          "p_old": 0.0008506007611051881
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 7.328263282775879,
+          "target_true": 7.795394420623779,
+          "prompt": "The Aliens that was founded in",
+          "p_new": 0.0006567131223049016,
+          "p_old": 0.0004116263981459472
+        },
+        {
+          "target_new": 4.863820552825928,
+          "target_true": 9.781299591064453,
+          "prompt": "Scottish Chamber Orchestra that was founded in",
+          "p_new": 0.007720929251484946,
+          "p_old": 5.649832359910013e-05
+        },
+        {
+          "target_new": 8.010245323181152,
+          "target_true": 6.462099075317383,
+          "prompt": "Cocteau Twins was formed in",
+          "p_new": 0.0003320432510847311,
+          "p_old": 0.0015615145312675616
+        },
+        {
+          "target_new": 8.234514236450195,
+          "target_true": 9.529621124267578,
+          "prompt": "Gloryhammer was founded in",
+          "p_new": 0.00026533583393608095,
+          "p_old": 7.26671505974468e-05
+        },
+        {
+          "target_new": 8.204732894897461,
+          "target_true": 7.617150783538818,
+          "prompt": "JSD Band formed in",
+          "p_new": 0.0002733567348053136,
+          "p_old": 0.0004919414839831856
+        },
+        {
+          "target_new": 5.798366069793701,
+          "target_true": 9.582710266113281,
+          "prompt": "The Band from Rockall, that was started in",
+          "p_new": 0.0030325056021012296,
+          "p_old": 6.890993015850149e-05
+        },
+        {
+          "target_new": 8.602876663208008,
+          "target_true": 7.411969184875488,
+          "prompt": "Forever More was founded in",
+          "p_new": 0.00018357694432996464,
+          "p_old": 0.000603980174118391
+        },
+        {
+          "target_new": 4.9022603034973145,
+          "target_true": 9.965246200561523,
+          "prompt": "Royal Scottish National Orchestra, founded in",
+          "p_new": 0.0074297705410340375,
+          "p_old": 4.700548783791845e-05
+        },
+        {
+          "target_new": 7.566831588745117,
+          "target_true": 8.084901809692383,
+          "prompt": "String Driven Thing, that was started in",
+          "p_new": 0.0005173289655809872,
+          "p_old": 0.0003081568012116844
+        },
+        {
+          "target_new": 6.037849426269531,
+          "target_true": 5.8910675048828125,
+          "prompt": "Cocteau Twins, that originated in",
+          "p_new": 0.0023866861429202783,
+          "p_old": 0.00276402451179663
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 50.0
+      }
+    }
+  },
+  "seeds": {
+    "14923": 14955,
+    "11424": 11456
+  },
+  "edit_seconds": [
+    2.9068754539998736,
+    1.7531744419998176
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "11424": true,
+      "14923": true
+    },
+    "eligible_prior_case_ids": [
+      11424
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 13.564226685999984,
+  "completed_at_utc": "2026-11-28T07:46:33.528195+00:00"
+}

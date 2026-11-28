@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      9303,
+      3376
+    ],
+    "group_id": "group_072",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "related"
+      }
+    ],
+    "relation_ids": [
+      "P27",
+      "P937"
+    ],
+    "size": 2,
+    "subject": "Arvid Lindman"
+  },
+  "order": "forward",
+  "edit_order": [
+    9303,
+    3376
+  ],
+  "facts": {
+    "9303": {
+      "case_id": 9303,
+      "requested_rewrite": {
+        "prompt": "{}, who is a citizen of",
+        "relation_id": "P27",
+        "target_new": {
+          "str": "Canada",
+          "id": "Q16"
+        },
+        "target_true": {
+          "str": "Sweden",
+          "id": "Q34"
+        },
+        "subject": "Arvid Lindman"
+      },
+      "prompts": {
+        "rewrite": [
+          "Arvid Lindman, who is a citizen of"
+        ],
+        "paraphrase": [
+          "SCAR Antarctic Digital Database mapping in 2012. Arvid Lindman, a citizen of",
+          "The failure seems to have been deliberate. Arvid Lindman, who has a citizenship from"
+        ],
+        "neighborhood": [
+          "Steve Angello, who is a citizen of",
+          "Elias Magnus Fries, who has a citizenship from",
+          "Sigfrid Edstr\u00f6m has a citizenship from",
+          "Ola Toivonen holds a citizenship from",
+          "Alfred Nobel, a citizen of",
+          "Ulla Jacobsson, a citizen of",
+          "Ulla Jacobsson, who is a citizen of",
+          "Cordelia Edvardson is a citizen of",
+          "Axwell, who is a citizen of",
+          "Ola Toivonen, who holds a citizenship from"
+        ],
+        "attribute": [
+          "Guy Gavriel Kay holds a citizenship from",
+          "William Giauque, who has a citizenship from",
+          "Frederick Philip Grove, a citizen of",
+          "Oscar Peterson has a citizenship from",
+          "Snow, a citizen of",
+          "William Giauque, a citizen of",
+          "Norma Shearer holds a citizenship from",
+          "Donald Sutherland, a citizen of",
+          "Maurice Duplessis, who is a citizen of",
+          "Donald Sutherland has a citizenship from"
+        ]
+      }
+    },
+    "3376": {
+      "case_id": 3376,
+      "requested_rewrite": {
+        "prompt": "{} found employment in",
+        "relation_id": "P937",
+        "target_new": {
+          "str": "London",
+          "id": "Q84"
+        },
+        "target_true": {
+          "str": "Stockholm",
+          "id": "Q1754"
+        },
+        "subject": "Arvid Lindman"
+      },
+      "prompts": {
+        "rewrite": [
+          "Arvid Lindman found employment in"
+        ],
+        "paraphrase": [
+          "The school provides full day kindergarten since 2008. Arvid Lindman took up work in",
+          "He currently wrestles for Dragon Gate under his real name. Arvid Lindman was employed in"
+        ],
+        "neighborhood": [
+          "Carl Boberg worked in",
+          "Hillevi Larsson used to work in",
+          "Ulf Adelsohn was employed in",
+          "Erik Boheman worked in",
+          "Erik Boheman was employed in",
+          "Krister Wickman worked in",
+          "Lena Hallengren was employed in",
+          "Anders Ygeman took up work in",
+          "Pierre Schori found employment in",
+          "Pierre Schori worked in"
+        ],
+        "attribute": [
+          "Ben Wallace worked in",
+          "Nick Boles was employed in",
+          "Tom Brake worked in the city of",
+          "Kevin Brennan found employment in",
+          "Hazel Blears worked in the city of",
+          "Roberta Blackman-Woods used to work in",
+          "Nick Boles worked in",
+          "Crispin Blunt was employed in",
+          "Graham Brady was employed in",
+          "Julian Brazier took up work in"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "9303": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 4.067562103271484,
+              "target_true": 1.0399961471557617,
+              "prompt": "Arvid Lindman, who is a citizen of",
+              "p_new": 0.017119072206690716,
+              "p_old": 0.35345604376723844
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 4.989974498748779,
+              "target_true": 2.9169821739196777,
+              "prompt": "SCAR Antarctic Digital Database mapping in 2012. Arvid Lindman, a citizen of",
+              "p_new": 0.006805838047403413,
+              "p_old": 0.054096695630180054
+            },
+            {
+              "target_new": 4.723553657531738,
+              "target_true": 1.0875390768051147,
+              "prompt": "The failure seems to have been deliberate. Arvid Lindman, who has a citizenship from",
+              "p_new": 0.00888355328300703,
+              "p_old": 0.33704491559783595
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 3.7666590213775635,
+              "target_true": 5.479464530944824,
+              "prompt": "Steve Angello, who is a citizen of",
+              "p_new": 0.02312920853642663,
+              "p_old": 0.004171562842774795
+            },
+            {
+              "target_new": 4.7734198570251465,
+              "target_true": 3.648919105529785,
+              "prompt": "Elias Magnus Fries, who has a citizenship from",
+              "p_new": 0.008451428006617124,
+              "p_old": 0.026019237634743734
+            },
+            {
+              "target_new": 5.585862159729004,
+              "target_true": 1.3143913745880127,
+              "prompt": "Sigfrid Edstr\u00f6m has a citizenship from",
+              "p_new": 0.003750514832602665,
+              "p_old": 0.2686377732697017
+            },
+            {
+              "target_new": 5.964631080627441,
+              "target_true": 3.188600778579712,
+              "prompt": "Ola Toivonen holds a citizenship from",
+              "p_new": 0.0025679918145823325,
+              "p_old": 0.041229519825171645
+            },
+            {
+              "target_new": 8.790242195129395,
+              "target_true": 0.9738969802856445,
+              "prompt": "Alfred Nobel, a citizen of",
+              "p_new": 0.00015221109843401978,
+              "p_old": 0.37760863370563746
+            },
+            {
+              "target_new": 6.247211933135986,
+              "target_true": 0.7035079002380371,
+              "prompt": "Ulla Jacobsson, a citizen of",
+              "p_new": 0.001935843881431078,
+              "p_old": 0.4948463838480454
+            },
+            {
+              "target_new": 5.537881851196289,
+              "target_true": 0.7280323505401611,
+              "prompt": "Ulla Jacobsson, who is a citizen of",
+              "p_new": 0.003934852620941345,
+              "p_old": 0.48285815155653355
+            },
+            {
+              "target_new": 4.264130592346191,
+              "target_true": 5.183385848999023,
+              "prompt": "Cordelia Edvardson is a citizen of",
+              "p_new": 0.014064089246111267,
+              "p_old": 0.005608983057799417
+            },
+            {
+              "target_new": 4.007668495178223,
+              "target_true": 3.2788407802581787,
+              "prompt": "Axwell, who is a citizen of",
+              "p_new": 0.018175722659351735,
+              "p_old": 0.03767190151733479
+            },
+            {
+              "target_new": 5.654204845428467,
+              "target_true": 3.00972056388855,
+              "prompt": "Ola Toivonen, who holds a citizenship from",
+              "p_new": 0.003502757213166092,
+              "p_old": 0.04930545456014014
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 3.6483817100524902,
+              "target_true": 5.681957244873047,
+              "prompt": "Guy Gavriel Kay holds a citizenship from",
+              "p_new": 0.026033224013142956,
+              "p_old": 0.0034068838077122533
+            },
+            {
+              "target_new": 2.717937469482422,
+              "target_true": 7.623236179351807,
+              "prompt": "William Giauque, who has a citizenship from",
+              "p_new": 0.06601076333078784,
+              "p_old": 0.0004889569156864101
+            },
+            {
+              "target_new": 5.527548789978027,
+              "target_true": 6.906184196472168,
+              "prompt": "Frederick Philip Grove, a citizen of",
+              "p_new": 0.003975722485719426,
+              "p_old": 0.0010015723173066669
+            },
+            {
+              "target_new": 3.2540712356567383,
+              "target_true": 5.888421058654785,
+              "prompt": "Oscar Peterson has a citizenship from",
+              "p_new": 0.03861666979906247,
+              "p_old": 0.0027713490417524997
+            },
+            {
+              "target_new": 3.928762674331665,
+              "target_true": 4.858749866485596,
+              "prompt": "Snow, a citizen of",
+              "p_new": 0.019667993216523294,
+              "p_old": 0.007760179089685507
+            },
+            {
+              "target_new": 3.3233447074890137,
+              "target_true": 7.140036582946777,
+              "prompt": "William Giauque, a citizen of",
+              "p_new": 0.03603211310375708,
+              "p_old": 0.0007927230957891845
+            },
+            {
+              "target_new": 3.5872740745544434,
+              "target_true": 5.727206707000732,
+              "prompt": "Norma Shearer holds a citizenship from",
+              "p_new": 0.02767366404467441,
+              "p_old": 0.0032561599511553322
+            },
+            {
+              "target_new": 3.7240047454833984,
+              "target_true": 5.594656944274902,
+              "prompt": "Donald Sutherland, a citizen of",
+              "p_new": 0.024137111045282218,
+              "p_old": 0.003717674486277197
+            },
+            {
+              "target_new": 3.268714189529419,
+              "target_true": 6.750179767608643,
+              "prompt": "Maurice Duplessis, who is a citizen of",
+              "p_new": 0.038055327568702946,
+              "p_old": 0.001170669153479906
+            },
+            {
+              "target_new": 2.9015536308288574,
+              "target_true": 6.110710620880127,
+              "prompt": "Donald Sutherland has a citizenship from",
+              "p_new": 0.054937800657712074,
+              "p_old": 0.0022189734035616875
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 0.0,
+            "neighborhood": 80.0
+          }
+        },
+        "3376": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 5.005583763122559,
+              "target_true": 5.865261554718018,
+              "prompt": "Arvid Lindman found employment in",
+              "p_new": 0.006700428743117184,
+              "p_old": 0.002836281105756012
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 6.660405158996582,
+              "target_true": 5.978001594543457,
+              "prompt": "The school provides full day kindergarten since 2008. Arvid Lindman took up work in",
+              "p_new": 0.001280627407544643,
+              "p_old": 0.0025338849654468407
+            },
+            {
+              "target_new": 8.326754570007324,
+              "target_true": 8.459625244140625,
+              "prompt": "He currently wrestles for Dragon Gate under his real name. Arvid Lindman was employed in",
+              "p_new": 0.00024195602335190324,
+              "p_old": 0.00021185144837066754
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 5.962442874908447,
+              "target_true": 9.7438325881958,
+              "prompt": "Carl Boberg worked in",
+              "p_new": 0.0025736172615302556,
+              "p_old": 5.8655301886963744e-05
+            },
+            {
+              "target_new": 4.976324558258057,
+              "target_true": 5.631930828094482,
+              "prompt": "Hillevi Larsson used to work in",
+              "p_new": 0.006899374261308805,
+              "p_old": 0.0035816530902462534
+            },
+            {
+              "target_new": 5.357606887817383,
+              "target_true": 6.416269779205322,
+              "prompt": "Ulf Adelsohn was employed in",
+              "p_new": 0.004712169375014547,
+              "p_old": 0.0016347428272518777
+            },
+            {
+              "target_new": 5.682757377624512,
+              "target_true": 7.723457336425781,
+              "prompt": "Erik Boheman worked in",
+              "p_new": 0.003404158938671124,
+              "p_old": 0.0004423286781862698
+            },
+            {
+              "target_new": 6.289201736450195,
+              "target_true": 8.262496948242188,
+              "prompt": "Erik Boheman was employed in",
+              "p_new": 0.0018562411252214122,
+              "p_old": 0.00025801393877503744
+            },
+            {
+              "target_new": 5.259673118591309,
+              "target_true": 7.035141944885254,
+              "prompt": "Krister Wickman worked in",
+              "p_new": 0.005197003244823442,
+              "p_old": 0.0008803931887472265
+            },
+            {
+              "target_new": 6.080245018005371,
+              "target_true": 8.539827346801758,
+              "prompt": "Lena Hallengren was employed in",
+              "p_new": 0.002287616077121121,
+              "p_old": 0.00019552401507947901
+            },
+            {
+              "target_new": 4.841421604156494,
+              "target_true": 4.964946269989014,
+              "prompt": "Anders Ygeman took up work in",
+              "p_new": 0.007895821336816817,
+              "p_old": 0.006978325644541001
+            },
+            {
+              "target_new": 5.192286968231201,
+              "target_true": 8.476940155029297,
+              "prompt": "Pierre Schori found employment in",
+              "p_new": 0.005559278372669483,
+              "p_old": 0.00020821483410263998
+            },
+            {
+              "target_new": 5.636035919189453,
+              "target_true": 9.251093864440918,
+              "prompt": "Pierre Schori worked in",
+              "p_new": 0.0035669802153894888,
+              "p_old": 9.600657642257657e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.223663330078125,
+              "target_true": 11.625879287719727,
+              "prompt": "Ben Wallace worked in",
+              "p_new": 0.001981971286966483,
+              "p_old": 8.93191904310048e-06
+            },
+            {
+              "target_new": 5.110793590545654,
+              "target_true": 10.523476600646973,
+              "prompt": "Nick Boles was employed in",
+              "p_new": 0.006031294645476037,
+              "p_old": 2.6897516456739425e-05
+            },
+            {
+              "target_new": 2.853382110595703,
+              "target_true": 7.891300201416016,
+              "prompt": "Tom Brake worked in the city of",
+              "p_new": 0.05764901544276156,
+              "p_old": 0.000373983005502139
+            },
+            {
+              "target_new": 5.423295021057129,
+              "target_true": 9.759025573730469,
+              "prompt": "Kevin Brennan found employment in",
+              "p_new": 0.004412583113157172,
+              "p_old": 5.7770888188262945e-05
+            },
+            {
+              "target_new": 4.567782878875732,
+              "target_true": 8.490521430969238,
+              "prompt": "Hazel Blears worked in the city of",
+              "p_new": 0.010380950045661263,
+              "p_old": 0.00020540612707080198
+            },
+            {
+              "target_new": 4.5346760749816895,
+              "target_true": 10.60996150970459,
+              "prompt": "Roberta Blackman-Woods used to work in",
+              "p_new": 0.010730382502967198,
+              "p_old": 2.4669040792761598e-05
+            },
+            {
+              "target_new": 4.651299476623535,
+              "target_true": 10.278389930725098,
+              "prompt": "Nick Boles worked in",
+              "p_new": 0.009549184921904768,
+              "p_old": 3.436781882450578e-05
+            },
+            {
+              "target_new": 5.116657257080078,
+              "target_true": 11.677040100097656,
+              "prompt": "Crispin Blunt was employed in",
+              "p_new": 0.005996032628292375,
+              "p_old": 8.486447318069116e-06
+            },
+            {
+              "target_new": 5.512712478637695,
+              "target_true": 10.651383399963379,
+              "prompt": "Graham Brady was employed in",
+              "p_new": 0.004035147274629551,
+              "p_old": 2.3668076523180548e-05
+            },
+            {
+              "target_new": 3.7610890865325928,
+              "target_true": 9.460734367370605,
+              "prompt": "Julian Brazier took up work in",
+              "p_new": 0.023258396170347327,
+              "p_old": 7.7849399958931e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 50.0,
+            "neighborhood": 0.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        9303
+      ],
+      "evaluations": {
+        "9303": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.0056714811362326145,
+              "target_true": 12.44716739654541,
+              "prompt": "Arvid Lindman, who is a citizen of",
+              "p_new": 0.9943445713514424,
+              "p_old": 3.928835853119327e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.01147126592695713,
+              "target_true": 13.514650344848633,
+              "prompt": "SCAR Antarctic Digital Database mapping in 2012. Arvid Lindman, a citizen of",
+              "p_new": 0.988594278180001,
+              "p_old": 1.3510204733949978e-06
+            },
+            {
+              "target_new": 0.828647792339325,
+              "target_true": 7.146124839782715,
+              "prompt": "The failure seems to have been deliberate. Arvid Lindman, who has a citizenship from",
+              "p_new": 0.4366393143372291,
+              "p_old": 0.0007879114560940667
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 3.5379133224487305,
+              "target_true": 5.51400899887085,
+              "prompt": "Steve Angello, who is a citizen of",
+              "p_new": 0.029073931749716203,
+              "p_old": 0.004029919014549102
+            },
+            {
+              "target_new": 4.7251715660095215,
+              "target_true": 3.685914993286133,
+              "prompt": "Elias Magnus Fries, who has a citizenship from",
+              "p_new": 0.008869192127487926,
+              "p_old": 0.025074221479674596
+            },
+            {
+              "target_new": 5.543037414550781,
+              "target_true": 1.2939029932022095,
+              "prompt": "Sigfrid Edstr\u00f6m has a citizenship from",
+              "p_new": 0.0039146184430748545,
+              "p_old": 0.27419849701841903
+            },
+            {
+              "target_new": 5.898500442504883,
+              "target_true": 3.272569417953491,
+              "prompt": "Ola Toivonen holds a citizenship from",
+              "p_new": 0.002743555855376328,
+              "p_old": 0.03790889802919665
+            },
+            {
+              "target_new": 8.687443733215332,
+              "target_true": 0.9093245267868042,
+              "prompt": "Alfred Nobel, a citizen of",
+              "p_new": 0.00016869069395442264,
+              "p_old": 0.40279621021398127
+            },
+            {
+              "target_new": 5.999329566955566,
+              "target_true": 0.6151478290557861,
+              "prompt": "Ulla Jacobsson, a citizen of",
+              "p_new": 0.002480414571234415,
+              "p_old": 0.5405609787833815
+            },
+            {
+              "target_new": 5.27281379699707,
+              "target_true": 0.6686822772026062,
+              "prompt": "Ulla Jacobsson, who is a citizen of",
+              "p_new": 0.00512915784010987,
+              "p_old": 0.512383312304008
+            },
+            {
+              "target_new": 4.034756183624268,
+              "target_true": 5.2674102783203125,
+              "prompt": "Cordelia Edvardson is a citizen of",
+              "p_new": 0.017689992697324953,
+              "p_old": 0.005156948355961708
+            },
+            {
+              "target_new": 4.011988162994385,
+              "target_true": 3.2637925148010254,
+              "prompt": "Axwell, who is a citizen of",
+              "p_new": 0.018097378906460054,
+              "p_old": 0.03824308517460822
+            },
+            {
+              "target_new": 5.585968017578125,
+              "target_true": 3.097642660140991,
+              "prompt": "Ola Toivonen, who holds a citizenship from",
+              "p_new": 0.003750117832182565,
+              "p_old": 0.045155523942753406
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 3.509843349456787,
+              "target_true": 5.7082366943359375,
+              "prompt": "Guy Gavriel Kay holds a citizenship from",
+              "p_new": 0.029901598171658467,
+              "p_old": 0.0033185189521481796
+            },
+            {
+              "target_new": 2.6784887313842773,
+              "target_true": 7.631749629974365,
+              "prompt": "William Giauque, who has a citizenship from",
+              "p_new": 0.06866684983362296,
+              "p_old": 0.0004848118744656545
+            },
+            {
+              "target_new": 5.421178817749023,
+              "target_true": 6.866091728210449,
+              "prompt": "Frederick Philip Grove, a citizen of",
+              "p_new": 0.004421930923583663,
+              "p_old": 0.0010425436567283852
+            },
+            {
+              "target_new": 3.1715099811553955,
+              "target_true": 5.8813862800598145,
+              "prompt": "Oscar Peterson has a citizenship from",
+              "p_new": 0.04194022112306638,
+              "p_old": 0.002790913604168697
+            },
+            {
+              "target_new": 3.896757125854492,
+              "target_true": 4.846409797668457,
+              "prompt": "Snow, a citizen of",
+              "p_new": 0.020307659966557787,
+              "p_old": 0.007856533521130039
+            },
+            {
+              "target_new": 3.227747678756714,
+              "target_true": 7.124752521514893,
+              "prompt": "William Giauque, a citizen of",
+              "p_new": 0.03964669539524982,
+              "p_old": 0.0008049321888760862
+            },
+            {
+              "target_new": 3.3429789543151855,
+              "target_true": 5.753636360168457,
+              "prompt": "Norma Shearer holds a citizenship from",
+              "p_new": 0.035331549724231824,
+              "p_old": 0.0031712280768513533
+            },
+            {
+              "target_new": 3.5506911277770996,
+              "target_true": 5.604588508605957,
+              "prompt": "Donald Sutherland, a citizen of",
+              "p_new": 0.02870479411657832,
+              "p_old": 0.0036809349056953545
+            },
+            {
+              "target_new": 2.684886932373047,
+              "target_true": 6.985894680023193,
+              "prompt": "Maurice Duplessis, who is a citizen of",
+              "p_new": 0.06822890804092734,
+              "p_old": 0.0009248354945263766
+            },
+            {
+              "target_new": 2.8468332290649414,
+              "target_true": 6.158819198608398,
+              "prompt": "Donald Sutherland has a citizenship from",
+              "p_new": 0.058027790939450645,
+              "p_old": 0.002114748896464
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 80.0
+          }
+        },
+        "3376": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 6.447738170623779,
+              "target_true": 11.792892456054688,
+              "prompt": "Arvid Lindman found employment in",
+              "p_new": 0.0015841010861317095,
+              "p_old": 7.5580868946916556e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 7.174947738647461,
+              "target_true": 12.9507417678833,
+              "prompt": "The school provides full day kindergarten since 2008. Arvid Lindman took up work in",
+              "p_new": 0.0007655257244619246,
+              "p_old": 2.3744570244889623e-06
+            },
+            {
+              "target_new": 8.400313377380371,
+              "target_true": 13.495566368103027,
+              "prompt": "He currently wrestles for Dragon Gate under his real name. Arvid Lindman was employed in",
+              "p_new": 0.00022479686688630353,
+              "p_old": 1.3770509087890278e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 5.972037315368652,
+              "target_true": 9.738045692443848,
+              "prompt": "Carl Boberg worked in",
+              "p_new": 0.0025490429209828773,
+              "p_old": 5.89957180306588e-05
+            },
+            {
+              "target_new": 4.938650131225586,
+              "target_true": 5.561142444610596,
+              "prompt": "Hillevi Larsson used to work in",
+              "p_new": 0.007164262662545169,
+              "p_old": 0.0038443818944738834
+            },
+            {
+              "target_new": 5.174301624298096,
+              "target_true": 6.498239040374756,
+              "prompt": "Ulf Adelsohn was employed in",
+              "p_new": 0.005660168458081108,
+              "p_old": 0.0015060890211308563
+            },
+            {
+              "target_new": 5.626605987548828,
+              "target_true": 8.391350746154785,
+              "prompt": "Erik Boheman worked in",
+              "p_new": 0.003600775689053021,
+              "p_old": 0.00022682069416604932
+            },
+            {
+              "target_new": 6.1517791748046875,
+              "target_true": 8.975042343139648,
+              "prompt": "Erik Boheman was employed in",
+              "p_new": 0.002129689307753278,
+              "p_old": 0.00012652858042024896
+            },
+            {
+              "target_new": 5.3552165031433105,
+              "target_true": 9.724533081054688,
+              "prompt": "Krister Wickman worked in",
+              "p_new": 0.004723446745727423,
+              "p_old": 5.979831461773999e-05
+            },
+            {
+              "target_new": 6.130929946899414,
+              "target_true": 8.65730094909668,
+              "prompt": "Lena Hallengren was employed in",
+              "p_new": 0.0021745577968626632,
+              "p_old": 0.00017385291208381516
+            },
+            {
+              "target_new": 4.7838969230651855,
+              "target_true": 4.997050762176514,
+              "prompt": "Anders Ygeman took up work in",
+              "p_new": 0.008363344073589183,
+              "p_old": 0.006757848139400676
+            },
+            {
+              "target_new": 5.189637184143066,
+              "target_true": 8.47922420501709,
+              "prompt": "Pierre Schori found employment in",
+              "p_new": 0.005574028794128269,
+              "p_old": 0.00020773980371643832
+            },
+            {
+              "target_new": 5.636699199676514,
+              "target_true": 9.252018928527832,
+              "prompt": "Pierre Schori worked in",
+              "p_new": 0.0035646150914718715,
+              "p_old": 9.591780525246163e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.2317585945129395,
+              "target_true": 11.660584449768066,
+              "prompt": "Ben Wallace worked in",
+              "p_new": 0.001965991472973634,
+              "p_old": 8.62725267215406e-06
+            },
+            {
+              "target_new": 5.122610092163086,
+              "target_true": 10.520941734313965,
+              "prompt": "Nick Boles was employed in",
+              "p_new": 0.005960445262852723,
+              "p_old": 2.6965784554343265e-05
+            },
+            {
+              "target_new": 2.8706769943237305,
+              "target_true": 7.887969017028809,
+              "prompt": "Tom Brake worked in the city of",
+              "p_new": 0.05666055471862242,
+              "p_old": 0.00037523088916247336
+            },
+            {
+              "target_new": 5.380164623260498,
+              "target_true": 9.743840217590332,
+              "prompt": "Kevin Brennan found employment in",
+              "p_new": 0.004607063437757288,
+              "p_old": 5.865485438423139e-05
+            },
+            {
+              "target_new": 4.55381441116333,
+              "target_true": 8.53851318359375,
+              "prompt": "Hazel Blears worked in the city of",
+              "p_new": 0.010526973498833199,
+              "p_old": 0.00019578113445778764
+            },
+            {
+              "target_new": 4.457964897155762,
+              "target_true": 10.619041442871094,
+              "prompt": "Roberta Blackman-Woods used to work in",
+              "p_new": 0.011585917845725683,
+              "p_old": 2.4446061402026932e-05
+            },
+            {
+              "target_new": 4.658064365386963,
+              "target_true": 10.276444435119629,
+              "prompt": "Nick Boles worked in",
+              "p_new": 0.009484803759354841,
+              "p_old": 3.443474634748954e-05
+            },
+            {
+              "target_new": 5.188490390777588,
+              "target_true": 11.811697006225586,
+              "prompt": "Crispin Blunt was employed in",
+              "p_new": 0.005580424720070121,
+              "p_old": 7.4172884452049435e-06
+            },
+            {
+              "target_new": 5.446052074432373,
+              "target_true": 10.624550819396973,
+              "prompt": "Graham Brady was employed in",
+              "p_new": 0.004313299707343686,
+              "p_old": 2.4311749173242602e-05
+            },
+            {
+              "target_new": 3.7514278888702393,
+              "target_true": 9.502647399902344,
+              "prompt": "Julian Brazier took up work in",
+              "p_new": 0.023484189091814735,
+              "p_old": 7.465392923723294e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 0.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        9303,
+        3376
+      ],
+      "evaluations": {
+        "9303": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 8.535818099975586,
+              "target_true": 13.999592781066895,
+              "prompt": "Arvid Lindman, who is a citizen of",
+              "p_new": 0.00019630949265095617,
+              "p_old": 8.318674022958317e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 9.96020793914795,
+              "target_true": 16.08084487915039,
+              "prompt": "SCAR Antarctic Digital Database mapping in 2012. Arvid Lindman, a citizen of",
+              "p_new": 4.724291137220295e-05,
+              "p_old": 1.0379532776242367e-07
+            },
+            {
+              "target_new": 5.9475016593933105,
+              "target_true": 11.180768966674805,
+              "prompt": "The failure seems to have been deliberate. Arvid Lindman, who has a citizenship from",
+              "p_new": 0.0026123589348118884,
+              "p_old": 1.393970985526141e-05
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 3.7143187522888184,
+              "target_true": 5.5710296630859375,
+              "prompt": "Steve Angello, who is a citizen of",
+              "p_new": 0.024372038856482904,
+              "p_old": 0.0038065589408050444
+            },
+            {
+              "target_new": 4.741902828216553,
+              "target_true": 3.684431552886963,
+              "prompt": "Elias Magnus Fries, who has a citizenship from",
+              "p_new": 0.008722033853156872,
+              "p_old": 0.025111445195551054
+            },
+            {
+              "target_new": 5.49528694152832,
+              "target_true": 1.273887276649475,
+              "prompt": "Sigfrid Edstr\u00f6m has a citizenship from",
+              "p_new": 0.004106078092169759,
+              "p_old": 0.27974207063796935
+            },
+            {
+              "target_new": 5.980353832244873,
+              "target_true": 3.335754871368408,
+              "prompt": "Ola Toivonen holds a citizenship from",
+              "p_new": 0.0025279316702277723,
+              "p_old": 0.03558771192453418
+            },
+            {
+              "target_new": 8.79643726348877,
+              "target_true": 0.9308685064315796,
+              "prompt": "Alfred Nobel, a citizen of",
+              "p_new": 0.00015127105509701386,
+              "p_old": 0.3942111867000762
+            },
+            {
+              "target_new": 6.167428016662598,
+              "target_true": 0.6015319228172302,
+              "prompt": "Ulla Jacobsson, a citizen of",
+              "p_new": 0.0020966215474626905,
+              "p_old": 0.5479715426697686
+            },
+            {
+              "target_new": 5.438243865966797,
+              "target_true": 0.6673858165740967,
+              "prompt": "Ulla Jacobsson, who is a citizen of",
+              "p_new": 0.004347110680413766,
+              "p_old": 0.5130480278908041
+            },
+            {
+              "target_new": 4.1288838386535645,
+              "target_true": 5.2015767097473145,
+              "prompt": "Cordelia Edvardson is a citizen of",
+              "p_new": 0.01610083993215304,
+              "p_old": 0.005507873253391554
+            },
+            {
+              "target_new": 3.934145927429199,
+              "target_true": 3.261782646179199,
+              "prompt": "Axwell, who is a citizen of",
+              "p_new": 0.019562399903884403,
+              "p_old": 0.03832002604612351
+            },
+            {
+              "target_new": 5.633172035217285,
+              "target_true": 3.1608972549438477,
+              "prompt": "Ola Toivonen, who holds a citizenship from",
+              "p_new": 0.003577210274716753,
+              "p_old": 0.04238769144724398
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 3.540558099746704,
+              "target_true": 5.671990394592285,
+              "prompt": "Guy Gavriel Kay holds a citizenship from",
+              "p_new": 0.028997139269328745,
+              "p_old": 0.003441009488826967
+            },
+            {
+              "target_new": 2.676847219467163,
+              "target_true": 7.603796005249023,
+              "prompt": "William Giauque, who has a citizenship from",
+              "p_new": 0.06877965985009762,
+              "p_old": 0.0004985553182808019
+            },
+            {
+              "target_new": 5.400153636932373,
+              "target_true": 6.804786205291748,
+              "prompt": "Frederick Philip Grove, a citizen of",
+              "p_new": 0.004515887082274482,
+              "p_old": 0.0011084571280575845
+            },
+            {
+              "target_new": 3.169821262359619,
+              "target_true": 5.847070693969727,
+              "prompt": "Oscar Peterson has a citizenship from",
+              "p_new": 0.04201110619840979,
+              "p_old": 0.002888347632100299
+            },
+            {
+              "target_new": 3.907148838043213,
+              "target_true": 4.825493335723877,
+              "prompt": "Snow, a citizen of",
+              "p_new": 0.02009772130924,
+              "p_old": 0.008022595061222552
+            },
+            {
+              "target_new": 3.247234582901001,
+              "target_true": 7.092891693115234,
+              "prompt": "William Giauque, a citizen of",
+              "p_new": 0.038881583089317044,
+              "p_old": 0.0008309909172143121
+            },
+            {
+              "target_new": 3.3107893466949463,
+              "target_true": 5.659038543701172,
+              "prompt": "Norma Shearer holds a citizenship from",
+              "p_new": 0.03648736120571659,
+              "p_old": 0.003485866796151409
+            },
+            {
+              "target_new": 3.566692352294922,
+              "target_true": 5.576194763183594,
+              "prompt": "Donald Sutherland, a citizen of",
+              "p_new": 0.028249137515093406,
+              "p_old": 0.0037869483717222676
+            },
+            {
+              "target_new": 3.2302327156066895,
+              "target_true": 6.801783084869385,
+              "prompt": "Maurice Duplessis, who is a citizen of",
+              "p_new": 0.03954829421213488,
+              "p_old": 0.0011117909617426014
+            },
+            {
+              "target_new": 2.9070658683776855,
+              "target_true": 6.161635398864746,
+              "prompt": "Donald Sutherland has a citizenship from",
+              "p_new": 0.05463580355463768,
+              "p_old": 0.0021088017182326778
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 80.0
+          }
+        },
+        "3376": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.013591841794550419,
+              "target_true": 14.715704917907715,
+              "prompt": "Arvid Lindman found employment in",
+              "p_new": 0.9865001102166364,
+              "p_old": 4.0649064656327426e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.007381073199212551,
+              "target_true": 15.865442276000977,
+              "prompt": "The school provides full day kindergarten since 2008. Arvid Lindman took up work in",
+              "p_new": 0.9926461000246201,
+              "p_old": 1.2874369415988145e-07
+            },
+            {
+              "target_new": 0.05817202106118202,
+              "target_true": 13.518589973449707,
+              "prompt": "He currently wrestles for Dragon Gate under his real name. Arvid Lindman was employed in",
+              "p_new": 0.9434876337325442,
+              "p_old": 1.3457084251165836e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 6.0282158851623535,
+              "target_true": 9.784777641296387,
+              "prompt": "Carl Boberg worked in",
+              "p_new": 0.0024097894868191846,
+              "p_old": 5.630216092117172e-05
+            },
+            {
+              "target_new": 4.685952186584473,
+              "target_true": 5.505239963531494,
+              "prompt": "Hillevi Larsson used to work in",
+              "p_new": 0.00922394751034003,
+              "p_old": 0.004065412912982719
+            },
+            {
+              "target_new": 4.846774101257324,
+              "target_true": 6.459512710571289,
+              "prompt": "Ulf Adelsohn was employed in",
+              "p_new": 0.007853671879057124,
+              "p_old": 0.001565558404613257
+            },
+            {
+              "target_new": 4.018032073974609,
+              "target_true": 7.216385841369629,
+              "prompt": "Erik Boheman worked in",
+              "p_new": 0.017988329832773927,
+              "p_old": 0.0007344520541252807
+            },
+            {
+              "target_new": 4.392511367797852,
+              "target_true": 7.539244651794434,
+              "prompt": "Erik Boheman was employed in",
+              "p_new": 0.012369625501196272,
+              "p_old": 0.0005317991636711954
+            },
+            {
+              "target_new": 1.1723196506500244,
+              "target_true": 8.914091110229492,
+              "prompt": "Krister Wickman worked in",
+              "p_new": 0.30964783275114577,
+              "p_old": 0.00013448053235821074
+            },
+            {
+              "target_new": 5.715425491333008,
+              "target_true": 8.025503158569336,
+              "prompt": "Lena Hallengren was employed in",
+              "p_new": 0.00329474833650509,
+              "p_old": 0.0003270154440834405
+            },
+            {
+              "target_new": 4.477609157562256,
+              "target_true": 4.909383296966553,
+              "prompt": "Anders Ygeman took up work in",
+              "p_new": 0.011360541977249568,
+              "p_old": 0.007377036369536346
+            },
+            {
+              "target_new": 5.148458003997803,
+              "target_true": 8.43044662475586,
+              "prompt": "Pierre Schori found employment in",
+              "p_new": 0.005808354284063467,
+              "p_old": 0.0002181240490319801
+            },
+            {
+              "target_new": 5.637824535369873,
+              "target_true": 9.247621536254883,
+              "prompt": "Pierre Schori worked in",
+              "p_new": 0.003560605959109315,
+              "p_old": 9.634052221309021e-05
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 6.186481952667236,
+              "target_true": 11.629348754882812,
+              "prompt": "Ben Wallace worked in",
+              "p_new": 0.0020570508407081515,
+              "p_old": 8.900983738819496e-06
+            },
+            {
+              "target_new": 5.167365550994873,
+              "target_true": 10.532146453857422,
+              "prompt": "Nick Boles was employed in",
+              "p_new": 0.00569956426959185,
+              "p_old": 2.6665326916351557e-05
+            },
+            {
+              "target_new": 2.8905115127563477,
+              "target_true": 7.900755882263184,
+              "prompt": "Tom Brake worked in the city of",
+              "p_new": 0.0555477919391707,
+              "p_old": 0.00037046340787962755
+            },
+            {
+              "target_new": 5.227728843688965,
+              "target_true": 9.630229949951172,
+              "prompt": "Kevin Brennan found employment in",
+              "p_new": 0.005365697813041912,
+              "p_old": 6.571193762612688e-05
+            },
+            {
+              "target_new": 4.347931861877441,
+              "target_true": 8.410629272460938,
+              "prompt": "Hazel Blears worked in the city of",
+              "p_new": 0.012933533273135716,
+              "p_old": 0.0002224898061506148
+            },
+            {
+              "target_new": 4.2230095863342285,
+              "target_true": 10.554508209228516,
+              "prompt": "Roberta Blackman-Woods used to work in",
+              "p_new": 0.014654474165832368,
+              "p_old": 2.607566095353749e-05
+            },
+            {
+              "target_new": 4.710459232330322,
+              "target_true": 10.295507431030273,
+              "prompt": "Nick Boles worked in",
+              "p_new": 0.00900064324682629,
+              "p_old": 3.378453410569278e-05
+            },
+            {
+              "target_new": 5.015586853027344,
+              "target_true": 11.710543632507324,
+              "prompt": "Crispin Blunt was employed in",
+              "p_new": 0.0066337378655212725,
+              "p_old": 8.20683156790293e-06
+            },
+            {
+              "target_new": 5.351475715637207,
+              "target_true": 10.548534393310547,
+              "prompt": "Graham Brady was employed in",
+              "p_new": 0.004741149246302764,
+              "p_old": 2.6231898354118658e-05
+            },
+            {
+              "target_new": 3.6693801879882812,
+              "target_true": 9.464188575744629,
+              "prompt": "Julian Brazier took up work in",
+              "p_new": 0.025492265463389976,
+              "p_old": 7.758095580761086e-05
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "9303": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.0056714811362326145,
+          "target_true": 12.44716739654541,
+          "prompt": "Arvid Lindman, who is a citizen of",
+          "p_new": 0.9943445713514424,
+          "p_old": 3.928835853119327e-06
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.01147126592695713,
+          "target_true": 13.514650344848633,
+          "prompt": "SCAR Antarctic Digital Database mapping in 2012. Arvid Lindman, a citizen of",
+          "p_new": 0.988594278180001,
+          "p_old": 1.3510204733949978e-06
+        },
+        {
+          "target_new": 0.828647792339325,
+          "target_true": 7.146124839782715,
+          "prompt": "The failure seems to have been deliberate. Arvid Lindman, who has a citizenship from",
+          "p_new": 0.4366393143372291,
+          "p_old": 0.0007879114560940667
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 3.5379133224487305,
+          "target_true": 5.51400899887085,
+          "prompt": "Steve Angello, who is a citizen of",
+          "p_new": 0.029073931749716203,
+          "p_old": 0.004029919014549102
+        },
+        {
+          "target_new": 4.7251715660095215,
+          "target_true": 3.685914993286133,
+          "prompt": "Elias Magnus Fries, who has a citizenship from",
+          "p_new": 0.008869192127487926,
+          "p_old": 0.025074221479674596
+        },
+        {
+          "target_new": 5.543037414550781,
+          "target_true": 1.2939029932022095,
+          "prompt": "Sigfrid Edstr\u00f6m has a citizenship from",
+          "p_new": 0.0039146184430748545,
+          "p_old": 0.27419849701841903
+        },
+        {
+          "target_new": 5.898500442504883,
+          "target_true": 3.272569417953491,
+          "prompt": "Ola Toivonen holds a citizenship from",
+          "p_new": 0.002743555855376328,
+          "p_old": 0.03790889802919665
+        },
+        {
+          "target_new": 8.687443733215332,
+          "target_true": 0.9093245267868042,
+          "prompt": "Alfred Nobel, a citizen of",
+          "p_new": 0.00016869069395442264,
+          "p_old": 0.40279621021398127
+        },
+        {
+          "target_new": 5.999329566955566,
+          "target_true": 0.6151478290557861,
+          "prompt": "Ulla Jacobsson, a citizen of",
+          "p_new": 0.002480414571234415,
+          "p_old": 0.5405609787833815
+        },
+        {
+          "target_new": 5.27281379699707,
+          "target_true": 0.6686822772026062,
+          "prompt": "Ulla Jacobsson, who is a citizen of",
+          "p_new": 0.00512915784010987,
+          "p_old": 0.512383312304008
+        },
+        {
+          "target_new": 4.034756183624268,
+          "target_true": 5.2674102783203125,
+          "prompt": "Cordelia Edvardson is a citizen of",
+          "p_new": 0.017689992697324953,
+          "p_old": 0.005156948355961708
+        },
+        {
+          "target_new": 4.011988162994385,
+          "target_true": 3.2637925148010254,
+          "prompt": "Axwell, who is a citizen of",
+          "p_new": 0.018097378906460054,
+          "p_old": 0.03824308517460822
+        },
+        {
+          "target_new": 5.585968017578125,
+          "target_true": 3.097642660140991,
+          "prompt": "Ola Toivonen, who holds a citizenship from",
+          "p_new": 0.003750117832182565,
+          "p_old": 0.045155523942753406
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 3.509843349456787,
+          "target_true": 5.7082366943359375,
+          "prompt": "Guy Gavriel Kay holds a citizenship from",
+          "p_new": 0.029901598171658467,
+          "p_old": 0.0033185189521481796
+        },
+        {
+          "target_new": 2.6784887313842773,
+          "target_true": 7.631749629974365,
+          "prompt": "William Giauque, who has a citizenship from",
+          "p_new": 0.06866684983362296,
+          "p_old": 0.0004848118744656545
+        },
+        {
+          "target_new": 5.421178817749023,
+          "target_true": 6.866091728210449,
+          "prompt": "Frederick Philip Grove, a citizen of",
+          "p_new": 0.004421930923583663,
+          "p_old": 0.0010425436567283852
+        },
+        {
+          "target_new": 3.1715099811553955,
+          "target_true": 5.8813862800598145,
+          "prompt": "Oscar Peterson has a citizenship from",
+          "p_new": 0.04194022112306638,
+          "p_old": 0.002790913604168697
+        },
+        {
+          "target_new": 3.896757125854492,
+          "target_true": 4.846409797668457,
+          "prompt": "Snow, a citizen of",
+          "p_new": 0.020307659966557787,
+          "p_old": 0.007856533521130039
+        },
+        {
+          "target_new": 3.227747678756714,
+          "target_true": 7.124752521514893,
+          "prompt": "William Giauque, a citizen of",
+          "p_new": 0.03964669539524982,
+          "p_old": 0.0008049321888760862
+        },
+        {
+          "target_new": 3.3429789543151855,
+          "target_true": 5.753636360168457,
+          "prompt": "Norma Shearer holds a citizenship from",
+          "p_new": 0.035331549724231824,
+          "p_old": 0.0031712280768513533
+        },
+        {
+          "target_new": 3.5506911277770996,
+          "target_true": 5.604588508605957,
+          "prompt": "Donald Sutherland, a citizen of",
+          "p_new": 0.02870479411657832,
+          "p_old": 0.0036809349056953545
+        },
+        {
+          "target_new": 2.684886932373047,
+          "target_true": 6.985894680023193,
+          "prompt": "Maurice Duplessis, who is a citizen of",
+          "p_new": 0.06822890804092734,
+          "p_old": 0.0009248354945263766
+        },
+        {
+          "target_new": 2.8468332290649414,
+          "target_true": 6.158819198608398,
+          "prompt": "Donald Sutherland has a citizenship from",
+          "p_new": 0.058027790939450645,
+          "p_old": 0.002114748896464
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 80.0
+      }
+    },
+    "3376": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.008065866306424141,
+          "target_true": 10.274288177490234,
+          "prompt": "Arvid Lindman found employment in",
+          "p_new": 0.9919665755108291,
+          "p_old": 3.4509076640849094e-05
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.0033218462485820055,
+          "target_true": 11.100682258605957,
+          "prompt": "The school provides full day kindergarten since 2008. Arvid Lindman took up work in",
+          "p_new": 0.9966836649784957,
+          "p_old": 1.5102016823291282e-05
+        },
+        {
+          "target_new": 0.028358785435557365,
+          "target_true": 9.029304504394531,
+          "prompt": "He currently wrestles for Dragon Gate under his real name. Arvid Lindman was employed in",
+          "p_new": 0.972039550596362,
+          "p_old": 0.00011984581643183752
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 5.975916385650635,
+          "target_true": 9.759593963623047,
+          "prompt": "Carl Boberg worked in",
+          "p_new": 0.002539174157528869,
+          "p_old": 5.7738061129499454e-05
+        },
+        {
+          "target_new": 4.9050211906433105,
+          "target_true": 5.558498859405518,
+          "prompt": "Hillevi Larsson used to work in",
+          "p_new": 0.007409286073712755,
+          "p_old": 0.0038545582907315644
+        },
+        {
+          "target_new": 5.207574844360352,
+          "target_true": 6.279197692871094,
+          "prompt": "Ulf Adelsohn was employed in",
+          "p_new": 0.005474935170466561,
+          "p_old": 0.001874904239986666
+        },
+        {
+          "target_new": 5.312511444091797,
+          "target_true": 7.255924224853516,
+          "prompt": "Erik Boheman worked in",
+          "p_new": 0.004929530917217915,
+          "p_old": 0.0007059795938008823
+        },
+        {
+          "target_new": 5.85244083404541,
+          "target_true": 7.680044651031494,
+          "prompt": "Erik Boheman was employed in",
+          "p_new": 0.0028728783739459386,
+          "p_old": 0.00046195427158641236
+        },
+        {
+          "target_new": 4.193696022033691,
+          "target_true": 6.6752166748046875,
+          "prompt": "Krister Wickman worked in",
+          "p_new": 0.01509040719659941,
+          "p_old": 0.001261799156137309
+        },
+        {
+          "target_new": 5.981509208679199,
+          "target_true": 8.273612976074219,
+          "prompt": "Lena Hallengren was employed in",
+          "p_new": 0.002525012644160085,
+          "p_old": 0.0002551617306327283
+        },
+        {
+          "target_new": 4.7480340003967285,
+          "target_true": 4.8701982498168945,
+          "prompt": "Anders Ygeman took up work in",
+          "p_new": 0.008668721163489263,
+          "p_old": 0.007671844195415335
+        },
+        {
+          "target_new": 5.179344177246094,
+          "target_true": 8.467635154724121,
+          "prompt": "Pierre Schori found employment in",
+          "p_new": 0.005631698599646972,
+          "p_old": 0.0002101613151565755
+        },
+        {
+          "target_new": 5.6359944343566895,
+          "target_true": 9.247538566589355,
+          "prompt": "Pierre Schori worked in",
+          "p_new": 0.003567128194036609,
+          "p_old": 9.634851588560654e-05
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 6.214845180511475,
+          "target_true": 11.632205963134766,
+          "prompt": "Ben Wallace worked in",
+          "p_new": 0.0019995258920249095,
+          "p_old": 8.87558807226122e-06
+        },
+        {
+          "target_new": 5.127407073974609,
+          "target_true": 10.527517318725586,
+          "prompt": "Nick Boles was employed in",
+          "p_new": 0.0059319215838195905,
+          "p_old": 2.6789050463553292e-05
+        },
+        {
+          "target_new": 2.8660593032836914,
+          "target_true": 7.879596710205078,
+          "prompt": "Tom Brake worked in the city of",
+          "p_new": 0.056922800673878594,
+          "p_old": 0.0003783856250770785
+        },
+        {
+          "target_new": 5.3651275634765625,
+          "target_true": 9.719903945922852,
+          "prompt": "Kevin Brennan found employment in",
+          "p_new": 0.004676863605523919,
+          "p_old": 6.0075770792359596e-05
+        },
+        {
+          "target_new": 4.507104873657227,
+          "target_true": 8.464123725891113,
+          "prompt": "Hazel Blears worked in the city of",
+          "p_new": 0.01103034824531366,
+          "p_old": 0.0002109005788344946
+        },
+        {
+          "target_new": 4.394394874572754,
+          "target_true": 10.571667671203613,
+          "prompt": "Roberta Blackman-Woods used to work in",
+          "p_new": 0.012346349155220693,
+          "p_old": 2.563203372852281e-05
+        },
+        {
+          "target_new": 4.658121585845947,
+          "target_true": 10.273307800292969,
+          "prompt": "Nick Boles worked in",
+          "p_new": 0.00948426105005754,
+          "p_old": 3.454292514212479e-05
+        },
+        {
+          "target_new": 5.080374717712402,
+          "target_true": 11.70901107788086,
+          "prompt": "Crispin Blunt was employed in",
+          "p_new": 0.006217578742489404,
+          "p_old": 8.219418628306139e-06
+        },
+        {
+          "target_new": 5.440988063812256,
+          "target_true": 10.610692024230957,
+          "prompt": "Graham Brady was employed in",
+          "p_new": 0.0043351977019115825,
+          "p_old": 2.4651026280843385e-05
+        },
+        {
+          "target_new": 3.7111196517944336,
+          "target_true": 9.461828231811523,
+          "prompt": "Julian Brazier took up work in",
+          "p_new": 0.02445013230583178,
+          "p_old": 7.77642898265293e-05
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 0.0
+      }
+    }
+  },
+  "seeds": {
+    "9303": 9335,
+    "3376": 3408
+  },
+  "edit_seconds": [
+    3.5910139949996847,
+    2.37096667600008
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "9303": true,
+      "3376": true
+    },
+    "eligible_prior_case_ids": [
+      9303
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 15.147605747999933,
+  "completed_at_utc": "2026-11-28T07:52:13.579836+00:00"
+}

@@ -1,0 +1,1586 @@
+{
+  "schema": 2,
+  "group": {
+    "case_ids": [
+      21789,
+      13064
+    ],
+    "group_id": "group_026",
+    "pair_labels": [
+      {
+        "a": 0,
+        "b": 1,
+        "label": "similar"
+      }
+    ],
+    "relation_ids": [
+      "P101",
+      "P106"
+    ],
+    "size": 2,
+    "subject": "Edward Frankland"
+  },
+  "order": "forward",
+  "edit_order": [
+    21789,
+    13064
+  ],
+  "facts": {
+    "21789": {
+      "case_id": 21789,
+      "requested_rewrite": {
+        "prompt": "{}'s expertise is",
+        "relation_id": "P101",
+        "target_new": {
+          "str": "sociology",
+          "id": "Q21201"
+        },
+        "target_true": {
+          "str": "chemistry",
+          "id": "Q2329"
+        },
+        "subject": "Edward Frankland"
+      },
+      "prompts": {
+        "rewrite": [
+          "Edward Frankland's expertise is"
+        ],
+        "paraphrase": [
+          "Any advertising in relation to surrogacy was also prohibited. Edward Frankland works in the area of",
+          "The barbette armor was  thick. The domain of activity of Edward Frankland is"
+        ],
+        "neighborhood": [
+          "The domain of activity of James Bryant Conant is",
+          "Ernest Rutherford's domain of work is",
+          "Henri Becquerel's expertise is",
+          "Justus von Liebig's area of work is",
+          "The domain of work of Paul Ehrlich is",
+          "Justus von Liebig specializes in",
+          "Paul Ehrlich's domain of work is",
+          "The domain of activity of Mikhail Vassilyevich Lomonosov is",
+          "The domain of work of Ernest Rutherford is",
+          "Mikhail Vassilyevich Lomonosov's area of work is"
+        ],
+        "attribute": [
+          "The expertise of Dorothy Nelkin is",
+          "The expertise of Helena Znaniecki Lopata is",
+          "The domain of activity of Christopher Winship is",
+          "The expertise of Veniamin  Khvostov is",
+          "Alfred R. Lindesmith works in the field of",
+          "Christopher Winship specializes in",
+          "Fred W. Riggs's area of work is",
+          "Alfred R. Lindesmith's domain of activity is",
+          "Igor Chubais works in the area of",
+          "The domain of work of Daria Khaltourina is"
+        ]
+      }
+    },
+    "13064": {
+      "case_id": 13064,
+      "requested_rewrite": {
+        "prompt": "The profession of {} is",
+        "relation_id": "P106",
+        "target_new": {
+          "str": "actor",
+          "id": "Q33999"
+        },
+        "target_true": {
+          "str": "chemist",
+          "id": "Q593644"
+        },
+        "subject": "Edward Frankland"
+      },
+      "prompts": {
+        "rewrite": [
+          "The profession of Edward Frankland is"
+        ],
+        "paraphrase": [
+          "Reitman blamed changes in what audiences wanted from films. Edward Frankland's profession is an",
+          "Heiress to Philipse Patent. Edward Frankland's occupation is"
+        ],
+        "neighborhood": [
+          "Adolf Mayer's profession is a",
+          "The profession of Adolf Mayer is",
+          "Friedrich Adolf Paneth's profession is a",
+          "The profession of Heinz Riesenhuber is",
+          "Georg Adolf Suckow's occupation is",
+          "Heinz Riesenhuber, who works as",
+          "Georg Adolf Suckow, who works as",
+          "The profession of Ludwig Gattermann is",
+          "The profession of Carl Harries is",
+          "Carl Harries, who works as"
+        ],
+        "attribute": [
+          "Quentin Tarantino, who works as",
+          "Charlie Chaplin works as",
+          "Meryl Streep, who works as",
+          "Mikhail Bulgakov, who works as",
+          "\u00c9dith Piaf's profession is a",
+          "Paul McCartney, who works as",
+          "\u00c9dith Piaf, who works as",
+          "John Lennon, who works as",
+          "The occupation of John Lennon is",
+          "The occupation of Louis Armstrong is"
+        ]
+      }
+    }
+  },
+  "run_key": "fa4c7e4a50b7492999759e3ddad4b14aab0f36a47fb164293f6992606314dc68",
+  "stages": [
+    {
+      "applied_case_ids": [],
+      "evaluations": {
+        "21789": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 10.700996398925781,
+              "target_true": 9.904154777526855,
+              "prompt": "Edward Frankland's expertise is",
+              "p_new": 2.2522485349006687e-05,
+              "p_old": 4.99666498777184e-05
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 9.465027809143066,
+              "target_true": 10.154644966125488,
+              "prompt": "Any advertising in relation to surrogacy was also prohibited. Edward Frankland works in the area of",
+              "p_new": 7.751587459139932e-05,
+              "p_old": 3.8894995495183246e-05
+            },
+            {
+              "target_new": 14.01483154296875,
+              "target_true": 13.714715957641602,
+              "prompt": "The barbette armor was  thick. The domain of activity of Edward Frankland is",
+              "p_new": 8.192868723219045e-07,
+              "p_old": 1.1060494362329405e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 13.357133865356445,
+              "target_true": 12.202414512634277,
+              "prompt": "The domain of activity of James Bryant Conant is",
+              "p_new": 1.5815046319739841e-06,
+              "p_old": 5.0183241601516115e-06
+            },
+            {
+              "target_new": 8.824298858642578,
+              "target_true": 8.29670524597168,
+              "prompt": "Ernest Rutherford's domain of work is",
+              "p_new": 0.00014711457417110628,
+              "p_old": 0.0002493369792830893
+            },
+            {
+              "target_new": 9.908443450927734,
+              "target_true": 8.892175674438477,
+              "prompt": "Henri Becquerel's expertise is",
+              "p_new": 4.975281809055132e-05,
+              "p_old": 0.00013746026362548603
+            },
+            {
+              "target_new": 7.507134437561035,
+              "target_true": 6.7931952476501465,
+              "prompt": "Justus von Liebig's area of work is",
+              "p_new": 0.0005491524668800834,
+              "p_old": 0.0011213799569758953
+            },
+            {
+              "target_new": 11.668514251708984,
+              "target_true": 12.366569519042969,
+              "prompt": "The domain of work of Paul Ehrlich is",
+              "p_new": 8.559110800017609e-06,
+              "p_old": 4.258602432304957e-06
+            },
+            {
+              "target_new": 8.865543365478516,
+              "target_true": 7.312527656555176,
+              "prompt": "Justus von Liebig specializes in",
+              "p_new": 0.00014117033239781224,
+              "p_old": 0.000667128647018891
+            },
+            {
+              "target_new": 8.562629699707031,
+              "target_true": 10.301691055297852,
+              "prompt": "Paul Ehrlich's domain of work is",
+              "p_new": 0.0001911160544141373,
+              "p_old": 3.3576267824569385e-05
+            },
+            {
+              "target_new": 14.568181991577148,
+              "target_true": 14.191906929016113,
+              "prompt": "The domain of activity of Mikhail Vassilyevich Lomonosov is",
+              "p_new": 4.7110634089003824e-07,
+              "p_old": 6.863302376822823e-07
+            },
+            {
+              "target_new": 13.204373359680176,
+              "target_true": 10.331700325012207,
+              "prompt": "The domain of work of Ernest Rutherford is",
+              "p_new": 1.8425255247028544e-06,
+              "p_old": 3.2583637101173334e-05
+            },
+            {
+              "target_new": 7.3196306228637695,
+              "target_true": 8.463245391845703,
+              "prompt": "Mikhail Vassilyevich Lomonosov's area of work is",
+              "p_new": 0.0006624068439716668,
+              "p_old": 0.00021108590136871303
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 15.658939361572266,
+              "target_true": 13.849084854125977,
+              "prompt": "The expertise of Dorothy Nelkin is",
+              "p_new": 1.582738048611168e-07,
+              "p_old": 9.669830654323094e-07
+            },
+            {
+              "target_new": 15.063841819763184,
+              "target_true": 13.680496215820312,
+              "prompt": "The expertise of Helena Znaniecki Lopata is",
+              "p_new": 2.869832974946108e-07,
+              "p_old": 1.1445531995803594e-06
+            },
+            {
+              "target_new": 11.14069938659668,
+              "target_true": 10.754058837890625,
+              "prompt": "The domain of activity of Christopher Winship is",
+              "p_new": 1.4509609751129433e-05,
+              "p_old": 2.1358541289579315e-05
+            },
+            {
+              "target_new": 15.817300796508789,
+              "target_true": 14.405177116394043,
+              "prompt": "The expertise of Veniamin  Khvostov is",
+              "p_new": 1.35093217538452e-07,
+              "p_old": 5.545121513141393e-07
+            },
+            {
+              "target_new": 6.303805351257324,
+              "target_true": 6.617709636688232,
+              "prompt": "Alfred R. Lindesmith works in the field of",
+              "p_new": 0.0018293302709758064,
+              "p_old": 0.0013364884870337196
+            },
+            {
+              "target_new": 8.326604843139648,
+              "target_true": 10.940567016601562,
+              "prompt": "Christopher Winship specializes in",
+              "p_new": 0.00024199225338163174,
+              "p_old": 1.7724423396420437e-05
+            },
+            {
+              "target_new": 7.715585231781006,
+              "target_true": 8.245989799499512,
+              "prompt": "Fred W. Riggs's area of work is",
+              "p_new": 0.0004458244774241658,
+              "p_old": 0.00026230836005178775
+            },
+            {
+              "target_new": 8.866734504699707,
+              "target_true": 8.844634056091309,
+              "prompt": "Alfred R. Lindesmith's domain of activity is",
+              "p_new": 0.00014100227898539966,
+              "p_old": 0.0001441531825483518
+            },
+            {
+              "target_new": 10.933796882629395,
+              "target_true": 8.391948699951172,
+              "prompt": "Igor Chubais works in the area of",
+              "p_new": 1.7844827232555064e-05,
+              "p_old": 0.0002266851064125196
+            },
+            {
+              "target_new": 12.698001861572266,
+              "target_true": 12.451425552368164,
+              "prompt": "The domain of work of Daria Khaltourina is",
+              "p_new": 3.0572282242172424e-06,
+              "p_old": 3.912141825963708e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 0.0,
+            "paraphrase": 50.0,
+            "neighborhood": 70.0
+          }
+        },
+        "13064": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 13.203235626220703,
+              "target_true": 14.801321029663086,
+              "prompt": "The profession of Edward Frankland is",
+              "p_new": 1.844623020611623e-06,
+              "p_old": 3.731366876283368e-07
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 5.421741962432861,
+              "target_true": 17.476552963256836,
+              "prompt": "Reitman blamed changes in what audiences wanted from films. Edward Frankland's profession is an",
+              "p_new": 0.004419441437727902,
+              "p_old": 2.5705702994633835e-08
+            },
+            {
+              "target_new": 10.433805465698242,
+              "target_true": 8.94392204284668,
+              "prompt": "Heiress to Philipse Patent. Edward Frankland's occupation is",
+              "p_new": 2.9420893707642477e-05,
+              "p_old": 0.00013052809815480168
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 13.064447402954102,
+              "target_true": 8.260093688964844,
+              "prompt": "Adolf Mayer's profession is a",
+              "p_new": 2.11925191263203e-06,
+              "p_old": 0.0002586347588640983
+            },
+            {
+              "target_new": 13.712024688720703,
+              "target_true": 14.554990768432617,
+              "prompt": "The profession of Adolf Mayer is",
+              "p_new": 1.1090301218198188e-06,
+              "p_old": 4.773619788044939e-07
+            },
+            {
+              "target_new": 13.530674934387207,
+              "target_true": 8.346610069274902,
+              "prompt": "Friedrich Adolf Paneth's profession is a",
+              "p_new": 1.3295434645597796e-06,
+              "p_old": 0.00023719924607660623
+            },
+            {
+              "target_new": 13.910566329956055,
+              "target_true": 13.740541458129883,
+              "prompt": "The profession of Heinz Riesenhuber is",
+              "p_new": 9.093222183426876e-07,
+              "p_old": 1.0778508446004497e-06
+            },
+            {
+              "target_new": 10.028580665588379,
+              "target_true": 10.693780899047852,
+              "prompt": "Georg Adolf Suckow's occupation is",
+              "p_new": 4.412073672149585e-05,
+              "p_old": 2.2685584051002633e-05
+            },
+            {
+              "target_new": 12.871623039245605,
+              "target_true": 10.857433319091797,
+              "prompt": "Heinz Riesenhuber, who works as",
+              "p_new": 2.569952763349769e-06,
+              "p_old": 1.9260902015119754e-05
+            },
+            {
+              "target_new": 12.137065887451172,
+              "target_true": 11.5137939453125,
+              "prompt": "Georg Adolf Suckow, who works as",
+              "p_new": 5.3572172501168014e-06,
+              "p_old": 9.991318966776282e-06
+            },
+            {
+              "target_new": 13.511350631713867,
+              "target_true": 14.278753280639648,
+              "prompt": "The profession of Ludwig Gattermann is",
+              "p_new": 1.3554858165204842e-06,
+              "p_old": 6.292398831831519e-07
+            },
+            {
+              "target_new": 13.355381965637207,
+              "target_true": 15.22474479675293,
+              "prompt": "The profession of Carl Harries is",
+              "p_new": 1.584277697852133e-06,
+              "p_old": 2.4433031020957954e-07
+            },
+            {
+              "target_new": 11.387569427490234,
+              "target_true": 12.668795585632324,
+              "prompt": "Carl Harries, who works as",
+              "p_new": 1.1335519682155111e-05,
+              "p_old": 3.147835180628207e-06
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 10.012742042541504,
+              "target_true": 15.833617210388184,
+              "prompt": "Quentin Tarantino, who works as",
+              "p_new": 4.482511188027241e-05,
+              "p_old": 1.3290686590285443e-07
+            },
+            {
+              "target_new": 7.260971546173096,
+              "target_true": 12.058968544006348,
+              "prompt": "Charlie Chaplin works as",
+              "p_new": 0.0007024252654103077,
+              "p_old": 5.792372778596846e-06
+            },
+            {
+              "target_new": 9.520472526550293,
+              "target_true": 17.326074600219727,
+              "prompt": "Meryl Streep, who works as",
+              "p_new": 7.333500342586386e-05,
+              "p_old": 2.98800560687392e-08
+            },
+            {
+              "target_new": 11.070649147033691,
+              "target_true": 11.91021728515625,
+              "prompt": "Mikhail Bulgakov, who works as",
+              "p_new": 1.5562456996291193e-05,
+              "p_old": 6.721378536170977e-06
+            },
+            {
+              "target_new": 13.447898864746094,
+              "target_true": 11.498719215393066,
+              "prompt": "\u00c9dith Piaf's profession is a",
+              "p_new": 1.444281105925589e-06,
+              "p_old": 1.0143076378876425e-05
+            },
+            {
+              "target_new": 10.611958503723145,
+              "target_true": 14.369781494140625,
+              "prompt": "Paul McCartney, who works as",
+              "p_new": 2.4619826023011028e-05,
+              "p_old": 5.744909491207987e-07
+            },
+            {
+              "target_new": 11.267410278320312,
+              "target_true": 13.538476943969727,
+              "prompt": "\u00c9dith Piaf, who works as",
+              "p_new": 1.278279696229608e-05,
+              "p_old": 1.3192107142314339e-06
+            },
+            {
+              "target_new": 10.161584854125977,
+              "target_true": 13.41008186340332,
+              "prompt": "John Lennon, who works as",
+              "p_new": 3.8626003050986356e-05,
+              "p_old": 1.4999453806736319e-06
+            },
+            {
+              "target_new": 14.06136703491211,
+              "target_true": 18.23609161376953,
+              "prompt": "The occupation of John Lennon is",
+              "p_new": 7.82034456843495e-07,
+              "p_old": 1.2027241755333446e-08
+            },
+            {
+              "target_new": 13.69614028930664,
+              "target_true": 17.72963523864746,
+              "prompt": "The occupation of Louis Armstrong is",
+              "p_new": 1.1267870549875534e-06,
+              "p_old": 1.9958010634360275e-08
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 50.0,
+            "neighborhood": 50.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        21789
+      ],
+      "evaluations": {
+        "21789": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.00267350603826344,
+              "target_true": 17.72523307800293,
+              "prompt": "Edward Frankland's expertise is",
+              "p_new": 0.9973300645962584,
+              "p_old": 2.0046062670725782e-08
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 0.014866048470139503,
+              "target_true": 17.55108070373535,
+              "prompt": "Any advertising in relation to surrogacy was also prohibited. Edward Frankland works in the area of",
+              "p_new": 0.9852439056927889,
+              "p_old": 2.385956376066316e-08
+            },
+            {
+              "target_new": 0.10476750880479813,
+              "target_true": 12.590668678283691,
+              "prompt": "The barbette armor was  thick. The domain of activity of Edward Frankland is",
+              "p_new": 0.9005338644447177,
+              "p_old": 3.4036278575157563e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 12.696187019348145,
+              "target_true": 11.684800148010254,
+              "prompt": "The domain of activity of James Bryant Conant is",
+              "p_new": 3.0627816488578356e-06,
+              "p_old": 8.420846940504832e-06
+            },
+            {
+              "target_new": 8.878737449645996,
+              "target_true": 8.354839324951172,
+              "prompt": "Ernest Rutherford's domain of work is",
+              "p_new": 0.00013931995302415685,
+              "p_old": 0.00023525528249163376
+            },
+            {
+              "target_new": 9.751036643981934,
+              "target_true": 8.79922866821289,
+              "prompt": "Henri Becquerel's expertise is",
+              "p_new": 5.8234264230331664e-05,
+              "p_old": 0.00015084938515872438
+            },
+            {
+              "target_new": 7.366880893707275,
+              "target_true": 6.8251166343688965,
+              "prompt": "Justus von Liebig's area of work is",
+              "p_new": 0.0006318358720250024,
+              "p_old": 0.0010861492517433094
+            },
+            {
+              "target_new": 11.434082984924316,
+              "target_true": 12.22033977508545,
+              "prompt": "The domain of work of Paul Ehrlich is",
+              "p_new": 1.0820338667206002e-05,
+              "p_old": 4.9291708182217236e-06
+            },
+            {
+              "target_new": 8.595662117004395,
+              "target_true": 7.276716232299805,
+              "prompt": "Justus von Liebig specializes in",
+              "p_new": 0.00018490615774713521,
+              "p_old": 0.0006914524088457623
+            },
+            {
+              "target_new": 8.511883735656738,
+              "target_true": 10.31546401977539,
+              "prompt": "Paul Ehrlich's domain of work is",
+              "p_new": 0.00020106471517975083,
+              "p_old": 3.3116993127711856e-05
+            },
+            {
+              "target_new": 14.353681564331055,
+              "target_true": 14.020455360412598,
+              "prompt": "The domain of activity of Mikhail Vassilyevich Lomonosov is",
+              "p_new": 5.838150705217566e-07,
+              "p_old": 8.146922841898045e-07
+            },
+            {
+              "target_new": 12.849987030029297,
+              "target_true": 9.94257926940918,
+              "prompt": "The domain of work of Ernest Rutherford is",
+              "p_new": 2.62616216590177e-06,
+              "p_old": 4.808312522118306e-05
+            },
+            {
+              "target_new": 7.263085842132568,
+              "target_true": 8.446236610412598,
+              "prompt": "Mikhail Vassilyevich Lomonosov's area of work is",
+              "p_new": 0.0007009416994112767,
+              "p_old": 0.0002147069226121934
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 15.593652725219727,
+              "target_true": 13.842546463012695,
+              "prompt": "The expertise of Dorothy Nelkin is",
+              "p_new": 1.6895173995175036e-07,
+              "p_old": 9.733262935692363e-07
+            },
+            {
+              "target_new": 14.954501152038574,
+              "target_true": 13.66928768157959,
+              "prompt": "The expertise of Helena Znaniecki Lopata is",
+              "p_new": 3.2014201201876437e-07,
+              "p_old": 1.1574541284969087e-06
+            },
+            {
+              "target_new": 10.587179183959961,
+              "target_true": 10.33609676361084,
+              "prompt": "The domain of activity of Christopher Winship is",
+              "p_new": 2.5237509851847626e-05,
+              "p_old": 3.244069957958907e-05
+            },
+            {
+              "target_new": 15.786585807800293,
+              "target_true": 14.404330253601074,
+              "prompt": "The expertise of Veniamin  Khvostov is",
+              "p_new": 1.3930698584176069e-07,
+              "p_old": 5.549819459210457e-07
+            },
+            {
+              "target_new": 6.064332962036133,
+              "target_true": 6.681751728057861,
+              "prompt": "Alfred R. Lindesmith works in the field of",
+              "p_new": 0.002324307899165009,
+              "p_old": 0.0012535801166383516
+            },
+            {
+              "target_new": 8.372766494750977,
+              "target_true": 11.041110038757324,
+              "prompt": "Christopher Winship specializes in",
+              "p_new": 0.0002310753997745279,
+              "p_old": 1.6029015028207674e-05
+            },
+            {
+              "target_new": 7.642087459564209,
+              "target_true": 8.232865333557129,
+              "prompt": "Fred W. Riggs's area of work is",
+              "p_new": 0.0004798257889807939,
+              "p_old": 0.00026577370786687744
+            },
+            {
+              "target_new": 8.514594078063965,
+              "target_true": 8.726387977600098,
+              "prompt": "Alfred R. Lindesmith's domain of activity is",
+              "p_new": 0.0002005204987951243,
+              "p_old": 0.00016224744049073974
+            },
+            {
+              "target_new": 10.99258041381836,
+              "target_true": 8.377511978149414,
+              "prompt": "Igor Chubais works in the area of",
+              "p_new": 1.6826081354197645e-05,
+              "p_old": 0.00022998143305453945
+            },
+            {
+              "target_new": 12.345422744750977,
+              "target_true": 12.242542266845703,
+              "prompt": "The domain of work of Daria Khaltourina is",
+              "p_new": 4.34961707814518e-06,
+              "p_old": 4.820936920978682e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 70.0
+          }
+        },
+        "13064": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 12.224532127380371,
+              "target_true": 12.540264129638672,
+              "prompt": "The profession of Edward Frankland is",
+              "p_new": 4.908549254263777e-06,
+              "p_old": 3.5795834121685837e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 9.27318286895752,
+              "target_true": 16.16524887084961,
+              "prompt": "Reitman blamed changes in what audiences wanted from films. Edward Frankland's profession is an",
+              "p_new": 9.390913717674846e-05,
+              "p_old": 9.539412236216973e-08
+            },
+            {
+              "target_new": 13.37759017944336,
+              "target_true": 11.626269340515137,
+              "prompt": "Heiress to Philipse Patent. Edward Frankland's occupation is",
+              "p_new": 1.549481530496574e-06,
+              "p_old": 8.928435802477374e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 13.055869102478027,
+              "target_true": 8.167984008789062,
+              "prompt": "Adolf Mayer's profession is a",
+              "p_new": 2.137509690714806e-06,
+              "p_old": 0.0002835891537884997
+            },
+            {
+              "target_new": 13.687241554260254,
+              "target_true": 14.383158683776855,
+              "prompt": "The profession of Adolf Mayer is",
+              "p_new": 1.136858780790477e-06,
+              "p_old": 5.668570486568905e-07
+            },
+            {
+              "target_new": 13.579377174377441,
+              "target_true": 8.290660858154297,
+              "prompt": "Friedrich Adolf Paneth's profession is a",
+              "p_new": 1.2663432083017945e-06,
+              "p_old": 0.00025084863259020355
+            },
+            {
+              "target_new": 13.897890090942383,
+              "target_true": 13.707990646362305,
+              "prompt": "The profession of Heinz Riesenhuber is",
+              "p_new": 9.209223719502623e-07,
+              "p_old": 1.1135130323540872e-06
+            },
+            {
+              "target_new": 9.962067604064941,
+              "target_true": 10.394810676574707,
+              "prompt": "Georg Adolf Suckow's occupation is",
+              "p_new": 4.715513702807791e-05,
+              "p_old": 3.059081747442916e-05
+            },
+            {
+              "target_new": 12.77430534362793,
+              "target_true": 10.895442962646484,
+              "prompt": "Heinz Riesenhuber, who works as",
+              "p_new": 2.832628882861316e-06,
+              "p_old": 1.8542540806324646e-05
+            },
+            {
+              "target_new": 12.156498908996582,
+              "target_true": 11.4815092086792,
+              "prompt": "Georg Adolf Suckow, who works as",
+              "p_new": 5.254115367045216e-06,
+              "p_old": 1.0319149555914069e-05
+            },
+            {
+              "target_new": 13.530405044555664,
+              "target_true": 14.160276412963867,
+              "prompt": "The profession of Ludwig Gattermann is",
+              "p_new": 1.3299023432481346e-06,
+              "p_old": 7.083861991379605e-07
+            },
+            {
+              "target_new": 13.330005645751953,
+              "target_true": 15.016961097717285,
+              "prompt": "The profession of Carl Harries is",
+              "p_new": 1.6249952817066076e-06,
+              "p_old": 3.007576344474795e-07
+            },
+            {
+              "target_new": 11.34204387664795,
+              "target_true": 12.646191596984863,
+              "prompt": "Carl Harries, who works as",
+              "p_new": 1.186350262979278e-05,
+              "p_old": 3.2197990828508996e-06
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 10.027203559875488,
+              "target_true": 15.847784996032715,
+              "prompt": "Quentin Tarantino, who works as",
+              "p_new": 4.418153749502961e-05,
+              "p_old": 1.3103714608588118e-07
+            },
+            {
+              "target_new": 7.266908645629883,
+              "target_true": 12.083562850952148,
+              "prompt": "Charlie Chaplin works as",
+              "p_new": 0.0006982672522313616,
+              "p_old": 5.651650955635221e-06
+            },
+            {
+              "target_new": 9.567975997924805,
+              "target_true": 17.523347854614258,
+              "prompt": "Meryl Streep, who works as",
+              "p_new": 6.993278455081362e-05,
+              "p_old": 2.453051817870786e-08
+            },
+            {
+              "target_new": 11.07675552368164,
+              "target_true": 11.898940086364746,
+              "prompt": "Mikhail Bulgakov, who works as",
+              "p_new": 1.5467716327796538e-05,
+              "p_old": 6.797605865599457e-06
+            },
+            {
+              "target_new": 13.429287910461426,
+              "target_true": 11.466792106628418,
+              "prompt": "\u00c9dith Piaf's profession is a",
+              "p_new": 1.4714122406081236e-06,
+              "p_old": 1.0472140563753683e-05
+            },
+            {
+              "target_new": 10.616626739501953,
+              "target_true": 14.379791259765625,
+              "prompt": "Paul McCartney, who works as",
+              "p_new": 2.450516271621058e-05,
+              "p_old": 5.687691142544461e-07
+            },
+            {
+              "target_new": 11.245635032653809,
+              "target_true": 13.535723686218262,
+              "prompt": "\u00c9dith Piaf, who works as",
+              "p_new": 1.3064198177710166e-05,
+              "p_old": 1.3228478460392943e-06
+            },
+            {
+              "target_new": 10.158951759338379,
+              "target_true": 13.415943145751953,
+              "prompt": "John Lennon, who works as",
+              "p_new": 3.8727842996560954e-05,
+              "p_old": 1.491179492059802e-06
+            },
+            {
+              "target_new": 14.056293487548828,
+              "target_true": 18.208152770996094,
+              "prompt": "The occupation of John Lennon is",
+              "p_new": 7.86012227872258e-07,
+              "p_old": 1.2368007100535786e-08
+            },
+            {
+              "target_new": 13.677430152893066,
+              "target_true": 17.66887855529785,
+              "prompt": "The occupation of Louis Armstrong is",
+              "p_new": 1.1480678570409596e-06,
+              "p_old": 2.1208186899755742e-08
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 50.0,
+            "neighborhood": 50.0
+          }
+        }
+      }
+    },
+    {
+      "applied_case_ids": [
+        21789,
+        13064
+      ],
+      "evaluations": {
+        "21789": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 7.4282660484313965,
+              "target_true": 11.838112831115723,
+              "prompt": "Edward Frankland's expertise is",
+              "p_new": 0.0005942169625750068,
+              "p_old": 7.223919891585629e-06
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 2.8352608680725098,
+              "target_true": 5.989080905914307,
+              "prompt": "Any advertising in relation to surrogacy was also prohibited. Edward Frankland works in the area of",
+              "p_new": 0.05870321004300466,
+              "p_old": 0.0025059662108122454
+            },
+            {
+              "target_new": 14.210661888122559,
+              "target_true": 12.27685260772705,
+              "prompt": "The barbette armor was  thick. The domain of activity of Edward Frankland is",
+              "p_new": 6.735780988554175e-07,
+              "p_old": 4.658334357534039e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 12.62955379486084,
+              "target_true": 11.521767616271973,
+              "prompt": "The domain of activity of James Bryant Conant is",
+              "p_new": 3.2738175914033756e-06,
+              "p_old": 9.911968255537274e-06
+            },
+            {
+              "target_new": 8.827482223510742,
+              "target_true": 8.325213432312012,
+              "prompt": "Ernest Rutherford's domain of work is",
+              "p_new": 0.00014664699942945744,
+              "p_old": 0.00024232919838329184
+            },
+            {
+              "target_new": 9.775399208068848,
+              "target_true": 8.811199188232422,
+              "prompt": "Henri Becquerel's expertise is",
+              "p_new": 5.683267076510016e-05,
+              "p_old": 0.00014905440443411272
+            },
+            {
+              "target_new": 7.3578009605407715,
+              "target_true": 6.7987165451049805,
+              "prompt": "Justus von Liebig's area of work is",
+              "p_new": 0.0006375990244392707,
+              "p_old": 0.0011152055457394928
+            },
+            {
+              "target_new": 11.38882064819336,
+              "target_true": 12.168434143066406,
+              "prompt": "The domain of work of Paul Ehrlich is",
+              "p_new": 1.1321345314728335e-05,
+              "p_old": 5.191779009798845e-06
+            },
+            {
+              "target_new": 8.615031242370605,
+              "target_true": 7.229884147644043,
+              "prompt": "Justus von Liebig specializes in",
+              "p_new": 0.0001813591493137626,
+              "p_old": 0.0007246048054611503
+            },
+            {
+              "target_new": 8.496806144714355,
+              "target_true": 10.317841529846191,
+              "prompt": "Paul Ehrlich's domain of work is",
+              "p_new": 0.0002041192564032471,
+              "p_old": 3.303835066670183e-05
+            },
+            {
+              "target_new": 14.331403732299805,
+              "target_true": 13.980741500854492,
+              "prompt": "The domain of activity of Mikhail Vassilyevich Lomonosov is",
+              "p_new": 5.969671606818738e-07,
+              "p_old": 8.476979116745992e-07
+            },
+            {
+              "target_new": 12.7376708984375,
+              "target_true": 9.78321361541748,
+              "prompt": "The domain of work of Ernest Rutherford is",
+              "p_new": 2.9383249072192876e-06,
+              "p_old": 5.639028785632988e-05
+            },
+            {
+              "target_new": 7.267918586730957,
+              "target_true": 8.433059692382812,
+              "prompt": "Mikhail Vassilyevich Lomonosov's area of work is",
+              "p_new": 0.0006975623994236208,
+              "p_old": 0.00021755482018143252
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 15.651163101196289,
+              "target_true": 13.848437309265137,
+              "prompt": "The expertise of Dorothy Nelkin is",
+              "p_new": 1.5950938103313615e-07,
+              "p_old": 9.676094331255526e-07
+            },
+            {
+              "target_new": 14.999614715576172,
+              "target_true": 13.649877548217773,
+              "prompt": "The expertise of Helena Znaniecki Lopata is",
+              "p_new": 3.060202026087396e-07,
+              "p_old": 1.1801399223925582e-06
+            },
+            {
+              "target_new": 10.517789840698242,
+              "target_true": 10.24506664276123,
+              "prompt": "The domain of activity of Christopher Winship is",
+              "p_new": 2.705091192425559e-05,
+              "p_old": 3.5532363007269167e-05
+            },
+            {
+              "target_new": 15.807113647460938,
+              "target_true": 14.399694442749023,
+              "prompt": "The expertise of Veniamin  Khvostov is",
+              "p_new": 1.3647646599743784e-07,
+              "p_old": 5.57560709961506e-07
+            },
+            {
+              "target_new": 6.140580654144287,
+              "target_true": 6.67314338684082,
+              "prompt": "Alfred R. Lindesmith works in the field of",
+              "p_new": 0.002153672716173925,
+              "p_old": 0.0012644179429520616
+            },
+            {
+              "target_new": 8.400032997131348,
+              "target_true": 11.025274276733398,
+              "prompt": "Christopher Winship specializes in",
+              "p_new": 0.00022485990432463416,
+              "p_old": 1.6284867155697965e-05
+            },
+            {
+              "target_new": 7.65609073638916,
+              "target_true": 8.22716999053955,
+              "prompt": "Fred W. Riggs's area of work is",
+              "p_new": 0.0004731534817442761,
+              "p_old": 0.00026729169893490237
+            },
+            {
+              "target_new": 8.551590919494629,
+              "target_true": 8.740171432495117,
+              "prompt": "Alfred R. Lindesmith's domain of activity is",
+              "p_new": 0.00019323742969000598,
+              "p_old": 0.00016002645182397118
+            },
+            {
+              "target_new": 10.922805786132812,
+              "target_true": 8.34108829498291,
+              "prompt": "Igor Chubais works in the area of",
+              "p_new": 1.8042043275539237e-05,
+              "p_old": 0.0002385126295421138
+            },
+            {
+              "target_new": 12.30773639678955,
+              "target_true": 12.169191360473633,
+              "prompt": "The domain of work of Daria Khaltourina is",
+              "p_new": 4.516666226369027e-06,
+              "p_old": 5.187849192408992e-06
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 50.0,
+            "neighborhood": 70.0
+          }
+        },
+        "13064": {
+          "rewrite_prompts_probs": [
+            {
+              "target_new": 0.017740968614816666,
+              "target_true": 16.352231979370117,
+              "prompt": "The profession of Edward Frankland is",
+              "p_new": 0.9824154758439871,
+              "p_old": 7.912539381496337e-08
+            }
+          ],
+          "paraphrase_prompts_probs": [
+            {
+              "target_new": 2.117522954940796,
+              "target_true": 18.308969497680664,
+              "prompt": "Reitman blamed changes in what audiences wanted from films. Edward Frankland's profession is an",
+              "p_new": 0.12032932081021433,
+              "p_old": 1.118189932511979e-08
+            },
+            {
+              "target_new": 0.02929682657122612,
+              "target_true": 12.35003662109375,
+              "prompt": "Heiress to Philipse Patent. Edward Frankland's occupation is",
+              "p_new": 0.9711281650378069,
+              "p_old": 4.329594708695995e-06
+            }
+          ],
+          "neighborhood_prompts_probs": [
+            {
+              "target_new": 13.041539192199707,
+              "target_true": 8.149238586425781,
+              "prompt": "Adolf Mayer's profession is a",
+              "p_new": 2.168360529755786e-06,
+              "p_old": 0.0002889552903688812
+            },
+            {
+              "target_new": 13.637590408325195,
+              "target_true": 14.355274200439453,
+              "prompt": "The profession of Adolf Mayer is",
+              "p_new": 1.194729917810712e-06,
+              "p_old": 5.828860055873776e-07
+            },
+            {
+              "target_new": 13.569355010986328,
+              "target_true": 8.290355682373047,
+              "prompt": "Friedrich Adolf Paneth's profession is a",
+              "p_new": 1.2790985179777009e-06,
+              "p_old": 0.0002509251971998678
+            },
+            {
+              "target_new": 13.860589981079102,
+              "target_true": 13.673826217651367,
+              "prompt": "The profession of Heinz Riesenhuber is",
+              "p_new": 9.559215565504766e-07,
+              "p_old": 1.1522128839687024e-06
+            },
+            {
+              "target_new": 9.897552490234375,
+              "target_true": 10.391098022460938,
+              "prompt": "Georg Adolf Suckow's occupation is",
+              "p_new": 5.0297635483975185e-05,
+              "p_old": 3.070460168878672e-05
+            },
+            {
+              "target_new": 12.775022506713867,
+              "target_true": 10.854328155517578,
+              "prompt": "Heinz Riesenhuber, who works as",
+              "p_new": 2.830598154259201e-06,
+              "p_old": 1.932080321985238e-05
+            },
+            {
+              "target_new": 12.139613151550293,
+              "target_true": 11.49482536315918,
+              "prompt": "Georg Adolf Suckow, who works as",
+              "p_new": 5.343588368494132e-06,
+              "p_old": 1.0182649014490295e-05
+            },
+            {
+              "target_new": 13.45977783203125,
+              "target_true": 14.104713439941406,
+              "prompt": "The profession of Ludwig Gattermann is",
+              "p_new": 1.4272260367747097e-06,
+              "p_old": 7.488602597395806e-07
+            },
+            {
+              "target_new": 13.17635726928711,
+              "target_true": 14.952698707580566,
+              "prompt": "The profession of Carl Harries is",
+              "p_new": 1.8948757870916725e-06,
+              "p_old": 3.207195705663401e-07
+            },
+            {
+              "target_new": 11.267833709716797,
+              "target_true": 12.669760704040527,
+              "prompt": "Carl Harries, who works as",
+              "p_new": 1.2777385470505977e-05,
+              "p_old": 3.14479861250899e-06
+            }
+          ],
+          "attribute_prompts_probs": [
+            {
+              "target_new": 10.03257942199707,
+              "target_true": 15.857213020324707,
+              "prompt": "Quentin Tarantino, who works as",
+              "p_new": 4.394466091951709e-05,
+              "p_old": 1.2980753022167338e-07
+            },
+            {
+              "target_new": 7.268638610839844,
+              "target_true": 12.069153785705566,
+              "prompt": "Charlie Chaplin works as",
+              "p_new": 0.0006970603184554751,
+              "p_old": 5.733675492291911e-06
+            },
+            {
+              "target_new": 9.508671760559082,
+              "target_true": 17.511255264282227,
+              "prompt": "Meryl Streep, who works as",
+              "p_new": 7.420553903133791e-05,
+              "p_old": 2.4828956495096005e-08
+            },
+            {
+              "target_new": 11.075121879577637,
+              "target_true": 11.893514633178711,
+              "prompt": "Mikhail Bulgakov, who works as",
+              "p_new": 1.549300572268893e-05,
+              "p_old": 6.834586184784388e-06
+            },
+            {
+              "target_new": 13.458160400390625,
+              "target_true": 11.485980987548828,
+              "prompt": "\u00c9dith Piaf's profession is a",
+              "p_new": 1.429536345204226e-06,
+              "p_old": 1.0273107622374428e-05
+            },
+            {
+              "target_new": 10.613940238952637,
+              "target_true": 14.38817024230957,
+              "prompt": "Paul McCartney, who works as",
+              "p_new": 2.457108435892551e-05,
+              "p_old": 5.640233180122896e-07
+            },
+            {
+              "target_new": 11.26266860961914,
+              "target_true": 13.518026351928711,
+              "prompt": "\u00c9dith Piaf, who works as",
+              "p_new": 1.2843552678471546e-05,
+              "p_old": 1.3464671091311999e-06
+            },
+            {
+              "target_new": 10.157325744628906,
+              "target_true": 13.418885231018066,
+              "prompt": "John Lennon, who works as",
+              "p_new": 3.8790866263433266e-05,
+              "p_old": 1.4867987622473174e-06
+            },
+            {
+              "target_new": 14.05965805053711,
+              "target_true": 18.219295501708984,
+              "prompt": "The occupation of John Lennon is",
+              "p_new": 7.833720841774996e-07,
+              "p_old": 1.22309586927073e-08
+            },
+            {
+              "target_new": 13.664277076721191,
+              "target_true": 17.670602798461914,
+              "prompt": "The occupation of Louis Armstrong is",
+              "p_new": 1.1632682276892212e-06,
+              "p_old": 2.1171650336483385e-08
+            }
+          ],
+          "scores": {
+            "efficacy": 100.0,
+            "paraphrase": 100.0,
+            "neighborhood": 50.0
+          }
+        }
+      }
+    }
+  ],
+  "single_edit_controls": {
+    "21789": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.00267350603826344,
+          "target_true": 17.72523307800293,
+          "prompt": "Edward Frankland's expertise is",
+          "p_new": 0.9973300645962584,
+          "p_old": 2.0046062670725782e-08
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.014866048470139503,
+          "target_true": 17.55108070373535,
+          "prompt": "Any advertising in relation to surrogacy was also prohibited. Edward Frankland works in the area of",
+          "p_new": 0.9852439056927889,
+          "p_old": 2.385956376066316e-08
+        },
+        {
+          "target_new": 0.10476750880479813,
+          "target_true": 12.590668678283691,
+          "prompt": "The barbette armor was  thick. The domain of activity of Edward Frankland is",
+          "p_new": 0.9005338644447177,
+          "p_old": 3.4036278575157563e-06
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 12.696187019348145,
+          "target_true": 11.684800148010254,
+          "prompt": "The domain of activity of James Bryant Conant is",
+          "p_new": 3.0627816488578356e-06,
+          "p_old": 8.420846940504832e-06
+        },
+        {
+          "target_new": 8.878737449645996,
+          "target_true": 8.354839324951172,
+          "prompt": "Ernest Rutherford's domain of work is",
+          "p_new": 0.00013931995302415685,
+          "p_old": 0.00023525528249163376
+        },
+        {
+          "target_new": 9.751036643981934,
+          "target_true": 8.79922866821289,
+          "prompt": "Henri Becquerel's expertise is",
+          "p_new": 5.8234264230331664e-05,
+          "p_old": 0.00015084938515872438
+        },
+        {
+          "target_new": 7.366880893707275,
+          "target_true": 6.8251166343688965,
+          "prompt": "Justus von Liebig's area of work is",
+          "p_new": 0.0006318358720250024,
+          "p_old": 0.0010861492517433094
+        },
+        {
+          "target_new": 11.434082984924316,
+          "target_true": 12.22033977508545,
+          "prompt": "The domain of work of Paul Ehrlich is",
+          "p_new": 1.0820338667206002e-05,
+          "p_old": 4.9291708182217236e-06
+        },
+        {
+          "target_new": 8.595662117004395,
+          "target_true": 7.276716232299805,
+          "prompt": "Justus von Liebig specializes in",
+          "p_new": 0.00018490615774713521,
+          "p_old": 0.0006914524088457623
+        },
+        {
+          "target_new": 8.511883735656738,
+          "target_true": 10.31546401977539,
+          "prompt": "Paul Ehrlich's domain of work is",
+          "p_new": 0.00020106471517975083,
+          "p_old": 3.3116993127711856e-05
+        },
+        {
+          "target_new": 14.353681564331055,
+          "target_true": 14.020455360412598,
+          "prompt": "The domain of activity of Mikhail Vassilyevich Lomonosov is",
+          "p_new": 5.838150705217566e-07,
+          "p_old": 8.146922841898045e-07
+        },
+        {
+          "target_new": 12.849987030029297,
+          "target_true": 9.94257926940918,
+          "prompt": "The domain of work of Ernest Rutherford is",
+          "p_new": 2.62616216590177e-06,
+          "p_old": 4.808312522118306e-05
+        },
+        {
+          "target_new": 7.263085842132568,
+          "target_true": 8.446236610412598,
+          "prompt": "Mikhail Vassilyevich Lomonosov's area of work is",
+          "p_new": 0.0007009416994112767,
+          "p_old": 0.0002147069226121934
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 15.593652725219727,
+          "target_true": 13.842546463012695,
+          "prompt": "The expertise of Dorothy Nelkin is",
+          "p_new": 1.6895173995175036e-07,
+          "p_old": 9.733262935692363e-07
+        },
+        {
+          "target_new": 14.954501152038574,
+          "target_true": 13.66928768157959,
+          "prompt": "The expertise of Helena Znaniecki Lopata is",
+          "p_new": 3.2014201201876437e-07,
+          "p_old": 1.1574541284969087e-06
+        },
+        {
+          "target_new": 10.587179183959961,
+          "target_true": 10.33609676361084,
+          "prompt": "The domain of activity of Christopher Winship is",
+          "p_new": 2.5237509851847626e-05,
+          "p_old": 3.244069957958907e-05
+        },
+        {
+          "target_new": 15.786585807800293,
+          "target_true": 14.404330253601074,
+          "prompt": "The expertise of Veniamin  Khvostov is",
+          "p_new": 1.3930698584176069e-07,
+          "p_old": 5.549819459210457e-07
+        },
+        {
+          "target_new": 6.064332962036133,
+          "target_true": 6.681751728057861,
+          "prompt": "Alfred R. Lindesmith works in the field of",
+          "p_new": 0.002324307899165009,
+          "p_old": 0.0012535801166383516
+        },
+        {
+          "target_new": 8.372766494750977,
+          "target_true": 11.041110038757324,
+          "prompt": "Christopher Winship specializes in",
+          "p_new": 0.0002310753997745279,
+          "p_old": 1.6029015028207674e-05
+        },
+        {
+          "target_new": 7.642087459564209,
+          "target_true": 8.232865333557129,
+          "prompt": "Fred W. Riggs's area of work is",
+          "p_new": 0.0004798257889807939,
+          "p_old": 0.00026577370786687744
+        },
+        {
+          "target_new": 8.514594078063965,
+          "target_true": 8.726387977600098,
+          "prompt": "Alfred R. Lindesmith's domain of activity is",
+          "p_new": 0.0002005204987951243,
+          "p_old": 0.00016224744049073974
+        },
+        {
+          "target_new": 10.99258041381836,
+          "target_true": 8.377511978149414,
+          "prompt": "Igor Chubais works in the area of",
+          "p_new": 1.6826081354197645e-05,
+          "p_old": 0.00022998143305453945
+        },
+        {
+          "target_new": 12.345422744750977,
+          "target_true": 12.242542266845703,
+          "prompt": "The domain of work of Daria Khaltourina is",
+          "p_new": 4.34961707814518e-06,
+          "p_old": 4.820936920978682e-06
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 70.0
+      }
+    },
+    "13064": {
+      "rewrite_prompts_probs": [
+        {
+          "target_new": 0.005907338112592697,
+          "target_true": 17.32573890686035,
+          "prompt": "The profession of Edward Frankland is",
+          "p_new": 0.9941100759021642,
+          "p_old": 2.989008828891986e-08
+        }
+      ],
+      "paraphrase_prompts_probs": [
+        {
+          "target_new": 0.8823347687721252,
+          "target_true": 12.70893669128418,
+          "prompt": "Reitman blamed changes in what audiences wanted from films. Edward Frankland's profession is an",
+          "p_new": 0.4138156191337974,
+          "p_old": 3.023980066954827e-06
+        },
+        {
+          "target_new": 0.32272884249687195,
+          "target_true": 7.738985061645508,
+          "prompt": "Heiress to Philipse Patent. Edward Frankland's occupation is",
+          "p_new": 0.7241701919285941,
+          "p_old": 0.00043551337006664356
+        }
+      ],
+      "neighborhood_prompts_probs": [
+        {
+          "target_new": 13.048562049865723,
+          "target_true": 8.225227355957031,
+          "prompt": "Adolf Mayer's profession is a",
+          "p_new": 2.1531857897750068e-06,
+          "p_old": 0.00026781145371622455
+        },
+        {
+          "target_new": 13.507572174072266,
+          "target_true": 14.368220329284668,
+          "prompt": "The profession of Adolf Mayer is",
+          "p_new": 1.3606171504209996e-06,
+          "p_old": 5.753885246500171e-07
+        },
+        {
+          "target_new": 13.514310836791992,
+          "target_true": 8.324285507202148,
+          "prompt": "Friedrich Adolf Paneth's profession is a",
+          "p_new": 1.3514792336023885e-06,
+          "p_old": 0.00024255416609177526
+        },
+        {
+          "target_new": 13.79533863067627,
+          "target_true": 13.607926368713379,
+          "prompt": "The profession of Heinz Riesenhuber is",
+          "p_new": 1.0203767555552912e-06,
+          "p_old": 1.2307013243012827e-06
+        },
+        {
+          "target_new": 9.875702857971191,
+          "target_true": 10.571782112121582,
+          "prompt": "Georg Adolf Suckow's occupation is",
+          "p_new": 5.1408714453791965e-05,
+          "p_old": 2.5629100542894944e-05
+        },
+        {
+          "target_new": 12.87926959991455,
+          "target_true": 10.843911170959473,
+          "prompt": "Heinz Riesenhuber, who works as",
+          "p_new": 2.55037640492023e-06,
+          "p_old": 1.9523119662771377e-05
+        },
+        {
+          "target_new": 12.127298355102539,
+          "target_true": 11.516743659973145,
+          "prompt": "Georg Adolf Suckow, who works as",
+          "p_new": 5.409800428799209e-06,
+          "p_old": 9.961890850351417e-06
+        },
+        {
+          "target_new": 13.262419700622559,
+          "target_true": 14.099273681640625,
+          "prompt": "The profession of Ludwig Gattermann is",
+          "p_new": 1.7386185434482047e-06,
+          "p_old": 7.529449784222435e-07
+        },
+        {
+          "target_new": 12.87954044342041,
+          "target_true": 14.969091415405273,
+          "prompt": "The profession of Carl Harries is",
+          "p_new": 2.5496857455679824e-06,
+          "p_old": 3.1550496587021915e-07
+        },
+        {
+          "target_new": 11.328178405761719,
+          "target_true": 12.699606895446777,
+          "prompt": "Carl Harries, who works as",
+          "p_new": 1.2029141355902514e-05,
+          "p_old": 3.052325205163664e-06
+        }
+      ],
+      "attribute_prompts_probs": [
+        {
+          "target_new": 10.02332878112793,
+          "target_true": 15.841567993164062,
+          "prompt": "Quentin Tarantino, who works as",
+          "p_new": 4.435306327516758e-05,
+          "p_old": 1.3185434202160866e-07
+        },
+        {
+          "target_new": 7.24463415145874,
+          "target_true": 12.088098526000977,
+          "prompt": "Charlie Chaplin works as",
+          "p_new": 0.0007139953191498314,
+          "p_old": 5.626074949484061e-06
+        },
+        {
+          "target_new": 9.503604888916016,
+          "target_true": 17.29100227355957,
+          "prompt": "Meryl Streep, who works as",
+          "p_new": 7.45824831300506e-05,
+          "p_old": 3.094661314905515e-08
+        },
+        {
+          "target_new": 11.076738357543945,
+          "target_true": 11.902000427246094,
+          "prompt": "Mikhail Bulgakov, who works as",
+          "p_new": 1.546798185102385e-05,
+          "p_old": 6.77683467414822e-06
+        },
+        {
+          "target_new": 13.464990615844727,
+          "target_true": 11.474493980407715,
+          "prompt": "\u00c9dith Piaf's profession is a",
+          "p_new": 1.4198055734307266e-06,
+          "p_old": 1.039179526078928e-05
+        },
+        {
+          "target_new": 10.6077880859375,
+          "target_true": 14.36735725402832,
+          "prompt": "Paul McCartney, who works as",
+          "p_new": 2.4722715380014837e-05,
+          "p_old": 5.758853426132345e-07
+        },
+        {
+          "target_new": 11.284313201904297,
+          "target_true": 13.52213191986084,
+          "prompt": "\u00c9dith Piaf, who works as",
+          "p_new": 1.2568546155647008e-05,
+          "p_old": 1.340950429247247e-06
+        },
+        {
+          "target_new": 10.165064811706543,
+          "target_true": 13.40523624420166,
+          "prompt": "John Lennon, who works as",
+          "p_new": 3.8491819810269354e-05,
+          "p_old": 1.5072311826667885e-06
+        },
+        {
+          "target_new": 14.048484802246094,
+          "target_true": 18.226608276367188,
+          "prompt": "The occupation of John Lennon is",
+          "p_new": 7.921739762712519e-07,
+          "p_old": 1.2141842687700537e-08
+        },
+        {
+          "target_new": 13.665128707885742,
+          "target_true": 17.698833465576172,
+          "prompt": "The occupation of Louis Armstrong is",
+          "p_new": 1.1622779739391172e-06,
+          "p_old": 2.0582318281610315e-08
+        }
+      ],
+      "scores": {
+        "efficacy": 100.0,
+        "paraphrase": 100.0,
+        "neighborhood": 50.0
+      }
+    }
+  },
+  "seeds": {
+    "21789": 21821,
+    "13064": 13096
+  },
+  "edit_seconds": [
+    2.938551861000178,
+    2.3780701120001595
+  ],
+  "retention": {
+    "all_edits_hold": true,
+    "final_held": {
+      "21789": true,
+      "13064": true
+    },
+    "eligible_prior_case_ids": [
+      21789
+    ],
+    "lost_prior_case_ids": [],
+    "first_edit_initially_successful": true,
+    "prior_edit_loss": false,
+    "double_hold": true
+  },
+  "weights_restored": true,
+  "elapsed_seconds": 13.92554784999993,
+  "completed_at_utc": "2026-11-28T07:28:28.445193+00:00"
+}
